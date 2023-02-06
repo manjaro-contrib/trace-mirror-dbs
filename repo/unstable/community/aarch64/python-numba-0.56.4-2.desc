@@ -1,0 +1,76 @@
+%FILENAME%
+python-numba-0.56.4-2-aarch64.pkg.tar.xz
+
+%NAME%
+python-numba
+
+%BASE%
+python-numba
+
+%VERSION%
+0.56.4-2
+
+%DESC%
+JIT compiler that translates a subset of Python and NumPy code into fast machine code
+
+%CSIZE%
+3941948
+
+%ISIZE%
+26465510
+
+%MD5SUM%
+7004ea3b8471104f67f21ccbcb88445f
+
+%SHA256SUM%
+d6f892f8fcfc3730d8de995bb852540b840ca9de33e61148a2dcc445adf32ca3
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmO8dlAACgkQdxk/FSvb5qaMAQ//ZtMM4i9AVwfeOavsU9MIIi1qcchW8XRsAxifagDc4uDzj74qQFf8xnXt++mMP7FH5ZQZb9P9fA/OZkso2cTNgAIfnYzaUTUG3VsOqsyhxVT2LWAcC43KVYqO1IGClrs1ClCP5lfHzRgK0QsF/xR2y9/ZznclgXmHu060GM9HtBlQVCYmLhGefqNXGE82eMSfJV2Ei6Y4y+ZMDMzcALnQ1GFvNbUlQJg/ycluGLrTndqAWmRbz4VIUbLw5YuK7+tnhrkJO7kMjEBQ189zF6qrFj00bcbf/yPpRaZM2P69fMYjwLlC0qP84bZCpli/VA/RY108GDOKPGb3ipZUVIVgJSQYwyhZFWih5VUhIO+wVLOnvZzEYysbrJpbsKaw0Irj5W/a0VphPYBKz1tcV+72+oQnJWFyp3hgddnGf0K6iQEk1q3XantCmmOvQJaH2nR9IPjYVrEw/V8vS5wRslMlTQOG8td7j/IOynTvxVjlowLkUJQBp6n9NhEpI74FRCmgAdjG+tHvpzchDXIgmoxb4x+2a0gA0kIoFEljUsPdxLrasY1kEib0qItXB6LRBZL47GnMTPloMv+UZMFC+rtPulv8PZEOfKXu7a5lxOjvXtEaxNUigIgtjS8TbTec+xmY/Zd2ibKfZdMDZhy+MOfLR4hdpWeHpxhpRnoz3jHOsKA=
+
+%URL%
+https://numba.pydata.org/
+
+%LICENSE%
+BSD
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1673295334
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python-llvmlite
+python-numpy
+python-setuptools
+
+%OPTDEPENDS%
+openmp: OpenMP threading backend
+tbb: TBB threading backend
+python-scipy: cython bindings used in np.linalg.* support
+python-jinja: “pretty” type annotation output (HTML) via the CLI
+python-cffi: use of CFFI bindings in compiled functions
+python-yaml: use of a .numba_config.yaml file for storing per project configuration options
+python-colorama: error message highlighting
+python-pygments: “pretty” type annotation
+
+%MAKEDEPENDS%
+openmp
+tbb
+
+%CHECKDEPENDS%
+python-pytest
+python-cffi
+python-jinja
+python-pygments
+python-scipy
+python-yaml
+python-ipykernel
+python-pip
+gdb
+ipython
+

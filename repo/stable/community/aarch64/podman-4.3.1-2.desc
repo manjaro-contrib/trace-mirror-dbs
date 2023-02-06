@@ -1,0 +1,75 @@
+%FILENAME%
+podman-4.3.1-2-aarch64.pkg.tar.xz
+
+%NAME%
+podman
+
+%BASE%
+podman
+
+%VERSION%
+4.3.1-2
+
+%DESC%
+Tool and library for running OCI-based containers in pods
+
+%CSIZE%
+16156224
+
+%ISIZE%
+66821819
+
+%MD5SUM%
+d514a0a40d54b46bb6794545b7c42ff6
+
+%SHA256SUM%
+3fc9fcf6ac097201cd84c319a8395f5579fcb7823440bd2a84cf731b520813a7
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmN6uDEACgkQdxk/FSvb5qZoAQ/+JhkJsFLyISTJxF0GON8qjsla0Kj/txMdKlJrD+jlnskKT1KHbeKL6l/fu54SGzGSMvYczzTla45q1/kGauwvLBSUgnxS+tgH9BejEJ9k76SI138VivyZfovC+eN2WdUOIe5f+FVu1feDgK0sNRK9VFN7iAqbUXRkIFfBXF0R05niMF0JaAt+8H84+Wn8YQUYTJWvYcrS1K8CG9iGWGuyP5ZmJVPBNUX65LvsoHtdySehCb5GARy4XXwy7XPl8nB6hXAj97Bm5PCbBIKotXgvQf8p0D8I+yDJRVhwxor7Lkehfoej4NfPYEfrHQ71bF/3od95A8g4IcYsZeOUGGdSVXwocNchVZoT0tcZ7r5TfHEywuqwBIAAjLZtxtTNjKh//wGJp2tRtRPSr9gYKD7SRRwfBEJ6w1qqpO3fQ97wFRfFz9UZNkqwHf7m8zATr5Ix43RXpaYEQuK4iXOeSRNu8ygxgOpMGf51ZI2bdoK5Aw0H3QHiy779/BFipafksIAFbn9sp6wYp302xu5HLIrQoIk+Bjm6o9L1OesnS0gYmVCMLIHoJsosdgk+nGTYozS2+oAfTCY49odsggjgD+iZ4uCsSyPphEQOqEZnLMzvZAsT+fEtT8eTdK8jadqmD2dyHepfLLghSuzeVtCWLNrvOjcXciTupuMEO933vLSJTvI=
+
+%URL%
+https://github.com/containers/podman
+
+%LICENSE%
+Apache
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1668986721
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+catatonit
+conmon
+containers-common
+crun
+iptables
+libdevmapper.so=1.02-64
+libgpgme.so=11-64
+libseccomp.so=2-64
+slirp4netns
+
+%OPTDEPENDS%
+apparmor: for AppArmor support
+btrfs-progs: support btrfs backend devices
+cni-plugins: for an alternative container-network-stack implementation
+podman-compose: for docker-compose compatibility
+podman-docker: for Docker-compatible CLI
+
+%MAKEDEPENDS%
+apparmor
+btrfs-progs
+catatonit
+device-mapper
+go
+go-md2man
+git
+gpgme
+libseccomp
+systemd
+

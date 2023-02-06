@@ -1,0 +1,74 @@
+%FILENAME%
+enlightenment-0.25.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+enlightenment
+
+%BASE%
+enlightenment
+
+%VERSION%
+0.25.4-1
+
+%DESC%
+Enlightenment window manager
+
+%CSIZE%
+402916759
+
+%ISIZE%
+423838817
+
+%MD5SUM%
+42232b6a62d12d0b36711b9d415689c2
+
+%SHA256SUM%
+b1088f6796a34744a3bbcb7edbef95e28fc5270dea098b26f0260cc34cafabaa
+
+%PGPSIG%
+iQIzBAABCAAdFiEEBPeg4x4I0+CNOa/r0Uf5Q2QpXowFAmMjPi0ACgkQ0Uf5Q2QpXow2uQ//Vm6Mq3R/ZDffZIZKhpnKPiv5t0YBydMK2zuHq8Xn380TCf2kbmd+R+qZfN8kUkAiYj5M4KpcJw1PYS2UwHMeJX1qBVjuppsxedEC6ZvfZ6VfjU4tsOkx5LsRs2pub1OfDr0qwoqucZjzkWBV7AWEDPsajC77UG9L/aXqipVaz91N45etn4FIjmkqbAve2hqW03YpQEpFqV9mixXs7pChhgn8FKo02hIFELvqtVHqv0m7DC3VIBS9hgmPyyolbdSEZ0+TGuwmPMBdSlZWDakGLAyiZLLTJXjIXDy7ak4QhNLpcvrHTWNI3ImMxqzyX6WcFcCl7HlhFIs6Xt9blsvfLIvJRSbR1vMzfMWvH89wdk1xOTUa5lzUFJjPduANYug/tyPqyg9/PtGyYsS3UOwuEiuurM/tfC5gN2vF8A7bruJQeXSIJtldkCPMu8NZe6CWYbovIW38o+M0D7UvUC0jtEH4ve8ASfoRt+LE3rASP+iITdk8h6mGdz4pv9hw+P64Ju1UlBZ4gBSTiRu2ASj9dZP1u7/dl8YtWe+bN22h64ryyKE7LyWGGLXjMfP9zamK9l7pTTsKJ7PxMYwie3gh9c26CKrF+siRAlIAWeuPlJWODSiVZaevg2z14+yx0qfvyKbDRlJ1lO8fhHYhzcVdAE3M85MtuNFiHaF8y7Ew7Us=
+
+%URL%
+http://www.enlightenment.org
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1663253863
+
+%PACKAGER%
+Carsten Haitzler <raster@archlinux.org>
+
+%PROVIDES%
+notification-daemon
+
+%DEPENDS%
+efl
+udisks2
+wayland
+bluez-libs
+libexif
+xorg-server-xwayland
+bluez
+pulseaudio
+bc
+xcb-util-keysyms
+hicolor-icon-theme
+ttf-font
+pam
+
+%OPTDEPENDS%
+connman: network module
+acpid: power events on laptop lid close
+geoip-database: geolocation module
+packagekit: needed for packagekit module
+
+%MAKEDEPENDS%
+xorg-server-xwayland
+meson
+ninja
+

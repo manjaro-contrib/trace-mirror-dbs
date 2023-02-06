@@ -1,0 +1,88 @@
+%FILENAME%
+cockpit-283-1-aarch64.pkg.tar.xz
+
+%NAME%
+cockpit
+
+%BASE%
+cockpit
+
+%VERSION%
+283-1
+
+%DESC%
+A systemd web based user interface for Linux servers
+
+%CSIZE%
+4350296
+
+%ISIZE%
+5979820
+
+%MD5SUM%
+16971071e819c100e823d1fbea0ca93c
+
+%SHA256SUM%
+e7b87816df38af479a4602e2bfe8d260dff4fe2aeeac7c4633db00a0efaf369f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmO/L9MACgkQdxk/FSvb5qYLCg/9HUGFdzMWPpVBOUFM0dwsd07DxyHGuNAmbyzwJrY1kvYEl9c/wHGEdGt+uPEZoos009PBxHB+zg+0BeTfsd2rqcbtt0s0BhcW/dxqXKf41U0boq3wG+uRCo5Jf0Y5QGJaz2MjnkOjhMhe59IUuiuqf301+3BAV2KGkZxRTmSHEtP0uCHePx81zQWqdtBfHkzjYR+0lOUoTnegCisM0sui1qbT7GqE1/WdSNQI+RyI5C8grHNLYSUk4vrCQHrwRGdCsXYYjSkv5+TZPlh9AT2pQ2BI4+efUfy3AqXDT0OzggOEJoainI2fVVPwaZCG6xn6e+BB/5C+mFBxuRpVTA6AZ9xYToeDVD38dgVQQSXxJ8JFsr0F30B+ntxVUu6Uqioq6zCwEyLO4a0KymEXPzGmwURfRaiEPV64R2lj/Ozw168KKRYTWcVBJR4SpVgVN3zg47tgdwFpLbH3CRz4aQ5ARmAGvOVEp/DpiXgWnMu6jPA/FtdFsfsz7grwYmgxhVWgTFCSAOzwXseqD2RK4MB6GdOQpgYHYod80bv414uXPPB2wthG8Ke/s9JiYUdxP1nFQmT690DDWOT+zkLXI5nRMidPjm/kcbBAS+wD0b7Qg4RCh1VkqEIGF4AXXHtoDnaPprv7tmStUQyc8sORlIx0Xpq7m16OUvgWerBgzKNhL40=
+
+%URL%
+https://cockpit-project.org/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1673473913
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+krb5
+libssh
+accountsservice
+perl-json
+perl-locale-po
+json-glib
+glib-networking
+libpwquality
+openssl
+kexec-tools
+
+%OPTDEPENDS%
+cockpit-pcp: reading performance metrics
+cockpit-storaged: manage storage
+cockpit-packagekit: manage packaged
+cockpit-podman: user interface for managing podman containers
+cockpit-machines: user interface for managing virtual machines
+polkit: elevate privileges
+sudo: elevate privileges
+networkmanager: manage network connections
+sssd: authentication
+sscg: generate self-signed certificate
+
+%MAKEDEPENDS%
+krb5
+libssh
+accountsservice
+perl-json
+perl-locale-po
+json-glib
+glib-networking
+git
+intltool
+gtk-doc
+gobject-introspection
+networkmanager
+libgsystem
+xmlto
+npm
+pcp
+gendesk
+

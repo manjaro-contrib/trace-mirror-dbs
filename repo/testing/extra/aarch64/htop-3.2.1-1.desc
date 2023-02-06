@@ -1,0 +1,61 @@
+%FILENAME%
+htop-3.2.1-1-aarch64.pkg.tar.xz
+
+%NAME%
+htop
+
+%BASE%
+htop
+
+%VERSION%
+3.2.1-1
+
+%DESC%
+Interactive process viewer
+
+%CSIZE%
+125244
+
+%ISIZE%
+367080
+
+%MD5SUM%
+c6320e5d45969133fd5c8817392772ec
+
+%SHA256SUM%
+8560a6e69c1e0aa3e3099c86e7e3b7f99f31508e40e3b3b2bf56d45701d90594
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmKaBWAACgkQdxk/FSvb5qaAjw/+PAvsr5xgW8jq5lwH10WwapTG6bXe2wFwWUpuT2OBi7ns6oPz4PtOyjdnFfiZI/OIJnUFw0CFMQ7y/6VpODfwy/OQJbio+MjmJVspu2g3lf/T3m/zmwclryQjN6HydgEmGDr70dzNvXrigGDWQ//tbzoGqI1gRcTONfbHIKblYBkIRy2y6OWvNmhNM3+YnvRsQtv6K1z8hbGgI2PWsg86TZKVTmr7IDaJ8+10efXBVVELN6RTRQDl2RY/5xAeXZDzMwM37+P2hmZquN69mwBLwCTSAURiHWt3EF7b6UH7rddGwSpl0/ttpEbp+9CXhRP0awO08L+HTIKhekOHiVMRxnFcV6j4Dx6XfNqZ6Ggix9HfqkzjQJbzxsuZel4vIloHERMM90M3aS3jDH28zymdtzfwJz4BnkjKqBrSaha+vZ0AmiLrc9R3xBrUDYv12xfiTWkbRTI+cJKTbKUCB23yN1pec7Xm46BsaCsxQD6zQWEFgutGKSfLddCiHnMeQrBYj96Irl+tLhxbs9rAJMha4kvubZpP2YyM2D/P0icZ4gQ/PaMyfGPB62vyxYkd4J7TFfM8zt9/A7KRtWaxGbMfwCdVb2sueDycv5vWdXnt3ixIhm41SatfP40FEykdWF0gzISovPAhH5+Z/g+Q0gLF6ZJJZAI8nm+zNV4qflhyOJg=
+
+%URL%
+https://htop.dev/
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1654261065
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+libcap
+libcap.so=2-64
+libnl
+ncurses
+libncursesw.so=6-64
+
+%OPTDEPENDS%
+lm_sensors: show cpu temperatures
+lsof: show files opened by a process
+strace: attach to a running process
+
+%MAKEDEPENDS%
+git
+lm_sensors
+

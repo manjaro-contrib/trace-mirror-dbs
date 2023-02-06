@@ -8,7 +8,7 @@ on:
 
 concurrency:
   group: download
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 env:
   mirror: https://mirrors.manjaro.org/repo
@@ -26,7 +26,7 @@ jobs:
       - id: store
         uses: boredland/action-commit-store@main
         with:
-          storage-commit-sha: 07d7f7b02cae28f9b736371619b152f6f5ded4cc
+          storage-commit-sha: 5cf695f5e7b9aaa9d4df381006317ce49f9d7fc8
           key: state-hash
           value: ${{ steps.state.outputs.state }}
           token: ${{ github.token }}
@@ -46,29 +46,38 @@ jobs:
           fetch-depth: 1
       - name: download
         run: |
-          rm -rf repo/*
-          mkdir -p repo
+          [ -d repo ] && find ./repo/ -type f -name '*.desc' -delete
           for db in community core extra multilib; do
-            for branch in stable testing unstable; do
-              for arch in x86_64 aarch64; do
-                if [ $arch == "aarch64" ]; then
-                  branch=arm-${branch}
+            for arch in x86_64 aarch64; do
+              for branch in stable testing unstable; do
+                if [ "$arch" == "aarch64" ]; then
+                  down_branch=arm-${branch}
+                else
+                  unset down_branch
                 fi
-                url=${{ env.mirror }}/${branch}/${db}/$arch/${db}.db.tar.gz
+                url=${mirror}/${down_branch:-${branch}}/${db}/${arch}/${db}.db.tar.gz
                 echo downloading $url
-                curl -s $url | tar --warning=none -xz --one-top-level=./repo/${branch}-${db}/ &
+                curl -s $url | tar --warning=none -xz --transform="s,/desc,.desc," --one-top-level=./repo/${branch}/${db}/${arch}/ &
               done
             done
           done
           wait
+      - name: transform
+        run: |
+          git add .
+          git status --porcelain --no-renames | grep "^[A|M].*\.desc" | cut -d ' ' -f 3 | parallel python desc.py
+      - name: prune
+        run: |
+          git add .
+          git status --porcelain --no-renames | grep "^D.*\.desc" | cut -d ' ' -f 3 | parallel rm -f {\.}.json
       - name: persist
         run: |
           git config user.name repo-add-bot
           git config user.email info@manjaro.download
+          git add .
 
           if [[ `git status --porcelain` ]]; then
             git status --porcelain
-            git add repo/*
-            git commit -m "chore: update extracted DESC to ${{ needs.state.outputs.version }}"
+            git commit -m "chore: update extracted desc to ${{ needs.state.outputs.version }}"
             git push
           fi

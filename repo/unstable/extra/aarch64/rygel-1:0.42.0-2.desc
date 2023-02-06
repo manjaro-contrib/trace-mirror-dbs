@@ -1,0 +1,83 @@
+%FILENAME%
+rygel-1:0.42.0-2-aarch64.pkg.tar.xz
+
+%NAME%
+rygel
+
+%BASE%
+rygel
+
+%VERSION%
+1:0.42.0-2
+
+%DESC%
+UPnP AV MediaServer and MediaRenderer
+
+%GROUPS%
+gnome
+
+%CSIZE%
+963296
+
+%ISIZE%
+5816563
+
+%MD5SUM%
+80110cca03e7c21a1edfbb6b927a5762
+
+%SHA256SUM%
+f51b70104c808dc8ce1c27e92d0282bf5edcfa2740f7c254e7513f89393f7592
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmNpvIgACgkQdxk/FSvb5qbKXQ/9EIYGnqhiFwn8JtCThmj5uew0c2t0mgX5+l3GCSgF+SHq2AyNA71MSRKMFt5P0yVRO6z0aD5p37jUXTYJ/G6ME0uMA+ib1I3etcZCA9SW3u8v24tIXs/OJd/iUyksQaATBGTHSbdOXV238G24UXfsAjGZPvUkOz7Hv2h5HcCGmtp9wjjTBuH0/uZhGxZzgReBFNCC9I9zqvvE0C0lQuxr8TqwgTFR6W35IPgyhxhKeMvyHigwSheXmVeIUXHRiQI/C+PRO2IHVZ5KGUSylYM55srn5h7ydhdYyFNLSVmmnJC0SE7Gr4zfZUlLXc/972MibsCJwgFmh+sBRsoyGcWJJB1cL3MoGgz1DWip5Ryqa9Q8c2YVcoLcZA3s0RrnDUxeK5Ka/uiZ2dCeF/ggqGAC7IlLyiPh82fWti10jM2u2wxdSFBxv1NM2zvaA2CNeBaOfcyVpeHs+ifx2o4esZDiqKnuKl2VipGF71bvfWy0jZ6HVD3ltE2D+aGC/RzNQ+1Ln9UUJaUDe/rS+q5q2KdDcPw87FeMmOjDQf9VMA199OdLYUl/Qu6TTmepIKMS6owEnj3LiIpaH+It6iENyk1aanl1Qf9DOqJonCbvu4oEe/Tv7tM+/1+5xLtzP/XyrhjPNW3BbsTxN9cmgIblBWP4sidw8dul1QT6r6C+PBFjgU0=
+
+%URL%
+https://wiki.gnome.org/Projects/Rygel
+
+%LICENSE%
+LGPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1667873830
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+librygel-core-2.8.so=0-64
+librygel-db-2.8.so=0-64
+librygel-renderer-2.8.so=0-64
+librygel-renderer-gst-2.8.so=0-64
+librygel-ruih-2.8.so=0-64
+librygel-server-2.8.so=0-64
+
+%DEPENDS%
+gst-editing-services
+gtk3
+gupnp
+gupnp-av
+gupnp-dlna
+libgee
+libmediaart
+libsoup3
+libunistring
+tracker3
+
+%OPTDEPENDS%
+gst-libav: Extra media codecs
+gst-plugins-bad: Extra media codecs
+gst-plugins-base: Extra media codecs
+gst-plugins-good: Extra media codecs
+gst-plugins-ugly: Extra media codecs
+tracker3-miners: Share indexed media files
+tumbler: Thumbnailing service
+
+%MAKEDEPENDS%
+git
+gobject-introspection
+meson
+vala
+

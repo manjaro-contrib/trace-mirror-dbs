@@ -1,0 +1,74 @@
+%FILENAME%
+bcc-0.26.0-2-aarch64.pkg.tar.xz
+
+%NAME%
+bcc
+
+%BASE%
+bcc
+
+%VERSION%
+0.26.0-2
+
+%DESC%
+BPF Compiler Collection - C library and examples
+
+%CSIZE%
+1126776
+
+%ISIZE%
+6561992
+
+%MD5SUM%
+32e5876b3e93cfa6104ab80669c0c183
+
+%SHA256SUM%
+a4db012edf9a8fe69dec5d3a0b758178acc945f936021bff5dd82dd9ffad274d
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmPIYz4ACgkQdxk/FSvb5qZOFg/+PVXcoxo2r51NwHUd0OpJxbuJW6zTZa7TCWwZTJojbK3MkF3TAXaxLHeAIYfCJMzxA9cqZxwC4GilWLbOBYNALBVatrpY7qAkg53AQDKjxZ65mfUf9o4+7NPhkW1kbVrZWSSgU8V4i+TPQUx29PY3baGDM0JIS83CBidVHBj9LymY9PiSAe9KEf2gEdPRWGTOs+x6CWNRh16TpDSDxRzHerPhezlu8LlL9Xl8NUJs8S1+jslVIk24aTKJqvn2O6To9uI7nEICEg+508AiWoLP9+3h+qmkICYHMKmjUp2EKQLtQ5wW+sBzSZGyd8ZEyTTa18rrn7TJm3h/wKgJrhSTrTcHrwIv0zz6hSlwzIeuilCBFkMrNgz3MOSIb0HfsFIdQAukY1AjUmS9KWAy1pZJy/6PQA19a+II5vaHoYIN2KYeOz1/RP1+AJjJqsYGTtnPTOzc4qa/pkxzE9mSbWfYokrK75KB+JwEB8pClv/sIIZxfS3Z3BUgLw4TQe6i7zgJ/+ZoDbF3Yyf6HwhSWldhPSrCxZP/zSzsrpX2f4BO9N946rUD8FxIdvy8Q7jRaB3dZUqLHztBQfw1/45KrDWapWDLe7ZdT4A8ki47F5leUZoMfPQzupZktCB5tTnQWrIsjiQvgqc55KY+3DMDvntP5Yf9wZRDeFKewP9C1TfD770=
+
+%URL%
+https://github.com/iovisor/bcc
+
+%LICENSE%
+Apache
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1674076858
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+bcc
+libbcc
+
+%DEPENDS%
+clang
+libelf
+
+%OPTDEPENDS%
+linux-headers: build modules against the Arch kernel
+linux-lts-headers: build modules against the LTS kernel
+linux-zen-headers: build modules against the ZEN kernel
+linux-hardened-headers: build modules against the HARDENED kernel
+bcc-tools: Python utilites using the BCC library
+python-bcc: Python 3 bindings for BCC
+luajit: Lua bindings for BCC
+
+%MAKEDEPENDS%
+cmake
+clang
+llvm
+flex
+bison
+python
+
+%CHECKDEPENDS%
+netperf
+iperf
+

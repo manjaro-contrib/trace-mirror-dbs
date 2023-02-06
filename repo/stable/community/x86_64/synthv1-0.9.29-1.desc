@@ -1,0 +1,72 @@
+%FILENAME%
+synthv1-0.9.29-1-x86_64.pkg.tar.zst
+
+%NAME%
+synthv1
+
+%BASE%
+synthv1
+
+%VERSION%
+0.9.29-1
+
+%DESC%
+Old-school all-digital 4-oscillator subtractive polyphonic synthesizer with stereo fx
+
+%GROUPS%
+lv2-plugins
+pro-audio
+
+%CSIZE%
+494421
+
+%ISIZE%
+2356844
+
+%MD5SUM%
+1512fee56238bb57fb0edf10076bad35
+
+%SHA256SUM%
+edd3c737cd158cde6508bb1bfaa314d6e4fa2407538ed789b6e05f5b17322a2a
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCY9DmvwAKCRATmwnaW/DTOHJyAQCmvrHdNG9VGHxbTv/8iPCymNvLnu+SVpo4dKUIN5gkOQD9GA7jBbXNm/je5oq9LpSkZOiJzJasQJSfYhxBNs4wVAw=
+
+%URL%
+https://synthv1.sourceforge.io/synthv1-index.html
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1674634907
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+hicolor-icon-theme
+lv2-host
+qt6-base
+qt6-svg
+
+%OPTDEPENDS%
+alsa-lib: for standalone application
+jack: for standalone application
+liblo: for standalone application
+new-session-manager: for session management using the standalone application
+qt6-wayland: for native wayland support
+
+%MAKEDEPENDS%
+alsa-lib
+cmake
+jack
+liblo
+lv2
+qt6-tools
+

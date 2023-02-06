@@ -1,0 +1,63 @@
+%FILENAME%
+pcmanfm-qt-1.2.1-1-aarch64.pkg.tar.xz
+
+%NAME%
+pcmanfm-qt
+
+%BASE%
+pcmanfm-qt
+
+%VERSION%
+1.2.1-1
+
+%DESC%
+The LXQt file manager, Qt port of PCManFM
+
+%GROUPS%
+lxqt
+
+%CSIZE%
+436596
+
+%ISIZE%
+2596701
+
+%MD5SUM%
+07e9b193e5db150ca02c46f8ab7662de
+
+%SHA256SUM%
+c5b8f165412dd121ac626d8915a2efdb5ddc1b8798fb35c9c77fd47d342013f2
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmOzFhgACgkQdxk/FSvb5qY/RA//bH2pJ4BIFlbSg6iGgvh4/CS3wMeWQOpS0MOEjteC+VsW34bMRwJ2QVQNKwQ+uGdnj0HtwPs+9PWijUPuYd75uhs96FAB3ME8P7pud6bKM2Jy0Eepm0Rwcv6nU9WFMizOAi2UP6IuaoVUWJJqhVOPqVea5YMQnCQ9EOxD1aYBJGLUAmPtGQOQRg3CmF7S1sAPTP2u9sBBMMLeYx+iHm76LnknOCdnCf/2EVcbqWix2D2q3kQ9Qg3UOMYHppZo39OcyuV7f4k/pfZWdvUGusp8j2Wh4jA1m81xAlylpmgX55y6GuDOW+xJNtZpBoG1htaUEneFyYB1RejRbU1KI1x56+pYGgbujqRIHLs/NE0A8ebfMtMZvXau3bZexQH1n56NykFM/ihzwwK5Oxjh3Mbh/DV/bQkr1cb2GjBj1sNyJsOdAfOsTSEney+Bv5Q5oI0UpvwGuw9XIyy0/AnhQlhQlWRryOH4mNg3fhBmawOrKhv5I3dhEt4F5f/OU6YqIy8QHK/GqJv52b7MQUxboToHa6OPz+QvLfSz0wJtIEtkg9vT7LiNSW5MXDqwu7Xp+mvrWP84SphIzYpjkwl17axnLjlF6jeHUw9Y0pqxiJnAjFJ34bD+fOsQtBSaVI6Fblgy05GvN/oCZgVDZcVeO3sB+JCotzNVgnfDYyVQ2RpoW9g=
+
+%URL%
+https://github.com/lxqt/pcmanfm-qt
+
+%LICENSE%
+GPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1672680934
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+desktop-file-utils
+libfm-qt
+lxmenu-data
+libfm-qt.so=12-64
+
+%OPTDEPENDS%
+gvfs: for various features like mounting without root, remote filesystems, encrypted filesystems and many others mentioned on https://github.com/lxqt/pcmanfm-qt/wiki
+gvfs-mtp: MTP support (Media Transfer Protocol)
+lxqt-archiver: archive management
+qt5-translations: allow keyboard shortcuts to function in some languages (e.g. German)
+
+%MAKEDEPENDS%
+lxqt-build-tools
+

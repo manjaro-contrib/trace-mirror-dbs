@@ -5,15 +5,20 @@ import re
 import sys
 
 path = sys.argv[1]
+
+print(path)
 data = {}
 
-repo_regex = r"repo\/(.*?)\/"
-repo = re.search(repo_regex, path).group(1).lower()
-data['repo'] = repo
-
-output_file = path.replace('/desc', '.json')
-
+list_headings = ["provides", "depends", "makedepends", "checkdepends"]
 heading_regex = r"%(.*?)%"
+heading = ""
+
+path_tokens = re.search(r"repo/(.*?)/(.*?)/(.*?)/.*", path)
+
+branch = path_tokens.group(1).lower()
+db = path_tokens.group(2).lower()
+arch = path_tokens.group(3).lower()
+
 with open(path, 'r') as file:
     for line in file.readlines():
         value = line.strip()
@@ -26,9 +31,17 @@ with open(path, 'r') as file:
                 else:
                     data[heading] += [value]
             else:
-                data[heading] = value
+                if heading in list_headings:
+                    data[heading] = [value]
+                else:
+                    data[heading] = value
 
-pathlib.Path(path).unlink()
+data['tokens'] = [
+    f"{data['name']}",
+    f"{data['name']}_{arch}",
+    f"{data['name']}_{branch}",
+    f"{data['name']}_{arch}_{branch}",
+]
 
-with open(output_file, "w") as outfile:
+with open(path.replace('.desc', '.json'), "w") as outfile:
     json.dump(data, outfile)

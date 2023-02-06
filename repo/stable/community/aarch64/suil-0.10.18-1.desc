@@ -1,0 +1,71 @@
+%FILENAME%
+suil-0.10.18-1-aarch64.pkg.tar.xz
+
+%NAME%
+suil
+
+%BASE%
+suil
+
+%VERSION%
+0.10.18-1
+
+%DESC%
+A lightweight C library for loading and wrapping LV2 plugin UIs
+
+%CSIZE%
+28392
+
+%ISIZE%
+131535
+
+%MD5SUM%
+cf3fb5b92fc45deb8444a21feef16beb
+
+%SHA256SUM%
+139098fa786d24df8597ee9d1061efb1d21328928b79dfc2c2c51770bfdf2ed8
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmNX3MgACgkQdxk/FSvb5qbG3Q//d4ZhkaSVNe5Nn31uuUVy/S9LkP5td+ZGUo0CdB7R4gGWC+1SgqIC0LBWFRO38SDV4CmIZQux8SIS+z8WiN6CgbKRTkpqasfRMtI+2vfYv/CH2pIrTFvJ5kTtHMVtkOVCZFNP/rfxp75ltIS1XChAhfLfm1O1zWBPvziQ95JLjAKSLeGBeiNAd7RB9A0t1jvoKpESRPysNko2qCUzTOsFtzJE4ncFpW17YGUHIGti0EbF0ylQRah0NvpO4QxRKz5uRfnWAP0AEsIy93frNW7ZNWNAVbdvpC2K5lchAQGq0pUoKb4S2+90NDJnLLKMVNs5s+xasP8czbx1tqmrfSrsbZW+snVAgxg6hKMOthTkBiE3hCvh82UM9jsooDRvLFTnQDOIMQqzWmHmdUXEJgSoMLMS+6o9/RV0KEuGK7S4Cex/YWYaUb07HPyYxF1Xa9tsgZhoBcOr3Exo4Y/Nldm2XwlyNCb7EucagAhpJSW1Iw2cLDhjDQYn5dF+HSGuCjU8XK5q4bqSI6Pzzi7KXP+ycRH2+o6K15fD0yyg/f+ordDXl14D/e1jPw7H1XPO7GmRhnu67+kRrzC5Pow62Tn4CHinT1adV+6ZDbX3pDebE+jUfBenWtJVqmlxOWG5De8YLmwCdY21WMC27gnL9jpiSApQjA5yHnLLdSGsCwS1+QA=
+
+%URL%
+https://drobilla.net/software/suil.html
+
+%LICENSE%
+ISC
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1666702471
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%PROVIDES%
+libsuil-0.so=0-64
+
+%DEPENDS%
+gcc-libs
+glibc
+
+%OPTDEPENDS%
+glib2: support for wrapping X11 and Qt5 in GTK3 and GTK2
+gtk2: support for wrapping X11 and Qt5 in GTK2 and GTK2 in Qt5
+gtk3: support for wrapping X11 and Qt5 in GTK3
+libx11: support for wrapping X11 directly and in GTK3 and GTK2
+qt5-base: support for wrapping X11 in Qt5 and Qt5 in GTK3 and GTK2
+qt5-x11extras: support for wrapping X11 in Qt5
+
+%MAKEDEPENDS%
+doxygen
+gtk2
+gtk3
+lv2
+meson
+python-sphinx
+python-sphinx-lv2-theme
+qt5-base
+qt5-x11extras
+

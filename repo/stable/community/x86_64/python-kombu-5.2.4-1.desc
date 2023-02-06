@@ -1,0 +1,81 @@
+%FILENAME%
+python-kombu-5.2.4-1-any.pkg.tar.zst
+
+%NAME%
+python-kombu
+
+%BASE%
+python-kombu
+
+%VERSION%
+5.2.4-1
+
+%DESC%
+A messaging library for Python
+
+%CSIZE%
+302572
+
+%ISIZE%
+1830320
+
+%MD5SUM%
+5598183a0ef726b3408de567334e5c6d
+
+%SHA256SUM%
+c98deefaf2c2d686fbe079dc4c0de7df2ab3f36c376cab7bf976a46e84088359
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmMN9ZkACgkQeGxj8zDXy5ID9w/9GJxM5mSXib82SSatRmyxGomYb99Fp9z6wF7Fhr7IK21kWxzBiMEhutWLuMIA816srcJ2SuTKzvhr0LaNgwfSwSnAhX1kiJhDZqqr6OyvRVIa5cULX/E7F1Xd6UHyu5fRxOUnCPiTrRnQBdMrEmUqDH1C3gc9Vr3S6L4ZZWqCs+p3ZoIm+O6SXTTUKeNyqBTSJGyZsyiKrcIxpLt658RSlmJoe8X9gudqOFwSagnaHPiFtlFKaLcxVVIM+ygvC38KESR5psbizKDY5m5PeKrOVFTM4p5utyif4LbtxYeQymNMisE7OFCkTQpz9ZTkFgV5srHsszSyWFUwvWC86NpX/Cq+AiMuffQQNcKRhHNVpUBqSYwlcFUCA6hTRrs/dcS6T4zSlvozX2Gl8yUjbVYqI3xTcgbzhtpFYWVcOKyx1wdyxk9v8E+GvamTyQnY0WsTD235/E1bR/kYlYZNNitdOqaJV9fQDBwWva1gi2syWIp1BlC3p5S9ZXhUbsPZev+/pSGBXiy/ghGRwxt3MfghjyGXF8hH978EG1aBqEtzByjCD1+XLACZiVqFNDQBOwRAidgVAWufZr9DFIVM4iH6SulY3AD3dWIvOhCd8p5ESK+qxSdKQKYZzQW1RfEDG157IbkFB3KYUZyk9nrFR7TVxTOU8kyzrzAv7/6wfwnfsac=
+
+%URL%
+https://kombu.readthedocs.org/
+
+%LICENSE%
+BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1661859174
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python-amqp
+python-vine
+
+%OPTDEPENDS%
+python-boto3: for Amazon SQS support
+python-brotli: for brotli compression support
+python-librabbitmq: C optimization for AMQP transport
+python-msgpack: for MessagePack support
+python-pycurl: for Amazon SQS support
+python-pymongo: for MongoDB support
+python-pyro: for Pyro support
+python-redis: for Redis support
+python-sqlalchemy: for SQLAlchemy support
+python-yaml: for YAML support
+python-zstandard: for zstd compression support
+
+%MAKEDEPENDS%
+python-setuptools
+
+%CHECKDEPENDS%
+python-boto3
+python-brotli
+python-case
+python-librabbitmq
+python-msgpack
+python-pycurl
+python-pymongo
+python-pyro
+python-pytest
+python-pytest-sugar
+python-pytz
+python-redis
+python-sqlalchemy
+python-yaml
+

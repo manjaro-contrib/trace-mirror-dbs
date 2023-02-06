@@ -1,0 +1,81 @@
+%FILENAME%
+adlplug-1.0.2-5-x86_64.pkg.tar.zst
+
+%NAME%
+adlplug
+
+%BASE%
+adlplug
+
+%VERSION%
+1.0.2-5
+
+%DESC%
+FM synthesizer for ADLMIDI with OPL3 chip emulation
+
+%GROUPS%
+pro-audio
+lv2-plugins
+vst-plugins
+
+%CSIZE%
+2448578
+
+%ISIZE%
+10793551
+
+%MD5SUM%
+fd012f081da99ec3134dad862770f1c3
+
+%SHA256SUM%
+1ff19394a6fe43b9eb9f9209754ac0a07de6353c995a2e34865da29090f97967
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCYvJDLgAKCRATmwnaW/DTOKHXAPwM0h/bXzLvcIueCorTVFBQqmJzyvHeJzaz/WrgRfdm1wEA8qwmhNqZ3cXPCEk9BJGGm9ma4qN6XR80/XYrrzLHwQA=
+
+%URL%
+https://github.com/jpcima/ADLplug
+
+%LICENSE%
+Boost
+GPL2
+GPL3
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1660043851
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+hicolor-icon-theme
+libx11
+libxext
+libasound.so
+libfmt.so=9-64
+libfreetype.so=6-64
+
+%OPTDEPENDS%
+jack: for the standalone application
+liblo: for new-session-manager support
+lv2-host: for the LV2 plugin
+new-session-manager: for session management
+vst-host: for the VST plugin
+
+%MAKEDEPENDS%
+alsa-lib
+cmake
+fmt
+freetype2
+jack
+liblo
+libxrandr
+libxinerama
+libxcursor
+

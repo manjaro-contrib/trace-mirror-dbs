@@ -1,0 +1,60 @@
+%FILENAME%
+booster-0.9-1-x86_64.pkg.tar.zst
+
+%NAME%
+booster
+
+%BASE%
+booster
+
+%VERSION%
+0.9-1
+
+%DESC%
+Fast and secure initramfs generator
+
+%CSIZE%
+3449669
+
+%ISIZE%
+11736938
+
+%MD5SUM%
+db14905789dc2a9c8fc51532202cb401
+
+%SHA256SUM%
+426c05f88a96fb997aeba9197fbc8e3ca930a35637875c700eb2cf25f1be4d28
+
+%PGPSIG%
+iQIzBAABCAAdFiEEjhmSFnRl21+wRVV8sChU7XU+Dx8FAmMG1CwACgkQsChU7XU+Dx/GoRAAxVVeTvXknMG6FZ/1ir1ZNaNobg3fAb60RHBh8f5qxjDbBsqTYJ1R1JAQ6GF8GnOt5ukYKXk+gv7yi15Q/CD/FYzsIm6qyd2B5Z8eERAEmI4zes8ePO/aloefcUHL70qhKhEqSX+VOTlCZID9P4EcdjmfcX+LK9vFfrdx0Yqph/orNh99Vn7R+aq7Bml/lN5zxhKzRW+JPKAauLxYudzy+5JbYxwlh0OJdy6p0IwuOZmLBd52HyLr8nNtkwPl+rXc0E+THRjhJ5tJbTJmwgmWqkUx3Jd92YlLrp6UrvUDNJPKtRL1enCc2H7FVxoaR6guYczhJl0R/bS9jr/jiR7BVUgLzZGuTB2jq3kbyqRenSOnWh2gN0vsOfhj11BtotnaFjZrdvZQKCMFcx/m8CJpwgrrvMK0Qr9xHdek1q+Pv/WhLwMn3BDqgzQYSEoLpFWy/DyTupz+OvZv1aaOaCIhYcr5+rPLV0+cAVmI7PSitLrsvU8UnyoebG81umPOsOp4RIrZfG9CoQYkNoCRoN7LyQ5wOeCscDyhrvh/hd/+EW/sLOhYz8jG8s0fNPZ1CbP6iwaGobBL3bES5UBUP1tI+mW0Mz+Ku3oCaIAnusgF88yV9Yir/6+BVdysQWXwT6jqY+zR/XKnytuSEFPPC5AMOKZkf+IOZX+53b1+gP7fT30=
+
+%URL%
+https://github.com/anatol/booster
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1661391646
+
+%PACKAGER%
+Anatol Pomozov <anatol.pomozov@gmail.com>
+
+%PROVIDES%
+initramfs
+
+%DEPENDS%
+bash
+
+%OPTDEPENDS%
+busybox: to enable emergency shell at the boot time
+yubikey-personalization: for clevis Yubikey challenge-response support
+libfido2: for systemd-enroll with FIDO2
+
+%MAKEDEPENDS%
+go
+ruby-ronn-ng
+

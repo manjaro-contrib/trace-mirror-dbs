@@ -1,0 +1,83 @@
+%FILENAME%
+pelican-4.8.0-1-any.pkg.tar.zst
+
+%NAME%
+pelican
+
+%BASE%
+pelican
+
+%VERSION%
+4.8.0-1
+
+%DESC%
+A tool to generate a static blog, with restructured text (or markdown) input files.
+
+%CSIZE%
+544533
+
+%ISIZE%
+3078879
+
+%MD5SUM%
+f99545e915bbf7b92041a4038e2bbe83
+
+%SHA256SUM%
+998aa8ffbdebabac251211785735b1784d6e6beccdb67fc628967e720d830739
+
+%PGPSIG%
+iI4EABYIADYWIQTOU2MnrtGOq8O5mhf0qk4O0laOhwUCYwo1lBgcZmFyc2VlcmZjQGFyY2hsaW51eC5vcmcACgkQ9KpODtJWjocKfwEAx4PpevoH32umfst2WLCMBUCxLLU9zpJdohV24bQl9z4A/jWzRTNyQ+bEyh4O/xNKwboT8J6TNh220JIrx3BEs0oI
+
+%URL%
+https://blog.getpelican.com/
+
+%LICENSE%
+AGPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1661612487
+
+%PACKAGER%
+Jiachen YANG <farseerfc@archlinux.org>
+
+%DEPENDS%
+python-jinja
+python-pygments
+python-feedgenerator
+python-pytz
+python-docutils
+python-blinker
+python-unidecode
+python-six
+python-dateutil
+python-rich
+
+%OPTDEPENDS%
+python-markdown: Markdown support
+asciidoc: AsciiDoc support
+python-beautifulsoup4: importing from wordpress/dotclear/posterous
+python-feedparser: importing from feeds
+openssh: uploading through SSH
+rsync: uploading through rsync+SSH
+lftp: uploading through FTP
+s3cmd: uploading through S3
+python-ghp-import: uploading through gh-pages
+python-typogrify: typographical enhancements
+pandoc: for pelican-import auto convert
+python-mdx-video: easier embedding of youtube videos in markdown
+
+%MAKEDEPENDS%
+python-sphinx
+
+%CHECKDEPENDS%
+python-setuptools
+python-lxml
+git
+python-nose
+python-feedparser
+python-markdown
+python-typogrify
+

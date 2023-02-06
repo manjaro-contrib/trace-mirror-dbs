@@ -1,0 +1,75 @@
+%FILENAME%
+samplv1-0.9.29-1-x86_64.pkg.tar.zst
+
+%NAME%
+samplv1
+
+%BASE%
+samplv1
+
+%VERSION%
+0.9.29-1
+
+%DESC%
+Polyphonic sampler synthesizer with stereo fx
+
+%GROUPS%
+lv2-plugins
+pro-audio
+
+%CSIZE%
+522934
+
+%ISIZE%
+2232850
+
+%MD5SUM%
+6a52994adc34f05066d822df242d8d38
+
+%SHA256SUM%
+0505358f72e3f29207db2c0b85063f3698dd6e5de783c54a8772d49c6644273c
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCY9DmlgAKCRATmwnaW/DTOJSNAPwJU0mP7P7cN4YHC7PDzeK5nsFlxtrT2RlJYLVH2FpH7QEA0aD/VtichYyUDcEBGPE3gPVJbVwLFkH9DgTWuvqI9QE=
+
+%URL%
+https://samplv1.sourceforge.io/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1674634808
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+hicolor-icon-theme
+lv2-host
+qt6-base
+qt6-svg
+libsndfile
+libsndfile.so=1-64
+
+%OPTDEPENDS%
+alsa-lib: for standalone application
+jack: for standalone application
+liblo: for standalone application
+new-session-manager: for session management using the standalone application
+qt6-wayland: for native wayland support
+
+%MAKEDEPENDS%
+alsa-lib
+cmake
+jack
+liblo
+libsndfile
+lv2
+qt6-tools
+

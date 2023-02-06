@@ -1,0 +1,73 @@
+%FILENAME%
+cups-filters-1.28.16-3-aarch64.pkg.tar.xz
+
+%NAME%
+cups-filters
+
+%BASE%
+cups-filters
+
+%VERSION%
+1.28.16-3
+
+%DESC%
+OpenPrinting CUPS Filters
+
+%CSIZE%
+834832
+
+%ISIZE%
+3228874
+
+%MD5SUM%
+92b7a5c81595d5bd4642398f726db5bd
+
+%SHA256SUM%
+210cc03097a6fab2c463e0c269fe4e6f6cb9b89c27f1b4b6584edc947914e275
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmO2LJkACgkQdxk/FSvb5qYgIQ/+Px/L5s0X7u3dT2LQGPxuQ9p74IsMtbf/T4+QiWTgDQLwFodcu9daLRC/BBHh7FtdJWy9ghdn7m821DM1j/Akj7an4jb3omE+zJLLg1hQ4gW0jh4qQALpnoMqXHGStWAzaRzW8wBVoe7SWm37bT59adV744365bqopd7hmabKrmU5R5Y5SgcV+Xae5A8sSw6FYpkXcYllzsy3gt+/8e2VVkZybueqfS79rJxk0id2vn940O82SH+inSrG7dQrxsBVbZE2V5NZ/vGLDzGtSKqn5RDgVwko5CyWCb/R+3eFZo9a/kYYsl3l6RlLGEwodtg6MO5sEEGJ817M3/yfKBqu5aEnR8YdAJKqt7Jap7RfTMDv096qHYTDJ2hxPx2dRbW/aVteGvE+RLWUkXI8mPpZAJ8VGA55ftsu44knnMk+gQSlWlr54Tivael76IAY3fzS2sugVt1MRXfu1hQ+dt8jAI/j/NwGpcOQYW16kO4hHrn9hMkRB+ZBA8iFXLc+5PRgriCJDDJkrhcxz0TgATTCUY3gIwz3m/sYK1S7FWolJ3kqi8MrcnWVZMwrmU3kzwWqCGod6K7Hnu7abLwjSzddKzJdp82BtcAK1Xcjhz2yipHe6saN54Kc2MgLdyOJKihPPjbkJxgwybLxWVOLCtUOU0mf26gisVepAD1xPnrY2+Q=
+
+%URL%
+https://wiki.linuxfoundation.org/openprinting/cups-filters
+
+%LICENSE%
+custom
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1672883300
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+lcms2
+poppler
+qpdf
+ijs
+libcups>=2.2.6-2
+systemd
+libexif
+
+%OPTDEPENDS%
+ghostscript: for non-PostScript printers to print with CUPS to convert PostScript to raster images
+foomatic-db: drivers use Ghostscript to convert PostScript to a printable form directly
+foomatic-db-engine: drivers use Ghostscript to convert PostScript to a printable form directly
+foomatic-db-nonfree: drivers use Ghostscript to convert PostScript to a printable form directly
+imagemagick: for Braille embosser support
+liblouis: for Braille embosser support
+antiword: to convert MS Word documents for Braille embosser support
+docx2txt: to convert Microsoft OOXML text from DOCX files for Braille embosser support
+
+%MAKEDEPENDS%
+ghostscript
+python
+mupdf-tools
+liblouis
+
+%CHECKDEPENDS%
+ttf-dejavu
+

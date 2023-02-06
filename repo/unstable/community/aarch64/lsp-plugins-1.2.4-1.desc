@@ -1,0 +1,86 @@
+%FILENAME%
+lsp-plugins-1.2.4-1-aarch64.pkg.tar.xz
+
+%NAME%
+lsp-plugins
+
+%BASE%
+lsp-plugins
+
+%VERSION%
+1.2.4-1
+
+%DESC%
+Collection of free plugins compatible with LADSPA, LV2 and LinuxVST
+
+%GROUPS%
+ladspa-plugins
+lv2-plugins
+pro-audio
+vst-plugins
+
+%CSIZE%
+6032908
+
+%ISIZE%
+53434580
+
+%MD5SUM%
+1fa171cad8ebd466d3b2d4e6882ae651
+
+%SHA256SUM%
+35c84c1984cb640868ca079a6a275f0f4f0bb3018d1f9d0a8d3022a55c8680ca
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmOjdWcACgkQdxk/FSvb5qbboQ//W4NJHbHeeyLFR+bB5okWkos1D6+g64yMa0lYVCFsCxNItYs4QKKIkJCz41WjXfX/jRmXevUa0ZsQYOBIod0ODVYjwIUFQYuCELSuqsZap0eCawV3Ez29fnK950JCx7CWBnmB1f3I++AkKlZyqYpFroBBOCYPR3MWmcUW5q7E/pSNcrgqd4fKZFODQvZ0+l9u5fF3RHONGtKCPbxOv0r6EKMUYMB9hDNhYXxog+6b28tiF7x7ild1xSNzNF+JzFW4FTT5bvYiL8Oiq5WVDZv8YPyekHKm8kMw/k6T6amTM8uR2hBS68oO4JgT/1HRTP7ritwekqNB+sABMZPZ00HRb0pnB65zM45CUqOk3n1Vb/otm8xeIYOHxsFTSbm0ZteVQCdRlVIE8zD0HvOEQ2i/JyZPHRG3jsEX5bYh0o+alAadcoj/FQN0MPfbpfb5D6itIZ5koPmzfyX30/jiY0tJSszWwuFmEPjy7MJrby81C0HQbneln2RVHOniqqC4oqLG8qPYs9xZxcVaVJetf8G9EugkmjOwDZCZOTXAl8sDA2iFUxamEPcDWcb/4uymGbq9QX7oa+eWjgf/LIF3UEDxM2OcNXFO+LIdUDO1nVeMtaFLh17PbT+TMHK2NIdx2p7/zkBzIz5OPYof6yH7IKC8QD6h0RmETsvvXzyl4cSG6Eo=
+
+%URL%
+https://lsp-plug.in
+
+%LICENSE%
+LGPL3
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1671656111
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+cairo
+gcc-libs
+glibc
+hicolor-icon-theme
+libglvnd
+libsndfile.so=1-64
+libx11
+libxrandr
+
+%OPTDEPENDS%
+jack: for standalone applications
+ladspa-host: for LADSPA plugins
+lsp-plugins-docs: for documentation
+lv2-host: for LV2 plugins
+vst-host: for VST plugins
+
+%MAKEDEPENDS%
+cairo
+gcc-libs
+glibc
+hicolor-icon-theme
+libglvnd
+libx11
+libxrandr
+jack
+ladspa
+libsndfile
+lv2
+php
+
+%CHECKDEPENDS%
+jq
+lv2lint
+

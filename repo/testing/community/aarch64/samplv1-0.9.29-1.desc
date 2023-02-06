@@ -1,0 +1,75 @@
+%FILENAME%
+samplv1-0.9.29-1-aarch64.pkg.tar.xz
+
+%NAME%
+samplv1
+
+%BASE%
+samplv1
+
+%VERSION%
+0.9.29-1
+
+%DESC%
+Polyphonic sampler synthesizer with stereo fx
+
+%GROUPS%
+lv2-plugins
+pro-audio
+
+%CSIZE%
+419532
+
+%ISIZE%
+2497850
+
+%MD5SUM%
+6c350169fc5fe6e9e5a9417ef7758816
+
+%SHA256SUM%
+68dc534349e6c95576d5c19ac6c30e5ed53a359002e6aedb45436bb867350466
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmPRI/cACgkQdxk/FSvb5qb/cw/6AlbXVKIRD8wTBvJ20ycmkwmLsc7IDJMRPTgdsCDcNZ7WFC4lMKfkN1NILETvIhLGmiDNbWtNqAUfRKB6kABV3RE5+FcFwSXoga4VqV8idgFknq0eziHBm29xlEkUE1+DhaIZ/fETmHSajupX0+FFZsTzfe5I41wMttdgbUJqi9mt11LRfucwoih3K9swEbzRcDlMODsG5rJtbZVbOhScF0qWJxWYFTzYB+XlsZWC25fwg0U6wn77JTVbrqkF2uc+B+Tb1+2s3XAk4FRJGKkQesBGT/PASv1zld48eHwCeBdVmy74zx2Rihu95Rx8ibpcp7I6eNLYhhaUtfY2UEsTig7CSpSy4DH3PPlbvrq+1NjW4TFVG5gf5xvBH3vIiWa3pShrFh1j8UN8pWS3iaQCY6iI4FFTfBEZpzhLqtvkrw2YQM/4dOOE6U2Dao3N2xbUCH86gnd4RoNia69nt2elwuLnH9AAMG0L2NwjPcVPTTDbflY87Rx2OfCo8yxiLxgMwe7JKv+m0EOjiMo1smS5umApk283OLbKZtHQYhJ3toZll219IStaxuQKXVlGgtGg0RjasHIGVtqU2N55PE56WDT/HtwHmMWY7kMuoPU0ChsRX46FZ7jXVENPUPgxvTs90UvrWjxHGBN+39nHzWISSO1BIxYSb1AXc6sASqtw4AM=
+
+%URL%
+https://samplv1.sourceforge.io/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1674650542
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+hicolor-icon-theme
+lv2-host
+qt6-base
+qt6-svg
+libsndfile
+libsndfile.so=1-64
+
+%OPTDEPENDS%
+alsa-lib: for standalone application
+jack: for standalone application
+liblo: for standalone application
+new-session-manager: for session management using the standalone application
+qt6-wayland: for native wayland support
+
+%MAKEDEPENDS%
+alsa-lib
+cmake
+jack
+liblo
+libsndfile
+lv2
+qt6-tools
+

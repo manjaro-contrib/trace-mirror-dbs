@@ -1,0 +1,61 @@
+%FILENAME%
+mkinitcpio-systemd-tool-37-1-any.pkg.tar.xz
+
+%NAME%
+mkinitcpio-systemd-tool
+
+%BASE%
+mkinitcpio-systemd-tool
+
+%VERSION%
+37-1
+
+%DESC%
+Provisioning tool for systemd in initramfs (systemd-tool)
+
+%CSIZE%
+21132
+
+%ISIZE%
+68937
+
+%MD5SUM%
+673e5b65c0d1b87109466fb5eef5d64d
+
+%SHA256SUM%
+c3534fd7471aef913ff3a9defc7867cb2ecfe037512d186fd711af29dabfe7f8
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmGQR68ACgkQdxk/FSvb5qbI5Q//SRHz2oFgq9kWy1FpQqX8XwD2qbNl/+b3FKQuKVQ8jlZgifqD87PJgViMv8bIyElJ3o3IWAYryvYamWr6IXHgZi0V05YWC4kuCVyFmdXPs0gMCi/9z26dpFBWZ7vQm7nsOUXTqEMG6dUiRJa9JeaMDF/QUsAh3vJaaTeFMsWFN9xR3RsXNTczApusyZUMGKHCA4vALOzGEbeL2j4i2nKcon5kxB4eMjIANN1LdxVqpywRUxcLsnfYAH3uA6iVZosvvmPfJRyCOK0FYXcNl+9zqT928cJ9dJZgb+tGrn5oMHEZhuJNTnhFA0djawbX0LbmkbnkC1SY5B2mqD2cujEwCr8epdJbsXpRW/f62XnV2HLL0z/WUq4/7Qv1MnSsByXc+MILg3FlXT6dB942lg3eKHXKbYxS5d9/8n+wOyUAoSMkDlAedFm/QY3mfhxn7mDhrFR6ToebjCvQUuiMPetqHcaKPvX111QQnPgDpG5lmTUzGLHvgXjYgUAsDhNz1qIOyMdfUqECsEmcqeKUqm42L9SSXPL8AHDRl5SG0/RM1/9ASXfynKc9h4eCBhjd5KBK54RH59CQ9G4w7ToHQcAo+y4x1QDHapbXe5a84SQEp7NsZXxbk+uDTCF4CNKb5vaKDD2D39LWpJAwBjmvT9gkHzfgmW/p5rIKIS8IxS4PNEA=
+
+%URL%
+https://github.com/random-archer/mkinitcpio-systemd-tool
+
+%LICENSE%
+Apache
+
+%ARCH%
+any
+
+%BUILDDATE%
+1636845476
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%CONFLICTS%
+mkinitcpio-dropbear
+mkinitcpio-tinyssh
+
+%DEPENDS%
+mkinitcpio
+systemd
+
+%OPTDEPENDS%
+busybox: for initrd-tinysshd.service
+cryptsetup: for initrd-cryptsetup.service
+dropbear: for initrd-dropbear.service
+mc: for initrd-debug-progs.service
+nftables: for initrd-nftables.service
+tinyssh: for initrd-tinysshd.service
+

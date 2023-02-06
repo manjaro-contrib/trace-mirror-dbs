@@ -1,0 +1,75 @@
+%FILENAME%
+padthv1-0.9.29-1-x86_64.pkg.tar.zst
+
+%NAME%
+padthv1
+
+%BASE%
+padthv1
+
+%VERSION%
+0.9.29-1
+
+%DESC%
+An old-school polyphonic additive synthesizer
+
+%GROUPS%
+lv2-plugins
+pro-audio
+
+%CSIZE%
+484627
+
+%ISIZE%
+2088503
+
+%MD5SUM%
+b495dfe8246862e60e1358fb00c282e7
+
+%SHA256SUM%
+1d8087928a63a559805b1085f8a930ecbd5e0c0e3f051d67af4535e5482a7a4a
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCY9DlkwAKCRATmwnaW/DTOHndAP47EqHv03mrds3GCx3YWf/9a1/ENEyxujLDCsuVk9rUiwEA2e6A470z5xmLqzDnqroT9ssEmg9/gt5Pz2HOg9sNBwY=
+
+%URL%
+https://padthv1.sourceforge.io/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1674634511
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+hicolor-icon-theme
+lv2-host
+qt6-base
+qt6-svg
+fftw
+libfftw3.so
+
+%OPTDEPENDS%
+alsa-lib: for standalone application
+jack: for standalone application
+liblo: for standalone application
+new-session-manager: for session management using the standalone application
+qt6-wayland: for native wayland support
+
+%MAKEDEPENDS%
+alsa-lib
+cmake
+fftw
+jack
+liblo
+lv2
+qt6-tools
+

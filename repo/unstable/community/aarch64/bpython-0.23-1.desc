@@ -1,0 +1,65 @@
+%FILENAME%
+bpython-0.23-1-any.pkg.tar.xz
+
+%NAME%
+bpython
+
+%BASE%
+bpython
+
+%VERSION%
+0.23-1
+
+%DESC%
+Fancy ncurses interface to the Python interpreter
+
+%CSIZE%
+287544
+
+%ISIZE%
+1179878
+
+%MD5SUM%
+66f668229fa75a41e5af9b81d4cd8c84
+
+%SHA256SUM%
+5280f679d5e146992d92014ea6492ce11060e78bc6de3f75827ae9ac4af4602b
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmM84hEACgkQdxk/FSvb5qbC8w//Xeog/vS6VIXAQPM1N1YYkQLSEpaUIztz922RXfC/DYQGKWWiJx0Yw0Ab8EVautGhJsFoPVXhS2kmWljbJE3u64vv93nIUM7H174e8Z6J5c7YWbZ3XHCwfOlmMrcnGcJeMy5RBQmelqdXcXK3LO1l8u02frseqpg/ajedbVpYNjt2jZEQSYT23wBqPbv52fRJedhZ/8rnIO8mRF0Bzn94vFi/vRfP22KhVY8q6pHgY9Yo924+DRw8tvp+v4668j+LgrWcDYfPel8x4MPA+oVF6HGQecQDoecwkkgRTRb9OEueFhzPdEn/s/sfMVVRWoVNH0gFsKB6nyggl4qDCJQCl/A9s3BowzoGFi73/+XrcgVspnmffpQanGNuKPNcWmv2cQYalUrOSNm+Gu8BLkvyqGpJiCHOpdq03Fr6TdKCYNlyvugwer+qJFOgF2GN8Dmtcd351kluTOiuO4cDeCkcIs7SSLVSlbjYv5YfjDFJKqUX1voznpXbJYOqN5yD1FV7r8hUNOJDwstWm+rAME2eSjSqQvrESNaq3N9TV6ZZpLLCPWfL7E1FfhvhjnpsTXBB0Q7vHKEYl+r3fa4rqPh49Hhvn9eRJeLiqQphdivipFAMSv3XmuHbcbn9qlxYMjyCJj+U9fm/Z8H/xTAevO8s3MsLYzUrYJrW/5wiajip+Yo=
+
+%URL%
+https://bpython-interpreter.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1664934400
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python-pygments
+python-requests
+python-curtsies
+python-greenlet
+python-six
+python-typing_extensions
+python-pyxdg
+
+%OPTDEPENDS%
+python-urwid: for bpython-urwid
+python-jedi: multiline completion
+python-watchdog: module reloading
+
+%MAKEDEPENDS%
+python-setuptools
+
+%CHECKDEPENDS%
+python-pytest
+

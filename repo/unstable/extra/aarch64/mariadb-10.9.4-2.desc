@@ -1,0 +1,88 @@
+%FILENAME%
+mariadb-10.9.4-2-aarch64.pkg.tar.xz
+
+%NAME%
+mariadb
+
+%BASE%
+mariadb
+
+%VERSION%
+10.9.4-2
+
+%DESC%
+Fast SQL database server, derived from MySQL
+
+%CSIZE%
+39527136
+
+%ISIZE%
+251592008
+
+%MD5SUM%
+edb814993b540777e97c21d28a373dc6
+
+%SHA256SUM%
+8f434b4950e55dc152e031fb8c8663b2ebeda3cae01ec7c34e38637a0871682b
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmNtpecACgkQdxk/FSvb5qZtzxAAjB9Le+1mSjIbnwxIgzBatZpaeoK9UKfS4wquRb0XIcQb1wdFzfaaJV8plqmzw746hvXK5/e1zyef3hPceydacxRh4NXI4c9DyHfah8XE5l+8lrmXoS9s+lw+bH3xF61HrmY6Uxa6/9MatMR5fRlztsiP+FuPxDH99j4oRSQhtfIgSrbgYONHnGuMToKE/EvMj5MhAR0+Mja7HsTk6JTM2g/bsGQ/FrHji8a/NFtb0P66CFjfqkicZGgrzRcVfK5huuU7HuGfrol2WoIzsQYqA3RIQFTkqn9Z6j4DLQVpM6cJokqxEOnKgAyUACU2tXGb550SAO7NGWcPXQYiKcC73AjMTGzJZQVwGNZodCZiUL7NmEJH32U3HM4iCZXsjbGAvUIOi+QQ13VPj5NnM4zy5BezDvI7XyYzYLwEDIgMs5EmmgX4K4JpLqB/jZkFyX4VCQum+TwY4bm5NzLyNZ2wCEPcITF71qT/pDgrUl95I1F9pmzClLdyXCcYepDhuH9WHdZWCSZur+pj57AJKlMmpze8VPLm8ZVNuyffYh54CVhU6WwQxhvvfu2b0WSjmpBqexptMWHCLLUeLwBC48cXpyurRhJB8NcwCTlDnH/zVjBRvEd2b6WNPger8OFq9QJlf/4IQyUFXTaCujsTlzG+rc7R2qLaeFT57uZUYMVqEug=
+
+%URL%
+https://mariadb.org/
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1668128794
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%CONFLICTS%
+mysql
+
+%PROVIDES%
+mysql=10.9.4
+
+%DEPENDS%
+mariadb-clients=10.9.4
+bzip2
+libxml2
+lz4
+systemd-libs
+libxml2
+zstd
+
+%OPTDEPENDS%
+cracklib: for cracklib plugin
+curl: for ha_s3 plugin
+galera: for MariaDB cluster with Galera WSREP
+judy: for Open Query GRAPH (OQGraph) computation engine
+perl-dbd-mariadb: for mariadb-hotcopy, mariadb-convert-table-format and mariadb-setpermission
+python-mysqlclient: for myrocks_hotbackup
+xz: lzma provider
+
+%MAKEDEPENDS%
+boost
+bzip2
+cmake
+cracklib
+curl
+jemalloc
+judy
+krb5
+liburing
+libxcrypt
+libxml2
+lz4
+openssl
+systemd
+zlib
+zstd
+xz
+

@@ -1,0 +1,71 @@
+%FILENAME%
+manjaro-tools-base-git-r3004.dc48e4e-2-any.pkg.tar.zst
+
+%NAME%
+manjaro-tools-base-git
+
+%BASE%
+manjaro-tools-git
+
+%VERSION%
+r3004.dc48e4e-2
+
+%DESC%
+Development tools for Manjaro Linux (base tools)
+
+%GROUPS%
+manjaro-tools
+
+%CSIZE%
+24427
+
+%ISIZE%
+68847
+
+%MD5SUM%
+b2f2db781c1a2251ba03042e8906e13a
+
+%SHA256SUM%
+43d0283cfd132f670aef792e275c6c39e8ec19e5d3400acc8f53125ec4b1e58c
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmPAHTEACgkQFQwgB0PtRtgn+wgA4c21sLX3xF2aJ96mnPRNVeeDIK6Z3DzkpAef+2XOuUpQGBgbdsnMe4PNx4quIkeuKb+afm5QUQpnNI87AOY9Tm185z7UnZn7LY+Tcij5jUx/SAz4JarTQqKpUsbJcLdcQQEHwOmVziNQdbJaS/aqk5Wxkckdpko9hPVDielai8wEL6Qe2rq/aoVsbEKQcEZaaHR2ATXc4bQnBEgqrZ2wpgDLuTZeaasgDsNtsKafPIWSN1anTWH9PNXEiMh//thsK6OwjFYjUpNVs/Gsg3NCYn1ezJGLhXsBtmSPHir99ywzcYqS33D/NxSQGnLZ0ftNo0pfBUJViU7oj5KDH9zb7Q==
+
+%URL%
+https://gitlab.manjaro.org/tools/development-tools/manjaro-tools
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1673534645
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%CONFLICTS%
+manjaro-tools-base
+
+%PROVIDES%
+manjaro-tools-base=0.15.15dev
+
+%DEPENDS%
+gnupg
+openssh
+os-prober
+pacman-mirrors
+rsync
+
+%OPTDEPENDS%
+manjaro-tools-pkg-git: Manjaro Linux package tools
+manjaro-tools-iso-git: Manjaro Linux iso tools
+manjaro-tools-yaml-git: Manjaro Linux yaml tools
+haveged: for faster keygen tasks
+
+%MAKEDEPENDS%
+git
+docbook2x
+

@@ -1,0 +1,206 @@
+%FILENAME%
+qemu-base-7.0.0-12-aarch64.pkg.tar.xz
+
+%NAME%
+qemu-base
+
+%BASE%
+qemu
+
+%VERSION%
+7.0.0-12
+
+%DESC%
+A basic QEMU setup for headless environments
+
+%CSIZE%
+4936
+
+%ISIZE%
+0
+
+%MD5SUM%
+9316dfb6d8d1731aba084dbc9ae09bfe
+
+%SHA256SUM%
+d860a060efd0c595cd01f86d0b5396574f4966600127eb2e9ec4fd67cf682e69
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmL78PQACgkQdxk/FSvb5qa8oA//YttH7Gh6JBNuJEeJBfDxuITgrvI25Rxh1u7kP1X8kQq7XW3ffNo40epwBtjwD1Eyv9GpEPiMFhWtwhBk5mGvDqH2EwxYslCcQix2aK7A6v0uJEt0w5qmcqKW33HVovHWC9rlUg8M1n/7Lf3ozzgTJYwiymxYS+XbHyYyNhCCmcUJ4GNOCdGM0osZ4SnYmjLdyiMtG+l1UnGUUS6rZnT3sWNdU3KgXEUdO4hvV0c2UBN2zTfyco1L/HeicWcBz1aErJ6QJ2/sBB7QWmbcjGgXjsI9wTOLQ2V8CyNRIyYNUOPJ1oXbATeVCiqdGH0wnrQHjbMWsj53VBEPnleW743RduZsoFNhc2zIYjHbmPffa/YFZfmrKKBfNM0ixUhPRS6heAns9fGPeRk/mpnVMvNdwkXjn/BiKm/lKu1/zKzfV0JpoHD5LqvcS8LOfDx0C4dY7x8b1Y00sSXwg7T9cr0horQZhJHWt/yLd+J+3AsJy1qFRlXo2F6Ae0zyycOB22/SLB+9PWGnX2w+DAyy6EOPVl3kGubko395dZceli29dGWxgTqIqu549I2OAa5pAtn3IG7cTy3TEzem010kwF9j9qIm1ReYF+chp5lq2g/KILgNc1xFFUMzRtYNyiEf4QoxIOcG2K7fFAxEzUHgHSq9WORgwGe6iqJO9hHiWmwZTvM=
+
+%URL%
+https://www.qemu.org/
+
+%LICENSE%
+GPL2
+LGPL2.1
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1660674995
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%REPLACES%
+qemu-headless
+
+%CONFLICTS%
+qemu
+qemu-headless
+
+%PROVIDES%
+qemu=7.0.0
+qemu-headless
+
+%DEPENDS%
+qemu-common
+qemu-audio-spice
+qemu-block-curl
+qemu-block-dmg
+qemu-block-nfs
+qemu-block-ssh
+qemu-chardev-spice
+qemu-hw-display-qxl
+qemu-hw-display-virtio-gpu
+qemu-hw-display-virtio-gpu-gl
+qemu-hw-display-virtio-gpu-pci
+qemu-hw-display-virtio-gpu-pci-gl
+qemu-hw-display-virtio-vga
+qemu-hw-display-virtio-vga-gl
+qemu-hw-s390x-virtio-gpu-ccw
+qemu-hw-usb-host
+qemu-hw-usb-redirect
+qemu-hw-usb-smartcard
+qemu-img
+qemu-pr-helper
+qemu-system-x86
+qemu-tools
+qemu-ui-curses
+qemu-ui-spice-app
+qemu-ui-spice-core
+qemu-virtiofsd
+
+%OPTDEPENDS%
+qemu-audio-alsa: for ALSA audio driver
+qemu-audio-dbus: for D-Bus audio driver
+qemu-audio-jack: for JACK audio driver
+qemu-audio-oss: for OSS audio driver
+qemu-audio-pa: for PulseAudio audio driver
+qemu-audio-sdl: for SDL audio driver
+qemu-audio-spice: for spice audio driver
+qemu-block-curl: for curl block driver
+qemu-block-dmg: for DMG block driver
+qemu-block-gluster: for Gluster block driver
+qemu-block-iscsi: for iSCSI block driver
+qemu-block-nfs: for NFS block driver
+qemu-block-ssh: for SSH block driver
+qemu-chardev-baum: for Baum chardev driver
+qemu-chardev-spice: for spice chardev driver
+qemu-docs: for documentation
+qemu-hw-display-qxl: for QXL display device
+qemu-hw-display-virtio-gpu-gl: for virtio-gpu-gl display device
+qemu-hw-display-virtio-gpu: for virtio-gpu display device
+qemu-hw-display-virtio-gpu-pci: for virtio-gpu-pci display device
+qemu-hw-display-virtio-gpu-pci-gl: for virtio-gpu-pci-gl display device
+qemu-hw-display-virtio-vga: for virtio-gpu-vga display device
+qemu-hw-display-virtio-vga-gl: for virtio-gpu-vga-gl display device
+qemu-hw-s390x-virtio-gpu-ccw: for s390x-virtio-gpu-ccw display device
+qemu-hw-usb-host: for USB host device
+qemu-hw-usb-redirect: for usbredir device
+qemu-hw-usb-smartcard: for USB smartcard device
+qemu-img: for manipulating disk images
+qemu-pr-helper: for persistent reservation utility
+qemu-system-aarch64: for AARCH64 system emulator
+qemu-system-alpha: for Alpha system emulator
+qemu-system-arm: for ARM system emulator
+qemu-system-avr: for AVR system emulator
+qemu-system-cris: for CRIS system emulator
+qemu-system-hppa: for HPPA system emulator
+qemu-system-m68k: for ColdFire (m68k) system emulator
+qemu-system-microblaze: for Microblaze system emulator
+qemu-system-mips: for MIPS system emulator
+qemu-system-nios2: for nios2 system emulator
+qemu-system-or1k: for OpenRisc32 system emulator
+qemu-system-ppc: for PPC system emulator
+qemu-system-riscv: for RISC-V system emulator
+qemu-system-rx: for RX system emulator
+qemu-system-s390x: for S390 system emulator
+qemu-system-sh4: for SH4 system emulator
+qemu-system-sparc: for SPARC system emulator
+qemu-system-tricore: for tricore system emulator
+qemu-system-x86: for x86 system emulator
+qemu-system-xtensa: for Xtensa system emulator
+qemu-tests: for QEMU tests
+qemu-tools: for QEMU tools
+qemu-ui-curses: for curses UI driver
+qemu-ui-dbus: for D-Bus UI driver
+qemu-ui-egl-headless: for EGL headless UI driver
+qemu-ui-gtk: for GTK UI driver
+qemu-ui-opengl: for OpenGL UI driver
+qemu-ui-sdl: for SDL UI driver
+qemu-ui-spice-app: for spice app UI driver
+qemu-ui-spice-core: for spice core UI driver
+qemu-user: for user mode emulation of QEMU targets
+qemu-vhost-user-gpu: for vhost-user-gpu display device
+qemu-virtiofsd: for virtio-fs shared filesystem daemon
+samba: for SMB/CIFS server support
+
+%MAKEDEPENDS%
+alsa-lib
+brltty
+bzip2
+cairo
+curl
+dtc
+fuse3
+gcc-libs
+gdk-pixbuf2
+glib2
+glusterfs
+gnutls
+gtk3
+jack
+libaio
+libbpf
+libcacard
+libcap-ng
+libepoxy
+libiscsi
+libnfs
+libpng
+libpulse
+libsasl
+libseccomp
+libslirp
+libssh
+liburing
+libusb
+libx11
+libxml2
+libxkbcommon
+lzo
+mesa
+meson
+multipath-tools
+ncurses
+ndctl
+pam
+python
+python-sphinx
+python-sphinx_rtd_theme
+sdl2
+sdl2_image
+snappy
+spice-protocol
+spice
+systemd
+usbredir
+vde2
+virglrenderer
+vte3
+zlib
+zstd
+

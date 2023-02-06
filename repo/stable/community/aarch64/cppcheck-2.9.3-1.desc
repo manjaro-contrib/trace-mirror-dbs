@@ -1,0 +1,64 @@
+%FILENAME%
+cppcheck-2.9.3-1-aarch64.pkg.tar.xz
+
+%NAME%
+cppcheck
+
+%BASE%
+cppcheck
+
+%VERSION%
+2.9.3-1
+
+%DESC%
+A tool for static C/C++ code analysis
+
+%CSIZE%
+2625492
+
+%ISIZE%
+16276648
+
+%MD5SUM%
+12541b416d401da71279503c1853190c
+
+%SHA256SUM%
+ef102a925e533ddb9b9b60c7846dae7ec11e34d93baf5aa4ca45cb1712225c26
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmN81jAACgkQdxk/FSvb5qbHjA/+J1n6WuiihaI2BvcB34mw6RgHiDB+hMNR+xPgy8ze5zAI5QK6TBH0D50Qj1+4AAS3JuzZc+UeCs99wwXxwcReaBEIcs9QrkXb+/4jBq5heXoMYcNjh2B0lxnjB23IxixR8qWo9xn/q7go/osKC9EXSqFZa3N6H7BWgIxgKUAlEVWhdC6YvbRMPRowriDPmsEcSUfx6mT3g9eQfj+P6EycuP2j3mS/7NhWr4xQUF4U3zU8XkNSg4zLDTfIDkKB2Ce9P9SNiGEilelgHxUTPzXHiQnez+s+8GAVULEEoKR/F5Oqeuutp0hT49GJCpFKyn8bLLhQXBJ65iy5eGvtmUAlgOnTEQvx3P1hpFMmr/EoPK9pNHdImEmsbXGkP31LW3ZPrUX7Qu4s1McMuD4bXJmlRwKOAuiS5LoS7OeADCM181c9zOKhb8WXRAyZ2tDqbQV0B1UKX7hT34cHdkz2S/l3VSbJvesI3hD2ig6r7BwALRHyiB2w0N9SNmj2Z8pu+NHLwunDX4jRWQ8KOngrvyPwgpVwEcTW//0mZovdvtpqfRzUgyvgToBtbLZzdeEwzEyBXXDUzVuCl18bA7M6A5gB/oCXHT2u2NMsUs/91He5ERQCXleufC1m9eUFM0/SKsImwrm+8CoZeQf0sz07whgW4p1RKEay+gYCasyXK3siXtU=
+
+%URL%
+http://cppcheck.sourceforge.net/
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1669125268
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python-pygments
+tinyxml2
+pcre
+
+%OPTDEPENDS%
+qt5-tools: run cppcheck-gui
+python-pygments: cppcheck-htmlreport
+clang: for cppcheck-gui integration
+
+%MAKEDEPENDS%
+git
+docbook-xsl
+qt5-tools
+qt5-base
+python
+cmake
+clang
+

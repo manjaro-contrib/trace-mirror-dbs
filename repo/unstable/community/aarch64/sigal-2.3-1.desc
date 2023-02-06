@@ -1,0 +1,77 @@
+%FILENAME%
+sigal-2.3-1-any.pkg.tar.xz
+
+%NAME%
+sigal
+
+%BASE%
+sigal
+
+%VERSION%
+2.3-1
+
+%DESC%
+Yet another simple static gallery generator
+
+%CSIZE%
+645976
+
+%ISIZE%
+3275308
+
+%MD5SUM%
+9d4c9d1bb8baa1debf55f29a2ca6107e
+
+%SHA256SUM%
+7d478cf038d71ce21952f39d98457df43b5f1620918f495d9e650f3330954472
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmJQ5EkACgkQdxk/FSvb5qaxNg/8DycLpHoNCZ0rzdqLaOLKEY7/gPV/xRWw5aNVY9fTj8LBDMFwfp4oKB5gVNbvxmDJc/B0+MqQEZmF9RNg5r8sRXu/DPDWDVY5pJSCg8Lx7PiHLW9qguZDYG1QYmanRvmE8syEPYoNjw8dip62ilpmlzo676jOSTNQra2K1fSGeOheAxu2bxLBFz9wor4JPdHkw/B9+XjIpLMujOf3XUIPXXsxzvkj+glaDfO42ogAoNzDY6O+/hOI6IsnBHtOo9E6lFsNkLC6EaLas+FLmJnlFlg3Y8jDfFUu2vfHD+ZSL9ArYMka2H0tDDxYDuFNJ1tfU+VQxo3K36Or22UvRDuThrCmHUpuGgDYnclKLrm+7ZsYiS5K7apPgCgFAfSltaLBZRISe3qAZDs1pnMudvfCalXGbf818G/rX089nyogOzEcaBvYCCsd8feOWy7d9glAsiFGI3R+BDziQ96EjpJuoTk3dxtbgHxZntbfoS5x8bfMTj2jeu11byxjqMSdSDJpOxsqcEdEru6uNBJXkqzcusx9LQQkKTk8QWm2zW9WBRhEEaxEb6oHwGg0mvZWVi5cnqIE+9w1fHveEN/AYExuB70QtbPpPFoI3MTbFdjQDM/9e3AM5HAS+iTRpXk/21IPz4HlKHko/7dVt50gf6OjDewF4FqoTgrYwPvDi+EXbgE=
+
+%URL%
+http://sigal.saimon.org/en/latest/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1649468448
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+ffmpeg
+python-blinker
+python-click
+python-jinja
+python-markdown
+python-natsort
+python-pillow
+python-pilkit
+
+%OPTDEPENDS%
+python-boto: upload to S3 plugin
+python-brotli: compress assets plugin
+python-cryptography: encrypt plugin
+python-feedgenerator: feed plugin
+python-zopfli: compress assets plugin
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools-scm
+python-toml
+python-wheel
+
+%CHECKDEPENDS%
+python-boto
+python-brotli
+python-cryptography
+python-feedgenerator
+python-pytest
+python-zopfli
+

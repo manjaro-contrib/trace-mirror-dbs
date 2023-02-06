@@ -1,0 +1,72 @@
+%FILENAME%
+chatty-0.7.0rc4+14+g1ea66460-1-aarch64.pkg.tar.zst
+
+%NAME%
+chatty
+
+%BASE%
+chatty
+
+%VERSION%
+0.7.0rc4+14+g1ea66460-1
+
+%DESC%
+Messaging client
+
+%CSIZE%
+664365
+
+%ISIZE%
+2107137
+
+%MD5SUM%
+4eaaf04233cdb049d0412c9712cf7d72
+
+%SHA256SUM%
+549a7983bcf8eb7e30cd5758206245857a4c54852fa4a0fe3497c26f492db708
+
+%PGPSIG%
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmO4/r4SHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+MkkIAJN9W0GNeoQox0Ll+C1Rqj3pZv2QgAFviQqtR/3aj7APwFzxywjbXpsg4e5siUwUWpCEP8zVKFKFmU2Vq2pW5+Ar48BMGDcvpoAuRO6uyrvaiC7NEwMDoy4WZ7KtGY/QSyLDaw9qCxbt/s2eUwYae9+eTaRVO+bq551S8BiMLIktttvhHdi7BAa/AUm898K43F+c7aOmn1pPKfY38+T/PnQ9cMdKCEl12XzA1+u2IVF+38ejwuKvnBWD7ZKmfyLkKsyDUP2AS5hTntJ3fG4JIj3vxcK6YF/3cABJghrYbMqVlfGAmrPNhAUGkwAYh5hD3eubgTn3cieX0jQxmmcCBEo=
+
+%URL%
+https://source.puri.sm/Librem5/chatty
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1672999273
+
+%PACKAGER%
+Philip Müller <philm@manjaro.org>
+
+%DEPENDS%
+evolution-data-server
+feedbackd
+gtk4
+libhandy
+libolm
+libpurple
+gspell
+libmm-glib
+gnome-desktop
+
+%OPTDEPENDS%
+mmsd-tng: MMS support
+libpurple-lurch: OMEMO encryption
+libpurple-carbons: message carbons support
+libpurple-xmpp-http-upload: XMPP HTTP File Upload support
+purple-telegram: Telegram chat protocol support
+
+%MAKEDEPENDS%
+meson
+ninja
+git
+itstool
+
+%CHECKDEPENDS%
+xorg-server-xvfb
+

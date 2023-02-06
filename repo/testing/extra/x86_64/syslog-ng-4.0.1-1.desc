@@ -1,0 +1,92 @@
+%FILENAME%
+syslog-ng-4.0.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+syslog-ng
+
+%BASE%
+syslog-ng
+
+%VERSION%
+4.0.1-1
+
+%DESC%
+Next-generation syslogd with advanced networking and filtering capabilities
+
+%CSIZE%
+1153485
+
+%ISIZE%
+5474385
+
+%MD5SUM%
+0897a72a7d46b28e1a480816530968cc
+
+%SHA256SUM%
+a989b65995b4d8bcf25059c170fdea9c9ae215565bf17a5e043f24911314c0de
+
+%PGPSIG%
+iQIzBAABCgAdFiEEz6avFeXHQUn8HYwIbRZVwUzhwT4FAmO6hJEACgkQbRZVwUzhwT4jVA//UtwIVJ8TCRVO+VsWKcFrjg6jUvfj1Ki2ILImN5LopKxgYMaKnv5sbhT88dNVfTVXLorENzK8ljwe2O0A9edy0Vvs769sfBTTzGVlZfPkKgt7h8lFfmEsy5jarsfjMgilsWmRXmEi3DzJn2dqliibua2IpxHhnZTOQtInA/Rz7KigLLro6FxZu1bSCT8iFP626AyIHNOg7vNMyoGfUl2slGVOvjna9Sm+PNPahoMnpknfJptIAKUw5a5EIfRK/UEkJxSRVdVGABdeARBI7qbjAPWe0IzUE+surgqoEn1EsAzb64ugXMGjM4Np410qbmeE5EfDtdRM+Ut0YrR01Z3QxSvaRgMAem9nScU7jaiUIbj7gg55vD4+u4kp5iKjxalnrSUr3VQ/nejr1JpiaCpOgAdU0kKBKhTldYmmmrvuAd2clqieyunFkeBHNjISkSR8zFes8NfI2A7rzye9gzhJNtsmyBOhlmRQ0N5+ay4+H7ZDhaSC2ErG9/NFnXkguzE5LIYwsZA0YxjFeafy8mSUb3pYZ7kTuxia2CoSorEz+UmGxVTnY6JCowNC8MLa2jjxppS5sIcYiVWvmTxYizPpSsVBnoPtQSavnrnBTvABx16tdnSNtSN7U5kB+EXGfnuBZOlwhSWmspI0NLn7826e35SDliQKyuVLoX5IEQa3Kis=
+
+%URL%
+https://www.syslog-ng.com/products/open-source-log-management/
+
+%LICENSE%
+GPL2
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1673167517
+
+%PACKAGER%
+Florian Pritz <bluewind@xinu.at>
+
+%REPLACES%
+eventlog
+
+%CONFLICTS%
+eventlog
+
+%DEPENDS%
+awk
+systemd-libs
+glib2
+libnsl
+json-c
+curl
+libnet
+openssl
+
+%OPTDEPENDS%
+logrotate: for rotating log files
+libdbi: for the SQL plugin
+librabbitmq-c: for the AMQP plugin
+mongo-c-driver: for the MongoDB plugin
+libesmtp: for the SMTP plugin
+hiredis: for the Redis plugin
+libmaxminddb: for the GeoIP2 plugin
+net-snmp: for the SNMP plugin
+librdkafka: for the Kafka C plugin
+python: for Python-based plugins
+
+%MAKEDEPENDS%
+libxslt
+mongo-c-driver
+librabbitmq-c
+python
+libesmtp
+hiredis
+libdbi
+libmaxminddb
+net-snmp
+librdkafka
+libcap
+systemd
+
+%CHECKDEPENDS%
+python-nose
+python-ply
+

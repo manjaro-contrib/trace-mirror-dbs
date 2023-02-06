@@ -1,0 +1,86 @@
+%FILENAME%
+avahi-0.8+22+gfd482a7-3-x86_64.pkg.tar.zst
+
+%NAME%
+avahi
+
+%BASE%
+avahi
+
+%VERSION%
+0.8+22+gfd482a7-3
+
+%DESC%
+Service Discovery for Linux using mDNS/DNS-SD -- compatible with Bonjour
+
+%CSIZE%
+444107
+
+%ISIZE%
+1941381
+
+%MD5SUM%
+e11662102d4aaf7431da78f9a315ee4e
+
+%SHA256SUM%
+706d569c8bc49021a44ab2222f02bd724f861a0feff95cbd7da69bc439ab7346
+
+%PGPSIG%
+iQEzBAABCAAdFiEEhs/8qRjPOvRxR1iAUeixSKmZnDQFAmGn3WcACgkQUeixSKmZnDSYngf+Mu8a4TpfOvEHhYIWsYK41huj/ixwhKRm4HoMTS6Ao2C1QCiS87DE5vTCVU6Lt8HrxCeuurSXvUNgHvDzKGDJVv2UEggdh+yrcNiFvgDqRyWmM9dLTTtc5f6Sg9psr9Al9CJ172XkbfhnMnqYxnBj602KDt/LvhvbC20KN7k+QuJvI4zSRcHuCkVC14vXKdmAFdNeFSM95o20XFL8MlXBx6HUAe9ndzUpQzxSah4iEi8nD+WogXeEe3JEY/yO2OIFA1a7ov1auB+zMGeR4z14/VnoqKzb1C7PfKvJULF+JNUt8KFgql18qEkwXqxX+RRcmglWyGXPYwtQD1kTLzDb2w==
+
+%URL%
+https://github.com/lathiat/avahi
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1638391080
+
+%PACKAGER%
+Evangelos Foutras <foutrelis@archlinux.org>
+
+%PROVIDES%
+libavahi-client.so=3-64
+libavahi-common.so=3-64
+libavahi-core.so=7-64
+libavahi-glib.so=1-64
+libavahi-gobject.so=0-64
+libavahi-libevent.so=1-64
+libavahi-qt5.so=1-64
+libavahi-ui-gtk3.so=0-64
+libdns_sd.so=1-64
+
+%DEPENDS%
+expat
+libdaemon
+glib2
+libcap
+gdbm
+dbus
+libdbus-1.so=3-64
+
+%OPTDEPENDS%
+gtk3: avahi-discover, avahi-discover-standalone, bshell, bssh, bvnc
+qt5-base: qt5 bindings
+libevent: libevent bindings
+nss-mdns: NSS support for mDNS
+python-twisted: avahi-bookmarks
+python-gobject: avahi-bookmarks, avahi-discover
+python-dbus: avahi-bookmarks, avahi-discover
+
+%MAKEDEPENDS%
+git
+gobject-introspection
+gtk3
+qt5-base
+xmltoman
+python-dbus
+python-gobject
+doxygen
+graphviz
+libevent
+

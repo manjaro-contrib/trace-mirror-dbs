@@ -1,0 +1,83 @@
+%FILENAME%
+clevis-18-2-x86_64.pkg.tar.zst
+
+%NAME%
+clevis
+
+%BASE%
+clevis
+
+%VERSION%
+18-2
+
+%DESC%
+Automated Encryption Framework
+
+%CSIZE%
+60065
+
+%ISIZE%
+181399
+
+%MD5SUM%
+d64926789cfae4f063e9556b6a66744e
+
+%SHA256SUM%
+d58e0a64b341673cdcd8127d008ec835aed67adaa1a11120e4c6b12f32707a78
+
+%PGPSIG%
+iQEzBAABCAAdFiEEhs/8qRjPOvRxR1iAUeixSKmZnDQFAmNhmvYACgkQUeixSKmZnDQi3wf/WvUXJN2iaqmGVosdjYt0E55VNew/rvgj2ikR9ZzIASMbJI+ZNV7BY+1Ye0LUomr0i00yf5QxlGU+HN0a9EDVQgwSbiK+skJJhgj3kb4x5JqbW6mJthWdT85NMpnbABFwxba/CG1hGwQyXItpTiAmhkyJjPYx5mwSDXLhLWrwv3hiOj426GRxnoABwNsprY66xYW3iVLFbwd0gAuL6xq2sRwAN/R+4UOfO1ERQd5FlEIBxA/yDW8sbCi3dTz1AZzqr0L4s5jNplHl5hvSgnZj8JTwCuRu9XqKNlctc0zrDiY1ekoVFGt8NbU29LHzBExb1WhuPmmUuqFqwYks+NgeSw==
+
+%URL%
+https://github.com/latchset/clevis
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1667340985
+
+%PACKAGER%
+Evangelos Foutras <foutrelis@archlinux.org>
+
+%DEPENDS%
+bash
+jose
+
+%OPTDEPENDS%
+audit: UDisks2 unlocker support
+cryptsetup: LUKS unlocker support
+curl: Tang pin support
+dracut: dracut unlocker support
+glib2: UDisks2 unlocker support
+jansson: SSS pin and UDisks2 unlocker support
+libpwquality: LUKS unlocker support
+luksmeta: LUKS and UDisks2 unlocker support
+nmap: dracut unlocker support
+openssl: SSS pin support
+tpm2-tools: TPM2 pin support
+udisks2: UDisks2 unlocker support
+
+%MAKEDEPENDS%
+git
+meson
+asciidoc
+audit
+bash-completion
+cryptsetup
+dracut
+glib2
+jansson
+libpwquality
+luksmeta
+openssl
+tpm2-tools
+udisks2
+
+%CHECKDEPENDS%
+jq
+tang
+

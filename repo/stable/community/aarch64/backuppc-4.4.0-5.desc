@@ -1,0 +1,68 @@
+%FILENAME%
+backuppc-4.4.0-5-aarch64.pkg.tar.xz
+
+%NAME%
+backuppc
+
+%BASE%
+backuppc
+
+%VERSION%
+4.4.0-5
+
+%DESC%
+Enterprise-grade system for backing up Linux, Windows and MacOS PCs
+
+%CSIZE%
+647272
+
+%ISIZE%
+3200093
+
+%MD5SUM%
+cf495e71ffde4d397d6ab1e53092b900
+
+%SHA256SUM%
+053062c9eefebd724c9cacbec402d3102cc4c135bad825d3e6d186c42922d92f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmKXG1MACgkQdxk/FSvb5qaIOA/+OPtHI2DTwh5CReVEX2BipoZzs7uhxc3ICZyLJnIkLSr58wdF4Ma/6W8cda475Ve4xE8dj670Q+yxybV3TIn3agsUfVcnHJXoMNBnw6JvchllfbYSrikCYkyTcksom8iF8kJKJj1Le1giJxo80GSSgrKtSiv/99ShcxZDbSzKDqcfTfBtwLJ4SxQMTW+3HtQeUbvOHwomDbJP5H8EBOp/emRdSHa9DQtVlQooju3WKQB84REnM7ZJ8iVF49c1prZNBbp578Kp5o1HZJ8mQjvwqoRvHNqIzy91i3ko+JwvYKX4cgxTEhA+hkejJfWL5nL7LSMTE7X6iUn7BeqVb9l8bkZecaEcwXlrgrJ1ZtRVMJf8qACvPibLVUNGWIwrmtGvK/acwq30amm6sdAnrRJEkh0jLGgFj6dCF59ZwFSwH1B/iG7UGiAGWNHfoKdPApZJALxgCdxs6NJsyfVb52MMmV00ZSUdV64qw6R7wlPHjrLpb8FwOiz5MeLQv1z/dj+WcpN5aohXfOCox2f6DmQOO2gRJYqevOGFYRPa1HX5l1wLYr8hmCl//TKvt+aoKLesjNyyhJUIIwwL2kT7lqbEazw9hDTRwtxuZPdcCWPwEUPtJhscnuS4Nk5MZYo3d2gHt8517qvyCGS8+9OW9BLyFpygk+gW5c6Ij36CaYAXB8Q=
+
+%URL%
+https://github.com/backuppc/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1654070028
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+glibc
+popt
+perl
+par2cmdline
+perl-archive-zip
+perl-io-dirent
+perl-file-listing
+perl-time-modules
+perl-cgi
+perl-xml-rss
+perl-json-xs
+smtp-forwarder
+
+%OPTDEPENDS%
+openssh: ssh transfert support
+rsync: rsync transfert support
+smbclient: smb/cifs transfert support
+rrdtool: graphs of the pool usage
+
+%MAKEDEPENDS%
+git
+

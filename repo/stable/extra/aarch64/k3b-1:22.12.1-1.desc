@@ -1,0 +1,74 @@
+%FILENAME%
+k3b-1:22.12.1-1-aarch64.pkg.tar.xz
+
+%NAME%
+k3b
+
+%BASE%
+k3b
+
+%VERSION%
+1:22.12.1-1
+
+%DESC%
+Feature-rich and easy to handle CD burning application
+
+%GROUPS%
+kde-applications
+kde-multimedia
+
+%CSIZE%
+11327196
+
+%ISIZE%
+36485705
+
+%MD5SUM%
+9662be9b9cdd91e3532fb8da1e2dd01e
+
+%SHA256SUM%
+16f323cbf49e8c9ff5bc072401be79770b1d893456a3c5513e25573550ab3742
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmO3GfMACgkQdxk/FSvb5qYnCQ//QuNaon+Wqg/blzUio5769T4WwIkP+Me1MTg5AmDIANJlwzcSJLfwwSDsQjDeobtjcVS660lfxUDZ/AsGMtVi1hAo3iRi9IwlD6FNQsax2U1ZPmHW4SkID8L3kV97lvLUHSK4RaxoWzJiJjV9tTqQtazGA2Rk4BJFV1vGUSlHDrtoTnHgDVnfsrnr8dqbe2ueNf47zqCLHr9dECeGk9Dv4O+mjXjZMaOHVKW3l4tt4RPlSP+lEdoHXdPvtQ+YL5FU1IS1xBVMK7fZNK2jVlHA/frEpu+VwhVSVjxt05TWu+lA5XfW06+fpgzRfGNGp9jVd5Yspbtbv6bX8la9EznY9rB8QRnWnUKoYSs3l6192rokc0y+VW1ljSWsQK+1M9E+cbxSQwG/1ECfmfm4jbzfbrd+TEyof5QTd1+Jl5oZXNov+9ftcAOerMtvUeJ5BVLy8jnuEkAouu4A+MgXjJ1E5cwGXrSpNd4/7SNhE+iDGDCUlOLEoJ3dJQYCBW1LpwfN8S5OuQMKiWU0CjyrKVbCMI7Fy+bg6DwVRn8ogQmJ1jvsyKlXfvUCN9tbAaxuJi/ZYzHuT7hsx0J5UzPXVD3cdHw2/Mnyd4DjHhlm7rURdAMUTjQmwS5kMTf9Yq0LtevhSuQgmE+ew1twizTZc4XOa7xVFKlrYYAw4womop9UDic=
+
+%URL%
+https://apps.kde.org/k3b/
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1672943656
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+libkcddb
+kcmutils
+knotifyconfig
+libmad
+kfilemetadata
+knewstuff
+libmpcdec
+libdvdread
+libburn
+libsamplerate
+
+%OPTDEPENDS%
+cdrtools: for CD burning with cdrecord
+dvd+rw-tools: for DVD burning support
+vcdimager: for VCD burning support
+emovix: for bootable multimedia CD/DVD support
+cdrdao: for disk-at-once (DAO) mode support
+cdparanoia: for CD ripping support
+transcode: for DVD ripping support
+
+%MAKEDEPENDS%
+extra-cmake-modules
+kdoctools
+

@@ -1,0 +1,75 @@
+%FILENAME%
+podman-4.4.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+podman
+
+%BASE%
+podman
+
+%VERSION%
+4.4.0-2
+
+%DESC%
+Tool and library for running OCI-based containers in pods
+
+%CSIZE%
+22209647
+
+%ISIZE%
+82814197
+
+%MD5SUM%
+7e2ec193c002533d3a91d186d6fc17e9
+
+%SHA256SUM%
+5b5910e76a8b31314c6dfa7247352bf8da1b1a7610365b7f002bd3993b922c5c
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCY92Z4wAKCRATmwnaW/DTONYTAP4vdNKQdHpp8VXz8cL8GfD/c4QwlSq7dTNDz48Cf27yDAEAh9sXuroSMtgGfSNZSCDyz0jfSDfcD5lBILLVt6CVzgc=
+
+%URL%
+https://github.com/containers/podman
+
+%LICENSE%
+Apache
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1675466908
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+catatonit
+conmon
+containers-common
+crun
+iptables
+libdevmapper.so=1.02-64
+libgpgme.so=11-64
+libseccomp.so=2-64
+slirp4netns
+
+%OPTDEPENDS%
+apparmor: for AppArmor support
+btrfs-progs: support btrfs backend devices
+cni-plugins: for an alternative container-network-stack implementation
+podman-compose: for docker-compose compatibility
+podman-docker: for Docker-compatible CLI
+
+%MAKEDEPENDS%
+apparmor
+btrfs-progs
+catatonit
+device-mapper
+go
+go-md2man
+git
+gpgme
+libseccomp
+systemd
+

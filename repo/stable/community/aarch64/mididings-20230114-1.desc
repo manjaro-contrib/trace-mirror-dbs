@@ -1,0 +1,83 @@
+%FILENAME%
+mididings-20230114-1-aarch64.pkg.tar.xz
+
+%NAME%
+mididings
+
+%BASE%
+mididings
+
+%VERSION%
+20230114-1
+
+%DESC%
+A MIDI router & processor
+
+%CSIZE%
+258784
+
+%ISIZE%
+1490194
+
+%MD5SUM%
+8e3dbc7f9f2f568e2ef1f1fcf8106212
+
+%SHA256SUM%
+838b119becef60874de8c5a241e7d589b31ede130b416479008a977975b9f0f9
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmPCayIACgkQdxk/FSvb5qaVwA//ZPwbidoY82HB3doRO824Y6zNVP9hr9ZvPRJOaFhsg8Ecoz0ytImu3O/TDeOAy/mLhXVHXgX7phloR4AGqH1wCcBcjDfpjRk+OaFaZGgOwsbbf6X6nmW3ltiBlS1BzoRtiSnXWadRiRfumX/qImhNviby2Dg/7JLwrBI9KjmXpS6PLRUtOs/2fp/jWMrrk9rpvHp/UeOVA6qGx+NiZhRECCGAAVl30bAEp9ha5++MrgiqbTADEqJtODlMJbEYbs9qDkWnEdSu9wSbvdUKbc1T7aYk8taUs7JV6LbNJANrKSynz58KDVD8Zx04YcIYynPamdOnwiY0R8AxPOuPMWKzdIHZQz1omku5QHyCfZryW6wj2c7G2YrMO/7qZOjUniqFpfMftMsBpzqPtyOGlcKHJzTtX5tYDE2Je4K3tHxZ7IuLcvrFAgy/dNv7iR8tnR7S8BtTGdA0qJF8A1McuNc078A/qw4Fbhq27Sq4vL9EvcuN88k+ep4Jw/fxYMOArisfeJfy4KqQV1pMZCwajlOlLjYNb/JHraW0/D07+1XvaMS0zj2WA8Thc2sCww3Q9fm3ytbgdYkjOhsm7yCEvgANFWff7xfQWFfHqryDyd+b/sT1i1HZO8j3LwE12o4Zl+BtaUHYErOXD3kB8llTvTnfr6EPrTzG05r6JncG24hg4v0=
+
+%URL%
+https://github.com/mididings/mididings
+
+%LICENSE%
+GPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1673685691
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+boost-libs
+jack
+alsa-lib
+python
+python-decorator
+
+%OPTDEPENDS%
+dbus-python: send DBUS messages
+python-pyinotify: automatically restart when a script changes
+python-pyliblo: send/recieve OSC messages
+python-pysmf: read/write standard MIDI files using the process_file() function
+python-pyxdg: so mididings knows where to look for config files
+tk: for livedings GUI
+mididings-docs: documentation
+
+%MAKEDEPENDS%
+git
+boost
+boost-libs
+alsa-lib
+jack
+python
+python-decorator
+python-build
+python-installer
+python-wheel
+python-setuptools
+python-sphinx
+python-sphinxcontrib-fulltoc
+python-pyinotify
+python-pyliblo
+dbus-python
+scdoc
+
+%CHECKDEPENDS%
+python-pytest
+

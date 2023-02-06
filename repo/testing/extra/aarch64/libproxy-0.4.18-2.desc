@@ -1,0 +1,70 @@
+%FILENAME%
+libproxy-0.4.18-2-aarch64.pkg.tar.xz
+
+%NAME%
+libproxy
+
+%BASE%
+libproxy
+
+%VERSION%
+0.4.18-2
+
+%DESC%
+Automatic proxy configuration management library
+
+%CSIZE%
+85008
+
+%ISIZE%
+313205
+
+%MD5SUM%
+ac5609adc8617f485d56d0e5020464f6
+
+%SHA256SUM%
+6b61df110d34939ec6815c1ad6a16b02616e4c5ddb77e48402d2ae8f5327dce4
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmOrKscACgkQdxk/FSvb5qYRhhAApfkcg9Hs2/p16ZlEN7UgFvItRhYoLG+majIpK2xYME7C9M5RFr9cEipZdDp/yOtYED9br+erZSh0rru1uGuw8VmL6Y7WLs2tagkPZDgZeq01AuNAsN/B4sbPxl+xisAF7xKP27r3K6TBpGFUQiL4YhedxQZzjWdqy7IqZLGe87NOCn5GnDMtDUoqzbSNg8fkTlJrL8HEVzRSMVizwizkW/olaMBrGnTiJPt9H5nnGvI5O/mn3tc3Z9C05F54ibwXOrYSnTq3IYAEAVuflmTjSS3hof1ZVgBlzHU6H8XgOaxNwl2mkcmbPOBClHEPCD6UM/TFVvFW12/rvV/tLdmQLz6YUmxJ93QAcFmXyFGgMG+pzRvYvCUnXQBXd0jrnm4vijMeHiVhKh2LGuKf+eK8k6eoJgBmhqAEJfdxdFlmqJj4Yaef5D9AS3ESVGcC4FVI2XLlI+cX1rPePTBHiwViZWJycWRAGu6YVAmooHlQ3drZ2/wlDO2ZbbE2qiOSBUmn+S0YKkaYSAr9qU0oaYe4m40DXl0S5UmitcRJesZEP+W4tVSbgfwF+ikkjme1pO+BX22gY8m+oNhIq+TKl2lliejqjVT6rdlcCDBmsh0wP6MvDbegHAVp7iK03wromPCwtpUa/FKrEK28WaLjDRA23CmNs3IILUVsD2yd7bJXQV8=
+
+%URL%
+https://libproxy.github.io/libproxy/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1672161929
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%PROVIDES%
+libproxy.so=1-64
+
+%DEPENDS%
+dbus
+gcc-libs
+glib2
+zlib
+duktape
+
+%OPTDEPENDS%
+networkmanager: NetworkManager configuration module
+perl: Perl bindings
+python: Python 3.x bindings
+libproxy-webkit: PAC proxy support (via WebKit)
+pacrunner: PAC proxy support (via pacrunner)
+
+%MAKEDEPENDS%
+cmake
+git
+ninja
+webkit2gtk
+python
+perl
+

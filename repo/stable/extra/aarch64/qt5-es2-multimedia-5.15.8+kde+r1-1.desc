@@ -1,0 +1,76 @@
+%FILENAME%
+qt5-es2-multimedia-5.15.8+kde+r1-1-aarch64.pkg.tar.zst
+
+%NAME%
+qt5-es2-multimedia
+
+%BASE%
+qt5-es2-multimedia
+
+%VERSION%
+5.15.8+kde+r1-1
+
+%DESC%
+Classes for audio, video, radio and camera functionality
+
+%GROUPS%
+qt
+qt5
+
+%CSIZE%
+1068754
+
+%ISIZE%
+4031338
+
+%MD5SUM%
+186ef0cf3bfb48c480ad5e94c6f3749b
+
+%SHA256SUM%
+8df9a58ff3c90e7f05df2eea978a295bb3a05c9bc74792a0d91f0694ae4d1079
+
+%PGPSIG%
+iQGzBAABCAAdFiEEO3lN5tQyD85ZT0FxJ5589djVbsgFAmO+nVUACgkQJ5589djVbshlOwwAgiVvS3rNQCxE//73tbQh7u12uEEmyJ6Ws+EDg0OFI/8jg5j5xiSPogVYM7UaPPOG+qp83mzWkEDtbJ1agvqKRfqDxKq58mxzR09ro/CJGpGS5JOB276yYBoKlTTDpnJhp9Z3Ez6w6ZDSR4OOyp7z+yKkPJ8tkBtNZIA4Ts40h5RgbLXAVGMc8NLZxzhQ/f32QUrObWPWuL2Pzy+wCtEj53u0m9pFVOo7KiPbgk9ThpQeQZXJD0Ecu7/qTWypPYYFbRsEu134dIOhRZ7BpJoC/gbl2njRbmnlcpxSXwVnJ2l26JufWoTV+mVBGOJvR/n44HFZduBOcP6gVYfdylZ8JptK69bDwVHvBFcn/vV4Vm95bDEwLSn6OdUz1/F2vzTAsoTEWWmik8fHRFtyoSt8D2EP4jR6TXSoLA0/ONC/98XsYXfVBO8U9GatGZx9tImoN1z3yghy122DTjG1r+XvRla0TsPhhVM99PGYy9GnM53i4nfG5jdHAsSX8fbQew/A
+
+%URL%
+https://www.qt.io
+
+%LICENSE%
+GPL3
+LGPL3
+FDL
+custom
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1673436280
+
+%PACKAGER%
+Manjaro Build Server <build@manjaro.org>
+
+%CONFLICTS%
+qt5-multimedia
+
+%PROVIDES%
+qt5-multimedia=5.15.8+kde+r1
+
+%DEPENDS%
+qt5-es2-base
+gst-plugins-base
+libpulse
+openal
+
+%OPTDEPENDS%
+qt5-es2-declarative: QML bindings
+gst-plugins-good: camera support, additional plugins
+gst-plugins-bad: camera support, additional plugins
+gst-plugins-ugly: additional plugins
+gst-libav: ffmpeg plugin
+
+%MAKEDEPENDS%
+qt5-es2-declarative
+gst-plugins-bad
+git
+

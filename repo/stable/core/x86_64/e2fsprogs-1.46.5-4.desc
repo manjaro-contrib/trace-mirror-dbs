@@ -1,0 +1,67 @@
+%FILENAME%
+e2fsprogs-1.46.5-4-x86_64.pkg.tar.zst
+
+%NAME%
+e2fsprogs
+
+%BASE%
+e2fsprogs
+
+%VERSION%
+1.46.5-4
+
+%DESC%
+Ext2/3/4 filesystem utilities
+
+%CSIZE%
+1228056
+
+%ISIZE%
+5161598
+
+%MD5SUM%
+a320bd260465cf6f1f12a839dc24d0d3
+
+%SHA256SUM%
+aaa1382d2ab882500a2d1c9df371446aef05e7de08573c147182d6437681c13f
+
+%PGPSIG%
+iQEzBAABCAAdFiEEW34/txt/EDKaHAOrdx32Yn7faB8FAmKnM2MACgkQdx32Yn7faB+nkAgAu5A+TQJFf6iaFcwgtZYCXI7hobg74OLtimTCDAgAsmmrlNWdQnOIhLYlSOJo4nNHEmzAnJGVkIRX7NrGk3pS5TSO0r3spD4EfYBdQXLRdExScKqYcSAMQaWoHtYybjAaVaQpYYT2251Cpr/GrLJcXZsVRT+wygFuPs7HvcCeab36mDQbk20xhgiMkN0ZCbXnGtsLzkWdr+1GVNpUoWKmleqIeUyRi4VjdHVx76UBElznhOkiAoEpzeU1NyP2ugUceUjKOGvGpPFUVN0TAnzoVE0QD5ILgD5t49dJdaWwVi7+ZoCZdNh7D5kvVOQwL9S7Tj23y4UEXYRT8dSZ1TskGg==
+
+%URL%
+http://e2fsprogs.sourceforge.net
+
+%LICENSE%
+GPL
+LGPL
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1655124767
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%PROVIDES%
+libcom_err.so=2-64
+libe2p.so=2-64
+libext2fs.so=2-64
+libss.so=2-64
+
+%DEPENDS%
+sh
+util-linux-libs
+
+%OPTDEPENDS%
+lvm2: for e2scrub
+util-linux: for e2scrub
+smtp-forwarder: for e2scrub_fail script
+
+%MAKEDEPENDS%
+systemd
+util-linux
+fuse
+

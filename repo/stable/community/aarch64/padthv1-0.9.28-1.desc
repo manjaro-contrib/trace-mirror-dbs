@@ -1,0 +1,74 @@
+%FILENAME%
+padthv1-0.9.28-1-aarch64.pkg.tar.xz
+
+%NAME%
+padthv1
+
+%BASE%
+padthv1
+
+%VERSION%
+0.9.28-1
+
+%DESC%
+An old-school polyphonic additive synthesizer
+
+%GROUPS%
+lv2-plugins
+pro-audio
+
+%CSIZE%
+357636
+
+%ISIZE%
+2161809
+
+%MD5SUM%
+4d4cc185993acbc80845596a421e5107
+
+%SHA256SUM%
+fb433f89e8ff932fe25c8ab2004715b2a1063e48cd1a9447c9bd6205675153df
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmOvGoAACgkQdxk/FSvb5qZ6FQ//YUcYpE1R5ajoZD4YekcMG4IYc+VJ6iID96c0NVEo/Xv1HN4Gf+SYeQbRaE7MKjqM79KX+9GnJjLS4fD9Knena+DiQm6M39/WXl21+j26yQyBf8ZSbD3fZEskrfUMSMRJyv++Ho/EDX8iQGPm8D7BVwGt/G6WueB1YHXVYsGyq9n8RoF+cMhS24NssKfIIoOkVTdzXilEPL7nrTmECJAerU92rf+mV0RO6QdJAeX272ybYjYDoElzoXGV1jkiv0ZfP+zpzktHb7E1nqtsuMYDINM+NKb/s+gq65rgP/sOxaVrNSosx5uUmAeoZe0itjW818eiP6OGvJH/e5H8Z6sQXRZ52bZR7qWCMuAdPX2nbf0Ckil3QbXLJC2wmUxK89LB3ZW2s6Q6LFd7OqoZ5DFYdvpXcBJ1M6V4VMa8JccapDn1iSlQoi6ezLm4UAwQinefEF5L4KoaQxATF0gipWOB1lpl2UtSdy0jQsOrXk7I4EN0k9xr1AxzM6GbIKL1bKflLo6V5ruRVHqruVJbuiWWML0gjldbL5l2nPehvJodzswAkTnVrkZDzNJzZed08l+qJGwg8JPopGwYFU3l+v74JSJcl1TEO5/Ms+swlX/QHUpmk7JXoRHnBsP3D3yTDursur1DWfVZqbmZzVjMehIjjmurzJlHxNtCAmENfqz1c2s=
+
+%URL%
+https://padthv1.sourceforge.io/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1672419884
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+hicolor-icon-theme
+lv2-host
+qt6-base
+qt6-svg
+libfftw3.so
+
+%OPTDEPENDS%
+alsa-lib: for standalone application
+jack: for standalone application
+liblo: for standalone application
+new-session-manager: for session management using the standalone application
+qt6-wayland: for native wayland support
+
+%MAKEDEPENDS%
+alsa-lib
+cmake
+fftw
+jack
+liblo
+lv2
+qt6-tools
+

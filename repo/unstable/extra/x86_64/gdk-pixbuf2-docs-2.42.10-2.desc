@@ -1,0 +1,61 @@
+%FILENAME%
+gdk-pixbuf2-docs-2.42.10-2-x86_64.pkg.tar.zst
+
+%NAME%
+gdk-pixbuf2-docs
+
+%BASE%
+gdk-pixbuf2
+
+%VERSION%
+2.42.10-2
+
+%DESC%
+An image loading library (documentation)
+
+%CSIZE%
+1302241
+
+%ISIZE%
+4084889
+
+%MD5SUM%
+12aa94fcb7d80e907b01b75d53a15e2a
+
+%SHA256SUM%
+cbfeb097857d09925f8d6682eb0df7a3019a61ac01267cd2694979b609805a6e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmOzWXAACgkQeGxj8zDXy5I+KRAAnX+4VcCR2VYlXYLOEFbZQkp5L6QyEyUbgWTEdzDuWmCK/i4/LdHyI4psGvg1VfCLgyWKzM0rBMwFnNqedMPhIhErVr7sf5r/vylCN8ZiRdKJ3HIuOnbvGrkoqz9l4mUH+Ahqw2zEfhCU8fiHvJFIUf4ne1AFAQ9u9GC50EhF5TZ39ssTn/SBF46oIHLNXxlVRAj0Opjm7aEjfdzwJWx1v8ZtOVE3u297FvpPZ7cSnAPhmm9v6ofKtiAUDud+8sztGt3aQVRo9FZETXIYolCJ5k48rYG7a3+GU6EB8msXx5W/Bv8YC+wQeOCwcbsTER3cUBqZPImLKH5hyhBPOBz73CgRlZ76NiiYZODtMFEKRDeAap78ZROz12YQpXJDrMX2NoCpIJvt2806UtarwCgcvWSgauOn8xcpa3hAsloaePL7AkqxRV6ylgieDEgzWLQlCZ6FrPpcC3VqeuRDrvmamZK1kDqqCsqyv0F8mMd8zunVmjg4j6G3OipHOEvJxx5AVnUBlP4zBaf/1tC9CqiMBqdodv8KRGFeQUla2/zFo4aDKwup7z11DbFa1sgpxukTaaEJbPvh1fcCyX00rbLkmLQX7gP1pb0mx2iFeYhK6VPl382JNB3EsSEIazwMrsGzxTEBEePfkJSQKoBju5yKAo/rJ5gjuH8DjNGYu6R310E=
+
+%URL%
+https://wiki.gnome.org/Projects/GdkPixbuf
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1672698148
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%OPTDEPENDS%
+libwmf: Load .wmf and .apm
+libopenraw: Load .dng, .cr2, .crw, .nef, .orf, .pef, .arw, .erf, .mrw, and .raf
+libavif: Load .avif
+libheif: Load .heif, .heic, and .avif
+libjxl: Load .jxl
+librsvg: Load .svg, .svgz, and .svg.gz
+webp-pixbuf-loader: Load .webp
+
+%MAKEDEPENDS%
+gobject-introspection
+git
+meson
+gi-docgen
+python-docutils
+

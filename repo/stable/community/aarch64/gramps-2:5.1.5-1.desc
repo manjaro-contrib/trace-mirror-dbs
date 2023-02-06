@@ -1,0 +1,65 @@
+%FILENAME%
+gramps-2:5.1.5-1-any.pkg.tar.xz
+
+%NAME%
+gramps
+
+%BASE%
+gramps
+
+%VERSION%
+2:5.1.5-1
+
+%DESC%
+Genealogy program, which helps you track your family tree
+
+%CSIZE%
+8706524
+
+%ISIZE%
+59562406
+
+%MD5SUM%
+20a81c7ee55da8f155c193e95b69290c
+
+%SHA256SUM%
+4a37acc91fa0060401bd11cd0f5e7acbe53c356fd5f9963e710748634877d92c
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmIIgmMACgkQdxk/FSvb5qZllw//Td2IW1kGuvWW0pfmwinSDH6TuUnqoztuY2SNQjhK6RuVWZ5f8RKKLV6diMFW/69OT8xkXgXHxvyrwtJU+6cgksz/DDyiZwO8uBzLknIecx8faLslIjhDYo6abL5aEzLIfUAiSCqRVZWRdNomNzIQ6nP8btBFS+MFMgBUiTu3m55irZW3CyXVu3SchEqwvukldo6+a+x4smSV7XlOj3Yn/dh00UoG2b8dGZtyrizZ6EmtMbjS82sXbwZbB9AzM1/fPOt8Id+4KbNmP6hMWnFxKdLHlVEnImXEYM13O0UMvxbSDZIU5b4hekyQHhxmRDHs3Xq27xq7dNKCZUmYOyfbknIP4ibOaEz/Q0OhqgYDw1PmKHHA2wv1RtwBzraBSjXC9NoVZBjjM1j8AsSgj3/LQUCkh/kzOwHW/AdR3KpV5+9RzH7pQyZlqPC9Sf6rvnXVlaUUMK7yp2BtXWMwTCawkg302aL5yz6x4E+GwK72EmSuHabymjdemPd/GzfrkdkWByWoKv565OZ9GmEO8B28Iu+T3mWHqZ7fZuYZAeLKfGpmM66+YE/1WElmWPTcYUdXcvugS6DsJ1pzBJxFmYK/xZAQinPobggoYO6zE2AfRA8Ar6q4+67d8sA609BxWNS6Cv3ckTGzOkR1QxrPjXe/NJ3uv4zD417xdfvnwWzK5Rg=
+
+%URL%
+https://gramps-project.org/
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1644724690
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+gtk3
+python-bsddb
+python-cairo
+python-gobject
+xdg-utils
+
+%OPTDEPENDS%
+osm-gps-map: show maps in the geography view
+graphviz: enable creation of graphs (required for tree reports)
+python-pyicu: improves localised sorting
+gtkspell3: enable spell checking in the notes
+rcs: manage multiple revisions of your family trees
+python-pillow: crop and convert images to JPG
+libgexiv2: manage Exif metadata embedded in your media
+geocode-glib: associate a geographical position to a place name
+
+%MAKEDEPENDS%
+intltool
+

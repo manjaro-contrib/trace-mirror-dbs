@@ -1,0 +1,75 @@
+%FILENAME%
+mkosi-13-1-any.pkg.tar.xz
+
+%NAME%
+mkosi
+
+%BASE%
+mkosi
+
+%VERSION%
+13-1
+
+%DESC%
+Build Legacy-Free OS Images
+
+%CSIZE%
+210832
+
+%ISIZE%
+1011931
+
+%MD5SUM%
+44a8479f073073bd99d0e60cdb954391
+
+%SHA256SUM%
+9bd8d05df74181f8c20d3acabff40385090bad95f64da6b421251da003f32ea1
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmK0ZXkACgkQdxk/FSvb5qa2Zw/7BoTnsGAJOuXX91pPT8aSyMDVl7v3kPQ4cxcHfn4r6p49qBZRGSOo6RiA6OwtYvpv9Mwb6uT1L7IZ/1Da6q6uf15fHv+Tkbx7aEB8YtWkFlYNayXeWxINItmreCVx/y7wIfKVv3IZ+mua6+XzbjvYavkqjmtPPPu1v+Z2xTt3DvGA0FFhNrFxV+BLVPfeBikVmgQH4be3CbJPdkzJ/mNWPg+bjKgBuV29k95M/C4B6buJxiIOUZNVjdd3hY4EMnn4gvviKB1MSk1e5TIVUXKyqE+Tb2XG38AbuOwjOWqSB7szBrghlEFgZ+d75X/7beMmeNIwhDeKxOGMM4xb7NAo3EqxwrAx2APMcoM6N5xmStnbLYfx8qaJO55jn3ABWcjJoRlLfrlwGmv1vYpCnSWdb19FY2XQuzycQuqedD6zoamgMKxbteXWSsuqefR2wX5S7G1fI9kJjOvUDmAk44Tn7K6mi9LiaaNPeQiht4cXUq/xzYGih5KT16f7MUYHGx4tJjQzSaYRJlp7ke8x4gn5/c1L9WTMXAXUs6emHrmyKP+C4ohtCetQ8cvnld9/5iXHEHoAqAoZ4PUfxsdl2JpBqaKYnNWR5/r9wbs4uaDwXvHfcdTsWSpVLXCpfgoKUHsu+Ib9A3X2hUtfnaIHLDs/VoWjHo42Vkon4WuPL9EbSTY=
+
+%URL%
+https://github.com/systemd/mkosi
+
+%LICENSE%
+LGPL2.1
+
+%ARCH%
+any
+
+%BUILDDATE%
+1655989601
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+arch-install-scripts
+python
+qemu-img
+
+%OPTDEPENDS%
+btrfs-progs: raw_btrfs and subvolume output formats
+debian-archive-keyring: build Debian images
+debootstrap: build Debian or Ubuntu images
+cryptsetup: add dm-verity partitions
+dosfstools: build bootable images
+gnupg: sign images
+qemu: run bootable images using QEMU
+sbsigntools: sign EFI binaries for UEFI SecureBoot
+squashfs-tools: raw_squashfs output format
+tar: tar output format
+ubuntu-keyring: build Ubuntu images
+xz: compress images with xz
+zstd: compress images with zstd
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pexpect
+python-pytest
+

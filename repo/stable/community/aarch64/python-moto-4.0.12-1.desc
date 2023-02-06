@@ -1,0 +1,89 @@
+%FILENAME%
+python-moto-4.0.12-1-any.pkg.tar.xz
+
+%NAME%
+python-moto
+
+%BASE%
+python-moto
+
+%VERSION%
+4.0.12-1
+
+%DESC%
+Moto is a library to mock out the boto library.
+
+%CSIZE%
+2497300
+
+%ISIZE%
+30069080
+
+%MD5SUM%
+082219c1809e9cfcbe53c934551cb3f9
+
+%SHA256SUM%
+00bc6e45ca8725db5a200f895785769f59015944bb58edadfbfbfb1e2711381b
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmOhHVQACgkQdxk/FSvb5qZACg//acJ9ZhvTenYWfd2QZYS0dEP9f8Gg2gqNwzR6TiIT3YDJGtYP/mMRi3bi3Zd21QjbbRcTN8hfYv8RiuCkQYnBD652HaM3joEDt8XRKcT2EmDViO/5xYb6xdmFbexnLAZLicuKhnLGEcJO6r2JqAgVklwX4N/6Ikc74Wvg0Y614Kgilg2xWFqP7fsFUfu69ydh3M8OwOXjK93eREAFOP2DRdF2PSSop8hLkQdk7fsjEcmPMiqnpdAmlkHYxKHNHoH4ABMWMp1o7ITkJeDe7sq21vMx2PNPc/4gyhb32pgGtLNYlMgzwmytXFMs9tADe1RUjtfNsyihI0HyRl0bFD/WgJH6PHJWDWmp/pW3zLkxa0kbKEvAhFmSWoePFKhahFT7YutX5vJ2knPXMK3DzwbtcF+xpAd6r2rtME3KS/14LGZ5r66Dm124gllYDcnqfJms+5JeraIK9uvivtUW5fCJKPXLNjegf92QTyBcvNO+X6Nf2rO7M8rDzhgQ+jWsWhl0VfBK3q//p7whz4jd2jJKOU/XJeE4EFNf9MufZ1Yd59VKRK0r8hyTnBBspA5OQugBDt6Y1I+o6xRtG+T5v8r+r1Z4EEdmRzWGtuybjuPIAAknGrrQ1/in5sSEaItJRCiNUXqKpjGQDCX2ihSfGIqSdDgmg1Qp5CvFDdaNz8qmLNw=
+
+%URL%
+https://github.com/spulec/moto
+
+%LICENSE%
+Apache
+
+%ARCH%
+any
+
+%BUILDDATE%
+1671503099
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-boto3
+python-botocore
+python-cryptography
+python-requests
+python-xmltodict
+python-werkzeug
+python-dateutil
+python-responses
+python-jinja
+python-urllib3
+
+%OPTDEPENDS%
+python-yaml: for apigatewayv2, cloudformation, s3 and ssm
+python-jose: for apigateway, cloudformation and cognitoidp
+python-openapi-spec-validator: for apigateway and cloudformation
+python-docker: for awslambda, batch, cloudformation, dynamodb2 and dynamodbstreams
+python-graphql-core: For appsync and cloudformation
+python-jsondiff: for iotdata and cloudformation
+python-aws-xray-sdk: for xray and cloudformation
+python-cfn-lint: for cloudformation
+python-sshpubkeys: for ec2, ebs, efs, directoryservice and cloudformation
+python-pyparsing: for glue and cloudformation
+python-flask: for moto_server
+python-flask-cors: for moto_server
+
+%MAKEDEPENDS%
+python-pytest
+python-sure
+python-freezegun
+python-yaml
+python-jose
+python-openapi-spec-validator
+python-docker
+python-graphql-core
+python-jsondiff
+python-aws-xray-sdk
+python-cfn-lint
+python-sshpubkeys
+python-pyparsing
+python-flask
+python-flask-cors
+

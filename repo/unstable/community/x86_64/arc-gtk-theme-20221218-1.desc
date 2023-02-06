@@ -1,0 +1,59 @@
+%FILENAME%
+arc-gtk-theme-20221218-1-any.pkg.tar.zst
+
+%NAME%
+arc-gtk-theme
+
+%BASE%
+arc-gtk-theme
+
+%VERSION%
+20221218-1
+
+%DESC%
+A flat theme with transparent elements for GTK 2,3,4 and Gnome-Shell
+
+%CSIZE%
+369787
+
+%ISIZE%
+7752363
+
+%MD5SUM%
+d2b73b9a98ac468aebb82c91e6ef1ea2
+
+%SHA256SUM%
+17fac05a10749d466d8187e4f446dd8a19b5b20f249835f6fbc000e348529eff
+
+%PGPSIG%
+iQIzBAABCAAdFiEElzEtXrnXrn0L1DBzUdrpt8GukWEFAmOjO+gACgkQUdrpt8GukWGSlxAAlRoKt3G5Lb7GS93Zz8bSOQt4bqINpC+vdWFhtTzGj3uZcAi9FJegaekvKuZMJ5FKCv+wfB7VPce90ezeR0FU++eLU/NWz+UCv7U10v8dn9Ns1vaKDfZORA72wI5kowt5egPR46jVArdNUkLRRhUAQwEP2rovhgOHtSvZik0kSelN4IzcfjkjJfahN2cG4lzlpzp1+ZsoDvU7/wpdDHQ3x1l86/9p+BFCKmxCLFqxnSFcq7uPlONFSfMtOtDSXSy9OTbdtwlqUsLlTFZ9339G8EI9aXQ2qFSs9RULtI2QvqqsrTE26XblPXevKy2cjvIHiw0aFHGkoU8MP74zBeJd1ZBHN7YQYcMeNYgO7GqyYV0Q26ShgA5F6O91HP03cV8gXNR3AFlg9qBScxd8Bvn92TyiWUSSvhfiIvgIbRiGzt0k8DxfQaU5d2oYZSxPPHKLWGqw0b74dlZ374MPEfYiylrp+1raOFJzXpfCKvtO9iJQYA5qzKz/kEL+Y89N4rg3DoquIqKZLaQq4YQWplWRgKDVmnZolyYAsjeTZtFMFlg1sV+guGfo9z+Mt80UnGwAdXOD+7l0w9ignWzfNnAO51zNipB9WNMf6pMREuRh+kgg7HPCrwwQ2Nrf68xDrHK8U89YXXu1WzQdj7eWqc/grCb5kBGE+ng7TxnFDMd6UHM=
+
+%URL%
+https://github.com/jnsh/arc-theme
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1671641792
+
+%PACKAGER%
+NicoHood <nicohood@archlinux.org>
+
+%REPLACES%
+gtk-theme-arc
+
+%OPTDEPENDS%
+arc-icon-theme: recommended icon theme
+gtk-engine-murrine: for gtk2 themes
+gnome-themes-standard: for gtk2 themes
+
+%MAKEDEPENDS%
+meson>=0.53.0
+sassc
+glib2
+gdk-pixbuf2
+
