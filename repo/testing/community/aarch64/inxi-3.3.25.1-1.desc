@@ -1,5 +1,5 @@
 %FILENAME%
-inxi-3.3.24.1-1-any.pkg.tar.zst
+inxi-3.3.25.1-1-any.pkg.tar.zst
 
 %NAME%
 inxi
@@ -8,25 +8,25 @@ inxi
 inxi
 
 %VERSION%
-3.3.24.1-1
+3.3.25.1-1
 
 %DESC%
 Full featured CLI system information tool
 
 %CSIZE%
-371821
+373358
 
 %ISIZE%
-1202004
+1205623
 
 %MD5SUM%
-67e9a4c8222fe407ef006c5d15a8a5c4
+ca1280789fc54c99703c691f2538b932
 
 %SHA256SUM%
-efa2c940799a9e85e0f11929e3c57b0634f138a467b7eab113e82144aade8636
+6ec3fb3624df8907074bfb790730fd5e69ba69fe43c075578ce52c123bfade31
 
 %PGPSIG%
-iQEzBAABCAAdFiEEekQ87mm2s3d3QOJYCEp/wANbHUkFAmOWHeMACgkQCEp/wANbHUnFZQf9HaGrkIbQH8I7SffJ3WBGSukR7or6uyr1LhnIpGkmC9v4nRJr3DBwu4AZqpvv3r9uA5kRY0jGMfQoPeMWoUgWTOCbBdhRNlQyeXXlN+RKemSTcwhvXLtZC0NCgn8suNlYzc3zRdmsmVwT1XktEkDdm8ozeprJsBkb9+NlGWSQhITryKjeJogtCCbbGCwim8CR6BQ/3NhnG+mOg3aRqePfW0NYD7oxPhK7fNGG9zjOsjKx/lzGHjAP59cHiIzcajtY/waj3qxc//ZwWoL8Sv9eDiU9C8Wsob8NLFsvWPmSpi6dpSZ5GpYtM7oRqWk6/F8DonJmQKVxAE9M4R90uGlkvw==
+iQEzBAABCAAdFiEEekQ87mm2s3d3QOJYCEp/wANbHUkFAmPjxeAACgkQCEp/wANbHUlgjAf9EOYqQVENZLNoUdrtrf3ALtTIikexLKsrxfcseLqx8DDHwJb8DHUay9eWr8WibeChc8erBUYyQRRAdKUxhbCGCEFiyw6/ht0fWDCPmDLuqGnOpj9U7gtVi/gv0RJN4x0Tz7WpZHaQQSTuTelWGilYzubCT5iCgCAFXOPdnxWSBaBtsmQv0OzraArqyMXEjMB+UZe88SzQ9cvcP8YPSJ0j+hA9OadSD5+1hDDutr6ZAMatLxY+M7Zj24lW9LIB/v8IqxpqDC16mzTHXX/QWm+nGy++zGc76XP956fjNg0JcR4ekAec2fm3eXOwOg8cQ8q51X5Q4g6LZ7yoMZMU4DHAbQ==
 
 %URL%
 https://smxi.org/docs/inxi.htm
@@ -38,16 +38,17 @@ GPL3
 any
 
 %BUILDDATE%
-1670773408
+1675867534
 
 %PACKAGER%
 Manjaro-ARM Build Server <build@manjaro.org>
 
 %DEPENDS%
-util-linux
+coreutils
 pciutils
 perl
 procps-ng
+util-linux
 
 %OPTDEPENDS%
 bind: dig: -i wlan IP
@@ -71,6 +72,7 @@ perl-cpanel-json-xs: Cpanel::JSON::XS: --output json (faster than JSON::PP)
 perl-json-xs: JSON::XS: --output json (legacy)
 perl-io-socket-ssl: IO::Socket::SSL: -U; -w,-W; -i (if dig not installed)
 smartmontools: smartctl: -Da advanced data
+systemd-sysvcompat: -I runlevel
 sudo: -Dx hddtemp-user; -o file-user
 tree: --debugger 20,21 /sys tree
 upower: -sx attached device battery info
