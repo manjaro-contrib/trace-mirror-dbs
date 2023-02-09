@@ -1,0 +1,96 @@
+%FILENAME%
+amsynth-1.13.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+amsynth
+
+%BASE%
+amsynth
+
+%VERSION%
+1.13.2-1
+
+%DESC%
+Analogue Modeling SYNTHesizer
+
+%GROUPS%
+dssi-plugins
+lv2-plugins
+pro-audio
+vst-plugins
+
+%CSIZE%
+981810
+
+%ISIZE%
+17112381
+
+%MD5SUM%
+9dec2ef19c1bcd30832246aa42ad4b7f
+
+%SHA256SUM%
+b231dfb5cc310db91b1f41d877d42344090af940e622b6b3d0654b1e0b45a2f1
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCY+FHuAAKCRATmwnaW/DTOFFtAQDEX38YgnbyCwlq+FRSHAr7HBy5eDVQ/VcmXR+uTtJDtwEA4ky6ENTm9QgRVvDjmpNLvga3vk4zTncK6M7cPDzCJAE=
+
+%URL%
+https://amsynth.github.io/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1675706714
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+cairo
+gcc-libs
+glibc
+atk
+libatk-1.0.so=0-64
+gdk-pixbuf2
+libgdk_pixbuf-2.0.so=0-64
+gtk2
+libgdk-x11-2.0.so=0-64
+libgtk-x11-2.0.so=0-64
+glib2
+libgio-2.0.so=0-64
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+
+%OPTDEPENDS%
+alsa-lib: for standalone application
+dssi-host: for DSSI plugin
+jack: for standalone application
+liblo: for standalone application and DSSI plugin
+new-session-manager: for session management with the standalone application
+lv2-host: for LV2 plugin
+vst-host: for VST plugin
+
+%MAKEDEPENDS%
+atk
+autoconf-archive
+dssi
+fontconfig
+freetype2
+gdk-pixbuf2
+glib2
+gtk2
+harfbuzz
+intltool
+jack
+ladspa
+liblo
+lv2
+pandoc
+
+%CHECKDEPENDS%
+lv2lint
+
