@@ -1,0 +1,66 @@
+%FILENAME%
+gandi.cli-1.6-3-any.pkg.tar.zst
+
+%NAME%
+gandi.cli
+
+%BASE%
+gandi.cli
+
+%VERSION%
+1.6-3
+
+%DESC%
+Gandi command line interface
+
+%CSIZE%
+296952
+
+%ISIZE%
+1973331
+
+%MD5SUM%
+0f6afbba61114258bfa24a00ed3a532f
+
+%SHA256SUM%
+87dcceb786942b0f5e9c4e55e0014ddf637821749da577a06ac202c9f1bcd760
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmGqW+MACgkQeGxj8zDXy5IGExAAhCHbtzf0sAb79D/J4PDGLhpWtTi0HW7PuZU4OPdZcJ3iVT3NyUtB3oTfgenBrDAhzeNEwaeiI6ZnOnHvHLfzIEGW4p/p/RXVYPJ2VB+konXI0W0wTgYMd33uwsjFPKedLYv5KKjR/ecHRIBjSYxzHCwfuCAs+jRK3arKzKltRJg8KMX8SZGSB8XWNmrfVJkANXMmc2Xr7M255GFdnQdC8HS8guVXXbpldMO8yPHwBsAqlUzfRUJlq7kgK00YbqHiJF3SbTQB4i6SUBqFEf9GtStiLOdNp5aUuhCV7hCzTyFHWYp6ZWn5+Ril3ZAbOFuYzhKUhiiOzW317HK6uZf/CBJW494pnji/s75MTgnSwvlXZ2ccZFvgS4xfV1cUlukz3TFn8HrI+M5Js98ENl99uA/pmaSaZAwZ7GAw5f+MVaku1xfWn+GlEqydwA1QT92HIk5aQDzqS02kByb2scujn8SRF/Pd49mH3w4fMgzWIM4LC5RcKlJxOwNalrbmOxcd7i0NToJOqV0zKqLLtd9vhIjLlKtwOjsOl3H2KG1eFgGkXUAQHmbTkRbm+IYFIC1HJjWaDVGKXDfi+BAEPWP5zkYNQ6LIk9nGDR0WL37czU34fbjGtR3hDuaG7zL4+9CB4irdrGqiDTznNTSEdCOmKTY9rbNBVYII0H1TMAgJi3w=
+
+%URL%
+https://cli.gandi.net
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1638554545
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python-click
+python-ipy
+python-requests
+python-setuptools
+python-yaml
+
+%OPTDEPENDS%
+docker: docker integration
+openssh: ssh integration
+openssl: certificate creation
+
+%MAKEDEPENDS%
+python-docutils
+
+%CHECKDEPENDS%
+docker
+openssh
+openssl
+python-pytest
+

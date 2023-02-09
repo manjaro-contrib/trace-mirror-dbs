@@ -1,0 +1,68 @@
+%FILENAME%
+python-pytoolconfig-1.2.2-4-any.pkg.tar.zst
+
+%NAME%
+python-pytoolconfig
+
+%BASE%
+python-pytoolconfig
+
+%VERSION%
+1.2.2-4
+
+%DESC%
+Manage configuration for python tools, such as black and rope.
+
+%CSIZE%
+27822
+
+%ISIZE%
+100114
+
+%MD5SUM%
+dfd026aceed298788524aca8170dd592
+
+%SHA256SUM%
+fdf59dd48195825f20fee679daa4a2defb390686972d6fbf05c163d0a5b98b2f
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCY7xdEQAKCRATmwnaW/DTOCJPAQD2NH8dCjzaL2h2ymkodgQu8Plsrs4sBvtqum10/8V7kwEAoMsE0Y9lkuu3phc3weI9utBpT9EAYs2jCwwaJxvp4g8=
+
+%URL%
+https://pypi.org/project/pytoolconfig/
+
+%LICENSE%
+LGPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1673288685
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-tomli
+python-packaging
+
+%OPTDEPENDS%
+python-appdirs: for finding configuration dirs
+python-pydantic: for validation
+python-sphinx: for automatic documentation
+python-tabulate: for tables in documentation
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-pdm-pep517
+
+%CHECKDEPENDS%
+python-docutils
+python-pytest
+python-sphinx
+python-tabulate
+

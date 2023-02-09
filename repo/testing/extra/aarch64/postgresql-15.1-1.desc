@@ -1,0 +1,82 @@
+%FILENAME%
+postgresql-15.1-1-aarch64.pkg.tar.xz
+
+%NAME%
+postgresql
+
+%BASE%
+postgresql
+
+%VERSION%
+15.1-1
+
+%DESC%
+Sophisticated object-relational DBMS
+
+%CSIZE%
+17995024
+
+%ISIZE%
+60765163
+
+%MD5SUM%
+40372525a038e673e57f1a14aa48068e
+
+%SHA256SUM%
+db70cdd6d36210e116f93060a78886c26c168e26b75057b8218d6714f0d1bbc2
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmPVcOAACgkQdxk/FSvb5qYMRRAApe0lWOWuMhissaK9rUdg63Lbiz210J9bH6RwITunYldhJSkJuRAPqDLBYNpUBQyS0GLrVTBhvlqVIH9aFmyyKrzwGk7bidEQyzX+Nygih+MWYSXTz7fBSscOdJ6y0zu/vcs+qUMVuAnKd7AzCCE505V4SSsXDzbUNp+QmuOKncQFWjjq3yIC9AdfbcYS7SIdsvw1bAWXssCE/kT0kMEOTQ0HzSoJ+5m/V5k2lIobfGFUjjoWXXmv3n6NDLunrgHNyh9ulW6ShhTDXZgDjF7XAUt/HFEFu3xCkbHH/UKC4E8L7YTSxmzGNjaugKFXsiVT+SRUkAyr6Hrle46PYAO0s+EdKBEmTjqCaVfeRLOTFuVR/zcQU5bq7B/7I2cTJ9lSBts1icwm2G/qV8FPoU2jAh/vzbmJRob6aPD0jUZIHk2tAhIoMTle+aYRH/7fVV/nZHWv2HL9DUXWsqp5Fr2ijrM5bLkFsQ5OYteNQcCE37i3KpSs1OpAd9Xe1W6gA1ywSnZ6nwFh8xckeOp9Jq37Ovr8CxW/TIPpwPL03B34yq50WnpU0XYGmlGV+4HexdFhNF2m3vwxdUmEP9Nv4w6EdgS3CWcJwKfqy67NdKeee8P7reECkXMGiLbov+ZqJCLqy/nF0QZ/nNS9Oj6qjPOyOSPOE+bVu38tF6NcAJyVhtQ=
+
+%URL%
+https://www.postgresql.org/
+
+%LICENSE%
+custom:PostgreSQL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1674932122
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+postgresql-libs>=15.1
+krb5
+libxml2
+readline>=6.0
+openssl>=1.0.0
+pam
+icu
+systemd-libs
+libldap
+llvm-libs
+libxslt
+
+%OPTDEPENDS%
+python: for PL/Python 3 support
+perl: for PL/Perl support
+tcl: for PL/Tcl support
+postgresql-old-upgrade: upgrade from previous major version using pg_upgrade
+logrotate: rotates system logs automatically
+
+%MAKEDEPENDS%
+krb5
+libxml2
+python
+perl
+tcl>=8.6.0
+openssl>=1.0.0
+pam
+zlib
+icu
+systemd
+libldap
+llvm
+clang
+libxslt
+util-linux
+

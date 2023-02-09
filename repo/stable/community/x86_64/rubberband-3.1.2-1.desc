@@ -1,0 +1,73 @@
+%FILENAME%
+rubberband-3.1.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+rubberband
+
+%BASE%
+rubberband
+
+%VERSION%
+3.1.2-1
+
+%DESC%
+Time-stretching and pitch-shifting audio library and utility
+
+%CSIZE%
+1571636
+
+%ISIZE%
+6172026
+
+%MD5SUM%
+e0a05c73a05d054fa5689b461b5e69f4
+
+%SHA256SUM%
+a31aceeb189be6833aa4cf90abfa4f236afb4bc2ca27dc614b65deb97958c995
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCY4pDMQAKCRATmwnaW/DTOI0VAP4uXsKXxF0o/EqckN1a5k9aDWUdQtNF5QTYJBdgwtx3igEAncHqh7HyqeMl6TwkAjSF+zHbiO4uQ+5BFs31JIWjrwc=
+
+%URL%
+https://www.breakfastquay.com/rubberband/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1670005446
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+librubberband.so=2-64
+librubberband-jni.so=librubberband-jni.so-64
+
+%DEPENDS%
+gcc-libs
+glibc
+libfftw3.so=3-64
+libsamplerate.so=0-64
+libsndfile.so=1-64
+
+%OPTDEPENDS%
+ladspa-host: for LADSPA plugin
+lv2-host: for LV2 plugin
+vamp-host: for VAMP plugin
+vamp-plugin-sdk: for VAMP plugin
+
+%MAKEDEPENDS%
+boost
+fftw
+java-environment
+ladspa
+lv2
+meson
+libsamplerate
+libsndfile
+vamp-plugin-sdk
+
