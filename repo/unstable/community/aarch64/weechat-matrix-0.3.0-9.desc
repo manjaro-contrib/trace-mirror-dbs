@@ -1,0 +1,75 @@
+%FILENAME%
+weechat-matrix-0.3.0-9-any.pkg.tar.xz
+
+%NAME%
+weechat-matrix
+
+%BASE%
+weechat-matrix
+
+%VERSION%
+0.3.0-9
+
+%DESC%
+WeeChat Matrix protocol script written in Python
+
+%CSIZE%
+131848
+
+%ISIZE%
+773394
+
+%MD5SUM%
+94979b253d25d4fe7b4fff88fcb781e8
+
+%SHA256SUM%
+2cba799ede2709cebd92886299d76c8204bf6f266f6eadea2b5b0cc970f88c1e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmO8dowACgkQdxk/FSvb5qZVyBAAk86RQz3GLeNXYRa94Sx8SxPLxmxxNkDqyUMo36aAIYsYj0/Vgvgx0uncVe79zhk7EHJyMKw8qpduIxWd81gK6L2r/kX1I9lnzCau+a0KSGxDknOSpvWdn333RuID4E+o5fycqKMHNJTvRuxrRifHG42cfAhGaYOszv3Vmscrk7U9D732wsV8/muIqPAHfeIA0mwT62DrpfNfzgfzbbGRwjYCDjXlPMOmyIWhFwwbkNDsnVgxdre4NwDu0cueFpuFl24D1zxLkQyO3OpQwnZMQKpblUdsk6zQz21uDAM5ryz89aKPU7n8TYbM8WModZe1jTL1qQVh2+uE69h7tdYufMAm0KpVBS4p2eUTRJ0nmD0WnO44O27FcqLod5QJpKqhRAFs7Bgq2kLciIEsmp6jzfjFYPErKjp/RCzmUYnHiEM1BudIYuiVj8EMUsP91Wymw5kDpPfIar8lyhW9ggyKSB8gGJg5eHCegN5Bu6tmGbKZe4GYSYXp3nsdmL97R6D2dVUZBC6U7CQVuaw690Dv5bPtmZ6l4p3llBjnZOzzW0bwoln0vdLPvFhLpNzZGCjY5ff267DuMnxp/0X56SGzXyXnGcWtSkp5xT51geUxcRp/Oy+uFsAvMJBvwJYrvZzYeoWR+qxV3M4VcwUQR3+dqrXA5YTvc8TakVLPWFaCKr8=
+
+%URL%
+https://github.com/poljar/weechat-matrix
+
+%LICENSE%
+ISC
+
+%ARCH%
+any
+
+%BUILDDATE%
+1673295482
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-atomicwrites
+python-attrs
+python-cachetools
+python-logbook
+python-matrix-nio
+python-olm
+python-peewee
+python-pygments
+python-pyopenssl
+python-webcolors
+weechat
+
+%OPTDEPENDS%
+python-aiohttp: matrix_sso_helper support
+python-magic: matrix_upload support
+python-requests: matrix_decrypt and matrix_upload support
+xdg-utils: default plumber for matrix_decrypt
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-poetry-core
+
+%CHECKDEPENDS%
+python-hypothesis
+python-pytest
+

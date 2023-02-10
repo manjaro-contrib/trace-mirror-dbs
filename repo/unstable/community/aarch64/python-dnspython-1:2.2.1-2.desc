@@ -1,0 +1,68 @@
+%FILENAME%
+python-dnspython-1:2.2.1-2-any.pkg.tar.xz
+
+%NAME%
+python-dnspython
+
+%BASE%
+python-dnspython
+
+%VERSION%
+1:2.2.1-2
+
+%DESC%
+A DNS toolkit for Python
+
+%CSIZE%
+292996
+
+%ISIZE%
+2055837
+
+%MD5SUM%
+c1d92a432577d8ce25b5719c4bcd6b5f
+
+%SHA256SUM%
+afb376497e1a0f83d27dc1b6a783c5fc9c68dd4d3e00dfe57a783cbc00699abf
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmNuf/IACgkQdxk/FSvb5qYdfBAAsxrNisHBOSS0q+XL8Ggz5U/Adavq45z9BELGYsCDWaxa1U2mN6yuyh889LPcPb1SVnlu2dW2whOtd071fRHGwfLvx9ABBqq47dhfjh8pzOS2bu9nGZ0WLiqEwtmJ2aXXtF4lElvgBSMlvQMkHA688s5RU2QtByw1E1hRdI8MI9C5JD59RFAruSWXTb+Y+M77ZhcvGfZvtsEodU17bPp3r8t5TyNeKqlohGX/jrc1PMbXy+BflVVLckwf9XiOU1s5gAH9H0ja9/6G7yOgyP3//fyUnZQNdFISD7amcK/O/vpdOtPBaPigvjsiPV9acZ2iKa91ayEuHa+08FGTwiJJReWcvJ5XrVnC6Q3fhV0kBLTT6JK2nTaIZaUmA2X/LYsDphr8YAD/WvSly7oyylTT2RO/axJtnQYF3W0AWzS4ulNRd5MfejQXl8dvfUrxQk2kyzOyc5plrAflmOOeCFJR9Q0sDJ3Pre+ixaxO7yhkIWRWIPxL1LbXYAfm8EE4gPBxQ76Hau3qoH3Fa9yCkZkXCATtl6WA3ozhAVgjsuNNu/C/JynJpSS9n3j5Bls6gZtbb/8GrghyQLw3XBIkheY8oiXkMfHkWcDFtp8E5DwDsMrTdWSNLF4MT4JEQWfLRFp53Q4vTe4TUP943HVcm+kShxcUQalgyJrZ3rVYccjm6gc=
+
+%URL%
+http://www.dnspython.org
+
+%LICENSE%
+custom:ISC
+
+%ARCH%
+any
+
+%BUILDDATE%
+1668186082
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-cryptography: DNSSEC support
+python-requests-toolbelt: DoH support
+python-idna: support for updated IDNA 2008
+python-curio: async support
+python-trio: async support
+python-sniffio: async support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-poetry-core
+
+%CHECKDEPENDS%
+python-idna
+python-cryptography
+python-trio
+python-pytest
+
