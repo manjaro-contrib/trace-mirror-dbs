@@ -49,7 +49,7 @@ jobs:
           [ -d repo ] && find ./repo/ -type f -name '*.desc' -delete
           for db in community core extra multilib; do
             for arch in x86_64 aarch64; do
-              for branch in stable testing unstable; do
+              for branch in stable testing unstable kde-unstable; do
                 if [ "$arch" == "aarch64" ]; then
                   down_branch=arm-${branch}
                 else
