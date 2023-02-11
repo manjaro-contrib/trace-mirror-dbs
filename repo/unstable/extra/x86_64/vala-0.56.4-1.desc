@@ -1,5 +1,5 @@
 %FILENAME%
-vala-0.56.3-1-x86_64.pkg.tar.zst
+vala-0.56.4-1-x86_64.pkg.tar.zst
 
 %NAME%
 vala
@@ -8,25 +8,25 @@ vala
 vala
 
 %VERSION%
-0.56.3-1
+0.56.4-1
 
 %DESC%
 Compiler for the GObject type system
 
 %CSIZE%
-2345808
+2348927
 
 %ISIZE%
-14869527
+15209583
 
 %MD5SUM%
-5de277df5bc9c545368fbf29a8c518ee
+db761dc61da66cca69b96dc5aa6f3056
 
 %SHA256SUM%
-6b6c8abf74b7d6c6fda878261384801c94488516e8d9536e009811287ac39eaf
+e8e1d7169334a0ec7e8e394b5cbd8025fd171a953811a862b2739da90a54ae83
 
 %PGPSIG%
-iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCYxPpfRUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8erEAEApdWB+41A/tvk7pxwa0/FYekWT7K8q7yHk1Ke9OermqwBAKn9TuskvOSXhJFKMHQGnL7yeZb5EfBSKu9Nu0lKJnAD
+iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCY+gdYRUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8ej9QEApwiO5QB8vEitv6KyDJYD2lauZseSIC6Qi0Dmnx72ZykA/06fPUyXV3T0QIMqmHONsMdjYwxnkiuXV5n1zE/6UXYI
 
 %URL%
 https://wiki.gnome.org/Projects/Vala
@@ -38,7 +38,7 @@ LGPL
 x86_64
 
 %BUILDDATE%
-1662248772
+1676156059
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
@@ -50,27 +50,27 @@ valadoc
 valadoc
 
 %PROVIDES%
-valadoc
 libvala-0.56.so=0-64
 libvaladoc-0.56.so=0-64
+valadoc
 
 %DEPENDS%
-glib2
-gtk-doc
-graphviz
-ttf-font
-pkg-config
 gcc
+glib2
+graphviz
+gtk-doc
+pkg-config
+ttf-font
 
 %MAKEDEPENDS%
-libxslt
-vala
+autoconf-archive
 git
 help2man
-autoconf-archive
+libxslt
+vala
 
 %CHECKDEPENDS%
 dbus
-libx11
 gobject-introspection
+libx11
 
