@@ -1,0 +1,57 @@
+%FILENAME%
+rocrand-5.4.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+rocrand
+
+%BASE%
+rocrand
+
+%VERSION%
+5.4.3-1
+
+%DESC%
+Pseudo-random and quasi-random number generator on ROCm
+
+%CSIZE%
+29289851
+
+%ISIZE%
+110730968
+
+%MD5SUM%
+d35db8788298afecf4367ad24fcec077
+
+%SHA256SUM%
+71fd8fe19bf40c51f29925beb3b3aa3a48f0f39c2ff3da2d8a3cf9eb73a84059
+
+%PGPSIG%
+iHUEABYIAB0WIQQEzwzW9u6TrhiW9YQH0GNRylsxvgUCY+P63gAKCRAH0GNRylsxvpm0AQDJvzeoui6H0P+5qjRmSsClfUREZfcnsYh3HO6kp5fXJwD5AawYTfA52dstydL6s8QZvjhkz8GdiiZWVaNLcJE3tg4=
+
+%URL%
+https://rocrand.readthedocs.io/en/latest/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1675885054
+
+%PACKAGER%
+Torsten Keßler <tpkessler@archlinux.org>
+
+%DEPENDS%
+hip
+
+%OPTDEPENDS%
+gcc-fortran: Use Fortran wrapper
+python: Use Python wrapper
+
+%MAKEDEPENDS%
+rocm-cmake
+gcc-fortran
+python
+
