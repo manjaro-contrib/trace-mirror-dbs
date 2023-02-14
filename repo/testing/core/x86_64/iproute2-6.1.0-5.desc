@@ -1,0 +1,63 @@
+%FILENAME%
+iproute2-6.1.0-5-x86_64.pkg.tar.zst
+
+%NAME%
+iproute2
+
+%BASE%
+iproute2
+
+%VERSION%
+6.1.0-5
+
+%DESC%
+IP Routing Utilities
+
+%CSIZE%
+1139275
+
+%ISIZE%
+3029962
+
+%MD5SUM%
+b82da9dca6b24c14528b12eb962e5827
+
+%SHA256SUM%
+a239a5a070935252032b2b367674711ad393f61f078f18d38354fc910b7f917d
+
+%PGPSIG%
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCY+oAb18UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCjY0AQDvSRhbwlU4smkksvOGHiM7fZwxgQVEooZv3mIMx09gcQEAuNbS0Kjmi5rqgG0jVYBKnTEGUciy6vrBRjNpngjBuQc=
+
+%URL%
+https://git.kernel.org/pub/scm/network/iproute2/iproute2.git
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1676279627
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%PROVIDES%
+iproute
+
+%DEPENDS%
+glibc
+iptables
+libcap
+libelf
+libbpf
+
+%OPTDEPENDS%
+db5.3: userspace arp daemon
+linux-atm: ATM support
+python: for routel
+
+%MAKEDEPENDS%
+linux-atm
+
