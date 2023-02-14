@@ -1,0 +1,96 @@
+%FILENAME%
+gnome-shell-maia-43.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+gnome-shell-maia
+
+%BASE%
+gnome-shell-maia
+
+%VERSION%
+43.3-1
+
+%DESC%
+Next generation desktop shell with Maia accent color
+
+%CSIZE%
+2386527
+
+%ISIZE%
+11830396
+
+%MD5SUM%
+a94e9dc54fd972dc81e8814cc93b2204
+
+%SHA256SUM%
+3406381cc39a0c30afb373a8701b6ab4c97f1a36acfd8688edc0970ff15e8414
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmPsEx8ACgkQFQwgB0PtRtj9hgf/Ub3RM4WswM0HQ/dCl8h86sCjjwDvzCs5gzVUoHDWLw97z65U7/aXt3XZ6aEHEkbfEhQH4W52g9i3w9/pUZ1KO/WBEA/BKTaAiAyoERRiXQjYM4zUdybSJIG4+7LnNlffPp41AgDcAct/qegkLTO1A0zJW5c78s4GM4pU8wyusIqfV2VpO7+21CjO1f4FxrYSfJiCZdFixhdDZhlgvNFQWOiWWGMFtILHcttp2D0aWyraUDAhXBi0hbFGMxu+MPQ0SzR3Iiq1GlB4LMmYEOybi/6O0nYleokTINxG998m/rgKBgOT2zuC3rJGZmYa7q8MQzTpQHsrwydlQwVIo9HrNA==
+
+%URL%
+https://wiki.gnome.org/Projects/GnomeShell
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1676415029
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%CONFLICTS%
+gnome-shell
+
+%PROVIDES%
+gnome-shell=43.3
+
+%DEPENDS%
+accountsservice
+gcr-4
+gjs
+gnome-autoar
+gnome-session
+gnome-settings-daemon
+gsettings-desktop-schemas
+gtk4
+libcanberra-pulse
+libgdm
+libgweather-4
+libibus
+libnma
+libsecret
+libsoup3
+mutter
+unzip
+upower
+libmutter-11.so=0-64
+
+%OPTDEPENDS%
+evolution-data-server: Evolution calendar integration
+gnome-bluetooth-3.0: Bluetooth support
+gnome-control-center: System settings
+gnome-disk-utility: Mount with keyfiles
+gst-plugin-pipewire: Screen recording
+gst-plugins-good: Screen recording
+power-profiles-daemon: Power profile switching
+switcheroo-control: Multi-GPU support
+
+%MAKEDEPENDS%
+asciidoc
+bash-completion
+evolution-data-server
+git
+gnome-control-center
+gobject-introspection
+gtk-doc
+meson
+sassc
+
+%CHECKDEPENDS%
+xorg-server-xvfb
+
