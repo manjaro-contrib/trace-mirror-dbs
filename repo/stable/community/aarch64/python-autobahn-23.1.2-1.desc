@@ -1,0 +1,82 @@
+%FILENAME%
+python-autobahn-23.1.2-1-aarch64.pkg.tar.xz
+
+%NAME%
+python-autobahn
+
+%BASE%
+python-autobahn
+
+%VERSION%
+23.1.2-1
+
+%DESC%
+Real-time framework for Web, Mobile & Internet of Things
+
+%CSIZE%
+722012
+
+%ISIZE%
+5966817
+
+%MD5SUM%
+ea8e199fc4042091b74bf673c964e01a
+
+%SHA256SUM%
+e9102def4ac8debb289d1ade5c1a757eeafb3971340b3de67df9972ed5d436ca
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmPmFKIACgkQdxk/FSvb5qb/5w/8CQauTFnFt7LArTk0GXg+qHQjDmpHId+uSJSeSmfeTxvcT2AdODAQyRi/oqBCm827p8PoPOYHsA5b6QtAbggCV64zsEt+iIVhd9AENT/oQfALvc7rGIR9lCTzqQwvoQEgFTPDu5umBpG082Rnhx1iPC3EK08JdN3PPChdn02hf+Al5RmgF8eN+evkiRsjTZMQFkOIEurqs/ROH/b/lOxM3hMzoYTuiMpg+nCtX+jS3XqvwQeU6NynNAK5Lifodod2P7ZtL6kICwNYsPwmE2Jy/6rfqlPV53WNpPBgwa1XC9Htm+YfcDoPKYWoXsP8kjeCJuLyc6rSY8jvUlY2f7kzA2+4kn3HtJz84cZm2nNOFIL2puu0bPZ7V1mZHB50qHCntgBpiu1Me5PkeaMo7k5JSHlz8wkFMwsDqtPciqidaK2ATmTi3enyxeVdD8HzVcM8QxA1YhfFpc/NrtcT6THB5RTLGbxzgiFfltgqPBAoyVWJJeUDGp95ZXTTwEzBJJLjQzmEtybP9d2tWhcLvO9Bw6bgCtP3zKTmjcjq5z75L4+tVhkVdWgVwB0rIHffhgofEVa96eBJ9sgcKVB/mH43vrd9EAJnBvLZOVvAvMVL7lcMdH0ZFoFoaLrDlTu9wI4aw9xavTT2S57MtaIizCfxFRi8jNGbXcE99YPOdEt6hVk=
+
+%URL%
+https://crossbar.io/autobahn/
+
+%LICENSE%
+MIT
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1676022911
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python-cffi
+python-twisted
+python-txaio
+python-wsaccel
+python-cryptography
+
+%OPTDEPENDS%
+python-cbor2: CBOR serializer support
+python-flatbuffers: FlatBuffers serializer support
+python-msgpack: MsgPack serializer support
+python-u-msgpack: pure-python alternative to python-msgpack for MsgPack serializer support
+python-ubjson: UBJSON serializer support
+python-ujson: accelerated JSON serializer support
+python-argon2_cffi: WAMP-SCRAM authentication support
+python-passlib: WAMP-SCRAM authentication support
+python-pynacl: WAMP-cryptosign and WAMP-cryptobox support
+python-pytrie: WAMP-cryptobox support
+python-qrcode: support QR codes in WAMP
+python-pyopenssl: SSL/TLS support
+python-snappy: snappy compression suppport for WebSocket messages
+
+%MAKEDEPENDS%
+python-argon2_cffi
+python-cbor2
+python-flatbuffers
+python-msgpack
+python-passlib
+python-pynacl
+python-pytrie
+python-setuptools
+python-ubjson
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-asyncio
+
