@@ -1,0 +1,70 @@
+%FILENAME%
+kpmcore-22.12.2-1-aarch64.pkg.tar.xz
+
+%NAME%
+kpmcore
+
+%BASE%
+kpmcore
+
+%VERSION%
+22.12.2-1
+
+%DESC%
+Library for managing partitions
+
+%CSIZE%
+621244
+
+%ISIZE%
+4118542
+
+%MD5SUM%
+80c601357b2118f47834e1e6a43acfd1
+
+%SHA256SUM%
+244f1e9a62666b07aa229260f9f0040cd00a24b428f56ab5f93da3bd8aa1e1a6
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmPcJbQACgkQdxk/FSvb5qZUaQ/9EzMPpLGqllldujw9hPm/e5p2RxJRsbfP9BjI0KfZIaufwVIHmniH8ThDP3eNjtATilGi9Sve4UOtAaOXcRL4yyo2MNpPuUeq70tHE70uWvgmLJC8AnI/WCHvKRoYuclFLfW+NZbPhFjO1B8jDw8ZoxZiMNrKer6+Xcyw8r04dK2YjxsxoKpB2bqDDkGGqSkbyk30VFTAPoqpAluYhb0AcmSErp6nNbpAIQKV0/ziP5iQMvNl8TgBg0sZC9WExcZhIteAc4iJ48U7RL2gfZG4VvwMnOStM6i09Wt1ZQN5Z6cLgKglAkIIIKmVYUSJMe/v0/ImiQPRPOs1LZL/IDGmmG/v4RkxETUAuJyJpjXbWD3zuD5EK6XJDiEKEEHg9pfmutoffJ6gOCFXTDxNRHg7xgaE+xdTfskGuUnEs3eDqlCFLasAwtR35RyErIWw3pEMs0b8wDMt4xdT2/N/mX0JEitFbkoPvcpNB/RrkQqdU1RRsS0+Do+HqrUiYzrEenKZyTlYD0k3BNQNWaQuU6QG3BztAXDOWkY+A+t0J9GrdQVvFY1oLZLZ0h1PY95X4VDSqnjJVbG5MyztqKKjY8EUq/bbfmlnhTl7EXJcebB6JsmRILqiIXOEE7edG/HFQhk493zFTl8+wTtd0bL/pQvuuyGH/uQZvdt+0ezy2wRFTd0=
+
+%URL%
+https://apps.kde.org/partitionmanager/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1675371876
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+smartmontools
+kcoreaddons
+kwidgetsaddons
+ki18n
+polkit-qt5
+qca-qt5
+
+%OPTDEPENDS%
+e2fsprogs: ext2/3/4 support
+xfsprogs: XFS support
+jfsutils: JFS support
+reiserfsprogs: Reiser support
+ntfs-3g: NTFS support
+dosfstools: FAT32 support
+fatresize: FAT resize support
+f2fs-tools: F2FS support
+exfat-utils: exFAT support
+exfatprogs: exFAT support (alternative to exfat-utils)
+nilfs-utils: nilfs support
+udftools: UDF support
+
+%MAKEDEPENDS%
+extra-cmake-modules
+
