@@ -1,0 +1,102 @@
+%FILENAME%
+gnome-control-center-x11-scaling-43.4.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+gnome-control-center-x11-scaling
+
+%BASE%
+gnome-control-center-x11-scaling
+
+%VERSION%
+43.4.1-1
+
+%DESC%
+GNOME's main interface to configure various aspects of the desktop with X11 fractional scaling patch
+
+%CSIZE%
+6646143
+
+%ISIZE%
+21088941
+
+%MD5SUM%
+3cc07dc54e2a1c625de8fabc27d19889
+
+%SHA256SUM%
+cf574d3cfb25493ff71b5df8ab394a08e73da63aeff385edbf757fd583204a18
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmPpcZAACgkQFQwgB0PtRthsKQf+NH3WPvXWpVU959RlH3wQYqmo8ZYw7Q9iVm0Yef66HYN9VIOKvTKnaXvvIlsLafEdZOx8xIF0BQg38EFI5LWg3VRJHhPDQ5s/p0F9yC8+iwYaMwbVGSNz3tPwQahmRyjizYbfdiOo+ksqAyL6JmTHN+Ox8DS5uiPG/ksWXFt3KKbow2jR0eOhzTAA4htHIycu+z7ucBqtVlu5QyADqBGzGp82dQgfPImrGpa/089Fr2f1WxuDEsp31FwRWNQLVKM0uGHZW5ZkWXBWk5CCAlDnl1dEwM4it0mIoxb98qI88OeVr0qPvtP3xgmi65byRqaMzoYlM5qLgAezE9NAU3zADA==
+
+%URL%
+https://gitlab.gnome.org/GNOME/gnome-control-center
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1676243272
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%CONFLICTS%
+gnome-control-center
+
+%PROVIDES%
+gnome-control-center=43.4.1
+
+%DEPENDS%
+accountsservice
+cups-pk-helper
+gnome-bluetooth-3.0
+gnome-desktop-4
+gnome-online-accounts
+gnome-settings-daemon
+gsettings-desktop-schemas
+gtk4
+libgtop
+libnma-gtk4
+sound-theme-freedesktop
+upower
+libpwquality
+gnome-color-manager
+smbclient
+libmm-glib
+libgnomekbd
+libibus
+libgudev
+bolt
+udisks2
+libadwaita
+gsound
+colord-gtk4
+gcr
+libmalcontent
+
+%OPTDEPENDS%
+system-config-printer: Printer settings
+gnome-user-share: WebDAV file sharing
+gnome-remote-desktop: screen sharing
+rygel: media sharing
+openssh: remote login
+power-profiles-daemon: Power profiles support
+malcontent: application permission control
+switcheroo-control: Dual-GPU support for the info/details panel
+fwupd: Firmware support for the Device Security panel
+
+%MAKEDEPENDS%
+docbook-xsl
+modemmanager
+git
+python
+meson
+
+%CHECKDEPENDS%
+python-dbusmock
+python-gobject
+xorg-server-xvfb
+
