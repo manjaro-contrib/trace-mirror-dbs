@@ -1,5 +1,5 @@
 %FILENAME%
-epiphany-43.0-1-x86_64.pkg.tar.zst
+epiphany-43.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 epiphany
@@ -8,7 +8,7 @@ epiphany
 epiphany
 
 %VERSION%
-43.0-1
+43.1-1
 
 %DESC%
 A GNOME web browser based on the WebKit rendering engine
@@ -17,19 +17,19 @@ A GNOME web browser based on the WebKit rendering engine
 gnome
 
 %CSIZE%
-2338879
+2345141
 
 %ISIZE%
-10539817
+10601763
 
 %MD5SUM%
-5e4f0c5c01459d2cac6890b229cf2e4c
+369ff8246cfc559a8cae04165d63fc01
 
 %SHA256SUM%
-dd13c090b75c484e3c3ea1014f5333d87f77da159e989b950a0f6d5ff33ab3ee
+38cb7933f858d643fa4a1e5d08270f23d33f98a570b663e8fb884fff1b9eaa76
 
 %PGPSIG%
-iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCY1f5ihUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8fInQD/ShDHg2GDS4YgECJOU2bwCSRl/7xXrPxoj46nDaC3TZ8BANmF2u6H7qlUs4MgR88+XIkZmG4iN2PHRGkIqUdX528O
+iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCY/PIfhUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8c2EgD+LnsAD6ouxMe6uQ7WPCQXWtQB3RsJYbGARyNoi+8lf60BAO610GV1MsgUt73s5Cd37ZfHH32mVNTh+1VXAix9x94E
 
 %URL%
 https://wiki.gnome.org/Apps/Web
@@ -41,35 +41,35 @@ GPL
 x86_64
 
 %BUILDDATE%
-1666709799
+1676920714
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 
 %DEPENDS%
-webkit2gtk-4.1
 gcr
 icu
+libarchive
 libdazzle
 libhandy
-libarchive
 libportal-gtk3
 libsoup3
+webkit2gtk-4.1
 
 %MAKEDEPENDS%
 docbook-xml
-startup-notification
-lsb-release
-gobject-introspection
-yelp-tools
 git
+gobject-introspection
+lsb-release
 meson
+startup-notification
+yelp-tools
 
 %CHECKDEPENDS%
-xorg-server-xvfb
 aspell
 hspell
 hunspell
-nuspell
 libvoikko
+nuspell
+xorg-server-xvfb
 

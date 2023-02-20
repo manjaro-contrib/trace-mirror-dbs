@@ -1,57 +1,50 @@
 %FILENAME%
-libnm-1.42.0-1-x86_64.pkg.tar.zst
+nm-cloud-setup-1.42.0-2-x86_64.pkg.tar.zst
 
 %NAME%
-libnm
+nm-cloud-setup
 
 %BASE%
 networkmanager
 
 %VERSION%
-1.42.0-1
+1.42.0-2
 
 %DESC%
-NetworkManager client library
+Automatically configure NetworkManager in cloud
 
 %CSIZE%
-1183183
+51670
 
 %ISIZE%
-10749644
+115249
 
 %MD5SUM%
-3a072b221a20b319594bfaba4acc797b
+91bd59813c8057620dbe67a995bfbea2
 
 %SHA256SUM%
-753d3e3e871340fd9d9298d953a364d66997b5a30e206f551e71e7f552fbf8d7
+b8295066db186a93e86007c8b78deaa74b7c1e0ab0c6fa37486feb708deaadfc
 
 %PGPSIG%
-iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCY+dY3xUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8dDGQD9HyciUSil4oE1SaCZL+N2B0HDQ4ukUGumH9jk1eS8RtABAPe0EXsTgdGswOsDJJK6em+cCQabrWa2WcREUcGwsVAL
+iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCY/PeBxUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8eTGgEAykvrugSz4qu7UY6sm7U4JXdhmfpuufSS6XR713JoHFsA/29/JlHFHtk7pGu4yaROmlPdaEKqWOr5EOLnX+gbL4IJ
 
 %URL%
 https://networkmanager.dev/
 
 %LICENSE%
-LGPL
+GPL
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1676105474
+1676921807
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 
-%PROVIDES%
-libnm.so=0-64
-
 %DEPENDS%
-glib2
-jansson
-nss
-systemd-libs
-util-linux-libs
+networkmanager
 
 %MAKEDEPENDS%
 audit
