@@ -1,0 +1,60 @@
+%FILENAME%
+rt-tests-2.5-1-x86_64.pkg.tar.zst
+
+%NAME%
+rt-tests
+
+%BASE%
+rt-tests
+
+%VERSION%
+2.5-1
+
+%DESC%
+A collection of latency testing tools for the linux(-rt) kernel
+
+%GROUPS%
+realtime
+
+%CSIZE%
+137823
+
+%ISIZE%
+495756
+
+%MD5SUM%
+df43ea37ad89a4c569da11ff2b5e62e8
+
+%SHA256SUM%
+37fb479ee5a1e9a12918f5cf8f7162cc9fce27c5326ddcd00f348d99c3e51741
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCY8vSngAKCRATmwnaW/DTON4NAP4+Ao56AKgyuglH0x2K8ErviGilSRqhsWxyNeZi+BN29AEAhGb4aANaEN+rPG/gPUbeSK+VXwkq+XtJGNLsUmA9agk=
+
+%URL%
+https://git.kernel.org/pub/scm/utils/rt-tests/rt-tests.git/about/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1674302023
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+bash: for determine_maximum_mpps.sh
+numactl: for cyclictest, oslat and signaltest
+python: for get_cyclictest_snapshot and hwlatdetect
+
+%MAKEDEPENDS%
+numactl
+python
+
