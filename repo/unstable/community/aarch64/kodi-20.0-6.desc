@@ -1,5 +1,5 @@
 %FILENAME%
-kodi-19.4-3-aarch64.pkg.tar.zst
+kodi-20.0-6-aarch64.pkg.tar.zst
 
 %NAME%
 kodi
@@ -8,25 +8,25 @@ kodi
 kodi
 
 %VERSION%
-19.4-3
+20.0-6
 
 %DESC%
 A software media player and entertainment hub for digital media
 
 %CSIZE%
-43160728
+43517802
 
 %ISIZE%
-86578340
+89592631
 
 %MD5SUM%
-756042845ab9cc898bf788d91ca018b9
+af33038cf7449a8e33e3bd3c6500a44a
 
 %SHA256SUM%
-6e2f448abc6417803e2e06fc8e0bbbd9ea3774e33db548829b9548e3b2d41316
+47ef4068158fd1ab9aa7feeca7c3bb7bd0c31b45a11026bec24eb9a81395a6ef
 
 %PGPSIG%
-iQEzBAABCAAdFiEEekQ87mm2s3d3QOJYCEp/wANbHUkFAmN4BNEACgkQCEp/wANbHUlfpwgAgEEgAfjcEgYFr2OyeTokPHGrx9RG2lVhBK9U+/BmF7lBJV2M6b2PgG0tzpNrMNMf8/iKQGw9JdnWPAe2yzADyy+df8TpdZ6fgmMwQJlW4SzIkTQoELRP/9Hwfzi0933v7fx79+ZwGig4xIV683j3uDDx/+TzQOMzhjVOtqIJvVfmM97BT3tlqSCB5Pbf09R8KtXZYIjF5VeDumuqym/IU0w0xQ2QuMK17uxU+zhYfJtp3xpmAM+jttRrVuYGirmQ1frdrK6ycC4zl9pbKnBntLHX5bZXOm1Bamb3/40pgqoXVrwwZqXQ6HdPIwPO7sfprDlcWTPX/ffWx6qynWnDzw==
+iQEzBAABCAAdFiEEekQ87mm2s3d3QOJYCEp/wANbHUkFAmP1OKwACgkQCEp/wANbHUnOmAf/bcGgSH+Blna01rxqvnRzYoYNOW4NHJ3UTyiAXulsAI8aDEZSXWi3VieDm0N2lN5YNDkMx9c/0/Fzi+xQIUTTxfSqaXuIEBoot/lrFS+ccfVnmLAGcfmqQL9/rmzyHUZ3D8M0CmdtAIP96ESe1lmcAuGsUhJ3HMbpWgJksN9g5eniKVq2FnFQ40tTZ4ORFtfviATyIeRw4eXq6H5oJBG3XNe9tr6isfuUeToswuYdZmkmifJjRIB/6s1tqzJmGqKIAEhgp+OJR37YUXDU9/8G1eaRIG5lfbPa2ADE5sK7UheWvwsX3Y49dvC7CCfoNKE9VdLeiIvV1vg6GdVlWLIwyA==
 
 %URL%
 https://kodi.tv
@@ -38,10 +38,10 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1668805786
+1676994066
 
 %PACKAGER%
-Manjaro Build Server <build@manjaro.org>
+Unknown Packager
 
 %REPLACES%
 kodi-common
@@ -61,6 +61,7 @@ curl
 dav1d
 desktop-file-utils
 hicolor-icon-theme
+fmt
 lcms2
 libass
 libbluray
@@ -76,11 +77,14 @@ libxslt
 lirc
 mariadb-libs
 mesa
+libpipewire
 python-pillow
 python-pycryptodomex
 python-simplejson
 shairplay
 smbclient
+sndio
+spdlog
 sqlite
 taglib
 tinyxml
@@ -95,6 +99,7 @@ afpfs-ng: Apple shares support
 bluez: Blutooth support
 python-pybluez: Bluetooth support
 pulseaudio: PulseAudio support
+pipewire: PipeWire support
 upower: Display battery level
 
 %MAKEDEPENDS%
@@ -109,6 +114,7 @@ glew
 gperf
 hicolor-icon-theme
 java-runtime
+fmt
 libaacs
 libass
 libbluray
@@ -130,12 +136,15 @@ lirc
 lzo
 mesa
 nasm
+pipewire
 python-pycryptodomex
 python-pillow
 python-pybluez
 python-simplejson
 shairplay
 smbclient
+sndio
+spdlog
 taglib
 tinyxml
 swig

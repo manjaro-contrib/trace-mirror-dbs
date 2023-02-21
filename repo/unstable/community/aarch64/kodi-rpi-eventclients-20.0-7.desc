@@ -1,5 +1,5 @@
 %FILENAME%
-kodi-rpi-eventclients-19.4.1-5-aarch64.pkg.tar.zst
+kodi-rpi-eventclients-20.0-7-aarch64.pkg.tar.zst
 
 %NAME%
 kodi-rpi-eventclients
@@ -8,28 +8,28 @@ kodi-rpi-eventclients
 kodi-rpi
 
 %VERSION%
-19.4.1-5
+20.0-7
 
 %DESC%
-Kodi Event Clients for Raspberry Pi 3/4/400, gbm_matrix fork
+Kodi Event Clients
 
 %CSIZE%
-32703
+32775
 
 %ISIZE%
-76588
+77954
 
 %MD5SUM%
-29e2b2b023220668a14024d4163c107f
+3fea9141f27a1bb3a1f3d070dd61043e
 
 %SHA256SUM%
-325e9b49424a8eeff4596f1797b39b51820ad76d0b266c480bd33254f1d4c0c3
+4c4cc457f0bf19914b67d0fe7a8bb92e1aaaf4068f6ba454d09284c932187d1f
 
 %PGPSIG%
-iQEzBAABCAAdFiEEekQ87mm2s3d3QOJYCEp/wANbHUkFAmN5KhcACgkQCEp/wANbHUkkYQf+PRecZtqNNI8XD0hizAQujankOEMpMXVOEdd3kMtUwnOjuFY56lwdQh0kNjJ8pTcmlL4JbO++EXI9OEOX66N9RKelMozrM3QwyUD0Le68y8qo2G2CdutoXRnmBcGtKmgiWEc+Nd/x+5X14w+y5PmmXxIAT/h1XKJKqXWEzMh3y61pPRQxyQceMMq/Y6Ff1Ts0xNlkxIBzTjJ0B1wDyzBDx8JBrRvsZQvgOzLg0Iskds+SNG4bUH0NwJpHDuK3a2wc4639oXeZfy51rFZPGrGEr/cLmh7wVc9I/CARzd0RBb1Avt17Ay0seXqK52GoSViHro9LC9xK+HuAikPbiErhZg==
+iQEzBAABCAAdFiEEekQ87mm2s3d3QOJYCEp/wANbHUkFAmP1OKwACgkQCEp/wANbHUlUFwf9EiwemYOOj464skP9yx9fnDp/IhkJ2K9+L+Vu/0/IezUj4SawJuyRGedBy/fCSHTb8mMVgld3oBBpO422L3OG39h9MlS+HTzUNlVB/nQdcHFp6UOAzcsdp2rr8zPXU2XG9F+6e6rYdubcx5jlDAmdJi+88RrZqLKsCkcgP8bLWfnGce/oWQU3Cyv/rPLjDqWrRrrxHrCqDY61F/QXFBHyYWRPwncKyPdRf0hakq8z3TEUKWmrGt0EDWNlhgV/zGeYXQoqUJix+aDHnDsK/7hooCaja6EMlfelizQiq2OQl0PpFkaAnKUlRahtMKCSj0VM73VfgZpOYARAkUuVzIjk2Q==
 
 %URL%
-https://github.com/graysky2/xbmc/tree/gs-gbm_matrix
+https://github.com/graysky2/xbmc/tree/gs-gbm_nexus
 
 %LICENSE%
 GPL2
@@ -38,10 +38,10 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1668882507
+1676999318
 
 %PACKAGER%
-Manjaro Build Server <build@manjaro.org>
+MNJRO ARM Runner <info@manjaro.org>
 
 %REPLACES%
 kodi-rbp4-eventclients
@@ -53,7 +53,7 @@ kodi-rbp4-eventclients
 kodi-rpi-legacy-eventclients
 
 %PROVIDES%
-kodi-eventclients=19.4.1
+kodi-eventclients=20.0
 
 %OPTDEPENDS%
 kodi: local machine eventclient use
@@ -71,6 +71,7 @@ glew
 gperf
 hicolor-icon-theme
 java-runtime
+fmt
 libaacs
 libass
 libbluray
@@ -90,12 +91,15 @@ lirc
 lzo
 mesa
 nasm
+pipewire
 python-pycryptodomex
 python-pillow
 python-pybluez
 python-simplejson
 shairplay
 smbclient
+sndio
+spdlog
 taglib
 tinyxml
 swig
@@ -108,5 +112,4 @@ gtest
 graphviz
 libinput
 libxkbcommon
-flatbuffers
 
