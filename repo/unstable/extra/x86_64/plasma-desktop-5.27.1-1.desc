@@ -1,0 +1,82 @@
+%FILENAME%
+plasma-desktop-5.27.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+plasma-desktop
+
+%BASE%
+plasma-desktop
+
+%VERSION%
+5.27.1-1
+
+%DESC%
+KDE Plasma Desktop
+
+%GROUPS%
+plasma
+
+%CSIZE%
+15292303
+
+%ISIZE%
+31862868
+
+%MD5SUM%
+f6e47f69e663e6d22f37dbb6711525fb
+
+%SHA256SUM%
+3c21253144ab2f09709d39e8afb8a9c95001fcd7c7e8f77c529b10c1f5f6908f
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmP04ekACgkQek52CV2KUuQ9wAf/TbHjSXYlhabBCqt204jHeCSjrknDSvtiQUZDTdmqqG5qtig71gvK0/2WRi+BB7i4jGH+nRvYKQGcysmJ95AHaV5BO5vfM1XK6t3s4OWch+NCaxK/Y+IV49CJxjV6X/3RYrP30JkLpz+Kj63OyvKV+uSv/Cf+8nlo8uw2DFiiXUNsZ23Nh0dp6pIEM3Ep81qYEadFMWloSm332g23fUSDdi50gnxKa41EWiA7ulEVGVC7jgqn3zVedpt6dqnfppC5NUMmbDp81nMv4fEn6mWOnscVJ6af/w0Gj/Mouj/4SA0UR7VS5FsYHr8JJQMELoXAAOsEVbdTTRzP/St3Z2D86w==
+
+%URL%
+https://kde.org/plasma-desktop/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1676985694
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gawk
+kdelibs4support
+polkit-kde-agent
+kmenuedit
+systemsettings
+baloo
+xdg-user-dirs
+
+%OPTDEPENDS%
+plasma-nm: Network manager applet
+powerdevil: power management, suspend and hibernate support
+kscreen: screen management
+ibus: kimpanel IBUS support
+scim: kimpanel SCIM support
+kaccounts-integration: OpenDesktop integration plugin
+packagekit-qt5: to install new krunner plugins
+
+%MAKEDEPENDS%
+extra-cmake-modules
+kdoctools
+xf86-input-evdev
+xf86-input-synaptics
+xf86-input-libinput
+xorg-server-devel
+scim
+kdesignerplugin
+kaccounts-integration
+intltool
+packagekit-qt5
+kinit
+wayland-protocols
+libibus
+
