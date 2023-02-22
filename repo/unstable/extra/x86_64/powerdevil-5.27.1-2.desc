@@ -1,0 +1,63 @@
+%FILENAME%
+powerdevil-5.27.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+powerdevil
+
+%BASE%
+powerdevil
+
+%VERSION%
+5.27.1-2
+
+%DESC%
+Manages the power consumption settings of a Plasma Shell
+
+%GROUPS%
+plasma
+
+%CSIZE%
+923970
+
+%ISIZE%
+3159040
+
+%MD5SUM%
+8bbe97acb4fc1fab6f74d2765de25c38
+
+%SHA256SUM%
+ae7e530b15ea26bcf1008ff6cc12110a76b38971bc0375d1f1386ed8d9699110
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmP1yuwACgkQek52CV2KUuRYjgf9FvjbrBHY6TauYO76WVHiTLgc63h1pOfGvDwDke18z+pq0BHie+NF/IVgCqHkc4xt0zZ/CEh1KvWeEmf8i7TY5+dLfXoW1nX34UrsnH/NLqgN3W8gxvJ0tnR9vTB+37aABRDAkgW6JKEkhCpjRpLpr5Rzmn23Y4sO8OQbLrOLhXpGv4vYaJkn4cOdzAlPQUClV+jrj95yk7bHkALRk/sAfmBAiBf7lTdHuLU8tZgBX9J6mNnvoxiNlnTe1xPPrXQeBMtKhMix8ZPcesSH/Lr+nfK2hPq61bttLSfYoTUgXcTOIISDCeaTFRD2gAfPUjGrKPW9L5zUurkpxE0fqZonvQ==
+
+%URL%
+https://kde.org/plasma-desktop/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1677052520
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+plasma-workspace
+
+%OPTDEPENDS%
+kinfocenter: for the Energy Information KCM
+power-profiles-daemon: power profiles support
+networkmanager-qt: wireless power saving actions
+bluez-qt: wireless power saving actions
+
+%MAKEDEPENDS%
+extra-cmake-modules
+kdoctools
+bluez-qt
+networkmanager-qt
+
