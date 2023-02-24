@@ -1,0 +1,64 @@
+%FILENAME%
+plasma-vault-5.27.1.r432.gf0cb7d9-1-x86_64.pkg.tar.zst
+
+%NAME%
+plasma-vault
+
+%BASE%
+plasma-vault
+
+%VERSION%
+5.27.1.r432.gf0cb7d9-1
+
+%DESC%
+Plasma applet and services for creating encrypted vaults
+
+%GROUPS%
+plasma
+
+%CSIZE%
+419882
+
+%ISIZE%
+1548180
+
+%MD5SUM%
+62587ce5db4289d871408a6f55abd0be
+
+%SHA256SUM%
+28e9f24c47e25ff69bd00ef216e89e1740028c41fff0a7c59b87602e414b02b8
+
+%PGPSIG%
+iQGzBAABCgAdFiEEO3lN5tQyD85ZT0FxJ5589djVbsgFAmP5HIwACgkQJ5589djVbsgQeQv/czgglhWqI/MVSm7FrXLUUvVw3hRDfqazjMFofPRc9PMsKvP4om+Xs1Io/WSbYKgCPPkzPPBxEhVWTimvaSbEZSMgkE8f7P6Tru0T9U51j5opnj+oJDb/uqzw1HamfJ4GNPle5sWxBZCPZp4W+GU96tXXuZHbRi54VcJb5zydHAsARNhaitt/eh87EaxnqemqnrszUVjTj4kCrfZlqamFmWZyGaXO6DufCMucsV99Gddvy9Ibmq72xSWz6msdypp7/ij9Idp5XHONt7ET/VqqPIzjtm4dqNYM51xhuChDiLbU1Et7QHXxwJMj5tQDjhOd0Ox7GrZM2p8rekALevSXyGN5N4j9dKb0Ds9MQOIpaWeERBuvVkZa+gwa0bSNW+eI2qmeq6xOtNTO1PYSDF2+VeWBIyFvyiOTb+MChHuB6JPT3hzQVMocf73HILRmajIfb0ugRznvI4ydt7r1+U4AB3xw7WATe4mklRLM7VT9ywh+5MXDz5TaIcGJB4EiIseD
+
+%URL%
+https://www.kde.org/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1677269500
+
+%PACKAGER%
+Manjaro Build Server <build@manjaro.org>
+
+%REPLACES%
+plasma-vault-git
+
+%DEPENDS%
+plasma-workspace
+networkmanager-qt
+
+%OPTDEPENDS%
+encfs: to use encFS for encryption
+cryfs: to use cryFS for encryption
+gocryptfs: to use gocryptfs for encryption
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules
+
