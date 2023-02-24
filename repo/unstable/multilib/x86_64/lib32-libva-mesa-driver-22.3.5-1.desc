@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-mesa-vdpau-22.3.6-2-x86_64.pkg.tar.zst
+lib32-libva-mesa-driver-22.3.5-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-mesa-vdpau
+lib32-libva-mesa-driver
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-22.3.6-2
+22.3.5-1
 
 %DESC%
-Mesa VDPAU drivers (32-bit)
+VA-API implementation for gallium (32-bit)
 
 %CSIZE%
-4431003
+4393791
 
 %ISIZE%
-12709123
+12914803
 
 %MD5SUM%
-4546b99048f09eadb1eccc4311ec8059
+99773482abf6cd47f05173e128f86b0c
 
 %SHA256SUM%
-1d3411a4061576b83e81ceadd6eadfd7598ba64d9822f6d25d106ae81a193b73
+17d456e2788cacaf9e6fa43b6a6057ac028f26e186f79413db5eab116cf4b0c4
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmP35GoACgkQFQwgB0PtRtgGiwf/StSuXWYB6zkiDtFYo+inDzOJ6rCZ2CpxG2yrNgSiemGsY/agxVQc2072jPiGnVSXsuo88dklfj+ziZZaoWtpG31gf4Bit66+tsaLVIMBOBSW85LdLv4S4+UJM2/0woQZcS32P6ak9i2tgLtW+f2H6+GY1aco0RtAKEY8sL2JARNEDQnrlZlUyS5iVEVhnyaq5RsAQGJQ252gzKn/vl6bNDNLILR7LMv9zxbaOaWuts8WsCeOylIpOJKwlezdskvqmEPF7Eo3XlUfl4V1OCm7DTgvIv8FAmH3Yys3iQML1stIBC7ktIzEZoI85PCOL4xQMc0NleDw8ziZsL+FX6j9sg==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmPkL2EACgkQFQwgB0PtRtipFQf+O2yaOva9K9Y3LIeBJ/yhQ1074SKP5DTAOA+9erWJl6LDHHvjYBbgTyZiTGtck8N7OEyY+glbou7VMTqTvdVTbpH55IMfKi/VceYkDeXrtC5sYfWCjfWUvSbijkNvLHvD0jFXHToqfnccQoa7AcpZnhrPnoaJ7OJsCO0EaCRXRp3dfBo3nDMvPQjacZ6WON3ZJkIZRb27qrD2is0KCeuXo8ZqmxlrNm3O8w2i+ik0AcTxjpYWiXfDWYuWXAbtRCW45JTgm6/jzRFvnY6Ug4a5Brj+0KbtaiWcoc5cPi9RFpmOnom7zCwHA26oTZKftW3tQWfYReghxX8Ijh4F71yAmQ==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,13 +38,13 @@ custom
 x86_64
 
 %BUILDDATE%
-1677189872
+1675898449
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
 
 %PROVIDES%
-lib32-vdpau-driver
+lib32-libva-driver
 
 %DEPENDS%
 lib32-libdrm
@@ -54,7 +54,6 @@ lib32-expat
 lib32-libelf
 lib32-libxshmfence
 lib32-zstd
-libexpat.so=1-32
 
 %MAKEDEPENDS%
 python-mako
