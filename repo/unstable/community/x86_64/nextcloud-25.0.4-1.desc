@@ -1,0 +1,76 @@
+%FILENAME%
+nextcloud-25.0.4-1-any.pkg.tar.zst
+
+%NAME%
+nextcloud
+
+%BASE%
+nextcloud
+
+%VERSION%
+25.0.4-1
+
+%DESC%
+A cloud server to store your files centrally on a hardware controlled by you
+
+%CSIZE%
+118185209
+
+%ISIZE%
+459047190
+
+%MD5SUM%
+95323ca80b37ad0714d9bc8591681a12
+
+%SHA256SUM%
+5a78d9698478027cc5b0f77537792aaca34f0f6a89a7fcd6c767155aeb74df86
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCY/j18AAKCRATmwnaW/DTOLaWAQCd+UydOCLo28n7+qU3XAstrU2rJPWNzw7i60ASs7Q+UQD8DNECFMe4Fo5VeAfX9NUl4NCNimE7lv9eDDWbk2Q43ws=
+
+%URL%
+https://nextcloud.com
+
+%LICENSE%
+AGPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1677260030
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+php-interpreter<8.2
+php-legacy-gd
+
+%OPTDEPENDS%
+curl: for webcron jobs from within uwsgi
+ffmpeg: for preview generation
+libreoffice: for preview generation
+mariadb: to use a local MariaDB server
+memcached: to use a local memcached server
+mod_itk: to use the Apache web server
+postgresql: to use a local PostgreSQL server
+redis: to use a local Redis server
+smbclient: for SMB/CIFS integration
+sudo: for privilege elevation in occ command when not run as root
+php-legacy-apcu: for caching with APCU
+php-legacy-apache: to use the Apache web server
+php-legacy-fpm: to run in fastCGI process manager
+php-legacy-imagick: for preview generation
+php-legacy-imap: for external user authentication
+php-legacy-intl: to increase language translation performance and fix sorting
+php-legacy-memcached: for caching with memcached
+php-legacy-pgsql: to use the PostgreSQL database backend
+php-legacy-redis: for caching with redis
+php-legacy-sqlite: to use the SQLite database backend
+uwsgi-plugin-php-legacy: run as application container
+
+%MAKEDEPENDS%
+php
+php-legacy
+
