@@ -1,0 +1,79 @@
+%FILENAME%
+kdenlive-22.12.2.r17544.g53d77faed-1-x86_64.pkg.tar.zst
+
+%NAME%
+kdenlive
+
+%BASE%
+kdenlive
+
+%VERSION%
+22.12.2.r17544.g53d77faed-1
+
+%DESC%
+A non-linear video editor for Linux using the MLT video framework
+
+%GROUPS%
+kde-applications
+kde-multimedia
+
+%CSIZE%
+20596388
+
+%ISIZE%
+74384727
+
+%MD5SUM%
+7d6733c1d9a526fc02f19c0c3577184b
+
+%SHA256SUM%
+4044b5163b65e95bd76a541c6a8743019ed82ab8b9a2175084e0058dcd261f02
+
+%URL%
+https://apps.kde.org/kdenlive/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1677307198
+
+%PACKAGER%
+Manjaro Build Server <build@manjaro.org>
+
+%REPLACES%
+kdenlive-git
+
+%DEPENDS%
+qt5-networkauth
+knewstuff
+knotifyconfig
+kfilemetadata
+purpose
+mlt
+breeze-icons
+frei0r-plugins
+
+%OPTDEPENDS%
+ffmpeg: for FFmpeg plugin
+cdrtools: for creation of DVD ISO images
+dvdauthor: for creation of DVD
+dvgrab: for firewire capture
+recordmydesktop: for screen capture
+xine-ui: for DVD preview
+vlc: for DVD preview
+opencv: for motion tracking
+plasma-desktop: theme configuration
+opentimelineio: timeline export/import
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules
+kdoctools
+v4l-utils
+doxygen
+qt5-tools
+

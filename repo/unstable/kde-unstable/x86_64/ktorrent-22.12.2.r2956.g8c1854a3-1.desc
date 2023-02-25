@@ -1,0 +1,77 @@
+%FILENAME%
+ktorrent-22.12.2.r2956.g8c1854a3-1-x86_64.pkg.tar.zst
+
+%NAME%
+ktorrent
+
+%BASE%
+ktorrent
+
+%VERSION%
+22.12.2.r2956.g8c1854a3-1
+
+%DESC%
+A powerful BitTorrent client for KDE
+
+%GROUPS%
+kde-applications
+kde-network
+
+%CSIZE%
+3479132
+
+%ISIZE%
+12097000
+
+%MD5SUM%
+1fc9d8a9bec6fcc9a764edc6bd66069f
+
+%SHA256SUM%
+e7529d0cc94806d278a3138483f018862445c715ec9e6dbefcd4761db5b2aeb6
+
+%URL%
+https://apps.kde.org/ktorrent/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1677312743
+
+%PACKAGER%
+Manjaro Build Server <build@manjaro.org>
+
+%REPLACES%
+ktorrent-git
+
+%DEPENDS%
+libktorrent
+kcmutils
+knotifyconfig
+kross
+phonon-qt5
+qt5-webengine
+
+%OPTDEPENDS%
+plasma-workspace: shutdown plugin
+kdnssd: zeroconf plugin
+taglib: mediaplayer plugin
+geoip: info widget plugin
+syndication: syndication plugin
+kplotting: statistics plugin
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules
+kdoctools
+boost
+plasma-workspace
+kdnssd
+taglib
+syndication
+kplotting
+geoip
+
