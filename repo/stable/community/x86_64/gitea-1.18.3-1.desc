@@ -1,0 +1,65 @@
+%FILENAME%
+gitea-1.18.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+gitea
+
+%BASE%
+gitea
+
+%VERSION%
+1.18.3-1
+
+%DESC%
+Painless self-hosted Git service, community managed.
+
+%CSIZE%
+33863153
+
+%ISIZE%
+102916938
+
+%MD5SUM%
+8f56994616d6a8bccc9afef21f19da1e
+
+%SHA256SUM%
+69853c1809933a756e77315520675544cf124b5d5232ed9379038250f677a88b
+
+%PGPSIG%
+iQEzBAABCgAdFiEEado014/g79WWrG0EnYk+xNqvkSkFAmPOxIYACgkQnYk+xNqvkSk17QgAnkIZopGpn41G6wVJ1h/MoW7EpIGLYIHgs1q6jS41OBRAtp9DqVsAEszK9pS+inr/ARuLuIhztd4p/bKCyZCelia0EVfazutFpqhrk54qf80PEh4+LDbgnPSGsD1r/vEU5ydEGZgpQanMV/X5uv9H8EYSlTuMPGk2VyJn+mXg84C58hwUw7YD//g13SxpPUE0ItzkX05BziFxXqD+x6tZTyFAJGQhdmI8kjwDGl1jaCgygdnkQAzEIXns8ZdSMKOmvKkisxk2lWOukcoZ5UY/MK4epbwluserZ3P6AkQSEaIcuROyOGNopK5d4AF16H8ZvMkYsT8gI4yHC0Og/Wm9Kw==
+
+%URL%
+https://gitea.io
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1674494569
+
+%PACKAGER%
+Bruno Pagani <archange@archlinux.org>
+
+%DEPENDS%
+git
+
+%OPTDEPENDS%
+mariadb: MariaDB support
+memcached: MemCached support
+openssh: GIT over SSH support
+pam: Authentication via PAM support
+postgresql: PostgreSQL support
+redis: Redis support
+sqlite: SQLite support
+
+%MAKEDEPENDS%
+go
+nodejs
+npm
+
+%CHECKDEPENDS%
+openssh
+
