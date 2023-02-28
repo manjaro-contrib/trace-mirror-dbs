@@ -1,0 +1,85 @@
+%FILENAME%
+plasma-desktop-5.27.1.r10178.g8fbce4ddb-1-aarch64.pkg.tar.zst
+
+%NAME%
+plasma-desktop
+
+%BASE%
+plasma-desktop
+
+%VERSION%
+5.27.1.r10178.g8fbce4ddb-1
+
+%DESC%
+KDE Plasma Desktop
+
+%GROUPS%
+plasma
+
+%CSIZE%
+16970092
+
+%ISIZE%
+33335930
+
+%MD5SUM%
+be222d746e5f2c299b28bafb24f65e06
+
+%SHA256SUM%
+0c9c28e8fee55d8bad3a133afa8a0316ba73a60b17505f4e1d4472ff9fe720f5
+
+%PGPSIG%
+iQGzBAABCAAdFiEEO3lN5tQyD85ZT0FxJ5589djVbsgFAmP9gA8ACgkQJ5589djVbsgiSQv+KbpqgOkJ32fUgw397nSa2mAJUXA50SobIxNIHh3GDZf19CJR8Mv89KfjiuzNPXCYaL0IkaPx/ado1Xb1/wrKgHlwyligbhktK2qZwqRXmAkil5uvInTo7tp1enGV6m53Z0ibpq63WIj9tQrWlu/WBWDxGydn9gfMoyHbJXKiXvmqIsvbssvBG8xWmxF9nevkeDxj7N3M3gzFZoWfVzV7ggBZW0ltPrkYDaE3QVfwOhMUMBrFRm/5udpu8ikFVMeDw/TAIx4gkqrMm7FSzkh0F2s7rf6fKAgMh14DqlUNu1dv63PlPGAxYQ05hdG15Mz6yo736ppr9tqBVQZRE1fdC/ymT3kPuod3X3OEEORhMJEKwhOxLvpMxGEuV/7QjvK1xgdDPhcnJS7zMeaqsIK9ELQGJihp5C2Us3OaPsH2TFuZVBfYYGUSW0JzFzo/zGcsv9rgNVq5AjGW4i69OKTcslaRxHgkUyzKItWXenu+Tv9jnGWdi5uNxLw14clVvy4x
+
+%URL%
+https://kde.org/plasma-desktop/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1677546170
+
+%PACKAGER%
+Manjaro Build Server <build@manjaro.org>
+
+%REPLACES%
+plasma-desktop-git
+
+%DEPENDS%
+gawk
+kdelibs4support
+polkit-kde-agent
+kmenuedit
+systemsettings
+baloo
+xdg-user-dirs
+libibus
+
+%OPTDEPENDS%
+plasma-nm: Network manager applet
+powerdevil: power management, suspend and hibernate support
+kscreen: screen management
+ibus: kimpanel IBUS support
+scim: kimpanel SCIM support
+kaccounts-integration: OpenDesktop integration plugin
+packagekit-qt5: to install new krunner plugins
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules
+kdoctools
+xf86-input-evdev
+xf86-input-synaptics
+xf86-input-libinput
+xorg-server-devel
+scim
+kdesignerplugin
+kaccounts-integration
+intltool
+packagekit-qt5
+kinit
+
