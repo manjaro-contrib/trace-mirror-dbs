@@ -1,0 +1,84 @@
+%FILENAME%
+kea-2.2.0-5-x86_64.pkg.tar.zst
+
+%NAME%
+kea
+
+%BASE%
+kea
+
+%VERSION%
+2.2.0-5
+
+%DESC%
+High-performance, extensible DHCP server engine from ISC, supporting both DHCPv4 and DHCPv6
+
+%CSIZE%
+4900232
+
+%ISIZE%
+21681545
+
+%MD5SUM%
+27ac8be0cb2a57bf3e284526b9ccb141
+
+%SHA256SUM%
+6d4d7d5050049b8d2b0ed967c62092db009485b2f75640fabdd2cc1d9d5e375f
+
+%PGPSIG%
+iHUEABYIAB0WIQTFpZWP13hfrZgvouxaRbBrgcq4dgUCY9LXZAAKCRBaRbBrgcq4dsCLAPwP4KePwymrVNpXgcl9brJZZfg81wAON1nRt6CiTxWksQD+MoOk1O3+SIw/Vh2vDpIW+alYU9Pzskwplud6zj1LlgM=
+
+%URL%
+https://kea.isc.org
+
+%LICENSE%
+MPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1674761136
+
+%PACKAGER%
+Konstantin Gizdov <arch@kge.pw>
+
+%DEPENDS%
+log4cplus
+mariadb-libs
+openssl
+postgresql-libs
+
+%OPTDEPENDS%
+mariadb: lease information database
+postgresql: lease information database
+python: to use kea-shell
+krb5: Kerberos support
+kea-docs: user and developer documentation
+
+%MAKEDEPENDS%
+boost
+mariadb
+postgresql
+python
+python-sphinx
+python-sphinx_rtd_theme
+doxygen
+graphviz
+texlive-bibtexextra
+texlive-core
+texlive-fontsextra
+texlive-formatsextra
+texlive-games
+texlive-humanities
+texlive-latexextra
+texlive-music
+texlive-pictures
+texlive-pstricks
+texlive-publishers
+texlive-science
+
+%CHECKDEPENDS%
+gtest
+procps-ng
+

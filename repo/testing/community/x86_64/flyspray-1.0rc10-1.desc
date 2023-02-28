@@ -1,0 +1,61 @@
+%FILENAME%
+flyspray-1.0rc10-1-any.pkg.tar.zst
+
+%NAME%
+flyspray
+
+%BASE%
+flyspray
+
+%VERSION%
+1.0rc10-1
+
+%DESC%
+Lightweight, web-based bug tracking system written in PHP
+
+%CSIZE%
+4126733
+
+%ISIZE%
+17861461
+
+%MD5SUM%
+2ccc32a1aa55f8a1dad233b795836f5d
+
+%SHA256SUM%
+865366bf608441621605ad4549c8240bfcc8baac8fb9ae65d77ee935cb334ecc
+
+%PGPSIG%
+iHUEABYKAB0WIQTH54SUZv4jWDQ1iDdyWHNLQcMVSQUCYJ691gAKCRByWHNLQcMVSZ8HAP9R5HwH8agLOfSWm4Lfqvyaj/DSkzKqm1w1sDcWq4kLhwD/ffUqVtCFK8kpzu+sHVDNBExFzsNEA8p2Xj9hMystFAE=
+
+%URL%
+https://www.flyspray.org/
+
+%LICENSE%
+LGPL2.1
+
+%ARCH%
+any
+
+%BUILDDATE%
+1621015938
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+php
+php-gd
+
+%OPTDEPENDS%
+graphviz: plot task dependency graphs
+mariadb: use local MariaDB database
+php-fpm: run with FastCGI process manager
+php-pgsql: use PostgreSQL database
+postgresql: use local PostgreSQL database
+uwsgi-plugin-php: run in application container
+
+%MAKEDEPENDS%
+composer
+unzip
+

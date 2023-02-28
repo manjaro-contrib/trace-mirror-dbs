@@ -1,0 +1,83 @@
+%FILENAME%
+gajim-1.6.1-1-any.pkg.tar.zst
+
+%NAME%
+gajim
+
+%BASE%
+gajim
+
+%VERSION%
+1.6.1-1
+
+%DESC%
+Full featured and easy to use XMPP (Jabber) client
+
+%CSIZE%
+3242763
+
+%ISIZE%
+14466240
+
+%MD5SUM%
+53af3cdd0b8c63f7d89b706912a3399e
+
+%SHA256SUM%
+5134935f8e8e2ab29a19a3a0e0c7fa2a57f4b41ee03d919432958bf43381eee3
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCY8LODAAKCRDylr3lA2jGzqEGAQDBKl+lMGdKMVNjEyiN/+wvmQLZUCIo+n0ABWNY5IiLGwD+KFHJJBbt6aSgPVFyvcjxrsTYosk9chRlRrr/zodx7Ao=
+
+%URL%
+https://gajim.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1673710910
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%DEPENDS%
+gtk3
+gtksourceview4
+python-cairo
+python-gobject
+python-keyring
+python-nbxmpp
+python-cryptography
+python-precis_i18n
+python-css-parser
+python-distro
+hicolor-icon-theme
+python-pillow
+python-gssapi
+python-netifaces
+python-packaging
+
+%OPTDEPENDS%
+farstream: start audio and video chat
+gst-plugins-good: for video/voice support
+gst-plugins-bad: for video/voice support
+gst-plugins-ugly: for video/voice support
+gst-libav: for video/voice support
+gst-python: for video/voice support
+gspell: for spell checking support
+geoclue: share current location
+libxss: measure idle time, in order to set auto status
+python-gnupg: encrypting chat messages with OpenPGP
+python-axolotl: OMEMO support
+python-qrcode: generate QR codes for OMEMO keys
+gsound: Notification Sounds
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+
