@@ -1,0 +1,65 @@
+%FILENAME%
+plasma-firewall-5.27.2.r718.gd0d4b36-1-aarch64.pkg.tar.zst
+
+%NAME%
+plasma-firewall
+
+%BASE%
+plasma-firewall
+
+%VERSION%
+5.27.2.r718.gd0d4b36-1
+
+%DESC%
+Control Panel for your system firewall
+
+%GROUPS%
+plasma
+
+%CSIZE%
+547705
+
+%ISIZE%
+1325877
+
+%MD5SUM%
+840089aae90f692dae2fef23d2eec41c
+
+%SHA256SUM%
+11e6965071cbfcdcbc87431a351614aad2150fe870c5b548eab31a0a9f191f35
+
+%PGPSIG%
+iQGzBAABCAAdFiEEO3lN5tQyD85ZT0FxJ5589djVbsgFAmP/KiMACgkQJ5589djVbsjhwAwAh/TDoUd9VnmHHkgUP5P+UOqzSxPkdwcv4g0Cxowc2wV7NAdlQe5M2zsKBH+vWM60vY3PDMgolDNmjWh7Jt8v679R1okwaVdCXXWWZOF0HjJ/0QsCQjCOXeyg0Q8D97DbuIaIXmu/CB378X5IxSsg4ItM9JnGI+bC3K5CD2dn5oOU/NbOxd+2sxPx/IDAjMR7ly5u2evBBnfV+7lOdepr5Tvuvko5XzTd68+HLW0kEhyzyFOI40AvAf7rhGWYpJ2AF8elBAiuTfQLCUa8/l3rVkYz7qEbYmY90bO3giXv/y6xnvzl8OtpbmVBgT3a84OBQk4i2DEWdAFJjrUKn7BMy8u9110SoQj+l0dBFu2zPlECYH693n/tT6gnQ+a6KK4y3dnybD6JSrDvKRsq6R5x8iXT4UsqiU50mvUkRvOArAxVylK61QvyxkwU0LbEZjzUEEfLg3i0nBX77InBWgD9PLJF9YSTTXzQJ8LKLYD9dMrWPYDW2dDQlBeIpYm7hhov
+
+%URL%
+https://kde.org/plasma-desktop/
+
+%LICENSE%
+GPL
+LGPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1677665700
+
+%PACKAGER%
+Manjaro Build Server <build@manjaro.org>
+
+%REPLACES%
+plasma-firewall-git
+
+%DEPENDS%
+systemsettings
+plasma-framework
+
+%OPTDEPENDS%
+iproute2: netstat backend
+firewalld: firewalld backend
+ufw: ufw backend
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules
+
