@@ -1,0 +1,76 @@
+%FILENAME%
+python-cherrypy-18.8.0-2-any.pkg.tar.zst
+
+%NAME%
+python-cherrypy
+
+%BASE%
+python-cherrypy
+
+%VERSION%
+18.8.0-2
+
+%DESC%
+A pythonic, object-oriented web development framework
+
+%CSIZE%
+450626
+
+%ISIZE%
+2662088
+
+%MD5SUM%
+b9be92841bb5efb94f4c4366655e44d1
+
+%SHA256SUM%
+bf15ff78fde52fbe56cb8e2a7169fa2720346fb448c3d220072d5b88ff7aa0e8
+
+%PGPSIG%
+iQIzBAABCgAdFiEEBR6tamFVOJ1p2gLl63Y7Tp24h6YFAmODNEsACgkQ63Y7Tp24h6YYMBAArb1g4IH0zqNUFNUZPzxAiV79Fv6vZX9Uv8VnyRZk5ThlPQjIQ3f15GP3+q6gDFq6PLYfRHqEj0qN9JbUEZoigO3svtLcPQ7i8jn3WTQ6u3LR3885Xr5EPMWz7Uf/YQIKyjY2ctOtoyXNaDEIS/bl2aTw88ttRUB2qrwFuiOJtgFXFST9Cbq+qaWY4oq0dpikpUIiZr2wDdQat1KUCi4+R7RDQbptRdWRKCvmDBaQwPPTAjU/BbLIbdy8V6kWsZc87+Bi4FwUHlwqApidWMv+Clo6VJHBfVZyxwqlO58hOqcI9PgUgpHowmX1YSVo+dMignck8d3F7SEky5JAV11lgzS0LtwS2KXwg7A0stwMNG6mvNX0JAI758QJyCEAejVlmhpnHcuAvE6bfcLVBbSNQCA29Kz5Uf3+O4CxnwbWOEQWvzOd/1GkG5mSCn2zW5Jd2qlPDB2A2GvrHQQ8gxbGrjP0MOD/WnE/TYUiJ1BPIcoE3qEQRmS2OKZrAr5EReIgcrYkeW8BJuGNDxfumB6+1KFhnFips/zT7wKq7G+1YQdzebX1zUEjrdl65P6X2vdYJpMX3c6+hRsh0Ht2gYWZbJAH8uamDBaJAfe6aH6Ewz6hxgPzwdtOMdiE4FlwHRiKWta+BIw0kz+Y+kckz2RhwPPeTBpnaosppGX3iDxyFvA=
+
+%URL%
+https://cherrypy.dev
+
+%LICENSE%
+BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1669542844
+
+%PACKAGER%
+Thore Bödecker <foxxx0@archlinux.org>
+
+%DEPENDS%
+python
+python-cheroot
+python-portend
+python-jaraco.collections
+python-more-itertools
+python-zc.lockfile
+
+%OPTDEPENDS%
+python-flup: for xcgi support
+python-memcached: for memcached session support
+python-pyopenssl: for TLS support
+python-routes: for routes_dispatcher support
+python-simplejson: for JSON support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-objgraph
+python-path
+python-pytest
+python-pytest-forked
+python-pytest-services
+python-pytest-sugar
+python-requests-toolbelt
+

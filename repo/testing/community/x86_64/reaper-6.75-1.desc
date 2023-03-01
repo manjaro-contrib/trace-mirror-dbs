@@ -1,0 +1,75 @@
+%FILENAME%
+reaper-6.75-1-x86_64.pkg.tar.zst
+
+%NAME%
+reaper
+
+%BASE%
+reaper
+
+%VERSION%
+6.75-1
+
+%DESC%
+A complete digital audio production application for computers
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+11996414
+
+%ISIZE%
+113371573
+
+%MD5SUM%
+ecff8c4bd7f6df560392badc2829083e
+
+%SHA256SUM%
+d75f6554fdf457a41cafc9ef8001047213f0e564c97edb78d366effb2d526b50
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCY94bdAAKCRDglZ/qi1UFOXfcAP9E1R8vUf6wcz3JvEFRIcMo/9jasrouYjzbfU6taxv2NgD+OTQllxpFoBNzm62S+lVOEhq6Jyequ/XaWft2MsHSHAw=
+
+%URL%
+https://reaper.fm
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1675500245
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%PROVIDES%
+lv2-host
+vst-host
+vst3-host
+clap-host
+
+%DEPENDS%
+alsa-lib
+libasound.so=2-64
+fontconfig
+gcc-libs
+hicolor-icon-theme
+libglvnd
+libx11
+libxi
+
+%OPTDEPENDS%
+jack: for JACK support
+pulseaudio: for PulseAudio support
+python: for Python plugins
+reapack: for managing reaper plugins
+sws: for the SWS/S&M plugin extension
+
+%MAKEDEPENDS%
+kservice
+xdg-utils
+
