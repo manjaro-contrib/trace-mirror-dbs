@@ -1,0 +1,68 @@
+%FILENAME%
+telepathy-kde-accounts-kcm-22.12.1.r1245.g3989127-1-x86_64.pkg.tar.zst
+
+%NAME%
+telepathy-kde-accounts-kcm
+
+%BASE%
+telepathy-kde-accounts-kcm
+
+%VERSION%
+22.12.1.r1245.g3989127-1
+
+%DESC%
+KCM Module for configuring Telepathy Instant Messaging Accounts
+
+%GROUPS%
+kde-applications
+kde-network
+telepathy-kde
+
+%CSIZE%
+473684
+
+%ISIZE%
+2270461
+
+%MD5SUM%
+ce69c12addf53ebdac6eff9b183ce9f3
+
+%SHA256SUM%
+ae88124c5180ab67633475ea509a78ff10797cb5dd47265a5dd32ba277893b1b
+
+%PGPSIG%
+iQGzBAABCgAdFiEEO3lN5tQyD85ZT0FxJ5589djVbsgFAmPJZeQACgkQJ5589djVbsjVIgv+PGwY+UWKXI0lCqfI+H1zVuPt0nAjuQqlePGo6n0znOHAmOD0cChnhBZvEaEg4nAa2TV28QhNpC9gX2roc+bfF+uSm4Ae1+R/0DGbTC2Vu6Hkzm0uVt6qwrhYcLWwtsWdabnC4WQtZuMzuwMVtwEAqF/KnDndF57vSlN084Fev58Sn/fXqo1s7SwRVEAzprUU54lkxCyHEB+mbfpyel2/CtIXsC7NsJKXoxU/ep49n2gpqlXYEhmsJAMsMBe9LcGk3/wxz5eQVLOe+BPOanAKZtG9Y8BLjU2RKCKSSMbcWiJ719AqfXpz+Imrf2498k2v9v0CbMRu8GerX3pi2A4WV7932paoCi3SO/3H5KBwYr7qZNrh7S8Z9H37do2g+nVD5J9Ouy8LrDlqqOOrKF19YMJvgpLRtyFWFUB3IokpTl5aGV1IVONM57+gWihmKYa9fBvDViRLWGveFVQyFEYGfDZRfKS7svCN0emp4H3LWQcw0HZmsTsTFqV50BYqfDB0
+
+%URL%
+https://community.kde.org/KTp
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1674127764
+
+%PACKAGER%
+Manjaro Build Server <build@manjaro.org>
+
+%REPLACES%
+ktp-accounts-kcm.git
+
+%DEPENDS%
+telepathy-qt
+kaccounts-providers
+
+%OPTDEPENDS%
+telepathy-gabble: XMPP/Jabber accounts support
+telepathy-haze: account types supported by Pidgin/libpurple
+telepathy-morse: Telegram accounts support
+telepathy-salut: link-local XMPP account support
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules
+intltool
+
