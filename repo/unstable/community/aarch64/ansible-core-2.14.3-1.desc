@@ -1,0 +1,81 @@
+%FILENAME%
+ansible-core-2.14.3-1-any.pkg.tar.xz
+
+%NAME%
+ansible-core
+
+%BASE%
+ansible-core
+
+%VERSION%
+2.14.3-1
+
+%DESC%
+Radically simple IT automation platform
+
+%CSIZE%
+2460952
+
+%ISIZE%
+16252239
+
+%MD5SUM%
+e8b5f438ec00acff58968e0565ae59ef
+
+%SHA256SUM%
+156d73d95a2d604a91ff88f4f93a20dcbd83d00d8df3b5f3e1714e538c1bebc6
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmQBMKsACgkQdxk/FSvb5qarIA//Uf1R3iRahtkeXmNypTuWgYYDHLC3WPSu/fOAoeqNdATzl7uksTwdA7q+hSMab3sjnCaLInI/FWK3nkn7ED825kyRk3Zpy4u856V9lIOeDKFtJBF3NpN1fHxfNGcwYFTl+ZhYTIOc8kW5d8hpOdMcHp21SRdSpTZ6h2k4411+nq96/qxcDNWC3g/iQ0jJG7kx3AdcD44tZ33LTgT5WF3Uu+/6+2OQ+2TUF7hbk/g2oeMzpvrJiwHKaeunDMgaJ4M63VdygSmbgcFgHSTPAq+Ibjvv/Mw9i99HMCld8F24nvYVKP3o3mLjV+uaJ9HaA/3Pt2YOq1VA9l8srfbtWlL5+12I2N3+Ypgs6kq92Mo48Vp7UC9Nq2Nmkn59a6PRng4JpArmuXZv7i7Ni/Z+luA1cBt5NNirUMCZN8lNjsRTfhhwgCcMfUeaPMWxoE3k/Y9gKd2Vr95C0YLChx+UTd0uoBSz3Mf9djgVQQpvlEKKh5/KKfNDr46MmxEBjSq7s8wlaYoKq0oD0YViT3RtVrJbjUjR6+RoMlF6nGB6g/2JcqRkshKr5gtPYJQHb9u86wxj3QEPwQQ7w7Flff5Zq9FqusLz4MYmPT9rjI0Ya57qvHDirx/k/bcm3aUPi8F0J+lDXsy9/MkKC4VgpiBfoBAr+tn4X/N0PaZ0H2yp4l3B/L8=
+
+%URL%
+https://pypi.org/project/ansible-core
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1677799519
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%REPLACES%
+ansible-base
+
+%PROVIDES%
+python-ansible
+ansible-base
+
+%DEPENDS%
+python
+python-cryptography
+python-jinja
+python-packaging
+python-pyyaml
+python-resolvelib
+python-paramiko
+python-typing-extensions
+
+%OPTDEPENDS%
+python-dnspython: for dig lookup
+python-jmespath: json_query support
+python-netaddr: for the ipaddr filter
+python-passlib: crypt values for vars_prompt
+python-pip: for module to manage Python libarary dependencies
+python-pywinrm: connect to Windows machines
+python-setuptools: for module to manage Python libarary dependencies
+python-systemd: for journald support
+sshpass: for ssh connections with password
+
+%MAKEDEPENDS%
+python-build
+python-docutils
+python-installer
+python-setuptools
+python-straight.plugin
+python-wheel
+
