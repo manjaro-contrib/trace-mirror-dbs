@@ -1,5 +1,5 @@
 %FILENAME%
-bind-9.18.12-1-x86_64.pkg.tar.zst
+bind-9.18.12-2-x86_64.pkg.tar.zst
 
 %NAME%
 bind
@@ -8,25 +8,25 @@ bind
 bind
 
 %VERSION%
-9.18.12-1
+9.18.12-2
 
 %DESC%
 A complete, highly portable implementation of the DNS protocol
 
 %CSIZE%
-2020907
+2019395
 
 %ISIZE%
-12015087
+12010815
 
 %MD5SUM%
-499053500ccf341564c9e77d810109aa
+559cd66f19985a01585201a075246edc
 
 %SHA256SUM%
-da6d47be08c30141b3254013ffdf1ab0ba217d72594a63c3c7bd2a6823d14de4
+f6e06936e75441039396f37c47715b8c73b51014ce69c9440d41a990e125d835
 
 %PGPSIG%
-iHUEABYIAB0WIQSTtRpKFHmOS6hn0ULluymEcK1OQQUCY+4U0QAKCRDluymEcK1OQfPvAQCdfjjAjeCy7ZdhZp91O02/yHB99RDxzFPI8iHkRkA9+gEAjftF+M2rRH/ZuUtyhe+uzqS9QBqNqMU30zqrWprmNgQ=
+iHUEABYIAB0WIQSTtRpKFHmOS6hn0ULluymEcK1OQQUCZAT4VgAKCRDluymEcK1OQfAYAQDGNnO9lOueVsWpCr5w8BUzZpVDhhgpsxk+K3FcVSOa+gEAj3D0a/xGL57IHdoi7hC5XpIXT6kCK6ZcNL817OQELQg=
 
 %URL%
 https://www.isc.org/software/bind/
@@ -38,7 +38,7 @@ MPL2
 x86_64
 
 %BUILDDATE%
-1676537588
+1678046489
 
 %PACKAGER%
 Sébastien Luttringer <seblu@seblu.net>
@@ -74,32 +74,9 @@ libuv
 libxml2
 lmdb
 openssl
-python
-python-ply
 readline
 xz
 zlib
 jemalloc
-
-%MAKEDEPENDS%
-libcap
-libxml2
-zlib
-krb5
-e2fsprogs
-openssl
-readline
-libidn2
-dnssec-anchors
-python
-json-c
-python-ply
-lmdb
-zlib
-icu
-xz
-libmaxminddb
-libnsl
-libuv
-python-sphinx
+libnghttp2
 
