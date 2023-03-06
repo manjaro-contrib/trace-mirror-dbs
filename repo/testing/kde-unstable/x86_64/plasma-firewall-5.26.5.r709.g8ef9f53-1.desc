@@ -1,0 +1,62 @@
+%FILENAME%
+plasma-firewall-5.26.5.r709.g8ef9f53-1-x86_64.pkg.tar.zst
+
+%NAME%
+plasma-firewall
+
+%BASE%
+plasma-firewall
+
+%VERSION%
+5.26.5.r709.g8ef9f53-1
+
+%DESC%
+Control Panel for your system firewall
+
+%GROUPS%
+plasma
+
+%CSIZE%
+544781
+
+%ISIZE%
+1302479
+
+%MD5SUM%
+9237c6cf6114a8f36624f9f82cce99d2
+
+%SHA256SUM%
+5b5a44e7a2f194ee2eb9140f40b563dbb998804a96eebbb1ba51109c19957a32
+
+%URL%
+https://kde.org/plasma-desktop/
+
+%LICENSE%
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1674291571
+
+%PACKAGER%
+Manjaro Build Server <build@manjaro.org>
+
+%REPLACES%
+plasma-firewall-git
+
+%DEPENDS%
+systemsettings
+plasma-framework
+
+%OPTDEPENDS%
+iproute2: netstat backend
+firewalld: firewalld backend
+ufw: ufw backend
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules
+
