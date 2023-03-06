@@ -1,0 +1,82 @@
+%FILENAME%
+plasma-desktop-5.26.5.r10040.ge19e1bae8-1-x86_64.pkg.tar.zst
+
+%NAME%
+plasma-desktop
+
+%BASE%
+plasma-desktop
+
+%VERSION%
+5.26.5.r10040.ge19e1bae8-1
+
+%DESC%
+KDE Plasma Desktop
+
+%GROUPS%
+plasma
+
+%CSIZE%
+16917737
+
+%ISIZE%
+32758513
+
+%MD5SUM%
+ce37e17aed105310fef1c8399df8e6a1
+
+%SHA256SUM%
+dddcf37e1c46843bc514948080fc15bb4e10116ace1791aa33db2645b6bbe7e4
+
+%URL%
+https://kde.org/plasma-desktop/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1674290683
+
+%PACKAGER%
+Manjaro Build Server <build@manjaro.org>
+
+%REPLACES%
+plasma-desktop-git
+
+%DEPENDS%
+gawk
+kdelibs4support
+polkit-kde-agent
+kmenuedit
+systemsettings
+baloo
+xdg-user-dirs
+libibus
+
+%OPTDEPENDS%
+plasma-nm: Network manager applet
+powerdevil: power management, suspend and hibernate support
+kscreen: screen management
+ibus: kimpanel IBUS support
+scim: kimpanel SCIM support
+kaccounts-integration: OpenDesktop integration plugin
+packagekit-qt5: to install new krunner plugins
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules
+kdoctools
+xf86-input-evdev
+xf86-input-synaptics
+xf86-input-libinput
+xorg-server-devel
+scim
+kdesignerplugin
+kaccounts-integration
+intltool
+packagekit-qt5
+kinit
+
