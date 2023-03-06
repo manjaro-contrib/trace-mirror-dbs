@@ -1,0 +1,71 @@
+%FILENAME%
+kpmcore-22.12.1.r1345.g1031e44-1-x86_64.pkg.tar.zst
+
+%NAME%
+kpmcore
+
+%BASE%
+kpmcore
+
+%VERSION%
+22.12.1.r1345.g1031e44-1
+
+%DESC%
+Library for managing partitions
+
+%CSIZE%
+937135
+
+%ISIZE%
+4154270
+
+%MD5SUM%
+94110864ea983a49d2e5402fc5c3bbe6
+
+%SHA256SUM%
+2d6703341f6ebd82773dd0345d4940ed85c95e152ea6c30993f6ddb8a62a03b2
+
+%URL%
+https://apps.kde.org/partitionmanager/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1674300242
+
+%PACKAGER%
+Manjaro Build Server <build@manjaro.org>
+
+%REPLACES%
+kpmcore-git
+
+%DEPENDS%
+smartmontools
+kcoreaddons
+kwidgetsaddons
+ki18n
+polkit-qt5
+qca
+
+%OPTDEPENDS%
+e2fsprogs: ext2/3/4 support
+xfsprogs: XFS support
+jfsutils: JFS support
+reiserfsprogs: Reiser support
+ntfs-3g: NTFS support
+dosfstools: FAT32 support
+fatresize: FAT resize support
+f2fs-tools: F2FS support
+exfat-utils: exFAT support
+exfatprogs: exFAT support (alternative to exfat-utils)
+nilfs-utils: nilfs support
+udftools: UDF support
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules
+
