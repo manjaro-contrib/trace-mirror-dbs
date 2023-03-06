@@ -1,0 +1,56 @@
+%FILENAME%
+wl-clipboard-1:2.1.0-3-x86_64.pkg.tar.zst
+
+%NAME%
+wl-clipboard
+
+%BASE%
+wl-clipboard
+
+%VERSION%
+1:2.1.0-3
+
+%DESC%
+Command-line copy/paste utilities for Wayland
+
+%CSIZE%
+26521
+
+%ISIZE%
+108595
+
+%MD5SUM%
+7a93a039cd508573bb9f927270b82423
+
+%SHA256SUM%
+2b1f6f36ff3e6081452215e693429ccf32e15891eb3a15df1335d3fb8687c0dd
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmP7jioACgkQwGCGM3xQdz4wUwf/T6k8nCBN43Yi1Ql+4Gqo2MqXmgqK2v9R3QKqk6+p/yMwnkJwD1/X1WtlR6Im2x8JILM05uyrvRCtYheid4qnF2gLlab3LSJmUJD3iwJGFR8/siqSvda9RB2zJlVMcVsjEC8DXpCh3PfoHewBl7kP6zXmdUUYrRsTLoresZ17lUXaHjmDVGn758hmcXi67lO8dmm8XNKAZvf4RTQGsPNUv5EzM3wvO3Rqirco+1RV8aNbfXH4LtDHZ/riwy10UnQzP9+CpfRSQQmIwh3rvcJthwKo09LyaNgPNgyAJslS1uJpemh3FVn1u3yLEGZslbWljHz0tJ0AE1fbQ9SmUhxtGA==
+
+%URL%
+https://github.com/bugaevc/wl-clipboard
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1677430295
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+wayland
+
+%OPTDEPENDS%
+xdg-utils: for content type inference in wl-copy
+mailcap: for type inference in wl-paste
+
+%MAKEDEPENDS%
+meson
+wayland-protocols
+

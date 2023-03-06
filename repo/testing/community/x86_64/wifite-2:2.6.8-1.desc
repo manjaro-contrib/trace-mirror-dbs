@@ -1,0 +1,73 @@
+%FILENAME%
+wifite-2:2.6.8-1-any.pkg.tar.zst
+
+%NAME%
+wifite
+
+%BASE%
+wifite
+
+%VERSION%
+2:2.6.8-1
+
+%DESC%
+Tool to attack multiple WEP and WPA encrypted networks at the same time
+
+%CSIZE%
+928754
+
+%ISIZE%
+2845163
+
+%MD5SUM%
+a4b21a6642320f3670ccf135e0086b02
+
+%SHA256SUM%
+776bc015cd39b0642b3d37b04b47d99a9a5ef32628473e1307ccacaff07be644
+
+%PGPSIG%
+iQIzBAABCgAdFiEE4kC1fixGMLp2ji8m/BtUfI2BcsgFAmP5e/YACgkQ/BtUfI2Bcsi0Gw//WatlvXN2Ch4hskH+01LUP/B5I5qHsfzUvDcT7N130c9ZIGSxnfGhi15HxxvLFykbw7MONBIY/2oC6ZahMbBAWbWYDHuvozax60Cq6zneK1lcgqjTAzWLc1rMgoNyFpQyaUmHyTV7pBCOokRypCN18mZ7AUxzx2psg97BAdq84lvSYijU6fr/RPY7YseOUg6ZmT4uNo7cXRLRUyYX44LxlJbGinj7yYtYe0sLSwd0z/omMBNlY5qgMN2T/mLqabTnRH6qfhViNO6x5hWQT1dKxa6cuPL3B/mv7CVr7S7gnLCMvKv9Fy6hiSo24ifRfD1z3XKf4yy65s34b0/LHGp/RJU119ytZAS1Z44ADGvVbV2AcACMWtfEcE9/f+HNAg6GEhTk26pP7GS/i1kIfdvV/6wl86EbEZ1q3yD03SEF5KEwqODuxJTiGAtHfbprYSA7z4hW2VnLvWG9dy0rVI4s04DxvWNudn9yP4BdhHmkWjfpA+UU1fNloY35kIFla+2lnKHuYH1/0aThaehKCW8KQ5y/8tPNEINKdLE6Dgu+nNQv6nVk7BjaclZSipq+kOsiG3kdnRBwYCOYZWrtt+RGdnpPCwQg4nxTWEm9aRvYKwz3pYZ6jUWFuWei3EUtfrytcchsNf+ABXomm4iAmmSlkb9DttOeC7zDf90PYIH0rdM=
+
+%URL%
+https://github.com/kimocoder/wifite2
+
+%LICENSE%
+GPL2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1677294562
+
+%PACKAGER%
+Levente Polyak <anthraxx@archlinux.org>
+
+%PROVIDES%
+wifite2
+
+%DEPENDS%
+python
+python-chardet
+aircrack-ng
+iproute2
+iw
+
+%OPTDEPENDS%
+wireshark-cli: detecting WPS networks and inspecting handshake capture files
+reaver: WPS Pixie-Dust & brute-force attacks
+bully: WPS Pixie-Dust & brute-force attacks
+cowpatty: detect WPA handshakes
+pyrit: detect WPA handshakes
+macchanger: change MAC for attacks
+hashcat: cracking PMKID hashes
+hcxdumptool: capturing PMKID hashes
+hcxtools: converting PMKID packet captures into hashcat format
+john: For CPU (OpenCL)/GPU cracking passwords fast
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+

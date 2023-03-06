@@ -1,0 +1,90 @@
+%FILENAME%
+python-fastapi-0.92.0-1-any.pkg.tar.zst
+
+%NAME%
+python-fastapi
+
+%BASE%
+python-fastapi
+
+%VERSION%
+0.92.0-1
+
+%DESC%
+FastAPI framework, high performance, easy to learn, fast to code, ready for production
+
+%CSIZE%
+99993
+
+%ISIZE%
+558024
+
+%MD5SUM%
+5a0174cf43aa3e05bdb89334ec38bff5
+
+%SHA256SUM%
+315447215c4946f41f9e46fa09efcf91105dff2cbec8f5785bb8769aca47e425
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCY+4MMgAKCRATmwnaW/DTOJtUAQCcnO5hy7lDz4VJN4xtMfTSrv30X7PtQjbvIx1S2LvgQAEAwBcObqV+ZGmgA9iNxqjbssleFHcwJa/djZK2zLVGKg4=
+
+%URL%
+https://github.com/tiangolo/fastapi
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1676545008
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python-pydantic
+python-starlette
+
+%OPTDEPENDS%
+hypercorn: for Hypercorn as ASGI server
+python-email-validator: for email validation
+python-itsdangerous: for SessionMiddleware support
+python-jinja: for default starlette template configuration
+python-orjson: for ORJSONResponse
+python-python-multipart: for form parsing support
+python-pyyaml: for starlette SchemaGenerator support
+python-httpx: for TestClient support
+python-ujson: for faster JSON parsing and UJSONResponse
+uvicorn: for Uvicorn as ASGI server
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-hatchling
+python-wheel
+
+%CHECKDEPENDS%
+python-aiosqlite
+python-anyio
+python-databases
+python-flask
+python-httpx
+python-peewee
+python-pytest
+python-sqlalchemy
+python-trio
+python-email-validator
+python-itsdangerous
+python-jinja
+python-orjson
+python-python-multipart
+python-pyyaml
+python-ujson
+uvicorn
+python-bcrypt
+python-cryptography
+python-jose
+python-passlib
+
