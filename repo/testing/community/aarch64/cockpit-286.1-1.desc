@@ -1,0 +1,88 @@
+%FILENAME%
+cockpit-286.1-1-aarch64.pkg.tar.xz
+
+%NAME%
+cockpit
+
+%BASE%
+cockpit
+
+%VERSION%
+286.1-1
+
+%DESC%
+A systemd web based user interface for Linux servers
+
+%CSIZE%
+4423600
+
+%ISIZE%
+6056895
+
+%MD5SUM%
+b9f8c7cc578ea2af8950a2e1d64f7e89
+
+%SHA256SUM%
+f0aff6c9b00bc760fa87f3b711c5ea9a874d49a7a4626803f4f31cbea68b5cfa
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmQCWCUACgkQdxk/FSvb5qaHcw//c/OWGBntcSaZ/Y8Nqn9A+ISdLAtLDk8eWAS0BTtPlXKmNABq3oJRfE/QizKvjOlH94IebENXib0O+y+h4fhm0alGMhPHBrYFlSfEQbs6DZia5rsbi6KyqXhpykdjh+snEdaQVy0/HVPsinWZsa+Mv8yzyw6gZqQ1qVq78580yArSp0U36vW8hyTxD8OCefRLgiWAJBnPOSSXOW0pjQZLQX9TOFmeQW+DqqS6410FrT5aandmOe6Z3w1GkKqEFeQVHsu6skVMVE6MBD3JGpKG/1vtmzz4NMlcVD+NOz4v5wefr/THzQVLTuSQtzawrMI33Z341cgYZbfTVkcyKN33/ZIM0sBCEPVzcXwqIyii/HFgDC4JjuAHkeAJC/BRp+V4Jgw78lypXLwn4xLghBlYGDrWWmDEOfOP51XEquVgdG4fRcD1JkwTVr87efJArblYdn854gmfWzWOIU/poQqcUiZmrgw3I7RljqF190f293WQ7v7q6nTOSIWrN6AWJVtLWsHmQfkXfMvvc2t8hMuwnzZYEtWYb53qOJyHtMBIH3JRTfi0/nuZglpU2RVF6Brf0HmEheZcXwnCi2E4rsCVHpgaaM3x9O4PXXPxFunTBU5/gToex6v+XfQnTCj9Y9DP2WxXb3VdrpweMpEaizHuvaXXoXCekN8wTqjBijzXXuQ=
+
+%URL%
+https://cockpit-project.org/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1677875151
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+krb5
+libssh
+accountsservice
+perl-json
+perl-locale-po
+json-glib
+glib-networking
+libpwquality
+openssl
+kexec-tools
+
+%OPTDEPENDS%
+cockpit-pcp: reading performance metrics
+cockpit-storaged: manage storage
+cockpit-packagekit: manage packaged
+cockpit-podman: user interface for managing podman containers
+cockpit-machines: user interface for managing virtual machines
+polkit: elevate privileges
+sudo: elevate privileges
+networkmanager: manage network connections
+sssd: authentication
+sscg: generate self-signed certificate
+
+%MAKEDEPENDS%
+krb5
+libssh
+accountsservice
+perl-json
+perl-locale-po
+json-glib
+glib-networking
+git
+intltool
+gtk-doc
+gobject-introspection
+networkmanager
+libgsystem
+xmlto
+npm
+pcp
+gendesk
+
