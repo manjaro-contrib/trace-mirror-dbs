@@ -1,0 +1,62 @@
+%FILENAME%
+udisks2-2.9.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+udisks2
+
+%BASE%
+udisks2
+
+%VERSION%
+2.9.4-1
+
+%DESC%
+Disk Management Service, version 2
+
+%CSIZE%
+1013088
+
+%ISIZE%
+14495194
+
+%MD5SUM%
+435e5aef0a858befca8e3fa4db315bce
+
+%SHA256SUM%
+a7efd79f6fb1a61836d9886426cb57b7a921e5b5ffe6dbff9a6c13c4a047955a
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmFXSuoACgkQeGxj8zDXy5KAAhAAscT7+/CC8bx8TwoBy5BwiNAfMHmEcIaJBgbEEbMgOKs+8+/NMj4qePdfjhngrQZempM3XsDwYQxuxD24Ba1KqPzaE7juGkPrjMp4zWTk8FeRkqe7ZipuEyA0jZfg6CCX+Fc/wPQhcwW6qPuchWU8s1ctcvfJTppt0mio3vH9/vduTumethjBWuu+ME/XElae7LLhJ9i07Fv4/GCqB8kbsmm04jpvVpYldiUf1Gj3VI4vrcXiqspT9b3rbaM+C0lsBH/Nq6bpod5J03w21SIScei/ePC+tdyb37sazzKT2/HYYSc35NPSzs4sO6txJXb12lwKFcwh7UkHaaC9asWjXk1XhItVT7lLcobUmS6nas5DFPV+YtU8aLpJVtRK3vU0bWxeDrhaclwmSMfRmR3T3+zG/kI0ylAj5vXZ8/RMRNuB95hQ6JJQLiWm92x8Op2WisxZJsWJ8RmNQwSpajG6fsFzhh/of7+IxWKC8O3Y3c0WLe8T3vOtGLrRboYVe4GcwFGaSkkMXlmNyjjkiEDR1iMJP2RiQb7Qyhh6XG7281IdnW0VghW15GZOS1M5km5x64vMlw07vMlVogUYuNpjRQwhtSuWYjCoJfy57hF2JP+oS+pAgzzd2iqYYpjRbsQuWDO8w05qa4pdtRS4AwhOL+UEfIelFPoLgo9a8WPMoMs=
+
+%URL%
+https://www.freedesktop.org/wiki/Software/udisks
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1633098460
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+polkit
+libatasmart
+libgudev
+libblockdev
+
+%OPTDEPENDS%
+gptfdisk: GUID partition table support
+ntfs-3g: NTFS filesystem management support
+dosfstools: VFAT filesystem management support
+
+%MAKEDEPENDS%
+docbook-xsl
+gobject-introspection
+parted
+gtk-doc
+

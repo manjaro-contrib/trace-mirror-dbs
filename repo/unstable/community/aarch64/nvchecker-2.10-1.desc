@@ -1,0 +1,78 @@
+%FILENAME%
+nvchecker-2.10-1-any.pkg.tar.xz
+
+%NAME%
+nvchecker
+
+%BASE%
+nvchecker
+
+%VERSION%
+2.10-1
+
+%DESC%
+New version checker for software releases
+
+%CSIZE%
+98344
+
+%ISIZE%
+379210
+
+%MD5SUM%
+20f3982848db8e3fad7f1334f9704e27
+
+%SHA256SUM%
+2e2b1876f08d96e1a510216c8c7e4693855e5f92ee6ffa0b648e9c4d1fc847a7
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmNkY8EACgkQdxk/FSvb5qY68Q/+KX/DthkwkiRBVgGWC9caRvFN37XDzaitvR1M5V5xgaEvmr9UivsNSMNUPR1UsB15gt3k3K82yoVQHUmL34hKPEx0rd5k7tcuAFYmZOS4CNpaaJj1cMTVjrI5DX6ySBGbpasK51g/MsrKfMi4TVn7IpXGB9BNmdkBIWyjZuPBtVTaxFP8+4HwuYarGmwR8yQM2i+lTCvzjJdcnmfYR38OpNq3LDrH4bvCrRYEYcaAlvAxFGSSx0/7/eqy5Z1zXCd4/hltNf5qv4E0ZBPKxlc+t5iWVGBIKhEhMSusVAHxAW1CRMizxPJkCbHBwmyalx6AggEfMsy43HEE80Maol9DjSOi+DYjsPNEhfdsTms+XooR3/QYCn5SUR90SfELWtBMaX73+xbizXOByLqbxe1ld21X6Bn087AZMixQD9b2oQsRfkWfblQsP+Qlh2hn65555kpDFEWnPls/8ABhK9tN0CmkXu/NMym7YTGCkXioSGOJXPAwMxYUzukfnJ8XRUxQOg6wUd5TEVCHFKRiM5sSsK6Ah/0i+WF4JU498tUagBrkOzWuVwjCor6H7Mup/zjxc0LOVPYWRRAyNb7l0j0bWzlU4jiLmJRhVFR3EzLKnPfaQa9oC1bZShMWZ2VQoWCNzyXH0oQ94A/VZKV8ySsW9R/QjCL3TyHb78p81AarpJE=
+
+%URL%
+https://github.com/lilydjwg/nvchecker
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1667523502
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-tomli
+python-structlog
+python-appdirs
+python-tornado
+python-pycurl
+
+%OPTDEPENDS%
+pyalpm: for using "sort_version_key = vercmp" in configuration files and the alpm source
+python-awesomeversion: for using "sort_version_key = awesomeversion" in configuration files
+python-lxml: for the htmlparser source
+python-packaging: for the pypi source
+git: support for git repositories
+python-gobject: for nvchecker-notify
+libnotify: for nvchecker-notify
+
+%MAKEDEPENDS%
+git
+python-docutils
+python-setuptools
+python-pygments
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-asyncio
+python-pytest-httpbin
+python-flaky
+pyalpm
+python-awesomeversion
+python-lxml
+git
+

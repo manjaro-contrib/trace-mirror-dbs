@@ -1,0 +1,63 @@
+%FILENAME%
+mpg123-1.31.2-2-x86_64.pkg.tar.zst
+
+%NAME%
+mpg123
+
+%BASE%
+mpg123
+
+%VERSION%
+1.31.2-2
+
+%DESC%
+Console based real time MPEG Audio Player for Layer 1, 2 and 3
+
+%CSIZE%
+448676
+
+%ISIZE%
+1211081
+
+%MD5SUM%
+16f7ab9e5191f578d3fae7e40619e304
+
+%SHA256SUM%
+2788c3b278a441834bff29dabcb7cb4e82ea483d8d0130389e09b1faebba376d
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmPWMjIACgkQek52CV2KUuStcwf/WyaZQJM2Eq/xeZDGZNMn2ONnWSi96e3m04DY8EjMrdxucwYjvkfI4C+12U036Pad1EUGxz8UcUMuzRH/Jh4fHUe53E3NruJ04f6eFUsPhskrCW6tz1roSIZM2lAz85IMWo2P5Mb+4PYmisz+DoNKDNelve4AlWBBW3vjyhrVrO0rh0KBZ15ZIprhnewIp3D0251eaeoip9boLemcd1Y2rkuhRhfUBQA4EGjYVVl7iqe7DsfsYsDiGwf7CXcAEzwvA8gya6BOijIDuAclAT8VMezbHllftea/6bkVxvxdO/PjzSuVoADfvUt7JWnJdauS6a38OuFDG5NBT6xZ+dYC0A==
+
+%URL%
+https://sourceforge.net/projects/mpg123
+
+%LICENSE%
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1674981862
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+libmpg123.so=0-64
+libout123.so=0-64
+
+%DEPENDS%
+alsa-lib
+
+%OPTDEPENDS%
+sdl2: for sdl audio support
+jack: for jack audio support
+libpulse: for pulse audio support
+perl: for conplay
+
+%MAKEDEPENDS%
+sdl2
+jack
+libpulse
+

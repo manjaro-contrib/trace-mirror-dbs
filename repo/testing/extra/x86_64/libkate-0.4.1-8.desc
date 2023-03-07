@@ -1,0 +1,61 @@
+%FILENAME%
+libkate-0.4.1-8-x86_64.pkg.tar.zst
+
+%NAME%
+libkate
+
+%BASE%
+libkate
+
+%VERSION%
+0.4.1-8
+
+%DESC%
+A karaoke and text codec for embedding in ogg
+
+%CSIZE%
+117519
+
+%ISIZE%
+339344
+
+%MD5SUM%
+6ed3b74ed270418b0b1e55d3f853e11b
+
+%SHA256SUM%
+34102c608348372a64daafd6a686a5c67a1b4d2e3148059cc385fda96cccd6b2
+
+%PGPSIG%
+iHUEABYKAB0WIQTH54SUZv4jWDQ1iDdyWHNLQcMVSQUCYhFKwQAKCRByWHNLQcMVSaDFAQCqQ1Ff2IrfZSrLr4k9vptXrI1R+XBGg+uAh3EMTYjB6AEA3YH03OXfKyqIOUapZxWHcspps+gr0uUksMOvoBwbNw4=
+
+%URL%
+https://wiki.xiph.org/OggKate
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1645300199
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+libkate.so=1-64
+liboggkate.so=1-64
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+libkate-docs: for developer documentation
+libogg: for katalyzer, katedec and kateenc
+libpng: for kateenc
+
+%MAKEDEPENDS%
+libpng
+libogg
+

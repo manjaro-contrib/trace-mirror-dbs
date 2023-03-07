@@ -1,0 +1,61 @@
+%FILENAME%
+flyspray-1.0rc10-1-any.pkg.tar.xz
+
+%NAME%
+flyspray
+
+%BASE%
+flyspray
+
+%VERSION%
+1.0rc10-1
+
+%DESC%
+Lightweight, web-based bug tracking system written in PHP
+
+%CSIZE%
+4025416
+
+%ISIZE%
+17861461
+
+%MD5SUM%
+b44c2409f4e308bdb16cc4b4863d6f01
+
+%SHA256SUM%
+77e0784687bda3f4d0471dbb6459eaadd151d42bf389b7505d4228b6fb71bffa
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmCeyI0ACgkQdxk/FSvb5qZNXhAAuO895H8Is/AvDwTE/TXsVfxUQ1PUN4YCRD4cLbbUhNHYrchcuVf63uFgiaMTuojlrIkNa6W38x9pZxB7v1UFRHlE49r+bfQPPJTmJoXT4FOny4t9ZVXfisx1gA3iqwNl9IsJaDev8jXF72JjUdJ5VfKihkm1NDHWVkgsU6VUjrN45DT+WNugPQr/vf63RQxVy3n2rO3LMkm9XUPTFWQG+/320ELAUDXHtsNka/XnGH9stuUDNIcSwzPYV9zRtDXa7JtS4AgtyMokZkQhQzfv1KsIYLvZFWsgMkSohhTv1QUD8VZA3Q0YFeJ3ad76OkjAhfcJEuZfcyrTxJyi6ZMpbBTC1Pc5ECETqg3nkqiage74dPJNtd23zNggupJHNae1zuO+FRcAqNBHyhVCsqPrfw+AdMlQaptYK2Ye/f31tg5ikKvQ9ncnmkVT/fJWavem33Az573oxpEkPUeOQdwp4W8gS7vyq7TYofrcVunj0EkjHAJHdZxATyf1So1E+zHoUp9YT2NhjrEbXTJdkyGMPjquQCNd/7wLd/XjbwPWjqbHn2sYnFBEL00kbV5ay5NoPTfhLMJFHd2kZqTqQ6dgN9uPeafiqVwAZyLuv6r/N4Mq66D1u8YbRi7x3caF9wb4nEqT/hFONvSJHa0TuUZAGMbdEjr7xnk6qWyMYrf7OoA=
+
+%URL%
+https://www.flyspray.org/
+
+%LICENSE%
+LGPL2.1
+
+%ARCH%
+any
+
+%BUILDDATE%
+1621018705
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+php
+php-gd
+
+%OPTDEPENDS%
+graphviz: plot task dependency graphs
+mariadb: use local MariaDB database
+php-fpm: run with FastCGI process manager
+php-pgsql: use PostgreSQL database
+postgresql: use local PostgreSQL database
+uwsgi-plugin-php: run in application container
+
+%MAKEDEPENDS%
+composer
+unzip
+

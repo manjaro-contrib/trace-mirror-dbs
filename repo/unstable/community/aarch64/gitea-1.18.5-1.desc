@@ -1,0 +1,65 @@
+%FILENAME%
+gitea-1.18.5-1-aarch64.pkg.tar.xz
+
+%NAME%
+gitea
+
+%BASE%
+gitea
+
+%VERSION%
+1.18.5-1
+
+%DESC%
+Painless self-hosted Git service, community managed.
+
+%CSIZE%
+29295492
+
+%ISIZE%
+99424386
+
+%MD5SUM%
+eb1f08b55bfd3fd89534d8773b88439a
+
+%SHA256SUM%
+8a4589b171985453b4a3caba5df33ceb8a36c12fc3266b060537cbd893cd301b
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmQFLoQACgkQdxk/FSvb5qaPTRAAulxfsIuveSGIIs50+9Av5Qb2uTUmNRAyGhsx9JqGkHrPjsxOIVqOO1A4SV9VKaovWK9LrqVOvVHVAKc2/F9xuX8+linaCNhcRAtfM5Td6ETSKaQfseMzXmuNJg1LMV+S4YlIeNmP+x+wC+aS9/aPwIybJFCU1rJQHrYZhFW9yTmqLqYz+xbZh7y5+1QmGiSoN6GRd27DWBLS4rKnxvsfWXu9RQ+vc9o0rN6rehO9tRElCPY9CwssSke1WpMCTcShnhlKLWs/FpV2dkW1Lyzbj6AxdANUFYwMfphhgIzW3ecr4Gy69cUjnSJGfXR3vGpcH+azBi4NMS/A9X6uelJgerTxdaPstD0ZLcFMh+as7Xn3+XpmbUo2c9mmpo0bwxSSSL2/LK+0Ub58ms3NIiJeIMwZqvoARLWQ+1Ql+rlbnwfEVKx2k+jn1beQUJkPIX9Bw7a5DQdMITPILFMYTUQ+nuodAjYHTdk7OI8STO+CGt72U3guC0sIBl88kPK9bowcHCS8Sp3ydxNc6MA9EoibRgEyo0dtaAItMH1M4A5TMpj0fMgMxS6Gq2PIRIvaRdA+/qmn1Ug70UIbljohY6BvJh6ai/H1NC4SmPySnfR94cLzBw5CUwPI/iUwZW+jIgBw6AnLh6SUKlmRUSAJLOJ//j5/EKWI8KiZwxmhrjLOo9Q=
+
+%URL%
+https://gitea.io
+
+%LICENSE%
+MIT
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1678060468
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+git
+
+%OPTDEPENDS%
+mariadb: MariaDB support
+memcached: MemCached support
+openssh: GIT over SSH support
+pam: Authentication via PAM support
+postgresql: PostgreSQL support
+redis: Redis support
+sqlite: SQLite support
+
+%MAKEDEPENDS%
+go
+nodejs
+npm
+
+%CHECKDEPENDS%
+openssh
+

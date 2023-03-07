@@ -1,0 +1,66 @@
+%FILENAME%
+duplicity-1.2.1-1-aarch64.pkg.tar.xz
+
+%NAME%
+duplicity
+
+%BASE%
+duplicity
+
+%VERSION%
+1.2.1-1
+
+%DESC%
+A utility for encrypted, bandwidth-efficient backups using the rsync algorithm
+
+%CSIZE%
+529388
+
+%ISIZE%
+3092962
+
+%MD5SUM%
+f9ff8ee0d7cb53a0c89d58845acfb413
+
+%SHA256SUM%
+94eb8d03733f3f6dfa617ab40f5ab613f0cbb658b4f57c7bc656651f3c179264
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmONqvQACgkQdxk/FSvb5qb+GBAAww9m7898jWheFiJhuQoF+JiPXX9yPGWnN4ZCeNZmpCm/VFnBpRG3SuHY5jFB6ZhhGocEKEohDRtVDYSFTbNDD5kyMVhkAMEgVXWgH9RQeG8/BR0sdXEA5KxpPUWCqtNuEBf0/KSXXSA5cwy6EJ6Jlb2oeG8z6vFEsY5BZ62O8Le1Ujwd1wtXXjbId3uhRfMW1OYTSvjuqhu57CAB9pXpwtqAN2y+NG4grDd1fLoqOJ3vUxr3mTdwiu2euobzvR+RBRhivOpJGMNll0+DT9IyBIYq9U/qllFJiQg4f2kBKTL4nFZ/6LQN9SnGHUozXFYEJ7Or67VvuKIn/tGd380JzDWmS5X0pHaxqy1raliupbmR2rBxBhSk/9brQup2J0tIykoTomL+gaoDtDG4m4c5f4R63kx6JEs+6l3bpEQCdiwPeK6bpq5E2LR7xDZ0hq4sSdmemnUWr9j6VbScLBQ5dv0iKXtQNcRpOXCS0wjIiFOphJnl8SnfcItNHICJhrI8wskoIzTAloXx8M/Aps/nQXys5jwFpOzb1IVquCpH5hpmn+wzoFerB0dxgOMLltipGAG0O0kNJ1wgtIaRuLmmPaX7bmkfU6LK+lK8+8GFNy3/8r8rLsDfZWTt6EgppGGR5eozN3VjXK3newzgEx3oTlLwP+LrOh5XQjYOEYrYpgc=
+
+%URL%
+https://duplicity.gitlab.io/
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1670228700
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+gnupg
+librsync
+python-paramiko
+python-fasteners
+python-future
+
+%OPTDEPENDS%
+lftp: backend for ftp, ftps, fish
+ncftp: alternative backend for ftp
+python-boto: Amazon S3 and Google Cloud Storage backend
+python-dropbox: Dropbox backend
+python-gobject: GIO backend
+gvfs: GIO backend
+python-pydrive2: Google Drive backend
+python-requests-oauthlib: OneDrive backend
+rsync: rsync backend
+
+%MAKEDEPENDS%
+python-setuptools-scm
+
