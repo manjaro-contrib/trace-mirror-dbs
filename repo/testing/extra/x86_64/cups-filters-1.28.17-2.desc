@@ -1,0 +1,73 @@
+%FILENAME%
+cups-filters-1.28.17-2-x86_64.pkg.tar.zst
+
+%NAME%
+cups-filters
+
+%BASE%
+cups-filters
+
+%VERSION%
+1.28.17-2
+
+%DESC%
+OpenPrinting CUPS Filters
+
+%CSIZE%
+877268
+
+%ISIZE%
+3058123
+
+%MD5SUM%
+d9a711500fa7069a25d75bf703f150ab
+
+%SHA256SUM%
+55bed60bca22cd08f2c425250082dc416b3779bfa104cc8fc49191364e8325a4
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmQC+cYACgkQlGV6sg8qCSvQVQf8DWU6Bm00oi+DduDkwW8T7RXYLmbvGZNX9Cw2QJq8mEMyVddH5EbLJ5tBG1LDBxycXoSyYuRtD4QUmMmM5yx4o+iNmBqQ4DJE37gEnZyPWS9MurLjG8b/+aMYgKRwL9BNHCma75BtKdal+urqdb+gQ87Xl/75pPrPGXf34kZfrHA7mZL4Acze4kQRU0JtfymuZ9cQyxB2Fhrd9XsCSmIkCc/qC1fFClBYU3+0Cb2jKpHXxZJPg56GIR2SVsoAsE+aZrO5vgI0Qw00ofw+dKKVTclJahYX9h9hiRI9Tdste81h5TjeIlACcLWPCIrvsVv3Ng1Gbmnl7/CXACeVC3e24Q==
+
+%URL%
+https://wiki.linuxfoundation.org/openprinting/cups-filters
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1677916513
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%DEPENDS%
+lcms2
+poppler
+qpdf
+ijs
+libcups>=2.2.6-2
+systemd
+libexif
+
+%OPTDEPENDS%
+ghostscript: for non-PostScript printers to print with CUPS to convert PostScript to raster images
+foomatic-db: drivers use Ghostscript to convert PostScript to a printable form directly
+foomatic-db-engine: drivers use Ghostscript to convert PostScript to a printable form directly
+foomatic-db-nonfree: drivers use Ghostscript to convert PostScript to a printable form directly
+imagemagick: for Braille embosser support
+liblouis: for Braille embosser support
+antiword: to convert MS Word documents for Braille embosser support
+docx2txt: to convert Microsoft OOXML text from DOCX files for Braille embosser support
+
+%MAKEDEPENDS%
+ghostscript
+python
+mupdf-tools
+liblouis
+
+%CHECKDEPENDS%
+ttf-dejavu
+

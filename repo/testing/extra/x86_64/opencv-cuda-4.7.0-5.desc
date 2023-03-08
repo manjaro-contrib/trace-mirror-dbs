@@ -1,0 +1,92 @@
+%FILENAME%
+opencv-cuda-4.7.0-5-x86_64.pkg.tar.zst
+
+%NAME%
+opencv-cuda
+
+%BASE%
+opencv
+
+%VERSION%
+4.7.0-5
+
+%DESC%
+Open Source Computer Vision Library (with CUDA support)
+
+%CSIZE%
+82071201
+
+%ISIZE%
+1660706301
+
+%MD5SUM%
+241469a4bfeaa272f24cd01a2f4a266a
+
+%SHA256SUM%
+72050665470761d17b1675612570ded55ac99c7a3ae585d3027c531dfb2ba873
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmQGANAACgkQek52CV2KUuQT7wf+Nn5U7It31OmOdtsofuSe7suyh0Y/alSD5MtPmFLButEEv0dFVkPRBcTHRHDf4qxHnpVz7JX/p4HhlwXfVLa23NMrX4gkolUcBSnqIlr4qAFvv06hS7zQmp/PbenVUQhC4piVrf2wF+FyMzjaxytuSZGfCh8cLZekESaKzKheF1TuVbyWHICPFplbvEoyP8HKKmOWQuHMBQpb4/yHEHcvlt6zv7BAFK5unRcvuzbr8gFz0G+wGiSdi1RCTa75S5rtrINJifvD3Vk3ct/Iv1JPGzJ7n3w8tab795JTeImScPuLy5klm2zTzGyLEDCgx3jWOgsQIihIEBSA5DnIW7BMMw==
+
+%URL%
+https://opencv.org/
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1678105930
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%CONFLICTS%
+opencv
+
+%PROVIDES%
+opencv=4.7.0
+
+%DEPENDS%
+tbb
+openexr
+gst-plugins-base
+libdc1394
+cblas
+lapack
+libgphoto2
+openjpeg2
+ffmpeg
+protobuf
+cudnn
+
+%OPTDEPENDS%
+opencv-samples: samples
+vtk: for the viz module
+glew: for the viz module
+qt5-base: for the HighGUI module
+hdf5: for the HDF5 module
+opencl-icd-loader: For coding with OpenCL
+java-runtime: Java interface
+
+%MAKEDEPENDS%
+cmake
+python-numpy
+python-setuptools
+mesa
+eigen
+hdf5
+lapacke
+qt5-base
+vtk
+glew
+ant
+java-environment
+pugixml
+openmpi
+cudnn
+fmt
+nlohmann-json
+
