@@ -1,0 +1,75 @@
+%FILENAME%
+arrayfire-3.8.3-2-x86_64.pkg.tar.zst
+
+%NAME%
+arrayfire
+
+%BASE%
+arrayfire
+
+%VERSION%
+3.8.3-2
+
+%DESC%
+High performance software library for parallel computing with an easy-to-use API
+
+%CSIZE%
+216531349
+
+%ISIZE%
+983840430
+
+%MD5SUM%
+75ce171ffee87c90b9f7db0bca9fa74c
+
+%SHA256SUM%
+96e1a0c3d684b4b0f7b6485ca1d2895e87b0e8406d2da24745264de8bd750259
+
+%PGPSIG%
+iQIzBAABCAAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmPwoRIACgkQOeS4d+YuuRU07g/+NIsAqws53VCPAwqsjZq/rU0qHeWI5ykfCdV0uc8IITYKq0YzIctfu919eVB0ddK0eAcSFn7eElNvRHwsRt8CdTbr2t7gKV41RZ+sSRqfIz2DNkM/lypuunBbGzxEgiuUE2BIOcWGQQFyKj5MZs5cG0J79+RpniuX3eZv2JwiDji7AMMx1bPLvocXvPqkgUk4e7rbQKEEUFJFT2pIaBYrAgkHHtFimf7z/nFgpcq8Y1GO6aseXy8T3i9Iqj9nB8yt8lyvJUOzvNQF2ruPRX1mpyOIdqzZnA9pP7zsWqJKWUltVyPZEFPkHLo1/qcZdpffnJFSxZ7fSVjg+sdzhspwTbKk/q2Uu2WWlL1FJTKICCpZQbRJ/ovyDZtoQEVg7Jf2wtGqQf9T45yOFWL6hFFMGfX3IYl7P57s7okvM0QMw6CjcSmUbLhUvtmOQnmKTTxZRCNSase8TyV/8DXaWuVkhwB1aNLSRc2XVd7WU9TVwbodkJQHGCYWSa6M/5blAtz7M6ywtn8EKbCH3WE9jDIOdqrodvvk06wjFVA3oltX1QdhR8iQiDz5Lc5K6OyHZxHf1N8R+a+S4UUZPoDPdv75MKBvBC3uW5FLM8UUA9CeWCIC+kpeY9BQNlXnebnUBK3dV3h6ou7S7C9L23qqe2UvK8cxLtFLrJlWOMZyYzao260=
+
+%URL%
+https://arrayfire.com
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1676712044
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@gmail.com>
+
+%DEPENDS%
+cblas
+fftw
+lapacke
+forge
+freeimage
+glfw
+glew
+intel-oneapi-mkl
+
+%OPTDEPENDS%
+cuda: Required for using CUDA backend
+nvidia-utils: Required for using CUDA backend
+cudnn: Required for using CUDA backend
+opencl-driver: Required for using OpenCL backend
+ocl-icd: Required for OpenCL ICD Bindings
+
+%MAKEDEPENDS%
+cmake
+graphviz
+doxygen
+opencl-headers
+python
+ocl-icd
+cuda
+cudnn
+git
+ninja
+boost
+

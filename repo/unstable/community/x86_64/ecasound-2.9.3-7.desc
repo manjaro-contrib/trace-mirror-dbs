@@ -1,0 +1,92 @@
+%FILENAME%
+ecasound-2.9.3-7-x86_64.pkg.tar.zst
+
+%NAME%
+ecasound
+
+%BASE%
+ecasound
+
+%VERSION%
+2.9.3-7
+
+%DESC%
+Command-line multitrack audio processor
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+1591230
+
+%ISIZE%
+8523509
+
+%MD5SUM%
+5adbb40983f343c9a6f95fd5c57fdc86
+
+%SHA256SUM%
+32dc2735e9b91739c3e21a3121432167ba8b63b0b15a86ce7671c28bc3515380
+
+%PGPSIG%
+iHUEABYIAB0WIQTH54SUZv4jWDQ1iDdyWHNLQcMVSQUCYcxt9gAKCRByWHNLQcMVSV+UAP92sWIRxyq9ZouXzhU0+kzTHbht3Hfm8HEg8XrydHWoeQEAmoSfrYLEb9ltZSuYvSktjKHXfwGmNwQJQsmZmutDfw4=
+
+%URL%
+https://ecasound.seul.org/ecasound/
+
+%LICENSE%
+GPL2
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1640787265
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+lv2-host
+
+%DEPENDS%
+gcc-libs
+glibc
+libasound.so=2-64
+libjack.so=0-64
+libaudiofile.so=1-64
+liblo.so=7-64
+liblilv-0.so=0-64
+libncursesw.so=6-64
+libreadline.so=8-64
+libsamplerate.so=0-64
+libsndfile.so=1-64
+
+%OPTDEPENDS%
+bash: for libecasoundc-config and libecasound-config
+lame: MP3 encoding
+libfaad2: for .aac/.m4a/.mp4 file support
+libfaac: for .aac/.m4a/.mp4 file support
+libmikmod: for tracker module
+mpg123: MP3 decoding
+python: for ecamonitor
+ruby: ECI API
+timidity++: for .mid file support
+vorbis-tools: for .ogg file support
+
+%MAKEDEPENDS%
+alsa-lib
+audiofile
+jack
+lv2
+liblo
+libmikmod
+libsamplerate
+libsndfile
+lilv
+ncurses
+python
+readline
+ruby
+

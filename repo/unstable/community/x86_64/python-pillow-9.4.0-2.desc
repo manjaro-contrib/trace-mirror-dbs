@@ -1,0 +1,73 @@
+%FILENAME%
+python-pillow-9.4.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-pillow
+
+%BASE%
+python-pillow
+
+%VERSION%
+9.4.0-2
+
+%DESC%
+Python Imaging Library (PIL) fork
+
+%CSIZE%
+668912
+
+%ISIZE%
+3180344
+
+%MD5SUM%
+16fadcf8fef0255c5135d79240c9b81b
+
+%SHA256SUM%
+a16eb409947ea37cf1a1b5daa51e606a95679f8ddc42e9b0708e45ed41f91da2
+
+%PGPSIG%
+iQEzBAABCAAdFiEEhs/8qRjPOvRxR1iAUeixSKmZnDQFAmOzXpMACgkQUeixSKmZnDSD1gf/XAdEkxoG0zxtpEZugK9ghL/qER0/u2GB0xBNh1/9K8rydOo4MucJ1uQrkw1nENqxLJcIxXqoKEk/jnWPMYyaL8Y7Ms9DyCB8nGNz3wA8qUK34yDXUQc7HmdODth1cVgNurdGMck9+iNJNy/S1uj47JT+eWU9OHVmwc/ubd9O/MHr8Zz2xxlC5rmj37G6NVp91drefInJW8aO1diJ+szdGiodXwGTFCGL8ZLmB4622TzsFMUrNEVT0ppah/1gq3wD12uNcBBG7s+QXd5B2RhrnmuvxlecG/pskCtvoJQKWfwUhgh9lKYJHmEYzqEK7gMM7+fEwa3Cy5uNYlsmNsAh1A==
+
+%URL%
+https://python-pillow.org
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1672699458
+
+%PACKAGER%
+Evangelos Foutras <foutrelis@archlinux.org>
+
+%DEPENDS%
+python
+freetype2
+lcms2
+libraqm
+libtiff
+openjpeg2
+libimagequant
+libxcb
+
+%OPTDEPENDS%
+libwebp: for webp images
+tk: for the ImageTK module
+python-olefile: OLE2 file support
+python-pyqt5: for the ImageQt module
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-wheel
+python-setuptools
+libwebp
+tk
+
+%CHECKDEPENDS%
+python-pytest
+
