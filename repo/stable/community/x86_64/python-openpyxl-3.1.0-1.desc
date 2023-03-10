@@ -1,0 +1,65 @@
+%FILENAME%
+python-openpyxl-3.1.0-1-any.pkg.tar.zst
+
+%NAME%
+python-openpyxl
+
+%BASE%
+python-openpyxl
+
+%VERSION%
+3.1.0-1
+
+%DESC%
+A Python library to read/write Excel 2007 xlsx/xlsm files
+
+%CSIZE%
+382781
+
+%ISIZE%
+2400947
+
+%MD5SUM%
+5abbe36709c581adb5cf2b3d5428c3f0
+
+%SHA256SUM%
+c863cc2490d84a17d011944507e2b23a875817ab0702ad418ea6907d1f67aac2
+
+%PGPSIG%
+iHUEABYIAB0WIQQNmeQ7UMKtIbreRjJJPeIcgk6VQQUCY94ASgAKCRBJPeIcgk6VQakNAQDW+uNwlf4Gby4DxPbJSTSQlwRFc5OpkLpTX3EGRZN0dAEAsyC2h/lG5HSal8IPUlkTSeIEadc/HNU2ty7qSQH2OwU=
+
+%URL%
+https://openpyxl.readthedocs.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1675493223
+
+%PACKAGER%
+Chih-Hsuan Yen <yan12125@archlinux.org>
+
+%DEPENDS%
+python-et-xmlfile
+
+%OPTDEPENDS%
+python-pillow: needed to include images
+python-lxml: alternative XML backend
+python-defusedxml: guard against various XML vulnerabilities
+python-pandas: for iteration over Pandas DataFrames
+
+%MAKEDEPENDS%
+python-setuptools
+python-defusedxml
+
+%CHECKDEPENDS%
+python-pytest
+python-py
+python-lxml
+python-pandas
+python-pillow
+

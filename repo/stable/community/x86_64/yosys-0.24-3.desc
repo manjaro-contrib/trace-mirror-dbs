@@ -1,0 +1,67 @@
+%FILENAME%
+yosys-0.24-3-x86_64.pkg.tar.zst
+
+%NAME%
+yosys
+
+%BASE%
+yosys
+
+%VERSION%
+0.24-3
+
+%DESC%
+A framework for RTL synthesis
+
+%CSIZE%
+6808337
+
+%ISIZE%
+54118588
+
+%MD5SUM%
+95cca4e5ec748df937a5e7023c90c10d
+
+%SHA256SUM%
+f39d55403d55bb2223f33072323288d03b67395a46550c4e43525d642d1fcd89
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCY85VbQAKCRATmwnaW/DTOD/oAP0UVBUe4NM64Nb6vqjuYRGkjUHO3fbjJP2d2CLRdFG++AEAyGTYe7FevgcaRNo/2kKETVWp+0xrdyfqMhWDCLtizAA=
+
+%URL%
+https://yosyshq.net/yosys/
+
+%LICENSE%
+custom:ISC
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1674466052
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+abc
+bash
+boost-libs
+tcl
+libffi
+python
+protobuf
+
+%OPTDEPENDS%
+graphviz: Schematics display support
+xdot: Display netlists
+yices: default solver for yosys-smtbmc
+cvc4: alternative solver for yosys-smtbmc
+z3: alternative solver for yosys-smtbmc
+
+%MAKEDEPENDS%
+boost
+
+%CHECKDEPENDS%
+iverilog
+
