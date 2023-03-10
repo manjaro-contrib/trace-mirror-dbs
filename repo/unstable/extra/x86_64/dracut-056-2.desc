@@ -1,0 +1,76 @@
+%FILENAME%
+dracut-056-2-x86_64.pkg.tar.zst
+
+%NAME%
+dracut
+
+%BASE%
+dracut
+
+%VERSION%
+056-2
+
+%DESC%
+An event driven initramfs infrastructure
+
+%CSIZE%
+285057
+
+%ISIZE%
+1022303
+
+%MD5SUM%
+dc7f2b6d35ccc378021867c1c7723f2c
+
+%SHA256SUM%
+59e924c064350d6d29050ff35dc7472607fe3bebf9ffc1d31a97aa0823a64302
+
+%PGPSIG%
+iHUEABYIAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZAWZ+QAKCRBtQr3RFuAGj+4vAQCX5FYlBou1weUymHyWTBVLONQhoMWon8Pk9TFIlr8w1gD9Hz++OKthngqj22gkGUo2j3mTe7eIS1tFdtATxkrwfgQ=
+
+%URL%
+https://dracut.wiki.kernel.org
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1678088617
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%PROVIDES%
+initramfs
+
+%DEPENDS%
+bash
+coreutils
+cpio
+filesystem
+findutils
+grep
+gzip
+kmod
+pkgconf
+procps-ng
+sed
+systemd
+util-linux
+xz
+
+%OPTDEPENDS%
+binutils: --uefi option support
+elfutils: strip binaries to reduce initramfs size
+multipath-tools: dmraid dracut module support
+pigz: faster gzip compression
+sbsigntools: uefi_secureboot_cert/key configuration option support
+
+%MAKEDEPENDS%
+asciidoc
+bash-completion
+git
+
