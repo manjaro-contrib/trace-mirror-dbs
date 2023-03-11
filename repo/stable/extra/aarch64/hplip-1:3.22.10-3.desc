@@ -1,0 +1,73 @@
+%FILENAME%
+hplip-1:3.22.10-3-aarch64.pkg.tar.xz
+
+%NAME%
+hplip
+
+%BASE%
+hplip
+
+%VERSION%
+1:3.22.10-3
+
+%DESC%
+Drivers for HP DeskJet, OfficeJet, Photosmart, Business Inkjet and some LaserJet
+
+%CSIZE%
+22078868
+
+%ISIZE%
+35930665
+
+%MD5SUM%
+18c87ae3b5eb15b945b4316b77307dbb
+
+%SHA256SUM%
+80b9e12b711333f1e0c34ffbd33f340e86bece5688f6b74e4e66a3ffff2a70a5
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmPH8ggACgkQdxk/FSvb5qZcTw//SCWJPTYId8w6MayTM3YP4ulwzG0j2EMY8qdcXZ5BGhYDc8sjn6H3WzJZnCnAJfkQR6JE+iSxlOiYkhLIEOUzENdTSh9uHCCiyas6vtt0QT5EmpkX0c5NRU4sp09zLeMLfByK07CA/S4/cnqy3225AqxCs+DVuMRkzaTUllKMDpimklsuzxct86xgmo6Is2/F6xCNTfAQC7flKEh9QsZ296CzLAQVBQJX9cpAs67M8C14iMObnyHDQ1nwKjQWjdSbnSGWDLRj8kipU4TAdpEQMqYL/MdRLebjd4ZGbnB78XEGJnh0PLhCIeo/XETLOXAodzBDa6cMAHczbAp1RVyUi/1a3R4n+m/u7eQw30ySTU5KPBOYdY5gCqdllj914JMxyUvRRHxtVt4/vdfq82Of/q0xjwgrGGMHP9bJqq+XacOMt4Np3/83Iq0CLn4Y2K2feVhGXe9SCH5d+kbKZ/ah6+tsxyrk5hj17Rg0uOhrOldZ0m/WLxmeBlno5HHVxJ/KhgQwoDHeC/8Cpj8iqA7wpL7+YcEXuvAD9FNwz9tu8vkTl8pFqf3OzGPnvk6w/dqHDZgsbeBc5P9P7mdBu8nIJ+ieNOIynnoWbD9C3fdUhpyXxRSjQozw9m7aWeqL1dMHaCkO2ExRqTUUDfYWSJqt9zYKyiGq1d3MJhPt6wXBaMs=
+
+%URL%
+https://hplipopensource.com
+
+%LICENSE%
+GPL2
+custom
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1674047846
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python-dbus
+python-distro
+ghostscript
+net-snmp
+foomatic-db-engine
+python-gobject
+libxcrypt
+
+%OPTDEPENDS%
+cups: for printing support
+sane: for scanner support
+xsane: sane scanner frontend
+python-pillow: for commandline scanning support
+python-reportlab: for pdf output in hp-scan
+rpcbind: for network support
+python-pyqt5: for running GUI and hp-toolbox
+libusb: for advanced usb support
+wget: for network support
+
+%MAKEDEPENDS%
+python-pyqt5
+sane
+rpcbind
+cups
+libusb
+

@@ -1,0 +1,61 @@
+%FILENAME%
+libkate-0.4.1-8-aarch64.pkg.tar.xz
+
+%NAME%
+libkate
+
+%BASE%
+libkate
+
+%VERSION%
+0.4.1-8
+
+%DESC%
+A karaoke and text codec for embedding in ogg
+
+%CSIZE%
+105616
+
+%ISIZE%
+343944
+
+%MD5SUM%
+9831f9f9903d18a244ba87a41b85f967
+
+%SHA256SUM%
+9d1ef80e2305af70bf6ad8a83a38662a003dc03383ba9b8f534b7950e8b246e3
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmIRVU4ACgkQdxk/FSvb5qbyHw//b5iSAoN9BlpINBurtupvv+w3WKOuxoKS2eD59SzleV5/17ilALuKToT8/hBt2I2cFb3vR3PV/AzEfB2yLVsjH5Zpfe6eo3MsQ2QXiCttrTUn27mHpytprF5ch9aFKseOdXb4Ubf8wUwB+qqJJ5pVfAa/l/JPR77KmGMGNuPU++VI8Gb6y6V+i8gKdHOcgeGLSBdxOgdxcMzApDHY+VfJUWFGfS/BmmkYjSyZGvv93EQswrerCXQl/KlOoQvMRTFlVrcGDCFav1YpO8F9bBqniHNocHEjG3NVGeVRy6nDhwRbuX/tKRKXi+zt1u9W/5QrH12NsCCJSIFB2FuKhIQ1N6pEBSbWVwfkIT3lszUUOenPoE6DzWTgdkDmkv4kBBb4yuL4WWmXbjo6V9IY+HEdUNu+Qrak5abzJFFv0wazHJbP+I2gAP3AeenxxSmp95kUOezKh+qnC3HY5wUyzkqH57JCj6PSCRYhw6NyTAZuZuKScfMc8GVfcdOOFkADD8zQ1q6VwUWrIlTPXRS+zUEZDc45+LGomh47NJEJ//En5I+cLNtSIwlYs0hoDD9llE5m/iBiaseAEFZlCe9WptUb56ZaNniaBMqmrFjwAIfsPtJI+H9Xm27iTwke23uQt6NETk90D8r6CG0aEeEOU01+cMvFRgl1UgfSm+qI/bC7w1A=
+
+%URL%
+https://wiki.xiph.org/OggKate
+
+%LICENSE%
+BSD
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1645303072
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%PROVIDES%
+libkate.so=1-64
+liboggkate.so=1-64
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+libkate-docs: for developer documentation
+libogg: for katalyzer, katedec and kateenc
+libpng: for kateenc
+
+%MAKEDEPENDS%
+libpng
+libogg
+
