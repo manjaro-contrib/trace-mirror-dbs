@@ -1,0 +1,74 @@
+%FILENAME%
+kpmcore-22.12.3.r1357.g50c9a58-1-aarch64.pkg.tar.zst
+
+%NAME%
+kpmcore
+
+%BASE%
+kpmcore
+
+%VERSION%
+22.12.3.r1357.g50c9a58-1
+
+%DESC%
+Library for managing partitions
+
+%CSIZE%
+934915
+
+%ISIZE%
+4266793
+
+%MD5SUM%
+e37f019f6a637db191e1272ffad83a3e
+
+%SHA256SUM%
+c54bc7b5329d77ce5e8d99bb561da24faf6f5efa9be3480e9eccfdabf286d280
+
+%PGPSIG%
+iQGzBAABCAAdFiEEO3lN5tQyD85ZT0FxJ5589djVbsgFAmQMDUgACgkQJ5589djVbsjtOwv/Wl4ffcWVb3vtAt7rLUPGuLT4Oyv+w0uWsijirV2eM2SGIQyU1zswtfkWmAShc1HERm/8NJ10E6wFFd4/Dxxp88aWXjfY8YpqyEJALMVRqCUIo2LY17UfIbaMHueLAfUmYoEXmclrWqscjkA89kY+mrSV1tVDBk3xVTgzo7Q8JDrXheOj5OGs10/O2Vu0EB6uYxWRc5zbFMgNsCuqS4e/bpUWu9GKg12DdJh5LAQcooQh/iQKzmRvXZqlyCzfjJTKkw6+TyRpHMR61f47pay6bZv8LJL4iBl5BDNwTeBpacEAeeoqrOCcwHUsAsRkxAAtV6h0LMxJJswO3UIUOrE9VygbScE07R1/b9Pi1YSzWMLPjB8BbgIATYvHe3U8S6jOSbezeEiUSjq0CRjDuBnLCeBECfsqi4WZhH9DUxXjrvmjB5jZx6AVcrjJp1DJlu9i4E6T18k273JvqgqMey3cINeGQLigvZlyuG5sUPbxDtsCigxHQnrQ31aoJfeEgu6U
+
+%URL%
+https://apps.kde.org/partitionmanager/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1678497110
+
+%PACKAGER%
+Manjaro Build Server <build@manjaro.org>
+
+%REPLACES%
+kpmcore-git
+
+%DEPENDS%
+smartmontools
+kcoreaddons
+kwidgetsaddons
+ki18n
+polkit-qt5
+qca
+
+%OPTDEPENDS%
+e2fsprogs: ext2/3/4 support
+xfsprogs: XFS support
+jfsutils: JFS support
+reiserfsprogs: Reiser support
+ntfs-3g: NTFS support
+dosfstools: FAT32 support
+fatresize: FAT resize support
+f2fs-tools: F2FS support
+exfat-utils: exFAT support
+exfatprogs: exFAT support (alternative to exfat-utils)
+nilfs-utils: nilfs support
+udftools: UDF support
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules
+
