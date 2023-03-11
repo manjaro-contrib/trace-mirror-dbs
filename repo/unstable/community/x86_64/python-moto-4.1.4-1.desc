@@ -1,0 +1,95 @@
+%FILENAME%
+python-moto-4.1.4-1-any.pkg.tar.zst
+
+%NAME%
+python-moto
+
+%BASE%
+python-moto
+
+%VERSION%
+4.1.4-1
+
+%DESC%
+Moto is a library to mock out the boto library.
+
+%CSIZE%
+2843743
+
+%ISIZE%
+51475144
+
+%MD5SUM%
+395c2dbc2f44a0b5d641983fea8e9881
+
+%SHA256SUM%
+0cfd316f6ea9e5c99b9797d81d3bd4e920163926cc0e161b17ffbf1232a96b00
+
+%PGPSIG%
+iHUEABYIAB0WIQQNmeQ7UMKtIbreRjJJPeIcgk6VQQUCZAxuFgAKCRBJPeIcgk6VQdIHAP44ff6tl+C69n9t5iR2rM2sirHP61SduyN1V0q2sWiEgwEAoro77lZxNeOXYhI6Z46ARXD+YaS8cY+0FcV8op+5zgU=
+
+%URL%
+https://github.com/spulec/moto
+
+%LICENSE%
+Apache
+
+%ARCH%
+any
+
+%BUILDDATE%
+1678533229
+
+%PACKAGER%
+Chih-Hsuan Yen <yan12125@archlinux.org>
+
+%DEPENDS%
+python
+python-boto3
+python-botocore
+python-cryptography
+python-requests
+python-xmltodict
+python-werkzeug
+python-dateutil
+python-responses
+python-jinja
+python-urllib3
+
+%OPTDEPENDS%
+python-yaml: for apigatewayv2, cloudformation, s3 and ssm
+python-jose: for apigateway, cloudformation and cognitoidp
+python-openapi-spec-validator: for apigateway and cloudformation
+python-docker: for awslambda, batch, cloudformation, dynamodb2 and dynamodbstreams
+python-graphql-core: For appsync and cloudformation
+python-jsondiff: for iotdata and cloudformation
+python-aws-xray-sdk: for xray and cloudformation
+python-cfn-lint: for cloudformation
+python-sshpubkeys: for ec2, ebs, efs, directoryservice and cloudformation
+python-pyparsing: for glue and cloudformation
+python-flask: for moto_server
+python-flask-cors: for moto_server
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-sure
+python-freezegun
+python-yaml
+python-jose
+python-openapi-spec-validator
+python-docker
+python-graphql-core
+python-jsondiff
+python-aws-xray-sdk
+python-cfn-lint
+python-sshpubkeys
+python-pyparsing
+python-flask
+python-flask-cors
+
