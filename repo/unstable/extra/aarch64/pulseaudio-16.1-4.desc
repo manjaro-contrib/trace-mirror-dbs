@@ -1,0 +1,104 @@
+%FILENAME%
+pulseaudio-16.1-4-aarch64.pkg.tar.xz
+
+%NAME%
+pulseaudio
+
+%BASE%
+pulseaudio
+
+%VERSION%
+16.1-4
+
+%DESC%
+A featureful, general-purpose sound server
+
+%CSIZE%
+1027936
+
+%ISIZE%
+5928727
+
+%MD5SUM%
+b96b8215deb2291e6e53357cca0cbf72
+
+%SHA256SUM%
+cae2d762c77e367f2beb2ec0a787ad5e08e9256de3c04093eddaadf35e31bf33
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmQMnxMACgkQdxk/FSvb5qbp4BAAsc3ChMgDDWzzWesF/qwh9e4357KSOlo9fApPKQ9RJSCeY+n04DHOr7gTwW79YRB5YKdV+wpU9xZj6evJqDP+FH/btZZrCV0vxbZY/HwsYtTfLqwm/WviTF5ec3E0+CuD1zTDBjIckiCeHbyb/HVGUv5SPriR/My6OXqRJxbzZUrxijUfOTsT0PbM7rCaKsfr5Gyj5sBfPR1wnBKzh5iF8uzCgoHb7UrNbti0HOMYLN9LSaTwup4UHuQUj9FeyMAFEEkYpzieMUGroRUtoncWBIEjLuE/ZI7GNZstKeHo+vrfi6h59eZFl9Yvjr6oP+55J1Ehf89wRlZ+uOKzS6rxlhfu2Wpa0hG7Jgaaqt3sSq/2LcLECTRZ9lZvuTSZ/LxJy+EGgoqmTufdXbzpDnlE8JVCoNxLbfauraXNExrLWMdyfAcWruTq2+9Y0UPVqu80aKrOVTreeXgdM5gqd4UXG8Kg+kLn/xlGVTrIbzzFnmNoOtpcSafJe6UNrPcX5zfbNb3kE3hMv4lMpxgHLbhETM4aGvE2oK/bfTG3SysFqo33kReaKoMfbugisxYGJw13zLOGFaQtxPHwBnVUIs4VzVsLKrBYyEzfanjLVICeB4TpeUPP0f8zr793ZSirFOMLQdmVNcPoOv0ElRsIrJLeSS3ffMHWGcQlghmSGp3chIA=
+
+%URL%
+https://www.freedesktop.org/wiki/Software/PulseAudio/
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1678548618
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%REPLACES%
+pulseaudio-gconf<=11.1
+pulseaudio-xen<=9.0
+
+%DEPENDS%
+alsa-lib
+fftw
+libltdl
+libpulse=16.1-4
+libsoxr
+libxtst
+orc
+rtkit
+speexdsp
+tdb
+webrtc-audio-processing
+
+%OPTDEPENDS%
+pulseaudio-alsa: ALSA configuration (recommended)
+pulseaudio-bluetooth: Bluetooth support
+pulseaudio-equalizer: Graphical equalizer
+pulseaudio-jack: Jack support
+pulseaudio-lirc: IR (lirc) support
+pulseaudio-rtp: RTP and RAOP support
+pulseaudio-zeroconf: Zeroconf support
+
+%MAKEDEPENDS%
+alsa-lib
+attr
+avahi
+bluez
+bluez-libs
+check
+dbus
+doxygen
+fftw
+git
+gst-plugins-base-libs
+gtk3
+jack2
+libasyncns
+libcap
+libsm
+libsndfile
+libsoxr
+libxtst
+lirc
+meson
+openssl
+orc
+rtkit
+sbc
+speexdsp
+systemd
+tdb
+valgrind
+webrtc-audio-processing
+xmltoman
+
