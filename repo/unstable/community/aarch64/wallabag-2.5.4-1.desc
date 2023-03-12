@@ -1,0 +1,61 @@
+%FILENAME%
+wallabag-2.5.4-1-any.pkg.tar.xz
+
+%NAME%
+wallabag
+
+%BASE%
+wallabag
+
+%VERSION%
+2.5.4-1
+
+%DESC%
+Self hostable application for saving web pages
+
+%CSIZE%
+41512456
+
+%ISIZE%
+137935210
+
+%MD5SUM%
+6b6e40b8f68d9f5cf49cb1f2b19817d2
+
+%SHA256SUM%
+f4a51efc63551af8e06587a7040711204db91327136619b09b06931a13ac83ae
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmPoM9oACgkQdxk/FSvb5qY/aQ/9GSpNvG1iawxdj+SKiy/h/Mn1LtSRpzrNn1DFGGIwM/RGsagBkUBSkFwW28QyHpc559pWIOKEfs5BWTVaQQG2GYQwbhipaCoVtKKsnG5y2LyzqCvY2BDqZVl91yR9uDwLRj0FlWe2BLyO3IbDDBvO0vnUTwOWZshkYVofXmcf/lL/IcApbLR3e5Oq7rM8/jGmI4HRAUbxEcUBabnUib4X44zeXW3nj/NAqZvxEOFX05Zet8+lBrEQcl4pZqRlXm/aHkY+9eUYTxC7+2OJ82tONzyfeqZbKJaFk0fgmPMEyuVi+Mle2Afj0PO+CloJI/5iggh5ZyFyE+BMjPlv6tgf6n6GNpWa1VkvS8OJlc5wlJ77dc+q9iA5kyJnNCb4aDesjrRNw5ISBtwTvqZG63zTtnfWsJUnq6KhGO7udaRx2lXGHtMpEb7HyyJWsaPoBay2oW4gQiSniXsYVDe3mqiejYLGXZtxuJIHPtJqFvdquJ6TVdDXAR4kwJae4/5yDe4IFz6nU+LOtGQFijI4q1IJXeIoFNUcBm5P0+k5LxTaKiZnORWvb4oN2ZX9lRKqt8ulGEBc9Xo9h0x8zwJ3hVeP1o+c6YHROiwR3OUBRdhEiYmF8nPMgmMBs/lwTEXxTOMTfpNjfIXHdjMmEcE6mayPJNITgSxC7ksGC6or/EPg9Q8=
+
+%URL%
+https://www.wallabag.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1676161883
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+php
+php-gd
+php-tidy
+php-intl
+
+%OPTDEPENDS%
+php-fpm: to run in FastCGI process manager
+php-pgsql: to use a local PostgreSQL server
+php-sqlite: to use the SQLite database backend
+rabbitmq: to use a local RabbitMQ server for async import
+redis: to use a local Redis server for async import
+
+%MAKEDEPENDS%
+systemd
+
