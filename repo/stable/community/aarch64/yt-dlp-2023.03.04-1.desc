@@ -1,0 +1,63 @@
+%FILENAME%
+yt-dlp-2023.03.04-1-any.pkg.tar.xz
+
+%NAME%
+yt-dlp
+
+%BASE%
+yt-dlp
+
+%VERSION%
+2023.03.04-1
+
+%DESC%
+A youtube-dl fork with additional features and fixes
+
+%CSIZE%
+3913388
+
+%ISIZE%
+23047786
+
+%MD5SUM%
+a3cd1363da62970dd4b93b21a48ff60f
+
+%SHA256SUM%
+ceaa3d1b71bc8ae93dc0f53c02ac69b808dfb86167e0d9e27dcb8489010370ba
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmQE2GMACgkQdxk/FSvb5qYwFA/9HDFDLov03inLnJZWhW0axBTN/1O+Bo/IOgV3PVyyl05PT35jvwJN3HTljwss9knVuapo2wa3Uh+WHOANPRmB3dR3VBSjDu50UWUFZ0CWKvzNyzssCjykoxz9p+jNa9LvHPtoJJD689/aYp6SwLmiTHBh71adcZnv5sLJUDmE9iq1j8e3XCdeKOwSrn1uJA3KCCR/xhtLjNU+mrjNb+ixtQUKKgzTcAMYwThxPFuJqfvvaxSsjaZdQYqaJfeEfAcIENfRs01+H/ah6WB7WiWIjizWTvicrjO0MAFjq0qomWzSfLF1nt3/LeV/Sfkrrm150erLuSfa63rL9jR4A6F2ZHV+Ix4wI9PiSmOqLcbslaFh6HipzETPIq7rZ5DuqaV/y4Gt7hkP4MSkVPpSCx3teCj3caf7t1MdRjINZDDQpVNiO36RGwt6Xy3oLwCeP00RaMGLcqylINWf5Wnk4Ah9gMacTfJjY8uieKgauqGvBJwOrjBBagTLPzsYtxyWuuPok8UuVfDJ5uQOjDbCsqY+MFfJWT4IOJgtd83gvGaG0e+Sj1DxYLUpfn2kcizXq45OTIhqNeFGCbQIn/O1tYeLHb4ocFmhOA0Nt87WWWpO5DEaWDD0TogyJuUdYwPoEEKMbBTtAk4p2EsEJbpPdC7BFSOcsNdkFy4QmMFh3MD4Rec=
+
+%URL%
+https://github.com/yt-dlp/yt-dlp
+
+%LICENSE%
+Unlicense
+
+%ARCH%
+any
+
+%BUILDDATE%
+1678039065
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python-certifi
+
+%OPTDEPENDS%
+ffmpeg: for video post-processing
+rtmpdump: for rtmp streams support
+atomicparsley: for embedding thumbnails into m4a files
+aria2: for using aria2 as external downloader
+python-mutagen: For embedding thumbnail in certain formats
+python-pycryptodomex: For decrypting AES-128 HLS streams and various other data
+python-websockets: For downloading over websocket
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
