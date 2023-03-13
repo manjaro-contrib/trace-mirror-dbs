@@ -1,0 +1,86 @@
+%FILENAME%
+slurm-llnl-22.05.7.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+slurm-llnl
+
+%BASE%
+slurm-llnl
+
+%VERSION%
+22.05.7.1-1
+
+%DESC%
+Simple Linux Utility for Resource Management
+
+%CSIZE%
+5342038
+
+%ISIZE%
+18230128
+
+%MD5SUM%
+9005c4f2711ac02aad215ad171961399
+
+%SHA256SUM%
+2bc82eba3293edefa3464512db8b095e72dc109c72c6264a344f751fcfa9cf01
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmQI3VsACgkQeGxj8zDXy5K0JQ//QbFUHmeid4DkAqLNON+u7n0egtQlybJvN5TgSDapv+pqqJmNDvnRzaONHk0vaHdg9K7+YIhKZ6RpEyj0WyGgXZUk5IV69+Lyatud4SwPkmd8j9i0bSVO2a3Mxx+N8LLh8OqRfmXYsFvv7SdXxdiO6CTMy2B7hpm+3ATWHAMEWcjxA9xTThCt3koQhweAf5FI3DYtpWkHUJsNPAFHA3uSdDF9hsz6dUYFcgd7qr3+lMkDubbQO+G9aPHsi0DoBPaF2/pl6RGn900hfCIw+blVx5ocqtRdTLbRRRheIIrp6u6BKaKGEnm1QtXT8jFQYZXj91GfjKN0g5Xt7qCUOFBTNW67VqfOLtpl+5UUTzpPw6jiwLyEtCGwwTxXwmZnbA5hTPhFoTG61vWeQz3d+MOnyuBkBjjqI2nkvihVluhIxj/m3qtasxBc5c4ve6xc0b5+Mgno4dJ2BSICAcjDqvCwNH2VxRmPr1UXHMtkmiwfmg5ylrJCv6pugL6MBvM/lzy/HQ7becchEIMecjufxyp3zj5RWalUdP0e4ZZqBwCzPogxEID+Y2S1pVUk38OFjeS8bbKn4irYRQXcnxL8xKNkx/JX+jeOnqYYwH2mVIrvWTuaZhojDMuzzKwkqIYSg0V4m6hM9ja9MYqpSAVtb23mq9cvo3iMbNMAWgx6ZIk9VDY=
+
+%URL%
+https://www.schedmd.com
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1678301892
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+hwloc
+lz4
+munge
+numactl
+
+%OPTDEPENDS%
+lua: the lua API will be available in various plugins
+mariadb-libs: support for accounting
+postgresql-libs: support for PostgreSQL
+hdf5: support for acct_gather_profile/hdf5 job profiling
+openssl: support for the crypto/openssl CryptoType plugin
+pam: PAM support
+readline: Readline support in scontrol and sacctmgr's interactive modes
+rdma-core: support for the acct_gather_infiniband/ofed InfiniBand accounting plugin
+rrdtool: support for the ext_sensors/rrd plugin
+ncurses: adds the smap command
+gtk2: enables the sview command, a simple graphical frontend
+openpmix: support Open MPI applications using PMIx
+json-c: JSON serializer support
+libyaml: YAML serializer support
+http-parser: for slurmrestd
+freeipmi: for the acct_gather_energy_xcc plugin
+
+%MAKEDEPENDS%
+python
+gtk2
+rrdtool
+hdf5
+lua
+json-c
+http-parser
+freeipmi
+openpmix
+level-zero-headers
+level-zero-loader
+mariadb-libs
+rdma-core
+numactl
+libyaml
+

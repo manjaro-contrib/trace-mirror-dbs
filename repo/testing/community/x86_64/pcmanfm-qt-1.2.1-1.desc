@@ -1,0 +1,63 @@
+%FILENAME%
+pcmanfm-qt-1.2.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+pcmanfm-qt
+
+%BASE%
+pcmanfm-qt
+
+%VERSION%
+1.2.1-1
+
+%DESC%
+The LXQt file manager, Qt port of PCManFM
+
+%GROUPS%
+lxqt
+
+%CSIZE%
+470742
+
+%ISIZE%
+2461501
+
+%MD5SUM%
+95c452dfb23245650511a1c5699728f8
+
+%SHA256SUM%
+4940dd8567f42f64b5b1c0af704c268761977013f66e72a6677aa837ed8fe851
+
+%PGPSIG%
+iHUEABYIAB0WIQQNmeQ7UMKtIbreRjJJPeIcgk6VQQUCY7MHOQAKCRBJPeIcgk6VQarJAP9zLbs1bjtwKMDCCiijjFIUSCryNjB1BiRryLPlLNly5gEA0FkvLtr/hQgU2eIvZQ2GB7ZPd0Pr2twQpVzq7FyvEwY=
+
+%URL%
+https://github.com/lxqt/pcmanfm-qt
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1672676250
+
+%PACKAGER%
+Chih-Hsuan Yen <yan12125@archlinux.org>
+
+%DEPENDS%
+desktop-file-utils
+libfm-qt
+lxmenu-data
+libfm-qt.so=12-64
+
+%OPTDEPENDS%
+gvfs: for various features like mounting without root, remote filesystems, encrypted filesystems and many others mentioned on https://github.com/lxqt/pcmanfm-qt/wiki
+gvfs-mtp: MTP support (Media Transfer Protocol)
+lxqt-archiver: archive management
+qt5-translations: allow keyboard shortcuts to function in some languages (e.g. German)
+
+%MAKEDEPENDS%
+lxqt-build-tools
+

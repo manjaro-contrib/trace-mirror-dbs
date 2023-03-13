@@ -26,4 +26,38 @@ Shared library for C which provides the firmware manager as a GTK widget.
 722faccbacedd387395822bd56463d42cdbb6db11c946eed4fa6356d5be85c1a
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmNl2RkACgkQFQwgB0PtRtgaJAf/UUr96OwiM7CF5pM2+u672RELUrpHp3DMYQVS4gj
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmNl2RkACgkQFQwgB0PtRtgaJAf/UUr96OwiM7CF5pM2+u672RELUrpHp3DMYQVS4gjseQ71PZSYkUbhqeE69kHzOoe3hi5vYhPq2uriT2fvcwK2Jlint0UcGyofvf9HkVODFgKfsQANIl0ojbYpcWWPOWIxSZ11sJ6RTGCuVuO50475pJQQOgxIVgyecQRuf/jlUxwLF9d65TlM7zU4TtreVGp/kqXAXcCp80q5FWs+mX5b79MZatlUxDB8t7r8XTROgjfAkzITUTOsqyyPXimpIx7ZDQU/pUJncRxowqObV14GwcTqhEEB77pijd4S1kGbb3gRtVcFyIFC9fkDTTxEri6QATAVqJptsg8PHukKcMyxsQ==
+
+%URL%
+https://github.com/pop-os/firmware-manager
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1667618280
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%PROVIDES%
+libfirmware_manager.so=0-64
+
+%DEPENDS%
+dbus
+libgudev
+openssl
+fwupd
+
+%OPTDEPENDS%
+system76-firmware-daemon: For System76 firmware updates
+
+%MAKEDEPENDS%
+cargo
+git
+gtk3
+setconf
+
