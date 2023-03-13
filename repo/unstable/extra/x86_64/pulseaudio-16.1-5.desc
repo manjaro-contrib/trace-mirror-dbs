@@ -1,0 +1,104 @@
+%FILENAME%
+pulseaudio-16.1-5-x86_64.pkg.tar.zst
+
+%NAME%
+pulseaudio
+
+%BASE%
+pulseaudio
+
+%VERSION%
+16.1-5
+
+%DESC%
+A featureful, general-purpose sound server
+
+%CSIZE%
+1248970
+
+%ISIZE%
+6206319
+
+%MD5SUM%
+434cd5d016fccc1c6db30deb1e37fca4
+
+%SHA256SUM%
+ebb58fa6f0581bd09fcf3b8b48cc2e3f2826b004549f8aba3429e30db8680c45
+
+%PGPSIG%
+iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZA5oghUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8fOugEA2KbgV8Uh1KKMxbPxCx8tZqwlcLNWJE8H5ZyYme+O7toBAJE4gyq0e9NMsJLjvg09lfGLroLKydkSlYA5X+O9PRMI
+
+%URL%
+https://www.freedesktop.org/wiki/Software/PulseAudio/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1678665649
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%REPLACES%
+pulseaudio-gconf<=11.1
+pulseaudio-xen<=9.0
+
+%DEPENDS%
+alsa-lib
+fftw
+libltdl
+libpulse=16.1-5
+libsoxr
+libxtst
+orc
+rtkit
+speexdsp
+tdb
+webrtc-audio-processing
+
+%OPTDEPENDS%
+pulseaudio-alsa: ALSA configuration (recommended)
+pulseaudio-bluetooth: Bluetooth support
+pulseaudio-equalizer: Graphical equalizer
+pulseaudio-jack: Jack support
+pulseaudio-lirc: IR (lirc) support
+pulseaudio-rtp: RTP and RAOP support
+pulseaudio-zeroconf: Zeroconf support
+
+%MAKEDEPENDS%
+alsa-lib
+attr
+avahi
+bluez
+bluez-libs
+check
+dbus
+doxygen
+fftw
+git
+gst-plugins-base-libs
+gtk3
+jack2
+libasyncns
+libcap
+libsm
+libsndfile
+libsoxr
+libxtst
+lirc
+meson
+openssl
+orc
+rtkit
+sbc
+speexdsp
+systemd
+tdb
+valgrind
+webrtc-audio-processing
+xmltoman
+
