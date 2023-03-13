@@ -1,0 +1,83 @@
+%FILENAME%
+kio-extras-22.12.3.r7523.g75a88c9a0-1-x86_64.pkg.tar.zst
+
+%NAME%
+kio-extras
+
+%BASE%
+kio-extras
+
+%VERSION%
+22.12.3.r7523.g75a88c9a0-1
+
+%DESC%
+Additional components to increase the functionality of KIO
+
+%GROUPS%
+kde-applications
+kde-network
+
+%CSIZE%
+1686998
+
+%ISIZE%
+5167771
+
+%MD5SUM%
+ff873f45f86d43ce51e8923486da875d
+
+%SHA256SUM%
+2f8ce56a3fdf9823398a4bfe99b86b235aad3bd4307937b47f11916ac0857ef4
+
+%PGPSIG%
+iQGzBAABCgAdFiEEO3lN5tQyD85ZT0FxJ5589djVbsgFAmQPKL0ACgkQJ5589djVbsgwbAv+L0V9wcxwYx6fHvwgk4G2fVRcRDEbKe293GWWx1QqTWiAo7CZKnvHBAVB+d1W3IztY2utF2uN1AzeiWSsaqa0DdiSVfXa5FUyCF3UGFQCGkIB+knnj9OJiFhigWf5LmTlhy0DvqGSEgFqWjcOqXRSZ2R5TnSuDUhLA1sM5js4e6AkKh7U8/bumCH8Ysp52cR5Ql7Uy96ZLYBlOEpV4dIFZ6DbLhfqgcfl2M0p9B6CxfWiApboqzKJ+Aa3gIv3WtRqh952CCOOks2TYYJcAvZXTo7Tl3dpcOyv2Ok46BsfTMJNNsb9WkAJt2sxTe+jUd7Y58tJpUtFCoVBCXXBMpyTdVZD8Lj/9ygSV0ZoEw/MXteMG7VQnhkHC7fcEoLSn8yacSgTTnPSzxd+GjfiQMx8o64PnC6l8hcyGhSBv4aIOj2f/xYHvo+H0xL7sU/vmb2gP/MBIK01NN4wdSg/gXrxtlQC+oyYZonl7Q9i0CATup0a0EW4GqTQN2qJGwEWbUK7
+
+%URL%
+https://www.kde.org/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1678708218
+
+%PACKAGER%
+Manjaro Build Server <build@manjaro.org>
+
+%REPLACES%
+kio-extras-git
+
+%DEPENDS%
+kio
+kdnssd
+libssh
+smbclient
+libmtp
+phonon-qt5
+syntax-highlighting
+kdsoap-ws-discovery-client
+libxcursor
+
+%OPTDEPENDS%
+qt5-imageformats: thumbnails for additional image formats
+perl: info kioslave
+kimageformats: thumbnails for additional image formats
+taglib: audio file thumbnails
+libappimage: AppImage thumbnails
+icoutils: Windows executable thumbnails
+openexr: EXR format thumbnails
+kactivities-stats: recently used kioslave
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules
+kdoctools
+gperf
+taglib
+libappimage
+openexr
+kactivities-stats
+
