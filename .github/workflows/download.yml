@@ -1,0 +1,83 @@
+name: "download"
+
+on:
+  workflow_dispatch:
+  push:
+  schedule:
+    - cron: "* * * * *"
+
+concurrency:
+  group: download
+  cancel-in-progress: false
+
+env:
+  mirror: https://mirrors.manjaro.org/repo
+
+jobs:
+  state:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - id: state
+        run: |
+          source <(curl -s ${{ env.mirror }}/state)
+          echo "state=$state" >>$GITHUB_OUTPUT
+      - id: store
+        uses: boredland/action-commit-store@main
+        with:
+          storage-commit-sha: a5ddad981fdfd356ca181b15426e930890abcf3f
+          key: state-hash-v0
+          value: ${{ steps.state.outputs.state }}
+          token: ${{ github.token }}
+    outputs:
+      updated: ${{ steps.store.outputs.updated }}
+      version: ${{ steps.store.outputs.value }}
+  download-db:
+    runs-on: ubuntu-latest
+    needs: [state]
+    permissions:
+      contents: write
+    if: ${{ needs.state.outputs.updated == 'true' }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c # v3
+        with:
+          fetch-depth: 1
+      - name: download
+        run: |
+          [ -d repo ] && find ./repo/ -type f -name '*.desc' -delete
+          for db in community core extra multilib kde-unstable; do
+            for arch in x86_64 aarch64; do
+              for branch in stable testing unstable; do
+                if [ "$arch" == "aarch64" ]; then
+                  down_branch=arm-${branch}
+                else
+                  unset down_branch
+                fi
+                url=${mirror}/${down_branch:-${branch}}/${db}/${arch}/${db}.db.tar.gz
+                echo downloading $url
+                curl -s $url | tar --warning=none -xz --transform="s,/desc,.desc," --one-top-level=./repo/${branch}/${db}/${arch}/ &
+              done
+            done
+          done
+          wait
+      - name: transform
+        run: |
+          git add .
+          git status --porcelain --no-renames | grep "^[A|M].*\.desc" | cut -d ' ' -f 3 | parallel python desc.py
+      - name: prune
+        run: |
+          git add .
+          git status --porcelain --no-renames | grep "^D.*\.desc" | cut -d ' ' -f 3 | parallel rm -f {\.}.json
+      - name: persist
+        run: |
+          git config user.name repo-add-bot
+          git config user.email info@manjaro.download
+          git add .
+
+          if [[ `git status --porcelain` ]]; then
+            git status --porcelain
+            git commit -m "update database"
+            git push
+          fi
