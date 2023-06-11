@@ -1,0 +1,79 @@
+%FILENAME%
+cups-1:2.4.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+cups
+
+%BASE%
+cups
+
+%VERSION%
+1:2.4.4-1
+
+%DESC%
+OpenPrinting CUPS - daemon package
+
+%CSIZE%
+5427994
+
+%ISIZE%
+13362011
+
+%MD5SUM%
+786c6a0d3a6d4816a37e1fa9f52c6a67
+
+%SHA256SUM%
+89d07cba9e98408c46ccb8d7f31726ebb191e9b2e819f3551a9787cbe4901566
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmR/UGUACgkQlGV6sg8qCSt/dQgAoQY1t+TowrR1xDWw90nd/9DOoHND+attcRDUKIJToOCL5XY6/Cr5ceTAZl3EWXR/TX3y0OKVcjTjSBQ4KK7ry9fnPDtSnuIG2u8X/RyeZS3dIoZb/ShFMEHo/z6wVWVpZKjkCDSseKcHy7xmzpKrAnNaBq0HqPBVv2jAV+VzrexjWUR9Uob50I1t3Fx/qqNgnXDxiOJz9PZ6NXOybEkCrfh95C/W0ot+HQncd6vdLPvTx/FwVG9pEeLX46yeKSpOJVZ9vVgFo0RxkRskFzATHR/Z3LWi7tcM55pxirIWHDBOvHyFEpmf7htNCVoWd2n6CGNFryTU8878uculAwaWyA==
+
+%URL%
+https://openprinting.github.io/cups/
+
+%LICENSE%
+Apache
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1686065081
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%DEPENDS%
+acl
+pam
+libcups>=2.4.4
+cups-filters
+dbus
+systemd
+systemd-libs
+libpaper
+hicolor-icon-theme
+glibc
+gcc-libs
+avahi
+gnutls
+
+%OPTDEPENDS%
+libusb: for usb printer backend
+ipp-usb: allows to send HTTP requests via a USB connection on devices without Ethernet or WiFi connections
+xdg-utils: xdg .desktop file support
+colord: for ICC color profile support
+logrotate: for logfile rotation support
+
+%MAKEDEPENDS%
+acl
+pam
+gnutls
+cups-filters
+colord
+libusb
+avahi
+systemd
+libpaper
+

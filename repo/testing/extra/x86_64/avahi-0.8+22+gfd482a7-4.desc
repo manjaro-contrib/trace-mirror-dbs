@@ -1,0 +1,86 @@
+%FILENAME%
+avahi-0.8+22+gfd482a7-4-x86_64.pkg.tar.zst
+
+%NAME%
+avahi
+
+%BASE%
+avahi
+
+%VERSION%
+0.8+22+gfd482a7-4
+
+%DESC%
+Service Discovery for Linux using mDNS/DNS-SD -- compatible with Bonjour
+
+%CSIZE%
+438863
+
+%ISIZE%
+1923513
+
+%MD5SUM%
+8a3d9ce42a22b2d822f0ee04582c845b
+
+%SHA256SUM%
+4f9184f0cb9dcb29fa8189f2e51ea878a2fabea11b2fbce9b93bb3c7ab542b4e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmQwQg8ACgkQeGxj8zDXy5L4UBAAirYXfsofO4VLCMtva+IDQpjqx/hXLYhtatyho6JAyeabAVfrpxeWcYcbeCiou2A+9xRW6dndlUaav0Wp6RBrppcq4S1PzPlgoOfhieGQoAV8J0ZJMN4Mout5aNuAnOHEgSbRoxv4+sObvoqmatGDwpL3RwfRP5TGLWZQ8sPfiNOvkK8mMUQ7QDqWDvcJy//2wn8UpzEBeH74MpgehTnxU8LLdAbmlMY6S5yfhAr8/ppN2ltm6iWl79N1cafGNrI2PUurIj6AmcHNFKhM80+2sKjuptOKp2qZ1yV/yIw2UjoCTBASZsCabiRkd5dK9GTeaRR1dRoRFoxvrFg3AjfKd16ogolSRCebbrC0iNDnCLfnkYBeaohZR2h/FRY8l3g3aaLYl+0laBeW0pCbZol65av5WDLwFdYDS8S+trGkZMOeqOPGzSNbrUJedFpMsWltVj1+JpAcbciNgBCPxb/fFSd9BM8MuYuEO5+ye/mKfaJeN7hoxhlJCw53yjq97r/EC0g9mEGuJOb7GU24anAnx1XgaBHXYOrvSvSDIw7tSUbb9PBHNPkBjEzpyqhcYSh7dk/fdg/NnknNegns/dZHTTBldTSFtQq2vLsTmxLQ81ZGqPadJJR8AwGBxRDGh1LhX65r1MJtcdgRJuiVk6Cr1WLaes/+gocZbzSYFfNMECw=
+
+%URL%
+https://github.com/lathiat/avahi
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1680883649
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%PROVIDES%
+libavahi-client.so=3-64
+libavahi-common.so=3-64
+libavahi-core.so=7-64
+libavahi-glib.so=1-64
+libavahi-gobject.so=0-64
+libavahi-libevent.so=1-64
+libavahi-qt5.so=1-64
+libavahi-ui-gtk3.so=0-64
+libdns_sd.so=1-64
+
+%DEPENDS%
+expat
+libdaemon
+glib2
+libcap
+gdbm
+dbus
+libdbus-1.so=3-64
+
+%OPTDEPENDS%
+gtk3: avahi-discover, avahi-discover-standalone, bshell, bssh, bvnc
+qt5-base: qt5 bindings
+libevent: libevent bindings
+nss-mdns: NSS support for mDNS
+python-twisted: avahi-bookmarks
+python-gobject: avahi-bookmarks, avahi-discover
+python-dbus: avahi-bookmarks, avahi-discover
+
+%MAKEDEPENDS%
+git
+gobject-introspection
+gtk3
+qt5-base
+xmltoman
+python-dbus
+python-gobject
+doxygen
+graphviz
+libevent
+

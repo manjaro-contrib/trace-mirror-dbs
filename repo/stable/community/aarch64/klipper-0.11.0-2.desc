@@ -1,0 +1,73 @@
+%FILENAME%
+klipper-0.11.0-2-any.pkg.tar.xz
+
+%NAME%
+klipper
+
+%BASE%
+klipper
+
+%VERSION%
+0.11.0-2
+
+%DESC%
+3D printer firmware with motion planning on the host
+
+%CSIZE%
+5150660
+
+%ISIZE%
+161100251
+
+%MD5SUM%
+7c1ba15d1897c5423ce24ea458ff8c66
+
+%SHA256SUM%
+d257e75b6d58dae112adbe83a8c9c028224cdba4779542dfa4a4eb37b579fda6
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmRYbGIACgkQdxk/FSvb5qYBHxAAjw+6ZcTSqt+jFv1IvyNFvv5Bx6eKyD5ZD7U24SFGmatZJgkKj4XH175AIHmIOkbrC4F3sGn6G+O+ZRQEx324QqASMRcrTSHIk1ygRaGZORsY9bSjFsvWs5Jh+uVWKG+AE6soQNkNBKa0TBWP2qDszedZjvpJ2k5oCG/7j3Z2POw5jOZE2/RdXebztzod1W1ewe4u4nwB1NsTApIaXBwalj04vjjO+1rlAxoiscyldXNoehGEhkfbu87p1cOLG6yY6N8B7FfwRn/HKMqbAqi34GxlNxIvscFA6gWpBbPEgEaisfXRZLbpUh9JleyxV0TfXXTMYFIijqKIejJj0bxjlAsZZuyi0gJgFgw/9pTwhu+bujsmuKxyBxN5oclyYWi0uKCwJlZx/zML2SFY0fOeLX8IQeRBBJZxKcuvs4O0bhDKhvzkVCvZEeXLaxuDTCKjIJKbUW5KLzJKiuuxYi+AEP3zF/WSE6HcpAVCKvqYixCTwbPSwoz8iIGLVjA3F+PkQJatgUaygH4G0pqswbzgVaNsMGlevaSJ2IzJQQSY8trCpEbRzScumgi9XZzal8rQT4QyY0vHCPSuieWBFB6tYL82OOpNdzFIxXTbQRKKvOsJV3XOhxu368383+Tjz6bhxomoAxgky6y5qx+ET8CkX7YESGkWNvTgpScUdP9IXD0=
+
+%URL%
+https://www.klipper3d.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1683516402
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%CONFLICTS%
+klipper
+
+%PROVIDES%
+klipper
+
+%DEPENDS%
+python-cffi
+python-pyserial
+python-greenlet
+python-jinja
+python-can
+libusb
+
+%OPTDEPENDS%
+ncurses: for choosing compilation config
+avrdude: for flashing firmware on AVR MCU
+stm32flash: for flashing firmware on STM MCU
+avr-gcc: for AVR MCU firmware compilation
+avr-binutils: for AVR MCU firmware compilation
+avr-libc: for AVR MCU firmware compilation
+python-numpy: for resonance measurement
+python-matplotlib: for resonance measurement
+dfu-util: for flashing firmware on STM32 MCUs
+
+%MAKEDEPENDS%
+git
+

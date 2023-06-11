@@ -1,0 +1,65 @@
+%FILENAME%
+cppcheck-2.10.3-2-x86_64.pkg.tar.zst
+
+%NAME%
+cppcheck
+
+%BASE%
+cppcheck
+
+%VERSION%
+2.10.3-2
+
+%DESC%
+A tool for static C/C++ code analysis
+
+%CSIZE%
+3206103
+
+%ISIZE%
+15070407
+
+%MD5SUM%
+26af8551234f7bd4ff30626c3be7b508
+
+%SHA256SUM%
+d208ffed453f9be166ce996889ccfe5000de0352d2b48f48ba98597032bc2527
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmQwX6IACgkQeGxj8zDXy5LXwg//a2IpRtDRhWaN1ODteMMmFHZgoLHR/gGU5AxPSzgcmBPoKxXsU07sz0Mp4x2b6Oja9N6OlB+AszVg+jVNuomiFuSEBYFYF6QsBqBGNVquaAjJvZlnrqHVJGi4148AO6syg5aDfpRHLBg0hyjYnUpZ2HcQ6xILrKy+TF5TjKJgUnCynTQ7C4AkVL3eODtm+fCllF9TFSJpAjyGwBE03I2roAFTC2igm1RaPRbVsn3650nl6nF9JmjZ6/mIwxYztyWZHYTAqKxTFORSb0kWtLKFg1ndr61qOUUOxSnU9j/XXK55/IkZc+hy+hCew8NdPL9EzoN8stbpP+9wifx92kyLm0wa9BUx4DhAZdcOjjFENQocDKR83jf77DBefNefzOWH+hZMG8MAq19U0KcvhZ6HIj3KJr2v45OqCisERgEf/kpSfRzZkPMOkGTc7I9m28KJHrwLjjjVY+lm3GIfN0nLCYvXX1h5pXEbnbSOHUUlMQ8M/x8Ct5D9FZ5zGDrl4oOsCYnCXX2ywXSB0p9osoIMtjZp42uOgQa2SgRY6xU9WV0ZjaIw4I7C2njE2tGLyJwxBh/Ef/dPviMJHh7jjsA5bI32elpfOZ/zsdWuTdvmplonEQQdrgucDpnOaOEJhRPLDEY2KdAjrJjfzmS6ZRVbP+hulx40snFDRMXEtH3Fwak=
+
+%URL%
+http://cppcheck.sourceforge.net/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1680891293
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python-pygments
+tinyxml2
+pcre
+
+%OPTDEPENDS%
+qt5-tools: run cppcheck-gui
+python-pygments: cppcheck-htmlreport
+clang: for cppcheck-gui integration
+
+%MAKEDEPENDS%
+git
+docbook-xsl
+qt5-tools
+qt5-base
+python
+pandoc
+cmake
+clang
+

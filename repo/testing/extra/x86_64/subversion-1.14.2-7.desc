@@ -1,0 +1,88 @@
+%FILENAME%
+subversion-1.14.2-7-x86_64.pkg.tar.zst
+
+%NAME%
+subversion
+
+%BASE%
+subversion
+
+%VERSION%
+1.14.2-7
+
+%DESC%
+A Modern Concurrent Version Control System
+
+%CSIZE%
+8669574
+
+%ISIZE%
+38180385
+
+%MD5SUM%
+c91232cd4618a82f6139e5d7f069787c
+
+%SHA256SUM%
+01a69ca0d4eee9e796a3212891117f62ecf8261bd1876cadde2225a3dae6fde3
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCZDFmhAAKCRATmwnaW/DTOHgtAQCCYkkpxrpbUWqxf6KQHhDtuUH3RSmDY25yxZ7KEpo5NgD/dRdd5VslQ7kZAz8Q6NmABw7Ec010e9aylOl2PSPEYQA=
+
+%URL%
+https://subversion.apache.org/
+
+%LICENSE%
+APACHE
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1680957947
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+svn
+
+%DEPENDS%
+apr
+apr-util
+bash
+dbus
+expat
+file
+gcc-libs
+glibc
+libsasl
+libutf8proc
+lz4
+serf
+sqlite
+systemd
+zlib
+
+%OPTDEPENDS%
+libgnome-keyring: for GNOME Keyring for auth credentials
+kwallet: for KWallet for auth credentials
+bash-completion: for svn bash completion
+python: for some hook scripts
+java-environment: for Java support
+ruby: for some hook scripts
+
+%MAKEDEPENDS%
+apache
+python
+python-py3c
+perl
+swig
+java-environment>=8
+libgnome-keyring
+kwallet
+kdelibs4support
+ruby
+
+%CHECKDEPENDS%
+ruby-test-unit
+

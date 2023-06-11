@@ -1,0 +1,92 @@
+%FILENAME%
+postfix-3.8.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+postfix
+
+%BASE%
+postfix
+
+%VERSION%
+3.8.0-1
+
+%DESC%
+Fast, easy to administer, secure mail server
+
+%CSIZE%
+1417424
+
+%ISIZE%
+4626206
+
+%MD5SUM%
+fd6578dc48f235c5b5361aaa999f5087
+
+%SHA256SUM%
+4e18f62dd77380aee2e3af1c13d19d51e63512a4ff56447a7549a80a169cf635
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCZDz9YQAKCRATmwnaW/DTOP99AP4ttfIKBB9tbLKDHwPrbsgGhix86kk/TCowS1MAWJNxvwEA8tZ8WHgXYW78mwMXvC1MCHqyxn5BFaukyz/eA1qFMQA=
+
+%URL%
+http://www.postfix.org/
+
+%LICENSE%
+EPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1681718443
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%CONFLICTS%
+smtp-server
+smtp-forwarder
+
+%PROVIDES%
+smtp-server
+smtp-forwarder
+
+%DEPENDS%
+glibc
+db
+icu
+libicuuc.so=72-64
+libnsl
+libnsl.so=3-64
+libsasl
+libsasl2.so=3-64
+openssl
+libcrypto.so=3-64
+libssl.so=3-64
+zlib
+
+%OPTDEPENDS%
+perl: for postfix-collate.pl, postfix-tlstype.pl and qshape
+postfix-cdb: for CDB integration
+postfix-ldap: for LDAP integration
+postfix-lmdb: for LMDB integration
+postfix-mysql: for MySQL integration
+postfix-pcre: for PCRE integration
+postfix-pgsql: for PostgreSQL integration
+postfix-sqlite: for SQLite integration
+
+%MAKEDEPENDS%
+db
+icu
+libldap
+libnsl
+libsasl
+lmdb
+mariadb-libs
+openssl
+pcre2
+postgresql-libs
+sqlite
+tinycdb
+zlib
+

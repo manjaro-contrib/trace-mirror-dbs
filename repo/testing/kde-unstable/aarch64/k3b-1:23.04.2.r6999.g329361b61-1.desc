@@ -1,0 +1,77 @@
+%FILENAME%
+k3b-1:23.04.2.r6999.g329361b61-1-aarch64.pkg.tar.zst
+
+%NAME%
+k3b
+
+%BASE%
+k3b
+
+%VERSION%
+1:23.04.2.r6999.g329361b61-1
+
+%DESC%
+Feature-rich and easy to handle CD burning application
+
+%GROUPS%
+kde-applications
+kde-multimedia
+
+%CSIZE%
+14424272
+
+%ISIZE%
+36949784
+
+%MD5SUM%
+fbf64beda0793339a45b23cc5b7877aa
+
+%SHA256SUM%
+7bdaee8b872e7df6813b11e391c7c5c906c73a2b5e5371c48a5e1fc926e5994f
+
+%PGPSIG%
+iQGzBAABCAAdFiEEO3lN5tQyD85ZT0FxJ5589djVbsgFAmSD2KgACgkQJ5589djVbsjO7Qv+Nbo53P0L62pAAc/zAJrbqgixnmQBnxmc0kRcLD3fqmySzBBbr1jelZ6f7dNLAh7IskwfSH1cbVjeinWS0SQ763Pyv1JvkZTCizg4CRfse+PfdXYdIHt2ZDAfaW6ORC29EibuBuhP9hQqbLH73Z/aSxzvu3OvF6ZyOVPdNMckOGv5wzOWpr7Pp9JkK42MMejqhTIQzz7aV5N8lmpzfw/VwkRXe7/2bqGXGSSUlnS2CCGUNrCENBGNqR9ZrK1fAEHL623KdEV2MwVOpZRhI5zEPcu/CqGZTQxortH2wDzEEpyPHnwELEjS+92+Rh2oyTCehleFLFrw1NeqPr6BHplq1bKLiqhni+Hl9lg8OsvVpW6HG++6dn6oHmi0cYcXTNr5Pd35rkWKaZeEXpcRV0EZ5h5nwC9mApeqQfSg7da2xR9/a5LtTaz8WlS4bduQnYMfb2zNC3AtOT/iaj1wqxQSqTe9556IQHCeEg8bPzKKBwFif+q9vn5dyhowLkF3jz9L
+
+%URL%
+https://apps.kde.org/k3b/
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1686352737
+
+%PACKAGER%
+Manjaro Build Server <build@manjaro.org>
+
+%REPLACES%
+k3b-git
+
+%DEPENDS%
+libkcddb
+kcmutils
+knotifyconfig
+libmad
+kfilemetadata
+knewstuff
+libmpcdec
+libdvdread
+libburn
+
+%OPTDEPENDS%
+cdrtools: for CD burning with cdrecord
+dvd+rw-tools: for DVD burning support
+vcdimager: for VCD burning support
+emovix: for bootable multimedia CD/DVD support
+cdrdao: for disk-at-once (DAO) mode support
+cdparanoia: for CD ripping support
+transcode: for DVD ripping support
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules
+kdoctools
+

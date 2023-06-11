@@ -1,0 +1,66 @@
+%FILENAME%
+python-httpcore-0.17.0-3-any.pkg.tar.zst
+
+%NAME%
+python-httpcore
+
+%BASE%
+python-httpcore
+
+%VERSION%
+0.17.0-3
+
+%DESC%
+A minimal HTTP client
+
+%CSIZE%
+105124
+
+%ISIZE%
+910173
+
+%MD5SUM%
+50f0c7f923d91465f3bb3c2698fd0683
+
+%SHA256SUM%
+e9deca72370c9b650d197609066e22236de0a15ddf831efdedbda848796525aa
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmQz+eUACgkQeGxj8zDXy5Ipog//YhMB6iQbgUXlsmA3FVQL0NM8mXAvRtM2pzBecGX/RJR6H8iA4xEWFsOHcdtXEIUHU7NxhHkRE1k4n9bdn7t7nU7v7Omntr+1btrfas5XTTDrlw+UrKz4pagUzQb04UXDI1cV7+zc2QFTS30MfQFhffjTa8O/lOeHBkCc20xmqhL7LwiZewvyJVnqFQiXPvnXD/m9B90eKUgdon9rYw3P56/trl76r+IdRuxEtR9vHEN83Y+vPM2Fu8supdluB+/p6NkU+Ul69fpghVnfQQSGMWGX13b1TLjwrGDhm+dHnSqvIksN3VZesbJs8Lv/x2K9wTqfLeXAMgTXNUDM8HfWNp4f0qS0chBxtc5zVuOrRwV9EqloBHiG5Eq6Lr0JW4HyIxlBcmVQbUcrdmqaJp6NuPA31fVfncsG2xztWp5HI/IRd7i110s0fBI2YhbEiEcdvb3SZz8F6XLNvK4600+jxd35O9iHSYXsAvF+88sKdGrD6hiFVkDUFhPBMpxYXeYb0Oy+tJu2S98JJ+fyIZ4qW1XmjvnefSpFVihSz2lbJQMVA4dKe29RHATH4MYNGlkn54O8e5vZoxNmhAXSGQBVGjG9KMRlWxtf0AJPEheau1cXYi2m1KpzMQmTorVF3ONUL3mIf582+o1qM8FT1DZNdRJRN2qnTU7EEnTz3/4BPN8=
+
+%URL%
+https://github.com/encode/httpcore
+
+%LICENSE%
+BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1681127871
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python
+python-anyio
+python-h11
+python-sniffio
+python-certifi
+
+%OPTDEPENDS%
+python-h2: for HTTP/2 support
+python-socksio: for SOCKS support
+python-trio: for trio backend
+
+%MAKEDEPENDS%
+python-setuptools
+python-h2
+
+%CHECKDEPENDS%
+python-pytest-httpbin
+python-pytest-trio
+python-socksio
+

@@ -1,0 +1,58 @@
+%FILENAME%
+nerdctl-1.4.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+nerdctl
+
+%BASE%
+nerdctl
+
+%VERSION%
+1.4.0-1
+
+%DESC%
+Docker-compatible CLI for containerd
+
+%CSIZE%
+10665809
+
+%ISIZE%
+36647754
+
+%MD5SUM%
+059fba9b5a41dddc31cd834373c4670c
+
+%SHA256SUM%
+684687d5a80176411f56aa32c9e8528accd5195c444916e26dba3815a0317bed
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCZGrb7gAKCRDglZ/qi1UFOWt5AQDNxrbPrwvO3+3kbm4lb/2LdgJzBCFreJ360WJE4hR/ZQD9HzceWYS+vd1S0Qm/4GI2miW4wB34TzmcPUmfx5ZFrwo=
+
+%URL%
+https://github.com/containerd/nerdctl
+
+%LICENSE%
+Apache
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1684724544
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+containerd
+
+%OPTDEPENDS%
+buildkit: to build OCI images
+cni-plugins: to run OCI images
+rootlesskit: for rootless mode
+slirp4netns: for rootless mode
+
+%MAKEDEPENDS%
+git
+go
+

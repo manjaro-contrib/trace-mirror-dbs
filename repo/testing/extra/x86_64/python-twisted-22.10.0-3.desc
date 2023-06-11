@@ -1,0 +1,95 @@
+%FILENAME%
+python-twisted-22.10.0-3-any.pkg.tar.zst
+
+%NAME%
+python-twisted
+
+%BASE%
+python-twisted
+
+%VERSION%
+22.10.0-3
+
+%DESC%
+Asynchronous networking framework written in Python
+
+%CSIZE%
+5864360
+
+%ISIZE%
+50935546
+
+%MD5SUM%
+9a625181cd979484e5cb8a9bd7f9d0b0
+
+%SHA256SUM%
+0f541b55f442ffa477560413f833d0b230fa9986d9b69068eff2a84805842f1f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmQzoosACgkQeGxj8zDXy5IUUw//ZB+mIxBfTC3naKlZkcolQjF1K3/7IlIi1BpB1srLl0+wYwjBNXLxLyl/Hs/3jv/tQdd4ail3hyVSjQGN9dj7CElj3JcS3YkwUegyAd6oBqEmxCigIEt7HtjlbJ3HmRDO8gJnX8VgzA1tS0SW1Tyye4/ceHMJlCbLkdRpg5kKOy+x/ltaaCP/u88lCynSvbYNVD/L1xl86Vl4Pjnt27fWc2XDouCyobDbPM+bi6XyTG+If5q7MbquP+EdELc9GxAb1q1VduwcU/sEDzNqOTPePkfQvt5+Q6JpYyvqpb76p7QgFvlQ2Jb1fIR/Bp019C61udYEa7Ide2DHojbWh9Bq4gs5S9OGQ47QbSPqMcbM212dyaI3EIcA2vW5eEZs6wIBujPHB9X6ExcwrGj5I5qT4ta8sod1IsHNiir7jVedGX9j8I+Iidae558Yk41uMn98I+137VK/VOa2yBT0cPrdgeaV9WPwAjdkttDNiSLp/CE09s4poy3Af8KKquHfClLZSn/JpyS53DVyloXqDE2CqR9N7yog6CqZ041caUyvq51F49gxOW3RloLRH7v4SuXB83DDx1drGYmij7wKHUiRoQThTMNcQ9ZYhawmU0s+b7IipnTKBCLX/+ttrqvX1nFCGghiOVXNbXa9Wqc+A62vmC8eChtNSrsM5r455G6uUUA=
+
+%URL%
+https://twistedmatrix.com/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1681104074
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%CONFLICTS%
+python2-twisted<=20.3.0-3
+
+%DEPENDS%
+python-zope-interface
+python-constantly
+python-incremental
+python-automat
+python-hyperlink
+python-attrs
+python-typing_extensions
+
+%OPTDEPENDS%
+python-pyopenssl: for TLS client hostname verification
+python-service-identity: for TLS client hostname verification
+python-idna: for TLS client hostname verification
+python-cryptography: for using conch
+python-pyasn1: for using conch
+python-appdirs: for using conch
+python-bcrypt: for using conch
+python-h2: for http2 support
+python-priority: for http2 support
+python-pyserial: for serial support
+tk: for using tkconch
+
+%MAKEDEPENDS%
+python-setuptools
+
+%CHECKDEPENDS%
+python-pyhamcrest
+subversion
+xorg-server-xvfb
+tk
+openssh
+git
+gtk3
+python-gobject
+python-subunit
+python-h2
+python-priority
+python-cryptography
+python-idna
+python-pyasn1
+python-pyserial
+python-bcrypt
+python-hypothesis
+python-cython-test-exception-raiser
+python-pyopenssl
+python-service-identity
+

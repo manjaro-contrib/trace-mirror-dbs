@@ -1,0 +1,87 @@
+%FILENAME%
+hyperkitty-1.3.7-2-any.pkg.tar.zst
+
+%NAME%
+hyperkitty
+
+%BASE%
+hyperkitty
+
+%VERSION%
+1.3.7-2
+
+%DESC%
+A web interface to access GNU Mailman v3 archives
+
+%CSIZE%
+1802435
+
+%ISIZE%
+10432292
+
+%MD5SUM%
+a0c9cd07db7d2f29009302ec9c6892e8
+
+%SHA256SUM%
+c20c24d8a91ff26d6bafd6adb8bf2af55aaa3d288aba177c02c6fa67c45fd9f7
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmQ29ewACgkQeGxj8zDXy5Jg/BAAvReprxV1jrV5HurEDoeVRwQlbD8FYVnFuKxfR7rl8UO8zYr8vS41GJ31zeX9E81nD6dqOmHIqYCBsrn+tuOYVp+Dc9kERC3rL3vMfnw2XLvbzftaz7Jcqe04PiOA/ZM1ysbhZGwENKkUw/x0pq/xk6tqXqWo2skqzCFZxuVDEgZNlBmqVXEw4Msf+thNJfXgCCdt2EMnj3b84MpWyJenUOMyvnyCmfqlDPrAOKs3/kAQNxlnlpCNPbKW+Qd7iES7HVZZMWzEiHKtuAEQNfCXFg3fXwiWuBWtTlGFQyScyCP7OTmUcOtCBYJkoFeYmsXK+/1DuE7dLY4wY1mPtT1xfzjEl6RAQ5dWc2/e+JtgkYfC0Lrs4dw9hn0BIiumjBbVUqm0NMF7NiCglRlMu4sD9AQ4l+4PEYDSRzBrcRQAecOcG4eLCispgagcq3VkNxbaqp3Rgo83zcIDLmhkpsAViXpiOqwad5wXRgHTdWS7/foeOpgV5zNnRR4wOGDI6n7sDp03ycrdYnffStTjeA/dfSJU7N+HY39596H00DWKUahOIuGR2fpnFxyotGUM07GyqePMLveWAuzM2r1UHmVlyxs+fue8P4c7ZcDcaB52plsYUaqCFn7US5EEenZYkyPW5EEeEQ4qV8BHASwz8lB6JsdjPfFQKWLOGON+/BKuKdc=
+
+%URL%
+https://gitlab.com/mailman/hyperkitty
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1681323267
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python-dateutil
+python-django
+python-django-compressor
+python-django-extensions
+python-django-gravatar
+python-django-haystack
+python-django-mailman3
+python-django-q
+python-django-rest-framework
+python-flufl-lock
+python-mailmanclient
+python-mistune
+python-networkx
+python-pytz
+python-robot-detection
+python-whoosh
+sassc
+
+%OPTDEPENDS%
+python-django-debug-toolbar: for debugging
+python-elasticsearch: for using elasticsearch as search backend
+python-xapian-haystack: for using xapian as search backend
+uwsgi-plugin-python: for running inside uwsgi
+ruby-sassc: alternative to sassc
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-isort
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-beautifulsoup4
+python-django-debug-toolbar
+python-elasticsearch
+python-lxml
+python-pytest
+python-whoosh
+

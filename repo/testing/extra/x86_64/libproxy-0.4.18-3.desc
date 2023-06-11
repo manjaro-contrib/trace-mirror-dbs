@@ -1,0 +1,70 @@
+%FILENAME%
+libproxy-0.4.18-3-x86_64.pkg.tar.zst
+
+%NAME%
+libproxy
+
+%BASE%
+libproxy
+
+%VERSION%
+0.4.18-3
+
+%DESC%
+Automatic proxy configuration management library
+
+%CSIZE%
+88725
+
+%ISIZE%
+308605
+
+%MD5SUM%
+91754a1bfc4d9f7b445fe9a2085f92b2
+
+%SHA256SUM%
+98cd7e4d06ae1a43b301b8a90eb617bf7f89273aaf400636cc454be42feab934
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmQwN5MACgkQeGxj8zDXy5JVzQ//a8TJ65ri9aQqg4N9hqaRkFBepyw82o00M4gp/b36HsY78tFEYcI9W15qGhG+btqwoIO6jg67s3KtTTVYNQCnB0318ibtJOnhOV3XQEWW70NWAHe0d90H0KX5RsONdhAE4DuwTfzIC5D6WUYTUXPyk7Ze7geZRQ+PNJCckTym6Yr51y7AeUcrT9RrljzQYpXucswLs8PDuF55EunLhdWipr31nlfzooKzkHG+qBgi8YqB6Xncas1todhAZR9bc75smdvCadY3CA/MugQaiHgLZc7rtCr2Da3qZDx09an+7S8Jc45Kb3wxTxZuBcKEDIEfcHL61YD/oYE4PVWjeH5PU2CgpE+uBBesB0uriVfbZQaXWWB12kFuJiCip/smLD5zj6Clc0nNKNFyHEizM8TGPTaH/Yd8lpFbIOic8Ar8wo3O14oYNeLejjnyBIR5FV6O7kT3WUSylkVPaGMMIWwSVX5/upfwCJCjmI3YKfN8uOQOxSbHNKKmnjkbfaTW71fXnQosAgcAQp935nElLbyaZs0ZupZDtZLHF0UbEI5ocmLt/DZ8C9EMNrhAanXv1AC/Kzl1EuASUccCzB506qn9dTjSetZwmBPvb0kmddfBgNC1vq6JjTVtUgpS2dnJ4gCe4xPELoYAUy6WTy6ijE7QOu32Vas8RW+RoDuodPUHqYY=
+
+%URL%
+https://libproxy.github.io/libproxy/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1680881517
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%PROVIDES%
+libproxy.so=1-64
+
+%DEPENDS%
+dbus
+duktape
+gcc-libs
+glib2
+zlib
+
+%OPTDEPENDS%
+networkmanager: NetworkManager configuration module
+perl: Perl bindings
+python: Python 3.x bindings
+libproxy-webkit: PAC proxy support (via WebKit)
+pacrunner: PAC proxy support (via pacrunner)
+
+%MAKEDEPENDS%
+cmake
+git
+ninja
+perl
+python
+webkit2gtk
+

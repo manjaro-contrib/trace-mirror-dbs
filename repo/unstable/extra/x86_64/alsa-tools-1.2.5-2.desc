@@ -1,0 +1,69 @@
+%FILENAME%
+alsa-tools-1.2.5-2-x86_64.pkg.tar.zst
+
+%NAME%
+alsa-tools
+
+%BASE%
+alsa-tools
+
+%VERSION%
+1.2.5-2
+
+%DESC%
+Advanced tools for certain sound cards
+
+%CSIZE%
+394423
+
+%ISIZE%
+1493611
+
+%MD5SUM%
+238604fe5da44dd89cce0fc5f60d39f9
+
+%SHA256SUM%
+935a024599bba46f3bf7319d63e1b5a1e64fabf2a05dfb87a3c38854169f5a0b
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCZBgn9wAKCRATmwnaW/DTOIkXAPsGp8kSpELuXXKYBygDfTLRoCP6rX+oLs647juF8bOBOAD7Bgmh/GOHIMNaXuWySu5iUN8+vG1Tn5MveUBaa1f0Fgo=
+
+%URL%
+https://alsa-project.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1679304472
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+alsa-tools-emu10k1
+alsa-tools-ice1712
+liblo10k1.so=0-64
+
+%DEPENDS%
+gcc-libs
+glibc
+alsa-lib
+libasound.so=2-64
+
+%OPTDEPENDS%
+fltk: hdspconf, hdspmixer
+gtk2: envy24control, echomixer, rmeddigicontrol
+gtk3: hdajackretask
+python-pyalsa: hwmixvolume
+python-gobject: hwmixvolume
+
+%MAKEDEPENDS%
+alsa-lib
+fltk
+gtk2
+gtk3
+

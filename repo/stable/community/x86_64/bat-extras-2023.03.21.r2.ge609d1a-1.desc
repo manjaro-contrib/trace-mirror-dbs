@@ -1,0 +1,70 @@
+%FILENAME%
+bat-extras-2023.03.21.r2.ge609d1a-1-any.pkg.tar.zst
+
+%NAME%
+bat-extras
+
+%BASE%
+bat-extras
+
+%VERSION%
+2023.03.21.r2.ge609d1a-1
+
+%DESC%
+Bash scripts that integrate bat with various command line tools
+
+%CSIZE%
+30030
+
+%ISIZE%
+120352
+
+%MD5SUM%
+5d07d2260c193294f0e33d643d97ee15
+
+%SHA256SUM%
+78512c3c05077a40bf41497a5fe1c040863c6e655a376e67903cbd9c9d23f582
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCZCvfOgAKCRDglZ/qi1UFOWMLAP0VT1RHHysP8Q90t5lK7J1swIpaSTbroZtOounjGBjJ/AEA79QKmQv6A81KRveQghGE/FJdN5dcjd/iioie+emFiw0=
+
+%URL%
+https://github.com/eth-p/bat-extras
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1680596421
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+bat
+bash
+git
+ripgrep
+man
+
+%OPTDEPENDS%
+ncurses: optional for batdiff script
+git-delta: optional for batdiff script
+fzf: optional for batman script
+exa: optional for batpipe script
+entr: optional for batwatch script
+prettier: various code formatting for prettybat script
+shfmt: bash formatting for prettybat script
+rustfmt: Rust formatting for prettybat script
+clang: C / C++ / Objective-C formatting for prettybat script
+python-black: Python formatting for prettybat script
+
+%MAKEDEPENDS%
+shfmt
+
+%CHECKDEPENDS%
+fish
+

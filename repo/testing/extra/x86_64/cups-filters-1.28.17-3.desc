@@ -1,0 +1,73 @@
+%FILENAME%
+cups-filters-1.28.17-3-x86_64.pkg.tar.zst
+
+%NAME%
+cups-filters
+
+%BASE%
+cups-filters
+
+%VERSION%
+1.28.17-3
+
+%DESC%
+OpenPrinting CUPS Filters
+
+%CSIZE%
+876583
+
+%ISIZE%
+3062163
+
+%MD5SUM%
+d5aec072424867040473c7688334c6f6
+
+%SHA256SUM%
+44ade074f51cc98213609987f369a90bf56f6f2bf3208ba08fbf6e7d3f664135
+
+%PGPSIG%
+iQIzBAABCgAdFiEE4kC1fixGMLp2ji8m/BtUfI2BcsgFAmRmaZAACgkQ/BtUfI2BcsgUbw/+P98d8YBiMo/Rsh1T9dJIx1sUgPfIS3brlZS3E7PynKQngSOLfPRIDAp8WGbp2TSlL/ew+5zRNTyM3n6HrpTipDmABNbEdaUTJYz11Y45+cJnUhkmFte7MeGJ8qftyg8d2ejNoL42x1+ruFq4Zua6i+nX4EgrH02SOWqIOZEQIwxmBdy11yTKseU4GMoTcBeqXrDQ3j9ZJuwaySYfaAOJG8fyb7qExh8PsGGNA/QIJYKhCDoncvFwd/6RNes9dXFR/1tErdAgEa5GLFEFYkpK3QB5h0XrrXXPXfHqlkfhKdGLHEycrsPndgptr6RhTQQowcLkkMmxa6OQjM4o7+zlSHfqZrBAx0uTfxOMSbxFvWe/TCgtCjdZrGPl0yxheez4CkvpL2EJXWQgCKDNZQgS+ifdaLdSLfZW3Ct85CYoY63FhoUhdOu7n05+8Y7Nk+4p9SsF0fGmy8BKrHuPrtg0N98q1loawvg5m0gTMkaRPCMki5cy7rVKpA5iATIiyH/yGRPoF0bpIRlbhGXrgP2P0tkTHA9ifshwcTHrLzh6xOWXrOVFFTnA6h3ncecQ86ph36PjDS4qZYHECTWv1f8rNq/Yz1ImgUbhTNXKNQZ+ckYoPEhdiFY9/y8shdOUxjublpzfE5WRVGo26gV0GMiTXPc9Okc3507CYuJmQAnAt+A=
+
+%URL%
+https://wiki.linuxfoundation.org/openprinting/cups-filters
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1684433197
+
+%PACKAGER%
+Levente Polyak <anthraxx@archlinux.org>
+
+%DEPENDS%
+lcms2
+poppler
+qpdf
+ijs
+libcups>=2.2.6-2
+systemd
+libexif
+
+%OPTDEPENDS%
+ghostscript: for non-PostScript printers to print with CUPS to convert PostScript to raster images
+foomatic-db: drivers use Ghostscript to convert PostScript to a printable form directly
+foomatic-db-engine: drivers use Ghostscript to convert PostScript to a printable form directly
+foomatic-db-nonfree: drivers use Ghostscript to convert PostScript to a printable form directly
+imagemagick: for Braille embosser support
+liblouis: for Braille embosser support
+antiword: to convert MS Word documents for Braille embosser support
+docx2txt: to convert Microsoft OOXML text from DOCX files for Braille embosser support
+
+%MAKEDEPENDS%
+ghostscript
+python
+mupdf-tools
+liblouis
+
+%CHECKDEPENDS%
+ttf-dejavu
+
