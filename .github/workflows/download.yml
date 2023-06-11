@@ -26,7 +26,7 @@ jobs:
       - id: store
         uses: boredland/action-commit-store@main
         with:
-          storage-commit-sha: a5ddad981fdfd356ca181b15426e930890abcf3f
+          storage-commit-sha: b18cb0794aefbe597c96eaaf593e170436b88f90
           key: state-hash-v0
           value: ${{ steps.state.outputs.state }}
           token: ${{ github.token }}
