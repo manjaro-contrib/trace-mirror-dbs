@@ -1,5 +1,5 @@
 %FILENAME%
-util-linux-libs-2.39-4-x86_64.pkg.tar.zst
+util-linux-libs-2.39-8-x86_64.pkg.tar.zst
 
 %NAME%
 util-linux-libs
@@ -8,25 +8,25 @@ util-linux-libs
 util-linux
 
 %VERSION%
-2.39-4
+2.39-8
 
 %DESC%
 util-linux runtime libraries
 
 %CSIZE%
-452315
+455104
 
 %ISIZE%
-1273908
+1277251
 
 %MD5SUM%
-2a0d9fdad3dec31932fb3d4d6c822033
+9d5e54494269b02c613d411a8fad92d5
 
 %SHA256SUM%
-fced601762cfe6f331f0b3a83f16774fda6b71abd6b3865c1dc6bc3e079734f6
+7a18c8261b6acdda6caf41acf49285742099abd510e695d525abaf340da01092
 
 %PGPSIG%
-iHUEABYIAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZHHDQwAKCRBtQr3RFuAGj4odAQDYP1m0kdlXkyu/mPkiGpYwQNGzJwywtUUolbeNaJ1bHQD/a69R9G0mWgU0d0sOI+/2mnjPgsFuzs9HfBKUwjYboQA=
+iHUEABYIAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZIMkQgAKCRBtQr3RFuAGj5l1AQDZEUYy0XFv/Qkc00WFaIjpq0OQ1Vz5qvc5cWwRYHSNKwEAsRNxtZQ2aLb+EE536TGXrkPHb66KqqUMaGE6d0kesQ4=
 
 %URL%
 https://github.com/karelzak/util-linux
@@ -38,7 +38,7 @@ GPL2
 x86_64
 
 %BUILDDATE%
-1685176876
+1686315929
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
@@ -64,8 +64,12 @@ glibc
 python: python bindings to libmount
 
 %MAKEDEPENDS%
+git
+meson
 asciidoctor
+bash-completion
 libcap-ng
+libutempter
 libxcrypt
 python
 systemd
