@@ -1,5 +1,5 @@
 %FILENAME%
-gnome-layout-switcher-0.8.35-4-any.pkg.tar.zst
+gnome-layout-switcher-0.8.35-5-any.pkg.tar.zst
 
 %NAME%
 gnome-layout-switcher
@@ -8,25 +8,25 @@ gnome-layout-switcher
 gnome-layout-switcher
 
 %VERSION%
-0.8.35-4
+0.8.35-5
 
 %DESC%
 A simple GUI for choosing GNOME desktop layout
 
 %CSIZE%
-45441
+45446
 
 %ISIZE%
 200143
 
 %MD5SUM%
-1db0fecdc710c3b4a81c56406d48b425
+03b6cc41550b7a4a919c9b34157aa27e
 
 %SHA256SUM%
-e705cccae7f12d1951e62b6ddcc62f908d272b51838034be41efcece30260cdc
+1577a286ac05e726dd172f227dffeff9519f2858e1629762e2e781cffea957a3
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmSHvaoACgkQFQwgB0PtRti67wf5AXrOSBL1r2moAYeLvBwSLOvWnpzqDe5CsWMoiQHz3W148rC4I6eksIPz2CA/J6NFnUdZ6BXl7iI7ZnrU0iXMB3YS+f+rzGNk+8+v7v4Sx8w+ter97Qtph+wQA2B/gqPbF2JNWdsEGOXyCHLXOpmoJdwlROn6iCzlBVnQ4D91C+kuZ/H3SFnasaTPWNZ5czYq7HXtxFrAiEhwJoFjxov44I+SWtDjlHCruHBu1jXCGgmCQp9f5eKor4CHBdtPX2xNzSYPJTeQb3z0+NEvOlXTO8NDX5xhKsFMFP5MwMe3Tbw6qTeHFNtpxv7f5nClMeQpw0a/mZ7p2KEGTxbIy+iNsA==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmSIlBAACgkQFQwgB0PtRtjLNQgArHe84StRZjp8Y15khCnCY6ZQ49e1AaMvvuNlXEopvxnI1QD/Xa1hPQC9Vz5ApQ0ruhSOCnqScUBeUJU7JLYc+NNRd6IwR6BV+j5wtHK9xujg0HJ5G60CB4zDD9fFXksPmZxOIdY4g5JfHnwSwjR5OXT3X96VYY5YGLSRDdkX1mR6pyh0J4Vlunfb1iTGooLj5XvpNzC5dTWKCf7WyaWvGvd/XI9PXjcq03z7uszHMdAek/oze1a1xh55eGQT26ryJSUUo+IFb6nxYVO9H+LxX6YAu9EjAYkO+ZJBSQV1ouz5Zsqy3ublj6XbWh6aSfjobpAttdxgbt7MXa3FJWOdhQ==
 
 %URL%
 https://gitlab.manjaro.org/Chrysostomus/gnome-layout-switcher
@@ -38,7 +38,7 @@ GPL3
 any
 
 %BUILDDATE%
-1686616908
+1686672340
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
@@ -46,6 +46,8 @@ Mark Wagie <mark@manjaro.org>
 %DEPENDS%
 dynamic-wallpaper
 gnome-shell
+gnome-shell-extension-appindicator
+gnome-shell-extension-gtk4-desktop-icons-ng
 gnome-tweaks
 gradience
 pamac-gtk
@@ -54,12 +56,10 @@ python-click
 python-gobject
 
 %OPTDEPENDS%
-gnome-shell-extension-appindicator: For most layouts
 gnome-shell-extension-arcmenu: For Traditional layout
 gnome-shell-extension-dash-to-dock: For Manjaro layout
 gnome-shell-extension-dash-to-panel: For Traditional layout
 gnome-shell-extension-gnome-ui-tune: For Manjaro layout
-gnome-shell-extension-gtk4-desktop-icons-ng: For Traditional layout
 gnome-shell-extension-material-shell: For Material Shell layout
 
 %MAKEDEPENDS%
