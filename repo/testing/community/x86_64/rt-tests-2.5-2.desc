@@ -1,0 +1,60 @@
+%FILENAME%
+rt-tests-2.5-2-x86_64.pkg.tar.zst
+
+%NAME%
+rt-tests
+
+%BASE%
+rt-tests
+
+%VERSION%
+2.5-2
+
+%DESC%
+A collection of latency testing tools for the linux(-rt) kernel
+
+%GROUPS%
+realtime
+
+%CSIZE%
+137784
+
+%ISIZE%
+495756
+
+%MD5SUM%
+e050bdd1426c4f94d24ff13cb4bb1620
+
+%SHA256SUM%
+2b676be7431663696c7a460f0d3f37aa7046dcd3bffae90ff91e38b18b34b547
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmQvDewACgkQeGxj8zDXy5KmIhAAgGc7jreAZ8Sew7GxKsBe3shXJ8HftqlLi/DXimxE4zORx3g17elJHqzFibDPOpGH2hSfXDY/bk7EO2dhgHSZcpnHPW7O4/REj4QjtgHqiltxrfwk9It1FC/Qj+TW2BUazmywV1EMZqkFhKwTi3VDzcMTruN9xWmhsjdL0WFRlOe8amrNdtvhEzeZwlKjmbHct/08utfxRiPXplSwnmFIvAUJikwVBZTGk2eNnN/SW4kkR3RtdZdupfFskFo/zJkRYni7VLs7FbGRIrGxZtrrsN1hqbxG2kMoB/IMN1vTEPHC4VNkkmwpXwOtOov0SjN6XR2qk0wGcCXM+zeNos9dgFcKVfZ7KtLJCNIFTGSZtouibuM8K+UNUpr6Z17FsqrI3aqSO1QiUkOkr6KhzGX7FhWtIV0rvTJ1iA0ltZf4ItfaBG+04kECyM53kN4W5mCXqGO0gYfXnf3q6i1fRdNlrxXjrdwALM0g9gflv7PY0aEburzPuVuPg2JRuHMoWeqMNg7P04l5SrAkO8mv6GnenKTmpc9xmka0tuwreorLSxSgaGtAqLZjAlIfGlfppWr0B7/DRJL2OY+/Y4kAYonL/9tb+Rqx/vIpA58ovKefcqXWPlbLAlZPKwXpQWQOXH/gfgtwFqBwIk1DRqwzffyGowgsulvBLvYor/fkNctrnKw=
+
+%URL%
+https://git.kernel.org/pub/scm/utils/rt-tests/rt-tests.git/about/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1680805332
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+bash: for determine_maximum_mpps.sh
+numactl: for cyclictest, oslat and signaltest
+python: for get_cyclictest_snapshot and hwlatdetect
+
+%MAKEDEPENDS%
+numactl
+python
+
