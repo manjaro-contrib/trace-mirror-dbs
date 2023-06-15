@@ -1,5 +1,5 @@
 %FILENAME%
-cockpit-pcp-293-1-x86_64.pkg.tar.zst
+cockpit-pcp-294.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 cockpit-pcp
@@ -8,25 +8,25 @@ cockpit-pcp
 cockpit
 
 %VERSION%
-293-1
+294.1-1
 
 %DESC%
 Cockpit support for reading PCP metrics and loading PCP archives
 
 %CSIZE%
-63534
+63553
 
 %ISIZE%
 155231
 
 %MD5SUM%
-3e78a146e9190904c11ad16562f411f0
+b55d9733f441e69ac10021d025fe53f6
 
 %SHA256SUM%
-8d73385f814f29e0ab1ec667bf58e4d38695463778bb3eb93e1276a316fb4da1
+5dd66fb175eb4e5aa54f6b83c0fc124676919cd259a4e9d0d5ab8bf8f321e3b1
 
 %PGPSIG%
-iHUEABYIAB0WIQQMrarPcPZMZU4TGzERZ1x0NCnd7wUCZHyYjwAKCRARZ1x0NCnd71YVAQCH5Mbsm2cVLCNJ6StFmzFOl4xLk/a3Sc6ZDu54SoM/IQD+JS5xLx6NvLWqWzn/mIgpJThFp7z+zRtAms+oM1/RTQs=
+iHUEABYIAB0WIQQMrarPcPZMZU4TGzERZ1x0NCnd7wUCZItQogAKCRARZ1x0NCnd7z45AQDHVxP78ZTmyPcAkp1zl60O2syOQOpTR/dIa4B0rEPCpQD+J3nK+zqnYWolmp8l3FxDJzuOhrSTvLETAByjVwIrMwA=
 
 %URL%
 https://cockpit-project.org/
@@ -38,7 +38,7 @@ LGPL
 x86_64
 
 %BUILDDATE%
-1685886996
+1686851711
 
 %PACKAGER%
 Massimiliano Torromeo <mtorromeo@archlinux.org>
@@ -50,9 +50,6 @@ pcp
 %MAKEDEPENDS%
 krb5
 libssh
-accountsservice
-perl-json
-perl-locale-po
 json-glib
 glib-networking
 git
@@ -60,9 +57,11 @@ intltool
 gtk-doc
 gobject-introspection
 networkmanager
-libgsystem
 xmlto
 npm
 pcp
 gendesk
+python-installer
+python-wheel
+python-build
 

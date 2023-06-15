@@ -1,5 +1,5 @@
 %FILENAME%
-cockpit-storaged-293-1-x86_64.pkg.tar.zst
+cockpit-storaged-294.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 cockpit-storaged
@@ -8,25 +8,25 @@ cockpit-storaged
 cockpit
 
 %VERSION%
-293-1
+294.1-1
 
 %DESC%
 Cockpit user interface for storage, using udisks
 
 %CSIZE%
-948545
+952600
 
 %ISIZE%
-951046
+955620
 
 %MD5SUM%
-520490be822b941d3583bc470ad15b32
+9c1c31c67078ce0ab56f66007e4cda2e
 
 %SHA256SUM%
-e172208ccc23f0a0ef4d28130669a6d7ceaec07950c51c746c3077c99d48497f
+7510752e6a17be278e389a83d8a4422bafe264957d699659d62748a672c30012
 
 %PGPSIG%
-iHUEABYIAB0WIQQMrarPcPZMZU4TGzERZ1x0NCnd7wUCZHyYjwAKCRARZ1x0NCnd7yd1AQDbLRyZxet2m61XADXkCd4TV6tffMkazbFl/ldreeDW6gEAqcxiJ5bS7jSP/jhTznoThivkEE4R3vWE03/BA/Azpw0=
+iHUEABYIAB0WIQQMrarPcPZMZU4TGzERZ1x0NCnd7wUCZItQogAKCRARZ1x0NCnd77nSAPsFuwwv+IKbn5t+rYoCc61zIrnNuGhxoXvNPu5fIJsLKQD/UeQPOwXbGojFcdb/pXyKJhukqSNGPEch4nXdPv3MfAk=
 
 %URL%
 https://cockpit-project.org/
@@ -38,7 +38,7 @@ LGPL
 x86_64
 
 %BUILDDATE%
-1685886996
+1686851711
 
 %PACKAGER%
 Massimiliano Torromeo <mtorromeo@archlinux.org>
@@ -54,9 +54,6 @@ clevis: manage disk encryption
 %MAKEDEPENDS%
 krb5
 libssh
-accountsservice
-perl-json
-perl-locale-po
 json-glib
 glib-networking
 git
@@ -64,9 +61,11 @@ intltool
 gtk-doc
 gobject-introspection
 networkmanager
-libgsystem
 xmlto
 npm
 pcp
 gendesk
+python-installer
+python-wheel
+python-build
 

@@ -1,5 +1,5 @@
 %FILENAME%
-cockpit-packagekit-293-1-x86_64.pkg.tar.zst
+cockpit-packagekit-294.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 cockpit-packagekit
@@ -8,25 +8,25 @@ cockpit-packagekit
 cockpit
 
 %VERSION%
-293-1
+294.1-1
 
 %DESC%
 Cockpit user interface for packages
 
 %CSIZE%
-1036821
+1041200
 
 %ISIZE%
-1035430
+1039291
 
 %MD5SUM%
-8fa2566a1242267de12df68d1b95137e
+f46a6b7fc41669a68db2a4539971f2dc
 
 %SHA256SUM%
-3eef2aedc19750cfd8716eab735a8a817a85316c2e2e611204f75a1f57f507a0
+34ca147b352b5e92473eba9e18df664ced7d607b44f67bcfde7ecf12f489b21a
 
 %PGPSIG%
-iHUEABYIAB0WIQQMrarPcPZMZU4TGzERZ1x0NCnd7wUCZHyYjwAKCRARZ1x0NCnd70ASAQCxkXBIpYa9bqVPmSpOOIlxUe7WCP2mWqy94tnvhZVzngEAhOuUdaMUTs2gMrpbCkBGGrIX90LxWQR0yYcNLVUMtQg=
+iHUEABYIAB0WIQQMrarPcPZMZU4TGzERZ1x0NCnd7wUCZItQogAKCRARZ1x0NCnd743vAP9lHDH/8MUcFWawB+7kZI9/ZQ/d9mRiqGNdsiT31JnVpAEA6XTtHIlM02r/UcQSUIq04ETaF43fjR0FI7cM4x0KKA0=
 
 %URL%
 https://cockpit-project.org/
@@ -38,7 +38,7 @@ LGPL
 x86_64
 
 %BUILDDATE%
-1685886996
+1686851711
 
 %PACKAGER%
 Massimiliano Torromeo <mtorromeo@archlinux.org>
@@ -52,9 +52,6 @@ python
 %MAKEDEPENDS%
 krb5
 libssh
-accountsservice
-perl-json
-perl-locale-po
 json-glib
 glib-networking
 git
@@ -62,9 +59,11 @@ intltool
 gtk-doc
 gobject-introspection
 networkmanager
-libgsystem
 xmlto
 npm
 pcp
 gendesk
+python-installer
+python-wheel
+python-build
 
