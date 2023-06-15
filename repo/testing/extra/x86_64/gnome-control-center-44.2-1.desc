@@ -1,0 +1,101 @@
+%FILENAME%
+gnome-control-center-44.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+gnome-control-center
+
+%BASE%
+gnome-control-center
+
+%VERSION%
+44.2-1
+
+%DESC%
+GNOME's main interface to configure various aspects of the desktop
+
+%GROUPS%
+gnome
+
+%CSIZE%
+8571306
+
+%ISIZE%
+22667090
+
+%MD5SUM%
+33114f9fe08e3e0edf89b3b7723202d8
+
+%SHA256SUM%
+b6070eca94daa15b361651249bf09128a77e888d4e74c1ed70c895ed1b5f8588
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmRwxdcACgkQFQwgB0PtRtg8SQf9Go3ImCA+VYNMumybQ5InoS25wC6CF5t5BOnE2a841ZTUp0MtXdE46CLIvaGaNI1AVLxB0RapHODVVLfiHkPmmRXxSFKFBaD9DEbw2fJ+5K+GaROdCt4wCj7j0OJLSgJclCvlS3nfkefKKbL6x7Onk32pB8dS5kDVlrmSv5Se9Ww4jJp0B+F3Dz8kPKt/pmVOMXjFk/UpeEpUifUhw4ImIEvfxl8ZBaKB+h7nDZrADgJ0E7NRZcWvQW38czlIo0Jl5P3THH4zu6hyaKtzCD/ACZ7pwOb/OW4wrrB3KjPSBC3tffTUJ6RaIG0tkmPSDnHMAkM8fXQbiptQP9A5pVerRg==
+
+%URL%
+https://gitlab.gnome.org/GNOME/gnome-control-center
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1685110614
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%DEPENDS%
+accountsservice
+bolt
+colord-gtk4
+cups-pk-helper
+gcr
+gnome-bluetooth-3.0
+gnome-color-manager
+gnome-desktop-4
+gnome-online-accounts
+gnome-settings-daemon
+gnome-shell
+gsettings-desktop-schemas
+gsound
+gtk4
+libadwaita
+libgnomekbd
+libgtop
+libgudev
+libibus
+libmalcontent
+libmm-glib
+libnma-gtk4
+libpwquality
+smbclient
+sound-theme-freedesktop
+udisks2
+upower
+
+%OPTDEPENDS%
+fwupd: device security panel
+gnome-remote-desktop: screen sharing
+gnome-user-share: WebDAV file sharing
+malcontent: application permission control
+networkmanager: network settings
+openssh: remote login
+power-profiles-daemon: power profiles
+rygel: media sharing
+system-config-printer: printer settings
+switcheroo-control: Dual-GPU support for the info/details panel
+
+%MAKEDEPENDS%
+docbook-xsl
+git
+meson
+modemmanager
+python
+
+%CHECKDEPENDS%
+python-dbusmock
+python-gobject
+xorg-server-xvfb
+
