@@ -1,0 +1,85 @@
+%FILENAME%
+cockpit-294.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+cockpit
+
+%BASE%
+cockpit
+
+%VERSION%
+294.1-2
+
+%DESC%
+A systemd web based user interface for Linux servers
+
+%CSIZE%
+6081632
+
+%ISIZE%
+7775112
+
+%MD5SUM%
+5a7d65e7904880c13bd8032c717aee91
+
+%SHA256SUM%
+54859432af207a20d20c94e364004a0be5e8c628b0df5e9b4356203d516ea321
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmSMYlgACgkQwGCGM3xQdz43zQf+JgSvCjkiiXnI7iQNVlk9rEFiBOQwePKnGsmWlYtbxm3D4g4n3JrbScDBbmtcJlJRwCgxSBww2Xww7pFTJX43sGplXCX0Um2p+QmTqowHEAVLlLmUeW1jsO9DeWF0ZCTBNPTdds8V9QtuYswdLsSxmxk7Gi5tTtJOHjmVSKuZ7i/4xeDrUz/6uCPEsggVpr2Bkh3cGeDa35hsbKf5VxdVv3/pjUds7zY8EYa/aFQmzuIX/tm0oUuXqOBrx0dSwRSkQ1w0xGT0LDOaSUOBtXLofHtI+L8trUidXm+t9swugInUwAvGJ/bxoG6loJu3l/i9JQXjQIskPh/HSwib9zh1IQ==
+
+%URL%
+https://cockpit-project.org/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1686921745
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+krb5
+libssh
+json-glib
+glib-networking
+libpwquality
+openssl
+kexec-tools
+python
+
+%OPTDEPENDS%
+cockpit-pcp: reading performance metrics
+cockpit-storaged: manage storage
+cockpit-packagekit: manage packaged
+cockpit-podman: user interface for managing podman containers
+cockpit-machines: user interface for managing virtual machines
+polkit: elevate privileges
+sudo: elevate privileges
+networkmanager: manage network connections
+sssd: authentication
+sscg: generate self-signed certificate
+
+%MAKEDEPENDS%
+krb5
+libssh
+json-glib
+glib-networking
+git
+intltool
+gtk-doc
+gobject-introspection
+networkmanager
+xmlto
+npm
+pcp
+gendesk
+python-installer
+python-wheel
+python-build
+
