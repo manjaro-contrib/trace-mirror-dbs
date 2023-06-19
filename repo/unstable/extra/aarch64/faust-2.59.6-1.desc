@@ -1,0 +1,88 @@
+%FILENAME%
+faust-2.59.6-1-aarch64.pkg.tar.xz
+
+%NAME%
+faust
+
+%BASE%
+faust
+
+%VERSION%
+2.59.6-1
+
+%DESC%
+A functional programming language for realtime audio signal processing.
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+35472728
+
+%ISIZE%
+84943969
+
+%MD5SUM%
+13d4840710e05a1b210a249f5ba3589e
+
+%SHA256SUM%
+9d743781557a7a7e488e831dc7495ebe04ae968336db2506ca4f1936033e148f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmR+uzkACgkQdxk/FSvb5qa1yhAAjLedMYYiP73mOMvppss+Qb/xcClk4r08+mH3U3vYXGPGcyooOxcXG7lM8/I34WdetiI9PKUaGzTOSs3AE7qtpn8/pYzYnbHE6HEIPZN6P5M7+t8AStrK9qS0jO1g2Eulmn9M3x2KQFGru7cbbkPEgHJzPpY19kalvx9iGLK9V8dS3DOCZk+TADylNRr7pZzXE9/1P+0Hbk4REcOklqJUBMcqn0IV6OMLUZkmSdPDkbip15BlwUngSjvijq+7MbEWQ7anKaMsyz+Tt8RQFQPEW+8Qvd09xRe/zl0Rw7rG0zI2WAZGC61KsRyZlTVyoXAoo2bC2Bo1d1A63OxRLJhLDdqEN9pOMlOXcRWqVlsRwWzruTxnrHLQaRZqifBIDuo9ezG0p1dnCqDU7ywoNtELwu1MNP+j+4/GYI3XqqkIFfmyr8QnaezGVWctCHSjkMPa2ygSNC+IDRhmaWVbsIyfnesirmF4iT46SDjonE8KKXf6leANLunyybCD+LDga+ZJ+91i/6UlvuQ/Kpv0U+R7HF8041R7D1v7m5iwEes5EweNOXh+sE8dScZ2CuYOw5TWUEz4gejtwWyJqFo7u3tse8JGDVgZZL1A7X2cMrw9UeujEEF/xNZdNQz1iUJZG8ZZtkgvQltG6RKIoRCd7/Y7dEza+UJWiXt0WcWGo80veys=
+
+%URL%
+https://faust.grame.fr/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1686026798
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+libfaustmachine.so=0-64
+libfaust.so=2-64
+libOSCFaust.so=1-64
+libHTTPDFaust.so=0-64
+
+%DEPENDS%
+bash
+gcc-libs
+glibc
+libmicrohttpd
+llvm-libs
+
+%OPTDEPENDS%
+clang: for sound2reader
+csound: for faust2csound
+gradle: for faust2android
+graphviz: for faust2sig{,viewer}
+gtk2: for faust2{jack,rosgtk}
+inkscape: for faust2{pdf,png}
+jack: for faust2{api,jack{,console,internal,server,rust},jaqt,netjackqt,nodejs,ros,rosgtk,rpinetjackconsole}
+swig: for faust2android
+libsndfile: for faust2{dummy,sndfile}
+octave: for faust2octave
+pd: for faust2puredata
+portaudio: for faust2paqt
+python: for faust2atomsnippets, faust2md and faust2sc.py
+qt5-tools: for faust2{faustvst,jaqt,lv2}
+rtaudio: for faust2raqt
+ruby-rexml: for faust2sc and scbuilder
+rust: for faust2jackrust
+supercollider: for faust2supercollider
+texlive-core: for faust2pdf
+
+%MAKEDEPENDS%
+cmake
+libsndfile
+llvm
+xxd
+
