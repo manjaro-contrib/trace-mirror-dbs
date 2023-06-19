@@ -1,0 +1,62 @@
+%FILENAME%
+mediawiki-1.39.3-1-any.pkg.tar.xz
+
+%NAME%
+mediawiki
+
+%BASE%
+mediawiki
+
+%VERSION%
+1.39.3-1
+
+%DESC%
+MediaWiki engine
+
+%CSIZE%
+40291040
+
+%ISIZE%
+233604277
+
+%MD5SUM%
+a8fa184f33944e8bf2951e4fa06064b8
+
+%SHA256SUM%
+ee7d6ff826a332f21a08714e224b1abad43368da776d8d26e64a3d2b981f224e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmRB5gAACgkQdxk/FSvb5qat/Q/+LQR457WH9YLMg/J4/MVKE0HuYRQbn83TJAYYoOU1NO1yjHAHDLmfSjY9WIL1eNUQgRDyXKA61gZDJNEMVr7nyAfWzAUgq+zHSMgCM+kc6ZH0SMKRR+QOuOMyglp1ai+sGkwCftKXaQdb01JIaZvaYblWlWpBTrbywi4FMVJAbAxkcw5DRFV8+DAldmcvaHwbme1246YbUnK+fFnq30KHlIxJmDU9do0UIQ4bGBO+fxPdLAjjYOwXSRPahBkSDa4CmMvDiJ5URIZ6l7wPy6c/9h5stdlj4NfW5TKKlP41zEEOBzBxHuZFRziJKdEWMDmrogxaRESczVVFyDeGT2pLlo9JzQJiFVPHJrK36amBB9wJrarOW6s8xsc5B1UGmriWi+Z2oR61XBHWzsPsUSbax2UYKCKttSmLlNq9h9twL+SAGeO7FBaF1OSIK7qmbkc4QeBT9U90CM3c+VoANSC/2EskusLrS6zrZ8Mp4+ew7VuTV4Eg4LE1sbS9onafUJphfmwOWcqg7grJcYTI5PwH9ZO1htEPDe8IHVFVJM46sWPP0hGPYtlwq6lkrZvj6rTpBg9CTewBwXSyeF9WQw90KYTKlaeH7XnvpyVYgMWNuBWXfJfh9Dj37HWzurkdp+bqumnoJserZLLqtKOI530PQYZbARUBEybbY0RsHAhus+w=
+
+%URL%
+https://www.mediawiki.org/wiki/MediaWiki
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1682040060
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+php
+diffutils
+
+%OPTDEPENDS%
+pcre2: for regular expressions support
+php-intl: to handle Unicode normalization
+php-pgsql: for PostgreSQL database support
+php-sqlite: for sqlite database support
+memcached: for cache support
+php-gd: for thumbnails rendering
+imagemagick: for thumbnails rendering
+smtp-forwarder: for mail sending
+python: required for SyntaxHighlight/ConfirmEdit extensions
+perl: compare_schemas.pl and mediawiki_mysql2postgres.pl
+git: hash versions on Special:Version
+

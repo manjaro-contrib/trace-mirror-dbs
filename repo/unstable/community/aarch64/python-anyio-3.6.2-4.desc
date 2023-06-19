@@ -1,0 +1,71 @@
+%FILENAME%
+python-anyio-3.6.2-4-any.pkg.tar.xz
+
+%NAME%
+python-anyio
+
+%BASE%
+python-anyio
+
+%VERSION%
+3.6.2-4
+
+%DESC%
+High level compatibility layer for multiple asynchronous event loop implementations
+
+%CSIZE%
+181088
+
+%ISIZE%
+1273621
+
+%MD5SUM%
+e762f32e79b7a0f4820203901109d6e6
+
+%SHA256SUM%
+ac9f7a2eaacf80f433a404cab2b0fa9605adc0863efd74e7ecc6b3199a48404d
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmRYTl8ACgkQdxk/FSvb5qZF2hAAkPhfF5gFkHqFaBkPzJ3R2750PaFgMiCYm6FZOWwubfKzWnuEHEXfbRsXY7k/taaHLie7TeEFr+jy+AW/uxhSpaJeFrhLnZnlC/SlmzwaDTMszhPMdAkKNJBe2OU01yXW6NUV6ZfZcaGwxB5fMiSQAdzk5Cb8RXzveTLiAXa0RhBozBAne02BqfoVBNBVlBGg3XkNC5DRKTZ1PTBJeDxs7ZXn+RW5jNYGP8ks2cdLEwWKPF6wYAhXhq9kTYScuOYac/OoAuxYZc0RGY6Gj+saU2yqUE98s8rYefp1xoFwVYmFxv3JwOb5Xr1eHPCamwa5wEEBCKub56gR2HmyBnAv2FAJP5foAGR/mhEu7jDMHStTp1+xv39dLBh+nhLkLt5La1tjgV/j/7ctNWAD8DhL4xE8Z5Eo8JRoXVDodyPNTb7uea76BPoN8mH6NHQaioYXEpiogtV+O1ea30oikQ1kLllkGEuWELtAW0KLO9EKGgsN5vTTdcixVSkR1ILqAcjMEbYXkzwszjJhXp/NYtX3v4BB6wkGhZR5e8ZDtx1kpLyIppUtRBbU1MZKGg69H198tRUlAxMbtioWCyM9LtOoTGAScETi2w1mcpZyr6A1UyJCk9Z0bM4pTcZI6VIpZrW6y2ap8uqzTgFrm3mlO5Yp9uBjzrY5JBGDn6OX8zRU4qU=
+
+%URL%
+https://github.com/agronholm/anyio
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1683508814
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-idna
+python-sniffio
+
+%OPTDEPENDS%
+python-trio: trio backend
+python-outcome: trio backend
+python-uvloop: use uvloop for asyncio backend
+python-pytest: pytest plugin
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+python-uvloop
+python-trio
+
+%CHECKDEPENDS%
+python-pytest
+python-trustme
+python-hypothesis
+python-pytest-mock
+

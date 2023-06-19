@@ -1,0 +1,67 @@
+%FILENAME%
+pari-2.15.3-1-aarch64.pkg.tar.xz
+
+%NAME%
+pari
+
+%BASE%
+pari
+
+%VERSION%
+2.15.3-1
+
+%DESC%
+Computer algebra system designed for fast computations in number theory
+
+%CSIZE%
+8703800
+
+%ISIZE%
+32434737
+
+%MD5SUM%
+13be765e6687a280b83246add364abc5
+
+%SHA256SUM%
+8fed34cd4512c7f9e29f144d531d13e0e12f54498fcac9452b057c24f3ff60a5
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmQRtIAACgkQdxk/FSvb5qbL0w//cuIoVb7t2ksLIUhynSYnqrfrriLp183AH+lhEAHYaBrytaQ3dxPDfUjNGDw6+IByNIYC6qVgqaZA3g6pbewmXeue1p9W/DKqmtjah9CTzEDM57ZkaiR0z7YQcupGPSQSbvnV1pOVHmntTWWNzvZSYbt4kYi8mJwA21C6T5z1FKCRJjHs9XSeHOxElDYFPEuLW5oXLJtWI0HaTSnH29WeFgMpfpvSQaXCYg9/5pjleqr2Ax9ybkrMauIWXfXBTzztrbIvVqPSjFUavlBRN5iBH7HQJl9McTBf8lnly5paeA3O/k5W4ivP1J2A2p0ZsPUjkJ/cbUhHM7q3Oykn1GR3us7jCOKWOU1TkfJvg69eEf3U587UofYVR3uiwlh8kT0vAxJ35jSkfxnfH6QnBJP7kMZJFVqlBdsha3AeLPF8uDwYW0qMnt5ZDCKjByMFCX/36fQpg+WW4UEUs1w+F1qGUgfJnDQWhR74EVLempmVJKQFL4bdNYj4ihoTDQdCxepHgcA/aAexnJoyz3+DNcpkoJMAC8hcVVZBFPDOVmSNbxzZbXOjkSrrNT5BTwPf6G5bu0tpTn6y6y1T5QkWvaLSkDvUaWzB4qKjcmeE/0XBuH7bK7N/PbY3///le3S0KIlXwdupD5bJy6em0ql1rE+MwIXiN9MQqG8aFHXsJgSs1SM=
+
+%URL%
+https://pari.math.u-bordeaux.fr/
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1678881737
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+gmp
+libx11
+
+%OPTDEPENDS%
+perl: gphelp, tex2mail
+pari-elldata: J. Cremona elliptic curve database
+pari-galdata: to compute Galois groups in degrees 8 through 11
+pari-seadata: needed by ellap for large primes
+pari-galpol: GALPOL database of polynomials defining Galois extensions of the rationals
+
+%MAKEDEPENDS%
+perl
+texlive-core
+chrpath
+
+%CHECKDEPENDS%
+pari-elldata
+pari-galdata
+pari-seadata
+pari-galpol
+
