@@ -1,5 +1,5 @@
 %FILENAME%
-jupyterlab-4.0.2-1-any.pkg.tar.zst
+jupyterlab-4.0.2-2-any.pkg.tar.zst
 
 %NAME%
 jupyterlab
@@ -8,25 +8,25 @@ jupyterlab
 jupyterlab
 
 %VERSION%
-4.0.2-1
+4.0.2-2
 
 %DESC%
 JupyterLab computational environment
 
 %CSIZE%
-4317987
+4316513
 
 %ISIZE%
 27360462
 
 %MD5SUM%
-052ab6df969775a287ade15efc32a902
+4f2128bad08cc3f7a832c28866580ba3
 
 %SHA256SUM%
-05752612a77c5723458c7e88f27dbb58b73f59ed559c46a34d7e2fd9d7680475
+9f2af61f202f6e5b4174aa99493b286de0a1b3c35025d3ca2b908b6d57bc306b
 
 %PGPSIG%
-iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmSCx2oACgkQek52CV2KUuQmTAf9GXqt86Or9ycUop6eCIY0YiMJ6T/xshM4FSiCZqosPGlggcFOMLqM6F0VFAyomm9KsVrJ+8Vq8Yx595Suf6PMN/7+iJJOYN7CR67RZygfF8meLHQeLdyxmrtEqSt0xwAvcY80J1lK5Ey4/c+rZbj5ePj68FKgiFsKgrD95LSxqVtRljL+bewoNS8peI3bP92PAqaCPe32Su7v/RBcNrBwWVWoRbFzO3F2dKRqCVehGGkovvaaNbHYpMu95FUvI7SM4rfoY/hZc/CzRcmQn+GcEwfefsIbT11x5XEynJD00A9l/uwGqZ5D7tSjiSSytH39BfS7yZxxBQNgo1ihdvygLA==
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmSWJf8ACgkQek52CV2KUuRaxAf+KumJ+uxA5WGPFCtTsGGcd77dQ3UAx2BNSbBC6ktRxfi4GpSnRaJO/UwjITG0KzF9KFcj2gjmqS0GuwreOPBoR+n26L4xQdb/sAzryDiO3y5UTcNm3yjlu4BY8/6BKVoM+Kj0qs74lpv1Z3DSYZ52/AOQ6AyjHKO0y3XCNZUaCRkFvYaJ1+JZhmkvq6gVmH0gro/n4awF6JV67u/Mag+1WikhbyOXqB/9jTY5LSMurIPgmAvs2DkjSN8XXJMVkZinw0df2spTURp5+HP91gKW5EJREEi/vTt+mmdu2rSHkx7DwV8EV8Ad0RmCMgMgd/Dj9/7BUCLR2ACLTzYwO/z6hA==
 
 %URL%
 https://github.com/jupyterlab/jupyterlab
@@ -38,7 +38,7 @@ custom
 any
 
 %BUILDDATE%
-1686291466
+1687560077
 
 %PACKAGER%
 Antonio Rojas <arojas@archlinux.org>
@@ -48,12 +48,12 @@ python-jupyterlab_server
 python-jupyter_packaging
 python-async-lru
 jupyter-notebook-shim
-jupyter-server-ydoc
 nodejs
 
 %OPTDEPENDS%
 npm: to install extensions
 jupyterlab-widgets: ipywidgets support
+jupyter-collaboration: collaborative mode
 
 %MAKEDEPENDS%
 python-build
