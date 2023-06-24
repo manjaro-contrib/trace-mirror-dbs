@@ -1,0 +1,110 @@
+%FILENAME%
+texlive-bin-2023.66984-10-x86_64.pkg.tar.zst
+
+%NAME%
+texlive-bin
+
+%BASE%
+texlive-bin
+
+%VERSION%
+2023.66984-10
+
+%DESC%
+TeX Live binaries
+
+%CSIZE%
+14806619
+
+%ISIZE%
+78093035
+
+%MD5SUM%
+fa63fc2f370103753dd233bd8f0a82de
+
+%SHA256SUM%
+580a17b4ebdaf3118b4262541e56cb12bcc1c6461cdf8059c14d16c126faab9e
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmSPhu4ACgkQek52CV2KUuTZtgf9FRt2qkoJwgjVBW7ueGb2MQc3XL1uOavFk145Bqa1t1MjaPHVAirCqP091O8/o279EEOBmQxryYiD9Sb2F3JiSbkmKZ00P9w9ahvMt292Nrt+yzykIzfh0Z6l6yQT46MyzJWpT95n8hCOtrXhFeOIhC2aLikm37RZg9utCDUHvZT0mxw57tYjZ1TUTndpUj6TQmfIZyhVLqPa+ILNwFran4KoCSC6TJgOGDhmDpFfJaRWTP36Nke+MRaIqsWGBDx/Qssa3SeIhPsTaiPiAaTc+HjMawIjFepg5q1ng88plcQqXtmD/r5oOgVuZ+PsFpW1dFWS6uUTJxJbieqCAnjk9g==
+
+%URL%
+https://tug.org/texlive/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1687126124
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+lcdf-typetools
+kpathsea
+xindy
+
+%DEPENDS%
+cairo
+pixman
+graphite
+t1lib
+gd
+poppler
+ffcall
+libsigsegv
+zziplib
+libpng
+libjpeg
+freetype2
+libxcrypt
+harfbuzz-icu
+mpfr
+potrace
+libpaper
+libsynctex
+
+%OPTDEPENDS%
+ed: for texconfig
+dialog: for texconfig
+biber: for bibliography processing
+ghostscript: for epstopdf, epspdf and other ConTeXt tools
+java-runtime: for utilities like arara, texplate, pdfannotextractor
+perl-tk: for texdoctk
+psutils: to manipulate the output of dvips
+python: for de-macro, dviasm, pythontex
+python-pygments: for pygmentex
+ruby: for old ConTeXT MkII and epspdf
+t1utils: can be useful when installing Type1 fonts
+wdiff: for texdiff
+fontforge: for scripts from the lilyglyphs package
+perl-yaml-tiny: for latexindent
+perl-file-homedir: for latexindent
+
+%MAKEDEPENDS%
+git
+cairo
+pixman
+graphite
+t1lib
+gd
+libsigsegv
+zziplib
+libpng
+libjpeg
+freetype2
+icu
+harfbuzz-icu
+mpfr
+potrace
+libpaper
+perl
+clisp
+ffcall
+libxcrypt
+subversion
+

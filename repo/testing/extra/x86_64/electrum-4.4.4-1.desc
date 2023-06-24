@@ -1,0 +1,77 @@
+%FILENAME%
+electrum-4.4.4-1-any.pkg.tar.zst
+
+%NAME%
+electrum
+
+%BASE%
+electrum
+
+%VERSION%
+4.4.4-1
+
+%DESC%
+Lightweight Bitcoin wallet
+
+%CSIZE%
+8149852
+
+%ISIZE%
+43593508
+
+%MD5SUM%
+74d2c2d3642b4a8950f2ef7f5ce9b695
+
+%SHA256SUM%
+a7d1a4fe388a1800ee4f95e97475550156be517f9110eb605c4a8660da875661
+
+%PGPSIG%
+iQIzBAABCAAdFiEEkDurc2QOttZVM+/zRo8SLOgWIpUFAmSLNaEACgkQRo8SLOgWIpXn1w/8D9I8Ye6hITTLrTY8c/xnllX3oCW8Zvbd4UxrXpNpqxj1PElbeZiclWE8unqxKvChvObxB+wzDlroH3UBNif1xBlU3F17zLhEoS9qX3FRl4cWOZUVeJSp5gnTALZH6A1lqkBNVH1DzyBued5VFJKieQngZg+9iRx4BRTz/y7nTgjZK6Qg5yafqYVin5nwJcr1PEneJemlHq+44y8g/VL7rVGa98kDc1358ZxePZNraPVV0LhZBVZf+dUmeccilNkXbuB8bl8KXS08Ys+XE8iO3i63A9tuPEeZw23vNS3zSf+VIDOn51xhQ89k+YJCRJnC6S8BstPIfeBqE7r5lS+tui3AieD34fpCZ4CsCSZRm9RQkPC0QL8Vw3Ama6hRgCZ07+35tBfBNIPMtRp8w9eyb7Ppy+33RA2blZUBWW1FZAWIw0oAtARPZx/ytjqU4PIlnVLkS8qP+f70uSrMkp5erhuVnYQ4zzWe6wvCk0XnMbqWKg2ytuLT9xmhPtzKPOPftm2W6RSRgzKVkpx/ot5K/wTfZtE3u9VHtXHKHg/JeuPEKw3CqcWjna81v90/AsWlCz6aj7IsitVRHgojmhld6sseMi8F79MPGh9VXGUSm7JtN3E3SWCoaE8SrLZQ4XMObumGr/nDqExPfHop6hB+epGKTMrX2265DySHO6YEXPk=
+
+%URL%
+https://electrum.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1686844750
+
+%PACKAGER%
+Santiago Torres-Arias <santiago@archlinux.org>
+
+%DEPENDS%
+python-pyaes
+python-ecdsa
+python-pbkdf2
+python-requests
+python-qrcode
+python-protobuf
+python-dnspython
+python-jsonrpclib-pelix
+python-pysocks
+python-pyqt5
+python-pycryptodomex
+python-websocket-client
+python-certifi
+python-aiorpcx
+python-aiohttp
+python-aiohttp-socks
+libsecp256k1
+python-bitstring
+
+%OPTDEPENDS%
+python-btchip: BTChip hardware wallet support
+python-hidapi: Digital Bitbox hardware wallet support
+python-matplotlib: plot transaction history in graphical mode
+zbar: QR code reading support
+python-rpyc: send commands to Electrum Python console from an external script
+python-qdarkstyle: optional dark theme in graphical mode
+python-pycryptodomex: use PyCryptodome AES implementation instead of pyaes
+
+%MAKEDEPENDS%
+python-setuptools
+
