@@ -1,0 +1,80 @@
+%FILENAME%
+python-urllib3-1.26.15-1-any.pkg.tar.zst
+
+%NAME%
+python-urllib3
+
+%BASE%
+python-urllib3
+
+%VERSION%
+1.26.15-1
+
+%DESC%
+HTTP library with thread-safe connection pooling and file post support
+
+%CSIZE%
+245869
+
+%ISIZE%
+1362914
+
+%MD5SUM%
+a962e034b9b1f57a818c331d9b818aac
+
+%SHA256SUM%
+a8faf55299122eca7fa4776ed8ea68b9121f54982d56e1666486b114df0f6467
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCZD70FgAKCRATmwnaW/DTOORkAQDxYcVaQkMDj8Geok3QyIJjX4n3E5qBcn0K4zCytPM0KwEAzHcQuqlQZkMci2+2MfdHE3yDARU/xngXTr16tMtVdAo=
+
+%URL%
+https://github.com/urllib3/urllib3
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1681846712
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-brotli: Brotli support
+python-certifi: security support
+python-cryptography: security support
+python-idna: security support
+python-pyopenssl: security support
+python-pysocks: SOCKS support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-sphinx
+python-sphinx-furo
+python-wheel
+
+%CHECKDEPENDS%
+python-brotli
+python-certifi
+python-cryptography
+python-dateutil
+python-flaky
+python-gcp-devrel-py-tools
+python-idna
+python-pyopenssl
+python-pysocks
+python-pytest
+python-pytest-freezegun
+python-pytest-timeout
+python-tornado
+python-trustme
+

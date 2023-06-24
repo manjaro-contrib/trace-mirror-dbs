@@ -1,0 +1,73 @@
+%FILENAME%
+hplip-1:3.23.3-3-x86_64.pkg.tar.zst
+
+%NAME%
+hplip
+
+%BASE%
+hplip
+
+%VERSION%
+1:3.23.3-3
+
+%DESC%
+Drivers for HP DeskJet, OfficeJet, Photosmart, Business Inkjet and some LaserJet
+
+%CSIZE%
+22578954
+
+%ISIZE%
+40014634
+
+%MD5SUM%
+a27a19a66c8c79c730b7a88b67542906
+
+%SHA256SUM%
+ccdd032aa29b60773b656db40351966c78018b49f9c402da51dc2f3d9d5c8979
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmRXU9oACgkQlGV6sg8qCSuKHAf/X4uwQ8L/HFgdQE1F8loeA9QW/Gc6ndbVGwrIkbJzdKfGXwaL23HXYVXB30Xmh0aVkI9XyBhRZuvhYpYXJSGPZqoEQMVvsxbj+IpOkOhrRhCCso4J453fgiEmngroIHKRdG2zRxIxVViUayCltfUWNrbInNYj8aUd5rWjdi0cpcoDTlHhi75o7LeteJKkQUOQHbaU5G06bfxvusZnBLizvFKiI4nuPPIJRzwEcobKSA60MJc1yeC8dtXmXadQ7zRFoJEzuMllbYJj1gwiuEFX/Fajj2z6rrNzMNpm49gNKfz6XjjMo+BOR0+IwdJNTB8chgg0V24CuiwSwWHZ/kpEiw==
+
+%URL%
+https://hplipopensource.com
+
+%LICENSE%
+GPL2
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1683444572
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%DEPENDS%
+python-dbus
+python-distro
+ghostscript
+net-snmp
+foomatic-db-engine
+python-gobject
+libxcrypt
+
+%OPTDEPENDS%
+cups: for printing support
+sane: for scanner support
+xsane: sane scanner frontend
+python-pillow: for commandline scanning support
+python-reportlab: for pdf output in hp-scan
+rpcbind: for network support
+python-pyqt5: for running GUI and hp-toolbox
+libusb: for advanced usb support
+wget: for network support
+
+%MAKEDEPENDS%
+python-pyqt5
+sane
+rpcbind
+cups
+libusb
+

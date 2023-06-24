@@ -1,0 +1,95 @@
+%FILENAME%
+syslog-ng-4.1.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+syslog-ng
+
+%BASE%
+syslog-ng
+
+%VERSION%
+4.1.1-1
+
+%DESC%
+Next-generation syslogd with advanced networking and filtering capabilities
+
+%CSIZE%
+1209544
+
+%ISIZE%
+5675112
+
+%MD5SUM%
+089fc92b410496d003888d97684c481f
+
+%SHA256SUM%
+0399c94cf14e24c6d7f48b7388cdfd8c41c39e32a511bca4476402bc258558fe
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCZDFD+gAKCRATmwnaW/DTOI+EAP9aWOycT1CKAzfam0mMRaIoePMSGr15NQSsphCqQ7/bSwD+Kv6hXBCsrwd4TnFiQ9NiaDBqRbjdIe1ioV/Kx05oHQ8=
+
+%URL%
+https://www.syslog-ng.com/products/open-source-log-management/
+
+%LICENSE%
+GPL2
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1680950062
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%REPLACES%
+eventlog
+
+%CONFLICTS%
+eventlog
+
+%DEPENDS%
+awk
+bash
+curl
+glib2
+glibc
+json-c
+libcap
+libnet
+libnsl
+openssl
+systemd-libs
+
+%OPTDEPENDS%
+logrotate: for rotating log files
+libdbi: for the SQL plugin
+librabbitmq-c: for the AMQP plugin
+mongo-c-driver: for the MongoDB plugin
+libesmtp: for the SMTP plugin
+hiredis: for the Redis plugin
+libmaxminddb: for the GeoIP2 plugin
+net-snmp: for the SNMP plugin
+librdkafka: for the Kafka C plugin
+python: for Python-based plugins
+python-ply: for debugger CLI
+
+%MAKEDEPENDS%
+libxslt
+mongo-c-driver
+librabbitmq-c
+python
+libesmtp
+hiredis
+libdbi
+libmaxminddb
+net-snmp
+librdkafka
+systemd
+
+%CHECKDEPENDS%
+python-nose
+python-ply
+

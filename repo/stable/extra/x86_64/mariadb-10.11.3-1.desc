@@ -1,0 +1,88 @@
+%FILENAME%
+mariadb-10.11.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+mariadb
+
+%BASE%
+mariadb
+
+%VERSION%
+10.11.3-1
+
+%DESC%
+Fast SQL database server, derived from MySQL
+
+%CSIZE%
+30136395
+
+%ISIZE%
+221786808
+
+%MD5SUM%
+6e45884fbc2d72b49846a1717effde87
+
+%SHA256SUM%
+7be50e54a386b98043b8acec0d1adbdeb8f033991d024dcb502ce192e8c08fee
+
+%PGPSIG%
+iHUEABYIAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZFo93AAKCRBtQr3RFuAGj0U1AQC8nhUiIEB1iMKUDJTkOsvBsXlRVT8smyO1pqykIsuNnwEA8C6y5M0fN+yssDVy0TxDLySWa+HxfOE6OvRyqtSdXwc=
+
+%URL%
+https://mariadb.org/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1683634818
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%CONFLICTS%
+mysql
+
+%PROVIDES%
+mysql=10.11.3
+
+%DEPENDS%
+mariadb-clients=10.11.3
+bzip2
+libxml2
+lz4
+systemd-libs
+libxml2
+zstd
+
+%OPTDEPENDS%
+cracklib: for cracklib plugin
+curl: for ha_s3 plugin
+galera: for MariaDB cluster with Galera WSREP
+judy: for Open Query GRAPH (OQGraph) computation engine
+perl-dbd-mariadb: for mariadb-hotcopy, mariadb-convert-table-format and mariadb-setpermission
+python-mysqlclient: for myrocks_hotbackup
+xz: lzma provider
+
+%MAKEDEPENDS%
+boost
+bzip2
+cmake
+cracklib
+curl
+jemalloc
+judy
+krb5
+liburing
+libxcrypt
+libxml2
+lz4
+openssl
+systemd
+zlib
+zstd
+xz
+
