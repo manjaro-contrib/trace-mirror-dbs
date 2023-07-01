@@ -1,5 +1,5 @@
 %FILENAME%
-lib32-p11-kit-0.24.1-1-x86_64.pkg.tar.zst
+lib32-p11-kit-0.25.0-1-x86_64.pkg.tar.zst
 
 %NAME%
 lib32-p11-kit
@@ -8,25 +8,25 @@ lib32-p11-kit
 lib32-p11-kit
 
 %VERSION%
-0.24.1-1
+0.25.0-1
 
 %DESC%
 Loads and enumerates PKCS#11 modules (32-bit library)
 
 %CSIZE%
-357363
+485509
 
 %ISIZE%
-2563102
+3383673
 
 %MD5SUM%
-573efcd2c1c5b00d4ea95779a7c7131d
+86ed013701c568db7d2885679b9a5185
 
 %SHA256SUM%
-5e720c29c65e12b70c0925d596c3b51f21ba3d366fd21e4c35cb63b3ad890c28
+00c75c27733beeff63254dc53d7b56511658b9c14d3e4b17147116e9d65a37db
 
 %PGPSIG%
-iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCYeXoABUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8ff8wEAgWtvd3sGETZWxWpfY9cN8ZJBLuQuvPqYRefy8U9I0l4A/j6MUA5xCM9vJ41BPhMepzm77gEzOsTvnr2mgvkcFR4E
+iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZJ2ofxUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8ct0QEA6YaZjVrygVRRuGoBQZZVFgAbCsG4Qh4QK2xUwOYP5yAA/RBDFrl072yX0vErfvOgTNbMiOcIEje5yMbA2d1F3nQM
 
 %URL%
 https://p11-glue.freedesktop.org
@@ -38,7 +38,7 @@ BSD
 x86_64
 
 %BUILDDATE%
-1642456853
+1688053504
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
@@ -48,11 +48,12 @@ libp11-kit.so=0-32
 
 %DEPENDS%
 lib32-glibc
-lib32-libtasn1
 lib32-libffi
+lib32-libtasn1
 libp11-kit
 
 %MAKEDEPENDS%
-meson
 lib32-systemd
+meson
+systemd
 
