@@ -1,0 +1,98 @@
+%FILENAME%
+grub-2.06.r591.g6425c12cd-1-x86_64.pkg.tar.zst
+
+%NAME%
+grub
+
+%BASE%
+grub
+
+%VERSION%
+2.06.r591.g6425c12cd-1
+
+%DESC%
+GNU GRand Unified Bootloader (2)
+
+%CSIZE%
+15615242
+
+%ISIZE%
+49467584
+
+%MD5SUM%
+edb690df47020dbae66e0979bb74398f
+
+%SHA256SUM%
+cabfaa30088757956084bba2a83583c614b621675f2f174fbcdc69c3b8c108e1
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmSkKaAACgkQFQwgB0PtRtjqTwgAlgwJ1UHrcOYffFxLVkATnpRKNam5ccFjSnVSfkYI7NdYy+60e+VRxnsRdzDm0HYbo26J6h4BDozmf1hjBVy87fzEPkXpoFsjdUodhphWTiZ9Q/MxV3zjU6Hyr8hUBbwu4HZ4s8iqUdYiQTnMK0OBGFzLBPavDet+hJnEHf0kH1SmyA43WEGeHK1qhStvIE5A2eSRYcKLIhmzXuOad1GmD60uTSSpVcVR8hapBg6v4PVzPq5iPSe4rcMn6jDSwPfnCkq+NGHIR8ZQRvnHYLVIxA8kgQaWYs5x04ujKzck/aq9z0IUwRnLt1qdh1A/eLoaXtSpZm8xV8K9w/KY0IjqxQ==
+
+%URL%
+https://www.gnu.org/software/grub/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1688479630
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%REPLACES%
+grub-common
+grub-bios
+grub-emu
+grub-efi-x86_64
+
+%CONFLICTS%
+grub-common
+grub-bios
+grub-emu
+grub-efi-x86_64
+grub-legacy
+
+%PROVIDES%
+grub-common
+grub-bios
+grub-emu
+grub-efi-x86_64
+
+%DEPENDS%
+sh
+xz
+gettext
+device-mapper
+
+%OPTDEPENDS%
+freetype2: For grub-mkfont usage
+fuse3: For grub-mount usage
+dosfstools: For grub-mkrescue FAT FS and EFI support
+lzop: For grub-mkrescue LZO support
+efibootmgr: For grub-install EFI support
+libisoburn: Provides xorriso for generating grub rescue iso using grub-mkrescue
+os-prober: To detect other OSes when generating grub.cfg in BIOS systems
+mtools: For grub-mkrescue FAT FS support
+libusb: For grub-emu USB support
+sdl: For grub-emu SDL support
+
+%MAKEDEPENDS%
+git
+rsync
+xz
+freetype2
+ttf-dejavu
+python
+autogen
+texinfo
+help2man
+gettext
+device-mapper
+fuse3
+libusb
+sdl
+
