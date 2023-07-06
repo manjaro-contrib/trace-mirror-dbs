@@ -1,32 +1,32 @@
 %FILENAME%
-vulkan-radeon-23.1.3-2-x86_64.pkg.tar.zst
+vulkan-intel-23.1.3-3-x86_64.pkg.tar.zst
 
 %NAME%
-vulkan-radeon
+vulkan-intel
 
 %BASE%
 mesa
 
 %VERSION%
-23.1.3-2
+23.1.3-3
 
 %DESC%
-Radeon's Vulkan mesa driver
+Intel's Vulkan mesa driver
 
 %CSIZE%
-2824061
+7516181
 
 %ISIZE%
-10019605
+30315329
 
 %MD5SUM%
-4974470cb6057c1b8d94f4be6b6dd641
+d19208c54198a960a36d89fb7ce0e0bc
 
 %SHA256SUM%
-f22340572e85dafc01632bd4349dc8cba795603407c59e2482a015970b0301e4
+0ad098074a497bbde3acbd8c8e4d15bbe250fa33eaa6cc62a277196769a6a98d
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmShdpwSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+Y7UH/0A6d5J6UyoZMGT0Cs18lnmJJytlwFfHUVohwe2NUrt+jjz48X0AuXvxGE0wobh88UA7f0QIgUCHl9j2Yd2xkOf9FnG/ugtcLxROwKt3C9UN6o9BIstAFW7q778LtYYNNpN4Bv9PuUrHG2gPl68A+k0JNgEZCGu+u9T0W4Wj+eVZon/m39jJgm043g46umkq8epEm8BlvFwUMesy+w0BisFo3IwIp8KP2qihlZp9nWZBbXcoi6iCjYWbJ3uxuymmU2QSELY2QM4mPVl+IhhgtaUEO47o8H2Zrzlb8pi6CoEipWIKAzK3mt2OBYbiUxl9vLCXuO43cPYmqa3sT193W08=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmSmshQSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+mAgIAJvNnfSEDG6kDoptWvwmksDbWkkuGIJoUD4T6ljYocfCQXFp16+tWsrzsLbIzXDk+Q6AngvQHoc9seenjGexMa5GNw02DdqAIm01eNStD0gZbkydbZ5o7/rlOdwUmaHr16GxJEDbl4nMbKnTCz2h7Avt5WyEqfUNniMnq6wjDgrT/s589MofMfqfjdRAAGQrkFLl58/PzmfKAx5T4AVFyEqKP1cNdlXySDJhxQS5gp1VZ2D7SYQ76VkJstoLyEAy/da9u7QNYnMzivXK1Hw1ld7JAXXN3ll2ApuggRm46puOl7A05UNtOOTLVal8rqgdq6hQXHKEIlG5wcmtOOQOVr4=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,7 +38,7 @@ custom
 x86_64
 
 %BUILDDATE%
-1688295198
+1688638433
 
 %PACKAGER%
 Philip Müller <philm@manjaro.org>
@@ -48,10 +48,8 @@ vulkan-driver
 
 %DEPENDS%
 libdrm
-libelf
 libx11
 libxshmfence
-llvm-libs
 systemd
 wayland
 zstd
