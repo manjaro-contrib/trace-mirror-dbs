@@ -1,0 +1,96 @@
+%FILENAME%
+gnome-shell-1:44.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+gnome-shell
+
+%BASE%
+gnome-shell
+
+%VERSION%
+1:44.2-1
+
+%DESC%
+Next generation desktop shell
+
+%GROUPS%
+gnome
+
+%CSIZE%
+1829968
+
+%ISIZE%
+12091180
+
+%MD5SUM%
+cd5511027b30c53c33323ebba5802d74
+
+%SHA256SUM%
+07ab497316fe34b9ece45d9e5cb5e8a3e40aba1300196c86f9ed356c65085889
+
+%PGPSIG%
+iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZHt9mxUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8eDLQD8CA2F3Sc5mA8v8oeUzcDRA5z4fugWUWuKIY+AweyR1H0A/1nUbDpTYmGLl33Wf9OF1zhZPDODOeYduCOrWpcrh+oD
+
+%URL%
+https://wiki.gnome.org/Projects/GnomeShell
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1685814578
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%DEPENDS%
+accountsservice
+gcr-4
+gjs
+gnome-autoar
+gnome-session
+gnome-settings-daemon
+gsettings-desktop-schemas
+gtk4
+libadwaita
+libcanberra-pulse
+libgdm
+libgweather-4
+libibus
+libnma-gtk4
+libsecret
+libsoup3
+mutter
+unzip
+upower
+libmutter-12.so=0-64
+
+%OPTDEPENDS%
+evolution-data-server: Evolution calendar integration
+gnome-bluetooth-3.0: Bluetooth support
+gnome-control-center: System settings
+gnome-disk-utility: Mount with keyfiles
+gst-plugin-pipewire: Screen recording
+gst-plugins-good: Screen recording
+power-profiles-daemon: Power profile switching
+switcheroo-control: Multi-GPU support
+
+%MAKEDEPENDS%
+asciidoc
+bash-completion
+evolution-data-server
+git
+gnome-control-center
+gobject-introspection
+gtk-doc
+meson
+sassc
+
+%CHECKDEPENDS%
+appstream-glib
+python-dbusmock
+xorg-server-xvfb
+
