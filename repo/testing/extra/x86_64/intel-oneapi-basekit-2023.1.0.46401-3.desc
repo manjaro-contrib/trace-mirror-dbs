@@ -1,0 +1,83 @@
+%FILENAME%
+intel-oneapi-basekit-2023.1.0.46401-3-x86_64.pkg.tar.zst
+
+%NAME%
+intel-oneapi-basekit
+
+%BASE%
+intel-oneapi-basekit
+
+%VERSION%
+2023.1.0.46401-3
+
+%DESC%
+Intel oneAPI Base Toolkit for Linux
+
+%CSIZE%
+3133985397
+
+%ISIZE%
+17075173597
+
+%MD5SUM%
+3c4c850642565544f718602a2b28283f
+
+%SHA256SUM%
+5ab53ea71b234d9e57c098dd320c94c7ee29f7c45f2a80ccec06c7c1b53294fd
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmSbBKcACgkQlGV6sg8qCStLugf+KJK9+DZdhkKbPeRn3CexaEW1y4YvoeGDqrhDZru26nQFNEbWEKWuxep9nGMZx1JGLD0XW6dpGsInmV3mkeO/LDE3mqDWj+cAYTu82SrMiATsZDh+HzDqNPJEHtb4LF3d9e/Hb/fxg33XURPKNXNFx7yFWD0di/uXsJAd33Hed1U+SwM5rgz2tghyxrm4N+vvbgvd+pVv3PIBuo1mR4O7rYWVIvdiRXhKWzoi7+LsmRGQ1s8gZ51oWpPxBUugMxSjKykpLcl/TfM3xKBfK3ZfcZWUx9xnzQs3mONLvwfi0xxARbN8UzuqIVn1AkGtWVzMF/mkFAQH7yxhy2qU0tzU8Q==
+
+%URL%
+https://software.intel.com/content/www/us/en/develop/tools/oneapi.html
+
+%LICENSE%
+custom:EULA
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1687879679
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%PROVIDES%
+intel-oneapi-mkl
+intel-oneapi-dnnl
+intel-oneapi-tbb
+intel-oneapi-dpl
+intel-oneapi-ccl
+intel-oneapi-dpcpp-cpp-compiler
+intel-oneapi-dal
+intel-oneapi-compiler-shared-runtime-libs
+intel-oneapi-compiler-shared-opencl-cpu
+intel-oneapi-compiler-shared-runtime
+intel-oneapi-compiler-dpcpp-cpp-runtime-libs
+intel-oneapi-compiler-dpcpp-cpp-runtime
+intel-oneapi-compiler-shared
+intel-oneapi-openmp
+intel-oneapi-dpcpp-debugger
+intel-oneapi-dev-utilities
+intel-oneapi-dpcpp-cpp
+intel-oneapi-vpl
+intel-oneapi-ipp
+intel-oneapi-ippcp
+intel-oneapi-advisor
+intel-oneapi-vtune
+intel-oneapi-fpga-group
+
+%DEPENDS%
+level-zero-loader
+
+%OPTDEPENDS%
+libnotify: VTune GUI
+glib2: VTune GUI
+gtk3: VTune GUI
+at-spi2-atk: VTune GUI
+libdrm: VTune GUI
+libxcb: VTune GUI
+xdg-utils: VTune GUI
+nss: Advisor GUI
+
