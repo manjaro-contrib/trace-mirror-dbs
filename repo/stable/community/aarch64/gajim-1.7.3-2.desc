@@ -1,0 +1,83 @@
+%FILENAME%
+gajim-1.7.3-2-any.pkg.tar.xz
+
+%NAME%
+gajim
+
+%BASE%
+gajim
+
+%VERSION%
+1.7.3-2
+
+%DESC%
+Full featured and easy to use XMPP (Jabber) client
+
+%CSIZE%
+3303200
+
+%ISIZE%
+18452890
+
+%MD5SUM%
+5f2957d28605864c4e15fb131b81d1b8
+
+%SHA256SUM%
+126f1266fb56830b50d6a540e97c56a75be762c20a1a1144f56accd90f5f9773
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmRa1KIACgkQdxk/FSvb5qaYgA//VMWoteKN3QmO+b+3mm9N16dJU69psmpwDgLmVhJ+jeDpFDveODgKuSgZ3sTGc+EkPwDgCCfLIwUVi8AdO8kMbZSYpJ7xTQy4h9ouyh5enhEoWJOPqX/PZ63x/y/R5274ppwsKsJst+qriIteM8+NtzQPjnP/V5Y1Isa6+AvLeadBzcu/FqFbzamwnJebVhP13073Es4pQOcj8laWhzizQCe8XI342joyXSUOtDc/oWtJdrX7/TiWjgdDk65V29WtC2BtC3DdjvRA0+oAiUastGs8K4QLnoVG7m52y0u45hZYJJVgEafd7uh50qthUOOj5MYQB61e2nD7fpNYqDeA0NtvIvZ5VJqNcHUDv9mGr1Exu1/1wDtdfSCtRn9KRfBbMuR6b8ysGgc01SI+B6MxRCZkHzMqjD3NM0B+ytErOIwC7HqLS++TPYBwpGNPfOxwArUnfjiVYuV5StF2Pzv1QyYP0B+Wx73/wWfSxFdeyJ8WSee0JVllevORX6RILf4FmhQUWD7gMUD+Pg03PH7rl95ZbGeUS/ADXjdRPDkU7F75DUfWoEwUtDjj1PD57TofiQm0xxBxnWd14Bjt0xKWwGOqrI3kSdS0kSgxsxpBp2E3lOmYfyuW2q4Nx2gLnRfOoU2X7fJ/GsowPfeao9H8K3uGmdPInhT/qVn6uXWxA+U=
+
+%URL%
+https://gajim.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1683674211
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+gtk3
+gtksourceview4
+python-cairo
+python-gobject
+python-keyring
+python-nbxmpp>=4.2.0
+python-cryptography
+python-precis_i18n
+python-css-parser
+python-distro
+hicolor-icon-theme
+python-pillow
+python-gssapi
+python-netifaces
+python-packaging
+
+%OPTDEPENDS%
+farstream: start audio and video chat
+gst-plugins-good: for video/voice support
+gst-plugins-bad: for video/voice support
+gst-plugins-ugly: for video/voice support
+gst-libav: for video/voice support
+gst-python: for video/voice support
+gspell: for spell checking support
+geoclue: share current location
+libxss: measure idle time, in order to set auto status
+python-gnupg: encrypting chat messages with OpenPGP
+python-axolotl: OMEMO support
+python-qrcode: generate QR codes for OMEMO keys
+gsound: Notification Sounds
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+

@@ -1,0 +1,76 @@
+%FILENAME%
+dracut-059-0.1-x86_64.pkg.tar.zst
+
+%NAME%
+dracut
+
+%BASE%
+dracut
+
+%VERSION%
+059-0.1
+
+%DESC%
+An event driven initramfs infrastructure
+
+%CSIZE%
+347856
+
+%ISIZE%
+1060845
+
+%MD5SUM%
+d8f6c267500093785e98231de5236d2a
+
+%SHA256SUM%
+aec982f365dd223e3a4f2d12540e19b7868c9105ce1c08a4613319238aa2472a
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmR4/FIACgkQFQwgB0PtRthw7AgA3v3xAsAi7iqSSN7pHpTqD5OrJLxAs1PPiqxVZNIcBBLS5w5XeGdBw3ZEuiwNws695uLud/oQ3AxkHYUo8Zf+zVYjQPxkdh4yzVos0yQeLqFLHvYIqZybMPlHxwr+/IqSYs+KUJKJT/HZSKWoCkaaRmwI2kEUUc/hzNNgb8rEjBjgLjDEdnwbpThp2rBQKFaMeLgGtVDAoT5swIBJcRH4vn1QJIE7Jl+txEInT1P7OUJ8P6WWR5EcbRtUkKujdXRXpfedTvV+PGxQ4Ue6u/BZiG9iE39gCoxaHey/XfmIIfFnGIc6PCG3+oX+6mfaNBG6471zTVPkJH2gu0oFPlmM2A==
+
+%URL%
+https://dracut.wiki.kernel.org
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1685650029
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%PROVIDES%
+initramfs
+
+%DEPENDS%
+bash
+coreutils
+cpio
+filesystem
+findutils
+grep
+gzip
+kmod
+pkgconf
+procps-ng
+sed
+systemd
+util-linux
+xz
+
+%OPTDEPENDS%
+binutils: --uefi option support
+elfutils: strip binaries to reduce initramfs size
+multipath-tools: dmraid dracut module support
+pigz: faster gzip compression
+sbsigntools: uefi_secureboot_cert/key configuration option support
+
+%MAKEDEPENDS%
+asciidoc
+bash-completion
+git
+

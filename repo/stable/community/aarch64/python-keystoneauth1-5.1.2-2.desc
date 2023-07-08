@@ -1,0 +1,74 @@
+%FILENAME%
+python-keystoneauth1-5.1.2-2-any.pkg.tar.xz
+
+%NAME%
+python-keystoneauth1
+
+%BASE%
+python-keystoneauth1
+
+%VERSION%
+5.1.2-2
+
+%DESC%
+Authentication Library for OpenStack Identity
+
+%CSIZE%
+455780
+
+%ISIZE%
+4074357
+
+%MD5SUM%
+ead402de49d57178d7713d3b4fbe04f0
+
+%SHA256SUM%
+f3c1f12271cbbe89c36b504f9ad8f28927bf3f0640c13e690262482e23519e87
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmRcLa0ACgkQdxk/FSvb5qbhzw//cgIIVGVDoI5tc+S4f1hf4qPkRgGJvdedEamPKvEgNwda4RssxlPyaBrVgzwqQkYJPsMPpnYp3iuhI2sQ6MH09Rn/JObElxGpkE2V/G5lc7FR4X4IpefHHRrGXUUof0mBAcT7quvwYeovYTmMfgrO1+7MDD2no5VTgs3RBvJC4YOyf4SJ9K/NnSRbyuqen61RgQi71lT4CLmOapUdX+Blvx9aCN8BoXwHG+sn0mVKvwFnFF22U52wwHUOMfgMJ8pGGhp958v+ciw7uqO0tXzN6rrFAarAackTnasd3P9TaY+D+oinPL/TNYDE4arw5rk2CJ3dPmpvO63kN9e0rNd5VxYRck9kYTFftpOABkaM8OR11nm5HmiNNwiA8tfsDO0RvUNRmwDZ8JmJn8gebQDbLtuGBzHeRr1l2fcN+UdpwUI8l6Vj0nTJAx0mW9nypOFUDlk50ewPqF+V4wbD/s1+1lObepi4JNsO0uMAziqg0y93HuHdTmGvxiekAO/jrwA8lRC9+cZ4m0VFeC/8xxQhZ//LT/qT4yVYaDRDO/o4s6JlHXZ0IVBzYfmWYE3hXCSiC7VqX4Ss/c+BdFxxS3WZwg20EJuPI5N40TLIz7PJZvYsO1k+dPP48DdLcr3ht/8aWv2+b3nHMBWBvV/aJy21g1SiMmndUuGwTXkuOTlp+0A=
+
+%URL%
+https://docs.openstack.org/developer/keystoneauth
+
+%LICENSE%
+Apache
+
+%ARCH%
+any
+
+%BUILDDATE%
+1683762580
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python-pbr
+python-iso8601
+python-stevedore
+python-os-service-types
+python-requests
+
+%OPTDEPENDS%
+python-requests-kerberos: for kerberos support
+python-lxml: for saml2 support
+python-oauthlib: for oauth1 support
+python-betamax: for betamax support
+python-fixtures: for betamax support
+
+%MAKEDEPENDS%
+git
+
+%CHECKDEPENDS%
+python-requests-mock
+python-testscenarios
+python-lxml
+python-oslo-config
+python-betamax
+python-oslotest
+python-oslo-utils
+python-requests-kerberos
+python-oauthlib
+python-hacking
+

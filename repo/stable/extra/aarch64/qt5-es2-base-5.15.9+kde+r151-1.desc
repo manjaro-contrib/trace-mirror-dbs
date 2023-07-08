@@ -1,0 +1,106 @@
+%FILENAME%
+qt5-es2-base-5.15.9+kde+r151-1-aarch64.pkg.tar.zst
+
+%NAME%
+qt5-es2-base
+
+%BASE%
+qt5-es2-base
+
+%VERSION%
+5.15.9+kde+r151-1
+
+%DESC%
+A cross-platform application and UI framework with OpenGL ES 2.0 support.
+
+%GROUPS%
+qt
+qt5
+
+%CSIZE%
+19311345
+
+%ISIZE%
+70644829
+
+%MD5SUM%
+497d683249eb175060586425c7b53133
+
+%SHA256SUM%
+cbc0a2c271bba75f753a359771b49406fc4b4f4b28ac16a528c543755fe0630f
+
+%PGPSIG%
+iQGzBAABCAAdFiEEO3lN5tQyD85ZT0FxJ5589djVbsgFAmQ+4PoACgkQJ5589djVbsgC1Av+IyxiEYmX85/zpFD39glafAvWZXo3VMQ8f4pJfWn+5GPu6mAq84CdpRS8/AC/MeWigJC5N1xTWgCP0juZujbiAilwzuvqor0F94WR+CjUxlxD9/uBac3em7PjMunew27kNvSMenGohFYALF9Ci61Yu0pCbZdkM0IsLnWLL830XudrxMIlwVlLgnsbNwV4dhUBI648nZvWcO5tSiiZ7CUyEAHKCBqVp6pwQOERwTfyNX0Vjc9wIlP/tav/hyzXvMbXWE8RsO/cR7YuP0Qh4VViQUTNe2ThdR/CdS9+AEY2XSUvz5s+zkYuztiEqWxIksexNULWuic9qpoiyBZcbaKS4+lQm/elU+GizY+WonOSMomHlz9Am9kBu+8zW+D+a6BEip39mTi5PN7+Q0PFY490ijKNRpvyINSnUxZVsj8Gl45IjFPAQsarBLsDEJEgu0hKdomIigzn2mXVxSZaOKWoj27sG30S5BlsZAb4R/zgwEhkReddAkxBmm1jO/9ytXGb
+
+%URL%
+https://www.qt.io
+
+%LICENSE%
+GPL3
+LGPL3
+FDL
+custom
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1681840393
+
+%PACKAGER%
+Manjaro Build Server <build@manjaro.org>
+
+%CONFLICTS%
+qt5-base
+
+%PROVIDES%
+qt5-base=5.15.9+kde+r151
+
+%DEPENDS%
+libjpeg-turbo
+xcb-util-keysyms
+xcb-util-renderutil
+libgl
+fontconfig
+xdg-utils
+shared-mime-info
+xcb-util-wm
+libxrender
+libxi
+sqlite
+xcb-util-image
+mesa
+tslib
+libinput
+libxkbcommon-x11
+libproxy
+libcups
+double-conversion
+md4c
+qt5-translations
+
+%OPTDEPENDS%
+qt5-svg: to use SVG icon themes
+qt5-wayland: to run Qt applications in a Wayland session
+postgresql-libs: PostgreSQL driver
+mariadb-libs: MariaDB driver
+unixodbc: ODBC driver
+libfbclient: Firebird/iBase driver
+freetds: MS SQL driver
+gtk3: GTK platform plugin
+
+%MAKEDEPENDS%
+git
+libfbclient
+mariadb-libs
+sqlite
+unixodbc
+postgresql-libs
+alsa-lib
+gst-plugins-base-libs
+gtk3
+libpulse
+cups
+freetds
+vulkan-headers
+
