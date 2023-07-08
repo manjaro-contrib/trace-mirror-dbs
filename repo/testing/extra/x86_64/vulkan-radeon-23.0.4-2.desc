@@ -1,32 +1,32 @@
 %FILENAME%
-vulkan-virtio-23.0.4-1-x86_64.pkg.tar.zst
+vulkan-radeon-23.0.4-2-x86_64.pkg.tar.zst
 
 %NAME%
-vulkan-virtio
+vulkan-radeon
 
 %BASE%
 mesa
 
 %VERSION%
-23.0.4-1
+23.0.4-2
 
 %DESC%
-Venus Vulkan mesa driver for Virtual Machines
+Radeon's Vulkan mesa driver
 
 %CSIZE%
-409225
+2744157
 
 %ISIZE%
-1136210
+9335303
 
 %MD5SUM%
-fbdeb4a2d6a3f7dd64657fc92e59a419
+b79f18c70b552464d7733e6a8cbe740e
 
 %SHA256SUM%
-7b9a24005559e23d441b08a4c514c802369125084ab5ae86580e4126fcfab10b
+63c8ae280fb45dd5feb7ba9dbca294aa360c89ffaf4eed7b96a5d37b69a5526e
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmR92NsSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+hsIH/3UlIkESt2gzFbAr7weZc5n6isxODu+vu186XJJTymGHhoNW5F8R+o4SKXwpz7zaETj4pUOE5EWduIJ2Z1Ibb5igxOLuAUriPem88VI/v/ZxUXIh7rImh3NSC88Sxx9U/+ME0K5UyNhwyTG6AE1MiyUrwrxYNXBkOAZT1qg/QZKUE8kWIaSv0kbiZ/vm9mulBAdKDCRBwkJQTExqMm8DOTQGXXM0McgLPWx159FUA8eDkqA0qDdqreLbNSabuLHbKVe75RlyUX6ABbuoUDPh1LoGkCCCtPG8FiCD9qgU7dKRli3KwpoFRF1G1EGTDmjEW60/Ou4seGXbSMYAUH7UV10=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmSpIioSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+fd0IAJ+5Fede8IUszF1dioo4xGRLlurRp5tPxv90rqxoP3bVK6iyBuEaI5s5WXzgJgYhvPwmx1SAo7QNTBQ2NHG1AttNbsl2g92A7vwIn75Nmio4/J1BG2KCyVC/CdRzLI4JtwkuIOz8pBjVmZChCtT3y9vHawzHZA++MskhiGp3rWE0WMuCabLXmjXMVvdhF/EhUr/F+0/zOsvog2zfJz5yPj9mF7gYAfJhiA78e3mK63r5FPbFomo4OXl3AeQAcsLfg2T8E+bf3Kp5WPfqrrxmnt5MX2kllsGgD4RQJFWzCavigKbRl6xkTUAQ/6p4hRMDf5/zab0yKH+UAtJrT/KmnkQ=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,7 +38,7 @@ custom
 x86_64
 
 %BUILDDATE%
-1685964156
+1688800454
 
 %PACKAGER%
 Philip Müller <philm@manjaro.org>
@@ -50,8 +50,9 @@ vulkan-driver
 wayland
 libx11
 libxshmfence
+libelf
 libdrm
-zstd
+llvm-libs
 systemd-libs
 
 %OPTDEPENDS%
