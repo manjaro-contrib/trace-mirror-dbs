@@ -1,0 +1,67 @@
+%FILENAME%
+python-wsgi-intercept-1.11.0-2-any.pkg.tar.xz
+
+%NAME%
+python-wsgi-intercept
+
+%BASE%
+python-wsgi-intercept
+
+%VERSION%
+1.11.0-2
+
+%DESC%
+Intercept socket connection to wsgi applications for testing
+
+%CSIZE%
+31792
+
+%ISIZE%
+141461
+
+%MD5SUM%
+4d45896a5538fcf02fc9de6322fd611a
+
+%SHA256SUM%
+152673844ad743e2683b3ba56018b4dbe109a1ae2dc99364eba35efaacaec527
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmRZTOsACgkQdxk/FSvb5qaHtRAAq0wZu5W8Es4s8Dk4xkITYJoS2ZdvGp9AK+wEF/P1CnV3ji/6Rlsb8r9xNkmEFUEjOopfB185UMhQl4tFwnjUnjq9iNl8VLRfFVVUFc02t2qSGeJTTAohkBQRwAFOckePiP+pKxnd2RFTw36ftwCehGJa0xrHwIMeIVR1yDP2Wjtgp56d5hh6sCKJhSfwKiVrZ4Y9ZwYKaMIcSrNLF1Q+Fp3XEkN6wQFK4V4cj9eGZEVWZAc9Yr9girWODitDhUi7ZLL7pZYTok/FWBrhQdXSiylmXNhOirk4aLejTaFt3Dlb4SC/2dF0sfgQVw0J/JrkbSM8A+PR6lB/PRZ/+xqoGlQ757sd4vUOInkgRnLpQgNZvC7/giUsBfVRrw5zimkrGSbsqgWvda+U2Mu+deTri4eH2o1Jp8N3nQDEUFRT6RhCaZokZI1SFbLFekmHlgtdFPP8wPdt1a4ZXA+/dFo/G5zzQbfzMde+PvcWnh3aj1QqFBVXy5MGj5MwSXRHKis5RE7jbKyNS/6hqCdD63zg1WhAnvq4xvVC0r4j2JVTwjj6w1h+raDRcBUyp1CDvAajT5ZaM+/x3iPkP6p8LSTJblZinpqZzgcicUXXAKO8Wicfjo8BaU4iMCknOdUvCc8OZdx5O2t0TOO5itibm6vp4lf1B1Q883xf29Uf+I1a2cQ=
+
+%URL%
+https://github.com/cdent/wsgi-intercept
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1683573976
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-six
+
+%OPTDEPENDS%
+python-httplib2: for intercepting requests of python-httplib2
+python-requests: for intercepting requests of python-requests
+python-urllib3: for intercepting requests of python-urllib3
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-sphinx
+python-wheel
+
+%CHECKDEPENDS%
+python-httplib2
+python-pytest
+python-requests
+python-urllib3
+
