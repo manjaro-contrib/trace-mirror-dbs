@@ -1,0 +1,113 @@
+%FILENAME%
+pipewire-1:0.3.71-2-aarch64.pkg.tar.xz
+
+%NAME%
+pipewire
+
+%BASE%
+pipewire
+
+%VERSION%
+1:0.3.71-2
+
+%DESC%
+Low-latency audio/video router and processor
+
+%CSIZE%
+551240
+
+%ISIZE%
+3413886
+
+%MD5SUM%
+a179bdab43dfecbb5240f6b529b704cb
+
+%SHA256SUM%
+36be06c409eabb79183883f32138143793b43d63846145c594fcdb34d01e6393
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmR/1bsACgkQdxk/FSvb5qYBrA//ROsDjxX0otySuPhLnqjV5yHxQN2ag3CfjId6pvUm0OGJRmE4x7L8lg5rHlV3gvRxoEk7z3dMmSGN45xVRhPO5iSWQlimGEJwH/crNbkv08BkAOoKYy2Ou/LAm822GlJtTrd1Rxev0iiIyZNmcGfTRtJtb3yEysmofjjGj3DA0bzxuDdHHC7rr8NXUQtrZ1HWts6B4U4r85T5RUtIWa7LnhLEyU5slak36XtgWmxPmioatH1dmmkoMb+Ni6Iy7X06I+N1LkmvM/GDriaBdJ4ZZPoeyX+nYLZzy2nfzc8tH5DFgm/nwsQu2BbUJmmixRlM/0I691ij2dWiNgahAI/pnXIE5AsXLQdNzCNFbUjQYOSlxf256T1T/Ub+0l8uwJQ8ZKOfa9Rakclhnaen4n67gqaoZEORDXS1U+QD/uWLre102LBfdYDix1OeVZ9vlznSjHZSb1Pr5hA/q0I13+E0AgGrd8jTm3fcXL/7LpnV9mMcVW/WuOIdP/Y8hKHBNhcxXtKLG3T6tK+gAiSatPEfRR7RUBBHNj6eVswGnyEWRzeJGPPZI7czOC0beXGqPj7sqx/IkwFK+zGx2ZRIG4oCH7dAQgbsIHZM1Mych/JHe43GASkfP5G+Qu3aaVPUYIIeQ30OdXSYetObntJD3TUWHC7yDcBrPUAa/mHB2LiK9hw=
+
+%URL%
+https://pipewire.org
+
+%LICENSE%
+MIT
+LGPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1686099151
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+libpipewire=1:0.3.71-2
+libcamera-base.so=0.0.5-64
+libcamera.so=0.0.5-64
+libdbus-1.so=3-64
+libglib-2.0.so=0-64
+libncursesw.so=6-64
+libpipewire-0.3.so=0-64
+libreadline.so=8-64
+libsystemd.so=0-64
+libudev.so=1-64
+
+%OPTDEPENDS%
+gst-plugin-pipewire: GStreamer plugin
+pipewire-alsa: ALSA configuration
+pipewire-audio: Audio support
+pipewire-docs: Documentation
+pipewire-jack: JACK support
+pipewire-pulse: PulseAudio replacement
+pipewire-roc: ROC streaming
+pipewire-session-manager: Session manager
+pipewire-v4l2: V4L2 interceptor
+pipewire-x11-bell: X11 bell
+pipewire-zeroconf: Zeroconf support
+realtime-privileges: realtime privileges with rt module
+rtkit: realtime privileges with rtkit module
+
+%MAKEDEPENDS%
+alsa-lib
+avahi
+bluez-libs
+dbus
+doxygen
+git
+glib2
+graphviz
+gst-plugins-base
+libcamera
+libcanberra
+libfdk-aac
+libfreeaptx
+liblc3
+libldac
+libmysofa
+libpulse
+libsndfile
+libusb
+libx11
+libxfixes
+lilv
+meson
+ncurses
+opus
+python-docutils
+readline
+roc-toolkit
+rtkit
+sbc
+sdl2
+systemd
+tinycompress
+valgrind
+webrtc-audio-processing
+
+%CHECKDEPENDS%
+desktop-file-utils
+
