@@ -1,0 +1,90 @@
+%FILENAME%
+snd-23.3-2-aarch64.pkg.tar.xz
+
+%NAME%
+snd
+
+%BASE%
+snd
+
+%VERSION%
+23.3-2
+
+%DESC%
+An advanced sound editor
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+12891048
+
+%ISIZE%
+38934061
+
+%MD5SUM%
+76f3d6a1f2388e081b06b31c95ea5340
+
+%SHA256SUM%
+ea9a4832db62eba3c820096954f2758b5b898b98fdf54db4dded2885becf2bfe
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmRYKycACgkQdxk/FSvb5qZ6dQ//dKIk4TJKqZH5/KzkjbkZo2lC2HNMCVNRjIOAthYp04kh8Z3GYoQWvytqVtHEqSTxV92WavuuCn5M2AR3A5avIfXr/S0PvcKPDBQeWS8tn8TCtoWhivJ+ZmWXn2/CT6V7xT2clqLDhOUZGaqtjfTDth3LIyXcTeaeCY1PaPAK/+6EtztgECt39ancogusE9/YwHlarOo1WGIyx+JNwh2yi5nFoxbr5d7/TZ6o0GiCMN247Akh/fMIN0lZcedTMW+dUqjb9ertmQgl/SIdGXg/rh7uHhtlHvaHOCyIb+Rb5Ddcvsl6DnPfwG1snoZFfjbTjzMKvajTVNTSXgvaD2EcB9X/i+yts4b00vcOxF3Rj3tOi0kVKa4LQlFv/z9DNQ4Vbbw6Pt7jHQC1SJcPvosAXFNORM+DKt3hYX0NdabPnkq3mMnbk+tNMtzJG/eUI7knMc34XvTa9eGqKJO4XIXddlXQHx+KsJjaTKoCVP4f+2W3TaPA1Sb1zH4ZzLN2OCfa01afUYg4UGXwgjc4MtYgZ/DPd5O6k+VB5bJoQh3ufpMtuF9K6gC0OclZV/mYSdGATOF9xnAn0M3d6im/oEe3Rmoe4jhuYCgo2hFGL4E8cUSHC7p6vzt0GqcHZDua9zJ1FmB+y3Mcnmrw+8GedIp1yeCLw9j2Eo57TeI29/tZ4C8=
+
+%URL%
+https://ccrma.stanford.edu/software/snd/
+
+%LICENSE%
+custom:free
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1683499633
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+glibc
+glu
+gmp
+gsl
+libglvnd
+libmpc
+libx11
+libxext
+libxpm
+libxt
+mpfr
+openmotif
+libasound.so=2-64
+libfftw3.so=3-64
+libjack.so=0-64
+libsamplerate.so=0-64
+
+%OPTDEPENDS%
+flac: For flac support
+mpg123: For MPEG support
+ruby: for snd-ruby
+speex: For speex support
+timidity++: For MIDI to WAVE support
+vorbis-tools: For OGG support
+wavpack: For wav support
+
+%MAKEDEPENDS%
+alsa-lib
+fftw
+flac
+gendesk
+jack
+ladspa
+libsamplerate
+mpg123
+ruby
+speex
+timidity++
+vorbis-tools
+wavpack
+
