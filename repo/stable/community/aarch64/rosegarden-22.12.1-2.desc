@@ -1,0 +1,104 @@
+%FILENAME%
+rosegarden-22.12.1-2-aarch64.pkg.tar.xz
+
+%NAME%
+rosegarden
+
+%BASE%
+rosegarden
+
+%VERSION%
+22.12.1-2
+
+%DESC%
+MIDI/audio sequencer and notation editor
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+7641944
+
+%ISIZE%
+17036831
+
+%MD5SUM%
+7edb6ceb08d46a65fe5fc8b308e0933b
+
+%SHA256SUM%
+9290f6878f88ed486352ef41d61c58e8e88c54ab9ffb095818b960fa3cd8f3c2
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmRNNi0ACgkQdxk/FSvb5qavvxAAxJOUSBBV47+sLL49k2yHM9R/Zgi0+iGHF+AVUrmqdQISJgrLU0C+eoxX2T1eSQNrdLeikllBsNIFB4T+z8VJg1dFBZ1wJBcSx0jODNXqxoaFHx5Z2p9usIET/Jg3aUShBBJTEMXHs/IIqJ+bRrQO22lI8jSfudwVLU7fUBwgCHeK+rUffIvwCDhC3rOaO3AXZ3w8MRbEjrG4MpUvOZJ5rHuJePYgCdZFaPzy+aGTjWy4GKCzRehowVimrQ717AB8wA6gNuvWuHL/aip783PmcAVomkkugjXTdqXofTl0U3GXR+s8+igfE59clGaRFQB2fHhTEH3INz4RfTwpdTGWbQYRVbonNAiDlCVf52Jo9jTJwYyi3KtSnH8xPebSLyHHxJnw+AEV/jGROtpcttNdPdx1i5iq6H1LnaQpZyx4oDC87W2l41dOrSyuetFwCzEXMJqDSuEgzYtSCipf6z8xQIdo+U/ZoCUxgX5ylC/VutUVC64qVgIh68BP0Q7XOY/SqOYJ/azSqcCkKiUQvPObrirqCHRN9Cb1VI0LwWuBhlvyO0gwsLln9niXrXa+SHH950ifBqffhZuXNUbAFHqTZQe2KVbEcqQUon/kMQcFjINmcQyU7fy0pFdL7afi0LXyLj4fUF3ccxczpreFV/1ed2Ya+tHWjswMoy/g//dAkQ8=
+
+%URL%
+https://www.rosegardenmusic.com/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1682781395
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+dssi-host
+ladspa-host
+
+%DEPENDS%
+gcc-libs
+glibc
+lirc
+hicolor-icon-theme
+qt5-base
+zlib
+alsa-lib
+libasound.so=2-64
+fftw
+libfftw3f.so=3-64
+jack
+libjack.so=0-64
+liblrdf
+liblrdf.so=2-64
+liblo
+liblo.so=7-64
+libsamplerate
+libsamplerate.so=0-64
+libsndfile
+libsndfile.so=1-64
+
+%OPTDEPENDS%
+cups: Printing support
+evince: Print preview support
+flac: FLAC support
+lilypond: Notation display support
+mupdf: Print preview support
+okular: Print preview support
+timidity++: Softsynth support
+wavpack: Lossless audio codec support
+
+%MAKEDEPENDS%
+alsa-lib
+cmake
+dssi
+fftw
+jack
+ladspa
+liblrdf
+liblo
+libsamplerate
+libsndfile
+qt5-tools
+
+%CHECKDEPENDS%
+lilypond
+python
+tex-gyre-fonts
+ttf-dejavu
+xorg-server-xvfb
+
