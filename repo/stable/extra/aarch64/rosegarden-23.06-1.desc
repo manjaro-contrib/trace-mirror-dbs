@@ -1,0 +1,104 @@
+%FILENAME%
+rosegarden-23.06-1-aarch64.pkg.tar.xz
+
+%NAME%
+rosegarden
+
+%BASE%
+rosegarden
+
+%VERSION%
+23.06-1
+
+%DESC%
+MIDI/audio sequencer and notation editor
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+7651156
+
+%ISIZE%
+17061739
+
+%MD5SUM%
+d52db18ed5b186f2121478fdb809de6a
+
+%SHA256SUM%
+b932fb82144a7d5544f4b9ddfca90d9ede32589b4cca4754653c2b3769ed499f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmSHcf8ACgkQdxk/FSvb5qajhg/6AgTQ+vp4bzsTL59lUuLtr4q2JQVwesuCKcEOLezFlCF8GjdFK9sx7BZW0alRcOdeP+FmGkF4XDZIWWKDIT5xvnCCsCwLGqtQKxY4LStPJ0HeBqJBpGR/jkf6nKx3gnVE0mBB1udN13bNJqcAOtZOxko4LPPUabcv1regfKWk6neZJJRWQ9aAqVntNEit23j1aG1r5daAa3Cr3HK9ercZhuBGtTKcEk/AWsnDwDJv8ttVtdIjJB1G4k0Q9IJzenQI73GNQzODAxEd5H+/juaw7OySlftbtYOVXxrqtYiR5JeiYRnW2cWMRcBK5iIuqtZSXVHNfZjN/j8hJNsyZCszfT1hkE1taw2SM1M4wTEKGGlDZEln89nYVpIjYYkYnJdqrfDu37tYZHiDsTp9DASyJQjEFmfy8QhIhsRAzVjQLZ255ngmIS83OqXilvM74Fhwxz34X2jmjhlHsSYYhnFSxtIYHxOTgynlu7Rnazt9sYDYHuiYcBjCu+cLgCDyiOhxw19sb9eTEmIxg3VRvMZQBPX57qzQHQ0P5FKUXs9s7bWe6ojpN6l9x2a9u7HdN5iOCu4Y9sY0EeN9GW4VciL1HHO/qiCCotBufz3F3lTw4GwoaETBYkjbjxnMou4AN/pHNfXoQB0SknWNXgLCjYrnIF/3l2nJlqUh9+BZEPnoAzA=
+
+%URL%
+https://www.rosegardenmusic.com/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1686597693
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%PROVIDES%
+dssi-host
+ladspa-host
+
+%DEPENDS%
+gcc-libs
+glibc
+lirc
+hicolor-icon-theme
+qt5-base
+zlib
+alsa-lib
+libasound.so=2-64
+fftw
+libfftw3f.so=3-64
+jack
+libjack.so=0-64
+liblrdf
+liblrdf.so=2-64
+liblo
+liblo.so=7-64
+libsamplerate
+libsamplerate.so=0-64
+libsndfile
+libsndfile.so=1-64
+
+%OPTDEPENDS%
+cups: Printing support
+evince: Print preview support
+flac: FLAC support
+lilypond: Notation display support
+mupdf: Print preview support
+okular: Print preview support
+timidity++: Softsynth support
+wavpack: Lossless audio codec support
+
+%MAKEDEPENDS%
+alsa-lib
+cmake
+dssi
+fftw
+jack
+ladspa
+liblrdf
+liblo
+libsamplerate
+libsndfile
+qt5-tools
+
+%CHECKDEPENDS%
+lilypond
+python
+tex-gyre-fonts
+ttf-dejavu
+xorg-server-xvfb
+
