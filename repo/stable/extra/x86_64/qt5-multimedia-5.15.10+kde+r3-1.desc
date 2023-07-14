@@ -1,0 +1,70 @@
+%FILENAME%
+qt5-multimedia-5.15.10+kde+r3-1-x86_64.pkg.tar.zst
+
+%NAME%
+qt5-multimedia
+
+%BASE%
+qt5-multimedia
+
+%VERSION%
+5.15.10+kde+r3-1
+
+%DESC%
+Classes for audio, video, radio and camera functionality
+
+%GROUPS%
+qt
+qt5
+
+%CSIZE%
+780514
+
+%ISIZE%
+3614485
+
+%MD5SUM%
+9f2f75eee33617b563789286790ace91
+
+%SHA256SUM%
+1527766640071fa7da10cc12de18bb9bb81c9cc0cf75a0611c82b7cd028d988d
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmSIO8gACgkQek52CV2KUuTvSAf/YkcYbLisz/Jb68rqlNkOb43l0xAr+ZMT8hy4rqb4MdBV915XB25MjrtxbW33yPYEOCupnc91NCT9kMKJhHtX6EkhT3+L9WMENNHE/rVwYSD23G3ywmZLzklbx2XxFgZTSYIqiGtTuYjtvAN6WnvYS0H8lXzfGF/Cm8mHhvPGlXxvQhqPI2q2gREmgvr5w1t5I/WbuAT3p6eXcr9FrvV/WTVM4sO2o2lTUipouvUGX7qfZEaP1af6eOIHXjZDZrQYbZP2HfQVWkULeaF7iUPPffHIEzrLCisb96y3gJq6IKku3rd/P10VYWboB3lUgvF51WAuFgsbIUSsOK2A/kJgNw==
+
+%URL%
+https://www.qt.io
+
+%LICENSE%
+GPL3
+LGPL3
+FDL
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1686641613
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+qt5-base
+gst-plugins-base
+libpulse
+openal
+
+%OPTDEPENDS%
+qt5-declarative: QML bindings
+gst-plugins-good: camera support, additional plugins
+gst-plugins-bad: camera support, additional plugins
+gst-plugins-ugly: additional plugins
+gst-libav: ffmpeg plugin
+
+%MAKEDEPENDS%
+qt5-declarative
+gst-plugins-bad
+git
+
