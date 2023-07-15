@@ -1,0 +1,59 @@
+%FILENAME%
+bash-language-server-4.10.2-1-any.pkg.tar.zst
+
+%NAME%
+bash-language-server
+
+%BASE%
+bash-language-server
+
+%VERSION%
+4.10.2-1
+
+%DESC%
+Bash language server implementation based on Tree Sitter and its grammar for Bash
+
+%CSIZE%
+898217
+
+%ISIZE%
+5365990
+
+%MD5SUM%
+b0369c66646581669ec00f94eb4531af
+
+%SHA256SUM%
+c73d19c8007f4ddf27f927f04565545f283b977baa94d6d5117c400856ef7025
+
+%PGPSIG%
+iQIzBAABCgAdFiEEBNw/sURf7KgTwn766k97MhqQatkFAmSwSCIACgkQ6k97MhqQatlKiQ/+Orvy7SOLKx9D5hRdD12LKuRIsZMtXHz2i1fyAnkMKSgBkfix5MD7FTQbUN/3GkwZQ040ZBnH58b6hLOpqLc54axK4rLDIHaniOSeE4EFRswwYDXF8pIdc9n0c3uwR/kobiVDTKUWjfhbMilZMXRh+ZQWhPZs+UKuKEtCMY4goMALJShT3ZWnjNHH1whA1MKNEukbgyVjcrQfUAmj7b6TqIgZ1FGmr9FL2KkFpPd78V5ArpA/EV+pUHIQTgTJ3j/xQ7EhVRNUaFk/s8WSxqeAigVK56QH80T1afNDPEKpsIW1MA6MGzGDHsR+zcUOK4r41DZcsOP98LrAztfdaNLz8j6gwiX8It4mVqtwuxuyfOslhW5Y1Eq5agCUAnhn9g68JKLd1wJyLXnwyv93vw32uzoQQ5o+heyVNOqZl+pQ3bHUcwAsZT6nyewwn8RETmlloKa7eh5Hjdv16ighE0+KckGIPSStvJu5RLgj7mnJk4Be1XVlRskpwYfBgmvxqyn6m/CxK1nAAFWCogIdD5IHuSUCTt0TPf5LDB5MYWKZYSLKRcpgagBP37TXaxjXNdntCJ5PYZ8dtA4/sPuTrQSOvPtUjHTYfdnQL9DW8bWRB2K4qfyhhB0UVeK3NROYoHzo5DVtwIpMAjy5/9jFls8jHTG4ktybbqZiFsfluLmuWvI=
+
+%URL%
+https://github.com/bash-lsp/bash-language-server
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1689274143
+
+%PACKAGER%
+Daniel M. Capella <polyzen@archlinux.org>
+
+%DEPENDS%
+nodejs
+
+%OPTDEPENDS%
+bash-completion: for CLI args completion
+man-db: for documentation via manual pages
+shellcheck: to enable linting
+
+%MAKEDEPENDS%
+git
+jq
+typescript
+yarn
+
