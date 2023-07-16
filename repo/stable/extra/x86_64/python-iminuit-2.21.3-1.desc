@@ -1,0 +1,86 @@
+%FILENAME%
+python-iminuit-2.21.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-iminuit
+
+%BASE%
+python-iminuit
+
+%VERSION%
+2.21.3-1
+
+%DESC%
+Python interface for MINUIT, a physics analysis tool for function minimization.
+
+%CSIZE%
+414602
+
+%ISIZE%
+1626054
+
+%MD5SUM%
+93a2fb8fe8da77d9eab95295db6b69da
+
+%SHA256SUM%
+d0cdfd0acbc254389d37b12f26049ed061923d1277f54f2ed20ae5dfa8dfce9e
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCZDGtbwAKCRATmwnaW/DTOMpAAP0QRzkUbbn0nJZzOhu199pcq06vNjHpIz2kxwjcAMa3bAEArUaUYCuhHqX19s6O9vJVC3kNAjk1puqgTrDTE2Cduwk=
+
+%URL%
+https://iminuit.readthedocs.io
+
+%LICENSE%
+GPL
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1680976913
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+python
+python-numpy
+
+%OPTDEPENDS%
+python-iminuit-docs: Documentation for python-iminuit
+python-ipython: for plotting
+python-ipywidgets: for plotting
+python-matplotlib: for drawing operations
+python-progressbar: for progressbar support
+python-scipy: for scipy minimizers
+
+%MAKEDEPENDS%
+git
+cmake
+pandoc
+pybind11
+python-boost-histogram
+python-build
+python-installer
+python-ipykernel
+python-ipywidgets
+python-joblib
+python-matplotlib
+python-nbsphinx
+python-numba
+python-numpy
+python-pillow
+python-pyrsistent
+python-setuptools
+python-sphinx_rtd_theme
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-scipy
+python-tabulate
+

@@ -1,0 +1,64 @@
+%FILENAME%
+lighttpd-1.4.71-1-x86_64.pkg.tar.zst
+
+%NAME%
+lighttpd
+
+%BASE%
+lighttpd
+
+%VERSION%
+1.4.71-1
+
+%DESC%
+A secure, fast, compliant and very flexible web-server
+
+%CSIZE%
+385254
+
+%ISIZE%
+1158686
+
+%MD5SUM%
+68d77e3a2c45f52a7bd3ecc92bf84b5d
+
+%SHA256SUM%
+4b10605b00fe834eac85c3c03e8501f4d988d66202b6cf582bda30d890103d32
+
+%PGPSIG%
+iHUEABYIAB0WIQQ+gMoai4n2nLpX2Yp2pe+QVESaXAUCZHMSlQAKCRB2pe+QVESaXEqAAP9gnZFGMJuLUXhJLXHBmh9IN3ZOzKSoYKW2+rbOWm3riwD8DCRnt7FqOGcFaLNypyxRdV8TViulRkXl9JB91UyKKAo=
+
+%URL%
+https://www.lighttpd.net/
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1685262942
+
+%PACKAGER%
+Pierre Schmitz <pierre@archlinux.org>
+
+%DEPENDS%
+pcre2
+systemd
+brotli
+
+%OPTDEPENDS%
+libxml2: mod_webdav
+lua: mod_cml/mod_magnet
+mariadb-libs: mod_mysql_vhost/mod_authn_mysql
+sqlite: mod_webdav
+
+%MAKEDEPENDS%
+mariadb-libs
+lua
+libxml2
+e2fsprogs
+sqlite
+pkgconfig
+

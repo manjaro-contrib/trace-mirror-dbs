@@ -1,0 +1,63 @@
+%FILENAME%
+znc-1.8.2-16-x86_64.pkg.tar.zst
+
+%NAME%
+znc
+
+%BASE%
+znc
+
+%VERSION%
+1.8.2-16
+
+%DESC%
+An IRC bouncer with modules & scripts support
+
+%CSIZE%
+3674089
+
+%ISIZE%
+16485021
+
+%MD5SUM%
+23276f0400c5db2ac70c128442ff4363
+
+%SHA256SUM%
+a7dba24dcae3740db7c84abc6bf46b9f079c4c5d9db6d3e49e7e8e7a80e8073b
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmSOCa4ACgkQlGV6sg8qCSsIdQf+PjCadwdzXHkYCPKV1MLW8DxBEy1G88keJixY3IQFHJvnrKlxRbyg3CJ38QvqwISNfeFnCZ78Cq+lBORnb6cfT0Rz41U8EveGx4emjp4N8qw8GzpVOFvVJFdA1FUZy0w2PNqVvTh8l0RbRQATGeDLTc9cN56xcOT6G6tMQu+IuDMcSjUS8xpKuPoZ9MiCvhKZ2Vk6XIPcQRqQcQIo6Ck4RnMsGP9fAW48MuFwrDNUggPErADM6oKQkBkoQdsM0zIJthzljaFGU3qcqFApVENYvv8Ys3LSQrbMzul+a4W4pFkxv+Ant1JHeQB7/CGVRMxADXjFWxArz3mSZ6M5Dk5BrQ==
+
+%URL%
+https://wiki.znc.in/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1687029822
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%DEPENDS%
+libsasl
+icu
+boost-libs
+
+%OPTDEPENDS%
+tcl: modtcl module
+python: modpython module
+perl: modperl module
+cyrus-sasl: saslauth module
+
+%MAKEDEPENDS%
+tcl
+python
+perl
+cmake
+boost
+

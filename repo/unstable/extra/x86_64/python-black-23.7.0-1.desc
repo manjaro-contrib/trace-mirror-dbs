@@ -1,0 +1,74 @@
+%FILENAME%
+python-black-23.7.0-1-any.pkg.tar.zst
+
+%NAME%
+python-black
+
+%BASE%
+python-black
+
+%VERSION%
+23.7.0-1
+
+%DESC%
+Uncompromising Python code formatter
+
+%CSIZE%
+361464
+
+%ISIZE%
+1884813
+
+%MD5SUM%
+3de60efa5acfca4927e82deb01e49968
+
+%SHA256SUM%
+4f4163d0b46ec6e8805a40baa60e08ed4effdfc6ae67275250c0e1a9d3f35b60
+
+%PGPSIG%
+iQIzBAABCgAdFiEEBNw/sURf7KgTwn766k97MhqQatkFAmSswlMACgkQ6k97MhqQatma/Q//dPdFK9GW4h2J1F6dZG3QNcUewJODpXrgjUKfEfFyixFSawfVweIur2YVXpZ12AX9RRz4JUyuMuTWkOZ+rHTHVdKQRRykrtw6M+auJA4HjAXbfLfaD+mgFiVMZGwLlV0XbERrH/5cnRdEOkC8R4nvkTktUbYj7osdoPKs/s+eGRfxvLoCIWi1b3pX6ed33yVGTAcztEwXcBYWAol11hiPk77Xc9UFK0xXueLGsdWFRox/T1nVhNa/uUSZcMlG2vODNurQ69VL8mS9GHZ4VAvjR3LcejLyXuhfZMRYFkmbCN2A085goZn8oFdkWF/QobVqMyeI0JywVHPC3EZE0i4vmchoWbdk8Id1yu6+bFecrN1InAjMJjOykG/uSbR2cfMEg1BzUNVjT0u+4gxWTBAoUNq8I2H8aQajFqB1H0vq7YES/GrXe6Is2tVxcFHr0+M1THjlE4dGytZ1UUAak1jQ0tlcwoCaqyTeOXav1cQKffCdQn+hwWvQCdiuiOds7OSp+TaBIyI5/bOCIbG53IKdn0uxuru/yDKxO8NW4MIJImk5tLfNNCpyGmzp8jXkuSTNisUpuPnYoeSdkikc7fCIGzlBBZmreqeqBs0//569wmJldvnq14vGkjeVw6A+iXA9tKct5MpdThVDfAgeHw69n7w+R+EBHfRGAJ8dz0SIl04=
+
+%URL%
+https://github.com/psf/black
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1689043449
+
+%PACKAGER%
+Daniel M. Capella <polyzen@archlinux.org>
+
+%DEPENDS%
+python
+python-click
+python-mypy_extensions
+python-packaging
+python-pathspec
+python-platformdirs
+
+%OPTDEPENDS%
+ipython: for Jupyter notebook support
+python-tokenize-rt: for Jupyter notebook support
+python-aiohttp: for the blackd HTTP server
+python-colorama: for colored diffs
+
+%MAKEDEPENDS%
+python-build
+python-hatch-fancy-pypi-readme
+python-hatch-vcs
+python-hatchling
+python-installer
+
+%CHECKDEPENDS%
+ipython
+python-aiohttp
+python-parameterized
+python-pytest
+python-typed-ast
+python-tokenize-rt
+

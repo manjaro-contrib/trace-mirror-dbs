@@ -1,0 +1,94 @@
+%FILENAME%
+gvfs-1.50.5-1-x86_64.pkg.tar.zst
+
+%NAME%
+gvfs
+
+%BASE%
+gvfs
+
+%VERSION%
+1.50.5-1
+
+%DESC%
+Virtual filesystem implementation for GIO
+
+%GROUPS%
+gnome
+
+%CSIZE%
+1020692
+
+%ISIZE%
+5420479
+
+%MD5SUM%
+559b0242aacc8ce75b9bfc75512c6149
+
+%SHA256SUM%
+622ec5857501cd4caff1a756a37c9d5d149a57098035a7dd22216bc786f37827
+
+%PGPSIG%
+iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZJ7h9BUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8dIXQEApJat/iObwm8XXaW5dQ1WOv42KVZcDE7iGYT7ropb1PwBAM3TYN+t7Gg2L7VXQzQo8gYQlVW/SH7R6sqseaBaRdsF
+
+%URL%
+https://wiki.gnome.org/Projects/gvfs
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1688133707
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%REPLACES%
+gvfs-obexftp
+gvfs-afp
+
+%DEPENDS%
+avahi
+dconf
+fuse3
+gcr
+gsettings-desktop-schemas
+libarchive
+libbluray
+libcdio-paranoia
+libgudev
+libsecret
+libsoup3
+psmisc
+udisks2
+
+%OPTDEPENDS%
+gtk3: Recent files support
+gvfs-afc: AFC (mobile devices) support
+gvfs-goa: gnome-online-accounts (e.g. OwnCloud) support
+gvfs-google: Google Drive support
+gvfs-gphoto2: gphoto2 (PTP camera/MTP media player) support
+gvfs-mtp: MTP device support
+gvfs-nfs: NFS support
+gvfs-smb: SMB/CIFS (Windows client) support
+
+%MAKEDEPENDS%
+dbus
+docbook-xsl
+git
+gtk-doc
+gtk3
+libgdata
+libgoa
+libgphoto2
+libimobiledevice
+libmtp
+libnfs
+meson
+openssh
+python
+smbclient
+
