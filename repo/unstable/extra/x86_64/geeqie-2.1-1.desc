@@ -1,5 +1,5 @@
 %FILENAME%
-geeqie-2.0.1-6-x86_64.pkg.tar.zst
+geeqie-2.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 geeqie
@@ -8,25 +8,25 @@ geeqie
 geeqie
 
 %VERSION%
-2.0.1-6
+2.1-1
 
 %DESC%
 Lightweight image viewer
 
 %CSIZE%
-1505123
+1615826
 
 %ISIZE%
-18764411
+5609291
 
 %MD5SUM%
-1441606071d871c80a2d67abc992c170
+eefc1da816f41578407e825c3264e6d5
 
 %SHA256SUM%
-48a64921098d6aa72904d1259e049c2b5e4315f0b83742d964ee96f9278df2fe
+fad645889ad00be01f5494d519423efc09478bd73a9f91fdc77724f83a863b77
 
 %PGPSIG%
-iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmR8kZAACgkQlGV6sg8qCSuclgf+N/YQtMHFy6t/gFZth8lSkNwrkz6SzwZNkhZImxjOjiJejSf5HKdChpaMYpgURgDIMk49rLnXG3FHtzRMXpqcBqh6fIbNvGTZuC9sERfO6LJepPPZqXYVYqOFdSw2DOMpLiPuwbDYLmcEhQE3dWEi4woEH12n/0jf7UM7HozU/h4UdZys/zpPA+fNzdA+GwLiRcYtLykILttn7/P6G1yU+lHNVHpmBFRYs+viW+roM733U/KCU4aEuIurc3bkyKIqOpNXELxMuRdbmtIIGh6MPIi5Q31HOKDjMPMlBiDcIsHhVb+EUV+uGL+B4kHbTdoR2MThh8TKmhUxHwCFUQUqmw==
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmSvztAACgkQlGV6sg8qCSvIgwgAoizkvmAa5ElICUt2eVjOwzPvYMnlzecdvRix0JKvTPpA+l83hzmqDQnCUlTU9hE6vViIxvoo/gU2traQiarVgGctuqmXkHvPZUd2LNvRIN9buZ1loEKrigyZwN1DTMmAYoYjCEvuP78vNXChnlhI9ApsZsgPZ8usdwNtPa6OXT6218vzJvgOMzs1rHtiWCIrzV5L9nVWgMbOArwY7dJQarNGlwJuRzf86gBdcnmqLQ1jkdZhnTBiEwpGJ9FZVVWhLTzGN3b/w2bP0pjrSbqsPymEXBDbImrHlgf0BRPpGftLTbaGivJqHEaRM+VpXhrLL38rVneM5T6jce1lUU3Crg==
 
 %URL%
 http://www.geeqie.org/
@@ -38,7 +38,7 @@ GPL2
 x86_64
 
 %BUILDDATE%
-1685884831
+1689243256
 
 %PACKAGER%
 Andreas Radke <andyrtr@archlinux.org>
@@ -53,7 +53,7 @@ libchamplain
 poppler-glib
 libarchive
 libraw
-lua53
+lua
 libjxl
 gspell
 glib2
@@ -68,7 +68,7 @@ libtiff
 cairo
 pango
 libjpeg-turbo
-libwebp
+hicolor-icon-theme
 
 %OPTDEPENDS%
 librsvg: SVG rendering
@@ -77,6 +77,7 @@ gawk: to use the geo-decode function
 perl-image-exiftool: for the jpeg extraction plugin
 gphoto2: command-line tools for various (plugin) operations
 imagemagick: command-line tools for various (plugin) operations
+evince: for print preview
 
 %MAKEDEPENDS%
 meson
@@ -84,12 +85,20 @@ intltool
 python
 librsvg
 vim
+evince
 libwmf
 imagemagick
 fbida
 gawk
 perl-image-exiftool
+webp-pixbuf-loader
+libwebp
 doxygen
 yelp-tools
 graphviz
+pandoc-cli
+
+%CHECKDEPENDS%
+xorg-server-xvfb
+shellcheck
 
