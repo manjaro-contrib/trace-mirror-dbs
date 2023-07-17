@@ -1,0 +1,60 @@
+%FILENAME%
+booster-0.10-2-aarch64.pkg.tar.xz
+
+%NAME%
+booster
+
+%BASE%
+booster
+
+%VERSION%
+0.10-2
+
+%DESC%
+Fast and secure initramfs generator
+
+%CSIZE%
+2867024
+
+%ISIZE%
+11359844
+
+%MD5SUM%
+10ac8064db61d2ce207f46678c7230cb
+
+%SHA256SUM%
+8df0937d50905d72fa6f670c588d5e548ea01776034ad1b14f2028361d7fa2ae
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmSqjUQACgkQdxk/FSvb5qZp2w//Xv7AAXVxFLgmAuFkFFffAofdipoOFmpGvKllpWiq/9dec4Do1XNhBvp9GRsJLxSSfOvFskykovY8qnyqntnyhqi4kpfZDjaTjwI5BayDkRNat2l+7D04olJ6EzKDRPEZlp30YaeulWwzaT9ReIRcwyJeTc/+VxFKbJkBJljLiiJcpEHzbB3Y5CPmrB22lAshfwShvozmYHqyyGe3TEHm6Smo12A1Hi1s3nzZ731xEhGahpo+qLxt3yEFGSK4pYdLd3eG/o4vGlz9o0wfIm9VKhpeEuwnuD6uJjFT+zBuAgik3FErG6QFGyT8mziEQGDuSELKobVmeDztlCT1TNzxzdmR3G2KXKFL+sHE+YnJPdT6XJDdegLhWLtkJvtRrM1/gynEwGJi6KS5K+BVjYeWX4bwX63OE3/e+3Rq2oqh486r0Yzbpqs6MBBVozYulhix+QMm8DFWbYP7PmdhjfEiTemM4abrmMdh4ISSgUA4FcQ2R6SZioSXZGYTIO1MF3ZUY/6b4XtRS9X/qFC/LynnIRaVbTtPqh+hQ7z/Ak5KpJrA3FpjZuyVQzjDcb2l7KRqxLywdIPg7CcJxzD+bQTMo5veuaTzfoDs6ttR3bXNLIxGPIv4Nifxpa1ceOhEuF02Jl2ULta3qIAMlupbqQBfwSmZx0I56hfAcZcngP47Esc=
+
+%URL%
+https://github.com/anatol/booster
+
+%LICENSE%
+MIT
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1688898817
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+initramfs
+
+%DEPENDS%
+bash
+
+%OPTDEPENDS%
+busybox: to enable emergency shell at the boot time
+yubikey-personalization: for clevis Yubikey challenge-response support
+libfido2: for systemd-enroll with FIDO2
+
+%MAKEDEPENDS%
+go
+ruby-ronn-ng
+

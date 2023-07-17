@@ -1,0 +1,63 @@
+%FILENAME%
+python-pymysql-1.1.0-1-any.pkg.tar.xz
+
+%NAME%
+python-pymysql
+
+%BASE%
+python-pymysql
+
+%VERSION%
+1.1.0-1
+
+%DESC%
+Pure Python MySQL Client
+
+%CSIZE%
+97068
+
+%ISIZE%
+547081
+
+%MD5SUM%
+bfb0b63eb8b6c959d780a723294f7579
+
+%SHA256SUM%
+42a61f3e302fadd963ca87dc9b90dd96a84c88ca607691c03a79c37c5fc95ac4
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmSdv9sACgkQdxk/FSvb5qYaew/+JT6nL4oIUpFY7Sx+/sz6EQnuQfL1NpkREMbecxCPKUPcznOA91t7EtwvZlPdI2D+Hkij17K+62QQoFJNVGi88CF1iAp6SV2Q0fws1staxJ/0cWgyLAzbveYgmf1VPt+hx0VT89HLz9GvzANPdjvXUvQdcwmJEiRSZNM2lj9x3yeMBr7EgQnIsZY/LfloEnVfx3vQspy5DgURalwQ/ORbM4V0kNRMjNgbjzxBY+ZVnp1Bu6ky3ethNsFH0pxNAgYKt4AQVOLA8p5nDWL9V6A6yQoZzP8Px2guYX1hUVhgkeba5AzpWaXBBu7c2C1QdR37LtY2IzJOiWLYfNes+OpUl7NJ9N+P6slD1xeVB4yFqoPBvl+zMIWYNBeh/CW72SlySHCAJw1zEWFW+4E1yISeDdLoQ1fRGFgBA0l9BxY+uvI3uqtMeG5JTHj97Ci7SaNlQ33ZrybH+DAJRG3C4H24T7oeugAQ+2HWkFMDh2nc26c7khaTgM2EAhRtbmz5Ntgpvrk0a2EP/5T8E6zXkd9/MkMHcF2tBW0fTzIJ+HtFzKGm3KzTeDFX7OMnx6wfLhEtQ6sAsPBDTFtQ+SeE92PtbKXL97FSn4nkEdfCTep2sLKBTyJzt45hezmvSoCirqMuqffIupl0j8JMBhpOLRy4Zj5q/bRZuehMMawmPCFDvq0=
+
+%URL%
+https://github.com/PyMySQL/PyMySQL/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1688059855
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+mariadb: for using a local MariaDB instance
+python-cryptography: for RSA cryptography
+python-pynacl: for ed25519 cryptography
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+mariadb
+python-pytest
+
