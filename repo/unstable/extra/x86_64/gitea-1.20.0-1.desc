@@ -1,0 +1,65 @@
+%FILENAME%
+gitea-1.20.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+gitea
+
+%BASE%
+gitea
+
+%VERSION%
+1.20.0-1
+
+%DESC%
+Painless self-hosted Git service, community managed.
+
+%CSIZE%
+34412240
+
+%ISIZE%
+113355805
+
+%MD5SUM%
+690b890234f0c395942e8ac302d10e8d
+
+%SHA256SUM%
+cd8f82305e2ee32baf57ee4f18a8480f03853515b20053ec176e4bdfa9d1fbdc
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmS1Q6gACgkQ/cMEC5Ksp0ioDw//VDev48kVFHBNa+OiohbUIjKN/RDRifTJifHkz6Ag1+rtz99DVcv+X1xDkG6RvtuPG3iH+htWYFavDlRXnle7Z7+BGdq7Eg6jTDZeN8XQEj3KWV/tJC1k205V3srnTTMSR7FY8vsbt6cwK3whxn5zSm4+F3WNGmvihE9GUUoB7S7Eu6B6ujfimWQ7FhS2eE3lhUa1VkASljDZ9fjCbud/mqlxsQmpVquYe3HQOF9Je+aJ7F+RSriVaMlBQZok7+xd8sbk87XxQurd5IQEuiW3ZIfwrWbKqoHFJTqX43r9nWevnR/IWZo+1NwrlTD25u78FYu+9caMn4x5nGK9wPRKli60G/Xl+MHQwZPnqPV7bVlQ1WUWu8hQ4v4nGa0aiftWe/fB96mc04T+cA8rSqlbZsGNtfUlVm4B8zg7gOKP0JJ/xV4LPZZkb+lv1PCuGT8bybuhtOJzrDUTatkOZpU0W8fjoJyED4wTczzzMQxJdAdcYEq8k1yEb+EsxU7xed9kI/kVLDmUvASISEKITXnT3q2ZGS3toNXySb4vo8ry4pyNdQMQufcYxKlkopZOGQd+tK/9aYlNWZhKnIHwVuIWtp1siQaU95ejQRNUyrPnklFp74+McbXgvTpOFInZzla1ARMvAvftWh0a2l0UCcyyJeILcJwBjpSk10qQ7pPxlQ0=
+
+%URL%
+https://gitea.io
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1689600319
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+git
+
+%OPTDEPENDS%
+mariadb: MariaDB support
+memcached: MemCached support
+openssh: GIT over SSH support
+pam: Authentication via PAM support
+postgresql: PostgreSQL support
+redis: Redis support
+sqlite: SQLite support
+
+%MAKEDEPENDS%
+go
+nodejs
+npm
+
+%CHECKDEPENDS%
+openssh
+
