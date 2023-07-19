@@ -1,5 +1,5 @@
 %FILENAME%
-mpv-hwdec-1:0.35.1-1-aarch64.pkg.tar.zst
+mpv-hwdec-1:0.35.1-4-aarch64.pkg.tar.zst
 
 %NAME%
 mpv-hwdec
@@ -8,25 +8,25 @@ mpv-hwdec
 mpv-hwdec
 
 %VERSION%
-1:0.35.1-1
+1:0.35.1-4
 
 %DESC%
 a free, open source, and cross-platform media player
 
 %CSIZE%
-2418069
+2296262
 
 %ISIZE%
-6087694
+5587712
 
 %MD5SUM%
-39c2141dac944398b354a9e341d92419
+9c6208d0501ae44d00010fdb78b063f4
 
 %SHA256SUM%
-e3a95fa315179f57d8fd6812cdb52ea57347d25b10f1769534539d2fa6045188
+0a28f133d57adf3a8c02bf6bf0fa083142fc8fbf428cf7c2a5a2ac7a815eef6c
 
 %PGPSIG%
-iQEzBAABCAAdFiEER9naHoEMG8rrtsSGG/eXhuVU710FAmQB3xsACgkQG/eXhuVU713LcQf+MKMOlXjxVYXe0fyt+m9rDnwx1S9eqwPRy9kS9PgYgwBvjvDvp/h6Z4TP9eaC+3PYK90eOiYNec5i1o7kANlhd78wyNYRFeVKiIrHUxf94q4wU54y43ez3g5XjqW2QfHdGY4Gk81VVH3C9bSXbiF8y+rCuwDBv9nhQpBIsl/g+P4JkgfS5Hk5P1ixxAmlqQGDWFXci3YShVihhaC5zcxjVSbFXh3s5CB927aLLsJC+NJfZSszvabPH1UvCqwYdEyLKCiF6d41YDKe3EMka84f4qBzeiP8t25aCCbO1GZIPQNbJv4yEtoCYeINZUQ+o0uaZZbgBcsTemb9yE8VJ+mceA==
+iQEzBAABCAAdFiEER9naHoEMG8rrtsSGG/eXhuVU710FAmS4XwIACgkQG/eXhuVU713yyAgAy7jFPTRd14LIrdlOq4GAB/3BSelZ1EorzggtWGJL6wRlhXnL+P+zr5B1FdndEqc0dmaaoOjWpn/mlL/7ZGt+zFP6hQE4Fe1RH/P/B+69ANW0l1DzN1k6WiEijS/SPW16cbEJ+V3QHd9XgooanIPJItXMPwjYn/tw91ECip5iN+WWohaNIk2x04cocOGv1vRhWcqKSeodAMrrZAN1sPMCe7IQy2cZFLV/VbC8aBHkmd2DBIUkNt4qyKRoKZQZagckKLkXcjB8Kn+iXOE9rj0WHbd4InSbdO281d2AWsQwQUlq7DRCjrBrirFfvMpaZvklu5xzm596+yT4tL93ab0Ttw==
 
 %URL%
 https://mpv.io/
@@ -38,10 +38,13 @@ GPL3
 aarch64
 
 %BUILDDATE%
-1677843399
+1689804337
 
 %PACKAGER%
-Unknown Packager
+Furkan Kardame <furkan@fkardame.com>
+
+%CONFLICTS%
+mpv
 
 %PROVIDES%
 libmpv.so=2-64
@@ -80,7 +83,7 @@ libglvnd
 libjpeg
 libjpeg.so=8-64
 libplacebo
-libplacebo.so=229-64
+libplacebo.so=264-64
 libpulse
 libpulse.so=0-64
 libva
@@ -97,7 +100,6 @@ libxkbcommon.so=0-64
 libxrandr
 libxss
 libxv
-luajit
 mesa
 mujs
 rubberband
