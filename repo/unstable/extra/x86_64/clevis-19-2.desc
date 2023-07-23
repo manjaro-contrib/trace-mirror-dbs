@@ -1,5 +1,5 @@
 %FILENAME%
-clevis-18-2-x86_64.pkg.tar.zst
+clevis-19-2-x86_64.pkg.tar.zst
 
 %NAME%
 clevis
@@ -8,25 +8,25 @@ clevis
 clevis
 
 %VERSION%
-18-2
+19-2
 
 %DESC%
 Automated Encryption Framework
 
 %CSIZE%
-60065
+61496
 
 %ISIZE%
-181399
+190294
 
 %MD5SUM%
-d64926789cfae4f063e9556b6a66744e
+55b8974040cae47a0bb4415a2c1fb274
 
 %SHA256SUM%
-d58e0a64b341673cdcd8127d008ec835aed67adaa1a11120e4c6b12f32707a78
+8316c95ce66f8d7c56e24794fba001abe7406bc44aa7d3057efd404c3c777465
 
 %PGPSIG%
-iQEzBAABCAAdFiEEhs/8qRjPOvRxR1iAUeixSKmZnDQFAmNhmvYACgkQUeixSKmZnDQi3wf/WvUXJN2iaqmGVosdjYt0E55VNew/rvgj2ikR9ZzIASMbJI+ZNV7BY+1Ye0LUomr0i00yf5QxlGU+HN0a9EDVQgwSbiK+skJJhgj3kb4x5JqbW6mJthWdT85NMpnbABFwxba/CG1hGwQyXItpTiAmhkyJjPYx5mwSDXLhLWrwv3hiOj426GRxnoABwNsprY66xYW3iVLFbwd0gAuL6xq2sRwAN/R+4UOfO1ERQd5FlEIBxA/yDW8sbCi3dTz1AZzqr0L4s5jNplHl5hvSgnZj8JTwCuRu9XqKNlctc0zrDiY1ekoVFGt8NbU29LHzBExb1WhuPmmUuqFqwYks+NgeSw==
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmS9ATEACgkQwGCGM3xQdz6i4wf6AoDoH1V+39YGPOZ9DdmV4n6Ts76unL3GWWd0Kem2OFwNIx8ZouoWuLwgJ8yUhzIpJHJQcgyIiddY6bzwMVYXQ1coMrmL8ITw+OWzVrGqZMlrz8T3v+Q84SaR2ylNtMvytBu6YStZjSA6W0BB9IB+BRL55qiWLav3bylOdPBgbjjU1nx54xkea1XA6hQWWDr8wdaPWrtBUYBmX8u6LEt2TkhBBoEovpghbVtmSUGdoH3iynN3tElgBm1D+8Mj8ieAunJzwNhcWk/h9SnJjI1tbRizu0XCylpckYBNo2dT+n0WSB9NdOAY//kmR1DLii3WJbsnkQF2i0Z1+Wg/3JGXNA==
 
 %URL%
 https://github.com/latchset/clevis
@@ -38,10 +38,10 @@ GPL3
 x86_64
 
 %BUILDDATE%
-1667340985
+1690108117
 
 %PACKAGER%
-Evangelos Foutras <foutrelis@archlinux.org>
+Jelle van der Waa <jelle@archlinux.org>
 
 %DEPENDS%
 bash
@@ -54,6 +54,7 @@ curl: Tang pin support
 dracut: dracut unlocker support
 glib2: UDisks2 unlocker support
 jansson: SSS pin and UDisks2 unlocker support
+jq: LUKS edit support
 libpwquality: LUKS unlocker support
 luksmeta: LUKS and UDisks2 unlocker support
 nmap: dracut unlocker support
