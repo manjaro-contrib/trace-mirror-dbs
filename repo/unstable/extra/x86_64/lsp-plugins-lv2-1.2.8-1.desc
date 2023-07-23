@@ -1,35 +1,35 @@
 %FILENAME%
-lsp-plugins-vst-1.2.7-1-x86_64.pkg.tar.zst
+lsp-plugins-lv2-1.2.8-1-x86_64.pkg.tar.zst
 
 %NAME%
-lsp-plugins-vst
+lsp-plugins-lv2
 
 %BASE%
 lsp-plugins
 
 %VERSION%
-1.2.7-1
+1.2.8-1
 
 %DESC%
-Collection of open-source plugins - VST2
+Collection of open-source plugins - LV2
 
 %GROUPS%
-vst-plugins
+lv2-plugins
 
 %CSIZE%
-2179938
+2952490
 
 %ISIZE%
-10701784
+29167396
 
 %MD5SUM%
-3e6e6a68c9453b8d8268c0f8c1454598
+7e8210c9195e691e68313a539b98de08
 
 %SHA256SUM%
-a112de4438108b74800b2c4c98dc6a311292fb4da6d0dc444fbdf804ab5fa08e
+344d7da9c2a250bb607d4775923705c413636ef2d7fc80bb924c2697a6f0dd6c
 
 %PGPSIG%
-iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCZGpReQAKCRATmwnaW/DTOLBgAPoCKnaZL6k5PdMiw7SJgL3O32OEw7sCNJJ4ctqobhw9KgEAxKc602I2IN/G3BibseCzwThfeZRW+vA8H2Gn1oQkWwI=
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCZL2HMQAKCRATmwnaW/DTOJPYAQDHlcYaFd91OWb5FLxAxIBU7DYVlb87ve+n2HyKG9at3gEAhhx3abKYGxnDon0nxWNRPZZQtFXjCYA6KzL2bcUUpAo=
 
 %URL%
 https://lsp-plug.in
@@ -41,7 +41,7 @@ LGPL3
 x86_64
 
 %BUILDDATE%
-1684688024
+1690141925
 
 %PACKAGER%
 David Runge <dvzrv@archlinux.org>
@@ -51,12 +51,12 @@ cairo
 freetype2
 gcc-libs
 glibc
-liblsp-r3d-glx-lib=1.2.7
+lv2-host
+liblsp-r3d-glx-lib=1.2.8
 libsndfile
 libsndfile.so=1-64
 libx11
 libxrandr
-vst-host
 
 %MAKEDEPENDS%
 cairo
