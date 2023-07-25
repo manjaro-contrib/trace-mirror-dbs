@@ -1,0 +1,77 @@
+%FILENAME%
+lxd-5.15-1-aarch64.pkg.tar.xz
+
+%NAME%
+lxd
+
+%BASE%
+lxd
+
+%VERSION%
+5.15-1
+
+%DESC%
+Daemon based on liblxc offering a REST API to manage containers
+
+%CSIZE%
+38503816
+
+%ISIZE%
+156723906
+
+%MD5SUM%
+3baecc74120a955a001063937b8aa06b
+
+%SHA256SUM%
+bc3e1ea734852f72fa26f0b0808ced16b231f0c5a5da5c3893fa7b0158d3b5fe
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmSUpD4ACgkQdxk/FSvb5qbXwRAArQQ68yBm/BkDRUYg+MS4A2fhNv0ePicSWKbFCBEvyFweQ1Y1HEhx9JSBTRvZUtne3gb0ePDpPkgnlKHWjT9zMsW1m3riBN8mqO+/JT7NKcV3GpPdQJIuO9j++2ydXPir5BG8BgaXoZ9hKmRu1QwoimxB61KGZZaFxy1ATW6e9B+P0eHfl6hAriJ0q72C2Lx7wayORQetJujHnybaAtU/r7IcNl/EE9Gg2q2NuGlFdxnxxvFMnhesMbQOi50fDx98Ye2mUMkLVEsP9UtE5cADQcxyxtIcE+KuBR9xG2xSCP/i1L4UGI2UtQKIVFRwJqAHdi8HdiDJfoWpp4L0uxLUViGzBmEjgPOo8GpTeN1yJgIJHVb4nKHCGnrM1L5pK25X4Cl5IE4SidydtKNN1XxE1gW7IitprcaVMUtXshF/2fIpmYa0CoHaZe5omndY39QANoo8sVtRn9NDijoyCE2Lyrp5Bd0mvVEWeuwZPckJw//LILjadvAAr53kheoR9H9kt/QIqsh7UrbaFH+TMih7wWZN/v7NJ+UJ6qGwn1aUjRaosrYOaOK8T7GIPEV3msp/DY3bza5mXvLSm95iSlqXK0qnms8lO39awsV0RS3MiEsqvdEJlZNWNNnz3Yp3DEBXJuRPah1mAOti3TeHQVYs6mkNHkEkdJqN5dIYp70DQ5w=
+
+%URL%
+https://linuxcontainers.org/lxd
+
+%LICENSE%
+APACHE
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1687462504
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+lxc
+lxcfs
+squashfs-tools
+dnsmasq
+dqlite
+libuv
+ebtables
+raft
+sqlite
+libcap
+acl
+
+%OPTDEPENDS%
+lvm2: lvm2 support
+thin-provisioning-tools: thin provisioning support
+btrfs-progs: btrfs storage driver support
+minio: storage buckets support
+cdrtools: VM support
+qemu: VM support
+edk2-ovmf: VM support
+systemd-libs: unix device hotplug support
+apparmor: apparmor support
+
+%MAKEDEPENDS%
+go
+git
+tcl
+apparmor
+libseccomp
+systemd
+

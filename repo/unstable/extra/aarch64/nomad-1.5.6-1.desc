@@ -1,0 +1,64 @@
+%FILENAME%
+nomad-1.5.6-1-aarch64.pkg.tar.xz
+
+%NAME%
+nomad
+
+%BASE%
+nomad
+
+%VERSION%
+1.5.6-1
+
+%DESC%
+A simple and flexible workload orchestrator
+
+%CSIZE%
+15566104
+
+%ISIZE%
+76617691
+
+%MD5SUM%
+c36e3e0290e5476fae41b9631a3071f1
+
+%SHA256SUM%
+166f5d6de420b3091cf1b5417d47a7c739bcb8fa881bd10291cabe76807672b7
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmR8WYoACgkQdxk/FSvb5qY2Fw/6Asuw+URLG+kqn9EC3tG7kRZdpvwRw821Cpg76iIMah1RSFn6pW6AHbY4MNlQnJox0ko8YPpU7FsIiURnQCD5eEcuXOiecV+pNENNVWKTS+js31pWj0Z1M9TQiG+ZmcB5ED5UyHx4ffA0+tokG6pHmn/WT5ISTGlqW9K8sFjVhJEbthEr8gQX5211ldz4nSFyePkFiaiPcbU4PFLxzUjV4FKUaCpaLXXQWVrdm6go9u2zNhhFqYXc8D7xIa/mCdwc0u4kXTR8IU39NUCVjiT3Gm4b48VrVdVOCtbaHpAuHee2YxGjh8Wprz83+8IkPisok1M3h2Xc93TzYgK2XwQTnO50aE38YULWLnft+DQeO3sbBS7VDIQmqL7L/WJydziqC85/Ozv0SMN/8g/GPtZZhpMNUYnOiG6oiuoE5rc8G6YXfyMe3nunBvAIF92dJyKT8yVrVQvkbaSpD1FhctL91S2RRdNz/6pnri/uEe7fNGsi9F0NHm+bH4AR+HN6uJsmzhoUEnVTYjPTSnQ3M5xvV28I3aItwY3raMdh2zLbF5chibr9/KxuZUnrOb9IzCtGj2u1tkADGNShJAOmZ/SV1gxBkHtGfsHA6UARknYvTJo8wzrO7RuP0El5bpIksSkddC7tImZ5IMN5L2E6RWucA4pMDwB0J6uAOZHcn8q1VMg=
+
+%URL%
+https://www.nomadproject.io
+
+%LICENSE%
+MPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1685870754
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+glibc
+gcc-libs
+iptables
+
+%OPTDEPENDS%
+docker: for docker driver
+java-runtime: for java driver
+java-runtime-headless: for java driver - headless
+qemu: for qemu driver
+nomad-driver-nspawn: for systemd-nspawn driver
+nomad-driver-podman: for podman driver
+nomad-driver-lxc: for lxc driver
+nomad-driver-containerd: for containerd driver
+
+%MAKEDEPENDS%
+git
+go
+
