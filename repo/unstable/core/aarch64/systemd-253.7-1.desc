@@ -1,0 +1,155 @@
+%FILENAME%
+systemd-253.7-1-aarch64.pkg.tar.xz
+
+%NAME%
+systemd
+
+%BASE%
+systemd
+
+%VERSION%
+253.7-1
+
+%DESC%
+system and service manager
+
+%CSIZE%
+6561912
+
+%ISIZE%
+30581013
+
+%MD5SUM%
+f5d1cb39fd0cd2d365774ac74102e0a5
+
+%SHA256SUM%
+a8fd20610c40ed87f9219e40115b1c221afa948a2cb57846e3770795877af352
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmS77b0ACgkQdxk/FSvb5qbZTg//SB0p9hRzPhcSrHUhRXFhCP0446UNeMdEjVISpJiMBt5/lErSmyNp9KozMI1Cih0wuaftA/qft8seftzfH7chO7/7uUe5nWeeqETXt4dtJDI0jrdmUJNPRXxuafW0h34p4CMH34LPGS1MaT6NYOoPXHSiCsT6UvzYIY448JV/BSdtUZ0pKnco30EnJhB4jqCgZ3P5MPxbVILXgXSsaO94UfLP7YY+ZJPofzxhtjUx3SywpxvI5b+WwjEYTnduuZpEhzyvQ3g3/1iuC+fkM0zpKhJli4AHVVdfavU0zQmDrz+yQJvrizip6mXrEmTQMD5rd/6vrpzVAjse4sZ2G7hh/x5vZdwPQ81Pag1qcDbtV2RomPJZ/8Lgtnn/XS9C1qjPHDH6acRS5HvsKqHmY5gvHI9Kj0UuaNGkuAqLpXgb6xdKXd4qfdyFOrAmgPy4ynRiJ5LzPpld+MgxDTa51QH3M0hH50xVZ/kuFrhaQcaxFlyVdFYw4JMhFWc+LlvOhRnASdnZjpfbJvFpo9J5twywVk1WrR8ns2nyF3K0Dp409fO70XUSQxVvBEpRvxUw7t0kvl9K7K+DDsRak9c/lYWIBH5hXUD3GEB7+1smppxMAKjKZgZnYQQ6z1h0Q2XnqPZx8Jh/B5suqTXFB4Ye1CxdV029giCtpbgZnV7UiV+bI9M=
+
+%URL%
+https://www.github.com/systemd/systemd
+
+%LICENSE%
+GPL2
+LGPL2.1
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1690036949
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%REPLACES%
+nss-myhostname
+systemd-tools
+udev
+
+%CONFLICTS%
+nss-myhostname
+systemd-tools
+udev
+
+%PROVIDES%
+nss-myhostname
+systemd-tools=253.7
+udev=253.7
+
+%DEPENDS%
+acl
+libacl.so=1-64
+bash
+cryptsetup
+libcryptsetup.so=12-64
+dbus
+iptables
+kbd
+kmod
+libkmod.so=2-64
+hwdata
+libcap
+libcap.so=2-64
+libgcrypt
+libxcrypt
+libcrypt.so=2-64
+systemd-libs
+libidn2
+lz4
+pam
+libelf
+libseccomp
+libseccomp.so=2-64
+util-linux
+libblkid.so=1-64
+libmount.so=1-64
+xz
+pcre2
+audit
+libaudit.so=1-64
+openssl
+libcrypto.so=3-64
+libssl.so=3-64
+
+%OPTDEPENDS%
+libmicrohttpd: systemd-journal-gatewayd and systemd-journal-remote
+quota-tools: kernel-level quota management
+systemd-sysvcompat: symlink package to provide sysvinit binaries
+systemd-ukify: combine kernel and initrd into a signed Unified Kernel Image
+polkit: allow administration as unprivileged user
+python: Unified Kernel Image with ukify
+curl: systemd-journal-upload, machinectl pull-tar and pull-raw
+gnutls: systemd-journal-gatewayd and systemd-journal-remote
+libbpf: support BPF programs
+libfido2: unlocking LUKS2 volumes with FIDO2 token
+libp11-kit: support PKCS#11
+tpm2-tss: unlocking LUKS2 volumes with TPM2
+
+%MAKEDEPENDS%
+acl
+cryptsetup
+docbook-xsl
+gperf
+lz4
+xz
+pam
+libelf
+intltool
+iptables
+kmod
+libcap
+libidn2
+libgcrypt
+libmicrohttpd
+libxcrypt
+libxslt
+util-linux
+linux-api-headers
+python-jinja
+python-lxml
+quota-tools
+shadow
+git
+meson
+libseccomp
+pcre2
+audit
+kexec-tools
+libxkbcommon
+bash-completion
+p11-kit
+systemd
+libfido2
+tpm2-tss
+rsync
+bpf
+libbpf
+clang
+llvm
+curl
+gnutls
+gnu-efi-libs
+
