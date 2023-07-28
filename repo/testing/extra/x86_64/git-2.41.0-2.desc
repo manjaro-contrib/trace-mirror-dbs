@@ -1,0 +1,77 @@
+%FILENAME%
+git-2.41.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+git
+
+%BASE%
+git
+
+%VERSION%
+2.41.0-2
+
+%DESC%
+the fast distributed version control system
+
+%CSIZE%
+6383473
+
+%ISIZE%
+27062948
+
+%MD5SUM%
+3263aac7de39bfaa4b5176c9388d9a1a
+
+%SHA256SUM%
+d0026bc7cc238a5af33ebb844ddf8f3ba304382c4f9af0c6a1c658c493888cfa
+
+%PGPSIG%
+iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZL34dhUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8fAmAEA1PAztavWTTEEnpvalHSRFSR0HYRrzr72Sw3g2aTfnwgA/iXeCxXy8l1JVuKxwdBkTIsEohByMALYUGmOOwxq4fYK
+
+%URL%
+https://git-scm.com/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1690170632
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%DEPENDS%
+curl
+expat
+perl
+perl-error
+perl-mailtools
+openssl
+pcre2
+grep
+shadow
+zlib
+
+%OPTDEPENDS%
+tk: gitk and git gui
+perl-libwww: git svn
+perl-term-readkey: git svn and interactive.singlekey setting
+perl-io-socket-ssl: git send-email TLS support
+perl-authen-sasl: git send-email TLS support
+perl-mediawiki-api: git mediawiki support
+perl-datetime-format-iso8601: git mediawiki support
+perl-lwp-protocol-https: git mediawiki https support
+perl-cgi: gitweb (web interface) support
+python: git svn & git p4
+subversion: git svn
+org.freedesktop.secrets: keyring credential helper
+libsecret: libsecret credential helper
+
+%MAKEDEPENDS%
+python
+xmlto
+asciidoc
+
