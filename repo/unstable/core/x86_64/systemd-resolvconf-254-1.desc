@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-resolvconf-253.7-1-x86_64.pkg.tar.zst
+systemd-resolvconf-254-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd-resolvconf
@@ -8,25 +8,25 @@ systemd-resolvconf
 systemd
 
 %VERSION%
-253.7-1
+254-1
 
 %DESC%
 systemd resolvconf replacement (for use with systemd-resolved)
 
 %CSIZE%
-3390
+3411
 
 %ISIZE%
 0
 
 %MD5SUM%
-fb329f7db5126214695482cba0565db9
+7900eae8c9b0ac28577f5c6cb67afeb5
 
 %SHA256SUM%
-ed5dfe0c7370727e49cd9c41dcc986db33dbefd1f554487ae17da3c53b6eaba8
+50e049b889a3d099eb97c86d7118d097ad022cd9ae1fae0357302deb1a4ba112
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmS76RsACgkQFQwgB0PtRtiltQf/Spfm5hj2pWaTFBkhMuGMcxqU5q6dCMFGylPUdjS74uYuuDGRYYHLnoN0gf8hcLsZWOX8KWYa+TDiXa0iz6JRI6oZwjdYxZZF7FAU2P3dudwrjtYlUuiJNmy9WTwIz468xrDQwXL8MMXVB3OAhPVs5aE8BuAcHw9eg/JFcuSo2xE02yMvknm9VTkqiibvJUKJDlXvschDxgLZoTnhxiRTP5njF7Y9d+BFO1ax56g5kQYKFzVzY5aUwntqT5HFHgEVbWh1K7yD9Ie9PRW+hsIhB0daNpSUIuTK7RpHwf39mohK87bxCF0Qcq+ZECVHvnCSoBTK2o+nzf2OYysPnQj2vQ==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmTJdcIACgkQFQwgB0PtRtg6mwgApfEpa134cgBAiojWn2Q+b3tl7kWl7WFGnKdt7cbpmo2f32Ww/TXLlH72QuBc0soNPFnuglenR3/m6x6KphNCcheL5PMHnWR/lWsh+Zp0o6JdX437FPtmP4MXuJ8otk3Ql6GJY3nhnzwvROREqFMxmbjLt1a00V8t7kwQ0zwtX/2ludZqg1aetpKTNmhwycxhTTYwogc/ppqzH6sHuXC4v5Vrka2hPjz+/oJJyw37Embm8HcRJMR2zO8rzvYi+28/cekjHAiXBUkq6EUqkLlguaacFCcZ7WMnBOhrIwZ7SgbmF7RN2qiijaxLm1ixMH6+GMNkQZt/HLVv90W4foNIfw==
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -38,7 +38,7 @@ LGPL2.1
 x86_64
 
 %BUILDDATE%
-1690036299
+1690923538
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
@@ -77,7 +77,6 @@ python-jinja
 python-lxml
 quota-tools
 shadow
-gnu-efi-libs
 git
 meson
 libseccomp
@@ -97,4 +96,8 @@ clang
 llvm
 curl
 gnutls
+python-pyelftools
+
+%CHECKDEPENDS%
+python-pefile
 
