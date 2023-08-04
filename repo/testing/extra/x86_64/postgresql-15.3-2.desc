@@ -1,0 +1,84 @@
+%FILENAME%
+postgresql-15.3-2-x86_64.pkg.tar.zst
+
+%NAME%
+postgresql
+
+%BASE%
+postgresql
+
+%VERSION%
+15.3-2
+
+%DESC%
+Sophisticated object-relational DBMS
+
+%CSIZE%
+19710570
+
+%ISIZE%
+61316281
+
+%MD5SUM%
+8de3b50ff6ee899fac4e84a80a3c52a1
+
+%SHA256SUM%
+3cde674207cafb5e43fe674c80e91f0d2ef3adff764be7500019c59ffa5378b4
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCZI4mhwAKCRDylr3lA2jGzsaIAQCn5R2J1MWNXMzsLbALsmloDOgKH8nNY1jCG/qh+w4NbQEA7IrNugrK8CRZR5JQRqj/iNNzI7HsKorbu7f+o5mXLAU=
+
+%URL%
+https://www.postgresql.org/
+
+%LICENSE%
+custom:PostgreSQL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1687037137
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%DEPENDS%
+postgresql-libs>=15.3
+krb5
+libxml2
+readline>=6.0
+openssl>=1.0.0
+pam
+icu
+systemd-libs
+libldap
+llvm-libs
+libxslt
+lz4
+zstd
+
+%OPTDEPENDS%
+python: for PL/Python 3 support
+perl: for PL/Perl support
+tcl: for PL/Tcl support
+postgresql-old-upgrade: upgrade from previous major version using pg_upgrade
+logrotate: rotates system logs automatically
+
+%MAKEDEPENDS%
+krb5
+libxml2
+python
+perl
+tcl>=8.6.0
+openssl>=1.0.0
+pam
+zlib
+icu
+systemd
+libldap
+llvm
+clang
+libxslt
+util-linux
+
