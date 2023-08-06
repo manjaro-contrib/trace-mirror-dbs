@@ -1,0 +1,90 @@
+%FILENAME%
+libvirt-1:9.5.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+libvirt
+
+%BASE%
+libvirt
+
+%VERSION%
+1:9.5.0-1
+
+%DESC%
+API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)
+
+%CSIZE%
+7610980
+
+%ISIZE%
+49162242
+
+%MD5SUM%
+e4d5140e2f291b6aba7bed4b80f83600
+
+%SHA256SUM%
+992d72770cee236f1c94303e34da825f951d5db8bded74398f83354d13dab292
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmSldLkACgkQdxk/FSvb5qaZfRAAhEV3EhhdU7cQ0c1swzpKghPQy9oY59mBkjw13j/FVflgzEPzllNWXPMDr40G2MRPRz+6InbwMLOQnUl8XIEEEq7IqTlMIr9bPIxLTbF6I98jyYH6C2WWevQAm2kHfkhEBwpg1caX7nRPdjew3VPP6ncUFMyxkxug9y1FMaQ91+ZwNJJBX9aqIUYgadAOR/LqgdajwFAVHhy74/IUWx0fI7axxO/HXw/KviLhRUujJFIqUQhAtkXsxRoL2XyeSn/j/WvqOMOVXgN6Oe+dQJjgNIkRymWxYHiCQGqBXmIh6Iwk+oplkG+uOwVCTl/PiqOjFDVDi66G5yLLeO9w0F1S5i9tPb1+zxP+RgJnMAi7uXmyFCenXtS7I5h5dRNFzMhmh9BO/wFalUJSMHXsL3uU336AVJO3qkz4dSuZywQSKgFSm1B/6byA7l2A1CuOXwo/xXhM2JbAksfSlF5HQqHQx6bFr2jpRPsjjsMOnJ+PcZXZFxS3goQAqkI00mepIdHl33ffUoUmj+7evRMJwd5/7HEBGdkjGy0q+KQ+YQodB1ZGGjGQZJOEOKni35fvs60K9Gcu/2/fUHlmoCfmg3FiL1+oump8sCKuu3v1LjxlQ5Or+bXm4TWXPg79cwbAj/TZuFWce+XkX8+6/sqty4pK5xCdAjInPFBe0itAFsxQG0U=
+
+%URL%
+https://libvirt.org/
+
+%LICENSE%
+LGPL
+GPL3
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1688564625
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%PROVIDES%
+libvirt=9.5.0
+libvirt.so=0-64
+libvirt-admin.so=0-64
+libvirt-lxc.so=0-64
+libvirt-qemu.so=0-64
+
+%DEPENDS%
+libpciaccess
+yajl
+fuse3
+gnutls
+parted
+libssh
+libxml2
+numactl
+polkit
+
+%OPTDEPENDS%
+libvirt-storage-gluster: Gluster storage backend
+libvirt-storage-iscsi-direct: iSCSI-direct storage backend
+gettext: required for libvirt-guests.service
+openbsd-netcat: for remote management over ssh
+dmidecode: DMI system info support
+dnsmasq: required for default NAT/DHCP for guests
+radvd: IPv6 RAD support
+iptables-nft: required for default NAT networking
+lvm2: Logical Volume Manager support
+open-iscsi: iSCSI support via iscsiadm
+swtpm: TPM emulator support
+
+%MAKEDEPENDS%
+meson
+libxslt
+python-docutils
+lvm2
+open-iscsi
+libiscsi
+glusterfs
+bash-completion
+rpcsvc-proto
+dnsmasq
+iproute2
+
