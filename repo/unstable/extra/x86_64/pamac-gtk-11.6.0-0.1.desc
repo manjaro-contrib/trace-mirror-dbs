@@ -1,0 +1,73 @@
+%FILENAME%
+pamac-gtk-11.6.0-0.1-x86_64.pkg.tar.zst
+
+%NAME%
+pamac-gtk
+
+%BASE%
+pamac
+
+%VERSION%
+11.6.0-0.1
+
+%DESC%
+A Package Manager based on libalpm with AUR and Appstream support (GTK4)
+
+%CSIZE%
+189179
+
+%ISIZE%
+569184
+
+%MD5SUM%
+5a24e842652a0b2e1d410cb900aac262
+
+%SHA256SUM%
+a5de225f24b6df769dd7f21b50a57878a5e1b98f1d602154eea8b75f78afcb64
+
+%PGPSIG%
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmTOT4sSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+EGoIAMYF1DaBounrRjsjSsKTJIOT19rxaMGvOR5BkAA9EenSsPH7Y4sW6aG0u346cGnP+F7Q0lpfGJClGtkkhKxvOx65SA0in7sOI+uGhMVi31mbyErFcFgEXihWEkzmcfV4xgRsKxqQn+E5GSS//FW0lVj2a7g9fLkzFAyFN8tFNfQ5287gcHgyRGMHAqevZ67K8cZFpf3Pii0TFglGEEPWQNPfersduKK/Pc5Cg02FZZEi4Q0OC3ejYBOXU+/p2KezDgXG11WrTOsEIdEMdlLPvLbW5V5kMgNyWo3ohqSY+X41UKcksUa6FcdrRd2cWt8MUclyqBUrLuMoBjXO/Ak+tVU=
+
+%URL%
+https://gitlab.manjaro.org/applications/pamac
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1691242289
+
+%PACKAGER%
+Philip Müller <philm@manjaro.org>
+
+%CONFLICTS%
+pamac-gtk3
+
+%PROVIDES%
+pamac
+
+%DEPENDS%
+archlinux-appstream-data
+gtk4
+libadwaita
+libnotify
+libpamac>=11.5.0
+pamac-cli>=11.0.0
+
+%OPTDEPENDS%
+pamac-gnome-integration: for integration into GNOME
+libpamac-flatpak-plugin: for Flatpak support
+libpamac-snap-plugin: for Snap support
+libpamac-aur-plugin: for AUR support
+libpamac-appstream-plugin: for Appstream support
+
+%MAKEDEPENDS%
+asciidoc
+git
+gobject-introspection
+meson
+vala
+

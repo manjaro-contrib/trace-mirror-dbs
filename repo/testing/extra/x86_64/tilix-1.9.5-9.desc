@@ -1,0 +1,66 @@
+%FILENAME%
+tilix-1.9.5-9-x86_64.pkg.tar.zst
+
+%NAME%
+tilix
+
+%BASE%
+tilix
+
+%VERSION%
+1.9.5-9
+
+%DESC%
+A tiling terminal emulator for Linux using GTK+ 3
+
+%CSIZE%
+1418361
+
+%ISIZE%
+6033907
+
+%MD5SUM%
+75e95b7554de8d37015e2343f3ba108a
+
+%SHA256SUM%
+71e7f5e370444528ec0d0096f8320ffa491de478bec54ca216e41453f0916e75
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmTJFigACgkQFQwgB0PtRtgqvQgAl4dUjX93tZwMgJcoMb+3mtBsDNP83i4Oirw62o6Lsif7dPuVaEDhool3cq5Hqxh/PzqQIvoqBwX/0caCP+72oW65GoX4Vz2FghdgJmvZg/hI+oKgwfZKroJu6JAeFHSWX4cz+HF9u2/fCaldTRxhirzhqLUjmKy5J+3Cuw4bb6e/szvNXMn4DJ7MK+bnGcPMk7pmPD8iWJENWeOiRm4xDA7+FPr+viohc28Tv6fzDy1Kaj4qQXZOBtRWWUbSRS4yBzR4HYPom2AI/sLf+rvHCG69gpjnFH4hG5WLmjLnqFzsOWZZkLNt/ecwYy7UTGWztaoW0dye1/d+nP4BBM2Ffg==
+
+%URL%
+https://gnunn1.github.io/tilix-web
+
+%LICENSE%
+MPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1690899921
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%DEPENDS%
+libx11
+gtkd
+vte3
+dconf
+gsettings-desktop-schemas
+
+%OPTDEPENDS%
+python-nautilus: for "Open Tilix Here" support in nautilus
+libsecret: for the password manager
+vte3-notification: for desktop notifications support
+
+%MAKEDEPENDS%
+ldc
+po4a
+meson
+appstream
+
+%CHECKDEPENDS%
+appstream-glib
+
