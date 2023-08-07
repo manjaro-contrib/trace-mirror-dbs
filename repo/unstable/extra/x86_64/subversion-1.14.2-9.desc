@@ -1,0 +1,88 @@
+%FILENAME%
+subversion-1.14.2-9-x86_64.pkg.tar.zst
+
+%NAME%
+subversion
+
+%BASE%
+subversion
+
+%VERSION%
+1.14.2-9
+
+%DESC%
+A Modern Concurrent Version Control System
+
+%CSIZE%
+8615138
+
+%ISIZE%
+38484196
+
+%MD5SUM%
+05799dce375cbe939726a141ea50820f
+
+%SHA256SUM%
+5d96c3a78ad59105ac92d6c9dab95d300e29e96e237a81d6299317ef0f26a004
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmS/TAcACgkQeGxj8zDXy5KQdQ//cLXieYantzfvqtaA7hyQD6XVKKt/DQLDV42APulLmA1G+qAvWdtGZJyoVcaGdspYfLw4ZxNWn1xWEVh8iPlG4ihtb0d5wfCC0nJP+TTtaLWkL17cqkKn8A5h6s+5awTtfBipSUWhCBykMUy14Tq1stgGbMe2Lu429I6YB2FJjc9/j3pK2sDQ0RroW8PkN8ddlRNnvgjhaKzihLYwl0WAHTqwWckwB1Mwqr0TcEcvm471ln4mPwsAPhVtcSFU+o0TX/A8g4IYsFOr4yB+VWQiCPFOCRoh3Az5kN9oRsaZ1sjlRBMchw4OGta03PO3BdmO7o7Rm75zwUdVhdS5QzVf5AgBgwFEJOARXB1YbC8WPsmxVnNogwMRCRdU0SHZLqOwzTVWlIAqRJKp8vfs3Qa+sMxAcr0S9e1Kq+mX++8iBtiSPAKmQADnbggg7NueUviW045L5RYwtws35SzRhdIfTEaoYB36e8L9Rgtdlt8mODRE3q6AKj5XF5MTwJ8PPCBdrB930QOuY/8yJMCEhMghjo+6ITb5OvyXQvHwMwrOhQ0jWVGu5LkBCbEm3vrz90XuHmOigVjDGyamH+Vh98ks+PF7wJoLicdXeliw/+Ca8LO1Fd187OlRLSavbxV0zvubX2v+6WcgD3oi73xe4dq1Tt0M6c42OxR5AyHPOSSfOHQ=
+
+%URL%
+https://subversion.apache.org/
+
+%LICENSE%
+APACHE
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1690256989
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%PROVIDES%
+svn
+
+%DEPENDS%
+apr
+apr-util
+bash
+dbus
+expat
+file
+gcc-libs
+glibc
+libsasl
+libutf8proc
+lz4
+serf
+sqlite
+systemd
+zlib
+
+%OPTDEPENDS%
+libsecret: for GNOME Keyring for auth credentials
+kwallet: for KWallet for auth credentials
+bash-completion: for svn bash completion
+python: for some hook scripts
+java-environment: for Java support
+ruby: for some hook scripts
+
+%MAKEDEPENDS%
+apache
+python
+python-py3c
+perl
+swig
+java-environment>=8
+libsecret
+kwallet
+kdelibs4support
+ruby
+
+%CHECKDEPENDS%
+ruby-test-unit
+
