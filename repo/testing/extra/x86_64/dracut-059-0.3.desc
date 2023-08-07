@@ -1,0 +1,79 @@
+%FILENAME%
+dracut-059-0.3-x86_64.pkg.tar.zst
+
+%NAME%
+dracut
+
+%BASE%
+dracut
+
+%VERSION%
+059-0.3
+
+%DESC%
+An event driven initramfs infrastructure
+
+%CSIZE%
+347798
+
+%ISIZE%
+1060867
+
+%MD5SUM%
+a9d2d6b6a5e0d828282d015c4381765a
+
+%SHA256SUM%
+68d5091e46149fa920435ccfe97c6f3b569cc9f92a49e9d8b74d7c12c268f879
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmSolaQACgkQFQwgB0PtRththggAifMOXytuRwAmPdxTmN3UhcbWtLc5D6EVKjYCqyOkIuwbPOUM4YPL/dBUX3+A+YDCM0n4SXhE43mxVYfuQ/6Q10KuIU+LwfeFoUvqngzhI1LF5PFpgkghGL4e0b4P4trxwxncw+TsDuDv0yZ1l9NS1geq459ASa2brMqsey3VVogf3Vm8b2Q52sHEkn9TqYceSmKkmOXYO32b/5kkNOaFxIaUuz4whCikIXTdbRI7i3Vo5arrQZlKQaTGkwRw+LbzTuwUyF303Dw9BzWIpiy+TkEUrxkivg3YWEmBoOwK1bDEIEYYH1gy5W+HwpGU0TIcRZL2qUbT2OpsaHzacMdHiw==
+
+%URL%
+https://github.com/dracutdevs/dracut
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1688769521
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%PROVIDES%
+initramfs
+
+%DEPENDS%
+bash
+coreutils
+cpio
+filesystem
+findutils
+grep
+gzip
+kmod
+pkgconf
+procps-ng
+sed
+systemd
+util-linux
+xz
+
+%OPTDEPENDS%
+binutils: --uefi option support
+elfutils: strip binaries to reduce initramfs size
+hardlink: --hardlink option support
+memstrack: memstrack module support
+tpm2-tools: tpm2-tss module support
+multipath-tools: dmraid dracut module support
+pigz: faster gzip compression
+sbsigntools: uefi_secureboot_cert/key configuration option support
+
+%MAKEDEPENDS%
+asciidoc
+bash-completion
+git
+
