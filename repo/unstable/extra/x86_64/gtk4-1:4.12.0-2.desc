@@ -1,5 +1,5 @@
 %FILENAME%
-gtk4-1:4.10.5-1-x86_64.pkg.tar.zst
+gtk4-1:4.12.0-2-x86_64.pkg.tar.zst
 
 %NAME%
 gtk4
@@ -8,25 +8,25 @@ gtk4
 gtk4
 
 %VERSION%
-1:4.10.5-1
+1:4.12.0-2
 
 %DESC%
 GObject-based multi-platform GUI toolkit
 
 %CSIZE%
-6235281
+6361137
 
 %ISIZE%
-32892579
+33412953
 
 %MD5SUM%
-c1dd7e423bf4a9e8bcabe972c92df836
+eaeeefb8f761bfa17459bea76eb6c5a2
 
 %SHA256SUM%
-dbc872b71c9d04a0bd909366690c89c4ac33043fd62613dd57a1498eae4630ca
+b4e82c78c5d8b9a3af56be957a2e2175b87b88cf9ce80eac47b4bc55e6817e5d
 
 %PGPSIG%
-iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZM5DBhUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8dsmwEAiHFKsM++N2/XE3P1HDXVq7JmkvD4b17uBhKTUH9cbRkBAJpx9Fpa70OuRKo2kRASaJ+4+uKA9DQu3fZCPBHGSYQL
+iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZNLA3RUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8dAOgEAh1SGT6sIHoigiRBPdZ6blN1pMTOuh+2zjUaQ7VnNo+sA/i+mElJXFrCftRjEyhPVWfzBDBr9U99GOpJJbK1usWwJ
 
 %URL%
 https://www.gtk.org/
@@ -38,7 +38,7 @@ LGPL
 x86_64
 
 %BUILDDATE%
-1691238810
+1691532574
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
@@ -102,5 +102,11 @@ shaderc
 wayland-protocols
 
 %CHECKDEPENDS%
+gst-plugin-pipewire
+gst-plugins-base
+mutter
+pipewire
+python-pydbus
 weston
+wireplumber
 

@@ -1,5 +1,5 @@
 %FILENAME%
-gtk4-demos-1:4.10.5-1-x86_64.pkg.tar.zst
+gtk4-demos-1:4.12.0-2-x86_64.pkg.tar.zst
 
 %NAME%
 gtk4-demos
@@ -8,25 +8,25 @@ gtk4-demos
 gtk4
 
 %VERSION%
-1:4.10.5-1
+1:4.12.0-2
 
 %DESC%
 GObject-based multi-platform GUI toolkit (demo applications)
 
 %CSIZE%
-3590541
+3586343
 
 %ISIZE%
-14303096
+14342488
 
 %MD5SUM%
-2d3ed3495c7f343d09c7c2b4e8c65ac0
+a65261352d441e93539cb5dcf3473336
 
 %SHA256SUM%
-7e8e6cff7ae199c067723f51907dcefb620ca7ab7955cdce4b60cbbb5ca04d1f
+4e8b92df1c1ed4a12e0058f8d1ee7b8ef32eaa48f0125635bdcbdad177092ddc
 
 %PGPSIG%
-iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZM5DBhUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8fVAgD9F7ElBhI4eyzeWAta0Y/m9Bd4N7wMt4ru8hXBwAMTV1MBAMkA3bLS/UUcPFpfXCwd7qrbEYhZOi6l92y2PoSWpwcG
+iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZNLA3hUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8eNZgD+N+SIzJ3ZnD/eivOdEtAA6jMbNA/OI9RuJbu/YqUyzn0A/1/fFPy1C4Ps1aQT3snPdWAtJ+FlCdhO0ItwiQ7CwO0K
 
 %URL%
 https://www.gtk.org/
@@ -38,7 +38,7 @@ LGPL
 x86_64
 
 %BUILDDATE%
-1691238810
+1691532574
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
@@ -59,5 +59,11 @@ shaderc
 wayland-protocols
 
 %CHECKDEPENDS%
+gst-plugin-pipewire
+gst-plugins-base
+mutter
+pipewire
+python-pydbus
 weston
+wireplumber
 
