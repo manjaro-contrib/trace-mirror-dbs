@@ -1,5 +1,5 @@
 %FILENAME%
-inxi-3.3.28.1-2-any.pkg.tar.zst
+inxi-3.3.29.1-1-any.pkg.tar.zst
 
 %NAME%
 inxi
@@ -8,25 +8,25 @@ inxi
 inxi
 
 %VERSION%
-3.3.28.1-2
+3.3.29.1-1
 
 %DESC%
 Full featured CLI system information tool
 
 %CSIZE%
-391538
+394052
 
 %ISIZE%
-1258896
+1267397
 
 %MD5SUM%
-3aa9c8de683d744d1b02554ad1d8dd0b
+8da5999533a1dac07e0173d8492f218b
 
 %SHA256SUM%
-c689b6c8655b4bda7720c0ace8742ded533b9fe43cd85a261aaa367f1829db11
+9f39cd3929c3e851a329b80344fb74f95644aa363fee4bbcfa7285e0ed62f490
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmSsrUkACgkQFQwgB0PtRthH6AgAhLDOYZBnbBadN8Z3NlKeTRtvPgWgvxYWW+NJDxHathOyDx1dmQtaeTSASfXBwaD25F3nT0YgW9t9urB6L4oi1MRaq3LvfTOuwYrQGcZ/1pkhETVeGw+E5IC3k0yRjWEDBwk5cYD+rSeMZUj5pXGcyHhafWWgCEkMHrn9BkmRZ+Sb3FZ4iboVmO8CaN4xWmMk4Yxlmzf3Z7BP4uLZg7ucnBEDUPE0XT8QZq2SlFrxmTNXqLDT02AY8AD2DOASDIUrG6xgzLxbWMNGkAP9osrZaxJmSEGnhKuoNc+sWlG7GTA0RmuOuCEVm1Nm4LQ3kF/Q+Hr8EeV4Qf9lZcTfq2KC3g==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmTc3A4ACgkQFQwgB0PtRtiHKAf/agHNundArHUrfajuA6rSG32cFlrdTeEsPcpxe4sj+BotFu0Ji8RDVF2HTdQNaVieCQEhKzSoPNqkCOkiQ0TaQAxKJuYYj23awvYlzgz7PLSPib2z8rYHSn2nmpS5HGMTq/FxXlSESw4qUZowlARh/4dyvrMbTY+Vbts9fvx+DOVqV1C6Qq4ElS4vAJRprTdJrkQKgMYdZGpg5IetOvPRhSrpmRQzU09t+RpqYM7S2CGmQ5PrS+MuQhmNrQ6ttBr+U3RBImI08s2I2H8RZoxoNfj9yRJfpefhregDnXDWx6DHyf7cOGkhz0NI8uegQSQCCys4jMEoHZ6c5lRiUyZwpQ==
 
 %URL%
 https://smxi.org/docs/inxi.htm
@@ -38,7 +38,7 @@ GPL3
 any
 
 %BUILDDATE%
-1689036373
+1692194992
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
@@ -53,7 +53,8 @@ util-linux
 %OPTDEPENDS%
 bind: dig: -i wlan IP
 binutils: strings: -I sysvinit version
-bluez-tools: bt-adapter: -E bluetooth data (if no hciconfig)
+bluez-tools: bt-adapter: -E bluetooth data (if no hciconfig, btmgmt)
+bluez-utils: btmgmt: -E bluetooth data (if no hciconfig)
 curl: -i (if no dig); -w,-W; -U
 dmidecode: -M if no sys machine data; -m
 doas: -Dx hddtemp-user; -o file-user (alt for sudo)
