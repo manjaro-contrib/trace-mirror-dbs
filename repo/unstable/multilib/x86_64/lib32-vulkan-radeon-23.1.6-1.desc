@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-vulkan-virtio-23.1.5-2-x86_64.pkg.tar.zst
+lib32-vulkan-radeon-23.1.6-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-vulkan-virtio
+lib32-vulkan-radeon
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-23.1.5-2
+23.1.6-1
 
 %DESC%
-Venus Vulkan mesa driver for Virtual Machines (32-bit)
+Radeon's Vulkan mesa driver (32-bit)
 
 %CSIZE%
-439965
+2906773
 
 %ISIZE%
-1133472
+9951704
 
 %MD5SUM%
-5fe212fbe774f82b3e5a706472a5b67f
+4800e7975cfffce3810069d017759a93
 
 %SHA256SUM%
-a9c3601d3b869e883622a8355484f8426326e1bb3229933809dbd17850b751c9
+0d944af4fd90c9c421dbc5035ea0e4ce22b3d44ebb0d1bcf815d0136fcf32934
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmTMQV0ACgkQFQwgB0PtRtizkQf9EKcOUrJwEK0CWaATkHaYS+yjm9DAZdXT65wpH4RFlMQLP8Jbf+S5y+9pmss8t+A+qHLfc+91zrKHarlvEfOxeSaRxofaHdBd8N6CrAIiZ7IKRvzz1vyzBkNGft0mYVhS0X+yRrqiX+S6DB+Z3sXqOxfBrl0sBiHXCsuiuh7lLIHk0KSgp7VxXyUZ7d5PcMms0SBu3AX/WuWgdnNK6N3843tKChykFqLI1WNlTQfh8QI6x3oclc47yYWKdi9b1wn1p5Hg0idna7IuJTKSuA8AyE8K8SkjCn7oTjhylfpea1ZhiXXewqAsucfTWCs4oWeb2tfXCRunLze9XwbCXE9RGw==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmTfLDESHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+tAoH/0OgVi2wdHDqUIJ/IJU+BQqdPip4MHixtD6ScwJ6g7og6H9xpFYaqYbdd8RWBmbf5KeguNaf8aA56wKztp0rNQ4BHoNeEjptHSZUzznwENFvkihYHTnENR+suwVgCdlfwBc8xI+vhvAVTzJWAzv82QIMemylvd7BpFZzDUqRXRiw5qH2svUmn212biyEZ9sRSp7YcYA3JZchKX9iUxR+FnvdCPyKQKlKtpJXI/a5oFOCz1B73zgKZDcmuQ2TlKxKet7g02j2smQm/Cv1XMhbGSXmsqnfsiBaQhHUzdhabSBVilCPdM83KQP0syQk973MQj+CCY4DgR+AaU30Og5Rwrc=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,21 +38,24 @@ custom
 x86_64
 
 %BUILDDATE%
-1691106909
+1692342996
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Müller <philm@manjaro.org>
 
 %PROVIDES%
 lib32-vulkan-driver
 
 %DEPENDS%
 lib32-libdrm
+lib32-libelf
 lib32-libx11
 lib32-libxshmfence
+lib32-llvm-libs
 lib32-systemd
 lib32-wayland
 lib32-zstd
+vulkan-radeon
 
 %OPTDEPENDS%
 lib32-vulkan-mesa-layers: additional vulkan layers
