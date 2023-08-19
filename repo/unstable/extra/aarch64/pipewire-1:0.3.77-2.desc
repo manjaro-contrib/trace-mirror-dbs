@@ -1,0 +1,117 @@
+%FILENAME%
+pipewire-1:0.3.77-2-aarch64.pkg.tar.xz
+
+%NAME%
+pipewire
+
+%BASE%
+pipewire
+
+%VERSION%
+1:0.3.77-2
+
+%DESC%
+Low-latency audio/video router and processor
+
+%CSIZE%
+555248
+
+%ISIZE%
+3413264
+
+%MD5SUM%
+a4f298b06720fc4bb18238e4c5dfae8f
+
+%SHA256SUM%
+73fe575f81b410257884e47aedba63ad6f43161530b2b555f6bc33872676b848
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmTYTA0ACgkQdxk/FSvb5qZ4yBAAx6ex8lKVNzOOd7x2obdOGJTIHkWUoqkMBYMZkH+Ds4PdvXt00USE7KEpUzgVKKGiUW0UR26shQ6g+k4tLU5KxfhPjXFglltb1Bv98WRsmJvPhoVpy18WR2eRFJgkCJE4Nbh04u7/+Ce4KCVK2db/B3hCBdLue2YO7/gFIsHl4rBB4vwOSvIIc1qQiAglRVMGy6t6xmtPhO60NGKoc7mMch2FZaPJ9aKNRQQ5Cdeu8tjip23FYsYrnVy4TkFWDSU2+YNdhBtQdG0+EzF0MA740kfyRem+1FMvhSkEKpplh3vuy/odQOcO40j/h5HUqHkKZcRz2D6N5pSd6dtOjuXyrCxN+2/mEK0fKgYGBOpYMRiGmtlpWEoRa1kvqcxPWQu2dKmroJQEOsg0AqMxqd3PvaJSnPdMDgittVttSYwUfgbN0C9qPQCTifdJHcMrpMeGvhxMCPiZdiAUWY1aGGNskXfcHwhVQFXkV6leXXUQZ2WlsLV9unI0TbV9yQeQnqnPzCWHukpOzsAxaisWwTHlFpKu3QWLrIeGxbzcckbvgyXQKMY3zrQdTn9BtPffvQO2WNC9FPFjD9IGDAXs9wMYBQ6OLhehbShvPGNLJY3499/hZCsTjvXmzox6zME83fhzzF0vDZ/CCupLLyT/52G7cKb1m+kqB9PuI7UlTVxeFi8=
+
+%URL%
+https://pipewire.org
+
+%LICENSE%
+MIT
+LGPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1691896650
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+libpipewire=1:0.3.77-2
+libcamera-base.so=0.1-64
+libcamera.so=0.1-64
+libdbus-1.so=3-64
+libglib-2.0.so=0-64
+libncursesw.so=6-64
+libpipewire-0.3.so=0-64
+libreadline.so=8-64
+libsystemd.so=0-64
+libudev.so=1-64
+
+%OPTDEPENDS%
+gst-plugin-pipewire: GStreamer plugin
+pipewire-alsa: ALSA configuration
+pipewire-audio: Audio support
+pipewire-docs: Documentation
+pipewire-ffado: FireWire support
+pipewire-jack: JACK support
+pipewire-pulse: PulseAudio replacement
+pipewire-roc: ROC streaming
+pipewire-session-manager: Session manager
+pipewire-v4l2: V4L2 interceptor
+pipewire-x11-bell: X11 bell
+pipewire-zeroconf: Zeroconf support
+realtime-privileges: realtime privileges with rt module
+rtkit: realtime privileges with rtkit module
+
+%MAKEDEPENDS%
+alsa-lib
+avahi
+bluez-libs
+dbus
+doxygen
+git
+glib2
+graphviz
+gst-plugins-base
+libcamera
+libcanberra
+libfdk-aac
+libffado
+libfreeaptx
+liblc3
+libldac
+libmysofa
+libpulse
+libsndfile
+libusb
+libx11
+libxfixes
+lilv
+meson
+ncurses
+opus
+python-docutils
+readline
+roc-toolkit
+rtkit
+sbc
+sdl2
+systemd
+valgrind
+webrtc-audio-processing
+
+%CHECKDEPENDS%
+desktop-file-utils
+openal
+
