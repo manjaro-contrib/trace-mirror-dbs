@@ -1,0 +1,90 @@
+%FILENAME%
+gajim-1.8.1-1-any.pkg.tar.zst
+
+%NAME%
+gajim
+
+%BASE%
+gajim
+
+%VERSION%
+1.8.1-1
+
+%DESC%
+Full featured and easy to use XMPP (Jabber) client
+
+%CSIZE%
+3729312
+
+%ISIZE%
+19096075
+
+%MD5SUM%
+3d765cb2a0e78942703059f34b7be880
+
+%SHA256SUM%
+d254a879df6d2769ebbc0ac057b99b6881287f87db5162c56438e7aabb666e24
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmTWTg0ACgkQ/cMEC5Ksp0hVTw/+LnQvHqvPGM6UcqJzAn24busxaXgmHhqlNPXK4hj2ZESsjbWAckdj45RZKRw3hiZy513WIoVsuR+RBXiMn7AKj9CLsC3Bqk9ctoYjFMOthtAI3G6TedTxyWV/VUDH6o6ygo+u0OIp0r7ni5oLITk1XmkxldX8RKxmIjUQ/aMz4nfEr3OMyanO5gdFlxkH1FPnTQhbR4bctbvfb32a/yy7w3c4d+iTOyrjVC06auO0CwXwRJtopUhzV6/PgZm7VmeVjfLbYzenOh783xPdPRQ1NrBYbzch2W6hEXqc0lqOSAxwYrocqPNHHvyl/27FrRlAQ4lSwwz0a9tE/OhUygwZgpsUSwCqdhxielUC/oU1Pr38+KRLb6NWFfvijf9YGQ7r6ALq7AhEaeX8iVLUPwqmSGBxNZx3Pb6cZQAx004IGnqZGHdq142Y0Qv+Nxtkbsn/MzFkOI85xzxFOjMKfv7CVP7wSnRLrC7g1TS/OuL49zMcjV6Yj/8v/eEqlRh/s1xog1/bAfC7b1TOtr2mMBnEMEIs3wNGmMwxzFfEgBtKs66uTckOHgzbUmLH2yRC4LWicX8177qFbtuoFJenEId3BP8GV8Lo3EqBKAKhP/sKW8jBO9bxymN66N2k4FP96t9A3YhOtbNrYMdBIv5wDMagDZSXYNy3OQnmVuF+dUJq5Gw=
+
+%URL%
+https://gajim.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1691766179
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+gtk3
+gtksourceview4
+python-cairo
+python-gobject
+python-keyring
+python-nbxmpp>=4.3.0
+python-cryptography
+python-precis_i18n
+python-css-parser
+python-distro
+hicolor-icon-theme
+python-pillow
+python-gssapi
+python-netifaces
+python-qrcode
+python-omemo-dr
+python-packaging
+pango
+sqlite
+
+%OPTDEPENDS%
+python-dbus: to have gajim-remote working
+python-sentry_sdk: for Sentry error reporting to dev.gajim.org (users decide whether to send reports or not)
+gspell: for spell checking support
+libsecret: for GNOME Keyring or KDE support as password storage
+gupnp-igd: for better NAT traversing
+networkmanager: for network lose detection
+geoclue2: share current location
+gsound: Notification Sounds
+libayatana-appindicator: for App Indicator on Wayland
+farstream: for video and audio calls
+gstreamer: for video and audio calls
+gst-plugins-base: for video and audio calls
+gst-plugins-ugly: for video and audio calls
+gst-libav: for video and audio calls
+libxss: for idle time checking on X11
+python-gnupg: encrypting chat messages with OpenPGP
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+
