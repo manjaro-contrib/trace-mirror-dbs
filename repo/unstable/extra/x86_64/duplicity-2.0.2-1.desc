@@ -1,5 +1,5 @@
 %FILENAME%
-duplicity-1.2.3-2-x86_64.pkg.tar.zst
+duplicity-2.0.2-1-x86_64.pkg.tar.zst
 
 %NAME%
 duplicity
@@ -8,25 +8,25 @@ duplicity
 duplicity
 
 %VERSION%
-1.2.3-2
+2.0.2-1
 
 %DESC%
 A utility for encrypted, bandwidth-efficient backups using the rsync algorithm
 
 %CSIZE%
-701120
+739675
 
 %ISIZE%
-4212962
+4331226
 
 %MD5SUM%
-0b0521e30b7ad17ccfad8524ac52fc7e
+951e732c19822bf1649937f70adc0c45
 
 %SHA256SUM%
-d1a05476d752966e9be54c9b1b8e24582d15e8d95052dde895a697030bf7c88d
+7e2698f2649898b8f156368eef0f985b2ee6d4a2218f88fb49be5fb4fe6c7795
 
 %PGPSIG%
-iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCZF9RuQAKCRDglZ/qi1UFOePkAQDv/TpFzMAxjqjHMMFwJNYqcygOZb/sM55t4LFMrgOSoAEAskzo9omRaSXqrTrfVHj7oXXlqc0ijM3TI94PJIt3vgA=
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCZN3VeQAKCRDglZ/qi1UFObnwAP4oGQoTqnp/66g9eLLKa0R1fAaPrxW4xwK08zDYA57MXwEA3VZfCZDqqbCla6UTeQBIZQUt6YTHgxhJXxl1DrqD1Qs=
 
 %URL%
 https://duplicity.gitlab.io/
@@ -38,7 +38,7 @@ GPL
 x86_64
 
 %BUILDDATE%
-1683968315
+1692259648
 
 %PACKAGER%
 George Rawlinson <grawlinson@archlinux.org>
@@ -54,7 +54,7 @@ python-future
 lftp: backend for ftp, ftps, fish
 ncftp: alternative backend for ftp
 python-b2sdk: Backblaze B2 backend
-python-boto: Amazon S3 and Google Cloud Storage backend
+python-boto3: Amazon S3 and Google Cloud Storage backend
 python-dropbox: Dropbox backend
 python-gobject: GIO backend
 gvfs: GIO backend
@@ -64,5 +64,10 @@ python-requests-oauthlib: OneDrive backend
 rsync: rsync backend
 
 %MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
 python-setuptools-scm
+python-wheel
 
