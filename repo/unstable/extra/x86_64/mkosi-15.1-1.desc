@@ -1,0 +1,79 @@
+%FILENAME%
+mkosi-15.1-1-any.pkg.tar.zst
+
+%NAME%
+mkosi
+
+%BASE%
+mkosi
+
+%VERSION%
+15.1-1
+
+%DESC%
+Build Legacy-Free OS Images
+
+%CSIZE%
+278430
+
+%ISIZE%
+1386605
+
+%MD5SUM%
+15b4084d7fa41c5d39c69dbcd82bf4b5
+
+%SHA256SUM%
+6a87597e45a35a76e75b130f11f2175c2cec9c5f17574b18b73ff90ebddae9c9
+
+%PGPSIG%
+iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCZNX1gQAKCRATmwnaW/DTONmhAP9bvnjzk7vzzXIpZoo9N8BSNfMEtG8cG6DJe8pYrPxalgEAuqhaZ8qDW+FRlPfw1g1KKCZITUew9snOCyTyh3mcOg8=
+
+%URL%
+https://github.com/systemd/mkosi
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1691743542
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+arch-install-scripts
+python
+python-pexpect
+
+%OPTDEPENDS%
+btrfs-progs: raw_btrfs and subvolume output formats
+cryptsetup: add dm-verity partitions
+debian-archive-keyring: build Debian images
+debootstrap: build Debian or Ubuntu images
+dosfstools: build bootable images
+gnupg: sign images
+python-pefile: for bootable images
+qemu: run bootable images using QEMU
+sbsigntools: sign EFI binaries for UEFI SecureBoot
+squashfs-tools: for creating custom scripts to output as squashfs
+tar: tar output format
+ubuntu-keyring: build Ubuntu images
+xz: compress images with xz
+zstd: compress images with zstd
+
+%MAKEDEPENDS%
+pandoc-cli
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-pexpect
+python-pytest
+systemd
+
