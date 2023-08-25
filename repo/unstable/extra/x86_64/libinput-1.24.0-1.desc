@@ -1,0 +1,67 @@
+%FILENAME%
+libinput-1.24.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+libinput
+
+%BASE%
+libinput
+
+%VERSION%
+1.24.0-1
+
+%DESC%
+Input device management and event handling library
+
+%CSIZE%
+292265
+
+%ISIZE%
+1130197
+
+%MD5SUM%
+b3b6d14ca845dff75e15d397b2ed864f
+
+%SHA256SUM%
+22e04bc1a979c33bd50e324d441d521b9bd8cbd668363c4ea7556ff354a04077
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmToQkkACgkQlGV6sg8qCSuXzwf6A00cJz894QRLhnQ4aP2vNADiA2FSG9UzE9LMb5ZhTiNK/J2SjcmrJv8k17PmFzo/rlY1Pna1HJPMU9tS5moKIO1T8laG2A8orGNSsdvKwGkm9hIt7l14xKLy+Xtiu63bDcq4f8WkKzn++8k5PSGX8nw62XhDRRTPll4B0YpUuSvzMUkeozCkAoganD0W7juNgIPKvtty6007sc4jFmUbPjd7Od0AvMeBt9mZ7t248uiL+CmykM6Fp0tdeB1qW/lEfjbP6SZAy7QpYfapJadIzkwTLuiuLh26eiINFwQcfciYBk3nNZHJV+J9nHWflJrF2IQ1x9emaBM/wa3TWgS0Ug==
+
+%URL%
+https://wayland.freedesktop.org/libinput/doc/1.24.0/
+
+%LICENSE%
+custom:X11
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1692942856
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%DEPENDS%
+mtdev
+systemd
+libevdev
+libwacom
+systemd-libs
+glibc
+
+%OPTDEPENDS%
+gtk4: libinput debug-gui
+python-pyudev: libinput measure
+python-libevdev: libinput measure
+
+%MAKEDEPENDS%
+gtk4
+meson
+wayland-protocols
+check
+
+%CHECKDEPENDS%
+python-pytest
+
