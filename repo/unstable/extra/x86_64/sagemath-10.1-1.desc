@@ -1,5 +1,5 @@
 %FILENAME%
-sagemath-10.0-2-x86_64.pkg.tar.zst
+sagemath-10.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 sagemath
@@ -8,25 +8,25 @@ sagemath
 sagemath
 
 %VERSION%
-10.0-2
+10.1-1
 
 %DESC%
 Open Source Mathematics Software, free alternative to Magma, Maple, Mathematica, and Matlab
 
 %CSIZE%
-56604213
+56923956
 
 %ISIZE%
-515430207
+520641534
 
 %MD5SUM%
-74b83dff230d8e2f0f247b5344dc5acf
+c2e45c23ea16682dea36554cb2cb1cad
 
 %SHA256SUM%
-a4b51bde9d4752bb3a9b2f69c21508d0fb919c780ffc47d37f6e3c429e2b979a
+3e22c11cc1b1f3285d6cbed689786d9ee729588f2f335b3ffce50397588c8843
 
 %PGPSIG%
-iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmR5k30ACgkQek52CV2KUuQcMAf+K4w/s28pDEqTTh5u1iujAFsVzgIiMrI8BOHUIaPs7PaR7F0jZQriTxiRpoViHaySkpE3Ovhjk81mWqfpQJ2cFaGBlhuTCVppfV0+j521Ugy/uJT7fehIM/fOQdsRtyRdE7RIPWj5GBi+9stz+pZ0WZbo6q6scElw0GZd8pYWj52Rhh8xk9RlcpRUvMzbx9KUYnr8iZBQ8UYgFHrTQ5EOr1yau9sGC2b54fWhEJim/dnLllfV71kZaskH8ajRSLJAmVzvTRN59UCpSvt6qsQH89uO9jX7QAxPI26TwdO4UIPW1XG7dOrGAwyP8+UjBmS5WHZ9PQ6n3rb2NVJK21TI/w==
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmTqbuIACgkQek52CV2KUuRfLQf/bfvpN1LoYFtiLTREbtcBnp+8JDoAeNsNBqR4uxO7w/zyrNLpW44gMG2orwPFPNlrSgAFPSl++cE7A/LnEblvE9DN1uLr9iw4TTSYAi2cck0iPHIIyjhYlQ2S9n0R7x/Qe/bcw7Fi5ntnwXOhQNGYg5AL7Ep6e1dY4XX3PKK+zpiHAA6YniU+Oqc8VA6g2xh2Dad/ho1LzX1yv/4G5QTu2dmTcieRGNdyNFm//TasyIBK17SEiC/z4M4+gBevca21q/rYfdW+xV+itT3Tm3A573eboSxdwFaymFzvAcxc2aVp6dGbwLztFO9F0EOYTxRNEr+vBrsT47vrG0fPNNlsrA==
 
 %URL%
 http://www.sagemath.org
@@ -38,7 +38,7 @@ GPL
 x86_64
 
 %BUILDDATE%
-1685687401
+1693083167
 
 %PACKAGER%
 Antonio Rojas <arojas@archlinux.org>
@@ -97,7 +97,7 @@ threejs-sage
 python-primecountpy
 
 %OPTDEPENDS%
-cython: to compile cython code
+cython0: to compile cython code
 python-pkgconfig: to compile cython code
 jmol: alternative 3D plot engine
 jupyter-jsmol: alternative 3D plot engine in the Jupyter notebook
@@ -117,9 +117,8 @@ rubiks: Rubiks cube algorithms
 lrs: Algorithms for linear reverse search used in game theory and for computing volume of polytopes
 python-pynormaliz: Normaliz backend for polyhedral computations
 latte-integrale: integral point count in polyhedra
-python-jupymake: polymake backend for polyhedral computations
 shared_meataxe: faster matrix arithmetic over finite fields
-openblas: faster linear algebra
+blas-openblas: faster linear algebra
 sirocco: for computing the fundamental group of the complement of a plane curve
 dot2tex: for displaying some diagrams
 cryptominisat5: SAT solver
@@ -133,7 +132,7 @@ python-database-cubic-hecke: cubic Hecke algebras
 msolve: polynomial system solving via msolve
 
 %MAKEDEPENDS%
-cython
+cython0
 boost
 python-jinja
 sirocco
