@@ -1,0 +1,107 @@
+%FILENAME%
+matrix-synapse-1.88.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+matrix-synapse
+
+%BASE%
+matrix-synapse
+
+%VERSION%
+1.88.0-1
+
+%DESC%
+Matrix reference homeserver
+
+%CSIZE%
+3759712
+
+%ISIZE%
+26323273
+
+%MD5SUM%
+deec9401f695aebc46f2eae8c9fa5310
+
+%SHA256SUM%
+82c6a5556f2a6559c531ae296bdab2fcc27c1e1a403abd726aef78011bde238c
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmS28NkACgkQdxk/FSvb5qa6dA/6AimU8vWQLAraJhsfPIKCACOpWLmFfmCMKtzUXXnPZ3v+0SxMPtX8g66QhVb2GMsa/nEZwq0zued4zQs4p6zIHj0wn/h8xXyAT/K6udTIFk+lC1OcsgAVlXGSPJwTvvm6YPtBgmn4XIa5GcqfsVJHvJoobEs9leHl4F1E8XyBMC33pWLO25o+dQNJdEQjYg2JFkGFPiwmKk5jGlwXtA0acphvHNXzpDPUBON77CLzT+4/O4vfCcjh0G4WNRSM7v0ytoQH1sDeDZ49TeU7n4o3XMbHPK80Q3+t5uDv61/wWpGN1bpOkU51J71hveFu+xgRmrB9rzs1jvNXoxH3G2lN3aecJBrmsXJEP+a34WgWaSOiBFjDzBZXRzKb6XyXT8/NJaJUsMLfnYp8Q2CR58UpM6Yi6ACwO+McMLJ6yttzcCZnD5iMazOaapcSr8+r1PM7DRXOHZnDoLkeo7lRvR/XDVjHzcgj4bGl6Kqhx8PY44Cu9+40f8yh0zogGg7w4bc/xoBco4XRa/YANAyKlVz5/02J2NhEseUSbNxKAHPSDLCPNu05BtauinEoHxcpoNPchbiOE8dAbSjAqRA5mPN0yOhhDUScXx/FBC5YRZJJS82BXPYSRtrXkoofxswjOOaQadOE6YhO+1v5S8R45jlN8YljlV79SY9UX7U6ObZm3NM=
+
+%URL%
+https://github.com/matrix-org/synapse
+
+%LICENSE%
+Apache
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1689710665
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+libwebp
+python-ijson
+python-jsonschema
+python-twisted
+python-pyopenssl
+python-yaml
+python-pyasn1
+python-pynacl
+python-bcrypt
+python-immutabledict
+python-pillow
+python-pysaml2
+python-systemd
+python-unpaddedbase64
+python-canonicaljson
+python-signedjson
+python-pymacaroons
+python-service-identity
+python-msgpack
+python-phonenumbers
+python-prometheus_client
+python-attrs
+python-netaddr
+python-sortedcontainers
+python-treq
+python-idna
+python-jinja
+python-matrix-common
+python-bleach
+python-typing_extensions
+systemd
+
+%OPTDEPENDS%
+perl: sync_room_to_group.pl
+python-psycopg2: PostgreSQL support
+python-lxml: URL previewing
+python-psutil: metrics
+python-pyjwt: jwt
+python-txredisapi: redis
+python-hiredis
+python-pyicu: Improve user search for international display names
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-wheel
+python-poetry-core
+python-setuptools-rust
+
+%CHECKDEPENDS%
+python-pip
+python-authlib
+python-pyjwt
+python-lxml
+python-parameterized
+python-txredisapi
+python-hiredis
+postgresql
+python-pyicu
+

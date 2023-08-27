@@ -1,0 +1,104 @@
+%FILENAME%
+gnome-control-center-x11-scaling-44.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+gnome-control-center-x11-scaling
+
+%BASE%
+gnome-control-center-x11-scaling
+
+%VERSION%
+44.3-1
+
+%DESC%
+GNOME's main interface to configure various aspects of the desktop with X11 fractional scaling patch
+
+%CSIZE%
+8573106
+
+%ISIZE%
+22662005
+
+%MD5SUM%
+717c823461d3053799f1646bd7987c11
+
+%SHA256SUM%
+84d904385971056d518d74cc08038378c09296574ee030ce2641bf823390800c
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmSeNuAACgkQFQwgB0PtRtjcnAgAiqIXSLQuW89L47/621thd2oFNKTg8jVigndrjeKYHe0kYnATj1fqUvjnyQAyDhRIz5O7AQTd7WZ2Tk4HiiY8+9BK0HanBUSJe2XK1Yvtd4Bin1p7PCKie4MfdQCNrhRQMN4qxB+6hPfQ5SXtEQNZbN3YUU2Qjs3rhztyRVQGA7ZY7RfDJlZHEiPiS9GcTfFgRUFwcnggdoayBQWm1zzajzdLm+bmELljLbGq4W9yueb/TT+IIrK2LyODkXzmKTdqCB7cqMbP0Mx8oB9zUpQ86d1im8voXOavF7GT7NsZ36dw9cab47T60PrWoXOHjwep0DXhmF6VYwQBbQfYTvksNw==
+
+%URL%
+https://gitlab.gnome.org/GNOME/gnome-control-center
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1688090270
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%CONFLICTS%
+gnome-control-center
+
+%PROVIDES%
+gnome-control-center=44.3
+
+%DEPENDS%
+accountsservice
+bolt
+colord-gtk4
+cups-pk-helper
+gcr
+gnome-bluetooth-3.0
+gnome-color-manager
+gnome-desktop-4
+gnome-online-accounts
+gnome-settings-daemon
+gnome-shell
+gsettings-desktop-schemas
+gsound
+gtk4
+libadwaita
+libgnomekbd
+libgtop
+libgudev
+libibus
+libmalcontent
+libmm-glib
+libnma-gtk4
+libpwquality
+smbclient
+sound-theme-freedesktop
+udisks2
+upower
+
+%OPTDEPENDS%
+fwupd: device security panel
+gnome-remote-desktop: screen sharing
+gnome-user-share: WebDAV file sharing
+malcontent: application permission control
+networkmanager: network settings
+openssh: remote login
+power-profiles-daemon: power profiles
+rygel: media sharing
+system-config-printer: printer settings
+switcheroo-control: Dual-GPU support for the info/details panel
+
+%MAKEDEPENDS%
+docbook-xsl
+git
+meson
+modemmanager
+python
+
+%CHECKDEPENDS%
+python-dbusmock
+python-gobject
+xorg-server-xvfb
+

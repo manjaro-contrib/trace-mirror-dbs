@@ -1,0 +1,87 @@
+%FILENAME%
+cockpit-298-1-aarch64.pkg.tar.xz
+
+%NAME%
+cockpit
+
+%BASE%
+cockpit
+
+%VERSION%
+298-1
+
+%DESC%
+A systemd web based user interface for Linux servers
+
+%CSIZE%
+5663328
+
+%ISIZE%
+7761613
+
+%MD5SUM%
+a60551a37ed6d5a01d265cba93fd32eb
+
+%SHA256SUM%
+2fdf985bc02570b3214bb4fb1d85f28e253fc2a70feaa6f40e792be9579356cc
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmTT1U4ACgkQdxk/FSvb5qaiyxAAp3DqHrX8rOuyFxMfPOKC52Zh3yQj20few6I2tsj+iH1eQ0AhbqvBvN4+zWNVG1WMGkDF4nEInxYA2ZN6eDkEQTfyHAdMyxBAjRwvQd1hioVSkxrT1GEFyt+U552C98Ij3ny9v5WL+Vy6vnBHTphVilMQ/tOdQ303FQ2RWvRmomOcvmqtU9qaK3UTgW9DeHK8ySHRyPyDZ7r/Q+RYGaINzTgePn3R4uqIL+dcuZ8HCs5Qz630F0xpt1xxqDGEZXgiN7AJwR0wDbj7BZ5eEXufkn2JOt+flGB+JNMT1RAaWBeP526tCmaf4PJ+EsT23tqKxo/tXUaHDlbLkk2d6Ja+MTaZDlUdRG+1ESN9lQWGUobqGcl7hmyDGxXHZHOPqLmLTvRuBbfn9OutnQwAixZLvfI6qs4m/6ymgFRpQRkvp3994v99ROmiljS6wxdagthjUlmDfRH+JsjLYbVJu0qILPu+DcTKSnCe+Zz5FPl123eAkV65iQwspE1zIv1R5QbJaT2kYSMwoIdI4hGVWMnUlgwIb20W7BesifFNXhtZi5zb0vt2wqvMrud0THpU/LVfhQWPIvvcbNOpn6yen32XdwnaqpVENlOn+OewtW0u2RywG6NVdJ1GusGX4C7AzFPo9jJbCSeOITchBULkH/kSs4ADWXb2mXOXQ9mfbnYxw+A=
+
+%URL%
+https://cockpit-project.org/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1691604221
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+krb5
+libssh
+json-glib
+glib-networking
+libpwquality
+openssl
+kexec-tools
+python
+gobject-introspection-runtime
+
+%OPTDEPENDS%
+cockpit-pcp: reading performance metrics
+cockpit-storaged: manage storage
+cockpit-packagekit: manage packaged
+cockpit-podman: user interface for managing podman containers
+cockpit-machines: user interface for managing virtual machines
+polkit: elevate privileges
+sudo: elevate privileges
+networkmanager: manage network connections
+sssd: authentication
+sscg: generate self-signed certificate
+
+%MAKEDEPENDS%
+krb5
+libssh
+json-glib
+glib-networking
+git
+intltool
+gtk-doc
+gobject-introspection
+networkmanager
+xmlto
+npm
+pcp
+gendesk
+python-installer
+python-wheel
+python-build
+python-pip
+

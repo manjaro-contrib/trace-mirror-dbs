@@ -1,0 +1,82 @@
+%FILENAME%
+python-astropy-5.3-2-aarch64.pkg.tar.xz
+
+%NAME%
+python-astropy
+
+%BASE%
+python-astropy
+
+%VERSION%
+5.3-2
+
+%DESC%
+Common core package for Astronomy
+
+%CSIZE%
+8670928
+
+%ISIZE%
+59800519
+
+%MD5SUM%
+21fc0c5425158c1ae2da4390e59304d3
+
+%SHA256SUM%
+9428f2306dac0f153bdd6ab99d9e711c03867710cf6ea03fdb3cd1ccd6e46b00
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmSmb1kACgkQdxk/FSvb5qbChg//Qn60yxXZIhljZWoJWw8U7ODYOoCvD6RA89Z7/75Uf72gLA1mPbbvsoKoNeyg48F/YMdABjjbVdA07yADY2+isc5s3F6DcoUwEqBfJ8CegdgXkZ2B5RXIb8IV5ldaD9daUWA4kP+EERpc/WvltwTL/kMHObBnMtonGMKMVXx4Cq8n4poEDT/QzsRb2ZUFCiRpGHIi4gn0YqWTwn6jkjwt0Inwx5/FZUiV4Xjt3zA3esncHDi6kdAPlPOmdXUBr6Fth8i4Gt4ANKdEN1GFWV5YAkOMSd16iTRxA+srAGy+pgoteK00/8Dhv7eUmyfYgLIecKzkESnJza5O+RBhMc4fXMuWefMdmo7SpHm+7F6+crNQGS16EdAqx82DxdoU/nDR7qiRuRgRBhQUqw25l6kRJRTY9p8DP/17H5996Ud62lLj7qBkWxRsiYceQLH1PpafPAKsv6xeRJrOHeBiTchmIaPEzd6ylMVyRsH2jeKBG45ipq62Sa2fH7xJt/FFw12Wy5gRwoZF14QhVbjma2htxm1rtxuMUCADdD586IRX0+yCortfl33BwTstmqbOixbu+ZSSZd/26T0JiqyRH6+twIAKRFlKMwixT+yDPwFjS9s5rA7i9rESd+sBi+1VKM1fLQUleVpQ+mX16J9zEzJDo9XD7eac4+rCPB/svnbkt+w=
+
+%URL%
+https://www.astropy.org/
+
+%LICENSE%
+BSD
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1688628899
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python
+cfitsio
+expat
+wcslib
+python-numpy
+python-pyerfa
+python-yaml
+python-packaging
+
+%OPTDEPENDS%
+python-matplotlib: plotting functionality astropy.visualization
+python-scipy: variety of features in several modules
+python-certifi
+python-dask
+python-h5py: read/write Table objects from/to HDF5 files
+python-beautifulsoup4: read Table objects from HTML files
+python-html5lib: read Table objects from HTML files using the pandas reader
+python-bleach: sanitize text when disabling HTML escaping in the Table HTML writer
+libxml2: validates VOTABLE XML files
+python-pandas: convert Table objects from/to pandas DataFrame objects
+python-sortedcontainers: faster SCEngine indexing engine with Table
+python-pytz: specify and convert between timezones
+python-setuptools: discovery of entry points which are used to insert fitters into astropy.modeling.fitting
+python-mpmath: ‘kraft-burrows-nousek’ interval in poisson_conf_interval
+python-bottleneck: improves the performance of sigma-clipping and other functionality that may require computing statistics on arrays with NaN values
+python-pyarrow: read/write Table objects from/to Parquet files
+python-fsspec: opening remote and cloud-hosted FITS files
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools-scm
+python-extension-helpers
+cython
+

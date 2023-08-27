@@ -1,0 +1,85 @@
+%FILENAME%
+rauc-1.10.1-1-aarch64.pkg.tar.xz
+
+%NAME%
+rauc
+
+%BASE%
+rauc
+
+%VERSION%
+1.10.1-1
+
+%DESC%
+Safe and secure software updates for embedded Linux
+
+%CSIZE%
+158472
+
+%ISIZE%
+520651
+
+%MD5SUM%
+aadff6b1b40b8b33076601a83ae40ae8
+
+%SHA256SUM%
+1c5637185e185b61cc2f01eee94590c295362deb04e859726584709c7ad18fc5
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmTTecsACgkQdxk/FSvb5qZK7BAAgmiWLGGB99hR1pyxIw23JCNEStU2JHIwO/OK/3Z0RVjmjcjb6avJSzmNMIiSco3Z2bdGx6CCDavwxeW0ZysEa9Zn3iiISm/tAFZbo650KhXk9J/KOVdklHd7IyxJdaZcW3phFtFVQnKfnNm5xQL4b1TAO/C686JdbpfMvRHefwim/8ZiuXVXzHvNqhFRdLmnQFmUwxaIwIH7WnMHFmk1wmXxwSzdtaaw4tCBUP+7OdtWyMVJvUEEBsJtzcardyonFlXMY87S06yQMzgTlcnupbqRQJV2u6npiK4auwOzkm7L9XY5KepbZy53uIhlJeMmVR2YEq4wGmX3nyIOpl+Ss1BvMuEonSQRQ91gAcP8OlSNJ8L07HaUa1pVgKL4ku+hn6CL+mbhskU12rNmvHvmv6ooOJlR4dPM14cn/P8SHTj8YpLWwTjPyLIFs8GSfqHWrrtxrApP+fRWXPFLCUlKTUhOuioshWOZWscaVhmlOCF+PfdeTsa5yM9JPQ55QX2Nirp20U+jeld8e+HKWoO8v9877zKQOyvK4KXcwBKWvB0oI+JR9sqOj3iDF/r9oLkKeFDcuSf7y0wK98I9NBatOXYZv9yP69p6sQVSnm8ou43E71LONfqXtVuPHpYyi3MF/h9sWw/kVJs5Dum4puUpJr++ep8YkYcXIN6mLTQrmKQ=
+
+%URL%
+https://rauc.io
+
+%LICENSE%
+LGPL2.1
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1691580830
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+libnl
+openssl
+sh
+curl
+libcurl.so=4-64
+glib2
+libgobject-2.0.so=0-64
+libgio-2.0.so=0-64
+libglib-2.0.so=0-64
+json-glib
+libjson-glib-1.0.so=0-64
+util-linux-libs
+libfdisk.so=1-64
+
+%OPTDEPENDS%
+casync: for casync conversion support
+cryptsetup: for disk encryption support
+dosfstools: for creating and checking FAT filesystems
+e2fsprogs: for creating and checking ext2/3/4 filesystems
+efibootmgr: for interacting with EFI boot manager
+grub: for GRUB support
+mtd-utils: for interacting with MTD devices
+squashfs-tools: for creating and inspecting bundles
+uboot-tools: for u-boot support
+
+%MAKEDEPENDS%
+curl
+dbus
+glib2
+json-glib
+python
+systemd
+util-linux
+
+%CHECKDEPENDS%
+squashfs-tools
+

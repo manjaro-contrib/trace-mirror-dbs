@@ -1,0 +1,77 @@
+%FILENAME%
+electrum-4.4.5-1-any.pkg.tar.xz
+
+%NAME%
+electrum
+
+%BASE%
+electrum
+
+%VERSION%
+4.4.5-1
+
+%DESC%
+Lightweight Bitcoin wallet
+
+%CSIZE%
+7982952
+
+%ISIZE%
+43609202
+
+%MD5SUM%
+72c6e20bc22009d0b014195e0a83d8c2
+
+%SHA256SUM%
+14970e9dc275b66ca9bc87abba80f101a6acaf4fe4ce9b01618bb13a444544a0
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmSg9b4ACgkQdxk/FSvb5qaI5A//dhIekuu+ZYSa4HhjuDVUONwzhDPN78pxopg9FWwTLHpiMCys3DnY9FxBibityu+PEhvUvKzWgx3HfXCmNO/aur5/KerpZ866yMl0N2hiKlhpPoOd6nZ4qvx0tyRsCNIhUX5xoTEXPSZt9VnPplclEzMo81xFmIRF9jGwehbsSZRn2y5LCv3XQZmVanmnbkIA9FLQpd/zhT7CKa2aVMMb5Zq8fdnDFlu0Po46ofY+ITN/Wb1DZeWIPPS8w5B4YroyVoKZloXuMLtlEyy18iX5bVNbROUQ4DLivVVPq/h0dp7CokjBdwpN/aTa5i2ioFVTQHN3i0QMpQoEUlhfpcguuFqcYiUvDfpeTOuCBPk6pWmt4cIm90i8f9tAau6IA4kZH+1fHTkDETSH0M3TdqIpmJMWIV3T1OYmDp4GCDkWs/U4FX6ZiqJebYMFIkLGK/ks6IqvQKRKbiTTADuyEGAkDXHysUfX5qTKX6rAMYlJIMTsFi9RxkWW1CAYtPIf7shE+LOSCle60TxVCTeZ5x1URLjuh7vClRu/CKBagM1MLnGKH9lkGJ0dnZQxZ+W/azs0YRJsUNYIFTpzzBxBzRDBagHPTl1VtwuLMOKoUFOT//ybVZQeMR8tl7+Lh9iJx8wrQQmjsXWYP+18hJuoRHHRoGZfGFGSaO6rZhFgSNfOP2Q=
+
+%URL%
+https://electrum.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1688270191
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python-pyaes
+python-ecdsa
+python-pbkdf2
+python-requests
+python-qrcode
+python-protobuf
+python-dnspython
+python-jsonrpclib-pelix
+python-pysocks
+python-pyqt5
+python-pycryptodomex
+python-websocket-client
+python-certifi
+python-aiorpcx
+python-aiohttp
+python-aiohttp-socks
+libsecp256k1
+python-bitstring
+
+%OPTDEPENDS%
+python-btchip: BTChip hardware wallet support
+python-hidapi: Digital Bitbox hardware wallet support
+python-matplotlib: plot transaction history in graphical mode
+zbar: QR code reading support
+python-rpyc: send commands to Electrum Python console from an external script
+python-qdarkstyle: optional dark theme in graphical mode
+python-pycryptodomex: use PyCryptodome AES implementation instead of pyaes
+
+%MAKEDEPENDS%
+python-setuptools
+

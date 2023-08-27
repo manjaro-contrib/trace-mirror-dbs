@@ -1,0 +1,74 @@
+%FILENAME%
+python-cle-9.2.49-1-any.pkg.tar.xz
+
+%NAME%
+python-cle
+
+%BASE%
+python-cle
+
+%VERSION%
+9.2.49-1
+
+%DESC%
+Loads binaries and their libraries, resolves imports and provides an abstraction of process memory
+
+%CSIZE%
+339936
+
+%ISIZE%
+2164403
+
+%MD5SUM%
+b6c0dfc76de3644c567ff0710cc3ebba
+
+%SHA256SUM%
+92cd990114cd8982c795efd06ba78725f483f0f0e4073e506e0344175c94d143
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmRYUGoACgkQdxk/FSvb5qbU2g/+KIRh942HrEIv3M86z6Qb2KdYCWWKXZ7zOrzoPA+N+E/W72y4fPbfxu8ofWxsisFOR0J13PSlG/rIQOnBQFmBXpFjk4ewXxWnRYas5TVNwJAfj8xyUA9rYF0+E/+YTKejup7JKzHA6rBeQ+Wy5/gmXn+tVGz5phX0QbqaWql7I85g5bYstJO/6LtfayNZIjVWL4xWqABZSulIW+M87+cr7S81HBYF9GGTmGjKfuS7t0YVspGRXIN5accTq6peILrkgvQAkOPF1uUNRNUPt5Ehe13wSCBaXFp7gwmrxlaQSo/VcOnqsiYexj8RPseCc6E3v2JuPxUOFXKuORJ/9moPJ3HTG+xSDFmEuu02QhyAHZTAzJDUwbxIgr3NNx+ItHbSD7Ysws7obk/MUVMlLS9t8BzspJDn7/niY4hBlcTIm9FWkIE041ZIgh0LWK5FkEcKaB9a9998W23yuUnkV/5zjZY29H0rgi4fmmSz1zSVGxtdy0l2P5t4l9PcaQTB3KPW+UdvOGPyZqxBbifIbYNn52Eps75jWJIBkau/HhYDCnuvMxJppigEAIOEMeRfze9AFqWfvRjRdi9Skh5qRm9xSlOVqqnvi3heINrVi9crdTNLseAiaeG9aORI63+t8uR/XNTp6qmjbIHReEttnxgpwmFSPnpZCHYPPGrxGfnVC4o=
+
+%URL%
+https://github.com/angr/cle
+
+%LICENSE%
+custom:BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1683509335
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-pyelftools
+python-cffi
+python-pyvex
+python-pefile
+python-sortedcontainers
+
+%OPTDEPENDS%
+python-claripy: symbolic constraints
+python-minidump: minidump
+python-pyxbe: xbe
+python-arpy: ar
+python-pyaxmlparser: apk
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+
+%CHECKDEPENDS%
+python-pytest
+python-minidump
+python-pyxbe
+python-arpy
+python-claripy
+python-pyaxmlparser
+
