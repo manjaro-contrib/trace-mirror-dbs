@@ -1,0 +1,70 @@
+%FILENAME%
+kio-5.109.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+kio
+
+%BASE%
+kio
+
+%VERSION%
+5.109.0-2
+
+%DESC%
+Resource and network access abstraction
+
+%GROUPS%
+kf5
+
+%CSIZE%
+8432590
+
+%ISIZE%
+30287289
+
+%MD5SUM%
+284cd3291560d039219d242ed5e56d45
+
+%SHA256SUM%
+e3af125dd0b3a33465bbbcb8f4fd4ec51347a819c0314a55dbea7a396fe6b6e6
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmTqb8IACgkQek52CV2KUuS0ZQf/WTfNANF94NKo2MQEdsmd94ZZBETPDEhqOm9NFtfJL5NhHmaX8x6sPugOTs8vC5cfSV0xdz0Wz/x+yhay8Nl6qmcLCGO0BSHsgb0RBRvsSXvtthNwCyHtsVfqhee1K71r2fecwsdV2OIMRjYpAJj9q4qXANjDQDpIaKdES+R6tDRerg6UhrRazuQvs6wi+7CkGfUerkZ++WQMnh8zXoBTbwFViSUs0rmrnC8/Flc3lBuDMMs1qIm1NshXGRutlgVnqQ1UMSY0lk5hDZbyDiKRBalrTHF/e1bFJnbltcqmBPvQofSoOvs8wEf+sD8KrzAPnQ6oY+ztbo5fd1IvmASuZg==
+
+%URL%
+https://community.kde.org/Frameworks
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1693085428
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+solid
+kjobwidgets
+kbookmarks
+libxslt
+kwallet
+ktextwidgets
+kded
+
+%OPTDEPENDS%
+kio-extras: extra protocols support (sftp, fish and more)
+kdoctools: for the help kioslave
+kio-fuse: to mount remote filesystems via FUSE
+switcheroo-control: hybrid GPU support
+
+%MAKEDEPENDS%
+extra-cmake-modules
+kdoctools
+doxygen
+qt5-tools
+qt5-doc
+
