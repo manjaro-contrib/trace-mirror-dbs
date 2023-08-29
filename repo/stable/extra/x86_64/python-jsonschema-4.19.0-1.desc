@@ -1,0 +1,84 @@
+%FILENAME%
+python-jsonschema-4.19.0-1-any.pkg.tar.zst
+
+%NAME%
+python-jsonschema
+
+%BASE%
+python-jsonschema
+
+%VERSION%
+4.19.0-1
+
+%DESC%
+An implementation of JSON Schema validation for Python
+
+%CSIZE%
+188082
+
+%ISIZE%
+1430503
+
+%MD5SUM%
+8a1a4f0c4055dcf6e4a09e34f51275d0
+
+%SHA256SUM%
+73157b442964dc9826a3c32b4fea650f126e9f83122b7006d1de3b7810d4ad00
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCZNRkbQAKCRDglZ/qi1UFOehRAQC6TRBnz+WLd7TYoFolxrU4RryItx9h5qHMQG9pWXGiEAD/fIJ8DdI4MFd0lCZnikZmYepzm9R6BmUF6wPOlHf+gAg=
+
+%URL%
+https://github.com/python-jsonschema/jsonschema
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1691640722
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+python
+python-attrs
+python-pyrsistent
+python-typing_extensions
+python-referencing
+python-jsonschema-specifications
+
+%OPTDEPENDS%
+python-isoduration: for duration format
+python-fqdn: for hostname format
+python-idna: for idn-hostname format
+python-jsonpointer: for json-pointer & relative-json-pointer format
+python-rfc3339-validator: for date-time format
+python-rfc3987: for iri, iri-reference, uri & uri-reference format
+python-uri-template: for uri-template format
+python-webcolors: for color format
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-wheel
+python-hatchling
+python-hatch-vcs
+python-hatch-fancy-pypi-readme
+
+%CHECKDEPENDS%
+python-pip
+python-twisted
+python-isoduration
+python-fqdn
+python-idna
+python-jsonpointer
+python-rfc3339-validator
+python-rfc3987
+python-uri-template
+python-webcolors
+
