@@ -1,0 +1,56 @@
+%FILENAME%
+wl-clipboard-1:2.2.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+wl-clipboard
+
+%BASE%
+wl-clipboard
+
+%VERSION%
+1:2.2.1-1
+
+%DESC%
+Command-line copy/paste utilities for Wayland
+
+%CSIZE%
+33061
+
+%ISIZE%
+127095
+
+%MD5SUM%
+cf443c9fa87f050105672f69e17ede13
+
+%SHA256SUM%
+b02611e2fce2a051fcc4774e9771c93c447b076c149870a57f1ad4c9506176b8
+
+%PGPSIG%
+iHUEABYKAB0WIQQ1uuG/mmsxcCHmkMJufOCwo22irgUCZO0tMwAKCRBufOCwo22irqMiAP9wQVbklBTtK0JClSLyo/FS/wGsd4aCpsGzS8ZDSHAlaAEA4RzX4y+srgKirC+wW+unM9uv7Z65UQdA52LhF0xzQQA=
+
+%URL%
+https://github.com/bugaevc/wl-clipboard
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1693265142
+
+%PACKAGER%
+Brett Cornwall <ainola@archlinux.org>
+
+%DEPENDS%
+wayland
+
+%OPTDEPENDS%
+xdg-utils: for content type inference in wl-copy
+mailcap: for type inference in wl-paste
+
+%MAKEDEPENDS%
+meson
+wayland-protocols
+
