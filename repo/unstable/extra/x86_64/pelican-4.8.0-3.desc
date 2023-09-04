@@ -1,5 +1,5 @@
 %FILENAME%
-pelican-4.8.0-2-any.pkg.tar.zst
+pelican-4.8.0-3-any.pkg.tar.zst
 
 %NAME%
 pelican
@@ -8,25 +8,25 @@ pelican
 pelican
 
 %VERSION%
-4.8.0-2
+4.8.0-3
 
 %DESC%
 A tool to generate a static blog, with restructured text (or markdown) input files.
 
 %CSIZE%
-624043
+624053
 
 %ISIZE%
-3774416
+3774418
 
 %MD5SUM%
-6b06945b7da8032423e0388b72baa74d
+4b153f698db854c20e93364a99a83e2f
 
 %SHA256SUM%
-851cfc8c81aaf5fb5acbf09a258a9a4d19ca85253914b1968165583658bc7b2f
+ab307fc5322ce9f422a3da35f28a99156866d459943e06cc2b90a35580aa0667
 
 %PGPSIG%
-iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmQ1qf4ACgkQek52CV2KUuS7GAf8CiFeevP4r1/wBT3urMSid7LFCM2MDGlBltTgO4pJTdJ0NZSDVEXZ755A/t8xnjFWlLB6Oa/vYlJ7XR05ZZhzWXITZ37epohI+FFlHLhbVneQuTk9CIvOfOEvwHZKMouO6OC+FboCciMDMXR7PdYABeqx2NMCrc2XZXEOMa3/fXd9YCg42YZOgJE+54lb/Ca9zbbu9LBVU8ZX1gr2Uvtl90aomBBKqktIsYZOdqH3zF43q4VqGEYAdGyUF181TEQc/knv4bQSncpIvO+ONPEOvkFyfKxERfquGH1ouG09c+ELbpPhjDgVvjWRldFjw+xX0Km+nf9eBADxgQiEQNBPgA==
+iHUEABYIAB0WIQQEzwzW9u6TrhiW9YQH0GNRylsxvgUCZPXr5AAKCRAH0GNRylsxvo1xAQCvV3KA6sunc0djfX5/SipoGpj4ql/wdioHtNpv5Y87YAD+NreACoiq0rvIXlGmWwwSLezqbVHO45ulhTZ2XBhwggE=
 
 %URL%
 https://blog.getpelican.com/
@@ -38,10 +38,10 @@ AGPL3
 any
 
 %BUILDDATE%
-1681238460
+1693837692
 
 %PACKAGER%
-Antonio Rojas <arojas@archlinux.org>
+Torsten Keßler <tpkessler@archlinux.org>
 
 %DEPENDS%
 python-jinja
@@ -64,6 +64,7 @@ openssh: uploading through SSH
 rsync: uploading through rsync+SSH
 lftp: uploading through FTP
 s3cmd: uploading through S3
+python-invoke: Task parallelism
 python-ghp-import: uploading through gh-pages
 python-typogrify: typographical enhancements
 pandoc: for pelican-import auto convert
