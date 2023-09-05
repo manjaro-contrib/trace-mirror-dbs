@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-mesa-780m-23.3.0_devel.177135.d31de04632b.d41d8cd-1-x86_64.pkg.tar.zst
+lib32-mesa-git-23.3.0_devel.177307.ca162bc82d5.d41d8cd-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-mesa-780m
+lib32-mesa-git
 
 %BASE%
-lib32-mesa-780m
+lib32-mesa-git
 
 %VERSION%
-23.3.0_devel.177135.d31de04632b.d41d8cd-1
+23.3.0_devel.177307.ca162bc82d5.d41d8cd-1
 
 %DESC%
 an open-source implementation of the OpenGL specification, git version
 
 %CSIZE%
-50962176
+50018464
 
 %ISIZE%
-167987574
+168094070
 
 %MD5SUM%
-9840ad5d699d62cc775c6b224a3bd3d6
+cb8ce5dde7c8e8aa2c3f715079b17afd
 
 %SHA256SUM%
-0c18beb80e4bec2f91e2f13d618ea3b1c68a5d8b992dfd0b0c916666af5f3ddd
+20194c4b9dd8a23a365c9e26b4d337e017c5f79ca85e351d7569fef06aa8511a
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmTvfMkSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+C3MIAIHOqT34IpYquHyT6bdbJB47D4Dwj9gi83VVm7u7RDd0nHcJG9187MGRDOL7VHCTDuz4OpfsncqTZZMQ/bMecFk6S6uNMASJZp1/YRUCMFAv54QoxCDF3Pxiz1dCMbd8FIpf9jLLQcs9vEpOzZfVfVNb2SYueclQV52hNsn8MtWjd03vtPBY6N91x4lBnmb1kczetF7PxpmhpfEATGJflcWCgMi6jCsdNKe2p1ZZ5CwmCyndVTmy7GNNw6y156e5A48Ls5kYiVel75s52L70zIZUV91hXAxAJ2A5RXqf7g8+XHBSTg6UqSRCyicDlVXpXfLWJlhwSP4ek8mrlo9Mipk=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmT241ASHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+vzYH/iu6ggUaUmInapgFOc++vsMrTl3upHlQWpZAS5BRVecVqisED9HtZyIPmA3xTIyUeU255NkcyYELMo/sSM0llBrZOdl1jwXH5e37V8PulGUh2y3nNQIoO4ZHewdnAZVqtE6xJpbN2mq9skkRoy0k/WX3n0AQyqShqueAfteZWOv/TbnczuUHb0oinppfhIdR9sCP/rB65IsSoa8BtA1nnddMxqLLVw1nzvtBMYRPMm1DFYXhNbIrEivvHvCoPGgUzyHuVPCGo2Hmy1vTC7OtHkiOssbUwMFHG4ggp5jm4XkcgENXlBBOO6r2hwVKO56yvXosZ4GP7o9SjRODoY4HosA=
 
 %URL%
 https://www.mesa3d.org
@@ -38,13 +38,16 @@ custom
 x86_64
 
 %BUILDDATE%
-1693409199
+1693896216
 
 %PACKAGER%
 Philip Müller <philm@manjaro.org>
 
+%REPLACES%
+lib32-mesa-780m
+
 %CONFLICTS%
-lib32-mesa-git
+lib32-mesa-780m
 lib32-mesa
 lib32-vulkan-intel
 lib32-vulkan-radeon
@@ -54,7 +57,7 @@ lib32-mesa-vdpau
 lib32-mesa-libgl
 
 %PROVIDES%
-lib32-mesa-git
+lib32-mesa-780m
 lib32-mesa
 lib32-vulkan-intel
 lib32-vulkan-radeon
@@ -66,7 +69,7 @@ lib32-opengl-driver
 lib32-vulkan-driver
 
 %DEPENDS%
-mesa-780m
+mesa-git
 lib32-gcc-libs
 lib32-libdrm
 lib32-wayland
