@@ -1,32 +1,32 @@
 %FILENAME%
-mesa-780m-23.3.0_devel.177135.d31de04632b.d41d8cd-1-x86_64.pkg.tar.zst
+mesa-git-23.3.0_devel.177307.ca162bc82d5.d41d8cd-1-x86_64.pkg.tar.zst
 
 %NAME%
-mesa-780m
+mesa-git
 
 %BASE%
-mesa-780m
+mesa-git
 
 %VERSION%
-23.3.0_devel.177135.d31de04632b.d41d8cd-1
+23.3.0_devel.177307.ca162bc82d5.d41d8cd-1
 
 %DESC%
 an open-source implementation of the OpenGL specification, git version
 
 %CSIZE%
-53558364
+53607178
 
 %ISIZE%
-175476211
+175586803
 
 %MD5SUM%
-de36c0303e0417ede9304a6d629c808e
+59c2a9a9cde2d2b7d1dec5519b867947
 
 %SHA256SUM%
-0d6d6e6a21cbf7062380b9824f653ac2443c9c613b1c59c9045e5a6ffcb7c9b8
+2882c87b5ae4346ec0c8c38396891a58a18b71f74a7f39e95c51e2c64179425d
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmTvXYcSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+TCkIAIGtJCmQsxAnqqt5hanD5ZAFY5xdm9zJerReUEK3UQLvDaU4EM7puYoSYV1n0EgqzdFzeHpiHAjaAXG9qRHnzB2JjF67zwkr12uVxh2aq9RZytH3HTCdtmljWEhq0zEzeRWNhuL6eIckO+fhre35prZaIw2eCsbMOFiJHrsl3cichgXWQv0Ij/BK2pMMlD7aunXXaVXOvSUhpu5b2S8LQGLlfaGLx4BY4KuQ3t+EFaxdn3fXccTsVLtW3jxSoxYJ7VbCZ6T2z+HgiYXHDpPDDrZQMg2E0nE0nBc8ID5wH5CDoB9HTiwD+LUQEbgtVNybGZQbIOjhlT2AtAZGdXGYvU0=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmT2zNISHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+R/4H/3uZCvb3vk++6u+hNCi5VwYWVKr8qqylf1Mih776y5r36+Eu2+xk1bGUV4OjRbpLi+l/0xO6FYvehU4MKINSpTwHXNg6Jvla2r4QWdWIMWpIFSCjgzjhJxyoSnmkEYZNq1gj5J+Y97YDeCmS2X2S4Ku55I3oaqsU3TrcDfyubyGPEGL+II2tzjOM8Kb+n9CotLwfMnq+5zET3E0+/fo7V6PDAJgNdw28rZzmCK+tqu/FSEPPnzaYvWswZ1ibOWY8FxRU2WBQZEMail00ZaKDaBK5VpdyDAI25RM61PUnKbdNELTtQBl6zilBwaGwqtkosyAbFhCeqAgNSH37uFR/SBQ=
 
 %URL%
 https://www.mesa3d.org
@@ -38,13 +38,16 @@ custom
 x86_64
 
 %BUILDDATE%
-1693400594
+1693893144
 
 %PACKAGER%
 Philip Müller <philm@manjaro.org>
 
+%REPLACES%
+mesa-780m
+
 %CONFLICTS%
-mesa-git
+mesa-780m
 mesa
 opencl-mesa
 vulkan-intel
@@ -56,7 +59,7 @@ vulkan-swrast
 mesa-libgl
 
 %PROVIDES%
-mesa-git
+mesa-780m
 mesa
 opencl-mesa
 vulkan-intel
