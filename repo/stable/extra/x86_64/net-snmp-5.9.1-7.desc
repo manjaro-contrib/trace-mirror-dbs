@@ -1,0 +1,60 @@
+%FILENAME%
+net-snmp-5.9.1-7-x86_64.pkg.tar.zst
+
+%NAME%
+net-snmp
+
+%BASE%
+net-snmp
+
+%VERSION%
+5.9.1-7
+
+%DESC%
+A suite of applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both IPv4 and IPv6
+
+%CSIZE%
+2108987
+
+%ISIZE%
+8979428
+
+%MD5SUM%
+5ea36a8bebd5624b44801dee3b37ac28
+
+%SHA256SUM%
+ffda1f58f14998840fe4560d4a26bd28c5773ad7ad585e5c8654adc25d8399e1
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmS/QcsACgkQeGxj8zDXy5JSMg//djd/opvMJ+DI166Ralrx4Jv64TiwG1cUQGKC64lpTfUP7BZ40J64nOfPfEy5asDEmfINABCDVHr+2DSIGfSIksVQ1zTo5HVHcmswlUnI2sOc+EuEDdAwkgeMd702vWJiEZZzvQ9umj8d8dc0ad4OyDW/v1Ky3R6l9GiKVoW4zQZbee3ndVWZF4WK70LcRc8H1mrJf89cut84BESvoM2ltiuwyRjoY9MS1DOLQx/YlF4vml+H8iTwuqACWkRg6YLvxaexxIWGsR/+kwF1n4chglOT8s0vXBpTGuh8PMX0Jz4RcjXT1tVjjmCPIKyl2VN6EIQxznTCBQWeANrY4+DcK1/Crthv2EVlm2Ltqi7BWoaco9k1z+AAubC2V23stWHWcY0ZO7JjBf5Fjrz7SzfTokOh7NQH/5bzTOL9cmQ9WXQ5GbGKvgxafvq9/5/94FYV2n6eYK+iDm+okU4qLiuHRvOSrvhoS1rmq+Apn1Ee7TiuUy+sK98VhjKTXujrscEIbViljJe1xcBuwLFJWoCR11+rtCJmc1STUWESppuGZscfM9qpCzOqoSyGuHmNEF16geQ0Nn+OCaPzATuPGnbM4wjqOrcD2TCuIK0vLNywBxQZ98RWUtM/PduFke37ja3SYabHgYNipy8PFephSqvEdTVguLYmQACOmuzc+qENmh0=
+
+%URL%
+http://www.net-snmp.org/
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1690255504
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+libnsl
+libpcap
+lm_sensors
+pciutils
+pcre
+
+%OPTDEPENDS%
+perl-term-readkey: for snmpcheck application
+perl-tk: for snmpcheck and tkmib applications
+python: for the python modules
+
+%MAKEDEPENDS%
+python-setuptools
+

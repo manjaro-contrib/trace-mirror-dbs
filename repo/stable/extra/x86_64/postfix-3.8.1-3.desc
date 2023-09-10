@@ -1,0 +1,93 @@
+%FILENAME%
+postfix-3.8.1-3-x86_64.pkg.tar.zst
+
+%NAME%
+postfix
+
+%BASE%
+postfix
+
+%VERSION%
+3.8.1-3
+
+%DESC%
+Fast, easy to administer, secure mail server
+
+%CSIZE%
+1422089
+
+%ISIZE%
+4640937
+
+%MD5SUM%
+5d933d2acaa46729cdb670b8ee4c9d1f
+
+%SHA256SUM%
+135d776827f6b66bb891f821f002764ec6d98d7cad3ab8d9075b6eba2ce1dc9a
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmSPBvAACgkQlGV6sg8qCSuwoQf/R7Cm8lOVV+2tblEAZpgWYT4HOPjbmvYvi6pWvGqE7AVQ6ug83pP3lNvE03Y2k0j58PO74XwQ6AEeKFOpmcutJ8J1RctVYH3haqnHNz+XMp67TLAsKAw5irVZKCT1Kl0zM9cm1M48YGV3XaFxF6r5461UOWG2adYvfSFPfWmQ4sroVxi6kRKOw7aIUeC+GRqRyLXhC1sVMEclecgkPX3EO41PU1PpxIQYTH5vuuhK0aLSc9ZIaVzaj2vLQbiDs3sy3MwOOUSi8jhG9KHyd1DU4uaVmKh6WTgS93WnuqSWDbsUYSW5KLQyr1DL57GhGQxeYeeW2udP2vNsMadxvTHqlw==
+
+%URL%
+http://www.postfix.org/
+
+%LICENSE%
+EPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1687094538
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%CONFLICTS%
+smtp-server
+smtp-forwarder
+
+%PROVIDES%
+smtp-server
+smtp-forwarder
+
+%DEPENDS%
+glibc
+db
+icu
+libicuuc.so=73-64
+libnsl
+libnsl.so=3-64
+libsasl
+libsasl2.so=3-64
+openssl
+libcrypto.so=3-64
+libssl.so=3-64
+sh
+zlib
+
+%OPTDEPENDS%
+perl: for postfix-collate.pl, postfix-tlstype.pl and qshape
+postfix-cdb: for CDB integration
+postfix-ldap: for LDAP integration
+postfix-lmdb: for LMDB integration
+postfix-mysql: for MySQL integration
+postfix-pcre: for PCRE integration
+postfix-pgsql: for PostgreSQL integration
+postfix-sqlite: for SQLite integration
+
+%MAKEDEPENDS%
+db
+icu
+libldap
+libnsl
+libsasl
+lmdb
+mariadb-libs
+openssl
+pcre2
+postgresql-libs
+sqlite
+tinycdb
+zlib
+

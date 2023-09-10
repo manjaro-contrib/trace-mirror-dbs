@@ -1,0 +1,72 @@
+%FILENAME%
+neovim-0.9.1-3-x86_64.pkg.tar.zst
+
+%NAME%
+neovim
+
+%BASE%
+neovim
+
+%VERSION%
+0.9.1-3
+
+%DESC%
+Fork of Vim aiming to improve user experience, plugins, and GUIs
+
+%CSIZE%
+6403616
+
+%ISIZE%
+26322457
+
+%MD5SUM%
+0d59655c66e18bcbade873a81946ec6a
+
+%SHA256SUM%
+57665b5e51dee04a95cab2799b9af40d301fd99994ae1a3c32f2c94e9448fad7
+
+%PGPSIG%
+iQIzBAABCAAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmTFyD0ACgkQOeS4d+YuuRU0rxAAxWgl1DPC8RlgZ2umuxwKi0vYPFaJilw43sdlCJxgYHEu1S+sW9YxVh4RDVXSOB79QV4tfsjK6fq1mHruIYlv+hjo1a5SiNLKDHsgWSzK80B3ozKcPTIEWm9JTcijgLgW3+2CZuqt+xcYO/D18rt3RnPKf4g3ULLojt/bk78z6cDPmJZN4XX/UWGrs+bL6j0ToHEty+FPUyynENYC0SRbxN+e1c9X8RhDT5ck004VJc2IsSqFCCxzCsaRrjc1gOacCQupqPuR3uCJMRLU3MIvvuctb9TEbN9kn2bROq7ImJyE6jwORwQzK3EQJjZI7B//N5WR/DJXJnwuC7WqO3sNcL9ZgT73wRM9b7wuJngVQPsI2Nf5TkycwXx2EXlFK9c0pajslx9KG4GjXdsZVFGG3ZfeUMOWkR+iXS3dotHwCh+Yj6PjcFU4gh30O+trAP+G6JfDVVFHM1JQqcTyTE078K0x4tdWISPqlWxkLvN+KYTIl5cmkCD/ccB+wBL8b23Pl0oKPqgkkU/qGNLDUe4wllmhgNBAEYjS89r8wF2RpI7mGK3eIzBzRsIRCdTWFgNuQZysAHsOSUpwxyjCJ9VQDmh0udL8dCTIoeSEqdLnfbdbsdh9SnyRuC9aNcBF/RUQlM/+eVrXGgXccikLXmJk/OUDtsvHMUayUII/c7xFh04=
+
+%URL%
+https://neovim.io
+
+%LICENSE%
+custom:neovim
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1690683364
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%PROVIDES%
+vim-plugin-runtime
+
+%DEPENDS%
+libtermkey
+libuv
+msgpack-c
+unibilium
+libvterm>0.1.4
+luajit
+libluv
+tree-sitter
+
+%OPTDEPENDS%
+python-pynvim: for Python plugin support (see :help python)
+xclip: for clipboard support on X11 (or xsel) (see :help clipboard)
+xsel: for clipboard support on X11 (or xclip) (see :help clipboard)
+wl-clipboard: for clipboard support on wayland (see :help clipboard)
+
+%MAKEDEPENDS%
+cmake
+git
+ninja
+lua51-mpack
+lua51-lpeg
+unzip
+
