@@ -1,0 +1,101 @@
+%FILENAME%
+imagemagick-7.1.1.15-2-aarch64.pkg.tar.xz
+
+%NAME%
+imagemagick
+
+%BASE%
+imagemagick
+
+%VERSION%
+7.1.1.15-2
+
+%DESC%
+An image viewing/manipulation program
+
+%CSIZE%
+7868640
+
+%ISIZE%
+21553320
+
+%MD5SUM%
+d5a3b3f2dce12d981a568b001af36762
+
+%SHA256SUM%
+ba63a43256815e02c272269932bb60d7ef7e22884f78297200e97ce1ab882ab7
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmTRSg8ACgkQdxk/FSvb5qZTpw/9FocACuhF3h1/Q1b6tkU8tEJo2glBHCI6ZwUPxy6BGx9f2ciWJ0FhhnGYAL8hI5sAm2dqH+JVmharDd1s5SWrXkFzgvPQ1aRNVAGyvTBeqjheRSFa+FI7s8nubr8OoH5OdJU5bSYK8A8fHQ8NaozQDMU2SJbpVqVWYdiHBKaj2j34tiiptV0IhkwfBG4nTWwfyyiE/DgF2PYUAM62OstFQm5XiR0IxqbgTbWn3Fm/zkrupXn0VxQvLa0RmVAkvw2w35yNrWKXi/CJQTflJ/0enVDS6JLm3YtvQODdK3n/aVP1tXlsd0FLvZdcrsyDrEqyK171qp+BfT4x8lIckjBhg3Pov22QxT8UqVXDX00Af06hpP2YahIsO4dSKkjTmKy/VZGkPJVvkrD89cgtgMWXiYm3xfhlQFrIIJr6wIneu1DpOXIo0jejidC9gVNFFeb/XbAczX9oujaVdRqu/ADp4tpjqCXZU9ChKypQZkWPuM+7sbICEjKsGLYFXxN//qWESSz69FctUHOZJp+MYrLqLibsKTobWwTlRfdxZ/a08zSkerI0zxbId19Oy1pCHku87W10Bfxys0Kc98Blu5xTURypZeJvmOOQEr7t63kKHOpowQafXlxyPbNLoKnQWBILDUiUM/944xeeRI2kV13I00iOdPWgZNJV39zULL6iNWs=
+
+%URL%
+https://www.imagemagick.org/
+
+%LICENSE%
+custom
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1691437376
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%REPLACES%
+imagemagick-doc
+
+%PROVIDES%
+libmagick
+
+%DEPENDS%
+libltdl
+lcms2
+fontconfig
+libxext
+liblqr
+libraqm
+libpng
+libxml2
+fftw
+
+%OPTDEPENDS%
+ghostscript: PS/PDF support
+libheif: HEIF support
+libjxl: JPEG XL support
+libraw: DNG support
+librsvg: SVG support
+libwebp: WEBP support
+libwmf: WMF support
+libzip: OpenRaster support
+ocl-icd: OpenCL support
+openexr: OpenEXR support
+openjpeg2: JPEG2000 support
+djvulibre: DJVU support
+pango: Text rendering
+
+%MAKEDEPENDS%
+ghostscript
+openexr
+libwmf
+librsvg
+openjpeg2
+libraw
+opencl-headers
+libwebp
+libzip
+libjxl
+chrpath
+ocl-icd
+glu
+ghostpcl
+ghostxps
+libheif
+jbigkit
+djvulibre
+
+%CHECKDEPENDS%
+gsfonts
+ttf-dejavu
+
