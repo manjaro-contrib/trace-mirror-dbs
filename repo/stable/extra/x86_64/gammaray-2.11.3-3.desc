@@ -1,0 +1,71 @@
+%FILENAME%
+gammaray-2.11.3-3-x86_64.pkg.tar.zst
+
+%NAME%
+gammaray
+
+%BASE%
+gammaray
+
+%VERSION%
+2.11.3-3
+
+%DESC%
+A tool for examining the internals of a Qt application and to some extent also manipulate it
+
+%CSIZE%
+4021312
+
+%ISIZE%
+13389226
+
+%MD5SUM%
+86b7ee637503aec83eab9b87e38905c5
+
+%SHA256SUM%
+8ad99d4026b4d7213f6dfb967bfbea4ef1696eb62bb6eebf8403ba902d98364f
+
+%PGPSIG%
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCY7MZCV8UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCpcbAQCz81eyWMgbnGWMMfvAW1TX6NPn/kguGjDhG1qPROoTbgD9H64Mmmz6qrsMUgRRht8obDiC27HLriF1mhSQzUdhYA0=
+
+%URL%
+https://www.kdab.com/gammaray/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1672681491
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%DEPENDS%
+syntax-highlighting
+qt5-tools
+qt5-svg
+qt5-3d
+
+%OPTDEPENDS%
+qt5-wayland: Wayland compositor inspector plugin
+qt5-webengine: web inspector plugin
+qt5-scxml: state machine viewer plugin
+qt5-connectivity: bluetooth plugin
+qt5-script: script engine debugger plugin
+kcoreaddons: KJob tracker plugin
+
+%MAKEDEPENDS%
+cmake
+kcoreaddons
+qt5-script
+qt5-wayland
+qt5-webengine
+qt5-scxml
+qt5-location
+qt5-connectivity
+doxygen
+glslang
+

@@ -1,0 +1,80 @@
+%FILENAME%
+mkinitcpio-36-5-any.pkg.tar.zst
+
+%NAME%
+mkinitcpio
+
+%BASE%
+mkinitcpio
+
+%VERSION%
+36-5
+
+%DESC%
+Modular initramfs image creation utility
+
+%CSIZE%
+60609
+
+%ISIZE%
+147924
+
+%MD5SUM%
+c1dd3b6e371dc8ce1b495e54754a6d33
+
+%SHA256SUM%
+a2a558ab7971130ea9acf17b904c2c344718d1b46d82452aa1797d2fd8c748f7
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmTOXBkACgkQFQwgB0PtRtiEoAf/eTbHM3UL1JmsPmc4YL0UKWxIGR4bFZtjfoHlW28GgObiuErNZuI/XyJ0NzAk3n8MSFqS/6NLWaKO2fibB2woHRMireXKZdIMUtq/hUz/ajmdF+ag7CF+ziDTJhg+9ThxOXoQhJoOtpnRBRgjS6jO1YfrWI/zibVXhpd9poYFpGwRYueis3JrH/OpZ21Cn0GELfvWulvqXyzjg++c4YQffhjcwZlyCwgCF9A9OdRqE2KNBH7kI8QrRxncfwenMYKfTv1yvUWPyl/0W+ML+uvdXH+Jk3Oo9HsWvzPDJSHSZ5VFodjfq0um6uKNsheLqRD498EQwXf0zIBjQxbFOA3jig==
+
+%URL%
+https://gitlab.archlinux.org/archlinux/mkinitcpio/mkinitcpio
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1691245291
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%PROVIDES%
+initramfs
+
+%DEPENDS%
+awk
+mkinitcpio-busybox>=1.19.4-2
+kmod
+util-linux>=2.23
+libarchive
+coreutils
+bash
+binutils
+diffutils
+findutils
+grep
+filesystem>=2011.10-1
+gzip
+systemd
+
+%OPTDEPENDS%
+zstd: Use zstd compression for the initramfs image
+xz: Use lzma or xz compression for the initramfs image
+bzip2: Use bzip2 compression for the initramfs image
+lzop: Use lzo compression for the initramfs image
+lz4: Use lz4 compression for the initramfs image
+mkinitcpio-nfs-utils: Support for root filesystem on NFS
+
+%MAKEDEPENDS%
+asciidoc
+
+%CHECKDEPENDS%
+bash-bats
+bash-bats-assert
+lzop
+

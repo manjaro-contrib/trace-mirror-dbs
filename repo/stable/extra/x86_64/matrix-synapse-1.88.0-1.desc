@@ -1,0 +1,107 @@
+%FILENAME%
+matrix-synapse-1.88.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+matrix-synapse
+
+%BASE%
+matrix-synapse
+
+%VERSION%
+1.88.0-1
+
+%DESC%
+Matrix reference homeserver
+
+%CSIZE%
+4016209
+
+%ISIZE%
+26610137
+
+%MD5SUM%
+6ebbf85253858f8ce048c4536f563c74
+
+%SHA256SUM%
+ca880c0daae2b38d0812cfd3bca92dc7ce9d4e4e0f0bccc2638828c1d57c2fdb
+
+%PGPSIG%
+iQTHBAABCgCxFiEE5VD//9SF4mShcX4wkBwcMg6w1F0FAmS25hRfFIAAAAAALgAoaXNzdWVyLWZwckBub3RhdGlvbnMub3BlbnBncC5maWZ0aGhvcnNlbWFuLm5ldEU1NTBGRkZGRDQ4NUUyNjRBMTcxN0UzMDkwMUMxQzMyMEVCMEQ0NUQzFIAAAAAAFQAVcGthLWFkZHJlc3NAZ251cGcub3Jnam9oYW5uZXNAa3lyaWFzaXMuY29tAAoJEJAcHDIOsNRdKu8f/0OM8j4tAUjHkDwKTlzo0ihkQ8PNzBC89lw8WfmU28kQZrsXiZaBRXxKB/TZaT/Fa767qDb5Yi8uoo6I6/NWlxmabCqk19OhiT7kKtxmkh1QW1JLuNLkFrFS2mSGkm/2HB2522WyH2dEOJfvTczzRSNbJEKjk/S0nIVqW7YEQ1AkQzPVSwOZwXR6xmzhZVfV8OsmHzoGIY7LfVGxURzQhkKxnN1vBMkuTj1rGhoY9SUSmOPoNnRRX3ZHD7O2WE8l40OY2YMb0zHWvUUQXreHmpCyW7woVw0xdt9TiHS2EC3ZNhzNj2hjQwQ71joVxDZG3Pv/H9Td9XbvMHkIx6r54zv/GW49Feqj2MNgTzaAdzDFIan8WdNRY8nqThWcQnosj73aQEcbZkU7+MCCq/aAq6xB5N5opeTX+xS15mrnqz4U3sfJPtb4PpB5XcXCVGU0dOP9HD7SW/NkLxQ6A7Ugf18GfNW9vU5sOLe4l9ngLxTOUELb2l3SmA+5a+hubGmCahFZobe8QxspRbWJaCUjok3GW3/ELDyw1KFNnf22O9AzQm/ws1C0dAHDy6kq1XnnjROrYPqnVK2yo7tB7MHHUnVdbxU5WXOFrrqHoLFeK8xymNfbBF2BJ+0EV5iaUN2hDFWjAaeTwrWhT8ufMDQO8CaGyTwN1NA8yXSWh9janAEygFBDa6yB+kbyO0D6kSYakxHKR5BuOMyzR71jpCIeiFB0ducZek7vfwWwsrr9lNdcjBWvwY4z78zW8SQ3MhmwD8JpzUMdDk1kmcdfmHSIOHXivgMDtsys8ByWNhR+Y91MB56x2zSjc4LwP62dka2GAnvtW6doC7UZ5jX582vg0pu3NdRDJdM2FsPi6k5aciran2sT4pu4J+xn9a+Yqe1uUSsxVjwWa/vFT2kDqB3DZjVGUBghAkSUWDpSHF0dzPXdZvj2/Qi3HYNiUJUOtP2cNmdy8zDNUjQrjvqPO73gTUrndBsq2trf7BRrvux+tRTgWzzLb7QSqRBWQ0X8ha2EsVdbgZ1sPbihAtSUYKAIIXll+iYE8fqcg6vXyan4B/lyuI5+8KZyPzTOxiohd9sH72vV9Tf1IRURPUaFod1V+D4TaW8V7qtIZl5dBGan6A4D87gKAY4vjUP73BJh1k20aP3WPvMlTtOK0hKZZKPXDIHr72ShMP8Mu3SRAg0AyBiI1AxeEFk3Wa5fezHdLW5JuHTr/75rHS3ngF8BVJZuqVzLaae1sJTsXnaUjNJTmC2dAgdkETvNW3oDEuxwhF4lj3KjstILodyCzzVsFzrB49sdMDCkUKg8DByAtLLNxBFM+lAkUOQMA/ghxsT5d7U6cbe9lEF/JA9/7YFKOtJmMEs=
+
+%URL%
+https://github.com/matrix-org/synapse
+
+%LICENSE%
+Apache
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1689707529
+
+%PACKAGER%
+Johannes Löthberg <demize@archlinux.org>
+
+%DEPENDS%
+libwebp
+python-ijson
+python-jsonschema
+python-twisted
+python-pyopenssl
+python-yaml
+python-pyasn1
+python-pynacl
+python-bcrypt
+python-immutabledict
+python-pillow
+python-pysaml2
+python-systemd
+python-unpaddedbase64
+python-canonicaljson
+python-signedjson
+python-pymacaroons
+python-service-identity
+python-msgpack
+python-phonenumbers
+python-prometheus_client
+python-attrs
+python-netaddr
+python-sortedcontainers
+python-treq
+python-idna
+python-jinja
+python-matrix-common
+python-bleach
+python-typing_extensions
+systemd
+
+%OPTDEPENDS%
+perl: sync_room_to_group.pl
+python-psycopg2: PostgreSQL support
+python-lxml: URL previewing
+python-psutil: metrics
+python-pyjwt: jwt
+python-txredisapi: redis
+python-hiredis
+python-pyicu: Improve user search for international display names
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-wheel
+python-poetry-core
+python-setuptools-rust
+
+%CHECKDEPENDS%
+python-pip
+python-authlib
+python-pyjwt
+python-lxml
+python-parameterized
+python-txredisapi
+python-hiredis
+postgresql
+python-pyicu
+
