@@ -1,0 +1,72 @@
+%FILENAME%
+openssh-9.4p1-3-x86_64.pkg.tar.zst
+
+%NAME%
+openssh
+
+%BASE%
+openssh
+
+%VERSION%
+9.4p1-3
+
+%DESC%
+SSH protocol implementation for remote login, command execution and file transfer
+
+%CSIZE%
+1167489
+
+%ISIZE%
+5124994
+
+%MD5SUM%
+3c09b788c3924693621c550b4de59b83
+
+%SHA256SUM%
+a049917df7970489dd20d4bd03c358f73bdb313a98117b411c478ed7e0e4842d
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZPcISgAKCRCbeih9mi7GCMI8APwKSxKWfSW/OFlp/sPj5oCi/N76YwTMzQdY7bfUX69TJgD/TFvgUQl0SifnFlTeDH6UD/Ozjos47dpZOP+P0KFFkgY=
+
+%URL%
+https://www.openssh.com/portable.html
+
+%LICENSE%
+BSD-2-Clause
+BSD-3-Clause
+ISC
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1693910875
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+glibc
+krb5
+libkrb5.so=3-64
+libgssapi_krb5.so=2-64
+ldns
+libedit
+libxcrypt
+libcrypt.so=2-64
+openssl
+pam
+libpam.so=0-64
+zlib
+
+%OPTDEPENDS%
+libfido2: FIDO/U2F support
+sh: for ssh-copy-id and findssl.sh
+x11-ssh-askpass: input passphrase in X
+xorg-xauth: X11 forwarding
+
+%MAKEDEPENDS%
+libfido2
+linux-headers
+

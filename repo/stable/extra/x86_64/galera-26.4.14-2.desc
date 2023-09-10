@@ -1,0 +1,59 @@
+%FILENAME%
+galera-26.4.14-2-x86_64.pkg.tar.zst
+
+%NAME%
+galera
+
+%BASE%
+galera
+
+%VERSION%
+26.4.14-2
+
+%DESC%
+write set replication (WSREP) provider for MariaDB cluster
+
+%CSIZE%
+1235394
+
+%ISIZE%
+3657910
+
+%MD5SUM%
+7d4cb24442f5151408df99766f4dfb47
+
+%SHA256SUM%
+dd8faa4eb6db52487655e0433f2104a4c1bcb7cb897ebd10f954f993db5a8597
+
+%PGPSIG%
+iHUEABYIAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZPCFjwAKCRBtQr3RFuAGj0j8AP9fE/3QHK9ad2hth+bGOTjLnYE6fCy6yHhEoq4HtnOepgD8CpSldT48StxCV6q/zIoWJAHELgBFIfrLi61Va2Xd0g8=
+
+%URL%
+https://galeracluster.com/
+
+%LICENSE%
+GPL2
+custom:OpenSSL Linking Exception
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1693484300
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+mariadb
+openssl
+
+%OPTDEPENDS%
+rsync: State Snapshot Transfers with rsync
+socat: State Snapshot Transfers with mariabackup
+
+%MAKEDEPENDS%
+boost
+check
+cmake
+

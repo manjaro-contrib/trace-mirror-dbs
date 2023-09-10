@@ -1,0 +1,62 @@
+%FILENAME%
+fio-3.35-1-aarch64.pkg.tar.xz
+
+%NAME%
+fio
+
+%BASE%
+fio
+
+%VERSION%
+3.35-1
+
+%DESC%
+Scriptable I/O tool for storage benchmarks and drive testing
+
+%CSIZE%
+6416132
+
+%ISIZE%
+10768504
+
+%MD5SUM%
+1bedb44d204d5c9f8b147c0909dccc88
+
+%SHA256SUM%
+418864e38bc68efe7fcda499b4dc86ff2fe9090abf081d46e15d168f6920de58
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmS1zUkACgkQdxk/FSvb5qaS4Q/+KzK4nqTjO0JuxcusBBvosFNjrIsIa5JLbbI4O/E4ro55yKmhQQtZf6RYVNcPfQkTysQvM8v/OEbX1h398nFJ59BZd6nQuX+WAdMtoUWT6yIjsPH9u9/L/TFNXYwmylIEs+wLiF22T/G9RzBOBrmNFneYpwYxtr05EcFM7Fep1FkhWXFBpD+GpC1H8h51zXuGc4uh7xoyvilKO0mEgftW/kmpWbsV1k/X3B6swXA18THgLxVi45E+bqvtQ7Lkt/1892U/uCdxo5aXAblCOzoR4Q8dLweexeTOUSWCdf/1eI9gZPaLAuXkKwIyEdiQPONsSDff+yVhUSZoL4I/9Ccl0iiVrr3VOUyT9nvq6emaXb08HQyxnOyY62STodg7NV7wG4bdyu0WpuHiWNkRWE0cTyr2y/ouyQBLQSVJJMF/Knay7JyQMs6r0UGcFlgfGPaYk0R1Ge/s5BZbs8LXN7cB0wKZPhQ0zaK/pUmayhKYCN0tCTnY24Wtc1+qjZEPIqCyTSUIMRWrB5qw0e0rvqP0THLR53YqY4hqxYrKfGPxSOYp9KPMl3Lc52JavQQ6HNW+AyV6/7NLaVtjtZdpZwhSgmyCBaKNNle/MnB/ANVhvuPN9lL8ooB8yZuwgnTmIWjAVTyriBHSC4oMhblqJG+KDvD3ZZW6Pj8rhhc4J/cT/bg=
+
+%URL%
+https://github.com/axboe/fio
+
+%LICENSE%
+GPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1689636105
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+bash
+libaio
+python
+numactl
+glusterfs
+gperftools
+
+%OPTDEPENDS%
+gtk2: for gfio - fio GUI frontend
+curl: for gfio - fio GUI frontend
+gnuplot: generating plots using fio_generate_plots
+
+%MAKEDEPENDS%
+gtk2
+curl
+
