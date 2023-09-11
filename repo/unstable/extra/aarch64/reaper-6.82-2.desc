@@ -1,0 +1,77 @@
+%FILENAME%
+reaper-6.82-2-aarch64.pkg.tar.xz
+
+%NAME%
+reaper
+
+%BASE%
+reaper
+
+%VERSION%
+6.82-2
+
+%DESC%
+A complete digital audio production application for computers
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+10391604
+
+%ISIZE%
+111497439
+
+%MD5SUM%
+0f0bb5d3cb098cb3044434c65343669b
+
+%SHA256SUM%
+e294828ab54381570fc205adfc41a41ef0047000f3ce73af669113bb3161a4bb
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmTzdScACgkQdxk/FSvb5qZ/2A//eX6Ve8aVAdXuhebFNqTUXDRqMkqSaPtWPuOxBcbmCoTaZtvQf5Inknd/yYiU0h+8AAa5nqcpc1pPcISwFRt6fo6ch5dUJrGiuTYf3gQwvCEiwtscYXqahsZc//kn6zsX19FEjXib0q9cOWdmHNGMQLY4PGpid9+EjFbQyuLrolB03D5PRfnCtKEnc+hGhg5C5J0xflZ6ckQWBG3nDBTDCYEfx/hANDsuC+NpiSizOUf9Z2SYM3ucv2HO/17U7i68YLqvEXOQ2CQOINtFZYugC3nz9dfl1wtS7N+IiCuUGXVVhSn9hB+uBWMRYuPfeRiZV2GI3CPoSvOX2ePzOAqdlq85u6bs9/mwQbjMgeeA7EJIv+uZYqsHypqcaIZSse8FRHpScseHRv30rgwru4nySvHnMH3vXGJKAY/mETaGqGnpY9ItJC1janHuzcM00f0B97roUOVbTUSfulJ5216rrfnl5UwzBIXjn046I41aoBhLEPKgPg+BJigzM3VAgxGUp69gY5k/5hX22/F0vNJvDjz999k6S0JfWS+xiG6nWosnF7OhXVzJa2Z6zjjLTpccWQT4qV/GcO3BatBcSDCat3hW+1txAq6CHmNH90CjT33zA5R6ePXGpehEnY1jD9Dc9KxyELjNb6HqPLcspy7DuP80Pchtf1zhmpVaimS7QAU=
+
+%URL%
+https://reaper.fm
+
+%LICENSE%
+custom
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1693676720
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%PROVIDES%
+clap-host
+lv2-host
+vst-host
+vst3-host
+
+%DEPENDS%
+alsa-lib
+libasound.so=2-64
+fontconfig
+gcc-libs
+glibc
+hicolor-icon-theme
+libglvnd
+libx11
+libxi
+
+%OPTDEPENDS%
+ffmpeg4.4: for video rendering
+jack: for JACK support
+pulseaudio: for PulseAudio support
+python: for Python plugins
+reapack: for managing reaper plugins
+sws: for the SWS/S&M plugin extension
+
+%MAKEDEPENDS%
+kservice
+xdg-utils
+

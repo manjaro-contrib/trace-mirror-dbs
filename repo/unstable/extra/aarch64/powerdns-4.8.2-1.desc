@@ -1,0 +1,85 @@
+%FILENAME%
+powerdns-4.8.2-1-aarch64.pkg.tar.xz
+
+%NAME%
+powerdns
+
+%BASE%
+powerdns
+
+%VERSION%
+4.8.2-1
+
+%DESC%
+Authoritative DNS server
+
+%CSIZE%
+3551404
+
+%ISIZE%
+20171721
+
+%MD5SUM%
+821c684fa0e9132a2635976fe8745ea8
+
+%SHA256SUM%
+7772cad9abb10c8dc1ab6aaf54c26a032a45efac161de482fa476c0e792a61d4
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmT5t5sACgkQdxk/FSvb5qaVwA/+IK6jwx4FS6yCedJ3Ui+koFTCBt6oEI4SkY0LAqCKcBNpENS+BRaSZTCrVQxA42bFLIghnxZo8yW9OCTfbsWS22kYB0DLHmcpbDNXvNELgScfRY7ZLLVuPssnaDjQ9ZFHfWPNJtQPjDcvi/qdqu3qp4I4nhw0jhGt0V0Xytggyo2EGPNuXrMLOvhaaS3leH1hC8gEPLHBJcIIRnJdNU31id9rIwYvzEgVGKwOx016pOzAZyiZ0KJqZKZqTvzXOyA+jcR+0Rs7Rg78LL4pb29+BPuNyG6MwSIfh58aJ+sOdmnBCcJL0D3DJD7xrZQFOwxk96Y6vjboWGbGQJseSTMyb9/ZcWF6JqouDk6W72X0818PAsayTsEhJD7fun2NQVmluDTAAFfKYYpmVx3jRUxRIasLPOpRjG2PB3lC/uwohrbvfnsLr9VquENbK75YngMWlhpS9MUbjwWRBWP49g60tCdsDsEiGsBjr2UfIHMPUDx6utceavRhtIdfHEiYk2FyIPa+DXTsdXfxIrCyBlD61TCMTLyt4ohQZ2KVNzh6X914Y+mQaKUMikY3IolWhwxvFfpc/3j1fHqNAR8EShD+IOflcU+ijGR+BilT9bNvnn5NQaTWbUzc2YEjg8iRefVxdZs+/kGqfWwmn1kFCWNY9Dt2NSqYJN0k/G+P3HAl7qQ=
+
+%URL%
+https://www.powerdns.com/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1694086418
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%CONFLICTS%
+pdns
+
+%PROVIDES%
+pdns
+
+%DEPENDS%
+boost-libs
+gnutls
+libcurl.so=4-64
+libsodium
+lmdb
+luajit
+openssl
+sqlite
+systemd-libs
+
+%OPTDEPENDS%
+geoip: GeoIP backend
+mariadb-libs: MariaDB/MySQL and MyDNS backend
+libldap: LDAP backend
+libmaxminddb: MaxMindDB GeoIP2 database for the GeoIP backend
+postgresql-libs: PostgreSQL backend
+unixodbc: ODBC backend
+tinycdb: TinyDNS backend
+yaml-cpp: GeoIP backend
+
+%MAKEDEPENDS%
+boost
+geoip
+libldap
+mariadb-libs
+curl
+libmaxminddb
+postgresql-libs
+systemd
+tinycdb
+unixodbc
+yaml-cpp
+

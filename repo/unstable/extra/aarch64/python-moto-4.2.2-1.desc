@@ -1,0 +1,99 @@
+%FILENAME%
+python-moto-4.2.2-1-any.pkg.tar.xz
+
+%NAME%
+python-moto
+
+%BASE%
+python-moto
+
+%VERSION%
+4.2.2-1
+
+%DESC%
+Moto is a library to mock out the boto library.
+
+%CSIZE%
+3911480
+
+%ISIZE%
+62410953
+
+%MD5SUM%
+c03592086435a8c7fcc969372732c2ca
+
+%SHA256SUM%
+345d44c98f697e159468c5cc6f5c3b9af5554a4948f0101a7a1f6bb5d3978d78
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmT8CjwACgkQdxk/FSvb5qbjexAAlJsHEjYIzuKeW68Dmgu2ZcCO6ruKvMYca42yYKUxLR0+E+flO6TvZAvJwer4rK5q92uT/2NTwz3FSu4mwOoVRadylFU2ecQTzKbfS/CHbXBMLmQrf3uF4HrP0nSoQ6MGcT3WZEZTEFrGuzh/Ekkf+omjLDv62FJPBhYF6dPSKkXYv0KzDNKvxsiRnB598F4uejvQJSmQI6hfttqJ9hew5v9LrlkJu+WQgjBjWzAcozhvOw71i4zdd4YyW1jFO3S3eKzwU8/H48squ6yHmzqhwILM3z4w+xInbP6ObiVgWxOGhVgojqLIIS7HoqSWf8oFwOpBzOgwZwnzSteBWJDtayZyot4hFNobahy037zC/Q7SIBlivTrKsJE2PDj5Si0W+JYO+rN4PaCKO+cfLZ+gI3uRUsaRAlIqqNBBRelwMtg3PPruj3AsaZi51G6K+1JOHTQbkRYg0HG18nTY6HDNZHHEa6/3a0CHUCyC4eVWXGcxyAAMpZ4sV4Izw8AqQqWSHrU+REO4TNFoBqit/WLS23pvffhI2EuctMmivs5oHGe0Ru/9sRJGnZMVrFdVvUp9Cf5xEUhiQil4aUMRJxFXs7HszHrHLEZh4+LtLhqJQdX7AgJ3VEmwilhTCvHgMOjJ6Whq+DaUDHSwgqi4LEuFq9hELeGm8WnhZ1bwPqyjhLY=
+
+%URL%
+https://github.com/spulec/moto
+
+%LICENSE%
+Apache
+
+%ARCH%
+any
+
+%BUILDDATE%
+1694239210
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-boto3
+python-botocore
+python-cryptography
+python-requests
+python-xmltodict
+python-werkzeug
+python-dateutil
+python-responses
+python-jinja
+python-urllib3
+
+%OPTDEPENDS%
+python-yaml: for apigatewayv2, cloudformation, s3 and ssm
+python-jose: for apigateway, cloudformation and cognitoidp
+python-openapi-spec-validator: for apigateway and cloudformation
+python-docker: for awslambda, batch, cloudformation, dynamodb and dynamodbstreams
+python-graphql-core: For appsync and cloudformation
+python-jsondiff: for iotdata and cloudformation
+python-aws-xray-sdk: for xray and cloudformation
+python-cfn-lint: for cloudformation
+python-sshpubkeys: for cloudformation, directoryservice, ebs, ec2, efs, eks and route53resolver
+python-pyparsing: for glue and cloudformation
+python-py-partiql-parser: for cloudformation and s3
+python-crc32c: for s3
+python-flask: for moto_server
+python-flask-cors: for moto_server
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-ordering
+python-freezegun
+python-yaml
+python-jose
+python-openapi-spec-validator
+python-docker
+python-graphql-core
+python-jsondiff
+python-aws-xray-sdk
+python-cfn-lint
+python-sshpubkeys
+python-pyparsing
+python-py-partiql-parser
+python-crc32c
+python-flask
+python-flask-cors
+
