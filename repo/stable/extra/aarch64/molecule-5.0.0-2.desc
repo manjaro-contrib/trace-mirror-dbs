@@ -1,0 +1,86 @@
+%FILENAME%
+molecule-5.0.0-2-any.pkg.tar.xz
+
+%NAME%
+molecule
+
+%BASE%
+molecule
+
+%VERSION%
+5.0.0-2
+
+%DESC%
+Aids in the development and testing of Ansible roles
+
+%CSIZE%
+269376
+
+%ISIZE%
+1784362
+
+%MD5SUM%
+5443e4cd9b23e065ed3f679156274ecd
+
+%SHA256SUM%
+8ac4a355b2d9664aed6a8eb7d03e9cd7f8e10d18c02c3aee1c9bd5f5e78d2f0f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmRcWtYACgkQdxk/FSvb5qabcw/6AtI4re31+VAA2uzF8BL4g0qU9D6d/6mJ9gmM/RThQyxkFWU0P0sA6nJOGqdaUW+ftaBKHlY648Yq0uOwV7pEq9Z7bhwT86EcCOvQq9oW3OE0S9x4N2E9pkuqhd7lUW3ntE3hyBQGqtdL8qm3WDHVFZN7vhPjDEf5tIfzqatGJkLsWdFiAbFYV12PtyP2AAxd/uFgHFP0gGtMS+fvrMiGNPRohh0cTc/2L2aOjFXs1H4eTLunX0vEsVzdQ2ER7v8XCrUrXAVF5U1+854+iJ7dN0lUjmDjOpqd4T/dCxtcDbW+h4wG+zIO4WsAuM9uci79jLBiPy/IjFksS2zduYiuVj/SwwCj934S+ZmcZZ3mnUEvGP7UffX/I3UNUhozLxYfZECtRs+eDGPaX2b2m910lCOfIwCpRDzyud0okF+f6NS77G3cS00Doao3yIh0xQC97trCckO3xN4chwPqB0twBvFZZTSslut4Pq2efM86oDTYeHgdNu7QniGcvnaSW46KW6ZOxV3Dt3WcK53cpLxgibwv76ocWZyqztA/61C7lSNd1WikfRFU5FCZRCuYeK1q21uNmp+u3SuRW0YKDOXe0yPyIxW4bHElv/CvSp6lnfnExrAyqe5VuUu0pVZDF+wrZPDrZWhGjQ5FnpEcT6CiosLMiXdS3cvt9rxIcnXSqDE=
+
+%URL%
+https://github.com/ansible-community/molecule
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1683774145
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-ansible-compat
+python-click
+python-click-help-colors
+python-cookiecutter
+python-enrich
+python-jinja
+python-jsonschema
+python-packaging
+python-pluggy
+python-pyyaml
+python-rich
+
+%OPTDEPENDS%
+ansible: for the ansible verifier
+molecule-docker: for the docker driver
+molecule-podman: for the podman driver
+molecule-vagrant: for the vagrant driver
+python-pywinrm: for Windows support
+python-pytest-testinfra: for the testinfra verifier
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+ansible
+check-jsonschema
+python-ansi2html
+python-filelock
+python-pexpect
+python-pytest
+python-pytest-mock
+python-pytest-testinfra
+python-pytest-xdist
+yamllint
+
