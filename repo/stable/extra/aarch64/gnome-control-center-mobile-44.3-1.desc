@@ -1,0 +1,103 @@
+%FILENAME%
+gnome-control-center-mobile-44.3-1-aarch64.pkg.tar.zst
+
+%NAME%
+gnome-control-center-mobile
+
+%BASE%
+gnome-control-center-mobile
+
+%VERSION%
+44.3-1
+
+%DESC%
+GNOME's main interface to configure various aspects of the desktop - with mobile patches
+
+%CSIZE%
+8545615
+
+%ISIZE%
+22895891
+
+%MD5SUM%
+928d7c8a0f33d598af80d1327e9707f6
+
+%SHA256SUM%
+7636f8131f2194ea6487fea12d27f66156c52d47a7a5ea5230f678cd05b63306
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmTCj/0ACgkQFQwgB0PtRtgt/wf7B6ksDvyMX32Ah1xTvDgYEWnGWAd9qs3Xm4K7SZWpkkWjkVtmApNNlc3tc0r39YvjEwo0PF9ns4dy6rJud0ZBgJd+pAvCyehWsxkIdzBDGzDbrLazUwrThxPToF4USyaJROlVuYZ3ZTYzTzS/kM3bixcg6LgWCO1aATXXTMH7fnJoVsMnADY0O8aOM3FK+KisRCbh2ZjLiMzdZZ0oHsVqsGspwDoOE6NqyiR2vuwdNodLsOqGyS3wKH/bF97iephDs4CljaBTWozkULNpZhlhsc/cMlPmxQNVmWnNNgdKijW87XuTq9DtnJHlTOJp6RRut9HnLkhRFevbz43nWVBvSA==
+
+%URL%
+https://gitlab.gnome.org/GNOME/gnome-control-center.git
+
+%LICENSE%
+GPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1690471871
+
+%PACKAGER%
+Unknown Packager
+
+%CONFLICTS%
+gnome-control-center
+
+%PROVIDES%
+gnome-control-center=44.3
+
+%DEPENDS%
+accountsservice
+bolt
+colord-gtk4
+cups-pk-helper
+gcr
+gnome-bluetooth-3.0
+gnome-color-manager
+gnome-desktop-4
+gnome-online-accounts
+gnome-settings-daemon
+gnome-shell
+gsettings-desktop-schemas
+gsound
+gtk4
+libadwaita
+libgnomekbd
+libgtop
+libgudev
+libibus
+libmalcontent
+libmm-glib
+libnma-gtk4
+libpwquality
+smbclient
+sound-theme-freedesktop
+udisks2
+upower
+
+%OPTDEPENDS%
+fwupd: device security panel
+gnome-remote-desktop: screen sharing
+gnome-user-share: WebDAV file sharing
+malcontent: application permission control
+networkmanager: network settings
+openssh: remote login
+power-profiles-daemon: power profiles
+rygel: media sharing
+system-config-printer: printer settings
+
+%MAKEDEPENDS%
+docbook-xsl
+git
+meson
+modemmanager
+python
+
+%CHECKDEPENDS%
+python-dbusmock
+python-gobject
+xorg-server-xvfb
+
