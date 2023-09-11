@@ -4,14 +4,14 @@ on:
   workflow_dispatch:
   push:
   schedule:
-    - cron: "* * * * *"
+    - cron: "*/5 * * * *"
 
 concurrency:
   group: download
   cancel-in-progress: false
 
 env:
-  mirror: https://mirrors.manjaro.org/repo
+  mirror: http://uvermont.mm.fcix.net/manjaro
 
 jobs:
   state:
