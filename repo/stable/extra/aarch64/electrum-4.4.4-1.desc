@@ -1,0 +1,77 @@
+%FILENAME%
+electrum-4.4.4-1-any.pkg.tar.xz
+
+%NAME%
+electrum
+
+%BASE%
+electrum
+
+%VERSION%
+4.4.4-1
+
+%DESC%
+Lightweight Bitcoin wallet
+
+%CSIZE%
+7985496
+
+%ISIZE%
+43593508
+
+%MD5SUM%
+fa7d300113440c4edcf8cb5e9fd27a7c
+
+%SHA256SUM%
+d7e5c7e447fb69887146a16e76d7f5a91146393ae3ac0dec9c44fe32a97223ba
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmSMYFcACgkQdxk/FSvb5qZs3Q/+LmQgjS+h7JtSRdwuxke8MoVLKIQEWZmuQMokGhQy+de+bDRjICJm67WiktmgINjYaklePW/AGSuD38jL9wCC63n17gpsFFPOuDxC4bPZ2dzb4Lu8nIGHsvtM+N/K75F/T6YwWgkAGYQb7NO3H7Y31VyhfI71icqfiLiORFo4xt8UYAJwk7x0kvxOmWT0Nvn1NtD3G893j1XF2Q21lEfojPMgAVCgmdrskPBDH0twQkZPVupDe1Hc0nUYuuBFMBcUi2+T/uHtABRxiJ5q6esb+niRk1TFYHZ84MUQYQXQmunHhZvKot+AMstqa+ABBfHyFj1KIJn2konJQ8UwVTlxQ/SfYHd9udaR1wtm6MgclcXF+3d9CJd0IgeWHOMJGQhFIFFu6Y169gUmWqzPMYeS/x70eukaKIXgmJLgBD/RpQQu7qjbJEkXwj8oJ81ehB52Gw1sDDPCXQZyTtQPIG9GTdGRgqEjlySxVaunnoEatKBB3nH1EW2md80xTQ15PgE1SzGVTcy8qf/con0rFrKDZ5PpZZwjdUVd6kH1SRYL8LUXunM/tQMccJVavbGXKB5LO4mccbuk6dQURFe2SY64QksyDgBiTP9+6aNxEbiKlhgrt1LMbBESS9EZIyw7avmTrqLfzXk40q6BUXomoJfexBOuyEuSSrAnlfyRyEIaYP4=
+
+%URL%
+https://electrum.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1686921209
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python-pyaes
+python-ecdsa
+python-pbkdf2
+python-requests
+python-qrcode
+python-protobuf
+python-dnspython
+python-jsonrpclib-pelix
+python-pysocks
+python-pyqt5
+python-pycryptodomex
+python-websocket-client
+python-certifi
+python-aiorpcx
+python-aiohttp
+python-aiohttp-socks
+libsecp256k1
+python-bitstring
+
+%OPTDEPENDS%
+python-btchip: BTChip hardware wallet support
+python-hidapi: Digital Bitbox hardware wallet support
+python-matplotlib: plot transaction history in graphical mode
+zbar: QR code reading support
+python-rpyc: send commands to Electrum Python console from an external script
+python-qdarkstyle: optional dark theme in graphical mode
+python-pycryptodomex: use PyCryptodome AES implementation instead of pyaes
+
+%MAKEDEPENDS%
+python-setuptools
+
