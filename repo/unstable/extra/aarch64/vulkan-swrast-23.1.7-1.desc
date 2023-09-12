@@ -1,5 +1,5 @@
 %FILENAME%
-vulkan-swrast-23.1.4-1-aarch64.pkg.tar.zst
+vulkan-swrast-23.1.7-1-aarch64.pkg.tar.zst
 
 %NAME%
 vulkan-swrast
@@ -8,25 +8,25 @@ vulkan-swrast
 mesa
 
 %VERSION%
-23.1.4-1
+23.1.7-1
 
 %DESC%
 Vulkan software rasteriser driver
 
 %CSIZE%
-2056628
+2056085
 
 %ISIZE%
 7488167
 
 %MD5SUM%
-6fd21e2fa8468ab2945520fe87da1961
+8221077cddb3fe772288901452ba68c1
 
 %SHA256SUM%
-3691aeae5f902124fac7969c70b8820151fe3f8725d85a324a60c2d3f8fd43a2
+41098978c82526f8e38cba41c3bd092c32d21b81fc3227e7dc7cd6ff689bba58
 
 %PGPSIG%
-iQFFBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmTCDpYSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+aBMH+JhmoF9kcqnJTIBN+2TREGZpdQwPtGZaF9l2/hxaTE9+FAG5Ez4BCKfszuNmXOq/vq3BOPCFxHiE8IfV3R4a47+/mt4cBV5HmX7FXUNVT+D03rGRGdK18Bi0iQpOdH3UWUFeKdW8nNkgY0KG3iD3FwProHkZ8AkFXWC9U/oYFNELT5AcY5EOHDBgDMAwpx3SzouTY3HXxnsPJqMsKEIuE3dgpfSrIkrIolhGZrSOwBljSHEyF/5x0YsTcw+VIUdukBiMXhYVhoSdKYFUS6X5J0f/vyFRcmyUyhCEW95vRO7nNcmVpxN4Azb0+uxt7R+Mnz+GfTPbSy40GF20Ib0AyQ==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmUAB9ASHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+tL8H/RVRbS7+m/p6wb9Haqx89E7JyknhIyZU8Jujc2R5ktf3TfqEMLFG8lVMS+oQ7ZxyZN1VVkgZKVBX4EDXoVZsowbndjf992rR3ELjhv+FKk8w1LMFzTQindVS7AWLkPi2zs2ctf5+9P5zSpsm9ILCoFrqS8kF7nuYFKXSVjlmSyBgFSYuPQqqZmfKuvT20osMbogIyVGvcQT23UP8HZhNsjitgSV/+WLQWOpDUSQeVn0g9mETnhYj3y8jZfENvLOhSRU2OPS7QTgzhUdv6wce5omOXZOGeJqfTZespr8k1sq9lQJ9kVPYivLQUiEDcrySub2ciViDj6xyf68A3YYjt9Q=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,7 +38,7 @@ custom
 aarch64
 
 %BUILDDATE%
-1690016365
+1694500150
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
@@ -82,6 +82,9 @@ libxshmfence
 libxxf86vm
 llvm
 lm_sensors
+rust
+spirv-llvm-translator
+spirv-tools
 systemd
 vulkan-icd-loader
 wayland
@@ -93,14 +96,11 @@ glslang
 libclc
 meson
 python-mako
+python-ply
+rust-bindgen
 wayland-protocols
 xorgproto
 valgrind
 directx-headers
 libomxil-bellagio
-rust
-rust-bindgen
-spirv-tools
-python-ply
-spirv-llvm-translator
 

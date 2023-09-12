@@ -1,5 +1,5 @@
 %FILENAME%
-vulkan-panfrost-23.1.4-1-aarch64.pkg.tar.zst
+vulkan-panfrost-23.1.7-1-aarch64.pkg.tar.zst
 
 %NAME%
 vulkan-panfrost
@@ -8,25 +8,25 @@ vulkan-panfrost
 mesa
 
 %VERSION%
-23.1.4-1
+23.1.7-1
 
 %DESC%
 Panfrost Vulkan mesa driver
 
 %CSIZE%
-1440188
+1442304
 
 %ISIZE%
-6813588
+6834068
 
 %MD5SUM%
-50c38f5f5be66a5d1e70ece77db73413
+abf1efba182ddac2921b13581a883eec
 
 %SHA256SUM%
-c6cad823996c242aa6d0753a5ab855cecfcd120aa0104c9913513dea9321a3a0
+101e11c7235b41a2c9ae63d142d853d256dc4b4eb725cb2bcf1fccd77b726f4f
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmTCDpYSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+1HMH/2TSAlrZBvZ+m97Ik9xUyQTjTpOgn24b29uOqk2deM3N21/AK8ZBt2YS5YezWKl0MMJwEmWy8RyRi+sF5vj7+Osb46MSsiGW44d9OqvRIleiv7FZP0w2rTKUOg5TLdcYAriXfBAOTZnZ0f4yI6XVWSisadZbYFo7Jv5kTjSp0/Mvka2Uy1JOOGigrLpJbJyAKnZtmOfKwK1gIsuP8nuZytHEvb/44ed4TLfq1sF5pmfucMERujTRulkd06dBxUjePJvv+dk5u8Ddlp/EMzNpAwCUuEgSyZhNs9NAAi0iyuGgQdJHc6LRUq2VRTR0FxN6P+SyEjlErjezZKzxJkwPGh4=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmUAB9ESHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+sqUH/iTY8pI0ypP3vx3tXbeZrzri/ER4JdGirsZ6N2PebBR6aXdsGjWyNceoCKMXI3fdQ/2MLNWuFxyFbtolsquC+sj9L6KLXEbku/0fVDk/nQOMoWxcW3qVegfbTRnMwt48dsQKL4mtLjV20PHDXRBqTgS7RoLCtkUCi0Pmblj2UgCS4cxMMePMJ+dVpW8aUNLYOSDCZJgbn3E2MT9ItV3oaRwOF0dbOKSlIESTn+hkT1D24g+9XDRAUotEA56UHlPI9zZuaN0MRQBbQB/2M2Fmmhzf3M1tyFBlDk8mkJO5Upt6X4OQ0bI/Z0C4iz4ksm2kAD4eB4aJzsinysSWCveuNcg=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,7 +38,7 @@ custom
 aarch64
 
 %BUILDDATE%
-1690016365
+1694500150
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
@@ -72,6 +72,9 @@ libxshmfence
 libxxf86vm
 llvm
 lm_sensors
+rust
+spirv-llvm-translator
+spirv-tools
 systemd
 vulkan-icd-loader
 wayland
@@ -83,14 +86,11 @@ glslang
 libclc
 meson
 python-mako
+python-ply
+rust-bindgen
 wayland-protocols
 xorgproto
 valgrind
 directx-headers
 libomxil-bellagio
-rust
-rust-bindgen
-spirv-tools
-python-ply
-spirv-llvm-translator
 

@@ -1,5 +1,5 @@
 %FILENAME%
-vulkan-broadcom-23.1.4-1-aarch64.pkg.tar.zst
+vulkan-broadcom-23.1.7-1-aarch64.pkg.tar.zst
 
 %NAME%
 vulkan-broadcom
@@ -8,25 +8,25 @@ vulkan-broadcom
 mesa
 
 %VERSION%
-23.1.4-1
+23.1.7-1
 
 %DESC%
 Broadcom's Vulkan mesa driver
 
 %CSIZE%
-1267565
+1267171
 
 %ISIZE%
-5728212
+5736404
 
 %MD5SUM%
-893cfe0be01438f7b2865c1affca5457
+46f885f758664d2fa0263eec4d51afcc
 
 %SHA256SUM%
-20f4eaa19ee7e24ea7e3125fbd147b03acfbfe4e84987bb391c2227bb424f8db
+c106cd726c1c221c33dba1070bd5d0f282c775b516e834f00ad37ebe84c79af8
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmTCDpYSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+/MUH/AxIqA1jb777cPuexfeJhQvcTVPooy5cNSzA2vZR788Ue1F1k50laoe9ePTlYpepNek5WItwySFMui/9Q0eWlREjtLPa3kK4r71TAFLSCZmT9vQUBBgHtX1K/MOZYJ6I7FqUBPvbLvBKaUK8PHMqHa0jij7XS4U/Nv+bJXMdgmxJv/2Qn6DeV+rdCyCXnmgdFm7Dt7hKQdhBHgK+US+nBNsH+wr2eQbhwwiqYUC6SSEiN/tAdcxUpRXSV0NVXSMaJO2DlKyzU9X+qljtAqCay2Mc7WQ/KYDlklGIClNFmWfZGSOEZ88XukWZDU8wVh0qxa4dDfY4102tNGWmLbwrnfA=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmUAB9ASHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+tVgH/2xr3jRZNrbO4Nn90cbOguwGKiEHi0AU/T+bJ8V25LapsVLF6znRjhkTvzZl2/hPp3RSZ1mBHMUNDXzHKGWx+bBTbrr6P8U3PAgyLos+rU+q1i+lJNeuuBxR87OYXJsZ02MMmxkR6xkk8jHsUviad/LJesA9Znvezhy8O78gb2OUtUan3+lzze6OiDehI/+aCPN69acLXRzEb1MN/EY8IFbfyCXLvPsNONRuIfYzuOQmdIO9gx/AGEyfa4ndgU8hVUzjZQqqJUTNjMy8MUsdpCZlc6bpIN3KOkM+2em7hUCC1BI/U5s0vYwsd83OWw3kl7dRwWKqJYJKB+tb8HhngpY=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,7 +38,7 @@ custom
 aarch64
 
 %BUILDDATE%
-1690016365
+1694500150
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
@@ -72,6 +72,9 @@ libxshmfence
 libxxf86vm
 llvm
 lm_sensors
+rust
+spirv-llvm-translator
+spirv-tools
 systemd
 vulkan-icd-loader
 wayland
@@ -83,14 +86,11 @@ glslang
 libclc
 meson
 python-mako
+python-ply
+rust-bindgen
 wayland-protocols
 xorgproto
 valgrind
 directx-headers
 libomxil-bellagio
-rust
-rust-bindgen
-spirv-tools
-python-ply
-spirv-llvm-translator
 

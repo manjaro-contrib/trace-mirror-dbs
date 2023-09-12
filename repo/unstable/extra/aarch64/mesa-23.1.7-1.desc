@@ -1,5 +1,5 @@
 %FILENAME%
-mesa-23.1.4-1-aarch64.pkg.tar.zst
+mesa-23.1.7-1-aarch64.pkg.tar.zst
 
 %NAME%
 mesa
@@ -8,25 +8,25 @@ mesa
 mesa
 
 %VERSION%
-23.1.4-1
+23.1.7-1
 
 %DESC%
 An open-source implementation of the OpenGL specification
 
 %CSIZE%
-25218170
+25221215
 
 %ISIZE%
-70262156
+70296417
 
 %MD5SUM%
-69543bbe8680039646e3097b380d47f6
+92d5df430ef2de67258209fde215a6c1
 
 %SHA256SUM%
-160c704b13ea6bd46958ffde48777fdc2c1a7395574fd0d242a86cfbe52603eb
+f639e87b52462e05c4ac00d07850646d672a6f9472d78de747bfd0a955b7f89e
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmTCDpYSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+eM0H/3Y3M1AdJyQ3zdz+uWoWoSL7KKmyYqUaFHL3uFjeCn2LCwkktqOTmUTZ0WM6uGSn9SsujdYrVttDYf/MS+BGMjL8ItR70PM7iw7BEdl88MOOWQkjyHd11myReqGEq6kuGTHt+oZmfw+TBfyunf+tOFM7kmxyZqcd4WFuAll2tJtsARcwPgzlb9EE46fzU9iTmhOQEr6e+b/13KSXoxJ7BxtZkSXA7K4PUcdXHWYyn2m4QZbwG08IoPxF47zGhGjK7TTng4lGQh1BzH3zNGudh3hM0T+l+StYVJtlZ5O54mkZHQdq6Ig+qDE0rNk754fHpb4fGgkskwzHFa2Sk11awzo=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmUAB9ESHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+do8IAL9yaeS9EpQHuf0nTv3qmHfhflGS94uj2DW3IhMwt7CSLGmeBBl9XEadCs78SxcleSVqGZFT0CM5CrDCzJFNl2cipw1MDVQ8yNtGunmUZpK8JVeMbcsecRPp8Ii1Adqoul2IOZ1g45Oi/zl7r8RaibkxpKFdRqjDLXpkMb+EouW03YTfjRttDJPj1RqiO3a/mFiX1XDM0Y/3bgOyKKBXeXsFuQ5dickGYUhZvypNSKt6qygKaJ69PJ5XM85VkD7jFUVKeMnPze69YVniSK2jKHqIIgrz/a+eHG5Uy9dKJ+HsZbVStmg7LASsLHMhZ78VvjM5NJpKPolSdk9tc1SQrw4=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,7 +38,7 @@ custom
 aarch64
 
 %BUILDDATE%
-1690016365
+1694500150
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
@@ -69,8 +69,6 @@ zstd
 libomxil-bellagio
 
 %OPTDEPENDS%
-libva-mesa-driver: for accelerated video playback
-mesa-vdpau: for accelerated video playback
 opengl-man-pages: for the OpenGL API man pages
 
 %MAKEDEPENDS%
@@ -90,6 +88,9 @@ libxshmfence
 libxxf86vm
 llvm
 lm_sensors
+rust
+spirv-llvm-translator
+spirv-tools
 systemd
 vulkan-icd-loader
 wayland
@@ -101,14 +102,11 @@ glslang
 libclc
 meson
 python-mako
+python-ply
+rust-bindgen
 wayland-protocols
 xorgproto
 valgrind
 directx-headers
 libomxil-bellagio
-rust
-rust-bindgen
-spirv-tools
-python-ply
-spirv-llvm-translator
 

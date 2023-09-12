@@ -1,5 +1,5 @@
 %FILENAME%
-vulkan-virtio-23.1.4-1-aarch64.pkg.tar.zst
+vulkan-virtio-23.1.7-1-aarch64.pkg.tar.zst
 
 %NAME%
 vulkan-virtio
@@ -8,25 +8,25 @@ vulkan-virtio
 mesa
 
 %VERSION%
-23.1.4-1
+23.1.7-1
 
 %DESC%
 Venus Vulkan mesa driver for Virtual Machines
 
 %CSIZE%
-427134
+427610
 
 %ISIZE%
-1140418
+1136322
 
 %MD5SUM%
-85701144a8dc68d77ef54d214d73a52c
+45927d138af7fb86a0a98615772c2144
 
 %SHA256SUM%
-faa859c78514d604965759e88fec723900a048b087218ba2aa34017f99c4644c
+06c9b7be829db5fb06b8517f8b15c9784934cf58b8512e71af0b45d0bd035a61
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmTCDpYSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+wSAH/2rYQvy3Vbnlh+E5GHuVymO5Ux4H2zNhOKpPLsPpPLVUvXEc89mJMeY3agTwjwdCIsfBcVcrK8g/XtA2kLLTo/09r+qGR5rD/6ZixNvsIGMEzaHYwht6NZ+mrrl+udLfR3rNNw8W6XxvxaJLygEWpZT0w8yKOlF0Zu7SDJRRMKH4OtaB3tAst5JuxJq76TpoBBXxoITL19ICVDdmhaWcTUTdJAR0JCfO7PaMOE34qfZALmAT0tDNsnu+YE5ZAgbYNHPACL2LIwzKt/UX3Kt9b8w5DFz9J9BV1oLh05PWLIY8bDXBx1cQWIFS0sv195WJPL1z3zswko6VuVopA0kO+6Y=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmUAB9ESHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+ogMH/0xw1XxdpY08XYECFzEx73Jbzbulb7HHBEfwy/KiMrMzxW50LPVaPE74UbuI3oM5VlyYXz9pRwgsMaC4HDBvKgY02EMhEX8D2/xRT+YWaNYboXB2jHbSikrPLoDsrXbPBXOAAOE380ZaE0GWVb+jBbCWDIi7r7UyLJ0USWeQlCnD6B67JuMbtujpPt5T3zQmdeOpid98YYgS8Ukzw7GiIRATC2kIY56Rp6t946Kny7JKnPUP+rpIhpn60gtIfSfas25XDBG/jVzKscy4ceQ4YxiaAtx3ZllmutxTQFz7slopQYmSWgddTHtmxoH5y4xHTKErRweUFyVC9uDWLptDDzE=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,7 +38,7 @@ custom
 aarch64
 
 %BUILDDATE%
-1690016365
+1694500150
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
@@ -74,6 +74,9 @@ libxshmfence
 libxxf86vm
 llvm
 lm_sensors
+rust
+spirv-llvm-translator
+spirv-tools
 systemd
 vulkan-icd-loader
 wayland
@@ -85,14 +88,11 @@ glslang
 libclc
 meson
 python-mako
+python-ply
+rust-bindgen
 wayland-protocols
 xorgproto
 valgrind
 directx-headers
 libomxil-bellagio
-rust
-rust-bindgen
-spirv-tools
-python-ply
-spirv-llvm-translator
 

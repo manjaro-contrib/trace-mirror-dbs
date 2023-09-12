@@ -1,5 +1,5 @@
 %FILENAME%
-vulkan-radeon-23.1.4-1-aarch64.pkg.tar.zst
+vulkan-radeon-23.1.7-1-aarch64.pkg.tar.zst
 
 %NAME%
 vulkan-radeon
@@ -8,25 +8,25 @@ vulkan-radeon
 mesa
 
 %VERSION%
-23.1.4-1
+23.1.7-1
 
 %DESC%
 Radeon's Vulkan mesa driver
 
 %CSIZE%
-2741889
+2744548
 
 %ISIZE%
-9457685
+9482261
 
 %MD5SUM%
-57df309108c8c1992659e0ec5abf8363
+ff7ac8beb0db01cfb60a1205a246eb5d
 
 %SHA256SUM%
-487a54c161b7284efea319457e21cee23612e25276771624bdb15e1965ad3b7e
+549f819c628a04c47954f228f5cdb3dabdaa6f44c4b656e4772959017a617837
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmTCDpcSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+HjAH/i1OlC6Esa+qddUF2r5MVieLdNBoFJ07bMe0tFtHy1LeWtQA3nHIwnBS/q7CCgz4K3ydaxgiQvyhojV9bz9A8Aubx5ZKD12jMbXDuFUSU9jDo+fGlJu90SgS3gMusWaXT9+Az+v4+lTmcwJrwkbdvJIhxVNRtEA0ylVO57VerF/gM2VjoXgk/WUA0MpXffOBYzIT+oV3JWfLfgZJE6miZTuH4b6E3a3VsF+rym1rvPrtsa/IAmezDab0V/a06WvadwPMEofHqPlziVoNfmIqqOCyGQ86TqvPlCv3qtKWMtGTitFqUxWpeO2BD6HeF15hQKakVT7KTLEyP4d/2YAAhfU=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmUAB9ESHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+YfoIAKxAQ1Hi/vd2RbgG6Oa14X4i1pNJlv+/AErIrkL0BZngs6OeeH1384vzbeqt3foTWjMS1S617N1fQjMVvwwUZ2d/NZaiBSQJacgCjOXWSXwyWSZZzhsSfZtHQ/ZeUpWD1llijWqr1WUBQkX4t1mHYXuBL5n4ZdaG473hoXJ1zH1wNiqXe1dAil6Rsnck3/aLRs7PdHptrUpkSEG5/FWvKohQtj51CWsyfCAYBxlyowRRSVDVgQ0FwNWd8A5OJzze+5pBJZDPQ1YG8Z4kIcTW3bKcmM9E/JxTI7fNrO8WIiqs1DITNr6ttqAv9Gzyk8YSJeMacYwBNmH6BAZkG8A9B2k=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,7 +38,7 @@ custom
 aarch64
 
 %BUILDDATE%
-1690016365
+1694500150
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
@@ -76,6 +76,9 @@ libxshmfence
 libxxf86vm
 llvm
 lm_sensors
+rust
+spirv-llvm-translator
+spirv-tools
 systemd
 vulkan-icd-loader
 wayland
@@ -87,14 +90,11 @@ glslang
 libclc
 meson
 python-mako
+python-ply
+rust-bindgen
 wayland-protocols
 xorgproto
 valgrind
 directx-headers
 libomxil-bellagio
-rust
-rust-bindgen
-spirv-tools
-python-ply
-spirv-llvm-translator
 
