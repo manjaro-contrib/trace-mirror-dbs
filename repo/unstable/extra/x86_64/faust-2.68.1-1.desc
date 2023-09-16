@@ -1,0 +1,90 @@
+%FILENAME%
+faust-2.68.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+faust
+
+%BASE%
+faust
+
+%VERSION%
+2.68.1-1
+
+%DESC%
+A functional programming language for realtime audio signal processing.
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+36836470
+
+%ISIZE%
+82789229
+
+%MD5SUM%
+78027a280386d73cfdad684b36ba5c5d
+
+%SHA256SUM%
+9c73272fe574fe5cdeee458697b668ed08364e4bf93982d1819b7f6761cdfe30
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZQYSuAAKCRCbeih9mi7GCAAQAQDrY8KEmuitxGAVAqNwatsJ15rw1K4+aKgtLhlG1ESw9gD/Wz4FqO0UiGnKtNaTmg139rK0WJbrXOH4FJls/TL24wo=
+
+%URL%
+https://faust.grame.fr/
+
+%LICENSE%
+GPL-2.0-or-later
+GPL-3.0-or-later
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1694890424
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+libfaustmachine.so=0-64
+libfaust.so=2-64
+libOSCFaust.so=1-64
+libHTTPDFaust.so=0-64
+
+%DEPENDS%
+bash
+gcc-libs
+glibc
+libmicrohttpd
+llvm-libs
+
+%OPTDEPENDS%
+clang: for sound2reader
+csound: for faust2csound
+gradle: for faust2android
+graphviz: for faust2sig{,viewer}
+gtk2: for faust2{jack,rosgtk}
+inkscape: for faust2{pdf,png}
+jack: for faust2{api,jack{,console,internal,server,rust},jaqt,netjackqt,nodejs,ros,rosgtk,rpinetjackconsole}
+swig: for faust2android
+libsndfile: for faust2{dummy,sndfile}
+octave: for faust2octave
+pd: for faust2puredata
+portaudio: for faust2paqt
+python: for faust2atomsnippets, faust2md and faust2sc.py
+qt5-tools: for faust2{faustvst,jaqt,lv2}
+rtaudio: for faust2raqt
+ruby-rexml: for faust2sc and scbuilder
+rust: for faust2jackrust
+supercollider: for faust2supercollider
+texlive-core: for faust2pdf
+
+%MAKEDEPENDS%
+cmake
+libsndfile
+llvm
+xxd
+
