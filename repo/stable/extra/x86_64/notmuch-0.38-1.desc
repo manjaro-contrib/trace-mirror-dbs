@@ -1,0 +1,69 @@
+%FILENAME%
+notmuch-0.38-1-x86_64.pkg.tar.zst
+
+%NAME%
+notmuch
+
+%BASE%
+notmuch
+
+%VERSION%
+0.38-1
+
+%DESC%
+Notmuch is not much of an email program
+
+%CSIZE%
+285853
+
+%ISIZE%
+1814973
+
+%MD5SUM%
+07acc395fa2ed181d8725cec5e012367
+
+%SHA256SUM%
+d78182283eb98159ba860a5c901bfbd860e3832b3020e871abe65fcb38e6ab89
+
+%PGPSIG%
+iQIzBAABCgAdFiEEHiYzy/cw8s5ux6twRbQpqPnZ0ioFAmUBU5EACgkQRbQpqPnZ0iqD8hAAskObzKoa6fOMJLl/r1NvcZ5rUXXgvktUr63HsV+ISimfcLCrkkRUpnyWUmTFsnd0V0AGmw3614sAw4AczDLWoyVFmk5aiMw275euCC0RVzd/RaSqKEM/WQMGCyPrd8A3CCQb4f2zdAS0q2YBETYAOPr87RbxkHjjyEMr7pX+H+Nmt5xyWOkuc1rE1XRlRUc5l2nlWEmQDosGZSon4d8pJ7Nm90Ziv+61IiV99N70GqP0iruj9of90FkzTXBWL1c/Ph3tD6fFjbHjotiG5rB0pa7EB2F/ZPDYmZkm8xMeVy9AZcWOiC4p/9XAQQA4XwOY5+ff9T3sksHcUAp9imurYZ3Z3YlVduV80XL9Ot06+pzit4OYCzcAMIuANiRI+B5mU3DqTyq9ML1vVQd/iMmmHffIU1hGjCddrbzpX46ls6bgORStmsviLa23/vjCzesmxsjEdYF7vxkFCGmJ9NTlvbOk2IXnltn3WDQYCI7wcJ5jJdt69b/X0pRl0M731wp2Xac7NL+FNvEf5MD0QtCETXdB3PUeHpkhkLSe1VDs4fLLKxk8kdsYR45OvwUPqNYR4o/GZKlXuQkDg7hczAP6x1Fb8PGE4XdxiC/ZB1NF6dZ52e89GVrGSikDmiGiMjoK6xWq2gOLlnXnQsStbaUbxn6oYnWePhZlCMZb647UwH0=
+
+%URL%
+https://notmuchmail.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1694585639
+
+%PACKAGER%
+Daurnimator <daurnimator@archlinux.org>
+
+%DEPENDS%
+notmuch-runtime
+
+%OPTDEPENDS%
+emacs: for using the emacs interface
+vim: for using the vim interface
+python-cffi: for using the python-cffi bindings
+ruby: for using the ruby bindings
+gnupg: for email encryption
+
+%MAKEDEPENDS%
+python
+python-setuptools
+python-sphinx
+python-cffi
+emacs
+gnupg
+ruby
+pkgconfig
+xapian-core
+gmime3
+talloc
+sfsexp
+

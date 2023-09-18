@@ -1,0 +1,66 @@
+%FILENAME%
+jupyterlab-4.0.6-1-any.pkg.tar.zst
+
+%NAME%
+jupyterlab
+
+%BASE%
+jupyterlab
+
+%VERSION%
+4.0.6-1
+
+%DESC%
+JupyterLab computational environment
+
+%CSIZE%
+4323503
+
+%ISIZE%
+27391589
+
+%MD5SUM%
+92fd1a282f0dceca5130fb1e35993895
+
+%SHA256SUM%
+aca5a7dbbad088930a3cdee2b13b153c9f3655048e06f3f3ad3b697e48783f20
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmUElFcACgkQek52CV2KUuQ9XQf/YiNrSMaoyjnHMB8dYqG8zoyU94YPaMqq/kwppvApqnrMeLR0G28Q6IgDCYuDNG7p/OhunciidszzRkxDVQwnpjWv1Az1rACFMzVaWjnzh6lM40OM2EQqmYHOpfc830JUg3zzabXTaIYj87WRQXODWwbnJW2scyQxYG4cABSLMpnk5uHcBPBcTBp635k3uhGs604xR41261pEQyYPM4vwS6AQ3i39L9Um+PC2kDCWFBtJagUg3gRxLam8Xj45WUwIXZ4eF1LQ7YvprATzpgQJSA3puqGAnJLFbzog57NFvMmxubodOSlfQHoyF3wa33maGkHcJs4ljUHePIPlCYtWew==
+
+%URL%
+https://github.com/jupyterlab/jupyterlab
+
+%LICENSE%
+custom
+
+%ARCH%
+any
+
+%BUILDDATE%
+1694798460
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python-jupyterlab-server
+python-async-lru
+jupyter-notebook-shim
+
+%OPTDEPENDS%
+npm: to install extensions
+jupyterlab-widgets: ipywidgets support
+jupyter-collaboration: collaborative mode
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-hatch-jupyter-builder
+
+%CHECKDEPENDS%
+python-pytest-tornasync
+python-pytest-jupyter
+npm
+python-jupyter-server-terminals
+
