@@ -1,5 +1,5 @@
 %FILENAME%
-ffmpeg-2:6.0-10-x86_64.pkg.tar.zst
+ffmpeg-2:6.0-11-x86_64.pkg.tar.zst
 
 %NAME%
 ffmpeg
@@ -8,25 +8,25 @@ ffmpeg
 ffmpeg
 
 %VERSION%
-2:6.0-10
+2:6.0-11
 
 %DESC%
 Complete solution to record, convert and stream audio and video
 
 %CSIZE%
-11917547
+11911573
 
 %ISIZE%
-39228142
+39232537
 
 %MD5SUM%
-5486e7465614bbdc108672cc112fd85e
+181d1a1e18b251e3ae7b93fbf415ffc5
 
 %SHA256SUM%
-4a07ec15114e46e0ddf69bd9689fc3ba6dc49110ef3ecd244917fd179bd68d88
+e0a2858db4d488c96963285f2c6f006e0de5f2f4c2e1accefa76a0876effb45a
 
 %PGPSIG%
-iQIzBAABCAAdFiEElSIL6Zzm/3eK4NxnD2XH2IFQYTAFAmUByEYACgkQD2XH2IFQYTBswhAAg4sJ787WiQeYjqKz8fY7dyLFo9+OmlzP47EMLfIDNG00VRxJHPvKQM8f+c/lQgwnX0oLa8SqjyfkHkgYAyQ5oDDlMBZqWvd9aNMHtJWk/3fAsXd/B98SgiVjLUn76AC28Fp4WTTWIyXPAmdgU4zVEtGHw1oe5q2jEdsys5FRo7/z+cjt11LIillfKW2swCr4ta5B+bZrYt6BbOYD7zPlbAwLhurSPRUaryTjv3LJRuMWSo/ikIE6BGUq8EhjMC7GGxoCwl7HnL35g1cUA/vgQH7pUCf9GBKyiYSStmtJIMZOAreUslQ9KyoYICE1G4Cji4mpxvBMk5N/LDXRlv/6m56NF+lrFervw6yo+oYOtYPNkjr0/hbdqGfpq+MOEcU6hRwJ9DGHUdbADkjum7GDahYDRgiaMJ6t8iAM5xGL4xDFKbdi7FCZyCtAKrdQFV4SJyt26rHWWzwLKXeFX3P7z4Zsjd2j72i4Js9zT65y8ZWpABKSyZavKlSwK2Hb045HnW+JPrU/LIon8wlrlQe7wenwDpNxnITTtphVNOK3pc7xZFJkvEDXeZ0FI9y4Yg1sqYb2HS1wUa3rNq9hkRoTRUVbQzsMQtw6lSb2xI37+vh8FfKiEkNzGC1S5lCabA5xgPHcKiUdtui7zoZmeUHRSqu1nP/4j1b/ZQ7v38Ym2Xc=
+iQIzBAABCAAdFiEElSIL6Zzm/3eK4NxnD2XH2IFQYTAFAmUJqfcACgkQD2XH2IFQYTDO9BAAp2ni/D+vgvR46uEMtPx1UMiXDgGjOZQOgrxJN4OEaYp1QtwkZR/egkA7cl5Nmy0tXplzj0mCgNng1vgjQBaqxeNLsgc1f91EcsxACNRCR4wb7KZwNF1SvpJvnGOs+gRRYBosbTtHru5yxx1UfT0h5FETzMUVQkx8FtwkKopkBGNi6UdtqSNOx3KzHgtEccz/0JurqpngCL+6D5xUVzdp4V/LhqXaX4nIOaWe2TiLELmgH+g0cX+AN6jXtW0uCoBRLSTJISXvbX4QR+H2YN+fSxfyuaMGd8zOTkP4v84rrztiuPqUGFX7d9TyBipRA0zrj3jshbkiJeEzXjuxdbCz+DLSZHwrF6Y33eCyFhUdKt2wt8kTjHNxxaYuxRiPAX7KwksLM85R6NS+yhaRbKQ3qKpwtKCYt3yyn5vSwYGAOdPAAegcagUuCsNYWplm7Ts24ViGHZ2R/PQM5Qn95D+E2Tjr+jHorJECtUpyMuE4dL6Q4kqIbxbxPau9sksfhPZQAw2IMA4XtbRmqVAN6/T/abhYAt6umVMErLlsPS0DAUy/xdo61XqI9NY8YOyQUsfn8Xevu+1M4694waPtWPL/8qqlgwO2kx2MGtjYfKWkV4c8+pQinEGCAuUH1zkZVucUeiUtFFX6zr29SW2A5xacBJ8It4xh96JwZolESGlDtVg=
 
 %URL%
 https://ffmpeg.org/
@@ -38,7 +38,7 @@ GPL3
 x86_64
 
 %BUILDDATE%
-1694615401
+1695131933
 
 %PACKAGER%
 Maxime Gauduin <alucryd@archlinux.org>
@@ -74,7 +74,6 @@ libfreetype.so=6-64
 libgl
 libiec61883
 libjxl.so=0.8-64
-libmfx
 libmodplug
 libopenmpt.so=0-64
 libpulse
@@ -103,6 +102,7 @@ libxv
 libxvidcore.so=4-64
 libzimg.so=2-64
 ocl-icd
+onevpl
 opencore-amr
 openjpeg2
 opus
@@ -118,7 +118,8 @@ zlib
 
 %OPTDEPENDS%
 avisynthplus: AviSynthPlus support
-intel-media-sdk: Intel QuickSync support
+intel-media-sdk: Intel QuickSync support (legacy)
+onevpl-intel-gpu: Intel QuickSync support
 ladspa: LADSPA filters
 nvidia-utils: Nvidia NVDEC/NVENC support
 
