@@ -1,0 +1,60 @@
+%FILENAME%
+flameshot-12.1.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+flameshot
+
+%BASE%
+flameshot
+
+%VERSION%
+12.1.0-2
+
+%DESC%
+Powerful yet simple to use screenshot software
+
+%CSIZE%
+612799
+
+%ISIZE%
+2934315
+
+%MD5SUM%
+1cfa29b86c55b72f950de2d289e16fc4
+
+%SHA256SUM%
+ac92e38bb05eff914724b5b6a50ec86f783b71b38f10f7735e07597cbedaadb5
+
+%PGPSIG%
+iQIzBAABCAAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmUKonwACgkQqF6BHrTKLgiwgg//XJVnJ6ZOqAGqIMvTQ+6EEN6rbAQjLY4x9mP3VuSDE2ohI63gC1ya7Z2RL9NePLF3lGrT5UPrxhVPktz2Fy+2ahev9bbcF+y8j3Ebl/oqVEHlficYPplF0YcuE3BiTR2vz7mXSLkVXBfjfOh2q7gIpXgNUq8w70TehcEy7DwMqA0vG1J4gQ3Hk+ECm5cywA3CJTDjmBkF01C9z8tGDq6WVipvbUnNaCK0l5y92XctZRkqc4ioYmreG67VzsetGyMIVj8MPItjR5++a9gWcBv7GDTnLAoUKg4ed32FALXDzHwcw7idqZ5R5L2sM6xB+XmZ7m6z6RDJtgKyToWh3nvfd4ONH4rkS4gh3ao9GUqAvG+jNAw13Q8i2wTcVk+Qn41W1R05wTIBeGQqd8spwRoQiitkA+1iCbSsPTN25vG+QXDscz4v5VQcE/m/c5uGIprGKqBBV0gWM++hqsEnftHahkW/Uak+D4mpE5hGOAhyp+FbclpUTqG+dsuMojsjJlsQw6pcRBSuU82ipUDwNCbxtZo8K09XdcwnbBp3b74NSIqcNe5bm+SJ624yDzPkDf0vB5qTiOS/8QraxkKjFhGLYyRYa3HzY5NMUZc8RhKAAdZ5YqfGC6BMguXVj3wNL0iF0zOXBfiqXdG/rc9oji3bgimKlPpUekkmPsjptVxRr9A=
+
+%URL%
+https://github.com/flameshot-org/flameshot
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1695195703
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%DEPENDS%
+qt5-svg
+hicolor-icon-theme
+kguiaddons
+
+%OPTDEPENDS%
+gnome-shell-extension-appindicator: for system tray icon if you are using Gnome
+grim: for wlroots wayland support
+xdg-desktop-portal: for wayland support, you will need the implementation for your wayland desktop environment
+
+%MAKEDEPENDS%
+make
+qt5-tools
+cmake
+

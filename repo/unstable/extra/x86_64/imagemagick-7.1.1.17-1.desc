@@ -1,0 +1,102 @@
+%FILENAME%
+imagemagick-7.1.1.17-1-x86_64.pkg.tar.zst
+
+%NAME%
+imagemagick
+
+%BASE%
+imagemagick
+
+%VERSION%
+7.1.1.17-1
+
+%DESC%
+An image viewing/manipulation program
+
+%CSIZE%
+8568143
+
+%ISIZE%
+22741518
+
+%MD5SUM%
+fb287e4a759c0c2f5b5ac879875ac0f4
+
+%SHA256SUM%
+2d21437d210635105b2c91461a45d566449a41da4198e136e6083c5367c67835
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmUKnfcACgkQek52CV2KUuT10wf+NmnxRGrkapWoPR6mLBqlEVczRgQ3RFGwozS7KQgdFjUFRwei4mHyWxY9yL9CKrVrLLd22LcFhnJXltrSRJBCvGsEIHhQtj6MhimxpDBuB4rPhm+RWTFmTTDI+NdYrO8Z1MY56ttmyTyltzljO5nTWqfaz/SPQslPVcu6EZmYdozYd3JNH4qLCi+I+H/Zy2HgaWpQZsin4jCF/xeERez8PFpJAVJDPuSZTxgoOPhqoFeT78vgADidzZTGSnpke6SqqUF16mU7PH9WoGeXUT2BW6tUebPtsrqejXHIP/DI5KhtZx8tnuL7wdcsELxRT3bqRJ6NvYd8Uz7J1qc46ba8jQ==
+
+%URL%
+https://www.imagemagick.org/
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1695192186
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%REPLACES%
+imagemagick-doc
+
+%PROVIDES%
+libmagick
+
+%DEPENDS%
+libltdl
+lcms2
+fontconfig
+libxext
+liblqr
+libraqm
+libpng
+libxml2
+fftw
+
+%OPTDEPENDS%
+ghostscript: PS/PDF support
+jbigkit: JBIG support
+libheif: HEIF support
+libjxl: JPEG XL support
+libraw: DNG support
+librsvg: SVG support
+libwebp: WEBP support
+libwmf: WMF support
+libzip: OpenRaster support
+ocl-icd: OpenCL support
+openexr: OpenEXR support
+openjpeg2: JPEG2000 support
+djvulibre: DJVU support
+pango: Text rendering
+
+%MAKEDEPENDS%
+ghostscript
+openexr
+libwmf
+librsvg
+openjpeg2
+libraw
+opencl-headers
+libwebp
+libzip
+libjxl
+chrpath
+ocl-icd
+glu
+ghostpcl
+ghostxps
+libheif
+jbigkit
+djvulibre
+
+%CHECKDEPENDS%
+gsfonts
+ttf-dejavu
+
