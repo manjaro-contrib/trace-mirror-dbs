@@ -1,5 +1,5 @@
 %FILENAME%
-steam-1.0.0.78-3-x86_64.pkg.tar.zst
+steam-1.0.0.78-4-x86_64.pkg.tar.zst
 
 %NAME%
 steam
@@ -8,25 +8,25 @@ steam
 steam
 
 %VERSION%
-1.0.0.78-3
+1.0.0.78-4
 
 %DESC%
 Valve's digital software delivery system
 
 %CSIZE%
-3852639
+3852574
 
 %ISIZE%
-4020398
+4020190
 
 %MD5SUM%
-dac6f0b0798309cf1068ba2208bbe5f0
+d1d316f3fb65479491f8ae6ddb4c038a
 
 %SHA256SUM%
-ce5635c69c08cffd288c9ab2571cd309e3913244784fb42c4ad6e81bbfab64f4
+31c70bf4974c4870db2e71e571004ed68367e040791b8821ef93fb909d14ef66
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmT/pW4ACgkQFQwgB0PtRthhHQgApz52EOUQ4oucWYWWea4fFlQQi+GIRDYYPAwSFGQhUjCYDrEEuFJ3fhRprvQtm4LOtNziQ/dMhXP3cX4bxQ0J7aDg1SiKogg9qU1JfOdmHJK+Bx/Y88RHtTzY6+Hdl6RV7XOxOGI5okpWsd8yJsEeYwfY9gYpTg5JUrIjuWWDut4ruO2TuVusTCQwXfIrY4+e7A1f0HOm9v1TOTRG4R8ZshqqopCsjRNVjkT41IAxa5H3sOjVIDYbfHrGvTd/aStYOyxvGmI8BV6JAmZRGFWupBHdueo4uwTL0zsf9Ny4GKIbK7IhvetX3VqYHSAwMFi73AfDZfvkVDoH20GCg4nz9A==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUMXGMACgkQFQwgB0PtRtg7ewf/WY8+jJM+818kLn7QhwUpMbpEpXBzizyToTx4Alv2cmruGqgfierQ4+LHPKadtNSkcBEd4yVGj8My1YZ9l3u03Rd31VunrGQ3QJ8uLfH4pkzNb5e8C9869o4cbBZdRBNtyTk1Ku3spgmnZhEVsq94HGjRqagyPdSg7C9JBnMgMCGFa4OV4yo5cFLXl+DU0iR6WWfSfX9Du3sXxRzmYS/Qk8qBK4+g717MzSvaDk/vQu1d+Z3/zeA2pbtYx5GBr6jJxrPqbR9SUkhy3KOgzzcN+1dkL7u3yw21dQr19FEldP9jHGlzIIWvsK0MYCoJ1+ZV0ik4gYR64SBGVRLUU4W+5A==
 
 %URL%
 https://steampowered.com/
@@ -38,7 +38,7 @@ custom
 x86_64
 
 %BUILDDATE%
-1694475454
+1695308835
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
@@ -67,8 +67,15 @@ xorg-xrandr
 vulkan-icd-loader
 lsof
 python
-steam-devices
+xdg-user-dirs
+glibc
+libxcrypt
 libxcrypt-compat
+gcc-libs
+steam-devices
+lib32-glibc
+lib32-libxcrypt
+lib32-libxcrypt-compat
 lib32-libgl
 lib32-gcc-libs
 lib32-libx11
@@ -77,7 +84,6 @@ lib32-alsa-plugins
 lib32-libgpg-error
 lib32-nss
 lib32-vulkan-icd-loader
-lib32-libxcrypt-compat
 
 %OPTDEPENDS%
 steam-native-runtime: steam native runtime support
