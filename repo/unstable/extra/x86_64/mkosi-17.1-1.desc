@@ -1,5 +1,5 @@
 %FILENAME%
-mkosi-16-1-any.pkg.tar.zst
+mkosi-17.1-1-any.pkg.tar.zst
 
 %NAME%
 mkosi
@@ -8,25 +8,25 @@ mkosi
 mkosi
 
 %VERSION%
-16-1
+17.1-1
 
 %DESC%
 Build Legacy-Free OS Images
 
 %CSIZE%
-304210
+304785
 
 %ISIZE%
-1532140
+1543147
 
 %MD5SUM%
-5bd4408f687306cacf868f8c630ba141
+a9288cd066a714494dd6981cc84d5d4e
 
 %SHA256SUM%
-d326962229496f752505e061dfa266f96f9b8d065ea4b5c658f3edbd4e394798
+39cebde0e9a4de9a88ba01d0a44d2cc1c1985b1d1ce0b20416f9f8429f767929
 
 %PGPSIG%
-iQIzBAABCgAdFiEEba97gI+d8lE5YgAA0hRh49/iBg0FAmT6dnYACgkQ0hRh49/iBg3x3Q/+KOuOB8L/DbBcLZIK/w2+EVT5EmlBITJZceRriwjXGD0JZ600Oys+G/UU3krzXbZ8wmM1ypRjRYzjuw9Yt9wFoyOGcLJWOSW89mM+3gXkeYJk0SUX61j+WtOZgy7ej/E++k0tvAjwQFAqT6S5A2AsHgmFiXf875coUcRWzGlxOH5MrxDfpXZD0z8BvAGkXUy6tD5kqOSCxN7uyb51nOz1BuEhZ11XS/TkMIzgNFxMVMV0Nj1RC69aWCT7xt/OCrDZ+Z7el3wOJ27doam3g22aKelVzvXAuYySrfqzj0npbtE/5J+sHg5XQM0Pr8doGxjlyxE2uHQPXDFXnzyuTIPfB4+vjlkDraGoqrzVLDdFBWLh3iH1EqhZ3EPHy1vXQMYFlY01uu14Vbr3znql9db1wrqPtx+gGI1C9J+ybTy5wxiVBHgQoifAf3kzHC1hBEa28Sg+tcTwYh1mB4KNqnqblkxLg3NJn5FkyDfilN8ZPlBOwrbiU6sfLHeBecAkH3m2UekV7mpEJVG/Jr/1hIVDxWItR1ThpCOCHsxsG/ceL9heSAAV0TLVUFL8heLMBFMgi1twQ+7BcvSXrXH2+aHGX4ohW/D5wWI62x5bKGc9mcbxZQuzGpBh1P1XMz8qfEYoLe75bJOHtoLzWNv0/CGC3pSRBJ53TD1rQZK48cl8hH0=
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZQmq0wAKCRCbeih9mi7GCJUiAQDdk2Xxi672vqWF/ozNkSf63SeDBmyOsNL5yn155wEntgD/fNXNTt/OSAiVOYDijktkJGckVB73YUVgzdu3Bj+OIwY=
 
 %URL%
 https://github.com/systemd/mkosi
@@ -38,10 +38,10 @@ LGPL-2.1-or-later
 any
 
 %BUILDDATE%
-1694135821
+1695132291
 
 %PACKAGER%
-Christian Rebischke <chris.rebischke@archlinux.org>
+David Runge <dvzrv@archlinux.org>
 
 %DEPENDS%
 bubblewrap
@@ -50,6 +50,7 @@ systemd
 
 %OPTDEPENDS%
 acl: for removing directories created by mkosi
+apt: for creating Debian and Ubuntu images
 btrfs-progs: raw_btrfs and subvolume output formats
 cpio: for cpio output format
 debian-archive-keyring: build Debian images
