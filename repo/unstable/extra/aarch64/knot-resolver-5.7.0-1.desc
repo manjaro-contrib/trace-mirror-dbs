@@ -1,0 +1,67 @@
+%FILENAME%
+knot-resolver-5.7.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+knot-resolver
+
+%BASE%
+knot-resolver
+
+%VERSION%
+5.7.0-1
+
+%DESC%
+Caching DNSSEC-validating DNS resolver
+
+%CSIZE%
+588304
+
+%ISIZE%
+2107027
+
+%MD5SUM%
+d317542b51777230d23bdff4bd290be4
+
+%SHA256SUM%
+91e85d0d2302dfb3fe29cbaf48ac223d933635abcc688c20d58134f5ff505369
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmUL3mMACgkQdxk/FSvb5qY9sw/9ElIu0X6a/iGOFN9gcHJmcWiEffjonRwlOkqWRJk1sfJgISlBQPWL78DHG3igP6xXhu92i8cQEgoRvecR0igBUAdzvEDugJe6gMlFnRbsea/7I8ysHeuE/CwdY+Df0P2rfLwZ1hLfezuBklhNkOT8jkfZqDKpLQV1MP0Qr2v82Gqolz7AaTetSiW/mcyT13cOfsVf23XORTnQ2OxNl4vfgVoaZhdQ0qiiptu3Z9VOpGnRaZ2TLqBTtX6XRKX1nAuSOmVuYv1qcTKfZxK+ZtwBBX96Uxg/hNA7az3CKojOD9ZBDRyJJgbCNa7MDkszB0QKlPQ5HsIzHH8tJu88j+9w+EajsEKXLneuzFZssOhhnyyPM9YRpfPOF6RBbdA+kjdTvHP9Yg7AlTdgfALU3U988pEriykTRv7bc5HCKkeEon0/2OnhwSYOnZv+vGB1cj747rTicnYChuP8hFy+sLAIKiCzCO0Ex3Qn7hShXjWtC+0raMPRJb/mx5KvYMQMiz5kJza2aMTjAQDc0nWEYf+GDqcUy1eo+LsGkDaR7HYpyzD5IZ2cVM15F1cKzRfn0BV5Bc1yTtwbb5nt73mhdcdZPgORXHwSyjlGdf18I8vUyhKSMmQ1GTUo3yYTD6lcmI/gX730EUmCAKts6V8TcJ3CrsoPcZjaPgXHBo1k6+2WRIo=
+
+%URL%
+https://www.knot-resolver.cz/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1695276612
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+dnssec-anchors
+gnutls
+knot
+libedit
+libuv
+lmdb
+luajit
+libcap-ng
+libnghttp2
+systemd-libs
+
+%OPTDEPENDS%
+lua51-basexx: experimental_dot_auth module
+lua51-cqueues: http and dns64 module, policy.rpz() function
+lua51-http: http and prefill modules, trust_anchors bootstrap
+lua51-psl: policy.slice_randomize_psl() function
+
+%MAKEDEPENDS%
+cmocka
+meson
+
