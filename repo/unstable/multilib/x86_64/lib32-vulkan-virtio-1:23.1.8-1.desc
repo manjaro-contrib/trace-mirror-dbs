@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-vulkan-radeon-23.1.7-1-x86_64.pkg.tar.zst
+lib32-vulkan-virtio-1:23.1.8-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-vulkan-radeon
+lib32-vulkan-virtio
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-23.1.7-1
+1:23.1.8-1
 
 %DESC%
-Radeon's Vulkan mesa driver (32-bit)
+Venus Vulkan mesa driver for Virtual Machines (32-bit)
 
 %CSIZE%
-2908859
+440446
 
 %ISIZE%
-9955800
+1133472
 
 %MD5SUM%
-3523210d30d12e4fea871114222ac511
+a8c103e0a51b61e9aac670da18c5e76c
 
 %SHA256SUM%
-181e07fbc912615114620a89a8e78253b4a02433aca9d5dbe2ef6f3268ccae24
+6f9ff0d15b172e0417ad3e4f6688a780af34736ff9f5f855ed4d85053da4cf47
 
 %PGPSIG%
-iQEzBAABCAAdFiEEOfDsGuULN+XzGW8J2tOyEWY8omgFAmT5n/IACgkQ2tOyEWY8omipKQf7BWIWXmMX4exj9DjBFp4GPfPV7XwPdbKyT0EknVZkDVEGFDujDrCg1//qw67gt3OjD6lE/gFKAxH6CgcrHz+a5wnMb/UkE+CnQ6HiKf1VoBahdVUVROlCWOh3yDN0UZe7GubUNJXDV3/anv8CPTHH/cXul1047vrT3Jy0UdOcP6aUzz5Os1IE+CMTcTR6UAKtw0H0BjJT+gZ39yXPnPHxYcutM3FBF+5rcDg5hmc7f1nhx6FyByEQSwls1sv95HVXc2XKcejB6irfytjIGORhajP2bbiUOuoWIl0EGO6h85jvdywvn+xNsZSaEx5APuI4SCAqa/xV7EBc1lr5ptO3Iw==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUMutcACgkQFQwgB0PtRtiJQQgAzXoCwhULF2iPD09JgjIVOf7PK47zfvHeDj7POfCUwu/cZLy+BnIjIS5Q/qAYhGX6flbeGiNbSGZqlX/6mZSZlBFdzfiFXV9yPYgmB0ECkZBIwhYG3PZFwL7YoIAdxl4QMxa2nJZl3HcyHG8fCgIzYK6WdhbOdqTiqp/bhvzIkZjKP9+5HUS+Rv5t+VAOm5Ax0/L1eYcZ0J8Lb7UU+A6f7wVRPr+SpCVc0ad595Dv1BIOPrr+HjrT4A5mLcEsxQOH0+mMF/FoYJ+iSEo87ASMF3PNyFvDm93DDM1xW4FL8fwtT9KON8HpnN1G+c3215Cd+lRB0o/VqdDuh1t9JNGhqw==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,24 +38,21 @@ custom
 x86_64
 
 %BUILDDATE%
-1694080486
+1695332217
 
 %PACKAGER%
-Bernhard Landauer <oberon@manjaro.org>
+Mark Wagie <mark@manjaro.org>
 
 %PROVIDES%
 lib32-vulkan-driver
 
 %DEPENDS%
 lib32-libdrm
-lib32-libelf
 lib32-libx11
 lib32-libxshmfence
-lib32-llvm-libs
 lib32-systemd
 lib32-wayland
 lib32-zstd
-vulkan-radeon
 
 %OPTDEPENDS%
 lib32-vulkan-mesa-layers: additional vulkan layers
@@ -75,7 +72,7 @@ lib32-libxml2
 lib32-libxrandr
 lib32-libxshmfence
 lib32-libxxf86vm
-lib32-llvm
+lib32-llvm>=16.0.0
 lib32-lm_sensors
 lib32-rust-libs
 lib32-spirv-llvm-translator

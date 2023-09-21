@@ -1,5 +1,5 @@
 %FILENAME%
-lib32-libva-mesa-driver-23.1.7-1-x86_64.pkg.tar.zst
+lib32-libva-mesa-driver-1:23.1.8-1-x86_64.pkg.tar.zst
 
 %NAME%
 lib32-libva-mesa-driver
@@ -8,25 +8,25 @@ lib32-libva-mesa-driver
 lib32-mesa
 
 %VERSION%
-23.1.7-1
+1:23.1.8-1
 
 %DESC%
 VA-API drivers (32-bit)
 
 %CSIZE%
-4352710
+4354874
 
 %ISIZE%
 13249603
 
 %MD5SUM%
-030847f0422321ac2b2d3feae989146b
+6884652a07e6eb6e06a3e0e86f08080d
 
 %SHA256SUM%
-7f664b3d65bf57254a9e60f93a090019e77058782ffdc17a7c978f5836289d73
+c2b6b033b83a67f21917975c63cd31960dba550701b8792ac89c2b048be5a239
 
 %PGPSIG%
-iQEzBAABCAAdFiEEOfDsGuULN+XzGW8J2tOyEWY8omgFAmT5n/EACgkQ2tOyEWY8omhDHwgAvd93OLUTctBbXB+Eq+0DYFsNUaKEDC72ia8rFKy6zTLaybdliYUEaeI3k00tOSKa+/C/K/dVV3HFrrCeeGD6JE7IpXNGijx/jq1nPq65wLnvGD4IS2MnmFfWBwQa4LGgmvo1kYj8sqM7vEqkXxX38r47Vd6YuSOvJ/UOzTR7MarE/tiHXw1U2pO1zzGiqlAQ1jKXZLKMOk2wGh5FE9vOFL+1J6HED4hJW7yC3z+nPQaqaCyrQJks8oSo1ez5UV0CeRIgUxu7WjZtS4lrEvZMcQRT+782rwOT1aSRYqvuNLvefTbYEoWfqp2OVkBbdGcM23RKFp0R/pjg7U4UZftYwA==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUMutYACgkQFQwgB0PtRtjKoQgAnpgaBTXBZ+F7lHTV86jDBB2SPEUw2NELiDNv6wdFyAgtDY6iSpy+adRLqwO1S3yDNoWMiGGX5wqWoBslWNr1YDnhC7AUEfQ7u6Rj844pcyCJ/xsqWlCjrtrRE+k/eH54iyigWKT99Lwfjzns03KR3fzW9qjwy7CJGGY42ulZteDvPoiYIBeDu+qOSUfcVKFMT+oKhlVJ1AAJy0OtPmOWDNdHn68ZirZSqzWRdN6PTJKYqm5fls+GnuscBFskiR+ktlfCIYFjj91ejmXunrSlLkV2/OS8y6mucnuLzzaZoKMCjyQkaVcVvri9osIVHMRvryOvDEk+z0bK1ALWJkqvBw==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,10 +38,10 @@ custom
 x86_64
 
 %BUILDDATE%
-1694080486
+1695332217
 
 %PACKAGER%
-Bernhard Landauer <oberon@manjaro.org>
+Mark Wagie <mark@manjaro.org>
 
 %PROVIDES%
 lib32-libva-driver
@@ -52,7 +52,7 @@ lib32-libdrm
 lib32-libelf
 lib32-libx11
 lib32-libxshmfence
-lib32-llvm-libs
+lib32-llvm-libs>=16.0.0
 lib32-zstd
 
 %MAKEDEPENDS%
@@ -70,7 +70,7 @@ lib32-libxml2
 lib32-libxrandr
 lib32-libxshmfence
 lib32-libxxf86vm
-lib32-llvm
+lib32-llvm>=16.0.0
 lib32-lm_sensors
 lib32-rust-libs
 lib32-spirv-llvm-translator

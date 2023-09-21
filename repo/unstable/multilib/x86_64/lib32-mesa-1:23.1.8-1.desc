@@ -1,5 +1,5 @@
 %FILENAME%
-lib32-mesa-23.1.7-1-x86_64.pkg.tar.zst
+lib32-mesa-1:23.1.8-1-x86_64.pkg.tar.zst
 
 %NAME%
 lib32-mesa
@@ -8,25 +8,25 @@ lib32-mesa
 lib32-mesa
 
 %VERSION%
-23.1.7-1
+1:23.1.8-1
 
 %DESC%
 An open-source implementation of the OpenGL specification (32-bit)
 
 %CSIZE%
-25819460
+25830717
 
 %ISIZE%
-81054219
+81033757
 
 %MD5SUM%
-c2c34daf81843dacf92c5bd2c9b75598
+727d83357568996208fd756ee41928c7
 
 %SHA256SUM%
-11953ba44423d49230e272d6b581a7bb6e74094e642014b58aa131bad7a04d4b
+a13d46afc18ee065aa4d55cf9cffcd1d9e56a558e779b461c3e9e1ca3efd2c5b
 
 %PGPSIG%
-iQEzBAABCAAdFiEEOfDsGuULN+XzGW8J2tOyEWY8omgFAmT5n/EACgkQ2tOyEWY8omjRUQf9Fd0sFEPCokktUzY1lfWB4Z5UYggC9DDimI2VAnT/CKDUCO/ygDykWUkMBB+v0PsUPQ0lhagVRKAtZlYcJKpJmXu1nFVw9DExf7hM+IPKifpR64ZEImHZpEMNzuFwyIwuQeeV4H0rtcTXXPKqVKtikd68yUN0xlQxDb12J6Uqm0qKaCeMMjrImlVH5E7NK0Uv64BSBlpC+dTONyMUgcDHwsE//U45tUOl/L9ddphJDCva0phPuwH+8lbjI656EP/Opt+BrsLznyfQv4DDIhFrHXzoiMUKW5HbxoZko5mXtfsYjab+oC+f+HdkdYvgznz3N8e6tAUosLcwukiVoxS0aA==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUMutcACgkQFQwgB0PtRtjapQf/VciR/SpfPHFU3kfhApwSnctt+45W9XLFKW5r/v/WwsWLfzt9Qx+PXFKIvA1TDd17LF/anpNHA2WPVxMQj9s5LLdtV5FJFO56da3fAbVX4BaVCp1VfN/hiniQyVPwduQenop7VD8Vvk2rMQ1Zi3NcHH1aAdb8dadjajLvYRHkBKNJ8K/ogM3plQiYGzHPGQxSnZV6TvPjS/V0U4eC3JFeNXnZX47sWU/6d6eaiVJIMmjnr6J4J/gbgGbqP1kNZfosCf44Qs6fCq5Xu8K5tzN1UJxZr1ZUFM6wKdrO5BnEq6Q5E94GaW4GmO4Ol6B2G8LSoAP1bhWfwHzgmhq4933mCQ==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,10 +38,10 @@ custom
 x86_64
 
 %BUILDDATE%
-1694080486
+1695332217
 
 %PACKAGER%
-Bernhard Landauer <oberon@manjaro.org>
+Mark Wagie <mark@manjaro.org>
 
 %REPLACES%
 lib32-mesa-libgl
@@ -61,7 +61,7 @@ lib32-libunwind
 lib32-libxdamage
 lib32-libxshmfence
 lib32-libxxf86vm
-lib32-llvm-libs
+lib32-llvm-libs>=16.0.0
 lib32-lm_sensors
 lib32-vulkan-icd-loader
 lib32-wayland
@@ -86,7 +86,7 @@ lib32-libxml2
 lib32-libxrandr
 lib32-libxshmfence
 lib32-libxxf86vm
-lib32-llvm
+lib32-llvm>=16.0.0
 lib32-lm_sensors
 lib32-rust-libs
 lib32-spirv-llvm-translator
