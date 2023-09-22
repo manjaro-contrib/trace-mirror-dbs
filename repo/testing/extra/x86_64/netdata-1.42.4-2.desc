@@ -1,0 +1,79 @@
+%FILENAME%
+netdata-1.42.4-2-x86_64.pkg.tar.zst
+
+%NAME%
+netdata
+
+%BASE%
+netdata
+
+%VERSION%
+1.42.4-2
+
+%DESC%
+Real-time performance monitoring, in the greatest possible detail, over the web
+
+%CSIZE%
+11464497
+
+%ISIZE%
+48351949
+
+%MD5SUM%
+3339dfa0c0d11bb1f63cc6845cd25192
+
+%SHA256SUM%
+5093fd6ef2cd7b139e495c874df7e7fecc4d6e0893cfbd013cf5b273e9973a16
+
+%PGPSIG%
+iHUEABYIAB0WIQQMrarPcPZMZU4TGzERZ1x0NCnd7wUCZQl7QgAKCRARZ1x0NCnd7+TYAQC1V7KxsR/Q+3iX4Gkqeazv8sc4iE2pdeBJVITFHGzpnwD/Y90HTGPU26YJUtHOQ4AC81WXqw4LDjkaa9qGuBWZRgA=
+
+%URL%
+https://github.com/netdata/netdata
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1695120038
+
+%PACKAGER%
+Massimiliano Torromeo <mtorromeo@archlinux.org>
+
+%DEPENDS%
+libmnl
+libnetfilter_acct
+zlib
+judy
+libuv
+json-c
+libcap
+lz4
+openssl
+which
+snappy
+protobuf
+libwebsockets
+mongo-c-driver
+libyaml
+
+%OPTDEPENDS%
+nodejs: for monitoring named and SNMP devices
+lm_sensors: for monitoring hardware sensors
+iproute2: for monitoring Linux QoS
+python: for most of the external plugins
+python-psycopg2: for monitoring PostgreSQL databases
+python-mysqlclient: for monitoring MySQL/MariaDB databases
+python-requests: for monitoring elasticsearch
+hddtemp: for monitoring hhd temperature
+fping: for for fping module
+apcupsd: for monitoring APC UPS
+cups: for CUPS plugin
+iw: for monitoring Linux as access point
+
+%MAKEDEPENDS%
+cups
+

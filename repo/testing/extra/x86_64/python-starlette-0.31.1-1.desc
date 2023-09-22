@@ -1,0 +1,76 @@
+%FILENAME%
+python-starlette-0.31.1-1-any.pkg.tar.zst
+
+%NAME%
+python-starlette
+
+%BASE%
+python-starlette
+
+%VERSION%
+0.31.1-1
+
+%DESC%
+The little ASGI framework that shines
+
+%CSIZE%
+179178
+
+%ISIZE%
+1011111
+
+%MD5SUM%
+09b246646c84999bb26f0761e8303345
+
+%SHA256SUM%
+f460704b207af42fb84134b63f9c6def57e1cc1840c7175d76e4a0501c080976
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZP66OwAKCRCbeih9mi7GCFH7AP9VpSY7Bu1LBoi6Y9uIMqRpEtq6z2LQI8ppNhQW04Bx2wEAmROWtUK14wecY76BtvFjjRnS0g+6PDIKvoOiwhpkcQI=
+
+%URL%
+https://github.com/encode/starlette
+
+%LICENSE%
+BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1694415371
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-anyio
+python-typing-extensions
+
+%OPTDEPENDS%
+python-exceptiongroup: for collapsing exceptions
+python-itsdangerous: for session middleware support
+python-jinja: for jinja templates
+python-python-multipart: for form parsing
+python-pyyaml: for schema generator
+python-httpx: for test client
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-hatchling
+python-wheel
+
+%CHECKDEPENDS%
+python-aiosqlite
+python-databases
+python-pytest
+python-trio
+python-itsdangerous
+python-jinja
+python-python-multipart
+python-pyyaml
+python-httpx
+python-sqlalchemy
+

@@ -1,0 +1,88 @@
+%FILENAME%
+kismet-2022_08_R1-5-x86_64.pkg.tar.zst
+
+%NAME%
+kismet
+
+%BASE%
+kismet
+
+%VERSION%
+2022_08_R1-5
+
+%DESC%
+802.11 layer2 wireless network detector, sniffer, and intrusion detection system
+
+%CSIZE%
+10699422
+
+%ISIZE%
+23815076
+
+%MD5SUM%
+44e63a12924fb0601dd88489d8099246
+
+%SHA256SUM%
+6ee3e98aeaffa772d68b64aab8e880cbf2288fc6479f94205d1fd67a813dead7
+
+%PGPSIG%
+iHUEABYIAB0WIQQMrarPcPZMZU4TGzERZ1x0NCnd7wUCZQmSxgAKCRARZ1x0NCnd7ybmAQCaEx73SwQTCXcIKqNq03N7VjZx8iyeGSGZz02i48FUDgEAyhgy5jZIqLmndTtKCCd4ECtkKpx/bPyoiJ6Q+c4gTQU=
+
+%URL%
+https://www.kismetwireless.net/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1695125803
+
+%PACKAGER%
+Massimiliano Torromeo <mtorromeo@archlinux.org>
+
+%DEPENDS%
+libpcap
+pcre
+bluez-libs
+libcap
+protobuf-c
+libprotobuf-c.so=1-64
+sqlite
+libnm
+gcc-libs
+libusb
+libusb-1.0.so=0-64
+libnl
+glibc
+zlib
+libelf
+lm_sensors
+systemd
+python
+python-setuptools
+python-protobuf
+python-pyserial
+python-numpy
+python-websockets
+libwebsockets
+libcap-ng
+libpcap.so=1-64
+libprotobuf.so=24-64
+libnm.so=0-64
+libwebsockets.so=19-64
+libsensors.so=5-64
+
+%OPTDEPENDS%
+gpsd: log coordinates of detected networks
+wireshark-cli: provide OUI files used to determine device manufacturer
+wireshark-cli: mergecap, to merge multiple capture files
+sox: provide the default kismet sound playback binary
+festival: text-to-speech support
+flite: alternative/lightweight text-to-speech support
+
+%MAKEDEPENDS%
+python-setuptools
+
