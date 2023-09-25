@@ -1,0 +1,69 @@
+%FILENAME%
+py3status-3.53-1-any.pkg.tar.zst
+
+%NAME%
+py3status
+
+%BASE%
+py3status
+
+%VERSION%
+3.53-1
+
+%DESC%
+An extensible i3status replacement/wrapper written in python
+
+%CSIZE%
+656024
+
+%ISIZE%
+4117564
+
+%MD5SUM%
+bf737394a12b6430a23a28e367c68987
+
+%SHA256SUM%
+fe1e675bf0ee4395f94ddc02ff2bf378fc9114294c9156515a9214b6848365e2
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmURNvIACgkQ/cMEC5Ksp0go1g//bA0ZWNnComUDatZVMILiVhgAq0sVRCvroHWhl89KM3If1WKPSSMyhc0jq7fmM5D7vw9ewraCa+wru4ZxQ/lMd+No0M+gS8gaPiFDN/6x27tBjIvWbW4w8aahaTVVIY88ojLru9IuxwWb3Ke8qX+ysC71Y2fivkZ9m5mm3RzD90EL0bcnY1dxWOBx3n81tKyrxhAm3qLygntnPuAtLmb2DujgxgZ/xgCDCEiP4lEItcNezIlVjj1m9M/9b6cr5duaqPXcrOolNw270Y3RtsmN+i41OxLLCtbHVWmiSTG+O4YhOwaOyQJYnmyNANn/Ar+wnqu9FDJhEFQeuOvdGwACwKyqXVwRBKGTeZfFOvWBv+2RdUA1WF9Q0JMJPEkcFIoQ1/KPFiMnSxhptvTe4ko8GTzdpP2p2/g+pFKY2MlZvFa8DwgUEZnvSitPmQBezDvCsGuZhp+UjUfzfdIiChhUc/0IatopYjIm3i2sH0I0TO8vl4tsjNCkLzOLK5sxJg+MySlXalNqExEQc9zZL4MPyOBBmuncXuCFZ38Ih4BcZuWlW5f/WEB7Rc5dxU8iC629gXORm/mfk6INrW+BwE8w562Icz0pHVGvoYVECTLBvgP6pzz2YdvbTmOlJUcNR0kqyocMxIm4Lzgs8v8wZw0sDIXru8Z4w1lsEZtdrx4a2t4=
+
+%URL%
+https://py3status.readthedocs.io/en/latest/
+
+%LICENSE%
+BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1695626955
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-setuptools
+
+%OPTDEPENDS%
+i3status: for i3status modules
+i3blocks: for i3blocks modules
+iw: for the wifi module
+python-mpris2: for the mpris module
+python-pyudev: for udev event monitoring
+python-pydbus: for modules that rely on D-Bus
+python-pytz: for the clock module
+python-tzlocal: for the clock module
+pacman-contrib: for the arch_updates module
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-hatch
+
+%CHECKDEPENDS%
+python-pytest
+
