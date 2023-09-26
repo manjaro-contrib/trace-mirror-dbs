@@ -1,5 +1,5 @@
 %FILENAME%
-inxi-3.3.29.1-1-any.pkg.tar.zst
+inxi-3.3.30.1-1-any.pkg.tar.zst
 
 %NAME%
 inxi
@@ -8,25 +8,25 @@ inxi
 inxi
 
 %VERSION%
-3.3.29.1-1
+3.3.30.1-1
 
 %DESC%
 Full featured CLI system information tool
 
 %CSIZE%
-416766
+426454
 
 %ISIZE%
-1267397
+1304755
 
 %MD5SUM%
-01dd8a42bc3858d6fa437db3580674c4
+e152f67b7595ec18fcbb8f24c86fdc6e
 
 %SHA256SUM%
-17af475a6b16bcd1b882cd202f788ef086850f1194919d5a1992f4bef2158880
+751d9924c2d6a70178b07f44bac886801990b49044a970d0ac96b21f0e955041
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmTc2XQACgkQFQwgB0PtRthsUwf+IwC1lCrKo/hr7VhrrmWCDadhIVIDuY17ZvO0VP37n0n5EvfwploM/sorChOYTBraCcWkc8TCZrMdOYM5ZOjl701a8fUbizG1qaz93Tqg0jxKwUk236zfSktcaPlUizvbLHrJpBa6w7vGwSno/JQcTtJznc0uorfWQ45cYyFbWJU7jdGm4h4U7Wo/Lnrpmt+8n4HeBUginzboAWIOFPo1VlK7hqgTl3sa8SqaGHhW2cc9PE7tjYYJT34yF2fzN+ChNE1hJqgrvnSuVkfckz8nWKwVJXsKoU1pkTZVQRNgeqACrJtA9WDkXktN557d+lLOQBmtNqiV5NAPyR+tcCeiHw==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUSIBkACgkQFQwgB0PtRtjtYAf/XxjE1lcMPafAj8FpCvzIUJqAsP4gAMZqihtcQzt1JnbNmjZZdqXrOM1BgS2NQ1FShvtXxN8Eyp78ImATRFxIDgLdwNkyPS+dyGsUgQpY0gihnSEn0NOy4/TQUGwJWZPLrCzAAZhCsmKqNkP8dDMwq7MRA14uRLONsTBrawrm+CG+dsKKFyd2Ecr1eRR4SVzSbKbbby9OLMbpYkX8bUpLAuYLtjdS8EorJKOxtDGWWdOh0XdCp0BkT4fl0rHsVs7WlOD+RuKbh0Mm4o0sYeM/Dfv8FI4al0Jtg1/f3Tfld32z9hZu3FQiBskzDxJ4a1KmIUywfqXneXECy+ydUaeLUQ==
 
 %URL%
 https://smxi.org/docs/inxi.htm
@@ -38,7 +38,7 @@ GPL3
 any
 
 %BUILDDATE%
-1692194924
+1695685994
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
@@ -67,7 +67,7 @@ ipmitool: -s IPMI sensors (servers)
 lvm2: lvs: -L LVM data
 lm_sensors: sensors: -s sensors output
 mdadm: -Ra advanced mdraid data
-mesa-utils: glxinfo: -G (X) glx info
+mesa-utils: eglinfo: -G X11/Wayland EGL info / glxinfo: -G (X) glx info
 net-tools: ifconfig: -i ip LAN (deprecated)
 perl-cpanel-json-xs: Cpanel::JSON::XS: --output json (faster than JSON::PP)
 perl-json-xs: JSON::XS: --output json (legacy)
@@ -78,6 +78,7 @@ sudo: -Dx hddtemp-user; -o file-user
 tree: --debugger 20,21 /sys tree
 upower: -sx attached device battery info
 usbutils: lsusb: -A usb audio; -J (optional); -N usb networking
+vulkan-tools: vulkaninfo: -G Vulkan API info
 wget: -i (if no dig); -w,-W; -U
 wmctrl: -S active window manager (fallback)
 xorg-xdpyinfo: xdpyinfo: -G (X) Screen resolution, dpi; -Ga Screen size
