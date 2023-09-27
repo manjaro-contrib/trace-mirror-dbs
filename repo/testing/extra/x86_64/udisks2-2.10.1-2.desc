@@ -1,0 +1,71 @@
+%FILENAME%
+udisks2-2.10.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+udisks2
+
+%BASE%
+udisks2
+
+%VERSION%
+2.10.1-2
+
+%DESC%
+Daemon, tools and libraries to access and manipulate disks, storage devices and technologies
+
+%CSIZE%
+1247789
+
+%ISIZE%
+16519793
+
+%MD5SUM%
+6b30efa774cd328cf280a199e16a5468
+
+%SHA256SUM%
+74fc4f6e5affe366ba4538614483edb9cf2e0e9b73c825a3fcfcf370f32aaddf
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZRPuQQAKCRCbeih9mi7GCJ6kAQCVkw1i/M8T1XBJJRLtIKG1/RyzifbGNk2VoTn95YB0OAEAlu/iyE0R7OkcRHOv9kz5CXnDHWowXt6nynHCV+8gSgo=
+
+%URL%
+https://www.freedesktop.org/wiki/Software/udisks/
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1695804347
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+acl
+btrfs-progs
+gcc-libs
+glib2
+glibc
+libatasmart
+libblockdev
+libgudev
+lvm2
+polkit
+systemd-libs
+util-linux-libs
+
+%OPTDEPENDS%
+dosfstools: FAT filesystem support
+exfatprogs: exFAT filesystem support
+e2fsprogs: Ext2/3/4 filesystem suport
+udftools: UDF filesystem support
+xfsprogs: XFS filesystem support
+
+%MAKEDEPENDS%
+gobject-introspection
+gtk-doc
+

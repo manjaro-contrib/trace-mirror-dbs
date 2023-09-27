@@ -1,0 +1,72 @@
+%FILENAME%
+munin-node-2.0.73-1-any.pkg.tar.zst
+
+%NAME%
+munin-node
+
+%BASE%
+munin
+
+%VERSION%
+2.0.73-1
+
+%DESC%
+A distributed monitoring/graphing tool
+
+%CSIZE%
+350606
+
+%ISIZE%
+1463287
+
+%MD5SUM%
+b9e34cd8a0527cf75854f5faeb2c8b11
+
+%SHA256SUM%
+c36149dd002837593dfa4b4853e2d62263f5b4701811adb24c8ed7ff9dc99ecf
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmUO/W0ACgkQek52CV2KUuQ2xgf9GPUQ/aRwBhLTYiV6ORbp0oETKhxc9Kk26Zj9cIgudmtrqlK7k/cB1ucXaDmPllO08IDTQR46tc2gPFBTD2ARGMqoowCcMw/S8uU9keX4kh1feHelUz6C4RmjnxVD103tTmQL1HlxoNV/yN5yE/F0ZKpf7r8PzNSsBXJVNV5F0PMrQD3UYdZLdOQDsXRKm2QUkCjwLXJsaiTQFFrPzNvKl8rlT/I5iDsmzloEe4V29hQrh42hLHjrJjCmCQuWKrS5AzW73SjoMFRcnDrhH8PPpKtRTaSk0gCJho0uP3LNCwtEDPSrBcv4inqS0SYZJJn48buuQMYk5zilY30k0SP2EQ==
+
+%URL%
+http://munin-monitoring.org/
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1695481127
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+perl
+perl-net-server
+perl-io-socket-inet6
+
+%OPTDEPENDS%
+perl-net-snmp: for SNMP plugins
+perl-net-ssleay: for SSL/TLS support
+perl-dbi: for database monitoring plugins
+python: for some plugins
+ruby: for some plugins
+
+%MAKEDEPENDS%
+perl
+rrdtool
+perl-log-log4perl
+perl-html-template
+perl-date-manip
+perl-io-socket-inet6
+perl-net-snmp
+perl-net-ssleay
+perl-net-server
+perl-file-copy-recursive
+perl-fcgi
+perl-uri
+perl-module-build
+
