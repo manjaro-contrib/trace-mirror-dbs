@@ -1,32 +1,32 @@
 %FILENAME%
-opencv-cuda-4.8.0-6-x86_64.pkg.tar.zst
+opencv-4.8.1-1-x86_64.pkg.tar.zst
 
 %NAME%
-opencv-cuda
+opencv
 
 %BASE%
 opencv
 
 %VERSION%
-4.8.0-6
+4.8.1-1
 
 %DESC%
-Open Source Computer Vision Library (with CUDA support)
+Open Source Computer Vision Library
 
 %CSIZE%
-79108437
+27219757
 
 %ISIZE%
-1662506244
+100741735
 
 %MD5SUM%
-05c796d4b49c56e5d9f1d7aed38a419f
+db41a0eb4f901326d0411c280419c18e
 
 %SHA256SUM%
-ff3f5bff0d2f8de2097bc5447d78738dd5ef116d960e28095ef0cd83d37eae7e
+fa3371c3bb50e9394d5b8492bb5cbcdd3ecfbe053152774c9244c4d92c23b08b
 
 %PGPSIG%
-iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmUJUQ8ACgkQek52CV2KUuSUbQf+JDAv0poak0h7IfzFjZOMxw7dFI5e63Mj0pnK/bGwnIJfUB/Amt68oLaWc4IvVluIT6LqXpSIn7+82YQHjWvIDSDGHnfhU3mK6DVkUhb97uMH9iJTLb2xFS9QEl4C2mHqi1/4u2JsrcOpNTaINbR1jp9pF87bpwLxfVzONq6WysWJCFw0zILxMUhJK/D8DNOyzwHMNiTb/Vg4Eff3NCw0KamxYZz4YJ9lw4Pn7AEaY0RrzWbBE67d50gTMDxeD+nC1cdGfcHi398JdRBHWtd8YGswNxDpZcCDiw9/p0E7/CzjImiQCIza+XAZfYA42NnlIv3hXo+raVmumDDC8I1HOA==
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmUUYe0ACgkQek52CV2KUuQyjgf+Mpk4dVd/jyizQb+d3DH0HhVUW1+KOHReusLBZZHm72D9DOMMIUA1LSG1b1drvkSdVp9sE6OQZ+BqILgspfvLrFQTJvS9JVHn4CCMQdmyElzM7MMN8HLUngiHcwyqTaeqeaqmYMtYWQmkexCm3f6ZfT+ZQ1Jc1ZmKEo84JGTIVnXhuF6xzeWPa9LtIcd1AslATAEMMbec8HAU/5Y2Pb5x5paOMSgUArpqAscnnhX6WZz3PHCXAsMD26MwTGK0KhAAIZsVfGPswQPlmpMzHf5RtaNCU5+26IhU37C7MzeNXTcD2XsL8kAM6sCgwQtI57o42OJiIo/fveizxhp1H37c3g==
 
 %URL%
 https://opencv.org/
@@ -38,16 +38,10 @@ BSD
 x86_64
 
 %BUILDDATE%
-1695104554
+1695827079
 
 %PACKAGER%
 Antonio Rojas <arojas@archlinux.org>
-
-%CONFLICTS%
-opencv
-
-%PROVIDES%
-opencv=4.8.0
 
 %DEPENDS%
 abseil-cpp
@@ -73,7 +67,6 @@ openjpeg2
 protobuf
 tbb
 zlib
-cudnn
 
 %OPTDEPENDS%
 opencv-samples: samples
