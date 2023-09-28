@@ -1,0 +1,100 @@
+%FILENAME%
+gnome-control-center-44.4-1-aarch64.pkg.tar.xz
+
+%NAME%
+gnome-control-center
+
+%BASE%
+gnome-control-center
+
+%VERSION%
+44.4-1
+
+%DESC%
+GNOME's main interface to configure various aspects of the desktop
+
+%GROUPS%
+gnome
+
+%CSIZE%
+6416728
+
+%ISIZE%
+22921546
+
+%MD5SUM%
+8651f64b010e7fc30bc372d3a3fd012e
+
+%SHA256SUM%
+56fd3edfb1fa022b3074e455f5f24646eaeda3b156878bc549fefa46d7301d7f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmUEP14ACgkQdxk/FSvb5qZVKQ/+Pnt8GcenLCBjkHZp0wAJdtUZ03xF9Ape4Q6eBpJja+lauTwCfYfbw9tKOGtkhU0M/MOMtKJ5iSxLOP8zhwool4rNkrkM2ZyefVs4o0jhyaGZDovaJAmfmadWGsUocbXK5qIzJFUOdCF75BLx2qaDnBHLFm63q4XP/1hwJEGyvcf240L2b3wCkCU21gjudJxu2St5x8rpuvHKgaCHC0QQ3a/cwzZ8iYpIxemfWcvnacR1/u2McxQ1/OYkFJgMi/7Px7UqmUZrAPg6m0z+CO9QFNB2rs5lnVJ0aVH+uSIC2mECaijF27DZrjWREh7bVMw3Z71pUZhGEgaZuzEw1tnJYrGeU3O9iLeJiKeKOFv8PdA3J7Zk9T2HRj/m77lWQhaHXLZbR48Bbjx7G1PiU5YEoooZNwqw9PONXUXD3vLKW763YGfHuNs85wxxdd80S+jPDkMkpl4UuEeakjayukjjdqiVyAspbSUDRFklHZqPsnzOBlMhYYkOhfgtldiXWRkb5AiEBzGopjYsFxrXclrcx0Q61v+6pHCg5I31akNf2dF3GDTMCt2//Bcx2BY32PoqLInUOEUAQQQ6LWehkEBh/r/MsH5Moqz0tbXYMTc//a7BGgYRYyRofxpSYStDLEvrrealk5Y+P/Gw9aO5noovOWPq9IFf8sqv3lXl1WWIt+w=
+
+%URL%
+https://gitlab.gnome.org/GNOME/gnome-control-center
+
+%LICENSE%
+GPL3
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1694777032
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+accountsservice
+bolt
+colord-gtk4
+cups-pk-helper
+gcr
+gnome-bluetooth-3.0
+gnome-color-manager
+gnome-desktop-4
+gnome-online-accounts
+gnome-settings-daemon
+gnome-shell
+gsettings-desktop-schemas
+gsound
+gtk4
+libadwaita
+libgnomekbd
+libgtop
+libgudev
+libibus
+libmalcontent
+libmm-glib
+libnma-gtk4
+libpwquality
+smbclient
+sound-theme-freedesktop
+udisks2
+upower
+
+%OPTDEPENDS%
+fwupd: device security panel
+gnome-remote-desktop: screen sharing
+gnome-user-share: WebDAV file sharing
+malcontent: application permission control
+networkmanager: network settings
+openssh: remote login
+power-profiles-daemon: power profiles
+rygel: media sharing
+system-config-printer: printer settings
+
+%MAKEDEPENDS%
+docbook-xsl
+git
+meson
+modemmanager
+python
+
+%CHECKDEPENDS%
+python-dbusmock
+python-gobject
+xorg-server-xvfb
+

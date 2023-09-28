@@ -1,0 +1,72 @@
+%FILENAME%
+qt6-multimedia-gstreamer-6.5.2-1-aarch64.pkg.tar.xz
+
+%NAME%
+qt6-multimedia-gstreamer
+
+%BASE%
+qt6-multimedia
+
+%VERSION%
+6.5.2-1
+
+%DESC%
+Gstreamer backend for qt6-multimedia
+
+%CSIZE%
+131192
+
+%ISIZE%
+482757
+
+%MD5SUM%
+5b8ae84d39294610c1efdeccdb459c26
+
+%SHA256SUM%
+9730e8ea12df2528a497c910bbb5441b64bbf985010651909fdf84b38a93e755
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmS7NJQACgkQdxk/FSvb5qZojw/8DiYw5VlyIvjEGROEWcbiERQ9OMclzSqE3HK4WMDxUr5yOIc4wy4uaaCALLEJ99BcLNLbglWqIWN8VyJRATwLci6MnuswzeWkA+ieJDA+ub8jckzAhJcJkmRBTfkvXP3eVO6pK+sQdODkC/QdtSbTWCZ3kN9/mWPMb1Z/LoQsxrcaDGgdPvfW9hLKWWS8T0B0pH3oCYTOQtNH0xdFCYTkFVXpUKYLYRAUvUB21OYEf2Rm0EJDO/hTEWjEhB4fubSviHCmK6YMhq7OEUcneadLXDbcX0ieVgHI9Tm5eUWBczAN4912BOalMelZF6w46JMFEwI5cbVpDVjIvHYnsSqXXUrZ2WigtAmutycvf+YE1Ju7bWqvfMldUTBz095NkhFA/WSlJvfIeqzAUsabR6g3OhwhcEVLdNBTrDKR3R/1jzciwKJd/+zulUWsvNnOr9roFOp6BriK+27UlW2FJUlFoiu+tXrWsAi0kSKFwK+vFt6w1KWXP2ZkB42XfvZFrqD/vYP1a01mG6NktfwydZpdt817x2d6qZiOzB2LRFLGcJivpe/knBOPVkv7FPjuK/F9cY4Yee/TG6bz4H8qHLr+lcsgVaFv+LpyPlZX8Zh862jnyMhCOprVaRm3p2LeDxeIvknsd5RJBgzprLbB0Q4loiHJ4vv+si+rm/xWNfgyBpw=
+
+%URL%
+https://www.qt.io
+
+%LICENSE%
+GPL3
+LGPL3
+FDL
+custom
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1689990071
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%PROVIDES%
+qt6-multimedia-backend
+
+%DEPENDS%
+qt6-multimedia
+gst-plugins-base
+
+%OPTDEPENDS%
+gst-plugins-good: camera support, additional plugins
+gst-plugins-bad: camera support, additional plugins
+gst-plugins-ugly: additional plugins
+gst-libav: additional plugins
+
+%MAKEDEPENDS%
+cmake
+ninja
+qt6-declarative
+qt6-shadertools
+gst-plugins-base
+libpulse
+ffmpeg
+qt6-quick3d
+libxrandr
+
