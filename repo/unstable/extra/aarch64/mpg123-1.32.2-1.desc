@@ -1,0 +1,64 @@
+%FILENAME%
+mpg123-1.32.2-1-aarch64.pkg.tar.xz
+
+%NAME%
+mpg123
+
+%BASE%
+mpg123
+
+%VERSION%
+1.32.2-1
+
+%DESC%
+Console based real time MPEG Audio Player for Layer 1, 2 and 3
+
+%CSIZE%
+414512
+
+%ISIZE%
+1168795
+
+%MD5SUM%
+b6a9b4bd6f5953fc1392f3240e705fbf
+
+%SHA256SUM%
+938f5c27e834fe4ed235f6c012790597a2516a13ee5e69c341cb28eb1d67b38a
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmUVSKMACgkQdxk/FSvb5qb3WhAAooqqydl4GXUVXXmDCVaajKXWA60XvDAiqPEt/tk0oUHbOc9/HriZm3NWN/wBTxzcqjqxI2zAiVO61CAzIsuI2Z1KlMtJ73h0WYusR8vL3WQUZDxEpS0gp+mNEKBNwMbPACKLwd9aWzMRmIE+uMoT+afsuAOQtaBCv01JVC2mjAz0dCSxE3FcJQJaa5sbDWxfasHAFBssBMENV9llpOK36KUqz78igbqpDQILlJoP8qVTQb8Z22U5aarpoAPq10z99cqvbo4Vycr83kjA2nAtsLzuNgP64ri0rBs5UGkRqQ32RqPN7Rih0gSRdRQTKdh4am3vB3PlwQ9L9qau6BC37NOirtUYQRLjTqrHNcsBLWT5A4pHG7KDazho32XZmR51yXhQ8HuWeBkiEbWZlBgrf7tghhAPS3dBdK0KWNQIIMTApAQ2OC1OBhnXV5p3KeHHTK8mgGak0F3Z5bOelWAaqGGieRVCiE15hXtq6YIY8Ij3KmQuNYYxmH1Ok0TKimmFS0+Q8hgCWPffeqwS8T9qBDguAMR0P0/sxp0ZgbBByMrHKnbCgFyWaHdLOBexVXycl+zNqYpxRBPeahBntQqty5OjyyVaWAAGsMFISBxG1II/oXg3QqudGJovbLXQvOx29turRVTtfbAowOSeKS/R0t9SmUzKHANRgql3uPFU38Y=
+
+%URL%
+https://mpg123.de/
+
+%LICENSE%
+LGPL2.1
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1695893624
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+libmpg123.so=0-64
+libout123.so=0-64
+libsyn123.so=0-64
+
+%DEPENDS%
+alsa-lib
+
+%OPTDEPENDS%
+sdl2: for sdl audio support
+jack: for jack audio support
+libpulse: for pulse audio support
+perl: for conplay
+
+%MAKEDEPENDS%
+sdl2
+jack
+libpulse
+
