@@ -1,0 +1,84 @@
+%FILENAME%
+remmina-1:1.4.33-2-x86_64.pkg.tar.zst
+
+%NAME%
+remmina
+
+%BASE%
+remmina
+
+%VERSION%
+1:1.4.33-2
+
+%DESC%
+remote desktop client written in GTK+
+
+%CSIZE%
+1115980
+
+%ISIZE%
+5131308
+
+%MD5SUM%
+b8aac86a43b6729436738faf619b1832
+
+%SHA256SUM%
+f69be11046408792204dbb5a0ad433e973bdc7e8d302479ecb2905d9d8f1dde4
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmUZOxUACgkQek52CV2KUuQYpggAm59wyNNbpR6SjL/8m5eCKJXhPN4IDyXSGEXa71FbiHLzH56LAlsLv3tkHPgx0TCePmkMgvYJaogHkKksMrBmJ9vVAVfMcdZp0OEFd1pY716YtRKcj68mOn+FAaQEmOEnOvXuDLTI9iEOZVl18DpU/4eZEEl2dUzBlrRnQ6Wzr7b+7n+L88n+NNZs0pdddm94703356djHR3LzBHGi/kwYOnPb/kzbSwO5T17gnuChUkJnYjt13pejYERTSh85qX2OiEXpYkLZw144SHnsE1cm4vqY13B55PAR2rHjykmnnPKO0dv6j8joj3T7gbz8H/vG7Yyadl1DVRDYU8piSXkVA==
+
+%URL%
+https://www.remmina.org/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1696152237
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%REPLACES%
+remmina-plugins
+
+%PROVIDES%
+remmina-plugins
+
+%DEPENDS%
+avahi
+libgcrypt
+libssh
+vte3
+libsodium
+libayatana-appindicator
+libsoup3
+
+%OPTDEPENDS%
+freerdp: RDP plugin
+libsecret: Secret plugin
+libvncserver: VNC plugin
+spice-gtk: Spice plugin
+webkit2gtk-4.1: WWW plugin
+gtk-vnc: GVNC plugin
+kwallet5: kwallet plugin
+gnome-terminal: external tools
+
+%MAKEDEPENDS%
+cmake
+freerdp
+libvncserver
+spice-gtk
+spice-protocol
+harfbuzz
+xorgproto
+gobject-introspection
+kwallet5
+webkit2gtk-4.1
+gtk-vnc
+ninja
+
