@@ -1,0 +1,74 @@
+%FILENAME%
+clang-16.0.6-1-aarch64.pkg.tar.xz
+
+%NAME%
+clang
+
+%BASE%
+clang
+
+%VERSION%
+16.0.6-1
+
+%DESC%
+C language family frontend for LLVM
+
+%CSIZE%
+47139376
+
+%ISIZE%
+265015662
+
+%MD5SUM%
+954e242148c255329a1c937b944abfb4
+
+%SHA256SUM%
+738e452b6a15fb069e88923307e10e059f02b9f55bddc0eedf71117f7c2cda12
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmTuuxwACgkQdxk/FSvb5qZLcxAAtZZBrI3ZPmJdLMJWR/vVVvZzoy2AKJMP2ADH1lIXdozj0b09NeYE8+VbE98Hc+gzjam6YjV2jm0ki21b9hluahxg6C69Z6ICKs3ot8CoAaOIEr5KO+Iup+EI3ep959joOpyCnyxUe5xmJUvTtKoeQ4nLkKG5pBptRUHn1D7NiNLSFrkoBVeRX+ssbwXphiQmCUVv8uRDSMOvL0Hs3mZW3soxaT1dqTkF7TpTziGU2vEcDeUUCbVGedB7qt/Fxl0nf5gb/65lA5fqkNz1RZbI1oSLZNJV3ujxXg6rCVRnKqytS30e6gHhlc3rcPFlsfC1e/ahmfrDUvqJsTIPjT6nClCVSuLT13qE0I3tDWXXE2LOs5EkiX7A1SZxPQK0XeNSiq6vExwKvbgmmT2cV2HY7lv88CYW7EwR1pDw0LDWfwvlP1rq4BEj49PcvpxfvchKzxuoZGz2kDx8KVK15bLKP+dqHf8fbkV+rhzs1QXtJHWVANVz5aojEaMZywh0BsFJliYwOJiSlnLzrcuPib6bXuBDLNLFU+wje1TrG+bxZtEbxF9vF7BefY+qwUcmZcFu0h/KJ7gVBSpQs0sNL/Wz2UQRVNXBGCjsvSkIjZjt94gsxl74a39ocZST5ZnNiIylVinG3SmgH4FosPTJkvsmUv19E83AHq+RPlm9CiIltWM=
+
+%URL%
+https://clang.llvm.org/
+
+%LICENSE%
+custom:Apache 2.0 with LLVM Exception
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1693364163
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%REPLACES%
+clang-analyzer
+clang-tools-extra
+
+%CONFLICTS%
+clang-analyzer
+clang-tools-extra
+
+%PROVIDES%
+clang-analyzer=16.0.6
+clang-tools-extra=16.0.6
+
+%DEPENDS%
+llvm-libs
+gcc
+compiler-rt
+
+%OPTDEPENDS%
+openmp: OpenMP support in clang with -fopenmp
+python: for scan-view and git-clang-format
+llvm: referenced by some clang headers
+
+%MAKEDEPENDS%
+llvm
+cmake
+ninja
+python-sphinx
+python-recommonmark
+

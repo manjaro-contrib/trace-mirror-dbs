@@ -1,0 +1,86 @@
+%FILENAME%
+avahi-1:0.8+r127+g55d783d-1-aarch64.pkg.tar.xz
+
+%NAME%
+avahi
+
+%BASE%
+avahi
+
+%VERSION%
+1:0.8+r127+g55d783d-1
+
+%DESC%
+Service Discovery for Linux using mDNS/DNS-SD (compatible with Bonjour)
+
+%CSIZE%
+403416
+
+%ISIZE%
+1997337
+
+%MD5SUM%
+6f6c7381f9b1444eeba7fdb9b4f89f56
+
+%SHA256SUM%
+ea0bb07cbb307b24ee6a29950e82a9839de08eb108a62c4d42ff8f579d260270
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmT5Fr8ACgkQdxk/FSvb5qZ+ThAAxQ6Y8217A+E3Vme7eB8gTogDn/BWXavRs6dHAUXuQjpgGP+JvXkb7r5yXqaibgieVWpPFyfvTk8+NzzYL7zH2Mv9nqz5eam3WqNhztiPpyB/D+3e7gsdMhuqf3SqIwaNYZw48aguQJZL+13riKMI24OxvyFslROStnmDCR1lMEduVL/ZAL82oV0fv3VGU33zaYTOGkUKKxDfKeYgw/ciAvVVbpim/iVMZfSzwo5Mtk+36zYOobLMWuqpg5UVSIg8Dfr3bg6MwWM5IUHBEnL7AvESjlnfK99r4Ewmg92apUOcklD0J4YY4hOgFvJwq++KkAsAFkvE1lK1WNLLV6Xdl1i3W/ZY+k/gEbrwYy5/d/MyvHC/Gdhbwkgr9Hev2gAAryfJCAFiCzXtKyNX7EP7grkSX+gS+q8gcvb0Ljp6mCtRbRn8sS1cliaH2Gj0M8CdTnpUzkaq2G1UGMpzGny8eJea/Q9rkUuDXZwWvke7NXKYBhfOts49+YEkCF1HZ4OKGSazdvT4NFjWMuUS+kpqZzyEu9vj5B6HDuwCSJQHSP+vjoQwhkJDoDoi779BicmOFVrRYR7RlVXB/wJ1ma+1OghJ7bznWFZsuJeV1bORlo5qzgwXeZtDiPnY9IjDReaWS5zTnehRjozgd7snjMd1U77lTBDl9ES122T4Hj4i7Ag=
+
+%URL%
+https://github.com/lathiat/avahi
+
+%LICENSE%
+LGPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1694045776
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+libavahi-client.so=3-64
+libavahi-common.so=3-64
+libavahi-core.so=7-64
+libavahi-glib.so=1-64
+libavahi-gobject.so=0-64
+libavahi-libevent.so=1-64
+libavahi-qt5.so=1-64
+libavahi-ui-gtk3.so=0-64
+libdns_sd.so=1-64
+
+%DEPENDS%
+dbus
+expat
+gdbm
+glib2
+libcap
+libdaemon
+libdbus-1.so=3-64
+
+%OPTDEPENDS%
+gtk3: avahi-discover, avahi-discover-standalone, bshell, bssh, bvnc
+libevent: libevent bindings
+nss-mdns: NSS support for mDNS
+python-dbus: avahi-bookmarks, avahi-discover
+python-gobject: avahi-bookmarks, avahi-discover
+python-twisted: avahi-bookmarks
+qt5-base: qt5 bindings
+
+%MAKEDEPENDS%
+doxygen
+git
+gobject-introspection
+graphviz
+gtk3
+libevent
+python-dbus
+python-gobject
+qt5-base
+xmltoman
+
