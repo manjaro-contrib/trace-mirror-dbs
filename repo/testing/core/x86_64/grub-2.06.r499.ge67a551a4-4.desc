@@ -1,5 +1,5 @@
 %FILENAME%
-grub-2.12rc1.r31.g42a831d74-1-x86_64.pkg.tar.zst
+grub-2.06.r499.ge67a551a4-4-x86_64.pkg.tar.zst
 
 %NAME%
 grub
@@ -8,25 +8,25 @@ grub
 grub
 
 %VERSION%
-2.12rc1.r31.g42a831d74-1
+2.06.r499.ge67a551a4-4
 
 %DESC%
 GNU GRand Unified Bootloader (2)
 
 %CSIZE%
-15652320
+15593057
 
 %ISIZE%
-49653120
+49547878
 
 %MD5SUM%
-8efdcf45455f10caffc181492afd143c
+cc09f37d34edd207a352b7e2fd2d335e
 
 %SHA256SUM%
-59636b724a6c933eebf385a4519fb3cf0665d483b8015331280a4e14085719a1
+785fb82305a72d5508fedabab56d45a1d72b78e3343de9493ec683d17dd16292
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmUKdsESHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+vYoH+wYnFYw9eJt7YcHuYtLfbjEvqX2LWdMis87eNxQ2jHt5a2EDnshIhKMKBeEMwfEU8OUEYYlMB+ZdO0RQNzStnFWgDNmX9r4XStvatwSgJt5b422RohlBw+Aeqt1DYJrg4I7fnlQaMyMzhDqmID8ZyWzr7LXwvQc6r0HB9OWjMmCQgCiJgxyw+O+gHuo1KjJsEDHccIRndNGBE553CedHoFjOAiKTZfE1/QshI2Ev3rHOJkAtgVsaG5SsJobRJKpzh1n/XS1mQms3sJD6OwmOwJC7EkRZL9vr614RRQY4/31hHdbEMDP0unFuLPVvfKfGdvtIBjR+QZp7wAcaHzfkIkI=
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmSJ5WgACgkQFQwgB0PtRtg7IAf/akc6w4mPbJjhale6sG7YJMHU/JLBe8t1n+0SO2tEdHhLCYJdiSSw6Eds/eOBeo/5/Zu47TmsLwOLJPz8A+Q/QVBXpzS0CoKtyonRLtQkgCER2i2RwdcxKiPDNAih9QNdRIKY5YT22FVE5bNHv9PW1af6ih1pcUJL6/EkK+ZPyHy1joyY+Pz1Nvk35x2GET7du2tjaXOz2bhb5ZVVAor5tDdirKUot5Bd5UXmA4azhk+2e3hlD7FwSzxZJRqg4w6YRCawvSTwRMpYjVb6ZpMruM3soWh/QqUtcD4nSwywbeOrMrX3SPlygZk7jstZRMifoYM0+hZ4rSVGrDAZJV5ivg==
 
 %URL%
 https://www.gnu.org/software/grub/
@@ -38,10 +38,10 @@ GPL3
 x86_64
 
 %BUILDDATE%
-1695181615
+1686758124
 
 %PACKAGER%
-Philip Müller <philm@manjaro.org>
+Mark Wagie <mark@manjaro.org>
 
 %REPLACES%
 grub-common
@@ -67,11 +67,10 @@ sh
 xz
 gettext
 device-mapper
-grub-update
 
 %OPTDEPENDS%
 freetype2: For grub-mkfont usage
-fuse3: For grub-mount usage
+fuse2: For grub-mount usage
 dosfstools: For grub-mkrescue FAT FS and EFI support
 lzop: For grub-mkrescue LZO support
 efibootmgr: For grub-install EFI support
@@ -93,7 +92,7 @@ texinfo
 help2man
 gettext
 device-mapper
-fuse3
+fuse2
 libusb
 sdl
 
