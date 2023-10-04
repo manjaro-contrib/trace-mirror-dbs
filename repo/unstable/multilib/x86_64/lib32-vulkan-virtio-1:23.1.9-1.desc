@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-vulkan-radeon-1:23.1.8-1-x86_64.pkg.tar.zst
+lib32-vulkan-virtio-1:23.1.9-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-vulkan-radeon
+lib32-vulkan-virtio
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:23.1.8-1
+1:23.1.9-1
 
 %DESC%
-Radeon's Vulkan mesa driver (32-bit)
+Venus Vulkan mesa driver for Virtual Machines (32-bit)
 
 %CSIZE%
-2908006
+441456
 
 %ISIZE%
-9947608
+1137568
 
 %MD5SUM%
-cfebe75357991186c4dfed56edfd3851
+ffa9e9cb144e2da40c2aeeea6dbf09fe
 
 %SHA256SUM%
-d28f8d642a7cc880b15423fce2bef3d63ded1aca61a4e614b48746e073bb95af
+7ca55e4a7d0b6d444587525c4541b45abc7b3b25dc227a9dff5f267fcd387b1c
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUMutcACgkQFQwgB0PtRtjS5wf9EpNQINngP/U/mSMDWEcDq1LmFShYIRYNACnF5r7mXfptgc6lZaeYZINx7y4ytdhW0kyFNZv/efjOD7hiHdprBhqiET45BkvPqIDiHzPlq1h/uDOOEIQ4iRxDyopxdNAFu4x1x6mzv1Gz3upYlFlrcPH7SusW5iTUC/VcWbOMEsfQA0SxnvtP3lGLf5IvTXeJGzey+oYvmMyfKs4ViGuA0XtyVF9GpB/vxzx0B9EbNYy91vJcZn3kd2d8eBqy+XAUul6gdi5zvbNpZnZi0ufbgEy2wY6i2DdqAGydjs8ibgFjSjGm++M2gAjK4Cva/T2SRv0czZwh3SIGsUGt1SglUg==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUdincACgkQFQwgB0PtRtgX+Qf+N0sD7bXZN88nXcP4ju9dRkw1Nxb1QZJDWWThinBLdiTNL5GygVE2CJYND03DG8gk/zN/HMQPEFbHaqYKkSnYGZj81WVk1KMkUO/MYNkHxKkLmGEV/rLMoxbtwo0N3oS9030o2tciHFA5DqTLyUnQ0rQ0Er1PzQ8iDjdWp3EM80L1RcHN+x/DOEbxa6WiD6gORhOL6JxqBRYgFOGtRAWfMzLR9rkY/g+w1Dv6gf6nCVmGzEM4Z2WUnPNCwSfaUq9683tXX8RYnY5O00GuSCkhrUTrlNY7EsP1jOuuGPZ6YKVcKhrpoulFvC5ZoeK5oMgm1Q24nipAc2bc75Muq6E1tw==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,7 +38,7 @@ custom
 x86_64
 
 %BUILDDATE%
-1695332217
+1696434296
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
@@ -48,14 +48,11 @@ lib32-vulkan-driver
 
 %DEPENDS%
 lib32-libdrm
-lib32-libelf
 lib32-libx11
 lib32-libxshmfence
-lib32-llvm-libs>=16.0.0
 lib32-systemd
 lib32-wayland
 lib32-zstd
-vulkan-radeon
 
 %OPTDEPENDS%
 lib32-vulkan-mesa-layers: additional vulkan layers
@@ -75,7 +72,7 @@ lib32-libxml2
 lib32-libxrandr
 lib32-libxshmfence
 lib32-libxxf86vm
-lib32-llvm>=16.0.0
+lib32-llvm
 lib32-lm_sensors
 lib32-rust-libs
 lib32-spirv-llvm-translator
