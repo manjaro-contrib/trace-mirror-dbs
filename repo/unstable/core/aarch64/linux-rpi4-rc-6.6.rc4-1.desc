@@ -1,5 +1,5 @@
 %FILENAME%
-linux-rpi4-rc-6.6.rc3-1-aarch64.pkg.tar.zst
+linux-rpi4-rc-6.6.rc4-1-aarch64.pkg.tar.zst
 
 %NAME%
 linux-rpi4-rc
@@ -8,25 +8,25 @@ linux-rpi4-rc
 linux-rpi4-rc
 
 %VERSION%
-6.6.rc3-1
+6.6.rc4-1
 
 %DESC%
 The Linux Kernel and modules - Raspberry Pi 4 64-bit kernel (release candidate branch)
 
 %CSIZE%
-28903155
+29206160
 
 %ISIZE%
-47770026
+47927905
 
 %MD5SUM%
-99c7257e895c528c37f4d3e377648491
+abb4ca9169fc6e156711f5b062250387
 
 %SHA256SUM%
-253a994c01e255f9da920adc97d7916241f38391902988698f3340fe2ed6cc10
+0105e6752518941bea4f5f1202cdef86ec1e6953f10f4c168fb9bc2b229a3637
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmURuTEACgkQHzWBGKB6z1dHoQgAt9L3xKA08LYK7X8QO+EZ2Y/+11K4N/7h0qFi4KOEdhd5H+zjGSXIvyb7UjtGCt6nZ+Xnlen9Lht9RS4e1FeizDQWa7+lFdoEMCJhmyTbP6t/B4YyIA0KrUi25+VXlBjoufvO0RSfkqfvQYzx1KW1go6BZIudQyMBlN2NDBqnRiyPDamDRrj6KQCLjGXNkgYs1+n8+I6lU+q5s56+SJFNpOD6DshdM6VUWkitjRTC6dMS/Oy4ZBGXYtI04eQ2Ar2qjey2rvcd+2t9vFYuJjcz6aTr+s00ZuqKE+JCWCROpB/DAzMI1ba2Z0pI9RBBG/ULEXzWLIrkbcH8mP3xrEYD7g==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmUgOXwACgkQHzWBGKB6z1eZPQgAtMfp0c1FtLvBDy3Sfx6HheYN0329oSqDtwadJXfR/I1EWc4a/DhXmE9ew8DAqWfaSyCcxY16TuXZ69ZH0Ll175lFiqucRG7JQUSEQVDxBVeKKHGtgYsn2s0f9S29rhvo87VpjGxFmEBJm1tL81Wv0H0o9bALanY7E4L4FRDoB7aD6Oc8FvLXwq61OflY9QEd4wvggR02J/89twgusKcSNw2wAujrlYXpUYTdp56PRUYuZwpG8Wo8d8obXDcnAhY4eQt/J9wK7PGtc+fau/gwvtPefxZwVjvPSL3c1MJpXRjynficlgdzLSqwd7m4nODBHD2l2y4dKK/LDgapWVAt9g==
 
 %URL%
 http://www.kernel.org/
@@ -38,7 +38,7 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1695657606
+1696608394
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
@@ -53,7 +53,7 @@ uboot-raspberrypi
 
 %PROVIDES%
 kernel26
-linux=6.6.rc3
+linux=6.6.rc4
 
 %DEPENDS%
 coreutils
@@ -61,6 +61,7 @@ linux-firmware
 kmod
 initramfs
 firmware-raspberrypi
+rpi-overlays
 
 %OPTDEPENDS%
 wireless-regdb: to set the correct wireless channels of your country
