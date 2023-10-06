@@ -1,0 +1,102 @@
+%FILENAME%
+imagemagick-7.1.1.19-1-aarch64.pkg.tar.xz
+
+%NAME%
+imagemagick
+
+%BASE%
+imagemagick
+
+%VERSION%
+7.1.1.19-1
+
+%DESC%
+An image viewing/manipulation program
+
+%CSIZE%
+7871388
+
+%ISIZE%
+21512406
+
+%MD5SUM%
+8c4d31f742c7019574ead0c7353aa3cb
+
+%SHA256SUM%
+cd95b5af0dfe66b3bed45ad6cff1064cc5b2c4186a91ea84aba523cf9192d6f4
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmUZKMMACgkQdxk/FSvb5qZyWg//ZKskkbd0q6LZkHF7mHWOY0fM3T1aqXt3u1ZzTKxC18rWrzFdaG8bTKXIMQ+RfvcGQf++VrJ3ufazRrAj8tGV2s7FWQi9OkNQkDSz8UvYmVyVrT1VMOXd62IkCVJCAUieSal7wHwEJwoFHdgUBk8O2QGGYtTcCShOeJR4iMz149xESe/O2ASVCbjZCL3P8VCE+3mT1MpG7++tRHtSHqGpBc8jTuD8ZvbvpU5/ZniKumnZvqXfwbsnK5Z4QgVCj5IrzufXECHdxW15haXoICPjEL7YiD796ao/cPZbHj6fwICUfdX4LT9UPRIZi5/VhS4CUjafK6eEuFUJyH1vUdGcWepmu3m93fExty1mtWg7QtK/0f7CKApRIfC/699HrP+RsdAAvQ7oG7Q/MbqOgJIZlECQxC3x/6O3dP6pTDlpUtmft1Lz+Om0QX+q0Z3F0nHgSdKKmcDNCFA6UTj4PvTegvLSPe9WLMEKfPz1y27wVrXm6adW4eQ/5TEDc4eUturaX4YjvRleJyUte8p97uvwiqVBVhtzo7X/SewqKDX8+rILCH1qIdU59r7leHLoOJeIQEW+1fF3dfxulVyKhicGQ3oYEoEwS9cXjHcoxpixyCGETOxUtIR/aUFXXwH9IoYOF9yG9/Onn1phenuDl/ZFF9lDjDPtoQ8vHRaG03ImKsY=
+
+%URL%
+https://www.imagemagick.org/
+
+%LICENSE%
+custom
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1696147442
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%REPLACES%
+imagemagick-doc
+
+%PROVIDES%
+libmagick
+
+%DEPENDS%
+libltdl
+lcms2
+fontconfig
+libxext
+liblqr
+libraqm
+libpng
+libxml2
+fftw
+
+%OPTDEPENDS%
+ghostscript: PS/PDF support
+jbigkit: JBIG support
+libheif: HEIF support
+libjxl: JPEG XL support
+libraw: DNG support
+librsvg: SVG support
+libwebp: WEBP support
+libwmf: WMF support
+libzip: OpenRaster support
+ocl-icd: OpenCL support
+openexr: OpenEXR support
+openjpeg2: JPEG2000 support
+djvulibre: DJVU support
+pango: Text rendering
+
+%MAKEDEPENDS%
+ghostscript
+openexr
+libwmf
+librsvg
+openjpeg2
+libraw
+opencl-headers
+libwebp
+libzip
+libjxl
+chrpath
+ocl-icd
+glu
+ghostpcl
+ghostxps
+libheif
+jbigkit
+djvulibre
+
+%CHECKDEPENDS%
+gsfonts
+ttf-dejavu
+
