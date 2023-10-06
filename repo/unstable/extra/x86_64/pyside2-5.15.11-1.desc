@@ -1,32 +1,32 @@
 %FILENAME%
-python-shiboken2-5.15.10-2-x86_64.pkg.tar.zst
+pyside2-5.15.11-1-x86_64.pkg.tar.zst
 
 %NAME%
-python-shiboken2
+pyside2
 
 %BASE%
 pyside2
 
 %VERSION%
-5.15.10-2
+5.15.11-1
 
 %DESC%
-Python bindings for shiboken2
+Enables the use of Qt5 APIs in Python applications
 
 %CSIZE%
-204442
+9817826
 
 %ISIZE%
-480546
+56715514
 
 %MD5SUM%
-1ac15549d8816bf2c042614568e1c841
+169f8ebc3a302fcaa22a5890872b5b58
 
 %SHA256SUM%
-8bfa9c41abb78a13e47d701f8fb2834426d5c3fd76cbc4d9c0a58c6b051b2748
+b8f17a66c0778083ddb970d7174a8d7955856a391cec2b44fe4cb6d51e2ac168
 
 %PGPSIG%
-iQEzBAABCAAdFiEEhs/8qRjPOvRxR1iAUeixSKmZnDQFAmTqI7cACgkQUeixSKmZnDSsfwf+ITeSzz/rUY5lBhOxDsl0aQnawjBYe81ywvHXDySxBnO7xwG4zMxLypad4Pe6NvwWeqBHG6s+SrAofMUd+QioLWwy4wR/oBHDKlAz6tw0PrJqVi4KPKgrbS2HcdDIil9ZuqnGobY21IAGSU9QevaKiTNmCr6RfQt+3AMIl9cfCX0vNewbZJqcQFcE1D8JyhUSrb7MzQHOU5DxdFAsQLRS12jJJVMFN4B9z48B7E3q4vGsUmwWhzKNLM3aqB+9UhdDsAXhPC5pW61j5JgzxlR5iKzhC5GR515mQE7KISz8NFKAZx+GxX0jPzNqibODoDXhP9x9BLf+sP/CS8abfTlbeQ==
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmUgQwAACgkQek52CV2KUuRLvwf6Avk2XvyJASGilR4KdHFiECSzwa6hhiNZfdvXPs+5JoaPK/hUhDK12W2ps5Mte2x6N4FSktk5wXA9aHGwwspRVWcDv1ApHCYU/VoUu1W8EkwX/MlbH2oznNVzUWyYnlTFLU3wo60xQkgsgmQCD+TTMvMKA5JPFAcHF8XLYCqumcTBRAJXpr1dCebOclKWGk9m82ta6ummhVSlaHp1/0eYdSvz2LlBqO9mIIqrh/ATkFeljxq/ORRCOoaHSAGI2UfpokpuFGCYRcmsBwAEbfjNw68bHisaAsPO6O+qIX2XEuoFLr8OnGQIbZBFgzX85IbXI1O7eJyur3/lJw/gnWQJUA==
 
 %URL%
 https://www.qt.io
@@ -38,13 +38,17 @@ LGPL
 x86_64
 
 %BUILDDATE%
-1693065572
+1696612621
 
 %PACKAGER%
-Evangelos Foutras <foutrelis@archlinux.org>
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+qt5-python-bindings
 
 %DEPENDS%
-python
+python-shiboken2
+qt5-declarative
 
 %OPTDEPENDS%
 qt5-svg: QtSvg bindings
