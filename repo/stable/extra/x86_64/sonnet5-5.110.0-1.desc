@@ -1,0 +1,78 @@
+%FILENAME%
+sonnet5-5.110.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+sonnet5
+
+%BASE%
+sonnet5
+
+%VERSION%
+5.110.0-1
+
+%DESC%
+Spelling framework for Qt5
+
+%GROUPS%
+kf5
+
+%CSIZE%
+666917
+
+%ISIZE%
+2370574
+
+%MD5SUM%
+80677b4a4c20239421c674003f648843
+
+%SHA256SUM%
+dad751752fc300719ad525a502cfd37cbb013eca212a70dd6cf342816b4b28cb
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmUX6wYACgkQek52CV2KUuQKNwf/foq6noF9Hnl9fw8lnwbzreoTHMg3OQOVCVuKfC2OOJOAFAfBr6Q9SonV+beGYVcL7ASXG7I+NKD8L422LwznSJlbgXLn9LXclInEsZu86U47NUUllBtCWrwj/6xoIOqPq/MiN02ZcGkhovXzIyt/V7FXOgBbaunsgnj0mwC65whT9mNtZ3nUfNoX44Q9N3sCl3IfYLoVquHqZSvY6zszj+qLkp2u3JRUGD+KF53+GeKeCfg6ZRydmKFqjnN4RMRxOIqf0IMYKHzkfTEhfIunyr5n1tpaLgI2YKX7sWH8RnJrzGqI6QwT6ES1WiEuzKZU4EJ4RXMClppreFFmMQkH/g==
+
+%URL%
+https://community.kde.org/Frameworks
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1696066236
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%REPLACES%
+sonnet<5.111
+
+%CONFLICTS%
+sonnet<5.111
+
+%PROVIDES%
+sonnet=5.110.0
+
+%DEPENDS%
+qt5-base
+
+%OPTDEPENDS%
+hunspell: spell checking via hunspell
+aspell: spell checking via aspell
+hspell: spell checking for Hebrew
+libvoikko: Finnish support via Voikko
+qt5-declarative: QML bindings
+
+%MAKEDEPENDS%
+extra-cmake-modules
+qt5-declarative
+qt5-tools
+qt5-doc
+hunspell
+aspell
+hspell
+libvoikko
+doxygen
+

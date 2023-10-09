@@ -1,0 +1,75 @@
+%FILENAME%
+dns-lexicon-3.14.0-1-any.pkg.tar.zst
+
+%NAME%
+dns-lexicon
+
+%BASE%
+dns-lexicon
+
+%VERSION%
+3.14.0-1
+
+%DESC%
+Manipulate DNS records on various DNS providers in a standardized/agnostic way
+
+%CSIZE%
+384971
+
+%ISIZE%
+2996110
+
+%MD5SUM%
+34ff02b90a27b1d2552b8f9b2ceb1142
+
+%SHA256SUM%
+79a9640161d1a679043979ad5f66cdce1b15ce9176807d905edc339949c05e91
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmUds0sACgkQeGxj8zDXy5L0ow//d6zordDa5zest8d+Dmrb4yAOs4G/ohip/1Av8Ze/mDlzsKGNBlc1/+4Jyt4xq0DAL5UJkmDwmRvNIjODBQI3iU3t7RHi1v65Pt/g9BLjRb53f+Y28U7GSUsKlb4e55Pt0nbtaEkWGE0EvSKJmYrL19K27mE0sYFkTdqLk4lSPtS75AaCIUvDXtikK33XZUalgoYvezwvfx7H3YYZuYs+0IGMctA0LEnXY8QNOwxZL68LKpAU7BBtc0dkISeh8l+D+DUe8awcCPJjynhH+z8OOEZ9KgEv8QD5bIOLUnXIrLrCVWI0qmO3TV+pgXZQWg7EbG0surEMWwaIXE8EZupt0AgZJmTJhz0pMJ1fYgvmAh6fD1JUMVk2j+bYzxos9vq3yzmPxZG04AFAMb9/sqw7VW74zWrT23mpAmyQpq+ZVOfNmTdNFQ6UaItb9pdLvm2kDWLlq3oH9xy+0uN1XcPcbaLt2flQbiLhrx2S9C5sgnQlq44jbEvmpSj6MMxrdfyQHVrct5HQIE6TeCLD+sZuiGjrmiVzJCM/hE9b+bwqqrdgLwcn9cICrh7PW7/cIyisEcF00lG7jdH0Mou5ThqoQNCJhL6yPx8PiKzG8AyTB6O2IPvyLxLZzmtPkhcIirwho2ZafjbPB32YOMEVqul/5UId3tgxCG7jwNo+xhMpbuQ=
+
+%URL%
+https://github.com/AnalogJ/lexicon
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1696445141
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python-beautifulsoup4
+python-cryptography
+python-yaml
+python-requests
+python-tldextract
+python-importlib-metadata
+
+%OPTDEPENDS%
+python-boto3: for Route53 support
+python-localzone: for localzone support
+python-softlayer: for SoftLayer support
+python-zeep: for Gransy support
+python-dnspython: for DDNS/DuckDNS support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-poetry-core
+
+%CHECKDEPENDS%
+python-pytest
+python-vcrpy
+python-boto3
+python-localzone
+python-softlayer
+python-zeep
+python-dnspython
+bind
+

@@ -1,0 +1,72 @@
+%FILENAME%
+docker-1:24.0.6-1-x86_64.pkg.tar.zst
+
+%NAME%
+docker
+
+%BASE%
+docker
+
+%VERSION%
+1:24.0.6-1
+
+%DESC%
+Pack, ship and run any application as a lightweight container
+
+%CSIZE%
+28192715
+
+%ISIZE%
+107145476
+
+%MD5SUM%
+31a1d6e28e13536b516f7ed04f8fbc43
+
+%SHA256SUM%
+02343dfe8150da5c53221abd7db369dc1961ec951f281456f36cfc112e51a4c2
+
+%PGPSIG%
+iHUEABYIAB0WIQSTtRpKFHmOS6hn0ULluymEcK1OQQUCZRhExQAKCRDluymEcK1OQTaXAP0QghO06wat4H0ttycHIMVkDPO/iHuBRZp39h4FLkCLYgEA0Tm7EeLatwAzuelLXalY60h6zLc3ZVES8VEts/h8hAI=
+
+%URL%
+https://www.docker.com/
+
+%LICENSE%
+Apache
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1696088938
+
+%PACKAGER%
+Sébastien Luttringer <seblu@archlinux.org>
+
+%DEPENDS%
+glibc
+bridge-utils
+iproute2
+device-mapper
+sqlite
+systemd-libs
+libseccomp
+libtool
+runc
+containerd
+
+%OPTDEPENDS%
+btrfs-progs: btrfs backend support
+pigz: parallel gzip compressor support
+docker-scan: vulnerability scanner
+docker-buildx: extended build capabilities
+
+%MAKEDEPENDS%
+git
+go
+btrfs-progs
+cmake
+systemd
+go-md2man
+sed
+
