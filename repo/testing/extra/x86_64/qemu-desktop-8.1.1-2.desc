@@ -1,0 +1,195 @@
+%FILENAME%
+qemu-desktop-8.1.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+qemu-desktop
+
+%BASE%
+qemu
+
+%VERSION%
+8.1.1-2
+
+%DESC%
+A QEMU setup for desktop environments
+
+%CSIZE%
+5165
+
+%ISIZE%
+0
+
+%MD5SUM%
+5bba8e77ac593e1d7639e0dc5b897665
+
+%SHA256SUM%
+06ee7262f938c898fe05311e5542c483a99212ec133ab62deec1c4f5653f3e1b
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZR1NBQAKCRCbeih9mi7GCNAzAPoDZBDDiZ5GRm+ajpSTb9TpompddWUMiyZtBoJ3uPR8IQEAhyHgmo6gpPUXb/oNZyF3PURI+tAeJ7J0MOtk++V6gQw=
+
+%URL%
+https://www.qemu.org/
+
+%LICENSE%
+Apache-2.0
+BSD-2-Clause
+BSD-3-Clause
+FSFAP
+GPL-1.0-or-later
+GPL-2.0-only
+GPL-2.0-or-later
+GPL-2.0-or-later with GCC-exception-2.0 exception
+LGPL-2.0-only
+LGPL-2.0-or-later
+LGPL-2.1-only
+LGPL-2.1-or-later
+MIT
+public-domain
+CC-BY-3.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1696415863
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+qemu=8.1.1
+
+%DEPENDS%
+qemu-base=8.1.1-2
+qemu-audio-alsa=8.1.1-2
+qemu-audio-dbus=8.1.1-2
+qemu-audio-jack=8.1.1-2
+qemu-audio-oss=8.1.1-2
+qemu-audio-pa=8.1.1-2
+qemu-audio-pipewire=8.1.1-2
+qemu-audio-sdl=8.1.1-2
+qemu-audio-spice=8.1.1-2
+qemu-block-curl=8.1.1-2
+qemu-block-dmg=8.1.1-2
+qemu-block-nfs=8.1.1-2
+qemu-block-ssh=8.1.1-2
+qemu-chardev-spice=8.1.1-2
+qemu-hw-display-qxl=8.1.1-2
+qemu-hw-display-virtio-gpu=8.1.1-2
+qemu-hw-display-virtio-gpu-gl=8.1.1-2
+qemu-hw-display-virtio-gpu-pci=8.1.1-2
+qemu-hw-display-virtio-gpu-pci-gl=8.1.1-2
+qemu-hw-display-virtio-vga=8.1.1-2
+qemu-hw-display-virtio-vga-gl=8.1.1-2
+qemu-hw-usb-host=8.1.1-2
+qemu-hw-usb-redirect=8.1.1-2
+qemu-hw-usb-smartcard=8.1.1-2
+qemu-ui-curses=8.1.1-2
+qemu-ui-dbus=8.1.1-2
+qemu-ui-egl-headless=8.1.1-2
+qemu-ui-gtk=8.1.1-2
+qemu-ui-opengl=8.1.1-2
+qemu-ui-sdl=8.1.1-2
+qemu-ui-spice-app=8.1.1-2
+qemu-ui-spice-core=8.1.1-2
+qemu-vhost-user-gpu=8.1.1-2
+
+%OPTDEPENDS%
+qemu-user-static: for static user mode emulation of QEMU targets
+samba: for SMB/CIFS server support
+qemu-block-gluster: for Gluster block driver
+qemu-block-iscsi: for iSCSI block driver
+qemu-chardev-baum: for Baum chardev driver
+qemu-docs: for documentation
+qemu-emulators-full: for all system emulators
+qemu-full: for a full QEMU installation
+qemu-hw-s390x-virtio-gpu-ccw: for s390x-virtio-gpu-ccw display device
+qemu-pr-helper: for persistent reservation utility
+qemu-system-aarch64: for AARCH64 system emulator
+qemu-system-alpha: for Alpha system emulator
+qemu-system-arm: for ARM system emulator
+qemu-system-avr: for AVR system emulator
+qemu-system-cris: for CRIS system emulator
+qemu-system-hppa: for HPPA system emulator
+qemu-system-m68k: for ColdFire (m68k) system emulator
+qemu-system-microblaze: for Microblaze system emulator
+qemu-system-mips: for MIPS system emulator
+qemu-system-nios2: for nios2 system emulator
+qemu-system-or1k: for OpenRisc32 system emulator
+qemu-system-ppc: for PPC system emulator
+qemu-system-riscv: for RISC-V system emulator
+qemu-system-rx: for RX system emulator
+qemu-system-s390x: for S390 system emulator
+qemu-system-sh4: for SH4 system emulator
+qemu-system-sparc: for SPARC system emulator
+qemu-system-tricore: for tricore system emulator
+qemu-system-xtensa: for Xtensa system emulator
+qemu-tests: for QEMU tests
+qemu-tools: for QEMU tools
+qemu-user: for user mode emulation of QEMU targets
+
+%MAKEDEPENDS%
+alsa-lib
+brltty
+bzip2
+cairo
+capstone
+curl
+dtc
+fuse3
+gcc-libs
+gdk-pixbuf2
+glib2
+glusterfs
+gnutls
+gtk3
+jack
+keyutils
+libaio
+libbpf
+libcacard
+libcap-ng
+libepoxy
+libiscsi
+libnfs
+libpipewire
+libpng
+libpulse
+libsasl
+libseccomp
+libslirp
+libssh
+liburing
+libusb
+libx11
+libxml2
+libxkbcommon
+lzo
+mesa
+meson
+multipath-tools
+ncurses
+ndctl
+numactl
+pam
+pcre2
+python
+python-distlib
+python-setuptools
+python-pip
+python-sphinx
+python-sphinx_rtd_theme
+sdl2
+sdl2_image
+snappy
+spice-protocol
+spice
+systemd
+usbredir
+vde2
+virglrenderer
+vte3
+zlib
+zstd
+
