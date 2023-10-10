@@ -1,0 +1,73 @@
+%FILENAME%
+yt-dlp-2023.10.07-1-any.pkg.tar.xz
+
+%NAME%
+yt-dlp
+
+%BASE%
+yt-dlp
+
+%VERSION%
+2023.10.07-1
+
+%DESC%
+A youtube-dl fork with additional features and fixes
+
+%CSIZE%
+5201764
+
+%ISIZE%
+32986156
+
+%MD5SUM%
+d4960f9aedb057116c2e23b5f13d1d0c
+
+%SHA256SUM%
+0639a1e76636f082c369c5077acd7c7e42559fd93bc604dad1ae628390208976
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmUhhpkACgkQdxk/FSvb5qbbDA/9F8/hWwTD5Y6euiQcGmrGMwva9l7Yb462ankE7N3OkbI0ldMPtwZ01q5gV4wzyRZWDpsKf2qo2MSwQscVLyM4yaKL85bgzRBOwIPndN06UFaSxmThKDNRLu6FIj54UqnRBFfml2LNmx06dNZRFcSbYsytdxQ0sU4RNMDurPv2aK7quhJmg71AMnYRvwWRPBk61hW3WoxhRHyaXY/KBgunkR5DhhpxFraIxnkLaKc4C28AneJDF7rSg/7Wxq6fg0i9/MwiXc0xsSoHJYOEXTgmA9gCklLwNrUaZrIE/CdXuYhYl4OjnywmjPlZFN/YDVC5iHmsC91llXo/rBQFdQ16WBxUDGxyZRVPqCfRFf18m8CIZvXzGyfSToYIRbjMcJkRjGz4P2hBSS48ld0FS8p1NwfoP1xv9p4X7FL/JVnuETrQBcUNW98ekv7l6pi7BA59JQ6BblxZtgbFdrshZLa5CZ6R95yPuN0/DFjT298tLD6Ch+j9QfaT6Bun49aBq4X2jFxNyEQQtMB22fyzMnEOMVdVwksYzaCgek730+TqY8Gr3mvNokDcs8Szl14vS4y6Nu37F8jl/vWPipgMyD1VsKwXDe7G6xuNY1YXqiGkMxcto6GXQQhHDlc5E21JTHT7QWXSqzDqwKCmSbt+9aDxZTQ/ArHNIj8Z/tZIEds783Y=
+
+%URL%
+https://github.com/yt-dlp/yt-dlp
+
+%LICENSE%
+Unlicense
+
+%ARCH%
+any
+
+%BUILDDATE%
+1696695879
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-certifi
+
+%OPTDEPENDS%
+ffmpeg: for video post-processing
+rtmpdump: for rtmp streams support
+atomicparsley: for embedding thumbnails into m4a files
+aria2: for using aria2 as external downloader
+python-mutagen: for embedding thumbnail in certain formats
+python-pycryptodomex: for decrypting AES-128 HLS streams and various other data
+python-websockets: for downloading over websocket
+python-brotli: brotli content encoding support
+python-brotlicffi: brotli content encoding support
+python-xattr: for writing xattr metadata
+python-pyxattr: for writing xattr metadata (alternative option)
+phantomjs: for extractors with javascript code
+python-secretstorage: For -cookies-from-browser to access the GNOME keyring while decrypting cookies of Chromium-based browsers
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+
