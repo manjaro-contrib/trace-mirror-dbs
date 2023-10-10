@@ -1,5 +1,5 @@
 %FILENAME%
-mutter-x11-scaling-44.5-1-x86_64.pkg.tar.zst
+mutter-x11-scaling-45.0-1-x86_64.pkg.tar.zst
 
 %NAME%
 mutter-x11-scaling
@@ -8,25 +8,25 @@ mutter-x11-scaling
 mutter-x11-scaling
 
 %VERSION%
-44.5-1
+45.0-1
 
 %DESC%
 Window manager and compositor for GNOME with X11 fractional scaling patch
 
 %CSIZE%
-3583383
+3641637
 
 %ISIZE%
-14871319
+14984975
 
 %MD5SUM%
-ccb4ff928d5bcd7a3ad688dcc50e452b
+b57063b8f1ba4a8f44de66597e967116
 
 %SHA256SUM%
-177743fc883d952616aa24175e094a4882f6f3a848084759801293a48dfd597f
+99d4fef525abc8a38ec6d5653f988743891364f27dfcdbdc75b16cc0719afe7a
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUHCxQACgkQFQwgB0PtRtgUmAf+MgY0ZOBYi+0ykg65Hp5StBY8wXl5GTJafdW5WH978J9i/8wwk0IKk121mUgTXvExPoGu6NbDcQ6CTvqrJH2cBP6eN7bra9Hu9F3lUS0tUAxIw+LmWzzUlRAyFYCJlkgC/yvrVR31C9VO61zNmXsFaoCe+pHsy/knq/jjM3HbMX+cyTL7Miusb1QjBzIXBtZf3Ig+LUytGAfccTxKmdSUH1W9JCktV99fefZIIyYseBLw1hBWswerKVd5vpAD+V7M2B81iod4eJKTf33hecoBrgvJpuuTtERxyWXh91mLF7z+QpDn2rC/A/+oO1ms2aYSnBj6EN/bbcwywyrAztD1Tg==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUkpeAACgkQFQwgB0PtRtjCPwf+I2Rlsjjg7a+kfykEj7QcZp1bgkd6k5wFN3zq3PA8EhfXyr6aZS/2iqRWbztQ1c8mMgEQ0Mn/ZLIHO84s33es5nqPIe/Zy1gr15Br66MC0gznc7p2Y/9mIZUoepzUVioIPlxRaqav8M8K9ZRPuB8Was01JVxrtXUAsvXSTVJkFw+lBbf4jWV8ZeNkZY+WzgbIP9WDjCK++0q6s/91aTlW+Z74axHP8JuV6VvSKJ4guX6bblL5l836mUldb2hvcc7g0/nXe1cL4vcJdkmCo/Osbp10Nn1r1WGMp6zv4JbstoyhB0OYaBKBREe4kdljJ5pFoogvCdSkGBxgW1bgO4ShAQ==
 
 %URL%
 https://gitlab.gnome.org/GNOME/mutter
@@ -38,7 +38,7 @@ GPL
 x86_64
 
 %BUILDDATE%
-1694960087
+1696899839
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
@@ -47,8 +47,8 @@ Mark Wagie <mark@manjaro.org>
 mutter
 
 %PROVIDES%
-mutter=44.5
-libmutter-12.so=0-64
+mutter=45.0
+libmutter-13.so=0-64
 
 %DEPENDS%
 colord
@@ -60,6 +60,8 @@ gsettings-desktop-schemas
 iio-sensor-proxy
 lcms2
 libcanberra
+libdisplay-info
+libei
 libgudev
 libinput
 libsm
@@ -83,6 +85,7 @@ xorg-server
 xorg-server-xvfb
 
 %CHECKDEPENDS%
+gnome-session
 python-dbusmock
 wireplumber
 zenity

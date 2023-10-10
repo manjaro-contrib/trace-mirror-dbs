@@ -1,5 +1,5 @@
 %FILENAME%
-gnome-control-center-x11-scaling-44.4-2-x86_64.pkg.tar.zst
+gnome-control-center-x11-scaling-45.0-1-x86_64.pkg.tar.zst
 
 %NAME%
 gnome-control-center-x11-scaling
@@ -8,25 +8,25 @@ gnome-control-center-x11-scaling
 gnome-control-center-x11-scaling
 
 %VERSION%
-44.4-2
+45.0-1
 
 %DESC%
 GNOME's main interface to configure various aspects of the desktop with X11 fractional scaling patch
 
 %CSIZE%
-8525654
+8605031
 
 %ISIZE%
-22714335
+22718487
 
 %MD5SUM%
-fe5f263a66cbc2d8f364cff67dab3f85
+e22386f3b71f8544da7d8eff4d9540a1
 
 %SHA256SUM%
-37925f33c94c863d3425cb7ee28ae1a69532a9a619eb1a336ecdbec83bdef1ae
+937056c9e2f43e435153bf49f2d20cb89a6c30e45d8393a325c07443bbf6f067
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUElIkACgkQFQwgB0PtRti8kwgAugSXB6Ob9CkmZPd/kBJ5sUx6AF1SwulJoDAfdY9YC+j4S2nsqdugQjmRZwNih6MwBfFNJwESEwtZTIuz3+Y9wmaDP3cGLyHdRb+eanMBzE740E+eD20gg4+ye+eLoywfCQfRXtwAukPwAV07jr26LR0we9oGZMb+fPVZAinq6sJNbIci3Bz46Cg+grpzVaiKEBSjX+fhEe2o6XgnGXkub5HSIXl9h2GjgumiOxQYl4ZLAJ91FnsuD79A4Wv0DBTqslMxhGpvKDyZNTkqFFPXuZpNWOPPjgNF6UZ/RVvuwbgGGq3UzbdcyjQRAlLde8lZo58PWD76vx6TCD/mr+jMIw==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUkpeAACgkQFQwgB0PtRtjBrwf/bOFu+jaOmH6sjAT0fi79qizBhXVXoyNjYIKMDd+WmDU6yI+0XehK1Jh4CKftgrNneiXxvcK6IQ2XI/MlrU7bLE7FxFXk6+bhJu9UOkFqgzDf+YnUosugJftX+9vrtfw7vFtAm31eVELWhYQJpfWggv4kexdL1LurA6DN5ZGC6Dru/sS6mYvoMe7tvKIUopDV8HP/wgQtFtr8LXPMgOzmK1GkBjbNUG3y3n2O12KYrlgfhZq4nICS47FqdXSYrY53TY0IE6EfjJSE1QAxdNFuAgfkUzw2xebK1TbkjwHXFCVTLMkgmISKHvzQOqBp8jW9EkXM48aEkIjfx4FyQNZwtg==
 
 %URL%
 https://gitlab.gnome.org/GNOME/gnome-control-center
@@ -38,7 +38,7 @@ GPL3
 x86_64
 
 %BUILDDATE%
-1694798889
+1696900395
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
@@ -47,40 +47,63 @@ Mark Wagie <mark@manjaro.org>
 gnome-control-center
 
 %PROVIDES%
-gnome-control-center=44.4
+gnome-control-center=45.0
 
 %DEPENDS%
 accountsservice
 bolt
+cairo
 colord-gtk4
 cups-pk-helper
+dconf
+fontconfig
 gcr
+gdk-pixbuf2
+glib2
 gnome-bluetooth-3.0
 gnome-color-manager
 gnome-desktop-4
 gnome-online-accounts
 gnome-settings-daemon
-gnome-shell
+gnutls
 gsettings-desktop-schemas
 gsound
+gtk3
 gtk4
+hicolor-icon-theme
+krb5
 libadwaita
+libcolord
+libcups
+libepoxy
 libgnomekbd
+libgoa
 libgtop
 libgudev
 libibus
 libmalcontent
 libmm-glib
+libnm
 libnma-gtk4
+libpulse
 libpwquality
+libsecret
+libwacom
+libx11
+libxi
+libxml2
+pango
+polkit
 smbclient
 sound-theme-freedesktop
+tecla
 udisks2
 upower
 
 %OPTDEPENDS%
 fwupd: device security panel
 gnome-remote-desktop: screen sharing
+gnome-shell: multitasking panel
 gnome-user-share: WebDAV file sharing
 malcontent: application permission control
 networkmanager: network settings
