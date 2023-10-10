@@ -1,0 +1,77 @@
+%FILENAME%
+electrum-4.4.6-2-any.pkg.tar.zst
+
+%NAME%
+electrum
+
+%BASE%
+electrum
+
+%VERSION%
+4.4.6-2
+
+%DESC%
+Lightweight Bitcoin wallet
+
+%CSIZE%
+8150390
+
+%ISIZE%
+43652911
+
+%MD5SUM%
+f0ae06e7ea7f75028117bd3ed24a4ca5
+
+%SHA256SUM%
+de709a28fc1b1255b2ceefccbf846b35dbae4bac82b487b8a45281c72c14784f
+
+%PGPSIG%
+iHUEABYIAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZSVqkwAKCRBtQr3RFuAGjxe/AQD87rglvw4CU2sV5aFI38YJGsuvT6Zxq8uJz94Rd00+uQD+L3j8HY3WgpQwq1l+43evrTp8nHbxccQH/NhVT/DtOA0=
+
+%URL%
+https://electrum.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1696950768
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+python-pyaes
+python-ecdsa
+python-pbkdf2
+python-requests
+python-qrcode
+python-protobuf
+python-dnspython
+python-jsonrpclib-pelix
+python-pysocks
+python-pyqt5
+python-pycryptodomex
+python-websocket-client
+python-certifi
+python-aiorpcx
+python-aiohttp
+python-aiohttp-socks
+libsecp256k1
+python-bitstring
+
+%OPTDEPENDS%
+python-btchip: BTChip hardware wallet support
+python-hidapi: Digital Bitbox hardware wallet support
+python-matplotlib: plot transaction history in graphical mode
+zbar: QR code reading support
+python-rpyc: send commands to Electrum Python console from an external script
+python-qdarkstyle: optional dark theme in graphical mode
+python-pycryptodomex: use PyCryptodome AES implementation instead of pyaes
+
+%MAKEDEPENDS%
+python-setuptools
+
