@@ -1,0 +1,67 @@
+%FILENAME%
+libheif-1.16.2-3-x86_64.pkg.tar.zst
+
+%NAME%
+libheif
+
+%BASE%
+libheif
+
+%VERSION%
+1.16.2-3
+
+%DESC%
+An HEIF and AVIF file format decoder and encoder
+
+%CSIZE%
+331549
+
+%ISIZE%
+1081452
+
+%MD5SUM%
+be08139973de48077b47925362b54628
+
+%SHA256SUM%
+46622b6d4f38e7ed8d795657e21fdce011e5e918675bc9fd71e3722449f641fe
+
+%PGPSIG%
+iQIzBAABCAAdFiEEM+u4qOHFZTZFsSMqRaZQ4mOMU20FAmUm2aoACgkQRaZQ4mOMU21p6w/9GRiVm1pOh2xH/gEz2ZhatC9iJ8+d6XXKzjFjEeWe6GuEIunbW3lBJeQ7O7gPfs3gd7p9ipCc6VTqqwnOnUtmD7Llt8bU6cb/OI0OSjiPg0/xzEAfYTLCY50S+bjNBjQ4Bm2y38y16wv+q+PsGwjXSai95DX7FKmp3Og1AI4HB4rGBpS/jJRdvxOW6XeDtVTMkqaBwzLcYPZUdDJb9z7jgw5iFlpu5gNiqgswOQUT3Px1dgi+Zaf7e0uQWShtjsn9q16IIERyDnW7aLDXyRAGG/L94SoWnNguC3uDuN1l5vqCxY6OGB43/dgsuzn5trAfvAW/EdRDH3vKTr/XQYys4oR6HIohSAHUyRm4kqU5A0zj85UlmxvpUixTPcLWbNkYwtOJljc5ZRorDybVGLJIgKYtDWyhT+x/epXuwJ596UzU8/mMwWKh8TSyrUZu1sUnrvTPg6/eo6Op/n3oQhaZSQg/3bSIUVRYTIzsCvsCulxeUQTxw03dOcVl93QfIxrAoo24DaM3NX0wM8FaAOTjQFPKElBjTq9Lr1DpCjTIib5TZrhT8cQMIUbGoeaWN/B3fxHv7SQjWzPPYxyL52IWPogRBo4zZ1TlxEwK32xN+f8kasW57PpDlXnexrRFZ5YTic9fd0FlJvc8muBFjLWsOxRP8aAIavNsRWW2RMXHX3Q=
+
+%URL%
+https://github.com/strukturag/libheif
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1697044851
+
+%PACKAGER%
+kpcyrd <kpcyrd@archlinux.org>
+
+%DEPENDS%
+aom
+gcc-libs
+glibc
+dav1d
+libde265
+x265
+
+%OPTDEPENDS%
+libjpeg: for heif-convert and heif-enc
+libpng: for heif-convert and heif-enc
+rav1e: rav1e encoder
+svt-av1: svt-av1 encoder
+
+%MAKEDEPENDS%
+cmake
+gdk-pixbuf2
+libjpeg
+libpng
+rav1e
+svt-av1
+
