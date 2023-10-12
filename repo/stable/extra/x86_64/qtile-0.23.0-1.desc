@@ -1,5 +1,5 @@
 %FILENAME%
-qtile-0.22.1-4-x86_64.pkg.tar.zst
+qtile-0.23.0-1-x86_64.pkg.tar.zst
 
 %NAME%
 qtile
@@ -8,25 +8,25 @@ qtile
 qtile
 
 %VERSION%
-0.22.1-4
+0.23.0-1
 
 %DESC%
 A full-featured, pure-Python tiling window manager
 
 %CSIZE%
-853426
+882737
 
 %ISIZE%
-5569960
+5768962
 
 %MD5SUM%
-3c4785e4bbbb0223ee3a94ca1f31eecb
+1943af74c2ad477c750dfeeed33a3836
 
 %SHA256SUM%
-952d289617702952b9ef0ae10664c4dfd91cdd5343545d1193bae183f6743e6d
+9e36efbf99387ce409666f2938754ec438026074fe8ce4d27686263a9c8eee06
 
 %PGPSIG%
-iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCZDM1NgAKCRATmwnaW/DTOEdHAQDb8oQDgzIsQGN/accX/DYTxifx2XA89I+1ZFDAFqHpogEA8AHzFeGlKFEm0DLvcNvtSASPZwfjBQsqZCSvpXaq5wk=
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZR53wwAKCRCbeih9mi7GCBMpAQCulMhaxP05RQ7DAqjHlP5w46ohuSJyj7oo4yPoy0t+9wEAifdId849PYmW8NhooMS3PZa1ezgRI8RTRQS8aqBm0wQ=
 
 %URL%
 http://www.qtile.org
@@ -38,7 +38,7 @@ MIT
 x86_64
 
 %BUILDDATE%
-1681076514
+1696494428
 
 %PACKAGER%
 David Runge <dvzrv@archlinux.org>
@@ -52,10 +52,10 @@ pango
 python
 python-cairocffi
 python-cffi
-python-xcffib
 python-gobject
-wlroots0.15
-libwlroots.so=10
+python-pywlroots
+python-xcffib
+wlroots
 
 %OPTDEPENDS%
 alsa-utils: for volume widget
@@ -63,6 +63,7 @@ canto-daemon: for canto widget
 cmus: for cmus widget
 jupyter_console: for interaction with qtile via Jupyter
 khal: for khal_calendar widget
+libinput: for Wayland backend
 libpulse: for pulse_volume and pulseaudio_ffi widget
 lm_sensors: for sensors widget
 moc: for moc widget
@@ -72,7 +73,7 @@ python-iwlib: for wlan widget
 python-keyring: for imapwidget widget
 python-mpd2: mpd2widget widget
 python-psutil: graph, net and memory widget
-python-pywlroots: for experimental wayland support
+python-pywlroots: for Wayland backend
 python-setproctitle: change process name to qtile
 python-xdg: launchbar widget
 xorg-xwayland: for XWayland support
@@ -95,7 +96,6 @@ python-bowler
 python-dbus-next
 python-gobject
 python-pytest
-python-pywlroots
 python-xdg
 xorg-server-xephyr
 xorg-server-xvfb
