@@ -1,0 +1,107 @@
+%FILENAME%
+jellyfin-ffmpeg-6.0.6-2-aarch64.pkg.tar.xz
+
+%NAME%
+jellyfin-ffmpeg
+
+%BASE%
+jellyfin-ffmpeg
+
+%VERSION%
+6.0.6-2
+
+%DESC%
+Jellyfin fork of ffmpeg
+
+%CSIZE%
+17371892
+
+%ISIZE%
+53192416
+
+%MD5SUM%
+a6c186b84d63335995ba35fd665c4fdf
+
+%SHA256SUM%
+c6146047c6e5e18dee6f76f7e1d552226b369e01536ad46cd907aa7c9c956894
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmUgTWsACgkQdxk/FSvb5qZpXhAAw9gmo/Bi7nfkFL6g5DfY0DOT56jE1PGgq5MK4dfUg66zen2R4HnmCAYcIStjNWNipGDqaOMcCyUfHUafnA/hJX6OR0C751M2yg7HckMechsUcAOAVEwBmQ+U/xPSq4u+Yte4EcBHUa9tBN8NCCF6Iwv5sK01Gw9YIf7klT4PQ3/ctyOqAFl3sh4f1pcL8gzaHvTMp7PNSO6aNUlyei6heRk7zs17S1H5KwYawPY6aJ8be4k1oMyZ65Des/lG40eufiZCKAWao3X3fhx4jJZuMmjUP2/3qnQMaI4bZWoNCxA6TLslkFZRKRo0GptjTvCciVFbdSpdo4KH/1XfdiizOhmqTHVPWtwnRAudMs+gar0Sx0IrVLBRZeIQ0ilG8IRX0ZQkbALBUms0/tMVRR6S6RdKkWzpS16dEW8CMbEZC6pY4DFuwGfyEngGP5uwH1OV1UzoaL7sr+CQuGEkgjtyKFTyHFK2ZBvRYE6B4mJ4Gjz949vrWymBYRUxNKfG2TOYeorKVwUKku+r/0cf3QL28SRJypmz/zCsmnGv9h1CkRKxz3vJt1rPgmVEtLWQpooE4lWs2iG9mYTbadBZct1qiM2cVtptcsiNcaSGWZ7WQvqeGVZVbikhNwLH9Qy4zlIV8gjYfY+RvPB1w38Q4HEbQ5vQgkX+f4HjTKom3ZgNQOs=
+
+%URL%
+https://github.com/jellyfin/jellyfin-ffmpeg
+
+%LICENSE%
+GPL3
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1696615518
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+glibc
+alsa-lib
+bzip2
+fontconfig
+fribidi
+gmp
+gnutls
+lame
+libass.so=9-64
+libbluray.so=2-64
+libchromaprint.so=1-64
+libdav1d.so=7-64
+libdrm
+libfreetype.so=6-64
+libopenmpt.so=0-64
+libplacebo.so=264-64
+libtheora
+libva.so=2-64
+libva-drm.so=2-64
+libvdpau
+libvorbisenc.so=2-64
+libvorbis.so=0-64
+libvpx.so=8-64
+libwebp
+libx11
+libx264.so=164-64
+libx265.so=199-64
+libxext
+libxml2
+libzimg.so=2-64
+ocl-icd
+onevpl
+opus
+shaderc
+srt
+vulkan-icd-loader
+xz
+zlib
+zvbi
+
+%OPTDEPENDS%
+intel-media-driver: for Intel VAAPI support (Broadwell and newer)
+intel-media-sdk: for Intel Quick Sync Video
+onevpl-intel-gpu: for Intel Quick Sync Video (Alder Lake and newer)
+intel-compute-runtime: for Intel OpenCL runtime based tonemapping
+libva-intel-driver: for Intel legacy VAAPI support (Comet Lake and older)
+libva-mesa-driver: for AMD VAAPI support
+nvidia-utils: for Nvidia NVDEC/NVENC support
+opencl-amd: for AMD OpenCL runtime based Tonemapping
+vulkan-radeon: for AMD RADV Vulkan support
+vulkan-intel: for Intel ANV Vulkan support
+
+%MAKEDEPENDS%
+git
+nasm
+clang
+ffnvcodec-headers
+amf-headers
+opencl-headers
+vulkan-headers
+

@@ -1,0 +1,67 @@
+%FILENAME%
+rpi4-eeprom-20230929-1-any.pkg.tar.zst
+
+%NAME%
+rpi4-eeprom
+
+%BASE%
+rpi-eeprom
+
+%VERSION%
+20230929-1
+
+%DESC%
+Raspberry Pi4 boot EEPROM updater - git version
+
+%CSIZE%
+7955500
+
+%ISIZE%
+61154015
+
+%MD5SUM%
+7813652bcd238ea6fc2b0765f9c23d08
+
+%SHA256SUM%
+c0e2b4b638f4f83dd2437fbe7c678b9258bb662e60e6a0f9d2c35504895c4837
+
+%PGPSIG%
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmUYYXMACgkQHzWBGKB6z1eEdQgAgND1sMwucvSAgHJELWE9LTCJGjdUrAmqh4PK2KPJVTr4GGRqT+GVZ/KLaC+CYGgWQQk88QRlGbtl7Ayq/cYs+3Gwjw6fsIpDm2izuh30tK0xh6abIkKz0gy8lpsvanjs5NNXcLa8b05vGusKjAQFdLhWOkq3LPIHY3fWGtVlJR8hoRgEHTmnjA/fVS8b1wA/N0JJnFMtBiq0PcSmZ91N6f5XaTgsTki4vEaQEZJoqHorzY+IxPTRfm66G+NY/0jY+LGb+XCBXLgLZ/ATjAvWT5oFubrjPsY53ATzUOeN31snFVzZ6pGHnXXPnZMcBQPYKaJjtw22E3+1vWfIAeoXBA==
+
+%URL%
+http://github.com/raspberrypi/rpi-eeprom
+
+%LICENSE%
+custom
+
+%ARCH%
+any
+
+%BUILDDATE%
+1696094744
+
+%PACKAGER%
+Unknown Packager
+
+%REPLACES%
+rpi-eeprom
+
+%CONFLICTS%
+rpi-eeprom-git
+rpi5-eeprom
+rpi-eeprom
+
+%DEPENDS%
+python
+binutils
+pciutils
+coreutils
+
+%OPTDEPENDS%
+raspberrypi-firmware: Use this on an armv7h (32bit) system.
+raspberrypi-userland-aarch64: Use this on an aarch64 (64bit) system.
+xxd-standalone: Install if xxd is not installed by another program
+
+%MAKEDEPENDS%
+git
+
