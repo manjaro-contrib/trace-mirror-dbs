@@ -1,0 +1,97 @@
+%FILENAME%
+gnome-shell-1:45.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+gnome-shell
+
+%BASE%
+gnome-shell
+
+%VERSION%
+1:45.0-1
+
+%DESC%
+Next generation desktop shell
+
+%GROUPS%
+gnome
+
+%CSIZE%
+1644692
+
+%ISIZE%
+14805229
+
+%MD5SUM%
+fa923fbb248adf7965f67f8780a0bfb7
+
+%SHA256SUM%
+bc17323c36d91501bbc8857d0074b06d78b403c1a1c5413f969de402f3ec1a78
+
+%PGPSIG%
+iQIyBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmUl32YACgkQdxk/FSvb5qZ2fA/4s2hSi6f2zKTl1IpZs4N5SBbh7ssn8m4xBkg9Z4AYz/BK0Dd+uHotmEKVD3EcBT5AovheApIM64yyoHhz4Jjr8zCR8w53bm+2xyO8I279CO47RHR72nHvSgH8dqOy2wdlntETzwvdxdZ/gDNgpxwszycETyJ2DY1j0s0CqiFr+jmKnVBPw/eyr36JD+d8jGRfTzVrYbjN1dowjgg25tyU9fNPM8bI+kglR4BX5ZQQ19XckqkCpmdViaHjDZgI4b1yFqi2mUxvrVtd/GWAEgmGzCUWEPtj2IiEB1SwbBkFY8r9IbgC1WQuWPuNn4SHs7DhdkEog5EwNXe74SztM5UY9N5w3ec8bVuGmIfOAYh6JX51fRu7iFmfNT7XOk6VJXohY5xPSQBbuMWYRqJKpcv9IAptadi9aO+0kaXTqUELzStQw2Ae0PjWJBKZCGBQSauFSOlJ61v5YnCw/GceVGQH1vtf8Fw+0Grn+PhnsGKhi7fpbBiSOhbrSkUUr5llXpD8lwGl/h/iI+bNi/zDaIP1zy0zpdTnYH+FpxmX2JmnPed4h39K9BcZevGsnGgFWl/TGljgbtxHqgtxIoTw9EDcZCAAzPWndHUtwnW6K29cFTXXyNJ8t6k2j/UdrO37thfdtpha76ks58LxNTysTQX3gnSJGTFPJjFpDu0uIL/Utw==
+
+%URL%
+https://wiki.gnome.org/Projects/GnomeShell
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1696980717
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+accountsservice
+gcr-4
+gjs
+gnome-autoar
+gnome-session
+gnome-settings-daemon
+gsettings-desktop-schemas
+gtk4
+libadwaita
+libcanberra-pulse
+libgdm
+libgweather-4
+libibus
+libnma-gtk4
+libsecret
+libsoup3
+mutter
+unzip
+upower
+libmutter-13.so=0-64
+
+%OPTDEPENDS%
+evolution-data-server: Evolution calendar integration
+gnome-bluetooth-3.0: Bluetooth support
+gnome-control-center: System settings
+gnome-disk-utility: Mount with keyfiles
+gst-plugin-pipewire: Screen recording
+gst-plugins-good: Screen recording
+power-profiles-daemon: Power profile switching
+python-gobject: gnome-shell-test-tool performance tester
+switcheroo-control: Multi-GPU support
+
+%MAKEDEPENDS%
+asciidoc
+bash-completion
+evolution-data-server
+git
+gnome-control-center
+gobject-introspection
+gtk-doc
+meson
+sassc
+
+%CHECKDEPENDS%
+appstream-glib
+python-dbusmock
+xorg-server-xvfb
+

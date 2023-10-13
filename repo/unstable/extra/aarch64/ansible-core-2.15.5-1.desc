@@ -1,0 +1,96 @@
+%FILENAME%
+ansible-core-2.15.5-1-any.pkg.tar.xz
+
+%NAME%
+ansible-core
+
+%BASE%
+ansible-core
+
+%VERSION%
+2.15.5-1
+
+%DESC%
+Radically simple IT automation platform
+
+%CSIZE%
+3241852
+
+%ISIZE%
+22813472
+
+%MD5SUM%
+5800caedfab54b544aee3e848882bcca
+
+%SHA256SUM%
+12cd71fe3091f7e41133e506e453d1b5881f684ef403b726962372b3765fac76
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmUmsmEACgkQdxk/FSvb5qbYPQ/+OUvvMURISgvCZHIHf2zH0wRD5t4tPtiTfK0mRlCuqjYlBdSCtfUL5KUszltAmJ+apND31PD7GVaA1+Uwbg/68VFeiWStnqSc5HSrvvJc4xd7627xbLBQYO3cKkcsfu1iPjYcO1NS+QYVVkEwTQ4yygnf+QArc3ShZ7uHs+StGQ3Uo7Y26vv69jw7lbOxbLm2rJqPevXVATON8AL58/2YsKoTjRDzPeSBD8neRUdiovd2tl9ZrWsiIlmadC6m8w42QIlk9MvSWE9/seYDyfyi/OVPbKsHBxXLabgZ8rnTcHDvgcUOFmB7rKimIyiE6F029zFsGqxq5CL3OBjmnHJLWNhKvR/bum4s+gBVBJ+5tGHE65vaXeNNdSm/q8mUnlJvWhCtycpAtdaSl4fqvNMyRaP2bjdrfC7NP397DuSkZ3IyKaFHJRNI9/TYWD2Qdm6K4nUh9AZxctjjtuvD+yj6X9lFzlHQnFvBU515nu2iemg+y0CdKXTAd2O2YVv/n3y0aUDS8GOL94jq2OepHAI1PnweBTcIubMncNM5wkZKrxfr7GfEwE9kYbWyDffSfShvi8+ymDr21OFGYHWZ2hbf/yByGhEk8AZ1rSZUzGvABGSrbT9j8KVWIozNiwhQ5dFKJ/iJvazjsS/iGd/lu96ZfqcQE90YIL1Du0jEVO3MDPI=
+
+%URL%
+https://www.ansible.com
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1697034775
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%REPLACES%
+ansible-base
+
+%PROVIDES%
+python-ansible
+ansible-base
+
+%DEPENDS%
+python
+python-cryptography
+python-jinja
+python-packaging
+python-pyyaml
+python-resolvelib
+python-paramiko
+python-typing-extensions
+
+%OPTDEPENDS%
+python-dnspython: for dig lookup
+python-jmespath: json_query support
+python-netaddr: for the ipaddr filter
+python-passlib: crypt values for vars_prompt
+python-pip: for module to manage Python libarary dependencies
+python-pywinrm: connect to Windows machines
+python-setuptools: for module to manage Python libarary dependencies
+python-systemd: for journald support
+sshpass: for ssh connections with password
+
+%MAKEDEPENDS%
+python-build
+python-docutils
+python-installer
+python-setuptools
+python-straight.plugin
+python-wheel
+
+%CHECKDEPENDS%
+git
+openssh
+python-bcrypt
+python-botocore
+python-passlib
+python-pexpect
+python-py
+python-pytest
+python-pytest-mock
+python-pytest-xdist
+python-pytest-forked
+python-pywinrm
+python-voluptuous
+
