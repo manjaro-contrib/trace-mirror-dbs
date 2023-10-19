@@ -1,0 +1,119 @@
+%FILENAME%
+pipewire-1:0.3.83-1-x86_64.pkg.tar.zst
+
+%NAME%
+pipewire
+
+%BASE%
+pipewire
+
+%VERSION%
+1:0.3.83-1
+
+%DESC%
+Low-latency audio/video router and processor
+
+%CSIZE%
+664713
+
+%ISIZE%
+3306752
+
+%MD5SUM%
+0bbe141a2de6c7f630e32d67d742ff44
+
+%SHA256SUM%
+a7836bc989a98b5345f631d534bdc586dd9dffc39c201ac2b5cc31e13dc2385c
+
+%PGPSIG%
+iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZTE8SxUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8cbLgD8DSpJc690g95WX7saiEp3LaOYMKRBYiwDquPzvsVae5cA+wTGaD7zpjNT42B1F06DSYaDUg6K55GpEjAQKopT/eII
+
+%URL%
+https://pipewire.org
+
+%LICENSE%
+MIT
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1697721143
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+libpipewire=1:0.3.83-1
+libcamera-base.so=0.1-64
+libcamera.so=0.1-64
+libdbus-1.so=3-64
+libglib-2.0.so=0-64
+libncursesw.so=6-64
+libpipewire-0.3.so=0-64
+libreadline.so=8-64
+libsystemd.so=0-64
+libudev.so=1-64
+
+%OPTDEPENDS%
+gst-plugin-pipewire: GStreamer plugin
+pipewire-alsa: ALSA configuration
+pipewire-audio: Audio support
+pipewire-docs: Documentation
+pipewire-ffado: FireWire support
+pipewire-jack-client: PipeWire as JACK client
+pipewire-jack: JACK replacement
+pipewire-pulse: PulseAudio replacement
+pipewire-roc: ROC streaming
+pipewire-session-manager: Session manager
+pipewire-v4l2: V4L2 interceptor
+pipewire-x11-bell: X11 bell
+pipewire-zeroconf: Zeroconf support
+realtime-privileges: realtime privileges with rt module
+rtkit: realtime privileges with rtkit module
+
+%MAKEDEPENDS%
+alsa-lib
+avahi
+bluez-libs
+dbus
+doxygen
+git
+glib2
+graphviz
+gst-plugins-base
+jack2
+libcamera
+libcanberra
+libfdk-aac
+libffado
+libfreeaptx
+liblc3
+libldac
+libmysofa
+libpulse
+libsndfile
+libusb
+libx11
+libxfixes
+lilv
+meson
+ncurses
+opus
+python-docutils
+readline
+roc-toolkit
+rtkit
+sbc
+sdl2
+systemd
+valgrind
+webrtc-audio-processing-1
+
+%CHECKDEPENDS%
+desktop-file-utils
+openal
+
