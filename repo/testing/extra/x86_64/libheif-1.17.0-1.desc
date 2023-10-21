@@ -1,0 +1,69 @@
+%FILENAME%
+libheif-1.17.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+libheif
+
+%BASE%
+libheif
+
+%VERSION%
+1.17.0-1
+
+%DESC%
+An HEIF and AVIF file format decoder and encoder
+
+%CSIZE%
+373427
+
+%ISIZE%
+1248575
+
+%MD5SUM%
+4d31bf5bd72a07a450c9d894c8af5103
+
+%SHA256SUM%
+85c7716a1606b7c3dbf7dac1c850e8c7f7aaac7404f7fa438139bbeb19345493
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmUsXZ0ACgkQek52CV2KUuQXtQf9Hj2gJwRpeOdw+uyEaWC0HfqqSNNWgwBPX50IBgWuv7mCo71V7VJDzn8rlW3AY30Bh7S/H53Zp0+bT6NxsU0ZSuKsec4w5DWHouUvZCSmlMIC/ZZcJA2RA/tveI4IqBjR+bFELCi3uotOwUs3FcmKbl1udav0G6GD0wDwpmHcHAOSnLYQ7hiUyc77ENukolRmDZ3Ok62jaBPkLw7Lvthg23kh/5sb1pGd/IMpQm7dBXGKr1t7k05hWjDxRv05tnIZ7BeZjlIV5bPN8r3G+u7NphLajBoCuvexL8gN4rDCvG4e8c31JTF1EBkDwZp870VN7iieTfh53SqWbuEjJlzzhQ==
+
+%URL%
+https://github.com/strukturag/libheif
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1697406116
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+aom
+gcc-libs
+glibc
+libde265
+libwebp
+x265
+
+%OPTDEPENDS%
+libjpeg: for heif-convert and heif-enc
+libpng: for heif-convert and heif-enc
+dav1d: dav1d encoder
+rav1e: rav1e encoder
+svt-av1: svt-av1 encoder
+
+%MAKEDEPENDS%
+cmake
+dav1d
+gdk-pixbuf2
+libjpeg
+libpng
+rav1e
+svt-av1
+

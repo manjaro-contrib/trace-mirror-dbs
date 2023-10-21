@@ -1,0 +1,64 @@
+%FILENAME%
+lighttpd-1.4.72-1-x86_64.pkg.tar.zst
+
+%NAME%
+lighttpd
+
+%BASE%
+lighttpd
+
+%VERSION%
+1.4.72-1
+
+%DESC%
+A secure, fast, compliant and very flexible web-server
+
+%CSIZE%
+385600
+
+%ISIZE%
+1166878
+
+%MD5SUM%
+c2c3e9ed4515b070e4c9347a1baaabd8
+
+%SHA256SUM%
+091ecc277cdacddd8e15a9d7a4a253bf87a03b519886438259ee6084ac0ed59a
+
+%PGPSIG%
+iQIzBAABCgAdFiEE4kC1fixGMLp2ji8m/BtUfI2BcsgFAmUnOY4ACgkQ/BtUfI2BcsjsPg//Yvb+YFHzGLqBrNTjd5SWDgID29djk5uj9PnsQgm8daR4DqlsOmC2Y7naPP3pQKfzamvouLZGrhwBVQpiMmBpeB0SRJRcQjYkkCsVeStClv/E8rwHEw148nta7qy19yvjCLrzD0Dh2B4TDp+1XM7f6yiy5dKCqdKPA3KMF+3xxlDiWGiJfjijhUnS80a6w1j+bfD+gg/DrOMgx1XymyDNUhminAvK1FsW1cK+K1EH+N7ihqZCbrc+LJIJGTjnpujA3aGKolIvCizK+6KI8ghg650Ox8dnRB0D17AIiIh1EaagJMupssBgNhIQ/TlGkfQlbydC5/TcfLAhoTu6kVt8dNsGDnx9VdCV1dzohBO+bB/RMi8AXIIdp6BDYrK2JFOyAXMsZUnG70F1GwpQv6Ml2PAAfpSJ3F8qu4C8D4BV0OVFyY16RIjhr367KvOVbb5zZtphzAVNF2UFihZSaS0PpfhXONgiFTgkvQ1eZS2vkZvMoXrIRK/cWLLGHC0HVhoOCAwly9QrTc80vC+8XS8pOy5NTQx1NCVscEH5gR3yGueEIBOFwYWRq+ArAaULFZtBkRjBP/ozMR4EL00bwfvWCNOs4hFi+T+o94GYbw2/8txfGkufIV9daw7z9iGgy5d0GaOKkn450WrFyiRZV7njBBpMi/TY4zB/YqLlVQx2e78=
+
+%URL%
+https://www.lighttpd.net/
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1697069364
+
+%PACKAGER%
+Levente Polyak <anthraxx@archlinux.org>
+
+%DEPENDS%
+pcre2
+systemd
+brotli
+
+%OPTDEPENDS%
+libxml2: mod_webdav
+lua: mod_cml/mod_magnet
+mariadb-libs: mod_mysql_vhost/mod_authn_mysql
+sqlite: mod_webdav
+
+%MAKEDEPENDS%
+mariadb-libs
+lua
+libxml2
+e2fsprogs
+sqlite
+pkgconfig
+
