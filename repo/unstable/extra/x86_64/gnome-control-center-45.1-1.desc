@@ -1,32 +1,35 @@
 %FILENAME%
-gnome-control-center-x11-scaling-45.0+r41+g454955aad-1-x86_64.pkg.tar.zst
+gnome-control-center-45.1-1-x86_64.pkg.tar.zst
 
 %NAME%
-gnome-control-center-x11-scaling
+gnome-control-center
 
 %BASE%
-gnome-control-center-x11-scaling
+gnome-control-center
 
 %VERSION%
-45.0+r41+g454955aad-1
+45.1-1
 
 %DESC%
-GNOME's main interface to configure various aspects of the desktop with X11 fractional scaling patch
+GNOME's main interface to configure various aspects of the desktop
+
+%GROUPS%
+gnome
 
 %CSIZE%
-8626821
+8602094
 
 %ISIZE%
-22765028
+22770371
 
 %MD5SUM%
-4a32e1e4a8a0d1134cac2132f8e16bf4
+db317b137f9bdc8b491da672597f9d58
 
 %SHA256SUM%
-6a9b97a056f6196eb6b188c5bb9eb6da536360cb9427dce48dc72b3e859615f8
+667e0a2e2c8d09533f42173968ed645f922d1c1b8aafc3d24e7b41dfeba99b4b
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUqqx4ACgkQFQwgB0PtRtiv0Qf+MtTN3PdxF7r4aNBCXcQuQQdIoqlPcp3pGbkD9lMc5h2BadYQomXA/FfHiN430Yw1FLlhrUWjb8ZoCXKcIG1MhipY2adDsjNZcjhopcLoae50ajVq89+WFj1ZpOdUNM6Po0ArkdWMl5pTxTPGh45SUK0+RLAsPKTHG0tn6mrpRZqPMbCc9J3sxBQ78YSfaxV02+xYTZlcZ0ucq5JqWxtW6BPsaubWjku0jUxW9ft5MLl+YGh/9M3DPS1/PLjk5mkaoCwby8qjxH7UfjIr/Q5jJbyAgS9EyUVfxWk2LRbQlsnmgvaUOElezNiiqXBcgoi1YxShLwiyfgXSxlbpuyaz/g==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmU2nZIACgkQFQwgB0PtRtg+MwgAl0OD6YIG/LGHu01z3rLINYFrtqXHX9bv5aL5OtYY5wZuyCWQKMIX324dHQJR/O6tAk0g17FE3CD7TTWtnnr99gwsicHxuN+CTQZdR5GBWYYgYwkPDCeJ5ph1iKdp7IuPi7YeRIz9N680YmcYg528DBoj9rivawwXjlc56Qqei5441jim0jUfUyuwwQF2l1J4f6d35AoaQtkUVsev+MMKnyTd1ZCfX3rUYUVTw5UAaUhHBbO0x/ryOHB81TzVDQfe+ENCXYt0a4fxY3lGO2vSPuZu3V+bMxMoxd0c19/MGr6SfdXTDAqnQc2UESBvpcUpdISfVDwFG5mzqq85+eLCsQ==
 
 %URL%
 https://gitlab.gnome.org/GNOME/gnome-control-center
@@ -38,16 +41,10 @@ GPL3
 x86_64
 
 %BUILDDATE%
-1697294514
+1698077483
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
-
-%CONFLICTS%
-gnome-control-center
-
-%PROVIDES%
-gnome-control-center=45.0+r41+g454955aad
 
 %DEPENDS%
 accountsservice
@@ -76,7 +73,6 @@ libadwaita
 libcolord
 libcups
 libepoxy
-libgnomekbd
 libgoa
 libgtop
 libgudev
