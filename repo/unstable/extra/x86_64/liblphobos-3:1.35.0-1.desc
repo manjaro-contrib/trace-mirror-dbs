@@ -1,14 +1,14 @@
 %FILENAME%
-ldc-3:1.34.0-1-x86_64.pkg.tar.zst
+liblphobos-3:1.35.0-1-x86_64.pkg.tar.zst
 
 %NAME%
-ldc
+liblphobos
 
 %BASE%
 ldc
 
 %VERSION%
-3:1.34.0-1
+3:1.35.0-1
 
 %DESC%
 A D Compiler based on the LLVM Compiler Infrastructure including D runtime and libphobos2
@@ -18,19 +18,19 @@ dlang
 dlang-ldc
 
 %CSIZE%
-4711313
+13033661
 
 %ISIZE%
-22965859
+92044077
 
 %MD5SUM%
-b5b9aad27a3400cb19cd8fe3fa7dc452
+c9b9f6f7273fcde853273fbf4ff404a3
 
 %SHA256SUM%
-e742586f0e2f5fb7c8ac392b6bc23b2febe76a9dbef0efff5cc3460d85fe4589
+8cfa99b9b4f7df48ed3714e08a754cd8c9c81bd1188d37f43b4a4e43ef28ba10
 
 %PGPSIG%
-iHUEABYKAB0WIQRgk55V9tWr9+5BnwixodPF8t+bxQUCZPToaQAKCRCxodPF8t+bxc07AP0U1CU49faM0qzfj+/wXSrc8E5i/qlxYKAUiQxOhfYfiwEAwyf1L875jrCNBOz6tzPyfVCnlLq0dqiwiODXoAPogw0=
+iHUEABYKAB0WIQRgk55V9tWr9+5BnwixodPF8t+bxQUCZTqQSwAKCRCxodPF8t+bxea0AP9orggbmnhBO0LzjuOYg5THTYli79IteAf7BrMBprXYigEAiqEtKuhCn1Luyu+H6T3F10OJmz1vLC6W8CB9pkIpigQ=
 
 %URL%
 https://github.com/ldc-developers/ldc
@@ -42,19 +42,17 @@ BSD
 x86_64
 
 %BUILDDATE%
-1693770696
+1698095847
 
 %PACKAGER%
 Dan Printzell <wild@archlinux.org>
 
 %PROVIDES%
-d-compiler=2.104.2
+d-runtime
+d-stdlib
 
 %DEPENDS%
-liblphobos
-llvm-libs
-gcc
-compiler-rt
+curl
 
 %MAKEDEPENDS%
 git
