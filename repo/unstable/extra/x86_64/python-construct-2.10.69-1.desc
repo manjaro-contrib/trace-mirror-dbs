@@ -1,0 +1,66 @@
+%FILENAME%
+python-construct-2.10.69-1-any.pkg.tar.zst
+
+%NAME%
+python-construct
+
+%BASE%
+python-construct
+
+%VERSION%
+2.10.69-1
+
+%DESC%
+A powerful declarative parser/builder for binary data
+
+%CSIZE%
+141643
+
+%ISIZE%
+1206001
+
+%MD5SUM%
+6ca0349d709e8fd3d5f44be82267d769
+
+%SHA256SUM%
+7a37f24b4f4a2f9faec198b0217fb78372139d34c4632faa79a011aacd43147f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmU7uvsACgkQeGxj8zDXy5LVvRAAsuuRozgEVRYdwtRWkozzAMmBpgE7iIAz6oFQtWMIjCf9WIoZkHHH3O0O93U0dexUYjwF8pcOEOwEcWZYX5DK5Z/vWJmRTdo1tVXaDmJ7jJQC9sa/dqEkFQvrtQqUpLwQ4y0BwzpjHRoK/I/wRnRigKfatL4/t4B9DDocC2OVz+9mlS8HDWo9VkQq+aaxg54awrcjgv7SVNTltU+8d7BhOPP1fGtwBgjrFdii9nE7BLHFS9s3W4ecT+qj7anI5mhT0ANwCDK1rKe0CFY4R/9ZKAydgm1qA3XgMLU3RM5OdwQJhLPmzE1k+3Zrx/6dq289Kj3/Cgz94ltNue0JICCie1EM409dkDL5ZbggRF17eA0IfWPX5jPh3wOcTvfmcbUMomB6USwC9bioU/aUM6hwZrd9LK72KZB2Npjw1YROo4cTxlHjSFg4qdaJb6Q8txZe2TP5ciVH/9SSdGqf7MpDHoHIkcQzkQAsLkyJjNVHKyj8adPWuk7/2CsKOlZ0QFS3nE+l7rP62zbaztn8khpnrawne9ng42F1EBIw06dgzCk1DyIc4EXHfupz3P/7YsNfqahRrYc7QQwbhoWIJ4knNuMfF570Tp0cPJN+LoIOr2XDcSwCbZjcaFRkDySu1xtRz5w3nZ6Ho6LCO29K77nen7/yf6qdZ1k1sxeOVPTx2Cc=
+
+%URL%
+https://construct.readthedocs.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1698413139
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-arrow: for Timestamp
+python-numpy: for array serialization with Numpy protocol
+python-ruamel-yaml: for KaitaiStruct (KSY) exporter
+
+%MAKEDEPENDS%
+python-setuptools
+
+%CHECKDEPENDS%
+python-arrow
+python-cloudpickle
+python-lz4
+python-numpy
+python-pytest-runner
+python-pytest-benchmark
+python-ruamel-yaml
+python-cryptography
+
