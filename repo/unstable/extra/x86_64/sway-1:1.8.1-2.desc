@@ -1,0 +1,82 @@
+%FILENAME%
+sway-1:1.8.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+sway
+
+%BASE%
+sway
+
+%VERSION%
+1:1.8.1-2
+
+%DESC%
+Tiling Wayland compositor and replacement for the i3 window manager
+
+%CSIZE%
+5302620
+
+%ISIZE%
+5895272
+
+%MD5SUM%
+681886226cdd254d9cfcefe61c6bd498
+
+%SHA256SUM%
+73a989b5a595d6c5946bcbb7cf0e1a81d88a19e1c86bbdfab48a3e99f5c2c71e
+
+%PGPSIG%
+iHUEABYKAB0WIQQ1uuG/mmsxcCHmkMJufOCwo22irgUCZT2qbQAKCRBufOCwo22iriEsAP9AjrU2ghxfiAZbb6UcMk6KFYyHQWuDUiWzty4M8XlzMgEAp5PEf71H3Sdt0KFgw9x6tTeJvRmVOMYlIDRqj4MKmgA=
+
+%URL%
+https://swaywm.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1698540094
+
+%PACKAGER%
+Brett Cornwall <ainola@archlinux.org>
+
+%DEPENDS%
+cairo
+gdk-pixbuf2
+libevdev.so=2-64
+libinput
+libjson-c.so=5-64
+libudev.so=1-64
+libwayland-server.so=0-64
+libwlroots.so=11-64
+libxcb
+libxkbcommon.so=0-64
+pango
+pcre2
+ttf-font
+
+%OPTDEPENDS%
+bemenu: Wayland-native alternative to dmenu
+dmenu: Application launcher used in default config
+foot: Terminal emulator used in the default configuration
+i3status: Status line generation
+mako: Lightweight notification daemon
+polkit: System privilege control. Required if not using seatd service
+swaybg: Wallpaper tool for sway
+swayidle: Idle management daemon
+swaylock: Screen locker
+waybar: Highly customizable bar
+xorg-xwayland: X11 support
+xdg-desktop-portal-gtk: Default xdg-desktop-portal for file picking
+xdg-desktop-portal-wlr: xdg-desktop-portal backend
+
+%MAKEDEPENDS%
+meson
+ninja
+scdoc
+setconf
+wayland-protocols
+
