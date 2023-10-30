@@ -1,0 +1,64 @@
+%FILENAME%
+usbutils-016-2-aarch64.pkg.tar.xz
+
+%NAME%
+usbutils
+
+%BASE%
+usbutils
+
+%VERSION%
+016-2
+
+%DESC%
+A collection of USB tools to query connected USB devices
+
+%CSIZE%
+82668
+
+%ISIZE%
+345321
+
+%MD5SUM%
+eab39fae69b7da5684b459f84d34a2f3
+
+%SHA256SUM%
+a92e554769d13ed9d64635fcd92b3e9bdd138ebb1257fdf858cbe3f2842141e3
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmU5EXEACgkQdxk/FSvb5qYQGBAApxfUVvrN78CNo6L2Uq/+rqBOpzkdBXml7wJGpvmEWAGJGxWPl5h37pSQz76D75ls17m6+/tzrYigQykrR8gvqz/+uR1iHHIUft/xntPB5YqlpJctzCgx+/ieCFqFZuxQkENfFLM/KIZqZ+2rR/IjaTjpMyCUCgR1RviKW3GolJZen5X6mGc8Ft+vs+Ij6u9WQ0ICFUcqdOjBkE+0Cx5qsc9NzMWz3maF8BU1IFeAq2Xr7u40KnS0z8xbQgVil2YvoNdjfsQtR8ZomwmcF18I29In2s+8gbEuSdEsE6CFouw23HD6TQSsdW0A2/9DPQ8y50rpdE972dziNxSrPJsBTMrXm1MZSQfmUymrZjRo5Q9tIZIiDTYauSSyoMWv9VzDVgECa7qVmHDLs4XN5IlwmdMDg2bk8pAp/tMroq2hkXqXtv9E4fZ4tN5Kw8Cr4oJ6Zmo4EEEnj/X9g3KhI7zgrVtqow0KvX48qESHgeRXPZ6XojByM/ZS07YZYwbTfoHwvhR5kRR0EUsD2QqZNGvKEiCTvx3/J4krij636peEIdPN1djfkgDbf1sh8dIT4+SEm+Xwn3FOUP0jHh8XPbsPNVfQn7ktfESYCfvMpPCOvGMkpQ/3EX33reDeBmHSdLjCmrn5w82SDxxOWPItp/V0EXEHeICPcA0dyZ7Jj3jg+cw=
+
+%URL%
+https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usbutils.git/
+
+%LICENSE%
+GPL-2.0-only
+GPL-2.0-or-later
+GPL-3.0-only
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1698238803
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+glibc
+hwdata
+libusb
+libusb-1.0.so=0-64
+systemd-libs
+libudev.so=1-64
+
+%OPTDEPENDS%
+coreutils: for lsusb.py usage
+python: for lsusb.py usage
+sh: for usb-devices
+
+%MAKEDEPENDS%
+libusb
+systemd
+
