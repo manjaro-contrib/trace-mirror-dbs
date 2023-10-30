@@ -1,0 +1,81 @@
+%FILENAME%
+urh-2.9.5-1-x86_64.pkg.tar.zst
+
+%NAME%
+urh
+
+%BASE%
+urh
+
+%VERSION%
+2.9.5-1
+
+%DESC%
+Universal Radio Hacker: investigate wireless protocols like a boss
+
+%CSIZE%
+4105736
+
+%ISIZE%
+19477167
+
+%MD5SUM%
+4729c7edb15976d76e8908394afef285
+
+%SHA256SUM%
+b61c78d4d094ffde6142ef22f04c2b80877e7c4b741b0f0984e39abcb14b8abc
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmU+TF0ACgkQek52CV2KUuQEVAf/ZIfhpZQhM0vsrPgngzh1yexNfV3xnV+7LMqpbA/yxZ4Y75khbN7I5tpADSeFf5++NEQWGMX++awJEdaXHwK3vCjIg+YbiIIhryacbkynsLSkG8Q4JqoJtklYngVPCzRrEmsfBathrYvOb5CgcYsSMpXRq9P8izmmo5hUrYmymHFRn8QcDY1gEJTmcOETo6Vm9lnEs1uIvhBtY1S0YnAbReYyrw3CwdAls6h76ow0Dt6kzyHDDYQU6zRhmKtZi9sNP8eRYpw7iQezxIpV+kqQe8CKWFcOcMv3JMKbG5Uys7I4QLl7gq8zaL7DeFCPf2zVorQgE1JoS6zyVSYs++3fgg==
+
+%URL%
+https://github.com/jopohl/urh
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1698581181
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python
+python-pyqt5
+python-numpy
+python-psutil
+
+%OPTDEPENDS%
+airspy: Airspy backend
+cython: compiling native modules inside URH
+hackrf: HackRF backend
+libuhd: USRP backend
+limesuite: LimeSDR backend
+rtl-sdr: RTL-SDR backend
+gnuradio: GNURadio backend
+bladerf: BladeRF backend
+python-pylibiio: IIO backend (PlutoSDR)
+gnuradio-osmosdr: OsmoSDR backend, via GNURadio
+python-pyaudio: Soundcard backend
+
+%MAKEDEPENDS%
+cython0
+gcc
+python-setuptools
+airspy
+hackrf
+libuhd
+limesuite
+rtl-sdr
+bladerf
+libiio
+
+%CHECKDEPENDS%
+python-pytest-runner
+python-pytest-xdist
+xorg-server-xvfb
+
