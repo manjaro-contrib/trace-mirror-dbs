@@ -1,0 +1,67 @@
+%FILENAME%
+libheif-1.17.1-1-aarch64.pkg.tar.xz
+
+%NAME%
+libheif
+
+%BASE%
+libheif
+
+%VERSION%
+1.17.1-1
+
+%DESC%
+An HEIF and AVIF file format decoder and encoder
+
+%CSIZE%
+332352
+
+%ISIZE%
+1336495
+
+%MD5SUM%
+730d4bf0258e6d0d4c4aae32201286ba
+
+%SHA256SUM%
+0837b54ba537571b42ab20d786219397aeb46c78f8da9dacb527ee8596323fee
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmU2v4YACgkQdxk/FSvb5qag/g//dVRJAWUInTHuZK0Poteg2x5Z6DXq9H4E8pMQE5SFv61GnIDxX+41MZgb37dCiPWhpZ6BLWF02VAoLpWr2OgkRQWpkGviOOolHoxp9oqexkuxDTqZAjTjeoNsZHjeocv45kfJI3nhc3hEnQATTxj6nHqMsJkQd9XUR3vvXuZcFwTH7b7dx7EXFBTOKRtL8/RsliiO1MTV9lehrgpQ/MYu07D6J1cujKCT3vSRJbqy/B/lWAMyh37uDsIa7medai/IOGH93aRXozFI382FRyNCvvx7zlo2o+0YHR5OLnpVf/1aWnzUmkepoMfH71APLJDm0QlVrwQ4PahToqJvUY30YCub8jsktLRuYol/22+75s1OUDZmgB8UfvsoGOboo1TuoYOeiriub+E1ZIy41PE5MbxOajCW6dSLuZBX9tAiJxlLpYMHk04hsZij3SZabybNi6CVaQ9YH645850W/TT9qIOQPCZ2tTzOH4I6e1Wyt3rZrawz9h1Zedezqj+N1Tv+mBocj1dUQftHOEyOa9ifNVhAbp/LsJg1d8A0wqBbJihaQalBKj/TqIWpBxKMMJVLNajuDV4iB8I652U6CgQWWcXYh0tSoR0M4fylqL2Vf9+4C95jD/zyaN9heOqP/NP5YZJ4kSb0PpCGh3UQcHQdSkqSnevPopp9+e1mwdA7LoQ=
+
+%URL%
+https://github.com/strukturag/libheif
+
+%LICENSE%
+GPL3
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1698086744
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+aom
+gcc-libs
+glibc
+libde265
+libwebp
+x265
+
+%OPTDEPENDS%
+libjpeg: for heif-convert and heif-enc
+libpng: for heif-convert and heif-enc
+dav1d: dav1d encoder
+rav1e: rav1e encoder
+
+%MAKEDEPENDS%
+cmake
+dav1d
+gdk-pixbuf2
+libjpeg
+libpng
+rav1e
+
