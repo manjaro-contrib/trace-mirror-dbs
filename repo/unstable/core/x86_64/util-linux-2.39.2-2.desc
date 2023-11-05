@@ -1,5 +1,5 @@
 %FILENAME%
-util-linux-2.39.2-1-x86_64.pkg.tar.zst
+util-linux-2.39.2-2-x86_64.pkg.tar.zst
 
 %NAME%
 util-linux
@@ -8,37 +8,45 @@ util-linux
 util-linux
 
 %VERSION%
-2.39.2-1
+2.39.2-2
 
 %DESC%
 Miscellaneous system utilities for Linux
 
 %CSIZE%
-2838097
+2837413
 
 %ISIZE%
-14224228
+14229562
 
 %MD5SUM%
-43d9f1c661b92eac3ce8b5613149caa7
+64b7e02a461fb37299b156c56185eded
 
 %SHA256SUM%
-1cc8c68961d2768211dfb8462eed70484a83e4e0ef720f483f224aec4e005de9
+c7ecd0e39b1092db8d485651985ca07584f7e18a145811ab74cd375b4d1d7041
 
 %PGPSIG%
-iHUEABYIAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZN3uggAKCRBtQr3RFuAGj5fqAP49YRjF93QI52v6QtOXxG4CErwC5gFvRu5C4FiU1GQqaAEAsA2N1XIxs1mILcM6i5dodXGWi+09HGGuzAzbQ0motgs=
+iHUEABYIAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZUWDYgAKCRBtQr3RFuAGj/5BAP9FUpHQ0PWy/KCjyS/8PFwXqtu0TQGsoiwYBuPlxxPIIgEAuTy4HwU8MCVn051sY0cVNWv3i5nAztOidhoH1E++xgw=
 
 %URL%
 https://github.com/util-linux/util-linux
 
 %LICENSE%
-GPL2
+BSD-2-Clause
+BSD-3-Clause
+BSD-4-Clause-UC
+GPL-2.0-only
+GPL-2.0-or-later
+GPL-3.0-or-later
+ISC
+LGPL-2.1-or-later
+LicenseRef-PublicDomain
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1692265836
+1699054166
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
@@ -56,6 +64,7 @@ rfkill
 hardlink
 
 %DEPENDS%
+glibc
 pam
 shadow
 coreutils
@@ -69,6 +78,8 @@ libcrypt.so=2-64
 util-linux-libs
 libmagic.so=1-64
 libncursesw.so=6-64
+readline
+zlib
 
 %OPTDEPENDS%
 words: default dictionary for look
