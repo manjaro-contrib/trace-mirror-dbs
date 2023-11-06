@@ -1,0 +1,67 @@
+%FILENAME%
+yosys-0.34-1-x86_64.pkg.tar.zst
+
+%NAME%
+yosys
+
+%BASE%
+yosys
+
+%VERSION%
+0.34-1
+
+%DESC%
+A framework for RTL synthesis
+
+%CSIZE%
+76026044
+
+%ISIZE%
+319746131
+
+%MD5SUM%
+b6356fdc2129d7168902ba3a44524c70
+
+%SHA256SUM%
+8c7cd399012734c206cd1b61a61331824e021e8c1e624413271f709199551a21
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmU+UQMACgkQek52CV2KUuT3Fgf/WW1rSesIAjKv7guBQoNrUa5opW1gysIStlr9oB9NoGQEJ1kRr0sHfJNtxS5zOcAK46wRvFG4pfPD7fPHkDqdAFrBoG+9C2YTsUgmCxo8Itm4LVfoaTl89FsgZ7pVhtY0kTWmtrGGKzBg9sKgmgr2ObC+NFBwyOCBUqfPuuHENw12zp57oy6yj1vSxveDOgXnbIQ489h+uFv4jQWEni1krIa3N9Cz4xXayhh0hmXO4Esj419tgJFYmaulzB1jisCYcwGKi06lPt1uHPL1ALcQkJ2bQUuK0I/1EjP3jTvKX6xovJcPc8KxTXSD/Rcw5yKNJ3KYoHrcaF5VpnuKtxj7AA==
+
+%URL%
+https://yosyshq.net/yosys/
+
+%LICENSE%
+custom:ISC
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1698582098
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+abc
+bash
+boost-libs
+tcl
+libffi
+python
+protobuf
+
+%OPTDEPENDS%
+graphviz: Schematics display support
+xdot: Display netlists
+yices: default solver for yosys-smtbmc
+cvc4: alternative solver for yosys-smtbmc
+z3: alternative solver for yosys-smtbmc
+
+%MAKEDEPENDS%
+boost
+
+%CHECKDEPENDS%
+iverilog
+
