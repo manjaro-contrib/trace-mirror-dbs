@@ -1,32 +1,32 @@
 %FILENAME%
-harfbuzz-icu-8.2.2-1-x86_64.pkg.tar.zst
+harfbuzz-cairo-8.3.0-1-x86_64.pkg.tar.zst
 
 %NAME%
-harfbuzz-icu
+harfbuzz-cairo
 
 %BASE%
 harfbuzz
 
 %VERSION%
-8.2.2-1
+8.3.0-1
 
 %DESC%
-OpenType text shaping engine - ICU integration
+OpenType text shaping engine - Cairo integration
 
 %CSIZE%
-8230
+21029
 
 %ISIZE%
-17907
+52317
 
 %MD5SUM%
-f9adc79088dd4e817e6a005386f63068
+53e40db16204b26b8960500afdf344e6
 
 %SHA256SUM%
-d81721696ea1dce34fe16461640a96710112cf9675c8770ab91f9f2d25cca12c
+f4d14254f62b4e0c1a8c002138b242cebd2b373a3e6f79d65b0a228b3502a55e
 
 %PGPSIG%
-iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZS8hdRUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8dV1AD/XKYRX0YGHz/5AFBMjXmqWeMuzdT+0Y3q1VQB2hTTivwA/06iZyb9vSYyHuWdcEE/xgypx0WwlRCiPe7UGDn2LCQN
+iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZU+reBUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8e+6gEAs9ZprJS+SXRLLBcohpm6L92kWWPrk4gBZil6gP2219kBALNw4j+GvVQsZ/kO9zVPy9X+4MZLDTKb9ICrVljddb8F
 
 %URL%
 https://www.freedesktop.org/wiki/Software/HarfBuzz
@@ -38,17 +38,17 @@ MIT
 x86_64
 
 %BUILDDATE%
-1697587268
+1699719829
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 
 %PROVIDES%
-libharfbuzz-icu.so=0-64
+libharfbuzz-cairo.so=0-64
 
 %DEPENDS%
+libcairo.so=2-64
 libharfbuzz.so=0-64
-libicuuc.so=73-64
 
 %MAKEDEPENDS%
 cairo
