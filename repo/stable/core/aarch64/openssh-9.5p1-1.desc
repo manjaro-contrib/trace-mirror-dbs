@@ -1,0 +1,72 @@
+%FILENAME%
+openssh-9.5p1-1-aarch64.pkg.tar.xz
+
+%NAME%
+openssh
+
+%BASE%
+openssh
+
+%VERSION%
+9.5p1-1
+
+%DESC%
+SSH protocol implementation for remote login, command execution and file transfer
+
+%CSIZE%
+1028612
+
+%ISIZE%
+8558186
+
+%MD5SUM%
+9bc37dcf85aeb9706cbd64b57d9afa46
+
+%SHA256SUM%
+3a3e76c8cdb33603c1a16a06fbcccc0c46e459b25413037c44a7673646b7e8c6
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmUdt3UACgkQdxk/FSvb5qbGehAAjES2jpgCT1rrLMV5N1Zz9m/BV0Hfppvrg3i5qEturvgZg+FJRISEyJWbcl59MR9ZVQBazoFSI0kkGB4FIDcjcbN7Mcs6/KjdPJ1T6nVWtprzxZ23leuIIe/FM5XtIYS25zurd86xKM+NWdwLG9/pKJFX1zsAfXRI9to1028GXahGrYuZoxnz3cq43TYEKYH2rHA/zQh+8jNbWmc1K94bq85M9GbOfrJlL2RN+bxLVmV3+WceZ0OLfDhxVtqO0HGzql/ziIYE9oJFh+Pk9qfy4qyYYSooCE07p6DM6GF3CZbEh3AasfeufxulhwRiI/+JVPf7ptmrlxPsecLL8vWdVd5ls/BJpqk85vCDWjZQDXIqw8R4VFaD3p0n4GQdhN6D6NUhV5WKnx0FOBeQCLD/WHm5LpG1iIZzZeObjI7S9QxwoK26sbId5w/DehmR+JLsshdVUAr7aOGkPSo3mgJIfQLzWlawgiGIUIdeJQcWFiyq3o2JkJ8fxJahf4APMxc3eFZmy8tvQQjIfV98piZcslaHliC+v10iTxty2QuSf+B21np9+Z70f8eIqwO56qwRr5V59Ori1ww+3qz0qeQpe7PuS1cXfi6bTpIS8Ttc2l4m8VF9GNNQDkglRftJhCRYclOawga5XgFdj4JS3b1Ov3IoqN6gFQllhMY7+uaRCb4=
+
+%URL%
+https://www.openssh.com/portable.html
+
+%LICENSE%
+BSD-2-Clause
+BSD-3-Clause
+ISC
+MIT
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1696446234
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+glibc
+krb5
+libkrb5.so=3-64
+libgssapi_krb5.so=2-64
+ldns
+libedit
+libxcrypt
+libcrypt.so=2-64
+openssl
+pam
+libpam.so=0-64
+zlib
+
+%OPTDEPENDS%
+libfido2: FIDO/U2F support
+sh: for ssh-copy-id and findssl.sh
+x11-ssh-askpass: input passphrase in X
+xorg-xauth: X11 forwarding
+
+%MAKEDEPENDS%
+libfido2
+linux-headers
+
