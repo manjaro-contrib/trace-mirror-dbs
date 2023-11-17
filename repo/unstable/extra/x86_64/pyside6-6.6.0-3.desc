@@ -1,5 +1,5 @@
 %FILENAME%
-pyside6-6.6.0-1-x86_64.pkg.tar.zst
+pyside6-6.6.0-3-x86_64.pkg.tar.zst
 
 %NAME%
 pyside6
@@ -8,25 +8,25 @@ pyside6
 pyside6
 
 %VERSION%
-6.6.0-1
+6.6.0-3
 
 %DESC%
 Enables the use of Qt6 APIs in Python applications
 
 %CSIZE%
-9648642
+9648447
 
 %ISIZE%
 61262191
 
 %MD5SUM%
-31d50ab1fec451ab658c45221d0280f9
+8d95331ad3667df19f0aa526dd0ecffc
 
 %SHA256SUM%
-54ac9575145bf90d3556d4f46b1569d858c31d1518a69f4e9de21c07315568f5
+0cf92c58218b906f72f8abccf0141d3e0a71cd331a68900617ea6d3f43a207ba
 
 %PGPSIG%
-iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmUvfpsACgkQek52CV2KUuQu3gf/aen9UMNW6sYfaNlobJ+66Brk6XUNa/dIYpetRwfzubCD71fdUzANdF6Ears/gDW7llYcl9gRqtrpXvq5s9tHZXj7BPuRsi7K6fIkLKo8vFlCI5fWS4Qb9ExAxStpwt6J3Pq3EYS1Akq+gehkkPZ6nHo5EAt8dCxX2lOyK2bO6eaqHq/HxFHGH/ycY4KYVXrWexJCVwY9RAZSV5eqBr17+E76rP8Uu4W7vH2xCyD7bn9fQIwEqDGg9xgMlevaOcOGOgCryNi4gB6uC8qmLNX6KUu8R6lQvsQSsLrjEf6feQ0fJImltFIjxNcacU8Xc7Vv26Pb7n0I89vjEeoV6IHR5A==
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmVX0NYACgkQek52CV2KUuQssAgAmOwRHKko35l848oFpSxUugmqUvbZnUiFH9kOVRYcm4oOfDPpmhBNcwILyjtDSjfwPxIAz11NyjvUGE6MliNtDS/Bdbt9AWGSLPfOmgSNa/aDyJuHXUf0N6+ODVDBv6aJ3cC9XfdK4Vk9jwa4iyfCRNqRDvoALhEw9nBpnuBT/gp4Mz0JTdVJYqMIBL2CFC7sJp6tw/wTQ3yVOMJElslAHGzRCs3Ouji0wDuqEpwEYXv/IhFR4TcgaDD9icDCze1ADY0Plg/pggLrOoappqSvsPdagMXsyMsS95xrUgti+Y2jEVQnJziwngbawH0yyY9uAOnrO/e+L+0T0YRv03vyAw==
 
 %URL%
 https://www.qt.io
@@ -38,10 +38,13 @@ LGPL
 x86_64
 
 %BUILDDATE%
-1697611007
+1700253315
 
 %PACKAGER%
 Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+qt6-python-bindings
 
 %DEPENDS%
 gcc-libs
@@ -71,6 +74,7 @@ qt6-serialport: QtSerialPort bindings
 qt6-speech: QtTextToSpeech bindings
 qt6-svg: QtSvg bindings
 qt6-tools: QtHelp, QtUiTools bindings
+qt6-webchannel: QtWebChannel bindings
 qt6-webengine: QtWebEngine bindings
 qt6-websockets: QtWebSockets bindings
 
