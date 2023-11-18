@@ -1,0 +1,66 @@
+%FILENAME%
+system-config-printer-1.5.18-2-x86_64.pkg.tar.zst
+
+%NAME%
+system-config-printer
+
+%BASE%
+system-config-printer
+
+%VERSION%
+1.5.18-2
+
+%DESC%
+A CUPS printer configuration tool and status applet
+
+%CSIZE%
+1315827
+
+%ISIZE%
+8683451
+
+%MD5SUM%
+f3c7f83c78bf6a6b1356cbac0fcb5254
+
+%SHA256SUM%
+9428d23ea661809c45d12145c18c9c0ce89795d98fec3db34f90d063b0f6009e
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmQ0U68ACgkQlGV6sg8qCStczgf9Fg/4FBv1Ecwwg+IemkqE7uY92wbVuWVyKFIwrf15Wm+9yBKAfZrxcQ80RIuKOMLplcktD1hX5Ep1qqbSKvaqTcqx9hZ7Aq1xGn6Yr1Qx/eSC9pZVCP12zUckORcreAZH3fD56nRH9WQsMvAX7l5pwhoKb2l4ggGpksH6pMgvR4XzYnNMWc5KC+zNGswlA7ElXlAK/TG0mIlsCr18edIYaCnfK2YGoi3nWeJh0MiIcfLZb/aD5q7tiPkdLj7tyA3kvmGoK5Zju84A/YMsUYPfb2lyjW1cZCJqqBUPflL6DSIf5JVuGQPcq9G6NdOLi0WVERW9NyVsjaEb77tduYeNNg==
+
+%URL%
+https://github.com/OpenPrinting/system-config-printer
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1681150849
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%DEPENDS%
+python-pycups
+python-dbus
+python-pycurl
+libnotify
+python-gobject
+gtk3
+python-cairo
+libusb
+
+%OPTDEPENDS%
+libsecret: password management
+python-pysmbc: SMB browser support
+cups-pk-helper: PolicyKit helper to configure cups with fine-grained privileges
+
+%MAKEDEPENDS%
+xmlto
+docbook-xsl
+desktop-file-utils
+libsecret
+

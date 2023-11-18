@@ -1,0 +1,84 @@
+%FILENAME%
+monitoring-plugins-2.3.5-1-aarch64.pkg.tar.xz
+
+%NAME%
+monitoring-plugins
+
+%BASE%
+monitoring-plugins
+
+%VERSION%
+2.3.5-1
+
+%DESC%
+Plugins for Icinga, Naemon, Nagios, Shinken, Sensu and other monitoring applications
+
+%CSIZE%
+432604
+
+%ISIZE%
+2855168
+
+%MD5SUM%
+13ff3688df0a6bcc2f5cde06d7fdb900
+
+%SHA256SUM%
+54201018f2d19179eea34de64b161eab8b21c53474f5193ba07c1bc70a817557
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmUz9oMACgkQdxk/FSvb5qa/HBAAv2mLue4uF+LJY5OGlqBLOZJvz3vCjFZ2QfK/NeyCxyZS+Hv8pGD8kwqvW0JKWbriKvOKCXVQwnbiv5MkUz0EMYuiCYlALO2vsSl0RE3Gdfjf7TBrk5Xqb2gwj+Wepwqa4w5pMPJTnLzGxUDFX4HW60n7wl/WKkDTDBDoH8joRFVVUnaBPIcydV2KCcXswpBonsj9Bmq0II8rk5bnff5sIE8GNGuWd4CRoFJVxWfl2OYqLJTgCHjMKnmzjEL9AyYmfqOXHt9BYMx14Y0NvkYhkJXMNov44rEdYBqiNl8M2uNxw1/NIAtBmHP3w7y9g5HC6paa1Ed7KFKH+updD3PgXWbzjZYzMwQyhxAk8s+18bvFKCi/HDFd22zoKet5mSV7IIeHtVnOeQA68e0UNT59eXTw2/5nDsoNNONT1SOHuUfq+JTsjXIVksK9fzpVjNyb+OrsMWDGNZr7dDrdCeRv4Q/XmFgquwGcghOHo2Rj3pm4DfORB4uKqRXy5SVfE6dWi7f4+drk0WDyKHvbHo2BeArs9Pm5D5dcwFYFZAVpPUauXuGxm94J0On38p0m8tS3SKRvBAeha12sI6bKlecWbVSAm4jBLQ5j7PiifjDF9RTjcgeb8iV1eHJcG7Y9B0TgzL898Er8iJuUDDLH53+8KuEuzIshc261wV6N7MVGlAU=
+
+%URL%
+https://www.monitoring-plugins.org
+
+%LICENSE%
+GPL3
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1697904161
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%REPLACES%
+nagios-plugins
+
+%CONFLICTS%
+nagios-plugins
+
+%PROVIDES%
+nagios-plugins
+
+%DEPENDS%
+perl
+
+%OPTDEPENDS%
+net-snmp: for SNMP checking
+uriparser: for check_curl
+curl: for check_curl
+postgresql-libs: for check_pgsql
+mariadb-libs: for check_mysql_query and check_mysql
+libdbi: for check_dbi
+libldap: for check_ldap
+
+%MAKEDEPENDS%
+net-snmp
+postgresql-libs
+libdbi
+mariadb-libs
+procps-ng
+iputils
+fping
+dnsutils
+rpcbind
+smbclient
+openssh
+inetutils
+postfix
+perl-net-snmp
+curl
+uriparser
+

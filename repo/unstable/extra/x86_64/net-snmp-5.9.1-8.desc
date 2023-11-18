@@ -1,0 +1,61 @@
+%FILENAME%
+net-snmp-5.9.1-8-x86_64.pkg.tar.zst
+
+%NAME%
+net-snmp
+
+%BASE%
+net-snmp
+
+%VERSION%
+5.9.1-8
+
+%DESC%
+A suite of applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both IPv4 and IPv6
+
+%CSIZE%
+2108888
+
+%ISIZE%
+8980550
+
+%MD5SUM%
+6fb9f7b2dc18064745c80daeda57d28d
+
+%SHA256SUM%
+38dc735fef351a78a7efd419ef51a14d3f96d69c3c4f30e9112a4df061707f71
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmTzGGIACgkQwGCGM3xQdz4KYAf5AZ3EwkwGTcYy3S6R60FmRSXn43IrHYGMHrboAzYeoD5bWvd83kIx6pApEAxHyhZiWGYUkl/r1s2ZI2n9KyM09Bo7SXZRf5AVmNKptNPgwfn/r4PfhOImXxVS+a/ZPB7Bxwn/thKo8VwYBwtnk4hSuyuH1+NFhsZQBTM1REenTWXIx3UXIvxYYp0CcgPbWPKMgn+UcUFWWZHT4MrzY4A9M/x6wDrLw3ucq3daHp+cCAvK0LK2T+Yoltt5aiaBh0umQOuEGmmFJMtFL3OKsRoxIWFZ7u260fLtWU1qDbO7r/zBOMDFN2hle+3OZZRyZ0v76r4ECIYj6j3XN70H2ECPEA==
+
+%URL%
+http://www.net-snmp.org/
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1693652897
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+libnsl
+libpcap
+lm_sensors
+pciutils
+pcre
+perl
+
+%OPTDEPENDS%
+perl-term-readkey: for snmpcheck application
+perl-tk: for snmpcheck and tkmib applications
+python: for the python modules
+
+%MAKEDEPENDS%
+python-setuptools
+

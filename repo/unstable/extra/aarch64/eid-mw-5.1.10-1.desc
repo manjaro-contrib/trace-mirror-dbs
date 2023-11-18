@@ -1,0 +1,60 @@
+%FILENAME%
+eid-mw-5.1.10-1-aarch64.pkg.tar.xz
+
+%NAME%
+eid-mw
+
+%BASE%
+eid-mw
+
+%VERSION%
+5.1.10-1
+
+%DESC%
+The Belgian e-ID (electronic identity card) viewer and Firefox extension
+
+%CSIZE%
+509460
+
+%ISIZE%
+1613421
+
+%MD5SUM%
+6f1eb6db65839ef078bc851c0f9d652e
+
+%SHA256SUM%
+61489314451a5d6caa42a9949dac62f976c63d6509f726be0eb1bdbd37f5f6f7
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmUCQRkACgkQdxk/FSvb5qYwVBAAqZTbvsC2BELQ8ScesWnjpruXc85sdf0nybuIcl30WGqMQOMkQpmgnhyzjQWvS4uvctANJ5T93p6+1xGMkpj39vUEHH23GubnnkWfWZwPOQWGsycY+dAgejbofaGLYJL64sTw3j+uCmHOauZpF/bL5FZrPIqblPS1JMO63t6hFellFg0cWfeDywwpVA6Gv2hfQ0nbRcb4KnAJ7FE4z1qmdcq38VF1u50taiXmBC69zwjt/VrurHONnujACUbkXcmEP2KUeELZKLw7fvTCOxEqIkN39vFZcI/u+sVe1jgoqVQkiM8Ce5VVILPgkioE73Yw2oGPbxj5al62DQpKq8GP2/g4fa2xHTh8zeR96Xb/c/FFAJv4MV/T79AK9/4FENMyHFUIaJcjRKg0cF2OmsSry8CoMKzpYzMbQ0heG7ASByBD4CRUYt3TRMI/6n24+7fU5YpruPI3hs1G4Hg1qBVIJ654BQ0EX+NvDwq4AStUOE9+/cfiOL1v/4UXvM75l0v+VgH2kNygK33zehmZQH0o4tnrkAKqnmxIe/ptqU+hSJMyWO6r9aWcpPckzYROpTBagR6MX+MwzSbm7wrntJ/YGZ3Jgr/xCyIsriIl0wrqpQv18dWPK4qU/gSPldLXAcrSE5fvjXBgvltIuSJAMtbYzE5HTBOkYn536I9ycWwE2as=
+
+%URL%
+https://eid.belgium.be/
+
+%LICENSE%
+LGPL3
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1694646486
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+gtk3
+libproxy
+curl
+libbsd
+
+%OPTDEPENDS%
+firefox: Extension for Belgian eid
+acsccid: ACS CCID smart card readers
+ccid: Needed for Belgian Digipass 870
+pcsc-tools: PC/SC smartcard tools
+
+%MAKEDEPENDS%
+pcsclite
+

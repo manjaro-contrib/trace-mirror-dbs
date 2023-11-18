@@ -1,0 +1,83 @@
+%FILENAME%
+python-httpx-0.25.1-1-any.pkg.tar.xz
+
+%NAME%
+python-httpx
+
+%BASE%
+python-httpx
+
+%VERSION%
+0.25.1-1
+
+%DESC%
+A next generation HTTP client for Python
+
+%CSIZE%
+163252
+
+%ISIZE%
+1099337
+
+%MD5SUM%
+d410c1dd4c5bc332649b461aa265bbf9
+
+%SHA256SUM%
+a29fbc364cb39c86861480d896929c1a95c3d7368eb23a44fa2b073a5e32ab08
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmVKNbUACgkQdxk/FSvb5qbdzA//az1ot9y/Jg9Tjegljcz0sfpfD0j/y8NqzHamBF8B7+fWU3hXrtN1QALCOgVBLjbKNM+iGGc8W+C2haWNudLY76Pdn9IDlk2cHB6bkE5rEk2qeiObDJy46DxLF7GT+4fiDlAtEpzZPaFIPnX4fWaPQM3X/Gsdg0o7h/oV+nm/jamAqSHzmTuF+iCbb6Fi1MkbLxKX9JUCzKSKz9ot8FJtOSSAnNCIYnuW9pPC/zgWtjnmcDQWfNglOu2ab0RiR50HabTPiCwySOk+Hxr9GM4erHdov4ixqBETuLPhgonmG7vN2W5+7Xz+CFPgcGyJPfe0RFVshM5UyINlgbt8WkRgmmR1RHHcunfTo4PLYak44gbY+p6TbRUzOXgrrW2uStaY2wsQdRPyVkdixfz08weW1LhmMPe5sc4KCagYJu1CnGjH6L122Inps4op1YVkMFH/owci2ImnnhEadMFl6eSZo8Z9yTlLV1gtxHIBEG3X8E2OF0qDalfZKMJpqOBbzHcfZJ39d45WvuDtk2n7kM9/SU6OIW21K8EKVKNoytbz8PIyuHwuttfoBrX7iPY21m73+hQH+/ZqcWhLNcufnRY9q+tD1uYfpf6RLN1nyZTT0D6o6FK0TwHd9e8PTa/Q0NThzA6KX9ZoHiIGadkA76x4p+6FXq5zWAosugK8M+P1zxU=
+
+%URL%
+https://github.com/encode/httpx
+
+%LICENSE%
+BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1699362217
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-certifi
+python-httpcore
+python-idna
+python-sniffio
+python-anyio
+
+%OPTDEPENDS%
+python-brotli: for brotli response decompression
+python-brotlicffi: for brotli response decompression
+python-h2: HTTP/2 support
+python-socksio: SOCKS proxy support
+python-click: command line client support
+python-rich: command line client support
+python-pygments: command line client support
+python-trio: alternative async library
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-hatchling
+python-hatch-fancy-pypi-readme
+python-pygments
+
+%CHECKDEPENDS%
+python-pytest-asyncio
+python-pytest-trio
+python-typing_extensions
+python-brotli
+python-brotlicffi
+python-h2
+python-trustme
+uvicorn
+python-socksio
+python-rich
+python-chardet
+

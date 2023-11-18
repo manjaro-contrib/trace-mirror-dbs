@@ -1,0 +1,64 @@
+%FILENAME%
+wimlib-1.14.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+wimlib
+
+%BASE%
+wimlib
+
+%VERSION%
+1.14.3-1
+
+%DESC%
+A library and program to extract, create, and modify WIM files
+
+%CSIZE%
+349447
+
+%ISIZE%
+863359
+
+%MD5SUM%
+9e06df1c396356d8415cc6bd67f71c80
+
+%SHA256SUM%
+546768c1352fbbcae2b2c52a6f295aa32602358424dff8c14983f633dad4d42a
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCZP+dpwAKCRDglZ/qi1UFOaK+AQC9FzROK4SAjdE3mg1PA6zBYQGKLy6OyoSKPYDk2thylwEA5Pb/yc7TExd8/1lKiUwzpuAJ5yNJthCDESclNS1V3wU=
+
+%URL%
+https://wimlib.net
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1694473551
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%PROVIDES%
+libwim.so=15-64
+
+%DEPENDS%
+fuse3
+ntfs-3g
+
+%OPTDEPENDS%
+cdrkit: for making ISO image of Windows PE
+mtools: for making disk image of Windows PE
+syslinux: for making disk image of Windows PE
+cabextract: for extracting Windows PE from the WAIK
+
+%MAKEDEPENDS%
+git
+
+%CHECKDEPENDS%
+attr
+

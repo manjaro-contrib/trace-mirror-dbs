@@ -1,0 +1,97 @@
+%FILENAME%
+gnome-shell-1:45.0+r17+gebf2f8036-1-aarch64.pkg.tar.xz
+
+%NAME%
+gnome-shell
+
+%BASE%
+gnome-shell
+
+%VERSION%
+1:45.0+r17+gebf2f8036-1
+
+%DESC%
+Next generation desktop shell
+
+%GROUPS%
+gnome
+
+%CSIZE%
+1642104
+
+%ISIZE%
+14814308
+
+%MD5SUM%
+3bf86ddd82a9d21e8266178e2f090c1c
+
+%SHA256SUM%
+c02ddb0a2cfc95495d3db51eb55f8441a29c5bd88464718bc48313a6267d8afa
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmUtDekACgkQdxk/FSvb5qYL5BAAnVc9gpOJkXMQjXc9ployaFVy2S/HOnXvFiveXazv/hCTjainVnTXkBuuY594UMJuQlAhMzQKoXztNYIAQdK1HSF0fTK7imzzdlkgJ6j3tNlwaNGZlIoFn7TIDRwAzfLTz3QL6kwnvloCntUrV0KOhVA/n0UUQd1FmFsjmbE3BP/ch6lVWDvI5PlPvgxeyJLAXlnNwEvEJal6ACbAq0NzY7NnGa30LcnnlLTqeNTJwZ5gb7Z9wn7xoKC6DU1mOJgNy15eAMdVzqySUd6QrZDqOPWv0c8dgb+gu1DZenV2+5m0CY/L/jsFW1s7HFa4tebqWmYRwKDNMCy+wW3QVMiMKaKcvOsWkVJKZdHOx31nA7XusMPUQLE9GpebCfroV5gnmIJ9yjyyRwVaLtOgV9gg07cgzm6FfwFICHgg/F1usykARHIAgovt3w9dlh9HYuT+47GERJ7QmQcsUb9xwYR0pfWLGZ/gmdyaPD8lrp1OPNMd88aWyvu8CQUV7nA0kDsQTMO+bOXOJdm+NLTfm2uOyY3WzBOfmbu8CC9Eu1GwUsymgcB/uaEixxyoYhF1+5KiA9J83qSyq33Dvv+qkfGO/ySkA7+adWLO6SlSLzi480ZLSIBKYZjMV2pjplBLcE9HwTAkO7m+7zTlY42DMTZmVAPPWE2JMZ7ZArukueDga04=
+
+%URL%
+https://wiki.gnome.org/Projects/GnomeShell
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1697451378
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+accountsservice
+gcr-4
+gjs
+gnome-autoar
+gnome-session
+gnome-settings-daemon
+gsettings-desktop-schemas
+gtk4
+libadwaita
+libcanberra-pulse
+libgdm
+libgweather-4
+libibus
+libnma-gtk4
+libsecret
+libsoup3
+mutter
+unzip
+upower
+libmutter-13.so=0-64
+
+%OPTDEPENDS%
+evolution-data-server: Evolution calendar integration
+gnome-bluetooth-3.0: Bluetooth support
+gnome-control-center: System settings
+gnome-disk-utility: Mount with keyfiles
+gst-plugin-pipewire: Screen recording
+gst-plugins-good: Screen recording
+power-profiles-daemon: Power profile switching
+python-gobject: gnome-shell-test-tool performance tester
+switcheroo-control: Multi-GPU support
+
+%MAKEDEPENDS%
+asciidoc
+bash-completion
+evolution-data-server
+git
+gnome-control-center
+gobject-introspection
+gtk-doc
+meson
+sassc
+
+%CHECKDEPENDS%
+appstream-glib
+python-dbusmock
+xorg-server-xvfb
+

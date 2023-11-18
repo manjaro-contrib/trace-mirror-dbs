@@ -1,0 +1,63 @@
+%FILENAME%
+clang15-15.0.7-2-x86_64.pkg.tar.zst
+
+%NAME%
+clang15
+
+%BASE%
+clang15
+
+%VERSION%
+15.0.7-2
+
+%DESC%
+C language family frontend for LLVM 15
+
+%CSIZE%
+30217016
+
+%ISIZE%
+137285375
+
+%MD5SUM%
+84bd081d4f1a23ab0c09c894735ec677
+
+%SHA256SUM%
+3f15f1b1e5fbc5b9a6ac1d7c1baee01d6a7a8b389331ba995b54c44afa911111
+
+%PGPSIG%
+iQEzBAABCAAdFiEEhs/8qRjPOvRxR1iAUeixSKmZnDQFAmUNxqAACgkQUeixSKmZnDT5sgf+KVbwLMOmigzUOhGibZ+gZoQVRUQZfPEc85KsB2a76+x3m/nN9iZYxkNyMdw5RVDHyhLXbAQOsS6W8EpQk/zYYD2zEEu26rMy8bVHI5rrN1vjoDpOBVLXPfU0SCqSUfo33XzD+l/liPgjTO5y5vwprHdtJcR10f3W01IU9oj1fczvBIVyImAdqAsDQ5OF5hVolSSRetH35Qfn7MIdLMIzmQEtObXSBMBvHIlhu9Dwd0eD0BDmcXUqfqwu46Fk8us64njbWbGagaK1QrT23NNToDCQfhr+EhXT+hQDpSS3Q6aSub47kYLAE4V1U68pA/pvBioDhWLwXZkooGBXOloztQ==
+
+%URL%
+https://clang.llvm.org/
+
+%LICENSE%
+custom:Apache 2.0 with LLVM Exception
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1695400754
+
+%PACKAGER%
+Evangelos Foutras <foutrelis@archlinux.org>
+
+%DEPENDS%
+llvm15-libs
+gcc
+compiler-rt15
+
+%OPTDEPENDS%
+openmp: OpenMP support in clang with -fopenmp
+llvm15: referenced by some clang headers
+
+%MAKEDEPENDS%
+llvm15
+cmake
+ninja
+python
+
+%CHECKDEPENDS%
+llvm
+

@@ -1,0 +1,84 @@
+%FILENAME%
+remmina-1:1.4.33-3-aarch64.pkg.tar.xz
+
+%NAME%
+remmina
+
+%BASE%
+remmina
+
+%VERSION%
+1:1.4.33-3
+
+%DESC%
+remote desktop client written in GTK+
+
+%CSIZE%
+1000884
+
+%ISIZE%
+5134604
+
+%MD5SUM%
+65a9073961d7a88a5319605c0e63074c
+
+%SHA256SUM%
+e702f0def255f78532641ed56de2e4a648751c50607e290f5cbd21687e88d765
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmUqzR0ACgkQdxk/FSvb5qacwhAAgSMw+/Nl3Uw3vfrU+57iDUMxZ9B2CHLE0p0u9lrstBE2ZurE62zJv68pmzkexaruosVVPVNu1BDZKUX0VGAN9ktldoTj5zLdoUISS49wfNC4h109YdrEc54fnZ+S8/IRfSWHOkdEK00ZkCZs/4EkgNTrrxc1UvwC1VDf5h7wScn1UyXdLwF/qbD1p/1zxHzPnOcDq2TGRFV+hzQjwMYlVkIeyryDUl2O9W8P9q+CNnYH2qBgObefWODEu/aWlwnSisgSjwEupHWnN8njqK0a+Njxl/j5o49HK7Dpuzakl4+PDFxHQRWrmkkx0+txrW5JUQDppwz5Cs0mQO6Lm/64jOy5CeJX6mixxf8lmVNc0v1vtI9UuBfw3I38e8eh2kyxXPja2+RHUPaIREUGSkUhqgGqklYO5+quyctdDvpDhLhEjIefotlgQeGAQ6yh7xI0VrY/NZDZqCPvAi+OYwzGemff3csqBN+SpewqlGe1PuF16frov7/38LMLhnY/k9hFFVHxyiQlJ42UwPLWNcrzN7pX7/PbMjcLo3ISZf6h6bd/dsHiKWIfZov1KPsKLeoWUmveXI7g2BAgt2W+JsqaRAZNBJE1jrbY25X1VYTp2eq7/BLNlJ8RR6ZZOJls47CJaPApV80cDm3XdwKmOGXnq+jlr54Mff5eSlXA+MZO4A8=
+
+%URL%
+https://www.remmina.org/
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1697303737
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%REPLACES%
+remmina-plugins
+
+%PROVIDES%
+remmina-plugins
+
+%DEPENDS%
+avahi
+libgcrypt
+libssh
+vte3
+libsodium
+libayatana-appindicator
+libsoup3
+
+%OPTDEPENDS%
+freerdp: RDP plugin
+libsecret: Secret plugin
+libvncserver: VNC plugin
+spice-gtk: Spice plugin
+webkit2gtk-4.1: WWW plugin
+gtk-vnc: GVNC plugin
+kwallet5: kwallet plugin
+gnome-terminal: external tools
+
+%MAKEDEPENDS%
+cmake
+freerdp
+libvncserver
+spice-gtk
+spice-protocol
+harfbuzz
+xorgproto
+gobject-introspection
+kwallet5
+webkit2gtk-4.1
+gtk-vnc
+ninja
+

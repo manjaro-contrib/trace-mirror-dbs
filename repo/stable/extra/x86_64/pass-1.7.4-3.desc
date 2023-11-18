@@ -1,0 +1,74 @@
+%FILENAME%
+pass-1.7.4-3-any.pkg.tar.zst
+
+%NAME%
+pass
+
+%BASE%
+pass
+
+%VERSION%
+1.7.4-3
+
+%DESC%
+Stores, retrieves, generates, and synchronizes passwords securely
+
+%CSIZE%
+20616
+
+%ISIZE%
+47704
+
+%MD5SUM%
+0ebc34734cf8e80de9d7a7207afc09c3
+
+%SHA256SUM%
+8156df505082f51787f057cbc9662a478550e8bd5f9fe3f7f75f98bd59dd4b8c
+
+%PGPSIG%
+iHUEABYKAB0WIQQ1uuG/mmsxcCHmkMJufOCwo22irgUCYuQZBAAKCRBufOCwo22irtlUAQCY2v/75cHicoIKez4P5NHTurvkdm77RbXz7veDrDsayAEAyrb7JJ0Q3hjT9MpZk/1F69kA7G2M2Frk7+MppBgNvw4=
+
+%URL%
+https://www.passwordstore.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1659115705
+
+%PACKAGER%
+Brett Cornwall <brett@i--b.com>
+
+%REPLACES%
+passmenu
+
+%CONFLICTS%
+passmenu
+
+%PROVIDES%
+passmenu
+
+%DEPENDS%
+bash
+gnupg
+tree
+
+%OPTDEPENDS%
+git: for Git support
+dmenu: for passmenu
+xdotool: to type passwords with passmenu
+qrencode: for QR code support
+vim-plugin-runtime: for redact_pass.vim
+xclip: for clipboard support on X11
+wl-clipboard: for clipboard support on Wayland
+
+%MAKEDEPENDS%
+git
+
+%CHECKDEPENDS%
+git
+

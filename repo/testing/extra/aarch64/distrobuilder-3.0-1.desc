@@ -1,0 +1,65 @@
+%FILENAME%
+distrobuilder-3.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+distrobuilder
+
+%BASE%
+distrobuilder
+
+%VERSION%
+3.0-1
+
+%DESC%
+System container image builder for Incus and LXC
+
+%CSIZE%
+4222736
+
+%ISIZE%
+17160872
+
+%MD5SUM%
+3d86a42838425d2841455a301f8cdf16
+
+%SHA256SUM%
+71112f08cc2c4095dbaa61274223b4b2013e61bffc4f5018b2137f592152709f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmVQMtsACgkQdxk/FSvb5qYGcw//XH6nWB9sVkSY0p8j9NzrZFq8xRa+feutHhWUB1yzOFo4obHvjqDdVytg7m9foDrNhHEZuvqP5ds4RJijQBXYRPDj1uV4KNnTzyXIOLi1okxCPoM+Bwc0vUk8nML/YO7n+Y8ACAEOCWzeIEIvJ4CYXlY0jsYeDHofAVOYEeGFO6JpA4gMOCpW7aSSJtkI18R70EdlLEp6INmmhjpwatRZa2f+AdHq55Q+4G+EJWIgoJ/A4sMUjXCwSWeF5z1ekmfS0SJ9YGVcRsvGXkpCxf33QuOF1IrQSECuY2BMx4VvbBxT2zhj3cXFnr9jcixql5Y/I1mx3AS2hmes7pxjYUTADEQkoH/RkT5ozIwmaNcQ9dULuK6CyW0Ab0k0QLAJ3FwQOA0Ea9sJamBjE61clOWKQR8oy8go2wwzlc32b9bmtWPpLWo280Dr0dCNu8cuJpsW3i+glglSSOTQFtRvkpt3OGpoKM4Hb7umAwHBMflZOQQDTAto8nHRpCRhNVEbug7TAWQV6dZyzItmeNqU5zWAOOqMVEC0+XWkVDLm4LxA5IP3YHlbzD+j5pqgrzBPIgQRPPDV4o7OwCZWaFXrWjulgfAjHCyMW3eV0g2X7S6foavazNZPd+21eVDgl5s9sGWbv5hHwdtSdpws3zbVM9UfZHka8zsnpQlL4DmvJW5/lYc=
+
+%URL%
+https://linuxcontainers.org/distrobuilder/
+
+%LICENSE%
+Apache
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1699754621
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+rsync
+squashfs-tools
+gnupg
+debootstrap
+dosfstools
+gptfdisk
+qemu-img
+e2fsprogs
+btrfs-progs
+
+%OPTDEPENDS%
+cdrtools: for repack-windows command
+hivex: for repack-windows command
+wimlib: for repack-windows command
+
+%MAKEDEPENDS%
+go
+git
+

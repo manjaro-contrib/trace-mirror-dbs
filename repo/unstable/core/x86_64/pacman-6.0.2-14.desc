@@ -1,0 +1,86 @@
+%FILENAME%
+pacman-6.0.2-14-x86_64.pkg.tar.zst
+
+%NAME%
+pacman
+
+%BASE%
+pacman
+
+%VERSION%
+6.0.2-14
+
+%DESC%
+A library-based package manager with dependency support
+
+%CSIZE%
+1211355
+
+%ISIZE%
+5077016
+
+%MD5SUM%
+253561fdc8208bf004e2c45a79681ee9
+
+%SHA256SUM%
+b45d2abd2c42f2ecab5a76ee59c856995f84aef8048d85414323260a96746f2d
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUTdSAACgkQFQwgB0PtRtj2gggArUUa/PgnelMyN/8UMC8g43tqgCRSKFauUsNRbDTQJUbdrNmniaYMPjSNQ7jI5AzZsr//N/wZR1n8s0Qedy2+IcLowkochQhKb5VBItesImNARe5HM0fF8V3GO9RI9jWYh4WnA5XNmjvi5yXnLyjSsJLhcVVV1aoy7pAWXp5zy9ByAy7wKn27eXS70OKe6X4XPfFB5fUvc+Qil0r0b5UmTDVhRk7/unByCv4O2sWD1C5wHsnnb/Bvajk2+iAb6GjjcwaYQ+Ss5lSzH2NuWP15BM/vzEQwVbJKOhb8wlBlb2vgI9C2phik89bnb9m1UO5EktrSZ0I0h4uOFAYllgKtEg==
+
+%URL%
+https://www.archlinux.org/pacman/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1695773774
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%CONFLICTS%
+pacman-contrib
+
+%PROVIDES%
+libalpm.so=13-64
+pacman-contrib
+
+%DEPENDS%
+bash
+glibc
+libarchive
+curl
+gpgme
+gettext
+gawk
+coreutils
+gnupg
+grep
+fakeroot
+perl
+pacman-mirrors
+
+%OPTDEPENDS%
+perl-locale-gettext: translation support in makepkg-template
+diffutils: for pacdiff
+findutils: for pacdiff --find
+mlocate: for pacdiff --locate
+sudo: privilege elevation for several scripts
+vim: default merge program for pacdiff
+haveged: for pacman-init.service
+
+%MAKEDEPENDS%
+meson
+asciidoc
+doxygen
+git
+
+%CHECKDEPENDS%
+python
+fakechroot
+

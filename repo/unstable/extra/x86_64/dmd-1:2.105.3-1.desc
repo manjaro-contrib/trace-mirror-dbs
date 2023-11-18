@@ -1,0 +1,65 @@
+%FILENAME%
+dmd-1:2.105.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+dmd
+
+%BASE%
+dmd
+
+%VERSION%
+1:2.105.3-1
+
+%DESC%
+The D programming language reference compiler
+
+%GROUPS%
+dlang
+dlang-dmd
+
+%CSIZE%
+1919496
+
+%ISIZE%
+6546350
+
+%MD5SUM%
+77d5f7703fe0bb8ae463cdd2e2347bbe
+
+%SHA256SUM%
+387af114e1bf4ea3f602b4b763a03e0ae92ac11921cbc978b98220824a7851cc
+
+%PGPSIG%
+iHUEABYKAB0WIQRgk55V9tWr9+5BnwixodPF8t+bxQUCZU/jhwAKCRCxodPF8t+bxeDHAQCdhDNHhrwrAvGjH4kt0Jsy2OxE6axS0MIslhBtuInBdgEAvB0iNvfXukBw2u/bI3akOoY+mad67l1jiXVZVYNwYg4=
+
+%URL%
+https://www.dlang.org
+
+%LICENSE%
+Boost
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1699734106
+
+%PACKAGER%
+Dan Printzell <wild@archlinux.org>
+
+%PROVIDES%
+d-compiler=2.105.3
+
+%DEPENDS%
+gcc
+libphobos
+
+%OPTDEPENDS%
+dtools: collection of useful utilities for development in D
+gcc-multilib: to cross-compile 32-bit applications
+dmd-docs: documentation and sample code for D
+
+%MAKEDEPENDS%
+git
+ldc
+
