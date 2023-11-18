@@ -1,5 +1,5 @@
 %FILENAME%
-kodi-tools-texturepacker-20.2-4-aarch64.pkg.tar.zst
+kodi-tools-texturepacker-20.2-5-aarch64.pkg.tar.zst
 
 %NAME%
 kodi-tools-texturepacker
@@ -8,25 +8,25 @@ kodi-tools-texturepacker
 kodi
 
 %VERSION%
-20.2-4
+20.2-5
 
 %DESC%
 Kodi Texturepacker tool
 
 %CSIZE%
-41549
+41584
 
 %ISIZE%
 133544
 
 %MD5SUM%
-1868bc2d623dd5f469d577bcb0dcd67e
+8a4a633b3eb4a0bb3cd5a043e345e8ac
 
 %SHA256SUM%
-aa65c38af5ed7dcea8da929f390a8c3f7175020f8b7d93c7d36bd5570d03153e
+ec3a3972ca38977dbf984fd643d217b537ef60102b50c089ed34798f6773a379
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmVBj9cACgkQHzWBGKB6z1f+aAgAl/vIO4EKuF0VMTiHm0+BGOZal7mDWCF5VmMbQI8cfmO84oQcdiOlW7iDTOSJi7R34GXVcYgl2rFamXd/swzoRFvw+bHZ4COYpV1vwebS6OHS2gtWmjFRVKJZpT0iWKwqh6TtLAv41aoI7rxiQ/qw0lP4MyWohWRYCNfSe49Iq3AhFUT7/zsTIfJhkXA+0WUr7L0V/I6mqmzcdeZomvaNLMhHsjTdqTa7I3Ywin2IpS877wsxNJBMuGr9Mgcp50GDZ9SOu30tpzSsCi0IZTK3Kgbmsh7BB3lw/sEEgzb3zZHrgzYekAkkY1r/x21SLGsOm1oNlWD5eE4q/3Yi5p0ayQ==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmVYvEsACgkQHzWBGKB6z1dRswf/RLGv1Uzqm2Ovgi2NAxqo0hqy9VdBBUOhGclyBV0VMAjK8+lqgF46OLpo9AlZLJSRU4nvlw/dvHKCqHg7wamDwUVCbzLQ0pJc5M8o4c+5f1loqMEkx2MjMdJ6Z6nMFZJGqZCADhZHalQAuLBVgl5KT3peHjbzJiBsAS35xAlFAjF0j9wOcdlYh46d/YvkcAmAS3sf94x44VIRVPYj7SmplMPv5XJrtnZmnkyzcCNcD7LdYDpCLUjTbKnwSgqaBvfAXXcTi+JB48F4nWeDIrJZQPqdtvzBwhA0kQz1xjCF2VPpPLTo17vTC1uWdsD4In6Y3yIgHOGeFYEIJs6HGHUxYQ==
 
 %URL%
 https://kodi.tv
@@ -38,10 +38,18 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1698794118
+1700312112
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
+
+%REPLACES%
+kodi-aml-tools-texturepacker
+kodi-rk-tools-texturepacker
+
+%CONFLICTS%
+kodi-rpi-tools-texturepacker
+kodi-rpi-git-tools-texturepacker
 
 %DEPENDS%
 libpng

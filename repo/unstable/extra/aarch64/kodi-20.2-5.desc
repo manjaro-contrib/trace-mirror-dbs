@@ -1,5 +1,5 @@
 %FILENAME%
-kodi-20.2-4-aarch64.pkg.tar.zst
+kodi-20.2-5-aarch64.pkg.tar.zst
 
 %NAME%
 kodi
@@ -8,25 +8,25 @@ kodi
 kodi
 
 %VERSION%
-20.2-4
+20.2-5
 
 %DESC%
 A software media player and entertainment hub for digital media
 
 %CSIZE%
-43492228
+43492826
 
 %ISIZE%
 89445054
 
 %MD5SUM%
-2d7f39ae35465eca7ba8c9e14f6b6eb2
+b6164f52a27693b4b90608f3fa68f605
 
 %SHA256SUM%
-1149df9743e0d270ef91b6ca7dc427f3ba00c23bccaeba7899ef3c51932d78bd
+1443e04ef5424e096f55395121623f8dcffce48d429dbe429cadeaf4689adbac
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmVBj+UACgkQHzWBGKB6z1eaTggA1sHAoiNvjjUrY0/GwlPufuj+UPZ6Y4s0ajXwtNNoN9nv//X4uAPL7pnEOA9JUl0VuHfarg1nzfBH5heEBBTe0WUa5rQxg8VrFeiRMbI+SvEHbo6oc5zJ/KfiqRopRKtzp74JID0XX+nnGEqU+jn5r1HUPU3oj5rcsVwRLTdSHMrjJ6MEy2j96lJnK27qxT16avQNXhGIHsfE6QntkGDk3qMoauPYrbVvE+hhcWYI5UAl8z1+tfWWY2TvmQLUp3/2UGo1lKdPymZIDNZJoLjOZevfdG4vwbsgO/fzKsfhSOgPjFmSbXukOrDj4G3M9NfZSF7VG+cZyXBBtu07U/mZhQ==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmVYvFQACgkQHzWBGKB6z1dL2wf/WDsBPXbQYjr2FtiTwtX1Wvuzmlo48wMGLjtmRDTNUjk13f/sYHoiDeMA9BieA6thmBhAWDajeJwnWEN5G12bca6bc8JETlpolte4sCJd1aUVUVg3OHBB+CjJvDKK4rFvF8fn0clhLYJkxo+BbtQVoSvBC/+1cOheO7yGGPlLkeQB1gf+V/l0/QUHolJaDyYpgrl7NRrCZGQ9vIwjfGIU0sqS2wjJCerxs4zOo08Wh7k7dmqrCfSbTBOvUBxu9TcYiVKAU3fDmoVZr2zbdUoIZvbcTti+G6HIKAdc3rGICFq10z8a4NGaGi7VkXPV7fpabUXp5DDsbomnyTi+Xfyxhw==
 
 %URL%
 https://kodi.tv
@@ -38,16 +38,18 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1698794118
+1700312112
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
 
 %REPLACES%
-kodi-common
-kodi-x11
-kodi-wayland
-kodi-gbm
+kodi-aml
+kodi-rk
+
+%CONFLICTS%
+kodi-rpi
+kodi-rpi-git
 
 %PROVIDES%
 kodi-common
@@ -75,6 +77,7 @@ libva
 libvdpau
 libxslt
 lirc
+lzo
 mariadb-libs
 mesa
 libpipewire

@@ -1,5 +1,5 @@
 %FILENAME%
-kodi-eventclients-20.2-4-aarch64.pkg.tar.zst
+kodi-eventclients-20.2-5-aarch64.pkg.tar.zst
 
 %NAME%
 kodi-eventclients
@@ -8,25 +8,25 @@ kodi-eventclients
 kodi
 
 %VERSION%
-20.2-4
+20.2-5
 
 %DESC%
 Kodi Event Clients
 
 %CSIZE%
-32802
+32829
 
 %ISIZE%
 77954
 
 %MD5SUM%
-987e18221d0be295fe57e5ab370ae0e6
+deb0d4f6e68343496ad5babc1a3f98be
 
 %SHA256SUM%
-2a6a09b8158ee91a28db200523297a80f194b86d0d3f0faecfde18523811e4d9
+a5684925d5c3ea18bc0ab3edb521eb169564e7c618eef8e4caf99311913061ab
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmVBj+QACgkQHzWBGKB6z1cLOgf+IbMCPnwM9yH1zylZ3B8vHEi11QVhL9dG139Zzs8ardUpcxdiH9s9CvJCZXRUt9hhPKSfd+RTiQ7T/OHsACguIF+hgCYQhI9EslqwsXHLzcY6qWgF/N2aRtkGRTr3Izpi0W8OdPhT1Fv2RiDLWidRg1k4/U3Ccw2yDiPbfrNnQpvtvl8EwEOJrsxm90X0gcNM5Y01pjGHVj42LmDCu5jl2hevGNNBUV53jcAuEzOI1Knj4kWfOdeDpFdWtWktsbThhJBCwBMOAA+O2JhGz1xhgqdsvtAiPXQrEAyCdx4/mK1u77m6prQQX/bajoX8GZeWTQuxBQkqktmIaw3q/6KOiQ==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmVYvFQACgkQHzWBGKB6z1dBQQf+NCnU6xARZqOkr8cFYZe6/xfZWELj/hlKyPgMGzU6h56BN8Omy+E6LWlAHR9shVSRjfRqZgjUbT3BWMXpGCoAKhzlhkk3jJr6dfK4XjpKV/ofUFdaa0t87++33M03dW0SJHBTYosbQX+4sK2c13MDjKl3CMNUzN3A4I8bG/1+W3mq5vkRt8WZ7sSORxoKW8SxDhRTMrmmJM0ZNpZta5Bp77xUAGVKthK3KXNynxuoyRY4CavORSZvDTOabti9e1+KjyGFItu4K3LC7aCS6f7XMDGpd3IGxi72oK1Gcb6Nd3n78sOOkSg+1PsEQdX/Dw082u2ecKwZQV9KgKV1U7FlFQ==
 
 %URL%
 https://kodi.tv
@@ -38,10 +38,18 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1698794118
+1700312112
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
+
+%REPLACES%
+kodi-aml-eventclients
+kodi-rk-eventclients
+
+%CONFLICTS%
+kodi-rpi-eventclients
+kodi-rpi-git-eventclients
 
 %OPTDEPENDS%
 kodi: local machine eventclient use
