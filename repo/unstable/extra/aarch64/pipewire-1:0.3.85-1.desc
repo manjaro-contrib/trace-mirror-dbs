@@ -1,0 +1,119 @@
+%FILENAME%
+pipewire-1:0.3.85-1-aarch64.pkg.tar.xz
+
+%NAME%
+pipewire
+
+%BASE%
+pipewire
+
+%VERSION%
+1:0.3.85-1
+
+%DESC%
+Low-latency audio/video router and processor
+
+%CSIZE%
+560428
+
+%ISIZE%
+3445047
+
+%MD5SUM%
+18c76c0083e7fe6f8dd4bdf5925329d0
+
+%SHA256SUM%
+63bbfb350f4b896068290605b6758d432d2478d88cc8650af75d4c069444d7c9
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmVWKU0ACgkQdxk/FSvb5qbtaQ/8Cx+ZxjMeQTnzYpWH1xVKouHBZGZTjb0yQV5yjwb5zDquW0EkelDT7QwsMij4ivYi4znB0sdqO62zc0oHRtzmbeh5+/qfTpmR0RIoI7bE1G+wgsL7DFE3tDJd8SSlHHBFILaQMlcA+q0bnNQ6b8OJ+yaP9SDY/cnJB28DIlcCZLqCbHBp1m3POIEyWX9kFxp8Mgzx0rKdFPp0JUpwzsc82ugpecb+kExl7d/Ph44ACiZc0463IzMlrYl20idfECD6mjILXyj2vxjgOgQjz+8+E0n0aelqpyLrA+wIRPdxg49rmgxA/D1JFzSLlmkQfCexRfUZub5l5fVO8QtA6OtK78xsv+7bh3uKrzwn/BDbIKx/N/KKeslbuDzS0UtD4rgmkiEC3l4wvsm5xgD8BC2BQpSxIt5yQNxq+nNkug4vUZOkbsX+jN8fsVUvyoxpRdWOGsm4n09ds2vskKGM4smarNUF/tvGF+7KqScZUTo9QoM9i/PZRid/ujQyzYz4QLQb1cHUcOuM9p3/js9X4rJ/Scs8I+0wYxqpbvL7XiIj/BHTXZ8MVocdQDVA/PbT6NdJdroImSxq3EoNR9jPXxCvhzYP748tZmZqKn4J6U7gnxu3QKqIFV89RG8vD4ptfROfx5LPRm0r5gsPBBGacJ6xIrHo79mmM4/dx+nX/c8cP2w=
+
+%URL%
+https://pipewire.org
+
+%LICENSE%
+MIT
+LGPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1700145287
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+libpipewire=1:0.3.85-1
+libcamera-base.so=0.1-64
+libcamera.so=0.1-64
+libdbus-1.so=3-64
+libglib-2.0.so=0-64
+libncursesw.so=6-64
+libpipewire-0.3.so=0-64
+libreadline.so=8-64
+libsystemd.so=0-64
+libudev.so=1-64
+
+%OPTDEPENDS%
+gst-plugin-pipewire: GStreamer plugin
+pipewire-alsa: ALSA configuration
+pipewire-audio: Audio support
+pipewire-docs: Documentation
+pipewire-ffado: FireWire support
+pipewire-jack-client: PipeWire as JACK client
+pipewire-jack: JACK replacement
+pipewire-pulse: PulseAudio replacement
+pipewire-roc: ROC streaming
+pipewire-session-manager: Session manager
+pipewire-v4l2: V4L2 interceptor
+pipewire-x11-bell: X11 bell
+pipewire-zeroconf: Zeroconf support
+realtime-privileges: realtime privileges with rt module
+rtkit: realtime privileges with rtkit module
+
+%MAKEDEPENDS%
+alsa-lib
+avahi
+bluez-libs
+dbus
+doxygen
+git
+glib2
+graphviz
+gst-plugins-base
+jack2
+libcamera
+libcanberra
+libfdk-aac
+libffado
+libfreeaptx
+liblc3
+libldac
+libmysofa
+libpulse
+libsndfile
+libusb
+libx11
+libxfixes
+lilv
+meson
+ncurses
+opus
+python-docutils
+readline
+roc-toolkit
+rtkit
+sbc
+sdl2
+systemd
+valgrind
+webrtc-audio-processing-1
+
+%CHECKDEPENDS%
+desktop-file-utils
+openal
+
