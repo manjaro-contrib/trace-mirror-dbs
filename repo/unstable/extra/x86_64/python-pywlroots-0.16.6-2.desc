@@ -1,5 +1,5 @@
 %FILENAME%
-python-pywlroots-0.16.6-1-x86_64.pkg.tar.zst
+python-pywlroots-0.16.6-2-x86_64.pkg.tar.zst
 
 %NAME%
 python-pywlroots
@@ -8,25 +8,25 @@ python-pywlroots
 python-pywlroots
 
 %VERSION%
-0.16.6-1
+0.16.6-2
 
 %DESC%
 Python binding to the wlroots library using cffi
 
 %CSIZE%
-221013
+221037
 
 %ISIZE%
 1716634
 
 %MD5SUM%
-812a5e058b6a0c9247e5803ed3223546
+10a239cf1689337c91fc27445a5d0a4f
 
 %SHA256SUM%
-ab995050832a1880732ab3310c392f6b4e4a7513fec71de4ea39f60955180725
+70d373dc6bb458e7b1d3e23568f80180a4cf93f96724cb587fe96d32782b428f
 
 %PGPSIG%
-iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZSLgywAKCRCbeih9mi7GCNLnAQDWoX7p5kIVWEX+nwoTACT+vxkyNx7ZhzIJoOzkSZRFZwD/aLa53OA7qvLvhujnBOHPphFXAX425b/fUqEd4UiW6QA=
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCZV48BF8UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaClNgAP0bs8FE2T+nSqDlxI2URm/2vqd12VKRAd4SUjk4mjOlvAEAl8RYnE1SmA3mGMG8v926hvPYASa2zixKHZX3Q1SQ8AA=
 
 %URL%
 https://github.com/flacjacket/pywlroots
@@ -38,10 +38,10 @@ NCSA
 x86_64
 
 %BUILDDATE%
-1696784531
+1700674500
 
 %PACKAGER%
-David Runge <dvzrv@archlinux.org>
+Frederik Schwan <freswa@archlinux.org>
 
 %REPLACES%
 pywlroots
@@ -58,7 +58,8 @@ python
 python-cffi
 python-pywayland
 python-xkbcommon
-wlroots
+wlroots0.16
+libwlroots.so=11
 
 %MAKEDEPENDS%
 python-build
