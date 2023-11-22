@@ -1,5 +1,5 @@
 %FILENAME%
-phoc-0.33.0-0-x86_64.pkg.tar.zst
+phoc-0.33.0-0.1-x86_64.pkg.tar.zst
 
 %NAME%
 phoc
@@ -8,25 +8,25 @@ phoc
 phoc
 
 %VERSION%
-0.33.0-0
+0.33.0-0.1
 
 %DESC%
 Wlroots based Wayland compositor for mobile devices
 
 %CSIZE%
-173118
+173165
 
 %ISIZE%
 392245
 
 %MD5SUM%
-ff869f275e5d8562f34db09cc2762525
+b88cc8cd7fba08a5dd4390889fcf502f
 
 %SHA256SUM%
-eb4bff52ae72f8e821a58fc42c851efb62ef2829268f5a98751de8d1dc07ef24
+82260aa6d01fd880b31d81ebe159a5ac1c194cd2c6d52b56b7b93e650ddda827
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmVL1hEACgkQFQwgB0PtRtiRkgf+LdPuU6jQo9uKh/HblIMGkST64E6VJ1yZrZ3xDs/0938Cz56DlSMcs0tVtrVDTKriEEjzuwr3nRAPP3e8j3Bq0Gn9HOtu9u2mdvRJpRLWlncrXJ7pyq1tPwh3cxNcsmV/VmpygZn3IowIXyZ7HjdnNQwpRQgqi7X+FywsLBZ17y43t2K+Ipw8OoGFuscjVB5ncLoDBQ6txcJe/Od19KPUUetx9xAXsk7/sBbTvHAVQwCoW29mLRZ0g20KOFfom2VdZK1/8Co78XCo+cxI1EeY8G0/LHMUesv+Cjs7nSYDcIZKr1JHZ+neP8VtC2/G84adQt+ptojOCknk5J1v5lwuVg==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmVeRrIACgkQFQwgB0PtRthDqAf9EZjvUAVa+wJmkb8tF2y1NA/7WGV1t+kJdJPWXz9w3UQrY0a2voVNX4/8cFLyycsGoBrRKFJBggDVPuTkBVMIcL6d6RLDVX1ogImJ9C59MQ/6yVW+J3coQ3q4Ydu4D36GnYYbNKtlDDuC72ShGfTvViCvugwKGvaA38j324RDkJSJxU/ZeHNVh/3FCKGRRjyUyR9ejK5hB+pEhnxtnTWKLYZU+fyUdN+l2WL7KzkGbHPmtnncHYlvtUU0vSX5af33uvMv17XQVEjG3hl9ywAVaorwjmDEsakAUjpfntxWQpJ7JbG6mo84qFX9rbe/SC/tDM7Q9Ng6VuSkohuwmg0gcQ==
 
 %URL%
 https://gitlab.gnome.org/World/Phosh/phoc
@@ -38,14 +38,14 @@ GPL3
 x86_64
 
 %BUILDDATE%
-1699468429
+1700677217
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
 
 %DEPENDS%
 gnome-desktop
-wlroots
+wlroots0.16
 gsettings-desktop-schemas
 pixman
 libinput
@@ -56,6 +56,7 @@ glib2
 dconf
 cairo
 wayland
+libwlroots.so=11
 
 %OPTDEPENDS%
 xorg-wayland: run X clients under phoc
