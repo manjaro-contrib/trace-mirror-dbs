@@ -1,0 +1,105 @@
+%FILENAME%
+qtile-0.23.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+qtile
+
+%BASE%
+qtile
+
+%VERSION%
+0.23.0-2
+
+%DESC%
+A full-featured, pure-Python tiling window manager
+
+%CSIZE%
+882272
+
+%ISIZE%
+5768962
+
+%MD5SUM%
+5c0fba07d672d40e2692d97b615623ed
+
+%SHA256SUM%
+1827b17286f5e8842e52e3d61ae2fa8021ff74aba1fb1443ec665ef0574d57a3
+
+%PGPSIG%
+iNQEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCZV5DdV8UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCq6yAPiuqs3DMKgrf+7pcOcBt8l+5gyWEGXoh5sVliOpRBNeAP0fDdBsnhi76/Bfz8VwY7UJmMJboZR16p+vF+y0cjPYDg==
+
+%URL%
+http://www.qtile.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1700674753
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%DEPENDS%
+gdk-pixbuf2
+glibc
+libnotify
+librsvg
+pango
+python
+python-cairocffi
+python-cffi
+python-gobject
+python-pywlroots
+python-xcffib
+wlroots0.16
+libwlroots.so=11
+
+%OPTDEPENDS%
+alsa-utils: for volume widget
+canto-daemon: for canto widget
+cmus: for cmus widget
+jupyter_console: for interaction with qtile via Jupyter
+khal: for khal_calendar widget
+libinput: for Wayland backend
+libpulse: for pulse_volume and pulseaudio_ffi widget
+lm_sensors: for sensors widget
+moc: for moc widget
+python-bowler: for migrating configuration files
+python-dbus-next: for utils, notifications and several widgets
+python-iwlib: for wlan widget
+python-keyring: for imapwidget widget
+python-mpd2: mpd2widget widget
+python-psutil: graph, net and memory widget
+python-pywlroots: for Wayland backend
+python-setproctitle: change process name to qtile
+python-xdg: launchbar widget
+xorg-xwayland: for XWayland support
+
+%MAKEDEPENDS%
+git
+libpulse
+python-build
+python-installer
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+graphviz
+gtk3
+imagemagick
+lm_sensors
+procps-ng
+python-bowler
+python-dbus-next
+python-gobject
+python-pytest
+python-xdg
+xorg-server-xephyr
+xorg-server-xvfb
+xorg-xrandr
+xorg-xwayland
+
