@@ -1,5 +1,5 @@
 %FILENAME%
-qtcreator-11.0.3-2-x86_64.pkg.tar.zst
+qtcreator-12.0.0-1-x86_64.pkg.tar.zst
 
 %NAME%
 qtcreator
@@ -8,25 +8,25 @@ qtcreator
 qtcreator
 
 %VERSION%
-11.0.3-2
+12.0.0-1
 
 %DESC%
 Lightweight, cross-platform integrated development environment
 
 %CSIZE%
-37314814
+38612326
 
 %ISIZE%
-120091676
+123741150
 
 %MD5SUM%
-da4a4072bdea5767ae85e54f555ea068
+94e8ead33af4ad26e0dc7380d5838f54
 
 %SHA256SUM%
-680cc2e44e1821109feeafeb4a6edfdfff459c47e356f50900c7d16c22b9ae39
+2c616bb7aba39ea3a592a94ba1bf69b25c2bf170aee725516fd8b66c4621aa58
 
 %PGPSIG%
-iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmUlPpIACgkQek52CV2KUuRQ6Af/Z/V0o0KdHcnbOUWxqyBs1HV+Ehz4ud5Z6SZTa9WrU/drHCvXgnMOLtaDGliOVj2ZQkEp07DxAMwjnM1ZMgeNlmOaTxa8wVD/xi1yo37yCXfkSaJxaMdkIQtXuuLuaHg85ZDa2LzoaT6H9U6R4iLTuRv4AkqKZPa+LAKeQLyeDs2iQLIf4qK9wrbXY74TznnMMbqgYIA2/ELtsMgP8wgz8H6WnesUW1ZK5ktAhp/cAwdJb4Z5yJPbKJgfo/CSPeT7VmtwJFL5GUBgrG96S69spTo1UIk45VQ0cN/jMd40zVF0x/2/Mk27ymBA6gjmhxodFqqM8WbM1R1axBi5XoupAw==
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmVf0mEACgkQek52CV2KUuQ5Dwf9HkrK0CPuUeunrf/2G9XmRxDRS42iRK7uFILuzBwhaH0LYkHsnydqhde3VBIX4mWxZwHQAOmjjJ7Mbij5rg+onDw/0bsiQG7Qbp4QDzoH6B4hkEM6m1Bq7XXG/3ewizDB7NWnwtP6YeLejnxgllbHkLoGcnjwKhHZIf5ds4eiE/Lle87JHCAp77jIVHqeA1+Mhph0/W3nPKLddRyCYyaJYPlATLn/krBlt7914hjtIaSggLsg06AkgR8zylw4zObuCSv8Y0ZqLcp3ArPXrd6fjjfrOcmwRxb9FmfZx2bK6intFqjJJcPl0e+NVNMuc5+nOXpmZsv3dI5vSdPOoHbTvg==
 
 %URL%
 https://www.qt.io
@@ -38,7 +38,7 @@ GPL3
 x86_64
 
 %BUILDDATE%
-1696937019
+1700777411
 
 %PACKAGER%
 Antonio Rojas <arojas@archlinux.org>
@@ -46,14 +46,18 @@ Antonio Rojas <arojas@archlinux.org>
 %DEPENDS%
 clang=16.0.6
 clazy
+gcc-libs
+glibc
 qt6-5compat
+qt6-base
+qt6-declarative
 qt6-quick3d
 qt6-tools
 qt6-serialport
-qt6-shadertools
 qt6-svg
 qt6-webengine
 yaml-cpp
+zstd
 
 %OPTDEPENDS%
 qt6-doc: integrated Qt documentation
