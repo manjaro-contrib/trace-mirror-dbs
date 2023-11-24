@@ -1,0 +1,83 @@
+%FILENAME%
+nextcloud-27.1.4-1-any.pkg.tar.zst
+
+%NAME%
+nextcloud
+
+%BASE%
+nextcloud
+
+%VERSION%
+27.1.4-1
+
+%DESC%
+A cloud server to store your files centrally on a hardware controlled by you
+
+%CSIZE%
+144851361
+
+%ISIZE%
+573820896
+
+%MD5SUM%
+d078d8c931b2cf249771d16ba76778a2
+
+%SHA256SUM%
+6521364936ef5dfb120296776b88a0a24efdca497ca9b4f3aef8b95029cf14a1
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZWCyHwAKCRCbeih9mi7GCHE3AP9sJ2AmJzJPHR9VLKZsB/9FxISGH4vBMrMNIzOOOQzR3QD/e8zj/X3iowvJaOzjxjwx7IuyuFBwaDh4F6mKuWQwFQw=
+
+%URL%
+https://nextcloud.com
+
+%LICENSE%
+AGPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1700835682
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+php-interpreter<8.3
+php-gd-interpreter<8.3
+
+%OPTDEPENDS%
+curl: for webcron jobs from within uwsgi
+ffmpeg: for preview generation
+libreoffice: for preview generation
+mariadb: to use a local MariaDB server
+memcached: to use a local memcached server
+mod_itk: to use the Apache web server
+postgresql: to use a local PostgreSQL server
+redis: to use a local Redis server
+smbclient: for SMB/CIFS integration
+sudo: for privilege elevation in occ command when not run as root
+php-apache: to use the Apache web server (latest PHP)
+php-legacy-apache: to use the Apache web server
+php-apcu: for caching with APCU (latest PHP)
+php-legacy-apcu: for caching with APCU
+php-fpm: to run in fastCGI process manager (latest PHP)
+php-legacy-fpm: to run in fastCGI process manager
+php-imagick: for preview generation (latest PHP)
+php-legacy-imagick: for preview generation
+php-memcached: for caching with memcached (latest PHP)
+php-legacy-memcached: for caching with memcached
+php-pgsql: to use the PostgreSQL database backend (latest PHP)
+php-legacy-pgsql: to use the PostgreSQL database backend
+php-redis: for caching with redis (latest PHP)
+php-legacy-redis: for caching with redis
+php-sqlite: to use the SQLite database backend (latest PHP)
+php-legacy-sqlite: to use the SQLite database backend
+uwsgi-plugin-php: run as application container (latest PHP)
+uwsgi-plugin-php-legacy: run as application container
+
+%MAKEDEPENDS%
+php
+php-legacy
+
