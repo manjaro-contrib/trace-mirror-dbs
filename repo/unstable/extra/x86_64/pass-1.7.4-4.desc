@@ -1,0 +1,79 @@
+%FILENAME%
+pass-1.7.4-4-any.pkg.tar.zst
+
+%NAME%
+pass
+
+%BASE%
+pass
+
+%VERSION%
+1.7.4-4
+
+%DESC%
+Stores, retrieves, generates, and synchronizes passwords securely
+
+%CSIZE%
+20757
+
+%ISIZE%
+47704
+
+%MD5SUM%
+42399264f786a2460e24e77a69989810
+
+%SHA256SUM%
+b7796722c9c1f7e5641b176fc693b7a2405f6f7227a443077d60ebc2520b2e57
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCZWaUKQAKCRDglZ/qi1UFOeA+AQCBahYKAzMwQHiOlidBHUEmii66SeSIjHeE4idLKySLYAD+KtKi6wphQXOWYZ0jJaAE05jwi5Tjw4yjY0mi1dWFKgY=
+
+%URL%
+https://www.passwordstore.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1701221383
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%REPLACES%
+passmenu
+
+%CONFLICTS%
+passmenu
+
+%PROVIDES%
+passmenu
+
+%DEPENDS%
+bash
+gnupg
+tree
+
+%OPTDEPENDS%
+git: for Git support
+dmenu: for passmenu
+xdotool: to type passwords with passmenu
+qrencode: for QR code support
+vim-plugin-runtime: for redact_pass.vim
+xclip: for clipboard support on X11
+wl-clipboard: for clipboard support on Wayland
+pinentry
+gtk2: pinentry backend (gtk2)
+gcr: pinentry backend (gnome3)
+qt5-x11extras: pinentry backend (qt)
+kwayland5: pinentry backend (qt)
+
+%MAKEDEPENDS%
+git
+
+%CHECKDEPENDS%
+git
+
