@@ -1,32 +1,32 @@
 %FILENAME%
-cockpit-packagekit-305-1-x86_64.pkg.tar.zst
+cockpit-pcp-306-1-x86_64.pkg.tar.zst
 
 %NAME%
-cockpit-packagekit
+cockpit-pcp
 
 %BASE%
 cockpit
 
 %VERSION%
-305-1
+306-1
 
 %DESC%
-Cockpit user interface for packages
+Cockpit support for reading PCP metrics and loading PCP archives
 
 %CSIZE%
-995128
+63552
 
 %ISIZE%
-991638
+155231
 
 %MD5SUM%
-82b386126b16d81833d3e1b54aa36a01
+9c38f3ef666a28377fd149164dce2662
 
 %SHA256SUM%
-bdffb12059ae8e1d1a7bd33be41466c1df3442517e0943de458edfd866e1915f
+3df849ecc6c48cb07f585f4f027d15f7a3d47176703b70152b647a5d6db6ed64
 
 %PGPSIG%
-iHUEABYIAB0WIQQMrarPcPZMZU4TGzERZ1x0NCnd7wUCZVdl6AAKCRARZ1x0NCnd72mJAP9WTyJ+E86Cv5hxxW+lUChPJp3tvgFJcjr2C7C5MSpVbAEA7HYLqpPggPK0g7GtpCSRdgvuBUah5uH70wiTUqIDQg4=
+iHUEABYIAB0WIQQMrarPcPZMZU4TGzERZ1x0NCnd7wUCZWdWEQAKCRARZ1x0NCnd757wAP9RzeFKyXJ7zAHWPea9nkSTpPchsAalQbg/79SP+57r6QEAqieDPoiRr9KdiyY+fu3HzGvez5KkZyqITarOqp9XGwk=
 
 %URL%
 https://cockpit-project.org/
@@ -38,16 +38,14 @@ LGPL
 x86_64
 
 %BUILDDATE%
-1700226474
+1701271001
 
 %PACKAGER%
 Massimiliano Torromeo <mtorromeo@archlinux.org>
 
 %DEPENDS%
 cockpit
-polkit
-packagekit
-python
+pcp
 
 %MAKEDEPENDS%
 krb5
