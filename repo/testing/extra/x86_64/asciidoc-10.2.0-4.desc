@@ -1,0 +1,74 @@
+%FILENAME%
+asciidoc-10.2.0-4-any.pkg.tar.zst
+
+%NAME%
+asciidoc
+
+%BASE%
+asciidoc
+
+%VERSION%
+10.2.0-4
+
+%DESC%
+Text document format for short documents, articles, books and UNIX man pages
+
+%CSIZE%
+628965
+
+%ISIZE%
+2522453
+
+%MD5SUM%
+5a56fde1d646f94fc29109ac289be920
+
+%SHA256SUM%
+49b72121764c5976e74ef2e62234186d6b91efed62a483c7c69995a6c21b25f0
+
+%PGPSIG%
+iQIzBAABCAAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmVrgZsACgkQqF6BHrTKLggCZw/+KwzruAicVojN2HwH1Kkb5QgWODqZAVn1Hc4jNV313amp9O0+MwWQ5u0ZbosIagtXgva813G06A0aIw4IJrr2nvyfwVAZWxXKnH198CAZutk4oj1/jUySVoAPktsWNGW8wF589RFsms+hvKKQZkVnPSr3m2KC5iAqPuRi8GOAmzptSsK6jkfQUBEQgRZk40T/V4hafBUh29gf58AKXJgnDOt2s5NG84drg4iXq4H2Appizlf9CARdnJ4PEHDgXSIACPcLNm5xG2VRi1v0xZrTReD7Q8xzaDXYqdEciV3YiLSDODpncM1LRi8Ub+KkDxwyQpSJHrahn6z9KT06sz8gBL4Rxzi2ptNNVUa2yfX7Np15AzvLuut8Aez2PyYfTqIXG2bTEHipdqPNLpsYjnSQhe/5D1uXwAe0ULhgesvbgQ9O1G3t+wiN3U50EKG/pUBJsEKbg6PZ5cjtNzaO7kNg0KWa47/sskYST2OEU2TFkIs8s14dGxzaELghgXrKbTT6kjxsIyECMfJ7IfNcRmZ9l0Qb5xRhmHxzOPoFjQpCtzPU/Y0i2r4Q6Kym7WToXavplF8Rdjg22wKbUqrrCR8mhezG2Xr83SoGeUCsiSWJBAP97fxq2HSmrdsmZ9QOf/UiAsfSUVrImNCP/CE3IOhcK1hqVJy3NjhphEDinI0pP9A=
+
+%URL%
+https://asciidoc-py.github.io
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1701544225
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%DEPENDS%
+python
+libxslt
+docbook-xsl
+
+%OPTDEPENDS%
+graphviz: graphviz-filter
+lilypond: music-filter
+imagemagick: music-filter
+source-highlight: source-highlight-filter
+dblatex: pdf generation
+fop: alternative pdf generation
+w3m: text generation
+lynx: alternative text generation
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+
+%CHECKDEPENDS%
+dblatex
+graphviz
+lilypond
+python-pytest
+python-pytest-mock
+source-highlight
+
