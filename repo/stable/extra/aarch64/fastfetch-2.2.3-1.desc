@@ -1,0 +1,88 @@
+%FILENAME%
+fastfetch-2.2.3-1-aarch64.pkg.tar.xz
+
+%NAME%
+fastfetch
+
+%BASE%
+fastfetch
+
+%VERSION%
+2.2.3-1
+
+%DESC%
+Like Neofetch, but much faster because written in C
+
+%CSIZE%
+433532
+
+%ISIZE%
+2210882
+
+%MD5SUM%
+50f18775ddce6c8330e34ba472157318
+
+%SHA256SUM%
+0619e8b7eebad8a8f059235ef16958a4c100f82c8c49e7f8bad61b29bf805657
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmVNM2AACgkQdxk/FSvb5qZ7GA/+IbReRndwNHHNFbU5GHoqYuQ1nU2rSDt7bSE/Dnz31cR+CeoG0yaTGCB3LFDpZYhKdEhPYLJVDXmVNid2eWmFHSCFtlWoxU2f7GvefoOfOa5manecz2/6pqFWt0QQ0lml+YOctEHXkt6nC87XPic02vUZFrmIyaU3u0Z0v/rpAKrG96lzjQ+2DTDhSfFPkPXoFj7lsymqfQi2Uj3FfrMwPI0K3oRpelqnHgTkiQ1pcUqFEN6W6WuG1H4daEVipVY0cJM2JmP/k00lp4vHwHTLEEJ6l1XiQBTY5h2wuco47Z3rnl4ONifqA8mRTBcDBMuAitzhlDMwdeUtsz0NPOoMVDtPoxRHhd9tci19ocYELOn+ip3VLazyt+MFvriMSnvTF300k55NfIXYg9fimsMbNpLxC5HdOXebyv4Dp9RBEXovsK2n9o0bEzpnOKdzy+I0JsDgF0ykPRyhIJzme2umcwARC3EjEaH4d062pHH4K7+afpmbOy2a9d4nhfN4UNnxt3g3Za7b/+NqEC5v5h+jokkfNksuxz7DR5QvJBUtUaG53CmsK164NQ6T3BfFRfNCNPv62mklKfkoHQGXMyz/32/HY8qWBZfApXQsGA90bAGKPClbrOWRSjoBsObOU0Qvj3vU9CiMz0+PuJsFFFLy02KsFnuEPc62LiczwSCHHlY=
+
+%URL%
+https://github.com/fastfetch-cli/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1699558131
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+chafa: Image output as ascii art
+dbus: Bluetooth, Player & Media detection
+dconf: Needed for values that are only stored in DConf + Fallback for GSettings
+ddcutil: Brightness detection of external displays
+directx-headers: GPU detection in WSL
+glib2: Output for values that are only stored in GSettings
+imagemagick: Image output using sixel or kitty graphics protocol
+libnm: Wifi detection
+libpulse: Sound detection
+mesa: Needed by the OpenGL module for gl context creation.
+libxrandr: Multi monitor support
+ocl-icd: OpenCL module
+pciutils: GPU output
+vulkan-icd-loader: Vulkan module & fallback for GPU output
+xfconf: Needed for XFWM theme and XFCE Terminal font
+zlib: Faster image output when using kitty graphics protocol
+
+%MAKEDEPENDS%
+chafa
+cmake
+dbus
+dconf
+ddcutil
+directx-headers
+imagemagick
+libnm
+libpulse
+libxcb
+libxrandr
+mesa
+ocl-icd
+opencl-headers
+pciutils
+vulkan-headers
+vulkan-icd-loader
+wayland
+xfconf
+zlib
+
