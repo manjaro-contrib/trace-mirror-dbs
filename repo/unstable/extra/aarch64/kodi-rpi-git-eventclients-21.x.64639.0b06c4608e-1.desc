@@ -1,35 +1,35 @@
 %FILENAME%
-kodi-rpi-eventclients-20.2-8-aarch64.pkg.tar.zst
+kodi-rpi-git-eventclients-21.x.64639.0b06c4608e-1-aarch64.pkg.tar.zst
 
 %NAME%
-kodi-rpi-eventclients
+kodi-rpi-git-eventclients
 
 %BASE%
-kodi-rpi
+kodi-rpi-git
 
 %VERSION%
-20.2-8
+21.x.64639.0b06c4608e-1
 
 %DESC%
 Kodi Event Clients
 
 %CSIZE%
-32903
+32963
 
 %ISIZE%
 77954
 
 %MD5SUM%
-9d9e8b02993c709f5a072da8545e9d10
+772de4a8f93f02ef4f0a87053fad9019
 
 %SHA256SUM%
-aed63177ebc6e57e5ed8a3e66fdbc161e01bffa304fbc76b81ac1b063a4ece28
+cbe9f136be4925f83f6937226f424f33460561e045f726bbd1b5e5dbd9617db6
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmVRgHYACgkQHzWBGKB6z1fXJQf/Sjafvbeq0CxsiOawN+ZZdFI5RIGqgJN8UXNI+kJ8eAlEkiZhVWz48VDxhIS4ZjO1iRQ/TmhcvDDXCvmwvS3aWQFg/plM864Wtjjy9hYqYZ8rbC938kdcFNU+UKXyvIvVij6Ifh/8YSYGEXblC06mzl4v1ZNHoNJrpNYptC0xWjQ3t9zypiH5BLiSUvOISqfFLG1IsBmcHnbKMLSJbkdgyT2/+0af/dOE+hRuQPNWZiNG7ETr6NRGvBoQOAdaqY27S3UsKpp22uX+i6RAcaeu8nWo1Vfr8PTA/NX5ARYWbt33j9QBqA16Cfz4j39gfZHhfyPz+q3Bb5MtW9ov8SMqrA==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmVxj2YACgkQHzWBGKB6z1dj2QgAw4Z2qajFm4MqMrB2fmQfsyIr65QdOu0cJ3eRo0Tw1AhrbPLqM7KNFs2YPHSAqtoDVNZO43+JtbBPsgFJrGwY9eh5hNvBDsx9F4r6nB/ncm9P6tWpIX7n0CbuASb+ktl0Fm+6nARSNKLp3ixgu6jtCvYQln3WIZZhZoSql7iUbLoAXyWaIdl72dl3tn4ERTBQik8FG31d4K+XCkqFwobEzpowhS0jt2wnlzLdy/pZDmzH/USaSVUXqzxBwaZqAJfZ67gHCwp6YpKFUVUeU+szcW6utB+EkbgA0XIw17h9PSOqbMVZIZi7NrgfI67wBXegn0AWHn1++nv536a3enxiRw==
 
 %URL%
-https://github.com/graysky2/xbmc/tree/gs-gbm_nexus
+https://github.com/graysky2/xbmc/tree/gs-gbm_omega
 
 %LICENSE%
 GPL2
@@ -38,16 +38,17 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1699838738
+1701939281
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
 
 %CONFLICTS%
+kodi-rpi-eventclients
 kodi-rpi-legacy-eventclients
 
 %PROVIDES%
-kodi-eventclients=20.2
+kodi-eventclients=21.x.64639.0b06c4608e
 
 %OPTDEPENDS%
 kodi: local machine eventclient use
@@ -106,5 +107,7 @@ graphviz
 libinput
 libxkbcommon
 pcre
+libdisplay-info
+tinyxml2
 java-environment<21
 
