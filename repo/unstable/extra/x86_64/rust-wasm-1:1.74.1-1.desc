@@ -1,32 +1,32 @@
 %FILENAME%
-rust-src-1:1.74.0-1-x86_64.pkg.tar.zst
+rust-wasm-1:1.74.1-1-x86_64.pkg.tar.zst
 
 %NAME%
-rust-src
+rust-wasm
 
 %BASE%
 rust
 
 %VERSION%
-1:1.74.0-1
+1:1.74.1-1
 
 %DESC%
-Source code for the Rust standard library
+WebAssembly targets for Rust
 
 %CSIZE%
-2730104
+52998920
 
 %ISIZE%
-27053286
+203859251
 
 %MD5SUM%
-555b093277bd5ca2cd34b400698ef788
+fd60bf58e1a3a90ddae1621d19de98fd
 
 %SHA256SUM%
-116712fbc590efffcdc6bdf63de4d0e9476db6abbee0d4cf29696fc51de4f02e
+3a6067ecbc4022ee000852ed6dd02f57849f78c4efc5703632e738a1ca54a8d6
 
 %PGPSIG%
-iHUEABYKAB0WIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZVYx/wAKCRA7lKgOUKR3x62nAQDW6edL2hCQh0NTNouPLYvDkuhgK2JULyebGsA62AisWQD8D0EaBCFyw5p/fKgy7UjsFLi21tXlVWGJgs9UHFGYxAc=
+iHUEABYKAB0WIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZXHjkgAKCRA7lKgOUKR3x8Q3AP439MIPAgjtlTGWPp+rVyWMjxZPFbVZMj3SQl2obiLHsAEAvLaY8vhlVoBeBp29nyPED5RbPJJ8+ZrewCZ6gp+hrAg=
 
 %URL%
 https://www.rust-lang.org/
@@ -39,12 +39,13 @@ MIT
 x86_64
 
 %BUILDDATE%
-1700143735
+1701959504
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 
 %DEPENDS%
+lld
 rust
 
 %MAKEDEPENDS%
