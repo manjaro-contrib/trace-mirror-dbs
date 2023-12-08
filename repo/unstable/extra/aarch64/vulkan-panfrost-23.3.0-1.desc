@@ -1,32 +1,32 @@
 %FILENAME%
-vulkan-radeon-23.1.8-1-aarch64.pkg.tar.zst
+vulkan-panfrost-23.3.0-1-aarch64.pkg.tar.zst
 
 %NAME%
-vulkan-radeon
+vulkan-panfrost
 
 %BASE%
 mesa
 
 %VERSION%
-23.1.8-1
+23.3.0-1
 
 %DESC%
-Radeon's Vulkan mesa driver
+Panfrost Vulkan mesa driver
 
 %CSIZE%
-2743994
+1512210
 
 %ISIZE%
-9469973
+7079996
 
 %MD5SUM%
-2fd9dc7597ddcec9c81deedf626e1da0
+41862aa4f75ab81d98c92f3e4254235b
 
 %SHA256SUM%
-8e5016fa6a5a6ba86a87a79265ec6d6dc5ec393d23e8575f805b36f5a102540c
+88e43e5f0f3f2767f51ecbdd73c7b5c3e01089b591e95bad9f81d616c250ed68
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmUVSUkSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+7scH/3UzJvRRLCUr+NpSDx0cGSe0q3RX5ln9yo1JOMpjppZoU1TAms1UdJ0ImSWItyZrpQX5eNc49feVUs261kyt8vAZ8I9yqK3kaGxvWg1JFcgqS2HvY4M0H1RaMT07oWUYOfsRFjXH2beYHnDrxuku5HgC4MC0+xLLg6NIowyQIyo1XCje+o41rlkye5gjxdWFuU3JJ0iM4YqS+TljVtjNhNbKc8z96oEoK9REFGzQmeLfM3YT9Z+j5vh/z2CHvEyvkdAElifhNp3oZp6PdEg6A1tMutMqd+L9McpiQfx5Fc1sJ9z4EHt5slbfTi4LAFwyCh47PFdV06ULvXm5t0nBpRM=
+iQEzBAABCAAdFiEER9naHoEMG8rrtsSGG/eXhuVU710FAmVzRWMACgkQG/eXhuVU713GOAf/ZI/yzwoNdKCISX9JAOA27QN+aFP9DHN7Y3YbXWrlGQM2kWK18+oXo5YhDvqPqAe5Z3MeOsSpsidGAg2SySO9qwSU/QtdBT/9kDvU405Hg0J6SJnbNYQXtEIwwVKQIEFz/Zz/kxMgjZw6umIyduP9WtcBqUQGX2U9Qf7ex0IhDETx+IqIG7KlWPCqfPxfOSvPWcZ22Z+PBr7PmlbuqRkI5Bi6t/F5yxHF2kxzoM+PixtBGGPqRuHaeiKWQp9+UfqjDLBej747PBA6LEQlgBUmJKf9m8c8NO7pFgJ5eKRrkeNumBy0SeMJTXQ93027iL4D/cHQKWEN+NpeN3wg6LKFwg==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,7 +38,7 @@ custom
 aarch64
 
 %BUILDDATE%
-1695892584
+1701781259
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
@@ -47,14 +47,10 @@ Manjaro Build Server <build@manjaro.org>
 vulkan-driver
 
 %DEPENDS%
-libdrm
-libelf
+wayland
 libx11
 libxshmfence
-llvm-libs
-systemd
-wayland
-zstd
+libdrm
 
 %OPTDEPENDS%
 vulkan-mesa-layers: additional vulkan layers
