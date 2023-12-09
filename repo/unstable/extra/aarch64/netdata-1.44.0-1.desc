@@ -1,0 +1,79 @@
+%FILENAME%
+netdata-1.44.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+netdata
+
+%BASE%
+netdata
+
+%VERSION%
+1.44.0-1
+
+%DESC%
+Real-time performance monitoring, in the greatest possible detail, over the web
+
+%CSIZE%
+12356064
+
+%ISIZE%
+56663476
+
+%MD5SUM%
+b90ce19e50c4231abb6e320e3ab47937
+
+%SHA256SUM%
+f1511733118b25d0e0bb84aa7169d0fd7aa6d859d4918182e6abdf224eebd508
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmVxF/IACgkQdxk/FSvb5qZDzRAAmtiWmiT6UvQNVJn92Jvc/VRe2nvToaVfPiEULPlgVtGrrCVFi+HE9J9pB0Q0rbgKpe+XQ/U++aNi8M8KCU/QizSa0nxl7H0BUgbU8X9utyIVDsuAXe4M8vbCVxJNwbz+pJtS2Ce+/V+nYrEmTZt4AOKuA2Z2sSfmqdnPLzUWiOPHd7VWXv258ExCumSQegF8vaiICy210lpuO5q1At5DPX1aPBat4x27bJPB20WS4ArtWFSwZ0Oo8pF3Cvb2s/WunlRUYxk+aExEdVsRjtS4oGWMAjwHU6/R936ZRHsEW1o9BDy4XT1kNc5TuenremUt2VwpW2tePbXK3J1jxX/IA4+EiktZLTIlpqdZQSl63TZRyLHBynt1LFyHg5faIDq5Qed7MWhL2GGBHEEpn3zKmSVlCglY0sMXetsfdvQQYqKI+v5gcTfWk1m4pPo+djlK/PfibsQVOk4TeJIQvPCjybgcSp/hc9gL9DJUomR4WTOKqtEws6NL/s+poMTtLxixQ+NWLSB9NGHcp8sj8818ltSum2RYooFPg4uvbr3K+Kn3X8OpY9ecv4Z+/TEVuyrAdwu4xl2m1G25oBuMESIUwpKp3fbLUtBgIuAnOE+axaKc0JKoUuxtD9/cvZXHM4LsUM93DibB4BioDw2Kr0z424HHX/q3EwIt0eeY+Y/wf9g=
+
+%URL%
+https://github.com/netdata/netdata
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1701910271
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+libmnl
+libnetfilter_acct
+zlib
+judy
+libuv
+json-c
+libcap
+lz4
+openssl
+which
+snappy
+protobuf
+libwebsockets
+mongo-c-driver
+libyaml
+
+%OPTDEPENDS%
+nodejs: for monitoring named and SNMP devices
+lm_sensors: for monitoring hardware sensors
+iproute2: for monitoring Linux QoS
+python: for most of the external plugins
+python-psycopg2: for monitoring PostgreSQL databases
+python-mysqlclient: for monitoring MySQL/MariaDB databases
+python-requests: for monitoring elasticsearch
+hddtemp: for monitoring hhd temperature
+fping: for for fping module
+apcupsd: for monitoring APC UPS
+cups: for CUPS plugin
+iw: for monitoring Linux as access point
+
+%MAKEDEPENDS%
+cups
+
