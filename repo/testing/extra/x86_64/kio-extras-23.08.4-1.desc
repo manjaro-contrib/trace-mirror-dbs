@@ -1,0 +1,80 @@
+%FILENAME%
+kio-extras-23.08.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+kio-extras
+
+%BASE%
+kio-extras
+
+%VERSION%
+23.08.4-1
+
+%DESC%
+Additional components to increase the functionality of KIO
+
+%GROUPS%
+kde-applications
+kde-network
+
+%CSIZE%
+1382317
+
+%ISIZE%
+4921510
+
+%MD5SUM%
+e972530b068a636b2aef01f7e824838f
+
+%SHA256SUM%
+86484d6f8101940b18f970c5b02bbd1053127a456ef9bc319c4030131f0093fb
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmVzCGcACgkQek52CV2KUuTkVwf+Ouy2b5Bp5pencF63wmtJsPY1tSagW9WwyXOyiTyo4XrDqUt/fJpsYNya1xdGjH8mOduGqodyb1VRxqog88CrwhUXB8ZMbpfwhVUpftChhZoNphAp9HwouB8zjhrRzpB1JxR9P+LUaeT1kVdI5/QZelJLE2H5kS4J8TD0zOxAbTQOXILS35I+nHbuHckh9TLtbbEosQdetfc2wIYsMBGJt4Zn8mClqAG8X67MW/K6lRbBQBlAO44IC4w7tjp+bhFF5+AL9ducHadIjjEBZWXxON0B6lPT8pcoaQsjH6XZZ5x6GF9yalYK/K9/1i0CNuOpregjORHdIw6iL+RNkn0LjA==
+
+%URL%
+https://www.kde.org/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1701859337
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+kio5
+kdnssd5
+libssh
+smbclient
+libmtp
+libkexiv2
+phonon-qt5
+syntax-highlighting5
+libxcursor
+kdsoap-qt5
+
+%OPTDEPENDS%
+qt5-imageformats: thumbnails for additional image formats
+perl: info kioslave
+kimageformats5: thumbnails for additional image formats
+taglib: audio file thumbnails
+libappimage: AppImage thumbnails
+icoutils: Windows executable thumbnails
+openexr: EXR format thumbnails
+kactivities-stats5: recently used kioslave
+
+%MAKEDEPENDS%
+extra-cmake-modules
+kdoctools5
+gperf
+taglib
+libappimage
+openexr
+kactivities-stats5
+
