@@ -1,0 +1,103 @@
+%FILENAME%
+kdevelop-23.08.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+kdevelop
+
+%BASE%
+kdevelop
+
+%VERSION%
+23.08.4-1
+
+%DESC%
+C++ IDE using KDE technologies
+
+%GROUPS%
+kde-applications
+kdevelop
+
+%CSIZE%
+10543658
+
+%ISIZE%
+36505361
+
+%MD5SUM%
+4532155b50bfc39748beb326699d5ad3
+
+%SHA256SUM%
+c3133982f6c312aeec1942587c2217dd52f777b2f38f563816280a329178bb79
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmVy93kACgkQek52CV2KUuQ3jgf/Yh2D+zJZ35n3OXVabsOQ+0PUqtYIxz6veBTSjzK99QEV+EXx5hADKOf1iloEkI2osLb2FWcLSh/d3j6bXOKihQeh83o0iuARjSi9T4U5BWkIqV2TEc+xZFUt5NjXQv2jas0O6SgPOBiUWaegrYc05La8hcEoEuyKdC9zV2HQVsrsPjpC8ION5WiSt4iA7w1qxQ58yNnGNIPJQc/PZV3vSmv0qSliZm/s0+7rI835TWERyM71+qzcyIFkmjvB7MHXXyxuyHiD7Vv5CvSm67AX2AXFqnyTP8RXTPfh/I1TygnDmsNXl2+u8VX1KXmSspwsDvr6uM7lG/jkovxB5YYGyg==
+
+%URL%
+http://www.kdevelop.org/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1701850446
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%REPLACES%
+kdevelop-qmljs
+kdevplatform
+kdevelop-clang-tidy
+
+%CONFLICTS%
+kdevelop-qmljs
+kdevplatform
+
+%DEPENDS%
+clang=16.0.6
+libksysguard
+kitemmodels5
+knotifyconfig5
+ktexteditor5
+grantlee
+libkomparediff2
+kcmutils5
+threadweaver5
+
+%OPTDEPENDS%
+konsole: embedded terminal
+git: Git support
+subversion: SVN support
+gdb: GNU debugger support
+lldb-mi: LLDB debugger support
+qt5-doc: Qt documentation integration
+cmake: cmake integration
+kate: for additional plugins
+meson: meson integration
+qt5-tools: qthelp plugin
+okteta: GNU debugger support
+plasma-framework5: for the plasma addons
+purpose5: patch review plugin
+astyle: astyle plugin
+cppcheck: code analyzer
+heaptrack: memory profiler
+clazy: clazy analyzer plugin
+kio-extras: man pages plugin
+
+%MAKEDEPENDS%
+extra-cmake-modules
+kdoctools5
+kdevelop-pg-qt
+llvm
+qt5-tools
+plasma-framework5
+krunner5
+okteta
+boost
+purpose5
+subversion
+astyle
+

@@ -1,0 +1,74 @@
+%FILENAME%
+k3b-1:23.08.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+k3b
+
+%BASE%
+k3b
+
+%VERSION%
+1:23.08.4-1
+
+%DESC%
+Feature-rich and easy to handle CD burning application
+
+%GROUPS%
+kde-applications
+kde-multimedia
+
+%CSIZE%
+11575057
+
+%ISIZE%
+35150720
+
+%MD5SUM%
+628ba605946bcc5ba4d4ebbd3f1e30f6
+
+%SHA256SUM%
+f90fe56d4bf0c05768f29a39d5b673a210d39e9c3bee48c8aa71e0a3e8717fe5
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmVzBioACgkQek52CV2KUuSTXAf8DttM1QgJiiv3EhAF9+V9zqBB1KaBGkthyYkHsWjbiqwPhtRDXxvppmcS4vFy0ZQsMrzXHGD+/KhaNt3NUsuMcQF1HZaYyEyGIUvXdUG3WDhg7/8Yq0juxVYuwvQpdyIM+Ru1DWusErIdsJPMkNKYAwLDM8Izgqc9eXpT88j76yIhQunmHhYxFFrGWsiBxgcPZkvfDv6DSNrqnduDEvYJxXxzgWXlA5TKG1mCzNBQ3Vn8lRNFPcf1SFvSex9HHdfoTw6aY++EeJG8LTkX/0uPzqUJjHUuOdzV2d/zp1qgZI8L9ep8I/hauBwbvtN/4xBMKXIFqSWCF5jnIetXsL43Fw==
+
+%URL%
+https://apps.kde.org/k3b/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1701857979
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+libkcddb5
+kcmutils5
+knotifyconfig5
+libmad
+kfilemetadata5
+knewstuff5
+libmpcdec
+libdvdread
+libburn
+libsamplerate
+qt5-webengine
+
+%OPTDEPENDS%
+cdrtools: for CD burning with cdrecord
+dvd+rw-tools: for DVD burning support
+vcdimager: for VCD burning support
+emovix: for bootable multimedia CD/DVD support
+cdrdao: for disk-at-once (DAO) mode support
+cdparanoia: for CD ripping support
+
+%MAKEDEPENDS%
+extra-cmake-modules
+kdoctools5
+
