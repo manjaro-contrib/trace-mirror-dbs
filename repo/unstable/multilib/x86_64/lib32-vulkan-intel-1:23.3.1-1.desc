@@ -1,61 +1,59 @@
 %FILENAME%
-lib32-vulkan-radeon-1:23.1.9-1-x86_64.pkg.tar.zst
+lib32-vulkan-intel-1:23.3.1-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-vulkan-radeon
+lib32-vulkan-intel
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:23.1.9-1
+1:23.3.1-1
 
 %DESC%
-Radeon's Vulkan mesa driver (32-bit)
+Intel's Vulkan mesa driver (32-bit)
 
 %CSIZE%
-2908869
+7302772
 
 %ISIZE%
-9947560
+31059289
 
 %MD5SUM%
-95e339344a017ecb7ed4184ada23b34a
+631cb05efd7027c2e35df07637c43e4a
 
 %SHA256SUM%
-87e774ed92784a2d30360ec6fcc13e033b78a0e5eea4d26181064ed8be38391f
+855fbc66f20e2ddf388d70e877df2162629a59e0911f529434be3c496e14a657
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUdincACgkQFQwgB0PtRtjSJggAhqRgVSwlkDAv84L8ekAHPLKM5VUw3Q7nHD64218FhelDIoeJedq0Fm7Ki2roq2BUuTHaHUuVgDx4vrA/yxRrw/LbIbHDHxMz+kgKQ7boxwydcKqRxwgn2dvSUyk5quS+MXZKlXyvPdkbBiHY1ae13xPpmz/3snEOV6D6mMrpho6xoBZb5douLYenUon1tLS5FcX2HoAOnMvjpm0tEQVdDctZGWLkjP+sLhOAqPPowkEDeUzpa8wmtL5NiD+ItHyliJdmT/V7np+Os5g46dCH7fS9Js4U5Bg10fAvn0dy2LN75965rhuWOJaR+lgB6R8Bz1FzZqHapzibGpTqwi9DhA==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmV6nQsSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+j2YH/0qSQ3dNt8GkzXo5Kjl5R1YmXs/7dUMXyjD77gjLq6o8OFtC7sJNby2YvfGyovLJeHh4LnXI5lsq8g0YNxcVyRBOnlwduJFgTQT9ZgutEp4lzbRYKvSQBWyhTOsNl6Ivc+fEl32gJNlQTDYS5c+cjJ7fky7nMBYDc/Jhona5p5YzT72tCF3SvgYWp2Ummyg5lWXHr6ke2DabY0J08pKVNLcyhJAwOx5l/V6DsIl6iFsS3Zd1q1giGIP/uAty0JDBrvIU00+3p9RJKkg3gffdOue1chSAZ5P+rXaQgALUrVa8KXIDgoqhRd1TKw0T9D+f2jUvrALjXczH6EWOG9MvZr8=
 
 %URL%
 https://www.mesa3d.org/
 
 %LICENSE%
-custom
+MIT AND BSD-3-Clause AND SGI-B-2.0
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1696434296
+1702528748
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Müller <philm@manjaro.org>
 
 %PROVIDES%
 lib32-vulkan-driver
 
 %DEPENDS%
 lib32-libdrm
-lib32-libelf
 lib32-libx11
 lib32-libxshmfence
-lib32-llvm-libs
 lib32-systemd
 lib32-wayland
+lib32-xcb-util-keysyms
 lib32-zstd
-vulkan-radeon
 
 %OPTDEPENDS%
 lib32-vulkan-mesa-layers: additional vulkan layers
@@ -83,6 +81,7 @@ lib32-spirv-tools
 lib32-systemd
 lib32-vulkan-icd-loader
 lib32-wayland
+lib32-xcb-util-keysyms
 lib32-zstd
 clang
 cmake

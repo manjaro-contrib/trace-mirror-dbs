@@ -1,5 +1,5 @@
 %FILENAME%
-lib32-vulkan-virtio-1:23.1.9-1-x86_64.pkg.tar.zst
+lib32-vulkan-virtio-1:23.3.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 lib32-vulkan-virtio
@@ -8,40 +8,40 @@ lib32-vulkan-virtio
 lib32-mesa
 
 %VERSION%
-1:23.1.9-1
+1:23.3.1-1
 
 %DESC%
 Venus Vulkan mesa driver for Virtual Machines (32-bit)
 
 %CSIZE%
-441456
+476402
 
 %ISIZE%
-1137568
+1199200
 
 %MD5SUM%
-ffa9e9cb144e2da40c2aeeea6dbf09fe
+36d67b2aae2031569e9137de4cc5c7ed
 
 %SHA256SUM%
-7ca55e4a7d0b6d444587525c4541b45abc7b3b25dc227a9dff5f267fcd387b1c
+c93db029a0705624eaf658b9ef1281592305f56e27798c62680299ee5bd8f3d4
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUdincACgkQFQwgB0PtRtgX+Qf+N0sD7bXZN88nXcP4ju9dRkw1Nxb1QZJDWWThinBLdiTNL5GygVE2CJYND03DG8gk/zN/HMQPEFbHaqYKkSnYGZj81WVk1KMkUO/MYNkHxKkLmGEV/rLMoxbtwo0N3oS9030o2tciHFA5DqTLyUnQ0rQ0Er1PzQ8iDjdWp3EM80L1RcHN+x/DOEbxa6WiD6gORhOL6JxqBRYgFOGtRAWfMzLR9rkY/g+w1Dv6gf6nCVmGzEM4Z2WUnPNCwSfaUq9683tXX8RYnY5O00GuSCkhrUTrlNY7EsP1jOuuGPZ6YKVcKhrpoulFvC5ZoeK5oMgm1Q24nipAc2bc75Muq6E1tw==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmV6nQoSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+sNoH/isCN2QknKzpOMalV8ISTAU6xzXyes46imG9IfdZGKsjKI3CVorLQ5sOxCzG/huojKmLzAZTaI7ibSpt2uHtgwES8/J7vf4jwhbObITaMUoi4GG4YLhfjA4rA7jUwdQ44ch6HE+/4G3S0tkVhzgSh2/Pg5l/8mdHDno1jpUpaxDuD2a+OowzYwRj7YUW4c/l/1Z69XgXXaCvhN++Dz/TyAC3LeCizWFj6+VQMVrcCNkHQ6xNymIWve4mkJlXPUpJNLgnSuIDid7zzSiCF1gAn23rWebvIUmvULI/ePxLtk2e3N1PDM5M/siH8xOWOWIvkabI5pM22B4HKXgfUAan6Lg=
 
 %URL%
 https://www.mesa3d.org/
 
 %LICENSE%
-custom
+MIT AND BSD-3-Clause AND SGI-B-2.0
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1696434296
+1702528748
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Müller <philm@manjaro.org>
 
 %PROVIDES%
 lib32-vulkan-driver
@@ -52,6 +52,7 @@ lib32-libx11
 lib32-libxshmfence
 lib32-systemd
 lib32-wayland
+lib32-xcb-util-keysyms
 lib32-zstd
 
 %OPTDEPENDS%
@@ -80,6 +81,7 @@ lib32-spirv-tools
 lib32-systemd
 lib32-vulkan-icd-loader
 lib32-wayland
+lib32-xcb-util-keysyms
 lib32-zstd
 clang
 cmake

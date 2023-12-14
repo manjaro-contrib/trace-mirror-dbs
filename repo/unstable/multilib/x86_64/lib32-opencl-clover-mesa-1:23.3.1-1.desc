@@ -1,47 +1,47 @@
 %FILENAME%
-lib32-opencl-rusticl-mesa-1:23.1.9-1-x86_64.pkg.tar.zst
+lib32-opencl-clover-mesa-1:23.3.1-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-opencl-rusticl-mesa
+lib32-opencl-clover-mesa
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:23.1.9-1
+1:23.3.1-1
 
 %DESC%
-OpenCL support with rusticl for mesa drivers (32-bit)
+OpenCL support with clover for mesa drivers (32-bit)
 
 %CSIZE%
-7655613
+20025398
 
 %ISIZE%
-25755159
+80660363
 
 %MD5SUM%
-3f8eda000168db5f7a04ae98e6b465b2
+ab23ad21574841d123ee745de95abb32
 
 %SHA256SUM%
-f89cdacb1935a87ee5bea90a386bc9e14acc72a9c7ff0a219fb807782b222f60
+9830ac268e9ffde3b63e862005abb4a2c0bbd19594cb45adcf1edc72122b931d
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUdincACgkQFQwgB0PtRtiMPwf+MluIuvBRO2vFPOw+uKN+6CwOZy/gemSXvef2TKWwIAGnKs8PvnRPWqEbcQyVbwVo6HUTbticorPvRI5dC8GHHKXUwZNucJdl4V9Th+Ctwr3KxAVl2u3DnwCqHX2s7e3oie7mLO8vCtheM5Jlfkp8N46XNrECZXcw8Ng2DseAuFl1mjSZJ2o5BJ/GNfQwQ8AONEZHpBPMc3xpSZlVjhE2JUIjWBRw9D1gKyX8l+aAwGcHbxZwt0h4oBas+mp5C2G2V2S1kOsImj4+miS7ocJCXXNvM6PcqenlcAEzyOiUrf8RVeW19NqXgIAKVO7eyRfhg9lA88sh3FQAv0yFJBTzsA==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmV6nQoSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+FecIAMJ4VFANu0Vg8R0CfE4Cz1N0tf/vqtsibS+PFUyaowc3J+L/UWazELaOS/IVg2q7IUSjij+C9zZ5l3WbWsWRQHaJAdxfbTDRbN1n7zRQguwH0EtF0nhjrQWavPce/HlmCl7PCTApT4YGZ97LzETOTbjGnoo37pAYDI6NcjQO/90fcBtn3++i8fm/S1h86nae++Kw2XC1meLM9LhhPElOttYo0Tj4q1Go4Jv1cWhgQur8WQ2DWfrW/c4Xq5mtzGjxh7e8wLXK7bmreS6N2phmSjXLMg6Rr5SzWVzjJA8ZaJqyq5DANqvF6a/dDZar39PZssJbKB1VP3eLUjWZr9gP800=
 
 %URL%
 https://www.mesa3d.org/
 
 %LICENSE%
-custom
+MIT AND BSD-3-Clause AND SGI-B-2.0
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1696434296
+1702528748
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Müller <philm@manjaro.org>
 
 %REPLACES%
 lib32-opencl-mesa<=23.1.4-1
@@ -57,11 +57,10 @@ lib32-clang
 lib32-expat
 lib32-libdrm
 lib32-libelf
-lib32-lm_sensors
 lib32-spirv-llvm-translator
 lib32-zstd
 libclc
-opencl-rusticl-mesa
+opencl-clover-mesa
 
 %OPTDEPENDS%
 opencl-headers: headers necessary for OpenCL development
@@ -89,6 +88,7 @@ lib32-spirv-tools
 lib32-systemd
 lib32-vulkan-icd-loader
 lib32-wayland
+lib32-xcb-util-keysyms
 lib32-zstd
 clang
 cmake
