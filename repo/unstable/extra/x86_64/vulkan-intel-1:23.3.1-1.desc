@@ -1,5 +1,5 @@
 %FILENAME%
-vulkan-intel-1:23.1.9-1-x86_64.pkg.tar.zst
+vulkan-intel-1:23.3.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 vulkan-intel
@@ -8,25 +8,25 @@ vulkan-intel
 mesa
 
 %VERSION%
-1:23.1.9-1
+1:23.3.1-1
 
 %DESC%
 Intel's Vulkan mesa driver
 
 %CSIZE%
-7472376
+7784942
 
 %ISIZE%
-30303041
+31655377
 
 %MD5SUM%
-8e9860b21024af14abaef8def4e3181b
+5a550acaa0ace6b1993d3e4f970c2eae
 
 %SHA256SUM%
-ddc933186d3bedadcdca4efdd8462c6afb7cd18df1522c9aa7e460c0363cde94
+c29e14f2a3e865ee554e455fdaa98fc896ecfc9d7cfb73a55330051a2145620d
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUdh5AACgkQFQwgB0PtRtjG+Af/XHDwNDrQ5HQF3aRg2a8eGKBIPehY5tRBL23W0AbnukxPIiDHiJUjepcouJsmnacLPCaMLkSc8W/QtYScRBlzBlUJ8gL9FNhj+1p069iViBI1WBt+qvNVgLUIQrzQpC8IRiiXeIa4KxAvHbLevIr9AUs4kb8bbIupPc3JxCrDhvmfaj78u/F/sw7hxzFEpmxfhtjBPTIEQeBpAYKiiFKHZeN0ITOgN70pKIa1kMfGUXQeXli80tvGY0bI9eUOBZE8voQRvn85wccTkVM+urHeFpL+QmdoXFHYyUtzpAX4qLSme8F93WweAhxEJwlFJulqMNiIcpEWshFRkQIKnM3Mpg==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmV6hPASHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+OTgH+wbfTAUDiCMQ8BeEyvsotK1LS6upKb48o+3sEBzNHieUAZ3S1/PNoYt7YgGgzDOdUwuty0cAiVIMsNFokhhA5mMRJFVSo2YzU8Ycq8tb4Q8KogJ33odm4Q0LXYLR4y5nUTBexRTMAd4k4i+OJkKkrIIXrF3280ZScgIagVZ4vyXtMLv9Kc/UB7h9tEPGymZBNPHtbNSGHcXt4Y0SRFU9zCnqQeo1TrBt1XPwzoL/j5WB3SZsaU9WfwZCPnS3xZCRA5L98QeSs4wCMdcm+Vx2+z4t0rRiMDo8DJULssLh5Gvx17Q0rDq0s8uflHlTAAiPEmdZgXGbUFaQLoyb15Few5Q=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,10 +38,10 @@ custom
 x86_64
 
 %BUILDDATE%
-1696433584
+1702521018
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Müller <philm@manjaro.org>
 
 %PROVIDES%
 vulkan-driver
@@ -52,6 +52,7 @@ libx11
 libxshmfence
 systemd
 wayland
+xcb-util-keysyms
 zstd
 
 %OPTDEPENDS%
@@ -80,6 +81,7 @@ spirv-tools
 systemd
 vulkan-icd-loader
 wayland
+xcb-util-keysyms
 zstd
 clang
 cmake

@@ -1,5 +1,5 @@
 %FILENAME%
-opencl-clover-mesa-1:23.1.9-1-x86_64.pkg.tar.zst
+opencl-clover-mesa-1:23.3.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 opencl-clover-mesa
@@ -8,25 +8,25 @@ opencl-clover-mesa
 mesa
 
 %VERSION%
-1:23.1.9-1
+1:23.3.1-1
 
 %DESC%
 OpenCL support with clover for mesa drivers
 
 %CSIZE%
-18844578
+19842949
 
 %ISIZE%
-72613562
+79078850
 
 %MD5SUM%
-22686b16a3695cc4b42a7943a5ba268d
+cf03ab781ba8b38f523edd58882d5359
 
 %SHA256SUM%
-9aa42bec7969ade809bb516862539758e9256d2598fa86d5f62cf9cb80c88553
+b44ab910be28c447c2c3b54e3154e1cc36765fc7b2a9fe5e6149ad9d8b17a2f8
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUdh5AACgkQFQwgB0PtRthCoQgAySw7aCBvI6i/rCW1ZOtJz4x9qT9D+7IqPf3PsJWf70UJk3+NSXUi+qqkpszGFJ3C0ZIyiRpGVTuCy0gONVE/MNHCVEWdqexo1xCRNDO31SGZg3B/b5DSWVLnZrukj+u55R45c1oK9Mv2PzVh7I5SU5yHTfgY4QBGvF+5JD7W3HYbnkS9KibcaP89yy8n72Ow1UeA1KOnU1eeUyObjPDr9lI5Xy6G26XYuzUgkGzs2Ub8TRm0X7F2iBx8cr1V1OYGyY6MCdcUSyppQdrgQnxA6PtX3PlVl43W/1wtbf5wpHSNb7WygXqjQbDFSq3LOuFoET+ZycYtD1/eFNSU9ugPCw==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmV6hO8SHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+nyEH/R9KIXCZrcCdYsnpnG7oRakIjzw01puKnyRLGMhYwWQ3KSZvP30c2B2OULG8/e2Gdn3Lmgs0u99H1frMSrT2ivP8XeCBQQjXJTls3xOQB4NcKEMZ1p1mq5sniPrGfJrLU+RlBx/yW/cf4iANe/cE/xcLWXGg/lXFpV7Jt4JPiOGeOcDH0/DAYEErMVIOGFyvGkawEnHbu4vkXKvobutux/+fpkX/2wAC4k4smQbf4JEsrj2eta1FNJCeT7LytRyWnXExf5OOZEveEwzsg5csQsFC5aUHSYoA3fvc71ytFHXq1K+5Ie05coVkp6GrdPeaQX9tNzOqlVsHW4Hjv4dLrQA=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,13 +38,13 @@ custom
 x86_64
 
 %BUILDDATE%
-1696433584
+1702521018
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Müller <philm@manjaro.org>
 
 %REPLACES%
-opencl-mesa<=23.1.3-3
+opencl-mesa<=23.1.4-1
 
 %CONFLICTS%
 opencl-mesa
@@ -87,6 +87,7 @@ spirv-tools
 systemd
 vulkan-icd-loader
 wayland
+xcb-util-keysyms
 zstd
 clang
 cmake

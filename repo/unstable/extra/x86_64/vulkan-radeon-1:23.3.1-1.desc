@@ -1,5 +1,5 @@
 %FILENAME%
-vulkan-radeon-1:23.1.9-1-x86_64.pkg.tar.zst
+vulkan-radeon-1:23.3.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 vulkan-radeon
@@ -8,25 +8,25 @@ vulkan-radeon
 mesa
 
 %VERSION%
-1:23.1.9-1
+1:23.3.1-1
 
 %DESC%
 Radeon's Vulkan mesa driver
 
 %CSIZE%
-2823475
+3031483
 
 %ISIZE%
-10015437
+10598657
 
 %MD5SUM%
-df5dde4a0655fa9dc8783f729206005b
+ba99b7270aad42303836155781c2e014
 
 %SHA256SUM%
-25c48d093fff670abb8bddd05749fdfa0bdaaf9a96a3a9659e316592f5b4ff2c
+bd67bf2c2cfe1727f50aa550da22ff529ba5c3f451398f4f9bc961d14e8888b9
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmUdh5AACgkQFQwgB0PtRtgXVwgAz9V6kzdjD1mJgqLvOhfyLHm4fLuB76+7Q0ipvCUh7KreXnqd0cyAxoqsYCOGdoWxbqbSTe4brWccQaYllk1XzLnS/yJFeaOYaKN6A9syc/xz3wVqWh1rXktoqJ/abYcP7vGkECYgMUfvkBTWoiwXTSqiAjXLZva5550dDS6J6SKiHuTDM2/pbIgYckmKiAGjz663GLMqOKYPDK7LlYpUhSX/WBPU1bQntIwlL8rVAwU6uLqkSn4e6ro9z26IEhGksfYtYfB2QOpsI5ZKSIahOpKZZmeTES8AA2kBAjoWJC1k1uLxvXyvr5stKp1LcOVOcJ8ljLdQQufzju+hRfCAeQ==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmV6hOwSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+7VEH/iJpp060dwL5qrQbhgbAuLMYBK4B78t9KttNN6CzSs0H45/VxXW7GyQTs/lJqA4hKS/9DeEYRbhNOT5Jl8yLjsL+38+P/A+B2uu/11UowHK2yqaCJQJcS83Z+fOTLTb9YOXhnxEg6zD82T40mYYnO1gLhJj0sDewCAxM5dMv+aAlcUXI0s5QZ0dbaRKPCyxwjmXQ7s7CeA0PqQHrN06Q2ngMnY8fZRFXTbQ04qS3dYCLxW8h+TC6Tojdg9+j7lNTS4Q9GZjhILRv1hHTRpXLfrmFdh+egOS4WRYOwwQ9bzRFuYJeLn0RRhrr9MZV7C0oqhKKAFo4fHa2eXO7yVteAh8=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,10 +38,10 @@ custom
 x86_64
 
 %BUILDDATE%
-1696433584
+1702521018
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Müller <philm@manjaro.org>
 
 %PROVIDES%
 vulkan-driver
@@ -54,6 +54,7 @@ libxshmfence
 llvm-libs
 systemd
 wayland
+xcb-util-keysyms
 zstd
 
 %OPTDEPENDS%
@@ -82,6 +83,7 @@ spirv-tools
 systemd
 vulkan-icd-loader
 wayland
+xcb-util-keysyms
 zstd
 clang
 cmake
