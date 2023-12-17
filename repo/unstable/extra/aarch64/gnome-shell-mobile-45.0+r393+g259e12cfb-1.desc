@@ -1,5 +1,5 @@
 %FILENAME%
-gnome-shell-mobile-44.1+r326+g9b7df11f1-2-aarch64.pkg.tar.zst
+gnome-shell-mobile-45.0+r393+g259e12cfb-1-aarch64.pkg.tar.zst
 
 %NAME%
 gnome-shell-mobile
@@ -8,25 +8,25 @@ gnome-shell-mobile
 gnome-shell-mobile
 
 %VERSION%
-44.1+r326+g9b7df11f1-2
+45.0+r393+g259e12cfb-1
 
 %DESC%
 Next generation desktop shell
 
 %CSIZE%
-2390248
+2943048
 
 %ISIZE%
-13290609
+15941762
 
 %MD5SUM%
-b727cff39c3c05ee608a0a358f7e4166
+70f8d33e15e3cb538d9082170f2cb67e
 
 %SHA256SUM%
-0e51b306810be07fadf4bccad4bb9084bdd48e2d2d4918c94c4de34a4f23ec48
+e12b6d1bb28d9356446813c36737733a4d6f97f25a597735c8537df53c344ec8
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmSe5m0SHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+yqEIAKWLifySf99JOxf43RjcP6Zpy80i1VQ5nLhsOLFvLRU+36hO4+WmtIh9EgvPwb2furlPW8S1MwEo68ILZ7GZyT8lnXjC9ZNnIjEvRDCVZiJrg/e55lEJMbbdBw2oR7rO9PN2AoOYZo7ytfmIENJ24qoaPr5OaqKMYhCXo5B7RyyiNsOMpjH6Jt18RxljeOXEwvN+aTSJb2RM04jhgA/voph4FILISYxs2iJT/nAG+J5w0XrlmIxDo9Mj0zBtwCXRvFVIJFOHWfj6wrr48njnXefgsb8iySepwT5Tyb6aQmUs3aHgMZxo3Ey/gUjCKEfi2koAwSFr0WtJPXaPgxRXLy0=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmV+3ssSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+ESUH/ApkzU/VjWq1cNoIkCGGD4tvxB5GtSrDlompGv2UrEIQO958q2eJAVGhsXsYg5HFRSW5wJQbjUR6p/TyUrKvnxfS6XnHZH/tBJdBmVfRq74VpvLNsPBHRat/Q+ES3W/UcACuPAcsLBM/7oion68fa1wBoParWiuljxJuB1jJf1k+mUcIBi9aSaHpI3TYqmeGO3epTMalHgO9PCtrDx/4l/fTBQaPm8eWjck1eBb8CmaUzJeIH6iKX6pnLz5ewI+hiO+J+Ga/xRWxHgKWCZJd4Ajip+fP1JApt0qRW+THG6iEpNuCL2trJyhT6S2cDyIpB1kPrUfSKSc8GWU1qz+wxT8=
 
 %URL%
 https://wiki.gnome.org/Projects/GnomeShell
@@ -38,16 +38,16 @@ GPL
 aarch64
 
 %BUILDDATE%
-1688134825
+1702813033
 
 %PACKAGER%
-Unknown Packager
+MNJRO ARM Runner <info@manjaro.org>
 
 %CONFLICTS%
 gnome-shell
 
 %PROVIDES%
-gnome-shell=1:44.1+r326+g9b7df11f1
+gnome-shell=1:45.0+r393+g259e12cfb
 
 %DEPENDS%
 accountsservice
@@ -69,7 +69,7 @@ libsoup3
 mutter-mobile
 unzip
 upower
-libmutter-12.so=0-64
+libmutter-13.so=0-64
 
 %OPTDEPENDS%
 evolution-data-server: Evolution calendar integration
@@ -79,6 +79,7 @@ gnome-disk-utility: Mount with keyfiles
 gst-plugin-pipewire: Screen recording
 gst-plugins-good: Screen recording
 power-profiles-daemon: Power profile switching
+python-gobject: gnome-shell-test-tool performance tester
 switcheroo-control: Multi-GPU support
 
 %MAKEDEPENDS%
