@@ -1,5 +1,5 @@
 %FILENAME%
-vmaf-2.3.1-1-x86_64.pkg.tar.zst
+vmaf-3.0.0-1-x86_64.pkg.tar.zst
 
 %NAME%
 vmaf
@@ -8,25 +8,25 @@ vmaf
 vmaf
 
 %VERSION%
-2.3.1-1
+3.0.0-1
 
 %DESC%
 Perceptual video quality assessment algorithm based on multi-method fusion
 
 %CSIZE%
-420351
+405863
 
 %ISIZE%
-6845546
+6699466
 
 %MD5SUM%
-650699ec4117769b44e43f9c2df820d9
+6ff0179e071cc7434a1e65af13836ece
 
 %SHA256SUM%
-7b490821ecc4227b6752c3575520c265949c0e0ebcf863699f295205d2e849f5
+ffe67b85691ef6160376a2776dd549ac11ff9314ba9a7be804309b8b81989134
 
 %PGPSIG%
-iHUEABYIAB0WIQSAJH2Z6r06TR46GDboW4aD60i8lQUCYlbpCwAKCRDoW4aD60i8lRbcAQCus71WCsTsuf5Yd+ydtVYzuYUkSFtLJpVSgGPrwKVZzgD/UnJ16hTUTu9AikJ6EwA+TxCEycZKC/Ney/KIKzBRlwk=
+iHUEABYKAB0WIQSAJH2Z6r06TR46GDboW4aD60i8lQUCZXTUkgAKCRDoW4aD60i8lVDbAP9CBnzTWvP1w3bD4rwAOqzg8XQ1Q9ztO6oJq0W3jm1XUAD/VaGCeb3GXqtqDjsjBu+s0/LWxHIKDnZ8TYBNwOaaIwA=
 
 %URL%
 https://github.com/Netflix/vmaf/
@@ -38,7 +38,7 @@ BSD
 x86_64
 
 %BUILDDATE%
-1649862818
+1702155091
 
 %PACKAGER%
 Daniel Bermond <dbermond@archlinux.org>
@@ -49,6 +49,7 @@ gcc-libs
 %MAKEDEPENDS%
 meson
 nasm
+
+%CHECKDEPENDS%
 vim
-doxygen
 
