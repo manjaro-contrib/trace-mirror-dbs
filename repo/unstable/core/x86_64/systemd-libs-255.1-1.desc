@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-libs-254.7-1-x86_64.pkg.tar.zst
+systemd-libs-255.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd-libs
@@ -8,25 +8,25 @@ systemd-libs
 systemd
 
 %VERSION%
-254.7-1
+255.1-1
 
 %DESC%
 systemd client libraries
 
 %CSIZE%
-1325756
+1349395
 
 %ISIZE%
-2831004
+2894450
 
 %MD5SUM%
-7830f8f2f5d0f530c4242645693ed50b
+dd5e1fe2fe3393935255928db3a537dd
 
 %SHA256SUM%
-53e4de7b4a74ab96b119dcb1febc2cd37fdd6913790d96805ef35ef22282888e
+81a98450a1d28f907eba3a1cdc0d93d2d6b2dc9e694ade7ba86226a378fce816
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmVrZ6sACgkQFQwgB0PtRtit7AgAnuQW/3gKTlcW+r1GulQgPO+VR5cWm2FVm+D7AT7PSh3zMn67LDRIA78Y7gXU92gtFQqcm2OVVXFxwET+IbO609gfkLSPy6GJSOfBiIGSu3J8g2WLPAOEFU39ZH78LrwJ562J5mRXp0QHIzLeprhPWL/xOOn8Weepi2Z55d4WDcM9sFkluEPtcEDSBjT7/CB9l3yF/r+320ah2n9CwbE5HpGgfKGxLJxAVqfV3n7IoZLea4IgqV42RBJw9F+ZrJHs+ol/gvo8uRjp9VTzjFuduXZnB5XrdnARn/nAa+rIS/ef3sI5dEh37JKM6amcHC0zT/GQOPGuiNi3fPqTYgohRA==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWCoDYSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+2m4H/2yARFI8uJgLlkpkIu3JFO+LJg2wpP49lkPBqynIb0xhz+aj4x0BGrz9KiwsYt9GRMTzLlFlw/0weky5NcRavSFcQkl2t1aGCrXiwvu01g4V6yXib4AiNsyb65RsqFssjOBRFAj8KNeKl1+MXSNfrKjqRuEnOABKpLT9tg4MUFOCFHW3n4Dh6XF1x0t+jGjaiT92yDGxXWIPVCUJVaX+FFqS1XFY/op9oGxO+gfhJ0HAub8H4exbGir376EK23YcjMsZaL310s+O0UHVInif6qk9kJqN4rFUdTE1y5d7kk5AnY83FLyNtlH7KECqgB2NgX2DFOo2YQAd/Rlgxa326Vs=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -38,10 +38,10 @@ LGPL2.1
 x86_64
 
 %BUILDDATE%
-1701537485
+1703057719
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Müller <philm@manjaro.org>
 
 %REPLACES%
 libsystemd
@@ -107,6 +107,8 @@ llvm
 curl
 gnutls
 python-pyelftools
+libpwquality
+qrencode
 lib32-gcc-libs
 
 %CHECKDEPENDS%

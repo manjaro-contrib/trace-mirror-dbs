@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-resolvconf-254.7-1-x86_64.pkg.tar.zst
+systemd-resolvconf-255.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd-resolvconf
@@ -8,25 +8,25 @@ systemd-resolvconf
 systemd
 
 %VERSION%
-254.7-1
+255.1-1
 
 %DESC%
 systemd resolvconf replacement (for use with systemd-resolved)
 
 %CSIZE%
-3513
+3559
 
 %ISIZE%
 0
 
 %MD5SUM%
-27c1ccd304bf3bfd15d154076efe7c6a
+bc67391d58c30c39a5e4c2c8d7c5bcb8
 
 %SHA256SUM%
-722b1b4777b8aceb77ef96909f73cab94fdb8e5dffb13bfd5a2095c1639d13af
+301f7231fe7eca2d78ec8766350aa4230f683b86c19f4189ebfa2cb0f171acbd
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmVrZ6sACgkQFQwgB0PtRtgg7Af/VCZL5Mi2uzncFYirZRZrS92WP0TTDUOfxGLUn1URYArfuriYROO3M6p4TBEkjn/6L2h/4E051t4szbI5rIqA7b73OB6eXG2gv/iqlXiwEYZyXxQA0FSwsE+xWNc/NM2OI7X7eO/zOaO5XpDgx8TOg8X3tt4L4hHIUv4mrNiFRVvwq+Yi7CMmDnu2jvNIfYFDsEIhCNay170o2YDUTieRRTe7QpzzZKj24a7fcOApXk5EZnUVABte82k4cbIatGcAWu5FD4CmL8U12qgQ6KCBtiJD730gtPWPCrdkaJTjkQz6b9Fz2wSF7jTdciqYgqN3f6K7NgL1rg0h5KpYFYxhAg==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWCoDYSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+eUkIAIKVMkotXtGDcP9CabB2aws564vQ/Nx7MYPKQtwiAKPVX1jEXR9IH9t4pVWrOUyKwltd/dAZLVs34m/dxWqjCflTpjHL4A89T4Vd04TCZ22Jhrg/aIgAlMXB1RRizLR9jfpt9nlv51dYB/0wGaoKfai1JjtfUds9JYMokGuE1byGmKIeyL5U2dxgpd+PAjM9pH4GwsB+iBjjWzHh80kXiVwn8R9u8HASPheZ/ziRbh5pot5koDicgVyK5NB8JaAwzET7QGUtVwIk0t68yCn9w/lpYW2QKFB6bCZ5G7SGcryQHFBTU9XZv0KEnRt/O0V+ZbMypsMYqVLvFlkoF/GlveY=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -38,13 +38,13 @@ LGPL2.1
 x86_64
 
 %BUILDDATE%
-1701537485
+1703057719
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Müller <philm@manjaro.org>
 
 %CONFLICTS%
-openresolv
+resolvconf
 
 %PROVIDES%
 openresolv
@@ -97,6 +97,8 @@ llvm
 curl
 gnutls
 python-pyelftools
+libpwquality
+qrencode
 lib32-gcc-libs
 
 %CHECKDEPENDS%

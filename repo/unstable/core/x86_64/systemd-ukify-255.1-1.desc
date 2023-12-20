@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-ukify-254.7-1-x86_64.pkg.tar.zst
+systemd-ukify-255.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd-ukify
@@ -8,25 +8,25 @@ systemd-ukify
 systemd
 
 %VERSION%
-254.7-1
+255.1-1
 
 %DESC%
 Combine kernel and initrd into a signed Unified Kernel Image
 
 %CSIZE%
-26622
+31773
 
 %ISIZE%
-55936
+71541
 
 %MD5SUM%
-f05c95dfc7967ad8f760c2185127ee96
+19ab15070455667e9673191ccfb4f864
 
 %SHA256SUM%
-006a40b912523236f15aecefdaf4121a0404b89b8f0fd387f2a214a3462ddc1f
+de993dbdbb78837aa9af3f13d3d2dbd0b40c2d4786acad2c9b47dbe903d72ee7
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmVrZ6sACgkQFQwgB0PtRti0UwgAnne15NROkeSZkad1TZxwOR2FEj5u402KZJS82QYkwAmcPxtw23cfuGxk8y1bFDhWA4H/LVs/gXz7gSuSZH0ZtmtlrszT+s64i61UopkXZmSzVmkZSf9ZMVEgQf/jErPyE3o4Nr0aBv+Iul32AwJBEs+8d0cr3tVXAMiCWC3kNpO4ViCPjBXIhOydqkxMq1a9XOKzW9A03MHjRm8Ial4qfZi7LzpKQ+jf+aChJzNJyMBaVlHTa1/klVtIhGzcMVbfWx4v3pD8i+DztAs6UDq2ldHwS2L8zk2f8WdqdSyxlFTdNtp7i7/zfGhiI55lgB7YOopjw8rcPGGSPK6y5ib9bg==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWCoDMSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+U2wIAINoXOks3wndilJKuBg0mhAsYVnpaaRG1SfAfF4+KzfqtdqmHGapmFbYbRziVS4qLETGD2n3dCiGQtAPYE1qbnS7OyYUdIw084FiQICAEaiIb1qEJp77Dds8DID/O1F79SacvofWdi12L1BvDZV8LJySG+VWo4qwyp4P/alqXshzyfGqGEG9nq30bjl1MqKRnc0g5Ok1akZON0w9KEZfIhyotXuFmpA1bkikuUGYT8tvtKTkwJftzNmCfvp8vjhHTHpQ+7pM1IjhvBmRk869Xz58LAp09QV2Omn2liTpsekyceiJ/6Wh8tWIuYFT+kvHS7RUKk7/7NiSPrW9C94J6Fc=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -38,10 +38,10 @@ GPL2
 x86_64
 
 %BUILDDATE%
-1701537485
+1703057719
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Müller <philm@manjaro.org>
 
 %PROVIDES%
 ukify
@@ -100,6 +100,8 @@ llvm
 curl
 gnutls
 python-pyelftools
+libpwquality
+qrencode
 lib32-gcc-libs
 
 %CHECKDEPENDS%

@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-sysvcompat-254.7-1-x86_64.pkg.tar.zst
+systemd-sysvcompat-255.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd-sysvcompat
@@ -8,25 +8,25 @@ systemd-sysvcompat
 systemd
 
 %VERSION%
-254.7-1
+255.1-1
 
 %DESC%
 sysvinit compat for systemd
 
 %CSIZE%
-6833
+6929
 
 %ISIZE%
-2673
+2714
 
 %MD5SUM%
-14cf3d0f1750c173cf4769a659528ee3
+d92b65a32bf36d608642235184aaa3a2
 
 %SHA256SUM%
-2e01288d4bfd71130eedc385a0a7b79541588960b1f1b800d876f40e49eb4eea
+4d266cc53616ec64a7f81d0256f48e6ba3ed18995ad9d9c634e7494f07bb48c4
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmVrZ6sACgkQFQwgB0PtRthRoggAm++69CkUPA54gZg45dwxPX3aGxQZDmNJOOxzH/zLxbVb1ZxRI+iUgaB99RHhLtOIMBtRjcwD7ZKiW7j/0gwG2uwjzl7k6sVrT3XrIF/pwV4bIS51WDOlZVLQ7P4J8F9QYQcx55sujTf7k6Z/PRVwvUlVFnQHTXDJXRSGYeN5S6Hxsm9GECAdIgA7xmRdz7E+fHQOu5fb+CcUi32atUZtykM3i0dLfbdX4XKJhO+uHVdZl0bxrT0SqpoZffhSWDJbw+mMVy/vVogVxjVNz2JFLTNOtH97z8Wsp5PA0QigWa305okga1MLbkUNhf6vYArAT02VVr3LC/0xNTcqS+HHBQ==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWCoDYSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+S0AIAMFEuzkedpMfWmdcTl2vv5kSvwcMCaSnj6UIaHphQxI4cckaMAGpwchQArmVDlsXQNzqc8AXB3LBz7xx07U7aO1besPWRPP7U/FnnWjcFPrWdUiTsj02V69LwdWOJAjzPnwcyHBqTHBSfPMY0fFROoT4s0pcpAvG4ilPbdM9grYO9VZDlKJ9kv6SHqorVR7TY5HjdGcR6be77d05nIaGB94dlnCEjce83G2ES9VKFUSIX84wTe5EoEfpriloidocp38kgNzc2dB2bKv4HaIJ+Ya+qch5IdYGbG5AJFBVg+PvS23Iq611SMz0UDQNKbJZI5y+IhOxxJNBh2C7DaNHG5A=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -38,10 +38,10 @@ GPL2
 x86_64
 
 %BUILDDATE%
-1701537485
+1703057719
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Müller <philm@manjaro.org>
 
 %CONFLICTS%
 sysvinit
@@ -93,6 +93,8 @@ llvm
 curl
 gnutls
 python-pyelftools
+libpwquality
+qrencode
 lib32-gcc-libs
 
 %CHECKDEPENDS%
