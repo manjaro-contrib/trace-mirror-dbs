@@ -1,0 +1,79 @@
+%FILENAME%
+pass-1.7.4-4-any.pkg.tar.xz
+
+%NAME%
+pass
+
+%BASE%
+pass
+
+%VERSION%
+1.7.4-4
+
+%DESC%
+Stores, retrieves, generates, and synchronizes passwords securely
+
+%CSIZE%
+20264
+
+%ISIZE%
+47704
+
+%MD5SUM%
+38e23c35a53fea07156cf5250f93c8fd
+
+%SHA256SUM%
+f286ce98c1aaef310bf17522f1a3c2dda9c2c933332f8046441ba802f81a98f6
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmVmqmAACgkQdxk/FSvb5qZjaBAAwee7BUu3AFntMt/vTQWkeOZKYd58gJ202L+H+kh3hRuJ8SACvvqjANDVi9IhTF7neSDRhCYgRlbijQGmgRCs5o77b4iZlk032YWIL+gLpc65KabyCakDGPxCTInwGgCOHrHn+r7sfPAdbgdFNbKxgVJcaRhuVMHcP+gct819dw3bBqUO6g0ttZe/M+8xF8lrX3bwmYfm10qIVpLEABKXzLHTYMbPhzjnEssoWFqpVIrCxhKWg363Xnznjy8hkU0fzs1JKIUSUqcTvtV9JoMa8ymQ7a35ik6UuEM4as6Ja/foIhy55HXud8xV58eFwqWetOefrYm0gYe2PLqOhttfTIsWot5wOM35KzHWn2kwSmlOpjW6wfbw8b+PHjlJTQdyf9JYkqNh9BmR65JwvBGRzz5mmmFAfaRo4GiuDw9yEK9e5oagei1LQhLeJ4IechCgLNcdonHJz+D6zFDRhqkGI94vnu8MGKxb8Eawd+uXBsxbFg/XImhIM6Rj75faEod49YZ6usoSHFPeOjyJyX/fvHci8D+WLsVFAO4cacQw6sgpN2SWYuYFTcMezFnAM/lu7i+ysGnoskAWvbYF6sPDHc4XE/F+eF9BVRkmLnZxA3juFDdFHtMEZMZPOGg1JJUkjxmnLC4AmqYC9zpK2XUiLW4iUBx/w9LRa0FefPfuVCI=
+
+%URL%
+https://www.passwordstore.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1701227097
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%REPLACES%
+passmenu
+
+%CONFLICTS%
+passmenu
+
+%PROVIDES%
+passmenu
+
+%DEPENDS%
+bash
+gnupg
+tree
+
+%OPTDEPENDS%
+git: for Git support
+dmenu: for passmenu
+xdotool: to type passwords with passmenu
+qrencode: for QR code support
+vim-plugin-runtime: for redact_pass.vim
+xclip: for clipboard support on X11
+wl-clipboard: for clipboard support on Wayland
+pinentry
+gtk2: pinentry backend (gtk2)
+gcr: pinentry backend (gnome3)
+qt5-x11extras: pinentry backend (qt)
+kwayland5: pinentry backend (qt)
+
+%MAKEDEPENDS%
+git
+
+%CHECKDEPENDS%
+git
+
