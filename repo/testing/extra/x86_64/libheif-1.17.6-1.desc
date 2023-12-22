@@ -1,0 +1,71 @@
+%FILENAME%
+libheif-1.17.6-1-x86_64.pkg.tar.zst
+
+%NAME%
+libheif
+
+%BASE%
+libheif
+
+%VERSION%
+1.17.6-1
+
+%DESC%
+An HEIF and AVIF file format decoder and encoder
+
+%CSIZE%
+380749
+
+%ISIZE%
+1279531
+
+%MD5SUM%
+d28cf40e6635bb720e50c26480a86516
+
+%SHA256SUM%
+736933c5956c3205ba253988a4de899a1e9e9b5b57cdb6dd7ca4c920c96978f7
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZYLejwAKCRBtQr3RFuAGj1DNAQCGTPk7c8I7TEU02VUTg6aI1nNKEcxGgEBgvCAGFCtLigD+LWcso9U4EWRGml+PVryATjgW1b8yqYv8zJfdAudraQA=
+
+%URL%
+https://github.com/strukturag/libheif
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1703075403
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+aom
+gcc-libs
+glibc
+libde265
+libwebp
+x265
+
+%OPTDEPENDS%
+libjpeg: for heif-convert and heif-enc
+libpng: for heif-convert and heif-enc
+dav1d: dav1d encoder
+ffmpeg: hardware decode
+rav1e: rav1e encoder
+svt-av1: svt-av1 encoder
+
+%MAKEDEPENDS%
+cmake
+dav1d
+ffmpeg
+gdk-pixbuf2
+libjpeg
+libpng
+rav1e
+svt-av1
+
