@@ -1,5 +1,5 @@
 %FILENAME%
-grub-2.12-1-x86_64.pkg.tar.zst
+grub-2.12-2-x86_64.pkg.tar.zst
 
 %NAME%
 grub
@@ -8,25 +8,25 @@ grub
 grub
 
 %VERSION%
-2.12-1
+2.12-2
 
 %DESC%
 GNU GRand Unified Bootloader (2)
 
 %CSIZE%
-15814768
+15814692
 
 %ISIZE%
-50189279
+50189056
 
 %MD5SUM%
-8ffecaf7d484d45681ab3edf66eccf20
+d534608d6069be17b826c2f66c02071d
 
 %SHA256SUM%
-f3e9e86dd1c75021ecadcd9521e6f48876189eb88c2338e9bd960392aa89f682
+d49a09bb8f0b5b3cf75b30780e0718a1514e3daa66940ae703da89b82797176d
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWDpLASHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+qC4H/jw+FynEvPcvsbqc6A5WBEUQoBhhyR8vs5nnGFrIf7l+2M3PSuXlAQdDAVHLg/poiLQeu4FYxbASqnr5M7qkfWVh//YgA3J6O77dO7aLfP5mHqc8flKoGp/JFZynfmUjwWO2zO7ngbxlgZa8GJWmJvLL2Chts3yWT2mbdkyXs162DlcdbSp6FpaYhXEQX3jzqd50OUSa+boJWUnNIhx+Bh5lABRszeK3P8XcQJVJpqHsYRFvgpC6BCQKxXGlx2Cc8AN2HE6l0doy4g0slEdR+dwVlefV0714/hdcr4zdObGboyW8/Y8yBG5elLy6389aLGS/4WsnYiV5ePXI6Rw8fP8=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWFLTYSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+DHcH/jeqUvtWaivSpZgdEWIDNMrHA5TI7pl5k8P4V5mbe9MKQVpgnIt0Vr3PIrwmmUlt6zC+JEKLtcVTPWNdEtz/ri/o2i4A1b+kcoCxcr0gHd/TAZFf7Ln1Fd4DrVKB9cYfc4acMr4lX9kPsJhLTsMQeUW1KvrJdNA5ugT0IgKp8vSFQAkFgtwHgOBjcEyBdISLnO0TgByDmr+x5e6eQDWR/Iir0NLUaMdiwv/h9QKQRcb57zAz6vdXNXUakt4uoBwHVdxw5Qa3ON3JDggjfDH+7j6hlWuIQZxI5L4txY6quFAikD01m9juKRtB3gzsNU2QlQnK2SWF1GCWEfTnMe6VyJI=
 
 %URL%
 https://www.gnu.org/software/grub/
@@ -38,7 +38,7 @@ GPL3
 x86_64
 
 %BUILDDATE%
-1703117546
+1703224401
 
 %PACKAGER%
 Philip Müller <philm@manjaro.org>
@@ -67,7 +67,6 @@ sh
 xz
 gettext
 device-mapper
-grub-update
 
 %OPTDEPENDS%
 freetype2: For grub-mkfont usage
@@ -78,6 +77,7 @@ efibootmgr: For grub-install EFI support
 libisoburn: Provides xorriso for generating grub rescue iso using grub-mkrescue
 os-prober: To detect other OSes when generating grub.cfg in BIOS systems
 mtools: For grub-mkrescue FAT FS support
+update-grub: Script to update Grub Menu on Linux Kernel updates
 libusb: For grub-emu USB support
 sdl: For grub-emu SDL support
 
