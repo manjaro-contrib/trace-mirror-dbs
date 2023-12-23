@@ -1,32 +1,32 @@
 %FILENAME%
-kodi-20.2-5-aarch64.pkg.tar.zst
+kodi-gles-20.2-6-aarch64.pkg.tar.zst
 
 %NAME%
-kodi
+kodi-gles
 
 %BASE%
 kodi
 
 %VERSION%
-20.2-5
+20.2-6
 
 %DESC%
-A software media player and entertainment hub for digital media
+A software media player and entertainment hub for digital media (gles renderer)
 
 %CSIZE%
-43492826
+43457551
 
 %ISIZE%
-89445054
+89248094
 
 %MD5SUM%
-b6164f52a27693b4b90608f3fa68f605
+b7ea8014416596f32b25f07897e4ad1a
 
 %SHA256SUM%
-1443e04ef5424e096f55395121623f8dcffce48d429dbe429cadeaf4689adbac
+4259703d56f05e3502b2bd6f9d03cd04334c4e3b0a28f1c08e0f0a4d34549e60
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmVYvFQACgkQHzWBGKB6z1dL2wf/WDsBPXbQYjr2FtiTwtX1Wvuzmlo48wMGLjtmRDTNUjk13f/sYHoiDeMA9BieA6thmBhAWDajeJwnWEN5G12bca6bc8JETlpolte4sCJd1aUVUVg3OHBB+CjJvDKK4rFvF8fn0clhLYJkxo+BbtQVoSvBC/+1cOheO7yGGPlLkeQB1gf+V/l0/QUHolJaDyYpgrl7NRrCZGQ9vIwjfGIU0sqS2wjJCerxs4zOo08Wh7k7dmqrCfSbTBOvUBxu9TcYiVKAU3fDmoVZr2zbdUoIZvbcTti+G6HIKAdc3rGICFq10z8a4NGaGi7VkXPV7fpabUXp5DDsbomnyTi+Xfyxhw==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmWGrbIACgkQHzWBGKB6z1fh3AgAqU65A77rbOuh3eZlxVVDDCEh75VRfLOoVF9YgxoENTNqV7/Jy24BjSIAw1LHlOttqPUkm7GPaZT1De910fJFiUaHwjEQm0OGN4SIln0F9eDjwv7bdbBvioBXKkCfszV+dv8+6grS0YR36VhTqJfvDv6CqhqTe0UmUV/MtrxQmSA+7+AwsDDbHXLEICO/leTTgI302H36OuJPkhVQYx1bma9gb9ik3q99+KPRELZddyT28fEmU0diFsDD112YReGnSoN7OEi2tYzleuBtujyaeaZeSUA5KI4P6/hTCW74/5LPqeMsGOu7NwF2VFx/i46yvarSdpPz2yqnIj1WqYiDmA==
 
 %URL%
 https://kodi.tv
@@ -38,24 +38,26 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1700312112
+1703322324
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
 
 %REPLACES%
-kodi-aml
-kodi-rk
+kodi-common
+kodi-x11
+kodi-wayland
+kodi-gbm
 
 %CONFLICTS%
-kodi-rpi
-kodi-rpi-git
+kodi
 
 %PROVIDES%
 kodi-common
 kodi-x11
 kodi-wayland
 kodi-gbm
+kodi
 
 %DEPENDS%
 bluez-libs
