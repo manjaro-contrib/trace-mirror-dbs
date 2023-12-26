@@ -1,0 +1,61 @@
+%FILENAME%
+xfsprogs-6.5.0-2-aarch64.pkg.tar.xz
+
+%NAME%
+xfsprogs
+
+%BASE%
+xfsprogs
+
+%VERSION%
+6.5.0-2
+
+%DESC%
+XFS filesystem utilities
+
+%CSIZE%
+1079664
+
+%ISIZE%
+6505546
+
+%MD5SUM%
+fea3dcca5477f14d6fe53a6365ca4f84
+
+%SHA256SUM%
+6c8eb719a228ef8bc325dcdb39f34a33dfcfef822952f069a9d6e6ffed16b8f7
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmWAhssACgkQdxk/FSvb5qaBHxAAnKOuQc7rABDUCYlCPuLC7xuQwyl+kWFQQP/8BvbxotD5CoddD6zbAIrtkaSKRqrBa/XAP+S3v8ksFFZ4XazGev0uINX0rbrZ9mGVOIc0fLt64v4v5FjXGlHZwfqowSA9RKOqbWV8ubF/S3ffU8kI7KeIt+Q+eEVoef1ESM5BSCKXiPBAwDXC2AponCN9h7dgIoYywW93ROuGw5ssMaPHL87Ta9V5VHFcnXMPpvAloOl5nwm60RhGO8pfsDv6VLJTyNKpX5zJeBmIyv3Q/xVqpo9TAio+JnYv3mXmBr0ECvz3e5AFX/fpJvS4AjLRnHN3X44L+XRDLy6Sy8afZYss8cnb3cBY1aaKw5iYCmrriBXXz11HzHtdO1QADpMwkV0D8/WbuvFJY2/75s1mMfpQBvctXf6Ukt2tTP+R3pxyE1bwzBwkGMmbfdLKxfC/8Sr7p0L4MAR1tYFL3FJVzix65b5Vhhph/g0Vcc7POLH8SPhDFSvJJcplJCWT2Suzg7fDcTQUIhg7XOGYNR/NFu+dLpyxAsF/e2Mx1JXt+0/Dz4iAhUhuyKpkea5F5GgnnkuTXaNncovDJe+d9qJu4yN8xj52OFy+wEbgqgwPATN7co5GIga4UfZI3zsxQOi4oZ6yfHpKYoYggtF3EqJUq3UaHwZf7BBD0n4NKXwfeNeJvGI=
+
+%URL%
+https://xfs.wiki.kernel.org
+
+%LICENSE%
+LGPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1702921732
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+sh
+util-linux-libs
+device-mapper
+libinih
+liburcu
+
+%OPTDEPENDS%
+icu: for xfs_scrub
+python: for xfs_scrub_all script
+smtp-forwarder: for xfs_scrub_fail script
+
+%MAKEDEPENDS%
+git
+icu
+

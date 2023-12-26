@@ -1,0 +1,65 @@
+%FILENAME%
+mkinitcpio-archiso-69-1-any.pkg.tar.xz
+
+%NAME%
+mkinitcpio-archiso
+
+%BASE%
+mkinitcpio-archiso
+
+%VERSION%
+69-1
+
+%DESC%
+Initcpio scripts used by archiso
+
+%CSIZE%
+15724
+
+%ISIZE%
+44395
+
+%MD5SUM%
+fbfb4c70348275d743b88c09a748aebe
+
+%SHA256SUM%
+81a7586651e39c5a509300761d2d7cf801a84ca5c339676dafb91c8fb8bc7c8d
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmWFuXcACgkQdxk/FSvb5qaT7A/+MjQ6knYhcL/jgZGXC9gmkWfzqy7i81ZHXbaMxwmtcngPwDJUPkwlU0rxsjaXhmb8GlIzCxBlErel14F0KF9fiEcxpweFnbqdpojyTTyGVjhOrHyF1XhrOU/zmPR0Hf1FdTpqKYzvZHt+BDCbEe0vs3kqPeYdOzOSdyrjmYHIUwwsdobdTxGqwsSrEo981bKoE9PD1x8/YUwdF0+CL9FODUoBcmgbDZC9fbeG405sNCdnoAFk73dOPimBjHBd+Iwe+OY0CxkS/FIrfPZ938fm+Z+UWcjlDurpLY3Tytt8tvLOVVN3hvHyjVIhSe803xehl8SJ16OUJCWRvmYXF5ZxoyBIOGMXTvrOZhE+oRV6ra4UDadDcHEB0+uOptZjgexZBUwKwcyCFDhcgI0U/GPqH4EzH7UAwIeHmmrzyyC0+MsvOY8r51uYrhft2jyhxXBt5oGj8+b8GP3mgiaN5VSK7YWEA+tAGQJ9VGgu7tFEf2AWOAk8HaRHsFauDJyQrlakd45NJcQM6lJ6EMrUqZ1mKhABIlxzgkwjyOdSg98fYCy3ZKDnqE4CJ+krDDcFBKy+eCWF/w/AZEoX+FXX2aJ+JNuo3hlaGBmsZvmdR4hJGbJ8/VmI8hGjqVPpoTjvP6BdLjGHsING9FAH53DYhDj1bMtYSmK02MSnUeWKnBS0pjc=
+
+%URL%
+https://gitlab.archlinux.org/mkinitcpio/mkinitcpio-archiso
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1703262570
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+bash
+device-mapper
+mkinitcpio
+
+%OPTDEPENDS%
+curl: for PXE over HTTP
+gnupg: for PGP signature verification of rootfs over PXE
+mkinitcpio-nfs-utils: for PXE over NFS
+nbd: for PXE over NBD
+openssl: for CMS signature verification of rootfs over PXE
+pv: for status display during copy to RAM
+
+%MAKEDEPENDS%
+git
+
+%CHECKDEPENDS%
+shellcheck
+shfmt
+

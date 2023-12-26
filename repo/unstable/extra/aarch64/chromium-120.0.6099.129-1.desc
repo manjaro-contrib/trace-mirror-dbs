@@ -1,0 +1,97 @@
+%FILENAME%
+chromium-120.0.6099.129-1-aarch64.pkg.tar.xz
+
+%NAME%
+chromium
+
+%BASE%
+chromium
+
+%VERSION%
+120.0.6099.129-1
+
+%DESC%
+A web browser built for speed, simplicity, and security
+
+%CSIZE%
+84614348
+
+%ISIZE%
+318529341
+
+%MD5SUM%
+32632abfac2909101192993e2eecd06a
+
+%SHA256SUM%
+cbe572c2e07ce87b07b864ea23678e94fdc695aaccdf62d4bdcabbad0cb18162
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmWEvgMACgkQdxk/FSvb5qaWgw/+LyqsTqq+SObuVRoKPKW7uIqmLwvHbGkDrTm8CW8eDdUuF55rHuu1SU1BxNaIFRFeDfaXZnN252MCxWQNN4beiSqXZCvjtlG4QGhJOWPl6xCM/BjV1ZDoxu8XYxq5f3umf5iZH6UaIq5pidNkj0Y9KIw3FRSrHyPrjejdbwnbiw76b3pVE2mpneKI4jBV8Bu497zzAiDnUtyts4fqRMwlbieoDaoIrzCdoIohZBNR5NXisEPZA12/CMPUExe0ULPC2anJ+Zp/OuQsGUe7wrHadFCUFIGMJwNoeDK/3cmVvz/x+R2XIWn6qYA9ULKsBa2hHigyF/DEmXaelU2zgQgq9Q1oEZdo2TZ6ZmOyn3nduKzym1cHPZrkj8JsyKLuKAkFmg8DaTDILyV/gtqfnUvwnN5iSxBsHwXR6MRvypH5pqekgZ/jtluR0vZi2Ie4djU64IY8u5785ME+0JR0iGQiO2FAuVZIuSkNJXDcHsvLMRc6TyUv2LwvYQTLd8Dx6BjFX6UyiUyZzwLxkvGmqSDd4Kha4Pikx0EJ2aHgh659+36pBv3EVcsVLnQqk+oT57cyGaESGF1oxWan6w9nmO8bf/CdpSJZWzkkLHkdn3AG+tIq0MOsrxobLpTNTNUCmROjV90AK6JjG56xOhFs/V/JUteM/IxbwAdbh/6olFQCVb8=
+
+%URL%
+https://www.chromium.org/Home
+
+%LICENSE%
+BSD
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1703176658
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+gtk3
+nss
+alsa-lib
+xdg-utils
+libxss
+libcups
+libgcrypt
+ttf-liberation
+systemd
+dbus
+libpulse
+pciutils
+libva
+libffi
+desktop-file-utils
+hicolor-icon-theme
+fontconfig
+libjpeg
+icu
+dav1d
+flac
+libxml2
+libwebp
+minizip
+opus
+harfbuzz
+libxslt
+libpng
+freetype2
+
+%OPTDEPENDS%
+pipewire: WebRTC desktop sharing under Wayland
+kdialog: support for native dialogs in Plasma
+qt5-base: enable Qt5 with --enable-features=AllowQt
+gtk4: for --gtk-version=4 (GTK4 IME might work better on Wayland)
+org.freedesktop.secrets: password storage backend on GNOME / Xfce
+kwallet: support for storing passwords in KWallet on Plasma
+
+%MAKEDEPENDS%
+python
+gn
+ninja
+clang
+lld
+gperf
+nodejs
+pipewire
+qt5-base
+java-runtime-headless
+git
+
