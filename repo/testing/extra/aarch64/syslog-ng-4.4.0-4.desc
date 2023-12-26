@@ -1,0 +1,98 @@
+%FILENAME%
+syslog-ng-4.4.0-4-aarch64.pkg.tar.xz
+
+%NAME%
+syslog-ng
+
+%BASE%
+syslog-ng
+
+%VERSION%
+4.4.0-4
+
+%DESC%
+Next-generation syslogd with advanced networking and filtering capabilities
+
+%CSIZE%
+1366496
+
+%ISIZE%
+7313826
+
+%MD5SUM%
+c32b5fda89b599bab138a74933948bbb
+
+%SHA256SUM%
+bfdf9a3c9135fc4174c7eb419733db224123969e06c94e85805b1a6a670a703d
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmV87poACgkQdxk/FSvb5qZTjA//f0S0aO2ymmxgcm2pRsTh9rBRAY0LgDUaqHyDbQ0CLuk9EATu9BXAqizpPwOPy5A9jG8koBDSlwg311/7cl7zzHmQ/mDRVp+y0DEZAMFEvw/3KwPJPbhPrXyn9D+tYgrpoSkUHvMWpeKxOKzOzQLANjklLKecWAOe4uAeK/QEABISto0rH9LUoLRFyc2BzB6cweFw6eBdjOrNsQPU/TF8W5iLkPvtbhqjmub0duWeDh8hvZ+/oBTZchhcmutUtlW6GEmFk+23HumsC4qOF0SsKrSKvjQ7/eDdRQG3uaNFgSpD45m5G3h6ks1Dj+35IPP+wNf5phvkrnnfr+znXoVBp8tvEgFtIpOgO1l3HuV1tDWnJ++dOTrMmuqCLylbKGs9PBAGY9jmqpelJa3TjxrN35ALv3bHTF5Enxhx7KVlhm8MAxxf7Oow8Yj+1ob24KoYx+2KlE1f6u7kW7OYzMOXwxQr5TFZDHRZBta7egcHHFeRKzlywROwMU9dVcGhGpFm8YKlq43eikVetQi8MjQjsRUCbv1cTAZTH580Eo1/BrcLf6yZxzbBeuKwUpuEQ9DT6nv0YoAFd3YQ9HwLbIKQ523MgOgOw6V4EmuEl4un7rvmhT5vEHq/lYN9pFVceLG/rrohcjsBkJ59iS3m94liQ4rKMkMXPuKmWWQmFi1ul/Y=
+
+%URL%
+https://www.syslog-ng.com/products/open-source-log-management/
+
+%LICENSE%
+GPL2
+LGPL2.1
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1702686028
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%REPLACES%
+eventlog
+
+%CONFLICTS%
+eventlog
+
+%DEPENDS%
+awk
+bash
+curl
+glib2
+glibc
+grpc
+json-c
+libcap
+libnet
+libnsl
+openssl
+pcre2
+protobuf
+systemd-libs
+
+%OPTDEPENDS%
+logrotate: for rotating log files
+libdbi: for the SQL plugin
+librabbitmq-c: for the AMQP plugin
+mongo-c-driver: for the MongoDB plugin
+libesmtp: for the SMTP plugin
+hiredis: for the Redis plugin
+libmaxminddb: for the GeoIP2 plugin
+net-snmp: for the SNMP plugin
+librdkafka: for the Kafka C plugin
+python: for Python-based plugins
+python-ply: for debugger CLI
+
+%MAKEDEPENDS%
+libxslt
+mongo-c-driver
+librabbitmq-c
+python
+libesmtp
+hiredis
+libdbi
+libmaxminddb
+net-snmp
+librdkafka
+systemd
+
+%CHECKDEPENDS%
+python-nose
+python-ply
+

@@ -1,0 +1,96 @@
+%FILENAME%
+ansible-core-2.16.1-1-any.pkg.tar.xz
+
+%NAME%
+ansible-core
+
+%BASE%
+ansible-core
+
+%VERSION%
+2.16.1-1
+
+%DESC%
+Radically simple IT automation platform
+
+%CSIZE%
+3258976
+
+%ISIZE%
+22959300
+
+%MD5SUM%
+7cd54139daa3281a5d289397b3b571a0
+
+%SHA256SUM%
+b9be2663dae65044693e2327a58e3f8952930c2bc591c7770c65f3b214513a31
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmV0lxsACgkQdxk/FSvb5qbLOA//SxKrer9ajY/8uqdhYOv1/5R31es7LbWVmtEP+i4Zna9yHDaWJ5zMBqYxdKA61aDLVBZbqi1MO+YZmBXIDjH6E0i6pnBw7p+9efAchCIehozJxBlh5QXBGe+sOGlkhOn/iZCoCAZP3OQmJbXetK/BKEdqEhSEwaB41j4BQzv6BcA3+tryfYJKf04iP6aXIHri6llC/Edld57ycDf9ZIGombNy4CotoBZmPwIvw1ZDT4Ro3ZhahRSV54m2N1N2FZ5BatxNp+Pu3yjdOh6A0KedAm2Xkh37osZeKRtYzEaDC8NJEhnyootMY/sAXTiXhN4qCMtlraJk49KRHJ+uXWpNoThHDlEFCVy6y2VU5jDCvH4+x42ojXn5U/vDW6bu67wkY5rHfCwsKE4VtDHUvoGcnXL8ZHOBZz1L9cQ/M1ihejyKQBYzRgR5xWJhQiCy3ZL/LaQAKxYGWRsSzOc8qB4Nx5gM2Kwmo4RKG/VSB8bKj21KXLNDSDfNnVQDVfZ5a/dhLm2YYpclSn6U5N823pnsczpXymdDYNQqVasiIb8RNUQZxQqj1XJSlxARkOXH6yHjsRzzxbdP64Le23VbDASZs97xkCoeCqsdbwJ7kQCOiRaF+DBRxBN+CYoybyt6dwzYgKr2YOF1aPrtTLRat05YMbR9qTGDTnSZvW5UXcvWT34=
+
+%URL%
+https://www.ansible.com
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1702139612
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%REPLACES%
+ansible-base
+
+%PROVIDES%
+python-ansible
+ansible-base
+
+%DEPENDS%
+python
+python-cryptography
+python-jinja
+python-packaging
+python-pyyaml
+python-resolvelib
+python-paramiko
+python-typing-extensions
+
+%OPTDEPENDS%
+python-dnspython: for dig lookup
+python-jmespath: json_query support
+python-netaddr: for the ipaddr filter
+python-passlib: crypt values for vars_prompt
+python-pip: for module to manage Python libarary dependencies
+python-pywinrm: connect to Windows machines
+python-setuptools: for module to manage Python libarary dependencies
+python-systemd: for journald support
+sshpass: for ssh connections with password
+
+%MAKEDEPENDS%
+python-build
+python-docutils
+python-installer
+python-setuptools
+python-straight.plugin
+python-wheel
+
+%CHECKDEPENDS%
+git
+openssh
+python-bcrypt
+python-botocore
+python-passlib
+python-pexpect
+python-py
+python-pytest
+python-pytest-mock
+python-pytest-xdist
+python-pytest-forked
+python-pywinrm
+python-voluptuous
+
