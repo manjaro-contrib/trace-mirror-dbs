@@ -1,5 +1,5 @@
 %FILENAME%
-kodi-rpi-git-21.x.64802.339c6592a5-1-aarch64.pkg.tar.zst
+kodi-rpi-git-21.x.64854.d381b1f683-1-aarch64.pkg.tar.zst
 
 %NAME%
 kodi-rpi-git
@@ -8,25 +8,25 @@ kodi-rpi-git
 kodi-rpi-git
 
 %VERSION%
-21.x.64802.339c6592a5-1
+21.x.64854.d381b1f683-1
 
 %DESC%
 Media player and entertainment hub with hw accel for RPi 3 and above, gbm_omega fork
 
 %CSIZE%
-45380987
+45385457
 
 %ISIZE%
-93176630
+93176025
 
 %MD5SUM%
-ece5a8a12e06a431e74d1ddb04a5ba72
+509666c98566101d55755bfeb48a44b8
 
 %SHA256SUM%
-6be57a324e6218b66ecf807803a6dc74a3cf3179a650599ee99ac3fb24c03184
+1049a87a6952b9a22d9cdc8a228767583237229c0cc698c5ccddf00444ea0194
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmWGjjQACgkQHzWBGKB6z1fGLgf+PUYkiZMKiBf8dMqv+yV21NiBJ++03SkWJoNGqeIPan4k0m3g1leKZB5t+5LKYsrYxYue5RAx2XpRIyfstddXK7ey1E/JaJqfkh+sO6vrr2p+DBr/4QuOpxGuR/YY2jwXHj63zbUh6sY6JtxC52+V0jDMiwoVM5GMhVxW4rpc2XqkcUNonpfEbXOKQaja48HSq6TLSSFFhkenn5B7oJMbfcvvawsUU+9ELWfOsGSWdJA/WzbLBrNjucYTB9/HdciiAtJSFQPsV4GuESOHvCs700idka8v7CjTKdZ2T8P69cOlp3vzCsTM9rGMjZGBKAqlp6gLXTQgIMEKV5xyle6oIQ==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmWNdmkACgkQHzWBGKB6z1dbPwgAsd97qO4vnUMlHZaeChLiDcOWktdQkCqit0X0JIn7a7GNyBl/ivrfIBbyGQ76R/O5fXMjbHMK1gjzgvc0mQjaPIUcspQmEeDuv6ILbtnOsmTNKLn7CHalZFRxuIKY+2Aih6QDo9BLC83eOKuyU2LotOQh13Iq2zYngJA2riyLxUYyjgvb2oyvJ4XQpuOizcXS6xzWVvl+yqWGyOiwPcYiB8wZCB3Csi8K1y9O8yyzm492vJ/tMu4+CTbXBB5qGLZB8S4UmS3A+UP322bfSDw+En7TEB6bqSAJOvh/Iqv3QLVVOm18WqyIlULnFT18PdTyl5XYd+9bLfmBQGFGJ8994A==
 
 %URL%
 https://github.com/graysky2/xbmc/tree/gs-gbm_omega
@@ -38,19 +38,20 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1703314542
+1703766732
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
 
 %CONFLICTS%
 kodi
+kodi-gles
 kodi-rpi
 kodi-rpi-legacy
 
 %PROVIDES%
-kodi=21.x.64802.339c6592a5
-kodi-common=21.x.64802.339c6592a5
+kodi=21.x.64854.d381b1f683
+kodi-common=21.x.64854.d381b1f683
 
 %DEPENDS%
 bluez-libs
@@ -85,6 +86,7 @@ taglib
 tinyxml
 libxkbcommon
 polkit
+linux>=5.4.35
 lzo
 libinput
 pcre
@@ -94,7 +96,7 @@ tinyxml2
 %OPTDEPENDS%
 afpfs-ng: Apple shares support
 bluez: Blutooth support
-linux-rpi4: Pi4 HW accelerated decoding
+linux-rpi4: Pi4/Pi3 HW accelerated decoding
 linux-rpi5: Pi5 HW accelerated decoding
 python-pybluez: Bluetooth support
 pulseaudio: PulseAudio support
