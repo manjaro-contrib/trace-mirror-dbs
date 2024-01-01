@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-vulkan-swrast-1:23.3.2-1-x86_64.pkg.tar.zst
+lib32-vulkan-virtio-1:23.3.2-2-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-vulkan-swrast
+lib32-vulkan-virtio
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:23.3.2-1
+1:23.3.2-2
 
 %DESC%
-Vulkan software rasteriser driver (32-bit)
+Venus Vulkan mesa driver for Virtual Machines (32-bit)
 
 %CSIZE%
-2432967
+476748
 
 %ISIZE%
-8545497
+1199200
 
 %MD5SUM%
-5709a1d3d995dd8f05264e238af54ea2
+1bf0123a196112617f2b2f02aa0284ea
 
 %SHA256SUM%
-f1f9be57865c8567d793a9445e6fe38971ec8519377e159bbc47999546564ab1
+135e9ff9cbaa8761e065d7dce10f9879ddccc6fcb954cfa923f4a99189011d08
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWNilASHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+kk4IAIIMcNRnx2IB6uUGrQ9u0oiyi1l00ccEHY6CcrvE52eClkLWm5xCxEzr6hteLOMwh0aoMetc7lo6ARxY90SIzzvFGnRniSmcOS4VFdyTQT9Ktd6mHAPT9dTnX4/CHu+h4bG8sDAYIQwD8/a2E0UYDAip2jwGX+W6bpK4Pa0AZHpVkaVO+nCOA1CiT/1ZRxVQmclv9AqlkuHREd8kYnpXluMSN9/4ZV6++6/NSWZLehDzbToK0WsPUMjMuzliWYG3f22DEpgD5flNhc6oRLTKjZWMMqRVLuuVNNFoG/OZhm+r36vP8o4Vj8IPrE1ntYGNGIFYFfKODNmiG+U72rNURPE=
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmWTKRYACgkQFQwgB0PtRtgXSQgAteeMmA7eYkVGZSVIwoKVDBtJUv9vE54pS0lJnxiIPwZz3IPFcyW/5jGoiX32pJnxdqDQ04QZZz+ruzUPUlYricVeRPPuJhsOd73/SbQfKen2sCe/IMEIEMJUcgIrAfcw9+rLNLNM/Ru91+BtU5U9ToTO2Ks8HpZJuYjeXuE7MfRtyKXj7Q51OJRuU2WXVTpMij8z0kbRNkswHKvu9WZDE+mdF1EW5d4+CluiyOJ07z63eLhw/Z2NRU+3HBA98WtuZFqYoN2ciZ8d8R7JdcAg0UHEfDoajzz25IyJN56A2lnxG2VIln8pDurd4U2aaZlunCBmQTDS5n8Wo2LJ6Rg7cw==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,26 +38,18 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1703768934
+1704142533
 
 %PACKAGER%
-Philip Müller <philm@manjaro.org>
-
-%REPLACES%
-lib32-vulkan-mesa
-
-%CONFLICTS%
-lib32-vulkan-mesa
+Mark Wagie <mark@manjaro.org>
 
 %PROVIDES%
 lib32-vulkan-driver
 
 %DEPENDS%
 lib32-libdrm
-lib32-libunwind
 lib32-libx11
 lib32-libxshmfence
-lib32-llvm-libs
 lib32-systemd
 lib32-wayland
 lib32-xcb-util-keysyms
