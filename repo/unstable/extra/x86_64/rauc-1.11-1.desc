@@ -1,0 +1,86 @@
+%FILENAME%
+rauc-1.11-1-x86_64.pkg.tar.zst
+
+%NAME%
+rauc
+
+%BASE%
+rauc
+
+%VERSION%
+1.11-1
+
+%DESC%
+Safe and secure software updates for embedded Linux
+
+%CSIZE%
+193016
+
+%ISIZE%
+492521
+
+%MD5SUM%
+ffa7aa68c30bd6a480b76d3c0af76391
+
+%SHA256SUM%
+b69e8820c77b888f06e1a25eef1661dd1d95051f1123340a41a3342722e023b1
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZYbLzQAKCRCbeih9mi7GCKArAQCk/fyy8YTn1sc9p1A7in2Uebb8SwPVcI3N9Iu/annIbQEA2kq5kDsbmCLtDM9gLU+XN5iI7g2823qCboWhsO/XwAM=
+
+%URL%
+https://rauc.io
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1703332632
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+libnl
+openssl
+sh
+curl
+libcurl.so=4-64
+glib2
+libgobject-2.0.so=0-64
+libgio-2.0.so=0-64
+libglib-2.0.so=0-64
+json-glib
+libjson-glib-1.0.so=0-64
+util-linux-libs
+libfdisk.so=1-64
+
+%OPTDEPENDS%
+casync: for casync conversion support
+cryptsetup: for disk encryption support
+dosfstools: for creating and checking FAT filesystems
+e2fsprogs: for creating and checking ext2/3/4 filesystems
+efibootmgr: for interacting with EFI boot manager
+grub: for GRUB support
+mtd-utils: for interacting with MTD devices
+squashfs-tools: for creating and inspecting bundles
+uboot-tools: for u-boot support
+
+%MAKEDEPENDS%
+curl
+dbus
+glib2
+json-glib
+meson
+python
+systemd
+util-linux
+
+%CHECKDEPENDS%
+squashfs-tools
+
