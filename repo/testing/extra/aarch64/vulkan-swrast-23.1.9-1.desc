@@ -1,32 +1,32 @@
 %FILENAME%
-vulkan-virtio-23.3.1-1-aarch64.pkg.tar.zst
+vulkan-swrast-23.1.9-1-aarch64.pkg.tar.zst
 
 %NAME%
-vulkan-virtio
+vulkan-swrast
 
 %BASE%
 mesa
 
 %VERSION%
-23.3.1-1
+23.1.9-1
 
 %DESC%
-Venus Vulkan mesa driver for Virtual Machines
+Vulkan software rasteriser driver
 
 %CSIZE%
-465309
+2057513
 
 %ISIZE%
-1234874
+7484071
 
 %MD5SUM%
-c701e794fd5381bd9997c09400018828
+74beadcf024a523b3ff94396d21c0a67
 
 %SHA256SUM%
-83fc3d5fa98987e54bf6905bfa104d38742c7638cc57411cf8620e63332a70f1
+d8733e0c4ed07e4b946ac66e97a6d329c54c95c8510dcd322248987621c54c2a
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmV7ua0ACgkQHzWBGKB6z1f3KAgAm/Ncyq3FN9D+HQ8ZIewOFmsio7Q5gkQrwD3IWNclF5Rv43ds0x4PSVoHF+COkid5JmzmEpMMlzqpxdEdT4Tlvn9GHW93nMtSzhnMem1a6d9fiI9GJ4IBP2GvSHkrTQMWSVGGIEQRKQrYp9HjdrlHzA7uJk1ZlzmP4oX6U24DOEsW58PFE5lQndjWPPBORaH6m6tpVhQCHYnff+ZgSAkiCSqVEOp39+m3sY20/30I+eKG9pCFHLhcc4rt0iDqwlCagC/UbOvPbUTfV9I2IkSjlQU/O4HIKmkS3sDmWyU6px63YX2XMOby1WAZBbTeoRC7kgq2PjEPXlCiQ7Ju7xJZQw==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWWfwoSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+qDkH+wefn2RJhohuWB8USHkjspqH2XdXhXpkEZOur0P7HIEStGEV3sCJPN50s/45tYHNptJ5EKYLUlVsLQn7zPhJwP/YzohtWCqzBuPiTLb5vX+3JDH7AfqHwn+SBd42BFLe6WFdPT3VYDKuGR/ggzLGOOHGo++MjcLkdDydkCaZ/2XSxgnYsJwqSxDDWyKHWOGhHYWOhn5NWFrjhyO3nC0kNVhR9iYk69zJr2lvMzE6w8qAoQPv0oM+JejetOSkjcnN5nKup2OGTwavUDXfDg6oLVr/3KwGpbTnhg32j5/AbO8mbRjs3Trs67+zeQZkHufk7bi/HE5ctEFF8ObpsRHAjwE=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,18 +38,26 @@ custom
 aarch64
 
 %BUILDDATE%
-1702558305
+1704359506
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
+
+%REPLACES%
+vulkan-mesa
+
+%CONFLICTS%
+vulkan-mesa
 
 %PROVIDES%
 vulkan-driver
 
 %DEPENDS%
 libdrm
+libunwind
 libx11
 libxshmfence
+llvm-libs
 systemd
 wayland
 zstd
