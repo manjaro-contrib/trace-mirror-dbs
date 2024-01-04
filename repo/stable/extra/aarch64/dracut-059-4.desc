@@ -1,0 +1,76 @@
+%FILENAME%
+dracut-059-4-aarch64.pkg.tar.xz
+
+%NAME%
+dracut
+
+%BASE%
+dracut
+
+%VERSION%
+059-4
+
+%DESC%
+An event driven initramfs infrastructure
+
+%CSIZE%
+294584
+
+%ISIZE%
+1071245
+
+%MD5SUM%
+88b50d3662a66c5658e9a4107a3af991
+
+%SHA256SUM%
+e6ec6d86123e049ad7a665f438fe11fa29abd37c4d4644b1da9d58b7ee0d7c95
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmVajWgACgkQdxk/FSvb5qaKERAAm3TnJKpB7dnU8YQIjebn0LLMzH2T28P7uE59kh3zBTKs+EDYbSCMejYqfMHdZP10caPuIer66iNcvOuxiHnaU7VIkimlmoZsgBbjIqKtRUKpkGd08BbYyUEwoP3kFFnAkKY8m0AuZYwhVeQQOwcRirbaaZf7TWPb236hcitga11mhIf/a5rwFUnE+mmWuUmAp5HudxScXdcLrkiCUU111Yw+7pdzyi/kwLW9ppUKReuUVDQQRjV1sE1MYuEO/r8TVNLMua4tPd+amgBqUm5KQRoDSDoO+diOkVYtEDJQDPOAcM2UD+t5NB5UGfenvb0ZPIsR8Uj/PGT8Ek4+q/efAn2s+7/I8Q+3Yr+ptTiqygGVW5Xgi5hqF9GwMXVHPvL6ab246GgPzZl+zzpvgCNbjHPFApTZwPlPP3dIKD2W/bYUSoB5nW3Y0nO5Ulz/HAHzEy3/AyCDBX4sV8UhwyPJo45qtDuMoN7BDbfYT6vxPWu7ANMtFIJeMP6XsEf6T2Meqe1d+vJ2r42fAUkh6XmOLVaso0sAoZdX7W34u+q+t0o3qd1X/QpyKnWkKxM5ISk8YjerasDgP2HNTi9x1rkMnDpkzucQB4IBqFEXBQhLi/Y1O26qYp8gSbrh8U1f3nXlrKERD9A91PA+goM8W10PoXLiSEc6I1m9ndiS9dG6UeA=
+
+%URL%
+https://github.com/dracutdevs/dracut
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1700433218
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%PROVIDES%
+initramfs
+
+%DEPENDS%
+bash
+coreutils
+cpio
+filesystem
+findutils
+grep
+gzip
+kmod
+pkgconf
+procps-ng
+sed
+systemd
+util-linux
+xz
+
+%OPTDEPENDS%
+binutils: --uefi option support
+elfutils: strip binaries to reduce initramfs size
+multipath-tools: dmraid dracut module support
+pigz: faster gzip compression
+sbsigntools: uefi_secureboot_cert/key configuration option support
+
+%MAKEDEPENDS%
+asciidoc
+bash-completion
+git
+

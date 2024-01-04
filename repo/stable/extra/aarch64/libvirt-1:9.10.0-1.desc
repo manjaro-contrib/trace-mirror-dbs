@@ -1,0 +1,90 @@
+%FILENAME%
+libvirt-1:9.10.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+libvirt
+
+%BASE%
+libvirt
+
+%VERSION%
+1:9.10.0-1
+
+%DESC%
+API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)
+
+%CSIZE%
+7700512
+
+%ISIZE%
+49528873
+
+%MD5SUM%
+968fa4dd67881854ec335f135b798ed6
+
+%SHA256SUM%
+7258e6fc3e1d5c20f2e331f72fcee0bb150daba24e1c8ff2109776f178ffc1ca
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmVufHIACgkQdxk/FSvb5qai0BAAo3Ba7X8Cpd1TzrEQ1Ai8fu3LpPL8eML1p7TUTzjOp6GU/tC1zptNtuuMHsROm+nrg+kjpcpinitTfqmnebMPJEM+mfnmq57Yi9mf5AHFa3BnOusDyUGb2v9ZpEWZv0xf/M4evrXcMm5nGFHiSCNLfVtSeOofnx1dKFM9fCL4XL3BswjcEKvNtZlazZ1gBHHMNI2N32bd4spO8OY1iFtQyURQ3Cu3BLNC4E6vLog5kuJPvv/JA5FOacgPW1VQzNCFIb3wsoo9LCNO3ttga1Z3hvQ4X+dYei9kBSR6ZVnanSnmbyoNeYlpqarfJoDLGPsVbSAORszwXt1Up+jTc9D+j9WeaIKVZLIaoneUi7qdsv5tGy/Edm1gzs/R3CM/SOLY5HA6KKlubddmGlGAK3CZmLGORtDWtJE4lQFgE3/v839HNziVG3hMbA3p23vGC18j7ivmc/AuHouSuRO3WeQnjoSUHyY0zTZ3XcnTBMwv8dEuiXdNvVPE+As7ybKTGGzP8f31NkMj7EeSl3ZjRlVwWjsH2wF4yC1GWk6cUChbm6ZEcLiDqZ9bp5fKvjcUPkeRNbwb0MyzfGe7uaiveQJ6Mx9yXr7LzHBD48J27aj84/M3WtbZkef8ssf8UjbZ0V2J4wlHk3M/qvVpbKAxAIayqlywTne8VVvUTjDXuKXQoHk=
+
+%URL%
+https://libvirt.org/
+
+%LICENSE%
+LGPL
+GPL3
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1701739422
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+libvirt=9.10.0
+libvirt.so=0-64
+libvirt-admin.so=0-64
+libvirt-lxc.so=0-64
+libvirt-qemu.so=0-64
+
+%DEPENDS%
+libpciaccess
+yajl
+fuse3
+gnutls
+parted
+libssh
+libxml2
+numactl
+polkit
+libnbd
+
+%OPTDEPENDS%
+libvirt-storage-gluster: Gluster storage backend
+libvirt-storage-iscsi-direct: iSCSI-direct storage backend
+gettext: required for libvirt-guests.service
+openbsd-netcat: for remote management over ssh
+dmidecode: DMI system info support
+dnsmasq: required for default NAT/DHCP for guests
+radvd: IPv6 RAD support
+iptables-nft: required for default NAT networking
+lvm2: Logical Volume Manager support
+open-iscsi: iSCSI support via iscsiadm
+swtpm: TPM emulator support
+
+%MAKEDEPENDS%
+meson
+libxslt
+python-docutils
+lvm2
+open-iscsi
+libiscsi
+glusterfs
+bash-completion
+dnsmasq
+iproute2
+
