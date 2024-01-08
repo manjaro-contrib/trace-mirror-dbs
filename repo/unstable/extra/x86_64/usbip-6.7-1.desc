@@ -1,35 +1,35 @@
 %FILENAME%
-tmon-6.6-1-x86_64.pkg.tar.zst
+usbip-6.7-1-x86_64.pkg.tar.zst
 
 %NAME%
-tmon
+usbip
 
 %BASE%
 linux-tools
 
 %VERSION%
-6.6-1
+6.7-1
 
 %DESC%
-Monitoring and Testing Tool for Linux kernel thermal subsystem
+An USB device sharing system over IP network
 
 %GROUPS%
 linux-tools
 
 %CSIZE%
-53926
+149585
 
 %ISIZE%
-128560
+433964
 
 %MD5SUM%
-a33afabdcf67103174177e825524fe07
+ebb9a54513ac0555341a3ba20475fb28
 
 %SHA256SUM%
-b6b7cc4b03a1c437343ab40eaa6f1a501431d82bccdffc4c629ed10b017bc43d
+5a8268474696c85111781f01f90422155433de7764b2624a74fc42d74b3b2eca
 
 %PGPSIG%
-iHUEABYIAB0WIQSTtRpKFHmOS6hn0ULluymEcK1OQQUCZX7axgAKCRDluymEcK1OQbIsAQDNvsPIAkOgWWDUf1b9VGwd+lLIBEKEB/9jhIAuEqza6QD/UiaHpJQjYeeSfWxBRnvbLWwWSVBKz8iOaBlvdCL4cQE=
+iHUEABYIAB0WIQSTtRpKFHmOS6hn0ULluymEcK1OQQUCZZtP0QAKCRDluymEcK1OQXZVAP9yj7vK4FKSRFO1VGL7g3fKdeJGTplgHZQmIspADuP7kwD/WED0RmhUojv8E0nigtmVnchLZWhEgDGdUMbXMmJWFAI=
 
 %URL%
 https://www.kernel.org
@@ -41,14 +41,16 @@ GPL2
 x86_64
 
 %BUILDDATE%
-1702811772
+1704677027
 
 %PACKAGER%
 Sébastien Luttringer <seblu@archlinux.org>
 
 %DEPENDS%
 glibc
-ncurses
+glib2
+sysfsutils
+systemd-libs
 
 %MAKEDEPENDS%
 git

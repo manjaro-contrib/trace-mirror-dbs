@@ -1,35 +1,35 @@
 %FILENAME%
-usbip-6.6-1-x86_64.pkg.tar.zst
+x86_energy_perf_policy-6.7-1-x86_64.pkg.tar.zst
 
 %NAME%
-usbip
+x86_energy_perf_policy
 
 %BASE%
 linux-tools
 
 %VERSION%
-6.6-1
+6.7-1
 
 %DESC%
-An USB device sharing system over IP network
+Read or write MSR_IA32_ENERGY_PERF_BIAS
 
 %GROUPS%
 linux-tools
 
 %CSIZE%
-149577
+45958
 
 %ISIZE%
-433964
+110464
 
 %MD5SUM%
-f69fdbda49d85a6df0c91fd84cd2d9ad
+32d4d14ea6e3a224e69fc64882f95b2d
 
 %SHA256SUM%
-754c3bcad68f5d199ad8687ccf4fd50d4add3524480827bd51788b6a44e48940
+c0688b13627f8be732738f96b95eb7505b4566b924a6be0f897960118979aeb8
 
 %PGPSIG%
-iHUEABYIAB0WIQSTtRpKFHmOS6hn0ULluymEcK1OQQUCZX7axwAKCRDluymEcK1OQfxNAP46XBbYYnqyDHcSNBpOlk5RBb15hI4ic6dtxycerxYLtQD+L4of78ha2Y+rGNbZTzkJaMffvdHd1fVQX4ByXnE6xww=
+iHUEABYIAB0WIQSTtRpKFHmOS6hn0ULluymEcK1OQQUCZZtP0QAKCRDluymEcK1OQQ7mAP9Nqd1D+fUakag3bDEo2rShsU/QjsW994YIyYCnCUKZ6AD/aXMEZEexUGsJBufNU71UbTDuXso/QIeyGOem5j5SXgk=
 
 %URL%
 https://www.kernel.org
@@ -41,16 +41,13 @@ GPL2
 x86_64
 
 %BUILDDATE%
-1702811772
+1704677027
 
 %PACKAGER%
 Sébastien Luttringer <seblu@archlinux.org>
 
 %DEPENDS%
 glibc
-glib2
-sysfsutils
-systemd-libs
 
 %MAKEDEPENDS%
 git

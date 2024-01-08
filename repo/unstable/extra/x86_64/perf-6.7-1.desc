@@ -1,35 +1,35 @@
 %FILENAME%
-cgroup_event_listener-6.6-1-x86_64.pkg.tar.zst
+perf-6.7-1-x86_64.pkg.tar.zst
 
 %NAME%
-cgroup_event_listener
+perf
 
 %BASE%
 linux-tools
 
 %VERSION%
-6.6-1
+6.7-1
 
 %DESC%
-Simple listener of cgroup events
+Linux kernel performance auditing tool
 
 %GROUPS%
 linux-tools
 
 %CSIZE%
-5720
+2830867
 
 %ISIZE%
-16192
+13159155
 
 %MD5SUM%
-425ac208ea8522e1cf2767b8f5f39d59
+9e308669fcfca7529c7af34df37ceace
 
 %SHA256SUM%
-2fe615dfd80717b0d47f8ce2a2c43a51e59680f05384229c0b5b52fddabffe53
+6ddf811a04642f4df7fb751cb26ae529d658b888de782100e58a50f431d7fa4b
 
 %PGPSIG%
-iHUEABYIAB0WIQSTtRpKFHmOS6hn0ULluymEcK1OQQUCZX7axQAKCRDluymEcK1OQbagAQDTfrXo7uASIVJqU68XzEWaUz791JdMIaKIywizwnJemwD/RTGjLG/zdR7yHahJBedG2vHIpFMXw17JlSgXEbXjYgU=
+iHUEABYIAB0WIQSTtRpKFHmOS6hn0ULluymEcK1OQQUCZZtP0AAKCRDluymEcK1OQe6JAP9h2xomrQyW/k2yKyn3nVXhaREB5q3v/CFCiBJSGlnimQEA/VsScnA61NRAZ7RV3METSz69Dk65sRJAcWHQseqnQAM=
 
 %URL%
 https://www.kernel.org
@@ -41,13 +41,32 @@ GPL2
 x86_64
 
 %BUILDDATE%
-1702811772
+1704677027
 
 %PACKAGER%
 Sébastien Luttringer <seblu@archlinux.org>
 
 %DEPENDS%
 glibc
+perl
+python
+slang
+elfutils
+libunwind
+binutils
+numactl
+audit
+coreutils
+glib2
+xz
+zlib
+libelf
+bash
+zstd
+libcap
+libtraceevent
+openssl
+libsframe.so
 
 %MAKEDEPENDS%
 git

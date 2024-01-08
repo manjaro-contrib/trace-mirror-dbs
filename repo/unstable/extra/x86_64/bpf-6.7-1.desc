@@ -1,35 +1,35 @@
 %FILENAME%
-x86_energy_perf_policy-6.6-1-x86_64.pkg.tar.zst
+bpf-6.7-1-x86_64.pkg.tar.zst
 
 %NAME%
-x86_energy_perf_policy
+bpf
 
 %BASE%
 linux-tools
 
 %VERSION%
-6.6-1
+6.7-1
 
 %DESC%
-Read or write MSR_IA32_ENERGY_PERF_BIAS
+BPF tools
 
 %GROUPS%
 linux-tools
 
 %CSIZE%
-45958
+1767831
 
 %ISIZE%
-110464
+5507416
 
 %MD5SUM%
-fe52e56082c3b391583e4e483eb1638f
+bdc4999cc818c46e44d7f46bce30b0fe
 
 %SHA256SUM%
-60c14b92a8b86b2cc30d3b9efb2ddd68aca4a0731864cc4c50705ac277110ee2
+4fa4ad77d6331a9219d3cbee3690a9bc224a99506619fe70abf6a4f39916b100
 
 %PGPSIG%
-iHUEABYIAB0WIQSTtRpKFHmOS6hn0ULluymEcK1OQQUCZX7axwAKCRDluymEcK1OQW8qAP0Y6saQ9EYQBOT+qS+SPgA65OLIzt5w3WUqNQUhKLxwUQEA5Enoei8RfW4sYfFQEkRRsTnLrY/ye8PBoGDcvbuB+g8=
+iHUEABYIAB0WIQSTtRpKFHmOS6hn0ULluymEcK1OQQUCZZtPzgAKCRDluymEcK1OQU6HAQC7Ey4/voIZMS423bupB0FZb82L3pJYzMg7T+1CouC6DAEAuckdDoDjk6ZR6x7lrRUjoGmi7+D9YhzBE4QFuTLm/gM=
 
 %URL%
 https://www.kernel.org
@@ -41,13 +41,21 @@ GPL2
 x86_64
 
 %BUILDDATE%
-1702811772
+1704677027
 
 %PACKAGER%
 Sébastien Luttringer <seblu@archlinux.org>
 
 %DEPENDS%
 glibc
+readline
+zlib
+libelf
+libcap
+zstd
+llvm-libs
+binutils
+libsframe.so=1-64
 
 %MAKEDEPENDS%
 git

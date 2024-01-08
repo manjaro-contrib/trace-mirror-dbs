@@ -1,35 +1,35 @@
 %FILENAME%
-turbostat-6.6-1-x86_64.pkg.tar.zst
+tmon-6.7-1-x86_64.pkg.tar.zst
 
 %NAME%
-turbostat
+tmon
 
 %BASE%
 linux-tools
 
 %VERSION%
-6.6-1
+6.7-1
 
 %DESC%
-Report processor frequency and idle statistics
+Monitoring and Testing Tool for Linux kernel thermal subsystem
 
 %GROUPS%
 linux-tools
 
 %CSIZE%
-146790
+53936
 
 %ISIZE%
-382428
+128560
 
 %MD5SUM%
-4e426fa14d7c84d3f86c122bb40bc9a2
+8cd0ec3b6528172cc01213921f5393ca
 
 %SHA256SUM%
-f2df5a6d976beb4edc6e657fd6b2ba1a2917d825fa12a427475e52acc4681f21
+d7c20140ab0679387f1ae3d4e410849e59d162330e3ab684dfecb17809547d26
 
 %PGPSIG%
-iHUEABYIAB0WIQSTtRpKFHmOS6hn0ULluymEcK1OQQUCZX7axwAKCRDluymEcK1OQS1zAP0YBxIraE1WwtpmKITzUYebjSwKywfERh1TYEdTUAYS+QEA2ImaXYd0qLE5n6q6ZVm+g9hQjSvhjewj7UdXvndeIg0=
+iHUEABYIAB0WIQSTtRpKFHmOS6hn0ULluymEcK1OQQUCZZtP0AAKCRDluymEcK1OQRXnAQCQ+GlDzwOWshjrp8j9VHQipviM1URVx+/6p7iytjvSeAEApxtOEUIfRG8TWOeiD0sOWlzCvodOiuswiQy411hyeQg=
 
 %URL%
 https://www.kernel.org
@@ -41,14 +41,14 @@ GPL2
 x86_64
 
 %BUILDDATE%
-1702811772
+1704677027
 
 %PACKAGER%
 Sébastien Luttringer <seblu@archlinux.org>
 
 %DEPENDS%
 glibc
-libcap
+ncurses
 
 %MAKEDEPENDS%
 git

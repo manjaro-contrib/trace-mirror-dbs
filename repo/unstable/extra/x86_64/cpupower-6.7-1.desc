@@ -1,32 +1,35 @@
 %FILENAME%
-linux-tools-meta-6.6-1-x86_64.pkg.tar.zst
+cpupower-6.7-1-x86_64.pkg.tar.zst
 
 %NAME%
-linux-tools-meta
+cpupower
 
 %BASE%
 linux-tools
 
 %VERSION%
-6.6-1
+6.7-1
 
 %DESC%
-Linux kernel tools meta package
+Linux kernel tool to examine and tune power saving related features of your processor
+
+%GROUPS%
+linux-tools
 
 %CSIZE%
-2762
+207348
 
 %ISIZE%
-0
+608946
 
 %MD5SUM%
-145b3f23007a23279905796d26e45356
+cbb6efb5f8b83531dc8f0bde116533a7
 
 %SHA256SUM%
-f1b59a33d01c9dfd1714f61580481e04b2add2a30ecb5eb12c51d8984824dfce
+628025d7f98c33cab7ac21f0c4e9f51679221e2bd249ff12eed1a83005e53552
 
 %PGPSIG%
-iHUEABYIAB0WIQSTtRpKFHmOS6hn0ULluymEcK1OQQUCZX7axgAKCRDluymEcK1OQTWiAP9cwwjveXycHb2EhGrmDhm+3uFYs0SR6wP6CyTSZsboYAD/cOTaBO9RkiMzRkQ8AXxdyJ3GJubx9O57951GuA2K2gQ=
+iHUEABYIAB0WIQSTtRpKFHmOS6hn0ULluymEcK1OQQUCZZtPzwAKCRDluymEcK1OQVXmAP9fAyhlwkwGhiQcWoRSok7K+x3ckc/lDIzTi32vdxNuiQEAq9QUYUAgET3KbS+BPzGJEUqgWu4pZcRfR1/c2+q4SAA=
 
 %URL%
 https://www.kernel.org
@@ -38,25 +41,21 @@ GPL2
 x86_64
 
 %BUILDDATE%
-1702811772
+1704677027
 
 %PACKAGER%
 Sébastien Luttringer <seblu@archlinux.org>
 
+%REPLACES%
+cpufrequtils
+
 %CONFLICTS%
-acpidump
+cpufrequtils
 
 %DEPENDS%
-bootconfig
-bpf
-cgroup_event_listener
-cpupower
-hyperv
-perf
-tmon
-turbostat
-usbip
-x86_energy_perf_policy
+glibc
+bash
+pciutils
 
 %MAKEDEPENDS%
 git
