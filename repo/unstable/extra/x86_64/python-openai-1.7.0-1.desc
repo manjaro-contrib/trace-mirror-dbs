@@ -1,0 +1,74 @@
+%FILENAME%
+python-openai-1.7.0-1-any.pkg.tar.zst
+
+%NAME%
+python-openai
+
+%BASE%
+python-openai
+
+%VERSION%
+1.7.0-1
+
+%DESC%
+Python client library for the OpenAI API
+
+%CSIZE%
+304492
+
+%ISIZE%
+2513721
+
+%MD5SUM%
+c328cee764d4f4a0efb7e6a3d7dcb215
+
+%SHA256SUM%
+89195ee51d367b04685d2f0ed54238ab3f681682b4dd000c257e6c6a9fe9cd9c
+
+%PGPSIG%
+iQIzBAABCAAdFiEEph5oDnze5xbx8Yihae9tnkmmTrgFAmWdfKQACgkQae9tnkmmTrjOcA//VgLl1/kwWhvgWAvL5j/Q+YWViIGivBHu1ciWA72fY6WGx6YI4ohQ5YrJq71F2IMw+hMTC39DVmP49hSNr4yXMBnrTn+Zh60Hi+yFHYvZGi8mdXyxsaMKqFKu5D6/oXajCkg2uXPVwIhCPjItfCNEY6Mi1jHwMlG79VkAQ3IJtEBsDxJb84zxsnj5oymJdzo0D5mb9JbFx1gmse1xGxlI7Ma0Nl8vQI8eHCdXz8vSupi5nCKpKWR9+7ZTuRhTJFM2bBwspGk5xH5wW/tjDly+vm6rTd/lLAda0D1WUS71yDMFxYKILf9fz30qi17b1PqHWfTVSaJiksEKVAnYRjbZsEs2kPDfmRYWZUJ66cSLkllWsiaveb3dBz+gq2A1AJT8BLWCLehkImow8EJte30N0BvmvFRB9RCsoj3WZWmjaiDt8sNV8a01A+aWu8vsVuXFEmi67JK3q57zcVaEeGVL/LTUk1UZOR74I3ej742tJVaRP3lG92w9ItCOek5e/PUoAqAPXZzvaTQoWV6dork+g5TveDqNNd6bxfME7wqSUAXdbH/JxIJA7Gdk3UpSscPvBj8YDWvNKsbZlV3+OvvHjVzuQbA/zlaxl5Pw3YUkTtkVhXdhSnyZKX4K51KOizSLTpI5xFsuVyqO7vDkjPg1Y+dc+mFPDR9WFqiaNkO3fJg=
+
+%URL%
+https://github.com/openai/openai-python
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1704819851
+
+%PACKAGER%
+Justin Kromlinger <hashworks@archlinux.org>
+
+%DEPENDS%
+python-anyio
+python-httpx
+python-tqdm
+python-h2
+python-distro
+python-typing_extensions
+python-pydantic
+python-cached-property
+
+%OPTDEPENDS%
+python-numpy: Needed for CLI fine-tuning data preparation tool
+python-pandas: Needed for CLI fine-tuning data preparation tool
+python-pandas-stubs: Needed for type hints for mypy
+python-openpyxl: Needed for CLI fine-tuning data preparation tool xlsx format
+python-wandb: Support for Weights & Biases
+python-scikit-learn: Needed for embedding utils
+python-tenacity: embeddings
+python-matplotlib: embeddings
+python-plotly: embeddings
+python-scipy: embeddings
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+python-hatchling
+
