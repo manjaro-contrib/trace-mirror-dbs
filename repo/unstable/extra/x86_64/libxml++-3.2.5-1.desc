@@ -1,5 +1,5 @@
 %FILENAME%
-libxml++-3.2.4-1-x86_64.pkg.tar.zst
+libxml++-3.2.5-1-x86_64.pkg.tar.zst
 
 %NAME%
 libxml++
@@ -8,37 +8,37 @@ libxml++
 libxml++
 
 %VERSION%
-3.2.4-1
+3.2.5-1
 
 %DESC%
 C++ bindings to libxml2
 
 %CSIZE%
-85751
+86981
 
 %ISIZE%
-355232
+359550
 
 %MD5SUM%
-d199fc6441d0cfc0b4afd06711463a75
+5ecdb321872deddd308744406e325b4b
 
 %SHA256SUM%
-b6162547de76b32fe82184139c9634282e7d964e4d160c00085b63a677457f6a
+6ba1dfb8d2c0bc15fd2ea56ee194bbeb3fa3ff0f7299ddb094bd25e778942008
 
 %PGPSIG%
-iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCYxvDFBUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8cm3gEAozhj3Td2QDD7xx4Yai0ziZqy+V9kqpPV4QOTCCmsNG0A/01WpUMXmgpahbawqlNcJQTl5uyKWYOdIk4uKzkqlSQK
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZaBGugAKCRC4rAhgDxCM3/ZYAQCjiDgKsrVTEKbjrLklURdVgeEcXUAiirZfVEytRCDUPgD/Z1zbUd0nDDcdv8XG+rwNeMj7Y5Qbt2K/KqzVmTi9Fg0=
 
 %URL%
 https://libxmlplusplus.github.io/libxmlplusplus/
 
 %LICENSE%
-LGPL
+LGPL-2.1-or-later
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1662763528
+1705002321
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
@@ -47,12 +47,12 @@ Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 libxml++-3.0.so=1-64
 
 %DEPENDS%
-libxml2
 glibmm
+libxml2
 
 %MAKEDEPENDS%
 git
+glibmm-docs
 meson
 mm-common
-glibmm-docs
 
