@@ -1,32 +1,32 @@
 %FILENAME%
-vulkan-swrast-1:23.3.2-2-x86_64.pkg.tar.zst
+vulkan-radeon-1:23.3.3-1-x86_64.pkg.tar.zst
 
 %NAME%
-vulkan-swrast
+vulkan-radeon
 
 %BASE%
 mesa
 
 %VERSION%
-1:23.3.2-2
+1:23.3.3-1
 
 %DESC%
-Vulkan software rasteriser driver
+Radeon's Vulkan mesa driver
 
 %CSIZE%
-2417312
+3030194
 
 %ISIZE%
-8648215
+10603099
 
 %MD5SUM%
-9f18ca21278c55a884083f00e720efbb
+d2904166d1457bc8d8018aed8148cb3d
 
 %SHA256SUM%
-735b4a76e4a9ad726b01fe1bb2a9d610fdac9141b467e1bdd623c52c40717da6
+06be45b26e9ef54876d97a35dfbf5de6175335f0c9dc4de06d9623ce245c2f5b
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWTC3wSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+2u4H/2yGBF786SlnRyrnNUJ16u5ym4B1N/aIuElQjXtDE6F1FCSnFtHvtAWRZmK9i3vFR3tciBCCPEXyZbUPFDMnNxKjkDNL5nfX/xTkVt2J7rTLdEFMzwWBRx8sRWRD9KHO6jJjL6vNRpLKURyrF+LDBRmwvPjXlsNUo7TDxp4QAp+aZvCBeiFzqzNzPXtUisWOnU36vnV47xG1VRsrS5nQ5WDlSskwHQ9ZDo+CuV64+9U9IW+cABjHyXFYG2ftcm/gwDcamO4Em6XjSpU7IrSuy6ooUhhK9pCUUvidCkVPtGbqVL9kS9nwfluJ+fDL3nkP3krCC0lNfAbX/bdTI7KjrFU=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWfUZASHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+EEoIAKKlzXZSwZUm3RCYkjib43QtETGSNTC4/FVMkDj6W/+SHfY1XRib+pBKnJIqiBcguEikf0Q6kVQzjRLTndxFJNDllp5S0Dr8/YlhhV0PPBbtKb+N9OsLiX2m4W7vCUUyinMBEggyTcYLb8Pg94w6ZENdBaYBLVwJqgz5EftrkTFJv48zh9W6lAxaY6m9BnmeZSEIcpQWxW9mSS4z6gOsO9jGzfoZ6MG2OUOCR6b0Aghz0oavFhQKWsJtVj4MAqVjgDNmr6dfbJioWmKLE+W+m8qNuDtu3ib9fN71pc9f09SBV6ZOx1dXrX8eJ41ps/gLV+Wraan4voB99g4vdJQXJPY=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,23 +38,17 @@ custom
 x86_64
 
 %BUILDDATE%
-1704128243
+1704929727
 
 %PACKAGER%
 Philip Müller <philm@manjaro.org>
-
-%REPLACES%
-vulkan-mesa
-
-%CONFLICTS%
-vulkan-mesa
 
 %PROVIDES%
 vulkan-driver
 
 %DEPENDS%
 libdrm
-libunwind
+libelf
 libx11
 libxshmfence
 llvm-libs
