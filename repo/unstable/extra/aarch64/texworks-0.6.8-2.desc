@@ -1,0 +1,73 @@
+%FILENAME%
+texworks-0.6.8-2-aarch64.pkg.tar.xz
+
+%NAME%
+texworks
+
+%BASE%
+texworks
+
+%VERSION%
+0.6.8-2
+
+%DESC%
+Unicode-based, TeX-aware editor with integrated PDF viewer
+
+%CSIZE%
+2617808
+
+%ISIZE%
+6807099
+
+%MD5SUM%
+46d8df3c471cf4aa668a60339bafdbff
+
+%SHA256SUM%
+9d05184cf5026ae948467d012d0ca905b0e0fb4cf922e736fba507af13e78003
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmWa7WoACgkQdxk/FSvb5qZMDhAAsHZmIQSguY+gtb3Gr+1l4TRG/vLCz0wRTa1im6kvQ78PmF8gVql6zzVtUhQxUBlSw6U1k9IbtPbXMsuG1FGheoh8kQ1lroWn7/qW/tKIYn7k8Kmm1yKjMpgOjWvcwSDzIsb/c6TUWe9mLW9CdPtWOB4iMqJsv5ap6H7OhTlMa1J0ai/s1+we+pVuuSKl7O33db3o2j6GvLuP+fnd11qeUXaVRqFQFPk5NQsO566LF+wlUBTAMbNEXs4VOCsNaP7RfYjg/AzqspeRdZ6DQAAHu7x9XN3WF9xHfZ0k/oDPLAoqwP7ZVTVBLK3vxCmoa4pHvXA8fh6TtkSEFGL13r4vRUIpJa+Ns6X/SFzzzaRKYV9LIhRnnvehWpwUnfEaUU2P+RqM3VA/bx/1sis55aSmRcmLLUSQrzOtTLbNQGf7aLn+JsiDK7rXdTlHDOcikzZnbJI9HCGQ1MmpujLPwLC1dcHcp/rEL9fb0N5jvcDeuC9VXw7DJhCILVFiaVKiKVa5Fwyfqh3IMSGRPQ4sK++v1KogszlbSk34kjs4AeP+s/I77lUe+NuCXHPRxk6JHmhozszSCSDWzEH7+QgXKERGpHEhNJvq3hPbZ2wAFAmii6jZ/87JB0AgBGRUTG9MTQYC/cqDRnKYEFMUHEUq6vwgZ6xcpNVS/2tVlEIX78GC7R8=
+
+%URL%
+https://www.tug.org/texworks/
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1704652024
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+hunspell
+libsynctex
+poppler-qt5
+qt5-base
+qt5-declarative
+qt5-script
+libpoppler-qt5.so=1-64
+
+%OPTDEPENDS%
+gsfonts: correctly display PDF files without embedded fonts
+lua: Lua scripts support
+poppler-data: correctly display certain CJK documents
+python: Python scripts support
+texlive-basic: typeset TeX documents
+
+%MAKEDEPENDS%
+git
+cmake
+lua
+python
+qt5-tools
+
+%CHECKDEPENDS%
+gsfonts
+poppler-data
+xorg-server-xvfb
+

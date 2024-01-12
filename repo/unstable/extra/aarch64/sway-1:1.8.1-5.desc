@@ -1,0 +1,82 @@
+%FILENAME%
+sway-1:1.8.1-5-aarch64.pkg.tar.xz
+
+%NAME%
+sway
+
+%BASE%
+sway
+
+%VERSION%
+1:1.8.1-5
+
+%DESC%
+Tiling Wayland compositor and replacement for the i3 window manager
+
+%CSIZE%
+5130636
+
+%ISIZE%
+6024575
+
+%MD5SUM%
+150b59c5bf443e178495cfa0f4fc1db3
+
+%SHA256SUM%
+2ea8d5a2c1fcb82b7f40c14f2451780605f85e6e9f672acb88116bd88702b45a
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmWgjssACgkQdxk/FSvb5qaVqBAAoibPhxos9R+K2we609l6ZaOQDP5Zm/qgoy3m4t8HZmLHoT6ONDZb4PjPnsKysdPTXG7+4XZdKZH4009HWrND/WfnUgcrXrGJAfAyMvCud6Y1w/kFfSTz+MYQDlmKtfOXFFhlQqgZ4sk/PcEsQNNcZLVVptr9xda3D4sGXX49BXX+/Z3JdFaOu8L/LQeJCgyvlYfeYXAtl+QSXPltD4UHSO0K3pjRNG1BeXkB2pYuZ8LQw6fd2E0QYOsJiejXI1ceXNKGKMmLofOdRYQo5DiReFs6R6/f4zFzZiKY226aw4WBxp70UZgJ0wALxmc2Jt4GtI8KYGXQtEFGaYqLJ8u/1GDgRbK+wQdsTFo5bMGOKNiAypHqBWUYgH8YhTqiqzrTdC/v8c8leaYEV30oxDGkK1beCcdPqcPOuyXuRvK/9Mb5Wb1NWZ8dkIKXRCnc/Hx5zfMxn4OOdM29/eVSzYyq9xaF3DrIgb16vzuHvog+Af3r4g6ybR9e2wmJymogTMFgGf76U07UL8VUVucVMRYR6f73C/xMQhDw7yQMGr9PzuyNgTscw8ce/KEIQczSgpZRiCFqkq0+3Nh06BZSBYUpRBAqMTDPCJMeaSC5PUUQE9tWJlt0kV7r2VE2OwCdo/iRcCgrYB/dMA/8Yam1HL9Sm6C89vyHZykH8UdzkFTqALI=
+
+%URL%
+https://swaywm.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1705021087
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+cairo
+gdk-pixbuf2
+libevdev.so=2-64
+libinput
+libjson-c.so=5-64
+libudev.so=1-64
+libwayland-server.so=0-64
+libwlroots.so=11
+libxcb
+libxkbcommon.so=0-64
+pango
+pcre2
+ttf-font
+
+%OPTDEPENDS%
+bemenu: Wayland-native alternative to dmenu
+dmenu: Application launcher used in default config
+foot: Terminal emulator used in the default configuration
+i3status: Status line generation
+mako: Lightweight notification daemon
+polkit: System privilege control. Required if not using seatd service
+swaybg: Wallpaper tool for sway
+swayidle: Idle management daemon
+swaylock: Screen locker
+waybar: Highly customizable bar
+xorg-xwayland: X11 support
+xdg-desktop-portal-gtk: Default xdg-desktop-portal for file picking
+xdg-desktop-portal-wlr: xdg-desktop-portal backend
+
+%MAKEDEPENDS%
+meson
+ninja
+scdoc
+setconf
+wayland-protocols
+
