@@ -1,5 +1,5 @@
 %FILENAME%
-handbrake-1.7.1-1-aarch64.pkg.tar.zst
+handbrake-1.7.2-1-aarch64.pkg.tar.zst
 
 %NAME%
 handbrake
@@ -8,25 +8,25 @@ handbrake
 handbrake
 
 %VERSION%
-1.7.1-1
+1.7.2-1
 
 %DESC%
 Multithreaded video transcoder
 
 %CSIZE%
-18490340
+14533654
 
 %ISIZE%
-39244869
+33050732
 
 %MD5SUM%
-79f07da7ad96afbf6e6a580adaa9a9e1
+7ae46adb6357d9eebc328f2e98c05b58
 
 %SHA256SUM%
-d7632362d6547d912ce02ee78e9508f0675762b35623dd0e44620c0b306961d3
+7b240b0e4f11fbef00c5e0f0d3294114a8d7b2766f1e094b11e2c6f30bb6d71e
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmVjtdkACgkQHzWBGKB6z1fu2Af/cDQ1HK8WwRpZXCOc///FXOYkBVDiTsgVctnL9Z53D+qD8ASufhgUlb0B8QuVaXnggVJRJ3v36q5eQd68rTgr60WpCrgyivxLpONhmFeqMhxaqxuuQ/ViWa/dPtUDyORuQsWkemMZpdDl87zQiA5q++paMZW4OiEowG2a8BN+onlmFZ5ZxIoyTL3e8YCTuIqBRuGKlGTsH/QD6TScjTe+7fwkTxa82hlNzOqLzy/Pl/2BldeUYFvqFLKc4kohqe1a409eL6VHz77kiGYzrhAo8LBpkoyjTVz19WIHs5o9I+m6TwBXaYhAVzVu1lfWSr0HyZnKMUMw6eXSGKh2sEKy5g==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmWiMQ0ACgkQHzWBGKB6z1fDGAgAgheCpRqzaM0Lsk/6KxPeOkUdLGFSm7Y7Ab/2x4kq18E8tiUvR3zWuJLBljdQ43XKmtxcvBknnxog03cHFVIm6zNI2C7cV6QgvuzZZ+qyFvYmTntb5emEcv9q4IBVkKgVu98P1MtJ73slvWXG/J2rHYVJYxwm39lksRY5BlJ4QGR5wlt7qb1Bz0DUq1glnvqWMUSNwmUqz3vQ6VWnO0eBfD0oRCTqXPR2GkwhkqmS9L9S2hyjImenV2ATJmP/ZvOAkkfTpQOl2bWbKRn/mGpk8wrdMIXEQT2F40hGrAxM8qa7ovKno9giWirpnzlw769xA5bZuOk7aG1luZlebGWj4A==
 
 %URL%
 https://handbrake.fr/
@@ -38,10 +38,10 @@ GPL
 aarch64
 
 %BUILDDATE%
-1701029665
+1705125803
 
 %PACKAGER%
-Unknown Packager
+Manjaro Build Server <build@manjaro.org>
 
 %DEPENDS%
 desktop-file-utils
@@ -62,10 +62,10 @@ bzip2
 gcc-libs
 zlib
 xz
+libjpeg-turbo
 gst-plugins-base
 gtk3
 librsvg
-libgudev
 
 %OPTDEPENDS%
 gst-plugins-good: for video previews
@@ -74,12 +74,12 @@ intel-media-sdk: Intel QuickSync support
 libdvdcss: for decoding encrypted DVDs
 
 %MAKEDEPENDS%
-intltool
 python
 nasm
 wget
 cmake
 meson
+git
 libxml2
 libass
 libvorbis
@@ -96,8 +96,8 @@ bzip2
 gcc-libs
 zlib
 xz
+libjpeg-turbo
 gst-plugins-base
 gtk3
 librsvg
-libgudev
 

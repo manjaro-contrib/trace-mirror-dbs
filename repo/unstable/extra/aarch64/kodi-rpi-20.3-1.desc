@@ -1,5 +1,5 @@
 %FILENAME%
-kodi-rpi-20.2-9-aarch64.pkg.tar.zst
+kodi-rpi-20.3-1-aarch64.pkg.tar.zst
 
 %NAME%
 kodi-rpi
@@ -8,25 +8,25 @@ kodi-rpi
 kodi-rpi
 
 %VERSION%
-20.2-9
+20.3-1
 
 %DESC%
 Media player and entertainment hub with hw accel for RPi 3 and above, gbm_nexus fork
 
 %CSIZE%
-45019296
+44868859
 
 %ISIZE%
-92058921
+91817683
 
 %MD5SUM%
-2b702223923124b7b96392bb28dd5124
+b2da5cff068b638819b2c57934416d91
 
 %SHA256SUM%
-73fc24ba245f03859288e1c3b2d0e1df7e7e312a37cc5e50930816edc9a634f3
+20cd8b996510e2d95dbc8eb2d976a031f11992f00538cec6cd103fd5a132a0c1
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmVxj2YACgkQHzWBGKB6z1dJBAf/YK8iuU9P6IDgGZlxnPMZ9d2ITN6QfYXXN64IcztLVyuz8osbtQz6sNpps1X2HFZyclexWuClg80tZTr4K2jpJFITldtELfLnfTagfDQlen0FbmqDvUBXkbcZog8eEqsNcpdWd4Pv9wHUYj7l/fKlpD3BWXAsq2Prd/WVtKEtgJhbxrg6H+kipvqj+i53AozUI+9RJhjr3fBImFZvHA54gqPJhFeREdXAgbJZP52Cl7EEJqWEW1Abt+JBWFuprkfundfyqf0kny6S28FoggHjH4cRP+kty/UiPxqD9JMCG+aSEPzzYkwLIzQcd5h8JEeVqOCKoD4yoQeA7HDcbkdoLQ==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmWiMQwACgkQHzWBGKB6z1fmXQf/UYzkfFLIcqrrRGklTQiDEYmBI+Ji0Ud5qsrd95vdSqKSTkE2z4D+3tz/PbPVeaPllQAh6N7RIrw7formzpvjtzNNYqw+JSZGMTnkKwMlWpXZYPuh3Ovvu80a2QXvO++C4Rsiy96WPsU30XePaoEiC7wK8XI2aLtqDbs9ECDfP9wEXUigi9ZpLiQLIStRRKzbit002JN/SvoxzTlhxJRsHtDFCVRORQmnw02dXpNmPrDm2ofv8VTwkzAmHyPHXWw9fIEk7MZFElWfD7DUbk5EzP4ZXvbsG7sRnBvfkNzSsuRpKsI+3WHzp5wioGs86i7LopuzK+sD8uS8SFB5oP0nnA==
 
 %URL%
 https://github.com/graysky2/xbmc/tree/gs-gbm_nexus
@@ -38,18 +38,20 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1701939324
+1705123573
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
 
 %CONFLICTS%
 kodi
+kodi-gles
+kodi-rpi-git
 kodi-rpi-legacy
 
 %PROVIDES%
-kodi=20.2
-kodi-common=20.2
+kodi=20.3
+kodi-common=20.3
 
 %DEPENDS%
 bluez-libs
@@ -92,7 +94,8 @@ pcre
 %OPTDEPENDS%
 afpfs-ng: Apple shares support
 bluez: Blutooth support
-linux-rpi4: HW accelerated decoding
+linux-rpi4: HW accelerated decoding RPi 3/4
+linux-rpi5: HW accelerated decoding RPi 5
 python-pybluez: Bluetooth support
 pulseaudio: PulseAudio support
 pipewire: PipeWire support
