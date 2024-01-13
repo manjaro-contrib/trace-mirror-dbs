@@ -1,0 +1,88 @@
+%FILENAME%
+molecule-6.0.3-1-any.pkg.tar.zst
+
+%NAME%
+molecule
+
+%BASE%
+molecule
+
+%VERSION%
+6.0.3-1
+
+%DESC%
+Aids in the development and testing of Ansible roles
+
+%CSIZE%
+142968
+
+%ISIZE%
+891088
+
+%MD5SUM%
+2327abf3c38b3390409dabb289912f6c
+
+%SHA256SUM%
+19088d12bdcbffa4318712f80e39648c56a1300fee7907dc6b241adf7ce8591e
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZYnJzgAKCRCbeih9mi7GCHdeAPwJHraRhrWVSPOgvPK3bpIlAFexE17oBNr0jZMKQnCFBgD/R7IHCyo3ZGvnYTa4aApLJBcmExfa+6NfXAVX8FL98QE=
+
+%URL%
+https://github.com/ansible-community/molecule
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1703528853
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-ansible-compat
+python-click
+python-click-help-colors
+python-cookiecutter
+python-enrich
+python-jinja
+python-jsonschema
+python-packaging
+python-pluggy
+python-pyyaml
+python-rich
+python-wcmatch
+
+%OPTDEPENDS%
+ansible: for the ansible verifier
+molecule-docker: for the docker driver
+molecule-podman: for the podman driver
+molecule-vagrant: for the vagrant driver
+python-pywinrm: for Windows support
+python-pytest-testinfra: for the testinfra verifier
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+ansible
+check-jsonschema
+python-ansi2html
+python-filelock
+python-pexpect
+python-pytest
+python-pytest-mock
+python-pytest-testinfra
+python-pytest-xdist
+python-regress
+yamllint
+

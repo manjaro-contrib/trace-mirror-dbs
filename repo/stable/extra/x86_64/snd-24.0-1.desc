@@ -1,0 +1,93 @@
+%FILENAME%
+snd-24.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+snd
+
+%BASE%
+snd
+
+%VERSION%
+24.0-1
+
+%DESC%
+An advanced sound editor
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+13870239
+
+%ISIZE%
+39091798
+
+%MD5SUM%
+b438b1f3094b71dc9a27b5f5a61004f0
+
+%SHA256SUM%
+20eace74a2cff7d0898fea9f6e6a8e32c090b5be3af99a13abb21549a9d6f095
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZZKx8AAKCRCbeih9mi7GCMluAQDnEIpGjM1pA0S0s4Aqj2/JTeCXHxyN4gnyfYtvhJpbvQEAvT0yi3AYFIU/WOGrbKikDdu8Qw7EZREkCcxjmbXdIgQ=
+
+%URL%
+https://ccrma.stanford.edu/software/snd/
+
+%LICENSE%
+BSD-2-Clause
+GPL-2.0-or-later OR GL2PS
+LLGPL
+TCL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1704112487
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+glibc
+glu
+gmp
+gsl
+libglvnd
+libmpc
+libx11
+libxext
+libxpm
+libxt
+mpfr
+openmotif
+libasound.so=2-64
+libfftw3.so=3-64
+libjack.so=0-64
+libsamplerate.so=0-64
+
+%OPTDEPENDS%
+flac: For flac support
+mpg123: For MPEG support
+ruby: for snd-ruby
+speex: For speex support
+timidity++: For MIDI to WAVE support
+vorbis-tools: For OGG support
+wavpack: For wav support
+
+%MAKEDEPENDS%
+alsa-lib
+fftw
+flac
+gendesk
+jack
+ladspa
+libsamplerate
+mpg123
+ruby
+speex
+timidity++
+vorbis-tools
+wavpack
+
