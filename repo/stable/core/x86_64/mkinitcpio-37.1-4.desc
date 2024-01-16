@@ -1,5 +1,5 @@
 %FILENAME%
-mkinitcpio-37.2-1-any.pkg.tar.zst
+mkinitcpio-37.1-4-any.pkg.tar.zst
 
 %NAME%
 mkinitcpio
@@ -8,25 +8,25 @@ mkinitcpio
 mkinitcpio
 
 %VERSION%
-37.2-1
+37.1-4
 
 %DESC%
 Modular initramfs image creation utility
 
 %CSIZE%
-62421
+62235
 
 %ISIZE%
-159337
+158917
 
 %MD5SUM%
-d7d30308395f28d20f1fd60606a66135
+948c93f0789c7621c132b0d7dc62679c
 
 %SHA256SUM%
-6a9c8c4d75f04ec800a015679b18c8d76e505cc57960b33a78857c0337c10e2c
+916373ded07e600e254091f16aca19455dee936e0da88f62adab3268594655bd
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmWlfVcACgkQFQwgB0PtRtjzrQgAlEdYTtUCNgRSXgJeWg+POa2nZeoDz20J1wDLTXFIlWXzICrPGYofZS3d1TJA39qDC1hzWORrXfyOuptlxNyWQXFXGnmcs6kRdcUpl+01FMWy3r/to75jm3nasjZQ2AsLcvuFzsq6FhcfHGsvOFWdaN98C57/CSX40q7kF6heZXDEZ4ew1+qVaTvV5EBIUKMEgMNExjqLHXVZpY0zWrhnjkCBB1sbe9G3UgVd8sXrQ9ug9F0f+Qjab7NVDD5uP5bjMP8GOpsow4uUKXnpZLjGjSRdXSDLaH2nUgc/THJc0/Q1DDfWsOa26OazMpXCG35bYYX4LBvYkutl1eNoRkLTxw==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmWl56EACgkQFQwgB0PtRthNQwf9HK8SMxklmzG93ZzvFz+VM3C3d7qfdGqpNW8N5DMX2Wl9wDIXS2HyFIdZdAXiQGTdHugCuO+Gp0+lrhD2oS46Pz0Le/s9sl1Qjbgmr2CJjmmfEKV+i5/zoWo+a4jw4A6gjBPWdj0fYNXeS+ZAKiSPEhWsCiK03BfZnjz9iU/q2UluKo1NMLmonri2NavYdr0MDxF8HJKkTMZRQw/vdIAmLi1i8I48Wx7Ranqe4/O1EdlS4wl0mWtAPWFZz4TClq18hen7F8dAc5lNJeRlCux342vibYtaFgI9coh4Q8GG+n+zWbPTZnDh2M77E8dUGoz2PLI6NwvhEmOncvbunicUPQ==
 
 %URL%
 https://gitlab.archlinux.org/archlinux/mkinitcpio/mkinitcpio
@@ -38,7 +38,7 @@ GPL
 any
 
 %BUILDDATE%
-1705344294
+1705371347
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
@@ -69,9 +69,6 @@ bzip2: Use bzip2 compression for the initramfs image
 lzop: Use lzo compression for the initramfs image
 lz4: Use lz4 compression for the initramfs image
 mkinitcpio-nfs-utils: Support for root filesystem on NFS
-
-%MAKEDEPENDS%
-asciidoc
 
 %CHECKDEPENDS%
 bats
