@@ -1,0 +1,109 @@
+%FILENAME%
+baresip-3.5.1-3-x86_64.pkg.tar.zst
+
+%NAME%
+baresip
+
+%BASE%
+baresip
+
+%VERSION%
+3.5.1-3
+
+%DESC%
+portable and modular SIP User-Agent with audio and video support
+
+%CSIZE%
+955425
+
+%ISIZE%
+2534083
+
+%MD5SUM%
+3a0637a30689b98013dc7813b018e6e0
+
+%SHA256SUM%
+efc072b1275e0fb710eb1b5cef6417779d6ba52dbff02f948798c65427ed654c
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmWsErYACgkQek52CV2KUuTCFwgAhXGOQXAH8ZoTPsoiduGjzxscmG+OItLhSpUhffqopjJLHP0lS210oga0Pc8Sort7CeY9daD4WXpMriB9r1fQYVJ2dOWmPMaob8Ow2/JlLQn/5+/rXtDeLiBveZWpCKVk+r/B929w8OOMGVZOQlhTYh+BIIAE4hnhKlSNVDfPJn/dFjr+STAaCe7SN36lQcmyKJzMkmUlEQeJrHeSYqTjtSx1txF5GsE/CtHPVOCQKu6wV1UufDEUYAtI5Gf6QJahItjE2ZuUegMz8frcBLdqIh25oTzOMyFYwUNVVHAT/4sPuJxaIyahR6s/LOk4yCFTniUhXPKy48o5015mxHEPgQ==
+
+%URL%
+https://github.com/baresip/baresip
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1705775704
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+libre.so=17-64
+openssl
+
+%OPTDEPENDS%
+libfdk-aac: AAC audio codec
+alsa-lib: ALSA audio driver
+opencore-amr: Adaptive Multi-Rate (AMR) audio codec
+aom: (av1 module}
+codec2: CODEC2 low-bitrate speech audio codec
+ffmpeg: (avcodec, avformat, h265 modules)
+gsm: (gsm module)
+gst-plugins-bad: (gst1, gst_video1 modules)
+gst-plugins-base: (gst1, gst_video1 modules)
+gst-plugins-good: (gst1, gst_video1 modules)
+gst-plugins-ugly: (gst1, gst_video1 modules)
+gtk3: gtk+ user interface
+jack2: JACK Audio Connection Kit audio driver
+lame: MPA audio codec
+libvpx: (vpx module)
+libsndfile: (sndfile module)
+libpng: Snapshot video module
+libpulse: Pulseaudio audio driver
+libx11: (x11, x11grab modules)
+mpg123: (rst module)
+opus: (opus module)
+portaudio: Portaudio audio driver
+sdl2: (sdl2 module)
+spandsp: (g722, g726,plc modules)
+speexdsp: (speex_aec, speex_pp modules)
+sndio: sndio audio driver
+v4l-utils: (v4l2 module)
+
+%MAKEDEPENDS%
+libfdk-aac
+alsa-lib
+opencore-amr
+aom
+codec2
+ffmpeg
+gsm
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gtk3
+jack2
+lame
+libvpx
+libsndfile
+libpng
+libpulse
+libx11
+mpg123
+opus
+portaudio
+sdl2
+spandsp
+speexdsp
+sndio
+v4l-utils
+python
+cmake
+

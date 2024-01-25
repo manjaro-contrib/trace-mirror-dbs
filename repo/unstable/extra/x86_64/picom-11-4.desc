@@ -1,0 +1,71 @@
+%FILENAME%
+picom-11-4-x86_64.pkg.tar.zst
+
+%NAME%
+picom
+
+%BASE%
+picom
+
+%VERSION%
+11-4
+
+%DESC%
+X compositor that may fix tearing issues
+
+%CSIZE%
+199612
+
+%ISIZE%
+509741
+
+%MD5SUM%
+5adfbf861afafbd6e598b86454cd6587
+
+%SHA256SUM%
+13fc209027725210c591cb597c86f1a2c0d1632c1646699834103b9aa2462607
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmWyaEgACgkQ/cMEC5Ksp0h/JQ/7Bg1VVL8RvrS2aqEjXIFrhIT77uDt4trtCfqAIDxlk5h/r9sD5SX5YnbMmIF74tK6IzlrHwCqhHYFxxdoJEeIrDuKG7M2R4NPtQc3XB4edGeWtht05u7sRh6A4sjo00Qo8nOeq9V7x8Gy9dTs4Me+kTM4zLIqeMyx8yHjS388faJpI3kkgpIXtxkG7WGUvvm/b6gwBhdhVoyo7pgQduKBc/mMnlQ2hc6BtMF2qWqo99uzIt2ybGxfGY19NxhWGOjtn4xeGNxTh+1vB0wB7xQzZBmb+2NDb62zYnallBuTG3F5C/Gc6xJcLSnM9Qx3zig8NYe4brQUUk/J6T8G+FBVrN9TWukuzOOUMjAXY/dx0nYJf4x+IpW4WtBW7qhQTDbhW2YSB9fnILeUPSZNDBNhK82Zw+GPgv0lGl8VqSa0X0/R+GpY2PDbgcB+RWHxKLyH1dsuY1sVX6eYLrCZgSJnFiOoFhA/9FjDajpiQIh7SO56yqhiKp3pP1hnzSjqAaksn3IiPoQEl8DfF3VJkGoxoAAM/GL+sCR7UwhiwHy2G0HNFanv87ht2W4/CXGkZk0p1EzMtwInuLVWCh5ExaUszCPrm1tJT0mwr15wwh2bssbQawa2KTfFWI2L9j2KtGMCcLe2P9Rfejbtvt4WHmRE5KxM8zQmPApPicYZQhhBuA0=
+
+%URL%
+https://github.com/yshui/picom
+
+%LICENSE%
+MPL-2.0 AND MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1706169425
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+hicolor-icon-theme
+libconfig
+libdbus
+libev
+libgl
+pcre2
+pixman
+xcb-util-image
+xcb-util-renderutil
+
+%OPTDEPENDS%
+dbus: for controlling picom via D-Bus
+python: for running picom-convgen.py
+xorg-xprop: for picom-trans
+xorg-xwininfo: for picom-trans
+
+%MAKEDEPENDS%
+asciidoc
+git
+mesa
+meson
+ninja
+setconf
+uthash
+
