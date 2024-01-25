@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-opencl-rusticl-mesa-1:23.3.3-1-x86_64.pkg.tar.zst
+lib32-opencl-clover-mesa-1:23.3.4-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-opencl-rusticl-mesa
+lib32-opencl-clover-mesa
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:23.3.3-1
+1:23.3.4-1
 
 %DESC%
-OpenCL support with rusticl for mesa drivers (32-bit)
+OpenCL support with clover for mesa drivers (32-bit)
 
 %CSIZE%
-8672536
+20027782
 
 %ISIZE%
-28064879
+80684939
 
 %MD5SUM%
-75e10deb6e1629d183f1ec423fb3f4a7
+02b5e771153de117caaa9f70cfbb529c
 
 %SHA256SUM%
-5ac0dd3da70844fafaa17097cb8deb29fd84d21baa0f893ec2b4caea1b141d24
+5128788ef999da33685d1356631facc3a96b9ee09c559330742e7e009c4fe233
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWffV8SHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+qBYIAJ1mdYEpbsHbnX4lPO0IX+Z78L3jz+zNfvvRnX3OQvCI4oL0j5ZUz1ghLGAmbB/aXMQ2Zyxph85aMyMDO4kNJCnnGi67lRD89gvsICnwd4mg8+KlN46LkpLEo55oxebHN30rp0iMiRnGynMHBbozPKWqCQahTVCujNy+x0cLnEokv7icgepvHLe7GTkLelliyyisD8iL2gEexT2NA0xSnMpi3xQ8TzgWMpHZUFPp0qCoFffwPg9CMIRv/82l3zbPbKoPX2Rny8AIuphCUIdV3sCehpgHd8HwI4eeOIyJwO6TZobpp8vSbJZfwX8eEAQsdhyl3GxmdY9BzYY4uS2e4fg=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWxzrISHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+A7MH/ieuA3cC6/A8s2C7PTlJqPAe8LR4JsFZ/R9XvVXuBDqIrWgT9ymQP1Es/b6H+dK66Rimv2+b7bMGJABLHqS6EmhdfIOIStSexZFvGJlqmNj+CjF2y/saC6XTMoTE+9z97maO+6Uo+OhK0nggSEV0DCm6GYjlvMAFU0LxqFrrAASL3TWsgKl9nmVbrqZf+6jKawvpr69xJGTuy4gH70SqnYk5VpVs6qgN6khvxkL65hCSPaBu0gIBBSSi/BbVyUOB/JtCxJgfx3VzwKeWj8HyAFj1Iq3f+FpvzeKeO4redzKqx//Ct8T6umGMyxPRctgGNUs2VYLMCZfIUneERB80rxg=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,10 +38,10 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1704940326
+1706146055
 
 %PACKAGER%
-Philip Müller <philm@manjaro.org>
+Philip Mueller <philm@manjaro.org>
 
 %REPLACES%
 lib32-opencl-mesa<=23.1.4-1
@@ -57,11 +57,10 @@ lib32-clang
 lib32-expat
 lib32-libdrm
 lib32-libelf
-lib32-lm_sensors
 lib32-spirv-llvm-translator
 lib32-zstd
 libclc
-opencl-rusticl-mesa
+opencl-clover-mesa
 
 %OPTDEPENDS%
 opencl-headers: headers necessary for OpenCL development

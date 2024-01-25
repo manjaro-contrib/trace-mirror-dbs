@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-vulkan-intel-1:23.3.3-1-x86_64.pkg.tar.zst
+lib32-vulkan-swrast-1:23.3.4-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-vulkan-intel
+lib32-vulkan-swrast
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:23.3.3-1
+1:23.3.4-1
 
 %DESC%
-Intel's Vulkan mesa driver (32-bit)
+Vulkan software rasteriser driver (32-bit)
 
 %CSIZE%
-7295971
+2433356
 
 %ISIZE%
-31030617
+8545497
 
 %MD5SUM%
-6d4ad89415a42ab4fedafd8b10a97b7f
+37999159ef231fe18b7cb259a4ef5b86
 
 %SHA256SUM%
-8dc5727ef063fcc7e2aa82662b1a59bc72a3267908896ed99a29077a8d68d9af
+02b855d9ae20c9142994ecdc570ca9b48d7e083186d64ca6f5f47a6e547ee72f
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWffWASHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+tRwH/RKXtm7B0TeckKR5t2LZtwbbqqvNluY9tiG631Dmd/FBAKXaejsxx4o7c3EX618A/k9SavRNi3Lj+3c4IsWXwVrKK8v+VLfDFKoP3hrLaAGyUd3BaWqoKW2NxazyUh0v4C1PytWYfOQSddEDUFpQpWRQTbEFQi4z5o/0tW3ZdN7mYzXngnf17DF1X6Yt3VcYHq//9TBC55ZAdA4L+NVicBpusg6L5fQsLEx1gS13ASiF7UqG+QxriEv5o63y7CugqgtKwLK2vkqyWyGEUsDThSmMEtGJrVmBz3RPsfBwnBuDJWvZPv5CSB2pG7wtmFKj+2OvynE7rY6Dqviv4MUmOfg=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWxzrISHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+IboH/Rarj261kjEd8v2jiu1vbDki7Tv+zHeDCaWZGgjBVrGfaeM2aWLS1FEPrVgRQYAYPgkSGZBee80L17vF48wPCDix+fMuOOW8qTGJRarPoTUMAIuoDn9tdRlvvfea/hJddNnnSuxg/sm57q3JMT9pCt+oCxNdzMWA8+laLiJcK4hv2icCBjcPeGWJB8AxIV9tD1IcQplaEgnTXFIAQkIZNfJjP7U4/B7fTaVHBVaEzv+u3wwrTuT+DnSZq5Yhd/oZO0wSS2tRipuIJB9rwUCf85uph+omy8uCSsgFSxXVyGTBQngRrDkrIgw+fqJFDCMW5heiBp4fvscxvaQh3Luce/Y=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,18 +38,26 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1704940326
+1706146055
 
 %PACKAGER%
-Philip Müller <philm@manjaro.org>
+Philip Mueller <philm@manjaro.org>
+
+%REPLACES%
+lib32-vulkan-mesa
+
+%CONFLICTS%
+lib32-vulkan-mesa
 
 %PROVIDES%
 lib32-vulkan-driver
 
 %DEPENDS%
 lib32-libdrm
+lib32-libunwind
 lib32-libx11
 lib32-libxshmfence
+lib32-llvm-libs
 lib32-systemd
 lib32-wayland
 lib32-xcb-util-keysyms
