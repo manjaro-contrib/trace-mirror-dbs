@@ -1,0 +1,94 @@
+%FILENAME%
+feeluown-4.0-1-any.pkg.tar.zst
+
+%NAME%
+feeluown
+
+%BASE%
+feeluown
+
+%VERSION%
+4.0-1
+
+%DESC%
+FeelUOwn Music Player
+
+%GROUPS%
+feeluown-full
+
+%CSIZE%
+986326
+
+%ISIZE%
+4799102
+
+%MD5SUM%
+abca311b28fdb7742b9147e54f06925d
+
+%SHA256SUM%
+42298b8a0beeb8190fd678f8e25029f93695609460500a9c74474bb2e849cba6
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmWwBmMACgkQeGxj8zDXy5L9sA/8Ccgty7fo5XO4JWg6RhP6AApfDD0LDfTGMAGZIZjIAvjLlLpdxoszJ4Dc8zcr0fLK84wvbHuBd3iPCeBqznNo2gZ3sBLwKWEclu1saV/FCMR93qWY674a6PprD9SB4fBVXY5MpogzliWeP24CVk3X8DbTBcqlFYADLeWhszDSlJcruBQcDPKQaufQPbc+y6k6xDq/TJK7Q17Vpb+SdhgpH2OvYd41LWX9wOg4xnVeNnGOPSGxBgT9RFXyKm6RGlTKz7rSi3RLT6tyyYOJmRuc8gFeLw5/HcmQx6bVtxEmHMaViMse7j2Bk6rRb4gQOgwjQMvhLcetoYRVjLfPjgb7aZ07IU815vkQ2X3yt/XkrdGMHkYNYlGNMs+lpWM2RZnBfwvJc/oaiEuAHXFwZvwZUbonHX0CnCYPtVs3Xr4OPlhNPQZzdQ8hfmczE/XdlXe81cFsQraxsTVZ3kJIk0OnFviiYizq62lMfosuxvZx21pfqmEETJtcMbf+w4zyulrVT4wiMGGwWtoamQztGTJT83idNXOKtOoZxon3Ft6xRaU0iLAufApAydjZ3IkugS3ZPWg5cEg7JSJQn5JFstZmiPaDSOwsA40Acb0BSxYwk7jnmg1joD4SnU1wULjeWCkCEO4yX3FYZlPB+Kw2JAYG0pbQiCqHi87QzvQ6duDkoAM=
+
+%URL%
+https://github.com/feeluown/FeelUOwn
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1706034674
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%REPLACES%
+feeluown-local
+
+%CONFLICTS%
+feeluown-local
+
+%PROVIDES%
+feeluown-local
+
+%DEPENDS%
+python-qasync
+python-pyqt5
+mpv
+python-opengl
+python-janus
+python-requests
+python-tomlkit
+python-packaging
+python-pydantic
+python-mutagen
+qt5-svg
+xdg-user-dirs
+
+%OPTDEPENDS%
+python-secretstorage: browser cookie extraction support
+python-pycryptodome: browser cookie extraction support
+dbus-python: mpris2 server support
+python-sanic: webserver support
+python-json-rpc: webserver support
+python-websockets: webserver support
+feeluown-netease
+feeluown-qqmusic
+feeluown-ytmusic
+feeluown-bilibili
+
+%MAKEDEPENDS%
+python-setuptools
+
+%CHECKDEPENDS%
+python-pytest-benchmark
+python-pytest-cov
+python-pycryptodome
+python-sanic
+python-json-rpc
+python-websockets
+
