@@ -1,0 +1,80 @@
+%FILENAME%
+incus-tools-0.4-2-aarch64.pkg.tar.xz
+
+%NAME%
+incus-tools
+
+%BASE%
+incus
+
+%VERSION%
+0.4-2
+
+%DESC%
+Powerful system container and virtual machine manager
+
+%CSIZE%
+7191328
+
+%ISIZE%
+29037550
+
+%MD5SUM%
+df3815ddd6f629603a170f4593627441
+
+%SHA256SUM%
+83ff0a7c7cd0b3434a2846c5cf80b2d2c9b0388dac03246c711945aacf36c89b
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmWV8lgACgkQdxk/FSvb5qaGhxAAjN5B0GUs6bUOk/W6RQDwjT+/8/dIRYIaCvrGktGwDdfH5+UAS8XX27hale7jPOkMdQPj5SNd8VvzYLz/ckRUNj4g9Lsb0pccSL+0H2t5Tv6eJuaxTPu+iWmnRaZZSs9eQR6hQnmUuxDqnxJ1hQGn9OjiV7p8pvjh7yQvpP9OWwA+7iRG3RwoTZsYsEi7mKI43DU+Hygqaf6SCgDjUVkV1u0nLnTNOxYzqnx30a6FYywqSXkdvRznyXjf1rtuZ1gc5Vb7GET0pGsRXzQ7lVL7w8whlQvdTaO/yVIBCydbiyJjtPRm19hFDK9Ivpe+39rWmsWlr89MrVoRO72FSBYoFUOgD2IfXUkR96el1rKoM6j+jU3nscJ6uX2glodeT6OlseIoEjkkOoSxSVOKzT+kOLjrat6RTIxgos4zV/8IBn2WXW3Mby10kpk5pscOcyFwIhwYKPNFG8AbmS4qVE+uf+K/kvNw5gH2FGNlHrfCovHsVx0xnefxWDOfQfRKSPYfPxuoSLkf+n+JVt6Qn80KGIkhnRM3L1j2u+nY0I02TZZsDhoBExxwaiEyseqXgBg9r2AF7wLsa/vYqLkifmmFby0MMkVzwF4wjTmW8Pvw339Zhx1XSojP+VRPv1VLPYjT1qIoR1KgmFyGrDYrCVCYBWXij0RTV2mDLr94ig52A1I=
+
+%URL%
+https://linuxcontainers.org/incus/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1704325414
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%CONFLICTS%
+lxd
+
+%DEPENDS%
+lxc
+lxcfs
+squashfs-tools
+dnsmasq
+cowsql
+libuv
+ebtables
+raft
+sqlite
+libcap
+acl
+
+%OPTDEPENDS%
+lvm2: lvm2 support
+thin-provisioning-tools: thin provisioning support
+btrfs-progs: btrfs storage driver support
+minio: storage buckets support
+cdrtools: VM support
+qemu: VM support
+edk2-ovmf: VM support
+systemd-libs: unix device hotplug support
+apparmor: apparmor support
+
+%MAKEDEPENDS%
+go
+git
+tcl
+apparmor
+libseccomp
+systemd
+

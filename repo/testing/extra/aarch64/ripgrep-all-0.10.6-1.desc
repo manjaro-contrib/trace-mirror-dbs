@@ -1,0 +1,63 @@
+%FILENAME%
+ripgrep-all-0.10.6-1-aarch64.pkg.tar.xz
+
+%NAME%
+ripgrep-all
+
+%BASE%
+ripgrep-all
+
+%VERSION%
+0.10.6-1
+
+%DESC%
+rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.
+
+%CSIZE%
+2572808
+
+%ISIZE%
+13048600
+
+%MD5SUM%
+607858612f030869b69fa0e036d0e0dc
+
+%SHA256SUM%
+4fda47d4ad93f1511a48065da166f8db0b4509b4a04f39708d40ac3ffd224e87
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmWmXIwACgkQdxk/FSvb5qYJMA//WEzOCZDfbpTRXqBSX2Z+bPRRFY6nhmuWKMr4u1RSoDhe3bzOw2xMquqHIbA/jptCqNCFB2O65DJalkBFEKl8rZzr8KBHbkGAWQn/oaz4Y/Vijnqy+LgUqG8R9T8rPh8VxpMnOY4K9YxMpSBPbNr8BxPbD7Pb9l6ySO3vLXlcvk/FrlqX9HcWINqet+QEfL3NQrWvet82Kys0POza1rzsA4aROYCqJ8fZK3mPvORFjin0mRvnoIJOjCPDHsuePmODtWtim8Yf6zm1ePwwS+GTVO2zHWKB21MSNx7N2DD3fZU4SM33dyWSUdTG66FMsL4qG8b11ECthXEdl40+YDwdcI259dcxIBXGhce2mbFF6IzX4xscWD4p6biT7rA+2y9kdWMQabf+Jxtgk4382tEN0Dxc7awk/e4JyHmKC1PkBGFlO3jLYm4Q8jK0xYHktChUho0tRcHF6dYT9q/nqIM/fn+spp+5QvMe5ezo4eT9HCCZ2VNt25ApS76Et19QLN2wC+r1KnlKhRyPdHn0v18pRHMCqm1japFu0bigyhY8BR0vdGUr633mv8xz7iKh1RBygpp29JuXfthhIo4lc3GLZDRYRkqxoBLFQHycZ1UFzUY0GWooyCFaSeaEekno5MQZGKUmjuFDOoxKpCnZxAs06y40UlEgGefIR9w0kXXkYsE=
+
+%URL%
+https://github.com/phiresky/ripgrep-all
+
+%LICENSE%
+AGPL3
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1705401220
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+ripgrep
+xz
+
+%OPTDEPENDS%
+ffmpeg: for the ffmpeg adapter
+graphicsmagick: for the pdfpages adapter
+pandoc: for the pandoc adapter
+poppler: for the poppler adapter
+tesseract: for the tesseract adapter
+
+%MAKEDEPENDS%
+cargo
+
+%CHECKDEPENDS%
+pandoc
+poppler
+
