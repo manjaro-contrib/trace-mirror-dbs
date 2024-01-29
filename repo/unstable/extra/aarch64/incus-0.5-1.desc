@@ -1,0 +1,81 @@
+%FILENAME%
+incus-0.5-1-aarch64.pkg.tar.xz
+
+%NAME%
+incus
+
+%BASE%
+incus
+
+%VERSION%
+0.5-1
+
+%DESC%
+Powerful system container and virtual machine manager
+
+%CSIZE%
+25130008
+
+%ISIZE%
+100547631
+
+%MD5SUM%
+b8c0c5074d3264b06dc8fb54709ff3ab
+
+%SHA256SUM%
+4440f0a2b4ee8bebcf4349fee8cf985a55ece1436f7a0f58f2b8b75dbc477478
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmW0W0AACgkQdxk/FSvb5qZ+lxAAxjWDgXBBoo3cCzMYuLgA3VDM7vhMcVL6HRA7qF1e3m/k1OTn3kNZAeEWf1Z4SOh27lKjK0M/SvcWC2P0P/zYioxGXIPPq8UqrMCW89Tgh2gEw0CQIM/52te8u9K0jWyUtIsbKztU4XBa8f1b8JRbaJ2mD8tHCizoMz5YD2Qyt7IHXk7nSCcCBG4CAQGNCby0heg3ZvPpspB8ZDJoxIDGY8WYkN5KUvlckz7ScMIK13PLd/oj5n5RvhEb/TvY5X0I7pYbYiV5RgXsJ+4c+gLYJPlTx4DS8hrnm2UkQZ6Jc3NnzUbOFEnlwC+Hrv0tfomn5wK9BDNY7wkItLPwK90++OdyzW/NiVdQG/1DW/Ky0QjwnGQ95oSJZRNlKIxJTHNEFeS9agGrt7ZPw5v+DyXMTRXFbxNh/DcBWWmSXKT6GtwE8e6nXVyBQrNpRnJ+knsTf3c7MRHnYUKvfz6kgaL0xog4VPVBW9L6viCKzKy8FzCSl29y4drJyceg17DcIo5dHFD2QENi8j0XbGI4l3OKltnhdvdxqo1Dq4jG4nzDpOwbKK5/uqcCx0JauZvR0IrZf6AZe+CpLX7P8HBVV0QAAVxLQwUVWdsAD4E2LgCNMOrarsiKcUq7ituXa39nKpO3b+sKmfFGlPO2EucstT5ebJ4IhRjSmZYCF40GUyEXGC8=
+
+%URL%
+https://linuxcontainers.org/incus/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1706318256
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+lxc
+lxcfs
+squashfs-tools
+dnsmasq
+cowsql
+libuv
+ebtables
+raft
+sqlite
+libcap
+acl
+qemu-base
+qemu-chardev-spice
+qemu-hw-usb-redirect
+qemu-hw-display-virtio-vga
+qemu-hw-display-virtio-gpu
+
+%OPTDEPENDS%
+lvm2: lvm2 support
+thin-provisioning-tools: thin provisioning support
+btrfs-progs: btrfs storage driver support
+minio: storage buckets support
+cdrtools: VM support
+systemd-libs: unix device hotplug support
+apparmor: apparmor support
+xdelta3: support delta downloads of images
+
+%MAKEDEPENDS%
+go
+git
+tcl
+apparmor
+libseccomp
+systemd
+

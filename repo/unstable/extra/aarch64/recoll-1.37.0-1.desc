@@ -1,0 +1,82 @@
+%FILENAME%
+recoll-1.37.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+recoll
+
+%BASE%
+recoll
+
+%VERSION%
+1.37.0-1
+
+%DESC%
+Full text search tool based on Xapian backend
+
+%CSIZE%
+2430240
+
+%ISIZE%
+10645739
+
+%MD5SUM%
+ed073536ef75d78fa1a881496ecd33d7
+
+%SHA256SUM%
+a5f292a77f3172d6334c6a5bda9063c39624d8e651eba8bd72ea95de85a6911c
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmWp09cACgkQdxk/FSvb5qbNRhAAh8haYzMBuZuFNOOrXLjsW2MBiic+4eoBhzLrzuHlaYANklMvNmPWkUfIJpGHrITQiogyCHeDBJJU2JbmOEc30e74zkPNWuUsLpk+eVRDePg5ctGAcIx5HHJuksld4Tu51iifyot8lamKaPu/bmS+ISAE+mqcvb5a6plA2G5hrsJmiKV84hAmuuHWZgxI4/g8GDx6MJ3YDL4WBucwfTUxNM0AAR7EuqzjtAnHAMFKo6a3QeFK+bs2hMGIy7qUI5wihzrVawTqvmfKpI/1WJ3y7zCRwL8HCYOUrZNFV2ytTNjvwEdizTKylVgujAWuCC/2I9+WeeBAVMkYcR/wI8l7+/eYzoslOj8W6lxWg2tgJAG/nGw5WSQdyJsF85HVQX1Da7B1kNfeHFrvYGPlltlERc4NJhiGskuiQb3g9dogQ0Bpy2RL9bU4j3o2XQQZ2qRq8sYTRp0odB2kWn9xWPile1ibEyjfVfI4yrvaPq9BV40EuFnavDtlHdlt+s+2KgBqyg3Jp8nw5Jr79GX/Lt5zts8HzXywpxIptKcO09GXNXr9nTS4/l/KVBa2m4C1SgpR0ufn/WQr9I62SfbE8naipifQylWitgK7F3Ai7kL4snRN8bvDuo2M4xMiICESiczdhtseNNqn2LevIuF4jFizem8nKcFU1Ww8xYYegvTFYDI=
+
+%URL%
+https://www.lesbonscomptes.com/recoll/
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1705628429
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+xapian-core>=1.0.15-1
+qt5-base
+openssl
+hicolor-icon-theme
+qt5-webengine
+chmlib
+aspell
+
+%OPTDEPENDS%
+libxslt: for XML based formats (fb2,etc)
+unzip: for the OpenOffice.org documents
+poppler: for pdf
+pstotext: for postscipt
+antiword: for msword
+catdoc: for ms excel and powerpoint
+unrtf: for RTF
+djvulibre: for djvu
+python-mutagen: Audio metadata
+perl-image-exiftool: EXIF data from image files
+python-lxml: indexing spreadsheets
+python-pychm: CHM filter
+kcoreaddons5: KDE plugins
+kio5: KDE plugins
+krunner5: KDE plugins
+aspell-en: English stemming support
+
+%MAKEDEPENDS%
+python
+python-setuptools
+qt5-tools
+cmake
+extra-cmake-modules
+kcoreaddons5
+kio5
+krunner5
+
