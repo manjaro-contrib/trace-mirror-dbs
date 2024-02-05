@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-vulkan-intel-1:23.3.4-1-x86_64.pkg.tar.zst
+lib32-libva-mesa-driver-1:23.3.5-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-vulkan-intel
+lib32-libva-mesa-driver
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:23.3.4-1
+1:23.3.5-1
 
 %DESC%
-Intel's Vulkan mesa driver (32-bit)
+VA-API drivers (32-bit)
 
 %CSIZE%
-7295417
+4917218
 
 %ISIZE%
-31034713
+14682883
 
 %MD5SUM%
-545dfa0ea2b9a50410e3a85a4c4e3b2d
+a88d324730f3b0f514b2381b2e843941
 
 %SHA256SUM%
-fa3721d16825a0af234c27b6a0fa208fa95d5ba0aa671f71d9ce0404edf7527e
+6c4d3ded27424fc09af03f14323c4adeea9a4cf70b6e4cb7336462528b45ead7
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWxzrISHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+5cIH/1x1/zjFXPhwH/sjnzdpyxi3RbAE6yUbVHjKaK37qgtVd6mw3+iCvrpli7u/VhCmI8Ut5rm7jdfpsdUgmEOEGtswlLkRxXtwfSij5BcmGdOB+PSieWyKM1indUMecpdD0byGfQfMv9GirPnBhEWdp1jy9QIRuntHtcNoTLRJPHaccuYol3QTGgnhHC0qbWHrddGn71lNMIf5sLmnO2j+JLROlGozWAMSO4P25jtLfz/R295lHnCZ1SRQjXtMkAP72l30lwBguyopA/QW8lSXWfXebcMiPK9DUX3gHkGdKHHAsJlTQFdC+dAH39ahjhiyZj8rn8CR2uk7InunSR2dIkE=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmXBbx4SHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+cgMH/1autOwKdk1H42BTUGrL26WB22cwBruczlw2P1CL6e1qKeoltG2piQP9BmU6RHYIp1KzavJCb1OJEOEmFJNUXfccUuxgEMR9KcvIyR2hJ44wXOyJ17VStmwDo0SkDJxLer8ExWnBQUWeeNeWBlbfo7ChA84dmyeXvi38k+JOY4vxpyenKFSSiHN/FlfLvscWuXWmDSgWS8RL/ThtAIqECe3PhjIgsZ2Jw8tXC9xm8yNxW1Ne/BXi6EL7+to4dzvvvvSeylHHMpRkBIwkNblRCAFeEf7IP0oj2hU2O4iTFOuOcQOutKSKEmUyYdNlEd0lmYBuzf458EbwvufZGCAMcqg=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,25 +38,22 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1706146055
+1707175276
 
 %PACKAGER%
 Philip Mueller <philm@manjaro.org>
 
 %PROVIDES%
-lib32-vulkan-driver
+lib32-libva-driver
 
 %DEPENDS%
+lib32-expat
 lib32-libdrm
+lib32-libelf
 lib32-libx11
 lib32-libxshmfence
-lib32-systemd
-lib32-wayland
-lib32-xcb-util-keysyms
+lib32-llvm-libs
 lib32-zstd
-
-%OPTDEPENDS%
-lib32-vulkan-mesa-layers: additional vulkan layers
 
 %MAKEDEPENDS%
 lib32-clang

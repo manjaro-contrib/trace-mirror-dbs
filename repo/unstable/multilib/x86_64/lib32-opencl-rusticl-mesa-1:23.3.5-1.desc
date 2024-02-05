@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-opencl-clover-mesa-1:23.3.4-1-x86_64.pkg.tar.zst
+lib32-opencl-rusticl-mesa-1:23.3.5-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-opencl-clover-mesa
+lib32-opencl-rusticl-mesa
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:23.3.4-1
+1:23.3.5-1
 
 %DESC%
-OpenCL support with clover for mesa drivers (32-bit)
+OpenCL support with rusticl for mesa drivers (32-bit)
 
 %CSIZE%
-20027782
+8680230
 
 %ISIZE%
-80684939
+28073071
 
 %MD5SUM%
-02b5e771153de117caaa9f70cfbb529c
+73526ac6c41bce2ba00cf97f473ef95b
 
 %SHA256SUM%
-5128788ef999da33685d1356631facc3a96b9ee09c559330742e7e009c4fe233
+074f450d66f6acb43013052ea2e73beb95ccf01c51ae5552ea5e021c9807e532
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWxzrISHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+A7MH/ieuA3cC6/A8s2C7PTlJqPAe8LR4JsFZ/R9XvVXuBDqIrWgT9ymQP1Es/b6H+dK66Rimv2+b7bMGJABLHqS6EmhdfIOIStSexZFvGJlqmNj+CjF2y/saC6XTMoTE+9z97maO+6Uo+OhK0nggSEV0DCm6GYjlvMAFU0LxqFrrAASL3TWsgKl9nmVbrqZf+6jKawvpr69xJGTuy4gH70SqnYk5VpVs6qgN6khvxkL65hCSPaBu0gIBBSSi/BbVyUOB/JtCxJgfx3VzwKeWj8HyAFj1Iq3f+FpvzeKeO4redzKqx//Ct8T6umGMyxPRctgGNUs2VYLMCZfIUneERB80rxg=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmXBbx4SHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+qgIIAIT+GymjPEKpcYsF43GzoBWuhLApmUsls40q88scdSHKdWMQMANdtL42gsWcbCR25fs5lsYAOMV+/DIaKgE699rREUVN1Z8c8AFtv2cFJQoQ5m/oLW0S5vBBOxuxlAv3KsG1tRqPYBcHq65mTG9L4pg9Hy6eKSslGfp5DERmghr6LmE5BOwdfF/LKb0v3Jm/fHhC0IcEfWaP8FgyGvS8cHmS3pGz/V6eLztoKQFR2mb6l9xfcsVAPZJwCklTnlzM3Y1FWMho0xt8sV/v9YX7zZq48IsdAnK7NLKC7/QvuKbIDJUiPRO8sIJ62VJKWqwcjC+OSRv3UWKiXMxQYiGA2wg=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,7 +38,7 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1706146055
+1707175276
 
 %PACKAGER%
 Philip Mueller <philm@manjaro.org>
@@ -57,10 +57,11 @@ lib32-clang
 lib32-expat
 lib32-libdrm
 lib32-libelf
+lib32-lm_sensors
 lib32-spirv-llvm-translator
 lib32-zstd
 libclc
-opencl-clover-mesa
+opencl-rusticl-mesa
 
 %OPTDEPENDS%
 opencl-headers: headers necessary for OpenCL development
