@@ -1,0 +1,89 @@
+%FILENAME%
+fastfetch-2.7.1-1-aarch64.pkg.tar.xz
+
+%NAME%
+fastfetch
+
+%BASE%
+fastfetch
+
+%VERSION%
+2.7.1-1
+
+%DESC%
+Like Neofetch, but much faster because written in C
+
+%CSIZE%
+458716
+
+%ISIZE%
+2352746
+
+%MD5SUM%
+5cfd9ea58bcfb58c781a1c8d14b36cd0
+
+%SHA256SUM%
+5a89517b75fd82b5b7abdfd94211e27aec0f49d0b5c972b5e354bad5c9615527
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmW5Fz4ACgkQdxk/FSvb5qbSfA//UCo86HlXaW3CqC5+uzIpcm8x+nptsRL3XWgnsPosKArVf2bQB61T2FgZCDQ8HBu4Cm6JRmIoEv7Dvf4VH7PzoDTK5t95iQ/hKov/KS3H38f0GoJiGc0hWX2W1/n87R4nwoKHvJQtgwf30exetsq35qOGdohyksTltKOpO/KEeyF9VOgHPwqnB3x++Jq0HJY6xwpa7lX/1ukeaOtQWiG3EDRb8BftVIWys+oNGbg8fI/0WGLt8yXqnFAFzZiqeZoJftG7Ie50OmJ34snEdLF1fv9NrwRE/0Jcuar51fGecGLkHsh21hIRpayMOVgVi5faoSA1XIabMhZXtPNEpwAAOGnLJk6t+oYrZMShJ8pcqTe0G67UDZKR3p3iqHYC1lCbWvyy1NlDYtUrdyDPHcIXH0wsod7re5AHuRkr9ijhkiWUdjshYv9vAl7aVXzOl92VhuDQRjusqZGgzJZJp1erKxn/yo+Y1m38tgOyH8coJpzfV+c610yFLDJozHAQDSa8x4TD4p+q8FuNPnP5Jn5/lkLJxQRFE/sykvilNx69mUeyDUDLKLKvppKbFADscXlIRmNge9/NOqTDpjgptDS7AA/R77fpSEU5JqWjPJHlm4ABSmQhDB1wKrEq01jFdgxtLsuO06c8YcjMlUoG4cso21BJizIngbubvKUDGAsfzQ4=
+
+%URL%
+https://github.com/fastfetch-cli/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1706628849
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+chafa: Image output as ascii art
+dbus: Bluetooth, Player & Media detection
+dconf: Needed for values that are only stored in DConf + Fallback for GSettings
+ddcutil: Brightness detection of external displays
+directx-headers: GPU detection in WSL
+glib2: Output for values that are only stored in GSettings
+imagemagick: Image output using sixel or kitty graphics protocol
+libnm: Wifi detection
+libpulse: Sound detection
+mesa: Needed by the OpenGL module for gl context creation.
+libxrandr: Multi monitor support
+ocl-icd: OpenCL module
+pciutils: GPU output
+vulkan-icd-loader: Vulkan module & fallback for GPU output
+xfconf: Needed for XFWM theme and XFCE Terminal font
+zlib: Faster image output when using kitty graphics protocol
+libdrm: Displays detection
+
+%MAKEDEPENDS%
+chafa
+cmake
+dbus
+dconf
+ddcutil
+directx-headers
+imagemagick
+libnm
+libpulse
+libxcb
+libxrandr
+mesa
+ocl-icd
+opencl-headers
+pciutils
+vulkan-headers
+vulkan-icd-loader
+wayland
+xfconf
+zlib
+
