@@ -1,35 +1,35 @@
 %FILENAME%
-kodi-rpi-eventclients-20.3-1-aarch64.pkg.tar.zst
+kodi-rpi-git-eventclients-21.x.65287.7d4c6901ad-2-aarch64.pkg.tar.zst
 
 %NAME%
-kodi-rpi-eventclients
+kodi-rpi-git-eventclients
 
 %BASE%
-kodi-rpi
+kodi-rpi-git
 
 %VERSION%
-20.3-1
+21.x.65287.7d4c6901ad-2
 
 %DESC%
 Kodi Event Clients
 
 %CSIZE%
-32845
+32913
 
 %ISIZE%
 77954
 
 %MD5SUM%
-edc2e3928028ac8486db801b213837a4
+1e679d02eaea72d26996d4f90f64b2e3
 
 %SHA256SUM%
-456c902e53f36562e663c6d6c3343df91f432aac5521bbd300e7764d6e369f93
+7d31e3bab1548529dfbfbb4927d5ea737a0546fbca1ff3fbbdc91d6a13dc0094
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmWiMQwACgkQHzWBGKB6z1f46ggAyxTiTD6dPQDwhlHPaU/K5/0QGRhRY8zb3F94Y00jC3KnaUubyJgm9S+DXbFysUGGVWim2tHZvJyuF2q62F0FBaRbdfZwau2RDoCR/hmHnPVJ8+V8HyNZXuB1+n5BTeDJAzHvtgB3mAjaTzhUAmCAlmc1ekNaax7A097RWYZBqTAb8C79F2sQ3UDmz5n39Em0ANktIZoLLu9KWDASxEDhvXOgVB3Fx8UlqvYCX3A++eii/GW6u4Ck8dJlAY/cD2H+z0YUX8igEUDx4guPvRi+dkQtNlIok91WcMjZNy6jrPcWjXlFzjL3cej7eKfUVMGiFDSPOJDC8nMdUsIW2K6WKA==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmXGR4QACgkQHzWBGKB6z1d5YQf/ehRweEjoibqqDqUJqg6mpSCgwNBsiEzQr5g1xzCYl+qCeY1tf8NiyNbFrgRVEl7NbY8KyMyQn6zQ0C+hRrIQ2gi44MdVCXzNr9g56OC35216kdIcp6aMxNjOh4a7hVXE6e+Mw18RiJYmcQRn65u8rGOGGwW7Qnin41yOYx0xtIyYns/3MVUBXPQDFHg7WjkuJF1Np5hd9XbUT4jmrR0v0SVphzhaL/3J7tYEpWEBSmc91pfFetsiE0ODocJg8LDhGZ88/6JVADaWR52bzzdvkkjNwQ8h4a1oJdYXfSsACQxypech1CgVOQy7pT1eJtjyxvAeGEoGBfBinKaeCbCV/w==
 
 %URL%
-https://github.com/graysky2/xbmc/tree/gs-gbm_nexus
+https://github.com/graysky2/xbmc/tree/gs-gbm_omega
 
 %LICENSE%
 GPL2
@@ -38,16 +38,17 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1705123573
+1707491870
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
 
 %CONFLICTS%
+kodi-rpi-eventclients
 kodi-rpi-legacy-eventclients
 
 %PROVIDES%
-kodi-eventclients=20.3
+kodi-eventclients=21.x.65287.7d4c6901ad
 
 %OPTDEPENDS%
 kodi: local machine eventclient use
@@ -93,7 +94,6 @@ shairplay
 smbclient
 sndio
 spdlog
-taglib
 tinyxml
 swig
 upower
@@ -106,5 +106,7 @@ graphviz
 libinput
 libxkbcommon
 pcre
+libdisplay-info
+tinyxml2
 java-environment<21
 
