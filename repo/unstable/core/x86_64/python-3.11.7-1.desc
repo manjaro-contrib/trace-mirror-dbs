@@ -1,0 +1,83 @@
+%FILENAME%
+python-3.11.7-1-x86_64.pkg.tar.zst
+
+%NAME%
+python
+
+%BASE%
+python
+
+%VERSION%
+3.11.7-1
+
+%DESC%
+The Python programming language
+
+%CSIZE%
+14609137
+
+%ISIZE%
+78935711
+
+%MD5SUM%
+b3babf2c276540e0e3e50a5fd048ddd7
+
+%SHA256SUM%
+de06005b13f13453d658afc0dc9cdcc47a8a094a4210c39d881943eb67f79dfc
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmW3+swACgkQeGxj8zDXy5K1kA//XQR6eOFZcPANCcirAzDWSfaD60axsM8CcOQz3cP/A+6douOz+fq0l84dE4URcH8VAJG0bKQH63XDMc91KJA7WH2AH4m6BNPHnXPEPrsLhihGzxhv+fXS3OaUD0At9i7lbRfMwglokxVcAzB9BGCYGMr2On6UfJEO9FN6OPqyfbDGCqylrSh516TaRwmdoMER41PPIZRzulI9QTY8n2iVk7OTTET/F6Rcm6rvVdddJx1xgfdN4aWFXUq6D6HZBq4EBJSVIeAZhZk6vSneuL5zQqIQ9VvM9AeoJi+XzXEqP42NI6NQ4hIKIZ3Tr/VGGg902c9zkBlwq9HOBF/DOAhCP6kluFRqRTfsFWpT8RtGNpIQl8dktoXQGayj1e+vAL3HXBcGJrwpLz4Lpv8VxYvrFWwyDC4CWAdbc2iyx9dDF+gUMU7zEenkHb1sNrw1Pn8XWPnl/9WgI0EfzH92QK8+3Zr6UFOQ6yIp7Zec39rq5nV/M/RXocO55ILtCNdrzPs+dxo+5xa2F1VXue2kJqoB/uhDkwrfcbIvgmLLWvyxjcFYJxEl9Ks9o15qME3TWc1oVrQdpKMyyRdFc1Bzs74982/zplnbCetFnXHSHQcWnJOStmZVZs0KsxD1i1IxzLe6pQ7xVW+qQP+3xI7Hqwl0BUocnrEZKcUiG1lA5hwckK8=
+
+%URL%
+https://www.python.org/
+
+%LICENSE%
+PSF-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1706544237
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%REPLACES%
+python3
+python-externally-managed
+
+%PROVIDES%
+python3
+python-externally-managed
+
+%DEPENDS%
+bzip2
+expat
+gdbm
+libffi
+libnsl
+libxcrypt
+openssl
+zlib
+tzdata
+
+%OPTDEPENDS%
+python-setuptools: for building Python packages using tooling that is usually bundled with Python
+python-pip: for installing Python packages using tooling that is usually bundled with Python
+python-pipx: for installing Python software not packaged on Arch Linux
+sqlite: for a default database integration
+mpdecimal: for decimal
+xz: for lzma
+tk: for tkinter
+
+%MAKEDEPENDS%
+tk
+sqlite
+bluez-libs
+mpdecimal
+llvm
+gdb
+xorg-server-xvfb
+ttf-font
+
