@@ -1,0 +1,89 @@
+%FILENAME%
+fastfetch-2.8.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+fastfetch
+
+%BASE%
+fastfetch
+
+%VERSION%
+2.8.2-1
+
+%DESC%
+Like Neofetch, but much faster because written in C
+
+%CSIZE%
+518543
+
+%ISIZE%
+2423339
+
+%MD5SUM%
+90a4c83a2b34ca70df80aca8228e3b08
+
+%SHA256SUM%
+6903a68c2ad79941e65128d8228bd97e902801d2086da853fdee89ea2a7d678a
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmXHQQ4ACgkQ/cMEC5Ksp0hQdQ/+IgHlxEBYBvYNADVmvFK8rDKkhGtfCyLmXaU+2ZzRMJamqWDck9LKPWzHk3PLB+Tw+6TpCSUYDZspCCFJf6Fc4Femd+ZUlLBrHPMJ5XqkOJpXR//gUFp8K+9y/qrmK/4JQIe7/IEyOafzQ+JtsH1NiW1l2DBryj68y8uG2MN5jAhztRoQw0hyOLGsCxDXS/Za3AOilPWqMnSdDxsGK5ueDCAEAfqNSX3YbffYiFkwMHbG4gSPM4C7QrGm8RFk7Y2Rw9BSflww8DjGhEArjT0ho9roYz+4RYSWbkZ7QBo1nUAIH/xb9ZaZYVxaMc/gPUt2ZWgrWZhAA5g1FzFJDMXG0E8VsTCy42v03W78JB0OJoW42NK0p1Lx70AQKwrsFvvx57y47XJd/m2ZeTrKp3tfb5HsZbPKqUXuc4QgVWDrRKhBWIVNsmO3TTN9bvVbTWCVNe/VWPUxUX07p3qpcaJzlcc3zYTlqTlRurwRJu9MDTanDQcdN14rVvPcdgQJGKcIJ3WgGnW4iN0fSxrAfDYpB0F5vWV9BMTB2KwIIg0Jcv7g9vYKlhG9KcRtNukIu0g3q4pKCo9cchGeK1VkXaL3S0COUjNE53wK3FqPNHL7UE8FNCMut9JYN1iJCi82y3mIkbm34XrU+PDPY/pSsG585G2aw4OtoCHX7JzLTODS/fk=
+
+%URL%
+https://github.com/fastfetch-cli/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1707557028
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+chafa: Image output as ascii art
+dbus: Bluetooth, Player & Media detection
+dconf: Needed for values that are only stored in DConf + Fallback for GSettings
+ddcutil: Brightness detection of external displays
+directx-headers: GPU detection in WSL
+glib2: Output for values that are only stored in GSettings
+imagemagick: Image output using sixel or kitty graphics protocol
+libnm: Wifi detection
+libpulse: Sound detection
+mesa: Needed by the OpenGL module for gl context creation.
+libxrandr: Multi monitor support
+ocl-icd: OpenCL module
+pciutils: GPU output
+vulkan-icd-loader: Vulkan module & fallback for GPU output
+xfconf: Needed for XFWM theme and XFCE Terminal font
+zlib: Faster image output when using kitty graphics protocol
+libdrm: Displays detection
+
+%MAKEDEPENDS%
+chafa
+cmake
+dbus
+dconf
+ddcutil
+directx-headers
+imagemagick
+libnm
+libpulse
+libxcb
+libxrandr
+mesa
+ocl-icd
+opencl-headers
+pciutils
+vulkan-headers
+vulkan-icd-loader
+wayland
+xfconf
+zlib
+
