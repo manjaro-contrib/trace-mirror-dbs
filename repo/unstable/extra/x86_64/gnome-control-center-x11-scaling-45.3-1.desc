@@ -1,35 +1,32 @@
 %FILENAME%
-gnome-control-center-45.2-2-x86_64.pkg.tar.zst
+gnome-control-center-x11-scaling-45.3-1-x86_64.pkg.tar.zst
 
 %NAME%
-gnome-control-center
+gnome-control-center-x11-scaling
 
 %BASE%
-gnome-control-center
+gnome-control-center-x11-scaling
 
 %VERSION%
-45.2-2
+45.3-1
 
 %DESC%
-GNOME's main interface to configure various aspects of the desktop
-
-%GROUPS%
-gnome
+GNOME's main interface to configure various aspects of the desktop with X11 fractional scaling patch
 
 %CSIZE%
-8578441
+6803347
 
 %ISIZE%
-22780675
+23097458
 
 %MD5SUM%
-c6069d9fbc28606eb0a444d551b1c484
+379228c1f83c48f249e42c1df3b5f124
 
 %SHA256SUM%
-79b81b8779d3594ee74c2be0c8131ed362c52bdd12189243d834cc1faed1f408
+38620391748f8a76489fc361eac2a67241a0b960ea09725491743358d306b72c
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmWpTToACgkQFQwgB0PtRti24QgAwV7uXdywcEdXAY15s0jj//+Pw7yu1vTmEyp/KHmp74daZKDDxr8EQDX+pcHV5OU8L3h7+tx84pMGGeYWpzZxV/fAHgrn+uzUZNAMgm9fTixfQ8kPOqKw0vYmR4dpa2aTUavUA3oZdOZflRmzKE9OnS832Gjg133SjIjH05TCwxW0pdaslpJtyqXN6KrRVMRANqRohVktSUssDhSf56CaxEIViOkiYZtZ2/VY4/frDUutEXeJBmQgE0ScS2Gn5IUuxn9j/7xwQt/elgb43Aew/DhpDSaHLB1C4ZJ4oegNRg2UK4+qyMv5nqabYN+sNr9FodlTNi/g+kJiQAiIbuFy1Q==
+iQEyBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmXKQCUACgkQFQwgB0PtRthImAf3YmI3OhXhYZtDLoVWOsqoDWXr+ynEiTZVk5cU8U0XJMRKMhLpgXZ1JT/tI1dFLFIu8HLF0A/uI28uyXxEOhWVRbB2MRWQiuMpspp/vHUA+mI7coIvx8+qVqKHLAJx9SVvHgSeBgQ0QFnwcbzU40dTYm3cvO2mxC4tK5Kz/FPVQHGOjrnWI+vrnB9fatjrezLoDpNpaLB/76AsvDK1dnUr2pqkFsHpJ2Nfs/rE81z+CGAXJvOzjxv7rwz0xkyAi5rafdUhJ8F2W7UxhF0empTE2A+/HLS3SMvNYjieh7evGqyp3BX8gOM/Si3K9Wc5FmyJOthmPMVVpfY/mcfp1cdq
 
 %URL%
 https://gitlab.gnome.org/GNOME/gnome-control-center
@@ -41,10 +38,16 @@ GPL-2.0-or-later
 x86_64
 
 %BUILDDATE%
-1705593900
+1707753443
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
+
+%CONFLICTS%
+gnome-control-center
+
+%PROVIDES%
+gnome-control-center=45.3
 
 %DEPENDS%
 accountsservice
