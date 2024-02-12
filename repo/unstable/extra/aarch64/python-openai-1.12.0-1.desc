@@ -1,0 +1,74 @@
+%FILENAME%
+python-openai-1.12.0-1-any.pkg.tar.xz
+
+%NAME%
+python-openai
+
+%BASE%
+python-openai
+
+%VERSION%
+1.12.0-1
+
+%DESC%
+Python client library for the OpenAI API
+
+%CSIZE%
+302840
+
+%ISIZE%
+2721495
+
+%MD5SUM%
+985e97c1a917a8f339248467b6e81e01
+
+%SHA256SUM%
+7c4a97fb8210c30bd6b5fe904d29c5167ac6ce8db5a865c1c2db518f68468887
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmXG72sACgkQdxk/FSvb5qYu4w//S4QgTF8dQcrRQxeO/qSok6xj1KaN2DMN0zBURaaAw2Jo6/yJEC/NjvO16QfAO0dvULbD2c5B7fdcXoAdrsb1NZQ7peOtWFJc+66hZ62DwmBWIkly3V4omhtLHz1+/gtKz1AgrPwQLSPiGBRHmkQvqp6DO/wcCeaFE5PDUdAPfUWgiDvple4lHnvbaVnhAvrOQ4m4e/QSmhiLVwJs2Qj4UPMC1RoRIcVbMpkQHdm+tne3MNX/HW4PYlJn5dU3g19nwv7PZ1xQ3/Ggr0lcCiMlM5GmLgcxFZ7oxYSHzYgpYun7XlmLPY5OE3ab7m62VhUX4v4J3uzwOy4YQzpnmyzUs/C9vk1eTuG7nNZ/1x4KJH6PX4RVLWnvgpXf9pTwrRiKtpucYRuHTGMIQ11sUMp78+ZfC9jtLbgSQGGxrigsFzs5qCfTM33oZeajCgDdhs8evCk1aBDZtCmVO+CDnoaH+y00afDEE5NWDY/GVCLa0cJ4ViMRXDvesQcQqwBKYacsUW0O5+Gj7PyB6RTnJu4Mqd/e0HBKLH31U1PMZcCZHHpFgDWLmC75F/yere9b0D/BRtbiD6hv3U7DAhZt33slZD2vjfjuPYz3U+STLs9KupI8QV2JNI/YxlMkPNo/pxYEd+xnq5hUI7jr71olQjCQJCfGdlQ2i6GwL6AOBkMnfHc=
+
+%URL%
+https://github.com/openai/openai-python
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1707536216
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python-anyio
+python-httpx
+python-tqdm
+python-h2
+python-distro
+python-typing_extensions
+python-pydantic
+python-cached-property
+
+%OPTDEPENDS%
+python-numpy: Needed for CLI fine-tuning data preparation tool
+python-pandas: Needed for CLI fine-tuning data preparation tool
+python-pandas-stubs: Needed for type hints for mypy
+python-openpyxl: Needed for CLI fine-tuning data preparation tool xlsx format
+python-wandb: Support for Weights & Biases
+python-scikit-learn: Needed for embedding utils
+python-tenacity: embeddings
+python-matplotlib: embeddings
+python-plotly: embeddings
+python-scipy: embeddings
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+python-hatchling
+
