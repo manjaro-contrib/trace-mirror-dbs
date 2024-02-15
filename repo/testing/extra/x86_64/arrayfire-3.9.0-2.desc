@@ -1,0 +1,76 @@
+%FILENAME%
+arrayfire-3.9.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+arrayfire
+
+%BASE%
+arrayfire
+
+%VERSION%
+3.9.0-2
+
+%DESC%
+High performance software library for parallel computing with an easy-to-use API
+
+%CSIZE%
+239329157
+
+%ISIZE%
+2340014648
+
+%MD5SUM%
+5be98ce18ac05e60e8acad36379a126d
+
+%SHA256SUM%
+e18a64bef378e718557f164e46a0e3495ff9389a96300a325292212f504615f3
+
+%PGPSIG%
+iHUEABYKAB0WIQQ1uuG/mmsxcCHmkMJufOCwo22irgUCZbbJpQAKCRBufOCwo22irs2RAP9gWQyK7I8sL2B4TpRVucGFa/2tVOofimeXxLa+eOWUhwEA0PEHVRfhNizh1sJk8GtEB4oUZvYRvOc7OjlKno0RjA0=
+
+%URL%
+https://arrayfire.com
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1706392568
+
+%PACKAGER%
+Brett Cornwall <ainola@archlinux.org>
+
+%DEPENDS%
+cblas
+fftw
+lapacke
+forge
+freeimage
+glfw
+glew
+intel-oneapi-mkl
+intel-oneapi-tbb
+
+%OPTDEPENDS%
+cuda: Required for using CUDA backend
+nvidia-utils: Required for using CUDA backend
+cudnn: Required for using CUDA backend
+opencl-driver: Required for using OpenCL backend
+ocl-icd: Required for OpenCL ICD Bindings
+
+%MAKEDEPENDS%
+cmake
+graphviz
+doxygen
+opencl-headers
+python
+ocl-icd
+cuda
+cudnn
+git
+ninja
+boost
+
