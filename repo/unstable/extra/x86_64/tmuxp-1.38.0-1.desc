@@ -1,0 +1,70 @@
+%FILENAME%
+tmuxp-1.38.0-1-any.pkg.tar.zst
+
+%NAME%
+tmuxp
+
+%BASE%
+tmuxp
+
+%VERSION%
+1.38.0-1
+
+%DESC%
+Tmux session manager built on libtmux
+
+%CSIZE%
+138693
+
+%ISIZE%
+675261
+
+%MD5SUM%
+dd2e9b79e44c670a36fa7ef7694caf5a
+
+%SHA256SUM%
+f963e886daefec883e79b7a5fb1c3b5715e1fc3bbd2a651d5548d42d04e10f08
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZdC7pQAKCRCbeih9mi7GCAu2AQC28khbvzyh+EvJKfSmNvvfXrOh8l7f6FBI5u4XMkrf7AD/Wb6E0PTNWlPJ1HGMiz2jVZGHzk5ZxyN0C+ScHq/jyAA=
+
+%URL%
+https://tmuxp.git-pull.com/en/latest/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1708178262
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-colorama
+python-libtmux
+python-pyyaml
+python-typing-extensions
+
+%OPTDEPENDS%
+python-shtab: for workspace completion and import
+ipython: for alternative CLI
+python-prompt_toolkit: for alternative CLI
+bpython: for alternative CLI
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-poetry-core
+python-shtab
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-mock
+python-pytest-rerunfailures
+
