@@ -1,0 +1,64 @@
+%FILENAME%
+i3status-rust-0.33.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+i3status-rust
+
+%BASE%
+i3status-rust
+
+%VERSION%
+0.33.0-1
+
+%DESC%
+Resourcefriendly and feature-rich replacement for i3status, written in pure Rust
+
+%CSIZE%
+4516906
+
+%ISIZE%
+18194804
+
+%MD5SUM%
+7a106ee57ff714b059bb0772b6496985
+
+%SHA256SUM%
+378d140762e8738aed2b4223775506bbb329a74ac35ffa8d509a990c5633c484
+
+%PGPSIG%
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCZdM1gF8UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCsYuAP9rBzhaJvPve9WW+U3I46faPdIFONTs3Su8GZWVteBcMwD/VlPs/VfMA1ZtJFXw8jOH2xNPrvkYo5x6Fio55hg2rQY=
+
+%URL%
+https://github.com/greshake/i3status-rust
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1708340423
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%DEPENDS%
+libpulse
+lm_sensors
+
+%OPTDEPENDS%
+alsa-utils: for the volume block
+bluez: for the bluetooth block
+fakeroot: for the pacman block to show pending updates
+kdeconnect: for the kdeconnect block
+powerline-fonts: for all themes using the Powerline arrow char
+pulseaudio: for the volume block
+speedtest-cli: for the speedtest block
+ttf-font-awesome: for the awesome icons
+upower: for the battery block
+
+%MAKEDEPENDS%
+rust
+pandoc
+
