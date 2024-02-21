@@ -1,0 +1,87 @@
+%FILENAME%
+woob-3.6-3-any.pkg.tar.zst
+
+%NAME%
+woob
+
+%BASE%
+woob
+
+%VERSION%
+3.6-3
+
+%DESC%
+Core library and modules for Web outside of Browsers
+
+%CSIZE%
+879973
+
+%ISIZE%
+5566647
+
+%MD5SUM%
+91ac44079332333e986955dfce697a0f
+
+%SHA256SUM%
+66dab2657b471509e598d62b9da31dbb7e5f39ff53bf9096e2caf7a18e157d78
+
+%PGPSIG%
+iQEzBAABCgAdFiEEado014/g79WWrG0EnYk+xNqvkSkFAmW2AQsACgkQnYk+xNqvkSkeSwgAkyv0oBdiSav6fCzlA2G/P7H1yKbO1F4M+J6uwDIwIo04gUy8EvvIlkOjK0fCyYelQ3N8bgmbDgwMz7heG4Nksu/LPbiDy+gDn81KAMhtWADh3sD1vLvxgvumEOeqXQQ1fyke/LKF7OJc1eAMquQyesanvfGY8EESUy9PsdDQ4Vj4pMRSIRIEJ9OURfpg34HzCiQpwyGK3OwouMARJ+/98anTXJvfEzphUewvu3FDfVEr4WZTOUv1WNjQ/T+lWjMv43h3A5T+eASE+RByNVD6S6a1zqpJqTcUE9HT0os1sdz4baPHYUvUERGVF+p8IPQ35hf5q59BJKyUzPiz+yekIw==
+
+%URL%
+https://woob.tech/
+
+%LICENSE%
+LGPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1706422766
+
+%PACKAGER%
+Bruno Pagani <archange@archlinux.org>
+
+%REPLACES%
+weboob
+
+%CONFLICTS%
+weboob
+
+%PROVIDES%
+weboob
+
+%DEPENDS%
+python
+python-lxml
+python-requests
+python-dateutil
+python-yaml
+python-html2text
+python-unidecode
+python-pillow
+python-babel
+python-packaging
+python-pycountry
+python-rich
+python-simplejson
+python-setuptools
+
+%OPTDEPENDS%
+python-colorama: CLI usage
+python-prettytable: CLI output formatting
+python-feedparser: required by some modules
+python-jose: required by some modules
+python-pycryptodome: required by some modules
+python-google-api-python-client: multiple Google services like YouTube
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-prettytable
+

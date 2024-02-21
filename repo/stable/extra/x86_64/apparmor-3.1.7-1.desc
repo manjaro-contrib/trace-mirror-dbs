@@ -1,0 +1,77 @@
+%FILENAME%
+apparmor-3.1.7-1-x86_64.pkg.tar.zst
+
+%NAME%
+apparmor
+
+%BASE%
+apparmor
+
+%VERSION%
+3.1.7-1
+
+%DESC%
+Mandatory Access Control (MAC) using Linux Security Module (LSM)
+
+%CSIZE%
+1231438
+
+%ISIZE%
+4463233
+
+%MD5SUM%
+8356ee5e8bbc9e1539336f94e7068bf3
+
+%SHA256SUM%
+d7a7917c18fc7ceb923360fef12e9b6ed94ee38eb1c441675133d7955c2b02c3
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZcNBmAAKCRCbeih9mi7GCPOcAP9Gm9YVO26exD9pG2ksW8DU+qZ6tn2iLT/YQNjsA3lLcQEA7Kq72rOlILudJYK9UN9tA+lXvggLDmLARm4v68jnUA4=
+
+%URL%
+https://gitlab.com/apparmor/apparmor
+
+%LICENSE%
+GPL-2.0-only
+LGPL-2.0-only
+LGPL-2.1-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1707294396
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+libapparmor.so=1-64
+
+%DEPENDS%
+audit
+bash
+gcc-libs
+glibc
+pam
+python
+
+%OPTDEPENDS%
+perl: for perl bindings
+python-notify2: for aa-notify
+python-psutil: for aa-notify
+ruby: for ruby bindings
+
+%MAKEDEPENDS%
+apache
+libxcrypt
+python-setuptools
+ruby
+swig
+
+%CHECKDEPENDS%
+dejagnu
+perl-locale-gettext
+python-notify2
+python-psutil
+
