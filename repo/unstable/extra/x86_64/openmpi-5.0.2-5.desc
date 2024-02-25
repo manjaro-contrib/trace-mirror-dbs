@@ -1,0 +1,93 @@
+%FILENAME%
+openmpi-5.0.2-5-x86_64.pkg.tar.zst
+
+%NAME%
+openmpi
+
+%BASE%
+openmpi
+
+%VERSION%
+5.0.2-5
+
+%DESC%
+High performance message passing library (MPI)
+
+%CSIZE%
+4084071
+
+%ISIZE%
+10633364
+
+%MD5SUM%
+1c2b5ec5a1f09663fdc280d3eeb04fb5
+
+%SHA256SUM%
+f8960a2788f1f6b499bc516c13f6bfd84aa192c84c8b864a2118db8872c5121c
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCZdmcGQAKCRAAHPSBC+jZESc3AQDNA/Y1TBz9CbTTS4PKK7xZWJdKJKiKCFuBDKMYSrColgEAh7LECb9YUm6jairhQy3mswLWvhoPepPiXEdTFeeWyAE=
+
+%URL%
+https://www.open-mpi.org
+
+%LICENSE%
+BSD-3-Clause AND LicenseRef-MPICH
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1708759719
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%PROVIDES%
+libmpi.so=40-64
+libmpi_mpifh.so=40-64
+libmpi_usempi_ignore_tkr.so=40-64
+libmpi_usempif08.so=40-64
+libopen-pal.so=80-64
+liboshmem.so=40-64
+
+%DEPENDS%
+gcc-libs
+glibc
+hwloc
+libevent
+libevent_core-2.1.so=7-64
+libevent_pthreads-2.1.so=7-64
+libfabric
+libnl
+openpmix
+libpmix.so=2-64
+openucx
+prrte
+libprrte.so
+zlib
+
+%OPTDEPENDS%
+cuda: cuda support
+hip-runtime-amd: ROCm support
+gcc-fortran: fortran support
+openssh: for execution on remote hosts via pml_ssh_agent
+openucc: for UCC accelerated collectives
+
+%MAKEDEPENDS%
+cuda
+gcc-fortran
+gcc-libs
+glibc
+hip-runtime-amd
+hwloc
+libevent
+libfabric
+libnl
+openpmix
+openucc
+openucx
+prrte
+valgrind
+zlib
+
