@@ -1,0 +1,101 @@
+%FILENAME%
+libblockdev-3.0.4-3-aarch64.pkg.tar.xz
+
+%NAME%
+libblockdev
+
+%BASE%
+libblockdev
+
+%VERSION%
+3.0.4-3
+
+%DESC%
+A library for manipulating block devices
+
+%CSIZE%
+216200
+
+%ISIZE%
+3455691
+
+%MD5SUM%
+fdbb21c4b388f3948ed4c33eac8baed2
+
+%SHA256SUM%
+f9f522aa236f59740a272478980166ffb156650ed35e19aca24e249bb369836a
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmXZEfgACgkQdxk/FSvb5qZGCQ/6Ayy8+TzNon2ClxB7krHrnmfWnmWgQz1q1XQTSWdaSIjRj+enwKUaMnVoGuvWt/ON4LqPOaiGVKh0B1TC09hpY2nhVJEqQAUh5MyfHINWLpIAqdkw3XdzC1vuEDaSgwb5Q9e1Py4jhwA5kgvBk5/15WMgNGiuYN0sLJ5Ncpuic9cN3n6GYOzDsoBcRxzlwAs8YWgScAqYHe/gSy11MGxSwsFEo74IjX9bXhaGEEsCTRv8yrbkvUlm3vY8clr1wzXsVupK3CKUK1lUPm0/JRrebw03b8+3/yQuuIQLEqbBoqirk5/VR9jPtmO89Yap30av1ez8PrVXNKK2QWAFepdNV4pXhHdkpCta6JXclKE1kEztStsGOeZRO9nr4s7za3KHBhHyMO4FfjK8ySRkIbii37iLIj+rDVUlgVx1Kaw8n1Qu46a4o39D/suYJRUeR1/3BN0Man7Blng5V5o0BkmXbTZfaHgLVUIDh79SeaMDwPVWPjQe7V9CmOVX2gXPS30YzgrBlvBTU2RUh++2LNWNbSJNSB1IHeNXGq9KhaFQsG0w1/qViBmPaxK5OimbBls41eZ/nekYvDFn5Bm0sfQ7ZGarxAPIiQNaMZiRfFh/3hyYhyCrJe7/ffg/vaETbieH6rX5oAC8Ns/tFRQau2Ep3uHqGDg/qpVwhj4y3r/1A48=
+
+%URL%
+https://github.com/storaged-project/libblockdev
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1708724560
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%PROVIDES%
+libblockdev.so=3-64
+
+%DEPENDS%
+glib2
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+glibc
+libblockdev-utils
+libbd_utils.so=3-64
+
+%OPTDEPENDS%
+libblockdev-btrfs: for BTRFS support
+libblockdev-crypto: for crypto support
+libblockdev-dm: for device-mapper support
+libblockdev-fs: for filesystem support
+libblockdev-loop: for loop device support
+libblockdev-lvm: for LVM support
+libblockdev-lvm-dbus: for LVM D-Bus API support
+libblockdev-mdraid: for MDRAID support
+libblockdev-mpath: for multipath support
+libblockdev-nvdimm: for NVDIMM support
+libblockdev-nvme: for NVME support
+libblockdev-part: for partitioning support
+libblockdev-swap: for swap support
+libblockdev-tools: for additional tools
+python-libblockdev: for Python support
+
+%MAKEDEPENDS%
+autoconf-archive
+btrfs-progs
+cryptsetup
+device-mapper
+dosfstools
+e2fsprogs
+exfatprogs
+gcc-libs
+glib2
+glibc
+gobject-introspection
+gtk-doc
+kmod
+keyutils
+libbytesize
+libnvme
+lvm2
+mdadm
+ndctl
+nss
+parted
+python
+systemd-libs
+util-linux
+util-linux-libs
+volume_key
+
