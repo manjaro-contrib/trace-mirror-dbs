@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-255.3-1-x86_64.pkg.tar.zst
+systemd-255.4-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd
@@ -8,38 +8,40 @@ systemd
 systemd
 
 %VERSION%
-255.3-1
+255.4-1
 
 %DESC%
 system and service manager
 
 %CSIZE%
-10352530
+8473460
 
 %ISIZE%
-32546810
+32548997
 
 %MD5SUM%
-66c35ef8206404a59dc991e23bbd04ae
+a93866c52b004cf7fa2d3eb2593c94b4
 
 %SHA256SUM%
-068e7e1db0338732d976b2bf20229fca7579c577b51ce8742de653256eadaea3
+fcbe2d1a2109d5513276e3f8304e461c7b77e25aadac8366995375b47480bd95
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmWyep4ACgkQFQwgB0PtRtgPqAgAjKtoMP/+/oI8yvrXIMbFQi2cPohQ/hVYmiFpLgdrOrrRdGVngJ3PPRgreg6N3obvHXOfAeld7ilwsl2ZLqkWNigHZDDv08WwH6RmDHfUEqFqYrU75EjI36s4VlOheVGs5h0G+iJczF8BC7992xOw0vtiEhMofbemfMv7iSYK60fy85C07KwCg0YgSvCOR+g4+1r4Qbk3T51UCoIUMPN5OuB5zvo3qNTKg4Rzsc/MgX5NLJa+KamlCaQ0IyyCTVQi8iooPNGqqulhiRhehXSamiqllICT6p0DQzBGqDTZOmCB62P00mptm2d+1U1IoEdMRB2aH7cYAo1Er0QAupcjPA==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmXeWH0ACgkQFQwgB0PtRth6kAf9Frocr7iY67jmPrllRuPu1gD+kUnkJiiHHIpXDzZQxPXyFIOGA6b8qJeKhxQJFcmEYOcyWMHgk9pEXZijtlmloV6Po6piVT/GOht4SIhpVPfZbGiyRQfJuWHbxia4PmpEc1BYM/cQEcMGIckFIA0tM7rxaAgsFN/t8hohLbnGuesPRMYz2jZGy5GvTaaDKRSPaUEV6sgANlcczx02pyWVNxOhsCMfk/ySvJYPb+E//pRK4Rmuh8T3QcZ4HYetWInZa2q5k4oA9fyT3k077+IZrkNZABAJKFEdg+qwGF8+H1xxcqOeLsTxiPOv6XpFFMa4ys4kYrZqiThtFpAS8B50fQ==
 
 %URL%
 https://www.github.com/systemd/systemd
 
 %LICENSE%
-GPL2
-LGPL2.1
+LGPL-2.1-or-later
+CC0-1.0
+GPL-2.0-or-later
+MIT-0
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1706195399
+1709068888
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
@@ -56,8 +58,8 @@ udev
 
 %PROVIDES%
 nss-myhostname
-systemd-tools=255.3
-udev=255.3
+systemd-tools=255.4
+udev=255.4
 
 %DEPENDS%
 acl
@@ -157,7 +159,5 @@ python-pyelftools
 libpwquality
 qrencode
 lib32-gcc-libs
-
-%CHECKDEPENDS%
 python-pefile
 
