@@ -1,0 +1,79 @@
+%FILENAME%
+recoll-1.37.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+recoll
+
+%BASE%
+recoll
+
+%VERSION%
+1.37.4-1
+
+%DESC%
+Full text search tool based on Xapian backend
+
+%CSIZE%
+2577508
+
+%ISIZE%
+9337443
+
+%MD5SUM%
+eef7a7afdc4db3d203e14c01b504efaf
+
+%SHA256SUM%
+bef38e33712980e2345fb30dfaf7890a426f12ea1d2d44415884d5a30f2534c1
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmXY4ikACgkQek52CV2KUuT1WQf/UvxYTiGGm3VDD/zRXrkPjKr6mIbdettGUs+5tazxFhrVwMr2LccNiguAVFTay0trRDy+Fanm+EtdVaEz2H9bQChu5Zhj0MnpkZbJK53YZDQqC4YEARaEFWSxmF191+ERm2KYLjalbxI44DuVbSu8cEMU6i6UKxq6DlkX5oTZyRPYydqfraTm0rB6/YRRoOg06I26xA6wlTUszbdACquGAcBQ2PWc0HJBU5lZ9L3Qc97Yc/eCiRsAphqvwP1V1yyUdHSFrzX7NGo4WtpyRNcHhs/WRcdBHmXFzIEISOIvPjfGnkZrDsJ6hprYvq/cgc8FPruD1Is94ivGv3eEJpi09w==
+
+%URL%
+https://www.lesbonscomptes.com/recoll/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1708712333
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+xapian-core>=1.0.15-1
+qt6-base
+openssl
+hicolor-icon-theme
+qt6-webengine
+chmlib
+aspell
+
+%OPTDEPENDS%
+libxslt: for XML based formats (fb2,etc)
+unzip: for the OpenOffice.org documents
+poppler: for pdf
+pstotext: for postscipt
+antiword: for msword
+catdoc: for ms excel and powerpoint
+unrtf: for RTF
+djvulibre: for djvu
+python-mutagen: Audio metadata
+perl-image-exiftool: EXIF data from image files
+python-lxml: indexing spreadsheets
+python-pychm: CHM filter
+kcoreaddons5: KDE plugins
+kio5: KDE plugins
+krunner5: KDE plugins
+aspell-en: English stemming support
+
+%MAKEDEPENDS%
+python
+python-setuptools
+qt6-tools
+cmake
+extra-cmake-modules
+

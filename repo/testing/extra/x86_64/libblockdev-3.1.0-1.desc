@@ -1,0 +1,101 @@
+%FILENAME%
+libblockdev-3.1.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+libblockdev
+
+%BASE%
+libblockdev
+
+%VERSION%
+3.1.0-1
+
+%DESC%
+A library for manipulating block devices
+
+%CSIZE%
+223668
+
+%ISIZE%
+3492224
+
+%MD5SUM%
+8328dd0e94c9153e25afed0a6a6eff10
+
+%SHA256SUM%
+b1d56060c54e739ed7d6076054101c4734a08df2822870f68dc8a40f902f3516
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZdjNwgAKCRCbeih9mi7GCGs6AP9DuxVhSo7yHTDxtckJtzh6XLW4lNnYxM1LgG1luwcz/AD8DzWgDgsKrbRExDcUc741blgMSwGBHLD+Qeco9y0uKAk=
+
+%URL%
+https://github.com/storaged-project/libblockdev
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1708707057
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+libblockdev.so=3-64
+
+%DEPENDS%
+glib2
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+glibc
+libblockdev-utils
+libbd_utils.so=3-64
+
+%OPTDEPENDS%
+libblockdev-btrfs: for BTRFS support
+libblockdev-crypto: for crypto support
+libblockdev-dm: for device-mapper support
+libblockdev-fs: for filesystem support
+libblockdev-loop: for loop device support
+libblockdev-lvm: for LVM support
+libblockdev-lvm-dbus: for LVM D-Bus API support
+libblockdev-mdraid: for MDRAID support
+libblockdev-mpath: for multipath support
+libblockdev-nvdimm: for NVDIMM support
+libblockdev-nvme: for NVME support
+libblockdev-part: for partitioning support
+libblockdev-swap: for swap support
+libblockdev-tools: for additional tools
+python-libblockdev: for Python support
+
+%MAKEDEPENDS%
+autoconf-archive
+btrfs-progs
+cryptsetup
+device-mapper
+dosfstools
+e2fsprogs
+exfatprogs
+gcc-libs
+glib2
+glibc
+gobject-introspection
+gtk-doc
+kmod
+keyutils
+libbytesize
+libnvme
+lvm2
+mdadm
+ndctl
+nss
+parted
+python
+systemd-libs
+util-linux
+util-linux-libs
+volume_key
+
