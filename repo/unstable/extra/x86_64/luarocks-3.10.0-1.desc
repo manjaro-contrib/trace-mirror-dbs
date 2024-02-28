@@ -1,0 +1,63 @@
+%FILENAME%
+luarocks-3.10.0-1-any.pkg.tar.zst
+
+%NAME%
+luarocks
+
+%BASE%
+luarocks
+
+%VERSION%
+3.10.0-1
+
+%DESC%
+Deployment and management system for Lua modules
+
+%CSIZE%
+150266
+
+%ISIZE%
+746786
+
+%MD5SUM%
+dc47fab45449ab4343e7c24d03e0f937
+
+%SHA256SUM%
+10499cbf4679e7ad4f246ea49753f601f51d7109db17ae81f74d7b82d9a0a5d2
+
+%PGPSIG%
+iQIzBAABCgAdFiEEHiYzy/cw8s5ux6twRbQpqPnZ0ioFAmXeflgACgkQRbQpqPnZ0ioeVw//QdOhLydRCK60NoEARwcgPjKmy6i6SAQcsocaSo7DPFFLutKN3Fdzz59inAZJEr6FsHT9+PHjZYnPM+jcsp0vcpPTiN1oAwtwHk4itxumueclM35qP/hbaeoqMkho18ZTlw31vIegt3GQcsdvYptZfPllTRns5aKBy43zSwu9xw99bpb0nkxS5udptiNCswIfSJ1AaKQjrCLt3xm5/0r68DWW+neJWdfcBMcwQNghiQsTHWyWTKwvk0TpMgCm1ZBqzQZAZtLlhrmI9R351bKmZz3QMNPmw6JRShGPJ36O2s3dMvDvTuU0ADMc9UQpD/sI5CglXctgvMrFQxLEyaJeDl0+rb296gH951uLCYgkv9y4i0qGxaMxkA0E03ZKO0jc8m6qipCvo7wVcea2hpqq+OwyKPVIG8twqTSaih0XEKLg6glUjXSJ7Bw49Jmr6xSqWfjfeNq2WzWgNcVU2c3EckYF1LeP3GiSRBVQRp7QErkqOY+Ve7qOIWgtefZKqOcMe5AgjSwigHzTVva/MDul1rML6BbiZz0JeBmYo9qPRWCZza8xEob3PVgJkfhOlaNMXBvypXdQahjCSjcxHnYV1UQpTf7cV7lQb1w6nCoJCOa1eaBWDorzJ6ZNX3VhQoJCKT5eP7G/bhztw/A42jEw/6F1noU3AnIgC+TPhP9UVP4=
+
+%URL%
+https://luarocks.org/
+
+%LICENSE%
+custom
+
+%ARCH%
+any
+
+%BUILDDATE%
+1709080091
+
+%PACKAGER%
+Daurnimator <daurnimator@archlinux.org>
+
+%REPLACES%
+luarocks5.1
+luarocks5.2
+
+%DEPENDS%
+coreutils
+curl
+lua
+unzip
+zip
+
+%OPTDEPENDS%
+cvs: for fetching sources from CVS repositories
+git: for fetching sources from git repositories
+mercurial: for fetching sources from mercurial repositories
+cmake: for building rocks that use the cmake build system
+lua-sec: HTTPS support
+
