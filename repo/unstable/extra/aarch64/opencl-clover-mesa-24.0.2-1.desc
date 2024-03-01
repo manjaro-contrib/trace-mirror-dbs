@@ -1,44 +1,44 @@
 %FILENAME%
-opencl-rusticl-mesa-23.3.2-2-aarch64.pkg.tar.zst
+opencl-clover-mesa-24.0.2-1-aarch64.pkg.tar.zst
 
 %NAME%
-opencl-rusticl-mesa
+opencl-clover-mesa
 
 %BASE%
 mesa
 
 %VERSION%
-23.3.2-2
+24.0.2-1
 
 %DESC%
-OpenCL support with rusticl for mesa drivers
+OpenCL support with clover for mesa drivers
 
 %CSIZE%
-6704336
+16996802
 
 %ISIZE%
-18647269
+66581570
 
 %MD5SUM%
-da81475c011af2248c431d8722020784
+757c3f339e09a06b1319c0a79179e372
 
 %SHA256SUM%
-a66394af9bbcbcdd56645668699bb55f1dd59ae69fea0b2928a62715deda677a
+e88cdb94770eb5a9a15e5fee258873ab8e0646afd32a2a7ebc31eb2b11ea991a
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWWg08SHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+lIIH/2rsbWzW3xuQPzXUfenXOqay+qj1I7KIqmhGXZW+UZN+towHyhxK4Joy4HTA1Q78qMly4qoxdjS6fLjR/n9fB7qJYl0HLLNz+DYpXEsZaIPABlaSgxOJxtJud81FXZYo5H6YN/Yu4UrZcifSlV1TcEn+5L6sDjiQNFwacjDKL9KNJwCn8669Qiks11iobhjyoxusLlv7Swb/FPE/rEmQ1r7BsjwT25byxp6S5WySblw0vPjjanKMfqPmOhYkgcZmRjVpjDIFqyvKsK4ropCjskwFbKEGVopj24uUnT7RkmjrQiJp2tzqsLU9riyUdI4sWhLngePBjporDYdrAFxJZaA=
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmXhgLUACgkQHzWBGKB6z1derQgAhzdE8fO1i91wCRe7fKoO1JJ0m54mDNuTQJRGZRJ8G3UUG7AGbHKFe++iE1jCg3FsbT2MimhLp2u5o0oU1ENgUD2W0jO18kJag5j1ppT958OveRsnUtqcDv8lLezC3A39rOvf+S1bE9GHq8jObcW4c1FqFgftcu8y+eJfyHXUPVM8D9mWdN+gM9yCUun3j+kPpoazRIL3rXZ9E/SyIJfSaC2EK3W7pG+ImWJghQEMzcj9RJ/Ri8PabHf3YsjYIhIj9dAcc57L0nDOCiAYIWaGwyfO545PKMe+p0u2S/5uFjUYLVju0hgxEZ5whf2PLZXRWXnDvEDEhOIudaXzDP+WxA==
 
 %URL%
 https://www.mesa3d.org/
 
 %LICENSE%
-custom
+MIT AND BSD-3-Clause AND SGI-B-2.0
 
 %ARCH%
 aarch64
 
 %BUILDDATE%
-1704362194
+1709274831
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
@@ -57,7 +57,6 @@ clang
 expat
 libdrm
 libelf
-lm_sensors
 spirv-llvm-translator
 zstd
 libclc
@@ -88,6 +87,7 @@ spirv-tools
 systemd
 vulkan-icd-loader
 wayland
+xcb-util-keysyms
 zstd
 clang
 cmake

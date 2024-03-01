@@ -1,44 +1,44 @@
 %FILENAME%
-vulkan-virtio-23.3.2-2-aarch64.pkg.tar.zst
+vulkan-radeon-24.0.2-1-aarch64.pkg.tar.zst
 
 %NAME%
-vulkan-virtio
+vulkan-radeon
 
 %BASE%
 mesa
 
 %VERSION%
-23.3.2-2
+24.0.2-1
 
 %DESC%
-Venus Vulkan mesa driver for Virtual Machines
+Radeon's Vulkan mesa driver
 
 %CSIZE%
-465226
+2978743
 
 %ISIZE%
-1226682
+10261889
 
 %MD5SUM%
-8f1f80c78f41124f802acd13b635871c
+c9b8b7f6a070b6aed2820fbef94f63db
 
 %SHA256SUM%
-d1e3ff748ea117262b6c49a96cc334043c459dc62fd81c714c31c9801095711d
+404789784208e8c4a8bc65f8bf0c2463829f6e0a79823222fe96a0aa6e158809
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmWWg08SHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+XpUH/01jorQUYQpOVKsD71I/BQnasfsrYHOif6t0D0Ac4BsZ6wDpGgYYxqAGqYrKrN+1w/soxFQX0LePyjE3d7KghhFr8j8OvnGe3yEHeO9ta/rCW72O3vYWdn3Wpovkegb1vgO48TCiucHT0AHGGtY/Zn+xua9YxkuMLulzEQ3COOszT/vFRMGpFNJiWvDLgwhXv/3bo1cr56zrOz4Up7rXs/qan58XXXiGW2REdLtZvhhIf9ZHrPQLFzKWIqNk2dx8m+Qj13YikS2a30PIPDXAWwhPTwNyby5iatU+ecbcJrSOWduD/vn2nWfmY52ezVUkzkGUh7VV/aBhOtCzqDY9hSw=
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmXhgLYACgkQHzWBGKB6z1fkyAf9ESM5rdWXFIO1r0WF9GMoH12CUXvlupKI1HHJvs6WxJ2a40PIKl+5nz2X1oqPFhuWmy/dtuY1+8+bICcf6sryZUDGmj2xcKC1ASFuZS+uSvNKiGsv7Lvq/FK1uO0/7Rje+sptAieeAgRF/4VS5rHoq94msS3NBrHg/TGADuYcHCP5CRP1X+stqwGPuqy4FHewrrGXh7az9vYj+P20uAVPporZR0EiWYzAmfNNldwbQctcKz9vC8ROH2I/YX8fiymTIiJi+thYnNB601R28nAuRxvdS0iQjS6oCrosL8LyffYeqZ2FJb+V/HccvpkhirVUbyMFlp0K9e0yr+JDjAWByg==
 
 %URL%
 https://www.mesa3d.org/
 
 %LICENSE%
-custom
+MIT AND BSD-3-Clause AND SGI-B-2.0
 
 %ARCH%
 aarch64
 
 %BUILDDATE%
-1704362194
+1709274831
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
@@ -48,10 +48,13 @@ vulkan-driver
 
 %DEPENDS%
 libdrm
+libelf
 libx11
 libxshmfence
+llvm-libs
 systemd
 wayland
+xcb-util-keysyms
 zstd
 
 %OPTDEPENDS%
@@ -80,6 +83,7 @@ spirv-tools
 systemd
 vulkan-icd-loader
 wayland
+xcb-util-keysyms
 zstd
 clang
 cmake
