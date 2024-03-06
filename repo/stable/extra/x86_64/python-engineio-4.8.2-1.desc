@@ -1,0 +1,75 @@
+%FILENAME%
+python-engineio-4.8.2-1-any.pkg.tar.zst
+
+%NAME%
+python-engineio
+
+%BASE%
+python-engineio
+
+%VERSION%
+4.8.2-1
+
+%DESC%
+Python implementation of the Engine.IO realtime server
+
+%CSIZE%
+130191
+
+%ISIZE%
+795627
+
+%MD5SUM%
+ae99c3c250d7ee4dbba7998e09198643
+
+%SHA256SUM%
+1990b9f41affc474b7f5f095b0637c2dfb65d27e810f0473296c5c8e7730e667
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmW+ecYACgkQek52CV2KUuQHDQgAl0bgo6WxoCxcjrtPRiA6bimDsLCANwBNNuzhqbg5TwVUFfZSD5gbpQpXfpW0krgATz/AUx8XJwF/gpMNIrLudc0Wx1/XQrVuO7e0KwlSHzLwNgw9Anm713WcignT62J48J7rM/2ehIHhOnEoXZrnayOdn6Fp/J1DI+chFPJ87qQm3xyOSHyxY9mQ2gmWVVDE02R3YNwogFNkyZ3bEThrw+AFjCyGUwQc/tqNYRKIJPgLDQx6BB+et/WA8YYLmHjrK9l+q3Y7vq8L6g6mDHbKbpl2TwOnCuPUN23EjNH4APSa8JspucFiM1D4jMhM6b0aQTG4Wn9rUTNhEefORO/sFQ==
+
+%URL%
+https://github.com/miguelgrinberg/python-engineio
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1706981678
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python
+python-websocket-client
+python-websockets
+python-requests
+
+%OPTDEPENDS%
+python-eventlet: eventlet driver
+python-aiohttp: aiohttp driver
+python-tornado: tornado driver
+python-gevent: gevent driver
+python-gevent-websocket: gevent driver
+
+%MAKEDEPENDS%
+python-setuptools
+python-sphinx
+python-six
+python-eventlet
+python-aiohttp
+python-tornado
+python-urllib3
+python-gevent
+python-gevent-websocket
+python-build
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+

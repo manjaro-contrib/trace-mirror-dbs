@@ -1,0 +1,73 @@
+%FILENAME%
+wifite-2:2.7.0-1-any.pkg.tar.zst
+
+%NAME%
+wifite
+
+%BASE%
+wifite
+
+%VERSION%
+2:2.7.0-1
+
+%DESC%
+Tool to attack multiple WEP and WPA encrypted networks at the same time
+
+%CSIZE%
+975729
+
+%ISIZE%
+3195055
+
+%MD5SUM%
+765ba1d22594747a9f7bf36a10e5e92a
+
+%SHA256SUM%
+093f527c9a8c62d497b1e63dbf02e64f1b8ba6ed277cb118179993f793641088
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmUOuwwACgkQek52CV2KUuSIWQgAgrePu07p3NKHIXMtVrKLOY/Ju7Q1Fng7aoFOo0k5zk+r+CdN5Sj436G3pPBbx6vn445PcML/1sI2ML9QiJltL6xqpb7bGuazQKaem+BPZTptr0B14+zQds2g42EHYKvgWuRYTrvZ1DUu+k7CVjKwBM/adfteQk/RJWug4HuiiqDtvLnlcyV94kfvIq6RVdA2/p3XXs4dK2PWLsOn7P7Ce91q2+iImIYe7ciWLhjG5ffYuZUDPd7ByqksWGDdI5t8EoOSG1PDAbaiYtPLRsFH9h59q4pAOPG66JcbzAqKkvz5neo408nbgLW7HsIKLPEj3NeRLCWRl3D/i6D9yNVs4Q==
+
+%URL%
+https://github.com/kimocoder/wifite2
+
+%LICENSE%
+GPL2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1695464147
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+wifite2
+
+%DEPENDS%
+python
+python-chardet
+aircrack-ng
+iproute2
+iw
+
+%OPTDEPENDS%
+wireshark-cli: detecting WPS networks and inspecting handshake capture files
+reaver: WPS Pixie-Dust & brute-force attacks
+bully: WPS Pixie-Dust & brute-force attacks
+cowpatty: detect WPA handshakes
+pyrit: detect WPA handshakes
+macchanger: change MAC for attacks
+hashcat: cracking PMKID hashes
+hcxdumptool: capturing PMKID hashes
+hcxtools: converting PMKID packet captures into hashcat format
+john: For CPU (OpenCL)/GPU cracking passwords fast
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
