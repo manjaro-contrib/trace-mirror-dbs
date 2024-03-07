@@ -1,0 +1,84 @@
+%FILENAME%
+bcc-0.29.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+bcc
+
+%BASE%
+bcc
+
+%VERSION%
+0.29.1-2
+
+%DESC%
+BPF Compiler Collection - C library and examples
+
+%CSIZE%
+1023870
+
+%ISIZE%
+3498515
+
+%MD5SUM%
+32e894f85d5518c1e5538a3fd4ea8aac
+
+%SHA256SUM%
+7c4eb91f91927998ec4f6bd84fbddf67eb8d9cd19e4e0db92038a13e70a0ef4d
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZeONogAKCRCbeih9mi7GCDDiAQDhK36H0eb0ytCijhUI+Qeav4SLSTMPS87eVDJS19FsQAEA24YNgQeXgEDEPGcNinGt7x/qia+ujLIMuSfhVHRtTwg=
+
+%URL%
+https://github.com/iovisor/bcc
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1709411384
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+bcc
+libbcc
+
+%DEPENDS%
+clang
+gcc-libs
+glibc
+libbpf
+libbpf.so=1-64
+libelf
+llvm-libs
+python
+xz
+zlib
+
+%OPTDEPENDS%
+linux-headers: build modules against the Arch kernel
+linux-lts-headers: build modules against the LTS kernel
+linux-zen-headers: build modules against the ZEN kernel
+linux-hardened-headers: build modules against the HARDENED kernel
+bcc-tools: Python utilites using the BCC library
+python-bcc: Python 3 bindings for BCC
+luajit: Lua bindings for BCC
+
+%MAKEDEPENDS%
+cmake
+clang
+llvm
+flex
+bison
+libbpf
+python
+python-setuptools
+
+%CHECKDEPENDS%
+netperf
+iperf
+

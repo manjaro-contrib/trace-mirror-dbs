@@ -1,0 +1,74 @@
+%FILENAME%
+clang-17.0.6-1-x86_64.pkg.tar.zst
+
+%NAME%
+clang
+
+%BASE%
+clang
+
+%VERSION%
+17.0.6-1
+
+%DESC%
+C language family frontend for LLVM
+
+%CSIZE%
+43459395
+
+%ISIZE%
+207743470
+
+%MD5SUM%
+77855ce7f9907e30fee4ce75c54fb3eb
+
+%SHA256SUM%
+793255afac8e412f308279dfa8fa1ebb5e742da8623a2ea6000032c33dcd6b45
+
+%PGPSIG%
+iQEzBAABCAAdFiEEhs/8qRjPOvRxR1iAUeixSKmZnDQFAmXjPMMACgkQUeixSKmZnDQpMgf/YOzpSLsA1RTm/x5KIfRN3LToH46caUR7WI+GvuRxcBIwnzMXAkgQBxny/O1x0T5MjqHXb2C68JOmCtHzF0m/+ty5OrHOLqjq+2dRmxMKhvJxbyKQZLF3UeDDvzaJPZfzy/FAqRvJzXxUfU7pRzBi8XNDzAYCCg+0F5KfhCFLRZpUXClbMyLQIR7+BevDV898kELtse4xFPjQ6cd7YJFOrY7GvRaYSbNC8zEV3QhKC8SqomAmdeE4502mEdkLhlKNdOWf1AXUD2/YQqzL6gHylQB4C9GfpAiVrrti7zo3Mt3kZMYubIBJKOzp+nzwyAXpOUYBg/2qRxTijF8chh+QFg==
+
+%URL%
+https://clang.llvm.org/
+
+%LICENSE%
+custom:Apache 2.0 with LLVM Exception
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1709390412
+
+%PACKAGER%
+Evangelos Foutras <foutrelis@archlinux.org>
+
+%REPLACES%
+clang-analyzer
+clang-tools-extra
+
+%CONFLICTS%
+clang-analyzer
+clang-tools-extra
+
+%PROVIDES%
+clang-analyzer=17.0.6
+clang-tools-extra=17.0.6
+
+%DEPENDS%
+llvm-libs
+gcc
+compiler-rt
+
+%OPTDEPENDS%
+openmp: OpenMP support in clang with -fopenmp
+python: for scan-view and git-clang-format
+llvm: referenced by some clang headers
+
+%MAKEDEPENDS%
+llvm
+cmake
+ninja
+python-sphinx
+python-recommonmark
+
