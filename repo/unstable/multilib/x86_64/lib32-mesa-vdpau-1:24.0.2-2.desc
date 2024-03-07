@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-vulkan-virtio-1:24.0.2-1-x86_64.pkg.tar.zst
+lib32-mesa-vdpau-1:24.0.2-2-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-vulkan-virtio
+lib32-mesa-vdpau
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:24.0.2-1
+1:24.0.2-2
 
 %DESC%
-Venus Vulkan mesa driver for Virtual Machines (32-bit)
+VDPAU drivers (32-bit)
 
 %CSIZE%
-403907
+4108041
 
 %ISIZE%
-1223808
+15423107
 
 %MD5SUM%
-944d86d4c1888e38ffba80e22145dfa3
+2b91e8306a0f4b6a5588389375c105a9
 
 %SHA256SUM%
-bb6d861cfaefc011736ec72f7db49e2935e9321891754177dc8f871560516c93
+82adb6067430ba6aa1d97f33c328ffa92362d4d2b5f46bc7fe3a3efd3b1c28b5
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmXh/r0ACgkQFQwgB0PtRti1fggA5nNrlBez5NmBertCPMoOZP35uk6tmUAT0CQvRJv253Z619eVk6p5NpZuG+9L2Sx39ZW4dj07PzeCkFqZLsnK+kQt97WJaooq5I+aXdFbNLX7ntq+tFwHJLnqgapBdDxdLG4r9ADKHb85bAwY0BZZn9Fpmyva9a+IbASddA8hx5bhKSPYpjyI2enurZO2b2uRvYG8sDwNdDkBmnQfr4suGZ/aXZJGXdcxTTerxVqSjaeJtXBdrTqh/yPANqi8RcCTu9HmK9EU1+k+T4WNXGyIDml8cxo5zd1rQKufsf5ZXjdxUGD55Qt9z6n5QtCTDkmdJf0m6r8Kk5UBHKH3XC+rTA==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmXp5W4ACgkQFQwgB0PtRtgSmQgA0y0MRhcOL62bPMz8KQ/8VR6PXBabtz0fOGIt8jKcStxu+8R9oRHKafvxZYGI+aJQb0EiUu9V0/P7GzoRq30kPnWcQG4V6cQYv5zNgOg3ni7uAtIWHPNt2kh03lJFNzE07I2NhR/4tOdh/KBeI1dIA0Q9EpGXh5V7NEVDS02m/f6iumB8JYJqHmep3WIpgwJmgQQ/jKpN4otTfl1rVbmDmajupZaBdfivV1xsx7HLsxQXmpmPcwq4Edloe50Gd0hYWNB5Xb1ZyRGjOXFPklMO9yGtn/BBBReTv2wus8rwNaZFVGTiXZGxHATv5n5HMjqkNtpS+izKngf0OW0FRk4EUw==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,25 +38,22 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1709309048
+1709826857
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
 
 %PROVIDES%
-lib32-vulkan-driver
+lib32-vdpau-driver
 
 %DEPENDS%
+lib32-expat
 lib32-libdrm
+lib32-libelf
 lib32-libx11
 lib32-libxshmfence
-lib32-systemd
-lib32-wayland
-lib32-xcb-util-keysyms
+lib32-llvm-libs
 lib32-zstd
-
-%OPTDEPENDS%
-lib32-vulkan-mesa-layers: additional vulkan layers
 
 %MAKEDEPENDS%
 lib32-clang
