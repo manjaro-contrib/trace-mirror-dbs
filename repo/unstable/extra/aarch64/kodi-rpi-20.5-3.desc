@@ -1,35 +1,35 @@
 %FILENAME%
-kodi-20.4-1-aarch64.pkg.tar.zst
+kodi-rpi-20.5-3-aarch64.pkg.tar.zst
 
 %NAME%
-kodi
+kodi-rpi
 
 %BASE%
-kodi
+kodi-rpi
 
 %VERSION%
-20.4-1
+20.5-3
 
 %DESC%
-A software media player and entertainment hub for digital media (gl renderer)
+Media player and entertainment hub with hw accel for RPi 3 and above, gbm_nexus fork
 
 %CSIZE%
-43706701
+44577248
 
 %ISIZE%
-90613171
+88676737
 
 %MD5SUM%
-b6811ab6376cefd12bdac526efa22958
+50008e27744285a1c4044bba31b2ba0b
 
 %SHA256SUM%
-00c6230d581f39b60a62c8f36783482547affba0ebcd1100139ef8470ed7e3ca
+2e7d6d3aa0e59f243e8c33e7ac5043c15a126ba34ef86ded6eec99522f4c4c55
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmXQDvwACgkQHzWBGKB6z1czbwf/dlqF+qLG+3FKQPrIEuRcpYkjEgzV7PMJdfaGoGIecRE5dqBBN4hPFnaC4/sR+m+bKlrtM9L1ixxB1qg6qnoBIx1rhV5jXbhVvcn/2V7MIb357nowedwzAP4fR66VQNO56Bp/YFbQcQSEaPHXVTCDOU9LDe6euPT0mZlfxkYOpPhT2LKQezY9VnNmqO9ZSbIMhcUCWIYesWqi7bo1tBTvG+L4yTi+ydgu+EPzxbO935EaKnBJwQl3nkdolKl91hoJAkGMRVNcglgZ0HTvWf/VlNLo770BIfyyJYyKBFFJT5EVMHlJRVW5I61RbsEg+rBUZ+IcFL2CoWJxxektiWJtKQ==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmXrBmYACgkQHzWBGKB6z1dk6wf/dsJ4oA0d/gjMNOrJTYScjPNTEk3j2ckHVcMH0zjcvGdSj+Aaf5JLcULVJs98S+PesEuzSfeJ8fz6YBnpaRrcJEU26lfG4DNfbnmU9TzBSyzjpCGzyPCZvEeQZtwXmvOORTpEy60+nA666RJlRCMPK/tmdswDUmLIE0WoU6eefzOX9INFJsqIhQoovFlK7QwNkq1ery+eRI3OqFyU8G3DThiT1utRLkkiAxWl0WUvmH86LwPjdlNgwLYM6pE3dNjrbbF9JwyD33/ThHyEjbHWWYhcTQrP4StKhq6YoFsOrnkouM7UZb0qMic1YVhcwbt9f1iwiFUqTnSbW5GDHjRPJg==
 
 %URL%
-https://kodi.tv
+https://github.com/graysky2/xbmc/tree/gs-gbm_nexus
 
 %LICENSE%
 GPL2
@@ -38,29 +38,20 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1708118136
+1709894305
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
 
-%REPLACES%
-kodi-common
-kodi-x11
-kodi-wayland
-kodi-gbm
-kodi-aml
-kodi-rk
-
 %CONFLICTS%
+kodi
 kodi-gles
-kodi-rpi
 kodi-rpi-git
+kodi-rpi-legacy
 
 %PROVIDES%
-kodi-common
-kodi-x11
-kodi-wayland
-kodi-gbm
+kodi=20.5
+kodi-common=20.5
 
 %DEPENDS%
 bluez-libs
@@ -73,16 +64,13 @@ lcms2
 libass
 libbluray
 libcdio
-libcec
+libcec-rpi
 libmicrohttpd
 libnfs
 libplist
 libpulse
-libva
-libvdpau
 libxslt
 lirc
-lzo
 mariadb-libs
 mesa
 libpipewire
@@ -94,20 +82,23 @@ smbclient
 sndio
 spdlog
 sqlite
+taglib
 tinyxml
-libxrandr
 libxkbcommon
-waylandpp
+polkit
+linux>=5.4.35
+lzo
 libinput
 pcre
 
 %OPTDEPENDS%
 afpfs-ng: Apple shares support
 bluez: Blutooth support
+linux-rpi4: HW accelerated decoding RPi 3/4
+linux-rpi5: HW accelerated decoding RPi 5
 python-pybluez: Bluetooth support
 pulseaudio: PulseAudio support
 pipewire: PipeWire support
-upower: Display battery level
 
 %MAKEDEPENDS%
 afpfs-ng
@@ -120,13 +111,12 @@ git
 glew
 gperf
 hicolor-icon-theme
-java-runtime<21
 fmt
 libaacs
 libass
 libbluray
 libcdio
-libcec
+libcec-rpi
 libgl
 mariadb-libs
 libmicrohttpd
@@ -135,8 +125,6 @@ libmpeg2
 libnfs
 libplist
 libpulse
-libva
-libva-vdpau-driver
 libxrandr
 libxslt
 lirc
@@ -152,6 +140,7 @@ shairplay
 smbclient
 sndio
 spdlog
+taglib
 tinyxml
 swig
 upower
@@ -161,9 +150,8 @@ ghostscript
 meson
 gtest
 graphviz
-pcre
-wayland-protocols
-waylandpp
-libxkbcommon
 libinput
+libxkbcommon
+pcre
+java-environment<21
 
