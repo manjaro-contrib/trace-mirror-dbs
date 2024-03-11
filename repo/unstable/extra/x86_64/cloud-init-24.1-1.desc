@@ -1,0 +1,83 @@
+%FILENAME%
+cloud-init-24.1-1-any.pkg.tar.zst
+
+%NAME%
+cloud-init
+
+%BASE%
+cloud-init
+
+%VERSION%
+24.1-1
+
+%DESC%
+Cloud instance initialization
+
+%CSIZE%
+1415329
+
+%ISIZE%
+8512597
+
+%MD5SUM%
+0a78a3a441aa5fd7576fefae039d1993
+
+%SHA256SUM%
+57b610fc9d92a0ce2c561a81d370c46b54e53335299446e6e7716ed003e09aac
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZehERgAKCRCbeih9mi7GCEjNAPwNK5fAVnZ2STfxZki1pSJ/OdY+jULz17PKv4xTDU0CWgEAvcU0bm9/t/r9a7nWl3N9rLje43RWJ/e1YfN3tuRHtQE=
+
+%URL%
+https://cloud-init.io
+
+%LICENSE%
+GPL-3.0-only OR Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1709719350
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+bash
+dhclient
+python
+python-configobj
+python-jinja
+python-jsonpatch
+python-jsonschema
+python-netifaces
+python-oauthlib
+python-pyserial
+python-pyyaml
+python-requests
+python-typing_extensions
+sudo
+systemd
+
+%OPTDEPENDS%
+cloud-guest-utils: for growpart
+netplan: for configuring network using netplan
+python-passlib: for Azure and BSD support
+python-urllib3: for LXD and Scaleway data sources
+
+%MAKEDEPENDS%
+netplan
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+procps-ng
+python-httpretty
+python-passlib
+python-pytest
+python-pytest-mock
+python-responses
+
