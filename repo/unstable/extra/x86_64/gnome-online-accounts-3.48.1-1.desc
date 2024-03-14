@@ -1,5 +1,5 @@
 %FILENAME%
-gnome-online-accounts-3.48.0-2-x86_64.pkg.tar.zst
+gnome-online-accounts-3.48.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 gnome-online-accounts
@@ -8,37 +8,37 @@ gnome-online-accounts
 gnome-online-accounts
 
 %VERSION%
-3.48.0-2
+3.48.1-1
 
 %DESC%
 Single sign-on framework for GNOME
 
 %CSIZE%
-359995
+359418
 
 %ISIZE%
-1648767
+1644967
 
 %MD5SUM%
-d0b01429861d4930b1509ac170a5860d
+40ced2e6f9dabbb11a0b295eb58d91e0
 
 %SHA256SUM%
-eef5a55a2048b316d1389c816001cf3dfacf2163d812977f8793c12027977855
+a33916dd14437a7659b5f0de93d6f2c98e2113bd6f49eae1132668eefd8c2398
 
 %PGPSIG%
-iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZBzqCBUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8faFgEA7bzjPW09+FTjvouRFnklCwQK8Tjb2QdevEGY3ewjMlYA/A3IFN6952BtPmj8BjWR+8p3qHNG7k8l7S1Jby4RiBsL
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZfJVlQAKCRC4rAhgDxCM33xxAQD9wGS5M40tse2U70Nl2KlcIFmDs2nSsu5yM+iZ+dYSKAD/dA1P2B8SJlG8rQ3J7HAb1y/wsiuCidr66K7PxHW1Lws=
 
 %URL%
 https://wiki.gnome.org/Projects/GnomeOnlineAccounts
 
 %LICENSE%
-LGPL
+LGPL-2.0-or-later
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1679613953
+1710380350
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
@@ -47,14 +47,22 @@ Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 libgoa-backend-1.0.so=1-64
 
 %DEPENDS%
+dbus
+dconf
+gcc-libs
 gcr
+glib2
+glibc
+gtk3
+hicolor-icon-theme
 json-glib
 krb5
-libnotify
 librest
 libsecret
+libsoup3
+libxml2
 webkit2gtk-4.1
-libgoa=3.48.0-2
+libgoa=3.48.1-1
 
 %OPTDEPENDS%
 gvfs-goa: Virtual file systems, e.g. OwnCloud
