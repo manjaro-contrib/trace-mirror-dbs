@@ -1,0 +1,108 @@
+%FILENAME%
+dracut-059-6-aarch64.pkg.tar.xz
+
+%NAME%
+dracut
+
+%BASE%
+dracut
+
+%VERSION%
+059-6
+
+%DESC%
+An event driven initramfs infrastructure
+
+%CSIZE%
+295140
+
+%ISIZE%
+1073429
+
+%MD5SUM%
+d463c28662810b76b850cb95daa79af2
+
+%SHA256SUM%
+2f0e649d050e744f08cada914f30cae7e33d9088b71efb7fcba7d0e949ab698d
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmXuNMQACgkQdxk/FSvb5qbT/RAAtBuuuy6ajE7han0OfPP2qGi3CmpIzzzZ9usO6ck2rDgAwML7sYnBSS3rLvPnwnAcLcrvtk95azwNjRvL1q5HZNaceQa6zFx1h4BkV94prHSkwBoQF5fFNjNzG7yMX5B/7rZmHpWUu6FK6KOdWc+Zb5X4XgVG/gNhHuczaVKVU0dD904Dgu4FBZhRAO7P4btieLf19xeWEpFj0kMwjvKKGWTeB1TRc5znve4wHjEobXZkMrR0i/hhGKjLBRGZnaCYodIMRJrFfylx/69rziMkri4TcAlHtx5zYe+jzgUaiH7n4tTXEmqDSTJdlrlsyktDGiofy7Mw1cVeFuLoB8Q+zTGOIspUHqKuD1eHBrcTjZ6qr+zucc8MVlCDsDF787GsiKqlqnvgoPIQ/29TN9g3JyGy49nesyqMdrOBaQk6dB16LQgub9J+fS4382dRdDNbNPqdB78+lez7YNYJyp61ghhdkwqk8F3DJDjVERMa2HwXlcgYQQDYNDD38+VvlZyvBY7+7TBrBZz/FqBVwTycuj0z0BNkb8LGk+cJnrba9aP7VjhzYfpLOSH3s+ICIuY9oA55CXbFCTBULNBUeOzCYfC7bmI6dFD9gZcrzfc3MXr1pY6IcLod6zR2vHHIKCNpeXPPm7P+6vm41eKxJQmHJfmeJ5wpFVotl6U88UPqdro=
+
+%URL%
+https://github.com/dracutdevs/dracut
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1710109861
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+initramfs
+
+%DEPENDS%
+bash
+coreutils
+cpio
+filesystem
+findutils
+gawk
+grep
+kmod
+pkgconf
+procps-ng
+sed
+systemd
+util-linux
+
+%OPTDEPENDS%
+binutils: --uefi option support
+bluez: bluetooth (keyboard)
+btrfs-progs: scan for Btrfs on block devices
+busybox: allows use of busybox (on your own risk)
+bzip2: bzip2 compression
+cifs-utils: support CIFS
+connman: support for connman networking
+cryptsetup: support for encrypted with LUKS filesystems
+dash: allows use of dash (on your own risk)
+dhclient: legacy networking support
+dmraid: dmraid dracut module support
+e2fsprogs: ext2/3/4 filesystem support
+elfutils: strip binaries to reduce initramfs size
+f2fs-tools: fsfs filesystem support
+fuse3: live on NTFS (dmsquash-live-ntfs module)
+gzip: gzip compression
+iproute2: legacy networking support
+iputils: networking support
+lvm2: support Logical Volume Manager
+lzop: lzop compression
+mdadm: support MD devices, also known as software RAID devices
+multipath-tools: dmraid dracut module support
+nbd: support network block devices
+ndctl: NVDIMM support
+networkmanager: networkmanager support
+nfs-utils: support NFS
+ntfs-3g: live on NTFS (dmsquash-live-ntfs module)
+nvme-cli: NVMe-oF support (nvmf module)
+open-iscsi: support iSCSI (iscsi module)
+openssh: install ssh and scp along with config files and specified keys (ssh-client module)
+pigz: faster gzip compression
+plymouth: plymouth boot splash
+rng-tools: enable rngd service to help generating entropy early during boot
+sbsigntools: uefi_secureboot_cert/key configuration option support
+squashfs-tools: support for building a squashed initramfs
+tar: live tar image
+tpm2-tools: tpm2 support for e.g. LUKS
+xz: xz compression
+
+%MAKEDEPENDS%
+asciidoc
+bash-completion
+git
+

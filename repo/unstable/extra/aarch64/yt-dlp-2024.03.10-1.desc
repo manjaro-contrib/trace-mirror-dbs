@@ -1,0 +1,75 @@
+%FILENAME%
+yt-dlp-2024.03.10-1-any.pkg.tar.xz
+
+%NAME%
+yt-dlp
+
+%BASE%
+yt-dlp
+
+%VERSION%
+2024.03.10-1
+
+%DESC%
+A youtube-dl fork with additional features and fixes
+
+%CSIZE%
+5236244
+
+%ISIZE%
+32913755
+
+%MD5SUM%
+3793a4add765596b38f9b2f5b263af14
+
+%SHA256SUM%
+61734021039c89682120a90bf850d5aa1d44e98be6cff2813133a4a64af67860
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmXuVt0ACgkQdxk/FSvb5qZnExAAsvwJUOyd4dCTBifFoaAi/F0QLKRWOUA3anUyj1KikCggMVMSgLgz7vaPFGip3cgEjqBdN9dqtt07kRKQikCuUzzCZxNRn0si9lwzhpenYq6Xw36kUUAeZmPcBBBfJHLrDyLpxLQ2Sc84OCaGaV6JmxaSgx3OF8wx44LkFsWm+9CmdD5RM7YQgbe7fXWnVEvljOdkj94yTldJkGIZFwpkwfY1sZUwnKWACjADzC1YQvQyK/47l61GAQ3izMxdYWBDHpXwZVaPYiiW9AN/hcWi6hxYO6YHaUMoQTuabKduYuoXkALayZeM/YGLSWqw8QLwfWwJgHE3umachM7U23rL3TL85GauwRORVO9C4hc7gNdM2Jk5ANFFXxtR8DmIJF2pb+gvKX23QvuSFrf60MVKMzt7Ap/RdvW5i/HnfwhdqU8ZU7TfhiyA7U7fgJrPERVQxprGsCZBmDjQTIFZbHtcQMyUSf7XMmI0FNWUjkn2o5udIzerGM+VW2o1xum/K8PjB9ZlKb+VMOnwNhZzSU/KpWsHoBpZX7TsJ0pKWYapivfofc+axEEdktUGWDUFLRotTcASFRIl3UEvuHSQCgByXymjtLU2CD78034CjCVJslAN9hXgSQstkI0HsJtKfiWSSbRr+/BOFAyXZFHcjfu4Fw3s2HBq/BhtgaQc9r6S0z4=
+
+%URL%
+https://github.com/yt-dlp/yt-dlp
+
+%LICENSE%
+Unlicense
+
+%ARCH%
+any
+
+%BUILDDATE%
+1710118552
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-certifi
+python-requests
+python-urllib3
+
+%OPTDEPENDS%
+ffmpeg: for video post-processing
+rtmpdump: for rtmp streams support
+atomicparsley: for embedding thumbnails into m4a files
+aria2: for using aria2 as external downloader
+python-mutagen: for embedding thumbnail in certain formats
+python-pycryptodome: for decrypting AES-128 HLS streams and various other data
+python-pycryptodomex: for decrypting AES-128 HLS streams and various other data
+python-websockets: for downloading over websocket
+python-brotli: brotli content encoding support
+python-brotlicffi: brotli content encoding support
+python-xattr: for writing xattr metadata
+python-pyxattr: for writing xattr metadata (alternative option)
+phantomjs: for extractors with javascript code
+python-secretstorage: For -cookies-from-browser to access the GNOME keyring while decrypting cookies of Chromium-based browsers
+
+%MAKEDEPENDS%
+python-build
+python-hatchling
+python-installer
+
+%CHECKDEPENDS%
+python-pytest
+

@@ -1,0 +1,71 @@
+%FILENAME%
+plasma-firewall-6.0.2-3-x86_64.pkg.tar.zst
+
+%NAME%
+plasma-firewall
+
+%BASE%
+plasma-firewall
+
+%VERSION%
+6.0.2-3
+
+%DESC%
+Control Panel for your system firewall
+
+%GROUPS%
+plasma
+
+%CSIZE%
+493132
+
+%ISIZE%
+1280557
+
+%MD5SUM%
+31387e37559dc0eefc05b61a2af10dbc
+
+%SHA256SUM%
+f8dfa9653c9774a69b4cbe27cb2d0530894013d2d29aaa0b549dc3e857a34e4f
+
+%PGPSIG%
+iHUEABYKAB0WIQSP5qfUzELIPJvMqOMtoqzD7OTc5gUCZfGjmQAKCRAtoqzD7OTc5hh7AQCIhLgBM80U9P2yYAQz2egw1eF+HBj25cXbwerAE8P9BgEAhRSwKNT/2EJeL9guOgsp8viAuDVDByWqYHpI3XyZuQI=
+
+%URL%
+https://kde.org/plasma-desktop/
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1710333122
+
+%PACKAGER%
+Tomaz Canabrava <tcanabrava@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+kauth
+kcmutils
+kconfig
+kcoreaddons
+ki18n
+kirigami
+qt6-base
+qt6-declarative
+
+%OPTDEPENDS%
+firewalld: firewalld backend
+iproute2: netstat backend
+python: ufw backend
+ufw: ufw backend
+
+%MAKEDEPENDS%
+extra-cmake-modules
+python
+

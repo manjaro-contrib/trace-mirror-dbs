@@ -1,0 +1,91 @@
+%FILENAME%
+libvirt-1:10.1.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+libvirt
+
+%BASE%
+libvirt
+
+%VERSION%
+1:10.1.0-1
+
+%DESC%
+API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)
+
+%CSIZE%
+7980628
+
+%ISIZE%
+52020421
+
+%MD5SUM%
+37264f84e0f59f17321e9ff212553576
+
+%SHA256SUM%
+25ab95d23b5b7739008bc646ad14ab7653dabc8ecfe1da2f0a77f3f56c8890f2
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmXjPm8ACgkQdxk/FSvb5qZYEw/+J1RBLZ08WodowY47luGhPIG1pZY6fv5aGSsFbXBOIlAXRvYO794LfkbHX7yQk8X32jtbYM/WpXexPhJ4Fe3VXwjbFeQQQJbD6Ze9ftRDG9k6u6I96HEl7TR0mXsogrPkzvqc/ub9fSQDYoTA+AnH1BaPAPtDYhP3wsaZBffr+U4ix10MZ4X/JB1zrvA45OtTMSOQ4H4JF63cq+GtAY3j3U7z+y9aiWohH0FRIyG8+MmTcZOr6tTunWGSbwWLHvW2CGk50h/lMyXXl4TX18X4u7pLmGoP5HyNDwfpvvI+g/fW49WXoog5/2JGVRVWKoNgNpi02rjHDLdZjXElG8pubf+7QyDQTtYm7r/48ixomxtQ9JsIEWUkLE8uXryMon13dMqnFcuhY61DlrlqzxAibTGkBxTsi7D7GUN3Ac44OoFRDLC5ZcOd5D9YAGjnMMr1y05+gWO5MM0lFgtXXcmcG507h2kYSLxAqLBOovf/BTBkzVtuJ7RHkfWBK4V4Jmk6L6Q8rXrkGIUdBsJuKP/8ZWml1UD9jA79mKq68YAb3kMYvhKxX3i7+dRMvuSranHxH9Ky0DpfD4tL+Htx4nlG4h4nOI2l/zEk0T1ZJIjjxxT1x388jcI/qxtT5IwzY/u4zx55U3ySN+IvBIrg/KZsWkBoJMCzt80kSo/EKfFxAy0=
+
+%URL%
+https://libvirt.org/
+
+%LICENSE%
+LGPL-2.1-or-later
+GPL-3.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1709391271
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+libvirt=10.1.0
+libvirt.so=0-64
+libvirt-admin.so=0-64
+libvirt-lxc.so=0-64
+libvirt-qemu.so=0-64
+
+%DEPENDS%
+libpciaccess
+yajl
+fuse3
+gnutls
+parted
+libssh
+libxml2
+numactl
+polkit
+libnbd
+libnl
+
+%OPTDEPENDS%
+libvirt-storage-gluster: Gluster storage backend
+libvirt-storage-iscsi-direct: iSCSI-direct storage backend
+gettext: required for libvirt-guests.service
+openbsd-netcat: for remote management over ssh
+dmidecode: DMI system info support
+dnsmasq: required for default NAT/DHCP for guests
+radvd: IPv6 RAD support
+iptables-nft: required for default NAT networking
+lvm2: Logical Volume Manager support
+open-iscsi: iSCSI support via iscsiadm
+swtpm: TPM emulator support
+
+%MAKEDEPENDS%
+meson
+libxslt
+python-docutils
+lvm2
+open-iscsi
+libiscsi
+glusterfs
+bash-completion
+dnsmasq
+iproute2
+
