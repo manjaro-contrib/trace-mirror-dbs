@@ -1,5 +1,5 @@
 %FILENAME%
-gnome-shell-1:45.4-1-x86_64.pkg.tar.zst
+gnome-shell-1:45.5-1-x86_64.pkg.tar.zst
 
 %NAME%
 gnome-shell
@@ -8,7 +8,7 @@ gnome-shell
 gnome-shell
 
 %VERSION%
-1:45.4-1
+1:45.5-1
 
 %DESC%
 Next generation desktop shell
@@ -17,19 +17,19 @@ Next generation desktop shell
 gnome
 
 %CSIZE%
-1831573
+1824588
 
 %ISIZE%
-14720235
+14720351
 
 %MD5SUM%
-e19652704d5e22676b4740f86785ac46
+84accd26a514265af4cc9bf75537e84f
 
 %SHA256SUM%
-aa9ac41111b13ecd13cb5688bcb0554917704ddab8f8b08f9bf9676737efe4dd
+2530c1c1f206827cbcbd8741919ae46ffc066560cd05b811ceca2b88227e3928
 
 %PGPSIG%
-iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZclxMwAKCRC4rAhgDxCM39qeAQC5vvbAMfLV+8ZwYYa73koxLchKjDE4ljQuHlAMVUzX9wEA2ZJp2bayZs+hWZMubNowZXW1IfEhuDtmNZs96Sq+JQw=
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZfXXOAAKCRC4rAhgDxCM30wNAQDoIg/xeBDBfQ2yl8uiqfrHoVk4flaR23gQ2EVxQleeKQEAtDsXoue0NYMgK/konQNs/Q3FbWfUm//lRLX/XEMLAQY=
 
 %URL%
 https://wiki.gnome.org/Projects/GnomeShell
@@ -41,29 +41,52 @@ GPL-3.0-or-later
 x86_64
 
 %BUILDDATE%
-1707700407
+1710610137
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 
 %DEPENDS%
 accountsservice
+at-spi2-core
+bash
+cairo
+dconf
+gcc-libs
 gcr-4
+gdk-pixbuf2
 gjs
+glib2
+glibc
 gnome-autoar
+gnome-desktop-4
 gnome-session
 gnome-settings-daemon
+graphene
 gsettings-desktop-schemas
 gtk4
+hicolor-icon-theme
+json-glib
 libadwaita
 libcanberra-pulse
 libgdm
+libgirepository
+libglvnd
 libgweather-4
 libibus
+libical
+libnm
 libnma-gtk4
+libpipewire
+libpulse
 libsecret
 libsoup3
+libx11
+libxfixes
 mutter
+pango
+polkit
+systemd-libs
 unzip
 upower
 libmutter-13.so=0-64
@@ -77,6 +100,7 @@ gst-plugin-pipewire: Screen recording
 gst-plugins-good: Screen recording
 power-profiles-daemon: Power profile switching
 python-gobject: gnome-shell-test-tool performance tester
+python-simplejson: gnome-shell-test-tool performance tester
 switcheroo-control: Multi-GPU support
 
 %MAKEDEPENDS%
