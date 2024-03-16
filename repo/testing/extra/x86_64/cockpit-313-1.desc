@@ -1,0 +1,87 @@
+%FILENAME%
+cockpit-313-1-x86_64.pkg.tar.zst
+
+%NAME%
+cockpit
+
+%BASE%
+cockpit
+
+%VERSION%
+313-1
+
+%DESC%
+A systemd web based user interface for Linux servers
+
+%CSIZE%
+5795315
+
+%ISIZE%
+7980416
+
+%MD5SUM%
+e736151b1919feb6a4f9fadfdd3c5746
+
+%SHA256SUM%
+bbcb9ea70ea0683139e2f1d6e59413763266359d59f90f55cee7866631a161e9
+
+%PGPSIG%
+iHUEABYKAB0WIQQMrarPcPZMZU4TGzERZ1x0NCnd7wUCZfNREQAKCRARZ1x0NCnd78RMAP4qIFfHQEUBeYw7oko9PpASznT60HlTY6c3G3xhv+FQTAD6A9HBflAat9aro/pNIcD96qizx/6S7s0vp2+c5tSU1wo=
+
+%URL%
+https://cockpit-project.org/
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1710444749
+
+%PACKAGER%
+Massimiliano Torromeo <mtorromeo@archlinux.org>
+
+%DEPENDS%
+krb5
+libssh
+json-glib
+glib-networking
+libpwquality
+openssl
+kexec-tools
+python
+gobject-introspection-runtime
+
+%OPTDEPENDS%
+cockpit-pcp: reading performance metrics
+cockpit-storaged: manage storage
+cockpit-packagekit: manage packaged
+cockpit-podman: user interface for managing podman containers
+cockpit-machines: user interface for managing virtual machines
+polkit: elevate privileges
+sudo: elevate privileges
+networkmanager: manage network connections
+sssd: authentication
+sscg: generate self-signed certificate
+
+%MAKEDEPENDS%
+krb5
+libssh
+json-glib
+glib-networking
+git
+intltool
+gtk-doc
+gobject-introspection
+networkmanager
+xmlto
+npm
+pcp
+gendesk
+python-installer
+python-wheel
+python-build
+python-pip
+
