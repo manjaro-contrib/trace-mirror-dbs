@@ -1,35 +1,32 @@
 %FILENAME%
-gnome-control-center-45.3-1-x86_64.pkg.tar.zst
+gnome-control-center-x11-scaling-45.3-2-x86_64.pkg.tar.zst
 
 %NAME%
-gnome-control-center
+gnome-control-center-x11-scaling
 
 %BASE%
-gnome-control-center
+gnome-control-center-x11-scaling
 
 %VERSION%
-45.3-1
+45.3-2
 
 %DESC%
-GNOME's main interface to configure various aspects of the desktop
-
-%GROUPS%
-gnome
+GNOME's main interface to configure various aspects of the desktop with X11 fractional scaling patch
 
 %CSIZE%
-6802752
+6805403
 
 %ISIZE%
-23097458
+23101556
 
 %MD5SUM%
-fcb6803b599e3d25fc7b39bc8f08121e
+6dc98eb525bcf775fe73ca9049f35924
 
 %SHA256SUM%
-47df45fe80c6823502c638e7bdfa21aee7cf621c3aca029f55f82297e0119e1d
+28d54cbf576e46da1652e94f0baaf9f718d2811a2c1272e25b625852ce4706c1
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmXKQCUACgkQFQwgB0PtRtgYKgf+KWkQ+DDUcSP70mrVs5qKGoqzRwoEG1Bix+yl1LvZQnA19deRML10kHt6f0xJmovHT7hQn50O3Yjo1Kpe6StbjN8nffEiKTYFiJzfUu9V8HhLSAs4204kchJkSezLk95iGAML4loW31i21rXsOsA19fgD0ARaVmDE+8JXDVL6sC/M8m9y9KRWl+GMuYIKAo6vSePRiWhP9hjLqZs43S3YTNDrVxGCqPBQzAMF5hX3oWYdJSTcDljoWGVtR3iNskATOK1ii3RRNtvTd2IhPI8qoTnaQN/JcVYYmVVlRA5f4+81nK1a3PagmUdKodxvF/66r3ENo3wHCraBjKdtjIKWKA==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmX3LUUACgkQFQwgB0PtRtgdEwgAuFDexoV18CcWekzthun1CUEDh1ucs1PJn9F3eN9Vva77K0CPvEaTKICWn1i9rwR0XcFq+AnwGg/0LDGgCiHfKLMQIcln108Tkoe6OWOM7WgAY2jJARasvEO4y1qYujBVlD/mhnBwTCe1g1VXhtI8zz6vL/9poR4w9W7s39Oab6AuP43PQAjaoAqShLNEeb9+j+cRrDl6hv33DiCMvQNoqmLJkM9Yp2ZOzxm28nwIAQyqAG3TvgboLqEtco2Yl7/MxXLqy4BE3yvdeeFhe0PvvpU7FyexelpQZ+07DDMdPzP7BkozKTlhrI3E56DB3HIPaQB+TIyLx/giJIDX7xfKWA==
 
 %URL%
 https://gitlab.gnome.org/GNOME/gnome-control-center
@@ -41,10 +38,16 @@ GPL-2.0-or-later
 x86_64
 
 %BUILDDATE%
-1707753348
+1710697720
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
+
+%CONFLICTS%
+gnome-control-center
+
+%PROVIDES%
+gnome-control-center=45.3
 
 %DEPENDS%
 accountsservice
@@ -54,9 +57,11 @@ colord-gtk4
 cups-pk-helper
 dconf
 fontconfig
+gcc-libs
 gcr
 gdk-pixbuf2
 glib2
+glibc
 gnome-bluetooth-3.0
 gnome-color-manager
 gnome-desktop-4

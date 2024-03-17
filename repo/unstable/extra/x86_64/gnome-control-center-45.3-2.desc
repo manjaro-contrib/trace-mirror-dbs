@@ -1,32 +1,35 @@
 %FILENAME%
-gnome-control-center-x11-scaling-45.3-1-x86_64.pkg.tar.zst
+gnome-control-center-45.3-2-x86_64.pkg.tar.zst
 
 %NAME%
-gnome-control-center-x11-scaling
+gnome-control-center
 
 %BASE%
-gnome-control-center-x11-scaling
+gnome-control-center
 
 %VERSION%
-45.3-1
+45.3-2
 
 %DESC%
-GNOME's main interface to configure various aspects of the desktop with X11 fractional scaling patch
+GNOME's main interface to configure various aspects of the desktop
+
+%GROUPS%
+gnome
 
 %CSIZE%
-6803347
+6803675
 
 %ISIZE%
-23097458
+23097460
 
 %MD5SUM%
-379228c1f83c48f249e42c1df3b5f124
+0fb1399d8ee2e0a94fc2942c3a01447a
 
 %SHA256SUM%
-38620391748f8a76489fc361eac2a67241a0b960ea09725491743358d306b72c
+32e1af3c138a5fb87867512710c02fde1fb8454cc78755847686bd8599f88624
 
 %PGPSIG%
-iQEyBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmXKQCUACgkQFQwgB0PtRthImAf3YmI3OhXhYZtDLoVWOsqoDWXr+ynEiTZVk5cU8U0XJMRKMhLpgXZ1JT/tI1dFLFIu8HLF0A/uI28uyXxEOhWVRbB2MRWQiuMpspp/vHUA+mI7coIvx8+qVqKHLAJx9SVvHgSeBgQ0QFnwcbzU40dTYm3cvO2mxC4tK5Kz/FPVQHGOjrnWI+vrnB9fatjrezLoDpNpaLB/76AsvDK1dnUr2pqkFsHpJ2Nfs/rE81z+CGAXJvOzjxv7rwz0xkyAi5rafdUhJ8F2W7UxhF0empTE2A+/HLS3SMvNYjieh7evGqyp3BX8gOM/Si3K9Wc5FmyJOthmPMVVpfY/mcfp1cdq
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmX3LUUACgkQFQwgB0PtRtiZ0ggAjKMaAHK1OqqHjF/0yN034F5ni9KItLcADmc4H5JMSWBoGNaE0cRcyuZFFADF5qYU+wXPmxRurElxzt5K6R3cztI3DAtSh5mt4Bkzgb+Idf4EwW9mJ8ATmTXrV5lgu0RDQgt86IuZRZ3pPhKUVeH218oy1U/k6o6ph+lYuXbgMYHAYUOPNKojB3Nkkxli+7FIqx3tgvZj2NxHmRJRDeQaLC2Q92IDSR9gAmjS5MeUtumm3BZlV2Azlh8TPHhFvMrpwlfYfQWBPKeD4Qg0CRHmkMMbdyQbBJ5g4PK2sXDeKRfM8gWQtKntK7UL+iqfR5vEIjtRRZ94YSa1nfn+dIKa9Q==
 
 %URL%
 https://gitlab.gnome.org/GNOME/gnome-control-center
@@ -38,16 +41,10 @@ GPL-2.0-or-later
 x86_64
 
 %BUILDDATE%
-1707753443
+1710697316
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
-
-%CONFLICTS%
-gnome-control-center
-
-%PROVIDES%
-gnome-control-center=45.3
 
 %DEPENDS%
 accountsservice
@@ -57,9 +54,11 @@ colord-gtk4
 cups-pk-helper
 dconf
 fontconfig
+gcc-libs
 gcr
 gdk-pixbuf2
 glib2
+glibc
 gnome-bluetooth-3.0
 gnome-color-manager
 gnome-desktop-4
