@@ -1,5 +1,5 @@
 %FILENAME%
-gnome-control-center-mobile-45.2-1-aarch64.pkg.tar.zst
+gnome-control-center-mobile-45.3-1-aarch64.pkg.tar.zst
 
 %NAME%
 gnome-control-center-mobile
@@ -8,46 +8,46 @@ gnome-control-center-mobile
 gnome-control-center-mobile
 
 %VERSION%
-45.2-1
+45.3-1
 
 %DESC%
 GNOME's main interface to configure various aspects of the desktop - with mobile patches
 
 %CSIZE%
-8547362
+8572867
 
 %ISIZE%
-23018737
+23347812
 
 %MD5SUM%
-e679fb9758a78077317abc244fb41658
+120930d973c4fd9028b2babc4e44189d
 
 %SHA256SUM%
-ebf8b1c8f183f016020beed86da28f115d1a4f9b55e3308e90fa1524de795c2a
+6e79a9f2f5f2e2cc58f8f29bc3e124603e20dd07dfdbb11be763608cd91b0b75
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmXKlAsACgkQFQwgB0PtRtjJywf+Lr9UI2Ja6N67IoBKulh3lmi1XT/J/YIwgqs+wQKS64INhlIRmqBiNyW9Y77kWQjGlrNmp2k29YJr7v3OBHWkd0JJ54qClI7irDtq7F72BsKowxkkxTs4DW0k+0jF28IgxeU1p28PNso25/pQcdzzYIEa0gZLLw7XbN+TKZ8AXBk0LyB9Da5d6DjlEA62wLNyFOyEZqRlv7VR1sxErgxU63fAstv1G3tsXHMo4+i/cWWImfc2RzD1hDetrRRT0lMRBfapejHmegNnxoRBc1fEuV3MFyge58eLODECSRi88UNK2oG8VrqlkHBexH0ftj8KpowOnX43AHj8qBq2GbseiA==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmX52ZsACgkQFQwgB0PtRtgciQgAt7EIu8/V/6kZfMz2HNHUFugdRz+xHIrrH2xsxyhZ9YmPsrpOugojOk5VsKSlOZ0nhuP0vo7KXvomzQmTtZkku5j9KcCnHZujnzevnwxesjscAJV3n2jh+CR6SI0SQH2EGdqJyZj1+Yi1a9kbyZcGCEpRd/+9VfSZZjVTgo7x14o+opuzaeFYQiPXEXoJ+jQsLwzF4qNmIXDad/MRv/DA1MnsnGPVxKpjUFQU+00/Frw66/naOUwzXF4WHg2H2hz8H5NNPcthqNZ/aCgD8Q3igAd4ZhcbCNAmqRxRlO4y7ThnrhrTWTRms2PgzYZ6qSG3jHOdwy7r8wqtmOqifrGlkw==
 
 %URL%
 https://gitlab.gnome.org/GNOME/gnome-control-center.git
 
 %LICENSE%
-GPL2
+GPL-2.0-or-later
 
 %ARCH%
 aarch64
 
 %BUILDDATE%
-1707766010
+1710871856
 
 %PACKAGER%
-MNJRO ARM Runner <info@manjaro.org>
+Manjaro Build Server <build@manjaro.org>
 
 %CONFLICTS%
 gnome-control-center
 
 %PROVIDES%
-gnome-control-center=45.2
+gnome-control-center=45.3
 
 %DEPENDS%
 accountsservice
@@ -57,9 +57,11 @@ colord-gtk4
 cups-pk-helper
 dconf
 fontconfig
+gcc-libs
 gcr
 gdk-pixbuf2
 glib2
+glibc
 gnome-bluetooth-3.0
 gnome-color-manager
 gnome-desktop-4
