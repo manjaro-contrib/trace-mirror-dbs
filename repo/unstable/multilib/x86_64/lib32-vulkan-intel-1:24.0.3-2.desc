@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-vulkan-swrast-1:24.0.3-1-x86_64.pkg.tar.zst
+lib32-vulkan-intel-1:24.0.3-2-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-vulkan-swrast
+lib32-vulkan-intel
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:24.0.3-1
+1:24.0.3-2
 
 %DESC%
-Vulkan software rasteriser driver (32-bit)
+Open-source Vulkan driver for Intel GPUs - 32-bit
 
 %CSIZE%
-2013579
+4498382
 
 %ISIZE%
-8725785
+31883348
 
 %MD5SUM%
-4405760c1a1d10d6d8cee9082418b1c3
+4648e0d044764f0f4dd6d3a70acf5684
 
 %SHA256SUM%
-5e1ae06c7ed76d74bd9f712dc09d105c13b7a87e728b6a892bc47ca30d0de069
+93671ffc4fe1fe8a050f34fac7420caf676804702db3b374fcc5ca2caa63ee6c
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmXy5jQSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+C9IH/RSgcp5A0syuVPAX34PEMMQkchA4WmF4AJsJoJKScm+kvkPPejXhAPvF8zcLmoQvKDOb64Yg6VAzaYSpvCZUhe/EyiHxp7OyOWudvZvzLXMZhLZPOt1bkJ2Ff28RC1K19xcJ5nEdMc/XoFzbrn4lgdXjmDl6W9CmROh4xUiEQBPSHPn5IwY60NuT6UtD6uLeR3Q1aOR4YxyZm67OnST5DBhveb4KzCDoGC8p0sxdIeA0NVMHAlEdqdYqBtnAvdDRlBb/gUTN+UUVOVdQXsFtFGrKPPOpXvsbJFjmHVY8yzStxaaEo0RLacuyxJjVoZg2OGwsX6aOYiOmga0RjndkYNQ=
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmX5ERAACgkQFQwgB0PtRthIwAf9GRsd1WEppawu7elgpo66d/3LbDGaRqjsYYbNhs1FngBzsfdTNwp9XlFRoQPmR1Fl82MAkaujnjh+oiSSdIjC8mCkSF708G+WZX2NoCUP4fcuyth/5vACkRnq+NFgxTOa2CERgF6ajEQk2yIqPrmr8Pt7zWvyYdnHR60GyOkkEzyXU6mvvRbr9DKZ/l+swB2EkCA3gTixT7A90/os7FypuP7B9EDwVm2UO8rB0cBxtot2gqSOFBE7HK0MP4Hh1f7xpo2aUvNL/0R2frTH26Vw1iBPhaDj4MUyDWZ2QwbDG0j7xQ3opPqOniF1dYSv2r9uM1JT6YMp8Ro5rnjEoVYGaQ==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,30 +38,23 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1710416117
+1710821068
 
 %PACKAGER%
-Philip Mueller <philm@manjaro.org>
-
-%REPLACES%
-lib32-vulkan-mesa
-
-%CONFLICTS%
-lib32-vulkan-mesa
+Mark Wagie <mark@manjaro.org>
 
 %PROVIDES%
 lib32-vulkan-driver
 
 %DEPENDS%
 lib32-libdrm
-lib32-libunwind
 lib32-libx11
 lib32-libxshmfence
-lib32-llvm-libs
 lib32-systemd
 lib32-wayland
 lib32-xcb-util-keysyms
 lib32-zstd
+vulkan-intel
 
 %OPTDEPENDS%
 lib32-vulkan-mesa-layers: additional vulkan layers

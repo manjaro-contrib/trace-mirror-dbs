@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-vulkan-intel-1:24.0.3-1-x86_64.pkg.tar.zst
+lib32-vulkan-virtio-1:24.0.3-2-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-vulkan-intel
+lib32-vulkan-virtio
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:24.0.3-1
+1:24.0.3-2
 
 %DESC%
-Intel's Vulkan mesa driver (32-bit)
+Open-source Vulkan driver for Virtio-GPU (Venus) - 32-bit
 
 %CSIZE%
-4502389
+403312
 
 %ISIZE%
-31878577
+1224483
 
 %MD5SUM%
-847cea4c1f8ea3662c455201f81df335
+3db47f29e6e7c1e60f1a5b9404e0af91
 
 %SHA256SUM%
-c4bc67152968560f7e1a63ec555fa359daaf23e47641af3dbf2d5c7d8a24e102
+797af8547e9413ee4a6eee5b248458c939fdaa40770851556765787421fe1829
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmXy5jkSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+DnQIAI6MBmVYhrQkKldK3g+QhynS5o1OIbT6MaY4Bz5v52IEa4CNbXMFxnmHn1J6VVaMbauDTHpPoDPCyYO47iNs+tlMFkT4G8IhYmJmo+iOyMVQ7A/PR92Rhr3qwyDeOmYYR041rGhMP2QczkYj/sCZ7iXTz+a0Zx6foLpUAdhtD7mm+DwuG2JTMwj2nSUdYLXYYHGlP3k5G6LKX78iuiq/+TyHB54f1xJEoS0ZUquEGXaq1o/vsKR6jsHJwx6h3IYsIRpY67R4KxqG0MWrn6W9aLpL6mxOS3wm49HJYCvHGqnpIVZBzL/GGoDyDxk1race7pxWQe/6eWHYSGTxOmc9M/Q=
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmX5EREACgkQFQwgB0PtRtjPQQgA02EqWlNVr7measqIrvq9ECplu0vfStgFweeWXEBpTV2d0NqZf+feILPWv47o72DJwUXTJ3H+o5fBj3puGqrQaEdz4ckQc/KyIQjtwaInwIU2KhNhRzzzA4qHubZaIIcPNN6i4BDm+lIGyrdv7ADFYsUROvzc4gtE4xB+mew+hNd4Am44i1Xq8nEbx+sErXaktKZfhMM9FKBWjiIK2qWNhu4nGJj/hdyI3zea9wyhYiarm4XrF1oS7bC7hWkeVpI3eXqxgTV5poOWFtIkjG7EaGzTrfcL3choHWQKzOg/xj706smSmnelFt2O3Mkjrgw1T+mc4eQj4trXKNBb4fzWfg==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,10 +38,10 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1710416117
+1710821068
 
 %PACKAGER%
-Philip Mueller <philm@manjaro.org>
+Mark Wagie <mark@manjaro.org>
 
 %PROVIDES%
 lib32-vulkan-driver
@@ -54,6 +54,7 @@ lib32-systemd
 lib32-wayland
 lib32-xcb-util-keysyms
 lib32-zstd
+vulkan-virtio
 
 %OPTDEPENDS%
 lib32-vulkan-mesa-layers: additional vulkan layers
