@@ -1,32 +1,32 @@
 %FILENAME%
-opencl-clover-mesa-1:24.0.3-1-x86_64.pkg.tar.zst
+opencl-rusticl-mesa-1:24.0.3-2-x86_64.pkg.tar.zst
 
 %NAME%
-opencl-clover-mesa
+opencl-rusticl-mesa
 
 %BASE%
 mesa
 
 %VERSION%
-1:24.0.3-1
+1:24.0.3-2
 
 %DESC%
-OpenCL support with clover for mesa drivers
+Open-source OpenCL drivers - RustICL variant
 
 %CSIZE%
-10382937
+7112130
 
 %ISIZE%
-81290050
+27618424
 
 %MD5SUM%
-b0d8703e7f928a4c557c26b04d60aef9
+a80fec30c5987073a25d0d920763f633
 
 %SHA256SUM%
-a6fe719675d6177a8f3cd06659360708c0f764674163014f187f84cd787bbce7
+5e187704d94b00dc72593e6f5a4eaf404ce495dfbfccc8c1751df0b5a7e5205b
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmXy5kASHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+QYcIAMpKfsj8NuTaC6CbVZF9mVyOjwQiFVsVlGL860trff7Viih7iHKuDoyty6CBYV54kr3iA//0Tgs4BKv5z8PP7cmNwc0ZM4633x3REs4fQ6+rcAfE8Kg8wkbG1KVYzt3P039YdNh3q2e5iTvW8IW/X+hY+8Ise5ZSMY3xglCIfXi2DHisH1cTf74CIJigiEE1cyudNV9k26Q4PvZIIghjkb2c5AU5MXgcyHh4B8tFsL+1BTKz1G70ASPSqpQYaKkxomzRZQRPifHpfiy/tmgLjN/OmZ+5LLyHRuDIHXPfymR0Evkrb/pg+BzMQpnriQy6KyisaCIGa/Hps9Ob5HTH78E=
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmX5DeUACgkQFQwgB0PtRtjIOAgA3EpCZFX+cKKGzqvjpK5nMemK8Ed4j1ztsNeQfl5t1a7xW1oy5MrIjNH1sE+SlYmVdZDDsMupj4YPwGajTLYxQWfhLIGu38mJwVDuStAQZzzInunxPneEF/WDYPGdsFvB3hGosqRX/ZZb7wr3TzFcape9zqCX2respyzeGCSl2BId4Q/9iuSzCpaFm/gHFwj7SzFwm8tEAovKkXgAwa0izY68hYo6phHiOVg6TGgq4g+KaIWXkZuTU7Z0wjxD/TUdAblkvrwPGe9yUOLS+J9in3VGT4Yl1FwhVmol5OlxJGZNCaRGYcuI16JnbQXeV5DhMC4TjI9P44oEIaW/DK2SKw==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,10 +38,10 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1710399906
+1710820107
 
 %PACKAGER%
-Philip Mueller <philm@manjaro.org>
+Mark Wagie <mark@manjaro.org>
 
 %REPLACES%
 opencl-mesa<=23.1.4-1
@@ -57,6 +57,7 @@ clang
 expat
 libdrm
 libelf
+lm_sensors
 spirv-llvm-translator
 zstd
 libclc
