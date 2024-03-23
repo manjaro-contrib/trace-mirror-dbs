@@ -1,0 +1,128 @@
+%FILENAME%
+gnome-control-center-x11-scaling-45.3-2-x86_64.pkg.tar.zst
+
+%NAME%
+gnome-control-center-x11-scaling
+
+%BASE%
+gnome-control-center-x11-scaling
+
+%VERSION%
+45.3-2
+
+%DESC%
+GNOME's main interface to configure various aspects of the desktop with X11 fractional scaling patch
+
+%CSIZE%
+6805403
+
+%ISIZE%
+23101556
+
+%MD5SUM%
+6dc98eb525bcf775fe73ca9049f35924
+
+%SHA256SUM%
+28d54cbf576e46da1652e94f0baaf9f718d2811a2c1272e25b625852ce4706c1
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmX3LUUACgkQFQwgB0PtRtgdEwgAuFDexoV18CcWekzthun1CUEDh1ucs1PJn9F3eN9Vva77K0CPvEaTKICWn1i9rwR0XcFq+AnwGg/0LDGgCiHfKLMQIcln108Tkoe6OWOM7WgAY2jJARasvEO4y1qYujBVlD/mhnBwTCe1g1VXhtI8zz6vL/9poR4w9W7s39Oab6AuP43PQAjaoAqShLNEeb9+j+cRrDl6hv33DiCMvQNoqmLJkM9Yp2ZOzxm28nwIAQyqAG3TvgboLqEtco2Yl7/MxXLqy4BE3yvdeeFhe0PvvpU7FyexelpQZ+07DDMdPzP7BkozKTlhrI3E56DB3HIPaQB+TIyLx/giJIDX7xfKWA==
+
+%URL%
+https://gitlab.gnome.org/GNOME/gnome-control-center
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1710697720
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%CONFLICTS%
+gnome-control-center
+
+%PROVIDES%
+gnome-control-center=45.3
+
+%DEPENDS%
+accountsservice
+bolt
+cairo
+colord-gtk4
+cups-pk-helper
+dconf
+fontconfig
+gcc-libs
+gcr
+gdk-pixbuf2
+glib2
+glibc
+gnome-bluetooth-3.0
+gnome-color-manager
+gnome-desktop-4
+gnome-online-accounts
+gnome-settings-daemon
+gnutls
+gsettings-desktop-schemas
+gsound
+gtk3
+gtk4
+hicolor-icon-theme
+krb5
+libadwaita
+libcolord
+libcups
+libepoxy
+libgoa
+libgtop
+libgudev
+libibus
+libmalcontent
+libmm-glib
+libnm
+libnma-gtk4
+libpulse
+libpwquality
+libsecret
+libwacom
+libx11
+libxi
+libxml2
+pango
+polkit
+smbclient
+sound-theme-freedesktop
+tecla
+udisks2
+upower
+
+%OPTDEPENDS%
+fwupd: device security panel
+gnome-remote-desktop: screen sharing
+gnome-shell: multitasking panel
+gnome-user-share: WebDAV file sharing
+malcontent: application permission control
+networkmanager: network settings
+openssh: remote login
+power-profiles-daemon: power profiles
+rygel: media sharing
+system-config-printer: printer settings
+switcheroo-control: Dual-GPU support for the info/details panel
+
+%MAKEDEPENDS%
+docbook-xsl
+git
+meson
+modemmanager
+python
+
+%CHECKDEPENDS%
+python-dbusmock
+python-gobject
+xorg-server-xvfb
+
