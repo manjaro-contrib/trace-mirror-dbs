@@ -1,5 +1,5 @@
 %FILENAME%
-diffoscope-260-1-x86_64.pkg.tar.zst
+diffoscope-261-1-x86_64.pkg.tar.zst
 
 %NAME%
 diffoscope
@@ -8,37 +8,37 @@ diffoscope
 diffoscope
 
 %VERSION%
-260-1
+261-1
 
 %DESC%
 Tool for in-depth comparison of files, archives, and directories
 
 %CSIZE%
-359989
+370113
 
 %ISIZE%
-2229632
+2256643
 
 %MD5SUM%
-27ef032a1dea1f51ba2453905a78e6e3
+b280cec3f9d7fb9596fa5ad0c9fd601d
 
 %SHA256SUM%
-f61f7b52aede6d97a4c43c09c51b797634ea885009e6e47d867e3c2d4e243da0
+7f3006915d50905025d11cf1fab9fb18eb7cf5967fdb976d0cb2a9d5b0756db8
 
 %PGPSIG%
-iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmXrSIsACgkQwGCGM3xQdz7jcggAnb5plNYLMlJLyCe28PRk2fEGhP3WS1wqiQZkG7GBpvABlqTokwy2UYge9DKseSMhjlDYwBO+OTtPgHcuCWqGY+af2O2EjT0p8Ey6I7xbYHPCO5WCVTbMr8LwkQUBUpNgZvP9D6K8fwgSC5KFOUmlWJVbokdXfmKaNDs+tfJ/Y/PalBDw+lsUXq7T9sy2fGMSeY3Dn0HmwrFWios5GVWbesCw4NVm99oP6ZVibmcRrjhruIpQAtgI0PxcxmX4jMp0V9yqhYbz14+PqKPKDPQpZjLWJI7bsSfq+ibHXZ6AAI81EY5Bw7xY1ZXvVOosfbwn8jh7GphbrF/bGNoAEW6Bgg==
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYBz3gACgkQwGCGM3xQdz7vBwf5AXcMt8EOPJMPlaysoWtN2ErXLLjqTyPpfbHd6xCjqhWicGD/TGh3EiexdQ3u5AZi/MgB4e0gAFL46BchTamU2wf5xVJk9RJeFDVbBzns0qgtN+eDehRWvJsF7dDkJCle9swUfyDDhLzXMY8Bs93w7qUKKVzCnah+gtIO4+BdkHf0w7ZSVfG73WAVnb3hOQTYe3r7CIK9hEyjTEy4wp5fZsJt5lMrQiO+JAes3zoNlEl2IczB8cAwjskB2qJ35YBczj5z/LNFZ1LRlpRrdcbRSVPKMzKIlJo5Pwsq5VJMS5K3PN731W3xUDiBbhRID/4wrdvic8nRNrxd9ayYLFerLQ==
 
 %URL%
 https://diffoscope.org/
 
 %LICENSE%
-GPL3
+GPL-3.0-or-later
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1709918254
+1711394580
 
 %PACKAGER%
 Jelle van der Waa <jelle@archlinux.org>
@@ -106,6 +106,9 @@ help2man
 python-docutils
 git
 python-setuptools
+python-build
+python-installer
+python-wheel
 
 %CHECKDEPENDS%
 python-pytest
