@@ -1,5 +1,5 @@
 %FILENAME%
-curl-8.6.0-4-x86_64.pkg.tar.zst
+curl-8.7.1-3-x86_64.pkg.tar.zst
 
 %NAME%
 curl
@@ -8,25 +8,25 @@ curl
 curl
 
 %VERSION%
-8.6.0-4
+8.7.1-3
 
 %DESC%
 command line tool and library for transferring data with URLs
 
 %CSIZE%
-1093474
+1103316
 
 %ISIZE%
-1865815
+1893363
 
 %MD5SUM%
-6e158ea1cb32e196d5e9fbe2317fb97b
+db5288496df1b68bff421972c35c7b3f
 
 %SHA256SUM%
-1333b3a66e23a6729a2fd4caf38816636507240320ef0540e2640d448b7e5285
+bec1cc7274ef0e4c5a11aa7f5f783a9f40feddde3391ce1d67b6395c688aaacc
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZgPbIgAKCRBtQr3RFuAGj4LhAP9ZeGs/mSAEGf3MADk60lEW+teZQfcG+TnVNz9XqfppAwD+LPW1ynyWHqqjBrq0TzQD8ZtJyLriQytQoOpdBU6Idg0=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZgVXWAAKCRBtQr3RFuAGjyTUAQCqrm7wIIl0BtK04KJHqZYQ1K8YriamcxrYjI2MrNCcpQD/Rn38wGfjo6UqQ/clKVUmLjaPzGcVNnmD5MzQNTmWRwY=
 
 %URL%
 https://curl.se/
@@ -38,7 +38,7 @@ MIT
 x86_64
 
 %BUILDDATE%
-1711528065
+1711625769
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
@@ -73,4 +73,7 @@ libssl.so=3-64
 %MAKEDEPENDS%
 git
 patchelf
+
+%CHECKDEPENDS%
+valgrind
 
