@@ -1,5 +1,5 @@
 %FILENAME%
-lib32-opencl-rusticl-mesa-1:24.0.3-2-x86_64.pkg.tar.zst
+lib32-opencl-rusticl-mesa-1:24.0.4-1-x86_64.pkg.tar.zst
 
 %NAME%
 lib32-opencl-rusticl-mesa
@@ -8,25 +8,25 @@ lib32-opencl-rusticl-mesa
 lib32-mesa
 
 %VERSION%
-1:24.0.3-2
+1:24.0.4-1
 
 %DESC%
-Open-source OpenCL drivers - RustICL variant - 32-bit
+OpenCL support with rusticl for mesa drivers (32-bit)
 
 %CSIZE%
-7265870
+7033248
 
 %ISIZE%
-29080330
+27723931
 
 %MD5SUM%
-5d74331a8e4c61880c1f821eaf857100
+e94b1dd4f1ac0524ac7cb4e18a9730a1
 
 %SHA256SUM%
-8263a893e9fe252c500b9cbc69080ae72e18b3bb87df9e3cf9300cc755c3aea7
+51dcfebb743f8d89cadf5ea1199cc239cc0033e4594e6035153386cecd3db63a
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmX5ERAACgkQFQwgB0PtRtjzKgf/ZAQHUqHyYNupHEqVkbfHAXBc756xXlfdD0DbOOGuXMTjOvEqkYiJ1uYojuIGVA2WM6bLZs1suJQs1YJPB1uy9oqVznkSZ0JrVBm7eN2nQBXFZY0tj9WeP4KofftLyh8rb1/y+fQEOzYGhKsw2cKIihiCSYZvQ0Gk+3TwDQ23ODMqdIjRZhYjdMPcw+v05GeNuiutBf/oa8iP1de3fkEGgvrQtLJlnUtnDd1L+4RJbcqF2BuLbaAVa1wDjULD6M97R5vXGM7Ybld9qVqvaOHnNld5pFvz+8QBSgerDNRClc2/0Z8X/EeGK3A0g55vTFNA9BiJ1Ob8IuC6r2HPZfANFQ==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYFbTESHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+aLMH/0gl2YJl5rgbC46Texizf9JwCarhGOXieVZtSDrP7wJcb0Dnkin/Fs+PnNmTsC8W1Y1HW0hUBT5v7MAq06aYjlmh84B9nGbXOR2VvveBwiJFj8fwtVRzsyHSJFgnw1W6bd70EvtU7po5JNjDoE7Jd46OKe+dq0R6BC5/C0EAIwrDQupSnOVBz00zKHXWQLYT8N1CrVTttKxfABDPNrOdkdLTzVSaIAl4MjKszE7aWw3IqwMeclzh6kLLpmK6gtAp6v+sIix0TcKd98OqTBVs/VhPd4K2a0aFHVzi+HcMT/p4tUeGcRdC8gAyt3hvF+r+TQ5Jys0/iMip2o6s2pkS5GA=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,10 +38,10 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1710821068
+1711630881
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Mueller <philm@manjaro.org>
 
 %REPLACES%
 lib32-opencl-mesa<=23.1.4-1
@@ -60,6 +60,7 @@ lib32-libelf
 lib32-lm_sensors
 lib32-spirv-llvm-translator
 lib32-zstd
+libclc
 opencl-rusticl-mesa
 
 %OPTDEPENDS%

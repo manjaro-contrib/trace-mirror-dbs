@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-vulkan-swrast-1:24.0.3-2-x86_64.pkg.tar.zst
+lib32-vulkan-virtio-1:24.0.4-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-vulkan-swrast
+lib32-vulkan-virtio
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:24.0.3-2
+1:24.0.4-1
 
 %DESC%
-Open-source Vulkan driver for CPUs (Software Rasterizer) - 32-bit
+Venus Vulkan mesa driver for Virtual Machines (32-bit)
 
 %CSIZE%
-2014417
+391500
 
 %ISIZE%
-8726460
+1182896
 
 %MD5SUM%
-fe2871ea06817a3a662371d7d20dfca6
+fbb4af4648a40d81fb7755a0fbb56a71
 
 %SHA256SUM%
-3baeb0c9fd7ef51f51459fa2c2ffe2ae2c13892f3740660528b05c4a94cadfdc
+82160126986a8f6fd4291542d704cd0eecf26f926f3cb8e0d44b73d6494e905b
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmX5EREACgkQFQwgB0PtRti9cQgA5xzwu3mdW3UhL2d0Wj93kJkDg+ZVNVh9dAiuqsX+W82VxRxCeOj86MHVaBnXksm4pWFvBUYgHNOvgCXZ050jFsMIeKKFl57DQ+Om7Jb+7f0K3ip6UgHG/ZjYHMry2X7v0P8bv5/xclfoX7FUPzIPyz4ti3C961DnhhzwCJ+N9NImNoxqBqls8Fi4wBfyeKpEe+YcMeQcIJbAO++VQYaG1Jj7kuc+bahQaDZzLiwF2bpSCzu+pgrNLORbJBEqh7WiPXQekU0AqsjGsQkYAWicBBS9u9AqEkZAAM2mSuMsbxDyBV00uVJ3bT4+3axYFu4afn973cpvxm95nqfVOt3FNg==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYFbTESHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+EhsH/iSRUhB9GCNfKNFD8+c8Udd8vIHG+JdpN2rk42Em4K6EIqKGrAfEuDyRXFmna3Mcwd+jNrbuo0dTnzkTEC7VIMk/ESRaMgExqsmgY4xkFSBDW0N8y1gkJbv//wE8TQ7hH0/YHFRgCf05dRk5tK2c1dO0jgVEyfBiykhwwwBgRa+ssgk+LhzJSe3b5mHBO7QzRvXcvintLnTbfkaxrM6ZWVjWmNxOR9ZPrbSGnQNkSmOI2z9aSMsSI+L2kL7qpQ16J91xWHy8zUy1z//OqGhcjNfE/q4offRB0egbCVJQVML279yDqxsjAM1MupdSbVZq7aJ4iAFVlnBBPZsAUnOLwqk=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,31 +38,22 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1710821068
+1711630881
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
-
-%REPLACES%
-lib32-vulkan-mesa
-
-%CONFLICTS%
-lib32-vulkan-mesa
+Philip Mueller <philm@manjaro.org>
 
 %PROVIDES%
 lib32-vulkan-driver
 
 %DEPENDS%
 lib32-libdrm
-lib32-libunwind
 lib32-libx11
 lib32-libxshmfence
-lib32-llvm-libs
 lib32-systemd
 lib32-wayland
 lib32-xcb-util-keysyms
 lib32-zstd
-vulkan-swrast
 
 %OPTDEPENDS%
 lib32-vulkan-mesa-layers: additional vulkan layers

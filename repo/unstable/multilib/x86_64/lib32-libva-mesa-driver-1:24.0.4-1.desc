@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-mesa-vdpau-1:24.0.3-2-x86_64.pkg.tar.zst
+lib32-libva-mesa-driver-1:24.0.4-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-mesa-vdpau
+lib32-libva-mesa-driver
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:24.0.3-2
+1:24.0.4-1
 
 %DESC%
-Open-source VDPAU drivers - 32-bit
+VA-API drivers (32-bit)
 
 %CSIZE%
-4107958
+3994769
 
 %ISIZE%
-15423782
+14976787
 
 %MD5SUM%
-7b609fd801e495799025e6a94dafd933
+39953ca528e88d3d1b00f1dd1a7ce78c
 
 %SHA256SUM%
-bdb289be5d442fbc0b28ee6617c297fe5fa556b301b708aac5aa9a3884d2dd7a
+b49aef2154fec930cfeb5f29bbc7344e062325adc3d3ef361a86f01ffa7a002c
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmX5ERAACgkQFQwgB0PtRthqmwgAlhsZ6KOrDSG2kBvlN+EJsv4QtADR7zM1SD1Hi87bLtVApmyW6yIR24njJGoTn4trN0rBmiBPQJMS2tyW/y/NjsMt/Lv0K0WOb43SpqTrJNeDMpNmSdpADFPqHhJYK3LwIQAJjs5Yjon0LZeUlg+K40AdBvbdo4U66xo0yTbu6rNDQ9yMXedc4da0EFYztFtP1wCXcZ7T7ZF27Uo5ihwt1X+0BW+zRv07oS5IjRahB4xmla8OVbY/dvnQ9LLh57XUUQP66JQyBLUjtBYiVh0urGU7rqbN/BAmP5F/SFQPwDcy69fEXJraKpo0twEkGDEUTSbNZuS5wX2HvtqnrSaZOA==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYFbTESHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+QJAH/RDrO31ZjCwZwZoDmQCt8U8SSruZ9myGfk5TYi1FuiyiYsr58b/Z5nBtB9uOKFkZrNjZXaNfDSKjoc7NgPXC1rJTmAACtRgSVJcT+HIT2AmTbQd3CSnY3ugv/R27Nzkld2qpBFfSElZ172zFmjAFXt+tmBQHQgFi/c2TzTQUQ34A3yHLjxg2xpqJaJ7n6nSWahQjjDsrJ4ogbjqZPQIBo3e0c5ze2CGprEkdEQI6cXz0V8q9gBVf0if1tFiHTMIVRZRDdH47XE0jWbQ8BplJOjsxvnHLGFPHTOAGx739LkhCDp7cHIzVv+oGwQQNnGEb24hlQNuDo5rtmK5EuscMqAI=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,13 +38,13 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1710821068
+1711630881
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Mueller <philm@manjaro.org>
 
 %PROVIDES%
-lib32-vdpau-driver
+lib32-libva-driver
 
 %DEPENDS%
 lib32-expat
@@ -54,7 +54,6 @@ lib32-libx11
 lib32-libxshmfence
 lib32-llvm-libs
 lib32-zstd
-mesa-vdpau
 
 %MAKEDEPENDS%
 lib32-clang

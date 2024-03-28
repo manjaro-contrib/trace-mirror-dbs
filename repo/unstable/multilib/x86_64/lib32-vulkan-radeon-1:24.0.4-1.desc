@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-vulkan-intel-1:24.0.3-2-x86_64.pkg.tar.zst
+lib32-vulkan-radeon-1:24.0.4-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-vulkan-intel
+lib32-vulkan-radeon
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:24.0.3-2
+1:24.0.4-1
 
 %DESC%
-Open-source Vulkan driver for Intel GPUs - 32-bit
+Radeon's Vulkan mesa driver (32-bit)
 
 %CSIZE%
-4498382
+2523208
 
 %ISIZE%
-31883348
+10570696
 
 %MD5SUM%
-4648e0d044764f0f4dd6d3a70acf5684
+9379c919fa951e4d7920872a32e85959
 
 %SHA256SUM%
-93671ffc4fe1fe8a050f34fac7420caf676804702db3b374fcc5ca2caa63ee6c
+950e8edd63752ad707fe54772ae3364b467af9c9d3bcdcc783ab19f6e812a63b
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmX5ERAACgkQFQwgB0PtRthIwAf9GRsd1WEppawu7elgpo66d/3LbDGaRqjsYYbNhs1FngBzsfdTNwp9XlFRoQPmR1Fl82MAkaujnjh+oiSSdIjC8mCkSF708G+WZX2NoCUP4fcuyth/5vACkRnq+NFgxTOa2CERgF6ajEQk2yIqPrmr8Pt7zWvyYdnHR60GyOkkEzyXU6mvvRbr9DKZ/l+swB2EkCA3gTixT7A90/os7FypuP7B9EDwVm2UO8rB0cBxtot2gqSOFBE7HK0MP4Hh1f7xpo2aUvNL/0R2frTH26Vw1iBPhaDj4MUyDWZ2QwbDG0j7xQ3opPqOniF1dYSv2r9uM1JT6YMp8Ro5rnjEoVYGaQ==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYFbTESHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+CRYH/R83yS/1wp3lgCMLj4tv4k65d5pb2tdV0p5lKWmtzUN7WEQyhIOXCEP6DIELqyQXJ/F8XACSBFMnEoTNXZG88rLyazQOGs3MeIvvJKWwFX1QEBEtrhKR2E7rqtRklMmMxm3ksLKhcwTMDHALlV8L4xZ0ruIqpe4oRu4Ne8FCnGpPcK3GjMB8/NqGU9efcSXQAGzt6CfPiezGwJET8Q5Oe5VP12skCRKZsNu7Fwl5hy0AgFMgIfmEIprpxljR+pMswiNkq0wkfuPDk/oNIn+QRBRqgm6KgIZi5uWeIxO+H3JV0WoBtLQkpOZgSz/zKvN8YvWPAaObdJ1XGttSDTTgqyM=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,23 +38,25 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1710821068
+1711630881
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Mueller <philm@manjaro.org>
 
 %PROVIDES%
 lib32-vulkan-driver
 
 %DEPENDS%
 lib32-libdrm
+lib32-libelf
 lib32-libx11
 lib32-libxshmfence
+lib32-llvm-libs
 lib32-systemd
 lib32-wayland
 lib32-xcb-util-keysyms
 lib32-zstd
-vulkan-intel
+vulkan-radeon
 
 %OPTDEPENDS%
 lib32-vulkan-mesa-layers: additional vulkan layers
