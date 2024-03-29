@@ -1,5 +1,5 @@
 %FILENAME%
-gnome-control-center-x11-scaling-45.3-2-x86_64.pkg.tar.zst
+gnome-control-center-x11-scaling-46.0.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 gnome-control-center-x11-scaling
@@ -8,25 +8,25 @@ gnome-control-center-x11-scaling
 gnome-control-center-x11-scaling
 
 %VERSION%
-45.3-2
+46.0.1-1
 
 %DESC%
 GNOME's main interface to configure various aspects of the desktop with X11 fractional scaling patch
 
 %CSIZE%
-6805403
+7043173
 
 %ISIZE%
-23101556
+23891092
 
 %MD5SUM%
-6dc98eb525bcf775fe73ca9049f35924
+ae009e9caff25cf360621870feb1005c
 
 %SHA256SUM%
-28d54cbf576e46da1652e94f0baaf9f718d2811a2c1272e25b625852ce4706c1
+e26d14872ff441101b7ba013bb86150438d4bba5f3bcefb46d1ba26e390968d7
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmX3LUUACgkQFQwgB0PtRtgdEwgAuFDexoV18CcWekzthun1CUEDh1ucs1PJn9F3eN9Vva77K0CPvEaTKICWn1i9rwR0XcFq+AnwGg/0LDGgCiHfKLMQIcln108Tkoe6OWOM7WgAY2jJARasvEO4y1qYujBVlD/mhnBwTCe1g1VXhtI8zz6vL/9poR4w9W7s39Oab6AuP43PQAjaoAqShLNEeb9+j+cRrDl6hv33DiCMvQNoqmLJkM9Yp2ZOzxm28nwIAQyqAG3TvgboLqEtco2Yl7/MxXLqy4BE3yvdeeFhe0PvvpU7FyexelpQZ+07DDMdPzP7BkozKTlhrI3E56DB3HIPaQB+TIyLx/giJIDX7xfKWA==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmYG2OoACgkQFQwgB0PtRtj/4wgAhifgMXjyqzDoyT7Zceip1gjGF/ujDhUrPi+T0orlYn9nojcUlrgd4u0/OXgquXyozlszloo7P96tU6va4Sv17h6iAnacm2HD8otNPFSmSasXceyMIRkVfjvAPRiFofsW8L2k4EDnlkWst+5Sar6+7UgJ/sv9aejkBxd4wItK56cCj0qZmuNmYhb6qY2mx1WtW+gNO9Ez8v9WM7L6zpI23IZKOkZ1ybcSdUqEIa7nRg7RvG4VzeSwDnx+GrJaviBGBp5VdMHZFu8gZvjfZ4kBj6+FDnoomMPA82vWrtvWp+n3P+YAqvEbvJpKpw9kEA3D6+ttJzJla1rgTEg/hDYYPw==
 
 %URL%
 https://gitlab.gnome.org/GNOME/gnome-control-center
@@ -38,7 +38,7 @@ GPL-2.0-or-later
 x86_64
 
 %BUILDDATE%
-1710697720
+1711724678
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
@@ -47,7 +47,7 @@ Mark Wagie <mark@manjaro.org>
 gnome-control-center
 
 %PROVIDES%
-gnome-control-center=45.3
+gnome-control-center=46.0.1
 
 %DEPENDS%
 accountsservice
@@ -58,7 +58,7 @@ cups-pk-helper
 dconf
 fontconfig
 gcc-libs
-gcr
+gcr-4
 gdk-pixbuf2
 glib2
 glibc
@@ -68,11 +68,12 @@ gnome-desktop-4
 gnome-online-accounts
 gnome-settings-daemon
 gnutls
+graphene
 gsettings-desktop-schemas
 gsound
-gtk3
 gtk4
 hicolor-icon-theme
+json-glib
 krb5
 libadwaita
 libcolord
@@ -89,6 +90,7 @@ libnma-gtk4
 libpulse
 libpwquality
 libsecret
+libsoup3
 libwacom
 libx11
 libxi
@@ -120,6 +122,7 @@ git
 meson
 modemmanager
 python
+python-packaging
 
 %CHECKDEPENDS%
 python-dbusmock
