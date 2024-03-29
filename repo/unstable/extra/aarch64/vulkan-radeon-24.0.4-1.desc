@@ -1,32 +1,32 @@
 %FILENAME%
-vulkan-virtio-24.0.3-1-aarch64.pkg.tar.zst
+vulkan-radeon-24.0.4-1-aarch64.pkg.tar.zst
 
 %NAME%
-vulkan-virtio
+vulkan-radeon
 
 %BASE%
 mesa
 
 %VERSION%
-24.0.3-1
+24.0.4-1
 
 %DESC%
-Venus Vulkan mesa driver for Virtual Machines
+Open-source Vulkan driver for AMD GPUs
 
 %CSIZE%
-489000
+2984175
 
 %ISIZE%
-1247146
+10242650
 
 %MD5SUM%
-3e45151461209b36dfd26dd846ce8be9
+85108d408fd6c6f40e05df469342fd95
 
 %SHA256SUM%
-e9c7feef6cd7d12284e5bddc650d19adc5d686c236b0c5c5ff2dd84dc46aab15
+3c5a1548b12b23445344147a679fd1da9463700b38f1a393399cc1b38acb0a71
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmX5hrEACgkQHzWBGKB6z1fnHwf+IFNr+SnBiN1ob/CRZ3/6vERqUwVdVIpaPtuQNfd2DLro6Iyg2vIgFGJNzuCRxVdlH04/RLIdAhuz1MNl+Ez3w+3m9cEjZJiUxfsuzokFjsPvozJlfaCYGUJaQNNkHear8wJ+aBFaOiM2d8+s/to11BR/p71CdkwlfrgChBsBNWWeODwHyux6Dg+mNbdwgLTVirKFya9jJdPXOaVRk1aN0OzBE4dPBWbkBawySbYdSt/8IntCobBmkbK/iUOaI2FDvRoJFm4vq/1vGjXvtiTaCDuYQphRIcb1lxne8Pvu3Ki0duHmXgv9JIrZVM0knL6kzeOVbDCtCkFp/EUjqTqCQA==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYHJXAACgkQHzWBGKB6z1fJXQf/ZVHU2oLoS8aSs0Z11oB/rzSOCPNixZNc0cpT4oM+cpMdBxBYs4AbKsRkXOAxwjc+m21BaOa7REYX6vKd83WxpWZQT95Aq1bYQHo+co5ZQSl5i+NcThoqXbEEtcWf4GXTsFwMB4qvv5dq8wnxmfEW8kpKYqgfIzLrpoGe4ynme8/jSxhMA8lgzjKDAj7pVdvhimw1Da1m7t4UVRkKouK0fD6zMkn+9N8rGlHYRZDxCV6vW4zM6EWxMFK/evE8r6Ot1i1Aft+4omMfuZ2R0ZAhm2wmTx728Bp2kJEUWLUIRzXKEsnIsEjL+TotMK4AZFSYYeB/6vT1SplPoQP1s+Qopw==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,7 +38,7 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 aarch64
 
 %BUILDDATE%
-1710581485
+1711726758
 
 %PACKAGER%
 Unknown Packager
@@ -48,8 +48,10 @@ vulkan-driver
 
 %DEPENDS%
 libdrm
+libelf
 libx11
 libxshmfence
+llvm-libs
 systemd
 wayland
 xcb-util-keysyms

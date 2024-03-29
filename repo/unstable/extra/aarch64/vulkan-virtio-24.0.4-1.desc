@@ -1,32 +1,32 @@
 %FILENAME%
-vulkan-freedreno-24.0.3-1-aarch64.pkg.tar.zst
+vulkan-virtio-24.0.4-1-aarch64.pkg.tar.zst
 
 %NAME%
-vulkan-freedreno
+vulkan-virtio
 
 %BASE%
 mesa
 
 %VERSION%
-24.0.3-1
+24.0.4-1
 
 %DESC%
-Freedreno Vulkan mesa driver
+Open-source Vulkan driver for Virtio-GPU (Venus)
 
 %CSIZE%
-1684470
+489205
 
 %ISIZE%
-7266981
+1247821
 
 %MD5SUM%
-5cf99c999d19e174496f4a1beb11a228
+6a2da1b424cbbd1f9ff60d429193dc21
 
 %SHA256SUM%
-51a25c34670acdffc93254c230177a7a05ae3138df8863448c8f0ba412dc2e41
+1c85bc778be8305e3921d7e6910c8910f7060e86457f5363820c42ff2c0abe1b
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmX5hroACgkQHzWBGKB6z1eHQQf/QEbH+FvlOvI3d/7Yy9SfqYM4oJMalWgUOqhwuEzvXWs4ISGK9+qWuTZ7dGVptk1j+TeXYgYPutHczCtrPYoTjv/FLENC5S++i2uqtMx348Z9H6FN62GXOGO/8B+zOlu4rC2ZMBLv9V95/KNcPP2NYlwoZQ1AnprkDlP8mKUfHY6POwnpzM77OYflOBOhrCpdWLBBQ1Bl1DJNRopx1w6+GBOV8zEnCX5pT9HSw/xM3fC0TpOKA3sOy1tJYFE8JX5pBMmSJPA3qWLNLTBeBq68kywemrWHrt1XfI6QelsQwOG7CgxREQcgHFYVycYkHQGkEU3kIhL9xt+t9dg3jNm+pQ==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYHJXAACgkQHzWBGKB6z1cgcgf9Gq1/M6mLlAJtztFujRjy7IyXNdjCrTtK92/pr/X17NlD7+Eff+F+BfJYAY77fDavQJGQoHutTpKwhgCYXbMgBND1I9dQIyTIf6SVoplG70etBCagEB522W1ljoXQMqauSHuEObyEbnYopuwhsyCikF+O6+RSNsla/ywYrhJ+yeWo1XrISa/cRAPGGXH62uyvpCtm4dZIILZToZMbX7PrzcBYi6wCAjIVjUWDEZER41P3BLfF6cDw1NFCRNo6exePCE+Ef+l8bOk28y5xqzEh+4a76+Nh78JPWaH8HqOuUAVX2dLB2m+XeIWpCOIlfmoKehb4oUoTS/6j2kp0PoqEmA==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,7 +38,7 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 aarch64
 
 %BUILDDATE%
-1710581485
+1711726758
 
 %PACKAGER%
 Unknown Packager
@@ -47,10 +47,13 @@ Unknown Packager
 vulkan-driver
 
 %DEPENDS%
-wayland
+libdrm
 libx11
 libxshmfence
-libdrm
+systemd
+wayland
+xcb-util-keysyms
+zstd
 
 %OPTDEPENDS%
 vulkan-mesa-layers: additional vulkan layers
