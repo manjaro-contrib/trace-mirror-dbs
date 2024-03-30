@@ -1,0 +1,91 @@
+%FILENAME%
+feeluown-4.1.2-1-any.pkg.tar.xz
+
+%NAME%
+feeluown
+
+%BASE%
+feeluown
+
+%VERSION%
+4.1.2-1
+
+%DESC%
+FeelUOwn Music Player
+
+%GROUPS%
+feeluown-full
+
+%CSIZE%
+961344
+
+%ISIZE%
+5012565
+
+%MD5SUM%
+fa7eb585d318c93fb04f215768b49814
+
+%SHA256SUM%
+2740e8173337e807e06904d43e5eb80958edb7217e47af244b0b8b189e1f5423
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmX/+ygACgkQdxk/FSvb5qZYMxAAinJ1ZhzvcgBBtJ0uIlyQIxZykNkQaFyC4/40Nan0I5oEYAqjolu1DPfiR0N8DkR/Z+FUYI5E7yWtgkisE60ONI/35+tt+9n5RDMLNHGYNXYCj6IIgZTwFJNIHJ+KRVlxF9JiQ3X6K+2Sf89OycTHd0AxnAwHOYjcC7fEvYLY7RGZVTrhrYjw7we0+JCXyZpRBJz8fBpJZwPMmZTySBfzDKUMLuRwI1Pg/YOrIRDCpxwvbMSX2smsyM5imlaAhFqsRZKXBqe9OemaLChHBPmK80nM6oO3g4iA8Psp4U2q7sE5QcEdyShNYsw0LNACAzw4FKpTJaYGXPhS0vU38edg2xqJcVpeMRW6x2KPiNjVCGyXsxnrNVHtNyS7sgbmhP8tCg95/3w3+5JSv2cGKhM2aBglpzOheP+eKThuUmlyB41lAQFIE2XxxOpKopbSDD7sY5YPOscrti7pve9zS4nNAl30ZaAfIlXa4rJjWXFUZ+FB6BdYezgZ9W7eW/4812fdKISrkzuqNBgsRebzIBpmJ/d2JR9LQHgyXxvDv+BWh+yKBGc8IMb8dryQg3zyh7uO3S6EwqfYRtSomZbvk+2St8QPBKdzfxm9Om1JB1z4IOay057zkArK/OVDk6VbLLKxpWiPR06IX55CmFmVtq3LV1if/aMhCTRRWMAldXLi+50=
+
+%URL%
+https://github.com/feeluown/FeelUOwn
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1711274725
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%REPLACES%
+feeluown-local
+
+%CONFLICTS%
+feeluown-local
+
+%PROVIDES%
+feeluown-local
+
+%DEPENDS%
+python-qasync
+python-pyqt5
+mpv
+python-opengl
+python-janus
+python-requests
+python-tomlkit
+python-packaging
+python-pydantic
+python-mutagen
+qt5-svg
+xdg-user-dirs
+
+%OPTDEPENDS%
+python-secretstorage: browser cookie extraction support
+python-pycryptodome: browser cookie extraction support
+dbus-python: mpris2 server support
+python-sanic: webserver support
+python-json-rpc: webserver support
+python-websockets: webserver support
+feeluown-netease
+feeluown-qqmusic
+feeluown-ytmusic
+feeluown-bilibili
+
+%MAKEDEPENDS%
+python-setuptools
+
+%CHECKDEPENDS%
+python-pytest-benchmark
+python-pytest-cov
+python-pycryptodome
+
