@@ -1,0 +1,89 @@
+%FILENAME%
+pacman-6.1.0-1-aarch64.pkg.tar.zst
+
+%NAME%
+pacman
+
+%BASE%
+pacman
+
+%VERSION%
+6.1.0-1
+
+%DESC%
+A library-based package manager with dependency support
+
+%CSIZE%
+1259084
+
+%ISIZE%
+5222922
+
+%MD5SUM%
+4e9ddac668516054bc23065be1646571
+
+%SHA256SUM%
+1f4718b0cf574ee174dfa68efc5148af022f3be2f11e850a78e9c1d9cc965aa5
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmYIQ0kACgkQFQwgB0PtRthW1Af/Tj+0sicFLlXUrRaePF/Td4lpHtBNfov8/PUMaRJn59gwwq5XoXCfvfZkT2/vrOl1ZdLXnXxD1FjLMfdLrSPX0E7lNuhIOVL6MbxfQHhlzrncOgd1Ick50cnE6twbyi2P4jU+CRjIMfMdhuGmmZHonG+IyvaSibTPYSx8ERZCRhvEvftOtmU3nBZvmqzpIXM2UQZViUgKEDJKYvGq3u5EtWKMe8PnJEaA+K7I7k0BaeUABpfvGc4j+EkUuz5dZeu+OcScW8boLLhFeohK5t5DKBVJ8+WvtO8OhlS/QAGYvgULD/UJlpHBBLSF3d9atmeMFYmp1J/hLVHZuVvaq+oywQ==
+
+%URL%
+http://www.archlinux.org/pacman/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1711817433
+
+%PACKAGER%
+Manjaro Build Server <build@manjaro.org>
+
+%REPLACES%
+pacman-contrib
+
+%CONFLICTS%
+pacman-contrib
+
+%PROVIDES%
+pacman-contrib
+libalpm.so=14-64
+
+%DEPENDS%
+bash
+glibc
+libarchive
+curl
+perl
+gpgme
+pacman-mirrorlist
+archlinuxarm-keyring
+manjaro-keyring
+manjaro-arm-keyring
+gettext
+gawk
+coreutils
+gnupg
+grep
+
+%OPTDEPENDS%
+perl-locale-gettext: translation support in makepkg-template
+diffutils: for pacdiff
+findutils: for pacdiff --find
+mlocate: for pacdiff --locate
+sudo: privilege elevation for several scripts
+vim: default merge program for pacdiff
+
+%MAKEDEPENDS%
+meson
+asciidoc
+doxygen
+
+%CHECKDEPENDS%
+python
+fakechroot
+
