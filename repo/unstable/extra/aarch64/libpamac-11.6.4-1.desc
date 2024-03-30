@@ -1,5 +1,5 @@
 %FILENAME%
-libpamac-11.6.3-1-aarch64.pkg.tar.zst
+libpamac-11.6.4-1-aarch64.pkg.tar.zst
 
 %NAME%
 libpamac
@@ -8,37 +8,37 @@ libpamac
 libpamac
 
 %VERSION%
-11.6.3-1
+11.6.4-1
 
 %DESC%
 Library for Pamac package manager based on libalpm
 
 %CSIZE%
-884717
+692801
 
 %ISIZE%
-4052753
+4069145
 
 %MD5SUM%
-5f6d62fdde77aeaea78e9946c8f1a4e1
+51b1ce10af7907ff65602731216ccb1e
 
 %SHA256SUM%
-652bce1e5496182c566fe17bb190bede0a94b1b3ae5cbc281c6067f81d15ca53
+6d544c4681b5c464c3024631fa49bb0e57a24c25863ba38023e2c03b0d60aa4e
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmVvcl0SHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+E9UH/RYvU6utIOwLSSUsV8aibdwbOXmWE9uVHRComSe5melYK4mWLwY6GhvcNTY69BstRdjrX6qC/XDRgp/p93ksddTI84Jq5pbcDk3C8hEdMtKfUoMn5m9DIrt/Mw+dkmJk8GS1NB8v4imZ27UpRKAlv8zFA3WJ88HOvEA5twFMQwZie1dtZYu4ePgz8dAW1oH610bjvjBXmfzrMGIZGomlfMvRWfBFnpVujQcKpPCZZLExiH1JWfuoDfRKBbod6WIz8/O4WG8HI87fZlcC48k0QnkrTz4LaE0sjdrp2Lfa5sBhJ3d1wVtSBNpegLI6rwoL8W7LKmlo4kfXEIlmFuTV3jU=
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmYIRs4ACgkQFQwgB0PtRtiGjAf5Aaxf+sFVHVPhLXQHRgn9iW7F0DiR3bClwzqwQ42mFUIN9+dG9HutFg3Di5o8wzwOwCBQBYMrOr1uEVHDHrBPteILMz4mvjusRw51FFdK7cAVryfn1zQTNCmgnFbpaI7+Th6mfzcRIk5lmjDmXt6VZ0zPZOo50I40t3UdsSvaUNTMe56oZolqIGdnKhXKdVbZmOMQaYiFln+lanjbavoRF6BB+iTA8HspjBYu/DN54mGamP14FcrTez0xB5nvYoIWdi9PRb4cJ/tFh87IBYU9Dznrn8oL1fXEWpAR8m60te+QVNizeeiGLO0yUjAav6Wy7nvQcaVzsKt6kmj62xhh3A==
 
 %URL%
 https://gitlab.manjaro.org/applications/libpamac
 
 %LICENSE%
-GPL3
+GPL-3.0-or-later
 
 %ARCH%
 aarch64
 
 %BUILDDATE%
-1701538409
+1711817857
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
@@ -63,13 +63,14 @@ dbus-glib
 git
 glib2
 json-glib
-libalpm.so=13-64
+libalpm.so=14
 libsoup3
 pacman-mirrors
 polkit
 appstream
 
 %MAKEDEPENDS%
+appstream
 asciidoc
 flatpak
 gobject-introspection
@@ -77,5 +78,4 @@ meson
 snapd
 snapd-glib
 vala
-appstream
 
