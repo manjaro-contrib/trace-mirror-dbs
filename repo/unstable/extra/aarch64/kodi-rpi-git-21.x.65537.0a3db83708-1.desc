@@ -1,35 +1,35 @@
 %FILENAME%
-kodi-rpi-20.5-3-aarch64.pkg.tar.zst
+kodi-rpi-git-21.x.65537.0a3db83708-1-aarch64.pkg.tar.zst
 
 %NAME%
-kodi-rpi
+kodi-rpi-git
 
 %BASE%
-kodi-rpi
+kodi-rpi-git
 
 %VERSION%
-20.5-3
+21.x.65537.0a3db83708-1
 
 %DESC%
-Media player and entertainment hub with hw accel for RPi 3 and above, gbm_nexus fork
+Media player and entertainment hub with hw accel for RPi 3 and above, gbm_omega fork
 
 %CSIZE%
-44577248
+40502490
 
 %ISIZE%
-88676737
+83784428
 
 %MD5SUM%
-50008e27744285a1c4044bba31b2ba0b
+7cd0599f3159a2575c9fa591cfd48a98
 
 %SHA256SUM%
-2e7d6d3aa0e59f243e8c33e7ac5043c15a126ba34ef86ded6eec99522f4c4c55
+d4b85da9c678a1d1f0237caae82046f8d6ecdcfc0437079fb2f55e94ba37812a
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmXrBmYACgkQHzWBGKB6z1dk6wf/dsJ4oA0d/gjMNOrJTYScjPNTEk3j2ckHVcMH0zjcvGdSj+Aaf5JLcULVJs98S+PesEuzSfeJ8fz6YBnpaRrcJEU26lfG4DNfbnmU9TzBSyzjpCGzyPCZvEeQZtwXmvOORTpEy60+nA666RJlRCMPK/tmdswDUmLIE0WoU6eefzOX9INFJsqIhQoovFlK7QwNkq1ery+eRI3OqFyU8G3DThiT1utRLkkiAxWl0WUvmH86LwPjdlNgwLYM6pE3dNjrbbF9JwyD33/ThHyEjbHWWYhcTQrP4StKhq6YoFsOrnkouM7UZb0qMic1YVhcwbt9f1iwiFUqTnSbW5GDHjRPJg==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYJxo8ACgkQHzWBGKB6z1dsEgf/fqWWja0W4BQ6Vfk0sbQs+LIVEgWx9BjgpRRf05BhHSMV19yRXMoNLs1VCIvoD9bVLHC6O8c8ruqLT/elL+u9ldkyqM4ZFt0mz9mYhz4JEBxFCjc3+Znk7FNLAG7qHJG6pheRiZQzScXAtimyuo/Ebm3/iTYJuPm8q/Fc3nXYogYizBLq91y+OeKnU8fEBj7rlxLyxWqzevO1MuGO+dLOPpqCK30qdDp+OQK61YfmPFZ/3O3RrV9xepQd+kVVy+fzTOePKwcQp3V1STBs6iqk80a5UQhv/c0OsxJXE38DJYle8JOgJv6gZvLFx1z/ZFKmNNo7XI2h6mNWt4f0kMJZxA==
 
 %URL%
-https://github.com/graysky2/xbmc/tree/gs-gbm_nexus
+https://github.com/graysky2/xbmc/tree/gs-gbm_omega
 
 %LICENSE%
 GPL2
@@ -38,20 +38,20 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1709894305
+1711914377
 
 %PACKAGER%
-Manjaro Build Server <build@manjaro.org>
+Unknown Packager
 
 %CONFLICTS%
 kodi
 kodi-gles
-kodi-rpi-git
+kodi-rpi
 kodi-rpi-legacy
 
 %PROVIDES%
-kodi=20.5
-kodi-common=20.5
+kodi=21.x.65537.0a3db83708
+kodi-common=21.x.65537.0a3db83708
 
 %DEPENDS%
 bluez-libs
@@ -64,7 +64,7 @@ lcms2
 libass
 libbluray
 libcdio
-libcec-rpi
+libcec
 libmicrohttpd
 libnfs
 libplist
@@ -90,12 +90,14 @@ linux>=5.4.35
 lzo
 libinput
 pcre
+libdisplay-info
+tinyxml2
 
 %OPTDEPENDS%
 afpfs-ng: Apple shares support
 bluez: Blutooth support
-linux-rpi4: HW accelerated decoding RPi 3/4
-linux-rpi5: HW accelerated decoding RPi 5
+linux-rpi4: Pi4/Pi3 HW accelerated decoding
+linux-rpi5: Pi5 HW accelerated decoding
 python-pybluez: Bluetooth support
 pulseaudio: PulseAudio support
 pipewire: PipeWire support
@@ -116,7 +118,7 @@ libaacs
 libass
 libbluray
 libcdio
-libcec-rpi
+libcec
 libgl
 mariadb-libs
 libmicrohttpd
@@ -153,5 +155,7 @@ graphviz
 libinput
 libxkbcommon
 pcre
+libdisplay-info
+tinyxml2
 java-environment<21
 
