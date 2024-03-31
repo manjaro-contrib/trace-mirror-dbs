@@ -1,32 +1,32 @@
 %FILENAME%
-mutter-46.0-1.0-x86_64.pkg.tar.zst
+mutter-x11-scaling-46.0-2-x86_64.pkg.tar.zst
 
 %NAME%
-mutter
+mutter-x11-scaling
 
 %BASE%
-mutter
+mutter-x11-scaling
 
 %VERSION%
-46.0-1.0
+46.0-2
 
 %DESC%
-Window manager and compositor for GNOME
+Window manager and compositor for GNOME with X11 fractional scaling patch
 
 %CSIZE%
-2822006
+2801759
 
 %ISIZE%
-14941612
+14780608
 
 %MD5SUM%
-bdef96efb03f77f5ecbf5dc87cbe1c75
+7522216013ebb2dbc10570fa3eb7f1e6
 
 %SHA256SUM%
-9666195ff2e0b9d810d3a7a43cf398d714705ce7572dff82a24270961a6aaf2d
+9bf6e7861653b4d874c4f361a77cb359c84010820f65edbb41f6ae219cd076e5
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmX/cycACgkQFQwgB0PtRthUqgf9FVTq5rA2sz2ly18nVuH5CIlhmeQ77R6UVFf0Mtke3rbY/L2NzsOBzD1vbA6WHw6KWamzRxImvX7Joh7nKd85JgUbvZ9DlrPF5sAybGPcrg0QzWpv6kIB7XrbrXvQ6wZfXPkdiP5dpPYc6sPGDpIKVi4hWBFrDKLROu/p3KhsMN4YtVSmkg9yBGziHVFs7XwycoI5NWc1j8spAGE9nUl5U7OcPvFA1RVG0h5uXHjYLw1pjehOHv8SgoulO6cAYZMv7eTB3rAfsmB/qWfuFmcb4h3cD0LAXplpAxb9KYGnoIQF3ZzOYNhbn+EU6WlBRM/yyF3ismdY/BwBK+f8Xn9TAw==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmYJlqMACgkQFQwgB0PtRtjHiAf+OLBh6TAzFx+3tcH3aSQOOaJ8QVBBP7DFBprp3WG2gTBiQ4ILjvSPqHwPBp3G9fgB10JVjQIqqLHYAJQHT269kriCNrou1zPjgA8e+RlejchmjJSe2yTK9n2xJz/HP6fv6/kZAO7SSlNsME8qIbJkoKhBYUzkAMxO9exkfCpFC2EFj10olVzfYXLTIJ4auFSKqYIp96f24Bkp/1ajaqaKYIQkoBOPwSenufLxAoXx9nqWMrInSJ3xHquQBlVFulnBI+n028YxZm2RjsqkDTFnQykLt5iWVw/yQO2/C+OxKd2vo/oGnSsXLp983gVpM7YA1M6tFjDBpwN5fxJla4ANrQ==
 
 %URL%
 https://gitlab.gnome.org/GNOME/mutter
@@ -38,12 +38,16 @@ GPL-2.0-or-later
 x86_64
 
 %BUILDDATE%
-1711239624
+1711904303
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
 
+%CONFLICTS%
+mutter
+
 %PROVIDES%
+mutter=46.0
 libmutter-14.so=0-64
 
 %DEPENDS%
