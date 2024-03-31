@@ -1,5 +1,5 @@
 %FILENAME%
-gnome-online-accounts-3.50.0-2-x86_64.pkg.tar.zst
+gnome-online-accounts-3.50.0-3-x86_64.pkg.tar.zst
 
 %NAME%
 gnome-online-accounts
@@ -8,25 +8,25 @@ gnome-online-accounts
 gnome-online-accounts
 
 %VERSION%
-3.50.0-2
+3.50.0-3
 
 %DESC%
 Single sign-on framework for GNOME
 
 %CSIZE%
-368675
+368562
 
 %ISIZE%
 1665328
 
 %MD5SUM%
-d681298820635616366c55a7d4b2fb41
+086da8a4266e8ef4c36b0c8247d86fb7
 
 %SHA256SUM%
-83999d995d08dc694e218235392a9fccee3529d127ae507dad69b731ab08a86c
+10315adf67f43e19d7bf817a1285414e4a741084666c2140f54a915bbacd321e
 
 %PGPSIG%
-iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZfcUdQAKCRC4rAhgDxCM385fAP9fhOVnOCW2q0Zi1fBz807FYjP9HTzLFephHfEysCv38gEAm0vSEJsHGAQ+LO3jYKpb9UrU7orkmDJecXzPTxrn+Q0=
+iHUEABYKAB0WIQRebUlEiVizhDAfHyJJjvJH80DB4AUCZgm8OgAKCRBJjvJH80DB4ApHAQD3hXfHl9TZwDJmCenR0Sc2msISp5ZgPOK+YnQKW8xf0AD/W6qFa4RJJ/6cIsw3dKYa4NizfsaYFWkVo+66xUJ1egM=
 
 %URL%
 https://wiki.gnome.org/Projects/GnomeOnlineAccounts
@@ -38,10 +38,10 @@ LGPL-2.0-or-later
 x86_64
 
 %BUILDDATE%
-1710691335
+1711913859
 
 %PACKAGER%
-Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+Fabian Bornschein <fabiscafe@archlinux.org>
 
 %PROVIDES%
 libgoa-backend-1.0.so=2-64
@@ -62,7 +62,7 @@ librest
 libsecret
 libsoup3
 libxml2
-libgoa=3.50.0-2
+libgoa=3.50.0-3
 
 %OPTDEPENDS%
 epiphany: (or another modern browser): OAuth authentication
@@ -74,5 +74,6 @@ gvfs-onedrive: Microsoft OneDrive
 git
 gobject-introspection
 meson
+python-packaging
 vala
 
