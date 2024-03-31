@@ -1,5 +1,5 @@
 %FILENAME%
-gnome-control-center-mobile-45.3-1-aarch64.pkg.tar.zst
+gnome-control-center-mobile-46.0.1-1-aarch64.pkg.tar.zst
 
 %NAME%
 gnome-control-center-mobile
@@ -8,25 +8,25 @@ gnome-control-center-mobile
 gnome-control-center-mobile
 
 %VERSION%
-45.3-1
+46.0.1-1
 
 %DESC%
 GNOME's main interface to configure various aspects of the desktop - with mobile patches
 
 %CSIZE%
-8572867
+7023802
 
 %ISIZE%
-23347812
+24198836
 
 %MD5SUM%
-120930d973c4fd9028b2babc4e44189d
+ebc2062d6aee6526f36402e591e23bfe
 
 %SHA256SUM%
-6e79a9f2f5f2e2cc58f8f29bc3e124603e20dd07dfdbb11be763608cd91b0b75
+bf86c5fc6658c428576818185f1e44820441289b491d08b227f3b0970e91682c
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmX52ZsACgkQFQwgB0PtRtgciQgAt7EIu8/V/6kZfMz2HNHUFugdRz+xHIrrH2xsxyhZ9YmPsrpOugojOk5VsKSlOZ0nhuP0vo7KXvomzQmTtZkku5j9KcCnHZujnzevnwxesjscAJV3n2jh+CR6SI0SQH2EGdqJyZj1+Yi1a9kbyZcGCEpRd/+9VfSZZjVTgo7x14o+opuzaeFYQiPXEXoJ+jQsLwzF4qNmIXDad/MRv/DA1MnsnGPVxKpjUFQU+00/Frw66/naOUwzXF4WHg2H2hz8H5NNPcthqNZ/aCgD8Q3igAd4ZhcbCNAmqRxRlO4y7ThnrhrTWTRms2PgzYZ6qSG3jHOdwy7r8wqtmOqifrGlkw==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmYJqKoACgkQFQwgB0PtRtg5wggAkbuzLgUVk9o77E/tFG659P9Yk63augDoDVGotsogvW79c/plfMAFmVdIazqLJR1EG4IY4gqeEJGS7SGRmyOUxDPl8wUqiOPi8yrhj6g8iqQpfs9epPLihEosstXmgMuNuWiM1N6saqHWDxPrfu9zugHG5h03poJpV7Q2ugI8YlaRu0fVYSnVabutzrr8H/jCGn0smllhw29846FhrVGgViQYvofj1tiQ9hOogWO1JH30NLqxab/iyji1oQWdS+2cUEQavrFbyqu83jlhJpSgZgTwCdQQd8RGBcJBRv6snJG8XkeYS3UPwpZwhdzG7H/Ijl6o7KXrGjal2ktEZ2uREA==
 
 %URL%
 https://gitlab.gnome.org/GNOME/gnome-control-center.git
@@ -38,16 +38,16 @@ GPL-2.0-or-later
 aarch64
 
 %BUILDDATE%
-1710871856
+1711906169
 
 %PACKAGER%
-Manjaro Build Server <build@manjaro.org>
+MNJRO ARM Runner <info@manjaro.org>
 
 %CONFLICTS%
 gnome-control-center
 
 %PROVIDES%
-gnome-control-center=45.3
+gnome-control-center=46.0.1
 
 %DEPENDS%
 accountsservice
@@ -58,7 +58,7 @@ cups-pk-helper
 dconf
 fontconfig
 gcc-libs
-gcr
+gcr-4
 gdk-pixbuf2
 glib2
 glibc
@@ -68,11 +68,12 @@ gnome-desktop-4
 gnome-online-accounts
 gnome-settings-daemon
 gnutls
+graphene
 gsettings-desktop-schemas
 gsound
-gtk3
 gtk4
 hicolor-icon-theme
+json-glib
 krb5
 libadwaita
 libcolord
@@ -89,6 +90,7 @@ libnma-gtk4
 libpulse
 libpwquality
 libsecret
+libsoup3
 libwacom
 libx11
 libxi
@@ -119,6 +121,7 @@ git
 meson
 modemmanager
 python
+python-packaging
 
 %CHECKDEPENDS%
 python-dbusmock
