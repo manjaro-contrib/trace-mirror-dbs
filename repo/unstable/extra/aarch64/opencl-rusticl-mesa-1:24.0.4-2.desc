@@ -1,5 +1,5 @@
 %FILENAME%
-opencl-rusticl-mesa-24.0.4-1-aarch64.pkg.tar.zst
+opencl-rusticl-mesa-1:24.0.4-2-aarch64.pkg.tar.zst
 
 %NAME%
 opencl-rusticl-mesa
@@ -8,25 +8,25 @@ opencl-rusticl-mesa
 mesa
 
 %VERSION%
-24.0.4-1
+1:24.0.4-2
 
 %DESC%
 Open-source OpenCL drivers - RustICL variant
 
 %CSIZE%
-6887556
+5603246
 
 %ISIZE%
-19490856
+19605544
 
 %MD5SUM%
-33ab87712a8db8d223a1c4d39ce2b925
+3242973552a931ffca79028b48ca4b64
 
 %SHA256SUM%
-cc2cfd90b137c5b74ae395d2331ecfff5cf7a11938531f8d81782e850a7affc3
+8221ea6c10df5cf6be447c7b6ab4680c0c8f9adcec11d9513e9f3428f08db97c
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYHJXAACgkQHzWBGKB6z1f+HwgAj5wPaIA+nSF4ujGPWrmi0QlPktPsiR7tyLRm/bje7pSNHameTbSFGQZPtwIMKqyvckAphasXD78OTXq+GkJRR/ZPwlqOZCDF+OrYyImPzVatfRqvh5KYddGXyZg2eWfe3MQFT1adkylIEdFPkWGIF7nPMV65FaTxnBJv5STcxieh+ivEpP4QWhVdlhhxVv9e7jyMyECdVxadjdG+bHeaVXa4DxuRIExD44Rnirki56McI30gFmTR58vM+MVY9lnhWLSg2dIc0wJTFN7g4EbZGdC6zIREVguPMOxf0FmBDcSsua7gOGmVMYpJlCvy/Y7qdTdi8FEyZQ41bupKJ5dt7g==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYL0AIACgkQHzWBGKB6z1dJhggApIjcHd94BcROk4fW+ffJmNzwQziH5AbN8LLacihpOCA843OEg7Jqy+cgUmJd5BAVWYW4GIw6O/G3bFaXBAMTOu2lVQLmSNbsF8lJagrznkASbjZp2DedcvoBGPk+hXlE3Xi/ziiw4qnpP4uaA+dbpIi58WraZYhP9ddQBBjNa+s7S6f3xkzSBC6O9BwaXhYcxVA/9WsWR2+iaqzC8aG8TFEkC4Luv6IKrAQqP9HWsf8Qny8NElIvzTkISuCZrowuqF0U9UJlj5VXGyQagQx9OiGTU0uUOMXOT1Iq1HBXIQhv73zkZzQAP+NVnvHRmOphYxnveyb4GEo+6YdzVK0ysg==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,10 +38,10 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 aarch64
 
 %BUILDDATE%
-1711726758
+1712048158
 
 %PACKAGER%
-Unknown Packager
+Manjaro Build Server <build@manjaro.org>
 
 %REPLACES%
 opencl-mesa<=23.1.4-1
@@ -55,10 +55,14 @@ opencl-driver
 %DEPENDS%
 clang
 expat
+gcc-libs
+glibc
 libdrm
 libelf
-lm_sensors
+llvm-libs
 spirv-llvm-translator
+spirv-tools
+zlib
 zstd
 libclc
 
@@ -68,27 +72,32 @@ opencl-headers: headers necessary for OpenCL development
 %MAKEDEPENDS%
 clang
 expat
+gcc-libs
+glibc
 libdrm
 libelf
 libglvnd
-libunwind
 libva
 libvdpau
 libx11
-libxdamage
+libxcb
+libxext
+libxfixes
 libxml2
 libxrandr
 libxshmfence
 libxxf86vm
 llvm
+llvm-libs
 lm_sensors
 rust
 spirv-llvm-translator
 spirv-tools
-systemd
+systemd-libs
 vulkan-icd-loader
 wayland
 xcb-util-keysyms
+zlib
 zstd
 clang
 cmake

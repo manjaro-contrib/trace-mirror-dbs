@@ -1,5 +1,5 @@
 %FILENAME%
-mesa-24.0.4-1-aarch64.pkg.tar.zst
+mesa-1:24.0.4-2-aarch64.pkg.tar.zst
 
 %NAME%
 mesa
@@ -8,25 +8,25 @@ mesa
 mesa
 
 %VERSION%
-24.0.4-1
+1:24.0.4-2
 
 %DESC%
 Open-source OpenGL drivers
 
 %CSIZE%
-27389067
+13930622
 
 %ISIZE%
-77047100
+78034078
 
 %MD5SUM%
-e9352abacd856c6cb01ff4d09de0b03e
+38497a25aa311dbc8277fd7ee798881b
 
 %SHA256SUM%
-ae35be7c0ff69abe4e8b05d101ff593d84ed55e56af3b8cf8da1993c737c3e8f
+ffbdf227e006d135513ede62e77ae085085a5bc3fe3a737e17ed040055482c2b
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYHJWgACgkQHzWBGKB6z1dacAf/dlEiB+xxAnbkApha7oun7Tu0S0fnbMf66bkol0GGuCnH0GRVEZ/hmlrhyXyW7bCJIHQcN7QdBtLQnKh0ijlZEf3xL2pUXYzu8myHRlopcQA9qeLwOigqzStgtuQQi2b+fSf4dwiWu5CE9JYa8O1q/yRPG5MrgVspfjlj75eg4NNlJg5H0k+2xTstr0oYU4Lrk2VpXM0zDvtC3m2XrUyCG4WttnsJtbFEvBCxMzoDktrlxggpHtDg9csruBHIMHydC2wD/+mxA6z1qlL+nXbhJtkhEyJpIP7O5ZI4IHe9nAy3D6cAuvYcFtgfYIlj7d9Jhw/Et95XF2XRtPntaEcGEQ==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYL0AIACgkQHzWBGKB6z1cHnAgAlrrLOAZEMOlYE1/JbwA7xWXrsXRoHe1eY62+cAKjLxcQFKsoXZvAHFLo5QHEYC0Aox3Q+LZGUFuaPlSm3Ark1xIzAQT8BLH8iOS3UBCHa3arMc/cbEb9GS8tA4BgEf0AXCIJMJO3BD2N/Hfhbq8RYLe+340KNhbWQCIFVjDQJUMikh1whBP0DPDWBQW5DlS7BEDksSXvs+/SoED1uebbKWqF8PJMqvMlNkbABnXV/bfa8cBGVRuH/b/Mrxy6+mGODDYTqzn2QGhKpEzeUeJHBmXjMSD59ZyEM6Wn1aay47Osm2MMDGtnjseItmWB9dodQ0e1zj9NkbOOFYYNCa6hNg==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,10 +38,10 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 aarch64
 
 %BUILDDATE%
-1711726758
+1712048158
 
 %PACKAGER%
-Unknown Packager
+Manjaro Build Server <build@manjaro.org>
 
 %REPLACES%
 mesa-libgl
@@ -54,17 +54,22 @@ mesa-libgl
 opengl-driver
 
 %DEPENDS%
+expat
+gcc-libs
+glibc
 libdrm
 libelf
 libglvnd
-libunwind
-libxdamage
+libx11
+libxcb
+libxext
+libxfixes
 libxshmfence
 libxxf86vm
 llvm-libs
 lm_sensors
-vulkan-icd-loader
 wayland
+zlib
 zstd
 libomxil-bellagio
 
@@ -74,27 +79,32 @@ opengl-man-pages: for the OpenGL API man pages
 %MAKEDEPENDS%
 clang
 expat
+gcc-libs
+glibc
 libdrm
 libelf
 libglvnd
-libunwind
 libva
 libvdpau
 libx11
-libxdamage
+libxcb
+libxext
+libxfixes
 libxml2
 libxrandr
 libxshmfence
 libxxf86vm
 llvm
+llvm-libs
 lm_sensors
 rust
 spirv-llvm-translator
 spirv-tools
-systemd
+systemd-libs
 vulkan-icd-loader
 wayland
 xcb-util-keysyms
+zlib
 zstd
 clang
 cmake

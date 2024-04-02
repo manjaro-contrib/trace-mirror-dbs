@@ -1,5 +1,5 @@
 %FILENAME%
-vulkan-radeon-24.0.4-1-aarch64.pkg.tar.zst
+vulkan-radeon-1:24.0.4-2-aarch64.pkg.tar.zst
 
 %NAME%
 vulkan-radeon
@@ -8,25 +8,25 @@ vulkan-radeon
 mesa
 
 %VERSION%
-24.0.4-1
+1:24.0.4-2
 
 %DESC%
 Open-source Vulkan driver for AMD GPUs
 
 %CSIZE%
-2984175
+2426412
 
 %ISIZE%
-10242650
+10271322
 
 %MD5SUM%
-85108d408fd6c6f40e05df469342fd95
+3cfe8c02626d8f64a5f67f7b2841e5fc
 
 %SHA256SUM%
-3c5a1548b12b23445344147a679fd1da9463700b38f1a393399cc1b38acb0a71
+fcce1fcb402edc9512a474bfbb5610bd9a8484caecc241742dbc43bb1d156a9d
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYHJXAACgkQHzWBGKB6z1fJXQf/ZVHU2oLoS8aSs0Z11oB/rzSOCPNixZNc0cpT4oM+cpMdBxBYs4AbKsRkXOAxwjc+m21BaOa7REYX6vKd83WxpWZQT95Aq1bYQHo+co5ZQSl5i+NcThoqXbEEtcWf4GXTsFwMB4qvv5dq8wnxmfEW8kpKYqgfIzLrpoGe4ynme8/jSxhMA8lgzjKDAj7pVdvhimw1Da1m7t4UVRkKouK0fD6zMkn+9N8rGlHYRZDxCV6vW4zM6EWxMFK/evE8r6Ot1i1Aft+4omMfuZ2R0ZAhm2wmTx728Bp2kJEUWLUIRzXKEsnIsEjL+TotMK4AZFSYYeB/6vT1SplPoQP1s+Qopw==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYL0AIACgkQHzWBGKB6z1f7nQf9FHSiij++B+w9WpnkF629jTHgpZi7gyUuVoRD8A3fg4Cny+APFK6az4BmoBpLQkwD3ozZzlaHKfwFmGi1/haXMoh1o8skfI4X7Idt/8u+zcd5JNrvHOUZ/BXiELI66YURC2wg5WxlCnsoZhzJ/IaZcykRbjude8rzHY0wnl78DN80y7YIxaPrhnYTpyRDoM049g/aODG85oJaknucpswr3YWqHHH2aTU3PEGRvvPz0YxWUtiPhkTf9Oc+HrIP5axUmP0s1RIBisg1L6TeAa49H5CcKaEhYsxUM8tycYyTV9YuGRIe7pKewUNqoUafYhP4mfxJyEvtMXLkoQTp41/g8w==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,23 +38,29 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 aarch64
 
 %BUILDDATE%
-1711726758
+1712048158
 
 %PACKAGER%
-Unknown Packager
+Manjaro Build Server <build@manjaro.org>
 
 %PROVIDES%
 vulkan-driver
 
 %DEPENDS%
+expat
+gcc-libs
+glibc
 libdrm
 libelf
 libx11
+libxcb
 libxshmfence
 llvm-libs
-systemd
+systemd-libs
+vulkan-icd-loader
 wayland
 xcb-util-keysyms
+zlib
 zstd
 
 %OPTDEPENDS%
@@ -63,27 +69,32 @@ vulkan-mesa-layers: additional vulkan layers
 %MAKEDEPENDS%
 clang
 expat
+gcc-libs
+glibc
 libdrm
 libelf
 libglvnd
-libunwind
 libva
 libvdpau
 libx11
-libxdamage
+libxcb
+libxext
+libxfixes
 libxml2
 libxrandr
 libxshmfence
 libxxf86vm
 llvm
+llvm-libs
 lm_sensors
 rust
 spirv-llvm-translator
 spirv-tools
-systemd
+systemd-libs
 vulkan-icd-loader
 wayland
 xcb-util-keysyms
+zlib
 zstd
 clang
 cmake

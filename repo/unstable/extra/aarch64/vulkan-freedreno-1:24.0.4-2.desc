@@ -1,5 +1,5 @@
 %FILENAME%
-vulkan-freedreno-24.0.4-1-aarch64.pkg.tar.zst
+vulkan-freedreno-1:24.0.4-2-aarch64.pkg.tar.zst
 
 %NAME%
 vulkan-freedreno
@@ -8,25 +8,25 @@ vulkan-freedreno
 mesa
 
 %VERSION%
-24.0.4-1
+1:24.0.4-2
 
 %DESC%
 Freedreno Vulkan mesa driver
 
 %CSIZE%
-1685788
+1378888
 
 %ISIZE%
-7271752
+7365960
 
 %MD5SUM%
-1a8ff62e4e25417dcd2b6c636986423b
+a7c38549a08e4e1fa944b26d4f40c14d
 
 %SHA256SUM%
-9a2d23c19d446e4bc54e72c921ff2c2a3f40a586c0b9bcdabbf165ddeb1d0fcb
+b87501794100f235f0aa8bf5e9617afd8f0eed429b470dbb4e3093852c3af48b
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYHJXAACgkQHzWBGKB6z1f2xAgAmkxVmj7j8TPhLd6ulfoNtw2uaqUyXtuJGhLlbG1q2sqr2yB4FF8pc0RxTSsCKvWbWMuZgHLKNvNRCw4eJlMkQ5DHE7zd2JSHSse8SgrXO56BJqfi6Ew/1I167Xk7634cspv6dfgOYxHm7cKJjCJKtx90W1riAczq1seeH5b3ORIBS0W24FXwD+BzmoUlcegRkYp5/Nmmm2WLWI4XGylWVGo1ymVqywEesfegVc8ZSurjFMplrP/vy7YrFYqg8blddH1EDDvsdlf6HGLRULhVNGLPfyZSPjoXbTKoCkKAFFeh2HhVQwYiT4FWBlpP8mNWX0ryUvRlWn+eVoPSzdpALQ==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYL0AEACgkQHzWBGKB6z1fEvAgAg3S2l2jtRh7AUA774Ghw8+wHH2KPNj4N6unhdAOlv5wfrHvirHUyOkAIs363J5G4T5Loe+ZffUfR8W0qQsq9o5J+b7HyieSSCBoKKXagwChl7mzUF/wIKn/pxJMWDJvZw7eePMTWYulfRBuUIfLhyNzAP3CSppm6mLnjozuOqY70Yk5wY6BiyiUDmHUo+fXB+7iNY7Rh+n6GvI/2UXVJMjOO2IUUVQNcqkR7vjkcYxP8Q7r2CwYGlkFgjZyEu62GtbBmrU7OrCpIBi3yyEpFV2CfWVxZ3JJ7cMazb+CQsHkwEDXDcrOHeAJOlKTwVixqAUWuo9uWQDp5bcAbBU+Rog==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,10 +38,10 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 aarch64
 
 %BUILDDATE%
-1711726758
+1712048158
 
 %PACKAGER%
-Unknown Packager
+Manjaro Build Server <build@manjaro.org>
 
 %PROVIDES%
 vulkan-driver
@@ -58,27 +58,32 @@ vulkan-mesa-layers: additional vulkan layers
 %MAKEDEPENDS%
 clang
 expat
+gcc-libs
+glibc
 libdrm
 libelf
 libglvnd
-libunwind
 libva
 libvdpau
 libx11
-libxdamage
+libxcb
+libxext
+libxfixes
 libxml2
 libxrandr
 libxshmfence
 libxxf86vm
 llvm
+llvm-libs
 lm_sensors
 rust
 spirv-llvm-translator
 spirv-tools
-systemd
+systemd-libs
 vulkan-icd-loader
 wayland
 xcb-util-keysyms
+zlib
 zstd
 clang
 cmake

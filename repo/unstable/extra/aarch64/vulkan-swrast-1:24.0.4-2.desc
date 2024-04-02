@@ -1,5 +1,5 @@
 %FILENAME%
-vulkan-swrast-24.0.4-1-aarch64.pkg.tar.zst
+vulkan-swrast-1:24.0.4-2-aarch64.pkg.tar.zst
 
 %NAME%
 vulkan-swrast
@@ -8,25 +8,25 @@ vulkan-swrast
 mesa
 
 %VERSION%
-24.0.4-1
+1:24.0.4-2
 
 %DESC%
 Open-source Vulkan driver for CPUs (Software Rasterizer)
 
 %CSIZE%
-2233248
+1833527
 
 %ISIZE%
-8038162
+8181506
 
 %MD5SUM%
-c364f0b54889a11559cf2e04848794e3
+66ee60088c0fa0e820ac5842494b4f07
 
 %SHA256SUM%
-215ad403ba5de2131a654d40bfdc1dcdef29e4ffb7e680d8a72dd06becb284c2
+10cc26bf65ea623d22b2b6a9010f88a57e1ee60a89d9e875924690fda574117b
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYHJXAACgkQHzWBGKB6z1crLAgAyphr4N/VbFTnxdYuDpt8NbgccO66d5Nbir5nJoA/1EZsiigIHDClmPdmPIpqQ84W5PJuVwBAEMBtCiZHSCAZfVA4hgn7TUzHJ7Me9B+CSCUYk540IRMR8jN+Ag3sK4y1D+gjjkLMFXgIvwtS4TciAzUzz2VJHkRzcjeKWllQ/qzx70FM5nyGIdJJwIdtB2slkjAF3hNLSVxQw1wOhfBEzZRGad/wOiYUWro/3wFM6v0aIUYy9mbb78QEEsug2ULAdEQfLg+dSgY1jEqqzvYahcjntCMQr3a2nliTazLJrFh3JAld3mIvXdaUxKub7Yc5oe4DS6LR52vSu7xNfTV0mg==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYL0AIACgkQHzWBGKB6z1eW9ggAoTI1GLnpwilQqmAGRqtZTdlAMmk/9H3JrMPYbBHAVzfWf9TnqfjLqhpGZUsAOxC3j8qLUSqKTmAlX1+oY2H6HE64gpaOOeVvaYa/DoQLFkz0eop2Ta2GK6UA58L1ODPEcf27KyXCOahMJ0CLKp/ktzACes2I5Dvufpxcg6gPUijfhKv2YO99oba0JEMtcTevIr4aKGjv29wTZQde3+kN/TkltuPBcKcVAiFgmf/hhoZP6rKMt4TzkvGAa5qXaof/6EfrZb0SJLE5ekJh5x+v7xCfo+fNPgk0dGVg1lS0MG7gYPF/yY/WLO1dzM+iPnOmNF2YzxBqcYJ2WDmL7UWFWA==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,10 +38,10 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 aarch64
 
 %BUILDDATE%
-1711726758
+1712048158
 
 %PACKAGER%
-Unknown Packager
+Manjaro Build Server <build@manjaro.org>
 
 %REPLACES%
 vulkan-mesa
@@ -53,14 +53,19 @@ vulkan-mesa
 vulkan-driver
 
 %DEPENDS%
+expat
+gcc-libs
+glibc
 libdrm
-libunwind
 libx11
+libxcb
 libxshmfence
 llvm-libs
-systemd
+systemd-libs
+vulkan-icd-loader
 wayland
 xcb-util-keysyms
+zlib
 zstd
 
 %OPTDEPENDS%
@@ -69,27 +74,32 @@ vulkan-mesa-layers: additional vulkan layers
 %MAKEDEPENDS%
 clang
 expat
+gcc-libs
+glibc
 libdrm
 libelf
 libglvnd
-libunwind
 libva
 libvdpau
 libx11
-libxdamage
+libxcb
+libxext
+libxfixes
 libxml2
 libxrandr
 libxshmfence
 libxxf86vm
 llvm
+llvm-libs
 lm_sensors
 rust
 spirv-llvm-translator
 spirv-tools
-systemd
+systemd-libs
 vulkan-icd-loader
 wayland
 xcb-util-keysyms
+zlib
 zstd
 clang
 cmake

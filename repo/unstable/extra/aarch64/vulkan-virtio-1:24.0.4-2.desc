@@ -1,5 +1,5 @@
 %FILENAME%
-vulkan-virtio-24.0.4-1-aarch64.pkg.tar.zst
+vulkan-virtio-1:24.0.4-2-aarch64.pkg.tar.zst
 
 %NAME%
 vulkan-virtio
@@ -8,25 +8,25 @@ vulkan-virtio
 mesa
 
 %VERSION%
-24.0.4-1
+1:24.0.4-2
 
 %DESC%
 Open-source Vulkan driver for Virtio-GPU (Venus)
 
 %CSIZE%
-489205
+395342
 
 %ISIZE%
-1247821
+1260205
 
 %MD5SUM%
-6a2da1b424cbbd1f9ff60d429193dc21
+3bdc4ff7a5a71d9fa122340f3f24c40e
 
 %SHA256SUM%
-1c85bc778be8305e3921d7e6910c8910f7060e86457f5363820c42ff2c0abe1b
+c6a271306da1d9938489ecedab5b1e8089145352ccc2d0d809ae27dc855254c5
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYHJXAACgkQHzWBGKB6z1cgcgf9Gq1/M6mLlAJtztFujRjy7IyXNdjCrTtK92/pr/X17NlD7+Eff+F+BfJYAY77fDavQJGQoHutTpKwhgCYXbMgBND1I9dQIyTIf6SVoplG70etBCagEB522W1ljoXQMqauSHuEObyEbnYopuwhsyCikF+O6+RSNsla/ywYrhJ+yeWo1XrISa/cRAPGGXH62uyvpCtm4dZIILZToZMbX7PrzcBYi6wCAjIVjUWDEZER41P3BLfF6cDw1NFCRNo6exePCE+Ef+l8bOk28y5xqzEh+4a76+Nh78JPWaH8HqOuUAVX2dLB2m+XeIWpCOIlfmoKehb4oUoTS/6j2kp0PoqEmA==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYL0AEACgkQHzWBGKB6z1dPzAgAtURETY6WChO4bBCZO42LJjcU/5lAafAHF+ssxY14kHriwACIaExBbEkvp4qOLpkgXS5Guu2BzJON/Dl27kFjX3rO7EVBu4W034MpSKXLCAuIiKx8eOdi4Y49N7GzR7HmufTx2WSQvCz9Ol0W8jJJ4t+NUnuXiq+xmp/Jo1uI2db0o/SduO6xlI9QSbf50wBKnXFZAJrMxH1ANQ5yE+jmdeHDswaKODDjMZQxnO4RpCzksWBom/bFNjkM1pfuu2XfAYdIHkv4ruCtMzgcYdXvX5x05p3NkYPyIhXuWuNWRF2kMDg5xQyeX2mUyRCCjN9RtsA/4zNsTCNXL9x48kyVrw==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,21 +38,27 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 aarch64
 
 %BUILDDATE%
-1711726758
+1712048158
 
 %PACKAGER%
-Unknown Packager
+Manjaro Build Server <build@manjaro.org>
 
 %PROVIDES%
 vulkan-driver
 
 %DEPENDS%
+expat
+gcc-libs
+glibc
 libdrm
 libx11
+libxcb
 libxshmfence
-systemd
+systemd-libs
+vulkan-icd-loader
 wayland
 xcb-util-keysyms
+zlib
 zstd
 
 %OPTDEPENDS%
@@ -61,27 +67,32 @@ vulkan-mesa-layers: additional vulkan layers
 %MAKEDEPENDS%
 clang
 expat
+gcc-libs
+glibc
 libdrm
 libelf
 libglvnd
-libunwind
 libva
 libvdpau
 libx11
-libxdamage
+libxcb
+libxext
+libxfixes
 libxml2
 libxrandr
 libxshmfence
 libxxf86vm
 llvm
+llvm-libs
 lm_sensors
 rust
 spirv-llvm-translator
 spirv-tools
-systemd
+systemd-libs
 vulkan-icd-loader
 wayland
 xcb-util-keysyms
+zlib
 zstd
 clang
 cmake

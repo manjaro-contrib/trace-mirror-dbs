@@ -1,5 +1,5 @@
 %FILENAME%
-vulkan-mesa-layers-24.0.4-1-aarch64.pkg.tar.zst
+vulkan-mesa-layers-1:24.0.4-2-aarch64.pkg.tar.zst
 
 %NAME%
 vulkan-mesa-layers
@@ -8,25 +8,25 @@ vulkan-mesa-layers
 mesa
 
 %VERSION%
-24.0.4-1
+1:24.0.4-2
 
 %DESC%
 Mesa's Vulkan layers
 
 %CSIZE%
-324898
+260015
 
 %ISIZE%
-617119
+621215
 
 %MD5SUM%
-f0ba9d505e2eb998021428c9fe4637e2
+3166a7e1502917004eccb8e62b842172
 
 %SHA256SUM%
-bf080d70dac4ced0f56fce7a8d4d3a965d1c4bd73277c1de71f47fb36409bcd6
+f60e21bd6baade60e7ab81c45031fe2bd501b6bb60ddf6a2b555fc960c4bd6b2
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYHJXAACgkQHzWBGKB6z1fvEAf7BEx+McVsGLGA3JY0t8Y2rq+9+pl6m1uFCubrPOV9LFd5bhrGorIPv6jGzdqtYK3502JJaN06gvZgU/j4nBXOfcsha8LHFsM5i+u/8IlsWzp6otmnKfGLuMPmHwqNNEVomDCnv7heqA1kXeM/BX9me0j17Qw0DFGzmtL9Zu3xOtefywYkjNusWZY8awWEuSzpXgVXfGaAlBT81Z01OVmE1FCbSBGmTXsUACVXG3e10bxDe9kRDvTviyFe+p7pgppGQuSELckvicfi/3eVbNyMhNNQvX8ZhCMjQhGXebHPEI+P1YijAUddHYNdf+Osku6pGJq+IISGn3zoks/32cRejQ==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYL0AIACgkQHzWBGKB6z1cq1gf/dUzcThm7ThtX/qQpcG7o28+80EZl3H1h1aTEM+2YakeJ3FEn5tpiCBou2vnEQB3f5aOnnel5aGhJEqT5h73tdnyiuw+8w7lFYMKBq/TKolVrLXitVRejq9m4LM5nimkFpcaWYnnOWXdxJ63CIRrpqpDsCdQQ0IT+DU9UoR8s2xf9PpfEyLjNv1bpmHxWAYoB1LqHx9aRCZ4f5clej3I69CVP5bIajD6oXDh8Qc5O8Siz9C/95dZJ54EgjgVS/3xrn9GwE26ie2sgtMdnl9CTFuekL5eNWAQyX4zOqPK9Sm3NBtkZ6STAI/kPLGB0W4ADxvqktPcJLraqYYbQjw42mw==
 
 %URL%
 https://www.mesa3d.org/
@@ -38,10 +38,10 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 aarch64
 
 %BUILDDATE%
-1711726758
+1712048158
 
 %PACKAGER%
-Unknown Packager
+Manjaro Build Server <build@manjaro.org>
 
 %REPLACES%
 vulkan-mesa-layer
@@ -50,6 +50,8 @@ vulkan-mesa-layer
 vulkan-mesa-layer
 
 %DEPENDS%
+gcc-libs
+glibc
 libdrm
 libxcb
 wayland
@@ -58,27 +60,32 @@ python
 %MAKEDEPENDS%
 clang
 expat
+gcc-libs
+glibc
 libdrm
 libelf
 libglvnd
-libunwind
 libva
 libvdpau
 libx11
-libxdamage
+libxcb
+libxext
+libxfixes
 libxml2
 libxrandr
 libxshmfence
 libxxf86vm
 llvm
+llvm-libs
 lm_sensors
 rust
 spirv-llvm-translator
 spirv-tools
-systemd
+systemd-libs
 vulkan-icd-loader
 wayland
 xcb-util-keysyms
+zlib
 zstd
 clang
 cmake
