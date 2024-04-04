@@ -1,0 +1,82 @@
+%FILENAME%
+podman-5.0.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+podman
+
+%BASE%
+podman
+
+%VERSION%
+5.0.1-1
+
+%DESC%
+Tool and library for running OCI-based containers in pods
+
+%CSIZE%
+23638152
+
+%ISIZE%
+80603518
+
+%MD5SUM%
+911cb6e83568b163c07c15dade3f8e68
+
+%SHA256SUM%
+a8015b0b45642e7b8c4b2ea4e55ef3192e47db0b891c053dd99d96bd0baf25be
+
+%PGPSIG%
+iQJLBAABCgA1FiEEwQA0ZnZjToDJQPuenAL/QZ/svhYFAmYMaPkXHGZveGJvcm9uQGFyY2hsaW51eC5vcmcACgkQnAL/QZ/svhYEqA/+KNRIcCTHmKqr0n31fIuQbvht7Hlxnf5mHhCBvFBmTQd5wuNg4Po1AWmb2Se3zMMNj2Yfufy7+Y+BHnADBvC7biNeep2F4h7Tb7/u1aSfuvwah5l6g2p8ig5rU+P5k3FjiJKPKltflaRXFCLZNVuDbvUCKeQavxGfWUlQ00qwHxBpkC2+sjSDy2C5isH2LHwUT4J+JcC8g/kWb0g/kZtdi4c38hjIBpgT2IueaY8s7h6JBmbhiK+JbleHY9WPSSHM7gXOL8vi6Oyp+nar4IWPWM2xKF9STJnjNxMi3QrQKgqvIcOZ1GF8dvpbRiP7yBxs64J0xHe1trGUmgpsDKdwS5PYD7GUoffyHhfcv1Lqo2hDUi57i8I5MaRgxUlSCN2kBeG1fGIUh+zbviEzKy76z5p+9JpkthLniL0tu1rxLjoLTbw8Nvu/wTTAZfCl1sv4dNYNxoP8o3Q0D0esC1RKrR/evdr/hsFlrP8KZRM1eVWys2Le87xa53AZINzPw+eYW/fZWVPpKzWtsPHJMCt69BS0JHuLFJyH68aC0VMTiY19yeMKo1FIXC+T0PR0Nv5qNSi2C2alwr76WWD614OfsLoMlGJwhe5HCd3PZ/BDIF0PicMrUdtTBgfaKNODI+txApN/JRMig5VNpitsDowBfCoLKE8Y7eCvgsPoWB93sOY=
+
+%URL%
+https://github.com/containers/podman
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712088128
+
+%PACKAGER%
+Morten Linderud <foxboron@archlinux.org>
+
+%DEPENDS%
+catatonit
+conmon
+containers-common
+crun
+gcc-libs
+glibc
+iptables
+device-mapper
+libdevmapper.so=1.02-64
+gpgme
+libgpgme.so=11-64
+libseccomp
+libseccomp.so=2-64
+passt
+
+%OPTDEPENDS%
+apparmor: for AppArmor support
+btrfs-progs: support btrfs backend devices
+cni-plugins: for an alternative container-network-stack implementation
+fuse-overlayfs: for storage driver in rootless environment
+slirp4netns: for alternative rootless network support
+podman-compose: for docker-compose compatibility
+podman-docker: for Docker-compatible CLI
+
+%MAKEDEPENDS%
+apparmor
+btrfs-progs
+catatonit
+device-mapper
+git
+go
+go-md2man
+gpgme
+libseccomp
+systemd
+

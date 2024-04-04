@@ -1,0 +1,102 @@
+%FILENAME%
+qt5-base-5.15.13+kde+r142-1-x86_64.pkg.tar.zst
+
+%NAME%
+qt5-base
+
+%BASE%
+qt5-base
+
+%VERSION%
+5.15.13+kde+r142-1
+
+%DESC%
+A cross-platform application and UI framework
+
+%GROUPS%
+qt5
+
+%CSIZE%
+13580692
+
+%ISIZE%
+65749924
+
+%MD5SUM%
+9ede5eeee13c07e70a5f8938f53de4ec
+
+%SHA256SUM%
+d000bf0c96b6ea09c768440d1c54e4eba041b36c8dd392b90bfd9f0723638ca8
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmX+nlAACgkQek52CV2KUuSnVgf/RfQt6bQN6XsZHo2G9SydXD14OiShPpgi0wCpINKKeVLZutLRXkFVg+QQieLPS/8NqMjOMyJ1TiJGYU6BCzvTUDzIIiRzoT3htbs2s9pTAAdJUA4xhW7bTdVeX0dGolZtCKCwEANxf0gSJCEr5huc6a65yTvx0iHmO9lN+bWDVJazp7kJ2AWvo9YW4Qoxv7LHN+7K+Vs3faFjQQy31G7b4CCDVl9+h6bAVVJk6E0WskM8X3BfgqpX1pHtyNJr8kEqx2tUrhf3cmKOvRr26LqozYZdWZuvdXE9viR3zf05MeCPMxopE2E2IBswCcDuqMsv6pifG/tp5ZNYs0yEFQBoog==
+
+%URL%
+https://www.qt.io
+
+%LICENSE%
+GPL3
+LGPL3
+FDL
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1711149366
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%CONFLICTS%
+qtchooser
+
+%DEPENDS%
+libjpeg-turbo
+xcb-util-keysyms
+xcb-util-renderutil
+libgl
+fontconfig
+xdg-utils
+shared-mime-info
+xcb-util-wm
+libxrender
+libxi
+sqlite
+xcb-util-image
+mesa
+tslib
+libinput
+libxkbcommon-x11
+libproxy
+libcups
+double-conversion
+md4c
+qt5-translations
+
+%OPTDEPENDS%
+qt5-svg: to use SVG icon themes
+qt5-wayland: to run Qt applications in a Wayland session
+postgresql-libs: PostgreSQL driver
+mariadb-libs: MariaDB driver
+unixodbc: ODBC driver
+libfbclient: Firebird/iBase driver
+freetds: MS SQL driver
+gtk3: GTK platform plugin
+perl: for fixqt4headers and syncqt
+
+%MAKEDEPENDS%
+libfbclient
+mariadb-libs
+unixodbc
+postgresql-libs
+alsa-lib
+gst-plugins-base-libs
+gtk3
+libpulse
+cups
+freetds
+vulkan-headers
+git
+
