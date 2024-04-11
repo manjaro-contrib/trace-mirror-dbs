@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-mesa-1:24.0.4-2-x86_64.pkg.tar.zst
+lib32-vulkan-nouveau-1:24.0.5-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-mesa
+lib32-vulkan-nouveau
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:24.0.4-2
+1:24.0.5-1
 
 %DESC%
-Open-source OpenGL drivers - 32-bit
+Open-source Vulkan driver for Nvidia GPUs - 32-bit
 
 %CSIZE%
-16739406
+2435872
 
 %ISIZE%
-83924832
+11453352
 
 %MD5SUM%
-ab1e1e8ac834d4918270e885eaab1fa2
+4676e50b24da0a506a5108c80b96a278
 
 %SHA256SUM%
-4a15e049b56edcd92baa2c1dd1744bd9ce832c0b8632b99d6fc3ea3967eb4244
+809ebed80f2517cd10ddb2fcc2834e46228ef4fae78aeafbc77edb509d24b519
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYLlXYSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+RrcIAMeqOrX35//EbT+U9UMzkGl3uzQCJNBPidPGUF5hcyqjfllnsp8weGqrMVXGY/7Wj91bPv4+bLbRwugLCC0HP5HjbeGEiVfMiqb947HVjXJz1qoTpZhe2OuaqqKV1CliNBHYtu4RWrAiJuivB+E4nEwisf9imzBENgCw1eN2dh42FYpvnZVjgER8G80prNJzQXsFAPrz47oQxYRMSIQZYapCRZrzRkUP/m+LvGrdx3tTOF6E6+W+f780tnA8kqkZJ0L/3s3b+ZUoZybJCstyyt+iayMN4Q160VYZ2KKwrrCuLYYMnp6sEOm2snieZJF7DKtkejjwxWY1bZNEbWxGIjk=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYXcPwSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+f40IAMjAbnDVgYFHj1jrH2TLOpuKF90F2s2wm7QkETLu02ykD2IhMFMEBtVbd5qjf6pSWJtfsTmepA2BdDTBP7sOOEad2RlH+oBoLJ6OBK5wuZnP6SR/C/nEBBxnZ9jnf/PdQP+Owrrsvw//EXvMvokbkTij20vzGG3tfUKd2YglxU5pLSKiZ9XFVokHnaTuGUpuAMUUy6V1UNwAzsc1JP7RiQhFKJzuXikJptRol6LkzUlt42DmfYQGQNLZhQ37XoWI18V4Fz+Pp3ODNUoCh0SARiaoVSbI3tjRhBHj23XIgnGUPxn4hvtxnt97QDaAzheOUBmDwW1w0E9zZGLQWPVK9RA=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,43 +38,32 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1712032917
+1712809558
 
 %PACKAGER%
 Philip Mueller <philm@manjaro.org>
 
-%REPLACES%
-lib32-mesa-libgl
-
-%CONFLICTS%
-lib32-mesa-libgl
-
 %PROVIDES%
-lib32-mesa-libgl
-lib32-opengl-driver
+lib32-vulkan-driver
 
 %DEPENDS%
 lib32-expat
 lib32-gcc-libs
 lib32-glibc
 lib32-libdrm
-lib32-libelf
-lib32-libglvnd
 lib32-libx11
 lib32-libxcb
-lib32-libxext
-lib32-libxfixes
 lib32-libxshmfence
-lib32-libxxf86vm
-lib32-llvm-libs
-lib32-lm_sensors
+lib32-systemd
+lib32-vulkan-icd-loader
 lib32-wayland
+lib32-xcb-util-keysyms
 lib32-zlib
 lib32-zstd
-mesa
+vulkan-nouveau
 
 %OPTDEPENDS%
-opengl-man-pages: for the OpenGL API man pages
+lib32-vulkan-mesa-layers: additional vulkan layers
 
 %MAKEDEPENDS%
 lib32-clang

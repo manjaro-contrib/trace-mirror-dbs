@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-vulkan-nouveau-1:24.0.4-2-x86_64.pkg.tar.zst
+lib32-vulkan-radeon-1:24.0.5-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-vulkan-nouveau
+lib32-vulkan-radeon
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:24.0.4-2
+1:24.0.5-1
 
 %DESC%
-Open-source Vulkan driver for Nvidia GPUs - 32-bit
+Open-source Vulkan driver for AMD GPUs - 32-bit
 
 %CSIZE%
-2435842
+2523079
 
 %ISIZE%
-11453352
+10571371
 
 %MD5SUM%
-e3104acf86dbf0fa5cb121effce257ec
+8fb676c55332424961daa25c7f3ea645
 
 %SHA256SUM%
-d34d684d710f5b990bc32a6aa2d2265c2b624025e876f2e40c39d2f91e34df82
+931d486859d6771f9645a2a92844b0dca534b0494a25670a23d7110ba2348e49
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYLlXYSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+WcwIALj1ZrZlZYYHesRXKc0d/ajw362KRqcTWUZUgoOxWQ6EgJnpSVd6xpzgTD1Sm54+rswY7ZbWHu5jXIiXMzqhwSH/e/H6oia4Ll2jnJkZVChUEufJDd7cayts4/UdK8gHAvrp9Ll6xS4arCnqpG2BcoM/QWAC26OmHYTtMNzy0WQ+nknHTcrw4E6xXh+7LRYSyQyX5J5ZlLY+FxFBMSx1pB7Qe+dEUoLhLlpV9jJhtjNSBmgqsAiMkkbwwAyLfcAGS7/2Y91pfj2YsPSpZB25zTESwv0ItME02CBRTK8E2yMpasu4ZBmU6zIINRMNK1aqWMBsUuJbTZi/Yj2CP2hgU0o=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYXcP0SHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+9M4IAJOb5XBf1aefBO2b+YotHhSd+pUlFe8/sCprY7754KNuc84txj9M2t9wCZu9hetOi7kC+c2X+6MsjLnqaHmDwIirQgp+tzCb0XZMzyvkkl4b7K7Qjmqwf8JwzEgqh0jesRgDpLnNdsPVYKoQqq+1z6h83T0TGG2Dstii84RF7kuJgFbMUwxgKxIDCZRHZbUPTdkZ79xhWBvcIqZvgqB0KS9k1/xFiF/bGuyk45UF/ZOgu5n5OJ71WW+6XglF1dnLDF3YtOhg2spOk40tp6EaawmAaalrElw5KJ+HLgOjsNspY6nhl6QzvbGz7ARERzyNGy9QBDdOhRgd3R55V4IO0hE=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,7 +38,7 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1712032917
+1712809558
 
 %PACKAGER%
 Philip Mueller <philm@manjaro.org>
@@ -51,16 +51,18 @@ lib32-expat
 lib32-gcc-libs
 lib32-glibc
 lib32-libdrm
+lib32-libelf
 lib32-libx11
 lib32-libxcb
 lib32-libxshmfence
+lib32-llvm-libs
 lib32-systemd
 lib32-vulkan-icd-loader
 lib32-wayland
 lib32-xcb-util-keysyms
 lib32-zlib
 lib32-zstd
-vulkan-nouveau
+vulkan-radeon
 
 %OPTDEPENDS%
 lib32-vulkan-mesa-layers: additional vulkan layers

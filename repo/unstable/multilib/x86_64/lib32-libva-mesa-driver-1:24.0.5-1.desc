@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-opencl-clover-mesa-1:24.0.4-2-x86_64.pkg.tar.zst
+lib32-libva-mesa-driver-1:24.0.5-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-opencl-clover-mesa
+lib32-libva-mesa-driver
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:24.0.4-2
+1:24.0.5-1
 
 %DESC%
-Open-source OpenCL drivers - Clover variant - 32-bit
+Open-source VA-API drivers - 32-bit
 
 %CSIZE%
-9712919
+3994670
 
 %ISIZE%
-79869950
+14977462
 
 %MD5SUM%
-6993038f6450ae3617611993392a7286
+7d0fc90dbf07002997b9d30bcf091445
 
 %SHA256SUM%
-cadac49981de2de88359957faeb7ee0afb710841bef3eeb03353a9674bb92f34
+6ca1dc0c4086c5805ef15a57f39e6e0b7deb415abf44b8b7adc0f08afff4f925
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYLlXcSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+Kx0H/3diCAzxzc7PayYPmGM0g++zPOaUzs+gmnQpkHh/Skmk+kAfRX8zke+Raf5kzZrXk8WCubcUdxXo9bMLAgfjwydBNilTkUETS/TluIR/ppyY8hWsGTU3neQTJmjTSJIvAGRMizlxO7cTzgGTACdRkt3iLn+eT35gey9S35+9Y/lL42GBAUbIcRwFaXq7WVnzciIoRHey3BraRPqETEor8lbVKnyJKUYOVl9SwRIf383VTV6FaEOHJa6FDjdszQM2gZpMKzJ3iA79Y8iRWo5jG1zKaPZUcnJgW3YjaRxhT9ELR1604LiTkaTLt9hhhJ2pDj+9td+ZGrGud/xraleFQpY=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYXcP0SHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+OcwH/3RBqkqcg0jj5EHBQGoGmiOEeY2Y+hQVeVuCTCIUs9Y36wzK/K829fQYkIdXhzWXVHAo1CecHbwkJZBwnwXIprWRQ8yXw/P1YGT0zEzji1BrVDZ+UQAKwOrnCeEPHFCJCRHjjM5jZfyKUCU4RLo8hTMq8Q/t3PQmMiR9NCrb4hji4wOG5D0zRfXrQIzngH9gucLGJnXwymEnC7MxgpDGuazT+bHZIGu/5/M1WyJ87Zp+z6os2hFLe7Y1uNJwLjPVJpU9Lpfl1VDoK4Vo4aef8r/1g8tukOMN4pgaYKZ1l4fsvt4UqXaoDkHk2eOZp1Kc9BxOp8cCqy4YmJJEWxvZVcA=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,36 +38,27 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1712032917
+1712809558
 
 %PACKAGER%
 Philip Mueller <philm@manjaro.org>
 
-%REPLACES%
-lib32-opencl-mesa<=23.1.4-1
-
-%CONFLICTS%
-lib32-opencl-mesa
-
 %PROVIDES%
-lib32-opencl-driver
+lib32-libva-driver
 
 %DEPENDS%
-lib32-clang
 lib32-expat
 lib32-gcc-libs
 lib32-glibc
 lib32-libdrm
 lib32-libelf
+lib32-libx11
+lib32-libxcb
+lib32-libxshmfence
 lib32-llvm-libs
-lib32-spirv-llvm-translator
-lib32-spirv-tools
 lib32-zlib
 lib32-zstd
-opencl-clover-mesa
-
-%OPTDEPENDS%
-opencl-headers: headers necessary for OpenCL development
+libva-mesa-driver
 
 %MAKEDEPENDS%
 lib32-clang

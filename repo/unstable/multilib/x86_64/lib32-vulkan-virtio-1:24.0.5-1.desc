@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-libva-mesa-driver-1:24.0.4-2-x86_64.pkg.tar.zst
+lib32-vulkan-virtio-1:24.0.5-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-libva-mesa-driver
+lib32-vulkan-virtio
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:24.0.4-2
+1:24.0.5-1
 
 %DESC%
-Open-source VA-API drivers - 32-bit
+Open-source Vulkan driver for Virtio-GPU (Venus) - 32-bit
 
 %CSIZE%
-3994666
+391492
 
 %ISIZE%
-14977462
+1183571
 
 %MD5SUM%
-73f8cd0bb1b02c2a66e6949494469055
+a745b96108a26626246e2056c7761005
 
 %SHA256SUM%
-6f34b3639499fa5d849afd249e4dffdb40775bccae64ff791c570a6ba625c152
+001135f79276ce27d853aa8eeb6768be65d43c833604439bcb6c545a79f3d6e9
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYLlXMSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+E2oH/0GVi15m8EjwSrkixGugkfu3YvLIKqXcC8wCGmXmE93IDtR1I0htH9Wv2pEzD+v1WSjAkVJRkM5DWOFTzJGcst5Y0N+XSVDI/xOipHxVwEM4hFbi38gyMDHN4FlVBG2QMRNT+nRKJ6K4ESlPkc6lP1SORVKbyw1eA+xWTuHGYKNrj1EeJTyiuIg2Ltz5kF+ad3WdBKhCvyDEnpnK+Rf7CZdKbFTSbddcBLRXjZp4yqdkgU6mQX/oNA7CN+ERw51GDYnl0YzEOYz2KjMFgAei3eGi/KBvxEYf/wTPW+0S9DpfAvTkjab4LPVfCyMmMQ6iV5hROfp4jfgvABPmzStPNhw=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYXcPwSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+1twIALB9sWnlLPhUczzRs1Sc/NqWftYMlNp6pFT/0xMXIJfibLwd+eEoL3dB6ssJr6ImIECZy5RxRF5bk/i6JrRNnXMO6hMd1r6uS2zOfhtqSjI8E4z4yhhT+BOLG/orv1LNd9TRUL1DC7x/n1ebLjIjRoOPNe1kvRSBz4KgtaknqOVneP2+jfvPBUS1LcEyqJpYo1T5/IIcp6r4cVZBYcwT04QhJWTBZscXb4pjvkM7VItnKuwZIS+2MJ5/BQB1QtFpp3B0RN73+LHnruI9ptSfwIkJb2Lm01xSwJ9gioSGQEUUWNJQl/HBDbhQCIXFPk6Yu5tnGSQPKHqrG4PuPVvHyY4=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,27 +38,32 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1712032917
+1712809558
 
 %PACKAGER%
 Philip Mueller <philm@manjaro.org>
 
 %PROVIDES%
-lib32-libva-driver
+lib32-vulkan-driver
 
 %DEPENDS%
 lib32-expat
 lib32-gcc-libs
 lib32-glibc
 lib32-libdrm
-lib32-libelf
 lib32-libx11
 lib32-libxcb
 lib32-libxshmfence
-lib32-llvm-libs
+lib32-systemd
+lib32-vulkan-icd-loader
+lib32-wayland
+lib32-xcb-util-keysyms
 lib32-zlib
 lib32-zstd
-libva-mesa-driver
+vulkan-virtio
+
+%OPTDEPENDS%
+lib32-vulkan-mesa-layers: additional vulkan layers
 
 %MAKEDEPENDS%
 lib32-clang

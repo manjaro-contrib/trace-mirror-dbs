@@ -1,32 +1,32 @@
 %FILENAME%
-lib32-vulkan-intel-1:24.0.4-2-x86_64.pkg.tar.zst
+lib32-vulkan-swrast-1:24.0.5-1-x86_64.pkg.tar.zst
 
 %NAME%
-lib32-vulkan-intel
+lib32-vulkan-swrast
 
 %BASE%
 lib32-mesa
 
 %VERSION%
-1:24.0.4-2
+1:24.0.5-1
 
 %DESC%
-Open-source Vulkan driver for Intel GPUs - 32-bit
+Open-source Vulkan driver for CPUs (Software Rasterizer) - 32-bit
 
 %CSIZE%
-4383904
+1939795
 
 %ISIZE%
-30539948
+8439792
 
 %MD5SUM%
-501b7539b398103366b320a96b829ecf
+ba58e61048689c10338ae7fce7bf84df
 
 %SHA256SUM%
-26aecb28b799ae18c98c963422851b67ba5a0aac94ae72a4aff51f4497d17e04
+29e8a034feaef5bcd9fc52956c1871c6b0badfc4fd8a41efe2c9fa75e600372d
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYLlXYSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+l5MIAI/NWKBFt1TF79jZXhIk9o/6Uo3Y8Kb9NiFVlhJzemo4iY/pn/MkMRLxJ7X38vcahZ4s0pa7tl2ix+j+I6VVmJ3b6AxLLgXmaUzmCb5qu4UMDWqxJVRcQdfqwSH4zz6TiYOXlR6m/5cMFS14xB2rrv32yAwaErIYSzXhkspUVhgl/q8EDHnILi/+egzj94aK+bEAaHilGcKc+YLdUq6JVydA7fq3VmG5x6LunUFShByw6yJOr4NxJt1C+Pl6lXqVE5FKFj3HgIK3Pmq879EUOWY7or1Q9imasfOS9LSanjmixgRF/BctqNRbFX4sYITvFv2Tl14x5uMYnh/DkuEmM8o=
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYXcP0SHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+TVEIAJd5lCk5VL2N9qgGtogi324k2xmDHwF1cv8kSfVOb5a32lxnNbqsVn+aL7PqGYasbXTYKwd4pDAcpFW4mMA/fZM9zLw2NBsUE+822geIb4XTlM80Me2Txiruif4QKkHcNHikcuGRlRNHSv89qTPssDF0H7GIfO0U5cO5VBv/pAlz17wnzxNssDQqdNI3o9Y1pKvyRuhgL0W19wtkl75ZqHP9n6zJglJJktAOK9vcqNEkbN4rDVYqeIqVdBea5xQu4RhT5+Y+StYHRTAaL/0/eK6pmhYmLIn3I9uq8QZy59GSfioJD5ZWnONPsIODM26CKX1D9wOJ45Olc4DlPv24wvE=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,10 +38,16 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 x86_64
 
 %BUILDDATE%
-1712032917
+1712809558
 
 %PACKAGER%
 Philip Mueller <philm@manjaro.org>
+
+%REPLACES%
+lib32-vulkan-mesa
+
+%CONFLICTS%
+lib32-vulkan-mesa
 
 %PROVIDES%
 lib32-vulkan-driver
@@ -54,13 +60,14 @@ lib32-libdrm
 lib32-libx11
 lib32-libxcb
 lib32-libxshmfence
+lib32-llvm-libs
 lib32-systemd
 lib32-vulkan-icd-loader
 lib32-wayland
 lib32-xcb-util-keysyms
 lib32-zlib
 lib32-zstd
-vulkan-intel
+vulkan-swrast
 
 %OPTDEPENDS%
 lib32-vulkan-mesa-layers: additional vulkan layers
