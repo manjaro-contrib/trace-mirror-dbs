@@ -1,32 +1,32 @@
 %FILENAME%
-kodi-rpi-dev-21.0-1-aarch64.pkg.tar.zst
+kodi-rpi-tools-texturepacker-21.0-2-aarch64.pkg.tar.zst
 
 %NAME%
-kodi-rpi-dev
+kodi-rpi-tools-texturepacker
 
 %BASE%
 kodi-rpi
 
 %VERSION%
-21.0-1
+21.0-2
 
 %DESC%
-Kodi dev files
+Kodi Texturepacker Tool
 
 %CSIZE%
-346227
+32385
 
 %ISIZE%
-1966259
+68768
 
 %MD5SUM%
-03bbcacf4786a2c155b6449352b4bee1
+b8cb117502391bcc555b05e071be5efc
 
 %SHA256SUM%
-ac839fd5bd0e22c1609538c1f5235024b57a9591fa4509f5fc2f3fca7d951a33
+763a34b9408bb2bd7c39a13bc4621d4d32e1bac7b49d2cd54880428acf72506e
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYRyz0ACgkQHzWBGKB6z1cqXggAi9K9c2X46Ym+8DoLbvSTTdXgaZyVEQDumI9BshR74emE/UOPA4JXnDbDHMcEoeft8ZaINUKC2wA55BsxkMkDbPSNhqvez/QtrzFVCw8+dTnf/z+G3FmaJDD+/vG+pX5lGZv3EEyn3MEaneGVuPKizoGW8ENqk6/W9d+7zNVA4gEiKccGVkacoz7WjLpgiqc1QCZmMU6QCi1OCZqwp/H0QPR+cFumPw2J6YIbfZvYHPNwtQXbJ5xnGizjpMTWAVuXbyPlRZUdhPHCGjxZANDLPCcnTENCjZjKot5QQW5BJcJBOQJjDk2vx8toExUetmkc4mVYf1JnwQKNwHteHA5P5g==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYXzwcACgkQHzWBGKB6z1ftqgf8CgW7fila6On6eyQgKyRf6lzNd3tpNzp4g5L2MpZfqLLzb6r5Ee2Fp2ePetXL0vxVG2HjmPn0JFgy+GPDRZbi5UR+nmc4YSOrgRta1vQiX9B2nzUvx8b4UcYPlGDI/Tla1wEl2pvT1F+frLNLtHgriyKFvO5zUJ6w3es+p7yr+FzMIJIc6PAU1zHwiL1KDpy7g/9yQhYjlSMd64Et8FxoOZV0YKnrvmFhZGN2NODNBP7y0NPcOoC+1HYTPlTyge/yei9JegBFr0W/Ol7UfBk511PF/aJI1QAHzWIJmHtTSHqJ2cl0z2ElfEKRx0ERva2goXeZ3lFP5iEdEQ+2GEuRqg==
 
 %URL%
 https://github.com/graysky2/xbmc/tree/gs-gbm_omega
@@ -38,19 +38,19 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1712415991
+1712833334
 
 %PACKAGER%
-Unknown Packager
+Manjaro Build Server <build@manjaro.org>
 
 %CONFLICTS%
-kodi-rpi-legacy-dev
-
-%PROVIDES%
-kodi-dev=21.0
+kodi-rpi-legacy-tools-texturepacker
 
 %DEPENDS%
-kodi
+libpng
+giflib
+libjpeg-turbo
+lzo
 
 %MAKEDEPENDS%
 afpfs-ng
