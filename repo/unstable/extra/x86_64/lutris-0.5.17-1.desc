@@ -1,5 +1,5 @@
 %FILENAME%
-lutris-0.5.16-2-any.pkg.tar.zst
+lutris-0.5.17-1-any.pkg.tar.zst
 
 %NAME%
 lutris
@@ -8,25 +8,25 @@ lutris
 lutris
 
 %VERSION%
-0.5.16-2
+0.5.17-1
 
 %DESC%
 Open Gaming Platform
 
 %CSIZE%
-1792907
+1825113
 
 %ISIZE%
-9983420
+10183328
 
 %MD5SUM%
-1ee1d540355ea4848ad99cc7dc8b175a
+fb177036c92613058f81680b6566f1d7
 
 %SHA256SUM%
-7848ae4d1bd9035eaea41b31713bfc934a68204aca4442a80ec6c458ba704f77
+b80e61da625a022c1461b008d56809078b27cc0a715707f7836cae65fcc594ce
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmYQEiMACgkQFQwgB0PtRthFmwgAzjVReGdEB8Z8TlDhyGgPn/mYnZUbaHNu7LYYBDsU5mdgMRwcynTGMfxi0OQK/Wc7FRZJIMXGN3RkIsB8kUSNVXIXqrLaU5HF1DdA7eusAvKbz6Jh5RiQXgmAUC/Rj2BtRLFp+moOIVZ+60kCQAZ/JHdd92RymI8yTEiQ8MMms7saNz7JTuvl/rq9vsYBXepnL5T23Itrnugvt+uxP3For1SHNogGxmJEEsIio3+qSC+AbWveS1I5V/mn6+DzIYqOCvwrqZBzY9LYXh387imKvcw7a5qdpQQVx1FQUJ//bVVO6NaPf1HQAwu5xg40E72HPkZXps5Op6wiEr9Z6J7efw==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmYX83gACgkQFQwgB0PtRtgQQAf/dSJx1Wg0alJW9ayGmM3yOYPwgEhYt3kbWqvGhWym2UmIfl+WwVAvbm4Sc4URl5NnrWMvZGCGLr2kipac0wAqcCH1CE2cVmWwArsPI8FMG2Jz/yOtk5zHwPIGpWEA2eCsEoHbc1d8x0y3B0OsNhV9KCTI3deOzEyhcxhDFUvjRFQZGHOz9xImoSqAk6xCwOb65BFtmR3iV9wJqf2zpBL2CW68G/QIvYK6zY1Im3asQVur9Io1Gytes26GqI87STQgdhWBiIkqVeqij+nR3Qfe5P7ZuU/B2+MXqqXaEJnmr9jJvvWS2cJS0zbhnvzHGrkgTypEIEG/9ONOmG/WqAZYNw==
 
 %URL%
 https://lutris.net
@@ -38,7 +38,7 @@ GPL-3.0-or-later
 any
 
 %BUILDDATE%
-1712329032
+1712845315
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
@@ -65,11 +65,11 @@ python-requests
 python-yaml
 unzip
 webkit2gtk-4.1
-xdg-desktop-portal-impl
 xdg-utils
 xorg-xrandr
 
 %OPTDEPENDS%
+fluidsynth
 gamemode: Allows games to request a temporary set of optimisations
 gamescope: Draw the game window isolated from your desktop
 gvfs: GVFS backend
@@ -89,13 +89,13 @@ vulkan-icd-loader: Vulkan support
 vulkan-tools: Vulkan support
 wine: easiest way to get all the libraries missing from the Lutris runtime
 winetricks: use system winetricks
-xorg-xgamma: Restore gamma on game exit
+xdg-desktop-portal-impl
 
 %MAKEDEPENDS%
 meson
 
 %CHECKDEPENDS%
-appstream
+appstream-glib
 fluidsynth
 pciutils
 python-nose-cover3
