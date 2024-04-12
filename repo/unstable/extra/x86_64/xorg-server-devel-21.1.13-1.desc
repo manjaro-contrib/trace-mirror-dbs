@@ -1,35 +1,35 @@
 %FILENAME%
-xorg-server-xnest-21.1.12-1-x86_64.pkg.tar.zst
+xorg-server-devel-21.1.13-1-x86_64.pkg.tar.zst
 
 %NAME%
-xorg-server-xnest
+xorg-server-devel
 
 %BASE%
 xorg-server
 
 %VERSION%
-21.1.12-1
+21.1.13-1
 
 %DESC%
-A nested X server that runs as an X application
+Development files for the X.Org X server
 
 %GROUPS%
 xorg
 
 %CSIZE%
-612401
+205582
 
 %ISIZE%
-1418627
+1254223
 
 %MD5SUM%
-03d551ea1ee48e778666a4e066d69742
+5543389f943a3697d81b5e518b93361a
 
 %SHA256SUM%
-9960353797627a4c2874f958435772a87a0f7d5f5e2d4b7fb78bb1ce3cb4f482
+4f58fc90c16a615b136901487c7082750eadd9bab504e98ccb7b9c362b2fc498
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmYN3o0ACgkQFQwgB0PtRthVKAf/dcTFtC3Sh9U0c4kwH+5I11i9E89XVY/TpqEP99VJ+/BAvOu8p6aWHrbf96gmLW89x1z5+aUcHyZebzCjbq1Hi6OxeI0nXls/87JdLNUckpmgexFZid4FuaoVX1ObeU7tkEdnV8IJ1/q+FoXLCCpCPgyVHnP4sHpdl2Yf6L+yDq/rQWAuCHCL6iHlmZOYVXhGr77FmskHF3PcsQxrfLsTBebqzlMA3/6LogGymD/qwku38mlHOv8LerJOOHNCUtHJTwoqNyp3CclLfRrjInXKpiOLhLzHXDfKyCqIPRtHnsE9mLuBODo6esqT+3jL+dlfosxesp5oAsbcyInqEUkKAw==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmYZgOsACgkQFQwgB0PtRtixLAgAjIkX+eZQAM3jxc26BZMoavvrf9KT4P5s3hQEfIKezLZ8RfKNgx2okEkXHmewJKGHTVWOAAzc1ZSTqqZCvXsHzy77P4KSTlrxErNYdWqavI43Gibu+tfvb1+vE204RZq/jiGkrROVLCYcDP/zbRLNyleQES/QiaxUoLimwsDmO+2rTY6xsUNrvPxCIAs2/oISeP/+1wY443nVqDPo7yDEeyH8jy/tM6Cj7pIdpxJYf0D3vjsRLV3Hd2hRvAGpOgGhgcpFbrZxLy0vAoNrKiS9yOGRx9N/IQA+/4CJjR2meYwgBeQ9LJLO8zWxaMv/IPVx8xf64en1SNH9vBtO+ieJbA==
 
 %URL%
 https://xorg.freedesktop.org
@@ -55,24 +55,17 @@ X11-distribute-modifications-variant
 x86_64
 
 %BUILDDATE%
-1712184801
+1712947129
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
 
 %DEPENDS%
-libxfont2
-libunwind
-libxext
+xorgproto
+mesa
+libpciaccess
 pixman
-xorg-server-common
-nettle
-libtirpc
-systemd-libs
-libxdmcp
-glibc
-libx11
-libxau
+xorg-util-macros
 
 %MAKEDEPENDS%
 xorgproto

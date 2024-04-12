@@ -1,35 +1,35 @@
 %FILENAME%
-xorg-server-devel-21.1.12-1-x86_64.pkg.tar.zst
+xorg-server-common-21.1.13-1-x86_64.pkg.tar.zst
 
 %NAME%
-xorg-server-devel
+xorg-server-common
 
 %BASE%
 xorg-server
 
 %VERSION%
-21.1.12-1
+21.1.13-1
 
 %DESC%
-Development files for the X.Org X server
+Xorg server common files
 
 %GROUPS%
 xorg
 
 %CSIZE%
-205576
+28335
 
 %ISIZE%
-1254223
+130210
 
 %MD5SUM%
-a2d1a8f5a0ab746587b4d81f60175865
+ee63f6fcf09db238daeba4e457e430c0
 
 %SHA256SUM%
-9bf8e755b74d1aff589824033a95f09b57201f6a960a607f679057aa907f108c
+b46bea3121088e386a8363075b75297a13b1ba70f6174152673d00a3e74d5313
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmYN3o0ACgkQFQwgB0PtRtiMpgf+JsArg6VGUj+f+6AYA+ivlhboqaBTG4FqzFmfXqo4S/dXwIvwetas8FIxtZmfnBGGv1KjTSGQPN3LjL0WFP58azKwkfB6EZC5xpIyekDd3fknO/6Ipipc8RXT4NuitBhVBIAA93K2H0TB31npNIW7Kejlj7tcM6+WhwKRx/nV0lyalHnGhT/gIXp93mvz8IpTUmpyevK+aNQ3L1QOrMCKaDmEmjNT5aD/kC1GS5XVMkNNaGJu+rc6G6eyeMbPEQCZ1t+LepHsinCrcYUUraShYVO7/0vBmNBrTMbkQQfCb1VUnv6uvvJM95zYq+ltuHv5AFdQb85yJO5jmdlf5w5ceA==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmYZgOsACgkQFQwgB0PtRtgweQf/Y+qbQ3a/5Wt5+n0LlQwaYSrCkAijzwY/Ck0k3RSXF/k3QMsDyDBjgB4XjgnlmZoskBwr3r6rtTKsw1SwXYVVDfc7Qugm0OAV3SZkC5AqNaQrpjOXGEFG5u85J6O/MO4svqDZccCWNiiqSlyKPv2z4WRMd9hpWm7EjQ3xagHX5Z1GBLtCTXFcsbE42BcFrLDOSJzs+LCg0giwvavpcbPtrhnD5v0C7xdY3KPWEf98XpZLV5AfWGLXHVdLmlk4iAArPvI0R22X4Svfw7dz5vJYWcLJsV6Cz6vbk7Nvvs5k/CZ4Q7CAFOUoF58mys7kQ2XHUiUo5yTB5GnG/NUoShP/0w==
 
 %URL%
 https://xorg.freedesktop.org
@@ -55,17 +55,15 @@ X11-distribute-modifications-variant
 x86_64
 
 %BUILDDATE%
-1712184801
+1712947129
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
 
 %DEPENDS%
-xorgproto
-mesa
-libpciaccess
-pixman
-xorg-util-macros
+xkeyboard-config
+xorg-xkbcomp
+xorg-setxkbmap
 
 %MAKEDEPENDS%
 xorgproto
