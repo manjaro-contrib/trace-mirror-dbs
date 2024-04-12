@@ -1,32 +1,32 @@
 %FILENAME%
-vulkan-radeon-1:24.0.4-2-aarch64.pkg.tar.zst
+vulkan-nouveau-1:24.0.5-1-aarch64.pkg.tar.zst
 
 %NAME%
-vulkan-radeon
+vulkan-nouveau
 
 %BASE%
 mesa
 
 %VERSION%
-1:24.0.4-2
+1:24.0.5-1
 
 %DESC%
-Open-source Vulkan driver for AMD GPUs
+Open-source Vulkan driver for Nvidia GPUs
 
 %CSIZE%
-2426412
+2346592
 
 %ISIZE%
-10271322
+11038758
 
 %MD5SUM%
-3cfe8c02626d8f64a5f67f7b2841e5fc
+6625671e168447d789cc3c1018677de9
 
 %SHA256SUM%
-fcce1fcb402edc9512a474bfbb5610bd9a8484caecc241742dbc43bb1d156a9d
+cee642758bc5a6485a4a588eb3c41716d85577737713f941f6d2b07f98374664
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYL0AIACgkQHzWBGKB6z1f7nQf9FHSiij++B+w9WpnkF629jTHgpZi7gyUuVoRD8A3fg4Cny+APFK6az4BmoBpLQkwD3ozZzlaHKfwFmGi1/haXMoh1o8skfI4X7Idt/8u+zcd5JNrvHOUZ/BXiELI66YURC2wg5WxlCnsoZhzJ/IaZcykRbjude8rzHY0wnl78DN80y7YIxaPrhnYTpyRDoM049g/aODG85oJaknucpswr3YWqHHH2aTU3PEGRvvPz0YxWUtiPhkTf9Oc+HrIP5axUmP0s1RIBisg1L6TeAa49H5CcKaEhYsxUM8tycYyTV9YuGRIe7pKewUNqoUafYhP4mfxJyEvtMXLkoQTp41/g8w==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYY1jUSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+j3kIALj7b9JVf9kpZjNc+2yMrbA3WkpPNfdTIKLUluGV4Xv6wbFC9l846hY+0040fFw7/ePlOhQjpDwj4tp15TUfsKlnrkoBYYxTljmRj3+G+J/RbmbbebWca34eKoILmPS/lJmf8mz3kyiW5b4/EGETpJXE+84LZqHjkyR7fOuLsIARtlA2MNR36cdZhB1fghQFi0SRcGLDTbbjB9xGhw3gWs1ku8rwcwsZLnHYKzynIAMlSzl1UtkYIkLJqFz51vIiLKp9nh4zNZiE4lFDFVA0tP5PcZBJEFRvu7GVWy3SEwoGhcgfbjZ9M16YXsfgariIUDSLgOdWUYmAuil7naRj8lc=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,7 +38,7 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 aarch64
 
 %BUILDDATE%
-1712048158
+1712902555
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
@@ -51,11 +51,9 @@ expat
 gcc-libs
 glibc
 libdrm
-libelf
 libx11
 libxcb
 libxshmfence
-llvm-libs
 systemd-libs
 vulkan-icd-loader
 wayland

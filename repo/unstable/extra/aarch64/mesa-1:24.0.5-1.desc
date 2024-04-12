@@ -1,32 +1,32 @@
 %FILENAME%
-vulkan-swrast-1:24.0.4-2-aarch64.pkg.tar.zst
+mesa-1:24.0.5-1-aarch64.pkg.tar.zst
 
 %NAME%
-vulkan-swrast
+mesa
 
 %BASE%
 mesa
 
 %VERSION%
-1:24.0.4-2
+1:24.0.5-1
 
 %DESC%
-Open-source Vulkan driver for CPUs (Software Rasterizer)
+Open-source OpenGL drivers
 
 %CSIZE%
-1833527
+13950406
 
 %ISIZE%
-8181506
+78013940
 
 %MD5SUM%
-66ee60088c0fa0e820ac5842494b4f07
+a11ed49d2feee7a20e7e89b9103e7176
 
 %SHA256SUM%
-10cc26bf65ea623d22b2b6a9010f88a57e1ee60a89d9e875924690fda574117b
+b053166c4017f02d9bcfbcf6cf5cbc36e87ccf4c5a12f3d5845a307d70ccddfd
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYL0AIACgkQHzWBGKB6z1eW9ggAoTI1GLnpwilQqmAGRqtZTdlAMmk/9H3JrMPYbBHAVzfWf9TnqfjLqhpGZUsAOxC3j8qLUSqKTmAlX1+oY2H6HE64gpaOOeVvaYa/DoQLFkz0eop2Ta2GK6UA58L1ODPEcf27KyXCOahMJ0CLKp/ktzACes2I5Dvufpxcg6gPUijfhKv2YO99oba0JEMtcTevIr4aKGjv29wTZQde3+kN/TkltuPBcKcVAiFgmf/hhoZP6rKMt4TzkvGAa5qXaof/6EfrZb0SJLE5ekJh5x+v7xCfo+fNPgk0dGVg1lS0MG7gYPF/yY/WLO1dzM+iPnOmNF2YzxBqcYJ2WDmL7UWFWA==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYY1jUSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+qVoH/ihTG9CzUVSjr5VdwupJDDAy1bmlGln53K1cf4T67U6Wgb83XvBr638r6ODi/hfvajb7DTSZGyeJNnGFfIx+2CCJB+HHJ9jZFHnmL7vXwb/A2MEp752CcRg2NiQWNOrO0Kf5PUlJMYtls1r3Cf0fMrF3W8j9HqDOxhqr/wAOQJvbu0yXNbrxODw3P69dlCYMJoehcEZ/vmBEOATDlGPeJNzhUCFEEtm+tYzUKMccp/N7hMI2iPq2ZXqZWo2Dm5790aTRVFU1mlCqd9cBwHEYdnb5YUEGdHBZUUCK27JWfRRxGUww0xC2oIUxr55VNvWgLbRoDSklkcVpUJkbQ2rcYV8=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,38 +38,43 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 aarch64
 
 %BUILDDATE%
-1712048158
+1712902555
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
 
 %REPLACES%
-vulkan-mesa
+mesa-libgl
 
 %CONFLICTS%
-vulkan-mesa
+mesa-libgl
 
 %PROVIDES%
-vulkan-driver
+mesa-libgl
+opengl-driver
 
 %DEPENDS%
 expat
 gcc-libs
 glibc
 libdrm
+libelf
+libglvnd
 libx11
 libxcb
+libxext
+libxfixes
 libxshmfence
+libxxf86vm
 llvm-libs
-systemd-libs
-vulkan-icd-loader
+lm_sensors
 wayland
-xcb-util-keysyms
 zlib
 zstd
+libomxil-bellagio
 
 %OPTDEPENDS%
-vulkan-mesa-layers: additional vulkan layers
+opengl-man-pages: for the OpenGL API man pages
 
 %MAKEDEPENDS%
 clang

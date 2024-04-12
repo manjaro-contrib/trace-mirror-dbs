@@ -1,32 +1,32 @@
 %FILENAME%
-vulkan-panfrost-1:24.0.4-2-aarch64.pkg.tar.zst
+vulkan-virtio-1:24.0.5-1-aarch64.pkg.tar.zst
 
 %NAME%
-vulkan-panfrost
+vulkan-virtio
 
 %BASE%
 mesa
 
 %VERSION%
-1:24.0.4-2
+1:24.0.5-1
 
 %DESC%
-Panfrost Vulkan mesa driver
+Open-source Vulkan driver for Virtio-GPU (Venus)
 
 %CSIZE%
-1263009
+395641
 
 %ISIZE%
-7314223
+1260205
 
 %MD5SUM%
-38969c5c0558ebab5fedc0b990c4c7dd
+4419779c9da28c78f99f5f0c40794c3d
 
 %SHA256SUM%
-c395b4d726090d491733bcbf3b4c08d40c21c7709a9103ca5a6056d0633c9699
+d01abcf0130c32d3ff59bdf4a7042d45d7c54206852fffdce11f3d33072a5181
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYL0AIACgkQHzWBGKB6z1el6gf/fX4tSYrHgTQdNTr7adKljgZDGHkYZ0GzVRlADgIx5M1KpCJY5ZhAOhvrs0L/+2so3MALrgIvEIWaeeX+970bmAD0Fnq1PSEGmFvcg1vaVoEGu6n7MuvypA03ysR4E/nrmnXUTotdaJx7EdKR5JQ55mhgaHHJ2dTXBl5XSNPdZDSAGccEhQK13jqFKbg72hSoXPnayMOXhoYMQviZfStcPtHBD1E3nK8AQ4c1Ra6QGqo9RJuHVEZScvfPyDzLOlMamgM6rdjR57bdZeTWd2N/zaJ9FhWqDrr84COHJkeS99iSi7B+MmOlU7LJa8GjVnfVgexsmw7k4RewUxvQ6xpPtw==
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmYY1jUSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+f+8IAKCFTV8TAnK2IOZ743CkNZvpx4NKPSAZ/CHGicQKMyPBxb1F8d13HgVE+XIjOsUHFxzJlZXL70sDqzmK/CCl1UpVTeC2+nRXoFFm6q9gU7jyVnowlCuix+gAIlW2cb8XrmdajS+ojFdQtZTIl0G5h6X1MXG8v0wSonT1LrwvjEDtZqjDeinmJOqi0FmN+wU6+Tt+NOvZrR5h1xukKIRJj0tjV0MBcEC1pw19T21t/HAGHPKEJXizG9Po4R8E6TNeh6yZEmVthrlvQyfFvMD4pOh5gP9HxtyHQZFYc5r+gRivMbn/LAHqukBaNDJFyyuRNfGer+z4mVAejTg0s0TjKa4=
 
 %URL%
 https://www.mesa3d.org/
@@ -38,7 +38,7 @@ MIT AND BSD-3-Clause AND SGI-B-2.0
 aarch64
 
 %BUILDDATE%
-1712048158
+1712902555
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
@@ -47,10 +47,19 @@ Manjaro Build Server <build@manjaro.org>
 vulkan-driver
 
 %DEPENDS%
-wayland
-libx11
-libxshmfence
+expat
+gcc-libs
+glibc
 libdrm
+libx11
+libxcb
+libxshmfence
+systemd-libs
+vulkan-icd-loader
+wayland
+xcb-util-keysyms
+zlib
+zstd
 
 %OPTDEPENDS%
 vulkan-mesa-layers: additional vulkan layers
