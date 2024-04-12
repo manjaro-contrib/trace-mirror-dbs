@@ -1,32 +1,32 @@
 %FILENAME%
-kodi-gles-20.5-2-aarch64.pkg.tar.zst
+kodi-21.0-3-aarch64.pkg.tar.zst
 
 %NAME%
-kodi-gles
+kodi
 
 %BASE%
 kodi
 
 %VERSION%
-20.5-2
+21.0-3
 
 %DESC%
-A software media player and entertainment hub for digital media (gles renderer)
+A software media player and entertainment hub for digital media (gl renderer)
 
 %CSIZE%
-43355981
+33757202
 
 %ISIZE%
-89371378
+84893495
 
 %MD5SUM%
-89d1a9de906cec1cbbb84bb3030538a7
+ee0367a6f6ab239effaab28d064d8c77
 
 %SHA256SUM%
-782b475d8c1c78f2aebe0342c1e22c95fb31fbd08d41c3a745966f30ab5a9876
+1bde07b124ccfb2cc7032c04e06960633df7aa91620b596844ac98569f359f5d
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYJ30YACgkQHzWBGKB6z1d/WQf/T2reqQdpLUtVbQ6vAzAjLJURJSv7IGBa/coI15bUcQOg1DCRFwS7P2+kVkVQBL6/iw6fgQLmQt5AXjU2uEvH8gB+or7EIwy1FDGgbx6xBtGMxTwrsaQPZ/0e3Tamduj4J9UztebDscaF7YiemCHMaK48FBlK70V4ChcyndYlL40JdzUXwvnfTHV+BSFJePOSgmNVFkBKddvptFpWYdIOxMzbJ4GqZ98YW4v4Qq9EtSjYu6wzAAGnMj/ogBYFTaBd3H0XbD7vM2LGwkN12ZJSQQ0wXAOGy7Sofkll57QvMepaBCKcUFs1vha2L9ND3Mc7ERIdAyawRiMSigiREnNJ8w==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmYZVjIACgkQHzWBGKB6z1cBcwf9H15wcuHkOZamhHJqnZzhiCXHDdyb+6UkYoRHw4WM+tXTRpaekpUIYbgPiJUwSYacCeDoiNjB92S0zXy7czOHZoDXQdARJ6lLDha7Zskbvj6e6L7GrBfCLlmq3nTjRPudYPB5Ey638cv2u5XUBFJFsqD/z2Zk2HcJh3hIMFD47eS4I3r7ZPnoc0zrf+HagS8bQ5kESfYkFNLMlLJxCtOX9f+hEz7ukhDKMiaEJvleg68g8gWzGUZV/YUJrzZYBVaYHxz+dRpXw8lHleAR6TrwHutc1JTa/rro4V32vebdurx0u5CNdg/Mbbo5aR/jglrXcYYbAAJxaDOeMuNzUu/QwA==
 
 %URL%
 https://kodi.tv
@@ -38,26 +38,29 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1711918154
+1712934591
 
 %PACKAGER%
-Unknown Packager
+Manjaro Build Server <build@manjaro.org>
 
 %REPLACES%
 kodi-common
 kodi-x11
 kodi-wayland
 kodi-gbm
+kodi-aml
+kodi-rk
 
 %CONFLICTS%
-kodi
+kodi-gles
+kodi-rpi
+kodi-rpi-git
 
 %PROVIDES%
 kodi-common
 kodi-x11
 kodi-wayland
 kodi-gbm
-kodi
 
 %DEPENDS%
 bluez-libs
@@ -98,6 +101,8 @@ libxkbcommon
 waylandpp
 libinput
 pcre
+tinyxml2
+libdisplay-info
 
 %OPTDEPENDS%
 afpfs-ng: Apple shares support
@@ -161,6 +166,9 @@ meson
 gtest
 graphviz
 pcre
+tinyxml2
+libdisplay-info
+python-setuptools
 wayland-protocols
 waylandpp
 libxkbcommon
