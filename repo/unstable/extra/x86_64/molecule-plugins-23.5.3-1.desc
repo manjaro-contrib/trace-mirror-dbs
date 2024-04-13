@@ -1,5 +1,5 @@
 %FILENAME%
-molecule-plugins-23.5.0-1-any.pkg.tar.zst
+molecule-plugins-23.5.3-1-any.pkg.tar.zst
 
 %NAME%
 molecule-plugins
@@ -8,25 +8,25 @@ molecule-plugins
 molecule-plugins
 
 %VERSION%
-23.5.0-1
+23.5.3-1
 
 %DESC%
 Collection of molecule plugins
 
 %CSIZE%
-72915
+75272
 
 %ISIZE%
-397084
+433222
 
 %MD5SUM%
-7137951ca652df0078fbbf7fb1bcadf6
+9a61401e2b355f69189f31fbb27609eb
 
 %SHA256SUM%
-7eedc8880ea0bc2846f2d3a4bc37391e37abf0eebd3a22a109b92e2a630efe39
+34d58010286c2b1fb6032d26db1dfccfe9be158ed670593633f0cb7bb690d055
 
 %PGPSIG%
-iHUEABYKAB0WIQSZH24/B2XPYpWIhYYTmwnaW/DTOAUCZNP/sgAKCRATmwnaW/DTOLg1AQDVMCHvFPFruLQA3+4WjL6NNhw5ywC9UPqdB9+8sMEzBgEA89wKiFUWLTJBWCp/G02hkfST5B9Ah9RItI0+QIEMjQU=
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZhom6gAKCRCbeih9mi7GCJDlAQC5dcfF+3L+FrCjyxNnkwuAvzo3p0loWjBmvsZrHicW0QD/T3oXunUHLhDWRlg64v+uqnfmavof1CCRv/2mqmlKxQI=
 
 %URL%
 https://github.com/ansible-community/molecule-plugins
@@ -38,7 +38,7 @@ MIT
 any
 
 %BUILDDATE%
-1691615091
+1712989869
 
 %PACKAGER%
 David Runge <dvzrv@archlinux.org>
@@ -60,15 +60,18 @@ molecule
 python
 python-boto3
 python-cryptography
-python-docker
+python-jinja
 python-packaging
-python-requests
-python-selinux
 
 %OPTDEPENDS%
-python-pycryptodome: for GCE playbooks
+ansible-core: for vagrant driver and validating docker and podman playbooks
+python-ansible-compat: for podman driver
+python-docker: for Docker support
 python-google-auth: for GCE playbooks
 python-google-api-python-client: for GCE playbooks
+python-pycryptodome: for GCE playbooks
+python-requests: for Docker support
+python-selinux: for SELinux and Docker support
 python-vagrant: for vagrant module
 
 %MAKEDEPENDS%
