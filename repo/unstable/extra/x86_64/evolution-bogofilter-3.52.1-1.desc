@@ -1,5 +1,5 @@
 %FILENAME%
-evolution-bogofilter-3.52.0-1-x86_64.pkg.tar.zst
+evolution-bogofilter-3.52.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 evolution-bogofilter
@@ -8,25 +8,25 @@ evolution-bogofilter
 evolution
 
 %VERSION%
-3.52.0-1
+3.52.1-1
 
 %DESC%
 Spam filtering for Evolution, using Bogofilter
 
 %CSIZE%
-12502
+12470
 
 %ISIZE%
 29361
 
 %MD5SUM%
-aeb851c192784cd494bb7c5832b15dfe
+bd41124735ffba33982bf02c37ab2e40
 
 %SHA256SUM%
-20dc012219e7ad1a35d5da5ab1191ecb8be4650861e8430fe6af5ab7647255c6
+d5046c1a654b4c6753774aea137ff17a38cb17f65a6606896f35c915ee1af77b
 
 %PGPSIG%
-iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZfTQFQAKCRC4rAhgDxCM384VAQDe0IDFiszDuVYtsEta0RQ44zS/TuaKxB40Yyvc8l6wWAEAnJApWXbrwTZmb92v54Vbaj0nD9Wr/BhLqNzFvQCk4g0=
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZiLstAAKCRC4rAhgDxCM3z7nAP9lqQ62gBHsJSTnZQAN4SozrisloxNGvcxzWUBmb0f/ywEAnmkDIXh5a7GuMEvaYE4RIrseNBihf/VIQOULIv1VXQw=
 
 %URL%
 https://wiki.gnome.org/Apps/Evolution
@@ -38,14 +38,18 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1710540130
+1713564452
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 
 %DEPENDS%
-evolution=3.52.0
+evolution=3.52.1
 bogofilter
+evolution-data-server
+glib2
+glibc
+gtk3
 
 %MAKEDEPENDS%
 bogofilter

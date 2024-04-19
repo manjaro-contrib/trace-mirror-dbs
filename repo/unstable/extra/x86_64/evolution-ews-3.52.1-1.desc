@@ -1,5 +1,5 @@
 %FILENAME%
-evolution-ews-3.52.0-1-x86_64.pkg.tar.zst
+evolution-ews-3.52.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 evolution-ews
@@ -8,25 +8,25 @@ evolution-ews
 evolution-ews
 
 %VERSION%
-3.52.0-1
+3.52.1-1
 
 %DESC%
 MS Exchange integration through Exchange Web Services
 
 %CSIZE%
-781773
+781565
 
 %ISIZE%
-3534296
+3543610
 
 %MD5SUM%
-1309699f4bf3feb3965f689326785768
+d0d27bae96bdcca82a1ec6ef81abd97c
 
 %SHA256SUM%
-db050af6e3196de9982afe458a294ad62b340d644e08c7fb6fd0ebe937aa97b7
+dc58c10012e512971bb35e3be661e90acfc43403f18af2af7ec9092028ec9606
 
 %PGPSIG%
-iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZfTQkQAKCRC4rAhgDxCM309pAQCAfRIr2W8pxmdXh93WkhHjNR6SoAuMxKa+4DinGtGkcQEAoicWxKMnyRxISHPrR8pN76kSjVRpi1uPZp4d9siyGgg=
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZiLtGAAKCRC4rAhgDxCM31h7AQDzwOrJfRJatoGx+sIYbGioVRN1bwT/t0bHt+jCfDCjPwEAp9KqKPn4fFcfhLwRg8bLAUfzLgaGLsqiIAG/wgSg6wY=
 
 %URL%
 https://wiki.gnome.org/Apps/Evolution/EWS
@@ -38,14 +38,24 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1710542917
+1713564888
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 
 %DEPENDS%
 evolution
+evolution-data-server
+gcc-libs
+glib2
+glibc
+gtk3
+json-glib
+libical
 libmspack
+libsoup3
+libxml2
+pango
 
 %MAKEDEPENDS%
 cmake
