@@ -1,5 +1,5 @@
 %FILENAME%
-accountsservice-23.13.9-1-x86_64.pkg.tar.zst
+accountsservice-23.13.9-2-x86_64.pkg.tar.zst
 
 %NAME%
 accountsservice
@@ -8,37 +8,37 @@ accountsservice
 accountsservice
 
 %VERSION%
-23.13.9-1
+23.13.9-2
 
 %DESC%
 D-Bus interface for user account query and manipulation
 
 %CSIZE%
-171654
+168366
 
 %ISIZE%
-1038206
+1011991
 
 %MD5SUM%
-670a7da78b71893462466aa1d97f4a40
+bce250ebce3535f99879319d8c7848aa
 
 %SHA256SUM%
-9519a4fdfb06a5dd2fc9ece7df81061877d8052e6c9ecbc458427d37dd1220a5
+f113e50280b331858abe3e3ac7c93db85969a9b74c38c22d1bf248070d1e176e
 
 %PGPSIG%
-iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZCM7phUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8csbAEAyY2k37T5cSkdKY22HhI13ZOhct55bCXdSSAR1rlCu7MBALcd70kjYr790toBh5zPwscDC/+kJAQvK/qoIHCUeAQH
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZiLhmgAKCRC4rAhgDxCM3yQhAQD0GAYn0PwfmHHZwY+oh+QYY6PgA7M5C92pQ83iC0rSvgEA3vkTrcIlAzbTGj9T3MZpRkTYi7ca5NvkxxLujlPc4wE=
 
 %URL%
 https://gitlab.freedesktop.org/accountsservice/accountsservice
 
 %LICENSE%
-GPL3
+GPL-3.0-or-later
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1680030182
+1713561455
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
@@ -47,7 +47,9 @@ Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 libaccountsservice.so=0-64
 
 %DEPENDS%
+gcc-libs
 glib2
+glibc
 libxcrypt
 polkit
 shadow
@@ -64,10 +66,12 @@ git
 gobject-introspection
 gtk-doc
 meson
+python-packaging
 vala
 xmlto
 
 %CHECKDEPENDS%
+glibc-locales
 python-dbusmock
 python-gobject
 
