@@ -1,5 +1,5 @@
 %FILENAME%
-libedataserverui4-3.52.0-2-x86_64.pkg.tar.zst
+libedataserverui4-3.52.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 libedataserverui4
@@ -8,25 +8,25 @@ libedataserverui4
 evolution-data-server
 
 %VERSION%
-3.52.0-2
+3.52.1-1
 
 %DESC%
 Unified contacts, tasks and calendar backend - GTK 4 UI library
 
 %CSIZE%
-92424
+92457
 
 %ISIZE%
 417312
 
 %MD5SUM%
-af20457a1d568383465a5b89af3e99dd
+380c8b56614fb5a7bca524bdde5698d3
 
 %SHA256SUM%
-2176331e44eb91be13177529d5657a454c178238ace13f2189046025f6b74e4a
+da7412c6406847dd9d45189175ab7b31657421d40ea9cb9d357f9922ecb6a666
 
 %PGPSIG%
-iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZftaewAKCRC4rAhgDxCM3/nkAQCGOrDaCGawXZ1oskTsZuXwPMLcGH7WYxZbXhGLKFmQ3gD/UHTH0UNDJK8GeWzVpKPaJB3jQwSoG6vRA3gtFwez6wI=
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZiLnWAAKCRC4rAhgDxCM3xYCAQC3FSp5VYMR7OUYctR1Onx6pXLTzXI42RjPnIRitg+NUgEA29Rr2I82itTdNbnJ6yLcx3+UYAF9dBrmlRqtYe/EvQE=
 
 %URL%
 https://wiki.gnome.org/Apps/Evolution
@@ -38,7 +38,7 @@ LGPL-2.0-only AND LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1710971092
+1713563191
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
@@ -47,9 +47,16 @@ Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 libedataserverui4-1.0.so=0-64
 
 %DEPENDS%
-evolution-data-server=3.52.0-2
+evolution-data-server=3.52.1-1
+glib2
+glibc
 libgtk-4.so=1-64
+libical
+libsoup3
 libwebkitgtk-6.0.so=4-64
+nspr
+nss
+pango
 
 %MAKEDEPENDS%
 boost
