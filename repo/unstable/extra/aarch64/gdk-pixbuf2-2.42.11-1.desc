@@ -1,0 +1,72 @@
+%FILENAME%
+gdk-pixbuf2-2.42.11-1-aarch64.pkg.tar.xz
+
+%NAME%
+gdk-pixbuf2
+
+%BASE%
+gdk-pixbuf2
+
+%VERSION%
+2.42.11-1
+
+%DESC%
+An image loading library
+
+%CSIZE%
+439716
+
+%ISIZE%
+3060658
+
+%MD5SUM%
+b17f71478a6e49b947d8b593569cb282
+
+%SHA256SUM%
+19b218209ebeb1f768bd5326aa740fd6b71ef9733229eb0c25e600f50cf803f2
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmYi/mQACgkQdxk/FSvb5qYP9A//XJuRAtMLsdmE2C2rhkO8xAmfg34nx2g595xYyNyTf2r/g5vqIHuaGuVxOtJAwaErofntvLAcYBLlpKqj+rDQe9bQ3Mx6Un/zwkX4sTzyK7ndAbWtwsegJgeYSD3saFvTjGUMBwdLvCGbC7TxLy0d9f4cP9KbLdAQsyQBeuYbFupJxCfA7tfpFLZuVlLqcpESOmkBG6Jcno4BOzhCtXA/fz1GW27CDe9e43qOl+0XMpfOmyosDKtYhfq4HvZBsq3iqy0ixl3ZHFH/ln7lQB8cy+VLFw1y4ic1FQ2vGf+N2t2nloYWyxrhthHzjuTvtvqiNlMTZ+R4U5iHlDLibegEBr2WZOujLwm5P2LpGN8Gzu6h7l/VP/InV7JSYDZIpYmUrCpsy47pfJbDfrtUtvqLKl9aw0nz8mX7/N4sxt9c7iweiB4AOqV/0dQANotkKn2EubaBj5gKyVrUiFVm2Ka04qwIGALztNcToUe5SrS8F4KmkVDBHYqPA7dk/ReqoY/c3KDFVJW4Gr4zUjbo6aoWuiHg8ZWqRTx+2VCPjlnqBZFGwIHGejM2uZDMhil6tyQv5BAuqhXTzz+pQ9iP2FrQk3pM8xJ3HQwtUjC5/e9z9B6topGNX+z+t9h/kX5euvBqDYxdviAD2vtTXB5YMeWWjuiT+e1T0I1JooDYWuWC7cc=
+
+%URL%
+https://wiki.gnome.org/Projects/GdkPixbuf
+
+%LICENSE%
+LGPL-2.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1713569327
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+libgdk_pixbuf-2.0.so=0-64
+
+%DEPENDS%
+glib2
+glibc
+libjpeg
+libpng
+libtiff
+shared-mime-info
+
+%OPTDEPENDS%
+libwmf: Load .wmf and .apm
+libopenraw: Load .dng, .cr2, .crw, .nef, .orf, .pef, .arw, .erf, .mrw, and .raf
+libavif: Load .avif
+libheif: Load .heif, .heic, and .avif
+libjxl: Load .jxl
+librsvg: Load .svg, .svgz, and .svg.gz
+webp-pixbuf-loader: Load .webp
+
+%MAKEDEPENDS%
+gi-docgen
+git
+gobject-introspection
+meson
+python-docutils
+
