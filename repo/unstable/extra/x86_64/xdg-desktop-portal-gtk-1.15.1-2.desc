@@ -1,5 +1,5 @@
 %FILENAME%
-xdg-desktop-portal-gtk-1.15.1-1-x86_64.pkg.tar.zst
+xdg-desktop-portal-gtk-1.15.1-2-x86_64.pkg.tar.zst
 
 %NAME%
 xdg-desktop-portal-gtk
@@ -8,37 +8,37 @@ xdg-desktop-portal-gtk
 xdg-desktop-portal-gtk
 
 %VERSION%
-1.15.1-1
+1.15.1-2
 
 %DESC%
 A backend implementation for xdg-desktop-portal using GTK
 
 %CSIZE%
-115084
+110396
 
 %ISIZE%
-472300
+443708
 
 %MD5SUM%
-5013fe764e977bd0f6d818cbfa33607d
+c527b9a68edcf711f6e21c1c97c878fa
 
 %SHA256SUM%
-12a2c5b18237850d5e8e123297b2f39d50c357919fc9cf18030c3140dc416732
+6458f96d6edaa5d6e1f5cba2dfca65c9f4b822945cd5274e1e77b4e013d23b5e
 
 %PGPSIG%
-iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZTRO/BUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8epKgEAl5gyhfCPthCK1QVzJ9DAdJ1zsGq4H/eqIizsXefBGOQBANCilSC5HF2pA4i9BurZav2flJuh5/zpxvTGFGFXq0AD
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZiWZYgAKCRC4rAhgDxCM3y+1AQDTqaWKWN/4/fVWBh/bFtDLAtOte6f6tFuCHiBhKXilkgEArzLq6hyrx8a+tWd9HfpBPaRgIhcmbpOulL7DBbauBQw=
 
 %URL%
 https://github.com/flatpak/xdg-desktop-portal-gtk
 
 %LICENSE%
-LGPL
+LGPL-2.0-or-later
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1697926385
+1713740065
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
@@ -47,6 +47,11 @@ Jan Alexander Steffens (heftig) <heftig@archlinux.org>
 xdg-desktop-portal-impl
 
 %DEPENDS%
+fontconfig
+gcc-libs
+gdk-pixbuf2
+glib2
+glibc
 gsettings-desktop-schemas
 gtk3
 xdg-desktop-portal
@@ -58,4 +63,5 @@ evince: Print preview
 git
 meson
 python
+python-packaging
 
