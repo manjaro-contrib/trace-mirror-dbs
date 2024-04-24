@@ -8,7 +8,7 @@ const config = {
     extra: ["x86_64", "aarch64"] as const,
     multilib: ["x86_64"] as const,
   },
-  branches: ["stable"] as const,
+  branches: ["unstable", "stable"] as const,
 };
 
 export const onRequest: PagesFunction<Env> = async (context) => {
@@ -27,6 +27,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       const content = await (
         await fetch(config.url, {
           cf: {
+            // don't refetch all dbs at the same time (between 0 and 10 minutes)
             cacheTtl: 60 * 10 * Math.random(),
           },
         })
