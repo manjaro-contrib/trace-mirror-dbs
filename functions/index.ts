@@ -8,7 +8,7 @@ const config = {
     extra: ["x86_64", "aarch64"] as const,
     multilib: ["x86_64"] as const,
   },
-  branches: ["unstable", "testing", "stable"] as const,
+  branches: ["stable"] as const,
 };
 
 export const onRequest: PagesFunction<Env> = async (context) => {
@@ -27,17 +27,17 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       const content = await (
         await fetch(config.url, {
           cf: {
-            cacheTtl: 60,
+            cacheTtl: 60 * 10 * Math.random(),
           },
         })
-      ).json();
+      ).json<[]>();
       return {
         ...config,
         content,
       };
     })
   );
-  return Response.json(contents, {
+  return Response.json(contents.map(({ name, content }) => ({ name, length: content.length })), {
     headers: {
       "content-type": "application/json",
     },
