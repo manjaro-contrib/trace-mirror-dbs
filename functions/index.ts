@@ -28,7 +28,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
         await fetch(config.url, {
           cf: {
             // don't refetch all dbs at the same time (between 10 and 20 minutes)
-            cacheTtl: (60 * 10) + 60 * 10 * Math.random(),
+            cacheTtl: 60 * 10 + 60 * 10 * Math.random(),
           },
         })
       ).json<[]>();
@@ -38,9 +38,14 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       };
     })
   );
-  return Response.json(contents.map(({ name, content }) => ({ name, length: content.length })), {
-    headers: {
-      "content-type": "application/json",
-    },
-  });
+  return Response.json(
+    contents
+      .map(({ name, content }) => ({ name, length: content.length }))
+      .sort((a, b) => a.name.localeCompare(b.name)),
+    {
+      headers: {
+        "content-type": "application/json",
+      },
+    }
+  );
 };
