@@ -70,6 +70,9 @@ jobs:
         run: |
           git add .
           git status --porcelain --no-renames | grep "^D.*\.desc" | cut -d ' ' -f 3 | parallel rm -f {\.}.json
+      - name: update db
+        run: |
+          python db.py
       - name: persist
         run: |
           git config user.name repo-add-bot
