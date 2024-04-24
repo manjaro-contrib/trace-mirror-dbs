@@ -12,6 +12,14 @@ const config = {
 };
 
 export const onRequest: PagesFunction<Env> = async (context) => {
+  let cache = caches.default;
+  const cachedResponse = await cache.match(context.request);
+
+  if (cachedResponse) {
+    console.log("Cache hit");
+    return cachedResponse;
+  }
+
   const configs = Object.keys(config.repos).flatMap((repo) => {
     return config.repos[repo as keyof typeof config.repos].flatMap((arch) => {
       return config.branches.map((branch) => {
@@ -45,6 +53,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     {
       headers: {
         "content-type": "application/json",
+        expires: new Date(Date.now() + 1000 * 60 * 10).toUTCString(),
       },
     }
   );
