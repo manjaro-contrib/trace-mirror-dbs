@@ -12,7 +12,7 @@ const config = {
 };
 
 export const onRequest: PagesFunction<Env> = async (context) => {
-  const urls = Object.keys(config.repos).flatMap((repo) => {
+  const configs = Object.keys(config.repos).flatMap((repo) => {
     return config.repos[repo as keyof typeof config.repos].flatMap((arch) => {
       return config.branches.map((branch) => {
         return {
@@ -22,7 +22,22 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       });
     });
   });
-  return Response.json(urls, {
+  const contents = await Promise.all(
+    configs.map(async (config) => {
+      const content = await (
+        await fetch(config.url, {
+          cf: {
+            cacheTtl: 60,
+          },
+        })
+      ).json();
+      return {
+        ...config,
+        content,
+      };
+    })
+  );
+  return Response.json(contents, {
     headers: {
       "content-type": "application/json",
     },
