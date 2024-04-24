@@ -1,18 +1,22 @@
 {
     "name": "manjaro-search",
     "version": "1.0.0",
+    "type": "module",
     "author": {
-      "email": "info@jonas-strassel.de",
-      "name": "Jonas Strassel",
-      "url": "https://jonas-strassel.de"
+        "email": "info@jonas-strassel.de",
+        "name": "Jonas Strassel",
+        "url": "https://jonas-strassel.de"
     },
     "license": "MIT",
     "scripts": {
-      "db": "echo 'No database to setup'"
+        "db": "tsx update.ts"
     },
     "devDependencies": {
-      "@cloudflare/workers-types": "^4.20221111.1",
-      "typescript": "^5.0.0",
-      "wrangler": "^3.0.0"
+        "@cloudflare/workers-types": "^4.20221111.1",
+        "typescript": "^5.0.0",
+        "wrangler": "^3.0.0"
+    },
+    "dependencies": {
+        "tsx": "^4.7.2"
     }
-  }
+}
