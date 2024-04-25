@@ -7,5 +7,5 @@ CREATE TABLE packages (
     version TEXT NOT NULL,
     description TEXT NOT NULL,
     builddate INTEGER NOT NULL,
-    PRIMARY KEY (`name`, `arch`, `branch`)
+    PRIMARY KEY (`name`, `arch`, `branch`, `repo`)
 );

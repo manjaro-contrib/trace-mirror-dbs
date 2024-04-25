@@ -37,17 +37,18 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     }[]
   >();
 
+  // drop all packages for this db
+  await context.env.PACKAGES.prepare(
+    "DELETE FROM packages WHERE arch = ? AND branch = ? AND repo = ?;"
+  )
+    .bind(arch, branch, repo)
+    .run();
+
   await context.env.PACKAGES.batch([
-    // drop all that are not in the list
-    context.env.PACKAGES.prepare(
-      "DELETE FROM packages WHERE arch = ? AND branch = ? AND repo = ? AND name NOT IN (" +
-        content.map((pkg) => pkg.name).join(", ") +
-        ");"
-    ).bind(arch, branch, repo),
-    // add all that are in the list
+    // add all packages
     ...content.map((pkg) =>
       context.env.PACKAGES.prepare(
-        "INSERT OR IGNORE INTO packages (name, arch, branch, repo, version, description, builddate) VALUES (?, ?, ?, ?, ?, ?, ?);"
+        "INSERT INTO packages (name, arch, branch, repo, version, description, builddate) VALUES (?, ?, ?, ?, ?, ?, ?);"
       ).bind(
         pkg.name,
         arch,
