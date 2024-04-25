@@ -89,9 +89,9 @@ jobs:
           for repo in core extra multilib; do
             for arch in x86_64 aarch64; do
               for branch in stable testing unstable; do
-                url=https://search.manjaro-sway.download/update?branch=${branch}&arch=${arch}&repo=${repo}
+                url="https://search.manjaro-sway.download/update?branch=${branch}&arch=${arch}&repo=${repo}"
                 echo warming up $url
-                curl -s $url >/dev/null
+                curl $url >/dev/null
               done
             done
           done

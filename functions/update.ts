@@ -41,9 +41,9 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     // drop all that are not in the list
     context.env.PACKAGES.prepare(
       "DELETE FROM packages WHERE arch = ? AND branch = ? AND repo = ? AND name NOT IN (" +
-        content.map(() => "?").join(", ") +
+        content.map((pkg) => pkg.name).join(", ") +
         ");"
-    ).bind(arch, branch, repo, ...content.map((c) => c.name)),
+    ).bind(arch, branch, repo),
     // add all that are in the list
     ...content.map((pkg) =>
       context.env.PACKAGES.prepare(
