@@ -1,6 +1,5 @@
 DROP TABLE IF EXISTS packages;
 CREATE TABLE packages (
-    timestamp DATETIME DEFAULT CURRENT_DATE,
     name TEXT NOT NULL,
     arch TEXT NOT NULL,
     branch TEXT NOT NULL,

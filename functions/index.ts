@@ -24,7 +24,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       });
     });
   });
-  const contents = await Promise.all(
+  const dbs = await Promise.all(
     configs.map(async (config) => {
       const result = await fetch(config.url, {
         cf: {
@@ -32,7 +32,6 @@ export const onRequest: PagesFunction<Env> = async (context) => {
           cacheTtl: 60 * 10 + 60 * 10 * Math.random(),
         },
       });
-      const meta = await result.cf;
       const content = await result.json<
         {
           name: string;
@@ -44,18 +43,29 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       return {
         ...config,
         content,
-        meta,
       };
     })
   );
+
+  for (const db of dbs) {
+    // drop all that are not in the list
+    // add all that are in the list
+    await context.env.PACKAGES.batch(
+      db.content.map((pkg) =>
+        context.env.PACKAGES.prepare(
+          "INSERT OR IGNORE INTO packages (name, arch, branch, repo, version, description, builddate) VALUES (?, ?, ?, ?, ?, ?, ?);"
+        ).bind(pkg.name, db.arch, db.branch, db.repo, pkg.version, pkg.desc, pkg.builddate)
+      )
+    );
+  }
+
   return Response.json(
-    contents
-      .map(({ content, meta, branch, repo, arch }) => ({
+    dbs
+      .map(({ content, branch, repo, arch }) => ({
         branch,
         repo,
         arch,
         length: content.length,
-        meta,
       }))
       .sort((a, b) => a.branch.localeCompare(b.branch))
       .sort((a, b) => a.repo.localeCompare(b.repo))
