@@ -37,15 +37,28 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     }[]
   >();
 
-  // drop all that are not in the list
-  // add all that are in the list
-  await context.env.PACKAGES.batch(
-    content.map((pkg) =>
+  await context.env.PACKAGES.batch([
+    // drop all that are not in the list
+    context.env.PACKAGES.prepare(
+      "DELETE FROM packages WHERE arch = ? AND branch = ? AND repo = ? AND name NOT IN (" +
+        content.map(() => "?").join(", ") +
+        ");"
+    ).bind(arch, branch, repo, ...content.map((c) => c.name)),
+    // add all that are in the list
+    ...content.map((pkg) =>
       context.env.PACKAGES.prepare(
         "INSERT OR IGNORE INTO packages (name, arch, branch, repo, version, description, builddate) VALUES (?, ?, ?, ?, ?, ?, ?);"
-      ).bind(pkg.name, arch, branch, repo, pkg.version ?? "", pkg.desc ?? "", pkg.builddate ?? "")
-    )
-  );
+      ).bind(
+        pkg.name,
+        arch,
+        branch,
+        repo,
+        pkg.version ?? "",
+        pkg.desc ?? "",
+        pkg.builddate ?? ""
+      )
+    ),
+  ]);
 
   return Response.json(
     {
