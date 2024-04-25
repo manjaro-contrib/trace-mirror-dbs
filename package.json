@@ -9,6 +9,7 @@
     },
     "license": "MIT",
     "scripts": {
+        "db:up": "wrangler d1 execute PACKAGES --file=./schema.sql"
     },
     "devDependencies": {
         "@cloudflare/workers-types": "^4.20221111.1",

@@ -1,5 +1,5 @@
-type Env = {
-  KV: KVNamespace;
+type Env = { 
+  PACKAGES: D1Database;
 };
 
 const config = {
