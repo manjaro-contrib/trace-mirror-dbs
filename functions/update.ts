@@ -44,6 +44,15 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     .bind(arch, branch, repo)
     .run();
 
+  const pkgNames = content.map((pkg) => pkg.name);
+  // list duplicates
+  const duplicates = pkgNames.filter(
+    (name, index) => pkgNames.indexOf(name) !== index
+  );
+  if (duplicates.length > 0) {
+    throw new Error(`Duplicates found: ${duplicates.join(", ")}`);
+  }
+
   await context.env.PACKAGES.batch([
     // add all packages
     ...content.map((pkg) =>
