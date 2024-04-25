@@ -12,14 +12,6 @@ const config = {
 };
 
 export const onRequest: PagesFunction<Env> = async (context) => {
-  let cache = caches.default;
-  const cachedResponse = await cache.match(context.request);
-
-  if (cachedResponse) {
-    console.log("Cache hit");
-    return cachedResponse;
-  }
-
   const configs = Object.keys(config.repos).flatMap((repo) => {
     return config.repos[repo as keyof typeof config.repos].flatMap((arch) => {
       return config.branches.map((branch) => {
@@ -32,28 +24,28 @@ export const onRequest: PagesFunction<Env> = async (context) => {
   });
   const contents = await Promise.all(
     configs.map(async (config) => {
-      const content = await (
-        await fetch(config.url, {
-          cf: {
-            // don't refetch all dbs at the same time (between 10 and 20 minutes)
-            cacheTtl: 60 * 10 + 60 * 10 * Math.random(),
-          },
-        })
-      ).json<[]>();
+      const result = await fetch(config.url, {
+        cf: {
+          // don't refetch all dbs at the same time (between 10 and 20 minutes)
+          cacheTtl: 60 * 10 + 60 * 10 * Math.random(),
+        },
+      });
+      const meta = await result.cf
+      const content = await result.json<[]>();
       return {
         ...config,
         content,
+        meta,
       };
     })
   );
   return Response.json(
     contents
-      .map(({ name, content }) => ({ name, length: content.length }))
+      .map(({ name, content, meta }) => ({ name, length: content.length, meta }))
       .sort((a, b) => a.name.localeCompare(b.name)),
     {
       headers: {
         "content-type": "application/json",
-        "Cache-Control": "public, max-age=600, s-maxage=600",
       },
     }
   );
