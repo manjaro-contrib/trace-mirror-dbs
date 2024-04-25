@@ -8,7 +8,7 @@ archs = ["x86_64", "aarch64"]
 
 def update(repo, branch, arch):
     try:
-        files = [file for file in os.listdir(f"./repo/{branch}/{repo}/{arch}") if file.endswith(".json") and not re.search(r"-[0-9]\.json$", file)]
+        files = [file for file in os.listdir(f"./repo/{branch}/{repo}/{arch}") if re.match(r".*\.json", file)]
 
         contents = []
         for file in files:

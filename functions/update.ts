@@ -28,6 +28,9 @@ export const onRequest: PagesFunction<Env> = async (context) => {
       cacheTtl: 60 * 10 + 60 * 10 * Math.random(),
     },
   });
+  if (!result.ok) {
+    throw new Error(`Failed to fetch ${url}`);
+  }
   const content = await result.json<
     {
       name: string;

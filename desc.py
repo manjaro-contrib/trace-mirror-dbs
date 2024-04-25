@@ -43,6 +43,3 @@ data['tokens'] = [
 
 with open(path.replace('.desc', '.json'), "w") as outfile:
     json.dump(data, outfile)
-
-with open(path.replace('.desc', '.json').replace(f"-{data['version']}", ""), "w") as outfile:
-    json.dump(data, outfile)
