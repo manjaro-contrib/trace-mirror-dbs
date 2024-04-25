@@ -34,12 +34,5 @@ with open(path, 'r') as file:
                 else:
                     data[heading] = value
 
-data['tokens'] = [
-    f"{data['name']}",
-    f"{data['name']}_{arch}",
-    f"{data['name']}_{branch}",
-    f"{data['name']}_{arch}_{branch}",
-]
-
 with open(path.replace('.desc', '.json'), "w") as outfile:
     json.dump(data, outfile)

@@ -91,7 +91,7 @@ jobs:
               for branch in stable testing unstable; do
                 url="https://search.manjaro-sway.download/update?branch=${branch}&arch=${arch}&repo=${repo}"
                 echo warming up $url
-                curl $url >/dev/null
+                curl -s $url
               done
             done
           done
