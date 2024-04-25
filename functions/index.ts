@@ -53,7 +53,7 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     {
       headers: {
         "content-type": "application/json",
-        expires: new Date(Date.now() + 1000 * 60 * 10).toUTCString(),
+        "Cache-Control": "public, max-age=600, s-maxage=600",
       },
     }
   );
