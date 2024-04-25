@@ -1,4 +1,4 @@
-type Env = { 
+type Env = {
   PACKAGES: D1Database;
 };
 
@@ -16,7 +16,9 @@ export const onRequest: PagesFunction<Env> = async (context) => {
     return config.repos[repo as keyof typeof config.repos].flatMap((arch) => {
       return config.branches.map((branch) => {
         return {
-          name: `${branch}_${repo}_${arch}`,
+          branch,
+          repo,
+          arch,
           url: `https://raw.githubusercontent.com/manjaro-contrib/trace-mirror-dbs/main/db/${branch}_${repo}_${arch}.json`,
         };
       });
@@ -30,8 +32,15 @@ export const onRequest: PagesFunction<Env> = async (context) => {
           cacheTtl: 60 * 10 + 60 * 10 * Math.random(),
         },
       });
-      const meta = await result.cf
-      const content = await result.json<[]>();
+      const meta = await result.cf;
+      const content = await result.json<
+        {
+          name: string;
+          version: string;
+          desc: string;
+          builddate: string;
+        }[]
+      >();
       return {
         ...config,
         content,
@@ -41,8 +50,16 @@ export const onRequest: PagesFunction<Env> = async (context) => {
   );
   return Response.json(
     contents
-      .map(({ name, content, meta }) => ({ name, length: content.length, meta }))
-      .sort((a, b) => a.name.localeCompare(b.name)),
+      .map(({ content, meta, branch, repo, arch }) => ({
+        branch,
+        repo,
+        arch,
+        length: content.length,
+        meta,
+      }))
+      .sort((a, b) => a.branch.localeCompare(b.branch))
+      .sort((a, b) => a.repo.localeCompare(b.repo))
+      .sort((a, b) => a.arch.localeCompare(b.arch)),
     {
       headers: {
         "content-type": "application/json",
