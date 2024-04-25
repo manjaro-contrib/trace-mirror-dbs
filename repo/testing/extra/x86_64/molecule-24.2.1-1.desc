@@ -1,0 +1,88 @@
+%FILENAME%
+molecule-24.2.1-1-any.pkg.tar.zst
+
+%NAME%
+molecule
+
+%BASE%
+molecule
+
+%VERSION%
+24.2.1-1
+
+%DESC%
+Aids in the development and testing of Ansible roles
+
+%CSIZE%
+140558
+
+%ISIZE%
+894131
+
+%MD5SUM%
+12425e9cfc6ef406c4d19a97ef415c1a
+
+%SHA256SUM%
+9a957e3def0166bc3cda00a537755252bfdbe6900e1b1926fcd344fbc7c6f798
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmYWQdoACgkQ/cMEC5Ksp0jg4A/5AW8pAChXXeQpmF8FhHdTYSitWFpEL3D3P8scky8p9QyX7C+HwZUEgW//bB/Ak2Ktevz4Lz4bsbROOlo4xdFGqtKKMhk3AZ2rOZxRPbkojAiDMFyZ1ipYK8cDLFE9L44LVs7dals2aLLIsSMxOKUeI90hhZNru//rKukwjapR2CUVn7ydrH3vHqOv9LWHsMb6As2aZO/HBAiqGbDY4lw61xWcpJiuVq0S+f/vbiUqdDEKyPGz+pMAAApNpy5vtO8oowoTZQrgFZboR9/oAUGAAddDZTON6t+JDuueNPmkU/aBsbIfnLozvjfxr6qvEDIj7mzl8PAKn9OTONO89LAGgxzFD/1ADkZf+rqOe2eC40RoOtd53Ir+fCsMqFq4sUwYHc90YGrYl8moLLJ/4AyhNv9Jap9mwKtL2v5eZKBxHK++n0zbuov08a5asH3LZiD8guy6Na7o/DyGHmPMaLq/Xu7t3xUu2SVlze4KiDUhURYAGzQk9oPJH37LmJjv2sChe/CPjvMTl0bz2AWG3UCX2ufIoW3we2i/WxhsQXxxvQLanegljr57y+L++VwVjoSETQFh30LXi0o6Y3aeKgs94kqIUzBUdT0H/d83u7nOkvN+1nJbJSGlgKqfiIEWCpmrRTvR49KYnnU5WIMJwcTtva1ntl/l1qdZa0mAakrYApw=
+
+%URL%
+https://github.com/ansible-community/molecule
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712734569
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-ansible-compat
+python-click
+python-click-help-colors
+python-cookiecutter
+python-enrich
+python-jinja
+python-jsonschema
+python-packaging
+python-pluggy
+python-pyyaml
+python-rich
+python-wcmatch
+
+%OPTDEPENDS%
+ansible: for the ansible verifier
+molecule-docker: for the docker driver
+molecule-podman: for the podman driver
+molecule-vagrant: for the vagrant driver
+python-pywinrm: for Windows support
+python-pytest-testinfra: for the testinfra verifier
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+ansible
+check-jsonschema
+python-ansi2html
+python-filelock
+python-pexpect
+python-pytest
+python-pytest-mock
+python-pytest-testinfra
+python-pytest-xdist
+python-regress
+yamllint
+

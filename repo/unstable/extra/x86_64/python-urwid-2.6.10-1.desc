@@ -1,0 +1,76 @@
+%FILENAME%
+python-urwid-2.6.10-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-urwid
+
+%BASE%
+python-urwid
+
+%VERSION%
+2.6.10-1
+
+%DESC%
+Curses-based user interface library
+
+%CSIZE%
+537999
+
+%ISIZE%
+3804937
+
+%MD5SUM%
+ab271980368dc0271d3d8cc2d14075d9
+
+%SHA256SUM%
+5cced3c2faac16f8c2eeb56b62cc7a934a8e9ed799bfd1d24b5ae78674d243cf
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmYIre8ACgkQek52CV2KUuQj0ggAgX7lwDyI4Zgy7p8JPu+T3UHVj2BknFdfGKjEtN2siof45AHS9B+lcnFLuGEvdCr+dkIS1yE/3Ce1vm8K6UWvMFjyiPp+o1KBzV1UC0MMRH/RLe8dmlkAVAT5G13M/eGm3pkJ3eenT03XWuuDteT12gyyLtgcGLvlZHAdm89t0SiBGkIzk+Uuwl3IvSPkikQg236sBU2jKPE2R7MAJT1dE9CPOYQnVfRtkNEMAXKzjl+JV10d2ePpWaHiFBin4ZT53r7P6mDz7WwMLlJKQat8ZnZeRvGd8jNQVtCBwMCatva+HIoDrrM0RwjQAOctki59eIEnnMT9nzK8JLZtkVt4rw==
+
+%URL%
+https://urwid.org/
+
+%LICENSE%
+LGPL-2.1-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1711844803
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+python-typing_extensions
+python-wcwidth
+
+%OPTDEPENDS%
+python-gobject: for gobject integration
+python-pyserial: for LCD and serial integration
+python-exceptiongroup: for trio integration
+python-pyzmq: for zmq integration
+python-tornado: for tornado integration
+python-trio: for trio integration
+python-twisted: for twisted integration
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-cov
+python-twisted
+python-tornado
+python-trio
+python-pyzmq
+python-gobject
+

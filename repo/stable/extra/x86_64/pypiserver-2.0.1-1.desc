@@ -1,0 +1,71 @@
+%FILENAME%
+pypiserver-2.0.1-1-any.pkg.tar.zst
+
+%NAME%
+pypiserver
+
+%BASE%
+pypiserver
+
+%VERSION%
+2.0.1-1
+
+%DESC%
+Minimal PyPI server for uploading and downloading packages with pip/easy_install
+
+%CSIZE%
+209702
+
+%ISIZE%
+1112868
+
+%MD5SUM%
+c08a4685df432403d3d2218430c407e3
+
+%SHA256SUM%
+860f28289c00083f3db91164dae84260eb7de0e7d3a9e8fbd2311f24287e97a9
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZZFynAAKCRCbeih9mi7GCO2PAP4p3GNSCpSloI3r3Ygsz7ESvD9CT9XgaJdSORCnssDdngD8DkYd98K25/vDtuhXHYQnmdeL9WCimH0j8wEhnt8RTwQ=
+
+%URL%
+https://github.com/pypiserver/pypiserver
+
+%LICENSE%
+MIT
+Zlib
+
+%ARCH%
+any
+
+%BUILDDATE%
+1704030814
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-pip
+
+%OPTDEPENDS%
+python-passlib: for authentication
+python-setuptools: for new - still inactive - config module
+python-waitress: for waitress support
+python-watchdog: for cache
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-git
+python-wheel
+
+%CHECKDEPENDS%
+python-httpx
+python-passlib
+python-pip
+python-pytest
+python-watchdog
+python-webtest
+

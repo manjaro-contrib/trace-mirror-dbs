@@ -1,0 +1,84 @@
+%FILENAME%
+postgresql-16.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+postgresql
+
+%BASE%
+postgresql
+
+%VERSION%
+16.2-1
+
+%DESC%
+Sophisticated object-relational DBMS
+
+%CSIZE%
+19434856
+
+%ISIZE%
+64428217
+
+%MD5SUM%
+c60bfed74089632c68a9e40dbc21e455
+
+%SHA256SUM%
+f0d09f8282320d493590ec73d384d5b8a6a32fd0d49e602cd775f807a3906c53
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmXs0jIACgkQek52CV2KUuQndAgAjd5aqVlo80DztX3AZaC5svl16bLoGc/R/Dtacr39U7/vd3JoJWfFGdN4UWYtzm1wwyDRWX4rWZWZmt7+5Ssu6dGY8VdEEDMLTVoKkBt/zxbAMRCFSLDIfucJi13oLXDru/et0Jr4cIUlzyhANVmbhuu6cklat0FfmRkoBovXjJXLsAYDBGkbDab1KueM0PPyK/CfvmAQFCXKQXD3kwzf/B/1FSb3I89vLwDCCprUl94yCfN6HKRZhhskBBmqVzrD/ii7g+IETf3a0YTKyPx2V7vHDIlaT3P79JR3pGan9zIlzxxpuoEpgvFnEnqs44sUiAubymg41Kp41/M2WGEBng==
+
+%URL%
+https://www.postgresql.org/
+
+%LICENSE%
+custom:PostgreSQL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1710018580
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+postgresql-libs>=16.2
+krb5
+libxml2
+readline
+openssl
+pam
+icu
+systemd-libs
+libldap
+llvm-libs
+libxslt
+lz4
+zstd
+
+%OPTDEPENDS%
+python: for PL/Python 3 support
+perl: for PL/Perl support
+tcl: for PL/Tcl support
+postgresql-old-upgrade: upgrade from previous major version using pg_upgrade
+logrotate: rotates system logs automatically
+
+%MAKEDEPENDS%
+krb5
+libxml2
+python
+perl
+tcl
+openssl
+pam
+zlib
+icu
+systemd
+libldap
+llvm
+clang
+libxslt
+util-linux
+

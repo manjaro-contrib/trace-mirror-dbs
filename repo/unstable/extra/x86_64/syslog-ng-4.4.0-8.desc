@@ -1,0 +1,98 @@
+%FILENAME%
+syslog-ng-4.4.0-8-x86_64.pkg.tar.zst
+
+%NAME%
+syslog-ng
+
+%BASE%
+syslog-ng
+
+%VERSION%
+4.4.0-8
+
+%DESC%
+Next-generation syslogd with advanced networking and filtering capabilities
+
+%CSIZE%
+1478648
+
+%ISIZE%
+6785597
+
+%MD5SUM%
+2d90beeba956eaadf2f60c40fd13eb89
+
+%SHA256SUM%
+9d58fa76c08d687a47df64e69a131ef21a25efb863ffb6a456a6543cc7a57fa6
+
+%PGPSIG%
+iQIzBAABCAAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmX2SE4ACgkQk7EdqkwZfj0v3xAAmjOByair3DybsUbS7zdN9nGARWK4R5dqcen9o9+JL/WKGZAI/emJhrHWzjQSrWQPzJsi+7gWKjrmpV7O2U3rNfD6daCi1dc36ggI9/oLgf3v3CLFFG/T5HLILx9ixOgjNih1eT6/pVS98VP23PmbHsMqaoXBgnwJ+C7EocDaYB6qDabaqTv/vielR2Z8jmbJIeudOBglkfxipaeEYldNlYufXjoVFg5AWV7P3xEuEA0eJ6ZelvmRa3500Bx7k9nNHuSRy7hdxFzxHhQHjNi0gpx2ZvxoiyboLFFc0JWN1Se+A5mv4UFo9/GOVpXcKwU+jhdItCzfMAX7rOUw/PhLrca3RXX0VgRAUcsJsFbD5PveybiBmOAMwQeR/OyZaltolcWlH71zbXWYJw0guQZDbGgy9oQN7Q6VL9KMz5Vm/bRki/P5EcVBZgXY8TIhB9+Z7w+qxndsx9Ig7a2WiXZAql4WmnUnNOv5M/SQeUGy6AV32eeOYeTVfXzVqGMt+Fz+3cNYIocLwrnjhe2FcIsaxe5/wJc0DCr1n6mwd162UN901ZxCwkNiYbnsOS9XFropoxF5A1gnAyqKKPxP9FNtEc32SrSfZvoS46fuxt7sLMtuM/baS+OExQqqBMiorI+CkQMbWVfyNIiBWnqmxBTq+4jLhdLpGlpyneLC7qxAnZc=
+
+%URL%
+https://www.syslog-ng.com/products/open-source-log-management/
+
+%LICENSE%
+GPL2
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1710639055
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%REPLACES%
+eventlog
+
+%CONFLICTS%
+eventlog
+
+%DEPENDS%
+awk
+bash
+curl
+glib2
+glibc
+grpc
+json-c
+libcap
+libnet
+libnsl
+openssl
+pcre2
+protobuf
+systemd-libs
+
+%OPTDEPENDS%
+logrotate: for rotating log files
+libdbi: for the SQL plugin
+librabbitmq-c: for the AMQP plugin
+mongo-c-driver: for the MongoDB plugin
+libesmtp: for the SMTP plugin
+hiredis: for the Redis plugin
+libmaxminddb: for the GeoIP2 plugin
+net-snmp: for the SNMP plugin
+librdkafka: for the Kafka C plugin
+python: for Python-based plugins
+python-ply: for debugger CLI
+
+%MAKEDEPENDS%
+libxslt
+mongo-c-driver
+librabbitmq-c
+python
+libesmtp
+hiredis
+libdbi
+libmaxminddb
+net-snmp
+librdkafka
+systemd
+
+%CHECKDEPENDS%
+python-nose
+python-ply
+

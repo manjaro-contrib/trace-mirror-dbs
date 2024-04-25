@@ -1,0 +1,132 @@
+%FILENAME%
+root-cuda-6.30.04-1-x86_64.pkg.tar.zst
+
+%NAME%
+root-cuda
+
+%BASE%
+root
+
+%VERSION%
+6.30.04-1
+
+%DESC%
+C++ data analysis framework and interpreter from CERN with GPU (CUDA) features enabled
+
+%CSIZE%
+164232313
+
+%ISIZE%
+868351764
+
+%MD5SUM%
+e1a4c50562daab930c4c360d1def8303
+
+%SHA256SUM%
+b4d60bd415546fbe6e1e0f0ec2725ca50e45812d9732001d44172034a92c8cfb
+
+%PGPSIG%
+iQIzBAABCAAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmYOQmkACgkQOeS4d+YuuRVYXQ/9HfB1hQk38Y166vE0NUic1KH/i7BHkiTO8t5CK6aaEdCvmRai366rfmD8xTUpsy2IEJ1jho4fAm7b0xQ0q+KRUWKR95QCKs2Qu7JQbnwCKirthOVIt4Bl6iocDrFzVVh/s/8xj8hn4DvdPeuIMyjxd/mL8GlO14SDHdoXTWOwp6E9HtpTOXGp8CQgODe5VijxUbC+bg/8gcSU+1vxVUvAmBN1huJnmygzkd7teeNbiM+p04iy/UiLZoy7H7KdVbOEpku0vrhpJcYHeDZagQxknQAOWlDpjG0ZJU3leB5PRcahQa1v0nMu/ONoPS0xx05Ca9p79Z8XdfJj56x58ckj/uGp0gAjJNqRbccc/mkG1hK9yF19uwAtb0BMdPZEeeOILCV3TSGrg3vaZK89PAZd38BB5ZqWSgANb42JGhPqnnQgjPmFyh5jAY2k3E8ZlvxC807W/nCuBdzioED7QDPpGHy2ynPMFgwqacHdUA/kUFPPnVaQhQOG6JWt7CNOpaz79l+tIwCQPCmN6E5baWidCokj/JNgJCQLk04cpLAQhbNpeh5JHLgzU0PfgKQ3/pQO7v4jVIsbjkR58Hp9bPkfHcTt4MSAQam9WzthlOG9EWBs+JTFQaTRtyTC5Wz4h5v9hwOxPjiul40jrduEK8aZ1Xls14wtoRz8tqcTe1QW3hQ=
+
+%URL%
+https://root.cern
+
+%LICENSE%
+LGPL2.1
+GPL
+custom:University of California and Stanford University License
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712205354
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%CONFLICTS%
+root
+
+%PROVIDES%
+root
+
+%DEPENDS%
+blas
+desktop-file-utils
+fcgi
+fftw
+ftgl
+giflib
+gl2ps
+glew
+graphviz
+gsl
+hicolor-icon-theme
+libafterimage
+librsvg
+liburing
+libxpm
+nlohmann-json
+pcre
+python
+python-numpy
+tbb
+tex-gyre-fonts
+unixodbc
+xxhash>=0.6.5-1
+zstd
+cuda
+cudnn
+
+%OPTDEPENDS%
+cern-vdt: Add a set of fast and vectorisable mathematical functions
+chromium: Support for WebGUI
+cfitsio: Read images and data from FITS files
+libmariadbclient: MySQL support
+libxml2: XML parser interface
+openmp: Support OpenMP extensions in Minuit2
+openmpi: Support OpenMPI extensions in Minuit2
+openssl: OpenSSL support
+openui5: JSROOT support
+postgresql-libs: PostgreSQL support
+pythia8>=8.2.40-1: Pythia8 EG support
+python-pygments: syntax highlighting in interactive console
+qt5-webengine: Support for WebGUI
+sqlite: SQLite support
+tcsh: Legacy CSH support
+unuran: Support non-uniform random numbers
+vc: Add types for portable and intuitive SIMD programming
+xrootd>5: Support remote file server and client
+z3: Suuport the Z3 theorem prover
+gcc12-fortran: Enable the Fortran components of ROOT
+
+%MAKEDEPENDS%
+ccache
+cern-vdt
+chromium
+cfitsio
+cmake
+cuda
+cudnn
+gcc-fortran
+git
+go
+libxml2
+libmariadbclient
+ocaml
+ocaml-ctypes
+openmp
+openmpi
+openssl
+openui5
+postgresql-libs
+pythia8>=8.2.40-1
+python-pygments
+qt5-webengine
+sqlite
+unuran
+vc
+xrootd>5
+z3
+

@@ -1,0 +1,82 @@
+%FILENAME%
+python-awkward-1.10.2-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-awkward
+
+%BASE%
+python-awkward
+
+%VERSION%
+1.10.2-2
+
+%DESC%
+Manipulate jagged, chunky, and/or bitmasked arrays as easily as Numpy
+
+%CSIZE%
+26875640
+
+%ISIZE%
+152493494
+
+%MD5SUM%
+37addb19b9d1160c2b94ba26ecf4e99a
+
+%SHA256SUM%
+604a596c48aeec7783c1a349e68020073fc9eedcf35f5c1aec197c2725529f5f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmQxLCYACgkQeGxj8zDXy5IMiA/9HVL+otig7+Ju5hyo7jtT+VfM3kfbl6eRJ78WiAZ6prDNn7crcNWHbQWECPiBYuNV19JD0oAghREtuS9LsFq0stOz7ZpoNxjWK/KwjqyB3dvFELufXI2OctdgTjpVejNSUhNadTxXObCJSvEnjG+To13brkJDd+OhhdN5QwEMInJgCOiErf5+e8KqUOCSSRZo3xJGOdmbr6b/kN6KUL+CBAkEPtvuZwmolBtXpGoWYWmNghCMlsdTPdLij6Gx76zhhPQFysIA1W2eye1BI84Yqb6I+iPwPSg8MloUprTkuqgynu6RY5QBD8RsjwEi2ihfvoXeq3f1f2jl9JhRtwTD+XX21IWx0eUeu9u8lc/GvqQ+OxGffhrdADla7xEERhyL5J930CvWjimlaDCKiqg7TnGx8KJHT8fow/5dRZPy31pzO54VOr0VVJ0w8EzZTK1AuE5KTnDFeQINaCMKaL22Jv/tZIhtXFo1xfZxPb23zwC/eozxSaKbl1gLkibUgvsFR3Rt69HY9qHWKMYVqnd7y6sfQUS0y3SVUCcMovMRZy3qf+8tZnetdSGnZK9C32URw63d90BOdaJSPx5ILn6jIq9FvwwltvYwdiR49zOouRduYYJYJvvdkbyvxurQQArUy+YxI9TKo1tD0FxEGXQl6B1B3wstM2f78a5fYiR+b1U=
+
+%URL%
+https://github.com/scikit-hep/awkward
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1680943709
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python-numpy
+python-packaging
+python-importlib_resources
+
+%OPTDEPENDS%
+cuda: CUDA support
+python-pyarrow: pyArrow connector
+python-numexpr: numexpr connector
+python-pandas: pandas connector
+python-awkward-docs: docs
+
+%MAKEDEPENDS%
+cmake
+git
+python-build
+python-installer
+python-wheel
+cuda
+doxygen
+python-sphinx
+python-sphinx_rtd_theme
+
+%CHECKDEPENDS%
+python-pyaml
+python-pytest
+python-pytest-cov
+python-hist
+python-pandas
+python-numexpr
+python-pyarrow
+python-scikit-hep-testdata
+python-vector
+root
+pybind11
+rapidjson
+

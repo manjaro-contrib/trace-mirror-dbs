@@ -1,0 +1,67 @@
+%FILENAME%
+john-1.9.0.jumbo1-10-x86_64.pkg.tar.zst
+
+%NAME%
+john
+
+%BASE%
+john
+
+%VERSION%
+1.9.0.jumbo1-10
+
+%DESC%
+John the Ripper password cracker
+
+%CSIZE%
+17901245
+
+%ISIZE%
+74967023
+
+%MD5SUM%
+0b577e1ed8aef4a9a7136534dca33f74
+
+%SHA256SUM%
+974f2bcd51af48a6aa739960fa5545d06cef5450fa83b3b74d7f361440e432f2
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCZbKllQAKCRAAHPSBC+jZEfBlAP97pUuSesUpfT+/uJL1c5cbQqncfRovSLPaSyTg7lxDGAD/a/mdJKR+a4/WBW0PAISPRuIhxdE1nh3Y/kWPFGn9ggE=
+
+%URL%
+https://www.openwall.com/john
+
+%LICENSE%
+GPL2
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1706206210
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+openssl
+gmp
+libpcap
+openmpi
+gcc-libs
+opencl-icd-loader
+libxcrypt
+libcrypt.so=2-64
+
+%OPTDEPENDS%
+bash-completion: completion for bash
+lua: lua based john scripts
+perl: perl based john scripts
+ruby: ruby based john scripts
+python: python based john scripts
+
+%MAKEDEPENDS%
+pkg-config
+opencl-headers
+

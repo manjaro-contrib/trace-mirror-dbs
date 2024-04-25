@@ -1,0 +1,83 @@
+%FILENAME%
+rygel-1:0.42.5-1-x86_64.pkg.tar.zst
+
+%NAME%
+rygel
+
+%BASE%
+rygel
+
+%VERSION%
+1:0.42.5-1
+
+%DESC%
+UPnP AV MediaServer and MediaRenderer
+
+%GROUPS%
+gnome
+
+%CSIZE%
+1099645
+
+%ISIZE%
+5675088
+
+%MD5SUM%
+5d0610a881ebeea527e805a8a6a85199
+
+%SHA256SUM%
+14a5e4879a263f80e7e834c3e5167f79b34d6700c1c42822229e8d8f4d6aaca9
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZZqo/AAKCRC4rAhgDxCM39/cAQCsRrgOkPUke6eOO/NI7ShyPrmesS/oKjdY3DfCSlnOOQD9HsdIzd8xQgYc0s9lomBXLUZWyMo43iKP3diHHIvFFQI=
+
+%URL%
+https://wiki.gnome.org/Projects/Rygel
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1704583940
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%PROVIDES%
+librygel-core-2.8.so=0-64
+librygel-db-2.8.so=0-64
+librygel-renderer-2.8.so=0-64
+librygel-renderer-gst-2.8.so=0-64
+librygel-ruih-2.8.so=0-64
+librygel-server-2.8.so=0-64
+
+%DEPENDS%
+gst-editing-services
+gtk3
+gupnp
+gupnp-av
+gupnp-dlna
+libgee
+libmediaart
+libsoup3
+libunistring
+tracker3
+
+%OPTDEPENDS%
+gst-libav: Extra media codecs
+gst-plugins-bad: Extra media codecs
+gst-plugins-base: Extra media codecs
+gst-plugins-good: Extra media codecs
+gst-plugins-ugly: Extra media codecs
+tracker3-miners: Share indexed media files
+tumbler: Thumbnailing service
+
+%MAKEDEPENDS%
+git
+gobject-introspection
+meson
+vala
+

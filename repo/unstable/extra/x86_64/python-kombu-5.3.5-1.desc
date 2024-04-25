@@ -1,0 +1,82 @@
+%FILENAME%
+python-kombu-5.3.5-1-any.pkg.tar.zst
+
+%NAME%
+python-kombu
+
+%BASE%
+python-kombu
+
+%VERSION%
+5.3.5-1
+
+%DESC%
+A messaging library for Python
+
+%CSIZE%
+409156
+
+%ISIZE%
+2610616
+
+%MD5SUM%
+c0d13ab4dadac74473005174fddaff44
+
+%SHA256SUM%
+0886f027d480518d7b59a1ed0448cd2bb4df5b5ef5d8c0a603c1a92019cec711
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmW+EU4ACgkQek52CV2KUuTgrgf8DQ3hcqe+eL1YVSBJR34rhmeBEoPAkkVhfZnufpfv1d6Mdvyx/pxb7K4LZyCXJW9w+mz270aiCPraQWOTiayr+2gb1VWRySnfGpEZwNa7HQu/Rrbz2iIpS7atPn+y+TIfnY58n4LFG9NmjB3HtrHZEIoMR0j/mkW2C4gyN5BXxRv7LRizJOIjKJSJDP8SH8vSmYB3Yk86OD6bPnvxztGP3UNjX1OWrsC3867TD2SYdAuetU19ayNYo9kg0JqT+t6xmxY3n9eCd0l2t3UO9S4Cf3lRCkOrcpUa9B34bPMbOFtvQydhcV4mk5MNqVyaqjUoNKrOU7wEo2NLLHMD5xmGkw==
+
+%URL%
+https://kombu.readthedocs.org/
+
+%LICENSE%
+BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1706954922
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python-amqp
+python-vine
+
+%OPTDEPENDS%
+python-boto3: for Amazon SQS support
+python-brotli: for brotli compression support
+python-librabbitmq: C optimization for AMQP transport
+python-msgpack: for MessagePack support
+python-pycurl: for Amazon SQS support
+python-pymongo: for MongoDB support
+python-pyro: for Pyro support
+python-redis: for Redis support
+python-sqlalchemy: for SQLAlchemy support
+python-yaml: for YAML support
+python-zstandard: for zstd compression support
+
+%MAKEDEPENDS%
+python-setuptools
+
+%CHECKDEPENDS%
+python-boto3
+python-brotli
+python-case
+python-librabbitmq
+python-msgpack
+python-pycurl
+python-pymongo
+python-pyro
+python-pytest
+python-pytest-sugar
+python-pytz
+python-redis
+python-sqlalchemy
+python-yaml
+python-hypothesis
+

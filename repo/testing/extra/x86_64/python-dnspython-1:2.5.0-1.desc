@@ -1,0 +1,68 @@
+%FILENAME%
+python-dnspython-1:2.5.0-1-any.pkg.tar.zst
+
+%NAME%
+python-dnspython
+
+%BASE%
+python-dnspython
+
+%VERSION%
+1:2.5.0-1
+
+%DESC%
+A DNS toolkit for Python
+
+%CSIZE%
+501781
+
+%ISIZE%
+3621144
+
+%MD5SUM%
+4c2e0baa33a3a18ffa9c47bdd3f0bb46
+
+%SHA256SUM%
+5d957605943980fcf933d9c1c9c8312514a12b2c8b133ca9d4de17ca9cdbd25a
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmXBC30ACgkQwGCGM3xQdz4d0Qf+Mtpy/lq8FLuafqqfAAh29NTYfpgMvrqV81a6KhvGjgBk7Q9OhVpFGMpwdgDjPUHWjlMLQMyWmkgHnPLAzMbb2M6KSdQXX9F8BjVQN5RQcH3GQ6irwDNWl3mPn115N4qJ6QMOZ0BixiTAcD3FvPE+EacZINnjbXhgN+sOqgz0Ra/Qa3gHT622HPPHBsCJks5c/8F6EPOqEhJwXrKUmUes76qovZR+QTQ+o1QzfpTO9y5JAoSoiURS5llVM8PHEBOGwVaYHo39OYaTvlmBUp98Nf0xG8q6lX0EGk1LF4rbYnRTrnfgwdu9r/NqrKcynvgyG6HJGT5EYvZhycm+t5UlZg==
+
+%URL%
+http://www.dnspython.org
+
+%LICENSE%
+custom:ISC
+
+%ARCH%
+any
+
+%BUILDDATE%
+1707150112
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-cryptography: DNSSEC support
+python-requests-toolbelt: DoH support
+python-idna: support for updated IDNA 2008
+python-curio: async support
+python-trio: async support
+python-sniffio: async support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-hatchling
+
+%CHECKDEPENDS%
+python-idna
+python-cryptography
+python-trio
+python-pytest
+

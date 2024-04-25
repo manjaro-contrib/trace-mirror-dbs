@@ -1,0 +1,66 @@
+%FILENAME%
+networkmanager-openconnect-1.2.10-1-x86_64.pkg.tar.zst
+
+%NAME%
+networkmanager-openconnect
+
+%BASE%
+networkmanager-openconnect
+
+%VERSION%
+1.2.10-1
+
+%DESC%
+NetworkManager VPN plugin for OpenConnect
+
+%CSIZE%
+581353
+
+%ISIZE%
+3196673
+
+%MD5SUM%
+c2883f235f7c415451b3aa44527ab6f2
+
+%SHA256SUM%
+29fc17fb8a7571ed3a155e16e440388e91816acae666d3a0bcd5460db65a549b
+
+%PGPSIG%
+iIsEABYIADMWIQQGaHodnU+rCLUP2Ss7lKgOUKR3xwUCZGppZBUcaGVmdGlnQGFyY2hsaW51eC5vcmcACgkQO5SoDlCkd8fWlwD7BPDiHXMiKK58mnRNtjaDEX0mTlifn0FEXw3xUQLMvQwBANpKNw/fa1KwYcBtIVrQF4FY5vamQhwFdI0+1ZqrMKcP
+
+%URL%
+https://wiki.gnome.org/Projects/NetworkManager
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1684695249
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%DEPENDS%
+libnm
+libsecret
+openconnect
+libopenconnect.so=5-64
+
+%OPTDEPENDS%
+gcr: GUI support
+libnma-gtk4: GUI support (GTK 4)
+libnma: GUI support (GTK 3)
+webkit2gtk-4.1: GUI support
+
+%MAKEDEPENDS%
+gcr
+git
+intltool
+libnma
+libnma-gtk4
+python
+webkit2gtk-4.1
+

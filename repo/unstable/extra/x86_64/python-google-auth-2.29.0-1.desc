@@ -1,0 +1,79 @@
+%FILENAME%
+python-google-auth-2.29.0-1-any.pkg.tar.zst
+
+%NAME%
+python-google-auth
+
+%BASE%
+python-google-auth
+
+%VERSION%
+2.29.0-1
+
+%DESC%
+Google Authentication Library
+
+%CSIZE%
+238648
+
+%ISIZE%
+2037562
+
+%MD5SUM%
+f08cb02777fa934cd89a10873708bad2
+
+%SHA256SUM%
+c10c5ea1cd5950d660e855d18473610b9effa933e5b99b14fcc7570bd83c08c0
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmYIZ9QACgkQek52CV2KUuQwnQgAkZmrxkO68RKk0XV8WAzUbEaP8d+PE5nMii5v/q4JpJZbAW2fotg+x0m4VVDp6PTougcct1As253q+UU8hDIMYj3y8Bn1UYPcTqUnRcXNDMbmVbwrW9WNWTrYa/VZfyIItu3DctLbF3sDm28o6/+T0AkSL4tG4/cUSDKYBlySzvAE7I7q/uR8gcC4F2fr6X/MBmoZQDAInr1FA2O4wEqbJHcnN3w5H2S+wTACc4RrWRKZCqqsqjXU4+o2SncKWay1IsBPVeNqes+ObtLTskm5yWxaiWDLA17Kw8H4nj4ximjscsPdPVf8F7ZIHxU0zAywKU6aOBYmhi1knsqLxQ3D7A==
+
+%URL%
+https://github.com/GoogleCloudPlatform/google-auth-library-python
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1711826820
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python
+python-cachetools
+python-certifi
+python-oauth2client
+python-packaging
+python-pyasn1-modules
+python-rsa
+
+%OPTDEPENDS%
+python-aiohttp: for async HTTP support
+python-cryptography: for TLS support
+python-pyopenssl: for TLS support
+python-pyu2f: for reauthentication support
+python-requests: for async HTTP support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-cryptography
+python-flask
+python-freezegun
+python-oauth2client
+python-requests
+python-pyopenssl
+python-pyu2f
+python-pytest
+python-pytest-localserver
+python-responses
+

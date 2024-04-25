@@ -1,0 +1,59 @@
+%FILENAME%
+python-kazoo-2.10.0-1-any.pkg.tar.zst
+
+%NAME%
+python-kazoo
+
+%BASE%
+python-kazoo
+
+%VERSION%
+2.10.0-1
+
+%DESC%
+A high-level Python library that makes it easier to use Apache Zookeeper
+
+%CSIZE%
+331193
+
+%ISIZE%
+2261917
+
+%MD5SUM%
+a2718a88fa4fcf60f174783402e570a4
+
+%SHA256SUM%
+88302fc6899eaf6845ed05f412bbae5556488a7821b2bafad539ba88b050d8e9
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZbt3JAAKCRCbeih9mi7GCNvrAP9ngN9gV8mCN8znhWAaOyTVBHkFuLFtXVm8R9lN0OEfugEAxdRDSeeg5TtBGZYJfBCAddKadi1lSt9h1O0J+EQgjAc=
+
+%URL%
+https://github.com/python-zk/kazoo
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1706784439
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-eventlet: for using eventlet as networking library
+python-gevent: for using gevent as networking library
+python-pure-sasl: for SASL support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+

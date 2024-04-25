@@ -1,0 +1,95 @@
+%FILENAME%
+python-autobahn-23.6.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-autobahn
+
+%BASE%
+python-autobahn
+
+%VERSION%
+23.6.2-1
+
+%DESC%
+Real-time framework for Web, Mobile & Internet of Things
+
+%CSIZE%
+974092
+
+%ISIZE%
+8490425
+
+%MD5SUM%
+0a17e504ffa6b7ec8fb21dd00f26cfca
+
+%SHA256SUM%
+77f947db0845247aa6cf478da740d8941e42657d5fa855a3a6d7c8ed8a62c302
+
+%PGPSIG%
+iHQEABYIAB0WIQQNmeQ7UMKtIbreRjJJPeIcgk6VQQUCZJbv+gAKCRBJPeIcgk6VQVEDAQCQGMIeCO9ITs/O3gT0y4lteouHyzmUr760xPoAATHw8AD4yH+7NFJpXjaULzSj3h71556OMZlrt/pZ8puwQTrSCQ==
+
+%URL%
+https://crossbar.io/autobahn/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1687613289
+
+%PACKAGER%
+Chih-Hsuan Yen <yan12125@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+python-cffi
+python-twisted
+python-txaio
+python-wsaccel
+python-cryptography
+python-hyperlink
+python-zope-interface
+
+%OPTDEPENDS%
+python-cbor2: CBOR serializer support
+python-flatbuffers: FlatBuffers serializer support
+python-msgpack: MsgPack serializer support
+python-u-msgpack: pure-python alternative to python-msgpack for MsgPack serializer support
+python-ubjson: UBJSON serializer support
+python-ujson: accelerated JSON serializer support
+python-argon2_cffi: WAMP-SCRAM authentication support
+python-passlib: WAMP-SCRAM authentication support
+python-pynacl: WAMP-cryptosign and WAMP-cryptobox support
+python-pytrie: WAMP-cryptobox support
+python-qrcode: support QR codes in WAMP
+python-pyopenssl: SSL/TLS support
+python-snappy: snappy compression suppport for WebSocket messages
+python-click: for text highlights
+python-txtorcon: connections to Tor Onion services
+
+%MAKEDEPENDS%
+python-argon2_cffi
+python-cbor2
+python-flatbuffers
+python-msgpack
+python-passlib
+python-pynacl
+python-pytrie
+python-setuptools
+python-ubjson
+python-u-msgpack
+python-ujson
+python-qrcode
+python-pyopenssl
+python-snappy
+python-click
+python-txtorcon
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-asyncio
+

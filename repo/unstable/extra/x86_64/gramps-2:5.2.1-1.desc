@@ -1,0 +1,66 @@
+%FILENAME%
+gramps-2:5.2.1-1-any.pkg.tar.zst
+
+%NAME%
+gramps
+
+%BASE%
+gramps
+
+%VERSION%
+2:5.2.1-1
+
+%DESC%
+Genealogy program, which helps you track your family tree
+
+%CSIZE%
+12247537
+
+%ISIZE%
+77777255
+
+%MD5SUM%
+fb48d13bc3570324408c869d5e700abc
+
+%SHA256SUM%
+ab454c7d95ed5b25851eb03aaceefd0fea5e6cbb30a3ea9169b94140b6ef5e2f
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmYIciYACgkQek52CV2KUuR/6wf/duHM17xrkdcZENVVTKFPnNrnFDUuZIkq2IVH0xX0Ys62LLjnyAvnV/u6AqnNg8qoWnot6EGwaCAQnTp1edZW5jbZR6nKHwY15uXKFJtfST04qernGWZ6A/O89A8nMJa6QuSPf9HYcN4YplRNM0wX8P02txI4JhCnd6ARA1mjUOojtTCy/DI0mCpRsDGv3/odNEyTc98gLUY5ExjeChR+/qP6ajX7NhJ7qQ4Gt9sXxkyGLu/ej0BuqsA6120dgFY8BwuIH+JlYCQ4RxmgzyGMjqEqwaZdcE/ZJtN1SgerPhFXr4sCLfjeCGq70HErW9OjZUkFbrhofsKp6v6EeVEF+w==
+
+%URL%
+https://gramps-project.org/
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1711829456
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gtk3
+python-bsddb
+python-cairo
+python-gobject
+xdg-utils
+
+%OPTDEPENDS%
+osm-gps-map: show maps in the geography view
+graphviz: enable creation of graphs (required for tree reports)
+python-pyicu: improves localised sorting
+gtkspell3: enable spell checking in the notes
+rcs: manage multiple revisions of your family trees
+python-pillow: crop and convert images to JPG
+libgexiv2: manage Exif metadata embedded in your media
+geocode-glib: associate a geographical position to a place name
+
+%MAKEDEPENDS%
+intltool
+python-setuptools
+

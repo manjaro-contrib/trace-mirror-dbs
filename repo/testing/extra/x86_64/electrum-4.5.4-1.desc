@@ -1,0 +1,78 @@
+%FILENAME%
+electrum-4.5.4-1-any.pkg.tar.zst
+
+%NAME%
+electrum
+
+%BASE%
+electrum
+
+%VERSION%
+4.5.4-1
+
+%DESC%
+Lightweight Bitcoin wallet
+
+%CSIZE%
+6895723
+
+%ISIZE%
+41358863
+
+%MD5SUM%
+227ac5c528d79e6f308524604632f2cb
+
+%SHA256SUM%
+0a7d58326352b580708725ed578509118401beb5a02e554c4cb01c2621294f22
+
+%PGPSIG%
+iQIzBAABCAAdFiEEkDurc2QOttZVM+/zRo8SLOgWIpUFAmYFelQACgkQRo8SLOgWIpWWvA//WYfrnrgrSD/0mnVGtLKs5Ub7Ii6t9s8yvWcXsheBBv22pAS7IqAAi1Mds/B8jamO3BRs5QkJlQUpPiAnV6j2MHaL0ZTXG6r2XyMxZiO9Xsdhzpuc1qChIJlZpG4oRbdaT/esSuqxn8COVSAlQ2srejy4lyy84PqnXwlrH6KEHb78GpT/ZChxDPZ2giHyWaqWCvlkVHIIl1bAhBbILyazNO7kAHn6t44NT1iTh5dwWbzX6t8eWn12eNPtmHBjQ6sUyBMJr6JaUom0Jajwji88k7DFdEZ44v1/0vxskop8WnkBOvse34RaFiUTrfu4pFs1RxA/N0sqIPoG40d8oDDWHd0DOEnUmWEre5GUDcpJAHojfUn4xYtUwyi5V0KjT6ypbT9oSfmGh5qX5UuuT3P1u8NiZUEd/u4CQGrvj3bCQ2oLWB5KOKkwJdVfRlht6QMm3WLIW73XbEJTwBvxdihylE4aL5+2TRlfrEt+GcekAzTQG4EI4ZLUTDOpSlNtz9HB9KcWWBMGrbWOBf7k/IHC9MRCruAuBZOpODck33kkTUHg5hu2vw2n5UFOB/ll/ZyP6d49oTnFSWM2NB3h8bfKL/nycd8/qLItAU1im7Xe04K3jxV6/T0KAqi5eEN7YeT9vMQmZlKXlZ0wALoVJGX40IM6TDGYC3O+Yrgc9qi2jC8=
+
+%URL%
+https://electrum.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1711634969
+
+%PACKAGER%
+Santiago Torres-Arias <santiago@archlinux.org>
+
+%DEPENDS%
+python-pyaes
+python-ecdsa
+python-pbkdf2
+python-requests
+python-qrcode
+python-protobuf
+python-dnspython
+python-jsonrpclib-pelix
+python-pysocks
+python-pyqt5
+python-pycryptodomex
+python-websocket-client
+python-certifi
+python-aiorpcx
+python-aiohttp
+python-aiohttp-socks
+libsecp256k1
+python-bitstring
+python-jsonpatch
+
+%OPTDEPENDS%
+python-btchip: BTChip hardware wallet support
+python-hidapi: Digital Bitbox hardware wallet support
+python-matplotlib: plot transaction history in graphical mode
+zbar: QR code reading support
+python-rpyc: send commands to Electrum Python console from an external script
+python-qdarkstyle: optional dark theme in graphical mode
+python-pycryptodomex: use PyCryptodome AES implementation instead of pyaes
+
+%MAKEDEPENDS%
+python-setuptools
+
