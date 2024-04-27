@@ -1,0 +1,79 @@
+%FILENAME%
+python-google-auth-2.29.0-2-any.pkg.tar.zst
+
+%NAME%
+python-google-auth
+
+%BASE%
+python-google-auth
+
+%VERSION%
+2.29.0-2
+
+%DESC%
+Google Authentication Library
+
+%CSIZE%
+234688
+
+%ISIZE%
+1981036
+
+%MD5SUM%
+71114d919b42b51a87eefd7d0ed4a9d2
+
+%SHA256SUM%
+3e8bde22878b1a25204569b447bad2b39dde35a80ae12bf85a7333808a383ac5
+
+%PGPSIG%
+iQIzBAABCgAdFiEELjbYYgIhSC/EXLfyqRdkdZMmtEAFAmYXdqIACgkQqRdkdZMmtEDsQRAAhUG7O9D8IFkA5RfSglx3yVifjSc8A1VJhX5h7xZ9CKVaGIAYAVKTOreAK3/MU3CJkTy6jhOJBDKZ9B6+sE/6epjTYrQn8xQMyA2Ipyqqr7QEcyVUB/ag7Jg/yLP3Wr1Y6kVPCh0tSWdxyG2Ud7bJADc2e8QPCgnI8Uocy1sNPmlpOxoha0XUzOJWnMy3G1Z05fQf7c59TWoVW6aoG7IPdxE208R5Hj/6l79IemvsL/qNS21JHhqymdKzylY2DuuQTy9Wsg+zzLTCtbW59+aWmcPlllwHkFWfbrGz5xm0966gq1Tx0ZyEgU+WChChOVxTQwslvpbZU4cpk+bEfFZvAsDiPt/mcZr8JXaENDOSeVN/7f4/9fEPiEQNIqItiuIswmXf+DiGEtuvP3JgWXC/6da+rWE5INJFrEENypEbewNuoTOf6BpSu7oPUtQzCmgfCfv96r7kjVXQm10cOeOOycuaJWN10KKZHqJQfzB9tvpdzywjwQhAmoc8XYhYL/iYrHoye8O84d/UoYExSvgUK2FX7bD3rng1lk62U8d0QioXgrm1l6wT1NIGxq553vyYngnQ2e9SWGFegwvyt2NvAefWDYO/B6wmsuSLuQw4HTY7PhaE11xmfn0oeJJtrCMMeQvJOiy7Je5skONtFnsvc4QEX2nk3BI6ZkLlcP3dT+s=
+
+%URL%
+https://github.com/GoogleCloudPlatform/google-auth-library-python
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712813602
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%DEPENDS%
+python
+python-cachetools
+python-certifi
+python-oauth2client
+python-packaging
+python-pyasn1-modules
+python-rsa
+
+%OPTDEPENDS%
+python-aiohttp: for async HTTP support
+python-cryptography: for TLS support
+python-pyopenssl: for TLS support
+python-pyu2f: for reauthentication support
+python-requests: for async HTTP support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-cryptography
+python-flask
+python-freezegun
+python-oauth2client
+python-requests
+python-pyopenssl
+python-pyu2f
+python-pytest
+python-pytest-localserver
+python-responses
+
