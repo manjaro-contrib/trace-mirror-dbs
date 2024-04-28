@@ -1,0 +1,107 @@
+%FILENAME%
+rhythmbox-3.4.7-2-x86_64.pkg.tar.zst
+
+%NAME%
+rhythmbox
+
+%BASE%
+rhythmbox
+
+%VERSION%
+3.4.7-2
+
+%DESC%
+Music playback and management application
+
+%CSIZE%
+2573391
+
+%ISIZE%
+13736772
+
+%MD5SUM%
+e44da072f01edc6d5577881dce3364fd
+
+%SHA256SUM%
+f1a6732e13445597040866de199d2638d64ffc736176d53ff2e820ffb4941660
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZhNqbwAKCRC4rAhgDxCM32yCAQDbaQKkd9zB1phTpxm8Am50abcm1FEgGshVtVkTsKgztgD/RmrkBLrVHH4b7YG5t/47RVJzM/K/aXWn6Ohec67hjAA=
+
+%URL%
+https://wiki.gnome.org/Apps/Rhythmbox
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712548327
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%DEPENDS%
+at-spi2-core
+cairo
+dconf
+gcc-libs
+gdk-pixbuf2
+glib2
+glibc
+grilo
+gst-plugins-base
+gst-plugins-base-libs
+gst-plugins-good
+gstreamer
+gtk3
+hicolor-icon-theme
+json-glib
+libgirepository
+libgudev
+libnotify
+libpeas
+libsecret
+libsoup3
+libx11
+libxml2
+media-player-info
+pango
+python
+python-gobject
+tdb
+totem-plparser
+
+%OPTDEPENDS%
+brasero: Audio CD Recorder plugin
+grilo-plugins: Grilo media browser plugin
+gst-libav: Extra media codecs
+gst-plugins-bad: Extra media codecs
+gst-plugins-ugly: Extra media codecs
+gvfs-mtp: Portable Players - Android plugin
+libdmapsharing: DAAP Music Sharing plugin
+libgpod: Portable Players - iPod plugin
+libmtp: Portable Players - MTP plugin
+lirc: LIRC plugin
+zeitgeist: Zeitgeist logging plugin
+
+%MAKEDEPENDS%
+brasero
+git
+gobject-introspection
+gtk-doc
+libdmapsharing
+libgpod
+libmtp
+lirc
+meson
+vala
+yelp-tools
+zeitgeist
+
+%CHECKDEPENDS%
+check
+xorg-server-xvfb
+

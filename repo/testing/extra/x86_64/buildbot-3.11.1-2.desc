@@ -1,0 +1,132 @@
+%FILENAME%
+buildbot-3.11.1-2-any.pkg.tar.zst
+
+%NAME%
+buildbot
+
+%BASE%
+buildbot
+
+%VERSION%
+3.11.1-2
+
+%DESC%
+The Continuous Integration Framework
+
+%CSIZE%
+1843998
+
+%ISIZE%
+12689517
+
+%MD5SUM%
+5d942452e948eb177407ffe413c97581
+
+%SHA256SUM%
+f04655f845dfcdac5652c3eeef538692a80102d5d61aadde5caa920ec1f059d9
+
+%PGPSIG%
+iHUEABYKAB0WIQQNmeQ7UMKtIbreRjJJPeIcgk6VQQUCZhVx5gAKCRBJPeIcgk6VQVZ8AQDHNhbKX1bXVPoIOlFFZ92cVTJAZUSNQGAWb9qsdPFJ5wD/S9gosb5g1p+7vpG9ziqIXfp2UJc3SLK9Pt1zoCSKlwQ=
+
+%URL%
+https://buildbot.net
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712680941
+
+%PACKAGER%
+Chih-Hsuan Yen <yan12125@archlinux.org>
+
+%DEPENDS%
+buildbot-common
+python
+python-twisted
+python-jinja
+python-msgpack
+python-zope-interface
+python-sqlalchemy
+python-alembic
+python-dateutil
+python-txaio
+python-autobahn
+python-pyjwt
+python-yaml
+python-croniter
+python-unidiff
+python-importlib_resources
+python-packaging
+
+%OPTDEPENDS%
+python-pyopenssl: to use SSL/TLS in mail or IRC notifiers
+pass: to use SecretInPass provider
+vault: to use HashiCorpVaultSecretProvider or HashiCorpVaultKvSecretProvider provider
+python-hvac: to use HashiCorpVaultKvSecretProvider provider
+python-subunit: for SubunitShellCommand
+python-treq: for using HTTP requests as steps
+python-requests: for using HTTP requests as steps
+python-txrequests: for using HTTP requests as steps
+buildbot-worker: for local worker
+libvirt-python: for libvirt worker
+python-boto3: for AWS EC2 latent worker
+python-botocore: for AWS EC2 latent worker
+python-docker: for Docker latent worker
+python-novaclient: for OpenStack latent worker
+python-keystoneauth1: for OpenStack latent worker
+python-graphql-core: GraphQL API for buildbot
+python-ldap3: to authenticate users via LDAP
+python-pypugjs: to use custom Pug.js templates
+python-lz4: to compress logs using lz4
+python-aiohttp: for dev-proxy
+python-markdown: for descriptions in markdown
+
+%MAKEDEPENDS%
+python-twisted
+python-jinja
+python-msgpack
+python-zope-interface
+python-sqlalchemy
+python-alembic
+python-dateutil
+python-txaio
+python-autobahn
+python-pyjwt
+python-yaml
+python-croniter
+python-unidiff
+python-importlib_resources
+python-packaging
+python-graphql-core
+python-hvac
+libvirt-python
+python-novaclient
+python-pypugjs
+python-aiohttp
+python-setuptools
+python-six
+python-sphinx-jinja
+python-sphinx_rtd_theme
+git
+yarn
+
+%CHECKDEPENDS%
+python-boto3
+python-ldap3
+python-lz4
+python-treq
+python-txrequests
+python-moto
+python-docker
+python-parameterized
+python-subunit
+python-psutil
+python-ruamel-yaml
+python-markdown
+openssh
+chromium
+

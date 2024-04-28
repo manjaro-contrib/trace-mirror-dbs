@@ -1,0 +1,67 @@
+%FILENAME%
+optimus-manager-1.5-4-any.pkg.tar.zst
+
+%NAME%
+optimus-manager
+
+%BASE%
+optimus-manager
+
+%VERSION%
+1.5-4
+
+%DESC%
+Management utility to handle GPU switching for Optimus laptops
+
+%CSIZE%
+78293
+
+%ISIZE%
+368672
+
+%MD5SUM%
+cafae8e915f024fb83d773559c555c32
+
+%SHA256SUM%
+c2f13950c571c345308a1e8f7477cd512715952c9e202a240b48f82d26d5ce6d
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmYtTvoACgkQFQwgB0PtRtgbJwgAx9xG5QgGXt3Xh9YxhuJz0dWi2doRT81AzN/jnBZEYi8+lwmmEoJUZJ0u9ou9UNqMnEpCwAumKMm/x5FoXrajHVxa88HdbB7Gj64npBLHtqEYLVl9HFsFKz568piqZdj+KZlIaqEIGV45VPOZMiIA7dzpfWAtxhKN8YQ02ZbChXpnIx4Nd7ma1yLb44RKxJFoxBTJgzqcwArws8W2SD0UMV5YR6sMDMUV54oU8Ek749nSn5z+QZbK6JMvKVkyBwf3AUQQ5Ze7TqUSCTAZZN7UpjAGtq+oY6OvI4Jpr5uelB8QBv8bmuAm7/bLv9kqX6m3Oit2gjcuc+9SG245xL4C5Q==
+
+%URL%
+https://github.com/Askannz/optimus-manager
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1714245095
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%CONFLICTS%
+envycontrol
+supergfxctl
+
+%DEPENDS%
+dbus-python
+glxinfo
+python
+xorg-xrandr
+
+%OPTDEPENDS%
+bbswitch: alternative power switching method
+acpi_call: alternative power switching method
+xf86-video-intel: provides the Xorg intel driver
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
