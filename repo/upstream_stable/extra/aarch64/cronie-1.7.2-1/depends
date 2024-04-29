@@ -1,0 +1,15 @@
+%DEPENDS%
+pam
+bash
+run-parts
+
+%CONFLICTS%
+cron
+
+%PROVIDES%
+cron
+
+%OPTDEPENDS%
+smtp-server: send job output via email
+smtp-forwarder: forward job output to email server
+

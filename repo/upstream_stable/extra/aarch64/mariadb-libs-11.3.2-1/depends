@@ -1,0 +1,23 @@
+%DEPENDS%
+liburing
+libxcrypt
+libcrypt.so=2-64
+openssl
+pcre2
+zlib
+zstd
+
+%CONFLICTS%
+libmysqlclient
+libmariadbclient
+mariadb-connector-c
+
+%PROVIDES%
+libmariadbclient
+mariadb-connector-c
+libmariadb.so=3-64
+libmariadbd.so=19-64
+
+%OPTDEPENDS%
+krb5: for gssapi authentication
+

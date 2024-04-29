@@ -1,0 +1,50 @@
+%DEPENDS%
+lua51-cassowary
+lua51-cldr
+lua51-cliargs
+lua51-compat53
+lua51-cosmo
+lua51-expat
+lua51-filesystem
+lua51-fluent
+lua51-linenoise
+lua51-loadkit
+lua51-lpeg
+lua51-luaepnf
+lua51-luarepl
+lua51-luautf8
+lua51-penlight
+lua51-sec
+lua51-socket
+lua51-vstruct
+lua51-zlib
+fontconfig
+libfontconfig.so=1-64
+freetype2
+libfreetype.so=6-64
+ttf-gentium-plus
+git
+glibc
+harfbuzz
+libharfbuzz.so=0-64
+libharfbuzz-subset.so=0-64
+icu
+libicudata.so=74-64
+libicui18n.so=74-64
+libicuio.so=74-64
+libicuuc.so=74-64
+libpng
+libpng16.so=16-64
+luajit
+zlib
+libz.so=1-64
+
+%PROVIDES%
+libtexpdf.so=0-64
+
+%OPTDEPENDS%
+libertinus-font: default math font
+luarocks: manage addon packages
+noto-fonts-cjk: default font for tate enabled classes
+ttf-hack: default mono font
+

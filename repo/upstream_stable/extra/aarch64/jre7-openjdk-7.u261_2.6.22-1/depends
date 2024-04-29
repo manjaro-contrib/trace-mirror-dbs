@@ -1,0 +1,20 @@
+%DEPENDS%
+jre7-openjdk-headless=7.u261_2.6.22-1
+xdg-utils
+hicolor-icon-theme
+
+%CONFLICTS%
+openjdk6
+
+%PROVIDES%
+java-runtime=7
+java-runtime-openjdk=7
+
+%OPTDEPENDS%
+icedtea-web: web browser plugin + Java Web Start
+alsa-lib: for basic sound support
+giflib: for gif format support
+libpulse: for advanced sound support
+gtk2: for the Gtk+ look and feel - desktop usage
+libxtst: linked in xawt/libmawt.so - desktop usage
+

@@ -1,0 +1,37 @@
+%DEPENDS%
+gcc-libs
+glibc
+alsa-lib
+libasound.so=2-64
+jack
+libjack.so=0-64
+audiofile
+libaudiofile.so=1-64
+liblo
+liblo.so=7-64
+lilv
+liblilv-0.so=0-64
+ncurses
+libncursesw.so=6-64
+readline
+libreadline.so=8-64
+libsamplerate
+libsamplerate.so=0-64
+libsndfile
+libsndfile.so=1-64
+
+%PROVIDES%
+lv2-host
+
+%OPTDEPENDS%
+bash: for libecasoundc-config and libecasound-config
+lame: MP3 encoding
+libfaad2: for .aac/.m4a/.mp4 file support
+libfaac: for .aac/.m4a/.mp4 file support
+libmikmod: for tracker module
+mpg123: MP3 decoding
+python: for ecamonitor
+ruby: ECI API
+timidity++: for .mid file support
+vorbis-tools: for .ogg file support
+

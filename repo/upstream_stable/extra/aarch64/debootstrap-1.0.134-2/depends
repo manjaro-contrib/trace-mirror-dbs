@@ -1,0 +1,11 @@
+%DEPENDS%
+perl
+wget
+binutils
+
+%OPTDEPENDS%
+gnupg: check release signatures
+debian-archive-keyring: check release signatures for Debian
+debian-ports-archive-keyring: check release signatures for Debian Ports
+ubuntu-keyring: check release signatures for Ubuntu
+

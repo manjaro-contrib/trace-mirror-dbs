@@ -1,0 +1,11 @@
+%DEPENDS%
+glib2
+libgcrypt
+tpm2-tss
+
+%PROVIDES%
+libsecret-1.so=0-64
+
+%OPTDEPENDS%
+org.freedesktop.secrets: secret storage backend
+

@@ -1,0 +1,27 @@
+%DEPENDS%
+freeglut
+gcc-libs
+glibc
+glu
+qt6-base
+qt6-scxml
+ttf-fira-sans
+json-c
+libjson-c.so=5-64
+libglvnd
+libGL.so=1-64
+libtraceevent
+libtraceevent.so=1-64
+libtracefs
+libtracefs.so=1-64
+trace-cmd
+libtracecmd.so=1-64
+
+%PROVIDES%
+libkshark.so=2-64
+libkshark-plot.so=2.3.1-64
+libkshark-gui.so=2.3.1-64
+
+%OPTDEPENDS%
+bash: for kshark-su-record
+

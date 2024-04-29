@@ -1,0 +1,11 @@
+%DEPENDS%
+systemd-libs
+mesa
+libdrm
+glibc
+
+%CONFLICTS%
+xorg-server<1.20.0
+X-ABI-VIDEODRV_VERSION<25
+X-ABI-VIDEODRV_VERSION>=26
+

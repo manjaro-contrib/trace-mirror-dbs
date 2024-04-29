@@ -1,0 +1,12 @@
+%DEPENDS%
+mkinitcpio-busybox
+psmisc
+tinyssh
+
+%CONFLICTS%
+mkinitcpio-dropbear
+
+%OPTDEPENDS%
+mkinitcpio-netconf: Network interface configuration
+tinyssh-convert: For converting OpenSSH keys
+

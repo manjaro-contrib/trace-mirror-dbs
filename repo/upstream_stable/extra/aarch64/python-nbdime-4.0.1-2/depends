@@ -1,0 +1,23 @@
+%DEPENDS%
+python
+jupyter-nbformat
+python-colorama
+python-pygments
+python-tornado
+python-requests
+python-gitpython
+jupyter-server
+jupyter-server-mathjax
+python-jinja
+python-traitlets
+python-jupyter-core
+
+%PROVIDES%
+jupyterlab-extension-nbdime
+jupyter-nbdime
+
+%OPTDEPENDS%
+python-tabulate: for nbdime.profiling
+jupyter-notebook: support for notebook 6
+python-packaging: support for notebook 6
+

@@ -1,0 +1,23 @@
+%DEPENDS%
+libwireplumber=0.5.2-1
+gcc-libs
+glibc
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+libgio-2.0.so=0-64
+libpipewire
+libpipewire-0.3.so=0-64
+libsystemd.so=0-64
+lua
+pipewire
+systemd-libs
+
+%CONFLICTS%
+pipewire-media-session
+
+%PROVIDES%
+pipewire-session-manager
+
+%OPTDEPENDS%
+wireplumber-docs: Documentation
+

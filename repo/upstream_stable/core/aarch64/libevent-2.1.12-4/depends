@@ -1,0 +1,13 @@
+%DEPENDS%
+openssl
+
+%PROVIDES%
+libevent-2.1.so=7-64
+libevent_core-2.1.so=7-64
+libevent_extra-2.1.so=7-64
+libevent_openssl-2.1.so=7-64
+libevent_pthreads-2.1.so=7-64
+
+%OPTDEPENDS%
+python: event_rpcgen.py
+

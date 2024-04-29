@@ -1,0 +1,25 @@
+%DEPENDS%
+glibc
+alsa-lib
+libasound.so=2-64
+flac
+libFLAC.so=12-64
+jack
+libjack.so=0-64
+libao
+libao.so=4-64
+libogg
+libogg.so=0-64
+libvorbis
+libvorbis.so=0-64
+libvorbisenc.so=2-64
+
+%PROVIDES%
+soundfont-synthesizer
+timidity
+
+%OPTDEPENDS%
+ncurses: for the ncurses interface
+tk: for the Tk interface
+xaw3d: for the Xaw interface
+

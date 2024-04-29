@@ -1,0 +1,19 @@
+%DEPENDS%
+bash
+glibc
+libarchive
+curl
+gpgme
+pacman-mirrorlist
+gettext
+gawk
+coreutils
+gnupg
+grep
+
+%PROVIDES%
+libalpm.so=14-64
+
+%OPTDEPENDS%
+perl-locale-gettext: translation support in makepkg-template
+

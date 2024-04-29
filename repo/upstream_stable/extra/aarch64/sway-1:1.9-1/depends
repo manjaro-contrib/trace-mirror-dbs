@@ -1,0 +1,32 @@
+%DEPENDS%
+cairo
+gdk-pixbuf2
+libevdev.so=2-64
+libinput
+libjson-c.so=5-64
+libpixman-1.so=0-64
+libudev.so=1-64
+libwayland-server.so=0-64
+libwlroots.so=12-64
+libxcb
+libxkbcommon.so=0-64
+pango
+pcre2
+ttf-font
+xcb-util-wm
+
+%OPTDEPENDS%
+foot: Terminal emulator used in the default configuration
+i3status: Status line generation
+mako: Lightweight notification daemon
+polkit: System privilege control. Required if not using seatd service
+swaybg: Wallpaper tool for sway
+sway-contrib: Collection of user-contributed scripts for sway
+swayidle: Idle management daemon
+swaylock: Screen locker
+waybar: Highly customizable bar
+wmenu: Application launcher used in default config
+xorg-xwayland: X11 support
+xdg-desktop-portal-gtk: Default xdg-desktop-portal for file picking
+xdg-desktop-portal-wlr: xdg-desktop-portal backend
+

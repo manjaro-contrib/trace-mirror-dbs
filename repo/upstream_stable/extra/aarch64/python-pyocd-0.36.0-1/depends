@@ -1,0 +1,29 @@
+%DEPENDS%
+python
+python-capstone
+python-cmsis-pack-manager
+python-colorama
+python-importlib-metadata
+python-importlib-resources
+python-intelhex
+python-intervaltree
+python-lark
+python-natsort
+python-prettytable
+python-pyelftools
+python-pylink-square
+python-pyusb
+python-pyyaml
+python-six
+python-typing-extensions
+
+%CONFLICTS%
+pyocd
+
+%PROVIDES%
+pyocd
+
+%OPTDEPENDS%
+python-setuptools: for plugin support
+stlink: for stlink device detection via udev
+

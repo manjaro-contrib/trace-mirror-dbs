@@ -1,0 +1,14 @@
+%DEPENDS%
+spice
+systemd-libs
+libxfont2
+glibc
+
+%CONFLICTS%
+xf86-video-qxl-git
+X-ABI-VIDEODRV_VERSION<25
+X-ABI-VIDEODRV_VERSION>=26
+
+%OPTDEPENDS%
+python: for Xspice
+

@@ -1,0 +1,13 @@
+%DEPENDS%
+bash
+libelf
+zlib
+
+%PROVIDES%
+libdwarves.so=1-64
+libdwarves_emit.so=1-64
+libdwarves_reorganize.so=1-64
+
+%OPTDEPENDS%
+ostra-cg: Generate call graphs from encoded traces
+

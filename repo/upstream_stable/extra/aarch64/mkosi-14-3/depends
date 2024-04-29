@@ -1,0 +1,21 @@
+%DEPENDS%
+arch-install-scripts
+python
+python-pexpect
+qemu-img
+
+%OPTDEPENDS%
+btrfs-progs: raw_btrfs and subvolume output formats
+debian-archive-keyring: build Debian images
+debootstrap: build Debian or Ubuntu images
+cryptsetup: add dm-verity partitions
+dosfstools: build bootable images
+gnupg: sign images
+qemu: run bootable images using QEMU
+sbsigntools: sign EFI binaries for UEFI SecureBoot
+squashfs-tools: raw_squashfs output format
+tar: tar output format
+ubuntu-keyring: build Ubuntu images
+xz: compress images with xz
+zstd: compress images with zstd
+

@@ -1,0 +1,30 @@
+%DEPENDS%
+alsa-lib
+fftw
+libcap
+libltdl
+libpulse=17.0-3
+libsm
+libsoxr
+libxtst
+orc
+rtkit
+speexdsp
+tdb
+webrtc-audio-processing-1
+
+%CONFLICTS%
+pipewire-pulse
+
+%PROVIDES%
+pulse-native-provider
+
+%OPTDEPENDS%
+pulseaudio-alsa: ALSA configuration (recommended)
+pulseaudio-bluetooth: Bluetooth support
+pulseaudio-equalizer: Graphical equalizer
+pulseaudio-jack: Jack support
+pulseaudio-lirc: IR (lirc) support
+pulseaudio-rtp: RTP and RAOP support
+pulseaudio-zeroconf: Zeroconf support
+

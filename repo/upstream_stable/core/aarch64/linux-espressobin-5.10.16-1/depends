@@ -1,0 +1,17 @@
+%DEPENDS%
+coreutils
+linux-firmware
+kmod
+mkinitcpio>=0.7
+uboot-tools
+
+%CONFLICTS%
+linux
+
+%PROVIDES%
+linux=5.10.16
+WIREGUARD-MODULE
+
+%OPTDEPENDS%
+crda: to set the correct wireless channels of your country
+

@@ -1,0 +1,17 @@
+%DEPENDS%
+krb5
+openssl
+readline
+zlib
+libldap
+
+%CONFLICTS%
+postgresql-client
+
+%PROVIDES%
+postgresql-client
+libpq.so=5-64
+libecpg.so=6-64
+libecpg_compat.so=3-64
+libpgtypes.so=3-64
+

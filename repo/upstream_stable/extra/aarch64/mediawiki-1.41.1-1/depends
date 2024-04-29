@@ -1,0 +1,17 @@
+%DEPENDS%
+php
+diffutils
+
+%OPTDEPENDS%
+pcre2: for regular expressions support
+php-intl: to handle Unicode normalization
+php-pgsql: for PostgreSQL database support
+php-sqlite: for sqlite database support
+memcached: for cache support
+php-gd: for thumbnails rendering
+imagemagick: for thumbnails rendering
+smtp-forwarder: for mail sending
+python: required for SyntaxHighlight/ConfirmEdit extensions
+perl: compare_schemas.pl and mediawiki_mysql2postgres.pl
+git: hash versions on Special:Version
+

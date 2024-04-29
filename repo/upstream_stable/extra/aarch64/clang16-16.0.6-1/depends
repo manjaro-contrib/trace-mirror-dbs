@@ -1,0 +1,9 @@
+%DEPENDS%
+llvm16-libs
+gcc
+compiler-rt16
+
+%OPTDEPENDS%
+openmp: OpenMP support in clang with -fopenmp
+llvm16: referenced by some clang headers
+

@@ -1,0 +1,17 @@
+%DEPENDS%
+hdf5-openmpi
+pnetcdf-openmpi
+curl
+libxml2
+libzip
+
+%CONFLICTS%
+netcdf
+
+%PROVIDES%
+netcdf
+
+%OPTDEPENDS%
+netcdf-fortran: fortran bindings
+netcdf-cxx: c++ bindings
+

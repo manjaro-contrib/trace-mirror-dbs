@@ -1,0 +1,24 @@
+%DEPENDS%
+mariadb-clients=11.3.2
+bzip2
+libxml2
+lz4
+systemd-libs
+libxml2
+zstd
+
+%CONFLICTS%
+mysql
+
+%PROVIDES%
+mysql=11.3.2
+
+%OPTDEPENDS%
+cracklib: for cracklib plugin
+curl: for ha_s3 plugin
+galera: for MariaDB cluster with Galera WSREP
+judy: for Open Query GRAPH (OQGraph) computation engine
+perl-dbd-mariadb: for mariadb-hotcopy, mariadb-convert-table-format and mariadb-setpermission
+python-mysqlclient: for myrocks_hotbackup
+xz: lzma provider
+

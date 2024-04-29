@@ -1,0 +1,13 @@
+%DEPENDS%
+libxi
+libxinerama
+libxrandr
+systemd-libs
+libx11
+glibc
+
+%CONFLICTS%
+xorg-server<21.1.1
+X-ABI-XINPUT_VERSION<24
+X-ABI-XINPUT_VERSION>=25
+

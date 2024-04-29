@@ -1,0 +1,23 @@
+%DEPENDS%
+krb5
+openssl
+sqlite
+mariadb-libs
+libsodium
+postgresql-libs
+bzip2
+lz4
+expat
+curl
+pam
+systemd-libs
+
+%PROVIDES%
+imap-server
+pop3-server
+
+%OPTDEPENDS%
+libldap: ldap plugin
+lua53: LUA auth and push support
+clucene: alternative FTS indexer
+

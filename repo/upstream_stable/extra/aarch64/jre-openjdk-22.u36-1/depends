@@ -1,0 +1,36 @@
+%DEPENDS%
+java-runtime-common>=3
+ca-certificates-utils
+nss
+libjpeg-turbo
+libjpeg.so=8-64
+lcms2
+liblcms2.so=2-64
+libnet
+freetype2
+libfreetype.so=6-64
+harfbuzz
+libharfbuzz.so=0-64
+glibc
+gcc-libs
+giflib
+libgif.so=7-64
+libpng
+
+%CONFLICTS%
+jdk-openjdk
+jre-openjdk-headless
+
+%PROVIDES%
+java-runtime=22
+java-runtime-openjdk=22
+jre22-openjdk=22.u36-1
+java-runtime-headless=22
+java-runtime-headless-openjdk=22
+jre22-openjdk-headless=22.u36-1
+
+%OPTDEPENDS%
+alsa-lib: for basic sound support
+gtk2: for the Gtk+ 2 look and feel - desktop usage
+gtk3: for the Gtk+ 3 look and feel - desktop usage
+

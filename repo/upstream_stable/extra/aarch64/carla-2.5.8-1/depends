@@ -1,0 +1,45 @@
+%DEPENDS%
+gcc-libs
+glibc
+hicolor-icon-theme
+libx11
+python
+python-pyqt5
+python-pyliblo
+python-rdflib
+qt5-base
+qt5-svg
+sdl2
+sh
+alsa-lib
+libasound.so=2-64
+file
+libmagic.so=1-64
+fluidsynth
+libfluidsynth.so=3-64
+freetype2
+libfreetype.so=6-64
+libglvnd
+libGL.so=1-64
+liblo
+liblo.so=7-64
+libpulse
+libpulse.so=0-64
+libpulse-simple.so=0-64
+libsndfile
+libsndfile.so=1-64
+
+%PROVIDES%
+dssi-host
+ladspa-host
+lv2-host
+vst-host
+vst3-host
+
+%OPTDEPENDS%
+jack: for using carla with JACK
+lv2-host: for the LV2 plugin
+vst-host: for the VST plugin
+python-requests: for qtweb backend
+python-tornado: for MOD UI
+

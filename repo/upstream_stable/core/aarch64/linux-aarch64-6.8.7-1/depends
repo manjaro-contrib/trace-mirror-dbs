@@ -1,0 +1,16 @@
+%DEPENDS%
+coreutils
+linux-firmware
+kmod
+mkinitcpio>=0.7
+
+%CONFLICTS%
+linux
+
+%PROVIDES%
+linux=6.8.7
+WIREGUARD-MODULE
+
+%OPTDEPENDS%
+wireless-regdb: to set the correct wireless channels of your country
+

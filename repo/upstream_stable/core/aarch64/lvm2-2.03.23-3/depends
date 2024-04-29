@@ -1,0 +1,17 @@
+%DEPENDS%
+bash
+device-mapper>=2.03.23
+systemd-libs
+libudev.so=1-64
+util-linux-libs
+libblkid.so=1-64
+readline
+libreadline.so=8-64
+thin-provisioning-tools
+libaio
+libaio.so=1-64
+
+%CONFLICTS%
+lvm
+mkinitcpio<38-1
+

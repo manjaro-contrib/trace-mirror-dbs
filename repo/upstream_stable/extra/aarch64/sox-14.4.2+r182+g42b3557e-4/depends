@@ -1,0 +1,26 @@
+%DEPENDS%
+file
+gcc-libs
+gsm
+libid3tag
+libltdl
+libpng
+zlib
+
+%PROVIDES%
+libsox.so=3-64
+
+%OPTDEPENDS%
+alsa-lib: alsa plugin
+flac: flac plugin
+lame: mp3 plugin
+libao: ao plugin
+libmad: mp3 plugin
+libpulse: pulse plugin
+libsndfile: caf, fap, mat4, mat5, paf, pvf, sd2, sndfile, w64 and xi plugins
+libvorbis: vorbis plugin
+opencore-amr: amr_nb and amr_wb plugins
+opusfile: opus plugin
+twolame: mp3 plugin
+wavpack: wavpack plugin
+

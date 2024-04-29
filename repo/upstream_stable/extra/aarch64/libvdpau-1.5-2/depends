@@ -1,0 +1,11 @@
+%DEPENDS%
+libxext
+
+%PROVIDES%
+libvdpau.so=1-64
+
+%OPTDEPENDS%
+libvdpau-va-gl: driver using VAAPI
+mesa-vdpau: driver for Mesa
+nvidia-utils: driver for NVIDIA
+

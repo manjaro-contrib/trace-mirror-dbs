@@ -1,0 +1,23 @@
+%DEPENDS%
+gdk-pixbuf2
+libgdk_pixbuf-2.0.so=0-64
+glib2
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+glibc
+gtk3
+libgtk-3.so=0-64
+jansson
+libcap
+ncurses
+libncursesw.so=6-64
+
+%CONFLICTS%
+mtr
+
+%PROVIDES%
+mtr=0.95
+
+%OPTDEPENDS%
+bash-completion: bash completion support
+

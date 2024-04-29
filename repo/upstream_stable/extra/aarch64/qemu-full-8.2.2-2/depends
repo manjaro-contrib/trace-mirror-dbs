@@ -1,0 +1,27 @@
+%DEPENDS%
+qemu-audio-alsa=8.2.2-2
+qemu-audio-dbus=8.2.2-2
+qemu-audio-jack=8.2.2-2
+qemu-audio-oss=8.2.2-2
+qemu-audio-pa=8.2.2-2
+qemu-audio-sdl=8.2.2-2
+qemu-audio-spice=8.2.2-2
+qemu-block-gluster=8.2.2-2
+qemu-block-iscsi=8.2.2-2
+qemu-chardev-baum=8.2.2-2
+qemu-desktop=8.2.2-2
+qemu-docs=8.2.2-2
+qemu-emulators-full=8.2.2-2
+qemu-hw-s390x-virtio-gpu-ccw=8.2.2-2
+qemu-pr-helper=8.2.2-2
+qemu-tests=8.2.2-2
+qemu-tools=8.2.2-2
+qemu-user=8.2.2-2
+
+%PROVIDES%
+qemu=8.2.2
+
+%OPTDEPENDS%
+qemu-user-static: for static user mode emulation of QEMU targets
+samba: for SMB/CIFS server support
+

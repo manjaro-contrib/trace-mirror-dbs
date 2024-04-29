@@ -1,0 +1,12 @@
+%DEPENDS%
+glibc
+alsa-lib
+libasound.so=2-64
+
+%PROVIDES%
+libaoss.so=0-64
+libalsatoss.so=0-64
+
+%OPTDEPENDS%
+bash: for aoss
+

@@ -1,0 +1,17 @@
+%DEPENDS%
+libdrm
+libva
+libx11
+wayland
+
+%CONFLICTS%
+onevpl
+
+%PROVIDES%
+onevpl
+libvpl.so=2-64
+
+%OPTDEPENDS%
+intel-media-sdk: runtime for legacy Intel GPUs
+onevpl-intel-gpu: runtime for Tiger Lake and newer GPUs
+

@@ -1,0 +1,14 @@
+%DEPENDS%
+mtdev
+systemd
+libevdev
+libwacom
+systemd-libs
+glibc
+
+%OPTDEPENDS%
+gtk4: libinput debug-gui
+python-pyudev: libinput measure
+python-libevdev: libinput measure
+python-yaml: used by various tools
+

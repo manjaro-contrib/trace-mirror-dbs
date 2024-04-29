@@ -1,0 +1,16 @@
+%DEPENDS%
+libperconaserverclient
+zlib
+zstd
+lz4
+openssl
+jemalloc
+readline
+
+%CONFLICTS%
+mysql-clients
+
+%PROVIDES%
+mysql-clients=8.1.0_1
+mariadb-clients=8.1.0_1
+

@@ -1,0 +1,18 @@
+%DEPENDS%
+perl
+
+%CONFLICTS%
+nagios-plugins
+
+%PROVIDES%
+nagios-plugins
+
+%OPTDEPENDS%
+net-snmp: for SNMP checking
+uriparser: for check_curl
+curl: for check_curl
+postgresql-libs: for check_pgsql
+mariadb-libs: for check_mysql_query and check_mysql
+libdbi: for check_dbi
+libldap: for check_ldap
+

@@ -1,0 +1,15 @@
+%DEPENDS%
+gst-plugins-base
+qt5-x11extras
+phonon-qt5
+
+%PROVIDES%
+phonon-qt5-backend
+
+%OPTDEPENDS%
+pulseaudio: PulseAudio support
+gst-plugins-good: PulseAudio support and good codecs
+gst-plugins-bad: additional codecs
+gst-plugins-ugly: additional codecs
+gst-libav: libav codec
+

@@ -1,0 +1,12 @@
+%DEPENDS%
+glibc
+
+%PROVIDES%
+libkate.so=1-64
+liboggkate.so=1-64
+
+%OPTDEPENDS%
+libkate-docs: for developer documentation
+libogg: for katalyzer, katedec and kateenc
+libpng: for kateenc
+

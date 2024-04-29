@@ -1,0 +1,14 @@
+%DEPENDS%
+glibc
+gcc-libs
+
+%PROVIDES%
+libncurses++w.so=6-64
+libformw.so=6-64
+libmenuw.so=6-64
+libpanelw.so=6-64
+libncursesw.so=6-64
+
+%OPTDEPENDS%
+bash: for ncursesw6-config
+

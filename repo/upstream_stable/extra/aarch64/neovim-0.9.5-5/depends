@@ -1,0 +1,26 @@
+%DEPENDS%
+libluv
+libtermkey
+libuv
+libvterm>0.1.4
+luajit
+msgpack-c
+tree-sitter
+tree-sitter-bash
+tree-sitter-c
+tree-sitter-lua
+tree-sitter-markdown
+tree-sitter-python
+tree-sitter-query
+tree-sitter-vimdoc
+unibilium
+
+%PROVIDES%
+vim-plugin-runtime
+
+%OPTDEPENDS%
+python-pynvim: for Python plugin support (see :help python)
+xclip: for clipboard support on X11 (or xsel) (see :help clipboard)
+xsel: for clipboard support on X11 (or xclip) (see :help clipboard)
+wl-clipboard: for clipboard support on wayland (see :help clipboard)
+

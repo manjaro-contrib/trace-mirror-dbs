@@ -1,0 +1,15 @@
+%DEPENDS%
+libinih
+libuuid.so=1-64
+pipewire
+qt6-base
+qt6-wayland
+xdg-desktop-portal
+
+%PROVIDES%
+xdg-desktop-portal-impl
+
+%OPTDEPENDS%
+grim: required for the screenshot portal to function
+slurp: support for interactive mode for the screenshot portal
+

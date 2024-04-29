@@ -1,0 +1,27 @@
+%DEPENDS%
+gcc-libs
+glibc
+hwloc
+libevent
+libevent_core-2.1.so=7-64
+libevent_pthreads-2.1.so=7-64
+libfabric
+libnl
+openpmix
+libpmix.so=2-64
+prrte
+libprrte.so
+zlib
+
+%PROVIDES%
+libmpi.so=40-64
+libmpi_mpifh.so=40-64
+libmpi_usempi_ignore_tkr.so=40-64
+libmpi_usempif08.so=40-64
+libopen-pal.so=80-64
+liboshmem.so
+
+%OPTDEPENDS%
+gcc-fortran: fortran support
+openssh: for execution on remote hosts via plm_ssh_agent
+

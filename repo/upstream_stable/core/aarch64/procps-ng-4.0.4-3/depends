@@ -1,0 +1,15 @@
+%DEPENDS%
+glibc
+ncurses
+libncursesw.so=6-64
+systemd-libs
+
+%CONFLICTS%
+procps
+sysvinit-tools
+
+%PROVIDES%
+procps
+sysvinit-tools
+libproc2.so=0-64
+

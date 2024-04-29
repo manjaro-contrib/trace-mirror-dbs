@@ -1,0 +1,29 @@
+%DEPENDS%
+gst-editing-services
+gtk3
+gupnp
+gupnp-av
+gupnp-dlna
+libgee
+libmediaart
+libsoup3
+libunistring
+tracker3
+
+%PROVIDES%
+librygel-core-2.8.so=0-64
+librygel-db-2.8.so=0-64
+librygel-renderer-2.8.so=0-64
+librygel-renderer-gst-2.8.so=0-64
+librygel-ruih-2.8.so=0-64
+librygel-server-2.8.so=0-64
+
+%OPTDEPENDS%
+gst-libav: Extra media codecs
+gst-plugins-bad: Extra media codecs
+gst-plugins-base: Extra media codecs
+gst-plugins-good: Extra media codecs
+gst-plugins-ugly: Extra media codecs
+tracker3-miners: Share indexed media files
+tumbler: Thumbnailing service
+

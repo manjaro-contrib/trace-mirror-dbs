@@ -1,0 +1,32 @@
+%DEPENDS%
+gcc-libs
+glibc
+hicolor-icon-theme
+libglvnd
+libpng
+python
+zlib
+alsa-lib
+libasound.so=2-64
+flac
+libFLAC.so=12-64
+freetype2
+libfreetype.so=6-64
+jsoncpp
+libjsoncpp.so=25-64
+libjpeg-turbo
+libjpeg.so=8-64
+libogg
+libogg.so=0-64
+libvorbis
+libvorbis.so=0-64
+libusb
+libusb-1.0.so=0-64
+
+%PROVIDES%
+vst3-host
+
+%OPTDEPENDS%
+jack: to use with JACK
+python-jedi: for code completion
+

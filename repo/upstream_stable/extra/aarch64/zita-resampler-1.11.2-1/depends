@@ -1,0 +1,11 @@
+%DEPENDS%
+gcc-libs
+glibc
+
+%PROVIDES%
+libzita-resampler.so=1-64
+
+%OPTDEPENDS%
+libsndfile: for zresample and zretune
+zita-resampler-docs: for documentation
+

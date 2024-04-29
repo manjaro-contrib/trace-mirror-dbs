@@ -1,0 +1,17 @@
+%DEPENDS%
+glibc
+gcc-libs
+libcap
+libgcrypt
+lz4
+xz
+zstd
+
+%CONFLICTS%
+libsystemd
+
+%PROVIDES%
+libsystemd
+libsystemd.so=0-64
+libudev.so=1-64
+

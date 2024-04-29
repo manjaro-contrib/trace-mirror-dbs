@@ -1,0 +1,18 @@
+%DEPENDS%
+python-certifi
+python-click
+python-markdown
+python-requests-oauthlib
+python-yaml
+
+%CONFLICTS%
+python-apprise
+
+%PROVIDES%
+python-apprise
+
+%OPTDEPENDS%
+dbus-python: for Linux DBus Notifications
+python-gobject: for Linux DBus Notifications
+python-paho-mqtt: for MQTT support
+

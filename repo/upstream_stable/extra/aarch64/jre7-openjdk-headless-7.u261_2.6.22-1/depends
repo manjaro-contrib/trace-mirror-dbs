@@ -1,0 +1,19 @@
+%DEPENDS%
+java-runtime-common
+libjpeg-turbo
+lcms2
+nss
+ca-certificates-utils
+libcups
+
+%CONFLICTS%
+openjdk6
+
+%PROVIDES%
+java-runtime-headless=7
+java-runtime-headless-openjdk=7
+
+%OPTDEPENDS%
+fontconfig: needed for Java Mauve support - libmawt.so
+java-rhino: for some JavaScript support
+

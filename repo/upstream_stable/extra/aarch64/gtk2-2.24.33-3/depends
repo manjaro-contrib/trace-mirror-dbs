@@ -1,0 +1,26 @@
+%DEPENDS%
+atk
+cairo
+desktop-file-utils
+gtk-update-icon-cache
+libcups
+librsvg
+libxcomposite
+libxcursor
+libxdamage
+libxi
+libxinerama
+libxrandr
+pango
+shared-mime-info
+
+%PROVIDES%
+libgailutil.so=18-64
+libgdk-x11-2.0.so=0-64
+libgtk-x11-2.0.so=0-64
+
+%OPTDEPENDS%
+adwaita-icon-theme: Default icon theme
+gnome-themes-standard: Default widget theme
+python: gtk-builder-convert
+

@@ -1,0 +1,12 @@
+%DEPENDS%
+glibc
+wayland
+wlroots0.16
+libwlroots.so=11
+libxkbcommon.so=0-64
+libpixman-1.so
+
+%OPTDEPENDS%
+polkit: System privilege control. Required if not using seatd service
+xorg-server-xwayland: X11 support
+

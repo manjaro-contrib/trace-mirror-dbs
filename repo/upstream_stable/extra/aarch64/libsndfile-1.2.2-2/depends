@@ -1,0 +1,22 @@
+%DEPENDS%
+glibc
+flac
+libFLAC.so=12-64
+lame
+libmp3lame.so=0-64
+libogg
+libogg.so=0-64
+libvorbis
+libvorbis.so=0-64
+libvorbisenc.so=2-64
+mpg123
+libmpg123.so=0-64
+opus
+libopus.so=0-64
+
+%PROVIDES%
+libsndfile.so=1-64
+
+%OPTDEPENDS%
+alsa-lib: for sndfile-play
+

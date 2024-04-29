@@ -1,0 +1,21 @@
+%DEPENDS%
+libgudev
+libmbim
+libqmi
+mobile-broadband-provider-info
+polkit
+ppp
+systemd
+libgudev-1.0.so=0-64
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+libgio-2.0.so=0-64
+libgmodule-2.0.so=0-64
+libmbim-glib.so=4-64
+libmm-glib.so=0-64
+libqmi-glib.so=5-64
+libsystemd.so=0-64
+
+%OPTDEPENDS%
+usb_modeswitch: install if your modem shows up as a storage drive
+

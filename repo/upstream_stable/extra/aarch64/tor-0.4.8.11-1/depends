@@ -1,0 +1,17 @@
+%DEPENDS%
+bash
+gcc-libs
+glibc
+libcap.so=2-64
+libcrypto.so=3-64
+libevent
+liblzma.so=5-64
+libseccomp.so=2-64
+libssl.so=3-64
+libsystemd.so=0-64
+libz.so=1-64
+libzstd.so=1-64
+
+%OPTDEPENDS%
+torsocks: for torify
+

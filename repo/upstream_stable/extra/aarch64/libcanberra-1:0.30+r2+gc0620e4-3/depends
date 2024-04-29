@@ -1,0 +1,17 @@
+%DEPENDS%
+libvorbis
+libltdl
+alsa-lib
+libpulse
+tdb
+sound-theme-freedesktop
+
+%PROVIDES%
+libcanberra-pulse
+libcanberra.so=0-64
+libcanberra-gtk.so=0-64
+libcanberra-gtk3.so=0-64
+
+%OPTDEPENDS%
+gtk3: canberra-gtk-play
+

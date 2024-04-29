@@ -1,0 +1,16 @@
+%DEPENDS%
+dbus
+libasyncns
+libsndfile
+libxcb
+systemd
+
+%PROVIDES%
+libpulse-mainloop-glib.so=0-64
+libpulse-simple.so=0-64
+libpulse.so=0-64
+
+%OPTDEPENDS%
+glib2: mainloop integration
+pulse-native-provider: PulseAudio backend
+

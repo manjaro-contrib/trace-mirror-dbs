@@ -1,0 +1,12 @@
+%DEPENDS%
+bash
+grep
+coreutils
+sed
+gzip
+
+%OPTDEPENDS%
+cryptsetup: for encrypt mkinitcpio config support
+lvm2: for lvm2 mkinitcpio config support
+mdadm: for raid mkinitcpio config support
+

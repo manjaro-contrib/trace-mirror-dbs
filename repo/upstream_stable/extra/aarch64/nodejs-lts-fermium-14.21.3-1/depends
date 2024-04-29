@@ -1,0 +1,18 @@
+%DEPENDS%
+openssl-1.1
+zlib
+icu
+libuv
+c-ares
+brotli
+libnghttp2
+
+%CONFLICTS%
+nodejs
+
+%PROVIDES%
+nodejs=14.21.3
+
+%OPTDEPENDS%
+npm: nodejs package manager
+

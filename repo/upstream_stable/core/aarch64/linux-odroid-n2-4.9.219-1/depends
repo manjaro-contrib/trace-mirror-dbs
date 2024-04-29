@@ -1,0 +1,16 @@
+%DEPENDS%
+coreutils
+linux-firmware
+kmod
+mkinitcpio>=0.7
+
+%CONFLICTS%
+linux
+
+%PROVIDES%
+kernel26
+linux=4.9.219
+
+%OPTDEPENDS%
+crda: to set the correct wireless channels of your country
+

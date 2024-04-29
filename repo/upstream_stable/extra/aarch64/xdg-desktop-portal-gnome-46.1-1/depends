@@ -1,0 +1,27 @@
+%DEPENDS%
+cairo
+dconf
+fontconfig
+gcc-libs
+gdk-pixbuf2
+glib2
+glibc
+gnome-desktop-4
+gnome-keyring
+graphene
+gtk4
+libadwaita
+libx11
+wayland
+xdg-desktop-portal
+xdg-desktop-portal-gtk>=1.10.0-2
+
+%CONFLICTS%
+xdg-desktop-portal-gtk<1.10.0-2
+
+%PROVIDES%
+xdg-desktop-portal-impl
+
+%OPTDEPENDS%
+evince: Print previews
+

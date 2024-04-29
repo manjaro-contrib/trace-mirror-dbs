@@ -1,0 +1,33 @@
+%DEPENDS%
+gtk3
+gnutls
+startup-notification
+enchant
+gpgme
+libetpan
+compface
+libsm
+dbus-glib
+
+%PROVIDES%
+claws
+
+%OPTDEPENDS%
+python: needed for some tools
+perl: needed for some tools and perl plugin
+spamassassin: adds support for spamfiltering
+bogofilter: adds support for spamfiltering
+libnotify: for notification plugin
+libcanberra: for notification plugin
+dbus: for notification plugin
+libxml2: for rssyl plugins
+curl: for vcalendar, rssyl and spamreport plugins
+libarchive: for archive plugin and various other plugins
+libytnef: for tnef_parse plugin
+poppler-glib: for pdf viewer plugin
+ghostscript: for pdf viewer plugin
+libical: for vcalendar plugin
+dillo: for dillo html viewer plugin
+webkit2gtk: for fancy webkit html viewer plugin
+gumbo-parser: for litehtml plugin
+

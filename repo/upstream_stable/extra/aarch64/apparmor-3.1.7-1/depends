@@ -1,0 +1,17 @@
+%DEPENDS%
+audit
+bash
+gcc-libs
+glibc
+pam
+python
+
+%PROVIDES%
+libapparmor.so=1-64
+
+%OPTDEPENDS%
+perl: for perl bindings
+python-notify2: for aa-notify
+python-psutil: for aa-notify
+ruby: for ruby bindings
+

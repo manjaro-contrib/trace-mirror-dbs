@@ -1,0 +1,55 @@
+%DEPENDS%
+babl
+cairo
+fontconfig
+freetype2
+gcc-libs
+gdk-pixbuf2
+gegl
+glib2
+glibc
+gtk2
+harfbuzz
+hicolor-icon-theme
+iso-codes
+json-glib
+lcms2
+libgexiv2
+libmypaint
+libunwind
+mypaint-brushes1
+pango
+zlib
+bzip2
+libgudev
+libheif
+libjpeg-turbo
+libjxl
+libmng
+libpng
+librsvg
+libtiff
+libwebp
+libwmf
+libx11
+libxcursor
+libxext
+libxfixes
+libxmu
+libxpm
+openexr
+openjpeg2
+poppler-data
+poppler-glib
+xz
+aalib
+
+%CONFLICTS%
+gimp-plugin-wavelet-decompose
+
+%OPTDEPENDS%
+alsa-lib: for MIDI event controller module
+ghostscript: for PostScript support
+gutenprint: for sophisticated printing only as gimp has built-in cups print support
+gvfs: for HTTP/S support (and many other schemes)
+

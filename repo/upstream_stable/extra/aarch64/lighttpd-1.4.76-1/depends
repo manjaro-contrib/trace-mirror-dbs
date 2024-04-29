@@ -1,0 +1,14 @@
+%DEPENDS%
+pcre2
+
+%OPTDEPENDS%
+brotli: mod_deflate
+krb5: mod_authn_gssapi
+libdbi: mod_authn_dbi/mod_vhostdb_dbi
+libldap: mod_authn_ldap/mod_vhostdb_ldap
+libmaxminddb: mod_maxminddb
+libxml2: mod_webdav
+lua: mod_magnet
+mariadb-libs: mod_authn_mysql/mod_vhostdb_mysql
+sqlite: mod_webdav
+

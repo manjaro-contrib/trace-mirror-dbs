@@ -1,0 +1,38 @@
+%DEPENDS%
+gdk-pixbuf2
+glibc
+libnotify
+librsvg
+pango
+python
+python-cairocffi
+python-cffi
+python-gobject
+python-xcffib
+wlroots0.16
+libwlroots.so=11-64
+
+%OPTDEPENDS%
+alsa-utils: for volume widget
+canto-daemon: for canto widget
+cmus: for cmus widget
+jupyter_console: for interaction with qtile via Jupyter
+khal: for khal_calendar widget
+libinput: for Wayland backend
+libpulse: for pulse_volume and pulseaudio_ffi widget
+lm_sensors: for sensors widget
+moc: for moc widget
+python-bowler: for migrating configuration files
+python-dbus-next: for utils, notifications and several widgets
+python-iwlib: for wlan widget
+python-keyring: for imapwidget widget
+python-libcst: for migrations
+python-mpd2: mpd2widget widget
+python-psutil: graph, net and memory widget
+python-pywayland: for Wayland backend
+python-pywlroots: for Wayland backend
+python-setproctitle: change process name to qtile
+python-xdg: launchbar widget
+python-xkbcommon: for Wayland backend
+xorg-xwayland: for XWayland support
+

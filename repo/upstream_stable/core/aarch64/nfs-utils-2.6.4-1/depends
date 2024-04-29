@@ -1,0 +1,11 @@
+%DEPENDS%
+rpcbind
+nfsidmap
+gssproxy
+libevent
+device-mapper
+
+%OPTDEPENDS%
+sqlite: for nfsdcltrack and fsidd usage
+python: for rpcctl, nfsiostat, nfsdclnts and mountstats usage
+

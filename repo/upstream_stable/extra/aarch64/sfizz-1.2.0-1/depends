@@ -1,0 +1,23 @@
+%DEPENDS%
+abseil-cpp
+cairo
+gcc-libs
+glibc
+libx11
+libxkbcommon
+libxkbcommon-x11
+pugixml
+ttf-roboto
+xcb-util
+xcb-util-cursor
+zenity
+
+%PROVIDES%
+libsfizz.so=1-64
+
+%OPTDEPENDS%
+jack: for sfizz_jack
+lv2-host: for the LV2 plugin
+pd: for puredata external
+vst3-host: for the VST3 plugin
+

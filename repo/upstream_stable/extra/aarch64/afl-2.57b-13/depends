@@ -1,0 +1,13 @@
+%DEPENDS%
+glibc
+bash
+
+%PROVIDES%
+american-fuzzy-lop
+
+%OPTDEPENDS%
+gcc: gcc instrumentation support
+clang14: clang instrumentation support
+llvm14: experimental clang-fast instrumentation support
+gnuplot: graph plotting support
+

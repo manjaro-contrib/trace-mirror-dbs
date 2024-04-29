@@ -1,0 +1,17 @@
+%DEPENDS%
+fftw
+glibc
+libavcodec.so=60-64
+libavformat.so=60-64
+libavutil.so=58-64
+libjack.so=0-64
+libsamplerate.so=0-64
+libsndfile.so=1-64
+libswresample.so=4-64
+
+%PROVIDES%
+libaubio.so=5-64
+
+%OPTDEPENDS%
+python-aubio: Python bindings
+

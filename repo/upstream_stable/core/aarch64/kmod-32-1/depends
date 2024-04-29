@@ -1,0 +1,14 @@
+%DEPENDS%
+glibc
+zlib
+openssl
+xz
+zstd
+
+%CONFLICTS%
+module-init-tools
+
+%PROVIDES%
+module-init-tools=3.16
+libkmod.so=2-64
+

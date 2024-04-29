@@ -1,0 +1,35 @@
+%DEPENDS%
+yaml-cpp
+boost-libs
+curl
+libwhereami
+libwhereami.so=0.5.0-64
+cpp-hocon
+libcpp-hocon.so=0.3.0-64
+systemd-libs
+leatherman
+leatherman_curl.so=1.12.9-64
+leatherman_ruby.so=1.12.9-64
+leatherman_execution.so=1.12.9-64
+leatherman_file_util.so=1.12.9-64
+leatherman_util.so=1.12.9-64
+leatherman_logging.so=1.12.9-64
+leatherman_locale.so=1.12.9-64
+openssl
+gcc-libs
+glibc
+util-linux-libs
+ruby
+libblkid.so=1-64
+yaml-cpp
+dmidecode
+pciutils
+virt-what
+
+%PROVIDES%
+libfacter.so=3.14.24-64
+
+%OPTDEPENDS%
+java-runtime>=8: jruby support
+puppet: retrieve puppet facts
+

@@ -1,0 +1,19 @@
+%DEPENDS%
+glibc
+serd
+libserd-0.so=0-64
+sord
+libsord-0.so=0-64
+sratom
+libsratom-0.so=0-64
+lv2
+zix
+
+%PROVIDES%
+liblilv-0.so=0-64
+
+%OPTDEPENDS%
+libsndfile: for lv2apply
+lilv-docs: for documentation
+python-lilv: for Python bindings
+

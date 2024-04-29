@@ -1,0 +1,31 @@
+%DEPENDS%
+ceph=15.2.17-1
+ceph-libs=15.2.17-1
+bash
+boost-libs
+coffeescript
+curl
+gperftools
+nodejs
+nss
+python
+python-cherrypy
+python-flask-restful
+python-pecan
+python-pyjwt
+python-routes
+python-jsonpatch
+python-more-itertools
+python-numpy
+python-scipy
+python-six
+
+%CONFLICTS%
+ceph<14.2.1-1
+
+%OPTDEPENDS%
+python-influxdb: influx module
+python-kubernetes: rook module
+python-prometheus_client: prometheus module
+python-remoto: ssh module
+

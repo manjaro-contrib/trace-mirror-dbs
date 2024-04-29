@@ -1,0 +1,19 @@
+%DEPENDS%
+brotli
+giflib
+gperftools
+highway
+libjpeg-turbo
+libpng
+openexr
+
+%PROVIDES%
+libjxl.so=0.10-64
+libjxl_cms.so=0.10-64
+libjxl_threads.so=0.10-64
+
+%OPTDEPENDS%
+gdk-pixbuf2: for gdk-pixbuf loader
+gimp: for gimp plugin
+java-runtime: for JNI bindings
+

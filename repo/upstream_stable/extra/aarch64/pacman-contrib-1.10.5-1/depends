@@ -1,0 +1,12 @@
+%DEPENDS%
+fakeroot
+pacman
+perl
+
+%OPTDEPENDS%
+diffutils: for pacdiff
+findutils: for pacdiff --find
+mlocate: for pacdiff --locate
+sudo: privilege elevation for several scripts
+vim: default merge program for pacdiff
+

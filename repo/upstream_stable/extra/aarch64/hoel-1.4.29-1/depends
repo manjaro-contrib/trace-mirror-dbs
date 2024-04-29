@@ -1,0 +1,14 @@
+%DEPENDS%
+glibc
+jansson
+liborcania.so=2.3-64
+libyder.so=1.4-64
+
+%PROVIDES%
+libhoel.so=1.4-64
+
+%OPTDEPENDS%
+postgresql-libs: PostgreSQL support
+mariadb-libs: MariaDB support
+sqlite: SQLite support
+

@@ -1,0 +1,15 @@
+%DEPENDS%
+glibc
+iptables
+libcap
+libelf
+libbpf
+
+%PROVIDES%
+iproute
+
+%OPTDEPENDS%
+db5.3: userspace arp daemon
+linux-atm: ATM support
+python: for routel
+

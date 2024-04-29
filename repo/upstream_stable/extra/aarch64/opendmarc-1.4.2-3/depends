@@ -1,0 +1,15 @@
+%DEPENDS%
+smtp-server
+libspf2
+libbsd
+libidn
+perl-json
+
+%OPTDEPENDS%
+opendbx: acts as a middleware layer between OpenDMARC and a SQL backend of choice
+python: run opendmarc scripts at /usr/share/doc/opendmarc
+perl: run opendmarc scripts at /usr/share/doc/opendmarc
+perl-switch: generate DMARC reports
+perl-dbd-mysql: generate DMARC reports
+perl-libwww: generate DMARC reports
+

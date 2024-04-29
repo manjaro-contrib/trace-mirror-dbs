@@ -1,0 +1,25 @@
+%DEPENDS%
+bzip2
+libbz2.so=1.0-64
+glibc
+gnutls
+libgcrypt
+libgpg-error
+libksba
+libassuan
+libassuan.so=0-64
+libldap
+libusb
+npth
+libnpth.so=0-64
+pinentry
+readline
+libreadline.so=8-64
+sh
+sqlite
+tpm2-tss
+zlib
+
+%OPTDEPENDS%
+pcsclite: for using scdaemon not with the gnupg internal card driver
+

@@ -1,0 +1,29 @@
+%DEPENDS%
+dbus
+expat
+gdbm
+glib2
+libcap
+libdaemon
+libdbus-1.so=3-64
+
+%PROVIDES%
+libavahi-client.so=3-64
+libavahi-common.so=3-64
+libavahi-core.so=7-64
+libavahi-glib.so=1-64
+libavahi-gobject.so=0-64
+libavahi-libevent.so=1-64
+libavahi-qt5.so=1-64
+libavahi-ui-gtk3.so=0-64
+libdns_sd.so=1-64
+
+%OPTDEPENDS%
+gtk3: avahi-discover, avahi-discover-standalone, bshell, bssh, bvnc
+libevent: libevent bindings
+nss-mdns: NSS support for mDNS
+python-dbus: avahi-bookmarks, avahi-discover
+python-gobject: avahi-bookmarks, avahi-discover
+python-twisted: avahi-bookmarks
+qt5-base: qt5 bindings
+

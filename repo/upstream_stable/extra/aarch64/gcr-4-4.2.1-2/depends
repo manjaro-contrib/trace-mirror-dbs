@@ -1,0 +1,15 @@
+%DEPENDS%
+glib2
+libgcrypt
+libsecret
+openssh
+p11-kit
+systemd
+
+%PROVIDES%
+libgck-2.so=2-64
+libgcr-4.so=4-64
+
+%OPTDEPENDS%
+gtk4: gcr-viewer-gtk4
+

@@ -1,0 +1,20 @@
+%DEPENDS%
+libdrm
+libgl
+libx11
+libxext
+libxfixes
+wayland
+
+%PROVIDES%
+libva-drm.so=2-64
+libva-glx.so=2-64
+libva-wayland.so=2-64
+libva-x11.so=2-64
+libva.so=2-64
+
+%OPTDEPENDS%
+intel-media-driver: backend for Intel GPUs (>= Broadwell)
+libva-intel-driver: backend for Intel GPUs (<= Haswell)
+libva-mesa-driver: backend for AMD and NVIDIA GPUs
+
