@@ -25,12 +25,20 @@ jobs:
         run: |
           source <(curl -s ${{ env.mirror }}/state)
           echo "state=$state" >>$GITHUB_OUTPUT
+      - id: state_upstream
+        run: |
+          source <(curl -s ${{ env.mirror_upstream }}/lastupdate)
+          echo "state=$state" >>$GITHUB_OUTPUT
+      - id: state_upstream_arm
+        run: |
+          source <(curl -s ${{ env.mirror_upstream }}/aarch64/sync)
+          echo "state=$state" >>$GITHUB_OUTPUT
       - id: store
         uses: boredland/action-commit-store@main
         with:
           storage-commit-sha: b18cb0794aefbe597c96eaaf593e170436b88f90
           key: state-hash-v0
-          value: ${{ steps.state.outputs.state }}
+          value: ${{ steps.state.outputs.state }}-${{ steps.state.outputs.state_upstream }}-${{ steps.state.outputs.state_upstream_arm }}
           token: ${{ github.token }}
     outputs:
       updated: ${{ steps.store.outputs.updated }}
