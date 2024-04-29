@@ -12,6 +12,7 @@ concurrency:
 
 env:
   mirror: http://uvermont.mm.fcix.net/manjaro
+  upstream_mirror: https://geo.mirror.pkgbuild.com
 
 jobs:
   state:
@@ -49,7 +50,7 @@ jobs:
           [ -d repo ] && find ./repo/ -type f -name '*.desc' -delete
           for db in core extra multilib; do
             for arch in x86_64 aarch64; do
-              for branch in stable testing unstable; do
+              for branch in stable testing unstable upstream; do
                 if [ "$arch" == "aarch64" ]; then
                   down_branch=arm-${branch}
                 else
@@ -60,6 +61,17 @@ jobs:
                 curl -s $url | tar --warning=none -xz --transform="s,/desc,.desc," --one-top-level=./repo/${branch}/${db}/${arch}/ &
               done
             done
+          done
+          wait
+      - name: download upstream
+        run: |
+          [ -d repo ] && find ./repo/ -type f -name '*.desc' -delete
+          for db in core extra multilib; do
+                arch=x86_64
+                branch=upstream_stable
+                url=${upstream_mirror}/${db}/os/${arch}/${db}.db.tar.gz
+                echo downloading $url
+                curl -s $url | tar --warning=none -xz --transform="s,/desc,.desc," --one-top-level=./repo/${branch}/${db}/${arch}/ &
           done
           wait
       - name: transform
