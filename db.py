@@ -3,7 +3,7 @@ import json
 import re
 
 repos = ["core", "extra", "multilib"]
-branches = ["stable", "testing", "unstable"]
+branches = ["stable", "testing", "unstable", "upstream_stable"]
 archs = ["x86_64", "aarch64"]
 
 def update(repo, branch, arch):
