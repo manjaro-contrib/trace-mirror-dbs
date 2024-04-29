@@ -38,7 +38,7 @@ jobs:
         with:
           storage-commit-sha: b18cb0794aefbe597c96eaaf593e170436b88f90
           key: state-hash-v0
-          value: ${{ steps.state.outputs.state }}-${{ steps.state.outputs.state_upstream }}-${{ steps.state.outputs.state_upstream_arm }}
+          value: ${{ steps.state.outputs.state }}-${{ steps.state_upstream.outputs.state }}-${{ steps.state_upstream_arm.outputs.state }}
           token: ${{ github.token }}
     outputs:
       updated: ${{ steps.store.outputs.updated }}
