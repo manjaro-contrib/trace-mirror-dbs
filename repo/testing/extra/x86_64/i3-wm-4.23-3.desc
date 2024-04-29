@@ -1,0 +1,84 @@
+%FILENAME%
+i3-wm-4.23-3-x86_64.pkg.tar.zst
+
+%NAME%
+i3-wm
+
+%BASE%
+i3-wm
+
+%VERSION%
+4.23-3
+
+%DESC%
+Improved dynamic tiling window manager
+
+%GROUPS%
+i3
+
+%CSIZE%
+965049
+
+%ISIZE%
+1869136
+
+%MD5SUM%
+d86b6d5b3945812cd69169ab7ced2814
+
+%SHA256SUM%
+9370135503c99b9d2bd9dd78d23148e625fd9713b6c84ec9d7e72ffdebe592e8
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCZgxYnwAKCRDylr3lA2jGzklDAP46GgcStlib2w+rVQYWWQkpr2yU3+uZNdYW15aSta5jmwD/cBLFQZA7KmxCdPMlRO4aBLm3l2kbN/9Wk+E+CA0b1Q8=
+
+%URL%
+https://i3wm.org
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712085087
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%REPLACES%
+i3
+i3bar
+i3-gaps
+
+%PROVIDES%
+i3-gaps
+
+%DEPENDS%
+libev
+libxkbcommon-x11
+pango
+startup-notification
+ttf-font
+xcb-util-cursor
+xcb-util-keysyms
+xcb-util-wm
+xcb-util-xrm
+yajl
+
+%OPTDEPENDS%
+dmenu: for the default program launcher
+rofi: for a modern dmenu replacement
+i3lock: for the default screen locker
+xss-lock: for the default screen locker
+i3status: for the default status bar generator
+perl: for i3-save-tree and i3-dmenu-desktop
+perl-anyevent-i3: for i3-save-tree
+perl-json-xs: for i3-save-tree
+
+%MAKEDEPENDS%
+asciidoc
+git
+meson
+xmlto
+

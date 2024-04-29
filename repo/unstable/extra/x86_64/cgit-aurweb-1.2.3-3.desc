@@ -1,0 +1,67 @@
+%FILENAME%
+cgit-aurweb-1.2.3-3-x86_64.pkg.tar.zst
+
+%NAME%
+cgit-aurweb
+
+%BASE%
+cgit-aurweb
+
+%VERSION%
+1.2.3-3
+
+%DESC%
+A web interface for git written in plain C (aurweb branch)
+
+%CSIZE%
+1032042
+
+%ISIZE%
+2374389
+
+%MD5SUM%
+dfc87c11be28a5772b98fd699edd2204
+
+%SHA256SUM%
+91c57e2c78195ec7897e3dc935936bf7f15440a4fae1ef4650a0a20707f72146
+
+%PGPSIG%
+iHUEABYIAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCY8qIIAAKCRBtQr3RFuAGj/jaAP9k9ZltQ10ziKl1XJD+vXxA7sHFu1+91xopn1kFrEbBSgEA5iFGf92WjztuJ/MzG051RJiGzVzdi+frNROsp1s0OQw=
+
+%URL%
+https://git.zx2c4.com/cgit/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1674217387
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+openssl
+luajit
+
+%OPTDEPENDS%
+groff: about page using man page syntax
+python-pygments: syntax highlighting support
+python-docutils: about page formatted with reStructuredText
+python-markdown: about page formatted with markdown
+gzip: gzip compressed snapshots
+bzip2: bzip2 compressed snapshots
+lzip: lzip compressed snapshots
+xz: xz compressed snapshots
+zstd: zstd compressed snapshots
+mime-types: serve file with correct content-type header
+
+%MAKEDEPENDS%
+git
+zlib
+curl
+asciidoc
+

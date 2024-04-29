@@ -1,0 +1,63 @@
+%FILENAME%
+clang16-16.0.6-1-aarch64.pkg.tar.xz
+
+%NAME%
+clang16
+
+%BASE%
+clang16
+
+%VERSION%
+16.0.6-1
+
+%DESC%
+C language family frontend for LLVM 16
+
+%CSIZE%
+32646664
+
+%ISIZE%
+175673793
+
+%MD5SUM%
+e01d83346faf7e153e0a8d7073d986d6
+
+%SHA256SUM%
+4ac3fdbde8e70ea295b060b175161573c66e7f446cfec34f0b704a6def20c052
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmXqs34ACgkQdxk/FSvb5qYD7A//V86OHPmobayP3ylJEQUwN1666X5GO2c+/0jWD26eG4IK2DPeKh8UfYMVVnzJGqAXTZE3KzlxNvQxKyzMzl9PFqwDn3Bp6N1/CfC2AaRLIi+2VVY34bgAbnJQ63spb7RyDgYXeRSUQBbYEl464/F3r8YQmRR93rXYInNXxJs6ZLsH7N/Als+2ivf6WbjihTECmDyWbzf8lgPK/V78YxYPm061htGfL216Em8qM7SHMzMS57xhZ5CiXBdtg8+GoSbrxh7b+7NjPExWBBKSDPYf37+0K7FalIrucA6yMxB1nGTwkebWcVWtNj7He5Nyz5zCItpy9PWrXJ0QO/gvidS4hl+etV5CGV5P+GGh3enCxBry6uqQa2daZyS2p6sCnpP5Mq7rdGdLytQpYsXs+6sk2YWWx4EtEJGU0wv0kaK7VJDRPfIXGBJqD0kRSJPOIKxIbZL9W9eNw6WaQYSQbYJsN7TbPwD2jcZvc85WHstHkGIz6f1f9puZuXbhfZq1J6tZ21ekGbwUqfm8803HLZfgR6M9xK2AYux0X0fvgPsroDbzcogTxnsbS5hlMMjRUDoqJcCnxubW03RlyHOPzWCyLQHFx/X74nC2b+J15VK/ilwxWrujR3ChMb72jpDtHpoLgMp2AC7wzWAA7atBPEkz0e+rRWnJuuu0eJzMTg7jZjs=
+
+%URL%
+https://clang.llvm.org/
+
+%LICENSE%
+custom:Apache 2.0 with LLVM Exception
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1709878749
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+llvm16-libs
+gcc
+compiler-rt16
+
+%OPTDEPENDS%
+openmp: OpenMP support in clang with -fopenmp
+llvm16: referenced by some clang headers
+
+%MAKEDEPENDS%
+llvm16
+cmake
+ninja
+python
+
+%CHECKDEPENDS%
+llvm
+

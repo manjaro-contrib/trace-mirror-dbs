@@ -1,0 +1,60 @@
+%FILENAME%
+openmp-17.0.6-1-x86_64.pkg.tar.zst
+
+%NAME%
+openmp
+
+%BASE%
+openmp
+
+%VERSION%
+17.0.6-1
+
+%DESC%
+LLVM OpenMP Runtime Library
+
+%CSIZE%
+947141
+
+%ISIZE%
+22867776
+
+%MD5SUM%
+7ca1d7610a0fc77257c268b36df4578e
+
+%SHA256SUM%
+dcbe05d6db2aea2ddea0e8be741d5018e4f9e8469fef7565388016f121a16d9d
+
+%PGPSIG%
+iQEzBAABCAAdFiEEhs/8qRjPOvRxR1iAUeixSKmZnDQFAmXjPYIACgkQUeixSKmZnDSuggf/WeKK0bBFhxegn/zpsCFQcxVD/A2lIHtsqy7ADoYoA/gMNYhHdlJN87RZTFgSEGI5dSCh707G+fdCC58Qg/yCIIg7YM09DxvQ5F7xLJErMXbyN5ya54la59CTtzC6hwRnl6npc+ji07E41/oFqGs5bhBq14KQZqfN7gEL8gmMO7yo1Jl4iADSjPsPnbVag9z0LyZOM69pCAUKYsQihuti+gtdflopxF2FsI1/ZVg38wLmW1XBvhGOgXfgGVd+HAanot1D1AqfTkMNn1BLxDk++0a5XPmqEL2vhGT1Ws3PTYDKynTf/w9f8chyLtRugbPa5z4RFoKr7JtVCEdOAHSKPA==
+
+%URL%
+https://openmp.llvm.org/
+
+%LICENSE%
+custom:Apache 2.0 with LLVM Exception
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1709391111
+
+%PACKAGER%
+Evangelos Foutras <foutrelis@archlinux.org>
+
+%DEPENDS%
+llvm-libs
+libelf
+libffi
+
+%OPTDEPENDS%
+cuda: offloading to NVIDIA GPUs
+hsa-rocr: offloading to AMD GPUs
+
+%MAKEDEPENDS%
+llvm
+clang
+cmake
+ninja
+

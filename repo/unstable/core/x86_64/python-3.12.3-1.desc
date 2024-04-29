@@ -1,0 +1,82 @@
+%FILENAME%
+python-3.12.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+python
+
+%BASE%
+python
+
+%VERSION%
+3.12.3-1
+
+%DESC%
+The Python programming language
+
+%CSIZE%
+13141786
+
+%ISIZE%
+73504244
+
+%MD5SUM%
+3786f0a860ecc2adf78a94cce336af8e
+
+%SHA256SUM%
+1e411526f521f40dbcf7ce209105da98ed576dff852e862647fe77332392a97d
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYnoqMACgkQwGCGM3xQdz4a+Af/fbk37SwVpVyw7uV62+zX8Luj9BlelS/egiiOXEpKAasAEASF+36Ug6+Vd3zORvTzN4yy4ngG2DhT5fvsHd4kaJxbbOgJGmM2W85yBzTS0qqTLM6aPWbUFG9DwCmIk/R19x40cqRb+IZ0Bk9Qsay6aDDfb4nnIunfunu4d9nvjeIGo6WdmuHOZba+MH0QvQgeMFcQ6pOVzowtIkuW/txACu8Fg2iV13SWFXq+quhEfl0zU3+nQxUAGIRagDAtBeUgHhmHANgfB0NrGU7KosdUzNUxhpaUtUVYsEIz6FCrpXYV+JZ6/ee5qnKeyEC6Ers79ArrTi3Z6MNxKfTqBvIZEA==
+
+%URL%
+https://www.python.org/
+
+%LICENSE%
+PSF-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1713863767
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%REPLACES%
+python3
+python-externally-managed
+
+%PROVIDES%
+python3
+python-externally-managed
+
+%DEPENDS%
+bzip2
+expat
+gdbm
+libffi
+libnsl
+libxcrypt
+openssl
+zlib
+tzdata
+mpdecimal
+
+%OPTDEPENDS%
+python-setuptools: for building Python packages using tooling that is usually bundled with Python
+python-pip: for installing Python packages using tooling that is usually bundled with Python
+python-pipx: for installing Python software not packaged on Arch Linux
+sqlite: for a default database integration
+xz: for lzma
+tk: for tkinter
+
+%MAKEDEPENDS%
+tk
+sqlite
+bluez-libs
+llvm
+gdb
+xorg-server-xvfb
+ttf-font
+

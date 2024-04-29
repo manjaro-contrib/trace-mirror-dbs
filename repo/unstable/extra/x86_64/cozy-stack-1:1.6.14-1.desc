@@ -1,0 +1,58 @@
+%FILENAME%
+cozy-stack-1:1.6.14-1-x86_64.pkg.tar.zst
+
+%NAME%
+cozy-stack
+
+%BASE%
+cozy-stack
+
+%VERSION%
+1:1.6.14-1
+
+%DESC%
+Digital home: brings all your web services in the same private space – Stack component
+
+%CSIZE%
+11147182
+
+%ISIZE%
+35362688
+
+%MD5SUM%
+08925e5ad403e730150e436b9e909a2d
+
+%SHA256SUM%
+d96c521e2827e334d509740c83347fa2bbf5604b067f9b3580e388cd5fa1ca66
+
+%PGPSIG%
+iQIzBAABCAAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmVZD+0ACgkQk7EdqkwZfj0eQw//Q3krNQaaE/wqI/BVw2QUJ5JIWdi1w8HaKdJYGjNABDZGCAMa3CYzST9g93NUZEmCeVV/kZf9JcsadH462UppzPHSRE1byS16J/gcWDD1upc36a35dl+2WPMRTurnMeTKu1G6/YhoiOw9vk7Us77I+byXSPuzY3N9ZC/61YYmC/SFO2Da2hHOjKuWfZUQDiQsbLKMNKNpjJy1sJupb/DkfCSiPz6WTaQ+qslgZCGkXP6IKueEpnSBMajhuGF/J4719XB5jIGwVHZM50ueeHtmrXb+aIzfZvun0dETIb/XG4rM639W1J/kTbj2CqXyZ/uBzK0DBhXNK1j3l/YisImhKX5+Ss4dZWEDCTeILHEk5rw910xzxtUXLa28eyxaxF+kTVBtofSF7U4i7RQVfYk8o513CABg2G9ftjcMD7qqR9bZWG/1+vyywRHM6M14wek/pxNRXl8TShMjreGnP/su0DmUEzBwVaFrC84q8y4H05bGF8COk3r+ZUxYiTAqj7eabKAv3zj6tkvKtFobKjw96bqMi75uZHL8VfGVO/i/M8gYELWZhOuF4sQ+Y5/a1A19IKqGy0dOm9zaZ1txXCyt8fhPp5YnXfLejhbmoGv4AokgH8R+ljiNW+z23QUY8W09CgvfO5vndPVVq1D6IDVgCet7b7j5eFU6pphD0IKTQNc=
+
+%URL%
+https://cozy.io
+
+%LICENSE%
+AGPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1700335200
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+couchdb
+imagemagick
+git
+
+%OPTDEPENDS%
+nodejs: required for konnectors
+nsjail: run konnectors isolated
+smtp-forwarder: to allow sending mail to users
+
+%MAKEDEPENDS%
+go
+

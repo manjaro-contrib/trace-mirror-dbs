@@ -1,0 +1,84 @@
+%FILENAME%
+bcc-0.30.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+bcc
+
+%BASE%
+bcc
+
+%VERSION%
+0.30.0-2
+
+%DESC%
+BPF Compiler Collection - C library and examples
+
+%CSIZE%
+1026461
+
+%ISIZE%
+3515981
+
+%MD5SUM%
+3f8f82028e9192f483c428f499b11ea0
+
+%SHA256SUM%
+626e36a9f0788c2ae8a81dc8db0c7f223e7a49c236931d0830d4e7463c6c7b97
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYPogYACgkQwGCGM3xQdz4LdQgAtsfF7fHTm51Q38FYD30DKNLjavi5uqzEp6FkmMScAFo6Uusf06kDP2mSgFL2KSfBVhaozdObk89Mf3qje2HJcsOSDzpygIidQfhYOXfjXyL7OToCUCCeo5DekpX0otSxUIALThsi7zezkFh8e7TCIkSWbDUA7UqgctPD4BxfJz7pq8G5mUtGzrA/LLCLBCdekk9qYJPDOHyW9MqcxluFs6LJoh3WxqRXbbbr51RYbHjIpJgqByuKzDJOu6DBcjBfJ4NU6UcmxAY2D/NjIYHmo+afcyTJfpK6/5IgEuCdesxTMhFnbNJAF6J8a19KBDLsOtjC28w50rFh+jPVeqdxPA==
+
+%URL%
+https://github.com/iovisor/bcc
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712300243
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%PROVIDES%
+bcc
+libbcc
+
+%DEPENDS%
+clang
+gcc-libs
+glibc
+libbpf
+libbpf.so=1-64
+libelf
+llvm-libs
+python
+xz
+zlib
+
+%OPTDEPENDS%
+linux-headers: build modules against the Arch kernel
+linux-lts-headers: build modules against the LTS kernel
+linux-zen-headers: build modules against the ZEN kernel
+linux-hardened-headers: build modules against the HARDENED kernel
+bcc-tools: Python utilites using the BCC library
+python-bcc: Python 3 bindings for BCC
+luajit: Lua bindings for BCC
+
+%MAKEDEPENDS%
+cmake
+clang
+llvm
+flex
+bison
+libbpf
+python
+python-setuptools
+
+%CHECKDEPENDS%
+netperf
+iperf
+

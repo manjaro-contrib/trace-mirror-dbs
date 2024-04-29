@@ -1,0 +1,94 @@
+%FILENAME%
+steam-1.0.0.79-1-x86_64.pkg.tar.zst
+
+%NAME%
+steam
+
+%BASE%
+steam
+
+%VERSION%
+1.0.0.79-1
+
+%DESC%
+Valve's digital software delivery system
+
+%CSIZE%
+3978597
+
+%ISIZE%
+4151395
+
+%MD5SUM%
+266f69d7dd3d063ab264e3b254d231ae
+
+%SHA256SUM%
+349376aa6246293fdb067cae23448ef2440040121c10e8d463f7a42f1b79b2e5
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmXFEnEACgkQFQwgB0PtRthssAgA1LEB6dCHNq9Pb0C0OWBi3U3GmbWULSB8sJR0trkJkMquEiG2iFQpBKoQAXalJzGGxNEWi28IxpumRzsDblH4IWQh6P5VIr4aOBXGV01qXxfl5XN1eQgfu9mL4h16zzsONZl80KFbx+OBOmJz6FU2YOG2HHDlif2wx1I9HQD7B1aKUDMVQ30nt6Nvp3Z7MYc8emMu+Q6qtQT7JouG5AHcrHOHh6fRB0+0Ljps6miwSRx7wDbnbER2dNSrinNvwQSdCFxhdMUZ8nkpj/WPXtK3337VEp17LGVS/McX8ifk0sTNm7xwGzP06gzcE13WmKhlQ+i7xb3SvK4V/YkkMnlzlg==
+
+%URL%
+https://steampowered.com/
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1707413590
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%REPLACES%
+steam-manjaro
+
+%CONFLICTS%
+steam-manjaro
+
+%DEPENDS%
+bash
+desktop-file-utils
+diffutils
+hicolor-icon-theme
+curl
+dbus
+freetype2
+gdk-pixbuf2
+ttf-font
+zenity
+lsb-release
+nss
+usbutils
+xorg-xrandr
+vulkan-icd-loader
+lsof
+python
+xdg-user-dirs
+glibc
+libxcrypt
+libxcrypt-compat
+gcc-libs
+lib32-glibc
+lib32-libxcrypt
+lib32-libxcrypt-compat
+lib32-libgl
+lib32-gcc-libs
+lib32-libx11
+lib32-libxss
+lib32-alsa-plugins
+lib32-libgpg-error
+lib32-nss
+lib32-vulkan-icd-loader
+
+%OPTDEPENDS%
+steam-native-runtime: steam native runtime support
+vulkan-driver: packaged vulkan driver
+lib32-vulkan-driver: packaged vulkan driver (32 bit)
+lib32-libappindicator-gtk2: added tray icon functionality
+xdg-desktop-portal-impl: improved file dialog support
+game-devices-udev: additional rules for controllers
+

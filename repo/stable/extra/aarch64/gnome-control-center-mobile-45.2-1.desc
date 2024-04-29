@@ -1,0 +1,125 @@
+%FILENAME%
+gnome-control-center-mobile-45.2-1-aarch64.pkg.tar.zst
+
+%NAME%
+gnome-control-center-mobile
+
+%BASE%
+gnome-control-center-mobile
+
+%VERSION%
+45.2-1
+
+%DESC%
+GNOME's main interface to configure various aspects of the desktop - with mobile patches
+
+%CSIZE%
+8547362
+
+%ISIZE%
+23018737
+
+%MD5SUM%
+e679fb9758a78077317abc244fb41658
+
+%SHA256SUM%
+ebf8b1c8f183f016020beed86da28f115d1a4f9b55e3308e90fa1524de795c2a
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmXKlAsACgkQFQwgB0PtRtjJywf+Lr9UI2Ja6N67IoBKulh3lmi1XT/J/YIwgqs+wQKS64INhlIRmqBiNyW9Y77kWQjGlrNmp2k29YJr7v3OBHWkd0JJ54qClI7irDtq7F72BsKowxkkxTs4DW0k+0jF28IgxeU1p28PNso25/pQcdzzYIEa0gZLLw7XbN+TKZ8AXBk0LyB9Da5d6DjlEA62wLNyFOyEZqRlv7VR1sxErgxU63fAstv1G3tsXHMo4+i/cWWImfc2RzD1hDetrRRT0lMRBfapejHmegNnxoRBc1fEuV3MFyge58eLODECSRi88UNK2oG8VrqlkHBexH0ftj8KpowOnX43AHj8qBq2GbseiA==
+
+%URL%
+https://gitlab.gnome.org/GNOME/gnome-control-center.git
+
+%LICENSE%
+GPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1707766010
+
+%PACKAGER%
+MNJRO ARM Runner <info@manjaro.org>
+
+%CONFLICTS%
+gnome-control-center
+
+%PROVIDES%
+gnome-control-center=45.2
+
+%DEPENDS%
+accountsservice
+bolt
+cairo
+colord-gtk4
+cups-pk-helper
+dconf
+fontconfig
+gcr
+gdk-pixbuf2
+glib2
+gnome-bluetooth-3.0
+gnome-color-manager
+gnome-desktop-4
+gnome-online-accounts
+gnome-settings-daemon
+gnutls
+gsettings-desktop-schemas
+gsound
+gtk3
+gtk4
+hicolor-icon-theme
+krb5
+libadwaita
+libcolord
+libcups
+libepoxy
+libgoa
+libgtop
+libgudev
+libibus
+libmalcontent
+libmm-glib
+libnm
+libnma-gtk4
+libpulse
+libpwquality
+libsecret
+libwacom
+libx11
+libxi
+libxml2
+pango
+polkit
+smbclient
+sound-theme-freedesktop
+tecla
+udisks2
+upower
+
+%OPTDEPENDS%
+fwupd: device security panel
+gnome-remote-desktop: screen sharing
+gnome-shell: multitasking panel
+gnome-user-share: WebDAV file sharing
+malcontent: application permission control
+networkmanager: network settings
+openssh: remote login
+power-profiles-daemon: power profiles
+rygel: media sharing
+system-config-printer: printer settings
+
+%MAKEDEPENDS%
+docbook-xsl
+git
+meson
+modemmanager
+python
+
+%CHECKDEPENDS%
+python-dbusmock
+python-gobject
+xorg-server-xvfb
+

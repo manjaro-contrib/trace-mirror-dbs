@@ -1,0 +1,109 @@
+%FILENAME%
+matrix-synapse-1.104.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+matrix-synapse
+
+%BASE%
+matrix-synapse
+
+%VERSION%
+1.104.0-1
+
+%DESC%
+Matrix reference homeserver
+
+%CSIZE%
+3896248
+
+%ISIZE%
+27658269
+
+%MD5SUM%
+6a13799e4cdf6f66627ccfcf4dfca3e6
+
+%SHA256SUM%
+4fbfc0ee61357a7bb6fca41b9abde93b82dec36afba65240bd15419cd3b64b06
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmYhTTMACgkQdxk/FSvb5qbgcxAAm8Bvbcv9XK4o8UU9LA6Z6Peyw+23VedAWcVxc7DXKGUOl96A7TtmqtPR9P+TbquUsGb3rUI6mfClHQekbSixdbqYHvMWQN8SboGhJHqDo6hjH5wYGZIjdfem/+g1yrThIPl5OvLMhlWUejVlHiPLj9DuvD+f953Nw/OxP9p6PI12rHyzy6velw47amx6HzI3R4FVjpJBrBdmkc079HoFnB/47iczfqva7HW6Os7vPF2u5AuHPV0STDt/tQENYE0WXzbtCAEUfSKqTMlSe4XI3wJvc+qxA7zhu8F4HsPSTeKJGFFa9G/XR4KHDG1yNApalF2jZZzgP+GNuKnMhSKfD05JFf1tA6BvouJB2aSH+7ciCb0wekbVRJEklGCFlmYQuklLdrogGvkvSJw6H2XS1x+lyrGSQ7RcNXql5+YCB9EJ4Nghxlx5/2MUJv8fVS4HD88+ad5S6qnCL7wI+wWb0AzxO4QyCBmS6zq7K1quOMrDDsn7wj0CBRAU5dCCJhR7FhlPwSco+7keLgPSj98LmVElSRcoGoLkwPOQBkhWwk5DyD+DcdAo0G5rLsJMdVcHAJrHBWeVRuTOlBh88Ee1lCMMmQJzeljfg2TW9gfXSIE3+F3Fa20TVQ5TuwPncqzwvVvB9GOnb8XMZ4sg9FWcQjtKhtNtgX5tss4Qeo3Bw+o=
+
+%URL%
+https://github.com/element-hq/synapse
+
+%LICENSE%
+AGPL-3.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1713458338
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+libwebp
+python-ijson
+python-jsonschema
+python-twisted
+python-pyopenssl
+python-yaml
+python-pyasn1
+python-pynacl
+python-bcrypt
+python-immutabledict
+python-pillow
+python-pysaml2
+python-pydantic
+python-systemd
+python-unpaddedbase64
+python-canonicaljson
+python-signedjson
+python-pymacaroons
+python-service-identity
+python-msgpack
+python-phonenumbers
+python-prometheus_client
+python-attrs
+python-netaddr
+python-sortedcontainers
+python-treq
+python-idna
+python-jinja
+python-matrix-common
+python-bleach
+python-typing_extensions
+systemd
+
+%OPTDEPENDS%
+perl: sync_room_to_group.pl
+python-psycopg2: PostgreSQL support
+python-lxml: URL previewing
+python-psutil: metrics
+python-pyjwt: jwt
+python-txredisapi: redis
+python-hiredis
+python-pyicu: Improve user search for international display names
+python-authlib: OpenID SSO support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-wheel
+python-poetry-core
+python-setuptools-rust
+
+%CHECKDEPENDS%
+python-pip
+python-authlib
+python-pyjwt
+python-lxml
+python-parameterized
+python-txredisapi
+python-hiredis
+postgresql
+python-pyicu
+

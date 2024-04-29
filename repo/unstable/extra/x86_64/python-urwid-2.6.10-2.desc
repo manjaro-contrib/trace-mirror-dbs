@@ -1,0 +1,76 @@
+%FILENAME%
+python-urwid-2.6.10-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-urwid
+
+%BASE%
+python-urwid
+
+%VERSION%
+2.6.10-2
+
+%DESC%
+Curses-based user interface library
+
+%CSIZE%
+527877
+
+%ISIZE%
+3596221
+
+%MD5SUM%
+9ca866b54ab4a598190ce0022fdd6d54
+
+%SHA256SUM%
+5468654d78d82f328249124a3f4d048a8322554bf853c9d0895831c9981a8888
+
+%PGPSIG%
+iQIzBAABCgAdFiEEBNw/sURf7KgTwn766k97MhqQatkFAmYQ00gACgkQ6k97MhqQatngXRAArBfzq7pihAmWlid2yRlV6m0xYfCcHtyS6BhqPs+Ip348VQe3eFq+8KgOWCX44L0bYasmU7+KhC1PaQlT9oBVvA2ONwLVv3+V4hwSLZNkYuiKpL4F4jPxPsLfViLRugw+aLKDjOC1BjRMtb9es1jFUkJRj3UX3jd/jOim5T5bNH44qRPzgsINb3LbcOJ7B2A3E7TbDMzcVMwRy0qmH3wXVZEsLh6aiTRfoYgtnloqmQd/97Bn8d46R1l6fMqAD0zeHlh25coYxl8cP7CAwIlWQB3p6+Pb9MORBgDhRI2Esla/IfQ3r+aDy0439cUfqsjHBwKZd3Riz74n8F+eBQMj0rBZmFKuGaAWCjyN4zH3T5pilE6PqoAIpAJwwwGsqPNgXEjPZto72oQtr8uXsfrPhPoHgCei3clrPGxDtt494Bqu+GZt5VzrNzeR/70b16ejeY0dIxr1J0/00PJopcrM6YgXRS34g3aAw39Mib8ZrPX42S83o/DWcYwzSnRAsNukYJEOQxxQeInFqEotwnGEWAbUppSF3tiVjlS4a1MdVh5j4t0np9aTVixTIX4FfNkfefcrFEsTO3dHC8smZS9vUnUIG2Shu6VEdLaQvUwPnGDHfTFOxaOQ/UcxHNoTkVeKVRJ7Pywz9RQ5WgNmUYXp5Tw3oSay8QH3/Cg2kojD9s0=
+
+%URL%
+https://urwid.org/
+
+%LICENSE%
+LGPL-2.1-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712378632
+
+%PACKAGER%
+Daniel M. Capella <polyzen@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+python-typing_extensions
+python-wcwidth
+
+%OPTDEPENDS%
+python-gobject: for gobject integration
+python-pyserial: for LCD and serial integration
+python-exceptiongroup: for trio integration
+python-pyzmq: for zmq integration
+python-tornado: for tornado integration
+python-trio: for trio integration
+python-twisted: for twisted integration
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-cov
+python-twisted
+python-tornado
+python-trio
+python-pyzmq
+python-gobject
+
