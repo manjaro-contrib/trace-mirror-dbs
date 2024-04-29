@@ -1,0 +1,75 @@
+%FILENAME%
+python-pillow-10.3.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-pillow
+
+%BASE%
+python-pillow
+
+%VERSION%
+10.3.0-2
+
+%DESC%
+Python Imaging Library (PIL) fork
+
+%CSIZE%
+833697
+
+%ISIZE%
+4209160
+
+%SHA256SUM%
+c18834aca401d10373e333681fc915f96728254e311ad68a7b82f94d6b62ba34
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmYjtggACgkQek52CV2KUuQegAgAgJaFx1yqCA65EQrWFhE3HGRXYTHb9QGr2i4krtsNF0cZSWUiZz7fgkFcIXtc7CQu4nWEOIVeIpiuhrz2aMoL6oF5A9q4em5Hk4XIXYX2Wi917ndTV7+IGlXqQVn3pSpW5idzgFyLG9QUjEB2JGInsjNHRkMKyF3FntyJG9MDoNT0KsUwkWVWszN7ZUdhmcaWmtrjuadVf2u0NOmbbNX299pwW+vxjazLWBAa7S+tPyKckYN1LC7gjXxwBVTHMr8IEI71DjwxUTKZsOGDb9TKodkVw5lcxAAYLweFyguF8oKnbHHnAUGlsLeLSeJEHoSRggnDtmLyWTOEz3SUN8ineg==
+
+%URL%
+https://python-pillow.org
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1713614316
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+python-packaging
+freetype2
+lcms2
+libraqm
+libtiff
+openjpeg2
+libjpeg-turbo
+libimagequant
+libxcb
+zlib
+
+%OPTDEPENDS%
+libwebp: for webp images
+tk: for the ImageTK module
+python-olefile: OLE2 file support
+python-pyqt6: for the ImageQt module
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-wheel
+python-setuptools
+libwebp
+tk
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-timeout
+

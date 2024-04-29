@@ -1,0 +1,64 @@
+%FILENAME%
+python-pyspnego-0.10.2-2-any.pkg.tar.zst
+
+%NAME%
+python-pyspnego
+
+%BASE%
+python-pyspnego
+
+%VERSION%
+0.10.2-2
+
+%DESC%
+SPNEGO Authentication library
+
+%CSIZE%
+256496
+
+%ISIZE%
+1679502
+
+%SHA256SUM%
+542f422196c4de7c7b4b159cbf641b52c23423a0df799a93207662e315f42d15
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYSbgkACgkQwGCGM3xQdz6k0wf/dyyEHfmy6HbVIMj++yTeQE2LkQ93bIchpeOudRbi4b5koplREX1M4Yse0VZEKzvFsikXxx5K2JnWmwRw0oiWwCuM2dtrElQj/ljmG3yWxFhqK/YuCoVnz02ym/QaPCX4mzvKqdx+eiSE8GgSiDASXnWHR1uoZtJyHN7YAUR5A3PGnxD6ovxT7vk+1zk9rs/jO85zri3H3RAb0Fe9HKu4eqssEztSYm3sGNz4j8q/uPIRGVHrwqbOgy85XelAYN5gX9Uivg0x+NwPhYZNuNnN2iHTPBuyECaggcOG33bZNTM3TFrErSNx8xQ49PXpGLJE/iweBIhVWqXVE57H2jqVJA==
+
+%URL%
+https://github.com/jborean93/pyspnego
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712483835
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python-cryptography
+
+%OPTDEPENDS%
+python-gssapi: Kerberos support
+python-krb5: Kerberos support
+python-ruamel-yaml: YAML configuration
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+cython
+python-pytest
+python-pytest-mock
+python-gssapi
+python-krb5
+python-ruamel-yaml
+

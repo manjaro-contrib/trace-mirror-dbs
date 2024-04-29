@@ -1,0 +1,74 @@
+%FILENAME%
+qt6-multimedia-gstreamer-6.7.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+qt6-multimedia-gstreamer
+
+%BASE%
+qt6-multimedia
+
+%VERSION%
+6.7.0-1
+
+%DESC%
+Gstreamer backend for qt6-multimedia
+
+%CSIZE%
+134638
+
+%ISIZE%
+388651
+
+%SHA256SUM%
+9b20223e28d5e6ccdc78e5184bd309e237ae99dc14590f145e4da1968b643577
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmYMDDgACgkQek52CV2KUuQTcAf/TpYMXiTQapo79feHUxuVWMMuE2q4PgqdgtRqM8Y5lFj9YmYifcG1SrfzfPo/dJO9Q1JEn5fTIloFCA65AXCyTAn2DGvzt5kRqIdOYSJy+l6I7/nfr/TyLm21YPjf8hPx/LOj9D8h/IOQZLlS8PtUFMue44prJyuNNzryquVEGXg4BlPfaa5ACEUIezLiZdu0u8b/8mC/2klzYsjmAxo42vVTN9EbvFblxTLJRVr9v7HhBeyOjFLgqT/leoKUrDYzbIJD+qKdMkEzt6syxLcg7d6sDV1c82qmKI51J2cRJGonC6vycWv6gv3GEifK3y6zzA7YoGLnfwlEmqy4YawrNg==
+
+%URL%
+https://www.qt.io
+
+%LICENSE%
+GPL3
+LGPL3
+FDL
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712061952
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+qt6-multimedia-backend
+
+%DEPENDS%
+gcc-libs
+glib2
+glibc
+gst-plugins-base
+gstreamer
+libglvnd
+qt6-base
+qt6-multimedia
+
+%OPTDEPENDS%
+gst-plugins-good: camera support, additional plugins
+gst-plugins-bad: camera support, additional plugins
+gst-plugins-ugly: additional plugins
+gst-libav: additional plugins
+
+%MAKEDEPENDS%
+cmake
+ffmpeg
+gst-plugins-base
+libxrandr
+ninja
+qt6-declarative
+qt6-quick3d
+qt6-shadertools
+

@@ -1,0 +1,84 @@
+%FILENAME%
+python-falcon-3.1.3-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-falcon
+
+%BASE%
+python-falcon
+
+%VERSION%
+3.1.3-2
+
+%DESC%
+Web API framework for fast and reliable microservices, proxies, and app backends
+
+%CSIZE%
+1463020
+
+%ISIZE%
+7945934
+
+%SHA256SUM%
+6709f93976fd39cb4583aa15a3f28b558b361db615a3ee542eccd131ee3ab78a
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmYVweEACgkQek52CV2KUuTsUQf/WRRGV7bERQF3FI2U0HqxLuwLqLAWoCbklHmhUi0QHd7vleSqg+KyIFT1kE2wJ+6pvBXWYIxPO2CZndiUNLYMf8o4xdrzijurlr6AK1QV76fzTQ0JD4wi7zR38mI3B+8l7VgGH2PH0IUc652pckg70OO8ZhNzwz5uTROULRqKZxIxuB7J0TX6+Aw/Ib1QNYCslm0vmmqYHZRp+CJVl7hW+Wn9Z/TqklpEAszwwrBggFB9sB+8ZEbjcHIJ2MYjW9f+XrePVUrvkeqk/YQXIRVI0xHtoB+liXwXVwaiupRN2Hf7o7rhkx/cWxsAPtmtx7cTPUT7oY5jhP08NKWWK5CZ3Q==
+
+%URL%
+https://falconframework.org/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712701662
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+
+%OPTDEPENDS%
+python-bottle: for falcon-bench
+python-django: for falcon-bench
+python-flask: for falcon-bench
+python-jsonschema: for JSON schema validation
+python-msgpack: for MessagePackHandler
+python-pecan: for falcon-bench
+python-pprofile: for falcon-bench
+
+%MAKEDEPENDS%
+cython
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+gunicorn
+hypercorn
+python-aiofiles
+python-cbor2
+python-httpx
+python-jsonschema
+python-mimeparse
+python-msgpack
+python-mujson
+python-orjson
+python-pecan
+python-pytest
+python-pytest-asyncio
+python-pyyaml
+python-rapidjson
+python-requests
+python-testtools
+python-ujson
+python-websockets
+uvicorn
+
