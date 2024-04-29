@@ -13,6 +13,7 @@ concurrency:
 env:
   mirror: http://uvermont.mm.fcix.net/manjaro
   upstream_mirror: https://geo.mirror.pkgbuild.com
+  upstream_mirror_arm: https://ca.us.mirror.archlinuxarm.org	
 
 jobs:
   state:
@@ -65,12 +66,16 @@ jobs:
           wait
       - name: download upstream
         run: |
-          for db in core extra multilib; do
-              arch=x86_64
-              branch=upstream_stable
-              url=${upstream_mirror}/${db}/os/${arch}/${db}.db.tar.gz
-              echo downloading $url
-              curl -s $url | tar --warning=none -xz --transform="s,/desc,.desc," --one-top-level=./repo/${branch}/${db}/${arch}/ &
+          for arch in x86_64 aarch64; do
+            for db in core extra multilib; do
+                branch=upstream_stable
+                url=${upstream_mirror}/${db}/os/${arch}/${db}.db.tar.gz
+                if [ "$arch" == "aarch64" ]; then
+                  url=${upstream_mirror_arm}/${arch}/${db}/${db}.db.tar.gz
+                fi
+                echo downloading $url
+                curl -s $url | tar --warning=none -xz --transform="s,/desc,.desc," --one-top-level=./repo/${branch}/${db}/${arch}/ &
+            done
           done
           wait
       - name: transform
