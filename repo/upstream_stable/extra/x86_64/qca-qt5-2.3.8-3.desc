@@ -1,0 +1,77 @@
+%FILENAME%
+qca-qt5-2.3.8-3-x86_64.pkg.tar.zst
+
+%NAME%
+qca-qt5
+
+%BASE%
+qca
+
+%VERSION%
+2.3.8-3
+
+%DESC%
+Qt Cryptographic Architecture
+
+%CSIZE%
+788900
+
+%ISIZE%
+3090145
+
+%SHA256SUM%
+bbf4130adae56191c6507a9e55e49d9def7c9ff115f9f8c8fa3ef5c7e7bfe5cc
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmYUWNcACgkQek52CV2KUuQsLwf/YHe82Fe7kQI6atmNdcH9uy+pfEPfTgot36/iCQaxn1bCY9794wY23Hmw5wnO5Q4e8RTNBICxzhvdH5J8gTvY6ZYS/C68XzIQ21+r6N2DPqHf9McHXUniqgZBUPTN4qDg+Z00+TR2YP7y6C1kIV6idqLtprAft5WVNji5H4twXguXQGeeQik1j/W6FlbSTQp7JmCjCfgIDn5QCPmyxwkEtMm3MqmOZebmJukJzF+sz46Tn2Rl9JK7cj8zcMhr3ngP64UYBXiOP9s2Ensh/C82k2n3wdR6q7Y8WqeYdvF9KXb6/NXNxgpFmleyi8wV5xXMziAaaUP70WBqe8LWjiZu8g==
+
+%URL%
+https://userbase.kde.org/QCA
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712609408
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%REPLACES%
+qca
+
+%CONFLICTS%
+qca
+
+%PROVIDES%
+qca
+
+%DEPENDS%
+ca-certificates
+gcc-libs
+glibc
+nss
+qt5-base
+
+%OPTDEPENDS%
+botan: botan plugin
+libgcrypt: gcrypt plugin
+libsasl: SASL plugin
+openssl: SSL plugin
+pkcs11-helper: PKCS-11 plugin
+
+%MAKEDEPENDS%
+botan
+cmake
+doxygen
+libgcrypt
+libsasl
+openssl
+pkcs11-helper
+qt5-base
+qt6-base
+qt6-5compat
+

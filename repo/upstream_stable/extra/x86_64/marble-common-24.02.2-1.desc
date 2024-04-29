@@ -1,0 +1,75 @@
+%FILENAME%
+marble-common-24.02.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+marble-common
+
+%BASE%
+marble
+
+%VERSION%
+24.02.2-1
+
+%DESC%
+Common libraries and plugins for Marble
+
+%CSIZE%
+47660543
+
+%ISIZE%
+77599837
+
+%SHA256SUM%
+f76205c3ccf825ccdf63627c70229edc40dd08aff2a9f04be89f71c6c0b56583
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmYX/XwACgkQek52CV2KUuSOdQf/eD8+2BWmtPkkh4FzolKAv/OgSy3VCEEYL5Lzsc+X41kHHJ+h/ySEg29uIziyxtRmkA3pYaXZN7lDRF6Fbyvm/q4tt4LvDyrn6dkTej1reLuxSflijieD8Bk+FyeX9+lZc0xZ8PFtLVnpqyG8dABi7892ihyAFK87+a3usy4eoNXUMnHyt8lDYA6vsWXHOzSwTq7VPKKhNM+u9D/iefRWQcdhBunj+ktVojdP6LY+PmBd7N/iLrR6Q/0eOwg9MJlE2M9SSIB40WeEDKuAI/K3K93WbaUQW5iFKEhbVG/biTzRZabkoBANVA7SYWEm3EKvLElcUtdpxKgMoFz0zRrKYg==
+
+%URL%
+https://apps.kde.org/marble/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712683146
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+phonon-qt5
+protobuf
+qt5-base
+qt5-declarative
+qt5-location
+qt5-svg
+qt5-webchannel
+qt5-webengine
+zlib
+
+%OPTDEPENDS%
+gpsd: GPS based geolocation
+libwlocate: WLAN based geolocation
+qt5-serialport: APRS plugin
+shapelib: SHP plugin
+
+%MAKEDEPENDS%
+extra-cmake-modules
+gpsd
+kdoctools5
+knewstuff5
+kparts5
+libwlocate
+phonon-qt5
+protobuf
+qt5-serialport
+qt5-tools
+qt5-webengine
+shapelib
+

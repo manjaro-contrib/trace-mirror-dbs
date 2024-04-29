@@ -1,0 +1,80 @@
+%FILENAME%
+python-geopandas-0.14.3-5-any.pkg.tar.zst
+
+%NAME%
+python-geopandas
+
+%BASE%
+python-geopandas
+
+%VERSION%
+0.14.3-5
+
+%DESC%
+Python tools for geographic data
+
+%CSIZE%
+1443769
+
+%ISIZE%
+5579464
+
+%SHA256SUM%
+503c9e0d95ed37e76fb99ce7b7218af6ebab228ba6863295476905a4a06c89e7
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYoAKQACgkQwGCGM3xQdz5FAwf/exKsBbliKJEKNsDVqcpJ2LVLccQNMCOxSxnNTGsQ4fi177xnipZZbAlZGFeEexOowptOadAmAgdcffP8xuXeNufRUg/SWaLyiPL3RLq3gn8UKqcOtKuyZQNtIcNAot6OY14G4rHEpaOslm7ESiS9rofge54BElpnBFoZ4LRd6rH/FH26urQ92p+xc+ogVMPzqYrih8iz+jBh0+wmK9e4NtzdDqrUykVOSgVA9k8oCd8EXzecLl8UZ//PBshsm461g9DUntrW8FLwZgAj7RZ9BUjkda+CtUWKMIvMsaPjeDhd17q5IG8iOfoI/j1wiubS4ZYAONkJifYe5PfdTxgZ8Q==
+
+%URL%
+https://geopandas.org
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1713897376
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+gdal
+python-fiona
+python-numpy
+python-packaging
+python-pandas
+python-pyproj
+python-shapely
+
+%OPTDEPENDS%
+python-pyogrio: vectorized IO for GDAL/OGR
+python-rtree: spatial access methods
+python-psycopg2: PostGIS access
+python-sqlalchemy: other geodatabase access
+python-geopy: geocoding
+python-matplotlib: plotting
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-fsspec
+python-pyogrio
+python-rtree
+python-matplotlib
+python-scipy
+python-geopy
+python-sqlalchemy
+python-psycopg2
+libspatialite
+python-pyarrow
+postgis
+ghostscript
+

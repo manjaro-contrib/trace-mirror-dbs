@@ -1,0 +1,77 @@
+%FILENAME%
+python-python-socks-2.4.4-2-any.pkg.tar.zst
+
+%NAME%
+python-python-socks
+
+%BASE%
+python-python-socks
+
+%VERSION%
+2.4.4-2
+
+%DESC%
+Core proxy client (SOCKS4, SOCKS5, HTTP) functionality for Python
+
+%CSIZE%
+78143
+
+%ISIZE%
+456139
+
+%SHA256SUM%
+83dfad85633a41c9901f0fb8f9b1e5e62d75f5baee5fdb091a78928869382441
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYS1kcACgkQwGCGM3xQdz60VQf9Fma0grRAjvZOzgzwzAgHUXNrukEpLDUWTn0S2LmYdWLh4U98TIAMBU61HiT6zj4CwSqLtpcg0qdEvCUwHTHPlld39pEEoa+YUQKxnAtBEWVnMQVO3DtHNSI+y5qZYAVydftKBthI7AhHJpz0CCchmRNhiyFWyErrdqz2P3FufxWDfoqqniWCYtxi0t2f95AIXJ/+8zPv4U3qwi5spW7irmXLlVtmnyWOgQ1L5aDkk/RlZBcsY942LNwu0H2BC9axDKD8frAqsLO2NQHEkujJGxFqKGF7C6nrSdIl7JhBeLoGBNAAWqivT0SGGGD/3q9SWQYBlcVaxdbXn4PWG0+Eqg==
+
+%URL%
+https://github.com/romis2012/python-socks
+
+%LICENSE%
+APACHE
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712510504
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%REPLACES%
+python-python_socks
+
+%PROVIDES%
+python-python_socks
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-anyio: anyio support
+python-async-timeout: asyncio support
+python-curio: curio support
+python-trio: trio support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-anyio
+python-async-timeout
+python-curio
+python-flask
+python-pytest
+python-pytest-asyncio
+python-pytest-trio
+python-trio
+python-yarl
+python-trustme
+python-tiny-proxy
+

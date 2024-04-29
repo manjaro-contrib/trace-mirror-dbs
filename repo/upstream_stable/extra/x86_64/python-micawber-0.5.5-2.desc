@@ -1,0 +1,62 @@
+%FILENAME%
+python-micawber-0.5.5-2-any.pkg.tar.zst
+
+%NAME%
+python-micawber
+
+%BASE%
+python-micawber
+
+%VERSION%
+0.5.5-2
+
+%DESC%
+A small library for extracting rich content from urls
+
+%CSIZE%
+49657
+
+%ISIZE%
+233615
+
+%SHA256SUM%
+644da8ff1dc00300761c964ca5bcf1352d3b788f3d06850cd1466ba5103dbf9c
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYQa0gACgkQwGCGM3xQdz7OeAf9G51tYn2RIlX9YUJBq2lvwZDizhXlNlc1N0X2xu/Zbv6JIVaXLD5DRZwd51LPZuT5Zy6DDl3N9/W5Pvvpz98RLkMZ3iscjzsGNpCrtneK/qpQjFCndUW8uskOQ7M36XYGKfdKlxKw43E4lIn/Ht+X8X6WsPvB5DZtGht61jc0XPSAcd5sag5hkE2dCTR7wkMqG0f0brcxboVmrDinWUMWnD1KB0LvOyYsNkohL62/R3xaA1WGSLu3nYwJRL5gxDx1PrcasSWv8uk+maMfccFtYSu4eyPZ7F8CxTAGOGEy4HNsBo89j1kHfUMPcMmijC1O1roeLfbwbH7nAQ7L5zZlOQ==
+
+%URL%
+https://github.com/coleifer/micawber
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712352061
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-beautifulsoup4: for text parser
+python-django: django support
+python-flask: flask support
+python-redis: redis caching support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-beautifulsoup4
+python-django
+

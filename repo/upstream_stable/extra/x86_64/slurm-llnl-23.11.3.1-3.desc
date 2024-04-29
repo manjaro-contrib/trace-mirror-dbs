@@ -1,0 +1,82 @@
+%FILENAME%
+slurm-llnl-23.11.3.1-3-x86_64.pkg.tar.zst
+
+%NAME%
+slurm-llnl
+
+%BASE%
+slurm-llnl
+
+%VERSION%
+23.11.3.1-3
+
+%DESC%
+Simple Linux Utility for Resource Management
+
+%CSIZE%
+5688919
+
+%ISIZE%
+19187779
+
+%SHA256SUM%
+bd3432c0b7dba90fc60d786b3486554e3ddde3b79b145771d85c1eca993afbc0
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCZhA0uwAKCRAAHPSBC+jZEQh9APoDOsxFmmwdiYwVVk/UMtGUSJWjuaJC/bJfqphrhrtvvwD+MPpAiqzKObNgBz4IHSsaoenAyWK8t288ERiJhU0oAQc=
+
+%URL%
+https://www.schedmd.com
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712337159
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+curl
+dbus
+glibc
+hwloc
+lz4
+munge
+numactl
+pam
+readline
+
+%OPTDEPENDS%
+mariadb-libs: support for accounting
+openpmix: support Open MPI applications using PMIx
+freeipmi: for the acct_gather_energy_xcc plugin
+hdf5: support for acct_gather_profile/hdf5 job profiling
+lua: the lua API will be available in various plugins
+rdma-core: support for the acct_gather_infiniband/ofed InfiniBand accounting plugin
+rrdtool: support for the ext_sensors/rrd plugin
+gtk2: enables the sview command, a simple graphical frontend
+http-parser: for slurmrestd
+json-c: JSON serializer support
+libyaml: YAML serializer support
+
+%MAKEDEPENDS%
+freeipmi
+gtk2
+hdf5
+http-parser
+json-c
+level-zero-headers
+level-zero-loader
+libyaml
+lua
+mariadb-libs
+openpmix
+python
+rdma-core
+rrdtool
+

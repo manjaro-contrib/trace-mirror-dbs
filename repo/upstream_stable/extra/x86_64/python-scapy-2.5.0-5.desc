@@ -1,0 +1,69 @@
+%FILENAME%
+python-scapy-2.5.0-5-any.pkg.tar.zst
+
+%NAME%
+python-scapy
+
+%BASE%
+scapy
+
+%VERSION%
+2.5.0-5
+
+%DESC%
+Powerful interactive packet manipulation program written in Python (library)
+
+%CSIZE%
+3017947
+
+%ISIZE%
+22516136
+
+%SHA256SUM%
+309de880cdf1c970b0b6a98e27df65cc74e072394edbdbc2c4e15fcac97ae724
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYZBYcACgkQwGCGM3xQdz6Spgf/X1CM6x/fvTGAajww2Ee3StZQe9Ep+lTnIaYaahPW/p+S1kV+Gc//fbQu5OyLzEW8CncP1/ECvKCDvLoXabDRzep2wIwG7g+Eecn55oZ0Xxlc4pmFKTjTj4iPaTtJy57eALb+e+A/HRzh0ETdbSOn/kB/gxT4U/cxSPJE/7xOR/CXbk9vIdGN5QrfIoq42aNsvB0JkasbEJwdVQPMu5aBUIKnZwK60vMkYAnMwKC1tfzWkr1aH3MBXgEvoWb4CzW3JfrqQZTPehNp2b7MZO0QTKMbtRWkymUO1Pgd2aEZZmBlotQ7S37xSMTK/glC/7MzsBfuZlDHJQc5exXgk6YNeQ==
+
+%URL%
+http://www.secdev.org/projects/scapy/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712915780
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+tcpdump
+python
+
+%OPTDEPENDS%
+python-cryptography: WEP, IPsec and SSL/TLS support
+python-pyx: psdump() and pdfdump() functions
+python-matplotlib: plotting support
+graphviz: conversations() method support
+sox: for VOIP support
+python-prompt_toolkit: expore function
+
+%MAKEDEPENDS%
+tcpdump
+python-build
+python-installer
+python-setuptools
+python-wheel
+python-sphinx
+
+%CHECKDEPENDS%
+python-cryptography
+python-pyx
+python-matplotlib
+graphviz
+sox
+

@@ -1,0 +1,86 @@
+%FILENAME%
+nvchecker-2.14.1-2-any.pkg.tar.zst
+
+%NAME%
+nvchecker
+
+%BASE%
+nvchecker
+
+%VERSION%
+2.14.1-2
+
+%DESC%
+New version checker for software releases
+
+%CSIZE%
+139917
+
+%ISIZE%
+570336
+
+%SHA256SUM%
+72ff26a65dc0fe055e71e3a1e357cc503ad5cc0a7718603bf4813ebe64277070
+
+%PGPSIG%
+iHUEABYKAB0WIQQNmeQ7UMKtIbreRjJJPeIcgk6VQQUCZiSyLAAKCRBJPeIcgk6VQdCLAP9oaGskwrhqJMhB30CMxIVrIEV7tI1478mJVB5VeQUdtQEAmRZFY10oRA73uIkBqj8vsJQqm8Kv1Aw+ZFnQgk1tOQE=
+
+%URL%
+https://github.com/lilydjwg/nvchecker
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1713680848
+
+%PACKAGER%
+Chih-Hsuan Yen <yan12125@archlinux.org>
+
+%DEPENDS%
+python
+python-structlog
+python-platformdirs
+python-tornado
+python-pycurl
+
+%OPTDEPENDS%
+pyalpm: for using "sort_version_key = vercmp" in configuration files and the alpm source
+python-awesomeversion: for using "sort_version_key = awesomeversion" in configuration files
+python-lxml: for the htmlparser source
+python-packaging: for the pypi source
+python-jq: for the jq source
+python-toml: for nvchecker-ini2toml script
+python-aiohttp: alternative HTTP backend
+python-httpx: alternative HTTP backend
+git: support for git repositories
+python-gobject: for nvchecker-notify
+libnotify: for nvchecker-notify
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+python-docutils
+python-pygments
+python-gobject
+python-toml
+python-aiohttp
+python-httpx
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-asyncio
+python-pytest-httpbin
+python-pytest-rerunfailures
+pyalpm
+python-awesomeversion
+python-lxml
+python-jq
+git
+

@@ -1,0 +1,103 @@
+%FILENAME%
+opencv-cuda-4.9.0-4-x86_64.pkg.tar.zst
+
+%NAME%
+opencv-cuda
+
+%BASE%
+opencv
+
+%VERSION%
+4.9.0-4
+
+%DESC%
+Open Source Computer Vision Library (with CUDA support)
+
+%CSIZE%
+80112820
+
+%ISIZE%
+1704595349
+
+%SHA256SUM%
+44f0f2b10775c076f0fe69666ff85f5cd823edd307abf6d480948b0813c08d80
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmYPoDsACgkQek52CV2KUuTwpAf/XOcUJVA5VaZsvMexkZm5cFB1kFqTagWtIVdFroLNT76+t0y3N5pdTyjs14fDedSwuDesf01mzBUxD0G/oRYrzKxCz7uVeXo3Zw20JRMAcyhn4H1S4CPOSIOrOsgmHr8Y07YtKeeyIANvNuBiMXMA/K119FwUzFcBqnC7yCfM20BJTWz7nkvFxSKUn+YXSaKMjPcVtwWj9oc5DtPpKV4pzSJMymLncwt3b2YWkdv3vJZWP0lhcbQqz4SF8dlSGAcmN2/EdeClDfBuFqfvkY0iuopgKpmrb0hArf3nmAz68VnTxyT4c6M7c44ker+oYBFS9EYsj1wZ+BTS17XyJmvBvQ==
+
+%URL%
+https://opencv.org/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712297370
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%CONFLICTS%
+opencv
+
+%PROVIDES%
+opencv=4.9.0
+
+%DEPENDS%
+abseil-cpp
+cblas
+ffmpeg
+freetype2
+gcc-libs
+glib2
+glibc
+gst-plugins-base
+gst-plugins-base-libs
+gstreamer
+harfbuzz
+lapack
+libdc1394
+libglvnd
+libjpeg-turbo
+libpng
+libtiff
+libwebp
+openexr
+openjpeg2
+verdict
+protobuf
+tbb
+zlib
+cudnn
+
+%OPTDEPENDS%
+opencv-samples: samples
+vtk: for the viz module
+glew: for the viz module
+qt6-base: for the HighGUI module
+hdf5: for the HDF5 module
+opencl-icd-loader: For coding with OpenCL
+java-runtime: Java interface
+
+%MAKEDEPENDS%
+ant
+cmake
+cudnn
+eigen
+fmt
+glew
+hdf5
+java-environment
+lapacke
+mesa
+nlohmann-json
+openmpi
+pugixml
+python-numpy
+python-setuptools
+qt6-5compat
+vtk
+

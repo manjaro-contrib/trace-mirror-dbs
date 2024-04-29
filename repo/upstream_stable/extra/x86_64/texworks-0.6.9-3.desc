@@ -1,0 +1,68 @@
+%FILENAME%
+texworks-0.6.9-3-x86_64.pkg.tar.zst
+
+%NAME%
+texworks
+
+%BASE%
+texworks
+
+%VERSION%
+0.6.9-3
+
+%DESC%
+Unicode-based, TeX-aware editor with integrated PDF viewer
+
+%CSIZE%
+2731719
+
+%ISIZE%
+5381656
+
+%SHA256SUM%
+984afe3b960a2f6c7f5a3ec85b29c40a472f2f4e16994459858f2d3434816a48
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmYQet8ACgkQek52CV2KUuTHZQf/XD/GqgbyzuM1Bb7ytSQFTaXVi1p0n6aBqIZFDqRhNTtfwDJ7ub64hImMSedhr4d532OlWCbi56XV9YXBIjzJqyEXcDIfzQa3i9tgnXyyndx7wc7lZ1rWyAM6MDQ2SGhpy2PuC5/Y1DRXRio4zBgGLbNUAepBOTQFBd4rKiwLY1lClAccK5WNb7rcbMsjBFOPo+iWb0AhrtUfnx0oX+npEoJoAOhcLRPM31i0PcVRGVCxyy5mjMunzCDNyf0CHW2nrEHM0PAARspJgJzYg5k/EB2ydalNPc/3/JIMuq1Sykn4GHOp0gbuwrpIMKNUQ4zyJlyGGIRlLaif2c0Fucsakw==
+
+%URL%
+https://www.tug.org/texworks/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712355932
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+hunspell
+libsynctex
+poppler-qt6
+qt6-base
+qt6-declarative
+qt6-tools
+qt6-5compat
+libpoppler-qt6.so=3-64
+
+%OPTDEPENDS%
+gsfonts: correctly display PDF files without embedded fonts
+lua: Lua scripts support
+poppler-data: correctly display certain CJK documents
+python: Python scripts support
+texlive-basic: typeset TeX documents
+
+%MAKEDEPENDS%
+cmake
+lua
+python
+
+%CHECKDEPENDS%
+gsfonts
+poppler-data
+
