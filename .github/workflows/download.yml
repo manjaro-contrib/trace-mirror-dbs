@@ -66,7 +66,7 @@ jobs:
                   unset down_branch
                 fi
                 url=${mirror}/${down_branch:-${branch}}/${db}/${arch}/${db}.db.tar.gz
-                if [ "$branch" == "upstream" ]; then
+                if [ "$branch" == "upstream_stable" ]; then
                   url=${upstream_mirror}/${db}/os/${arch}/${db}.db.tar.gz
                   if [ "$arch" == "aarch64" ]; then
                     url=${upstream_mirror_arm}/${arch}/${db}/${db}.db.tar.gz
