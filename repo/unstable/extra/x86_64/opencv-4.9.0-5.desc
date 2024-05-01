@@ -1,0 +1,99 @@
+%FILENAME%
+opencv-4.9.0-5-x86_64.pkg.tar.zst
+
+%NAME%
+opencv
+
+%BASE%
+opencv
+
+%VERSION%
+4.9.0-5
+
+%DESC%
+Open Source Computer Vision Library
+
+%CSIZE%
+27362974
+
+%ISIZE%
+100658257
+
+%MD5SUM%
+dafa951b9917f49e3bb0b739b2c52b3e
+
+%SHA256SUM%
+6ced854b84a8b94581234f7abcf9a7d2285af42782387268061334be0239d97c
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCZi7CawAKCRAAHPSBC+jZEdD3APwNm3HsHKQaDsx7aVdz6tNsy/pCOZCS/nZ0JPiNIns3PAEAgeTqgKQ/TcWK/NtsIe14P5010r20sGvsBL5/JlpA0Aw=
+
+%URL%
+https://opencv.org/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1714336341
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+abseil-cpp
+cblas
+ffmpeg
+freetype2
+gcc-libs
+glib2
+glibc
+gst-plugins-base
+gst-plugins-base-libs
+gstreamer
+harfbuzz
+lapack
+libdc1394
+libglvnd
+libjpeg-turbo
+libpng
+libtiff
+libwebp
+openexr
+openjpeg2
+verdict
+protobuf
+tbb
+zlib
+
+%OPTDEPENDS%
+opencv-samples: samples
+vtk: for the viz module
+glew: for the viz module
+qt6-base: for the HighGUI module
+hdf5: for the HDF5 module
+opencl-icd-loader: For coding with OpenCL
+java-runtime: Java interface
+
+%MAKEDEPENDS%
+ant
+cmake
+cudnn
+eigen
+fmt
+glew
+hdf5
+java-environment
+lapacke
+mesa
+nlohmann-json
+openmpi
+pugixml
+python-numpy
+python-setuptools
+qt6-5compat
+vtk
+
