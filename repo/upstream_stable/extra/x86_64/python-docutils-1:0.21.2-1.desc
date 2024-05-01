@@ -1,0 +1,58 @@
+%FILENAME%
+python-docutils-1:0.21.2-1-any.pkg.tar.zst
+
+%NAME%
+python-docutils
+
+%BASE%
+python-docutils
+
+%VERSION%
+1:0.21.2-1
+
+%DESC%
+Set of tools for processing plaintext docs into formats such as HTML, XML, or LaTeX
+
+%CSIZE%
+927952
+
+%ISIZE%
+5924661
+
+%SHA256SUM%
+8b6f82622c9f16c1a796103423da55470ae213bdfc1e9fc0aa4c6a688c4654d6
+
+%PGPSIG%
+iQIzBAABCgAdFiEEBNw/sURf7KgTwn766k97MhqQatkFAmYyexYACgkQ6k97MhqQatm6PQ//Rw6f3Z5GfNfNMzzvHdXHepweXbhxaCbY9mu3vBfwjsSriIlXWxNwDpoWnjcCUkoIjrK1J067BOo5vnEHH+axY2xUrlLxXo+G7HOLqknIwlRrTXoNbdlwvK5llj2XCu1TtgPknlY86sB1ATO/i2cB22qBEM9ro9z1cENsIFgwfrA+3KJDmngyrNBo5hhqvswgy3qF47VmW0T3/drKCwiDRs+mU0AgjKJTV5JVKDOM5tlW4Ka+d3KxotmEkldwLE1nuSLhF5r7eOPFR3cfBWljO1hQuZ92GNvZlWx6Vz6v+ZYDbpR8NIuCplJLCfiLxrWgURn7KE8FiSU6tys3sVyFyFv2NO7lQrfc3LPbqwYYlQAtyCzZUgC3LJYAn2P21BtOkeI3N7gWxNdflg4yoXyIfnwEMl8aJ8P26qxLDQAO+xZLTYXjjlrsQLXo0877zt9bHEZzA02AXoWnJOrH3rQRl1SggUNzxyL7FweMGobIJ8ADV/r8cG6xxJiDVTBeouZIRRCUPP2LsbbC55WB6U2JOGQzg7DlOItZEdWLg0mQdlmdHF8AosUZPzwJiifxo1mhRGWklKT7GG7S1TWnhvPhyPf/neNiD2q1qiAwZqwi0EkP7b1QKG5PGrKbO9Q53AGohMpK8hcIKvP3+R8iiXN+npGiCvicAjqr/jpYUtROjtI=
+
+%URL%
+http://docutils.sourceforge.net
+
+%LICENSE%
+custom
+
+%ARCH%
+any
+
+%BUILDDATE%
+1714584244
+
+%PACKAGER%
+Daniel M. Capella <polyzen@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-myst-parser: to parse input in "Markdown" (CommonMark) format
+python-pillow: for some image manipulation operations
+python-pygments: for syntax highlighting of code directives and roles
+
+%MAKEDEPENDS%
+python-build
+python-flit-core
+python-installer
+
+%CHECKDEPENDS%
+python-pillow
+

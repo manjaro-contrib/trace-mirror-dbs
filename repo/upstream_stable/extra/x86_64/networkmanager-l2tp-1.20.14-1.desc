@@ -1,0 +1,65 @@
+%FILENAME%
+networkmanager-l2tp-1.20.14-1-x86_64.pkg.tar.zst
+
+%NAME%
+networkmanager-l2tp
+
+%BASE%
+networkmanager-l2tp
+
+%VERSION%
+1.20.14-1
+
+%DESC%
+L2TP support for NetworkManager
+
+%CSIZE%
+197722
+
+%ISIZE%
+905114
+
+%SHA256SUM%
+0be6afdaf09a0c56b51974714ec986e3c6d9c3257aa0d3dba964503292c78dfa
+
+%PGPSIG%
+iQIzBAABCgAdFiEEipvFgZxU/rPcKptIwyIX9vE/8ZIFAmYyhncACgkQwyIX9vE/8ZIQ0hAA4CFuyHl+ScjiXLIMwAqAFjVAqeF9tfGH4GcNfp50waUAqH5PhszExy2VwgXvl8A9qkz5+8xEzOpn0osoc/vw0e0zTJeZFfPK1O/k9izS7+Noikc8sxzjrck5JKyNp+k0JD5Kkmxe7XMGotirEFU3CGIfiQlPRLcNbqz0GcPlpVcEumquZI6u6CxY6S74xZeYmwuE4SdDBf6lWkpZ5HRCKjwUGOpeDvmlb4svDZbggNitw75Wis5boSIQ7uGRaRMTwKIaDXNzL9zwEwBMx+BlonBd8+2qND/GpyAbeAlVAkPD6bRlVuuew9gHwwsxKsf5Uplv1BpbAtubc5XVmBwF1Qshi/g74pqRSKuMXr+Ddf0OyUMNl5Toh3AHrvxe0tY5M80pB8Iuvp4beiHlsKuoK65K5FXE6pvliRry+mObFovfrR5tg8sC5PMPXBFA4SdYBeTJRCJQ0RvUlKDHVYJuvm5iKV/XG05dfzVBQRZB/xr9lKB46S6iKMKTOci+LzaYO1B8pfkgXZYyBrEFfF27KeL8jr1GL33UGL6/ZgzLnA/nIq2MRoDzcdvGspys7JVXTPSeYWxQ7H0JcmczuLPHsT0TuTlxDq/1QDdwU4AH+5K8Kahx1zw7Ay02evrAXV5qeqV3Ite0MMN79QZlODzcZJGRByUvDg1K4aImiNOrnMc=
+
+%URL%
+https://github.com/nm-l2tp/NetworkManager-l2tp
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1714587165
+
+%PACKAGER%
+Alexander F. Rødseth <xyproto@archlinux.org>
+
+%REPLACES%
+networkmanager-l2tp-gtk3
+networkmanager-l2tp-gtk4
+
+%CONFLICTS%
+networkmanager-l2tp-gtk3
+networkmanager-l2tp-gtk4
+
+%DEPENDS%
+ppp=2.5.0
+xl2tpd
+
+%OPTDEPENDS%
+libnma: GUI support (GTK 3)
+libnma-gtk4: GUI support (GTK 4)
+strongswan: IPSec support
+
+%MAKEDEPENDS%
+intltool
+libnma
+libnma-gtk4
+python-packaging
+
