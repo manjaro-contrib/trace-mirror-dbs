@@ -1,0 +1,58 @@
+%FILENAME%
+htop-3.3.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+htop
+
+%BASE%
+htop
+
+%VERSION%
+3.3.0-2
+
+%DESC%
+Interactive process viewer
+
+%CSIZE%
+156344
+
+%ISIZE%
+375192
+
+%SHA256SUM%
+46194ea99f90e2893365043c3c456d02c938c2d32432cffa73bcc1221f69ddfb
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCZjJbmwAKCRDylr3lA2jGzkCVAP0aMKlvZVKrwIAuGWT2exj9W8nKvuxOcxRHY3BHUe5rWQEA3hKWefbXinmGsx31FD1SWn/Y/l2fGJ9M46bKTPEqbQ4=
+
+%URL%
+https://htop.dev/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1714576251
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%DEPENDS%
+libcap
+libcap.so=2-64
+libnl
+ncurses
+libncursesw.so=6-64
+
+%OPTDEPENDS%
+lm_sensors: show cpu temperatures
+lsof: show files opened by a process
+strace: attach to a running process
+
+%MAKEDEPENDS%
+git
+lm_sensors
+
