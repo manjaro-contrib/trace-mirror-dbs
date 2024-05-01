@@ -1,0 +1,75 @@
+%FILENAME%
+python-openai-1.24.1-1-any.pkg.tar.zst
+
+%NAME%
+python-openai
+
+%BASE%
+python-openai
+
+%VERSION%
+1.24.1-1
+
+%DESC%
+Python client library for the OpenAI API
+
+%CSIZE%
+391751
+
+%ISIZE%
+3571735
+
+%MD5SUM%
+5a2e7ae9d5797f99704c80d39b8cb488
+
+%SHA256SUM%
+4031cd028fc24d9e3de1f746bf389fdfcd7389fba0fb41545a8290672a9f4d33
+
+%PGPSIG%
+iQIzBAABCAAdFiEEph5oDnze5xbx8Yihae9tnkmmTrgFAmYxgDQACgkQae9tnkmmTrhZ6g//brvLpqGwEF896STDhkKA57oY0pvs9rfqnIZue7ISLtHV2ahnU++L+hKuXXeu1GwjmsPd1w4MOdUPrtjcxuVt7UhGJyGoJ0kNcGHUtaY2SzX+CxpJg5tlPD0NA5gtsQsHMFmUYF7VJUW+ebEmP0vxSK5oqvsNwHfZyX/I7GR5OujlUx/FuGtnSO3qVQGjLQTfCTGNJrNrpOk7B7kREyVnZ7kXen93o6UYt9+cmJNOLP6wPU85TSnCOL+XSl65NETLoH5L44LSqslkV4bgq987D7NZEAp9MeAOqw2cT8p2SZJKfjBmPpSioeBy/o/q+BUPJiBqka3erbUSW1JgRKqyv7PAuuUc3tVyKpbVqhry4nsGChzOTRYrYvCzOyQ/rKWl8ok+EpV4kUYS83zkY2JxkRUxmqVJzK30Jc1VAID9TIhDxUoimZ/UxiEM3aYgevBGMedKMFrnQ9gYMbsvD3pmuRqhMBANjauGhjE7gu7Y15hZ/n2S0eVejof03pKLn9snsRT0jqy3PtjokqcADZBOgGqfC1yBnDA8qFroh52/MzAQ8Rqbg6lQZZQyvH4PBTmPIs1qeFLKUTEVKiftvEe5Y8eXXNKPbhlzpQE6oimZbHDbuGUe5fUPBQcpJXowaQ9whAexv+5TxlNZ2ut84BuvDx3I600CrdqNeufrYEK1q7c=
+
+%URL%
+https://github.com/openai/openai-python
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1714520094
+
+%PACKAGER%
+Justin Kromlinger <hashworks@archlinux.org>
+
+%DEPENDS%
+python-anyio
+python-httpx
+python-tqdm
+python-h2
+python-distro
+python-typing_extensions
+python-pydantic
+python-cached-property
+
+%OPTDEPENDS%
+python-numpy: Needed for CLI fine-tuning data preparation tool
+python-pandas: Needed for CLI fine-tuning data preparation tool
+python-pandas-stubs: Needed for type hints for mypy
+python-openpyxl: Needed for CLI fine-tuning data preparation tool xlsx format
+python-wandb: Support for Weights & Biases
+python-scikit-learn: Needed for embedding utils
+python-tenacity: embeddings
+python-matplotlib: embeddings
+python-plotly: embeddings
+python-scipy: embeddings
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+python-hatchling
+python-hatch-fancy-pypi-readme
+
