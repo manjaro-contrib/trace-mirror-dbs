@@ -1,0 +1,160 @@
+%FILENAME%
+systemd-255.5-4-x86_64.pkg.tar.zst
+
+%NAME%
+systemd
+
+%BASE%
+systemd
+
+%VERSION%
+255.5-4
+
+%DESC%
+system and service manager
+
+%CSIZE%
+8387815
+
+%ISIZE%
+32288398
+
+%SHA256SUM%
+899f909cdc3b78d5aa97315b4eafa0ee85cb2011454ada9bbce520e62c5da7bb
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZjKamQAKCRBtQr3RFuAGjxTGAQCFgK0vDjHpvTMmsMy9FH7+SNov611oCXwpOtVJ2zSRygD7BmSxBjPb67d9ujtfX5kKilnrbBEkXclr5VAu1lOa0QM=
+
+%URL%
+https://www.github.com/systemd/systemd
+
+%LICENSE%
+LGPL-2.1-or-later
+CC0-1.0
+GPL-2.0-or-later
+MIT-0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1714592154
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%REPLACES%
+nss-myhostname
+systemd-tools
+udev
+
+%CONFLICTS%
+nss-myhostname
+systemd-tools
+udev
+
+%PROVIDES%
+nss-myhostname
+systemd-tools=255.5
+udev=255.5
+
+%DEPENDS%
+systemd-libs=255.5
+acl
+libacl.so=1-64
+bash
+cryptsetup
+libcryptsetup.so=12-64
+dbus
+dbus-units
+kbd
+kmod
+libkmod.so=2-64
+hwdata
+libcap
+libcap.so=2-64
+libgcrypt
+libxcrypt
+libcrypt.so=2-64
+libidn2
+lz4
+pam
+libelf
+libseccomp
+libseccomp.so=2-64
+util-linux
+libblkid.so=1-64
+libmount.so=1-64
+xz
+pcre2
+audit
+libaudit.so=1-64
+openssl
+libcrypto.so=3-64
+libssl.so=3-64
+
+%OPTDEPENDS%
+libmicrohttpd: systemd-journal-gatewayd and systemd-journal-remote
+quota-tools: kernel-level quota management
+systemd-sysvcompat: symlink package to provide sysvinit binaries
+systemd-ukify: combine kernel and initrd into a signed Unified Kernel Image
+polkit: allow administration as unprivileged user
+curl: systemd-journal-upload, machinectl pull-tar and pull-raw
+gnutls: systemd-journal-gatewayd and systemd-journal-remote
+qrencode: show QR codes
+iptables: firewall features
+libbpf: support BPF programs
+libpwquality: check password quality
+libfido2: unlocking LUKS2 volumes with FIDO2 token
+libp11-kit: support PKCS#11
+tpm2-tss: unlocking LUKS2 volumes with TPM2
+
+%MAKEDEPENDS%
+acl
+cryptsetup
+docbook-xsl
+gperf
+lz4
+xz
+pam
+libelf
+intltool
+iptables
+kmod
+libcap
+libidn2
+libgcrypt
+libmicrohttpd
+libxcrypt
+libxslt
+util-linux
+linux-api-headers
+python-jinja
+python-lxml
+quota-tools
+shadow
+git
+meson
+libseccomp
+pcre2
+audit
+kexec-tools
+libxkbcommon
+bash-completion
+p11-kit
+systemd
+libfido2
+tpm2-tss
+rsync
+bpf
+libbpf
+clang
+llvm
+curl
+gnutls
+python-pyelftools
+libpwquality
+qrencode
+lib32-gcc-libs
+python-pefile
+
