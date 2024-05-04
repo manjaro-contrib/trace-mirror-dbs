@@ -1,0 +1,64 @@
+%FILENAME%
+lib32-mpg123-1.32.6-1-x86_64.pkg.tar.zst
+
+%NAME%
+lib32-mpg123
+
+%BASE%
+lib32-mpg123
+
+%VERSION%
+1.32.6-1
+
+%DESC%
+Console based real time MPEG Audio Player for Layer 1, 2 and 3 (32-bit)
+
+%CSIZE%
+310087
+
+%ISIZE%
+792187
+
+%MD5SUM%
+76cbabb480194f0be750ed7a2fbee4e9
+
+%SHA256SUM%
+4f87cd2e5d0e7870f98be901b7f0045c67730ee1246bc979441d7ebc40b0846e
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmY2OqIACgkQek52CV2KUuT+XAf+M9H3m4xD/aViprjioRs4RhcPWZP4pEFJrH/WOU/0rHh/MThdYlOpXAkEGLXwcUy/8+Wa55nxm04LWPT4d4p35bUG+p4Tkhc1GnDsTMXKD0B0ho/fMbD5/gH4sxT9EVlhHjeWpiRO3H7iczgZiqt/YneJ3F3JhwwGBH7fpy0dqjEiAqp+NVNDpxOELjicJWODwK3UyUYo/25QjLUoXXvFBIL69K8NOCvYHk/JEGewfjz7iqGD6sHSQrsUMHrJqpKV77FSUsjer8RqIMb7x+NJMZESfq+n+EQhM+V8aTD9PhhH1K7TPUHT98j5V5IWxpSgzbaQsLgRrmDd8+Ns+Ytrwg==
+
+%URL%
+https://mpg123.de/
+
+%LICENSE%
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1714829921
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+libmpg123.so=0-32
+libout123.so=0-32
+libsyn123.so=0-32
+
+%DEPENDS%
+lib32-alsa-lib
+mpg123
+
+%OPTDEPENDS%
+lib32-sdl2: for sdl audio support
+lib32-jack: for jack audio support
+lib32-libpulse: for pulse audio support
+
+%MAKEDEPENDS%
+lib32-sdl2
+lib32-jack2
+lib32-libpulse
+
