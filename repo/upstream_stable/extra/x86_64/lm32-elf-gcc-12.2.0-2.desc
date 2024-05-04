@@ -1,0 +1,57 @@
+%FILENAME%
+lm32-elf-gcc-12.2.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+lm32-elf-gcc
+
+%BASE%
+lm32-elf-gcc
+
+%VERSION%
+12.2.0-2
+
+%DESC%
+The GNU Compiler Collection - cross compiler for LatticeMico32 (bare-metal) target
+
+%CSIZE%
+34253081
+
+%ISIZE%
+493442431
+
+%SHA256SUM%
+a84a5954af77e90672e4e280c71d1f3ad29e939dc40535b5e7a9c7774e1a6f79
+
+%PGPSIG%
+iHUEABYKAB0WIQTofls58EpdiJ2MAUf22EFDSW9mgAUCZja7agAKCRD22EFDSW9mgNfdAQC7iuL+/UtIhnG4IGfDLW2L40qNY66OgE+koGHFSsmgogEA2LbJ+5wLW/akMGuWNUoGdTeejgIHC9O0SH00QmdcIgQ=
+
+%URL%
+https://gcc.gnu.org/
+
+%LICENSE%
+GPL-3.0-with-GCC-exception AND GFDL-1.3-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1714860572
+
+%PACKAGER%
+Campbell Jones <serebit@archlinux.org>
+
+%DEPENDS%
+lm32-elf-binutils
+zlib
+libmpc
+libisl
+zstd
+
+%OPTDEPENDS%
+lm32-elf-newlib: Standard C library optimized for embedded systems
+
+%MAKEDEPENDS%
+gmp
+mpfr
+lm32-elf-newlib
+
