@@ -1,0 +1,57 @@
+%FILENAME%
+riscv64-elf-gcc-12.2.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+riscv64-elf-gcc
+
+%BASE%
+riscv64-elf-gcc
+
+%VERSION%
+12.2.0-2
+
+%DESC%
+The GNU Compiler Collection - cross compiler for RISCV64 (bare-metal) target
+
+%CSIZE%
+73136925
+
+%ISIZE%
+488334364
+
+%SHA256SUM%
+938e3768575d216bbd4dbd789a434957fc8181df2babd7a15acb5fd3974d2c20
+
+%PGPSIG%
+iHUEABYKAB0WIQTofls58EpdiJ2MAUf22EFDSW9mgAUCZjbb3AAKCRD22EFDSW9mgGS3AQCzP8Y6TAruMJ9GlK/cNt6ulaFHIqB/eKxIrwBxQNDGqwEA4nNFY/dT4qxxEq8Zo9T0EcwmRiQA4oiwckpZdlZjcA4=
+
+%URL%
+https://gcc.gnu.org/
+
+%LICENSE%
+GPL-3.0-with-GCC-exception AND GFDL-1.3-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1714869652
+
+%PACKAGER%
+Campbell Jones <serebit@archlinux.org>
+
+%DEPENDS%
+riscv64-elf-binutils
+zlib
+libmpc
+libisl
+zstd
+
+%OPTDEPENDS%
+riscv64-elf-newlib: Standard C library optimized for embedded systems
+
+%MAKEDEPENDS%
+gmp
+mpfr
+riscv64-elf-newlib
+
