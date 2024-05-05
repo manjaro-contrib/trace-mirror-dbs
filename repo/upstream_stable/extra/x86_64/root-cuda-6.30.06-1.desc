@@ -1,0 +1,126 @@
+%FILENAME%
+root-cuda-6.30.06-1-x86_64.pkg.tar.zst
+
+%NAME%
+root-cuda
+
+%BASE%
+root
+
+%VERSION%
+6.30.06-1
+
+%DESC%
+C++ data analysis framework and interpreter from CERN with GPU (CUDA) features enabled
+
+%CSIZE%
+146507807
+
+%ISIZE%
+592984975
+
+%SHA256SUM%
+b97f15b60ece39eec33560c86428c617ca725da2b25d6790179ce108fae2a09d
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCZjfXMgAKCRAAHPSBC+jZEfCPAQDB8Yy4IVnrDVlP3MrBoE8a8Cj5FdbYhQRn3/1cILPjZgD7BneVUIY/1ZUo0eFsIREmoafC1os3nya3Ouu4KuqK4Qs=
+
+%URL%
+https://root.cern
+
+%LICENSE%
+LGPL2.1
+GPL
+custom:University of California and Stanford University License
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1714932195
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%CONFLICTS%
+root
+
+%PROVIDES%
+root
+
+%DEPENDS%
+blas
+desktop-file-utils
+fcgi
+fftw
+ftgl
+giflib
+gl2ps
+glew
+graphviz
+gsl
+hicolor-icon-theme
+libafterimage
+librsvg
+liburing
+libxpm
+nlohmann-json
+pcre
+python
+python-numpy
+tbb
+tex-gyre-fonts
+unixodbc
+xxhash>=0.6.5-1
+zstd
+cuda
+cudnn
+
+%OPTDEPENDS%
+cern-vdt: Add a set of fast and vectorisable mathematical functions
+chromium: Support for WebGUI
+cfitsio: Read images and data from FITS files
+libmariadbclient: MySQL support
+libxml2: XML parser interface
+openmpi: Support for Message Passing Interface (MPI)
+openssl: OpenSSL support
+postgresql-libs: PostgreSQL support
+pythia8>=8.2.40-1: Pythia8 EG support
+python-pygments: syntax highlighting in interactive console
+qt5-webengine: Support for WebGUI
+sqlite: SQLite support
+tcsh: Legacy CSH support
+unuran: Support non-uniform random numbers
+vc: Add types for portable and intuitive SIMD programming
+xrootd>5: Support remote file server and client
+z3: Suuport the Z3 theorem prover
+gcc-fortran: Enable the Fortran components of ROOT
+
+%MAKEDEPENDS%
+ccache
+cern-vdt
+chromium
+cfitsio
+cmake
+cuda
+cudnn
+gcc-fortran
+git
+go
+libxml2
+libmariadbclient
+ninja
+ocaml
+ocaml-ctypes
+openmpi
+openssl
+postgresql-libs
+pythia8>=8.2.40-1
+python-pygments
+qt5-webengine
+sqlite
+unuran
+vc
+xrootd>5
+z3
+
