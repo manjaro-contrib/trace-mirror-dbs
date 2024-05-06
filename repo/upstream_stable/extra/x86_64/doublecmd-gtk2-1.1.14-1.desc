@@ -1,0 +1,68 @@
+%FILENAME%
+doublecmd-gtk2-1.1.14-1-x86_64.pkg.tar.zst
+
+%NAME%
+doublecmd-gtk2
+
+%BASE%
+doublecmd
+
+%VERSION%
+1.1.14-1
+
+%DESC%
+twin-panel (commander-style) file manager (GTK3)
+
+%CSIZE%
+8292833
+
+%ISIZE%
+44681981
+
+%SHA256SUM%
+440f0c601e08af9b55dd6e39579765fce996d539c7bcc227a685f3254366e7ac
+
+%PGPSIG%
+iHUEABYKAB0WIQRTHs82RKRP6gtH283h488FOUSL/wUCZjZPlQAKCRDh488FOUSL/zUcAQC2MZlW3K1+++E58iPEJv9P0iveWzmZsj4a6T4hkIkECwEArBkTNQtN3qHPQGzhL4l45AH7BaEXjj9Zh4yIN2K8UgQ=
+
+%URL%
+http://doublecmd.sourceforge.net/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1714834923
+
+%PACKAGER%
+Ike Devolder <ike.devolder@archlinux.org>
+
+%CONFLICTS%
+doublecmd-qt5
+doublecmd-qt6
+
+%PROVIDES%
+doublecmd
+
+%DEPENDS%
+gtk2
+desktop-file-utils
+hicolor-icon-theme
+shared-mime-info
+
+%OPTDEPENDS%
+lua: scripting
+unzip: support extracting zip archives
+zip: suport packing zip archives
+p7zip: support for 7zip archives
+libunrar: support for rar archives
+
+%MAKEDEPENDS%
+lazarus
+gtk2
+qt5pas
+qt6pas
+
