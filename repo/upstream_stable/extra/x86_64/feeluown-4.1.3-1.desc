@@ -1,0 +1,87 @@
+%FILENAME%
+feeluown-4.1.3-1-any.pkg.tar.zst
+
+%NAME%
+feeluown
+
+%BASE%
+feeluown
+
+%VERSION%
+4.1.3-1
+
+%DESC%
+FeelUOwn Music Player
+
+%GROUPS%
+feeluown-full
+
+%CSIZE%
+989211
+
+%ISIZE%
+4718903
+
+%SHA256SUM%
+a13f1f52e90bd75bf7abf22467b03c69d4d793f80cffc5a96da2564c6d630488
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmY+eAAACgkQek52CV2KUuRN0Af/XCkwXcLRyAgRgN11/fl3PmaMBxIPLvlaYLFLKnU7lCjaJL9cQHWIIsk8pnrQFK3b3dqLyD9Qsu6Ja4IRt0UtwxU13zU5tibM6gtI9uHy5SoiHjFqCYc+nTnZOwUdeEpudrF0ilG1OHVGNVMEcGFl9b5axUaF44k3kjk4vc34KwZif+hNncKifwC5nyis5DjoIlg9Zc5DtaIuj6smI7kazxY3Vdo/e31S4GI0J5BPVbrRz62/xsKNMR4yz4XamGl03FJTRPAI8cN2Epzbzzg+NP3vGP5I9a/uubk7q0vDNNYR9YJX3KHMUQKxw9Zx6ak6iJ0BsPJE0pp20BxKY0TyTA==
+
+%URL%
+https://github.com/feeluown/FeelUOwn
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1715369861
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%REPLACES%
+feeluown-local
+
+%CONFLICTS%
+feeluown-local
+
+%PROVIDES%
+feeluown-local
+
+%DEPENDS%
+python-qasync
+python-pyqt5
+mpv
+python-opengl
+python-janus
+python-requests
+python-tomlkit
+python-packaging
+python-pydantic
+python-mutagen
+qt5-svg
+xdg-user-dirs
+
+%OPTDEPENDS%
+python-secretstorage: browser cookie extraction support
+python-pycryptodome: browser cookie extraction support
+dbus-python: mpris2 server support
+python-sanic: webserver support
+python-json-rpc: webserver support
+python-websockets: webserver support
+feeluown-netease
+feeluown-qqmusic
+feeluown-ytmusic
+feeluown-bilibili
+
+%MAKEDEPENDS%
+python-setuptools
+
+%CHECKDEPENDS%
+python-pytest
+python-pycryptodome
+
