@@ -1,0 +1,20 @@
+%DEPENDS%
+glibc
+util-linux-libs
+lzo
+zlib
+zstd
+libgcrypt
+systemd-libs
+
+%CONFLICTS%
+btrfs-progs-unstable
+
+%PROVIDES%
+btrfs-progs-unstable
+
+%OPTDEPENDS%
+python: libbtrfsutil python bindings
+e2fsprogs: btrfs-convert
+reiserfsprogs: btrfs-convert
+

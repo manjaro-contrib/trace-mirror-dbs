@@ -1,0 +1,21 @@
+%DEPENDS%
+ffmpeg
+libavcodec.so=60-64
+libavformat.so=60-64
+libavutil.so=58-64
+libswresample.so=4-64
+fftw
+glibc
+jack
+libjack.so=0-64
+libsamplerate
+libsamplerate.so=0-64
+libsndfile
+libsndfile.so=1-64
+
+%PROVIDES%
+libaubio.so=5-64
+
+%OPTDEPENDS%
+python-aubio: Python bindings
+

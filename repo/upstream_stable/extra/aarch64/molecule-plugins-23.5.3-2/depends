@@ -1,0 +1,25 @@
+%DEPENDS%
+molecule
+python
+python-boto3
+python-cryptography
+python-jinja
+python-packaging
+
+%CONFLICTS%
+molecule-containers
+molecule-docker
+molecule-podman
+molecule-vagrant
+
+%OPTDEPENDS%
+ansible-core: for vagrant driver and validating docker and podman playbooks
+python-ansible-compat: for podman driver
+python-docker: for Docker support
+python-google-auth: for GCE playbooks
+python-google-api-python-client: for GCE playbooks
+python-pycryptodome: for GCE playbooks
+python-requests: for Docker support
+python-selinux: for SELinux and Docker support
+python-vagrant: for vagrant module
+

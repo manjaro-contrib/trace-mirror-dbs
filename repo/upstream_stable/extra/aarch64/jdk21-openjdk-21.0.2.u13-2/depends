@@ -1,0 +1,53 @@
+%DEPENDS%
+java-runtime-common>=3
+ca-certificates-utils
+nss
+libjpeg-turbo
+libjpeg.so=8-64
+lcms2
+liblcms2.so=2-64
+libnet
+freetype2
+libfreetype.so=6-64
+harfbuzz
+libharfbuzz.so=0-64
+glibc
+gcc-libs
+java-environment-common=3
+hicolor-icon-theme
+libelf
+libgif.so=7-64
+libpng
+ca-certificates-utils
+nss
+libjpeg-turbo
+libjpeg.so=8-64
+lcms2
+liblcms2.so=2-64
+libnet
+freetype2
+libfreetype.so=6-64
+harfbuzz
+libharfbuzz.so=0-64
+
+%CONFLICTS%
+jre21-openjdk
+jre21-openjdk-headless
+
+%PROVIDES%
+java-environment=21
+java-environment-openjdk=21
+jdk21-openjdk=21.0.2.u13-2
+java-runtime=21
+java-runtime-openjdk=21
+jre21-openjdk=21.0.2.u13-2
+java-runtime-headless=21
+java-runtime-headless-openjdk=21
+jre21-openjdk-headless=21.0.2.u13-2
+
+%OPTDEPENDS%
+java-rhino: for some JavaScript support
+alsa-lib: for basic sound support
+gtk2: for the Gtk+ 2 look and feel - desktop usage
+gtk3: for the Gtk+ 3 look and feel - desktop usage
+

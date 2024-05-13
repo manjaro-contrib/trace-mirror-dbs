@@ -1,0 +1,26 @@
+%DEPENDS%
+dnssec-anchors
+fstrm
+glibc
+hiredis
+ldns
+libnghttp2
+libsodium
+libevent
+libevent-2.1.so=7-64
+openssl
+libcrypto.so=3-64
+libssl.so=3-64
+protobuf-c
+libprotobuf-c.so=1-64
+systemd-libs
+libsystemd.so=0-64
+
+%PROVIDES%
+libunbound.so=8-64
+
+%OPTDEPENDS%
+expat: for unbound-anchor
+sh: for unbound-control-setup
+python: for python-bindings
+

@@ -1,0 +1,16 @@
+%DEPENDS%
+glibc
+hwloc
+libevent
+libevent_core-2.1.so=7-64
+libevent_pthreads-2.1.so=7-64
+openpmix
+libpmix.so=2-64
+
+%PROVIDES%
+libprrte.so=3-64
+
+%OPTDEPENDS%
+openssh: for execution on remote hosts via plm_ssh_agent
+prrte-docs: for documentation
+

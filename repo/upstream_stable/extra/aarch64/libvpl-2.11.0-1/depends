@@ -1,0 +1,14 @@
+%DEPENDS%
+gcc-libs
+
+%CONFLICTS%
+onevpl
+
+%PROVIDES%
+onevpl
+libvpl.so=2-64
+
+%OPTDEPENDS%
+intel-media-sdk: runtime implementation for legacy Intel GPUs
+vpl-gpu-rt: runtime implementation for Tiger Lake and newer GPUs
+

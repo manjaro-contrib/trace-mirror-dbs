@@ -1,0 +1,46 @@
+%DEPENDS%
+alsa-lib
+libasound.so=2-64
+bluez-libs
+dbus
+libdbus-1.so=3-64
+expat
+libexpat.so=1-64
+glib2
+libgio-2.0.so=0-64
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+glibc
+gpm
+libgpm.so=2-64
+icu
+libicuuc.so=74-64
+libcap
+liblouis
+libspeechd
+ncurses
+libncursesw.so=6-64
+pcre2
+polkit
+systemd-libs
+libsystemd.so=0-64
+
+%PROVIDES%
+libbrlapi.so=0.8-64
+
+%OPTDEPENDS%
+at-spi2-core: X11/GNOME Apps accessibility
+atk: ATK bridge for X11/GNOME accessibility
+brltty-udev-generic: for initializing brltty with generic USB devices
+espeak-ng: espeak-ng driver
+java-runtime: Java support
+libxaw: X11 support
+libxt: X11 support
+libx11: for xbrlapi
+libxfixes: for xbrlapi
+libxtst: for xbrlapi
+ocaml: OCaml support
+python: Python support
+speech-dispatcher: speech-dispatcher driver
+tcl: tcl support
+

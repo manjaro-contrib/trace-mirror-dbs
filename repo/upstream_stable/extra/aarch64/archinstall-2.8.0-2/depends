@@ -1,0 +1,23 @@
+%DEPENDS%
+arch-install-scripts
+btrfs-progs
+coreutils
+cryptsetup
+e2fsprogs
+glibc
+kbd
+pciutils
+procps-ng
+python
+python-pyparted
+python-simple-term-menu
+python-sphinx_rtd_theme
+systemd
+util-linux
+
+%PROVIDES%
+python-archinstall
+
+%OPTDEPENDS%
+python-systemd: for systemd-journald support
+

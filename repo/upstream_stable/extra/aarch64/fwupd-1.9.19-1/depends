@@ -1,0 +1,47 @@
+%DEPENDS%
+bash
+bluez
+curl
+flashrom
+gcc-libs
+glib2
+glibc
+gnutls
+hicolor-icon-theme
+json-glib
+libarchive
+libcbor
+libgudev
+libgusb
+libjcat
+libmbim
+libmm-glib
+libqmi
+libxmlb
+passim
+polkit
+protobuf-c
+python
+shared-mime-info
+sqlite
+systemd-libs
+xz
+zlib
+libarchive.so=13-64
+libcbor.so=0.11-64
+libcurl.so=4-64
+libgudev-1.0.so=0-64
+libjson-glib-1.0.so=0-64
+libmm-glib.so=0-64
+libpassim.so=1-64
+libprotobuf-c.so=1-64
+libqmi-glib.so=5-64
+
+%PROVIDES%
+libfwupd.so=2-64
+
+%OPTDEPENDS%
+python-dbus: Firmware packaging tools
+python-gobject: Firmware packaging tools
+udisks2: UEFI firmware upgrade support
+

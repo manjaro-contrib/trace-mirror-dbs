@@ -1,0 +1,17 @@
+%DEPENDS%
+dbus
+glib2
+glibc
+python
+
+%CONFLICTS%
+dbus-python
+python-dbus-common
+
+%PROVIDES%
+dbus-python=1.3.2
+python-dbus-common=1.3.2
+
+%OPTDEPENDS%
+python-gobject: D-Bus services via PyGI
+

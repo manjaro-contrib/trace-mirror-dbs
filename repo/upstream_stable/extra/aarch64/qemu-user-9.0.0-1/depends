@@ -1,0 +1,20 @@
+%DEPENDS%
+capstone
+gcc-libs
+glib2
+libglib-2.0.so=0-64
+libgmodule-2.0.so=0-64
+glibc
+gnutls
+libbpf
+libelf
+liburing
+liburing.so=2-64
+numactl
+libnuma.so=1-64
+qemu-common=9.0.0-1
+zlib
+
+%OPTDEPENDS%
+qemu-user-binfmt: for binary format rules
+

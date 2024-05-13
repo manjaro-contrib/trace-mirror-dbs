@@ -1,0 +1,18 @@
+%DEPENDS%
+freetype2
+glib2
+glibc
+graphite
+libfreetype.so=6-64
+libgraphite2.so=3-64
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+
+%PROVIDES%
+libharfbuzz.so=0-64
+libharfbuzz-subset.so=0-64
+libharfbuzz-gobject.so=0-64
+
+%OPTDEPENDS%
+harfbuzz-utils: utilities
+

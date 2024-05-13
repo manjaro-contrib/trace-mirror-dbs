@@ -1,0 +1,22 @@
+%DEPENDS%
+gcc-libs
+glibc
+glibmm
+hicolor-icon-theme
+libiec61883
+libraw1394
+libxml++
+python-dbus
+alsa-lib
+libasound.so=2-64
+dbus-c++
+libdbus-c++-1.so=0-64
+libconfig
+libconfig++.so=11-64
+
+%PROVIDES%
+libffado.so=2-64
+
+%OPTDEPENDS%
+python-pyqt5: ffado-mixer
+

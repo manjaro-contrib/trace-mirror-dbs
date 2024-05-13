@@ -1,0 +1,73 @@
+%DEPENDS%
+qemu-base=9.0.0-1
+qemu-audio-alsa=9.0.0-1
+qemu-audio-dbus=9.0.0-1
+qemu-audio-jack=9.0.0-1
+qemu-audio-oss=9.0.0-1
+qemu-audio-pa=9.0.0-1
+qemu-audio-pipewire=9.0.0-1
+qemu-audio-sdl=9.0.0-1
+qemu-audio-spice=9.0.0-1
+qemu-block-curl=9.0.0-1
+qemu-block-dmg=9.0.0-1
+qemu-block-nfs=9.0.0-1
+qemu-block-ssh=9.0.0-1
+qemu-chardev-spice=9.0.0-1
+qemu-hw-display-qxl=9.0.0-1
+qemu-hw-display-virtio-gpu=9.0.0-1
+qemu-hw-display-virtio-gpu-gl=9.0.0-1
+qemu-hw-display-virtio-gpu-pci=9.0.0-1
+qemu-hw-display-virtio-gpu-pci-gl=9.0.0-1
+qemu-hw-display-virtio-vga=9.0.0-1
+qemu-hw-display-virtio-vga-gl=9.0.0-1
+qemu-hw-usb-host=9.0.0-1
+qemu-hw-usb-redirect=9.0.0-1
+qemu-hw-usb-smartcard=9.0.0-1
+qemu-ui-curses=9.0.0-1
+qemu-ui-dbus=9.0.0-1
+qemu-ui-egl-headless=9.0.0-1
+qemu-ui-gtk=9.0.0-1
+qemu-ui-opengl=9.0.0-1
+qemu-ui-sdl=9.0.0-1
+qemu-ui-spice-app=9.0.0-1
+qemu-ui-spice-core=9.0.0-1
+qemu-vhost-user-gpu=9.0.0-1
+qemu-system-aarch64=9.0.0-1
+
+%PROVIDES%
+qemu=9.0.0
+
+%OPTDEPENDS%
+qemu-user-static: for static user mode emulation of QEMU targets
+samba: for SMB/CIFS server support
+qemu-block-gluster: for Gluster block driver
+qemu-block-iscsi: for iSCSI block driver
+qemu-chardev-baum: for Baum chardev driver
+qemu-docs: for documentation
+qemu-emulators-full: for all system emulators
+qemu-full: for a full QEMU installation
+qemu-hw-s390x-virtio-gpu-ccw: for s390x-virtio-gpu-ccw display device
+qemu-pr-helper: for persistent reservation utility
+qemu-system-aarch64: for AARCH64 system emulator
+qemu-system-alpha: for Alpha system emulator
+qemu-system-arm: for ARM system emulator
+qemu-system-avr: for AVR system emulator
+qemu-system-cris: for CRIS system emulator
+qemu-system-hppa: for HPPA system emulator
+qemu-system-m68k: for ColdFire (m68k) system emulator
+qemu-system-microblaze: for Microblaze system emulator
+qemu-system-mips: for MIPS system emulator
+qemu-system-nios2: for nios2 system emulator
+qemu-system-or1k: for OpenRisc32 system emulator
+qemu-system-ppc: for PPC system emulator
+qemu-system-riscv: for RISC-V system emulator
+qemu-system-rx: for RX system emulator
+qemu-system-s390x: for S390 system emulator
+qemu-system-sh4: for SH4 system emulator
+qemu-system-sparc: for SPARC system emulator
+qemu-system-tricore: for tricore system emulator
+qemu-system-xtensa: for Xtensa system emulator
+qemu-tests: for QEMU tests
+qemu-tools: for QEMU tools
+qemu-user: for user mode emulation of QEMU targets
+
