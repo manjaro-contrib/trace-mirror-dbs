@@ -1,0 +1,94 @@
+%FILENAME%
+libvirt-1:10.3.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+libvirt
+
+%BASE%
+libvirt
+
+%VERSION%
+1:10.3.0-1
+
+%DESC%
+API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)
+
+%CSIZE%
+8857073
+
+%ISIZE%
+50744259
+
+%MD5SUM%
+79145d67521becb598228976990a1793
+
+%SHA256SUM%
+e8768531a6120ab4865858f932cf4f58849a48326b34fe32875788bcb5f2def0
+
+%PGPSIG%
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCZjNmYl8UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCg0ZAP9l0fW8R3UlXtS/Qw7xUi9pOHSvqDVtd12kI/Xq+yb/FQEA+eXm/TMEt5/cY9IvuIOyq57sS6qh/Xskg0bm3hk4fg4=
+
+%URL%
+https://libvirt.org/
+
+%LICENSE%
+LGPL-2.1-or-later
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1714644065
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%PROVIDES%
+libvirt=10.3.0
+libvirt.so=0-64
+libvirt-admin.so=0-64
+libvirt-lxc.so=0-64
+libvirt-qemu.so=0-64
+
+%DEPENDS%
+libpciaccess
+yajl
+fuse3
+gnutls
+parted
+libssh
+libxml2
+numactl
+polkit
+libnbd
+libnl
+
+%OPTDEPENDS%
+libvirt-storage-gluster: Gluster storage backend
+libvirt-storage-iscsi-direct: iSCSI-direct storage backend
+gettext: required for libvirt-guests.service
+openbsd-netcat: for remote management over ssh
+dmidecode: DMI system info support
+dnsmasq: required for default NAT/DHCP for guests
+radvd: IPv6 RAD support
+iptables-nft: required for default NAT networking
+qemu-desktop: QEMU/KVM support
+qemu-emulators-full: Support of additional QEMU architectures
+lvm2: Logical Volume Manager support
+open-iscsi: iSCSI support via iscsiadm
+swtpm: TPM emulator support
+
+%MAKEDEPENDS%
+meson
+libxslt
+python-docutils
+lvm2
+open-iscsi
+libiscsi
+glusterfs
+bash-completion
+dnsmasq
+iproute2
+qemu-base
+

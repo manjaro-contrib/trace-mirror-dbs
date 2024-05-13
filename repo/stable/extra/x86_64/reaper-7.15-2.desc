@@ -1,0 +1,78 @@
+%FILENAME%
+reaper-7.15-2-x86_64.pkg.tar.zst
+
+%NAME%
+reaper
+
+%BASE%
+reaper
+
+%VERSION%
+7.15-2
+
+%DESC%
+A complete digital audio production application for computers
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+12508385
+
+%ISIZE%
+122808868
+
+%MD5SUM%
+8428acd2616aefb3447bd131a913f901
+
+%SHA256SUM%
+3952b1a6c96ad5d09ddedfadf7cc251dfbdd012f4aeed6e9c3bd4c9fd550bd07
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZiFqEQAKCRCbeih9mi7GCOgTAQDrk4I+tOWWXIQDRmC0q+KJfGCKcqBOG5MORxzMwC9C6AEAzRRIxtE+gbjakCojgGHM/x6LQ7LTcwaevZQNb9z6ogo=
+
+%URL%
+https://reaper.fm
+
+%LICENSE%
+LicenseRef-EULA
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1713465811
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+clap-host
+lv2-host
+vst-host
+vst3-host
+
+%DEPENDS%
+aribb24
+alsa-lib
+libasound.so=2-64
+fontconfig
+gcc-libs
+glibc
+hicolor-icon-theme
+libglvnd
+libx11
+libxi
+
+%OPTDEPENDS%
+ffmpeg4.4: for video rendering
+jack: for JACK support
+pulseaudio: for PulseAudio support
+python: for Python plugins
+reapack: for managing reaper plugins
+sws: for the SWS/S&M plugin extension
+
+%MAKEDEPENDS%
+kservice5
+xdg-utils
+

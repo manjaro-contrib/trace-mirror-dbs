@@ -1,0 +1,67 @@
+%FILENAME%
+e2fsprogs-1.47.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+e2fsprogs
+
+%BASE%
+e2fsprogs
+
+%VERSION%
+1.47.0-2
+
+%DESC%
+Ext2/3/4 filesystem utilities
+
+%CSIZE%
+1244541
+
+%ISIZE%
+5184885
+
+%MD5SUM%
+6967d608f2153e858186244327f7845e
+
+%SHA256SUM%
+e8a5e4c914078d4fc835fb51e6129c50942cea353d407149967ee19da0a45a78
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZfXxxAAKCRBtQr3RFuAGjznzAP9jesJHpK6CFVaUol8lRLh7Q/tjnNjj4waujiDuhPfwegEAk8FnauGpEbEVy9ArEAq8q4vYaxv9tgMjpXkgDQ/+7wM=
+
+%URL%
+http://e2fsprogs.sourceforge.net
+
+%LICENSE%
+GPL
+LGPL
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1710616953
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%PROVIDES%
+libcom_err.so=2-64
+libe2p.so=2-64
+libext2fs.so=2-64
+libss.so=2-64
+
+%DEPENDS%
+sh
+util-linux-libs
+
+%OPTDEPENDS%
+lvm2: for e2scrub
+util-linux: for e2scrub
+smtp-forwarder: for e2scrub_fail script
+
+%MAKEDEPENDS%
+systemd
+util-linux
+fuse
+
