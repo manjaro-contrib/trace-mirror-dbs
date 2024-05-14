@@ -1,0 +1,68 @@
+%FILENAME%
+mypy-1.10.0-2-any.pkg.tar.zst
+
+%NAME%
+mypy
+
+%BASE%
+mypy
+
+%VERSION%
+1.10.0-2
+
+%DESC%
+Optional static typing for Python 2 and 3 (PEP484)
+
+%CSIZE%
+3331259
+
+%ISIZE%
+21436419
+
+%MD5SUM%
+abff38f2a7634e7001374e3ccc504279
+
+%SHA256SUM%
+9905e7f1aa59bf65d6388ef8de883d249779a850be97a215a892cb7b5aa12b59
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZkOnLAAKCRCbeih9mi7GCOPqAQD9USsdMVopwVO7xOKnuZenojMfxbgtwi54XSCF+1xjPgD/QpHsUZ+7sHu9gqyasfQYW+mV6PcCe81ks4bIqaUrWA4=
+
+%URL%
+http://www.mypy-lang.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1715709029
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-mypy_extensions
+python-typing_extensions
+
+%OPTDEPENDS%
+python-lxml: for reports
+python-pip: for installing missing types
+python-psutil: for dmypy
+python-setuptools: for mypyc
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-attrs
+python-psutil
+python-pytest
+python-pytest-xdist
+
