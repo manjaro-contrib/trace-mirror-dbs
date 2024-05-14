@@ -1,0 +1,78 @@
+%FILENAME%
+python-django-compressor-4.4-2-any.pkg.tar.xz
+
+%NAME%
+python-django-compressor
+
+%BASE%
+python-django-compressor
+
+%VERSION%
+4.4-2
+
+%DESC%
+Compresses linked and inline javascript or CSS into a single cached file
+
+%CSIZE%
+173112
+
+%ISIZE%
+968770
+
+%MD5SUM%
+370931b0ee473a1f0a37cf494c2e1922
+
+%SHA256SUM%
+ebe439d76cf4a30e64812cab0d086cbf80c498fc534b75d3588aace7c68d82bc
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmYvLv8ACgkQdxk/FSvb5qbtBw/9FmqfvOVnTkGSsxH7frJ/nYOuPKj+Mupo8sZdSt/yUhRvvGLW3Dr58WRW6Hy1aAabQCJ5JoR8YsXBe5aOze7Pf7mQT2sQWpwJhdavib04gnzfj3SjcCJ4LY/snvpt9k2YBIA7qtRrsz18iB1KuZblnbPXhFn2Z7Q9Un7uPPIZgHh1SjQhHGu30FZ5DF6eDK/iXgn+ewntTZDZzgV3eZKZ1t/rvpCPMCe1RGcw9NSOkqgUv1OriyiHwZJ4Hngh5NC5XFbP46icgn2LhWvIVbKNr0EnUs5EwQwtC/+KjRf531gJmPBfLYpjZIcHSrA5ojW84kLkHkCM6IFFgA8ipY6q/bKVE1+RA0PxVR+N8YdvxYs/3MvfVQJZQPOcGshnO44NOIMzRjlsQZ2ZtZiK334AI2Es9AzZyci/ZPSUvCeqz9RRSmccfqBn6mX7HR6dGD5hS5i5tv5C5AJdtwjrllaRq+XU2aE7waZYSz95+UQARhsblTTJdG9YC47vKAouvAp+386HYRJOpkLwf/39j7G6N6ARsd218zHc/WaVA51qP8JgXxPxKzYbYdFm0LZ5du7J6aO9ZZbDR2J92AN1m/UtNZ9TNQcKXdUjT32jesdsWKGKwlsIyHMmQLA/dtWK+uSxWD0nNmDobkqeVM871i2w1QRR2HVzEJYKcPwSo8bNBUs=
+
+%URL%
+https://github.com/django-compressor/django-compressor
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1714368237
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-django
+python-django-appconf
+python-rcssmin
+python-rjsmin
+
+%OPTDEPENDS%
+python-beautifulsoup4: for compressor.parser.BeautifulSoupParser and compressor.parser.LxmlParser
+python-brotli: for compressor.storage.BrotliCompressorFileStorage
+python-calmjs: for compressor.filters.jsmin.CalmjsFilter
+python-csscompressor: for compressor.filters.cssmin.CSSCompressorFilter
+python-django-sekizai: for including template code into main template
+python-html5lib: for compressor.parser.Html5LibParser
+python-jinja: for jinja2 templating support
+python-lxml: for compressor.parser.LxmlParser
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-beautifulsoup4
+python-brotli
+python-calmjs
+python-csscompressor
+python-django-sekizai
+python-html5lib
+python-jinja
+python-lxml
+

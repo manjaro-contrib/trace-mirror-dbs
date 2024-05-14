@@ -1,0 +1,78 @@
+%FILENAME%
+electrum-4.5.4-2-any.pkg.tar.xz
+
+%NAME%
+electrum
+
+%BASE%
+electrum
+
+%VERSION%
+4.5.4-2
+
+%DESC%
+Lightweight Bitcoin wallet
+
+%CSIZE%
+6744384
+
+%ISIZE%
+40099093
+
+%MD5SUM%
+d8afbdfc2b421146943e50f2187aab9f
+
+%SHA256SUM%
+225b3bd17071bc46651d08485122ef1c67cf88860e878e6035046d86b1d5098a
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmYzsjwACgkQdxk/FSvb5qYD9w//QTYE9VzszcQ9A3JjpCyf5Vhcg0YXiEDKC+uaIifPnxbRve0IVtT9YjhgbIfMci48Gl8cHe012cvBp6VHfuk82t9rs+ojKyNY3laaLDs6IIJyqfMuJKtuyNsFi6ZUKcKp4HeWnd7J5eD1L5QUWhi5A1TFvfdXVxLDg5+BOVEmEHcJUlipudUflkM2bPG61lt3dTJFg9NdNc7Qlja9BvEeRiVYE9Xh2YEz7Q4991DtAz2my8QqYRYPGZwOa1kGOBYjWzyQwmADqAA7GmuhLUBmLxuxrzNeUJP8+Op/G+lHP0wNDxFGN1xBsWqBlFtrwS4tY60KWc9QxjhOBt+QQ6kVezlKgpsYYd7LQ86e9jRFvb9SklDMrsaURY73XmfB/v7rK5ahAp/njkmyBSi7Y0M/a4KokWJVzNFpDDM5E8aIUmXCxOOOaTfk7LfW1hykR4wuz5t7Lz069XF4TXYtY/YVsNlS93dQCxWUgsM/KLtM5go4jEeXscTXxLo81Fr5AwWLVnSkiDi/wmARXczA7Kg7mznpKi0DEvHmducVWg2SY+wUo8WnldO49YldTIkMuk3AiSbVnqnDHuljiRF3VOSVRp9SVu4fIQHGrddtterKZJVOTIrrpjS9VXdbmJaqT1a4cdkdDwQfgk0ZnfC8P9LfKKfymrz5oKrIuzyws5W8jCY=
+
+%URL%
+https://electrum.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1714663909
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python-pyaes
+python-ecdsa
+python-pbkdf2
+python-requests
+python-qrcode
+python-protobuf
+python-dnspython
+python-jsonrpclib-pelix
+python-pysocks
+python-pyqt5
+python-pycryptodomex
+python-websocket-client
+python-certifi
+python-aiorpcx
+python-aiohttp
+python-aiohttp-socks
+libsecp256k1
+python-bitstring
+python-jsonpatch
+
+%OPTDEPENDS%
+python-btchip: BTChip hardware wallet support
+python-hidapi: Digital Bitbox hardware wallet support
+python-matplotlib: plot transaction history in graphical mode
+zbar: QR code reading support
+python-rpyc: send commands to Electrum Python console from an external script
+python-qdarkstyle: optional dark theme in graphical mode
+python-pycryptodomex: use PyCryptodome AES implementation instead of pyaes
+
+%MAKEDEPENDS%
+python-setuptools
+

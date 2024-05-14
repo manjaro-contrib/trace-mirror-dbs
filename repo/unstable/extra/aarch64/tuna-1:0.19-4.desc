@@ -1,0 +1,64 @@
+%FILENAME%
+tuna-1:0.19-4-any.pkg.tar.xz
+
+%NAME%
+tuna
+
+%BASE%
+tuna
+
+%VERSION%
+1:0.19-4
+
+%DESC%
+Thread and IRQ affinity setting GUI and cmd line tool
+
+%GROUPS%
+realtime
+
+%CSIZE%
+288232
+
+%ISIZE%
+1193610
+
+%MD5SUM%
+93418682641a27338035de84ff3aba61
+
+%SHA256SUM%
+1f2228cf0c3aed7d380e9d3f033519092aac4a22542706abcbb16bb09c6a9081
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmYu0O0ACgkQdxk/FSvb5qZntBAApkCEIymvRw+my+Q7UkiA6f4p5W5tcMZ4TXOwQ4DSaO3/oOWkfblGK7ZBuYH/zPxsjFlgXSelmlUbuWVlcoZD5vlEg+UxaUlFnGr4KL57Cvs3Jf8fjsdav1DfRyBEEsAxZ2MarH5OSxDehTwz8wXzhRwU9Qf7TL2QCiJj86Aj7AB6DqMrfWYkwld2oD1SVqk4Ydzw2KuT5wR+Pg+f3raxCju+sbcS2hRtCUD/jUXin9PWR/LVEftJdsKwOdLp6sHEkarndREUEzv+UvN6ZP6n/q+ttHjS7Cp184ieF9njC8rSL5ZVe90Z1WldEPKvW8WF+8rarShyA93TSVUO/Y6n2e7HHA9ljcC9trAPaVwHSP497EdkaqjZBXA3od+fCBTshb5NZNtUoh6LvaC5cRlGCnbjpfQe8gsVCkcIo7l32mCH20Y0xXrt6xSU6TcIK3IEjSjWp4wHdyIzWOU5ltgNwkPxEf1SZvD53OpwO9b8VuDabbEA1ZC2e9/cYc1Pl8+Dja1mXGRwJWzHh03Dgh6QQoYAzvk+npS0/dxj3V/1NJ98mmlHu2zpbBfEhK+ocXC0+JJaBu8xnUN6fOt51Rv14Jsnu1hG0UEaHW7hnDBu2dxAXXiSF7MHLfJobI67ZVKbglaSpCKfIHT7dKfXvKBWxk/59J+LP0HhZQnzmh4vl2o=
+
+%URL%
+https://git.kernel.org/pub/scm/utils/tuna/tuna.git/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+any
+
+%BUILDDATE%
+1714344156
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-linux-procfs
+
+%OPTDEPENDS%
+python-gobject: for oscilloscope
+python-matplotlib: for oscilloscope
+python-numpy: for oscilloscope
+python-perf: for process view
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+

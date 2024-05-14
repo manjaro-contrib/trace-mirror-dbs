@@ -1,0 +1,69 @@
+%FILENAME%
+python-openpyxl-3.1.2-4-any.pkg.tar.xz
+
+%NAME%
+python-openpyxl
+
+%BASE%
+python-openpyxl
+
+%VERSION%
+3.1.2-4
+
+%DESC%
+A Python library to read/write Excel 2010 xlsx/xlsm files
+
+%CSIZE%
+446316
+
+%ISIZE%
+3014402
+
+%MD5SUM%
+af0e2e964dee34be7132ee5706d2bb31
+
+%SHA256SUM%
+14e49d1f4060af3ee5f66e22c367ebbfab43b650c09726924fa01488a7f1fd8d
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmYvDEEACgkQdxk/FSvb5qbCsxAAitoMAOEX/lb53zfj+ZhS/Nk4AbV7ETZfG5U4BYAJbc8XKkh3WATI457DgBNuzYF+8xuvtw/mGTZjcUZ23S1WXPOw4Lt8Ko6Tj2o3dIm16XI+EvaneEtdaZHJwtK6h3Mg0HJ4FNQH/Cn/ayKjpiihm2yLJZA8ugukwyVHjznKDxcFUfO81S536uGgL4Dpm2U7+ZggvDY6VxoaT0eAX+wouGrCn7obtc81KXN3l3uoAQ5j2ATsJL0J8MLR3UgV3+KTY3oaJTR9lNBIyUx1vsUCJDK9Ygij34KoRxIe0vMmrga7YBF/ZuUbjHUg81gziLM8I7DrE3JoR2tKWxSWEpxpIDNKtXrUwf7xSI6wQmkQ8G6vRnQwdNzoV8oS0wrVGzwjGe9JB5wcZDrlNPMrnVLX9VhFZwVZo7N8GByw1uHw1azEMLu2oRClxbqFtGSVEEL0OL7U4VQKR166svwlISMKXrsopxfxbU73zo4HYbTemaGlj8BjzeMFDK2UMVHuFYkqGqQhFxZ0ySazvZCZLxMNOlswxGQAJZttRIz7Y1mQPvu6pVABpzbxICD7HBdQyT7w0smqUkfundkEwnZlgM9KI4q6iNYHTMAMr/Xr7SmMIDGN6KglNLOkf96zKTflMuTZjAOm7BCwGQNjeYaGKYWoyzXiMrIbeZ/q9f+Blmoig3w=
+
+%URL%
+https://openpyxl.readthedocs.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1714359340
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-et-xmlfile
+
+%OPTDEPENDS%
+python-pillow: needed to include images
+python-lxml: alternative XML backend
+python-defusedxml: guard against various XML vulnerabilities
+python-pandas: for iteration over Pandas DataFrames
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+python-defusedxml
+
+%CHECKDEPENDS%
+python-pytest
+python-py
+python-lxml
+python-pandas
+python-pillow
+

@@ -1,0 +1,95 @@
+%FILENAME%
+molecule-plugins-23.5.3-2-any.pkg.tar.xz
+
+%NAME%
+molecule-plugins
+
+%BASE%
+molecule-plugins
+
+%VERSION%
+23.5.3-2
+
+%DESC%
+Collection of molecule plugins
+
+%CSIZE%
+70544
+
+%ISIZE%
+419588
+
+%MD5SUM%
+19528f61b1a8a241dc3cbd354c4f02a0
+
+%SHA256SUM%
+b5194bf35bdc3fc81fba3fb8de4aa2d5b6c0e2ef0adce1c8d182a3119de7c872
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmYxa0EACgkQdxk/FSvb5qavSg//XexGrQbTjDkBwuzu2VXjIJTOwFPHzsm4lMoSk0tqJHgJ+BDiGnZNj+CKTMrRaRkNd/GK+/CxNiBkq5vqRy7O0eNKUzvDLQsxljD+yQrPpRsqm8USKm+8q3E4MFc+5Qgluw0QxzvpLlUCK5LotepFom3NJJ+LwP50dpg4/R+l23yX56CMXaliBw5kRv7JYWsyfESX4121vV31dQXRVP/EdIIK4hLQl6PqeK4tnXysQAKdlg7b15DvjveKFFIUV2UpbfgsSOKGY+3rmP0ColhjejYhmOj3Io/g+VCEOkuoPwuDxR7jq1pfjAm/aYU6Qtpv0dtDRXxek3i1thDcd08v0+s4FFPMNKlWHGzINH4YKX9CN+jIkJ4p/p528Nsz+TvRmk0D9gkbQ8OCMogaIitkdjutqYdOYr7KTBhzPU34aR8d8mkXL+J4nAEv1Xt/7vawJ2OOk4zdFufYU+yaxLLDl4QhNz57mjqCkfAFc5xc0NoyqhHd4sivRhgp9nwBMFSObgVt9B+ULuSF23Tu6hWSQaeYtMwayUlP55bmIgXiHr6za6+n0+91lAai/O3ZIWOOsMWCbGR5qjkMJOeHTLZhjX8RzYgl+AzZxTlanO2QaSJThtWzfc2ywftvfJn0yK+1F2KDaEc7SZJhTw0oTrulQJgaWuBpnqFs35wQ91ssoF0=
+
+%URL%
+https://github.com/ansible-community/molecule-plugins
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1714514729
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%REPLACES%
+molecule-containers
+molecule-docker
+molecule-podman
+molecule-vagrant
+
+%CONFLICTS%
+molecule-containers
+molecule-docker
+molecule-podman
+molecule-vagrant
+
+%DEPENDS%
+molecule
+python
+python-boto3
+python-cryptography
+python-jinja
+python-packaging
+
+%OPTDEPENDS%
+ansible-core: for vagrant driver and validating docker and podman playbooks
+python-ansible-compat: for podman driver
+python-docker: for Docker support
+python-google-auth: for GCE playbooks
+python-google-api-python-client: for GCE playbooks
+python-pycryptodome: for GCE playbooks
+python-requests: for Docker support
+python-selinux: for SELinux and Docker support
+python-vagrant: for vagrant module
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+podman
+python-filelock
+python-google-auth
+python-google-api-python-client
+python-pexpect
+python-pycryptodome
+python-pytest
+python-pytest-helpers-namespace
+python-vagrant
+vagrant
+
