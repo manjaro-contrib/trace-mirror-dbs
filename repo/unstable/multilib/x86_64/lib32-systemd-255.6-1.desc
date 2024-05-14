@@ -1,5 +1,5 @@
 %FILENAME%
-lib32-systemd-255.5-1-x86_64.pkg.tar.zst
+lib32-systemd-255.6-1-x86_64.pkg.tar.zst
 
 %NAME%
 lib32-systemd
@@ -8,25 +8,25 @@ lib32-systemd
 lib32-systemd
 
 %VERSION%
-255.5-1
+255.6-1
 
 %DESC%
 system and service manager (32-bit)
 
 %CSIZE%
-714806
+725923
 
 %ISIZE%
-2196296
+2212680
 
 %MD5SUM%
-73abb6f49bda52d9b18b999d0ed732eb
+0f06db35851d8e5f296baec05553ab2f
 
 %SHA256SUM%
-669174453fa6f0106dbe0fee7dc08466ec211205c98706ebbfbdb8c2ba4665f9
+14afce598ba19daf53e91510120bb4a47b6cef8e277fe95d07ac2dc517b1120f
 
 %PGPSIG%
-iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmYpKLwACgkQFQwgB0PtRtjiSAf/Ye0YAFV3WFw2N5lzPmlC42+SG5xAYl+Lxihcnfv0cUBejuq72/cdc3Eciu7SIbVFO1gZiDLGvHg7chCP51Qwp7shcVxprWZkmZ7sMrKV4buRvdVHCFDXbD3xMK/9G0qGQnhmGfGns90vDBzqnOw8CjWj1SiyHX3zVFwLU57tHyi/6zGRuBhow2tR8ivCfqiZLK586zmbQOUUFVQCg6OYJjWGbblqueK/fd/T6JIBvCf+BTKm51cuUWaIg2br0Z41XP2Du+FGHPz1OfULJmtKQfP7YZYl+Fm4ADKkPpbOmL1xlCqrJQQjCSUzSQMAp0gVsk09Aopz/NLhA5rSIVsS8Q==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmZDe/AACgkQFQwgB0PtRtidQQf/fZY7oGVX4ovlR2GdoR1XV0R49qFIRJ/vnmG8ITq4bMMZAbCCM2+Ai+mSPP3GvqVXBFipzqXNI37f/eAtmWeLhi23kMXwHLbAiEfnsaL9RBa/UjA58taLPFYvhfHB23chk2/ZtHAb+DhNPvXSNdZBMSkoAvlfP5NH+UhXpwcndssaAPt1tkZxPpmGhbxnJ+kLJDaaI7uTRNGg885bBEVPukH4k8dzm1KG5VYbXn2yqxzVtId4sT3CeNjjkFGUS/8RpSJ+lPqTh7gktlJb4XLWniuS9hgOXY208Xi7djGthdobg69EoLoIH10Doz73UCZHUBY5IDOIPcCFIZq5SvOy4g==
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -38,7 +38,7 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1713973320
+1715698491
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
@@ -48,7 +48,7 @@ libsystemd.so=0-32
 libudev.so=1-32
 
 %DEPENDS%
-systemd-libs=255.5
+systemd-libs
 lib32-gcc-libs
 lib32-libcap
 lib32-libgcrypt
@@ -75,5 +75,5 @@ meson
 python-jinja
 
 %CHECKDEPENDS%
-systemd=255.5
+systemd
 
