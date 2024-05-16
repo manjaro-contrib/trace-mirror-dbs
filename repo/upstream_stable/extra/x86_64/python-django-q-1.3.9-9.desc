@@ -1,0 +1,67 @@
+%FILENAME%
+python-django-q-1.3.9-9-any.pkg.tar.zst
+
+%NAME%
+python-django-q
+
+%BASE%
+python-django-q
+
+%VERSION%
+1.3.9-9
+
+%DESC%
+A multiprocessing distributed task queue for Django
+
+%CSIZE%
+150617
+
+%ISIZE%
+798759
+
+%SHA256SUM%
+21e5391a49d6154316fa50bd5b12b957f504ba43da6b537d32084233fd5a36ae
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmZFrrgACgkQwGCGM3xQdz53PQgAgd0ciXZEEE/EAXULems8mru82uJeEhcL8UG7BYGAQH7/wr3MxDjC8v66VdWKfqwZjBlxOYERNWQjfPPqVsshaz8hNmK4lml3fcZFN/zkFBTkffwUXxwNEC/HSfZW66Ss81gnv78iDD8I+Ox+bfZ2cV2Tz1ULCCuuRhcMqnFd91FhORa4aYIdGh1az4xl5IkN1eH06PuusKjUGWT//YGkEBAWX2AHiMFOE4hUYaR2kyQ3PCVl08QwWuuBCokaxELtq4ftfJi9CHZfH5rfKbxSFq9IeJSQftPcge22x0eMYmznXnw3+zotQY91mh/qi9iztbdQJ6fAbQncPb0DXg06oA==
+
+%URL%
+https://github.com/Koed00/django-q
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1715842726
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python-arrow
+python-asgiref
+python-blessed
+python-dateutil
+python-django
+python-django-picklefield
+python-pytz
+python-redis
+python-setuptools
+python-six
+python-sqlparse
+python-wcwidth
+
+%OPTDEPENDS%
+python-boto3: Amazon Simple Queue Service message queue support
+python-psutil: resource usage limit support
+python-pymongo: MongoDB as a message broker support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-poetry-core
+
