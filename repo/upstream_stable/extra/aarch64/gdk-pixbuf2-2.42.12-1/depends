@@ -1,0 +1,20 @@
+%DEPENDS%
+glib2
+glibc
+libjpeg
+libpng
+libtiff
+shared-mime-info
+
+%PROVIDES%
+libgdk_pixbuf-2.0.so=0-64
+
+%OPTDEPENDS%
+libwmf: Load .wmf and .apm
+libopenraw: Load .dng, .cr2, .crw, .nef, .orf, .pef, .arw, .erf, .mrw, and .raf
+libavif: Load .avif
+libheif: Load .heif, .heic, and .avif
+libjxl: Load .jxl
+librsvg: Load .svg, .svgz, and .svg.gz
+webp-pixbuf-loader: Load .webp
+
