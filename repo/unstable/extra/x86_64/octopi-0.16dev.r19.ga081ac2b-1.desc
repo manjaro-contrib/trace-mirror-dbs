@@ -1,0 +1,87 @@
+%FILENAME%
+octopi-0.16dev.r19.ga081ac2b-1-x86_64.pkg.tar.zst
+
+%NAME%
+octopi
+
+%BASE%
+octopi
+
+%VERSION%
+0.16dev.r19.ga081ac2b-1
+
+%DESC%
+A powerful Pacman frontend using Qt libs
+
+%CSIZE%
+1289230
+
+%ISIZE%
+4728027
+
+%MD5SUM%
+8d110f9967e6c62a6cc3df505cf25a2a
+
+%SHA256SUM%
+a91b01ccfc7a693584fc17e048b2802a49dc0856eb9584df7a3d76e13067cd73
+
+%PGPSIG%
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmZI96cSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+PB0H/26GLs0oDj6EoM6mXbv068oacy+4aR/lUzIffNhg/e6/wvNyWaBx4ECBLRC/90oHTSldDXw1kdUId4wTm9glUjrI27uJanIhQJQBP48R0L2wz7DvImxGQkeCjmbc0pkZZiPmiR7V6EvDYgs0mQJibaAlShoq+Z2BoprC4d7X8HAmWu9rHvBod5gjErWpAVqb5n8vf4WGOcxK3z43WKdD/RdWYOsuitod2SWhMLTAnvK/4QEuTrROU4rZTOJDnJkhJl54l5JcXqfrIFqRnzlBEwTjW/1qnEW/IQbu9EHG6e8A+1XzMF01qEnV7CFp1avJCqUMrRo7fwmfP6XJuRHE2M0=
+
+%URL%
+https://tintaescura.com/projects/octopi
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1716057880
+
+%PACKAGER%
+Philip Mueller <philm@manjaro.org>
+
+%REPLACES%
+octopi-qt5
+octopi-pacmanhelper
+octopi-repoeditor
+octopi-cachecleaner
+
+%CONFLICTS%
+octopi-qt5
+octopi-pacmanhelper
+octopi-repoeditor
+octopi-cachecleaner
+qt-sudo
+
+%PROVIDES%
+octopi-repoeditor
+octopi-cachecleaner
+qt-sudo
+
+%DEPENDS%
+pacman
+pacman-contrib
+pkgfile
+alpm-octopi-utils
+qtermwidget
+sudo
+knotifications
+qt6-5compat
+
+%OPTDEPENDS%
+octopi-notifier-qt6: Notifier for Octopi using Qt6 libs
+octopi-notifier-frameworks: Notifier for Octopi with Knotifications support
+yay: for AUR support
+pacmanlogviewer: to view pacman log files
+opendoas: privilege elevation
+sudo: privilege elevation
+
+%MAKEDEPENDS%
+qt6-tools
+cmake
+knotifications
+git
+
