@@ -1,0 +1,62 @@
+%FILENAME%
+pacman-contrib-1.10.6-1-x86_64.pkg.tar.zst
+
+%NAME%
+pacman-contrib
+
+%BASE%
+pacman-contrib
+
+%VERSION%
+1.10.6-1
+
+%DESC%
+Contributed scripts and tools for pacman systems
+
+%CSIZE%
+47842
+
+%ISIZE%
+122831
+
+%MD5SUM%
+325ae6cf71f580d7971770d54c7943a7
+
+%SHA256SUM%
+eaf52b19e001c31b49224f49d5f8dead12aa073ab4f8ff8e585c48cdc74c6b50
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmZDfZQACgkQFQwgB0PtRtjsuQf+NkBWGq/wP6wH7yxzd+ul5WVE2SBZEES8GUAJbHsSdOKCzDBVgW2xRAXC0Gx0aqOiXjAZPSwUcbtx8CVUh9cjF7Z8x1q1S1XZwRqOlxvLau6CPbkU6wXI1D60O8TF/xji8ylZ5KLpX+5eSoAP+0PAmRVeS8Ib04UNxo/tYtePEzhKAXe18Xm5BBnLX5KQMXEC24hlP0kMi6YKQqgta0NakOKCReNvikX7WfQAS6v2sWWsOW3jjsdrmKMTVS0gIvWQDNitXV5vSsBmgCeW7rESrk+2IIkx8vXIoYaJ3dIeHEjW00j/OitM6G4fwvy2GDAFk0O8CXsB//DEOEr7nzzjJA==
+
+%URL%
+https://gitlab.archlinux.org/pacman/pacman-contrib
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1715695708
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%DEPENDS%
+pacman
+pacman-mirrors
+
+%OPTDEPENDS%
+diffutils: for pacdiff
+fakeroot: for checkupdates
+findutils: for pacdiff --find
+mlocate: for pacdiff --locate
+perl: for pacsearch
+sudo: privilege elevation for several scripts
+vim: default merge program for pacdiff
+
+%MAKEDEPENDS%
+asciidoc
+git
+

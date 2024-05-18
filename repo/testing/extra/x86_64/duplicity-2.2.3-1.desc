@@ -1,0 +1,72 @@
+%FILENAME%
+duplicity-2.2.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+duplicity
+
+%BASE%
+duplicity
+
+%VERSION%
+2.2.3-1
+
+%DESC%
+A utility for encrypted, bandwidth-efficient backups using the rsync algorithm
+
+%CSIZE%
+895481
+
+%ISIZE%
+5526805
+
+%MD5SUM%
+9c14a0f24ea2bcb5ecb18c521dcc0402
+
+%SHA256SUM%
+2d19727bc09022914653e4030a920fd3c87ad9be6a77823dfa47f325c918b509
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmZFJMYACgkQek52CV2KUuT1ygf/QxJr5IYF65oRTrlTfJLvAaKUn0fPVuKNQ+wtJ888qp0dcZqfO7gXLIIxCk3Yy49svlNQmKcLnBGGqHD2rBsHj7CvBKzP2aJj4QvDwFUi6NXdDTR6gHsf8fGxMbgqJUHwxrDY05Fv3qxTNHS01GkOr5utnpERlqtG8Fsl9QRhFS6Xs+0OrlPEYW5JeeXgw06vJHLjuz40eN7lOczQgGFCUpxpfAFuqc1+nUvtjzCJj9uBt4jSKost1ACtsD8rTxKza++9PBiKEOpniRS6C0s5Jgz1AeBpmAQJxoGGgWCJnPSbO2FEuEG47zUDK5KW/tsyMnIcUSxNDGKhHmkmsAMY/A==
+
+%URL%
+https://duplicity.gitlab.io/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1715807334
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gnupg
+librsync
+python-paramiko
+python-fasteners
+
+%OPTDEPENDS%
+lftp: backend for ftp, ftps, fish
+ncftp: alternative backend for ftp
+python-b2sdk: Backblaze B2 backend
+python-boto3: Amazon S3 and Google Cloud Storage backend
+python-dropbox: Dropbox backend
+python-gobject: GIO backend
+gvfs: GIO backend
+python-pydrive2: Google Drive backend
+python-mediafire: Mediafire backend
+python-requests-oauthlib: OneDrive backend
+rsync: rsync backend
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
