@@ -1,5 +1,5 @@
 %FILENAME%
-mkinitcpio-39.1-2-any.pkg.tar.zst
+mkinitcpio-38.1-1-any.pkg.tar.zst
 
 %NAME%
 mkinitcpio
@@ -8,40 +8,46 @@ mkinitcpio
 mkinitcpio
 
 %VERSION%
-39.1-2
+38.1-1
 
 %DESC%
 Modular initramfs image creation utility
 
 %CSIZE%
-67386
+62041
 
 %ISIZE%
-205661
+189486
 
 %MD5SUM%
-029275c35194758de90af0798e0d9d1f
+d6a044800c22b54cd0cb211e528e996c
 
 %SHA256SUM%
-9b011035ba66c1f16db817133cd2b1f286a30739d32441430133206bd9d732b3
+cc07f7d86ada26a0fd59f4ec9d3837c6a50af19800d63669f742ec615272650c
 
 %PGPSIG%
-iQFFBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmZC6LQSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+2nMH+PKk01FBKQRqXJjIeVKtrQbv0jvxJwx4YKeO2ps+sPTX6qBHoNSAnDWsLPoGaQbeWS0S6o+sWn8n+u6/Q1psqOrRxT/vDawp6pD3x7nKg53YWXh3Rqme1anRh+isbVEfufhc+2hudF1/naOOqwxnmFb51dKjMx6cfI8Lgdg//o59Ga2Ouc9EPQGBEC/uwn+09bbGTFB7YZwgg4OyVwi16qyrnAbSGTXJtwXXt9Bh5upqfB0iO71BMtfWbMsQC4x+boxQo8+h6Fe1vDEO66vPCGoZ8E5ZXvAKpnoFmlMcdgbKOwhgiaUST21+CXwaACkDvqFpzBVctGB5gioVIjrtMw==
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmXyWmoACgkQFQwgB0PtRthlggf8CNMPetQQMpnp/s8fI90rbd6W3B8FbKQrcH1R1t/Ig5OC17cDLZCe+Wk9/5/UDsgU7dM2ES4E90LsY770n5bdGG/7YQCh67lkeiuK5crPg9ICPEODA1yQOir54lnMQT4pGV+VOAiMF9to7xslMyiefqxo6Msuzy+OrbrZY/3z0c5m3kjAOiy9DDJSlFOdRISs/sVuVj5QD+IvnVBHGBzb3akcnSbv2d3nPgcK4oEpMMe6hINv3uKtw2uvtfj8qNTaQowbBXnmIF4wu/kcbaZHDzym7FvWMrLheZbQ5M0cZlvqb63SfWCurFrM7AhUHX+Exrlw+XfXv104aWIMZgjoIA==
 
 %URL%
 https://gitlab.archlinux.org/archlinux/mkinitcpio/mkinitcpio
 
 %LICENSE%
-GPL-2.0-only
+GPL
 
 %ARCH%
 any
 
 %BUILDDATE%
-1715660680
+1710381339
 
 %PACKAGER%
-Philip Mueller <philm@manjaro.org>
+Mark Wagie <mark@manjaro.org>
+
+%CONFLICTS%
+systemd<255.4-2
+cryptsetup<2.7.0-3
+mdadm<4.3-2
+lvm2<2.03.23-3
 
 %PROVIDES%
 initramfs
@@ -59,11 +65,11 @@ diffutils
 findutils
 grep
 filesystem>=2011.10-1
-zstd
+gzip
 systemd
 
 %OPTDEPENDS%
-gzip: Use gzip compression for the initramfs image
+zstd: Use zstd compression for the initramfs image
 xz: Use lzma or xz compression for the initramfs image
 bzip2: Use bzip2 compression for the initramfs image
 lzop: Use lzo compression for the initramfs image
