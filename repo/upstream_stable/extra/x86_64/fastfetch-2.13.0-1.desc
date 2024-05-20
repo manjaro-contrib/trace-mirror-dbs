@@ -1,0 +1,86 @@
+%FILENAME%
+fastfetch-2.13.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+fastfetch
+
+%BASE%
+fastfetch
+
+%VERSION%
+2.13.0-1
+
+%DESC%
+Like Neofetch, but much faster because written in C
+
+%CSIZE%
+512214
+
+%ISIZE%
+2373770
+
+%SHA256SUM%
+402f48fc2448578ddc34531bf56a2fb863449cf7f17f0b107fdf888c0a733527
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmZLlk0ACgkQ/cMEC5Ksp0jGGRAAj4Hi0OK4tv4rVQT6J00xY4ph1crP+kU/dUBjsN6bh6KPQflUQxFW7ohN8XMZyKf8i6KZ761iFnj4pTt2pY1obfci4IF78u1+9LXw7yh/0KHQ2RwjaKtmPiiMQrWn5iEUOaSh3Srf9uQYHyFvc9NfteTBh78n8qY437kzPQ9Kh/Pwo/raqYMOHRONPXOfPcT5V6Nun6RiL7JdXlRqX+qtSKiZNeOEZM6ookAgwlmo9DoqGwu3TK6nnPTxy8XqfzW4VzAiLEPoRmv7wATIbZmNn8uC1TMWu0izsxLfUaPw5h5qA+m2kKcXIUuZWRa/G5G+BNzebLGVIQhtwhtRA2nDvbhqbjASJKVNAJFmT1Wbbig0L64MpVUsvZeSB9jzhjIOUK/U3dTbL7lAC4r82o5ohtAVUlPKC5Js71Jr1NZtkO3nHQBC90YLoerkQ5PCJ93ZNG1oppioa5MN8WatEdlhU6eYE7UfkBq69oXc+y8MFXg4OlAjxGph2YQgQXV/vb1gVp30q+g6OOOvuKxltLTlpPoswXAhsg5W/z8kVOlINDNIsTODj48n3jtEmADqyn6cCu8w2u0GbqrjTBg4r0VsbxuGGGOPICz1l3lbV0m6hIYQh+Ver2NJb8bHlsfJllmEGb+gbPAUrJ2+zlXJxmWplrH+l5rx0z2nUWBB95jI2OI=
+
+%URL%
+https://github.com/fastfetch-cli/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1716229671
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+glibc
+yyjson
+
+%OPTDEPENDS%
+chafa: Image output as ascii art
+dbus: Bluetooth, Player & Media detection
+dconf: Needed for values that are only stored in DConf + Fallback for GSettings
+ddcutil: Brightness detection of external displays
+directx-headers: GPU detection in WSL
+glib2: Output for values that are only stored in GSettings
+imagemagick: Image output using sixel or kitty graphics protocol
+libnm: Wifi detection
+libpulse: Sound detection
+mesa: Needed by the OpenGL module for gl context creation.
+libxrandr: Multi monitor support
+ocl-icd: OpenCL module
+hwdata: GPU output
+vulkan-icd-loader: Vulkan module & fallback for GPU output
+xfconf: Needed for XFWM theme and XFCE Terminal font
+zlib: Faster image output when using kitty graphics protocol
+libdrm: Displays detection
+
+%MAKEDEPENDS%
+chafa
+cmake
+dbus
+dconf
+ddcutil
+directx-headers
+imagemagick
+libnm
+libpulse
+libxcb
+libxrandr
+mesa
+ocl-icd
+opencl-headers
+vulkan-headers
+vulkan-icd-loader
+wayland
+xfconf
+zlib
+
