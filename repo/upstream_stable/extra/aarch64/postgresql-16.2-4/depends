@@ -1,0 +1,27 @@
+%DEPENDS%
+bash
+gcc-libs
+glibc
+icu
+krb5
+libldap
+libxml2
+libxslt
+llvm-libs
+lz4
+openssl
+pam
+readline
+systemd-libs
+util-linux-libs
+zlib
+zstd
+postgresql-libs>=16.2
+
+%OPTDEPENDS%
+logrotate: rotates system logs automatically
+perl: for PL/Perl support
+postgresql-old-upgrade: upgrade from previous major version using pg_upgrade
+python: for PL/Python 3 support
+tcl: for PL/Tcl support
+
