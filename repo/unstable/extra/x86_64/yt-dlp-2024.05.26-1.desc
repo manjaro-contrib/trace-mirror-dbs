@@ -1,0 +1,76 @@
+%FILENAME%
+yt-dlp-2024.05.26-1-any.pkg.tar.zst
+
+%NAME%
+yt-dlp
+
+%BASE%
+yt-dlp
+
+%VERSION%
+2024.05.26-1
+
+%DESC%
+A youtube-dl fork with additional features and fixes
+
+%CSIZE%
+4847024
+
+%ISIZE%
+30897105
+
+%MD5SUM%
+087ce7ded0fd11e88dc80cbfa604afa0
+
+%SHA256SUM%
+1cac317ee6dacad05149bf4fd2d76e1b9ac28d3989809a200c551a75450e7753
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmZULyMACgkQek52CV2KUuQ5pwf/aeWpsXjdnPDV3WKvI+jKqncRnBVpvH6uJp/hQ78QIcogWj+dpmkQW4bpHO+uy/XH1j0QpPHi8Itj0cDv4/B07A+vy22u0UvKzJBxEnlNtGs9Tc+/p033+fLtb+teqhNbPDvI/lY5LoOm0pKwjSVixKrhHbw9CqRgYwTVhU0ANa1pHjNdgL4zXCI+D2xd/mbitZASZsKP1KN5MNsvf09pxtPe5tCyhc75Nsk9KvaaJlw/Bwmv/QIa4ZJG/w7nrloPZLn3KjA6KkCV2LArtWCzlsvEG1Ay0XswCKTFEScLnWCBq7sGhf2D7jOeaPANRl6rbCHET6H8oUF0YiCqMwSkaQ==
+
+%URL%
+https://github.com/yt-dlp/yt-dlp
+
+%LICENSE%
+Unlicense
+
+%ARCH%
+any
+
+%BUILDDATE%
+1716792914
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python
+python-certifi
+python-requests
+python-urllib3
+
+%OPTDEPENDS%
+ffmpeg: for video post-processing
+rtmpdump: for rtmp streams support
+atomicparsley: for embedding thumbnails into m4a files
+aria2: for using aria2 as external downloader
+python-mutagen: for embedding thumbnail in certain formats
+python-pycryptodome: for decrypting AES-128 HLS streams and various other data
+python-pycryptodomex: for decrypting AES-128 HLS streams and various other data
+python-websockets: for downloading over websocket
+python-brotli: brotli content encoding support
+python-brotlicffi: brotli content encoding support
+python-xattr: for writing xattr metadata
+python-pyxattr: for writing xattr metadata (alternative option)
+phantomjs: for extractors with javascript code
+python-secretstorage: For -cookies-from-browser to access the GNOME keyring while decrypting cookies of Chromium-based browsers
+
+%MAKEDEPENDS%
+pandoc
+python-build
+python-hatchling
+python-installer
+
+%CHECKDEPENDS%
+python-pytest
+
