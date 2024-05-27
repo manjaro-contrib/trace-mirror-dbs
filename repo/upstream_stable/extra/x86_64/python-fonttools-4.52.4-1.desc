@@ -1,0 +1,72 @@
+%FILENAME%
+python-fonttools-4.52.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-fonttools
+
+%BASE%
+python-fonttools
+
+%VERSION%
+4.52.4-1
+
+%DESC%
+A library to manipulate font files from Python
+
+%CSIZE%
+2808468
+
+%ISIZE%
+20102550
+
+%SHA256SUM%
+3f8fbc6bdac92776d7b53212c4106d29cffbd75511ced1feda2cf272ae6f7c3a
+
+%PGPSIG%
+iQIzBAABCAAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmZU9PEACgkQqF6BHrTKLghtuBAArqGYb2rKbNQF0O8BX1ee3+onFNufYaD0wseExBTyzBRPPkt4eDbnFLXUKaf8U05xyGTLZlawGRs4PyW35XwzCN1rx3uZEfc1TITJyi5SLhjeNYJnq64a4xDG0aH5XobQF7Dbsa4XvoCqL+utxdcojrmEGYpZyKGqDTHRuEPL6tss0H6kNgdbI62gFVBGbVK1fnT6jLdAttMLxQE0trBUP5bp+HlpIIC8zanbxNAP9IzKGJn5U758f7Q5vME3TzoE03sQZWEVPUsvL9X8l5qFtPpVnJwlPLhaBQFVZtdCp8WihPqrF7b8lyvK/tMyPZFh9h+ebWO1Tq4BdHBf91pbdW4YF9nBwR10IL5/XrMYOrrz7NEp6JWeAIcRxWN3cDOnuimybfDtHk4EZ7HeMxm/EPaK8dvdc+ce9WvjdI3KM9B3gF/DB/YLFZ8ezvQkiEyIXcCET/wUB2u9E3Lpdpx/jrxip7tnxic1anOBUS7iVhH2VslvzFmfOmUf+10oOiHOiva6MOzWrwWKpZUGRstalK7K+4Zlp2hKTrYeW922ishoKoOjbX8MBPfh22msCEraBcCWttrfGYUAiCrlxpHVN+cyhz2ZK8j0gfBZxMORfQrkgsUrvH8RLMNhr/LIxZDuYqqh490p9EMgDASJNytpLpX70BKVVAogVUWvSo0/Glk=
+
+%URL%
+https://github.com/fonttools/fonttools
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1716843516
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-brotli: to compress/decompress WOFF 2.0 web fonts
+python-fs: to read/write UFO source files
+python-lxml: faster backend for XML files reading/writing
+python-lz4: for graphite type tables in ttLib/tables
+python-matplotlib: for visualizing DesignSpaceDocument and resulting VariationModel
+python-pyqt5: for drawing glyphs with Qt’s QPainterPath
+python-reportlab: to drawing glyphs as PNG images
+python-scipy: for finding wrong contour/component order between different masters
+python-sympy: for symbolic font statistics analysis
+python-uharfbuzz: to use the Harfbuzz Repacker for packing GSUB/GPOS tables
+python-unicodedata2: for displaying the Unicode character names when dumping the cmap table with ttx
+python-zopfli: faster backend fom WOFF 1.0 web fonts compression
+
+%MAKEDEPENDS%
+cython
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-brotli
+python-fs
+python-pytest
+python-ufolib2
+
