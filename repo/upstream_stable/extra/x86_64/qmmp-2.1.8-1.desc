@@ -1,0 +1,102 @@
+%FILENAME%
+qmmp-2.1.8-1-x86_64.pkg.tar.zst
+
+%NAME%
+qmmp
+
+%BASE%
+qmmp
+
+%VERSION%
+2.1.8-1
+
+%DESC%
+Qt based audio-player
+
+%CSIZE%
+2468808
+
+%ISIZE%
+11549014
+
+%SHA256SUM%
+8b87c5cb62be8eecd2857d981cefa98bbafd731ab2b787c69ab9f06a453e35b9
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmZGctwACgkQek52CV2KUuR1yAf+ICeT+FrhqPJN2cEEiJoCiu+IbiSn3nNqp9OknJLNtR3E+Urre6qnVC35lb3jgFzGwY3w2MfXJ4DTqIwjy1HGfx/JCu6ayeAIDPJIMCuWKFME2xAqppqICB8PqIbEvpxXVGFG7K0k24kB1mT2GwN1+MHc9WceA4p60lut2bXBRcub12MbJyjQaRY8fJ62clTtuV3hexzzrGatNvBtrSH+Lnir+aydEZsO7yA90pu/Q27DstRX7hhVHzwRMurPVlFWdnTEx4GsAfHHhus59nQ5zXIWLQmv0es3BYZsWq570zxZRmJUuaNgvjoByLfRyS6NNR6W98A5mjMlALbJNb0lGQ==
+
+%URL%
+http://qmmp.ylsoftware.com/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1715892512
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+alsa-lib
+curl
+desktop-file-utils
+hicolor-icon-theme
+libmad
+libvorbis
+libogg
+libxkbcommon-x11
+taglib
+xdg-utils
+qt6-base
+
+%OPTDEPENDS%
+mpg123: to play MP3 files
+flac: native FLAC support
+jack: JACK sound output
+libmpcdec: Musepack support
+pulseaudio: PulseAudio output
+pipewire: pipewire support
+libcdio-paranoia: Compact Disc input and control support
+libcddb: CDDB server support
+libmms: MMS stream protocol support
+libmodplug: MOD playing library
+libsndfile: sampled sound support
+projectm: visual efects
+faad2: ADTS AAC support
+libgme: support for chiptunes from various platforms
+libsidplayfp: C64 music support
+opusfile: Opus support
+wildmidi: MIDI support
+ffmpeg
+libsamplerate
+wavpack
+
+%MAKEDEPENDS%
+cmake
+flac
+jack
+libmpcdec
+pipewire
+pulseaudio
+ffmpeg
+libcdio-paranoia
+libcddb
+libmms
+libsamplerate
+libmodplug
+libsndfile
+wavpack
+mpg123
+mesa
+projectm
+faad2
+libgme
+libsidplayfp
+opusfile>=0.12
+wildmidi
+qt6-tools
+

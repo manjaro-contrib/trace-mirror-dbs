@@ -1,0 +1,67 @@
+%FILENAME%
+code-1.89.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+code
+
+%BASE%
+code
+
+%VERSION%
+1.89.1-1
+
+%DESC%
+The Open Source build of Visual Studio Code (vscode) editor
+
+%CSIZE%
+15226927
+
+%ISIZE%
+92687929
+
+%SHA256SUM%
+d9d71d2bdd164d8a854abad6c3f974c047ede4e93ebe7ca4c05fb46dc75dac73
+
+%PGPSIG%
+iHUEABYKAB0WIQQMrarPcPZMZU4TGzERZ1x0NCnd7wUCZkXULQAKCRARZ1x0NCnd7yWQAPsFz9eBIO0PA67aRB3lt1zntInDNYvvcMJ5+h7W2JbE5wEA/KyPbQBQB3pilxNWK7x1+cKSW5ZMEQA4sAyrbhgJnQg=
+
+%URL%
+https://github.com/microsoft/vscode
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1715849573
+
+%PACKAGER%
+Massimiliano Torromeo <mtorromeo@archlinux.org>
+
+%PROVIDES%
+vscode
+
+%DEPENDS%
+electron28
+libsecret
+libx11
+libxkbfile
+ripgrep
+
+%OPTDEPENDS%
+bash-completion: Bash completions
+zsh-completions: ZSH completitons
+x11-ssh-askpass: SSH authentication
+
+%MAKEDEPENDS%
+gulp
+git
+npm
+python
+yarn
+nodejs-lts-hydrogen
+desktop-file-utils
+zip
+

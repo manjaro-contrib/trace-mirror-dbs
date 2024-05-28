@@ -1,0 +1,63 @@
+%FILENAME%
+cppcheck-2.12.0-3-x86_64.pkg.tar.zst
+
+%NAME%
+cppcheck
+
+%BASE%
+cppcheck
+
+%VERSION%
+2.12.0-3
+
+%DESC%
+A tool for static C/C++ code analysis
+
+%CSIZE%
+3465085
+
+%ISIZE%
+15651704
+
+%SHA256SUM%
+22c26303daefcc5aaf8cf56d0f7a83e24c272df9eb12b65d6e71ddfe1c188abb
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYSzCUACgkQwGCGM3xQdz67jwgAiVffDpGwJlRaurzvN28fo9K633zbRmvkJpzI2En2E4KgSmwyvoO8GCzFmvf+3LTR6XnFIenohfrqJApFamkGr10vjWrQzbgxda0GwY4lrDMuSL4vIdxpOFIHf2s9vCXgkmm7+evSJT8D00QfBX6iDIXDjZVZePaMDPDgO117WVhx4lwjEKKl7X64lX2GNl0k5C9vnGJCMlgTqpPr31qkV5N98d4no27Q/OYfILU1AIGDBpozUfrCLk/X4Ivv1PqiTZQZeSuUEvDeB4oElzVjsFH947Q/ADyj8lHqB0CcMxJbf2r1oZShjL4JcaZi2fGLUwOsn1G5tEyRMxyM2utk3Q==
+
+%URL%
+http://cppcheck.sourceforge.net/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712507727
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python-pygments
+tinyxml2
+pcre
+
+%OPTDEPENDS%
+qt6-tools: run cppcheck-gui
+python-pygments: cppcheck-htmlreport
+clang: for cppcheck-gui integration
+
+%MAKEDEPENDS%
+git
+docbook-xsl
+qt6-tools
+qt6-base
+qt6-declarative
+python
+pandoc
+cmake
+clang
+

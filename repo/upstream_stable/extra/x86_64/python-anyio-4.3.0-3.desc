@@ -1,0 +1,69 @@
+%FILENAME%
+python-anyio-4.3.0-3-any.pkg.tar.zst
+
+%NAME%
+python-anyio
+
+%BASE%
+python-anyio
+
+%VERSION%
+4.3.0-3
+
+%DESC%
+High level compatibility layer for multiple asynchronous event loop implementations
+
+%CSIZE%
+195622
+
+%ISIZE%
+1276281
+
+%SHA256SUM%
+0a501e455ec5380a9607501dd521671cf6e9459d3a6cffa5df636db03319741c
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmYRKOgACgkQek52CV2KUuQXmgf6A/CCAvVLOYTteQIahLxFHXGp73xvO6RLDIFO5EcQIrCO9JOGNK2lwMSW78G/w+U6T5hfrmtwoZF2ErmsAL+mQt0+NL+qWB28zZ83AOZKqWihnwKtAeANbcmEy1rgZB/N4aIpfzkUyjRuPaH+GHQ6OfdN1YEsMIA1t+F3hlRx4SWdQe6JgqXsI4HTYjmWzxb0yiarWDmlTYzpOhu18xna5xMjB4zGRwHjHiIDHuX/1oPqrLJl0jZGOTId6TuZglnIzkMdcaHIYjye0WCDcpxJHFrMT6w2ir0xbnLdqP1R+Ac4kw4nXfXEEIglV0cMysum1z/gYicGqmn2IYKBOFJrNg==
+
+%URL%
+https://github.com/agronholm/anyio
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712400546
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python
+python-idna
+python-sniffio
+
+%OPTDEPENDS%
+python-trio: trio backend
+python-outcome: trio backend
+python-uvloop: use uvloop for asyncio backend
+python-pytest: pytest plugin
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+python-uvloop
+python-trio
+
+%CHECKDEPENDS%
+python-pytest
+python-trustme
+python-hypothesis
+python-pytest-mock
+python-psutil
+
