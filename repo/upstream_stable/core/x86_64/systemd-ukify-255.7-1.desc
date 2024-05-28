@@ -1,66 +1,60 @@
 %FILENAME%
-systemd-libs-255.6-2-x86_64.pkg.tar.zst
+systemd-ukify-255.7-1-x86_64.pkg.tar.zst
 
 %NAME%
-systemd-libs
+systemd-ukify
 
 %BASE%
 systemd
 
 %VERSION%
-255.6-2
+255.7-1
 
 %DESC%
-systemd client libraries
+Combine kernel and initrd into a signed Unified Kernel Image
 
 %CSIZE%
-1131865
+28343
 
 %ISIZE%
-2831144
+73756
 
 %SHA256SUM%
-b06b01b9d82618244380afd808cffe3e41cdcb0348d48081e4695856e00f35c1
+ffcdda19f2918e930730e7c36b2dbdcf1082392730e9eb7a6e976a519451d425
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZkzw+gAKCRBtQr3RFuAGjwhdAP9TIcYEPX8qdPghbGNywMTYkRWR2P9qVEENrl89ay1QsAD+INiO76rqejPg+V25g1sp0tnPY74O3RQbIv5BlNEMaAs=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZlSlawAKCRBtQr3RFuAGj6RCAQD2vDx+9Y8EP1UfeczJDQDyK8QfW6s7jDPL/JRlJFPB1QD9Hlan8QzYjtrFLp2TCGeqjzx/PzMoVN9tsqlk/m7mgw8=
 
 %URL%
 https://www.github.com/systemd/systemd
 
 %LICENSE%
 LGPL-2.1-or-later
-CC0-1.0
-GPL-2.0-or-later WITH Linux-syscall-note
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1716317995
+1716823194
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
 
-%REPLACES%
-libsystemd
-
 %CONFLICTS%
-libsystemd
+mkinitcpio<38-1
 
 %PROVIDES%
-libsystemd
-libsystemd.so=0-64
-libudev.so=1-64
+ukify
 
 %DEPENDS%
-glibc
-gcc-libs
-libcap
-libgcrypt
-lz4
-xz
-zstd
+systemd=255.7
+binutils
+python-cryptography
+python-pefile
+
+%OPTDEPENDS%
+python-pillow: Show the size of splash image
+sbsigntools: Sign the embedded kernel
 
 %MAKEDEPENDS%
 acl
