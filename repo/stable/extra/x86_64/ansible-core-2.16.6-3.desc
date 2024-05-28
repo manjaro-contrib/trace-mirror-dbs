@@ -1,0 +1,95 @@
+%FILENAME%
+ansible-core-2.16.6-3-any.pkg.tar.zst
+
+%NAME%
+ansible-core
+
+%BASE%
+ansible-core
+
+%VERSION%
+2.16.6-3
+
+%DESC%
+Radically simple IT automation platform
+
+%CSIZE%
+3281401
+
+%ISIZE%
+21476372
+
+%MD5SUM%
+cb3b1410017bf90339d83d34a211bcff
+
+%SHA256SUM%
+fdac65e23fb931536d126ba20494a40e90b523fd00c97a5a5109cb2e12a5f18e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmYv6uEACgkQ/cMEC5Ksp0j7CQ//VgvVY8JuHY1Nd+1fmrtzxxdbc8q0wI+l8DE1wLWfdlhx4lbtaK1s9lPaMNGFtOqY/3Uq2+RL8CIkAdG3fRV4C7XG26OB83oSVz406Cp3wQtcOJL+g5x51Sy7NgY9/lUpJ/QdmZeL9+ztMP9Bh2w2/0r4U9+lo2XlknvTtqNmey06NrYyHelBNHMjkCZctKjacCwmvfdUzMS7tk644BGTTlGL7CjFo11DfooIYG94k8L4ntpd/w5REDl9nH0ZtB0Scv8KiKjuN0y9pShAubaOJkbBHZuV6VfkRkRqxkBKuljFv/1xFSkbrzxnsbn9ekf2bCFwfUSn6nrTqjnbkZ8bpUuOM9jVEFRRTP/DNCDKwzdZMOHwtQHL2YN7bdDqtDXRtJNRCfCLKL2YChORz89sebA+nf4uQ4gUxcgE5cHuC7w9rnYDMpjRCOkpdRYMG47cCCfIIRme1jaDMOzroyHo97YXc2LQO4bUp9PIVRcj/ySOPeneFv5Z3ppXeqPeVQU0QzUTyWrzZ7RRqhVoXNizyDwpUN9E+3eroCEoK5lkCpgIkoi1RI13ku9rlbvLn0KthDo+k/Ds6JGgid5smnCoRgNMvCpBgEi4HBxaqhKl4uo38C0hJR3b5CyOmtzFz5CaysRAJJTeIOpSt0jpQ37CqCP7u0wuhe4LQm92VI3a4K0=
+
+%URL%
+https://www.ansible.com
+
+%LICENSE%
+GPL-3.0-or-later AND BSD-2-Clause AND PSF-2.0 AND MIT AND Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1714416210
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%REPLACES%
+ansible-base
+
+%PROVIDES%
+python-ansible
+ansible-base
+
+%DEPENDS%
+python
+python-cryptography
+python-jinja
+python-packaging
+python-pyyaml
+python-resolvelib
+python-paramiko
+python-typing_extensions
+
+%OPTDEPENDS%
+python-argcomplete: shell completions
+python-dnspython: for dig lookup
+python-jmespath: json_query support
+python-netaddr: for the ipaddr filter
+python-passlib: crypt values for vars_prompt
+python-pip: for module to manage Python libarary dependencies
+python-pywinrm: connect to Windows machines
+python-setuptools: for module to manage Python libarary dependencies
+python-systemd: for journald support
+sshpass: for ssh connections with password
+
+%MAKEDEPENDS%
+python-build
+python-docutils
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+git
+openssh
+python-bcrypt
+python-botocore
+python-passlib
+python-pexpect
+python-pytest
+python-pytest-mock
+python-pytest-xdist
+python-pytest-forked
+python-pywinrm
+python-voluptuous
+

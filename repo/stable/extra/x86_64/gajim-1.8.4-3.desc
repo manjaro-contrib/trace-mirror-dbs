@@ -1,0 +1,92 @@
+%FILENAME%
+gajim-1.8.4-3-any.pkg.tar.zst
+
+%NAME%
+gajim
+
+%BASE%
+gajim
+
+%VERSION%
+1.8.4-3
+
+%DESC%
+Full featured and easy to use XMPP (Jabber) client
+
+%CSIZE%
+3586964
+
+%ISIZE%
+18291708
+
+%MD5SUM%
+a412276b449fca0c5335eab0b2a48e63
+
+%SHA256SUM%
+eca70f689a4b5f9805bd821e4cddf119a436fad0d9a2f702ae8df10b8e955b89
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmYblmgACgkQek52CV2KUuSNTgf+JJ0J8BFtvh9bpsubLQ+2W8uhUx68lNmmsGgK02cu5sFiPja5GCXvUx8UQFd5WbZ4L6dHMVAa6jiyTV7Yki0ZTva2ndbN5yagC6jR1mzJocTAJtdSnKDyfpX650yY/+3kxiYYXb9oIUkEUULG3cBP1jdfRZ3dD7M3y8/0f6+y2jEWEZBM8DKnspDq8Oeck1xuCgw4D5tMLBTCSmsQ6KBRCvtZe3a1OwYo0dMnicf+GjsG7OwypPhbQ6NJxqXX/RymUl/A0jO0DFRkzuTRy8xMu6enClYQIA7ITboF+BqHBk7Xy8zdJrWoEG1eTZOhumKxNt7GGFvBq/Yn0ysbfS7gVw==
+
+%URL%
+https://gajim.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1713083891
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gtk3
+gtksourceview4
+python-cairo
+python-gobject
+python-keyring
+python-nbxmpp>=4.3.0
+python-cryptography
+python-precis_i18n
+python-css-parser
+python-distro
+hicolor-icon-theme
+python-pillow
+python-gssapi
+python-netifaces
+python-qrcode
+python-omemo-dr
+python-packaging
+pango
+sqlite
+
+%OPTDEPENDS%
+python-dbus: to have gajim-remote working
+python-sentry_sdk: for Sentry error reporting to dev.gajim.org (users decide whether to send reports or not)
+gspell: for spell checking support
+libsecret: for GNOME Keyring or KDE support as password storage
+gupnp-igd: for better NAT traversing
+networkmanager: for network lose detection
+geoclue2: share current location
+gsound: Notification Sounds
+libayatana-appindicator: for App Indicator on Wayland
+farstream: for video and audio calls
+gstreamer: for video and audio calls
+gst-plugins-base: for video and audio calls
+gst-plugins-ugly: for video and audio calls
+gst-libav: for video and audio calls
+gst-plugin-gtk: for video and audio calls
+libxss: for idle time checking on X11
+python-gnupg: encrypting chat messages with OpenPGP
+emoji-font: for emojis support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+

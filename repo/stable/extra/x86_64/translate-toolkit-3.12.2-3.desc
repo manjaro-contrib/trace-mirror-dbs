@@ -1,0 +1,66 @@
+%FILENAME%
+translate-toolkit-3.12.2-3-any.pkg.tar.zst
+
+%NAME%
+translate-toolkit
+
+%BASE%
+translate-toolkit
+
+%VERSION%
+3.12.2-3
+
+%DESC%
+A toolkit to convert between various different translation formats, help process and validate localisations
+
+%CSIZE%
+1041870
+
+%ISIZE%
+6347206
+
+%MD5SUM%
+92fb6f2a7ee231a6778c865f576590e3
+
+%SHA256SUM%
+60139f9b6957976061a31f9ed63f509fc2490ba8a4e18d73b5aba405c5fe36fd
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmY0lqwACgkQwGCGM3xQdz7dnAgAgEiwhIWEv9HE8Scsi81QtG3zLEbQS5QxP0k2nfVQMJFmRVaTEvXN+XION/QSPvFDY/VQPOVCmB+f/lqFj9C3FmrPVJaPCOclNHtK8ZPXdm05hEv5zQAO8UkKMaJe+940/75RDrQiW9ldbDOpMatovY/kAppFcdHjUTU4XY3vS9FvhuSkcQQN6harL7e3XNp7jhFe//ImhmBabsKNMOeBYJDwC3Cw0xHnIcurrQR77+5uXTTVhB8DTv3xXgP6nezVVoI72JSk4C99tI/FNcOsaFGZoUGwgNRC0DOTSygHQcYxcWwW8PVnVQwQLn5JWvznLRjXbOVNkWl7H8xWeKm2Ng==
+
+%URL%
+https://toolkit.translatehouse.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1714722444
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+bash
+python-lxml
+python-ruamel-yaml
+
+%OPTDEPENDS%
+gaupol: for po2sub
+python-chardet: encoding detector
+python-cheroot: for TM Server
+python-levenshtein: faster matching
+python-mistletoe: Markdown support for po2md
+python-pyenchant: for spellcheck filter
+python-pyparsing: RC support for po2rc
+python-vobject: iCalendar files support for po2ical
+
+%MAKEDEPENDS%
+python-setuptools-scm
+python-build
+python-installer
+python-wheel
+

@@ -1,0 +1,69 @@
+%FILENAME%
+obsuite-0.3-2-any.pkg.tar.zst
+
+%NAME%
+obsuite
+
+%BASE%
+obsuite
+
+%VERSION%
+0.3-2
+
+%DESC%
+System monitoring tools for custom desktop environments
+
+%CSIZE%
+142173
+
+%ISIZE%
+863011
+
+%MD5SUM%
+1ad8836069032b222a5408566b6788da
+
+%SHA256SUM%
+9f4b9a40850d740a996d6347539a7f6f3f244d0a929d7f4aea617d7a57d4bd86
+
+%PGPSIG%
+iQEzBAABCgAdFiEEO2uNK5KTopfh3R+edgWZJHHz8HMFAl5Kpz0ACgkQdgWZJHHz8HNYwAf+NslAF8C41az8aaUY1i2EdMu26AmQhG2T0SEEs2VN93n0+d+FG1v/KF0dDvjUgdNVFJMc3p8eRNugZzHIc6QtJqAbrfgou1Td2C+EHmelaOqLcxRUW67nxpmimA050VMJDeG4Sw/fOZ+S8zJC0CZ8g8D8xVMxDlPUw6chBa89Vx6XTaC7KBtt5Xt4a1HBNNSV6p9N3/iD+XWk/LNc/7YgSjxY72H7KiewMWnGA+TgtTJMc8uY9oSkcZEfjUDlKDvgJnpUlJTUeoShapa7HvqDwGroT5rvZ0KcPBQZ94feRr0RERYyZAy1c8rxfKyZblWBPdNigxyxEX5PbSWfZKA5cA==
+
+%URL%
+https://gitlab.com/william.belanger/obsuite
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1581950771
+
+%PACKAGER%
+fhdk <fh@manjaro.org>
+
+%CONFLICTS%
+obsuite
+
+%PROVIDES%
+obsuite
+
+%DEPENDS%
+python
+python-setuptools
+python-pyqt5
+qt5-svg
+qt5-multimedia
+
+%OPTDEPENDS%
+alsa-utils: sound module
+pulseaudio-alsa: sound module
+xorg-xbacklight: brightness module
+systemd: lid switch inhibit
+upower: ac state change signal, keyboard backlight
+
+%MAKEDEPENDS%
+git
+python-setuptools
+

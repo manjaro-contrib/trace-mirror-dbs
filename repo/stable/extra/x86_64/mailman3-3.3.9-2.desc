@@ -1,0 +1,98 @@
+%FILENAME%
+mailman3-3.3.9-2-any.pkg.tar.zst
+
+%NAME%
+mailman3
+
+%BASE%
+mailman3
+
+%VERSION%
+3.3.9-2
+
+%DESC%
+The GNU mailing list manager
+
+%CSIZE%
+1982804
+
+%ISIZE%
+16543216
+
+%MD5SUM%
+f22374f9b7ccb80335992a5b812bea50
+
+%SHA256SUM%
+94e35133bd250e4eb8679e25e4e6367e6586e1120453c6cb33b4214c70719c51
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZhmWhwAKCRCbeih9mi7GCFIDAP0QE9WTUBVc5CM5ZO4jG4xEraEDQPePtL0LuQbV2Yvy5AD+MfThzLrjikThIap/e9PTYOfdDPgv5rnIqD3yPoLohwA=
+
+%URL%
+https://www.list.org/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712952929
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%REPLACES%
+mailman-core
+
+%CONFLICTS%
+mailman
+
+%DEPENDS%
+gunicorn
+python
+python-aiosmtpd
+python-alembic
+python-atpublic
+python-authheaders
+python-authres
+python-click
+python-dateutil
+python-dnspython
+python-falcon
+python-flufl.bounce
+python-flufl.i18n
+python-flufl-lock
+python-lazr.config
+python-passlib
+python-requests
+python-sqlalchemy>=1.4
+python-zope-component
+python-zope-configuration
+python-zope-event
+python-zope-interface
+
+%OPTDEPENDS%
+hyperkitty: for local archive and list interaction
+lynx: for the default HTML to plaintext conversion
+mailman3-hyperkitty: for archiving mails with an instance of hyperkitty
+postorius: for local configuration interaction
+python-mailmanclient: for programmatically interfacing the mailman REST API locally
+python-psycopg2: for PostgreSQL support
+python-pymysql: for MySQL support
+smtp-server: for using a local mail server
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-nose2
+python-psycopg2
+python-pymysql
+python-pytest
+

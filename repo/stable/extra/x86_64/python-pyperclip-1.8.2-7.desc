@@ -1,0 +1,63 @@
+%FILENAME%
+python-pyperclip-1.8.2-7-any.pkg.tar.zst
+
+%NAME%
+python-pyperclip
+
+%BASE%
+python-pyperclip
+
+%VERSION%
+1.8.2-7
+
+%DESC%
+A cross-platform clipboard module for Python
+
+%CSIZE%
+22421
+
+%ISIZE%
+95295
+
+%MD5SUM%
+9ae94d4305bdae6f87ef443b86f68ebc
+
+%SHA256SUM%
+85ef0edec9877cdf4d470ea7518ed16f2c68601583a6396bbb7eb0f518a30a2e
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYPvegACgkQwGCGM3xQdz7YsQf/dfah6KRnolX/6sdRSEERzkn8GW64nq1I9rstzXDN+QBqHL+hXzA3wp5GQQgsRJSeRVbMVmexNW8GbTkiudIOHIjgTZmbRTCxyEFVWfhaR3tA6kfwtkYw1bl4duLHFLFWlSMCtDiAGbcC01chsemMUpYAzDo9PW646hGUj2i5tvED9kLGqGDZsAXF7+BnA9szI69hG11g4EjPgzGxxGxgCBtNNw05b6He3qNlymtyWClZrTL4PLYBh/voJcRKGc29F8fYhYhfaScYvkrqTmZlmRIl5VV+u6Be+mYNtYg7LzlcmLIL0L+zhHScVNpxwGxnw3vwCzRnb343rOEqaRvH8Q==
+
+%URL%
+https://github.com/asweigart/pyperclip
+
+%LICENSE%
+BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712307672
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+xclip: xclip backend
+xsel: xsel backend
+wl-clipboard: wl-clipboard backend
+plasma-workspace: klipper backend
+
+%MAKEDEPENDS%
+python-setuptools
+
+%CHECKDEPENDS%
+xorg-server-xvfb
+python-pytest
+xsel
+xclip
+
