@@ -1,0 +1,71 @@
+%FILENAME%
+plasma-firewall-6.0.5-1-aarch64.pkg.tar.xz
+
+%NAME%
+plasma-firewall
+
+%BASE%
+plasma-firewall
+
+%VERSION%
+6.0.5-1
+
+%DESC%
+Control Panel for your system firewall
+
+%GROUPS%
+plasma
+
+%CSIZE%
+472652
+
+%ISIZE%
+1494572
+
+%MD5SUM%
+7bc3bc228c8c6f6e0f851b41fafac75a
+
+%SHA256SUM%
+0601054412f3d313b438b511beb8e0d0a06935d6326be162694d25459437fe9b
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmZS7HwACgkQdxk/FSvb5qaogA//fGw/3J2YleLOuVFdxCPcuH7eCUzDSAjRU5rpIWB3ER4YQITlbLsPvbvjQpHaRdBE19SybUpfB/4BR1rmWyj751C0IlgQCKGXZWz5UdELl7/fzxj9Q+8ZQAiEcn5QvC56LTtVAhCTjNdyBTFRsEuJbICpSeHCCtIjPgtp5uHxKgxy+DQqooWWuFDsNN4tqZmyRccuBJF/JZQGXGYpk3hX2EkvGd7mf9dX0ztJecOI7pJ4GvdnidIPYyctVrOmlYMmB0eb9m09EZ//rfiPFgafCDLqOw3Q9R2w3uBQy42F0tGMt9i/H2JJV3c8Y6IgP3c2GCj+Ll/6IpzU9FiPnTi3BmkyR4R7rZjJ5jhkyIAb5s0zp0oJT9P3KTbE8yW7Bs9/rf6sUT+8hAWVgO2/yN79Bnu6cpIBgw6WKD+G+Svm1jCBHg5r71bsSjPT/jaJq+UN3td9YgmZC7pbtFmpi/US9o1A+CwmGM42YRWxWfPMJ8cJCIYREkJP0eWLQ7YxRvouT38BlNhVa1QhJWIZ+SjHpr9bazT3+KlCKgy7gE4KBB29QjHTwQDgrQafZlFfpbqzN0afiiSgr1BTA5b9c2ULXyeZomjHECqbBORO6KUen5xq+VPEB+DnmM/r6BoGZc8NyqjgHHzmhL5pJhhfku+AtAwL8E3vor1/3kbt7Li9PMg=
+
+%URL%
+https://kde.org/plasma-desktop/
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1716710444
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+kauth
+kcmutils
+kconfig
+kcoreaddons
+ki18n
+kirigami
+qt6-base
+qt6-declarative
+
+%OPTDEPENDS%
+firewalld: firewalld backend
+iproute2: netstat backend
+python: ufw backend
+ufw: ufw backend
+
+%MAKEDEPENDS%
+extra-cmake-modules
+python
+
