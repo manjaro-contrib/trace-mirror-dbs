@@ -1,0 +1,21 @@
+%DEPENDS%
+python
+python-psutil
+python-future
+python-defusedxml
+python-ujson
+python-pydantic
+python-packaging
+
+%OPTDEPENDS%
+hddtemp: HDD temperature monitoring support
+uvicorn: for WebUI / RestFull API
+python-jinja: for WebUI / RestFull API
+python-fastapi: for WebUI / RestFull API
+python-docker: for the Docker monitoring support
+python-matplotlib: for graphical/chart support
+python-netifaces: for the IP plugin
+python-zeroconf: for the autodiscover mode
+python-pystache: templating engine
+python-prometheus_client: for the Prometheus export module
+
