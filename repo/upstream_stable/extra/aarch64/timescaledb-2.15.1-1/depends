@@ -1,0 +1,11 @@
+%DEPENDS%
+openssl
+postgresql-libs<17
+postgresql-libs>=16
+postgresql<17
+postgresql>=16
+
+%OPTDEPENDS%
+timescaledb-tune: tune postgresql.conf for better performance
+timescaledb-old-upgrade: upgrade from previous major version of PostgreSQL
+
