@@ -1,0 +1,72 @@
+%FILENAME%
+doublecmd-qt5-1.1.14-2-x86_64.pkg.tar.zst
+
+%NAME%
+doublecmd-qt5
+
+%BASE%
+doublecmd
+
+%VERSION%
+1.1.14-2
+
+%DESC%
+twin-panel (commander-style) file manager (Qt5)
+
+%CSIZE%
+8298649
+
+%ISIZE%
+44889125
+
+%SHA256SUM%
+8ac038c3aaf8fb3af490b9708325ef34bc5db410d8d8e600ec8ccb61bef1a901
+
+%PGPSIG%
+iHUEABYKAB0WIQRTHs82RKRP6gtH283h488FOUSL/wUCZlroMQAKCRDh488FOUSL/4EFAQDgwKfLg5YV6dj+SOxugfX9rSjT3rpLWbnXebzgI3UragD/UXsFgQhkQ//EfkBgs6zkMRUHPAsQD6Oc7Iu7HapoPwQ=
+
+%URL%
+http://doublecmd.sourceforge.net/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1717233429
+
+%PACKAGER%
+Ike Devolder <ike.devolder@archlinux.org>
+
+%REPLACES%
+doublecmd-qt
+doublecmd-qt4
+
+%CONFLICTS%
+doublecmd-gtk2
+doublecmd-qt6
+
+%PROVIDES%
+doublecmd
+
+%DEPENDS%
+qt5pas
+desktop-file-utils
+hicolor-icon-theme
+shared-mime-info
+
+%OPTDEPENDS%
+lua: scripting
+unzip: support extracting zip archives
+zip: suport packing zip archives
+p7zip: support for 7zip archives
+libunrar: support for rar archives
+
+%MAKEDEPENDS%
+lazarus
+gtk2
+qt5pas
+qt6pas
+
