@@ -1,0 +1,23 @@
+%DEPENDS%
+cni-plugins
+conmon
+conntrack-tools
+containers-common
+gcc-libs
+glibc
+gpgme
+iproute2
+iptables
+oci-runtime
+device-mapper
+libdevmapper.so=1.02-64
+libseccomp
+libseccomp.so=2-64
+
+%PROVIDES%
+container-runtime
+
+%OPTDEPENDS%
+apparmor: for apparmor integration
+btrfs-progs: for btrfs support
+
