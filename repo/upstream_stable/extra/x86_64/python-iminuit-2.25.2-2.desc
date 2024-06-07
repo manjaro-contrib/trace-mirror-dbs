@@ -1,0 +1,82 @@
+%FILENAME%
+python-iminuit-2.25.2-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-iminuit
+
+%BASE%
+python-iminuit
+
+%VERSION%
+2.25.2-2
+
+%DESC%
+Python interface for MINUIT, a physics analysis tool for function minimization.
+
+%CSIZE%
+458963
+
+%ISIZE%
+1777163
+
+%SHA256SUM%
+acfc9cfbf23a6cc8f883f087af76dabcb1fdc8f423e901392c1f925503669b3e
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmYaYDwACgkQek52CV2KUuQIsgf8Dw9xXo3mpN8Vr8wrcfydRcnV40IU1IRk5Djwd5eYprxPjqnwXOK6bhATPGnsbghjdeJP3osOv/i1ylOr50T3IcAn6goK00HvvZgMQo/VLzcITKzJF2Gm4J5BGv6bfJCR8sUBM+O3bwwyGVlndU/ZuIyPxae+/6NQjgRPcitnC9vHIGSEovKO9LsXmu16jileVWJbi6jRkWHG8lN/n586t5n9vWIUcc9EnfexpW7qTvKkrn0lpyDlQa2YSiSYyaIe6X/hyqoQQQc1KZYaVrH5rqp5pXJMGT5KB98yVhqdIG2VedW4tHBaQ2nb6UxBHb1tWOdAJnUuu6is8CW5knRRoQ==
+
+%URL%
+https://iminuit.readthedocs.io
+
+%LICENSE%
+GPL
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1713004521
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+python
+python-numpy
+
+%OPTDEPENDS%
+python-iminuit-docs: Documentation for python-iminuit
+python-ipython: for plotting
+python-ipywidgets: for plotting
+python-matplotlib: for drawing operations
+python-progressbar: for progressbar support
+python-scipy: for scipy minimizers
+
+%MAKEDEPENDS%
+git
+cmake
+pandoc
+pybind11
+python-boost-histogram
+python-build
+python-installer
+python-ipykernel
+python-ipywidgets
+python-joblib
+python-matplotlib
+python-nbsphinx
+python-numba
+python-numpy
+python-pillow
+python-pyrsistent
+python-sphinx_rtd_theme
+python-scikit-build-core
+
+%CHECKDEPENDS%
+python-pytest
+python-scipy
+python-tabulate
+

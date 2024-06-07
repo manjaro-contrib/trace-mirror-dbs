@@ -1,0 +1,66 @@
+%FILENAME%
+python-apispec-6.0.2-4-any.pkg.tar.zst
+
+%NAME%
+python-apispec
+
+%BASE%
+python-apispec
+
+%VERSION%
+6.0.2-4
+
+%DESC%
+A pluggable API specification generator. Currently supports the OpenAPI Specification.
+
+%CSIZE%
+55202
+
+%ISIZE%
+314080
+
+%SHA256SUM%
+2ee76958883de462ffb9b97523015ce13a6df8492c87dbf83e5392257fed99f8
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYRbmQACgkQwGCGM3xQdz5gvAf/TIE8yUTEQFbmTt6tRA4RsQRdn51Ucj4oLHLwu87jUKjpTwOOFfVDWM1y+5IL+9YsUJoyISSbZF1oyzWBfUFzGtZDp84LhW8MIOiivRDBqY6yV4NKJg0Bxdl25K62v5P1jhsBJ5HjYAbD2TFmBBwlTGPSZz1TurulY9b95Per4fSMKD44QHrrRxoLBEbmcsekgko9HW3Tzly5nN+AgJuSdcBnaMDcmhbscqTBvz219K5JH/dWfH8AXO1uvIfCaxwgkciUPI53hjsikPO7vUKXZle9y1lvYPrMZWNyKFQ6iEvOQbn/XmcE2tJkC/ZhTwtumz1Kpl6xpvAgsMnupJr3fw==
+
+%URL%
+https://github.com/marshmallow-code/apispec
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712418395
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python-packaging
+
+%OPTDEPENDS%
+python-yaml: for yaml support
+python-prance: for validation
+python-openapi-spec-validator: for validation
+
+%MAKEDEPENDS%
+python-setuptools
+python-build
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+python-tornado
+python-bottle
+python-marshmallow
+python-flask
+python-prance
+python-yaml
+python-openapi-spec-validator
+python-pytest
+

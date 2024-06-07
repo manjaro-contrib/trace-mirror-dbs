@@ -1,0 +1,57 @@
+%FILENAME%
+yubikey-full-disk-encryption-r155.dcaac00-1-any.pkg.tar.zst
+
+%NAME%
+yubikey-full-disk-encryption
+
+%BASE%
+yubikey-full-disk-encryption
+
+%VERSION%
+r155.dcaac00-1
+
+%DESC%
+Use YubiKey to unlock a LUKS partition
+
+%CSIZE%
+15250
+
+%ISIZE%
+51495
+
+%MD5SUM%
+44a6df27cef28b1499f007ea429fee72
+
+%SHA256SUM%
+0175eacc7d04f7d604d19a955ad1b728bb09352d5bae21003a8b4c056eafdb0c
+
+%PGPSIG%
+iQIzBAABCAAdFiEEjhmSFnRl21+wRVV8sChU7XU+Dx8FAmOSEHEACgkQsChU7XU+Dx90HBAAoBxXLVextuMgoNpe2n8bZvCtUTtEW5XwNs3aDAVnXnh0Ttj4XdbzcNfRS7K6SzXs2IOyTSrpbAmennDknY0xM4I2qTibM3SzLEYh1MGAjwatUKnbkHss/D4AjVqVz84NAzQSyFbOj/kcQzAAQ/OmeTmp6K6w/gyJ/QeF1Me8oq8Y/9mcwAINDS3QqbWYbge5zaTgeBXtUYWYyus/eaQIkpDrtGlsDVQ/To/IxstuP/AgdeHUaxwQerVxdnfsM4sPQpl0UGMcDegnBbZ915ZgFP/Zf+iYDSYpDsYPukLU+Vp3JgYVNL3uvVjP3l4BNRE/zzzyMFVzZtVL5usdtirwITFh39htyRLw7I5oAj0VrDwaaS8zNHXC4CMzx/zo5WmMqgNTJtOkygsmNTZfYwITta5Ti2EHqdb/0aN7XMUPGgdc8BTcaCwdeFE/Ji+6gOH5xaF3eWwPE92+OeIPn7haE4Y/IpnwqLwKi5Qza3NIli8uboPEJUfzSKRtZkO7zlldhp1NS96XOc2wK5pMxEux24a6KT2aa/ZLjYa+dHMfQGnnVJzwaBMQhtGQw3OYvErAAX5wSOK1yK7+hbgeB+D/z03TZVEJoFBeQH3gQVw06LMcUQXXVeytK7EeW5+4n03se+EF5twk+06StbcgwTCOluSAg3rkGgChHxzppRREL0E=
+
+%URL%
+https://github.com/agherzan/yubikey-full-disk-encryption
+
+%LICENSE%
+Apache
+
+%ARCH%
+any
+
+%BUILDDATE%
+1670516833
+
+%PACKAGER%
+Anatol Pomozov <anatol.pomozov@gmail.com>
+
+%DEPENDS%
+yubikey-personalization
+cryptsetup
+
+%OPTDEPENDS%
+ykchalresp-nfc: NFC support
+udisks2: use ykfde-open without root
+expect: use ykfde-open without root
+
+%MAKEDEPENDS%
+git
+

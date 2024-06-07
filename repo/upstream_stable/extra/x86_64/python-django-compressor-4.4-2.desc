@@ -1,0 +1,75 @@
+%FILENAME%
+python-django-compressor-4.4-2-any.pkg.tar.zst
+
+%NAME%
+python-django-compressor
+
+%BASE%
+python-django-compressor
+
+%VERSION%
+4.4-2
+
+%DESC%
+Compresses linked and inline javascript or CSS into a single cached file
+
+%CSIZE%
+181507
+
+%ISIZE%
+968755
+
+%SHA256SUM%
+b7c059e83d3d4bfa68b9d2c21dbf3bdd2f59d6f4881af1aaba390aec4cec0ed5
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZhGsCgAKCRCbeih9mi7GCMjiAQDNsr3eh2BYZa6l0fO0xg5ranr25vOdUTEN3fe9mpcKqgD9GrAQMdV1qcjdQF6Zu1ERHrsx+/z5SX985iYkr9ObPgs=
+
+%URL%
+https://github.com/django-compressor/django-compressor
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712434098
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-django
+python-django-appconf
+python-rcssmin
+python-rjsmin
+
+%OPTDEPENDS%
+python-beautifulsoup4: for compressor.parser.BeautifulSoupParser and compressor.parser.LxmlParser
+python-brotli: for compressor.storage.BrotliCompressorFileStorage
+python-calmjs: for compressor.filters.jsmin.CalmjsFilter
+python-csscompressor: for compressor.filters.cssmin.CSSCompressorFilter
+python-django-sekizai: for including template code into main template
+python-html5lib: for compressor.parser.Html5LibParser
+python-jinja: for jinja2 templating support
+python-lxml: for compressor.parser.LxmlParser
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-beautifulsoup4
+python-brotli
+python-calmjs
+python-csscompressor
+python-django-sekizai
+python-html5lib
+python-jinja
+python-lxml
+
