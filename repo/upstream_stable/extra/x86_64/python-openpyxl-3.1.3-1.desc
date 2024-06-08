@@ -1,0 +1,65 @@
+%FILENAME%
+python-openpyxl-3.1.3-1-any.pkg.tar.zst
+
+%NAME%
+python-openpyxl
+
+%BASE%
+python-openpyxl
+
+%VERSION%
+3.1.3-1
+
+%DESC%
+A Python library to read/write Excel 2010 xlsx/xlsm files
+
+%CSIZE%
+474349
+
+%ISIZE%
+3020738
+
+%SHA256SUM%
+da99da5819d885d10ed3ca0019f95555889afeb9e6e9e92297bb7cac69f90d97
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmZkkT8ACgkQek52CV2KUuQPKAgAiamvV5zpaBc6jEN/GooKBZNqpMc5XYV2IKi3pwMiQvSUumI22c4nuokfMMxXJlJpPUvK1d9Xbs4dLDVITkAKqluwbnR0NVKn+tyIJwiB20XgvRMzT4QiPHAx1tAmKXSe8KjP9uR4+PjsJczlGfUCh8FfyYd3Q6kj2S/UTIhpNbKAGnhk023ZU66ZmaVvNU9IDAux5Axq8m8FhABo4WafbknHff8UnZ6E/qixSlEnsCNokB5ou5JiDy1EJ7vR9xr/9/f4omGZrIVheoYwKxNNsmX6TrDvdPDVeG3hI2W1wLZig58K+7g08sKA/6Zu633k1dFjarMIb3NUQxs7AJvv+g==
+
+%URL%
+https://openpyxl.readthedocs.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1717866780
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python
+python-et-xmlfile
+
+%OPTDEPENDS%
+python-pillow: needed to include images
+python-lxml: alternative XML backend
+python-defusedxml: guard against various XML vulnerabilities
+python-pandas: for iteration over Pandas DataFrames
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+python-defusedxml
+
+%CHECKDEPENDS%
+python-pytest
+python-lxml
+python-pandas
+python-pillow
+

@@ -1,0 +1,85 @@
+%FILENAME%
+kismet-2023_07_R1-8-x86_64.pkg.tar.zst
+
+%NAME%
+kismet
+
+%BASE%
+kismet
+
+%VERSION%
+2023_07_R1-8
+
+%DESC%
+802.11 layer2 wireless network detector, sniffer, and intrusion detection system
+
+%CSIZE%
+10855607
+
+%ISIZE%
+23985285
+
+%SHA256SUM%
+2e11a4496cb445764f062ecbe6d3c91f0143e118f1ddb4e24f7b36b97c22e933
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYQKKQACgkQwGCGM3xQdz6/Kgf6Al5hvU4TTanYjBLhthHeg3N+e1FFP2Q+veAFI3qRNiYwZ3Fo9+ZC/RAypgzBiChW+lVap+IXHYKIilTsdj5H5SJMXB4C0YOOvjX0CyrPEsxYzsAQvqwTTMWcx3I8agXFbAYhufGVo3koWZBiJFnSzM9U8kiQs8VvnXKAnYQlagMyKqfI0ElDBrOJXIeOT543xicK4q3T7Rg6t0XFRdL907mkMtcq3ZttkfXocWxq1bakgwXQij2cLD03v6SrEHBvhYbvcYF8xohsWsNg53ZkpOij6tBotkfK96OsYhl5jt5yJwQqwcsqHLK5hQzZ7uTI74mqumnFMjHBmp/cdQnMgQ==
+
+%URL%
+https://www.kismetwireless.net/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712333934
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+libpcap
+pcre2
+bluez-libs
+libcap
+protobuf-c
+libprotobuf-c.so=1-64
+sqlite
+libnm
+gcc-libs
+libusb
+libusb-1.0.so=0-64
+libnl
+glibc
+zlib
+libelf
+lm_sensors
+systemd
+python
+python-setuptools
+python-protobuf
+python-pyserial
+python-numpy
+python-websockets
+libwebsockets
+libcap-ng
+libpcap.so=1-64
+libprotobuf.so=25-64
+libnm.so=0-64
+libwebsockets.so=19-64
+libsensors.so=5-64
+
+%OPTDEPENDS%
+gpsd: log coordinates of detected networks
+wireshark-cli: provide OUI files used to determine device manufacturer
+wireshark-cli: mergecap, to merge multiple capture files
+sox: provide the default kismet sound playback binary
+festival: text-to-speech support
+flite: alternative/lightweight text-to-speech support
+
+%MAKEDEPENDS%
+python-setuptools
+

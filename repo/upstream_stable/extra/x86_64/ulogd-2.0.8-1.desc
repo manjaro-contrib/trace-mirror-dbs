@@ -1,0 +1,68 @@
+%FILENAME%
+ulogd-2.0.8-1-x86_64.pkg.tar.zst
+
+%NAME%
+ulogd
+
+%BASE%
+ulogd
+
+%VERSION%
+2.0.8-1
+
+%DESC%
+Userspace Packet Logging for netfilter
+
+%CSIZE%
+99531
+
+%ISIZE%
+682982
+
+%MD5SUM%
+8e1196fe788e68d4c95e54dd6d2da01e
+
+%SHA256SUM%
+ce79173cb73f8a01f9671ab4dc5a0f7a69bacd3910a59e6f5dc9a13f1719b795
+
+%PGPSIG%
+iHUEABYIAB0WIQSTtRpKFHmOS6hn0ULluymEcK1OQQUCY2d2EwAKCRDluymEcK1OQavLAP4zBTcJhtlzzs/sY9FvQL+TpW+OhxO/T+R6Cra9hhxFhQD+KJXfzFQWOHd6INBltERuwh0rLsN206YdF01exT7gHAI=
+
+%URL%
+https://www.netfilter.org/projects/ulogd/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1667724753
+
+%PACKAGER%
+Sébastien Luttringer <seblu@seblu.net>
+
+%DEPENDS%
+libmnl
+libnetfilter_acct
+libnetfilter_conntrack
+libnetfilter_log
+libnfnetlink
+
+%OPTDEPENDS%
+mariadb-libs: MySQL databases support
+sqlite: SQLite3 databases support
+postgresql-libs: PostgreSQL databases support
+libdbi: DBI abstraction databases support
+libpcap: PCAP output support
+jansson: JSON output support
+
+%MAKEDEPENDS%
+mariadb-libs
+libpcap
+libdbi
+postgresql-libs
+sqlite
+jansson
+

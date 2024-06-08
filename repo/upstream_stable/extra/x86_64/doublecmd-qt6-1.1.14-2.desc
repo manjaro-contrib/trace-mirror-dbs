@@ -1,0 +1,68 @@
+%FILENAME%
+doublecmd-qt6-1.1.14-2-x86_64.pkg.tar.zst
+
+%NAME%
+doublecmd-qt6
+
+%BASE%
+doublecmd
+
+%VERSION%
+1.1.14-2
+
+%DESC%
+twin-panel (commander-style) file manager (Qt6)
+
+%CSIZE%
+8296205
+
+%ISIZE%
+44877317
+
+%SHA256SUM%
+cfc5f9e47932b97c899dd94a5865822d5196128953ef3fcb8a437282f1ce421b
+
+%PGPSIG%
+iHUEABYKAB0WIQRTHs82RKRP6gtH283h488FOUSL/wUCZlroMQAKCRDh488FOUSL/xTAAQCOHfZoQBtxuwn7/BoJCfA6GHPkJrNCddi+DSAVgMLVBgD+OK8/0jSFc81SMdyZkGoSULTwyJnQpnj0MpIc+spXJAU=
+
+%URL%
+http://doublecmd.sourceforge.net/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1717233429
+
+%PACKAGER%
+Ike Devolder <ike.devolder@archlinux.org>
+
+%CONFLICTS%
+doublecmd-gtk2
+doublecmd-qt5
+
+%PROVIDES%
+doublecmd
+
+%DEPENDS%
+qt6pas
+desktop-file-utils
+hicolor-icon-theme
+shared-mime-info
+
+%OPTDEPENDS%
+lua: scripting
+unzip: support extracting zip archives
+zip: suport packing zip archives
+p7zip: support for 7zip archives
+libunrar: support for rar archives
+
+%MAKEDEPENDS%
+lazarus
+gtk2
+qt5pas
+qt6pas
+
