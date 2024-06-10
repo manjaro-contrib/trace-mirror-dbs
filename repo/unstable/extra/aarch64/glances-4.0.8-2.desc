@@ -1,0 +1,72 @@
+%FILENAME%
+glances-4.0.8-2-any.pkg.tar.xz
+
+%NAME%
+glances
+
+%BASE%
+glances
+
+%VERSION%
+4.0.8-2
+
+%DESC%
+CLI curses-based monitoring tool
+
+%CSIZE%
+724904
+
+%ISIZE%
+4121317
+
+%MD5SUM%
+4fd92be74167292595d73f52bc9e3918
+
+%SHA256SUM%
+d3dffe0352d2d888b65f63c35ee8fe18c68928d2f3a303586e61ae45a014de09
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmZkZ30ACgkQdxk/FSvb5qZgihAAu8R6Y5JMvndHRXomPyH2YxZOR5qjNWLlGlOm1guRjnp2BjKYF+Vpn6Hlz1TrAa9CJInrSnWtWwQN0BH0d8GdHyHr9n78zXz0KweSVtzT1BopSZ5iL3AuSccdbnpPmMGDdRt5pQs8ChTMwrkUuMQYW+MC0+yJ32PLxdziPU3so1SUPxHc6V+9RG3jQ15XcY7ul5nRrpcThKVlCsELZnnwJGHtHVmFHDdWSvbMdRreO3csXF2Ksx4aOr0gmJGffao7LUlkmLnrJg37JWRwWfpxAtKbyB+//G2ZAk0FAMDKW03xJB27Gqyda0eGrBt19Q1N3WdSBbt5Nvx7K0RTYrlYnrxWfwKVa7VQie1oDpYoI8PB7YULitObZZB8gCZt2j0/4LSL1cMZNbztVpUUbvAym1BLZRXlu3V12C55ex5xtslLT8LS+eI9RREa70KCdR8G9WLT4UA+pGzmGu1JVNfGy3kzMO560p6rxR0yuwZGPkzFFEhW1lqwQu3x9JxFByV83IuojoQPkdQQU+26Lj0NDOysBfVY4vG/Ign10/Hd6iSmC4PuQdsAGJZm6A2zUAapC0eaMKMcEtOqJ+7d3vUOHs9l72mI+XS3qVmBnsq8fkFBT8/cb664NmZsKLGapImyK/M3MoGbokYaJudmHrB8T8WuOqzXqzTp//65fOpj4UU=
+
+%URL%
+https://nicolargo.github.io/glances/
+
+%LICENSE%
+LGPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1717856107
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-psutil
+python-future
+python-defusedxml
+python-orjson
+python-pydantic
+python-packaging
+
+%OPTDEPENDS%
+hddtemp: HDD temperature monitoring support
+uvicorn: for WebUI / RestFull API
+python-jinja: for WebUI / RestFull API
+python-fastapi: for WebUI / RestFull API
+python-docker: for the Docker monitoring support
+python-matplotlib: for graphical/chart support
+python-netifaces: for the IP plugin
+python-zeroconf: for the autodiscover mode
+python-pystache: templating engine
+python-prometheus_client: for the Prometheus export module
+
+%MAKEDEPENDS%
+python-setuptools
+python-build
+python-installer
+python-wheel
+

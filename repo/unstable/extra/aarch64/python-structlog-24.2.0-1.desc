@@ -1,0 +1,73 @@
+%FILENAME%
+python-structlog-24.2.0-1-any.pkg.tar.xz
+
+%NAME%
+python-structlog
+
+%BASE%
+python-structlog
+
+%VERSION%
+24.2.0-1
+
+%DESC%
+Structured Logging for Python
+
+%CSIZE%
+104496
+
+%ISIZE%
+669155
+
+%MD5SUM%
+6a286077c4572b756fdb7032d9d80144
+
+%SHA256SUM%
+aba62e97b971f90bf11832e9fd246c14d5b695eb2ac37795fcaef72f60079453
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmZaqC8ACgkQdxk/FSvb5qY9Vw/8D6yj69TwzMJ2UXTYtFXpivg7Z1WS7QkDZqh8I9uEo1Db83tMpI9ogp6lDAcO9n0h34wNWpwu7GlDQl4jmgB+Zejnl47C1EifKhgSrAnPFhyQUT4uwaVSE1RVRZT5Kc2jYKH8EK3bbV87J/21t1A3vDILm+o8y7IYOr+RLFzJRccbrq1ZssQeAb3e7/ZVeWIggL4hVyajZIVO6GwHlR6upq5ldpgNN6HLxMOHkbBoNIgEuFU4ikm1Pw8UxbOLpX8xWcxdk/BiK5+ssKdBFQgX2he8DCN2se+lGpwJIkQtOe8N0EFoX5XGA+1aGl5w8BE2mGE7voFi5alktXkTX6lea1myEs531UMXwqxRZ1naxGQNYGCMonxs2b3a5uGPfANlz0vB+Gxg4l8H/lriTKhedS6bXyvlEKMNJdsI/BI76aYkvTK2xtbd0g/2NEDxa3UIUQxA3nu4SG4WaGmGk3u6yDRK13MM6Vqe4+govMMvCPR7N0ALYmojTAbD83gLZCe5ZNbqU9SFB4YqwiBH76EVvYBk+htPjs4gJVXPchGRsOUiVI5TpjZpbELhY9yvuTlHRNR7TgmaQNwhpISSEoOZATXAKelkFDiCgt6briAQHPE5M8UiBfv6t5PgMlqCuMlD8AOhLhD01nMAP43bgM6RsKT1M8ZPj8J8crR7HANXEoA=
+
+%URL%
+https://www.structlog.org
+
+%LICENSE%
+MIT OR Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1717217314
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-greenlet: for greenlet support in structlog.threadlocal (deprecated)
+python-twisted: for structlog.twisted
+python-rich: for structlog.dev
+
+%MAKEDEPENDS%
+git
+openssh
+python-build
+python-installer
+python-hatchling
+python-hatch-vcs
+python-hatch-fancy-pypi-readme
+
+%CHECKDEPENDS%
+python-pytest
+python-freezegun
+python-pretend
+python-simplejson
+python-twisted
+python-rapidjson
+python-greenlet
+python-pytest-asyncio
+python-rich
+
