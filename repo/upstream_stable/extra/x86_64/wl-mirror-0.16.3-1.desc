@@ -1,0 +1,59 @@
+%FILENAME%
+wl-mirror-0.16.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+wl-mirror
+
+%BASE%
+wl-mirror
+
+%VERSION%
+0.16.3-1
+
+%DESC%
+a simple Wayland output mirror client
+
+%CSIZE%
+32720
+
+%ISIZE%
+84047
+
+%SHA256SUM%
+f6c636dc7834faf09f1369359a4c4c3c62ff49069e9d4121a52f77612f68ce20
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZmoDCgAKCRCbeih9mi7GCNNnAQCj4XXUNiBPeLxfRlqV+X5IicwbgbIb7b1CjkQXeLCccAEAoz692CpFyvhkILbnVCLzjbQhVZp8EPISNC3nYp0yPwQ=
+
+%URL%
+https://github.com/Ferdi265/wl-mirror
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1718223600
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+bash
+glibc
+libglvnd
+wayland
+
+%OPTDEPENDS%
+dmenu: for interactive selection of options and wl-present
+pipectl: for wl-present
+rofi: for interactively selecting options and wl-present
+slurp: for selecting regions and outputs and wl-present
+
+%MAKEDEPENDS%
+cmake
+ninja
+scdoc
+
