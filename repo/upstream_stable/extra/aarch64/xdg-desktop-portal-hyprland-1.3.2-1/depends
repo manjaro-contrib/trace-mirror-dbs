@@ -1,0 +1,23 @@
+%DEPENDS%
+gcc-libs
+glibc
+hyprlang
+libhyprlang.so=2-64
+libinih
+pipewire
+qt6-base
+qt6-wayland
+sdbus-cpp
+libsdbus-c++.so=1-64
+util-linux-libs
+libuuid.so
+wlroots
+xdg-desktop-portal
+
+%PROVIDES%
+xdg-desktop-portal-impl
+
+%OPTDEPENDS%
+grim: required for the screenshot portal to function
+slurp: support for interactive mode for the screenshot portal
+
