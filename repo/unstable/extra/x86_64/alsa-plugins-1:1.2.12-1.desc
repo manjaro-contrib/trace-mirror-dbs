@@ -1,0 +1,70 @@
+%FILENAME%
+alsa-plugins-1:1.2.12-1-x86_64.pkg.tar.zst
+
+%NAME%
+alsa-plugins
+
+%BASE%
+alsa-plugins
+
+%VERSION%
+1:1.2.12-1
+
+%DESC%
+Additional ALSA plugins
+
+%CSIZE%
+87611
+
+%ISIZE%
+393950
+
+%MD5SUM%
+c0475504d5a0cd709ffc25f80f65023b
+
+%SHA256SUM%
+8be90fd4317473df192f26bcfe5f4b30f707769249d0eab694e83acaf86ebe8d
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZmoJJwAKCRCbeih9mi7GCPVAAQD8S63aqNom4idi9VsNv/puUaEtnzNsWMXPahcnxK5FHgEAh9JNoXm03C2pAL/3NNkU84BqX+4KUwwE+sAkwc/uPgs=
+
+%URL%
+https://www.alsa-project.org
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1718224762
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+alsa-lib
+libasound.so=2-64
+glibc
+
+%OPTDEPENDS%
+dbus: for maemo plugin
+ffmpeg: for pcm_a52 plugin
+jack: for pcm_jack plugin
+libavtp: for pcm_aaf plugin
+libsamplerate: for rate_samplerate plugin
+libpulse: for conf_pulse, ctl_pulse and pcm_pulse plugins
+speexdsp: for pcm_speex and rate_speexrate plugins
+
+%MAKEDEPENDS%
+alsa-lib
+dbus
+ffmpeg
+jack
+libavtp
+libpulse
+libsamplerate
+speexdsp
+
