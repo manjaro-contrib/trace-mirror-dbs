@@ -1,0 +1,24 @@
+%DEPENDS%
+bash
+curl
+gcc
+gcc-libs
+glibc
+libssh2
+llvm-libs
+openssl
+zlib
+
+%CONFLICTS%
+cargo
+rust-docs<1:1.56.1-3
+rustfmt
+
+%PROVIDES%
+cargo
+rustfmt
+
+%OPTDEPENDS%
+gdb: rust-gdb script
+lldb: rust-lldb script
+
