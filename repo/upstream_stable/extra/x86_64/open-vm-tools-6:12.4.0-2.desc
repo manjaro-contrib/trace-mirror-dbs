@@ -1,0 +1,75 @@
+%FILENAME%
+open-vm-tools-6:12.4.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+open-vm-tools
+
+%BASE%
+open-vm-tools
+
+%VERSION%
+6:12.4.0-2
+
+%DESC%
+The Open Virtual Machine Tools (open-vm-tools) are the open source implementation of VMware Tools
+
+%CSIZE%
+1023518
+
+%ISIZE%
+4908766
+
+%SHA256SUM%
+4f616323aa37e1cbf66205b6bf8473dcccd2b8ece7817ad250655d9dcf8dcf09
+
+%PGPSIG%
+iQIzBAABCAAdFiEEFORv5f1p8uKH4kTbYyw8wNHJyvYFAmY/JvcACgkQYyw8wNHJyvacvRAAoZ0uxf4RIxPUhGhpc3/GxnF3OlS11GS6vBoOmItVKpggTp8escYkmXXqpvQcqNVMz+O5M9xrhsp1B/y0pl+8rkAYK2f1TOKWM31htnztqkwvox1CoTw+ScLs7DbygwQ9BwDR+lgvdTXsgz0J02fkHqSWko9BanyJ3G1R+1PxfX8E9cZcSSxykKIU6uH3oRLVoVmDAQBARnn/TePxd58n5c+bCHIQCKfMxjIMOfxctnz0HIUTxVttfMdItvB29DpYeIyn6fLGFTlskt/3XiYv+CRa2b2XtxdOLrOmGfiY1WLWGRgfe6HUS97yNPkx661rrgfjj5t/wGd2scsTuiXaCS6NkHYP23566oqszbp5JzDw0LgVoypU90zRnvMqvzchwMny+JXBqEEKttZVo3q6c1h6kSVzSA1krHdKvbprAEIAmtdSIlulfHykqvit2/M4s7bXCmFyKe5NSRUatpKbZ3UdS8WMwSSyw5+bwsQkFQoZhWrljFwu7Vrr6grHiO1Dme9vBmYy9kSzcAVbaDuMvTKKsYTZ30Xyrgs1Qme93HKaVxJqdc2igunNq0nOiYhsIu3huiomUQvgsMG+VugaFmnmXToameodFDcQEpRSJEG94QmFOLnU3qd7zn+y/hjjl3yw4wnKZlbLi5tU0ETjdOcudRc7Qx53x7yU0s190VU=
+
+%URL%
+https://github.com/vmware/open-vm-tools
+
+%LICENSE%
+LGPL-2.1-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1715414544
+
+%PACKAGER%
+Balló György <bgyorgy@archlinux.org>
+
+%DEPENDS%
+fuse3
+icu
+iproute2
+libdnet
+libmspack
+libsigc++
+libxcrypt
+libcrypt.so=2-64
+libxss
+lsb-release
+procps-ng
+uriparser
+which
+xmlsec
+
+%OPTDEPENDS%
+gtkmm3: DnD/CP plugin
+libxtst: DnD/CP, resolution set plugins
+netctl: suspend-resume network state
+networkmanager: suspend-resume network state
+
+%MAKEDEPENDS%
+chrpath
+doxygen
+gtkmm3
+libxtst
+python
+rpcsvc-proto
+
+%CHECKDEPENDS%
+cunit
+

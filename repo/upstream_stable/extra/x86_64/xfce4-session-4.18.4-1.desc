@@ -1,0 +1,66 @@
+%FILENAME%
+xfce4-session-4.18.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+xfce4-session
+
+%BASE%
+xfce4-session
+
+%VERSION%
+4.18.4-1
+
+%DESC%
+Xfce's session manager
+
+%GROUPS%
+xfce4
+
+%CSIZE%
+374356
+
+%ISIZE%
+1567502
+
+%SHA256SUM%
+98a7cf5779882694a85638dd75e4acbc33d3497d784c436fab2cbb25650a7aba
+
+%PGPSIG%
+iQEzBAABCAAdFiEEhs/8qRjPOvRxR1iAUeixSKmZnDQFAmZmAUMACgkQUeixSKmZnDRV5AgAoBWfDSRvaXwz91Rt1RtyvFoLE7rue50eRZoq0XLJeL960kCM6ym1obs/rcPq3W1v+9qAhRriDpDc85o+rLso/ZZMHEI2kDx4R3E5/bZ15q32nPeNrghfA8wbNc9KLludivujfopLqdQ8RNXExQRPsDSH8vJLg2cdfU0wHBFbW1GUBBvdezVPNgQhSTy2+MR+OhTu9mPk6MQa5JGwWgdsDxey0wIutF0xo/hhlDJ25bWEVqJ8CmEJL/UKJxZuVK9UvnDv7S6FOljWLH/tUJEjhtAs2MRknaTG0oV1+vAe5jOWsIWMhPzfX/fRg3wHWi8YZDwLE5UpXdpX9ZoA/IvtAw==
+
+%URL%
+https://docs.xfce.org/xfce/xfce4-session/start
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1717960821
+
+%PACKAGER%
+Evangelos Foutras <foutrelis@archlinux.org>
+
+%DEPENDS%
+libxfce4ui
+libwnck3
+xfconf
+libsm
+polkit
+xorg-iceauth
+xorg-xinit
+xorg-xrdb
+polkit-gnome
+hicolor-icon-theme
+
+%OPTDEPENDS%
+gnome-keyring: for keyring support when GNOME compatibility is enabled
+xfce4-screensaver: for locking screen with xflock4
+xscreensaver: for locking screen with xflock4
+light-locker: for locking screen with xflock4
+
+%MAKEDEPENDS%
+intltool
+
