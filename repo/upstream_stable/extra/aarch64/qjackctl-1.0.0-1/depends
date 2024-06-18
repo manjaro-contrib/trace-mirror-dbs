@@ -1,0 +1,17 @@
+%DEPENDS%
+gcc-libs
+glibc
+hicolor-icon-theme
+qt6-base
+qt6-svg
+alsa-lib
+libasound.so=2-64
+jack
+libjack.so=0-64
+portaudio
+libportaudio.so=2-64
+
+%OPTDEPENDS%
+jack2-dbus: for JACK dbus support
+qt6-wayland: for native wayland support
+
