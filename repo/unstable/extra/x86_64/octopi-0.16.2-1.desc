@@ -1,0 +1,76 @@
+%FILENAME%
+octopi-0.16.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+octopi
+
+%BASE%
+octopi
+
+%VERSION%
+0.16.2-1
+
+%DESC%
+A powerful Pacman frontend using Qt libs
+
+%CSIZE%
+1348722
+
+%ISIZE%
+6540007
+
+%MD5SUM%
+3eba6fa88aaa98589416bcc5f330f62c
+
+%SHA256SUM%
+e75306175173143f348d4bbc2c8afd45a98b0dcf27aa23506ccc5b87cf815093
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmZxoMcACgkQFQwgB0PtRtia5QgAx9Ih41VUfp+loW1j6QD8+ggwULJckp11HY0ZWBdO2L76buH3BIVp5FMILph199e9wWHY9IUcaIa/fOP9d4b7aPTRYSxnZv3crpFmzoRMJuua78LxLd9StLXcupXCX0SdGwlFxR5m0yktyIrI5pwriGEz1mhrEwJmfX4MX/s6q3pspryRHhd0ClxQ5UUMePSjRdzGnm8HBkiN3K+p0ks5ZR5ka8URDIZi8V4Uyqnn+PnhfK8YXyB6nPDCqXrDH1XvYA9HRoIcrn7UNnf6StnP/dBjwJidx6++/BZtoiWktuo9JVZEN//pKgTazGKJRorHoQ9QZYZjvl3McaOJWTXnww==
+
+%URL%
+https://tintaescura.com/projects/octopi
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1718721646
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%REPLACES%
+octopi-notifier-frameworks
+octopi-notifier-qt5
+
+%CONFLICTS%
+octopi-notifier
+
+%PROVIDES%
+octopi-cachecleaner
+octopi-notifier
+octopi-repoeditor
+
+%DEPENDS%
+alpm-octopi-utils
+qt-sudo
+qt6-5compat
+qtermwidget
+
+%OPTDEPENDS%
+inxi: for SysInfo log
+lsb-release: for SysInfo log
+mhwd: for SysInfo log
+pacmanlogviewer: to view pacman log files
+systemd: for SysInfo log
+yay: for AUR support
+
+%MAKEDEPENDS%
+cmake
+git
+qt6-tools
+
