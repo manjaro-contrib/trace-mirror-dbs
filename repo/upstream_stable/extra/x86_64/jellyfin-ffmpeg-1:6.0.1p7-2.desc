@@ -1,0 +1,104 @@
+%FILENAME%
+jellyfin-ffmpeg-1:6.0.1p7-2-x86_64.pkg.tar.zst
+
+%NAME%
+jellyfin-ffmpeg
+
+%BASE%
+jellyfin-ffmpeg
+
+%VERSION%
+1:6.0.1p7-2
+
+%DESC%
+Jellyfin fork of ffmpeg
+
+%CSIZE%
+11493413
+
+%ISIZE%
+60949472
+
+%SHA256SUM%
+fbb5a6844fb4f6b83776e2abefca0b7d93694d7b1c221b8e28112a4942b36054
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmZS9SYACgkQek52CV2KUuQPSgf9H85r5nO8iHvpp6UUyzLy5Gn/ta1i1Em6gHAr2qswv0G6HHjU7BvywcO/zSPNkP3NncUXFY9Zu3EplNCMKyq9mmvWiWW6ygXHgx1mjOHOHLX7r6O8JgXB89I1C3SvXUmZdJuwVTfDi7ob9HN7eUFYTgMmO7/M8BiJZaGtgkgHRQhhMDzzzWx9142A8KXRc0J67LerRozW5uXz40AME5a0TmvdB9CwND3NbCqqa2hfHJBx0j/YPHZfc4PAv0O7SQqMU8v+t5Ou1LSRJwD/JzfgF9Kjf+8wPpv8xD2a1MzTZzEhhpOnH72yxFP0F9FG4OurYR68EbQ4b+DrTAMn/rNxhw==
+
+%URL%
+https://github.com/jellyfin/jellyfin-ffmpeg
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1716712653
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+glibc
+alsa-lib
+bzip2
+fontconfig
+fribidi
+gmp
+gnutls
+lame
+libass.so=9-64
+libbluray.so=2-64
+libchromaprint.so=1-64
+libdav1d.so=7-64
+libdrm
+libfreetype.so=6-64
+libopenmpt.so=0-64
+libplacebo.so=338-64
+libtheora
+libva.so=2-64
+libva-drm.so=2-64
+libvdpau
+libvorbisenc.so=2-64
+libvorbis.so=0-64
+libvpx.so=9-64
+libwebp
+libx11
+libx264.so=164-64
+libx265.so=209-64
+libxext
+libxml2
+libzimg.so=2-64
+ocl-icd
+onevpl
+opus
+shaderc
+srt
+vulkan-icd-loader
+xz
+zlib
+zvbi
+
+%OPTDEPENDS%
+intel-media-driver: for Intel VAAPI support (Broadwell and newer)
+intel-media-sdk: for Intel Quick Sync Video
+onevpl-intel-gpu: for Intel Quick Sync Video (Alder Lake and newer)
+intel-compute-runtime: for Intel OpenCL runtime based tonemapping
+libva-intel-driver: for Intel legacy VAAPI support (Comet Lake and older)
+libva-mesa-driver: for AMD VAAPI support
+nvidia-utils: for Nvidia NVDEC/NVENC support
+opencl-amd: for AMD OpenCL runtime based Tonemapping
+vulkan-radeon: for AMD RADV Vulkan support
+vulkan-intel: for Intel ANV Vulkan support
+
+%MAKEDEPENDS%
+git
+nasm
+clang
+ffnvcodec-headers
+amf-headers
+opencl-headers
+vulkan-headers
+
