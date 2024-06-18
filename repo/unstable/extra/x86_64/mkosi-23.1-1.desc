@@ -1,0 +1,86 @@
+%FILENAME%
+mkosi-23.1-1-any.pkg.tar.zst
+
+%NAME%
+mkosi
+
+%BASE%
+mkosi
+
+%VERSION%
+23.1-1
+
+%DESC%
+Build Legacy-Free OS Images
+
+%CSIZE%
+488201
+
+%ISIZE%
+2525092
+
+%MD5SUM%
+46a88ee7eda89ae49904d45a4b853a62
+
+%SHA256SUM%
+595a587470fcc3797931f595cfa52ac09f1d4d960ec5d7e201d831760119a8f2
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZml8VAAKCRBtQr3RFuAGj3jMAQC1V1YqWZP59sm4W8KV4wb28U0Zi4DCwUk8VlfJlfkWQwD9HtrhqvYgzOH2LOCBmqOvucfOqArTEd0UVnHVWcOIYAY=
+
+%URL%
+https://github.com/systemd/mkosi
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1718189055
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+bubblewrap
+python
+python-argcomplete
+sh
+systemd
+
+%OPTDEPENDS%
+acl: for removing directories created by mkosi
+apt: for creating Debian and Ubuntu images
+btrfs-progs: raw_btrfs and subvolume output formats
+cpio: for cpio output format
+debian-archive-keyring: build Debian images
+dnf: for creating CentOS, Fedora, OpenMandriva, Mageia and OpenSUSE images
+edk2-ovmf: for running bootable images using QEMU
+erofs-utils: for EROFS support
+gnupg: for signing image checksums
+kmod: for images using Linux kernels
+mtools: for FAT support
+openssl: for UEFI SecureBoot
+python-pefile: for bootable images
+qemu: for running bootable images using QEMU
+sbsigntools: for UEFI SecureBoot
+swtpm: for adding software TPM when running bootable images using QEMU
+systemd-ukify: for Unified Kernel Image (UKI) support
+tar: for tar output format and Debian or Ubuntu images
+ubuntu-keyring: for building Ubuntu images
+xz: for compressing images with xz
+zstd: for compressing images with zstd
+
+%MAKEDEPENDS%
+pandoc-cli
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+
