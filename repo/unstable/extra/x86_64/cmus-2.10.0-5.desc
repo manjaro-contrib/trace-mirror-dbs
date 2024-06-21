@@ -1,0 +1,84 @@
+%FILENAME%
+cmus-2.10.0-5-x86_64.pkg.tar.zst
+
+%NAME%
+cmus
+
+%BASE%
+cmus
+
+%VERSION%
+2.10.0-5
+
+%DESC%
+Feature-rich ncurses-based music player
+
+%CSIZE%
+279446
+
+%ISIZE%
+825203
+
+%MD5SUM%
+92e9787dec3391653826b8e37d45bc17
+
+%SHA256SUM%
+552a6a0593756835be8a29f4cc3032000ff8ac802f28695e5791daefa4a83cd0
+
+%PGPSIG%
+iQIzBAABCAAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmZPJigACgkQk7EdqkwZfj31cg//a1IKt84No9X3q68uRTj4/0tuwZZDLhxaXfxhMZl1lbjITiEG4UPZKHSVf0jqlrmvpquDgbtIuM+J0WF2vQV511+b+tCwDKDcFebwApEbbwtCvxIrMqBDYqXAZBApwVrdHq8MlBObFPnAq3I0hpVUqHAlRs/dFubTqhLqrbIxZ6ogJ7q6hYGlmVL71ftF+1crp0IBhigNdXJ8cju66Le566UJl5/5bNoH5gbpcNrj/fQC4/kJW+gnQ2DXuf3qHQuS5K65aMVsMoNedI7hwFCM4VcLAecea5ZP50bs87D6GUdbkwp59yrCxaCY1TTkrSAC/O396Yd7xinhURAxk8vfA1/tSqHxUDEY3NscWu8FvZThxZaKnEGA3L3oI/kQ+/6RosW3JnW7xtNgUsJN21HkCyfTSmMJM3OAKZWn0wgDhOe6Zibuk3rCo991RUaQLe6IFURnJT3J+6gv15UJ27t6ay/Mh0HAL2ZEYfmEbwKT57eov+aRaQQHeUATG3gRSiVADY1ioO1m4BatklshOXWx12LFHYN40G7BhveaMP8qqotekbxGbLZ9YTq2Rbt5E6MB2Ojs3gLwI0AdId8QuSdEwFuK3/pmYh6C2sPwrZb2RPpCESN+L7ki6s3SC3eTaxwLLsVU6zKM/In7vDfq8E7nT/w+Sb2IXsp9zZ7bLbQIKOY=
+
+%URL%
+https://cmus.github.io/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1716463110
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+libdiscid
+ncurses
+
+%OPTDEPENDS%
+alsa-lib: for ALSA output plugin support
+libao: for AO output plugin support
+libpulse: for PulseAudio output plugin support
+faad2: for AAC input plugin support
+ffmpeg: for ffmpeg input plugin support
+flac: for flac input plugin support
+jack: for jack plugin support
+libmad: for mp3 input plugin support
+libmodplug: for modplug input plugin support
+libmp4v2: for mp4 input plugin support
+libmpcdec: for musepack input plugin support
+libsamplerate: for sampe rate converter support
+libvorbis: for vorbis input plugin support
+libcdio-paranoia: for cdio support
+opusfile: for opus input plugin support
+wavpack: for wavpack input plugin support
+
+%MAKEDEPENDS%
+faad2
+ffmpeg
+flac
+jack
+libao
+libcdio-paranoia
+libmad
+libmodplug
+libmp4v2
+libmpcdec
+libpulse
+libsamplerate
+libvorbis
+opusfile>=0.12
+wavpack
+
