@@ -1,0 +1,94 @@
+%FILENAME%
+syslog-ng-4.6.0-5-x86_64.pkg.tar.zst
+
+%NAME%
+syslog-ng
+
+%BASE%
+syslog-ng
+
+%VERSION%
+4.6.0-5
+
+%DESC%
+Next-generation syslogd with advanced networking and filtering capabilities
+
+%CSIZE%
+1723200
+
+%ISIZE%
+7985804
+
+%MD5SUM%
+7b9adf4b59039e2ccad961bdbc4d75f7
+
+%SHA256SUM%
+15c25f707d02a1702416d34b5cbf6194af8ed9523e18bd2198218f9ef20c20d6
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmZvTdMACgkQek52CV2KUuT+ewf+NfQSTi9ZEpvktv5rtsR1a7ObLJXyY9fOLfYKLnXAA8N0xr2j2aAHaV2iY94U6cvHg0DXIi1Wh43NWdHcjeMm3PNzH4vmmlDvnOmcbAQKt7ic4lLbY6EoHPinSjW91OMe+MnzvVlUknj2dFuGgo09vyN6Uv1w4MsbTpcQ4doIQ1hZ7TgUtxKIAUbTjXkgtcFOoEXORzP6PUvQIpwHqiBDD7EHfBHLjgdqioBV3SbdVxCEkDgRHM7SdtQo6+CMTkbQVxZJog7eCNmsOcC9S6dB82rRv0TjDaStKBmMmqHe5C/Hqfu8wF/OauiQRBXTUGMS+qi2TW2AGaD9KjB/LgZ/TQ==
+
+%URL%
+https://www.syslog-ng.com/products/open-source-log-management/
+
+%LICENSE%
+GPL2
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1718570170
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%REPLACES%
+eventlog
+
+%CONFLICTS%
+eventlog
+
+%DEPENDS%
+awk
+bash
+curl
+glib2
+glibc
+grpc
+json-c
+libcap
+libnet
+libnsl
+openssl
+pcre2
+protobuf
+systemd-libs
+
+%OPTDEPENDS%
+logrotate: for rotating log files
+libdbi: for the SQL plugin
+librabbitmq-c: for the AMQP plugin
+mongo-c-driver: for the MongoDB plugin
+libesmtp: for the SMTP plugin
+hiredis: for the Redis plugin
+libmaxminddb: for the GeoIP2 plugin
+net-snmp: for the SNMP plugin
+librdkafka: for the Kafka C plugin
+python: for Python-based plugins
+python-ply: for debugger CLI
+
+%MAKEDEPENDS%
+libxslt
+mongo-c-driver
+librabbitmq-c
+python
+libesmtp
+hiredis
+libdbi
+libmaxminddb
+net-snmp
+librdkafka
+systemd
+
