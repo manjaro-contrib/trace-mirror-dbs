@@ -1,0 +1,73 @@
+%FILENAME%
+netdata-1.45.6-2-x86_64.pkg.tar.zst
+
+%NAME%
+netdata
+
+%BASE%
+netdata
+
+%VERSION%
+1.45.6-2
+
+%DESC%
+Real-time performance monitoring, in the greatest possible detail, over the web
+
+%CSIZE%
+27759945
+
+%ISIZE%
+131292578
+
+%SHA256SUM%
+c409543417c850eab3b8157319d470b17dc672a489737b90e7c62bd7c843ce12
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmZvPScACgkQek52CV2KUuRqRwf+LR34CkJeKKktMTn/fUrTzIZnOZGllZrY1I2tsEkterMmQc9Lvqx4XZbEGDfQUTJH9q96BdXDU+IYjPCBxP7Ugc2+9Iu51wk9ha1p19BHMM920qVnzMx8hnaXekZoaiLs8HMNj0hrghRN81HU4HW5USW4OXu3Rvgm0VuQmowIuQJBv/wutQV4ma8cN4Y/PdQwcb099lkTAIuuaJ6n7DbvoMuPBcs/6wFERUHL7GchEVN+tPBjYp65gW2Dgzijlu+Z8DlwrlaI+no23H80hvCBBW4i3Ql/Un+hpCZa974vR5l6x3hymUSgbCvTSvED2MHdmBKlUCLBRf94kP+QXJwk0w==
+
+%URL%
+https://github.com/netdata/netdata
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1718565735
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+libmnl
+libnetfilter_acct
+zlib
+judy
+libuv
+json-c
+libcap
+lz4
+openssl
+which
+snappy
+protobuf
+libwebsockets
+mongo-c-driver
+libyaml
+cups
+freeipmi
+
+%OPTDEPENDS%
+iproute2: for monitoring Linux QoS
+python: for most of the external plugins
+apcupsd: for monitoring APC UPS
+iw: for monitoring Linux as access point
+
+%MAKEDEPENDS%
+cups
+go
+cmake
+ninja
+
