@@ -1,0 +1,14 @@
+%DEPENDS%
+gcc-libs
+glibc
+python
+capnproto
+libkj.so=1.0.2-64
+libkj-async.so=1.0.2-64
+libcapnpc.so=1.0.2-64
+libcapnp.so=1.0.2-64
+libcapnp-rpc.so=1.0.2-64
+
+%OPTDEPENDS%
+python-jinja: for capnpc-cython
+
