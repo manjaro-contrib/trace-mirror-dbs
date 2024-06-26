@@ -1,0 +1,30 @@
+%DEPENDS%
+freetype2
+python-contourpy
+python-cycler
+python-dateutil
+python-fonttools
+python-kiwisolver
+python-numpy
+python-packaging
+python-pillow
+python-pyparsing
+qhull
+
+%OPTDEPENDS%
+tk: Tk{Agg,Cairo} backends
+pyside6: alternative for Qt6{Agg,Cairo} backends
+python-pyqt5: Qt5{Agg,Cairo} backends
+python-pyqt6: Qt6{Agg,Cairo} backends
+python-gobject: for GTK{3,4}{Agg,Cairo} backend
+python-wxpython: WX{Agg,Cairo} backend
+python-cairo: {GTK{3,4},Qt{5,6},Tk,WX}Cairo backends
+python-tornado: WebAgg backend
+ffmpeg: for saving movies
+imagemagick: for saving animated gifs
+ghostscript: usetex dependencies
+texlive-binextra: usetex dependencies
+texlive-fontsrecommended: usetex dependencies
+texlive-latexrecommended: usetex usage with pdflatex
+python-certifi: https support
+
