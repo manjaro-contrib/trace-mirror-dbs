@@ -1,0 +1,66 @@
+%FILENAME%
+mattermost-9.9.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+mattermost
+
+%BASE%
+mattermost
+
+%VERSION%
+9.9.1-1
+
+%DESC%
+Open source Slack-alternative in Golang and React
+
+%CSIZE%
+68061469
+
+%ISIZE%
+196987410
+
+%MD5SUM%
+204b0326791e1dbf1eda8b9f32f12ad7
+
+%SHA256SUM%
+b5b02f3996c840ac0bf8b07647f2810234f23fac84c8964a0e18465290c60009
+
+%PGPSIG%
+iQIzBAABCAAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmZ9ZtsACgkQqF6BHrTKLggWHg/+KfUu5hlg52uSioFYkmw1au61L8Gh+T5tSkd0/jwCpklw3Lzv1Ho+ryX4sstyH2X5pGdZvGHYBmFeoUz0enJd5QN1PKHhfn9BOZxcGfENPItTvL0gyS57dVd1jl9SKoywaPN22Gq9WXdoZoEY5YDPtoAj/JrFQR+2SI4AUhvqxiynil4O23uqV2qZB+yqKfiSqXXEbttHSdrjby75LW516jA1WXMPvtJzO+fnyWFguzaZtqSAhCdw7JxHw+sHsyxHKle8g+JPCw8eV8E9YHquLNO69bAfHPrLwvljGRArLnB8VC9oXqgcY8kVmzB0kchu/eEio6gnG7rs9fzfpqdjAo6XVjYpz1fdxzmbD88BCEk6+w9OWlXGqhFr5VMFXNl+Q9BDJV9RxTzxR7oGtaQQKawwTGyM/Nlp6u4Za9iBJSDiopTQotcS+x4amXeq8kHlrmQ2KkWp4iIB3SAvUOhsIqpMhko+cyexKf05oQqHWcZUTMj5PibjMufspJZ05Gm281hK7NXobfJFMOao6vX75x37hRDQJxsJ2qx1bKjEYoL/NaPggjtWkzWajqKwfp0ZXW8ZRuz9BFQHL8cyem/sWxPQm+WhvMQVac3JXhEyRIPHlN3pIjzI5iNH5ayvs7U4Dp2xlo6PQrGvL1x3zCBrxhdsXCaCZyoovVlaOsRtsRA=
+
+%URL%
+https://mattermost.com
+
+%LICENSE%
+AGPL-3.0-only
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1719493631
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+mariadb: SQL server storage
+mmctl: CLI admin tool
+percona-server: SQL server storage
+postgresql: SQL server storage
+
+%MAKEDEPENDS%
+git
+go<2:1.22
+go>=2:1.21
+jq
+libpng
+nodejs-lts-iron
+moreutils
+npm
+python
+
