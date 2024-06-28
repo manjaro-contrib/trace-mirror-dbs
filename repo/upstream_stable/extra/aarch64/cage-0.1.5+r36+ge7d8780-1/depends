@@ -1,0 +1,14 @@
+%DEPENDS%
+glibc
+wayland
+wlroots
+libwlroots.so=12-64
+libxkbcommon.so=0-64
+
+%PROVIDES%
+wayland-compositor
+
+%OPTDEPENDS%
+polkit: System privilege control. Required if not using seatd service
+xorg-server-xwayland: X11 support
+
