@@ -1,0 +1,87 @@
+%FILENAME%
+nextcloud-client-2:3.13.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+nextcloud-client
+
+%BASE%
+nextcloud-client
+
+%VERSION%
+2:3.13.1-1
+
+%DESC%
+Nextcloud desktop client
+
+%CSIZE%
+4445639
+
+%ISIZE%
+16971691
+
+%MD5SUM%
+4b637814dbce7bfcd3e400e9bf99cd07
+
+%SHA256SUM%
+e953709b85aae38cf709bb3ad05b287b23913fd0b35c960207905994e4e47310
+
+%PGPSIG%
+iQIzBAABCAAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmZ/3ngACgkQqF6BHrTKLgglZRAAx3thWejF7KDCRrFlHk771ms0Yo3DnKn1pacmeekMngrr8neuHPgwyZBD/pXcBHGjwqmx51gr+xedY6JsGQaH1yG2o1YWrQwv1IoK14EQhXHofGXTfv3KRNSdPJ2ovoaxKP0pOkIfm0RndFoEu5Rxz3lqOh4JdXXKntV4uUObwvUAmiMUBFKI5gBNlP/7lInqksXyncfFLJunrbiiLX1ddB22PPeDD/h2N1jWCX5yipBW/Mlv5FE1AoHC0yF2eLKk/SDe5POVl7aWNHdHTE9QK9Ly/rfIWq6kdm/1AWu7WIW90CBsxkeSrCkIgfJAQyzl558f91a1BmWSsZJ2tWIizuWiY1ZtOCvanhzjEZyezNfe7Q1ELP3HhXC7NgVdHZGDyeqpOo+Hww47kW4o+cJIZo2M8dPGNk7KwNJlLnfBB+KCZH1cR9ysgsUH3gY5gtSwoOzDtX3PS2CO4z/SHGdr2FOFMHl7qwDtQp8FD6L19tjGSM+V8O6gyMjqvmV0GBD/SiDZNVKAmudRmULsv6MdBcEZPfr1X+smLKHSr/sZzkHEMwyROJGHqaBN1mXUV4dXIjPRedtpfkmQs4I3vb1g0nq0kO2cNrQ20tI19BwrTuD6Sfx3AnvWDJ0dzvRf1piGaTdANLNFJUF75qzxPEfeyDHWKgKjmYF8CCGLUMbd+cc=
+
+%URL%
+https://nextcloud.com/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1719654472
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%REPLACES%
+nextcloud-client-cloudproviders
+
+%CONFLICTS%
+nextcloud-client-cloudproviders
+
+%PROVIDES%
+nextcloud-client-cloudproviders
+
+%DEPENDS%
+hicolor-icon-theme
+karchive5
+kguiaddons5
+libcloudproviders
+openssl
+qt5-graphicaleffects
+qt5-quickcontrols
+qt5-quickcontrols2
+qt5-svg
+qt5-webengine
+qt5-websockets
+qtkeychain-qt5
+sqlite
+xdg-utils
+
+%OPTDEPENDS%
+kio: integration with Dolphin
+nemo-python: integration with Nemo
+python-nautilus: integration with Nautilus
+python-caja: integration with Caja
+nextcloud-client-cloudproviders: cloudproviders support
+
+%MAKEDEPENDS%
+cmocka
+doxygen
+extra-cmake-modules
+git
+kio
+librsvg
+python-sphinx
+qt5-tools
+
