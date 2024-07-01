@@ -1,0 +1,93 @@
+%FILENAME%
+snd-24.4-3-x86_64.pkg.tar.zst
+
+%NAME%
+snd
+
+%BASE%
+snd
+
+%VERSION%
+24.4-3
+
+%DESC%
+An advanced sound editor
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+13772654
+
+%ISIZE%
+38299997
+
+%MD5SUM%
+e7523cc8fe54db9572244dbbedbf45fb
+
+%SHA256SUM%
+4f04e4f5a671842a45e250b81fdaa8d7147a8ef6a106edda72b99d92b3f99b0d
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmZkwY0ACgkQek52CV2KUuQvRgf/Wv2Ro/vKhwwKwVELRFHcojKOas/40INeVqBcltklltTX2wrVK2q5lHYL8rJYjgPGBNgkccPnzVXzIX5Ug8SIuTUmHdLH9StGJtigSNqJQmx4vDZUCoG7uHbioe4fj9uNf3zkSZs1LThX9+SF8xyNV5Xrg4bHNoPvgQ+lgKS5QxL1EujD5wtRp4Ljyy3OKbOg5E5ZEdJWfb46WAEQlj/Q3oixXzouPouPtuZtw2WGC2q0cCIUxa7I759zXp8oiAuozeL5UFsbjVSD0ByhCNVb77a/72ie1WN+8mRhWLqhKlOLVb1AOVnKFkRMEiJn1dDYcN5U0SsDNfDWERS2UwMMvQ==
+
+%URL%
+https://ccrma.stanford.edu/software/snd/
+
+%LICENSE%
+BSD-2-Clause
+GPL-2.0-or-later OR GL2PS
+LGPL-2.1-only WITH LLGPL
+TCL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1717879072
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+glibc
+glu
+gmp
+gsl
+libglvnd
+libmpc
+libx11
+libxext
+libxpm
+libxt
+mpfr
+openmotif
+libasound.so=2-64
+libfftw3.so=3-64
+libjack.so=0-64
+libsamplerate.so=0-64
+
+%OPTDEPENDS%
+flac: For flac support
+mpg123: For MPEG support
+ruby: for snd-ruby
+speex: For speex support
+timidity++: For MIDI to WAVE support
+vorbis-tools: For OGG support
+wavpack: For wav support
+
+%MAKEDEPENDS%
+alsa-lib
+fftw
+flac
+gendesk
+jack
+ladspa
+libsamplerate
+mpg123
+ruby
+speex
+timidity++
+vorbis-tools
+wavpack
+

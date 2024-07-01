@@ -1,0 +1,88 @@
+%FILENAME%
+sway-1:1.9-4-x86_64.pkg.tar.zst
+
+%NAME%
+sway
+
+%BASE%
+sway
+
+%VERSION%
+1:1.9-4
+
+%DESC%
+Tiling Wayland compositor and replacement for the i3 window manager
+
+%CSIZE%
+5298157
+
+%ISIZE%
+5870728
+
+%MD5SUM%
+45ff4b894c770534a6d4f64005dfb129
+
+%SHA256SUM%
+fefd8086c2881d321d25e9e266c582059804300d8b2f6f80b7487b116096f3a7
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmZ9eBEACgkQlGV6sg8qCSvrOggAq7rHC15/3GZF76UO4uuffVQnnT7R3gTrCXTyzXaOmp0TKBwy1TpaTsl3y2RM4QFlMTyZWarCj1Ik+i32Zqilo4PQCNxrpSTzd+EHJokVFcmvLWdMYskTpDZh9KutyucSAjP1FmcdxgLLMPr5Z+9BynhFpvSLbZpPsUtA3e9eqKYTxmF3l1NPaJtnmRfMC31oEsoT8mRXCTav6I+0M4ui07y9Xhji5rczNd293q39SGyN5Dl0pTn5FG2Jf0yBP/TKJ7T+u5Vk/SxFyq4zHqYHoNtkAZi/z1ott3QELO0ALCxm1mjGT5uPGvgSpzBsuA7kp5TDPbP6o4ZwNOxcBvyEEg==
+
+%URL%
+https://swaywm.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1719498695
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%PROVIDES%
+wayland-compositor
+
+%DEPENDS%
+cairo
+gdk-pixbuf2
+libevdev.so=2-64
+libinput
+libjson-c.so=5-64
+libpixman-1.so=0-64
+libudev.so=1-64
+libwayland-server.so=0-64
+libwlroots.so=12-64
+libxcb
+libxkbcommon.so=0-64
+pango
+pcre2
+ttf-font
+xcb-util-wm
+
+%OPTDEPENDS%
+dmenu: dmenu_path support (used alongside wmenu in default $menu)
+foot: Terminal emulator used in the default configuration
+i3status: Status line generation
+mako: Lightweight notification daemon
+polkit: System privilege control. Required if not using seatd service
+swaybg: Wallpaper tool for sway
+sway-contrib: Collection of user-contributed scripts for sway
+swayidle: Idle management daemon
+swaylock: Screen locker
+waybar: Highly customizable bar
+wmenu: Application launcher used in default config
+xorg-xwayland: X11 support
+xdg-desktop-portal-gtk: Default xdg-desktop-portal for file picking
+xdg-desktop-portal-wlr: xdg-desktop-portal backend
+
+%MAKEDEPENDS%
+meson
+ninja
+scdoc
+setconf
+wayland-protocols
+
