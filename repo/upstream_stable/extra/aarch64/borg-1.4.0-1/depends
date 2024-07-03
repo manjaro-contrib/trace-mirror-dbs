@@ -1,0 +1,18 @@
+%DEPENDS%
+acl
+lz4
+openssl
+xz
+zstd
+python
+python-packaging
+python-msgpack
+python-xxhash
+
+%PROVIDES%
+borgbackup
+
+%OPTDEPENDS%
+openssh: repositories on remote hosts
+python-llfuse: mounting backups as a FUSE file system
+

@@ -1,0 +1,34 @@
+%DEPENDS%
+bash
+gcc-libs
+glibc
+libmicrohttpd
+llvm-libs
+
+%PROVIDES%
+libfaustmachine.so=0-64
+libfaust.so=2-64
+libOSCFaust.so=1-64
+libHTTPDFaust.so=0-64
+
+%OPTDEPENDS%
+clang: for sound2reader
+csound: for faust2csound
+gradle: for faust2android
+graphviz: for faust2sig{,viewer}
+gtk2: for faust2{jack,rosgtk}
+inkscape: for faust2{pdf,png}
+jack: for faust2{api,jack{,console,internal,server,rust},jaqt,netjackqt,nodejs,ros,rosgtk,rpinetjackconsole}
+swig: for faust2android
+libsndfile: for faust2{dummy,sndfile}
+octave: for faust2octave
+pd: for faust2puredata
+portaudio: for faust2paqt
+python: for faust2atomsnippets, faust2md and faust2sc.py
+qt5-tools: for faust2{faustvst,jaqt,lv2}
+rtaudio: for faust2raqt
+ruby-rexml: for faust2sc and scbuilder
+rust: for faust2jackrust
+supercollider: for faust2supercollider
+texlive-fontutils: for faust2pdf
+
