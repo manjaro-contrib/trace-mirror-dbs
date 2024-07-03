@@ -1,0 +1,83 @@
+%FILENAME%
+avahi-1:0.8+r194+g3f79789-2-x86_64.pkg.tar.zst
+
+%NAME%
+avahi
+
+%BASE%
+avahi
+
+%VERSION%
+1:0.8+r194+g3f79789-2
+
+%DESC%
+Service Discovery for Linux using mDNS/DNS-SD (compatible with Bonjour)
+
+%CSIZE%
+439807
+
+%ISIZE%
+1973755
+
+%SHA256SUM%
+3d56d1eec69e0531d0860ec1be954627b0317c8632d35932b78f4b838abc8a3e
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmYTGL0ACgkQek52CV2KUuSCXQgApcqW/0yOy1buXFUco2eO2zUO4TIsT39sQOjdXNWuUh+fW7nukBgKsT5kKlHSXKmYhUl08cbPKDfNw/6C7V/VsTwZghOA0jBRa1BDmgsoVhwg8NNpbzW2DfWnBbkCcqqOEoV21SDwtpSUIkE1aykf//0WK/Qxe7KfZcR38DMZ99GWEmI3hbgMBGU22a11m5eWzhbXMxWxFrBWY1rAiGmwRiwDvOM6ToQw1iHb3v/855+gTm639SXY0GbwQ2bf4onSTKdemItVi/cXglvIU0vVc6NxA/8gATNQbF3QblMMedbBgCYlamIc0TEPBtbIe4+r2lhQKwnSNpnsHb9MrmuwNg==
+
+%URL%
+https://github.com/avahi/avahi
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712527482
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+libavahi-client.so=3-64
+libavahi-common.so=3-64
+libavahi-core.so=7-64
+libavahi-glib.so=1-64
+libavahi-gobject.so=0-64
+libavahi-libevent.so=1-64
+libavahi-qt5.so=1-64
+libavahi-ui-gtk3.so=0-64
+libdns_sd.so=1-64
+
+%DEPENDS%
+dbus
+expat
+gdbm
+glib2
+libcap
+libdaemon
+libdbus-1.so=3-64
+
+%OPTDEPENDS%
+gtk3: avahi-discover, avahi-discover-standalone, bshell, bssh, bvnc
+libevent: libevent bindings
+nss-mdns: NSS support for mDNS
+python-dbus: avahi-bookmarks, avahi-discover
+python-gobject: avahi-bookmarks, avahi-discover
+python-twisted: avahi-bookmarks
+qt5-base: qt5 bindings
+
+%MAKEDEPENDS%
+doxygen
+git
+gobject-introspection
+graphviz
+gtk3
+libevent
+python-dbus
+python-gobject
+qt5-base
+xmltoman
+
