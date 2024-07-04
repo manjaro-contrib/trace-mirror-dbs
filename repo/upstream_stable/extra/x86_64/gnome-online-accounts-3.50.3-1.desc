@@ -1,0 +1,76 @@
+%FILENAME%
+gnome-online-accounts-3.50.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+gnome-online-accounts
+
+%BASE%
+gnome-online-accounts
+
+%VERSION%
+3.50.3-1
+
+%DESC%
+Single sign-on framework for GNOME
+
+%CSIZE%
+372037
+
+%ISIZE%
+1685803
+
+%SHA256SUM%
+54bc15ba7770e6d9904125b375697d95a16c06eb09ffce458b6730b2a14e56c4
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZoCBjgAKCRC4rAhgDxCM3yltAQCWN1Nvk4kS2rCD9WXI1MPtvylUHNn1TIntFGB79QUqzgEArAXXi8hiOChcar8yvIra2WlUK4TEGn4w6yXMJ/wK7As=
+
+%URL%
+https://wiki.gnome.org/Projects/GnomeOnlineAccounts
+
+%LICENSE%
+LGPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1719697717
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%PROVIDES%
+libgoa-backend-1.0.so=2-64
+
+%DEPENDS%
+dbus
+dconf
+gcc-libs
+gcr-4
+glib2
+glibc
+gtk4
+hicolor-icon-theme
+json-glib
+krb5
+libadwaita
+librest
+libsecret
+libsoup3
+libxml2
+libgoa=3.50.3-1
+
+%OPTDEPENDS%
+epiphany: (or another modern browser): OAuth authentication
+gvfs-goa: Virtual file systems, e.g. OwnCloud
+gvfs-google: Google Drive
+gvfs-onedrive: Microsoft OneDrive
+
+%MAKEDEPENDS%
+git
+glib2-devel
+gobject-introspection
+meson
+vala
+
