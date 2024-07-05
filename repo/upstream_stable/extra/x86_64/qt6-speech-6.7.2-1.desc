@@ -1,0 +1,67 @@
+%FILENAME%
+qt6-speech-6.7.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+qt6-speech
+
+%BASE%
+qt6-speech
+
+%VERSION%
+6.7.2-1
+
+%DESC%
+Qt Speech support
+
+%GROUPS%
+qt6
+
+%CSIZE%
+126900
+
+%ISIZE%
+527832
+
+%SHA256SUM%
+fe450a462b6d7fe2e7f4d973f4966b2937757c73fdee1280765a7f382d977867
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmZ2fZIACgkQek52CV2KUuQyXwf/ebOQITQj+sFUD0L7VDgaxZzxeT+vcsGBrPDfDGgiqFIHQaJHhh+pQW48tP6wR+eHDdlcC7/kC1UjeQwKCvbDnjwnqkPHUtdUjQsDRLHt6YuD104qssV9+bMe3pMCDltmMOc8zBBdn6yeeZitQZA68qMLLUadl4J9QUvZdD8fmIFcmIpDn3pp6Pt/2Tj+UFPUxgov/OEKBgBFRV4/DL9xcj6+Zun0TlTBKvI1Ba1KA99OMwHompBJUBmiJReJXkPRhtMzPJ0xEuiJcczpYX+lQapoVlkdpPrChebXf3cvG6sUZkUEkkKOPEbfW6mrh+bxh9rfefS+yQxaMREc32LkqA==
+
+%URL%
+https://www.qt.io
+
+%LICENSE%
+GPL3
+LGPL3
+FDL
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1718727087
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+qt6-base
+qt6-multimedia
+
+%OPTDEPENDS%
+flite: flite TTS backend
+speech-dispatcher: speech-dispatcher TTS backend
+qt6-declarative: QML bindings
+
+%MAKEDEPENDS%
+cmake
+flite
+git
+ninja
+qt6-declarative
+speech-dispatcher
+
