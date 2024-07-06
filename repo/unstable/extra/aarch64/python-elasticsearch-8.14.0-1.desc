@@ -1,0 +1,72 @@
+%FILENAME%
+python-elasticsearch-8.14.0-1-any.pkg.tar.xz
+
+%NAME%
+python-elasticsearch
+
+%BASE%
+python-elasticsearch
+
+%VERSION%
+8.14.0-1
+
+%DESC%
+Official Python client for Elasticsearch
+
+%CSIZE%
+354784
+
+%ISIZE%
+9002320
+
+%MD5SUM%
+1f0af2fcd9825a1477ee57477f0d0298
+
+%SHA256SUM%
+1da05dd2e57865d0f6034e7e488c958b6e072f450c8f2859d1ac5d4b6e0f6d98
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmZ5TzMACgkQdxk/FSvb5qYaYxAAhJ3yC06zYzVK4JJUauAYYzEUuPD1Dp2qBA+trD2XgzKjLvnnzODEzWXGnYgB1h/Cl/jlmiyw1cMBZ3vd6GNU3+bGnirC/xh5zFuS2bLIlof4awA86cpq+VFl+1m1M3glxSB7+IhjXXEFkKk6JYS7V5ysL3Fm/ppi4KS9kAFt31j6lDyjhOAkeK7V6vCHSdPNoZh2qyxouniguHynbpPBaDfVbeY+yREPmiJeHvXa0clnZbzNEhpivYddXL6T0GSMNKTb0EyKbrEGpMObHddd0lVZek68bhMdZBtZZHj4ZKOEmnWfr52FR32A+N/Q301uSC9kMRBVNs9RCNmB1HB9g0rovWMo6DHVgn2jmljjCGHfgGfGLsTy9C7Zd59WlDgedsM0gIfvVisEnsKUnYEY00szSrDz5PbWgFUMYnGStt95RCVdp1Qeb9Xi6cgqxhaxTOuzXx7jtsoz7jccXS2iTqRorO4uTpKctUDom+R+ep1DXoqnGGjP91GluESRHSIOYtPaEhbcJZ3zIIyJRBTM/i6c9UsZI557fi8098+QgTDWGcKUvn/AyTMmeGQEgq/rkSq3/odLGQBZaFY34bmQ7qjXrreh061S61Og3LBwsMT8At1PdK27Ja6CbY0bCDIYQUWC3z5shkrifDSapUIf5L0/G1GxfkDqqjzOhdyJhJk=
+
+%URL%
+https://github.com/elastic/elasticsearch-py
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1719226140
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-elastic-transport
+
+%OPTDEPENDS%
+python-aiohttp: support for asynchronous requests
+python-numpy: support for Maximal Marginal Relevance (MMR) for search results
+python-orjson: support for faster JSON serialization
+python-requests: support for synchronous requests
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-aiohttp
+python-dateutil
+python-numpy
+python-orjson
+python-pandas
+python-pytest
+python-pytest-asyncio
+python-requests
+python-yaml
+

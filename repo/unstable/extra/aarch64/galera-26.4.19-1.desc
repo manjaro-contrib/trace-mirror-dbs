@@ -1,0 +1,61 @@
+%FILENAME%
+galera-26.4.19-1-aarch64.pkg.tar.xz
+
+%NAME%
+galera
+
+%BASE%
+galera
+
+%VERSION%
+26.4.19-1
+
+%DESC%
+write set replication (WSREP) provider for MariaDB cluster
+
+%CSIZE%
+1114288
+
+%ISIZE%
+5568742
+
+%MD5SUM%
+a1da9b7f8dc232b891a96f31d4e3314b
+
+%SHA256SUM%
+6a1d3eced2c247193ec93d56d24f55fb3ac489efa757efe9fc74e82c5a33d60b
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmaFv+sACgkQdxk/FSvb5qYY6BAAlt/acZ5C5mFY9Hq8qcAbKFyDVMRc0Gs+bTQV67/vj3kF9ZtZQ2TO9C760l0TaJ7b98KaWPqaA9NPzZzaE7RYqTvvCNeWteRpRvYgSfJvKbONLGHcAX0F12mZcoL+kl8Z8r+rLDeAwzx4Ew7yH+srkIxg3DmCBFvHDSFUW59Yjkbfyr2hmG3dP3VdUSmWru1zwH9u1Tf/VH8kEDDd7PEmEN9sZkDlYQAce3wsLeYIOZ0/hvORqudlkEYryGKRUUFEoSy5Lt+24VE8719nGDjoY2fAw57cvzy8oosJr/dOvbKALOFPksG7Rc5wXfJEKz1bxxTgKJt0t+c7dMQLXuPgAQgY/eBrrSiKS9/OG6E9TgcoQlvJh+Jcsa520xUCjFsS+N/rVd+qWVu7Uv68EwgOZj+HtF2zBgApVY8BqgmLUiDUDW+AXl3dnkAbY0/5tbby4FUdzNP0qn6auULzOImX7PfN5fMLc1PkfaneyrV8ngUowniNLprP7EN+MI/3+c1vgY1PK41M52A8SbPe0O+dD3Lp/8RklLNiLWMSqMqodJtP4lqwAbje6tcSp49r4Ra8+Mm3R03qhF/15zj8V2HmUAc0aC9U63weLaw3PbYDgtKlyPNwOvKfrhclbmWCyjUmbxntgkC4slYOzt51+L4wmzJLuSUTR3oZcvh9FRW2WSc=
+
+%URL%
+https://galeracluster.com/
+
+%LICENSE%
+GPL2
+custom:OpenSSL Linking Exception
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1720041312
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+boost-libs
+mariadb-server
+openssl
+
+%OPTDEPENDS%
+rsync: State Snapshot Transfers with rsync
+socat: State Snapshot Transfers with mariabackup
+
+%MAKEDEPENDS%
+git
+boost
+check
+cmake
+
