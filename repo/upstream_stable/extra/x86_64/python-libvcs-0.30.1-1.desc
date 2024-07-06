@@ -1,0 +1,63 @@
+%FILENAME%
+python-libvcs-0.30.1-1-any.pkg.tar.zst
+
+%NAME%
+python-libvcs
+
+%BASE%
+python-libvcs
+
+%VERSION%
+0.30.1-1
+
+%DESC%
+Lite, typed, pythonic utilities for git, svn, mercurial, etc
+
+%CSIZE%
+156935
+
+%ISIZE%
+1110181
+
+%SHA256SUM%
+4697599fa583b152995778efc84833c3d9b289b18ae3d6eb9c1bc4952b554986
+
+%PGPSIG%
+iQIzBAABCAAdFiEElnTU7T37atzE+fHqHHNq75ZALnwFAmZ4aVEACgkQHHNq75ZALnw3pRAAr+Upv3molPtWY3mvUCbCKO+6ZQ6KDWxOmg4CEKdCYLILze/c3U8TwMeDz08W2tZegxNO5Iu1KeWPo5BVSaBZ8j82eSpX0bZhdxiTD39NNUsOqAELnkAm8SngUp+WbctIrL6VbZixm5x0u63TUsaLONo6UFrkB9693e9UEWp77g3jvLTJuf1uHBLSinuBO7ZvIJxbq4s8R16HAWcMzs6b/YNnu4wDRgLjSfLZahH/EveUJAY9z4x5GKOKKmo2/GhQgvbQncgEeFkbwHnmBKlGjSRvQGNZXeasn6KQWnrZ5mlJmpEHpsQ8j72xeyp8oGHYeIdowzFAY/jtzXDSjkg4KKyQWsdBYbHDkoCRt7MOcKqIGgBffSWc9xnXxxY20TmHn+I4isweaYwfxaMErCr0hoLSmh5hEMtgmueGCD4K/vpfD5DNSn/w4y97Kv7YPFgph9OFIR6l8OLNcoiBD0S+w5eJ+gOvLi+BzDmdnT2lanNyk7ftj4Co3z+F3f9ImMj8u6aXOavLICxMZOJN/JxA7u/2K5p3ChEKkioDN3RGjR5XHpi86iO9X8LhrPGeCMXOGkgI6XHpPdQFQCrHhRhogoe7/kt8Q4wpBapxa9c2aQBj5n0CCvc948rIjhsE6NKN+m59eVkCJ4L6UIuXlmGVE08kLnMy0v2k0Jzx+Y2ItKY=
+
+%URL%
+https://libvcs.git-pull.com/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1719167261
+
+%PACKAGER%
+Andreas Schleifer <segaja@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+git: for git repository support
+mercurial: for mercurial repository support
+subversion: for subversion repository support
+python-pytest: for pytest plugin
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-poetry-core
+
+%CHECKDEPENDS%
+git
+mercurial
+python-pytest
+python-pytest-mock
+subversion
+

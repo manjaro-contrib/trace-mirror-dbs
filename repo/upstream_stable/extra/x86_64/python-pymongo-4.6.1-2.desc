@@ -1,0 +1,59 @@
+%FILENAME%
+python-pymongo-4.6.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-pymongo
+
+%BASE%
+python-pymongo
+
+%VERSION%
+4.6.1-2
+
+%DESC%
+Python module for using MongoDB
+
+%CSIZE%
+692665
+
+%ISIZE%
+4932264
+
+%SHA256SUM%
+6e06157bb616e9fdea63276139a4b220dce6fcb16d6aceb7df640a6f2d269a42
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYP/nEACgkQwGCGM3xQdz7x5Af+K7Ig5ebN4mV7KVZarpwVOk7h4eVlgxnQdpjhZjmh0V04vSao7kVi6diu0uciVXDcxNGENziAtHOFy9uP5Cd0NJJ3M5m5gObTd2vrdLU18vJ7AIx9S+VGlj3zXzPV2YwmLIUdT/r7CZCZoCn0GfDuiiPUhN+E7VcnRE0hg9M07hS7PvMPRMRuRZ/Ay25SGkhGT+m8y6/JHqizyq9eZQvvHfTjmesDzkexR3armOKJzH47pXXHnWaVPuL3EjCiCJxQQkQ1cElhQY3tNSUuh9nd28HT3ujJWjGNsDelI///PyCdJfJr3Os1Yo/ErP5TOcmqvUnyqOjcKyomqFSAfg3/Hw==
+
+%URL%
+https://pypi.python.org/pypi/pymongo/
+
+%LICENSE%
+Apache
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712324187
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-pyopenssl: for [ocsp]
+python-requests: for [ocsp]
+python-service-identity: for [ocsp]
+python-snappy: for [snappy]
+python-zstandard: for [zstd]
+python-dnspython: for [srv]
+
+%MAKEDEPENDS%
+python-setuptools
+python-build
+python-installer
+python-wheel
+
