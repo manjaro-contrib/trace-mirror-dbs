@@ -1,0 +1,61 @@
+%FILENAME%
+libvdpau-1.5-3-aarch64.pkg.tar.xz
+
+%NAME%
+libvdpau
+
+%BASE%
+libvdpau
+
+%VERSION%
+1.5-3
+
+%DESC%
+Nvidia VDPAU library
+
+%CSIZE%
+59300
+
+%ISIZE%
+348429
+
+%MD5SUM%
+7c411c0f95ab42959f45aa104782d254
+
+%SHA256SUM%
+53eb3b6bca3d973df2d8dad102f52bb520a97f4d2f54b9338fb0d9e1e3568e87
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmaJfr8ACgkQdxk/FSvb5qYCwQ//VrQCstZ7UK8GdObuyaERrE/lQ0P6wLoAN7ie8sfI1jZB164rGIKImSKQjYf0Hj6ZrhTpPyGSjGnR81/Bj+6uAhuziVCb1jdRzNGf/pQA6MLo3r/jcXgPcUaDQRPJCqnp1DGYGnhkXqFZtGJGx0GNppqTQVMXQLbTuEKtgB6sdyvn3lpNlhP/cQJH6JixNlwSPL1sgbRm1IJlc1IdB4M1PsCkZs8pFrkcJcSeeM6DUdm3OYwzECuZD2dQvwAhnH458N786+PPWstT4VDTw04oBJl8471UfpcguxRjV/HXb5YdNEBeEsntVB7EmeHLoTsL6sxqntOGbbDSwqM4bS9ws1bYNSHcFJ7BRiWZorg5yFqrwb+hO1zcMcutYn6Fs5VfX47EozPE3HOXzPhFObdLkpzqj9jt23hHnoi8sjkpDBPJ/UjuyP425uMzECccsV1uT2hVM1gSON8i4hlQbeDpsyv6VnezwVnBacghT/nkFppHxRPu54KrXyWM4t1tYqtHxiDbFoLPnWcMAhf8cFTT7g9zhh4zIDO6c3cg25w6UkyDEkEsdSPLI1qR4qBAk8AONy5wYzgz7Z3zZrxhzD0Kv6zV9O2qtEhDvMK0lMpiCkS4lSImJfUJeUw5+qfN8ZPbGXi3GaLeB35Mpdf1pGfWKcgtoA5HnrOj8ju29mln5I8=
+
+%URL%
+https://www.freedesktop.org/wiki/Software/VDPAU/
+
+%LICENSE%
+custom
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1720286897
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+libvdpau.so=1-64
+
+%DEPENDS%
+libxext
+
+%OPTDEPENDS%
+libvdpau-va-gl: driver using VAAPI
+mesa-vdpau: driver for Mesa
+nvidia-utils: driver for NVIDIA
+
+%MAKEDEPENDS%
+git
+meson
+xorgproto
+

@@ -1,0 +1,67 @@
+%FILENAME%
+forgejo-7.0.5-1-aarch64.pkg.tar.xz
+
+%NAME%
+forgejo
+
+%BASE%
+forgejo
+
+%VERSION%
+7.0.5-1
+
+%DESC%
+A lightweight software forge
+
+%CSIZE%
+32367844
+
+%ISIZE%
+117823199
+
+%MD5SUM%
+670b7b48aed7b78ee18fa2935454eb90
+
+%SHA256SUM%
+5cf068da5cd2090448c83d984e7d700e62ed4312980df69209b08e8d4f1d1d0e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmaJG1EACgkQdxk/FSvb5qaQPg//VitrEvDoLh4DvXVNLdMSqOIgoqKZe8/fkFiXK3N9quFGq0q3T4MzzwiBnp4bF+mKlBmomcZ1WvIVLmze3pgCtx1MPZFlYTWK0MWZbl7aA0SBuWNm3AAHHnB90x1zIG07v8H70ceSf+Is9BexuLfdpGgr95sYaK1noWoZ3dXMYjWFWunEMR1WWd9OVPoUBPwNj+M8A8RoPnpoDdU5qNoqMls822mFL1ouiinT9K2IVAut4+PJorX0IUOChXW0HuqFdrsVwM+1gRTfs+Xl2YV+HDn0I1p3vk9pmrDFKLAfX4BnCzp/j7cYw9jODJocfMhI4PqkR7+vDr+LEluHc1bamwj/nQnBxCYXtx3aNECQZeAKhOl70tii85KlPISwP+2z5xJicgKIvSH0r4kO180/ZwLmQdcoXF9U8Ux4GF5Z/6R9bKQt+LJggCm4bI68aiXCo7nx30jY7Ex6X8kl0tC/vTsyQU8hSohPZA38jaiRyRx6ju2L4J4UTVVPUZIDGlkp2gLCMhr9NCc4RpVE3NH2S0kBd/6RfRFlrt1ouKZpqvfTp39rRnku0KqWtOEJGEQOu8wUwqtO+EEjMfFTiNtQXs5qslvqvHXkYg3SZhw662VQyiiZ8sjkKlWjkAWbWK2KzRYCmRR0Lzmnm/pRAuVUnPBtAg6ytLgFQ+W0bmKPPd4=
+
+%URL%
+https://forgejo.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1720261069
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+glibc
+git
+
+%OPTDEPENDS%
+mariadb: MariaDB support
+memcached: MemCached support
+openssh: GIT over SSH support
+pam: Authentication via PAM support
+postgresql: PostgreSQL support
+redis: Redis support
+sqlite: SQLite support
+
+%MAKEDEPENDS%
+go
+nodejs
+npm
+python-poetry
+
+%CHECKDEPENDS%
+openssh
+

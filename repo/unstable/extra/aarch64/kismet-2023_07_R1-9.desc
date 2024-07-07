@@ -1,0 +1,88 @@
+%FILENAME%
+kismet-2023_07_R1-9-aarch64.pkg.tar.xz
+
+%NAME%
+kismet
+
+%BASE%
+kismet
+
+%VERSION%
+2023_07_R1-9
+
+%DESC%
+802.11 layer2 wireless network detector, sniffer, and intrusion detection system
+
+%CSIZE%
+10902808
+
+%ISIZE%
+30387657
+
+%MD5SUM%
+2a59cb2242a8563ac2c0bddfc68729be
+
+%SHA256SUM%
+426612edc17f8e838d2d1fbdc132a0a52d00d50b187becb4b00406724576b253
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmaJtkMACgkQdxk/FSvb5qZKRQ//fTzsy9qzZiivFGjgTDJFNxZfi6TRak3c12TOybMjGsWK4/VlwSzv9NYoK0qh+KJlp1lQwqZBRoKAbbxThmZNiOwHGyzwst8Y185Diqlj5yWlG93oLRVlUdvXpkHR4I4Pi1yibSLvKF/rqgcvoS//BPP41D9nLbyf3o9wLDKqkkqEhiuXE3nmI2oCGYaTEdzKnxU79sWOMJ2MOV0fsamMrTxywcN6si7Lvx9jN8fkvEDLmDTR8M/FZ8nHKZK9cwIo2EM2KY5AZK26jPLB83ZmtnRifIOPkNbcjaGIwuq7OuJk7HxEtsUwxXZs0VvVbDy8YI0hvzK3SdfC8o4mp8HikA1/x88+OQZX/6RF8gytwNF1WicxJEExHMYwAL3uHf87GVwatjoUCJkhpJXiLbb2wF2Io3n5tipwQwQ7RqviWvLWWumxUanjGXPGYg1XEZqAxY5rizcST6yKUjYh+bH7DenGU/XK5Ir/ucAFOsmGlJWoHdVW7vqxuBoifruM5hT8rUwX2DI4eEMKpwGI3jscrMAgvt65r7OD3clOLrP0KzD8lCXJ7u3MlqLerNY53qgH3+MhFzzPO1jlfNnSm1bjRTBircv51JrjZrVMak1FJVCKz18kfLheUDwo5sroyQ5S3lPiLNgI2TYxMhrj4h7m8MabplI1B76VhSHbCdv758Q=
+
+%URL%
+https://www.kismetwireless.net/
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1720300514
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+libpcap
+pcre2
+bluez-libs
+libcap
+protobuf-c
+libprotobuf-c.so=1-64
+sqlite
+libnm
+gcc-libs
+libusb
+libusb-1.0.so=0-64
+libnl
+glibc
+zlib
+libelf
+lm_sensors
+systemd
+python
+python-setuptools
+python-protobuf
+python-pyserial
+python-numpy
+python-websockets
+libwebsockets
+libcap-ng
+libpcap.so=1-64
+libprotobuf.so=27-64
+libnm.so=0-64
+libwebsockets.so=19-64
+libsensors.so=5-64
+
+%OPTDEPENDS%
+gpsd: log coordinates of detected networks
+wireshark-cli: provide OUI files used to determine device manufacturer
+wireshark-cli: mergecap, to merge multiple capture files
+sox: provide the default kismet sound playback binary
+festival: text-to-speech support
+flite: alternative/lightweight text-to-speech support
+
+%MAKEDEPENDS%
+python-setuptools
+

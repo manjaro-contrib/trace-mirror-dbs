@@ -1,0 +1,61 @@
+%FILENAME%
+stalwart-mail-0.8.4-1-aarch64.pkg.tar.xz
+
+%NAME%
+stalwart-mail
+
+%BASE%
+stalwart-mail-server
+
+%VERSION%
+0.8.4-1
+
+%DESC%
+Stalwart Mail Server
+
+%CSIZE%
+16426900
+
+%ISIZE%
+59784398
+
+%MD5SUM%
+439798c1a38a7b2d12e19fa479560148
+
+%SHA256SUM%
+bbc00c0ebaa46d020c9802f3e60d8112ed37e6f4c6dd6277751b9841a81954ac
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmaHrt4ACgkQdxk/FSvb5qakThAAgcuB94N9sPUoUaVKFKEoylWx3q6lkXmmUKnQm9J9r04nv0HalIZDLhzEieMi5uf1QGati9peBAZF9IZt61Am0PJ372Ufn9mA8O8hlq72bg9s8BDjNsUdjiXPVU+VPsA9eyo3sWrZMnJ+BC6rzeZCNpnQbT0R6udVxcrzR04AGJPgZ8HUZY+le7CO4IiOS7Xw8cfaBYh9gTtK+Hb4B5hcyoW6diARl8RtfrDjBClmtSRtsBqB233RaUXN55xKDgNx7/BsQrxwLTCYguLZlYREnRxd+X6U2GAQMg65ShiHvcAs4lM3modzYnond+Cq7iANs92iLlXNfkXD6gY1OKUXtOMUkkmHkgw16soXtFJYwRt04ZAQtAaShtdv1ZJmR8Mwu6jZtyvkottpxCMA4GytiyU35GoTm7/ZDDJgm49tZuesAFnXVXKLMEWWmiW6Aj0ugHbmtzMnWeQ9PDv5Ms+Onaw7y9PQP1xTYLC1288JO0keHN8ejsAmaX+Q74vuyg7R62RSJ9v34Aji01+KJqNmp13JW0UM2PJYDXw8gfvW+JO+/uqfGT0iN1i+oM/J/WkH34VCpGFE5CgfboaMmfiLri3YbzeC74vIfP7EsblrP4R7EDRdiNx0T+TSKT44oZvKzoqo76F9INKo6g1I3tjrBTCWuEO3yu6mHwPjonU9yqU=
+
+%URL%
+https://stalw.art/
+
+%LICENSE%
+AGPL-3.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1720164325
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+
+%OPTDEPENDS%
+mariadb: for using MariaDB as storage backend on the same host
+postgresql: for using PostgreSQL as storage backend on the same host
+redis: for using Redis as lookup storage backend on the same host
+sqlite: for using SQLite as storage backend on the same host
+stalwart-cli: for using the CLI to the mail server on the same host
+stalwart-mail-old-upgrade: for exporting data when migrating from an older version
+
+%MAKEDEPENDS%
+cargo
+clang
+
