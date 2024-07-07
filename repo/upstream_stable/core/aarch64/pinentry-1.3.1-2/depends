@@ -1,0 +1,19 @@
+%DEPENDS%
+glibc
+ncurses
+libassuan
+libsecret
+glib2
+libsecret-1.so=0-64
+libncursesw.so=6-64
+libassuan.so=0-64
+libglib-2.0.so=0-64
+
+%OPTDEPENDS%
+gcr-4: GNOME backend
+gtk3: GTK backend
+qt5-x11extras: Qt5 backend
+kwayland5: Qt5 backend
+kguiaddons: Qt6 backend
+kwindowsystem: Qt6 backend
+

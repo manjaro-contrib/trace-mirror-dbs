@@ -1,0 +1,16 @@
+%DEPENDS%
+coreutils
+iproute2
+resolvconf
+systemd>=233
+
+%OPTDEPENDS%
+dialog: for the menu based wifi assistant
+dhclient: for DHCP support (or dhcpcd)
+dhcpcd: for DHCP support (or dhclient)
+wpa_supplicant: for wireless networking support
+ifplugd: for automatic wired connections through netctl-ifplugd
+ppp: for PPP connections
+openvswitch: for Open vSwitch connections
+wireguard-tools: for WireGuard connections
+

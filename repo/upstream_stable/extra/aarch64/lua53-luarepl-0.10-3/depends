@@ -1,0 +1,12 @@
+%DEPENDS%
+bash
+lua53
+
+%PROVIDES%
+lua53-repl=0.10
+
+%OPTDEPENDS%
+rlwrap: Enable basic line editing
+lua53-filesystem: Enable filename_completion plugin
+lua53-linenoise: Enable advanced line editing, history, and tab completion
+
