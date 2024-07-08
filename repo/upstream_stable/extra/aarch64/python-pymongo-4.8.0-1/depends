@@ -1,0 +1,14 @@
+%DEPENDS%
+glibc
+python
+python-dnspython
+
+%OPTDEPENDS%
+python-cryptography: for [ocsp]
+python-pyopenssl: for [ocsp]
+python-requests: for [ocsp]
+python-service-identity: for [ocsp]
+python-pykerberos: for [gssapi]
+python-snappy: for [snappy]
+python-zstandard: for [zstd]
+
