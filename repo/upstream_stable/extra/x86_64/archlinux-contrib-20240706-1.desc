@@ -1,0 +1,52 @@
+%FILENAME%
+archlinux-contrib-20240706-1-any.pkg.tar.zst
+
+%NAME%
+archlinux-contrib
+
+%BASE%
+archlinux-contrib
+
+%VERSION%
+20240706-1
+
+%DESC%
+Collection of contrib scripts used in Arch Linux
+
+%CSIZE%
+17584
+
+%ISIZE%
+52897
+
+%SHA256SUM%
+9a617bf4761d249eba68f701a3e0724a2043b31e0cbab187f6f66ee1b6bc9c48
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmaJbe0ACgkQwGCGM3xQdz5VNgf+In+SI/rkMth0AZNZejsvDTRZTGaGD0q3pbJzicyAtraEh3jK6iWqxJQVkDUKVdF6C5eeRJC81f3sAAU6ge+Kcadd+j86H4NdaNiPzU2oaWS7nI+FrYThNXDel+z6TwIy/kFJrVv9ZZKdiuIJ7kK2pcpKOZdQHXEb4YBhFD0blXtePaKzE2Sj4b6qEgcLtMrh4Sjouekwbgnq+VMM/Q4dw24Ho6OMPQy6QBWclfUP/WY+3O/11Gd2cKndgMGG0A0082lybncAgqbfmxwHtBzb/hcLdri72pSLGTfbqcljKu2SM1oa0bnG1TrBdmA2DVECS+cW8XodSczuvAvKJEZrYg==
+
+%URL%
+https://github.com/archlinux/contrib
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1720282593
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+bash
+pyalpm
+
+%OPTDEPENDS%
+python-requests: for security tracker
+jq: for rebuild-todo
+pacman-contrib: to enable pacdiff usage in the checkservices script
+
