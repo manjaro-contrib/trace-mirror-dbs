@@ -1,0 +1,13 @@
+%DEPENDS%
+glibc
+alsa-lib
+libasound.so=2-64
+dbus
+libdbus-1.so=3-64
+jack
+libjack.so=0-64
+
+%OPTDEPENDS%
+bash: for a2j
+python-dbus: for a2j and a2j_control
+
