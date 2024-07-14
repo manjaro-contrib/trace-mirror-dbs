@@ -1,0 +1,63 @@
+%FILENAME%
+ripgrep-all-0.10.6-3-x86_64.pkg.tar.zst
+
+%NAME%
+ripgrep-all
+
+%BASE%
+ripgrep-all
+
+%VERSION%
+0.10.6-3
+
+%DESC%
+rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.
+
+%CSIZE%
+3495743
+
+%ISIZE%
+19098240
+
+%MD5SUM%
+75ea4a5af8d8a856a6cd1681f17dd33c
+
+%SHA256SUM%
+590291a64e7c73794a8a63c4bb464a7e113349f5edc19a898dea468b642fdfc0
+
+%PGPSIG%
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCZcKSEl8UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCuphAQC6Ao0OkKteqGZ+TR4d1ZrpvhBw7iR5bunUTa5CIBeeYgD6AiWczMzO9cVe69YexSEWJDwfcx4+JO66RQDhuQlBqgQ=
+
+%URL%
+https://github.com/phiresky/ripgrep-all
+
+%LICENSE%
+AGPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1707250036
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%DEPENDS%
+ripgrep
+xz
+
+%OPTDEPENDS%
+ffmpeg: for the ffmpeg adapter
+graphicsmagick: for the pdfpages adapter
+pandoc: for the pandoc adapter
+poppler: for the poppler adapter
+tesseract: for the tesseract adapter
+
+%MAKEDEPENDS%
+cargo
+
+%CHECKDEPENDS%
+pandoc
+poppler
+

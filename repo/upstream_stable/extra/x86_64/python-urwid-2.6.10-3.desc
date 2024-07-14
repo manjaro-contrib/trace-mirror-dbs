@@ -1,0 +1,72 @@
+%FILENAME%
+python-urwid-2.6.10-3-x86_64.pkg.tar.zst
+
+%NAME%
+python-urwid
+
+%BASE%
+python-urwid
+
+%VERSION%
+2.6.10-3
+
+%DESC%
+Curses-based user interface library
+
+%CSIZE%
+527878
+
+%ISIZE%
+3596221
+
+%SHA256SUM%
+73f4724b0613c392156e0d2b2b98ad4a5fe8d2eb2d6e6ad111eda361012a55bb
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmY0mVYACgkQwGCGM3xQdz5SSAgAlaL4WJ7YXpHs8T+1y9D2JMaUPwCQrUXzoX65954foI2hqExfDtcl/XVrXGEsUbjC2CDsIJg3hAOGIrLRr5JbzE3guWwiBxeYfC9has2f1C46oOS739v3LQMLRARgVO/4ZH3ohyHEd1jG7g4JASeXFertEIx9mCqPgMRN2DSsizi2WXCH9kPot+sELX2T5KZME0cqnkskg1j5UWx79KOOq5Js/KGzvKOUe0Lyegzo3XzZKCiBuQY9+o2ahapOK+nuS92Wnth9AJUm5Hg1VkdITlITGtLH/sqLqEDxqS7IcnqRM/WVDbm8lDwpLGXqsH70J30mMLcLlSt/uXdUKiLf4A==
+
+%URL%
+https://urwid.org/
+
+%LICENSE%
+LGPL-2.1-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1714723106
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+python-typing_extensions
+python-wcwidth
+
+%OPTDEPENDS%
+python-gobject: for gobject integration
+python-pyserial: for LCD and serial integration
+python-pyzmq: for zmq integration
+python-tornado: for tornado integration
+python-trio: for trio integration
+python-twisted: for twisted integration
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-cov
+python-twisted
+python-tornado
+python-trio
+python-pyzmq
+python-gobject
+
