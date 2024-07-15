@@ -1,5 +1,5 @@
 %FILENAME%
-lib32-glib-networking-1:2.80.0-1-x86_64.pkg.tar.zst
+lib32-glib-networking-1:2.80.0-2-x86_64.pkg.tar.zst
 
 %NAME%
 lib32-glib-networking
@@ -8,25 +8,25 @@ lib32-glib-networking
 lib32-glib-networking
 
 %VERSION%
-1:2.80.0-1
+1:2.80.0-2
 
 %DESC%
 Network extensions for GLib (32-bit)
 
 %CSIZE%
-54369
+48141
 
 %ISIZE%
-167816
+147420
 
 %MD5SUM%
-7d2fc7050727ff566fabc9ea5ab6e896
+cf0dc7ade9a16c8ca8f3b0653307e400
 
 %SHA256SUM%
-b0dec25e2374b08241c8929294d33c44b366d3bcd6ac08612b8da341549e1d79
+eff19ba8fb5082c4f0d8932cc2db3fe4027c2e847ef4184b2abb56ed1999a94f
 
 %PGPSIG%
-iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZftubQAKCRC4rAhgDxCM31esAP9yDZDm3D7K9J0Ih7PzOG9nubBFnoQl2cdh+fmoM2JbNgD/QwRPvepxC9ouOn8OBk9q98VnnVFrAgpnF7SSkhLlYQA=
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZpT64gAKCRC4rAhgDxCM35gbAPwKrz5VDx30fqectuN5liQo7BVcJkmnqeOWj8lOq5HS6QD/WAu8HtU/B4t6C0sLYbux8FlsO3YauhjG5N4v7P/wJQA=
 
 %URL%
 https://gitlab.gnome.org/GNOME/glib-networking
@@ -38,7 +38,7 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1710976503
+1721039476
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
@@ -50,8 +50,12 @@ lib32-glibc
 lib32-gnutls
 lib32-libproxy
 
+%OPTDEPENDS%
+gsettings-desktop-schemas: GNOME integration
+
 %MAKEDEPENDS%
 git
+gsettings-desktop-schemas
 meson
 
 %CHECKDEPENDS%
