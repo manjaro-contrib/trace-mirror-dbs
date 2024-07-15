@@ -1,0 +1,25 @@
+%DEPENDS%
+gcc-libs
+glibc
+glib2
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+jack
+libjack.so=0-64
+lilv
+liblilv-0.so=0-64
+serd
+libserd-0.so=0-64
+sratom
+libsratom-0.so=0-64
+suil
+libsuil-0.so=0-64
+
+%PROVIDES%
+lv2-host
+
+%OPTDEPENDS%
+qt5-base: for jalv.qt5
+gtk2: for jalv.gtk
+gtk3: for jalv.gtk3
+

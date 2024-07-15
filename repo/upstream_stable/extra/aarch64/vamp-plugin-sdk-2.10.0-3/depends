@@ -1,0 +1,11 @@
+%DEPENDS%
+gcc-libs
+glibc
+
+%PROVIDES%
+libvamp-hostsdk.so=3-64
+libvamp-sdk.so=2-64
+
+%OPTDEPENDS%
+libsndfile: for vamp-simple-host
+
