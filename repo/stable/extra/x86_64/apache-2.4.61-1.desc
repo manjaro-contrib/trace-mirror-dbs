@@ -1,0 +1,83 @@
+%FILENAME%
+apache-2.4.61-1-x86_64.pkg.tar.zst
+
+%NAME%
+apache
+
+%BASE%
+apache
+
+%VERSION%
+2.4.61-1
+
+%DESC%
+A high performance Unix-based HTTP server
+
+%CSIZE%
+1740674
+
+%ISIZE%
+6692249
+
+%MD5SUM%
+2ebba46d79c9da14c0fccd2b0062f69f
+
+%SHA256SUM%
+b1046f47edfa7e18d1f2ed532bd323865f3c6b1c1bf2be1e7b5fc99e6883b769
+
+%PGPSIG%
+iQIzBAABCAAdFiEEjhmSFnRl21+wRVV8sChU7XU+Dx8FAmaF6GIACgkQsChU7XU+Dx9n8hAAkwBTyV27jO+9JC65Mo9+QcbxrvySw6hIGwOzVaJC0CM6BwQTcN92oidAo+Me1xMnPY4DxZKygBC+YUG10/k7teZdGiOQXtPt5YaWDkjKNN8FNNTqqQyJDJfFy38dY1k6Th2Xj9hqMOT4I1ShE5e06pX8S00NgZvz8xNPoJKEXLvjg/f85FgIcjIPZsv6Funegr6mJ7OB4U6eXGlLSGOr/ka1V6mdVHSPhtt+cR5Dmd1QdnKZ2r8Rgk1I5MSwMNgrHVd+uLMkulhYXkOEwfGb3cJBE9Xzw29bVFN16cyDummZM0GCPWH5z2xoS5FP1bZbPtvvZpMF/VUwyusPMw2Y4e/XzR6UWB/48ROmcT39PgapXsOmnw5ArJN1f8kotctqWC5+22+lvubMnB8tpJYdBKz6qhWKN/FH7471VdnqncNG8JjWNK/vLidR6mHKNoccINunQyFTsWKJ+trGAyNSI92gbcPuIZHoSIl3tZi0CusFZr53eEteKtJDB6NwZWLyFqLugkLICdqcxhvTw1SfpItreNIko6Npti7bewjr3vs9rM7Jj1Y1ZoDZBTgxgBvDpEUo73AcR0NrJc5W4nhOiDvq9TAJMyNevK7EfU+h+GXN2WEbPDA1MHvczwpsB9tz6YvUfilw88gfcXrIVGKuyZPaubry9NMNKz9lkO4akbs=
+
+%URL%
+https://www.apache.org/dist/httpd
+
+%LICENSE%
+APACHE
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1720051596
+
+%PACKAGER%
+Anatol Pomozov <anatolik@archlinux.org>
+
+%REPLACES%
+mod_proxy_uwsgi
+
+%CONFLICTS%
+mod_proxy_uwsgi
+
+%PROVIDES%
+mod_proxy_uwsgi
+
+%DEPENDS%
+zlib
+apr-util
+pcre2
+libnghttp2
+openssl
+libxcrypt
+
+%OPTDEPENDS%
+lua: for mod_lua module
+libxml2: for mod_proxy_html, mod_xml2enc modules
+curl: for mod_md module
+jansson: for mod_md module
+brotli: for mod_brotli module
+uwsgi: for mod_proxy_uwsgi module
+lynx: apachectl status
+perl: for apxs and dbmmanage
+systemd-libs: for mod_systemd module
+logrotate: for rotating logs
+
+%MAKEDEPENDS%
+libxml2
+lua
+curl
+brotli
+jansson
+db
+systemd
+

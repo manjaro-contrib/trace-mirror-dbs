@@ -1,0 +1,67 @@
+%FILENAME%
+knot-resolver-5.7.3-2-x86_64.pkg.tar.zst
+
+%NAME%
+knot-resolver
+
+%BASE%
+knot-resolver
+
+%VERSION%
+5.7.3-2
+
+%DESC%
+Caching DNSSEC-validating DNS resolver
+
+%CSIZE%
+633696
+
+%ISIZE%
+2194434
+
+%MD5SUM%
+74346cf896962464ec4947fe32c44b50
+
+%SHA256SUM%
+bca799acf80f8763bf3710f456db542e0a9ecd91d8b9f155d5607973a9334069
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmZvN3EACgkQek52CV2KUuShswgAp/mWDLbPRZLac3x0FIs8OADGMNkXxCkkNY5iYsti82k6PW44EBIUIbbmvz2aFKSsPZnqavgbislLMjje/ZUSvcu2OMANk0510BO0uGC53WhdGDedaGMc+n3k6KohFCn36WMMfxqVAXXvavPK2Edqvp5ItvfVBwS8hp9I2X0nLsBBFd0zrXSWaRqkVBQ6lg/gEE/2Ek4WH36e2gTnrL6BkduEGKQF85AdIzj5/iTjIN7jIEkxjsR/7kywFeTHgU0Hc0ZUOdBgxMdXCN6zsVWv8DdxuAiPXoL7guURf+oABXDSH2Wrpysf1UmlWMU6p1Ca/5eds7gUTO6lDjCfP8oZ6g==
+
+%URL%
+https://www.knot-resolver.cz/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1718564689
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+dnssec-anchors
+gnutls
+knot
+libedit
+libuv
+lmdb
+luajit
+libcap-ng
+libnghttp2
+systemd-libs
+
+%OPTDEPENDS%
+lua51-basexx: experimental_dot_auth module
+lua51-cqueues: http and dns64 module, policy.rpz() function
+lua51-http: http and prefill modules, trust_anchors bootstrap
+lua51-psl: policy.slice_randomize_psl() function
+
+%MAKEDEPENDS%
+cmocka
+meson
+
