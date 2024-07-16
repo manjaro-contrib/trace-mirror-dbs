@@ -1,0 +1,89 @@
+%FILENAME%
+molecule-24.7.0-1-any.pkg.tar.xz
+
+%NAME%
+molecule
+
+%BASE%
+molecule
+
+%VERSION%
+24.7.0-1
+
+%DESC%
+Aids in the development and testing of Ansible roles
+
+%CSIZE%
+132508
+
+%ISIZE%
+881352
+
+%MD5SUM%
+5f562154c2bd5dbf587baf84b85c08b3
+
+%SHA256SUM%
+d97426b7f154dfab743e8ed5b18b5445d72b1a226968c821fce1ee925a6b280b
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmaP1EoACgkQdxk/FSvb5qamWA/+IjUfQOTRNXjnTKUH/Vwfq5wE3rR6nQ4t6tR+4hZ8UF8fFCRNh/TcQ94v1bbB2TEG3ZjhnHrPnV0dKwfEmKLEkr5SCRdW4kyKMrDevFnGrJaIP3zWGuqFf3tsnKG18NKJS+mzubOkDCPQI+HsKAKsde2uBUgOVzk6BEAzOr1wgWI+KM1Pxa6+TMJ8I8aAdvBH3b8j6EYhE45HhBNLlMPJ34CsGERkb1fabElmpOGkMsm2G26h6v8W/j2MdFLRDyKnZbPVkYeiH5fenj5ifQS5H7eZim9j7oJx/3XnoGKfVsdk0NCAM5qhlUECrD4yEwE211NOt5KGNFR9OuoNRq1dn5lM372aEbXmvcCSdyQpodMRRAfex3r38BpwKitulRreETfb0UzQd2Gb2EVrH6jAj2Vg89ros4r8eIcX9ObSnF5AIufofHJu31SpUV9yS6jiJp4nVeILZIN7H0BCasaBwTBd83XfiDc9wXmIyIN5wuUSbdKJtfi7PZHeg/Kr/JRmuuF9app8YlIlZ4dZwOcDVtwxT4AqvM2FNScXromsy5RfN/74LTnsUnuT5/JtVt1BR5fuaV5j72K/vE3PL4X5C9aYYjZzsHrOCB2V609BtLoQFHslsKBEPEaCvt3ANJirvZxCEijxQq4rWJG9DICOnZ41Ex5saXLlrUlBK6rNl5I=
+
+%URL%
+https://github.com/ansible-community/molecule
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1720702010
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-ansible-compat
+python-click
+python-click-help-colors
+python-cookiecutter
+python-enrich
+python-jinja
+python-jsonschema
+python-packaging
+python-pluggy
+python-pyyaml
+python-rich
+python-wcmatch
+
+%OPTDEPENDS%
+ansible: for the ansible verifier
+molecule-docker: for the docker driver
+molecule-podman: for the podman driver
+molecule-vagrant: for the vagrant driver
+python-pywinrm: for Windows support
+python-pytest-testinfra: for the testinfra verifier
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+git
+
+%CHECKDEPENDS%
+ansible
+check-jsonschema
+python-ansi2html
+python-filelock
+python-pexpect
+python-pytest
+python-pytest-mock
+python-pytest-testinfra
+python-pytest-xdist
+python-regress
+yamllint
+

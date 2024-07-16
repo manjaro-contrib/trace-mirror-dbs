@@ -1,0 +1,57 @@
+%FILENAME%
+postgrey-1.37-6-any.pkg.tar.xz
+
+%NAME%
+postgrey
+
+%BASE%
+postgrey
+
+%VERSION%
+1.37-6
+
+%DESC%
+a Postfix policy server implementing greylisting
+
+%CSIZE%
+23892
+
+%ISIZE%
+73740
+
+%MD5SUM%
+e72574df2c8e7aba078479c2c76b8aab
+
+%SHA256SUM%
+af301075b69812b275b703ef98dfaf5859a80fd92615814b6f8c7ed4ea5ba1f6
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmaTBnkACgkQdxk/FSvb5qauhA/+LKLNVlC30y2PAKflrkaRKlgOlSFqEb55PJIjOwdRq8w6hJONBg5uhztWjuVWQIEY5EWl15wt8tXFUZdhPZX37MLiEcatDn8e7e0BV6QO3r7cloamObPAZQQ0wwyp2xS+ZvCCl+z3PWlA5UC19vzoWE0HdsxdzLIBmVBaq7pdKjzjIUjjAiS2KyvMUE6L1gjmSiGMOO4ljJSSx7bJqSLYZajE0ZYw3OE1avt28rso1UtHqL+C4WzZ8QOcRv7Yv8/a1FyoRDtinl7U5HSI0O0Nyl9hKKp9iu8i+Lu6AqshQwtTimGfW+3g0hiBW0f0kkHzSmSL5fbqtfmkw1w+ajTnNox/iRoMS7vj01VAnZhBwqAkrWElmGf6G7qwABxeuKJbicl2cRG/yeJIJ28CknlniSmUEDxHFMFWleZYq2UhzrzOlSO5WRdVOnkKtBP+FglSty2EbauqAPvuTrWPKRROVGTyRrWOMYKwUtb9vB45AbxrYRXxna+37OT6YCbElBmQbz5hkbODwzM+1UouVOjNct7lIFqiyIXG1Ana5pVMQ9VDaHASN4A9L3wk8DNsgytB/88KvW8R03hJqtwr8nkrh5W1KY9BMIdAhYp5PC+0v7HSo/sYEBuclvbwf/NzzkH/ubtLhl4i+Iu/MZn94eDerfA7mCavyjFUljWqamNYufY=
+
+%URL%
+https://postgrey.schweikert.ch/
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1720911475
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+perl
+perl-berkeleydb
+perl-io-multiplex
+perl-net-server
+perl-netaddr-ip
+
+%OPTDEPENDS%
+postfix: the recommended MTA for use with postgrey
+exim: an alternative MTA
+perl-net-dns: for postgreyreport tool
+

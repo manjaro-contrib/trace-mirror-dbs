@@ -1,0 +1,111 @@
+%FILENAME%
+qtile-0.26.0-3-aarch64.pkg.tar.xz
+
+%NAME%
+qtile
+
+%BASE%
+qtile
+
+%VERSION%
+0.26.0-3
+
+%DESC%
+A full-featured, pure-Python tiling window manager
+
+%CSIZE%
+908388
+
+%ISIZE%
+6379403
+
+%MD5SUM%
+3cc4eb127b320109a449c6fe67dffef0
+
+%SHA256SUM%
+8f7a953f5edfd9405ca68c579bad3db60570d6b0f99a4d2f9936bd125b175c91
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmaUejEACgkQdxk/FSvb5qYJgw/9FhHK61frQmU2P5eiX2XtlH/PVX7wxDE8kxEKWBMYUPl5LI0BX3eE13GECpgTklucPC9UXMD7RCSkmbG9ZNRZ16Es9I5oSC/HwvOfgGiTTblQJeTV6ZaTfpgUDWcrqbaM9wf4WwY2OwbIjXmYjqOLrpQDWbPRnQzYOF9+58X8XSLDlJbv4Aa4X7zOw3zBrLBwraJxcKxtLVzjgkgbbdIOZMCQoY00Rdw8NGFOypJIWjyxHAe5oEaD2J+pH9iV8vl7bsnhFb8A0vLpx1DQcFtkhX0TCh4ffpsYswEpyHsQTxL+KlxgdIaZqJQ+0jHCcvisvK6KfzwRUU3vIYp6yJLz7/0tkhyTId+EKeovgntlr/AhOJ5kyuc2CKuA4qcXE0U/1SAmBsTKoXObQKKAuHrPQQJiBBrcPUYvKzknPmEW1s8IRizQc84AX+rQyFuw4vsDXIdxUOVfvHaj+Ys+VJgekUGGjw+KkHPsopd5t4S0h7SlaQJO6lmvXHDlroS2DsDkI9DS4kJBck0Zo/AOn8HxtTxs4w8hbdf+tT2q2krrMnIZLAb23UYujtrtjASVzhSz2GzcWrxHLJeGKpF4NrSla8Whc82TflzpqcXiyDzJIxXLzPqt52q/UPe+qgm2TPU4ZUPciGT4CjjvjofZKQ+k0W31/j1jM/UOLi+fattjLGo=
+
+%URL%
+http://www.qtile.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1721006583
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+gdk-pixbuf2
+glibc
+libnotify
+librsvg
+pango
+python
+python-cairocffi
+python-cffi
+python-gobject
+python-xcffib
+wlroots0.17
+libwlroots.so=12
+
+%OPTDEPENDS%
+alsa-utils: for volume widget
+canto-daemon: for canto widget
+cmus: for cmus widget
+jupyter_console: for interaction with qtile via Jupyter
+khal: for khal_calendar widget
+libinput: for Wayland backend
+libpulse: for pulse_volume and pulseaudio_ffi widget
+lm_sensors: for sensors widget
+moc: for moc widget
+python-bowler: for migrating configuration files
+python-dbus-next: for utils, notifications and several widgets
+python-iwlib: for wlan widget
+python-keyring: for imapwidget widget
+python-libcst: for migrations
+python-mpd2: mpd2widget widget
+python-psutil: graph, net and memory widget
+python-pywayland: for Wayland backend
+python-pywlroots: for Wayland backend
+python-setproctitle: change process name to qtile
+python-xdg: launchbar widget
+python-xkbcommon: for Wayland backend
+xorg-xwayland: for XWayland support
+
+%MAKEDEPENDS%
+git
+libpulse
+python-build
+python-installer
+python-pywlroots
+python-setuptools-scm
+python-wheel
+wlroots0.17
+
+%CHECKDEPENDS%
+graphviz
+gtk3
+imagemagick
+lm_sensors
+procps-ng
+python-bowler
+python-dbus-next
+python-gobject
+python-isort
+python-libcst
+python-pytest
+python-xdg
+xorg-server-xephyr
+xorg-server-xvfb
+xorg-xrandr
+xorg-xwayland
+
