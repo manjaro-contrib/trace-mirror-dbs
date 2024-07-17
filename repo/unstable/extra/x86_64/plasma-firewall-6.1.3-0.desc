@@ -1,0 +1,71 @@
+%FILENAME%
+plasma-firewall-6.1.3-0-x86_64.pkg.tar.zst
+
+%NAME%
+plasma-firewall
+
+%BASE%
+plasma-firewall
+
+%VERSION%
+6.1.3-0
+
+%DESC%
+Control Panel for your system firewall
+
+%GROUPS%
+plasma
+
+%CSIZE%
+501362
+
+%ISIZE%
+1306373
+
+%MD5SUM%
+28feae53787f7ba8e1ea1039433d7462
+
+%SHA256SUM%
+5e7ce693874bd5d432435d9d18d7e70b7291feb4f62f00c79bab55ac0c895239
+
+%PGPSIG%
+iQGzBAABCgAdFiEEO3lN5tQyD85ZT0FxJ5589djVbsgFAmaWr9kACgkQJ5589djVbsg2rgwAzMyO9apakcr539qrCOliK4r+RB6yXxM8aApwf0S1GB6GJj/FWdLJtk9S/pZ/2PZl3k18EEfAO7DGf5LSEvy2ecoCHhiEJOgIH/vn9QsZvqyqrAq1dfXWbJ7Dd7hyol8hxmiSVLlVnnfbr4q5bGc1xk/ATCfGn4mdcXUKYn5DMr2O4CfE+cypq6ZrYVJgSLi1gZR6PugvHmnXQTa09cJuhQ30cHxX0D1mn64tyfA+PU0IvvhXXaWe04w/4Hk56yDOeHO6VKxDjyl+j3dLRzq1WSFLZ9ew4K4PegZPapfOCBlP7knZDcOZZnNHPIFxBwSw3sYQJ9pZmLpUdCZVE4QgACpmyZejbZDp3R5aOFzQ8/iHWj4iTlA2/wlimeWShWu/j7nbBZ8esKMktaTzO9n6gC2mLkvy7os3VpZzWP5iDbAbQDVAjT7Sr+grzO5ff4g0Em7RUnGytNhqO/o/L+FhccVgYDUL/yucv4XOOZF7VyNUM/HiHPrBb6BB0qZXeON5
+
+%URL%
+https://kde.org/plasma-desktop/
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1721150118
+
+%PACKAGER%
+Manjaro Build Server <build@manjaro.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+kauth
+kcmutils
+kconfig
+kcoreaddons
+ki18n
+kirigami
+qt6-base
+qt6-declarative
+
+%OPTDEPENDS%
+firewalld: firewalld backend
+iproute2: netstat backend
+python: ufw backend
+ufw: ufw backend
+
+%MAKEDEPENDS%
+extra-cmake-modules
+python
+
