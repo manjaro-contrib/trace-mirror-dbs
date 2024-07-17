@@ -1,0 +1,19 @@
+%DEPENDS%
+perl
+gsl
+glibc
+sh
+lmdb
+
+%CONFLICTS%
+bogofilter
+bogofilter-db
+bogofilter-kyotocabinet
+bogofilter-sqlite
+
+%PROVIDES%
+bogofilter
+
+%OPTDEPENDS%
+db5.3: for migration using bogoutil-berkeleydb5.3 tool
+
