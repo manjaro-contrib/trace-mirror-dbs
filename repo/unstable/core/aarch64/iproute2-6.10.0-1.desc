@@ -1,0 +1,66 @@
+%FILENAME%
+iproute2-6.10.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+iproute2
+
+%BASE%
+iproute2
+
+%VERSION%
+6.10.0-1
+
+%DESC%
+IP Routing Utilities
+
+%CSIZE%
+1077180
+
+%ISIZE%
+4564189
+
+%MD5SUM%
+3eeae1d19e26bc4b3869eb4ba623bffa
+
+%SHA256SUM%
+e7a1cde811d2d8826c079592a5842cba861c69452ed2e147ec9ff527aac3a7a8
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmaY+WAACgkQdxk/FSvb5qZfbBAAkl3wXc0cKuI4A5wrs5+AemfqD0IC+aR3SefAqGef41lnnQAjHKv4JA/ZVku6CcRiWgxnaDP/JgqfuifDRLEq/rU76LSjdUknyeK6UY6Sl4oZzvTjrQcAlRCGS19FOdC+vnredcOeSqTqGlCXi4V8U9oS2UsOwt/NyT+GdkyDtlwx1+xcL1hZxufGUYDqChOj4m6879wNvPbVZbGk0/zNTKArL1iqZMEUgJNXEjhHUwaPm5e31wQig5hXne6FVeaPJxtrfKHoByXrV7bImjjx3i7JHTD01s0Cd4OzyjNBN4gBET0XhdowjBsq6+bxtr+RoCQLLhBJExf8v3b6Aomxuqwu6rg/AREl6xA109BtLm51wRHxOtQSTBCYcb/4Kbm25qgreJpBHkAJm9qIZUlkH+CDQLw3J02olVLiiGDt8fPUkXsZBs9iYcnR2RZTuHbcx2h54mOtrav+Wc14T2kPqvYxoBWvvQn/1+49CEUD892tt4JDYBlURjwskDdvp7ojAd7EgbTrLtUe/9PdUi6+LKevnEtqMZ+uhUAvrV2yjdvcMmgF/RQQUZkPxuTnURrcZ4Vd3vp6VhH0nuDcZ7o4kxo4omuB4Srf5piF1t1udocBVb2hU5nkAELQd+7pIEdB0PYS9w0UUzFbncfjh5UWLebEgrLTtryLY+3bZmHuzw0=
+
+%URL%
+https://git.kernel.org/pub/scm/network/iproute2/iproute2.git
+
+%LICENSE%
+GPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1721301307
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%PROVIDES%
+iproute
+
+%DEPENDS%
+glibc
+libxtables.so=12-64
+libcap
+libcap.so=2-64
+libelf
+libbpf
+libbpf.so=1-64
+
+%OPTDEPENDS%
+db5.3: userspace arp daemon
+linux-atm: ATM support
+python: for routel
+
+%MAKEDEPENDS%
+linux-atm
+iptables
+
