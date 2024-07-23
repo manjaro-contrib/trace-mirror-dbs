@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-ukify-256.2-1-x86_64.pkg.tar.zst
+systemd-ukify-256.3-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd-ukify
@@ -8,25 +8,25 @@ systemd-ukify
 systemd
 
 %VERSION%
-256.2-1
+256.3-1
 
 %DESC%
 Combine kernel and initrd into a signed Unified Kernel Image
 
 %CSIZE%
-30702
+28601
 
 %ISIZE%
-75073
+75077
 
 %MD5SUM%
-86f7175fda51ae345d75e90fab33ddf4
+63d32f1043e16e33f443df54663a747d
 
 %SHA256SUM%
-0820e9f3b0383d5f8a0804931e60b620d47f0080b1402caae67d0a7b6e7d316f
+0a5e1d08b86b20d608c9093f90fd98ae12ae572880513fb63c0702ab7762b178
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmaIu6cSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+OGwIAK0KtsQeB69T35q1hT10GwdMalrRFfLIcJt0AdeZ1Qgo5Rgvg2UZI2rga53Az7LW0splWU+1/Y8iRBN9x8r2bpkoIIp5cm21WzBnfdzdSjBsHqNTVVEUpCCVxoX/jKdlF5MhFa+Kj7NZS3zHIx8CpzATYsIkoEcqHUZ4QuxoV4fMu70DYNMBKSNqVChqCVjjQSxEjwB0PTeLLURF2+6HiPDqeUED0jGvEHL0rLVwCLge+Ve4uzUcWszrR7+o8SSjiVG8BldxMuaQbMRobz1Ru5wYX5aKFu+lFXDM6EpjVAYCvNBMfov2jF2yhSMI1bC6lZIm29k9Yc8KbfFeBHXNLsM=
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmaf4UMACgkQFQwgB0PtRtg7uAf/e7hlm9C15DThznhlA8tFOHdK7eUaYcl5MZcaomDf04jdrjivOOs33mjX5NV/WzdqPnaYlmcT9hNUrwuGIvALkvw/Sae0VwJV+8pTbW1JYdw5jACTOnRmtOKkVCjd2n96cmsJ5FDjhSPMWHCdV3tEZ+gIRDCUiQYX/NGzAOtg6SVbgHjA+7+duIPk25ruQutjHuIn7/sOVIIPaT7fkO+Nz2tWSc/xh18f0P0GMb7fX1UdjI16wnxvNC/Jqb0zIz4/o3OGfL9IpX7S2d4wxFIfrc/ZYQDGvTcfhdXH3/pUWAhuDLLULuczUWxdx2+kJ8vKYE/I/d3rvAQZl17wC660Og==
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -38,10 +38,10 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1720235605
+1721753639
 
 %PACKAGER%
-Philip Mueller <philm@manjaro.org>
+Mark Wagie <mark@manjaro.org>
 
 %CONFLICTS%
 mkinitcpio<38-1
@@ -50,7 +50,7 @@ mkinitcpio<38-1
 ukify
 
 %DEPENDS%
-systemd=256.2
+systemd=256.3
 binutils
 python-cryptography
 python-pefile
@@ -71,6 +71,7 @@ libelf
 intltool
 iptables
 kmod
+libarchive
 libcap
 libidn2
 libgcrypt

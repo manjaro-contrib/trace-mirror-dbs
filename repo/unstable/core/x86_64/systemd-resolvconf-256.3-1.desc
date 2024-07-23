@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-resolvconf-256.2-1-x86_64.pkg.tar.zst
+systemd-resolvconf-256.3-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd-resolvconf
@@ -8,25 +8,25 @@ systemd-resolvconf
 systemd
 
 %VERSION%
-256.2-1
+256.3-1
 
 %DESC%
 systemd resolvconf replacement (for use with systemd-resolved)
 
 %CSIZE%
-5399
+3311
 
 %ISIZE%
 0
 
 %MD5SUM%
-50366ebb9f7a1ab7fc1fd51520752ae2
+006c0a03cf5351ab469eba05403ea9b7
 
 %SHA256SUM%
-cfde42fe40c09a9fed20163ba9ef74113684b625f7867ae4eec54e1b2f731c42
+77353de89b1d0018b280483ecc7ae3668f9d2b3504954503b91cf92060deb4cb
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmaIu6cSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+Ak4H/iqrA7Gn1UUUtSTAwvLUYh78g3Kx8MoLBQwBtAR8UmIMuJxc46DD83LdbSXbofbMIKRVADMikhaznKbYU6jzVu8H60/z5/NtJeWq+zhCsFGTsBBsuTDUhvdOzCCI9a4897qiI2rvjLEJHSHc+tBRSYOTqK7OOk/5soltcrr2/fWXpUIbCM476qlyIzwR7gN0FD7iGc4CNhii6KZUw//wW68XlYTY/mUL/m8oipaBNysfsGwd1dtXsuAGtTnfaAX/Q9l86vkxDmwtmsHZdwxrrTLM6L4lTPnhUGmytf637ZT3cYCjlg9FucU2yXjDkUMUXiuF8I/vZXVCggUNYVxsuJY=
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmaf4UMACgkQFQwgB0PtRtiTzQf8DNBnqXGK+Y5qyIQW7m3olDLpRWLxDBiBvTZ9g6ISxT2QEO6sWgk8WcYclQOJHHVRH9B+wNAzR/ChFeCbmfkyJWqqlsi3nmUyrqJCAr8YbeK1SOqIM41RFR+evHk6ABhVGc4Z8eY2ofGK4pWXbyU12zHZb8OcAUi56yN+72rUAjkPbtQBr2g7ms2i7osgeHSUqvDnTdje3m32rvdtNjfKruJBCNamw4Js8/8KU6/f+1HJuQNR+8lhouJtpD6uisv9zfS8VEEPvGBV5nAFip/fu4KrHaXs7UN8Jtm0y1mi/Gk18tV5o9SmnYvBISbqMnkqFJpKesqMxrnZk4sjiHaeWA==
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -38,10 +38,10 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1720235605
+1721753639
 
 %PACKAGER%
-Philip Mueller <philm@manjaro.org>
+Mark Wagie <mark@manjaro.org>
 
 %CONFLICTS%
 resolvconf
@@ -51,7 +51,7 @@ openresolv
 resolvconf
 
 %DEPENDS%
-systemd=256.2
+systemd=256.3
 
 %MAKEDEPENDS%
 acl
@@ -65,6 +65,7 @@ libelf
 intltool
 iptables
 kmod
+libarchive
 libcap
 libidn2
 libgcrypt

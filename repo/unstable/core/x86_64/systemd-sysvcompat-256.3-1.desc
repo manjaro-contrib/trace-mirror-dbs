@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-sysvcompat-256.2-1-x86_64.pkg.tar.zst
+systemd-sysvcompat-256.3-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd-sysvcompat
@@ -8,25 +8,25 @@ systemd-sysvcompat
 systemd
 
 %VERSION%
-256.2-1
+256.3-1
 
 %DESC%
 sysvinit compat for systemd
 
 %CSIZE%
-8385
+6228
 
 %ISIZE%
-2717
+2716
 
 %MD5SUM%
-d6247a97e6ea486cad8d265e951f757a
+e7a5f92884648481b2a42e0b548b78ac
 
 %SHA256SUM%
-73330339198a445cb68a7632b5ea43b421f2f935895dd722a98355b0c0d38077
+5c0b33b1644bbdbebe968146b29d7df6c1a9ff3a5487942a3672b364bc1a52ca
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmaIu6QSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+3o0IAK8+HHQfin3dG7yBbkD1NtebNhGTJVl1LOoBSYnumVBpIlb7LXbxuIhLvpMgtZsv3zH1NtDmdVjZsZbeXqPuMH4ldEHxd9pTEI4Xja+Jc24l0ma1mL5mg1lBp0y/paRyn75k8YozoOovQLmRyrcOBZAjVcUIlw9QzGjuHHFY9V0HkWHp78z1I5K9GuBPWpBVWTNNr2wA3uTTxPBk6HEyt7K0TcQToisNP6dIx4iRkNExmBpRRemHff04JTvbcxkDMykyX+IQbG7cqNhJGhVD/hJthXk0dKnP4jcNVYEzHz8TUe/xC5QSGzY7o1SMlkuwYnMdl0zkhsxqMDevJdDRzrk=
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmaf4UMACgkQFQwgB0PtRtgnPgf/djd7OTDPeDGlAvDy4w1vMIQamcRdCRb3wq5fKrEts7YKkoCKRSVfnJkrJ/DZbvNIcPQcAuv1bKImzg7iLFvev9M10/naSjMKZyIu91FgdPl7Aa/swNj1Zsy17MfOoupdR5F5RA1y9Hr2kqi4OpbI0/7rKaZpiI1H+M/jVvqn5HTlwa1O2AUk8MKCWDEr9veCiMfTORUHnIhb5C74QRI2Pfrcshn7/cg3vGbHflf3kdUk0iKd8Y3/VmCXOh1lLXtOXdRon0+Z4bkV80h+0SIwuaFIAjxJKGIgcMQk0CEDYehIxepPu9BsMKRjcIdp2pBzZ+zD3WcbiIxeNHPbp0xStA==
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -38,16 +38,16 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1720235605
+1721753639
 
 %PACKAGER%
-Philip Mueller <philm@manjaro.org>
+Mark Wagie <mark@manjaro.org>
 
 %CONFLICTS%
 sysvinit
 
 %DEPENDS%
-systemd=256.2
+systemd=256.3
 
 %MAKEDEPENDS%
 acl
@@ -61,6 +61,7 @@ libelf
 intltool
 iptables
 kmod
+libarchive
 libcap
 libidn2
 libgcrypt

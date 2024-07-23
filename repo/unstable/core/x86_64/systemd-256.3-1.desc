@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-256.2-1-x86_64.pkg.tar.zst
+systemd-256.3-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd
@@ -8,25 +8,25 @@ systemd
 systemd
 
 %VERSION%
-256.2-1
+256.3-1
 
 %DESC%
 system and service manager
 
 %CSIZE%
-8867713
+8870283
 
 %ISIZE%
-33733999
+33751792
 
 %MD5SUM%
-d79779a842f9a22242f89782402312b8
+2d8a007aa3a84f7b62559e4070759290
 
 %SHA256SUM%
-4036e99db345c73fbf5790e4c27b00e8ddda0f3c65e342b2be3f47610b819176
+45a1bddfc260159576218f4a16fee15ba0c59a72dde6abec88b22809ce407d62
 
 %PGPSIG%
-iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmaIu6cSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+eP0H/RHSjvE2STXGBBcMfnRHN6AvpghCJvUDY9x/5bS8u3HbDhbX7qvTPzHOhH6vFxUW/F4nIJNkEnNUEy0O8SI4sTJdal1UTfpAizjFUuxV5a1xprcP3C5Kul8Q+U7Z+ll/4PH1bPkg1S7CvW/YZ4f9x/5TCfuJobmNgVehmW/Wcw6q2oOEF0INCwPzFnNAm6f1ihzE9M44TMw31ZeuR3STYuPpJHqsT6McnrVRI7uCLH9gqFkjrFNSlEg5TkvO2Twa5CQmo1UToLGImuzHk4aWthyojGvFxn5vyuKonp4uAoKheVvJLTaRiTrFfeYwWvgqsmNsCu9hi/qnsJkYvAa3sSg=
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmaf4UMACgkQFQwgB0PtRtjDogf9E6y1e44LIEYimlMIh/DzmkUAs4X6+mmz9ahIQ+ZgIFwO/RVbmScvCIIws/LUkhq2sWP/Phz8Ec5OFbZd278ljlZ0bJiMiHB+CsrL0WCCcVL2ABapnpsvblnxXDEkV5t+rfz+AEUTcndD4W4einc55jOeqRVP6+tvAt8vCwKuWDQRyVHEEXUC0RP1so+Z//iXO1ghlqM6c1MbZbTit2wrqsREeRVNk/GkGonVQudZoZYTURHWO7OXcITlU9SpUHAwmaysc451KgXZFZ9b9NqWgtEROKFSzdD7UYhUlGsbFyCsbkPOD5o2Yc9/W6shjbqANM3gkYs1xHJIXTJC5i6M5g==
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -41,10 +41,10 @@ MIT-0
 x86_64
 
 %BUILDDATE%
-1720235605
+1721753639
 
 %PACKAGER%
-Philip Mueller <philm@manjaro.org>
+Mark Wagie <mark@manjaro.org>
 
 %REPLACES%
 nss-myhostname
@@ -58,11 +58,11 @@ udev
 
 %PROVIDES%
 nss-myhostname
-systemd-tools=256.2
-udev=256.2
+systemd-tools=256.3
+udev=256.3
 
 %DEPENDS%
-systemd-libs=256.2
+systemd-libs=256.3
 acl
 libacl.so=1-64
 bash
@@ -105,6 +105,7 @@ curl: systemd-journal-upload, machinectl pull-tar and pull-raw
 gnutls: systemd-journal-gatewayd and systemd-journal-remote
 qrencode: show QR codes
 iptables: firewall features
+libarchive: convert DDIs to tarballs
 libbpf: support BPF programs
 libpwquality: check password quality
 libfido2: unlocking LUKS2 volumes with FIDO2 token
@@ -123,6 +124,7 @@ libelf
 intltool
 iptables
 kmod
+libarchive
 libcap
 libidn2
 libgcrypt
