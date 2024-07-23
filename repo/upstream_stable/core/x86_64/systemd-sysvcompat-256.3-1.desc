@@ -1,29 +1,29 @@
 %FILENAME%
-systemd-resolvconf-256.2-1-x86_64.pkg.tar.zst
+systemd-sysvcompat-256.3-1-x86_64.pkg.tar.zst
 
 %NAME%
-systemd-resolvconf
+systemd-sysvcompat
 
 %BASE%
 systemd
 
 %VERSION%
-256.2-1
+256.3-1
 
 %DESC%
-systemd resolvconf replacement (for use with systemd-resolved)
+sysvinit compat for systemd
 
 %CSIZE%
-3235
+6199
 
 %ISIZE%
-0
+2716
 
 %SHA256SUM%
-e7110b6f1d68e7424b829531ca30da9a5a8eca8530baee77597a774cf908cf3d
+289e0cd4d982085f274470c3e6e6916842ecef18022063a515981cf2bb2068f0
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZohKhgAKCRBtQr3RFuAGj8RdAQCjSi7hEyUh3zOpLCatTSna1B2axMr4ioLqtiwxa5MAVwEAow0tU97UbkxOEtmnNtrhneqpfxQTK4O39pr1UjCQTgU=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZp9pXAAKCRBtQr3RFuAGj07lAQCBF2vHOPOmoaKhx2d5MH0E46qACXmNbPNiDjikIcnn5gEA+ZfnfjDZije4O70m2tD93+vjjwA49G89ZibdUnkxqA0=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -35,20 +35,16 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1720207535
+1721722899
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
 
 %CONFLICTS%
-resolvconf
-
-%PROVIDES%
-openresolv
-resolvconf
+sysvinit
 
 %DEPENDS%
-systemd=256.2
+systemd=256.3
 
 %MAKEDEPENDS%
 acl
@@ -62,6 +58,7 @@ libelf
 intltool
 iptables
 kmod
+libarchive
 libcap
 libidn2
 libgcrypt

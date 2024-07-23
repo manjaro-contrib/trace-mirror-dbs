@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-256.2-1-x86_64.pkg.tar.zst
+systemd-256.3-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd
@@ -8,22 +8,22 @@ systemd
 systemd
 
 %VERSION%
-256.2-1
+256.3-1
 
 %DESC%
 system and service manager
 
 %CSIZE%
-8871245
+8877549
 
 %ISIZE%
-33983055
+34001681
 
 %SHA256SUM%
-a934a7554da6583a7a2449d8c24d3f5434d08c5b14f5683688ace1b3b7e2f181
+6bf64427c7cfa41d149e3c4eeb6d081374a28afc638a469d282a89d44934227e
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZohKhgAKCRBtQr3RFuAGj1ZxAP9xA4dZDgQXUascmWJdrzcvhEnMiCo2KAktH71UIoCMvQEAwwVulZFIPjVoLdSr88Ypm7wwtOxtmqT2CwMGS5JdxAQ=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZp9pXAAKCRBtQr3RFuAGj7wWAP43jCNSmmbnBsU0oTEfeamzXcCPv4g53iQZXvJTFUrGkgEAlF5RZEbVp7HICmWUC/DcfSZnXxQzULxGlfHLF7lVawQ=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -38,7 +38,7 @@ MIT-0
 x86_64
 
 %BUILDDATE%
-1720207535
+1721722899
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
@@ -55,11 +55,11 @@ udev
 
 %PROVIDES%
 nss-myhostname
-systemd-tools=256.2
-udev=256.2
+systemd-tools=256.3
+udev=256.3
 
 %DEPENDS%
-systemd-libs=256.2
+systemd-libs=256.3
 acl
 libacl.so=1-64
 bash
@@ -102,6 +102,7 @@ curl: systemd-journal-upload, machinectl pull-tar and pull-raw
 gnutls: systemd-journal-gatewayd and systemd-journal-remote
 qrencode: show QR codes
 iptables: firewall features
+libarchive: convert DDIs to tarballs
 libbpf: support BPF programs
 libpwquality: check password quality
 libfido2: unlocking LUKS2 volumes with FIDO2 token
@@ -120,6 +121,7 @@ libelf
 intltool
 iptables
 kmod
+libarchive
 libcap
 libidn2
 libgcrypt

@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-ukify-256.2-1-x86_64.pkg.tar.zst
+systemd-ukify-256.3-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd-ukify
@@ -8,22 +8,22 @@ systemd-ukify
 systemd
 
 %VERSION%
-256.2-1
+256.3-1
 
 %DESC%
 Combine kernel and initrd into a signed Unified Kernel Image
 
 %CSIZE%
-28494
+28525
 
 %ISIZE%
-75067
+75071
 
 %SHA256SUM%
-dd3f0b64de3d8b55049c53b2d414a329e19c2f1b640ddf80b909a53c656f345e
+cdc7fa71d3cdb1d363f1bd28bd85aa98dc839462b8e45be8d784e1632b1bc6df
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZohKhQAKCRBtQr3RFuAGj5SOAQCz66aDlcwJTrObztAZ8TtyXowijQeLADv8t/5X5b0oBQEA2qTTLmXjo7Puvm/MbNtKkZ2koSMTbrrln1I6txpaFgo=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZp9pXAAKCRBtQr3RFuAGjx9jAQC0687+Yx489sca617xrywqXL8x4B8pIwfdD48prSgxuQD9G/mcePuTf5RETDeL/ucnrnyC29VHZ+hAVYdYVRLhSAk=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -35,7 +35,7 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1720207535
+1721722899
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
@@ -47,7 +47,7 @@ mkinitcpio<38-1
 ukify
 
 %DEPENDS%
-systemd=256.2
+systemd=256.3
 binutils
 python-cryptography
 python-pefile
@@ -68,6 +68,7 @@ libelf
 intltool
 iptables
 kmod
+libarchive
 libcap
 libidn2
 libgcrypt
