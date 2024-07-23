@@ -1,0 +1,82 @@
+%FILENAME%
+postgresql-16.3-3-x86_64.pkg.tar.zst
+
+%NAME%
+postgresql
+
+%BASE%
+postgresql
+
+%VERSION%
+16.3-3
+
+%DESC%
+Sophisticated object-relational DBMS
+
+%CSIZE%
+19450426
+
+%ISIZE%
+65039838
+
+%MD5SUM%
+2d441d11092c3011e5d9d15577637d61
+
+%SHA256SUM%
+239fa32f126a3c68056934c1c21a3f7d5113b8fa864fcf240d75af046977879f
+
+%PGPSIG%
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCZp7RiF8UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCnCtAQDtQwJjmqjjeZLSpcry3OgTEm60s4TFhJDZAOTK674nWgD8CMBoewLyz8nOCreoKm9QAGJCvs+9RJ1Vslr38+dx2AY=
+
+%URL%
+https://www.postgresql.org/
+
+%LICENSE%
+PostgreSQL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1721683456
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%DEPENDS%
+bash
+gcc-libs
+glibc
+icu
+krb5
+libldap
+libxml2
+libxslt
+llvm-libs
+lz4
+openssl
+pam
+readline
+systemd-libs
+util-linux-libs
+zlib
+zstd
+postgresql-libs>=16.3
+
+%OPTDEPENDS%
+logrotate: rotates system logs automatically
+perl: for PL/Perl support
+postgresql-old-upgrade: upgrade from previous major version using pg_upgrade
+python: for PL/Python 3 support
+tcl: for PL/Tcl support
+
+%MAKEDEPENDS%
+clang
+llvm
+perl
+perl-ipc-run
+python
+systemd
+tcl
+util-linux
+
