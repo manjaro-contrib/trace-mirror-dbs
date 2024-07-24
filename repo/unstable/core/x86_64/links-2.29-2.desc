@@ -1,0 +1,70 @@
+%FILENAME%
+links-2.29-2-x86_64.pkg.tar.zst
+
+%NAME%
+links
+
+%BASE%
+links
+
+%VERSION%
+2.29-2
+
+%DESC%
+A text WWW browser, similar to Lynx
+
+%CSIZE%
+3252310
+
+%ISIZE%
+6469108
+
+%MD5SUM%
+af540800ff1015fe59941870e15ff6b6
+
+%SHA256SUM%
+e41a6f7d03da1a81e2f6fc89d3b6f4c8e064d48639afc68328ee8d29c44e96f0
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZqAK8wAKCRBtQr3RFuAGj6S2AP9qnvSSzfNBiLOYmJMCtTDP7o14paphLDzJ9KV0SPLRHQEA6PuaF724cYk48uMDiYHYZOkPcWk3NN38SSol04xl0wE=
+
+%URL%
+http://links.twibright.com/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1721764513
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+brotli
+libbrotlidec.so=1-64
+bzip2
+libbz2.so=1.0-64
+gpm
+libgpm.so=2-64
+libevent
+openssl
+xz
+zstd
+libzstd.so=1-64
+
+%OPTDEPENDS%
+libx11: for using xlinks
+libtiff: for using xlinks
+libpng: for using xlinks
+librsvg: for using xlinks
+
+%MAKEDEPENDS%
+libtiff
+libpng
+libxt
+librsvg
+
