@@ -1,0 +1,17 @@
+%DEPENDS%
+glib2
+glibc
+gst-plugins-base-libs
+gstreamer
+libmicrodns
+libsoup3
+
+%PROVIDES%
+libclapper-0.0.so=0-64
+
+%OPTDEPENDS%
+gst-libav: Extra media decoders (via ffmpeg)
+gst-plugins-ugly: Extra nonfree media decoders
+gst-plugin-va: (hardware) video acceleration
+gst-plugins-gtuber: Streaming service support
+
