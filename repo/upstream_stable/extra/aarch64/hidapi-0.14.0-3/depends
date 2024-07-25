@@ -1,0 +1,10 @@
+%DEPENDS%
+systemd-libs
+
+%PROVIDES%
+libhidapi-hidraw.so=0-64
+libhidapi-libusb.so=0-64
+
+%OPTDEPENDS%
+libusb: for hidapi-libusb
+
