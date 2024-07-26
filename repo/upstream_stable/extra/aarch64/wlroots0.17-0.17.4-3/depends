@@ -1,0 +1,26 @@
+%DEPENDS%
+libdisplay-info.so=2-64
+libglvnd
+libinput
+libpixman-1.so=0-64
+libseat.so=1-64
+libudev.so=1-64
+libvulkan.so=1-64
+libwayland-client.so=0-64
+libwayland-server.so=0-64
+libxcb
+libxkbcommon.so=0-64
+opengl-driver
+xcb-util-errors
+xcb-util-renderutil
+xcb-util-wm
+
+%CONFLICTS%
+wlroots<0.18
+
+%PROVIDES%
+libwlroots.so=12-64
+
+%OPTDEPENDS%
+xorg-xwayland: Xwayland support
+
