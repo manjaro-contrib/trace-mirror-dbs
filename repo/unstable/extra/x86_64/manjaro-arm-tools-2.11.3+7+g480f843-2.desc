@@ -1,0 +1,62 @@
+%FILENAME%
+manjaro-arm-tools-2.11.3+7+g480f843-2-any.pkg.tar.zst
+
+%NAME%
+manjaro-arm-tools
+
+%BASE%
+manjaro-arm-tools
+
+%VERSION%
+2.11.3+7+g480f843-2
+
+%DESC%
+Scripts for building Manjaro-ARM packages and images
+
+%CSIZE%
+54294
+
+%ISIZE%
+138331
+
+%MD5SUM%
+d5b0ea4e82ae1a5a20dbd1fab13ecb5b
+
+%SHA256SUM%
+e212587fef37a48e9e54f76c3e2c6b0fa0afc043b278b3c57b2af14b6415a8df
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmaj0aIACgkQFQwgB0PtRtg0jAgAqjA6gkv/bIj76lwijNQN7PQAyOAlGI9nNfJPwsnlnboQdsqQAbfaWbMQNzhNWGfEmYUvITyG2lYVi99WIUwT27SUR8kyFbPrfB0UYjeVlbvR15d0CeRczL2lcmy8btFVewAztBSjvqnCTmIlsunyZyMQO9lpJR724p//5qW4P4suCdKDAfxkapTK5wfCInBH9FiemmEx74A0yrBOOT8IXr0RYjVe7FlMW5H70Gobm7yXYFyFS6bzE7OByFVWNqIaAhKZFzjHX/E3S/DldqFVwsbjV2fT/UMwscG2clTC/1e/MLgNMW+aw6EkhSgcEWOwYH1RAb3OzK2lz2sw+HTiJg==
+
+%URL%
+https://gitlab.manjaro.org/manjaro-arm/applications/manjaro-arm-tools
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1722010956
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%DEPENDS%
+btrfs-progs
+dosfstools
+git
+gnupg
+parted
+polkit
+wget
+zstd
+
+%OPTDEPENDS%
+bmap-tools: for bmap support in buildarmimg
+docker: for builddockerimg
+mktorrent: for torrent support in deployarmimg
+qemu-user-static-binfmt: Needed on x86_64
+rsync: for deployarmimg
+
