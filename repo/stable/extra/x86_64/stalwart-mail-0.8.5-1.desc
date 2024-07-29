@@ -1,0 +1,61 @@
+%FILENAME%
+stalwart-mail-0.8.5-1-x86_64.pkg.tar.zst
+
+%NAME%
+stalwart-mail
+
+%BASE%
+stalwart-mail-server
+
+%VERSION%
+0.8.5-1
+
+%DESC%
+Stalwart Mail Server
+
+%CSIZE%
+18615101
+
+%ISIZE%
+64158148
+
+%MD5SUM%
+524c654bbfa7e952a44d8d657061915c
+
+%SHA256SUM%
+0b2908d17bcf03abca6c39246d937c301481f3f48ca4e400b879a80d8dc79c9e
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZpPwtAAKCRCbeih9mi7GCCZuAP9/tvGaixP5j21M/cXVJUIsvqbHu8cMmStcXMqQiMENtwD/UZqvVJIiLkqioZcRcJp6MqE37jNzUT7zc54XaSbvcwU=
+
+%URL%
+https://stalw.art/
+
+%LICENSE%
+AGPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1720969037
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+
+%OPTDEPENDS%
+mariadb: for using MariaDB as storage backend on the same host
+postgresql: for using PostgreSQL as storage backend on the same host
+redis: for using Redis as lookup storage backend on the same host
+sqlite: for using SQLite as storage backend on the same host
+stalwart-cli: for using the CLI to the mail server on the same host
+stalwart-mail-old-upgrade: for exporting data when migrating from an older version
+
+%MAKEDEPENDS%
+cargo
+clang
+

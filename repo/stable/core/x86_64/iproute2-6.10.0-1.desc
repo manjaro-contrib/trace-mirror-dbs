@@ -1,0 +1,66 @@
+%FILENAME%
+iproute2-6.10.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+iproute2
+
+%BASE%
+iproute2
+
+%VERSION%
+6.10.0-1
+
+%DESC%
+IP Routing Utilities
+
+%CSIZE%
+1151030
+
+%ISIZE%
+3057301
+
+%MD5SUM%
+8d92efa278e45a4a312dfbfec584e54f
+
+%SHA256SUM%
+745c0867cbdc8ef7834154d6fa4d02339fbec48af31f5bdb3e23c741214bf661
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZpdqOAAKCRBtQr3RFuAGjycDAQD1g+nPTDsOdyRx9WHkhq2vecaAW60cbalTJ8m8TgxX4gD/TMBu1IpSxud5fItidhMbFTG/EcNqQe3zLo+x1417ZQ4=
+
+%URL%
+https://git.kernel.org/pub/scm/network/iproute2/iproute2.git
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1721199069
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%PROVIDES%
+iproute
+
+%DEPENDS%
+glibc
+libxtables.so=12-64
+libcap
+libcap.so=2-64
+libelf
+libbpf
+libbpf.so=1-64
+
+%OPTDEPENDS%
+db5.3: userspace arp daemon
+linux-atm: ATM support
+python: for routel
+
+%MAKEDEPENDS%
+linux-atm
+iptables
+
