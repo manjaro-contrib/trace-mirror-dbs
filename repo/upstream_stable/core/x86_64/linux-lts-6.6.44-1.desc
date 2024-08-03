@@ -1,0 +1,106 @@
+%FILENAME%
+linux-lts-6.6.44-1-x86_64.pkg.tar.zst
+
+%NAME%
+linux-lts
+
+%BASE%
+linux-lts
+
+%VERSION%
+6.6.44-1
+
+%DESC%
+The LTS Linux kernel and modules
+
+%CSIZE%
+134515502
+
+%ISIZE%
+134763463
+
+%SHA256SUM%
+8e73f49b0446973cd9d47ee211cfcab85ad88d4735ad35681905a969a05b7714
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmauL5gACgkQlGV6sg8qCSsAnAf/dS3YPaHJuWS5ROfEZ7Sha+J/kYagxwFiIlPlk6sI4ghUvtqa8cH2SeFm1CHgaeUA0BRkKjS9S4FWG28Cx3ABd41Icx28zNfWB3cyNyYysoL/41jPygHa4iLKW1ZmKc2vySQ8K5ChjX7Fbhl8dmOLZRauveCMPfz28pFauoDiK0cAgzS5MNyxGXUlk4/YKN1dXu007GkUEGEgeqCJumw6+tPciV/IhBNWcPofHPK5DKTTHomXl6B4q8LLpydD8TZjI6pswnbLWqhliAVXv0A1GA8Tacv/HV3Q1HWo+JcASX/cBzA95S8DQ3RXDXZRWIP5iasto1fGi2M+X0h4Jr762w==
+
+%URL%
+https://www.kernel.org
+
+%LICENSE%
+Apache-2.0 OR MIT
+BSD-2-Clause OR GPL-2.0-or-later
+BSD-3-Clause
+BSD-3-Clause OR GPL-2.0-only
+BSD-3-Clause OR GPL-2.0-or-later
+BSD-3-Clause-Clear
+GPL-1.0-or-later
+GPL-1.0-or-later OR BSD-3-Clause
+GPL-2.0-only
+GPL-2.0-only OR Apache-2.0
+GPL-2.0-only OR BSD-2-Clause
+GPL-2.0-only OR BSD-3-Clause
+GPL-2.0-only OR CDDL-1.0
+GPL-2.0-only OR Linux-OpenIB
+GPL-2.0-only OR MIT
+GPL-2.0-only OR MPL-1.1
+GPL-2.0-only OR X11
+GPL-2.0-only WITH Linux-syscall-note
+GPL-2.0-or-later
+GPL-2.0-or-later OR BSD-2-Clause
+GPL-2.0-or-later OR BSD-3-Clause
+GPL-2.0-or-later OR MIT
+GPL-2.0-or-later OR X11
+GPL-2.0-or-later WITH GCC-exception-2.0
+ISC
+LGPL-2.0-or-later
+LGPL-2.1-only
+LGPL-2.1-only OR BSD-2-Clause
+LGPL-2.1-or-later
+MIT
+MPL-1.1
+X11
+Zlib
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1722677393
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%REPLACES%
+wireguard-lts
+
+%PROVIDES%
+KSMBD-MODULE
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+initramfs
+kmod
+
+%OPTDEPENDS%
+wireless-regdb: to set the correct wireless channels of your country
+linux-firmware: firmware images needed for some devices
+
+%MAKEDEPENDS%
+bc
+cpio
+gettext
+libelf
+pahole
+perl
+python
+tar
+xz
+graphviz
+imagemagick
+python-sphinx
+texlive-latexextra
+
