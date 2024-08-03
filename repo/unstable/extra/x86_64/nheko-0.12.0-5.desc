@@ -1,0 +1,88 @@
+%FILENAME%
+nheko-0.12.0-5-x86_64.pkg.tar.zst
+
+%NAME%
+nheko
+
+%BASE%
+nheko
+
+%VERSION%
+0.12.0-5
+
+%DESC%
+Desktop client for the Matrix protocol
+
+%CSIZE%
+3467697
+
+%ISIZE%
+13239590
+
+%MD5SUM%
+481cacd44182f6ca17743517f67bffa9
+
+%SHA256SUM%
+1e3a59e43b51331ccda6bfe4f47cf72bef201f80bffaa87e7261c2011175dec4
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmaubioACgkQek52CV2KUuQxAgf+MnFTk+MzRGKZ/7bTI6+A9iWOZEKklYokRt4hKY9uPFj+gcrnI99pR369Sa2W/7pZVJSX++2eu7jAi+BaX1QjN1FoOSh1Lyy5N2eUjSCstedNKvfpnviZbq9SFCe5sDLubocvr7hKSWITqdPItOUC39JQCoDJh2D5siFhVmsA7rxSxlFK6ZZr2Y4vt0I4rGs/8s1Hv+iG9Pk27XEYjXRU5XvkeTjuklP5FlbtBm0T+4ENBFjzi7Xzwj+u9nlUOo9IJGDd0ZvVlgbHx2XELmuaf8UvREy4FFaEJKjtm2RBSUn4FB4jaEu2jmBQlXptizbR/L4++Bj6VUbmgKIOjP4d1w==
+
+%URL%
+https://nheko.im/nheko-reborn/nheko
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1722707334
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+qt6-base
+qt6-svg
+qt6-multimedia
+qtkeychain-qt6
+qt6-declarative
+qt6-imageformats
+coeurl
+mtxclient
+lmdb
+cmark
+libolm
+hicolor-icon-theme
+kdsingleapplication
+gst-plugins-bad-libs
+org.freedesktop.secrets
+mtxclient
+libmatrix_client.so=0.10.0-64
+spdlog
+libspdlog.so=1.14-64
+libolm
+libolm.so=3-64
+
+%OPTDEPENDS%
+qt6-jdenticon: Auto-generated profile pictures (identicons)
+kimageformats: Extends the formats nheko supports for image attachments
+gst-plugins-base-libs: VoIP/Video calls
+gst-plugins-good: VoIP/Video calls
+gst-plugins-bad: VoIP/Video calls
+libnice: VoIP/Video calls
+gst-libav: Video messages
+gst-plugin-qml6: Video calls support
+
+%MAKEDEPENDS%
+cmake
+ninja
+qt6-tools
+fontconfig
+nlohmann-json
+asciidoc
+lmdbxx
+spdlog
+
