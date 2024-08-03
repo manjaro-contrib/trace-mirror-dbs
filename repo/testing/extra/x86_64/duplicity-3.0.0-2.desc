@@ -1,0 +1,74 @@
+%FILENAME%
+duplicity-3.0.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+duplicity
+
+%BASE%
+duplicity
+
+%VERSION%
+3.0.0-2
+
+%DESC%
+A utility for encrypted, bandwidth-efficient backups using the rsync algorithm
+
+%CSIZE%
+896618
+
+%ISIZE%
+5512318
+
+%MD5SUM%
+74c20b41ebd23cf834616db1ddd405f7
+
+%SHA256SUM%
+4409b86d7b9f82e7f87d63fc281281f55ec6165a0ea4f6acf282b650e6522e7c
+
+%PGPSIG%
+iQIzBAABCAAdFiEEFORv5f1p8uKH4kTbYyw8wNHJyvYFAmam8tUACgkQYyw8wNHJyvY5aw//Slzi0q+umGUausnv7SnBBhVUFtuXkw24BEFnHkDd1XImAr/tIhNHQszbYEEuSk24RvzszgEqMhy4BBjD6nioS/QCchkCspunfVuXZfO5ByQNVt0dASeiFn4g41DjxDUamcwn14x48aVJ3VKlTIqu0cPv+LB2x9fXQ92pzViQFEg1KwyELc/LhQxnfDmLwxndRJEomhMpxnuy4sT0XUfqxjTuUuAIstDwaFG5qLL/lJbtiahJBAU6SqLNmxFrkd5Nyi6KwWK1Haf4+KeKqJDrY/GBfaInHb9Mfm07E121tBzfRDGcuQlNm/YIKQr55M59o0dQ8b+ODLTe3WW+ZhrdSBuaPO3hzj1jZaXBOnKXjWHkw8fOCVrMFjRQ9p8VR6BisqHVVERiow04gY4TCj7euM1kCjzh3nEfRwwxH7LkuhPt3HNrvKFXGPfJEmx9QU5C3SgrFKGvpFE4m1FrkAxvXt2g8QqAvzG4cmlDWiGOJLH+YYByFiTciukRWM7AajWhvCjX7H0xInvYymjvC9ySRZwtoc6YAstsO+9yvja1s/K0QkazRk/DTX8UEzbDSGivsppDfifi6tF9zDQ3Mvf5cwju5oA3hGv3iPeXIo9wh2mZA37pKgorjUEiXvHcnlguLdh2Qwk9Jjul2/jbKKC5f3E2mdMKpU0VV1mhDntFt9w=
+
+%URL%
+https://duplicity.gitlab.io/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1722216821
+
+%PACKAGER%
+Balló György <bgyorgy@archlinux.org>
+
+%DEPENDS%
+gnupg
+librsync
+python-fasteners
+
+%OPTDEPENDS%
+lftp: backend for ftp, ftps, fish
+ncftp: alternative backend for ftp
+python-b2sdk: Backblaze B2 backend
+python-boto3: Amazon S3 and Google Cloud Storage backend
+python-dropbox: Dropbox backend
+python-gobject: GIO backend
+gvfs: GIO backend
+python-paramiko: SSH paramiko backend
+python-pexpect: SSH pexpect backend
+python-pydrive2: Google Drive backend
+python-mediafire: Mediafire backend
+python-requests-oauthlib: OneDrive backend
+rclone: rclone backend
+rsync: rsync backend
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
