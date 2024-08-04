@@ -1,0 +1,103 @@
+%FILENAME%
+linux-rt-6.7.0.6.realtime1-6-x86_64.pkg.tar.zst
+
+%NAME%
+linux-rt
+
+%BASE%
+linux-rt
+
+%VERSION%
+6.7.0.6.realtime1-6
+
+%DESC%
+The Linux RT kernel and modules
+
+%CSIZE%
+137423183
+
+%ISIZE%
+137677991
+
+%SHA256SUM%
+7116f2080603d2c3be670fda142dcd6f74236a7a3e33f30124165e133240718f
+
+%PGPSIG%
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCZq6OuV8UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCiywAPwPJ8DgQKJ/dTRmQMfp0sJOV3T1BDHkOPGQ3KneQu9YNwEAuRNP3Or8SHWWwUAXmdb3AyzYLPl4gWYUb2twqzFpXQc=
+
+%URL%
+https://gitlab.archlinux.org/archlinux/packaging/upstream/linux-rt/-/commits/v6.7.0.6.realtime1
+
+%LICENSE%
+Apache-2.0 OR MIT
+BSD-2-Clause OR GPL-2.0-or-later
+BSD-3-Clause
+BSD-3-Clause OR GPL-2.0-only
+BSD-3-Clause OR GPL-2.0-or-later
+BSD-3-Clause-Clear
+GPL-1.0-or-later
+GPL-1.0-or-later OR BSD-3-Clause
+GPL-2.0-only
+GPL-2.0-only OR Apache-2.0
+GPL-2.0-only OR BSD-2-Clause
+GPL-2.0-only OR BSD-3-Clause
+GPL-2.0-only OR CDDL-1.0
+GPL-2.0-only OR Linux-OpenIB
+GPL-2.0-only OR MIT
+GPL-2.0-only OR MPL-1.1
+GPL-2.0-only OR X11
+GPL-2.0-only WITH Linux-syscall-note
+GPL-2.0-or-later
+GPL-2.0-or-later OR BSD-2-Clause
+GPL-2.0-or-later OR BSD-3-Clause
+GPL-2.0-or-later OR MIT
+GPL-2.0-or-later OR X11
+GPL-2.0-or-later WITH GCC-exception-2.0
+ISC
+LGPL-2.0-or-later
+LGPL-2.1-only
+LGPL-2.1-only OR BSD-2-Clause
+LGPL-2.1-or-later
+MIT
+MPL-1.1
+X11
+Zlib
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1722710821
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%PROVIDES%
+KSMBD-MODULE
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+initramfs
+kmod
+
+%OPTDEPENDS%
+wireless-regdb: to set the correct wireless channels of your country
+linux-firmware: firmware images needed for some devices
+
+%MAKEDEPENDS%
+bc
+cpio
+gettext
+git
+graphviz
+imagemagick
+libelf
+pahole
+perl
+python-sphinx
+tar
+texlive-latexextra
+xz
+
