@@ -1,0 +1,95 @@
+%FILENAME%
+python-autobahn-24.4.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-autobahn
+
+%BASE%
+python-autobahn
+
+%VERSION%
+24.4.2-1
+
+%DESC%
+Real-time framework for Web, Mobile & Internet of Things
+
+%CSIZE%
+940969
+
+%ISIZE%
+8079346
+
+%MD5SUM%
+7a02e81d8d6e2057224ae54affd97267
+
+%SHA256SUM%
+8d371eec328717dd19a39240717ce6fde8b6a77b6ad339fc80610ee29e1169e0
+
+%PGPSIG%
+iQJLBAABCgA1FiEEwQA0ZnZjToDJQPuenAL/QZ/svhYFAmazctwXHGZveGJvcm9uQGFyY2hsaW51eC5vcmcACgkQnAL/QZ/svhYBEg//ahyTXuoi13MaWdprpPdiTkxU3ohXYG6svXbu82+YnMQqaueYTYHPMFBRCTnSoMayZnTbxeL20ylfvIeUjr26d9Ux/0v4/JBXY/H9sZ/WfQfICcVsVXIjSZfrYBZj34vQVoMN9IPcbtPSEceJSilySuqU2t6SdRK5i7NFCDm0gUZvJHlx41+WMqQBJWqxAI1R2bx6ToO+/DA2CNhG6I5png7Ci/G2XgxG7jGzHnEUpualmZdPu/rJJ+UVf037ND+OaGOuhAA+ItMszChLnptjHsEfPj9ZzVZxP2HeTEB3nu3p8wYe1b5LhlvUmo2TQ5DkGqgSvMULxXN0TwWJWnSPv/2vDcGNP17z2p+o0VStmi1+BstR/I7d714j5GBu6fP4/leIivzxhdQdDzNQ+FHuCR/OAUIQ6P6wsnpVa8Bqb3JHlEuVZIrlWOTyQqtisDTcc+5yokBSLdp8c5xc9wa8i9kQIMgcFOSAnOAtIBK4MOoxGLSWNxnJkQZfWTQq7Lk7RdbOBh885PsvBFhdVxMwwMS2DSFpgl1Zd2nSXhjUHNUcOCYsFg9akqld44IQNkMLdhlxeAG54v5GxzGqZlK3YJ+u5jhvdSZw0drTrekdqxY6Iu3Va7EatUsCI1hle4KIq3GiGzcjHIPfKx5WTOhB/wnfuCfrk60DTtcUhm428AY=
+
+%URL%
+https://github.com/crossbario/autobahn-python/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1723036342
+
+%PACKAGER%
+Morten Linderud <foxboron@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+python-cffi
+python-twisted
+python-txaio
+python-wsaccel
+python-cryptography
+python-hyperlink
+python-zope-interface
+
+%OPTDEPENDS%
+python-cbor2: CBOR serializer support
+python-flatbuffers: FlatBuffers serializer support
+python-msgpack: MsgPack serializer support
+python-u-msgpack: pure-python alternative to python-msgpack for MsgPack serializer support
+python-ubjson: UBJSON serializer support
+python-ujson: accelerated JSON serializer support
+python-argon2_cffi: WAMP-SCRAM authentication support
+python-passlib: WAMP-SCRAM authentication support
+python-pynacl: WAMP-cryptosign and WAMP-cryptobox support
+python-pytrie: WAMP-cryptobox support
+python-qrcode: support QR codes in WAMP
+python-pyopenssl: SSL/TLS support
+python-snappy: snappy compression suppport for WebSocket messages
+python-click: for text highlights
+python-txtorcon: connections to Tor Onion services
+
+%MAKEDEPENDS%
+python-argon2_cffi
+python-cbor2
+python-flatbuffers
+python-msgpack
+python-passlib
+python-pynacl
+python-pytrie
+python-setuptools
+python-ubjson
+python-u-msgpack
+python-ujson
+python-qrcode
+python-pyopenssl
+python-snappy
+python-click
+python-txtorcon
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-asyncio
+
