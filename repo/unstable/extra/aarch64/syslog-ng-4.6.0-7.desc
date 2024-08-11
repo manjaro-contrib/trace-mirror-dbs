@@ -1,0 +1,94 @@
+%FILENAME%
+syslog-ng-4.6.0-7-aarch64.pkg.tar.xz
+
+%NAME%
+syslog-ng
+
+%BASE%
+syslog-ng
+
+%VERSION%
+4.6.0-7
+
+%DESC%
+Next-generation syslogd with advanced networking and filtering capabilities
+
+%CSIZE%
+1599500
+
+%ISIZE%
+11015988
+
+%MD5SUM%
+3665580c609a148543a92b71ae9c2467
+
+%SHA256SUM%
+f18e13319ef74ac40653dde18bceba9fe75994eef2366d04a442f3223d00de72
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmazio0ACgkQdxk/FSvb5qbENhAAgC3Ic3zKwvKyVgSTaWEQw9asGTdO+7leumC5QlQGBTsORe4gn6Bs7eLIJkvZdVPEo8bj6tuSxfbEBu//R4GDFHLB0r12ivFO6HjRe59/Af9bSmzcdNVvPFCkm5ZWpWAqg/AtuXVahRRVzX6E07QLDKI8PT3joT4Sky3O3EfHZszJEQ6/a4m9MbRdkbkbncIEQo3KxvME1kNUIhvPZ+zuZ1bwc86DXgkJ8r0ODtDRk31+MeTM7NBKk3vDalgT8N3fBKpxi2I5cnP/HTWoK02AOrfAGnA4M8ZuAGNbUVpiDu9RPyJBNSyAdeR/cx9HVvOMMeFiOaLANrHHS/uMAEyOYN9CAMmWec5SxstT3IDES+EJ5mT8Wo5Sr5UIwH8+eKCTzbLvTIDA++NL4OKUrYU2ARbwv8GrbypWTVIQ+OQ+d2ZFRESjtvuM1Rvg6raVEYzSoZ5NWtBX4CWC4UNuCVipP8u39xKl0F7XqXTu0HwHDwLmHi0I6mPxxhziGWmAlCQ1HYXdqyc9EDHZ1ADQzSkRerzT1ev3tdufZxdgulFxvx4L6Jl+wLsuq6BeYsx/gah7Ixrb+i5zuzcS9oWiQ6fIYV1Ebgx9j+a0NMmt8KVRM/eN11KX4EGZbg3wau0z3GdlhSPVEjICRinO/oD8BkqULbZX2kcfV+RTLBfhbr3wvAs=
+
+%URL%
+https://www.syslog-ng.com/products/open-source-log-management/
+
+%LICENSE%
+GPL2
+LGPL2.1
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1723042108
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%REPLACES%
+eventlog
+
+%CONFLICTS%
+eventlog
+
+%DEPENDS%
+awk
+bash
+curl
+glib2
+glibc
+grpc
+json-c
+libcap
+libnet
+libnsl
+openssl
+pcre2
+protobuf
+systemd-libs
+
+%OPTDEPENDS%
+logrotate: for rotating log files
+libdbi: for the SQL plugin
+librabbitmq-c: for the AMQP plugin
+mongo-c-driver: for the MongoDB plugin
+libesmtp: for the SMTP plugin
+hiredis: for the Redis plugin
+libmaxminddb: for the GeoIP2 plugin
+net-snmp: for the SNMP plugin
+librdkafka: for the Kafka C plugin
+python: for Python-based plugins
+python-ply: for debugger CLI
+
+%MAKEDEPENDS%
+libxslt
+mongo-c-driver
+librabbitmq-c
+python
+libesmtp
+hiredis
+libdbi
+libmaxminddb
+net-snmp
+librdkafka
+systemd
+

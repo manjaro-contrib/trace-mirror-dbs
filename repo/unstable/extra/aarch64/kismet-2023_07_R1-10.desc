@@ -1,0 +1,88 @@
+%FILENAME%
+kismet-2023_07_R1-10-aarch64.pkg.tar.xz
+
+%NAME%
+kismet
+
+%BASE%
+kismet
+
+%VERSION%
+2023_07_R1-10
+
+%DESC%
+802.11 layer2 wireless network detector, sniffer, and intrusion detection system
+
+%CSIZE%
+10903628
+
+%ISIZE%
+30387657
+
+%MD5SUM%
+9b7e4efd20ec68ab5fd9183f47fe2892
+
+%SHA256SUM%
+59446021f24452e4168c650816c669bc7cf8100908ac36f3e432c05eaa621709
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmazl+sACgkQdxk/FSvb5qYTMg//Rd0GcNBwtebiZa6LsDrymdlE4m5h+7DpEK7wQE12LR+/K5DhvG5v+qHqXUFEYzA1T/oR4pQ+kXbqlByJFeSKqZTfLgG9fB6VTLn7rJekPh4wgm4NE1J0D7v60k0/KoFSdLAix7jw80EHPj5E8u+jkfziSKmsO8+H9F7HGMkhm8sX1e5kiU0JcDNOCkjhZF5NsE0aImcE8vongVIIEPqDG8l9wsVzaOGFepAFhMASaPwQYtvm3lSVhr+Oh2p75cICYlFEfb4SyxWJDiL2vhmov4DTKu845WHBQG5WDZWrQNa44gTGOSSZucYsumfSW+hqGEDN4nbSM+R6f4uKXgIWjBIM1dC7Dc4ZiPl2JRoiiIwErAkIy9pZKvoAhSNJ/axlWeLu4H8jfhJm+fSWZiVGelFk8rKcMumJPtuMS/jUX0zyVedLWuJPL6b0LwtvuLN5jSpLksHzne5n7SdCEqBrGkegyfJ9NjX3/UgF/O+MGfFH/pF4ikPuwxcnoFD10xsCTsF/uRJT8+TH1HaE9hT0pzKSniWuHGiW27dcwHMIW5RIFRoRRvfh99vn364Qo+3FCUAxuSmLQERWP1S4825eRUtLI7hlmSW57oSlOlGWxP1OWSj4iT/x9bKu+OGQ80DG8CquvOxuyghV7hJRY12U4Mu2Bw7Xhpx2z4NZTRGGWYc=
+
+%URL%
+https://www.kismetwireless.net/
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1723045343
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+libpcap
+pcre2
+bluez-libs
+libcap
+protobuf-c
+libprotobuf-c.so=1-64
+sqlite
+libnm
+gcc-libs
+libusb
+libusb-1.0.so=0-64
+libnl
+glibc
+zlib
+libelf
+lm_sensors
+systemd
+python
+python-setuptools
+python-protobuf
+python-pyserial
+python-numpy
+python-websockets
+libwebsockets
+libcap-ng
+libpcap.so=1-64
+libprotobuf.so=27.3.0-64
+libnm.so=0-64
+libwebsockets.so=19-64
+libsensors.so=5-64
+
+%OPTDEPENDS%
+gpsd: log coordinates of detected networks
+wireshark-cli: provide OUI files used to determine device manufacturer
+wireshark-cli: mergecap, to merge multiple capture files
+sox: provide the default kismet sound playback binary
+festival: text-to-speech support
+flite: alternative/lightweight text-to-speech support
+
+%MAKEDEPENDS%
+python-setuptools
+

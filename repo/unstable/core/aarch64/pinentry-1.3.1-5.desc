@@ -1,0 +1,72 @@
+%FILENAME%
+pinentry-1.3.1-5-aarch64.pkg.tar.xz
+
+%NAME%
+pinentry
+
+%BASE%
+pinentry
+
+%VERSION%
+1.3.1-5
+
+%DESC%
+Collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
+
+%CSIZE%
+164456
+
+%ISIZE%
+1086708
+
+%MD5SUM%
+f6ab967884b6cad481e19b7e3a9af0ea
+
+%SHA256SUM%
+98e12a3d5eab03b0ced3b11547ecfc077d02eaf6f28bc83186ba7bf40bc33cfe
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmadHboACgkQdxk/FSvb5qbvXQ//SNb2b5vqMKkeyBX/9ereiN0VPd274ZqNsla6h8CUdytOiEzyaKSkTWB+gsEHHoX6K2oweQ0/V9xuef72gs6JhG8KiuOfK0mUzNGHbXo+ZYTZym3tnXBVd6DPHCVlpaS6RNW3B7d/x4sT3qPsKr9iBAd2Qs0fHXVqcFoCA3ctPeJ0RubXd2lXctw8OUZuHdsHMrwcV3w0LqdP4Pmzxy7v6Xhm3L+i7xCfGTG7ONHnJyjH5sBDNEmyfHTpMdoO1DG2csoF0LUHdwdx2V/socN3Eo3cBe1kc6Ba4Nvd5dEcidQblheNI2Ah2U5iXZa9kboDoIXUSXB7eNdyYr5OO8BVK0czjqNffwBrAzYbI3simqJyZh59kdbmgaho+ngikDvGTAzu/6MebRf6+NyynANx5+6sqjTCt0FfYHGijJpwbLPWzC7mpiqqZC6BUx/qkeejcdpX6Os45HzxoJ8k2lujVptxriIFNa3raLP6LM120I0HTefwTUHqzvKoJFCH2+Y//+XhRQSQgMl2m/Wdw1Q/7qJmMXb+PWgZmcMxJvJDsJiX5GveKzMZ6QT0MGTKuD5/2MSKpgQitcWWV3bvp3dLuLJ+BjEWcBDdrwNmVWEjtpfCeC+Sl8muP2BjqGDvvaJlnxNpPqI3Jiu24WhQtTAZkFUcXVNOcL4T0czN+72WDWE=
+
+%URL%
+https://gnupg.org/related_software/pinentry/
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1721571170
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+glibc
+ncurses
+libassuan
+libsecret
+glib2
+libglib-2.0.so=0-64
+libncursesw.so=6-64
+libsecret-1.so=0-64
+
+%OPTDEPENDS%
+gcr: GNOME backend
+gtk3: GTK backend
+qt5-x11extras: Qt5 backend
+kwayland5: Qt5 backend
+kguiaddons: Qt6 backend
+kwindowsystem: Qt6 backend
+
+%MAKEDEPENDS%
+qt6-base
+qt5-x11extras
+kwayland5
+gtk2-compat
+gcr
+kguiaddons
+kwindowsystem
+
