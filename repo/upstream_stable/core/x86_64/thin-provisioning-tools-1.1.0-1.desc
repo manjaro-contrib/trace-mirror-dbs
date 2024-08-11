@@ -1,5 +1,5 @@
 %FILENAME%
-thin-provisioning-tools-1.0.13-1-x86_64.pkg.tar.zst
+thin-provisioning-tools-1.1.0-1-x86_64.pkg.tar.zst
 
 %NAME%
 thin-provisioning-tools
@@ -8,22 +8,22 @@ thin-provisioning-tools
 thin-provisioning-tools
 
 %VERSION%
-1.0.13-1
+1.1.0-1
 
 %DESC%
 Suite of tools for manipulating the metadata of the dm-thin device-mapper target
 
 %CSIZE%
-1013317
+1054001
 
 %ISIZE%
-3005474
+3137582
 
 %SHA256SUM%
-160ae74eda9ae26c124c89854aaf6b5e7a344177e60992223611b46c0d86bce4
+1d841549a09cec9ecac07d4b411d41f6902841a08bd631ea23526ca6d83fc35b
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZo+oGgAKCRBtQr3RFuAGjx1EAQCjnpKn82wdVOSqAvkUeeTsA8Hs0sJG7fzTXvfhk0tJ3AD/UkR4rR/q2cdy7EUNp6usOP/fdYqCfh75VZvQXESYlAY=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZrNYlAAKCRBtQr3RFuAGjzL0AQChZL2qeP28+m/tGSo43TRvX19k6vRdL/OjEOV5rlh2PQD7BuCjC+OsUboXYkUkydn29XfB7yZRKsVGxuewZUizrQo=
 
 %URL%
 https://github.com/jthornber/thin-provisioning-tools
@@ -35,14 +35,18 @@ GPL3
 x86_64
 
 %BUILDDATE%
-1720690676
+1723029570
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
 
 %DEPENDS%
 gcc-libs
+systemd-libs
 
 %MAKEDEPENDS%
+git
 cargo
+clang
+device-mapper
 
