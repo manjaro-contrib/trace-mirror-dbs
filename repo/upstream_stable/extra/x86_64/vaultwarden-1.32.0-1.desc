@@ -1,0 +1,60 @@
+%FILENAME%
+vaultwarden-1.32.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+vaultwarden
+
+%BASE%
+vaultwarden
+
+%VERSION%
+1.32.0-1
+
+%DESC%
+Unofficial Bitwarden compatible server written in Rust
+
+%CSIZE%
+8423726
+
+%ISIZE%
+31245709
+
+%SHA256SUM%
+35ef4c107cf69b142217e123c3dcfef853abea2cd65c718973d690fc73edfc6a
+
+%PGPSIG%
+iQIzBAABCgAdFiEEBNw/sURf7KgTwn766k97MhqQatkFAma5OeUACgkQ6k97MhqQatkm3xAAiRvBm6PCD7Zo0OKWTh7P5xquKdMVVsFqukbnwHmJuCEHlbHOxvgEbACmbFReNY+ZpOA04mJrq6skP8kv6I67X9+hcddLlTRZPbXSXKmjT9hThSy9lMljL00c+WA7cPRvveOCuAwNP+9hYg6mC6lzzW9+8N3chXN/rVO5ixPHrEMDW4G6ncezwN9EXoWlBXbD9rtS3KVGUpdg6bTBf+XXFcghucd9oRZqd+8x60QduSnmHEwTWaUUZE1gYfTsDhNrG3r5Ocadom/ig78OOz3dnhcMx4LZroxoox5d3fCkFqxr8Gs2Zb+3I4KH+LAn9PnIJJGUB3S2hB5GVH7qQipUY9tkELvtY+aEvCx0sbXDwOn+A0d1ypMQxrY6QhZuhA3Z8CR6I3emOf1ftksBQQVfvDRBSXhBbh8XC6OeXEjXSXaJK8zh9gtx7JsL/UFnGYKnfGbFvCBR96FG1FeXbmyNHDV+OJHYSOr5JMThltyccIoXwvhwxqrTIe5ceQ8ERqWTm5vR1+JBEGl5sMJwKFp4tI/rMnLXkJvR/U02wCn4KduQ1VyrbylHxYWyUPLsNYb8nF8tXVTV1NxJi5L7DEysiHXXAqmf77Ehi4gS/uLhw/vAriNnMUI815pYhz9/3s1kALUbx/+J92QPjjHsbpN6Vw2qIYTJIoMvjdv1aK6Bxuc=
+
+%URL%
+https://github.com/dani-garcia/vaultwarden
+
+%LICENSE%
+AGPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1723413415
+
+%PACKAGER%
+Daniel M. Capella <polyzen@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+openssl
+
+%OPTDEPENDS%
+vaultwarden-web: for the web app
+postgresql-libs: for one of the database backends
+sqlite: for one of the database backends
+mariadb-libs: for one of the database backends
+
+%MAKEDEPENDS%
+git
+postgresql-libs
+rust
+sqlite
+mariadb-libs
+
