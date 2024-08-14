@@ -1,0 +1,16 @@
+%DEPENDS%
+glibc
+krb5
+libkrb5.so=3-64
+libgssapi_krb5.so=2-64
+libcap-ng
+libcap-ng.so=0-64
+
+%PROVIDES%
+libaudit.so=1-64
+libauparse.so=0-64
+
+%OPTDEPENDS%
+libldap: for audispd-zos-remote
+sh: for augenrules
+
