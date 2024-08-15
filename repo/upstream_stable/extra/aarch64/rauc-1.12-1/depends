@@ -1,0 +1,28 @@
+%DEPENDS%
+gcc-libs
+glibc
+libnl
+openssl
+sh
+curl
+libcurl.so=4-64
+glib2
+libgobject-2.0.so=0-64
+libgio-2.0.so=0-64
+libglib-2.0.so=0-64
+json-glib
+libjson-glib-1.0.so=0-64
+util-linux-libs
+libfdisk.so=1-64
+
+%OPTDEPENDS%
+casync: for casync conversion support
+cryptsetup: for disk encryption support
+dosfstools: for creating and checking FAT filesystems
+e2fsprogs: for creating and checking ext2/3/4 filesystems
+efibootmgr: for interacting with EFI boot manager
+grub: for GRUB support
+mtd-utils: for interacting with MTD devices
+squashfs-tools: for creating and inspecting bundles
+uboot-tools: for u-boot support
+
