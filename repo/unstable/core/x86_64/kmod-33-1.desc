@@ -1,5 +1,5 @@
 %FILENAME%
-kmod-32-1-x86_64.pkg.tar.zst
+kmod-33-1-x86_64.pkg.tar.zst
 
 %NAME%
 kmod
@@ -8,25 +8,25 @@ kmod
 kmod
 
 %VERSION%
-32-1
+33-1
 
 %DESC%
 Linux kernel module management tools and library
 
 %CSIZE%
-122063
+125986
 
 %ISIZE%
-298523
+305371
 
 %MD5SUM%
-cebc3beb45765e5664fbc6d492d2798d
+026acb35c1e7db7357204382da24fcda
 
 %SHA256SUM%
-9abd6fd54052b48b2bac6e709e25e7be876f68d84949ed4615a3fb8803f2a736
+cdccb7257e5a0300ea29920ad44356ff69a10a3076cd5db0c4e8327c23ac3a0e
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZegwsQAKCRBtQr3RFuAGj3QXAQDqrsXu36gY3rprKLSh3b3O0VYDQk7UHHSCAveZEHpvxQD/dR6SLukPahSQ8LABJmCFHk4w4d1PgBDRCczcaMYR2QE=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZrxkTAAKCRBtQr3RFuAGjxX0AP9CaRg4/3ZzwsYLiURjeYWfPTMj8d4vqQGBcQbj+3X9WQD+IcV64ZetiIDxYs+ZtP2pzUjIpEfijM5vvK00ZdDBJgk=
 
 %URL%
 https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git
@@ -38,7 +38,7 @@ GPL2
 x86_64
 
 %BUILDDATE%
-1709715530
+1723622277
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
@@ -59,6 +59,9 @@ zlib
 openssl
 xz
 zstd
+
+%MAKEDEPENDS%
+scdoc
 
 %CHECKDEPENDS%
 linux-headers
