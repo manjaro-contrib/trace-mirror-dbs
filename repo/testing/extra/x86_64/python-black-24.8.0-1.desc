@@ -1,0 +1,75 @@
+%FILENAME%
+python-black-24.8.0-1-any.pkg.tar.zst
+
+%NAME%
+python-black
+
+%BASE%
+python-black
+
+%VERSION%
+24.8.0-1
+
+%DESC%
+Uncompromising Python code formatter
+
+%CSIZE%
+396893
+
+%ISIZE%
+2048934
+
+%MD5SUM%
+9ba3936393c1ab8f9c411f192bfc4139
+
+%SHA256SUM%
+5d2563674bb736b6cd1480f4d7c63414884de83132456bba07a93107239cb19e
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCZrFf8AAKCRDglZ/qi1UFOZoKAP9F2w1fieymeaN95Owof82xB32y1enm3IzAGtEe9TO2JAD/Zn07KJ4GU/EKAQpfFR+sdraqknhz1RjlQxuZsjGBQwE=
+
+%URL%
+https://github.com/psf/black
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1722900386
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+python
+python-click
+python-mypy_extensions
+python-packaging
+python-pathspec
+python-platformdirs
+
+%OPTDEPENDS%
+ipython: for Jupyter notebook support
+python-tokenize-rt: for Jupyter notebook support
+python-aiohttp: for the blackd HTTP server
+python-colorama: for colored diffs
+
+%MAKEDEPENDS%
+git
+python-build
+python-hatch-fancy-pypi-readme
+python-hatch-vcs
+python-hatchling
+python-installer
+
+%CHECKDEPENDS%
+ipython
+python-aiohttp
+python-parameterized
+python-pytest
+python-typed-ast
+python-tokenize-rt
+
