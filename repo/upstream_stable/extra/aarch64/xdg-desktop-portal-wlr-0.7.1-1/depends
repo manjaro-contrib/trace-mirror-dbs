@@ -1,0 +1,20 @@
+%DEPENDS%
+glibc
+libdrm
+libinih
+libpipewire
+mesa
+pipewire
+pipewire-session-manager
+systemd-libs
+wayland
+xdg-desktop-portal
+
+%PROVIDES%
+xdg-desktop-portal-impl
+
+%OPTDEPENDS%
+bemenu: to choose which output to screencast using bemenu
+slurp: to choose which output to screencast using slurp
+wofi: to choose which output to screencast using wofi
+
