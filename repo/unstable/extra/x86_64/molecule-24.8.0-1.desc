@@ -1,0 +1,88 @@
+%FILENAME%
+molecule-24.8.0-1-any.pkg.tar.zst
+
+%NAME%
+molecule
+
+%BASE%
+molecule
+
+%VERSION%
+24.8.0-1
+
+%DESC%
+Aids in the development and testing of Ansible roles
+
+%CSIZE%
+138952
+
+%ISIZE%
+889665
+
+%MD5SUM%
+92f1335c3dccd8723f31b56a7a998da5
+
+%SHA256SUM%
+2f4c7aacf8041f705035c4919a05faed66f275c7f5888901eb7a0a8620950d24
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmbAWMkACgkQ/cMEC5Ksp0iwVA/6A/peKezAhwiTrWWa9VBK+TB4xZ0TCy0CtYeXf6vWPD2lp0GR0pTitNpXQO7/S5jZkFrndDt6tJHvFr3MeE0Jljl+FNPBVI78bw0m2/JIPIKtMALy+/ewfVDFdLVlD7kDHO2/J/aLuN2XVJGA0HzWrpfOeF/xalIUzicuzIScu/uJyeprv05PUAPFsWiY7+moBPpirYJFDpEPlsw+078rGLrdMGvuZn+lDwb+GQJzoyTVqFScVyRreaeT2+UpBI6P95xDNPKs1LI7/J5bwoCXCwQVFSnZIbtKLPdxHptqjekU9daNE4pnk+lBY5Zg+xzDoqJZbDr0JUPqrse/D+gJGGopLCRBN17ihylz71DIsK8J4I9NWNyTgp7HKavNMEClbEIZnIfz871INtIuy9UeKa0LihIGcMvv03pyOgyV5PO2Fqz+ca1GxKJgL0O53eujBCSnLdtfCDlQshyFewRN6F/wK2RPhVrwimd06RnA8zKt7dhoazN3VirqZEt1FD6Df4NYvx7P63MmCEgy4IDSBek9LgTXNEwrQpqmcK9WQ4a8cAMQxXvQz6ihgstRn2egDYNOqxlNEF8vHob/gBg8yKQkRtybF5G4lz5fI98wGshBVkVolS7EA4aZLwlSyCWeOgLbNj7ahVd6A9VZZN4F0w/wKCS3Q36sLh5ypGQmDjk=
+
+%URL%
+https://github.com/ansible-community/molecule
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1723881552
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-ansible-compat
+python-click
+python-click-help-colors
+python-enrich
+python-jinja
+python-jsonschema
+python-packaging
+python-pluggy
+python-pyyaml
+python-rich
+python-wcmatch
+
+%OPTDEPENDS%
+ansible: for the ansible verifier
+molecule-docker: for the docker driver
+molecule-podman: for the podman driver
+molecule-vagrant: for the vagrant driver
+python-pywinrm: for Windows support
+python-pytest-testinfra: for the testinfra verifier
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+git
+
+%CHECKDEPENDS%
+ansible
+check-jsonschema
+python-ansi2html
+python-filelock
+python-pexpect
+python-pytest
+python-pytest-mock
+python-pytest-testinfra
+python-pytest-xdist
+python-regress
+yamllint
+
