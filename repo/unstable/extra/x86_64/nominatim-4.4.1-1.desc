@@ -1,0 +1,91 @@
+%FILENAME%
+nominatim-4.4.1-1-any.pkg.tar.zst
+
+%NAME%
+nominatim
+
+%BASE%
+nominatim
+
+%VERSION%
+4.4.1-1
+
+%DESC%
+Geocoding tool using OpenStreetmap data
+
+%CSIZE%
+15096731
+
+%ISIZE%
+17438944
+
+%MD5SUM%
+d51f85ad0a930a9a06f9e31f9cbf748c
+
+%SHA256SUM%
+4256967891af6dcd1fc18b81a8bfcd0ab949d1852aa30682f19210d485063728
+
+%PGPSIG%
+iQIzBAABCAAdFiEEph5oDnze5xbx8Yihae9tnkmmTrgFAmbE2EUACgkQae9tnkmmTrjVlQ//c86WXvxdZ5IXKIaOACCSYTObzwdc3WLoK+c/w+DyTo5UssW3PZR8q9wLza0gL/bknipxQd+vT9G/GCElwGgZ3lZZQbMZMNAVaC4um3Yq87zSRl1b+ZSHqkZ9lwYnkccOh8/Z3jA1xB5CRDHRn7E8GPZFRcUAYZSVTa12GmX69mCXOW6EPF61AXZjnXp3gY5QWpYc8CDbcHGaSSK5AaR9rjOMEEVq77+NFLyLApNCBOZj7vDLHcHh/fi216PYQacHvlkv47CZQi2cJXgXNfOi3YIhOPwloWY9hf4c2oBXoEbQ+qzy5vQWcWZZ8MrPTBOsFVzcyoDhuvIWcxyutEgO2Ahgup2BJWvJFJJ9ZNmPNkPYHFpIRvv6rJ7z6ekyNb5U01iBjXEQ4RKPYWAsFzdT588NuszJCNwUSkD8zCy7sArm7YgWTzENTaBia8PE/lq2bkBWLueT/ERRpKcyz9VrH3uyD0nSEMeyEfLbo40Tm87PFf3ygY7Aurjl/FUmPYrKVCyIyfXNNKd3j3BKX+nJwKQDlChVnP1rZZQNWJwfmCHQ19hx/WMNaPVBg/X8EpobdhZ43BYdYUwOsJPlIgWXFHfn0TCl3oXKJXjzzIyt0Z03rY3vrDL5G4p9ZRMb7X+E+b9n/kyR123yZi7CxxW84u2KK2yeYDz3GS33qxsrAwI=
+
+%URL%
+https://nominatim.org
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+any
+
+%BUILDDATE%
+1724176398
+
+%PACKAGER%
+Justin Kromlinger <hashworks@archlinux.org>
+
+%DEPENDS%
+expat
+proj
+boost
+boost-libs
+libosmium
+osm2pgsql
+postgresql
+postgis
+python-asyncpg
+python-psycopg2
+python-dotenv
+python-psutil
+python-jinja
+python-pyicu
+python-yaml
+python-requests
+python-osmium
+python-ujson
+python-falcon
+python-sqlalchemy
+python-datrie
+uvicorn
+gunicorn
+libdatrie
+perl
+
+%OPTDEPENDS%
+nginx: http server for python or php frontends
+apache: http server for python or php frontends
+php: Legacy PHP frontend
+php-cgi: Legacy PHP frontend
+php-intl: Legacy PHP frontend
+php-pgsql: Legacy PHP frontend
+python-starlette: Alternative Python frontend using Starlette ASGI framework
+nominatim-data-wikipedia: optional auxiliary data source to help indicate the importance of OSM features
+nominatim-data-postcodes-gb: improve searches that involve a UK postcode
+nominatim-data-postcodes-us: improve searches that involve a US postcode
+nominatim-data-tiger: improves searches that involve US house numbers
+
+%MAKEDEPENDS%
+clang
+cmake
+git
+php
+
