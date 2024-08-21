@@ -1,0 +1,40 @@
+%DEPENDS%
+expat
+proj
+boost
+boost-libs
+libosmium
+osm2pgsql
+postgresql
+postgis
+python-asyncpg
+python-psycopg2
+python-dotenv
+python-psutil
+python-jinja
+python-pyicu
+python-yaml
+python-requests
+python-osmium
+python-ujson
+python-falcon
+python-sqlalchemy
+python-datrie
+uvicorn
+gunicorn
+libdatrie
+perl
+
+%OPTDEPENDS%
+nginx: http server for python or php frontends
+apache: http server for python or php frontends
+php: Legacy PHP frontend
+php-cgi: Legacy PHP frontend
+php-intl: Legacy PHP frontend
+php-pgsql: Legacy PHP frontend
+python-starlette: Alternative Python frontend using Starlette ASGI framework
+nominatim-data-wikipedia: optional auxiliary data source to help indicate the importance of OSM features
+nominatim-data-postcodes-gb: improve searches that involve a UK postcode
+nominatim-data-postcodes-us: improve searches that involve a US postcode
+nominatim-data-tiger: improves searches that involve US house numbers
+
