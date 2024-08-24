@@ -1,0 +1,69 @@
+%FILENAME%
+python-httpcore-1.0.5-1-any.pkg.tar.zst
+
+%NAME%
+python-httpcore
+
+%BASE%
+python-httpcore
+
+%VERSION%
+1.0.5-1
+
+%DESC%
+A minimal HTTP client
+
+%CSIZE%
+122922
+
+%ISIZE%
+967880
+
+%SHA256SUM%
+08f73f540db44f6e06fff174437ebd27685b743453a586b8982a813314d3b77f
+
+%PGPSIG%
+iHUEABYKAB0WIQQNmeQ7UMKtIbreRjJJPeIcgk6VQQUCZi58ggAKCRBJPeIcgk6VQRqJAQDnWcdFbORVY0lQFSU4WJnTFP6iZ+MEE2b2OVxxvu0znAEAx4b95oBWfCm4e6IN92ykBEdHP63T23XvtqXjiNLdNQ4=
+
+%URL%
+https://github.com/encode/httpcore
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1714322484
+
+%PACKAGER%
+Chih-Hsuan Yen <yan12125@archlinux.org>
+
+%DEPENDS%
+python
+python-h11
+python-certifi
+
+%OPTDEPENDS%
+python-h2: for HTTP/2 support
+python-socksio: for SOCKS support
+python-anyio: for asyncio backend
+python-trio: for trio backend
+python-sniffio: for async support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-hatchling
+python-hatch-fancy-pypi-readme
+python-h2
+python-socksio
+python-trio
+python-anyio
+python-sniffio
+
+%CHECKDEPENDS%
+python-pytest-httpbin
+python-pytest-trio
+
