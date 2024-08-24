@@ -1,5 +1,5 @@
 %FILENAME%
-kmod-33-1-x86_64.pkg.tar.zst
+kmod-33-2-x86_64.pkg.tar.zst
 
 %NAME%
 kmod
@@ -8,34 +8,35 @@ kmod
 kmod
 
 %VERSION%
-33-1
+33-2
 
 %DESC%
 Linux kernel module management tools and library
 
 %CSIZE%
-125986
+126023
 
 %ISIZE%
-305371
+305367
 
 %SHA256SUM%
-cdccb7257e5a0300ea29920ad44356ff69a10a3076cd5db0c4e8327c23ac3a0e
+684be2992158bf9e675bfd0a40f0f6dc5cff0380bd0f65892545b593db06f4f2
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZrxkTAAKCRBtQr3RFuAGjxX0AP9CaRg4/3ZzwsYLiURjeYWfPTMj8d4vqQGBcQbj+3X9WQD+IcV64ZetiIDxYs+ZtP2pzUjIpEfijM5vvK00ZdDBJgk=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZsc6jwAKCRBtQr3RFuAGj1l2AP9Cm/cMHMrvmdXvaCWNSYZIO3zzVlzNZ2633WSAsIKWaAEAnf7bk/BA4M2T89THogKyp9WWVcDAGxpP8Ltl/QhAOAw=
 
 %URL%
 https://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git
 
 %LICENSE%
-GPL2
+LGPL-2.1-or-later
+GPL-2.0-or-later
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1723622277
+1724332536
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
@@ -58,6 +59,7 @@ xz
 zstd
 
 %MAKEDEPENDS%
+git
 scdoc
 
 %CHECKDEPENDS%
