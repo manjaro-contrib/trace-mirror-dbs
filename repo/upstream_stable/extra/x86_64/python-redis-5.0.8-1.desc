@@ -1,0 +1,69 @@
+%FILENAME%
+python-redis-5.0.8-1-any.pkg.tar.zst
+
+%NAME%
+python-redis
+
+%BASE%
+python-redis
+
+%VERSION%
+5.0.8-1
+
+%DESC%
+The Python interface to the Redis key-value store
+
+%CSIZE%
+485829
+
+%ISIZE%
+3629683
+
+%SHA256SUM%
+8d3500c3798ebadcd7f696629f19e939168ca0b6ef37ffa4e48a27bea4ea27d2
+
+%PGPSIG%
+iHQEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZqnJBgAKCRDwXowSExrrXgUqAQDXHKgS3T9+6cQyVDSIWqZKcH1cs7cRfDOHHE2tpSX5sQD1GqdLINN7PISeXiLXSY+gZlJHptD/Tdj87zIO34FQAA==
+
+%URL%
+https://github.com/redis/redis-py
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1722402852
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-async-timeout
+
+%OPTDEPENDS%
+python-cryptography: OCSP certificate validation
+python-hiredis: faster performance via hiredis
+python-pyopenssl: OCSP certificate validation
+python-requests: OCSP certificate validation
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-cryptography
+python-hiredis
+python-numpy
+python-pyopenssl
+python-pytest
+python-pytest-asyncio
+python-requests
+redis
+
