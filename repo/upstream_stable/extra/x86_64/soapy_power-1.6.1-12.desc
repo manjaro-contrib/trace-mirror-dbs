@@ -1,0 +1,62 @@
+%FILENAME%
+soapy_power-1.6.1-12-any.pkg.tar.zst
+
+%NAME%
+soapy_power
+
+%BASE%
+soapy_power
+
+%VERSION%
+1.6.1-12
+
+%DESC%
+Obtain power spectrum from SoapySDR devices
+
+%CSIZE%
+38860
+
+%ISIZE%
+182923
+
+%SHA256SUM%
+8f7e8a29424066d96981f2664fadcf20f38e320c0b2157dfad0bdfbee0b346ad
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYPtIQACgkQwGCGM3xQdz45Wwf8DiQM8IWdmwPKSV+7EKs68OxT/zUUDjFmtAP/++nK2dT99XXkGGGrq2VOCH/OvrMWfIsokyiNqw4ziFSdMKyBjCsm6fgefqti/vYyfATkntH+sP7RVYOafA3M4fneADawDKcF2A9oxKaN9yPyzPRtKidvxqqLsNOJBZmYsxBt/w7V7Ni3HaxP2QdM/qrFWnbE8BJyf9Uy6q9UqMHuUYXTOrq8NSH9IGeLVmpZrbmKdUFPMV9K5ABQhh0Gnthly6Dwsubp03Nc1OhcK8pe5Vv8s9gHjs02PnD6l4p4PVWNtszMrjnqbcd1piZbYnfFN2Mh7ZOlJz8o5iR3VoNhRcpT0Q==
+
+%URL%
+https://github.com/xmikos/soapy_power
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712305273
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-numpy
+python-simplesoapy
+python-simplespectral
+
+%OPTDEPENDS%
+soapyrtlsdr: Support for RTL-SDR dongles
+soapyairspy: Support for Airspy R2 and Airspy Mini
+soapyhackrf: Support for HackRF
+soapybladerf: Support for Nuand bladeRF
+soapyuhd: Support for Ettus USRP
+soapylms7: Support for LimeSDR and other LMS7002M based Myriad RF boards
+soapyosmo: Support for MiriSDR and RFSpace
+soapyremote: Use any SoapySDR device remotely over network
+python-scipy: Faster FFT calculations with scipy.fftpack library
+
+%MAKEDEPENDS%
+python-setuptools
+
