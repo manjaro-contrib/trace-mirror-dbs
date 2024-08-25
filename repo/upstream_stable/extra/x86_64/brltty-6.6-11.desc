@@ -1,0 +1,121 @@
+%FILENAME%
+brltty-6.6-11-x86_64.pkg.tar.zst
+
+%NAME%
+brltty
+
+%BASE%
+brltty
+
+%VERSION%
+6.6-11
+
+%DESC%
+Braille display driver for Linux/Unix
+
+%CSIZE%
+1879422
+
+%ISIZE%
+9784351
+
+%SHA256SUM%
+2f2c8fcb04f87d2ab6bb4660083dd2e597fc11005856ac45036bb0ad70b4c6bd
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmZ8NqQACgkQek52CV2KUuR5VggAls8pziEGRrCcf48FEgHDM4czZgQjISrdGM0CdldKlren4iyBiArAhFJyvPZZyRy7mDBpNWiAT1Hxu/rVBfrk4hbokvfa2xBVYgyvFPbkdIG1ceglJmpqc4HfKIL9EjmVXdzQhiv4vKn5p8IuOBETT070HDX2tGRU6fHcA28Yw+NofVZZmU+fMPHZHT6gLQLnyzqPma4dd3TLTBo/SV2DQoPVCEEE1XfeMaXoQGnCbIW0fgGgyOPhpAemhsIW87S8XjV0Bswru8/7SqpaUsiGNtAWaO5+COds2LnHyEs/I88dua/2cz2kqFV2iaNIYJw+KvDwe0SkTVyV34AMIHzj9Q==
+
+%URL%
+https://brltty.app
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1719416045
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+libbrlapi.so=0.8-64
+
+%DEPENDS%
+alsa-lib
+libasound.so=2-64
+bluez-libs
+dbus
+libdbus-1.so=3-64
+expat
+libexpat.so=1-64
+glib2
+libgio-2.0.so=0-64
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+glibc
+gpm
+libgpm.so=2-64
+icu
+libicuuc.so=75-64
+libcap
+liblouis
+libspeechd
+ncurses
+libncursesw.so=6-64
+pcre2
+polkit
+systemd-libs
+libsystemd.so=0-64
+
+%OPTDEPENDS%
+at-spi2-core: X11/GNOME Apps accessibility
+atk: ATK bridge for X11/GNOME accessibility
+brltty-udev-generic: for initializing brltty with generic USB devices
+espeak-ng: espeak-ng driver
+java-runtime: Java support
+libxaw: X11 support
+libxt: X11 support
+libx11: for xbrlapi
+libxfixes: for xbrlapi
+libxtst: for xbrlapi
+ocaml: OCaml support
+python: Python support
+speech-dispatcher: speech-dispatcher driver
+tcl: tcl support
+
+%MAKEDEPENDS%
+alsa-lib
+at-spi2-atk
+at-spi2-core
+atk
+bluez-libs
+cython
+dbus
+dracut
+espeak-ng
+expat
+festival
+gcc-libs
+glibc
+glib2
+gpm
+icu
+java-environment
+libcap
+liblouis
+libspeechd
+libxaw
+ncurses
+ocaml-ctypes
+ocaml-findlib
+pcre2
+polkit
+python-setuptools
+speech-dispatcher
+strip-nondeterminism
+systemd-libs
+tcl
+
