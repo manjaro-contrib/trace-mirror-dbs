@@ -1,0 +1,69 @@
+%FILENAME%
+pinentry-1.3.1-5-x86_64.pkg.tar.zst
+
+%NAME%
+pinentry
+
+%BASE%
+pinentry
+
+%VERSION%
+1.3.1-5
+
+%DESC%
+Collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
+
+%CSIZE%
+188903
+
+%ISIZE%
+776268
+
+%SHA256SUM%
+8c4269909f4a423388c5f7a1145b8fecf989e3f88f5bb364af73aeb25da34706
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZpg5XwAKCRCbeih9mi7GCFIQAP9+jJK1qmU5tGePfrsNVDlpVLs+Hemiytwrgu+byYdkhwEA0AMU+4BVjz5TLzOIc/H8DNy0jy7m1+/VI8S2KZ1d/A0=
+
+%URL%
+https://gnupg.org/related_software/pinentry/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1721252142
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+glibc
+ncurses
+libassuan
+libsecret
+glib2
+libglib-2.0.so=0-64
+libncursesw.so=6-64
+libsecret-1.so=0-64
+
+%OPTDEPENDS%
+gcr: GNOME backend
+gtk3: GTK backend
+qt5-x11extras: Qt5 backend
+kwayland5: Qt5 backend
+kguiaddons: Qt6 backend
+kwindowsystem: Qt6 backend
+
+%MAKEDEPENDS%
+qt6-base
+qt5-x11extras
+kwayland5
+gtk2-compat
+gcr
+kguiaddons
+kwindowsystem
+

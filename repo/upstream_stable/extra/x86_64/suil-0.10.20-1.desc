@@ -1,0 +1,73 @@
+%FILENAME%
+suil-0.10.20-1-x86_64.pkg.tar.zst
+
+%NAME%
+suil
+
+%BASE%
+suil
+
+%VERSION%
+0.10.20-1
+
+%DESC%
+A lightweight C library for loading and wrapping LV2 plugin UIs
+
+%CSIZE%
+26379
+
+%ISIZE%
+118350
+
+%MD5SUM%
+1b6bc1b225b79b35b231c11953bc8101
+
+%SHA256SUM%
+210574e80ea25f8ddf1a6b174121d8c233559c112d237f9e8002d89429e84584
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZToRzAAKCRCbeih9mi7GCHZFAQCoXLJOSvh/v6GzyOkX8Xtc5QripmxYbQn3Rk2T6eDDrAD7BbVTLIGhDMCecAn+8uCheKnKQ1/umBHYpIV2egKhFgw=
+
+%URL%
+https://drobilla.net/software/suil.html
+
+%LICENSE%
+0BSD OR ISC
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1698304339
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+libsuil-0.so=0-64
+
+%DEPENDS%
+gcc-libs
+glibc
+lv2
+
+%OPTDEPENDS%
+glib2: support for wrapping X11 and Qt5 in GTK3 and GTK2
+gtk2: support for wrapping X11 and Qt5 in GTK2 and GTK2 in Qt5
+gtk3: support for wrapping X11 and Qt5 in GTK3
+libx11: support for wrapping X11 directly and in GTK3 and GTK2
+qt5-base: support for wrapping X11 in Qt5 and Qt5 in GTK3 and GTK2
+qt5-x11extras: support for wrapping X11 in Qt5
+
+%MAKEDEPENDS%
+doxygen
+gtk2
+gtk3
+lv2
+meson
+python-sphinx
+python-sphinx-lv2-theme
+python-sphinxygen
+qt5-base
+qt5-x11extras
+
