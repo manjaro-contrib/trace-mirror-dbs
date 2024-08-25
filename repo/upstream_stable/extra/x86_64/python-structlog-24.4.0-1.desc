@@ -1,0 +1,70 @@
+%FILENAME%
+python-structlog-24.4.0-1-any.pkg.tar.zst
+
+%NAME%
+python-structlog
+
+%BASE%
+python-structlog
+
+%VERSION%
+24.4.0-1
+
+%DESC%
+Structured Logging for Python
+
+%CSIZE%
+112965
+
+%ISIZE%
+688098
+
+%SHA256SUM%
+98afd6c0ffe7743fd87d8094b2874256b38ece2a8da6fff712eba3fe21912af8
+
+%PGPSIG%
+iHUEABYKAB0WIQQNmeQ7UMKtIbreRjJJPeIcgk6VQQUCZqSNFAAKCRBJPeIcgk6VQZXpAPwKO+rHcaDXI7dWfpQ/6FVLg5dZ+57RQZFNr6Y7XGUAYgEAznVYztIARhr59u5oqb9zCuoChpSQW/5msUx39hDpaAM=
+
+%URL%
+https://www.structlog.org
+
+%LICENSE%
+MIT OR Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1722059991
+
+%PACKAGER%
+Chih-Hsuan Yen <yan12125@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-greenlet: for greenlet support in structlog.threadlocal (deprecated)
+python-twisted: for structlog.twisted
+python-rich: for structlog.dev
+
+%MAKEDEPENDS%
+git
+openssh
+python-build
+python-installer
+python-hatchling
+python-hatch-vcs
+python-hatch-fancy-pypi-readme
+
+%CHECKDEPENDS%
+python-pytest
+python-freezegun
+python-pretend
+python-simplejson
+python-twisted
+python-rapidjson
+python-greenlet
+python-pytest-asyncio
+python-rich
+
