@@ -1,0 +1,70 @@
+%FILENAME%
+python-pydantic-extra-types-2.9.0-1-any.pkg.tar.zst
+
+%NAME%
+python-pydantic-extra-types
+
+%BASE%
+python-pydantic-extra-types
+
+%VERSION%
+2.9.0-1
+
+%DESC%
+Extra pydantic types
+
+%CSIZE%
+57971
+
+%ISIZE%
+363764
+
+%SHA256SUM%
+ee6f2376a54569c8d38fc44131c3bfe1ac2726fd1ca3fcf58e058d5c2fda0f44
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZoaOxgAKCRCbeih9mi7GCJBOAP4vYlWJorQOMHTpZJ2JzHuuGTCpcZU3ZN3GLidlIoFh3wEA9FuOtc7lE3GrokAoqKP01cFX+ADtjzYO9QCsFsz33QA=
+
+%URL%
+https://github.com/pydantic/pydantic-extra-types
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1720094245
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-pydantic
+python-pydantic-core
+
+%OPTDEPENDS%
+python-pendulum: for datetime support
+python-phonenumbers: for phone number support
+python-pycountry: for country code support
+python-pytz: for timezone support
+python-semver: for semantic versioning support
+python-tzdata: for timezone support
+python-ulid: for ULID support
+
+%MAKEDEPENDS%
+python-build
+python-hatchling
+python-installer
+
+%CHECKDEPENDS%
+python-dirty-equals
+python-pendulum
+python-phonenumbers
+python-pycountry
+python-pytest
+python-semver
+python-ulid
+

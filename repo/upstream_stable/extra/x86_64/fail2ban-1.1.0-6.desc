@@ -1,0 +1,61 @@
+%FILENAME%
+fail2ban-1.1.0-6-any.pkg.tar.zst
+
+%NAME%
+fail2ban
+
+%BASE%
+fail2ban
+
+%VERSION%
+1.1.0-6
+
+%DESC%
+Bans IPs after too many failed authentication attempts
+
+%CSIZE%
+897569
+
+%ISIZE%
+5120321
+
+%SHA256SUM%
+d2dfadc2e28c62d9499ac62ffc632f18a4315245cf92adba1b8b297fc0252408
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmaRWeoACgkQeGxj8zDXy5LIwQ/+LsUPvb0YiRYRmgWnRfdbXnHjUSUmAkN1zt3s2Un2/rhYKG7JYs8NpdKB5dA90CIG0z5DZzDTB8Kk3PA6GT0k7mascKTDDcHja0GQXLgiHVNd5Z60MuHxYJFyEMQxgdEH0HkBczDqLmaJIC+en+yxs9uxsx0VhJ8X3f/L5XOEk5utB5Ug56JWTzuMdmkNOjIIwvFoTnMxX4aprTqMSjktYfvpPwPR8xJ9lsyHR8rJQcwCqK8dU/kJc9qrRv0uCPzyQjv4VP6+nRHH4TJ4A0nROKG0nbY8TX5Q7dpS1pqSXuF1Uzh2eWBJKUf59zrQsc61XALrAA1mxoFtuttnEFLH8jPy4w9khfb8rvX0/SMSIaYXO5XNE9/GpiWejww0DlBUlFSIM+EapWg52jufXiBOt2j3DflWef55SjVgBqUGVuF/XlVVekNbjAZNPxfmckh2Gk69VACL8Dj49yZ+N1uMEjjbMuhbT6uKFFty+q7mb21Dk1+ollD96QT3ah996HvodSYQQ2vxYHPwrq8CWZWkjtKLuoOItxoLkv9UY/CD+a3G6+54AQo5L7npOa9HmFfm3picTh032uD3z0p4r1Ko8MwwmAWLBRygMhH3KG7NMqrktM6aiqrV00CdwuIS1LOfP0eQ/JsdxnBY5InkYrUj+MBij3lUgtULEkFf4vZwta0=
+
+%URL%
+https://www.fail2ban.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1720801602
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python-pyinotify
+python-systemd
+sqlite
+whois
+
+%OPTDEPENDS%
+firewalld: for a firewall backend
+ipset: for a firewall backend
+iptables: for a firewall backend
+nftables: for a firewall backend
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
