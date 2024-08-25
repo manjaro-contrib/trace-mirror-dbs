@@ -1,0 +1,77 @@
+%FILENAME%
+binwalk-2.4.1-1-any.pkg.tar.zst
+
+%NAME%
+binwalk
+
+%BASE%
+binwalk
+
+%VERSION%
+2.4.1-1
+
+%DESC%
+Tool for searching a given binary image for embedded files
+
+%CSIZE%
+257451
+
+%ISIZE%
+1400448
+
+%SHA256SUM%
+809005fbb6400c51ff66e63d33453254694f781271ace8e2b8128f45cceb9860
+
+%PGPSIG%
+iQIzBAABCgAdFiEE4kC1fixGMLp2ji8m/BtUfI2BcsgFAmZU7jEACgkQ/BtUfI2BcsihghAAh8Hoi9tqWXG/TxeVn2C8FKKTJIUi4netRPz4pSbc2AC3t/kvttGoh1C+3Kspyfs4/sO3NBiWFxK1CnIC1zzN5+dcw08yEMfnUs4RxuKL8q6niytMOIwEMajNp5/9bnt1cNXHIbiVcoDnoHn10npoGAXQpE+iGhE4KdiZ+2LEMmPhgbjav37rn6XtKM0wUoTy9Fua2TtzEWb8B6Kv2aLn8LzrPxpsAPOVjR1MdVsJG4IbDEtUFI0OgmcGyBFTOeM54G3qFGupp3MaTyvTMWmVJJil4NQhfSo2oKfrM45KIWdTv5ITpFw0woHQBeTPmFdeSwkSAiOrAiLdll7Py/COllvxhUHuFv7kwlVfm5Wm1nCHpm+1a5uIuKXUhjwCWG72+wTHsY7o6oknsBUzVNGiEtCsN/xoawaDQJh97ljg8d4yikTIhOJOHokclqRKsM0CaCjUYCrbSGyygCz2isJExIQKazT5I17e9H1hJ2Ft+98S/LQfoqtx6pgaU8LMXXh1vVz3QzeaWzDu+7usNCzI61UBqdYLHMEXPEAtKvfVjaEcLiBi45N27dN3obKrld+CtuXa3Kvfkrj3obKLgB1M9azU7cAB2mcjHFrSY+4aU6hN4Ka6DLD3HlAJ9xGOTGcjHZQHTmwxb4hve/HUQb/713ISqVin+0zu1KJic3hN5hs=
+
+%URL%
+https://github.com/OSPG/binwalk
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1716841986
+
+%PACKAGER%
+Levente Polyak <anthraxx@archlinux.org>
+
+%DEPENDS%
+python
+python-setuptools
+
+%OPTDEPENDS%
+python-opengl: binviz module support
+python-capstone: disassembly support
+python-matplotlib: entropy plotting
+python-pyqtgraph: entropy plotting
+python-numpy: entropy module
+python-numba: entropy module
+python-gnupg: pgp plugin
+arj: ARJ decompression support
+cabextract: CAB archive support
+cpio: CPIO archive support
+gzip: GZIP decompression support
+mtd-utils: JFFS filesystem support
+p7zip: ZIP, LZMA and ISO decompression support
+squashfs-tools: squashfs support
+tar: TAR archive support
+bzip2: BZIP2 archive support
+unrar: RAR decompression support
+xz: XZ decompression support
+lhasa: LHA support
+sleuthkit: forensic analysis support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+

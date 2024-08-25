@@ -1,0 +1,81 @@
+%FILENAME%
+cmus-2.11.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+cmus
+
+%BASE%
+cmus
+
+%VERSION%
+2.11.0-1
+
+%DESC%
+Feature-rich ncurses-based music player
+
+%CSIZE%
+288665
+
+%ISIZE%
+857556
+
+%SHA256SUM%
+58414d8ec4970f0d1637da3dc868a9240e5567bc50781f7ae59a9b6dac18344e
+
+%PGPSIG%
+iQIzBAABCAAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmZ4oEAACgkQk7EdqkwZfj1PzRAAoNe1pQdA8UgpSGv01+B+tfQxlVbS4KmV9C1tvBib7hFiR09cXkUlJ3zLgatjA1QVi4B8LFjAAPB+AlcNFqujUl2yYBcrztZaowcbb40cj6F/Ky/OlI3I1PC1ilj9lRwDHLCdfC1R8Xe9BRw24sD02s+X60nZKbsLEHYNRiGNqgqr/dx2soWnD1sUgKcfNhIu7qXJDKn5+ffe7qEqwNtnEg43PTX5MAu4HATTUdOBY5biwoaaTUx3uOYWfDJkipttr5f0sBmfZM1GFY7vYa985REMAWHu7b6vTFznvBmgRIJE0BzPFGO5tJQOtOlcfdgD2E07JNuVvs5FnBlFHpeHUTHOrxA25WXzEIa4FUe7OKmqNreHZ5PjdlPnJgWoBi9jxB6g28Krurxwa8qoZ6+Givt1BB9s9zltpREXoVyE8CE5byh8xitPvKRr0d2v2hAvlfucGkOw1Q6ucwg5kVPWkDeHlvh1CWgscWxp353oTN8/qqBbk4OZ1jXVOZot7GuzgAv16BbVHSEMnwMAIQKU7Yph/a6NFDpqRdvOwCC21pggxJVXVH9wc8h23KlGr5VGtN5f8C9/N6HaEsK+UkL3wEGG7pfBjJ2kTgq/d5EI4i+OxYCiVbW4loF/VMowg24+3VPMLaExI2R/4OiVnzlILEGKbV6RDR7FumG9sb9wKZw=
+
+%URL%
+https://cmus.github.io/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1719181181
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+libdiscid
+ncurses
+
+%OPTDEPENDS%
+alsa-lib: for ALSA output plugin support
+libao: for AO output plugin support
+libpulse: for PulseAudio output plugin support
+faad2: for AAC input plugin support
+ffmpeg: for ffmpeg input plugin support
+flac: for flac input plugin support
+jack: for jack plugin support
+libmad: for mp3 input plugin support
+libmodplug: for modplug input plugin support
+libmp4v2: for mp4 input plugin support
+libmpcdec: for musepack input plugin support
+libsamplerate: for sampe rate converter support
+libvorbis: for vorbis input plugin support
+libcdio-paranoia: for cdio support
+opusfile: for opus input plugin support
+wavpack: for wavpack input plugin support
+
+%MAKEDEPENDS%
+faad2
+ffmpeg
+flac
+jack
+libao
+libcdio-paranoia
+libmad
+libmodplug
+libmp4v2
+libmpcdec
+libpulse
+libsamplerate
+libvorbis
+opusfile>=0.12
+wavpack
+

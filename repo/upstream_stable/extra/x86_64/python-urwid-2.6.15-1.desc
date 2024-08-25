@@ -1,0 +1,71 @@
+%FILENAME%
+python-urwid-2.6.15-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-urwid
+
+%BASE%
+python-urwid
+
+%VERSION%
+2.6.15-1
+
+%DESC%
+Curses-based user interface library
+
+%CSIZE%
+528998
+
+%ISIZE%
+3605936
+
+%SHA256SUM%
+1ccc6620e0a1ffb358a80da6e7eee6ad8f6b86ebf15a985a3996e6637d4afa56
+
+%PGPSIG%
+iQIzBAABCgAdFiEEBNw/sURf7KgTwn766k97MhqQatkFAmad394ACgkQ6k97MhqQatkiXg//aWtUoBNRKnNkyp7tTdJ5F6N8UOBd4Samw2BpRoPfLAf93nnUVa7ru1QPwS+vcmFHXHdHnkNkCoQCkIl1Z8EO6TtNrfUTxjgnOXK9T6PSANLX+hN07Fz2q4ut/9fMaTTDiNYPCK+4hMrFvlWBexr4tEgCGC5RXSk2I8zusgylaJaCOnsxiBk+Jp+MxdRkWrwZFwtrSTqpRhSECF0KPbys7wMznsJN+YW31Mm+2v4WabjTpQkWUa1vtsmBtqJo2VuPImM1gq5QjTs+0v2JQs0Kc8OaWDU1bZP9yT1ZgvHxIbog99LZNQkZww50ojA2XfjgERV66mS9bcl2dFf6gDL8WdR6Owuse/ONFYGAP23+Okd5QPOC60uhXUV9WMFPWZbY9/5XLwgHL7OG2aIe0t/Nmj3qj1psrrlptzk/da6oQCJQuqjP1XKHL8l0XJN9ODV/Z0EesqPAuBsSgnENwYvnK+6Mu07HDNw19DSAUq/yoZVINrG3uw2XX4vaSO++GWKSO9QWnlfVKSTbZSMhME7BLGlhTx4jR9/HsnMJVL4WQad2A93+GCPzrAgW3aaDyglbUpom5IFwSJ1QjJ950A7rAOq8iCB7KAZaEV17NTViYie06O4FMLZaNHSSvS5SWodTzRh3bUhid3gXQq1LNPWdVdBufwV64xj9Xr9PKMhubWQ=
+
+%URL%
+https://urwid.org/
+
+%LICENSE%
+LGPL-2.1-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1721622428
+
+%PACKAGER%
+Daniel M. Capella <polyzen@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+python-typing_extensions
+python-wcwidth
+
+%OPTDEPENDS%
+python-gobject: for gobject integration
+python-pyserial: for LCD and serial integration
+python-pyzmq: for zmq integration
+python-tornado: for tornado integration
+python-trio: for trio integration
+python-twisted: for twisted integration
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-twisted
+python-tornado
+python-trio
+python-pyzmq
+python-gobject
+
