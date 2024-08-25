@@ -1,0 +1,55 @@
+%FILENAME%
+python-proxmoxer-2.0.1-5-any.pkg.tar.zst
+
+%NAME%
+python-proxmoxer
+
+%BASE%
+python-proxmoxer
+
+%VERSION%
+2.0.1-5
+
+%DESC%
+Python Wrapper for the Proxmox 2.x API (HTTP and SSH)
+
+%CSIZE%
+32416
+
+%ISIZE%
+131184
+
+%SHA256SUM%
+4759c0c9b7c3313717468fd4bd84c5087f9aa9864683c51a8a67bc184e808d36
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYQE5oACgkQwGCGM3xQdz4eZgf+KTdfWaHcz2qqd74VRuHWJYHUq53ugk9y/XuoALoExjp16O1maHfSEZC9O+AGydHIXKEtNECNnl2VRRgpsVB2HHlppfdPYTeB/h2BjGbWaMcT9FRc3188UzMsSa4h4WAQIjE/WwupR/JgiN04p6Ce05wy6K+fNFYPeqwH9T7lEe39kj1JinMRjXnrYAFXh22d6V8CMvuFu41xWfNWc87R3RIgxZzQVnc/63edzTDB9d1hZ5PeHU6ij7lAZNQvR3NBiSqp2a02Zy8eTex6FauM2EtcfsSbVnmAhRPBPkEA/+kfethBhLYLql8l57mMX45tj7sYkw2vetEqPh/+B8/YWQ==
+
+%URL%
+https://github.com/proxmoxer/proxmoxer
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712329614
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-requests: for https backend
+python-paramiko: for ssh_paramiko backend
+
+%MAKEDEPENDS%
+python-setuptools
+python-build
+python-installer
+python-wheel
+

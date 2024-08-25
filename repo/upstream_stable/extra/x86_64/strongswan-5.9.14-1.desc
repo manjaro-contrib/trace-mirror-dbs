@@ -1,0 +1,68 @@
+%FILENAME%
+strongswan-5.9.14-1-x86_64.pkg.tar.zst
+
+%NAME%
+strongswan
+
+%BASE%
+strongswan
+
+%VERSION%
+5.9.14-1
+
+%DESC%
+Open source IPsec implementation
+
+%CSIZE%
+1308968
+
+%ISIZE%
+4367373
+
+%SHA256SUM%
+779043194717d8cc0db81f86077a8fbb8cde916e64fc70e5608b687c01fe12a2
+
+%PGPSIG%
+iQIzBAABCgAdFiEEba97gI+d8lE5YgAA0hRh49/iBg0FAmaUKecACgkQ0hRh49/iBg195A/+LqWcy90LyNWBfhaLWcs2Qj7RhYvJl8rOT0IfZPGqMTdBMZF4HaJWlhIioAccd1YvAd7cp/ZUIZJY0n640IBJmilPxtuCWUPu0apyAT1UR0mSfAFoJvDCpsm+Hf/Qz8cvgrCKjdnfXMNWL/PGvCqXup/XgzLc1GrViVN2MITj4WVWJEviApTiar2Kb9S8bUlJtHQOVEjEyeszMeUgp9QmGYS0zWh6KpGT9xzF5FGyoY1eLsCBELH2eu5UZxVJJ03qtEXz4mAJbV8vIVeIrN3mttAmTkKTUQuP8bvRm2cKX21ktBQK9hWrZ9eFv1ng21YN7Nmf875/lgC7MJbxK3W2zU3JI7usvtqtwQU3Ku+sugjBr2OCor9RY9IMMfKP6VVV2fGu11nrLNUZ0sID0wwRU2bOoNCeK/mzsdhFrlJ0/O7K8BdhzcsXGd+JSYGWH8oYMG48fHygyo2i1IJvpD+EqHeG+TOVhwSUIBDmyRn/mDVMU6piQ+OFKRoEK71iAuSiYQufQUOQMlPmWcWsf6Oz0qt/yWbqf+ohB++qUTa3X4otsFSlvGQu0GT66IfXrqXay1vpz6416nn29cZqJm7NrxylJNG7j/vg5PICag0HGDzyv16Y4TmhMSkgf5ZcwNcIBbAenUGnJ15DvETqPTq7x/vZIQFcSv5c4YydJqsIix0=
+
+%URL%
+https://www.strongswan.org
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1720985727
+
+%PACKAGER%
+Christian Rebischke <chris.rebischke@archlinux.org>
+
+%DEPENDS%
+curl
+gmp
+iproute2
+openssl
+sqlite
+libcap
+systemd-libs
+pam
+
+%OPTDEPENDS%
+libnm: for networkmanager support
+mariadb: MySQL support
+ruby: Ruby support
+python: Python support
+resolvconf: Resolveplugin
+openldap: LDAP support
+
+%MAKEDEPENDS%
+libnm
+systemd
+python
+ruby
+mariadb
+python-setuptools
+

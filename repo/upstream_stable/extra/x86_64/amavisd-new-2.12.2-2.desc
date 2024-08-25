@@ -1,0 +1,73 @@
+%FILENAME%
+amavisd-new-2.12.2-2-any.pkg.tar.zst
+
+%NAME%
+amavisd-new
+
+%BASE%
+amavisd-new
+
+%VERSION%
+2.12.2-2
+
+%DESC%
+High-performance interface between mailer (MTA) and content checkers
+
+%CSIZE%
+393864
+
+%ISIZE%
+1985200
+
+%SHA256SUM%
+7399da729786db358195ea77584842a41397391adc4f00638726b56ae453cad2
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCZpBbFAAKCRDylr3lA2jGzkFnAQClXCsh2UQ/TrWhte7mrl/1bN8GZRywLrLeEUh+XP6VjAD/UYXBOl2ujjdqVFn060EK71NHWJN9bdXoe7Hr8IulNAE=
+
+%URL%
+https://gitlab.com/amavis/amavis
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1720736518
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%DEPENDS%
+perl>=5.8.2
+perl-archive-zip>=1.14
+perl-convert-tnef
+perl-convert-uulib>=1.4-5
+perl-mime-tools
+perl-mailtools>=1.58
+perl-net-libidn
+perl-net-server>=0.88
+perl-io-socket-inet6
+perl-io-stringy
+perl-unix-syslog>=1.1-4
+perl-mail-dkim>=0.31
+perl-berkeleydb>=0.42
+perl-json
+perl-http-message
+perl-libwww
+perl-lwp-protocol-https
+perl-net-ssleay
+bzip2
+gzip
+
+%OPTDEPENDS%
+arj: Decoder for: .arj .exe
+lrzip: Decoder for: .lrz
+lz4: Decoder for: .lz4
+lzo: Decoder for: .lzo
+p7zip: Decoder for: .7z
+unrar: Decoder for: .rar
+rpmextract: Decoder for: .rpm
+

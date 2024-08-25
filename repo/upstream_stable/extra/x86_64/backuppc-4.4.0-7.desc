@@ -1,0 +1,68 @@
+%FILENAME%
+backuppc-4.4.0-7-x86_64.pkg.tar.zst
+
+%NAME%
+backuppc
+
+%BASE%
+backuppc
+
+%VERSION%
+4.4.0-7
+
+%DESC%
+Enterprise-grade system for backing up Linux, Windows and MacOS PCs
+
+%CSIZE%
+923380
+
+%ISIZE%
+3682132
+
+%MD5SUM%
+1ec21734bb44d33a6ac43755e294b495
+
+%SHA256SUM%
+c50f56eacbcebdea9cd246d62119f321a62672efa20c46fbc013089ae5242272
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCZMBVdAAKCRDylr3lA2jGzokvAP9wId8blqPLmGF5124jrZvqMyVjbJyuqQ0m26nCc2rq8QD/VeocSkFxfYpIf80jIC15IbFQw+EWInUBn5mzoPo2bAk=
+
+%URL%
+https://github.com/backuppc/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1690326058
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%DEPENDS%
+glibc
+popt
+perl
+par2cmdline
+perl-archive-zip
+perl-io-dirent
+perl-file-listing
+perl-time-modules
+perl-cgi
+perl-xml-rss
+perl-json-xs
+smtp-forwarder
+
+%OPTDEPENDS%
+openssh: ssh transfert support
+rsync: rsync transfert support
+smbclient: smb/cifs transfert support
+rrdtool: graphs of the pool usage
+
+%MAKEDEPENDS%
+git
+

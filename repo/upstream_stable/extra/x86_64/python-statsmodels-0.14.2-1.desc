@@ -1,0 +1,68 @@
+%FILENAME%
+python-statsmodels-0.14.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-statsmodels
+
+%BASE%
+python-statsmodels
+
+%VERSION%
+0.14.2-1
+
+%DESC%
+Statistical computations and models for use with SciPy
+
+%CSIZE%
+10899883
+
+%ISIZE%
+66468851
+
+%SHA256SUM%
+97e0db87bee299e5e91e28f0fff61e110e4570e27a0039fb9b7aaad174cc1ad4
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmZ4hbcACgkQek52CV2KUuSeLAf/cfHGoWObzqD+/ama748bGaE6YOIFdYQIi2zgHOXvH21kEG9/VEBPTKsHYOUEjUnfeGyTbl1vN2l+2PHU6NwPhmIdqzB3515pH9ymQknQHuSItb4pJUsYgiRutA2aCkrMNWUFljI///wiNMQrmjH9+smiXyDQ1kv0S9g/EbMyD2X1Ub5OQ7mIVcCa8ajTsssCSA6MQkqqhkGUJjh7awjugpzGyywSvK5fu1iLu8PAkdmEL9PgjUej6p6f5p+RPTzfaMmZFBW5GZb9ZsisoR1OZipZQA0fHy+fzSiog3VGVqdwuNDWV0S+9cTiKx3GlUsQBYk/zLVTVPVvNYum8M6zwA==
+
+%URL%
+https://www.statsmodels.org/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1719161897
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python-numpy
+python-scipy
+python-pandas
+python-patsy
+
+%OPTDEPENDS%
+jupyter-notebook: needed to run the notebooks
+python-cvxopt: regularized fitting of some models
+python-joblib: accelerate distributed estimation for certain models
+python-matplotlib: plotting functions
+
+%MAKEDEPENDS%
+python-setuptools-scm
+python-wheel
+python-build
+python-installer
+cython
+git
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-xdist
+python-joblib
+python-matplotlib
+
