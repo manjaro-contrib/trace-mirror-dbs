@@ -1,0 +1,63 @@
+%FILENAME%
+xandikos-0.2.11-2-any.pkg.tar.zst
+
+%NAME%
+xandikos
+
+%BASE%
+xandikos
+
+%VERSION%
+0.2.11-2
+
+%DESC%
+Lightweight yet complete CardDAV/CalDAV server that backs onto a Git repository
+
+%CSIZE%
+231893
+
+%ISIZE%
+1497686
+
+%SHA256SUM%
+84bf9151cf5c0600080e51bb13b3dc6df8a7bc87d1a9df3df40ee13e377b0027
+
+%PGPSIG%
+iQIzBAABCgAdFiEEBNw/sURf7KgTwn766k97MhqQatkFAmYXJJQACgkQ6k97MhqQatl+fhAAoGdwb7DovM0NFSJ/YBxLqzh0Fduycf8D79cS41Jqu2rRhLjJ1vwW9WLyvJU3sK55YHju7JscwJBSkTZb4u3+duaPYR+Vxu4uw1fWVVZFbxX16mTyp21yik96Zkh8UYESw6nBpSnXX3KyG4tYxCda43qWbLWaCvHqxUp/BDt3LOKB6KMFYwtvCwXnr+uZzIZd2K6LU2V7P9JIq6yH/VsEmHoKuqL/w2eRMM18UtIh+FmDKMdtoqC19WxpRQZ5wUOa8Uc4bL9klerK3cQ4CbF0J1dxpvCdgg9NiI1XgbwBKCXqC2t4l8x8xoLHuNi+MoEavB4t6LVpqtgyWTs6Ogd5wCMqNKVSVrUHcVutIHNiAXAbrYsxT9NBBfwjJmituJJvrWxmDgEN1DflCSK3LlDX8WhCYkgG4CxGYvLnmTll2ub7aYJfV0ZG+XW1lDCAtD/w/w6eZ0Tw1+DUZFPIqkS9qLRosTQjHeYTxrCeiVsh9vjX41JjQk8Ws2tAiLRRer8bHM6f+G/f7tyQri+gudA6iS86jaO0q4LevR15jJ4QmiVinAlbjJsD0x/R0IKuewgSGa2gVtNPdM66B04EepWKXeJTHFqjY8iHWX3yyGSLesSlHJQnAZ6d2FDUnYRVqq4M4lDLn/s6TUR6oJfyxfjocIhHZWZt/zaeYiHLDF6jQec=
+
+%URL%
+https://www.xandikos.org
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712792706
+
+%PACKAGER%
+Daniel M. Capella <polyzen@archlinux.org>
+
+%DEPENDS%
+python-aiohttp
+python-defusedxml
+python-dulwich
+python-icalendar
+python-jinja
+python-multidict
+python-vobject
+
+%OPTDEPENDS%
+python-aiohttp-openmetrics: for metrics with the standalone server
+python-systemd: for systemd socket activation
+uwsgi-plugin-python: for the WSGI interface
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+

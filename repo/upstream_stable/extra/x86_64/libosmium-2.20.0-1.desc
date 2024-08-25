@@ -1,0 +1,65 @@
+%FILENAME%
+libosmium-2.20.0-1-any.pkg.tar.zst
+
+%NAME%
+libosmium
+
+%BASE%
+libosmium
+
+%VERSION%
+2.20.0-1
+
+%DESC%
+Fast and flexible C++ library for working with OpenStreetMap data.
+
+%CSIZE%
+194604
+
+%ISIZE%
+1669245
+
+%MD5SUM%
+89ae8d8c426220f0939c3736315d7080
+
+%SHA256SUM%
+6776f6477036a536242c69930b4b0f6adda95f69f404c554c8db3131f595c94f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEph5oDnze5xbx8Yihae9tnkmmTrgFAmV4dRoACgkQae9tnkmmTriEHQ//eLLnQmt0INzfCPYC5K5yRPOlAtXt2mWq04qwVR+k9ALnEjZxnewDTvkdd8B0blY+6ju5lmPlu9rMKnxwfO1TBcfuizNHTAxYurVjScFVX41BvGyrdBCIR+1TUJUID4lbF2/SfXmYmEmkm3uoCJ4K+boQIDnNv8DAn1eeVZnnOuCqWL2Ai3mFyaDCByELOfSIoGyd5qBosoMo4jQjapocfV015NPYK4EhNlrUiGCqFYq//4iyrzCmoVyG4S6YHbVfYNeVcMj1jvHpNlTFACzO/+0BFh98yDDf9PrVogodyMQUVA8Be02pvrGFl3zWtQ8vlyvOWH3ZMkVHq6kjB3GRyhS8kWI0TYouEzWb59XZdaFoVNgTq/f1rn6hOBWegbZhBnRkWWrwSQ2640jgB0nsnSTmmoUr+XN22ULnTSMudZ9XvJUBxaI3ExA3z/5jlx8IoxGHtYlXovRZWzxxYH4Z2YezG+JvNsJ6P4PtbqvdKsvjD3INP5C6jJ7XDqcUjJAlSEsSa46a1tbRndvalJCgygXyexkHFo3kobiIweRfN2DKnkwwtg5nc2uDejOSqjsEHWUDUW27b1Pvw8RrOzkxDnDFRC+8xWUQx+VdRQmBQhQRFEZHuvJb4WyiH0+yKQeSkOBMtsGfL3Y/3gvNZpdgypxNx1CgkcuRoDPFrikayms=
+
+%URL%
+https://osmcode.org/libosmium/
+
+%LICENSE%
+Boost
+
+%ARCH%
+any
+
+%BUILDDATE%
+1702392099
+
+%PACKAGER%
+Justin Kromlinger <hashworks@archlinux.org>
+
+%DEPENDS%
+expat
+zlib
+bzip2
+boost
+boost-libs
+
+%OPTDEPENDS%
+sparsehash: sparse-mem-table index map
+gdal: convert OSM geometries into OGR geometries
+geos: convert OSM geometries into GEOS geometries
+proj: project OSM coordinates into spatial reference systems
+lz4: use LZ4 compression in PBF files
+
+%MAKEDEPENDS%
+cmake
+cppcheck
+clang
+protozero
+

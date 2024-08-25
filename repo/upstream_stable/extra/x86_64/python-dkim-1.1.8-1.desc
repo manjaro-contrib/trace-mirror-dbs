@@ -1,0 +1,61 @@
+%FILENAME%
+python-dkim-1.1.8-1-any.pkg.tar.zst
+
+%NAME%
+python-dkim
+
+%BASE%
+python-dkim
+
+%VERSION%
+1.1.8-1
+
+%DESC%
+Python library that implements DKIM and ARC email signing and verification
+
+%CSIZE%
+80113
+
+%ISIZE%
+333171
+
+%SHA256SUM%
+f76651b4a27ae52f70cc017bdd934f5b925f84bd0d62ac1cbe0297ab965189d8
+
+%PGPSIG%
+iQIzBAABCgAdFiEEBNw/sURf7KgTwn766k97MhqQatkFAmaHXqsACgkQ6k97MhqQatn6MQ//bSsE8fk1UwbaLmcfM1so93XK8y71Mdjze+OIJYsxIxKdCYCd+o31BsTNbKiNLNcMdq5tZUweF58jzEafItUERemaddYZJyPtLrhSUOjl0LP3HMd3Byqu2DYZj/45fhk031uEhyz/5E0wBuxR6Gs4i3KpG5AtZ3HStvr4wB+GTmX/zN4v9fY3Ip+sfpIKSxmnEMDBohFfTtaU2Ii1VIU59S9bCe9CSbuqiadTS8mrR+BpTqqa4fgjKDY+FzAr+4vNfpO2xO7D6zQinhVa6kVLtun+jF9TaeMgT1KW1gENTTLuZcQm4uEVWzl/hDw5vqA7D4zegMFDEzKxFXDCq7guTv85SQ3+vQ8h2mUpY9UgqLqS+Bz0yYcditrz3tqswZRg0ASKfgHM9Ep+BfjCvjF0J0KxBCk5BmI3uTAR4Osy49yPOAU8tK4u7i5ssFSecDZNEkrQJpSKxwwEeQEKpIxGKR6UpFx1CTi7I/hHOQuPNf0VvvHW/zk4oibXhMpH/3toPK4zZt8jtQcN42mcXYiyxoI5a3kk60/wjvFcxeTg+8ilylcjx8rU0MkxX9JkPqg5RKbIGPhRAlMiaVw50KKU6QzWrRAPdjOVK7h/SWzmiUbRcBimlH6QQaM8q+f4XIqfR1IprjOruiUCzdPfosCNRv6H0iUTiIUYs9n0pS7V4P4=
+
+%URL%
+https://launchpad.net/dkimpy
+
+%LICENSE%
+ZLIB
+
+%ARCH%
+any
+
+%BUILDDATE%
+1720147379
+
+%PACKAGER%
+Daniel M. Capella <polyzen@archlinux.org>
+
+%DEPENDS%
+python-dnspython
+
+%OPTDEPENDS%
+python-aiodns: for asycnio
+python-authres: for ARC
+python-pynacl: for use of ed25519 capability
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-authres
+python-pynacl
+
