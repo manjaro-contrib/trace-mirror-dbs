@@ -1,0 +1,58 @@
+%FILENAME%
+pacman-contrib-1.10.6-1-x86_64.pkg.tar.zst
+
+%NAME%
+pacman-contrib
+
+%BASE%
+pacman-contrib
+
+%VERSION%
+1.10.6-1
+
+%DESC%
+Contributed scripts and tools for pacman systems
+
+%CSIZE%
+49856
+
+%ISIZE%
+130779
+
+%SHA256SUM%
+c284508023d7990b137531fc52c94d49d03e97a369b46fcd3200c6f130be64d2
+
+%PGPSIG%
+iQIzBAABCgAdFiEEBNw/sURf7KgTwn766k97MhqQatkFAmY+iVwACgkQ6k97MhqQatkA0g/9HD9S6VuEz5BkWYfbCeBF7Qz8PfXEFknDz0pDjsWqQ1QuVedjwmaSMFkGaFt1r/qA0aKCT1hysn8NRFiKPw26cIUfCkLPI1txsGdv/D/0Y6Rn+n1f9yzylWkdUtg1QqJIcQ9kf4/x0ZmZRUvMQBtV7yOm2xlwJ6VuE3B4kurF8OklvPzAxp1rbsL7apy+PEnXJ1NGTamWW7agdhnv1kam2d4KaxpnZHJy5H+tc4B0rFQrX1LyHfJZtedlG4yyvotT7/EMykGIkdtU39sNWT6E3uFig+FZaypw3PMv9flL8QE/bDGOrBrPKyyqyRE2HFDGkoPNgTzkOL91sdlWqnpNTdGSMhjE56lB63+aiRKcZUXnpwM7f3CQZbg1NeRoPtXtIwnB7O6PIim94q9tVU/SluAipjw2QT0a+x8OIzMYdXKQmMpISLF3mb/4z2xvj/Oh8sYD7t7QK2jqTwlv6c5HxZhu9JOdqKcQqTE8j5kqKc2tpsorzd6bbfkskzpqFP9E53+MicyEDGszjOUXREB794Z8E2qtQTzDvcOSkdZ1sVOnBuo9T5U/pLNH97SPANMTNAzswU596eKMLon0IXtmErFW1j5cy6S5gX31duns2nx3xV6nE5zIHLNLivbr4G+j8Gi9nemBGMU/kdaQbUnBIq3E/ypVVou9GQFIbfQAOS8=
+
+%URL%
+https://gitlab.archlinux.org/pacman/pacman-contrib
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1715374388
+
+%PACKAGER%
+Daniel M. Capella <polyzen@archlinux.org>
+
+%DEPENDS%
+pacman
+
+%OPTDEPENDS%
+diffutils: for pacdiff
+fakeroot: for checkupdates
+findutils: for pacdiff --find
+mlocate: for pacdiff --locate
+perl: for pacsearch
+sudo: privilege elevation for several scripts
+vim: default merge program for pacdiff
+
+%MAKEDEPENDS%
+asciidoc
+git
+

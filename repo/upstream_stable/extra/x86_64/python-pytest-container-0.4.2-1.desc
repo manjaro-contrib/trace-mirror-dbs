@@ -1,0 +1,66 @@
+%FILENAME%
+python-pytest-container-0.4.2-1-any.pkg.tar.zst
+
+%NAME%
+python-pytest-container
+
+%BASE%
+python-pytest-container
+
+%VERSION%
+0.4.2-1
+
+%DESC%
+Pytest fixtures for writing container based tests
+
+%CSIZE%
+79702
+
+%ISIZE%
+411934
+
+%SHA256SUM%
+37f61cced7b826039ad646223a76704fd24c3366563ea6e1841945b11ffc2f35
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmZbGPYACgkQwGCGM3xQdz5cjAf/XXjPafEOTmhkmirPjDuaMpeCqP2qqDVjZ45JZulBG+PtcWYwvNvgKXcqCowxl3PSNNcx2ZWCU+QVR2DHNqnR4pku5RALCWH9Xioj3KnNH3Q2acpFK9TrQ8BwLxm/aIV3lQbIKOVYZYJ/B+wZIKblv7sqDbeKa5rDDXCtwRUYeKaFCmJOY7eI35Snwoe0mYGHFUwCSRzqPKYWZjsyf9NKcmOSlGetBo/ALnVm1QP0D8oGG4v8COkPOC4F4e9XeEzd2XF2EXNZFhNpP8cpxUmChumc3ge3Ytd1AN3omN5CoKeUe/udMRRRSWoRLQDVjkf/s41si901FqjQE8u5xIRB9Q==
+
+%URL%
+https://dcermak.github.io/pytest_container/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1717246168
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-pytest
+python-pytest-testinfra
+python-filelock
+python-deprecation
+
+%OPTDEPENDS%
+podman: podman support
+buildah: podman support
+docker: docker support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-poetry-core
+git
+
+%CHECKDEPENDS%
+podman
+buildah
+python-typeguard
+
