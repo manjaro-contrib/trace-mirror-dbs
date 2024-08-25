@@ -1,0 +1,73 @@
+%FILENAME%
+gutenprint-5.3.4-3-x86_64.pkg.tar.zst
+
+%NAME%
+gutenprint
+
+%BASE%
+gutenprint
+
+%VERSION%
+5.3.4-3
+
+%DESC%
+Top quality printer drivers for POSIX systems
+
+%CSIZE%
+4960896
+
+%ISIZE%
+33512736
+
+%MD5SUM%
+2117aa7125700683dd2649d933e87b9f
+
+%SHA256SUM%
+996d8524dabbcf668a1625376cfbca293895ba186f6517db7c56092996991a9f
+
+%PGPSIG%
+iQEzBAABCAAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmUYeb0ACgkQlGV6sg8qCStt0gf/RCWPc+D/JEiYOpmwlIIJ0pL8iVDQiv8hI47RLA4Cj3yTVcnwp29LFNcAq3u8Xjk8FHRd5G8qPv0zDpAsQAsGlw+cRecgD/01EVKXGyOYfyMtI4bmv6JExBRfGnxKM5VQb/8xOSVR8GPdST4riWW3dM8RSTZgzmKzGLvmI/esJSyW98NN1FFHtgdEsq1tEBiCAjsC8NwFF9gf53pb1hN1S5g4OJoGGHbGqv2nyI8U8GRB4ggE0jJMAAnAVTXbxKHEIRNEkb9S5G/gcSwGTGdWP1AGh4qx22bxuSTVR2xgrr2PpxPYzzen3ZotAJrNE0bwOqWr8deN5oSE0/T8/qWFXg==
+
+%URL%
+http://gimp-print.sourceforge.net/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1696101929
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%REPLACES%
+gimp-print
+
+%DEPENDS%
+cups
+cups-filters
+glib2
+zlib
+glibc
+readline
+
+%OPTDEPENDS%
+gimp: adds gutenprint plugin to gimp
+libusb: required for drivers that depend on gutenprint52usb backend
+foomatic-db-gutenprint-ppds: prebuilt ppd files
+perl: to run cups-genppdupdate
+
+%MAKEDEPENDS%
+gimp
+gtk2
+cups
+ghostscript
+dialog
+doxygen
+docbook-utils
+texi2html
+texlive-bin
+

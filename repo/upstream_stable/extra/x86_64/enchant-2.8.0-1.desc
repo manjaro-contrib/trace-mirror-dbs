@@ -1,0 +1,65 @@
+%FILENAME%
+enchant-2.8.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+enchant
+
+%BASE%
+enchant
+
+%VERSION%
+2.8.0-1
+
+%DESC%
+A wrapper library for generic spell checking
+
+%CSIZE%
+69331
+
+%ISIZE%
+252790
+
+%SHA256SUM%
+2bd520b2d5b313ead76b003cc58d0be7ea9cd9c719ce527e995e08154b51e3bf
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmZeN4YACgkQek52CV2KUuTYNgf/T6Md2eLbruQlsw8W/UoI1GBS3O8Y6gWwRepTSu8scjRb2VklCkYso6yj98BlxjldPOkVb/ESUYC+7aiPxJtJy81gol3vLCUDLupxOTL77Nkru5FG2//Duw6wHSSUlRbtP+HzZ9AE98s80pHDYEqrl0Xn/5KsY5FXebkrL+z6R+NB/J8kTjxGmtt/pWkqa2W08+8vuLClehDpqNRtohW5TQ6FUxASNnmyWB3JzKib5GYF8K3MZci8oS8fWQDAUPzh9hP4vPWgIZAWO/2vxL+B3Xxrx/J9CuTXTLwKRcc/91JDHbqKpnDLaFpg+YSWcreQ2kNNchj3Gx4B32c6oIIdoQ==
+
+%URL%
+https://abiword.github.io/enchant/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1717450557
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+libenchant-2.so=2-64
+
+%DEPENDS%
+glib2
+
+%OPTDEPENDS%
+aspell: for aspell based spell checking support
+hunspell: for hunspell based spell checking support
+libvoikko: for libvoikko based spell checking support
+hspell: for hspell based spell checking support
+nuspell: for nuspell based spell checking support
+
+%MAKEDEPENDS%
+aspell
+hunspell
+hspell
+nuspell
+libvoikko
+
+%CHECKDEPENDS%
+unittestpp
+

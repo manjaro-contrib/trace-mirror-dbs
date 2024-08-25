@@ -1,0 +1,78 @@
+%FILENAME%
+freeradius-3.2.5-1-x86_64.pkg.tar.zst
+
+%NAME%
+freeradius
+
+%BASE%
+freeradius
+
+%VERSION%
+3.2.5-1
+
+%DESC%
+The premier open source RADIUS server
+
+%CSIZE%
+2130378
+
+%ISIZE%
+10741678
+
+%SHA256SUM%
+444f902ef92d06e8e4f0b5cb1c96a7eaf36ab3d340b5081a4ecb4f3996b913bf
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZo0wIgAKCRBtQr3RFuAGj0L1AP9XoXwuceFkH7P+D739SomdYThIyOLNQAb5L9zPSiJWpAD/UsXKtmcqB5v6UPL7PvodRxUvIwWAHDuZbRnBZZ2+WwQ=
+
+%URL%
+https://freeradius.org/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1720528760
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+krb5
+net-snmp
+postgresql-libs
+mariadb-libs
+talloc
+libpcap
+libxcrypt
+libcrypt.so=2-64
+smbclient
+
+%OPTDEPENDS%
+curl: for REST
+freetds: for Sybase and MS SQL
+hiredis: for redis support
+json-c: rlm_rest module
+libmemcached: for memcached
+perl: for Perl
+python: for Python
+sqlite: for sqlite
+unixodbc: for ODBC
+yubico-c-client: for yubicloud
+
+%MAKEDEPENDS%
+curl
+freetds
+hiredis
+json-c
+libmemcached
+perl
+python
+samba
+sqlite
+unixodbc
+yubico-c-client
+

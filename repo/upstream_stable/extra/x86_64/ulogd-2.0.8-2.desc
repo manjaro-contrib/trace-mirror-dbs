@@ -1,0 +1,65 @@
+%FILENAME%
+ulogd-2.0.8-2-x86_64.pkg.tar.zst
+
+%NAME%
+ulogd
+
+%BASE%
+ulogd
+
+%VERSION%
+2.0.8-2
+
+%DESC%
+Userspace Packet Logging for netfilter
+
+%CSIZE%
+99103
+
+%ISIZE%
+680790
+
+%SHA256SUM%
+21648b1fa9c6aa5a3bb2ff00bb974900c8447bf125fd9132ea185990f7795a99
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCZpMkRAAKCRDylr3lA2jGzoRJAQDZvpzoneqLxc3giK5w3N/oa2aYF3zqGjdDzX5sDbBEiwD/UVin0xWfYeqq/Xq1CKG3LsmVjRirpYsmYGurov5WbAA=
+
+%URL%
+https://www.netfilter.org/projects/ulogd/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1720919082
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%DEPENDS%
+libmnl
+libnetfilter_acct
+libnetfilter_conntrack
+libnetfilter_log
+libnfnetlink
+
+%OPTDEPENDS%
+mariadb-libs: MySQL databases support
+sqlite: SQLite3 databases support
+postgresql-libs: PostgreSQL databases support
+libdbi: DBI abstraction databases support
+libpcap: PCAP output support
+jansson: JSON output support
+
+%MAKEDEPENDS%
+mariadb-libs
+libpcap
+libdbi
+postgresql-libs
+sqlite
+jansson
+
