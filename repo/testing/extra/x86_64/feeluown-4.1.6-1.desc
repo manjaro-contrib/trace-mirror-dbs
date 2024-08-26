@@ -1,0 +1,97 @@
+%FILENAME%
+feeluown-4.1.6-1-any.pkg.tar.zst
+
+%NAME%
+feeluown
+
+%BASE%
+feeluown
+
+%VERSION%
+4.1.6-1
+
+%DESC%
+FeelUOwn Music Player
+
+%GROUPS%
+feeluown-full
+
+%CSIZE%
+999297
+
+%ISIZE%
+4784023
+
+%MD5SUM%
+20950d0225d16b9735d500e6eac41b0d
+
+%SHA256SUM%
+fb105f149625e84ac8a5756ca4f8045cdb1288948b9aa85984bb03dc0ed3af61
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmbCNbcACgkQeGxj8zDXy5Km9w//Rg4RcL20VIZdOVrO1Jv6EJ2uIjMz86PJTHmfR/UXxcf1djLtKoy3bDvB87caeZ/M9Gd9o2qWWjDn06VuucVirOUBibdOaW2BJeFE14wszwxdzFA8GrT7qIkZn8rMcLsX1MIIUz4zpVXk+FPxQ9Jkz4jfyp0NNrBU0uy3hez+HOz48p/Ej5k2d9//OoQNGhjYGPi4oXmxs7cxIdxHvhm/7baaCMT90Dh655eSOWHGZX0kpSL4EWfI8cc+J3rnYP9dpTSKBrBmdVy1eIlISHmQVzEHomVeqA/ntoNn3edQR3fsRf6AB4cZma5buu1y4NwEIXlMo3R/RsqoTulw8kaxq21XPrcqtMjTK/jSQP3woXUiPxd1Kr3RlIDAUz2YkNu7b6FOnj/WtTV25S9uPpj59wLb8/EwZ+tTFwG6BqHt0ii/Vh/OpM6dSq1bYIUQePGEwaVuEkPxOgXA4VRVlzX4SbA0pXbQbr6pdxypkxzbnKmyZWSzQkpnPHvN045rsjUHqyQcyFa1caiAAt/JAzoMdtT1nFWyj8mD/ut21/qNvIBpClX4OX8a/komVfAEt6lADP8bahuhDfjdfOodjJFaj/oKh8imkr5Tm/rK8FrlVb4hpafWNNNOccecunP2ECJ+ZazdCX9izEOW0s+HtaH9XE1F/gCB00Lm/9nDIf8Wb/k=
+
+%URL%
+https://github.com/feeluown/FeelUOwn
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1724003693
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%REPLACES%
+feeluown-local
+
+%CONFLICTS%
+feeluown-local
+
+%PROVIDES%
+feeluown-local
+
+%DEPENDS%
+python-qasync
+python-pyqt5
+mpv
+python-opengl
+python-janus
+python-requests
+python-tomlkit
+python-packaging
+python-pydantic
+python-mutagen
+qt5-svg
+xdg-user-dirs
+
+%OPTDEPENDS%
+python-secretstorage: browser cookie extraction support
+python-pycryptodome: browser cookie extraction support
+dbus-python: mpris2 server support
+python-sanic: webserver support
+python-json-rpc: webserver support
+python-websockets: webserver support
+feeluown-netease
+feeluown-qqmusic
+feeluown-ytmusic
+feeluown-bilibili
+yt-dlp
+
+%MAKEDEPENDS%
+git
+python-setuptools
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-asyncio
+python-pytest-mock
+python-pytest-qt
+python-pycryptodome
+xorg-server-xvfb
+yt-dlp
+

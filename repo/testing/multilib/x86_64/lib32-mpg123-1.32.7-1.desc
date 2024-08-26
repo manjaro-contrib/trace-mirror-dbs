@@ -1,0 +1,64 @@
+%FILENAME%
+lib32-mpg123-1.32.7-1-x86_64.pkg.tar.zst
+
+%NAME%
+lib32-mpg123
+
+%BASE%
+lib32-mpg123
+
+%VERSION%
+1.32.7-1
+
+%DESC%
+Console based real time MPEG Audio Player for Layer 1, 2 and 3 (32-bit)
+
+%CSIZE%
+299837
+
+%ISIZE%
+771707
+
+%MD5SUM%
+b04b8379b5817898b8c4cb1d2a0620fd
+
+%SHA256SUM%
+185a7a5170009c0d1b081ec86a668fbdf43a26e1c84b300cd9d8f9984ec3bad4
+
+%PGPSIG%
+iQIzBAABCAAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmbKmV0ACgkQOeS4d+YuuRX+pw//ZCJZMPRWSzAy9qOjcUlJ/0ClYPZJYNIw4FGqNp7Av9DxlDrd1sernhrr8zsadvmwJ/8k73eblqo9Df4VkhHggJtMCMxS+WVnXee+tH7jx8ifKh92DY+wUrH4gqHzzK/A0sjunMH20Hq5Hpqmvw/OVlbHUYtjAajEy6a/ONoKQTpJqFEOvUR5lAUT3FCbBcdUHQwqN7s6SoAMNe+gKO3aBgxRF3hG81BUX1ndJuK+ziyoX4XLzgU/cDZRfeeZ4PzcPwwaLTy38e5NlqIx5tu5iGUKJDtdDv9jPM+46OGmtxl/LePFBCFl+QjXobNXFzZEeJg8L0NHdvmLPa5fwP1hzoudO52QAsWmFOalbyeJgGAmLa4J+8QFjpuVuzMIv0dwjuZY0uT2iOrIPXA2QmD98zCc7UIm3qyaBbzdeEQl9XLv4dXVfgJKkeLyAbgqagUfyWf0Sc3XGax1dUxsm9Il2uW5Uh0X/PFDFIAEO3etKAGmIjOT5wnyyR357jnfZeLKPRuG1iHArROTSKoWXeFrYsdq6GqsFfWN/1kOf4zFFmj182h33WMSi6WNMm6gfyPz6dvSDh+UKY/hpseao2yjS3qTFcKitodWoZqai/AYnE24px+U/wxn6Pa4epp6SxDsVR4FI6hZi2k4+kuHKPNh9X0eOi+bQm1fLBPgZjjS8eQ=
+
+%URL%
+https://mpg123.de/
+
+%LICENSE%
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1724553517
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%PROVIDES%
+libmpg123.so=0-32
+libout123.so=0-32
+libsyn123.so=0-32
+
+%DEPENDS%
+lib32-alsa-lib
+mpg123
+
+%OPTDEPENDS%
+lib32-sdl2: for sdl audio support
+lib32-jack: for jack audio support
+lib32-libpulse: for pulse audio support
+
+%MAKEDEPENDS%
+lib32-sdl2
+lib32-jack2
+lib32-libpulse
+
