@@ -1,5 +1,5 @@
 %FILENAME%
-btrfs-progs-6.10.1-1-x86_64.pkg.tar.zst
+btrfs-progs-6.10.1-2-x86_64.pkg.tar.zst
 
 %NAME%
 btrfs-progs
@@ -8,22 +8,22 @@ btrfs-progs
 btrfs-progs
 
 %VERSION%
-6.10.1-1
+6.10.1-2
 
 %DESC%
 Btrfs filesystem utilities
 
 %CSIZE%
-1247021
+1242244
 
 %ISIZE%
-6830040
+6821849
 
 %SHA256SUM%
-b2784eba232f58fdd15822eae8ff6bb3c996713055c7c3ac85688f8702144d31
+3e6ffcac374877c8a1b449429a2458d14b0a53ab6eb5aaafab10392a011fd833
 
 %PGPSIG%
-iQEzBAABCAAdFiEEW34/txt/EDKaHAOrdx32Yn7faB8FAma+XOcACgkQdx32Yn7faB9D+wf+Km9teNTQ3d89NscPcuYHXDNTcba9QlIaTYIT7yeS16ufB6XH0aDnbVaLoBbgyLG3slNqiz46Re/Bt5zMmPY6f5FaVq1kEuKctdhBirX8kq8DcLd8YR/V3+kJLb7cyTlLsldo5W2PqILxf5zFqFW6y6SGwsG/psOgikofaQBF4zf7jpXByQg7wiloCi2xVd8KwAq98wBT/A3Xe5qV5PgAY/xlWGVhzcf8RR8encFfhStmcIzoAEwAZ8ZE7WIQqdpcvCTFHw1BfRoKRKK20jSXeftp+EFCclQNQ8dXhMCvy4P2jWwzmCH8ywI5eXVsDB6viFMHWOAl/NjQdLj8NzXSXg==
+iQEzBAABCAAdFiEEW34/txt/EDKaHAOrdx32Yn7faB8FAmbNzNIACgkQdx32Yn7faB8N/wf+IUWdAyQeiH+/+tFV1yCRzFF18aN1dZwg0WyG4aOk3NP/bqe/IQuRVhG8D8iXZbjdJTwUUhkNGB9jjseQD1e0Fds99Vz4OdJmv9uyw/ClM9KW3pXhBPqMloPaPcuNsDHxswMMf2kws+onCD/TxcKlgOYIQfZmHc3EcRgf3ryZCPQiSlCRBr4yP8mtZHnV1IpVgWUakA9QEOtmN3+cgqouyyuBxw8dR4xFVF4v6Ral1nwvKB7MlrljdO8d8+Gq0Qo/G1HtMAWaQMc0Ic6ABIKkE+UMNE2TpkTN0VjaaHIVyK2aAQmf+Cw7JAhCU3zQI6l8smWQhaF4/VcB0gOnS2ovkw==
 
 %URL%
 https://btrfs.readthedocs.io
@@ -35,7 +35,7 @@ GPL-2.0-only
 x86_64
 
 %BUILDDATE%
-1723751543
+1724763143
 
 %PACKAGER%
 Tobias Powalowski <tpowa@archlinux.org>
@@ -61,7 +61,6 @@ systemd-libs
 %OPTDEPENDS%
 python: libbtrfsutil python bindings
 e2fsprogs: btrfs-convert
-reiserfsprogs: btrfs-convert
 
 %MAKEDEPENDS%
 git
@@ -71,7 +70,6 @@ systemd
 python
 python-setuptools
 e2fsprogs
-reiserfsprogs
 python-sphinx
 python-sphinx_rtd_theme
 
