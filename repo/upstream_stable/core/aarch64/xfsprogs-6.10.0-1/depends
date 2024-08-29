@@ -1,0 +1,13 @@
+%DEPENDS%
+sh
+util-linux-libs
+device-mapper
+libedit
+libinih
+liburcu
+
+%OPTDEPENDS%
+icu: for xfs_scrub
+python: for xfs_scrub_all script
+smtp-forwarder: for xfs_scrub_fail script
+
