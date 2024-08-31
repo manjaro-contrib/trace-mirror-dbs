@@ -1,0 +1,62 @@
+%FILENAME%
+yazi-0.3.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+yazi
+
+%BASE%
+yazi
+
+%VERSION%
+0.3.2-1
+
+%DESC%
+Blazing fast terminal file manager written in Rust, based on async I/O
+
+%CSIZE%
+5142205
+
+%ISIZE%
+16765552
+
+%SHA256SUM%
+10f57f0b312718d20379ba535442844c7c6f215f88d762d9811fc9c29fe7f7e9
+
+%PGPSIG%
+iQIzBAABCAAdFiEEFl4P98SMIm4ew2On+DQkgks+S5AFAmbTFS0ACgkQ+DQkgks+S5AHOA/+ObE6g0pJqVH6qUV8gbhGz4pq/gsL3oY/gWjE0kXaiGamHUK2wGTuXSwm8DGxKRM/F6+1G6jcfagLZTx4aw4eUtH0AIbBC2Iqc95jXVXYq2QUcdi6OXPViGyn1wgqXgIodIcSOiIqmf08TmHqFYI14KyeR6MznOmySg6SJ7QCxh0LshQ9fSrYtjrsNLKDPlicCUKxrGIxbVWLH0yzs+GcadVCu2uhj2ZoVYkYvkgrYd7EwKxYdQr0E5MIInfU8AuX62EhzprTiHyu4lkYhrjB0azSU5q9bjZjRONiVfotvJrBwzxx9bWb5TZT4wJzzjsAwOE6IhE+mJXgzAhVyT3PGj2vfJqy8OP1DIfNNwEDmiQ5JbmoTz29Jqga7xJaI/A2+RoecMRKEdexrCjLdrjyZ+8coaXnb5KQWZ5BMvoixdl7U7CEGl8e9+louL6Di6XlMLtbkHzhH+JNhuqkxpmbiCCRKs2RNoddqSA/Sc40VJA2TEfgKFj7w7qo70FTWYgJSDV1xm+2skXOXO7RU1D18uumtK86pJA2FUjebe8MpaciODvQG0fEHkgRvfCgbJ+bSfI5WRukKRrpL6Kc/7+nMT8nDq36hlyCe3FTQo//5guUfDzsQ4hIhqgY29zaRByx/UyeCyLlBecaK3FnKHcWgekEZhh+YOa6pc/QkH9tdok=
+
+%URL%
+https://github.com/sxyazi/yazi
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1725108175
+
+%PACKAGER%
+Orhun Parmaksız <orhun@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+ttf-nerd-fonts-symbols
+
+%OPTDEPENDS%
+jq: for JSON preview
+p7zip: for archive preview
+ffmpegthumbnailer: for video thumbnails
+fd: for file searching
+ripgrep: for file content searching
+fzf: for directory jumping
+poppler: for PDF preview
+zoxide: for directory jumping
+imagemagick: for previewing fonts
+chafa: for previewing images
+
+%MAKEDEPENDS%
+cargo
+imagemagick
+
