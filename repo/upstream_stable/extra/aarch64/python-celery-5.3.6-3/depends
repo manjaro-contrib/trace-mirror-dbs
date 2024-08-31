@@ -1,0 +1,20 @@
+%DEPENDS%
+python-billiard
+python-click-didyoumean
+python-click-plugins
+python-click-repl
+python-kombu
+python-pytz
+python-vine
+
+%OPTDEPENDS%
+python-cryptography: for celery.security
+python-pymongo: for celery.backends.mongodb
+python-msgpack: for using the msgpack serializer
+python-pyro: for using Pyro4 message transport
+python-redis: for celery.backends.redis
+python-sqlalchemy: for celery.backends.database
+python-boto3: for SQS transport
+python-yaml: for using the yaml serializer
+python-pyzmq: for using ZeroMQ transport
+
