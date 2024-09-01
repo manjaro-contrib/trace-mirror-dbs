@@ -1,0 +1,87 @@
+%FILENAME%
+python-openai-1.43.0-1-any.pkg.tar.zst
+
+%NAME%
+python-openai
+
+%BASE%
+python-openai
+
+%VERSION%
+1.43.0-1
+
+%DESC%
+Python client library for the OpenAI API
+
+%CSIZE%
+455274
+
+%ISIZE%
+4097547
+
+%MD5SUM%
+a1bcd8a78938472743f7cec9702e8044
+
+%SHA256SUM%
+787d6e3ffc6c352527829fdfabc79d75bba60444903a4c42df66c9a386b75d21
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZtHESwAKCRDwXowSExrrXujMAP4zuH7PU3XZ+/JcW9rR3c8d7ufcgF9cZBTi1Rx8Jhm65gEAsQ0lpxvCBX8sGQoMhb3oTmvEv3hLQWR1xZkHXIqoZA4=
+
+%URL%
+https://github.com/openai/openai-python
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1725023200
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-anyio
+python-distro
+python-h2
+python-httpx
+python-jiter
+python-pydantic
+python-pydantic-core
+python-sniffio
+python-tqdm
+python-typing_extensions
+
+%OPTDEPENDS%
+python-numpy: Needed for CLI fine-tuning data preparation tool
+python-pandas: Needed for CLI fine-tuning data preparation tool
+python-pandas-stubs: Needed for type hints for mypy
+python-openpyxl: Needed for CLI fine-tuning data preparation tool xlsx format
+python-wandb: Support for Weights & Biases
+python-scikit-learn: Needed for embedding utils
+python-tenacity: embeddings
+python-matplotlib: embeddings
+python-plotly: embeddings
+python-scipy: embeddings
+
+%MAKEDEPENDS%
+python-build
+python-hatch-fancy-pypi-readme
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+npm
+procps-ng
+python-dirty-equals
+python-inline-snapshot
+python-pytest
+python-pytest-asyncio
+python-respx
+python-rich
+
