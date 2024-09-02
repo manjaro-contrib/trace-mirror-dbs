@@ -1,0 +1,68 @@
+%FILENAME%
+mypy-1.11.1-1-any.pkg.tar.zst
+
+%NAME%
+mypy
+
+%BASE%
+mypy
+
+%VERSION%
+1.11.1-1
+
+%DESC%
+Optional static typing for Python 2 and 3 (PEP484)
+
+%CSIZE%
+3381721
+
+%ISIZE%
+21801591
+
+%MD5SUM%
+cf918dc1d4c2ecbea2c7931a483176c7
+
+%SHA256SUM%
+d45055df03052a3a7ef608b35252edbafc822dfc279d3949881068fd275b72e8
+
+%PGPSIG%
+iQIzBAABCgAdFiEEBNw/sURf7KgTwn766k97MhqQatkFAmasfI0ACgkQ6k97MhqQatkBpQ/8DHnQhHtS3Pqm4EnEwl+cnntPuIvdLGnGUvYK+c1PkWmnSsTko6+LC/iL9gmz2UJ2ZHsVbL+wEqgs/4VnDCw1s561zEf00gdSjE3dUCZguqAAdivVaPCEQ/aMq4ls5Fv/xCZYUaXQ98re6dHN7E6pUAAV2tYgSwULm8U5yPBQyG5FsmMB0NIZwfz6UrMgrWxDuukzw2uK8V4ibwvMkgp0jvdjUByOMw/4e++Rsd9JweHkiJXmOa5ImhRPErcoYl4OIUiNcH2H66Js3fSUCnhTR4DZVtSdGJYZUOaOWGm5jGoqb3KURMH896BglUFcgSwqlpidTHXhHLbbxFlnJiolrFN+V9mzua5756q0M19RNko6/ARX7bWb6QrE4TR48dHb5R1lxcLZIbo0k65XNajsUYsYadHTaOohkR/7v3H79etMnwni1vigPWKxXT0h/7ydeX22/1BoKdUXrSXbp1EJPy0YQ71E+kil1D9CG36vmpsObgnAQDcsNpBYYu4D+0Pf50n6fFgEoLg5KY2TM/bw17PnGnOGymk4IYsvu18toI0ddx0JBdSzpcit2Ygyxfd8LOqfMgokqoXLzXh1pMeymeKKEsSaEfphnPIMnDcDFJTK6j0SawZlG/PR/urGV3hkg7jksNxsJDygJmJOJuZt7xD0IROrCYty/zPY99EaUR4=
+
+%URL%
+http://www.mypy-lang.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1722579479
+
+%PACKAGER%
+Daniel M. Capella <polyzen@archlinux.org>
+
+%DEPENDS%
+python
+python-mypy_extensions
+python-typing_extensions
+
+%OPTDEPENDS%
+python-lxml: for reports
+python-pip: for installing missing types
+python-psutil: for dmypy
+python-setuptools: for mypyc
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-attrs
+python-psutil
+python-pytest
+python-pytest-xdist
+
