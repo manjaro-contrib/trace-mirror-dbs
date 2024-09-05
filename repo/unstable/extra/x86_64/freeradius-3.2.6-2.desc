@@ -1,0 +1,81 @@
+%FILENAME%
+freeradius-3.2.6-2-x86_64.pkg.tar.zst
+
+%NAME%
+freeradius
+
+%BASE%
+freeradius
+
+%VERSION%
+3.2.6-2
+
+%DESC%
+The premier open source RADIUS server
+
+%CSIZE%
+2139403
+
+%ISIZE%
+10778943
+
+%MD5SUM%
+fdd30163bf2e8bdf7620f3c8d6d5fa8c
+
+%SHA256SUM%
+733484f2f5e7768d81a68c83b3f6d7e0445c5bd1028f8b09798f40508cf5f6ef
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmbUWycACgkQek52CV2KUuTYEgf/YqdZt1IDMpry2Vskw7ZEJhw8fqRlDIv14jAbS/Fcs01qulvhTf4JKrVZcculnyo+Ki8ljCQoI1MdjH1S4hGsY4az+Z2We/CWVmHpU6mafhTcQ1Rj91D/mB6Xxvj8iropDoj6H0Jm/K/DQJTOKeGSp36J2M5k3wfZMFfWX62HHomRYAFxwiyL49vJo27XUiIWQ80Pm8dFFMtqFr8UpI++56pZewwT1pCvYHGqTXQGwXQ4gxzeR5NKmXnGhGluhXNFM3NHO0nxYOm3TX00paRy9XRthtrUK1mrLXhclm0ru9wFjFoWSnMqWXkiZvkjOh2brhfCKEDIVZnCRS4E/ox9LQ==
+
+%URL%
+https://freeradius.org/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1725192764
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+krb5
+net-snmp
+postgresql-libs
+mariadb-libs
+talloc
+libpcap
+libxcrypt
+libcrypt.so=2-64
+smbclient
+
+%OPTDEPENDS%
+curl: for REST
+freetds: for Sybase and MS SQL
+hiredis: for redis support
+json-c: rlm_rest module
+libmemcached: for memcached
+perl: for Perl
+python: for Python
+sqlite: for sqlite
+unixodbc: for ODBC
+yubico-c-client: for yubicloud
+
+%MAKEDEPENDS%
+curl
+freetds
+hiredis
+json-c
+libmemcached
+perl
+python
+samba
+sqlite
+unixodbc
+yubico-c-client
+

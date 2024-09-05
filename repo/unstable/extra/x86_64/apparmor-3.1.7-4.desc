@@ -1,0 +1,77 @@
+%FILENAME%
+apparmor-3.1.7-4-x86_64.pkg.tar.zst
+
+%NAME%
+apparmor
+
+%BASE%
+apparmor
+
+%VERSION%
+3.1.7-4
+
+%DESC%
+Mandatory Access Control (MAC) using Linux Security Module (LSM)
+
+%CSIZE%
+1197570
+
+%ISIZE%
+4309249
+
+%MD5SUM%
+bd3b922afec469b61cb6b25e6c5c635f
+
+%SHA256SUM%
+59b23bc166ba28696227d9c6112e96b7e2633311856d6139931413690bb572b9
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmbUVfEACgkQek52CV2KUuSejQf+I1U8agzsvdndYrWImUjoljepXxGPOVQfC/nChGcZQ1b53edCnGZ8ohY+6TkCVp1CiMfk/oJUtO1a8YRjotHlCTXiLYh56fT11+6O2tCy6moT9Bw8zmlRVpdQC/u78dF5js/2/AsYd994sstjBjVxZNKZaUTF7Ag6eivOU6uycObIEQ2aboUsnx+v9T0zJR52g7x6tU42WNw+rbA5ebCA2yBnDXis33usGIPoWo08fD8jfEaUHKDxBZS8YcAVrMb+OfTFNmOrw1OWvQb1+84NgVGOQ62HgfenbW8JxyHM8lo4n11x6F0blwOmW2scMEAqetnozvOKhCml27QrxN6Phg==
+
+%URL%
+https://gitlab.com/apparmor/apparmor
+
+%LICENSE%
+GPL-2.0-only
+LGPL-2.0-only
+LGPL-2.1-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1725191038
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+libapparmor.so=1-64
+
+%DEPENDS%
+audit
+bash
+gcc-libs
+glibc
+pam
+python
+
+%OPTDEPENDS%
+perl: for perl bindings
+python-notify2: for aa-notify
+python-psutil: for aa-notify
+ruby: for ruby bindings
+
+%MAKEDEPENDS%
+apache
+libxcrypt
+python-setuptools
+ruby
+swig
+
+%CHECKDEPENDS%
+dejagnu
+perl-locale-gettext
+python-notify2
+python-psutil
+
