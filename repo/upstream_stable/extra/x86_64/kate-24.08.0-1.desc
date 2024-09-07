@@ -1,0 +1,98 @@
+%FILENAME%
+kate-24.08.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+kate
+
+%BASE%
+kate
+
+%VERSION%
+24.08.0-1
+
+%DESC%
+Advanced text editor
+
+%GROUPS%
+kde-applications
+kde-utilities
+
+%CSIZE%
+10466851
+
+%ISIZE%
+34695210
+
+%SHA256SUM%
+2b3c21eb3f40e2730c68cdc0ed9ff9a1804a6701d598409b857b80dd7e9e0252
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmbKQEYACgkQek52CV2KUuThqQf/RV2KZ1EKPojDNVj01d22OKNzYGu5x8EJ1uF0gTGjq80znJk1SF9Ux69MXwyl2Yf8354KpA6Rv7o683Qgz4Rn9VM5jRkmzM3ddbS4XYa+sHP99lfC4aVQPgAS35hn5c/iEH+PesIFhrgwZo1Q99pdL9W5xdcW8NXsR+nBlM7cURLwd1Z2Lc5xDzi4ngavC5m5a9yLN97bPpyZDxxDb23zV3+jC3pyCmKObCsuBq1ICMurjZAviC9PRny9LdX06MTEy3Ma4Y0aswo3i3/N7QYbwKKNuFNtrNQiPfV3OWgaB08CRNv87r+Ip2RnvkkuoKYJX7Z3dZnLIJ9rPOdjuOztAw==
+
+%URL%
+https://apps.kde.org/kate/
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1723833105
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%REPLACES%
+kwrite
+
+%CONFLICTS%
+kwrite
+
+%PROVIDES%
+kwrite
+
+%DEPENDS%
+gcc-libs
+glibc
+kbookmarks
+kcolorscheme
+kcompletion
+kconfig
+kconfigwidgets
+kcoreaddons
+kcrash
+kdbusaddons
+kguiaddons
+ki18n
+kiconthemes
+kio
+knewstuff
+kparts
+kservice
+ktexteditor
+ktextwidgets
+kuserfeedback
+kwidgetsaddons
+kwindowsystem
+kxmlgui
+qt6-base
+syntax-highlighting
+
+%OPTDEPENDS%
+clang: C and C++ LSP support
+git: git-blame plugin
+konsole: open a terminal in Kate
+python-lsp-server: Python LSP support
+qt6-declarative: RBQL plugin
+qtkeychain-qt6: SQL plugin
+rust: Rust LSP support
+texlab: LaTeX LSP support
+
+%MAKEDEPENDS%
+extra-cmake-modules
+kdoctools
+qtkeychain-qt6
+

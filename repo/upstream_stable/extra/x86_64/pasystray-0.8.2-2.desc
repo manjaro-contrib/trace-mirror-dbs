@@ -1,0 +1,54 @@
+%FILENAME%
+pasystray-0.8.2-2-x86_64.pkg.tar.zst
+
+%NAME%
+pasystray
+
+%BASE%
+pasystray
+
+%VERSION%
+0.8.2-2
+
+%DESC%
+PulseAudio system tray (a replacement for padevchooser)
+
+%CSIZE%
+45708
+
+%ISIZE%
+103358
+
+%SHA256SUM%
+c09825140006b781a3581fef11230b6648a5c426341801eac84555b693d7c9c6
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmaCpa8ACgkQ/cMEC5Ksp0j5mA//TIhGfzbu5Izmb/O7wCskfNAqV9Wv7Kc8YNFQbgR9XIk9ELY754oSsKKHpyK7ucjLkeinaxVPWvvb9CfEiiBG0Qw/TpqKb3fNHi6kRExENVZGSxxbwNQ3YfTKbLN2o/ETAy0JHUj7+Ooa+NU4/EDU7q1jVtcHxbgaepQuhVQtwGfkcQd7gQbiWBF6DAyU8Le29I7se1+jIgi8EytVHVWnVOvYX0CtCWKK2HTptwy/JYgUxqtKUyT4vA9KUxipIYhlScJZlsjbUi+TOZSU1l3hlh78PRsCkRsQOR9VyJxLLUGPSipwczb9VLm0H3fPAjI1jzs5bTDDnM/ITmjTguDNpz65dghUAKBrF6uHc+BBInkwawwkhtHNkBzvmB+IXDeH1iXYOvgXNKZbD2NAfNvuKUgFbvXPVvU32S3H0rTSELNoHqvZbzkv/NJtjQ8ivoeVN3nGqYK0u+22GQ22ZQx/kbIU74WdgbXeYzBhvNBCLc1i/73fGBQsx059GxsAWMy2o6zHPawrNYKq6C4ymHrRHh+ANgGeHl3pe0GN6v/lBSDYhchBdzpfq0Sx41pc8KxQupDw7Sqga1Zf7yr6xRUKO9cCHGX3cVKFg+3Oy00zFyvfTW3ahGVKnIy0dB2s+KJeUDDCTLy1/ZG3fgeT4O5ZXIEEuzWdVVADViSM+Uu0q90=
+
+%URL%
+https://github.com/christophgysin/pasystray
+
+%LICENSE%
+LGPL-2.1-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1719838104
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+libpulse
+libnotify
+avahi
+libx11
+gtk3
+
+%OPTDEPENDS%
+pulseaudio: To control a local pulseaudio instance
+pavucontrol: Launch PulseAudio mixer from tray icon
+paprefs: Launch PulseAudio preferences from tray icon
+

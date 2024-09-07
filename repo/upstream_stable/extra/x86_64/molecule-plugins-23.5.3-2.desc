@@ -1,0 +1,92 @@
+%FILENAME%
+molecule-plugins-23.5.3-2-any.pkg.tar.zst
+
+%NAME%
+molecule-plugins
+
+%BASE%
+molecule-plugins
+
+%VERSION%
+23.5.3-2
+
+%DESC%
+Collection of molecule plugins
+
+%CSIZE%
+74320
+
+%ISIZE%
+419588
+
+%SHA256SUM%
+acf341886d458ffcfd2588d2662067cb64ecfb0a412e6f5a8fa867ad11a094fa
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZhonPgAKCRCbeih9mi7GCNXRAP91iTEraveXpMoH6Yy3a9EeDrnYkskc0Uqel0/dh9qkBQEA4Rr6eOGgUYNiIQZf8e4TOVvUu/cchX72YCH4B0702AE=
+
+%URL%
+https://github.com/ansible-community/molecule-plugins
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712989975
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%REPLACES%
+molecule-containers
+molecule-docker
+molecule-podman
+molecule-vagrant
+
+%CONFLICTS%
+molecule-containers
+molecule-docker
+molecule-podman
+molecule-vagrant
+
+%DEPENDS%
+molecule
+python
+python-boto3
+python-cryptography
+python-jinja
+python-packaging
+
+%OPTDEPENDS%
+ansible-core: for vagrant driver and validating docker and podman playbooks
+python-ansible-compat: for podman driver
+python-docker: for Docker support
+python-google-auth: for GCE playbooks
+python-google-api-python-client: for GCE playbooks
+python-pycryptodome: for GCE playbooks
+python-requests: for Docker support
+python-selinux: for SELinux and Docker support
+python-vagrant: for vagrant module
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+podman
+python-filelock
+python-google-auth
+python-google-api-python-client
+python-pexpect
+python-pycryptodome
+python-pytest
+python-pytest-helpers-namespace
+python-vagrant
+vagrant
+
