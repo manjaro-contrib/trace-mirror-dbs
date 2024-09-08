@@ -1,0 +1,102 @@
+%FILENAME%
+qmmp-2.1.9-1-x86_64.pkg.tar.zst
+
+%NAME%
+qmmp
+
+%BASE%
+qmmp
+
+%VERSION%
+2.1.9-1
+
+%DESC%
+Qt based audio-player
+
+%CSIZE%
+2474312
+
+%ISIZE%
+11549014
+
+%SHA256SUM%
+ca3b5dfaad4779bcd75139f3b892101e5dba7b1594dca455ebe7751f06b97540
+
+%PGPSIG%
+iQIzBAABCgAdFiEEOO3RiGdWkk4SJOSVJOTNsAE8JYAFAmbdjo4ACgkQJOTNsAE8JYBo3RAAgchQr1fFU24zxnbVKVByqM5T8QwKlP8mu1JRT4/G1RvkMHb+2pH5mJc3IhqcFXT9dAn4rFf+pnfk2oZhfCN/ZimuI1b2lzsPtrfCCRcwJ0kWU+QjAkQ/51Vy0BOlBiu4P20GYhCr89ayXEAgo4799EvTQkjXqtqeo6xFqVAbfBtZ5ArAFltz+kLgpM6rnzGddiUB6NbaKxSiz7pBKRzbPGdTFxvC+nTWllGLh2fwTkvDWOCeN7m5D8H6q49JRnbYgQLwjti+s7SoS51SRedpvSCP8j2yzt16FeqhWtWVdt/hrz5Zltd92tXO+o97ORPqt1fveTHgOTeVJljLC3lzNYNdhlvK2rToEd1ed4hxK+KaDfr5XEhmsO0o45AqBPFqvM8cTdQAGpVikp3sspMn7hiREqGVD8QPsvm3sniMRLwXVR8ulMCpKgrtFENdF0Fqnm6ebpDYog9E9KwoClpUr0zwYepWvhijv/379bFpJ2xvHyMql4YkF3mCv9uJUBNJPWrE9DBRJQeMg4tBlYtSadCrO4vz2Zcj8SG9UbjBo6j/VEkn3GZJH7m2jvjScRsMU0KORVWlf3WebG/Ay843UkhfjTTf32yi/OxVXo+2xd2MuIRWVzdWu5thrcXNBVL5u75gPNjVBYulZReW9Nl34mlcfbIYEyHny0IxCF3uuTc=
+
+%URL%
+http://qmmp.ylsoftware.com/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1725795130
+
+%PACKAGER%
+Jaroslav Lichtblau <svetlemodry@archlinux.org>
+
+%DEPENDS%
+alsa-lib
+curl
+desktop-file-utils
+hicolor-icon-theme
+libmad
+libvorbis
+libogg
+libxkbcommon-x11
+taglib
+xdg-utils
+qt6-base
+
+%OPTDEPENDS%
+mpg123: to play MP3 files
+flac: native FLAC support
+jack: JACK sound output
+libmpcdec: Musepack support
+pulseaudio: PulseAudio output
+pipewire: pipewire support
+libcdio-paranoia: Compact Disc input and control support
+libcddb: CDDB server support
+libmms: MMS stream protocol support
+libmodplug: MOD playing library
+libsndfile: sampled sound support
+projectm: visual efects
+faad2: ADTS AAC support
+libgme: support for chiptunes from various platforms
+libsidplayfp: C64 music support
+opusfile: Opus support
+wildmidi: MIDI support
+ffmpeg
+libsamplerate
+wavpack
+
+%MAKEDEPENDS%
+cmake
+flac
+jack
+libmpcdec
+pipewire
+pulseaudio
+ffmpeg
+libcdio-paranoia
+libcddb
+libmms
+libsamplerate
+libmodplug
+libsndfile
+wavpack
+mpg123
+mesa
+projectm
+faad2
+libgme
+libsidplayfp
+opusfile>=0.12
+wildmidi
+qt6-tools
+
