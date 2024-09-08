@@ -1,0 +1,124 @@
+%FILENAME%
+networkmanager-1.48.10-1-x86_64.pkg.tar.zst
+
+%NAME%
+networkmanager
+
+%BASE%
+networkmanager
+
+%VERSION%
+1.48.10-1
+
+%DESC%
+Network connection manager and user applications
+
+%CSIZE%
+3748985
+
+%ISIZE%
+15899908
+
+%SHA256SUM%
+38f667fefcd253e5b487334358fcf4431633f5c7fd67ce9ecce5bd712398faed
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZs0J2gAKCRC4rAhgDxCM30RbAQCvDh3w21ZuUJLJmQyaybJlslQ4U0XlI/k2uHG0VoWjOgEAw/Aqz0GquakuMdFCa983x1QO8pj5chuKvk+Yo+n2cg0=
+
+%URL%
+https://networkmanager.dev/
+
+%LICENSE%
+LGPL-2.1-or-later
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1724709839
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%DEPENDS%
+audit
+curl
+gcc-libs
+glib2
+glibc
+iproute2
+jansson
+libmm-glib
+libndp
+libnewt
+libnm
+libpsl
+libteam
+mobile-broadband-provider-info
+nspr
+nss
+readline
+systemd-libs
+wpa_supplicant
+
+%OPTDEPENDS%
+bluez: Bluetooth support
+dhclient: alternative DHCP client
+dhcpcd: alternative DHCP client
+dnsmasq: connection sharing
+firewalld: firewall support
+iptables: connection sharing
+iwd: wpa_supplicant alternative
+modemmanager: cellular network support
+nftables: connection sharing
+openresolv: alternative resolv.conf manager
+pacrunner: PAC proxy support
+polkit: let non-root users control networking
+ppp: dialup connection support
+
+%MAKEDEPENDS%
+audit
+bash
+curl
+dhclient
+dhcpcd
+dnsmasq
+gcc-libs
+git
+glib2
+glib2-devel
+glibc
+gobject-introspection
+gtk-doc
+iproute2
+iptables
+iwd
+jansson
+libmm-glib
+libndp
+libnewt
+libpsl
+libteam
+meson
+modemmanager
+nftables
+nspr
+nss
+openresolv
+pacrunner
+perl-yaml
+polkit
+ppp
+python-gobject
+readline
+systemd
+systemd-libs
+vala
+vala
+wpa_supplicant
+
+%CHECKDEPENDS%
+libx11
+python-dbus
+

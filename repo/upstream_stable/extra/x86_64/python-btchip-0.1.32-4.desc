@@ -1,0 +1,57 @@
+%FILENAME%
+python-btchip-0.1.32-4-any.pkg.tar.zst
+
+%NAME%
+python-btchip
+
+%BASE%
+python-btchip
+
+%VERSION%
+0.1.32-4
+
+%DESC%
+Python library to communicate with BTChip dongle
+
+%CSIZE%
+66761
+
+%ISIZE%
+462823
+
+%SHA256SUM%
+4038fcfb47e44742625036e581c95ee32dc6002f4f8bdd6f2318eb09994235bc
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYP/MAACgkQwGCGM3xQdz5Qkgf7BDCRiXmFm2ESart1HOQ/k+QcQ+IVmdwFzmmLG0W6KgiT/BgUZbkIv3XbMiFl9ya0yJEdTKXwob5zxE/mktDEu4+4C4QyAh71dJ5E9nISzUATe6JyrykM46pFZvibb/jnat6N5mp/eqLjQOxXVPdfPRXcQLV0E3/9ebc1UpvBwWux/DKc7bYE2BoPJ4PPe2nvDzQ1feXAxOsH205AKjzZ1Np5quo5T304x41TyGk1kRNQwcTZoRQmKVBiWvZ3XX9fBCOoGX+SWDo2HeT0GJZ1kk3KPA8pNQusvxBi2lNzglahzrYio6gSxC8agY/s8rPsW1s622csdGS5dYnoa69O2A==
+
+%URL%
+https://github.com/LedgerHQ/btchip-python
+
+%LICENSE%
+Apache
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712323761
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-ecdsa
+python-hidapi
+
+%OPTDEPENDS%
+btchip-udev: access BTChip as non-root user
+python-pyscard: for smartcard support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
