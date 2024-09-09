@@ -1,0 +1,18 @@
+%DEPENDS%
+avahi
+gcc-libs
+glib2
+glibc
+json-glib
+libmm-glib
+libsoup3
+
+%CONFLICTS%
+geoclue2
+
+%PROVIDES%
+geoclue2=2.7.2-1
+
+%OPTDEPENDS%
+libnotify: Demo Agent
+

@@ -1,0 +1,28 @@
+%DEPENDS%
+libmnl
+libnetfilter_acct
+zlib
+judy
+libuv
+json-c
+libcap
+lz4
+openssl
+which
+snappy
+protobuf
+libwebsockets
+mongo-c-driver
+libyaml
+cups
+freeipmi
+
+%OPTDEPENDS%
+iproute2: for monitoring Linux QoS
+python: for most of the external plugins
+apcupsd: for monitoring APC UPS
+lm_sensors: for go.d/sensors module
+smartmontools: for go.d/smartctl module
+nvme-cli: for go.d/nvme module
+iw: for monitoring Linux as access point
+

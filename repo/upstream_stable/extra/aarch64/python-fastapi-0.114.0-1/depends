@@ -1,0 +1,23 @@
+%DEPENDS%
+python
+python-anyio
+python-dirty-equals
+python-pydantic
+python-pydantic-core
+python-pydantic-extra-types
+python-pydantic-settings
+python-starlette
+python-typing_extensions
+
+%OPTDEPENDS%
+hypercorn: for Hypercorn as ASGI server
+python-email-validator: for email validation
+python-itsdangerous: for SessionMiddleware support
+python-jinja: for default starlette template configuration
+python-orjson: for ORJSONResponse
+python-python-multipart: for form parsing support
+python-pyyaml: for starlette SchemaGenerator support
+python-httpx: for TestClient support
+python-ujson: for faster JSON parsing and UJSONResponse
+uvicorn: for Uvicorn as ASGI server
+

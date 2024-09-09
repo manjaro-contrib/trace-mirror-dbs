@@ -1,0 +1,33 @@
+%DEPENDS%
+fuse3
+gnutls
+libnbd
+libnl
+libpciaccess
+libssh
+libxml2
+numactl
+parted
+polkit
+yajl
+
+%PROVIDES%
+libvirt=10.7.0
+libvirt.so=0-64
+libvirt-admin.so=0-64
+libvirt-lxc.so=0-64
+libvirt-qemu.so=0-64
+
+%OPTDEPENDS%
+dmidecode: DMI system info support
+dnsmasq: required for default NAT/DHCP for guests
+gettext: required for libvirt-guests.service
+iptables-nft: required for default NAT networking
+libvirt-storage-gluster: Gluster storage backend
+libvirt-storage-iscsi-direct: iSCSI-direct storage backend
+lvm2: Logical Volume Manager support
+openbsd-netcat: for remote management over ssh
+open-iscsi: iSCSI support via iscsiadm
+radvd: IPv6 RAD support
+swtpm: TPM emulator support
+

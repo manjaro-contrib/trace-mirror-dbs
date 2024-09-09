@@ -1,0 +1,21 @@
+%DEPENDS%
+gcc-libs
+glibc
+hicolor-icon-theme
+libx11
+libxext
+libasound.so=2-64
+libcurl.so=4-64
+libfreetype.so=6-64
+libjack.so=0-64
+liblilv-0.so=0-64
+libsuil-0.so=0-64
+
+%PROVIDES%
+ladspa-host
+lv2-host
+vst3-host
+
+%OPTDEPENDS%
+lua: for LUA scripting
+

@@ -1,0 +1,19 @@
+%DEPENDS%
+gcc-libs
+glib2
+glibc
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+libgio-2.0.so=0-64
+
+%PROVIDES%
+libportal.so=1-64
+
+%OPTDEPENDS%
+libportal-docs: API documentation
+libportal-gtk3: GTK 3 backend
+libportal-gtk4: GTK 4 backend
+libportal-qt5: Qt 5 backend
+libportal-qt6: Qt 6 backend
+xdg-desktop-portal: Portal service
+
