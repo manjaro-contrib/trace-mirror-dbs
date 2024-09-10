@@ -1,0 +1,23 @@
+%DEPENDS%
+gnutls>=2.4.1
+gpgme
+ldb
+libbsd
+libcups
+libcap>=2.16
+libldb.so=2-64
+libtdb.so=1-64
+libtevent.so=0-64
+liburing
+libwbclient
+popt
+python
+smbclient>=4.21.0
+talloc
+tdb
+
+%OPTDEPENDS%
+python-dnspython: netads_dns.py, dnsresolver.py and traffic_packets.py
+python-markdown: ms_schema_markdown.py and ms_forest_updates_markdown.py
+python-cryptography: lockout_tests.py gp_cert_auto_enroll_ext.py gpo.py and kcrypto.py
+

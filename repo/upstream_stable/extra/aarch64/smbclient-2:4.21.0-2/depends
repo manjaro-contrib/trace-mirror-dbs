@@ -1,0 +1,28 @@
+%DEPENDS%
+cifs-utils
+gnutls
+icu
+jansson
+ldb
+libarchive
+libbsd
+libcups
+libldap
+libldb.so=2-64
+libnsl
+libreadline.so=8-64
+libtdb.so=1-64
+libtevent.so=0-64
+libwbclient
+popt
+python
+readline
+talloc
+tdb
+tevent
+
+%OPTDEPENDS%
+python-dnspython: samba_dnsupdate and samba_upgradedns in AD setup
+python-markdown: for samba-tool domain schemeupgrade
+glusterfs: for vfs_glusterfs support
+
