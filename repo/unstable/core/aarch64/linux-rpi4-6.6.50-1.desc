@@ -1,5 +1,5 @@
 %FILENAME%
-linux-rpi4-6.6.47-1-aarch64.pkg.tar.zst
+linux-rpi4-6.6.50-1-aarch64.pkg.tar.zst
 
 %NAME%
 linux-rpi4
@@ -8,25 +8,25 @@ linux-rpi4
 linux-rpi4
 
 %VERSION%
-6.6.47-1
+6.6.50-1
 
 %DESC%
 The Linux Kernel and modules - Raspberry Pi 4 64-bit kernel
 
 %CSIZE%
-29299971
+29698378
 
 %ISIZE%
-29850211
+32503633
 
 %MD5SUM%
-f4ff8b4e19f99729646faa437b9d2786
+975504e0f4d8acd799d09dbc447b318e
 
 %SHA256SUM%
-421a8e0b5c416a427fe275dfb6ed9da041e94847f85aae1038a264471895a7af
+6d83ac00de4356c6915772317d8bf65c9a2d54dd4a120c0bdc0f32aca2dc7912
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmbHVkgACgkQHzWBGKB6z1cxaQgAxsIHzbis7sPnUyOzf178JmDKtP74Ne4M3JyctL/xGXUSNfWGE3BR9z0VY/ocPIjpFMvpFNITCVT3VHm/rrf7SHVLBttFkgN9rnY9Y02W5pnKCCA8KodzmQY7AMD1dcCfbErYXYDQmk+Hu5WB46yGpwmtgiI9C9VeTrjdeIPHHJwOf9kYVcn9bVA6hNH/IVW/2zTXbthaiS3Iic8Mvj7tksQgN4f0TcrCMA8A1FynMX0KzQksZCW9Ax9g0hKrF/XHQYN/RK6Y5yN02mPxuwVTdkbnEobyPzfmAvmrWL0QCwHB9rCRrljwNxjh9mIiTXmyr5HM/wM717+rsAnTbSF30Q==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmbg1hYACgkQHzWBGKB6z1cKywf/cSIbgZXUMKIguSC72GIjniNWefNTYOGKjPYo7WDNnLBM2FExUTnGM1+KV49BmksqvjOq5cu6fKSvyXSWsXhJKVp9JPq9BFcGstCJVPC/SOIIeJfwWJ8ZLiT9gf7uoNbcbL5lusLSrHQ4nilNbbetbXIXPgHBxtEOU4v/ZTPS8P2NlaQI4Dkk6pBn6z1Od5r0pfD+aNNXC/qS4ZGuDeUX70tiZ+DMCX3hu+tOp+D9vJBbemLHsxGUWYGMOfzK2JWeNRXAkUOs2ok49cDd99Jlk7tBQvrHu6DG1fzI2fCaKgCnbw/RnUTQ3RiOe6HvvBBTjBp1Nr19N/dRH5pFl7Ompg==
 
 %URL%
 http://www.kernel.org/
@@ -38,7 +38,7 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1724337845
+1726009570
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
@@ -47,13 +47,12 @@ Manjaro Build Server <build@manjaro.org>
 linux-raspberrypi-latest
 
 %CONFLICTS%
-kernel26
-linux
+linux-rpi4-mainline
+linux-rpi4-rc
 uboot-raspberrypi
 
 %PROVIDES%
-kernel26
-linux=6.6.47
+linux=6.6.50
 
 %DEPENDS%
 coreutils
