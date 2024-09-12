@@ -1,0 +1,67 @@
+%FILENAME%
+libuhd-4.7.0.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+libuhd
+
+%BASE%
+libuhd
+
+%VERSION%
+4.7.0.0-1
+
+%DESC%
+Universal Software Radio Peripheral (USRP) userspace driver
+
+%CSIZE%
+8783263
+
+%ISIZE%
+39490519
+
+%SHA256SUM%
+2e8d9e5c2a2a7d9422746d52c451b8040e828ff3b047bb9ca83d7e93118c7b91
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZt6k5gAKCRDwXowSExrrXtswAQDt8LAY+XAP+2RUgfMAtwzmNyShk59FHh+jEIxd2Re/bAD9GSD69VKNUfK2ERvYTD3T5ppZJJPQoOryUhzEIow+pg4=
+
+%URL%
+https://files.ettus.com/manual/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1725866859
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%PROVIDES%
+libuhd.so=4.7.0-64
+
+%DEPENDS%
+boost-libs
+gcc-libs
+glibc
+libusb
+orc
+
+%OPTDEPENDS%
+python-mako: for imgbuilder
+python-numpy: for Python bindings
+python: for Python bindings and USRP utils
+
+%MAKEDEPENDS%
+boost
+cmake
+python-mako
+python-numpy
+python-setuptools
+
+%CHECKDEPENDS%
+python-requests
+
