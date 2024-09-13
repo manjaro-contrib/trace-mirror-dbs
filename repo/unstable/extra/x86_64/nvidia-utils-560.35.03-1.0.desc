@@ -1,0 +1,67 @@
+%FILENAME%
+nvidia-utils-560.35.03-1.0-x86_64.pkg.tar.zst
+
+%NAME%
+nvidia-utils
+
+%BASE%
+nvidia-utils
+
+%VERSION%
+560.35.03-1.0
+
+%DESC%
+NVIDIA drivers utilities
+
+%CSIZE%
+245253530
+
+%ISIZE%
+683947435
+
+%MD5SUM%
+9cc3e5a62b212e02493c43fffebb6d30
+
+%SHA256SUM%
+46c497e1532f10418338a8fc3454ad6c808092b0b56794fbe8134330409271d9
+
+%PGPSIG%
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmbj1wQSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+FyEH/178njmkFAjU1gVVh37t4q+wcLYTpZ0KgJjTG6pk6X8hhLB3cYd8m/8mJcVAuqbDJpwM8ITDubDXJU+q0M9gfWbqn2Oty0cqnm6cfqgZHvkpzDXHRgHpgdnmHezVfjV7CoOnRC9tRUQ3OHskJDfRwYUKhWF+PEPSuSuC9dW7y6rrz3RmLIzDaI/RRi6bZPqJ7mB9TUG1vifrjRRtZaCH/ZtQANo47aFXhDlPT5hSkmyVDuVTICXRuGCFVs6PpbqQJIeYo5LNsmsibDLxzSQAnnBCo0qagmwPsEjnjM3+ofpTihfXBK7faQOoYSn8jIvtdGWFisW3ThPBQmv8y4QL9CM=
+
+%URL%
+http://www.nvidia.com/
+
+%LICENSE%
+LicenseRef-custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1726207270
+
+%PACKAGER%
+Philip Mueller <philm@manjaro.org>
+
+%REPLACES%
+nvidia-libgl
+
+%CONFLICTS%
+nvidia-libgl
+
+%PROVIDES%
+vulkan-driver
+opengl-driver
+nvidia-libgl
+nvidia-utils=560.35.03
+
+%DEPENDS%
+libglvnd
+egl-wayland
+
+%OPTDEPENDS%
+nvidia-settings: configuration tool
+xorg-server: Xorg support
+xorg-server-devel: nvidia-xconfig
+opencl-nvidia=560.35.03: OpenCL support
+
