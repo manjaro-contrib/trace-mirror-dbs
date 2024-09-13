@@ -1,0 +1,103 @@
+%FILENAME%
+geeqie-2.4-2-x86_64.pkg.tar.zst
+
+%NAME%
+geeqie
+
+%BASE%
+geeqie
+
+%VERSION%
+2.4-2
+
+%DESC%
+Lightweight image viewer
+
+%CSIZE%
+1950520
+
+%ISIZE%
+5938565
+
+%SHA256SUM%
+8acfe09f028b2817d0233cc27e80235671bc870f85009791d20b8b67191bbd1d
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZuPu9QAKCRBtQr3RFuAGj7b1AQDTtQfQ+t5AmREBPiEoPumi9YxbdNbZ7tz2BqwokoBxbwEAtK8ZOmpN6vtgPKp2FA/daTi06245TKji2uxD4hR5HwA=
+
+%URL%
+http://www.geeqie.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1726213801
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+exiv2
+gtk3
+ffmpegthumbnailer
+djvulibre
+libheif
+libchamplain
+poppler-glib
+libarchive
+libraw
+lua
+libjxl
+gspell
+glib2
+glibc
+gcc-libs
+lcms2
+openjpeg2
+clutter-gtk
+clutter
+gdk-pixbuf2
+libtiff
+cairo
+pango
+libjpeg-turbo
+sh
+hicolor-icon-theme
+
+%OPTDEPENDS%
+librsvg: SVG rendering
+fbida: for jpeg rotation
+gawk: to use the geo-decode function
+perl-image-exiftool: for the jpeg extraction plugin
+gphoto2: command-line tools for various (plugin) operations
+imagemagick: command-line tools for various (plugin) operations
+evince: for print preview
+libwebp: for WebP image format
+
+%MAKEDEPENDS%
+evince
+fbida
+gawk
+glib2-devel
+imagemagick
+intltool
+librsvg
+libwebp
+libwmf
+meson
+perl-image-exiftool
+python
+vim
+doxygen
+yelp-tools
+graphviz
+pandoc-cli
+
+%CHECKDEPENDS%
+xorg-server-xvfb
+shellcheck
+
