@@ -1,0 +1,77 @@
+%FILENAME%
+apparmor-3.1.7-4-aarch64.pkg.tar.xz
+
+%NAME%
+apparmor
+
+%BASE%
+apparmor
+
+%VERSION%
+3.1.7-4
+
+%DESC%
+Mandatory Access Control (MAC) using Linux Security Module (LSM)
+
+%CSIZE%
+1079932
+
+%ISIZE%
+5099966
+
+%MD5SUM%
+2d3e0bd9942a120dcd562b578abc0efd
+
+%SHA256SUM%
+73c99a24c20ed2a74e1931be31fdc4aab5b96b2b95ad965c00117828a5f832b0
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmba3zQACgkQdxk/FSvb5qaD1A/9ESCxFWmzAN3dRrS1upY9aOXTmZpI4XKlYmeoItPtH5svJllc3s5XqYwsr5x/aL5JqPNHMKIP1h9rKNndlgL/suleHXKth/CMTGDPeiPO5qcLc9RkviPVJwxK8qy+UzWnME4B32VnyNVdeQyQ2SslIqOJaPtZDauL1X4SkWOvpwyhJl8BlV2+BXs0gaNzY6op2zvP0djZm0LyiEPsN5l1bgLsjagMfYfTrvIQD7x2kAYCc67DbFYPBGSw+LrlyASgDJBcSBiKMCf9qndy0wRaRkdYs1W62ukD3eeMPrefXRy8XQCs8H7n4XJYAFunnvIL2yeQUfKmPdjGnOvykd4SX81ArGNKmwBw7Iy0y9X4WxsGNBW1i3jEgMkQ5KLeDszqKXh4uX/c2k0ziPzB6ZQ3E3+ZzfRC3/2HrdduFft+NlmXwUjv/6OxqF9PsIKBWbLAZbrIMlie0KbCS3eEeh3cfDD2e2vwg1cdwoauTTVZfyVSbtJSniJGNzIlpOM3u3H0DxkzrXwtwlfMy6YUxQAzd6CFl1MlWaScNoPujo6piPmWa/p7iuR0P8r83qHcORwEYHbHdoJI8I9avyoq+jMbH0wT67SYQzY8WhvhSyL1mdEZFu8eHQt8NCRuwTJ9sou4h+CLjAThKcO2sq2Bv3UPqhGaEx8jIamczsnPLjx4f44=
+
+%URL%
+https://gitlab.com/apparmor/apparmor
+
+%LICENSE%
+GPL-2.0-only
+LGPL-2.0-only
+LGPL-2.1-only
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1725619933
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%PROVIDES%
+libapparmor.so=1-64
+
+%DEPENDS%
+audit
+bash
+gcc-libs
+glibc
+pam
+python
+
+%OPTDEPENDS%
+perl: for perl bindings
+python-notify2: for aa-notify
+python-psutil: for aa-notify
+ruby: for ruby bindings
+
+%MAKEDEPENDS%
+apache
+libxcrypt
+python-setuptools
+ruby
+swig
+
+%CHECKDEPENDS%
+dejagnu
+perl-locale-gettext
+python-notify2
+python-psutil
+

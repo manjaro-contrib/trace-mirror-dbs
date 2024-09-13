@@ -1,0 +1,69 @@
+%FILENAME%
+qt5-multimedia-5.15.15+kde+r2-1-aarch64.pkg.tar.xz
+
+%NAME%
+qt5-multimedia
+
+%BASE%
+qt5-multimedia
+
+%VERSION%
+5.15.15+kde+r2-1
+
+%DESC%
+Classes for audio, video, radio and camera functionality
+
+%GROUPS%
+qt5
+
+%CSIZE%
+725740
+
+%ISIZE%
+4484078
+
+%MD5SUM%
+339c81e00e99931799c08b8ffe4a2ba0
+
+%SHA256SUM%
+e82bb2f57184e29b37bfab0d192a0d14ec6145e4b1afdd41db08e293bbdc1ef1
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmbZZLQACgkQdxk/FSvb5qa7XQ/+IGTDchswh13Mn4I7tGC7mOTPGE0I8rLH5Z3EXB/bAsjVvxFf/urXexfqil1yvIXUiawrL974V+kcIObHUnuYEbQpshsrPQF9ouswmf4IWqbRbyNK55K5aesWnEBpQd47oRLeEprccSAImsZYIomLSDI/0UN70pQEDPCYZLKp3H0mL1sIOa4EkSs4Af8kCm+dcSlwBrOXWUmzJ5Vy2T6TxAkRjvg1gRGEJQKz0o3GST7SREgexxkU/bJb1KxXqTn/3qVBtgHFwjIKsuvKub7AgmJ7t64RjUwxvvPtvl91PzN6KBPN/53fHvFu17yUo5UwaRKb/CGijchB0VND7KmsryXkRan7zQQwVw4e9TCS56CMj9Y0P65AK0pwoo7Aka3p0mQ+6MzFJeDL5cWyJCEu0PdkDAtSaL9GPsuMj4e9fKagufiVy1sh8ofiXdtsUS5pXoKHS8xIp3u6jqL8wzKIn0dGPPksW/uDWp73vStw4khp31fxaWT/9H/GUXmvsDm7m44euqkQrjD6FedCxfr1XpfLIbsQTWHfCC6tNmSgZCMLAAvR7G3m+spw5Y4rqJkjf0F+xSLthjd3lENNn6zh7x2lKpiIa5xPNqhXQnRR0j4GzNZeYGGhmc3DLg/fY5lB6kD5kThDHqwN+EAXwNzQsNILc/bNwnvUZgr0/NyOqwY=
+
+%URL%
+https://www.qt.io
+
+%LICENSE%
+GPL3
+LGPL3
+FDL
+custom
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1725522815
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+qt5-base
+gst-plugins-base
+libpulse
+openal
+
+%OPTDEPENDS%
+qt5-declarative: QML bindings
+gst-plugins-good: camera support, additional plugins
+gst-plugins-bad: camera support, additional plugins
+gst-plugins-ugly: additional plugins
+gst-libav: ffmpeg plugin
+
+%MAKEDEPENDS%
+qt5-declarative
+gst-plugins-bad
+git
+

@@ -1,0 +1,87 @@
+%FILENAME%
+python-openai-1.44.1-1-any.pkg.tar.xz
+
+%NAME%
+python-openai
+
+%BASE%
+python-openai
+
+%VERSION%
+1.44.1-1
+
+%DESC%
+Python client library for the OpenAI API
+
+%CSIZE%
+433512
+
+%ISIZE%
+4146489
+
+%MD5SUM%
+ca1dfdf3c185d58e400fa62bb47e3646
+
+%SHA256SUM%
+1385c3885b7941461575f8fd04de36882429c5d92447496ba52f42aa74066da3
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmbgnUkACgkQdxk/FSvb5qY4pA//YlmMFrn8ozs/MW+WrR+rF20eEuaFV2sFXLbN7wJda6LCYuxb8wmoMAkJnURYFIGXsrmjTYS7adELmAEJE/ex08sURIl2Kzvcb65jDe4QPC/fCUFCrohOm5ptPypBcfkbsUl1SZ5iXe94olzytoHefxWweoy3T9uOa2LWbzPK9CtdWW3qaWlUPP4MywmDhq68f6WCGZry+7dSUC/d3Ql01SShNqmJZPvpt3yCjbMqql6RLIcT9TkV3MqzheRJ90yhneDwc1FF1ao8n/MmWGNFmTyq5V3+V0y2QJxGUDwmy7spBJMopZc4uzpusQki9bgxQWcV+Cz/mo0Ivo/FILt0OEGK9P88TzWlIUjMIi6s/T8jZ/wQVdOk49SiBFJ1ejdK6Ei2gDExqkWTs6a5wp/bHrd1vrdsg/QTZr8OVFIebXiy6+L+ySsvE+qmtks+sm0cR/dfUyz6HTHrsHre3+H+RpUT8K721LVTlLXnrmrmhvaSbESrrHHS2rZp8p4eldvApjLeM/V4oNYPTwrZgxWmTTNdCvesdrAOV35x0ik4RHwXyti6Yq3u5EVa/o0HVkuTQ12+86xcvnNztFi7g1ZlOZGrmKxuMXQWp880UWvTKOei9cyq6jEfvPVpRkJWNpXK+jDdRDbKLu9sKIY8p8OJ5o2zrLHVk+QHT/PjcHgeDP0=
+
+%URL%
+https://github.com/openai/openai-python
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1725996339
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-anyio
+python-distro
+python-h2
+python-httpx
+python-jiter
+python-pydantic
+python-pydantic-core
+python-sniffio
+python-tqdm
+python-typing_extensions
+
+%OPTDEPENDS%
+python-numpy: Needed for CLI fine-tuning data preparation tool
+python-pandas: Needed for CLI fine-tuning data preparation tool
+python-pandas-stubs: Needed for type hints for mypy
+python-openpyxl: Needed for CLI fine-tuning data preparation tool xlsx format
+python-wandb: Support for Weights & Biases
+python-scikit-learn: Needed for embedding utils
+python-tenacity: embeddings
+python-matplotlib: embeddings
+python-plotly: embeddings
+python-scipy: embeddings
+
+%MAKEDEPENDS%
+python-build
+python-hatch-fancy-pypi-readme
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+npm
+procps-ng
+python-dirty-equals
+python-inline-snapshot
+python-pytest
+python-pytest-asyncio
+python-respx
+python-rich
+
