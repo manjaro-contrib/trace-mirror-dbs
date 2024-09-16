@@ -1,0 +1,75 @@
+%FILENAME%
+doublecmd-gtk2-1.1.17-2-x86_64.pkg.tar.zst
+
+%NAME%
+doublecmd-gtk2
+
+%BASE%
+doublecmd
+
+%VERSION%
+1.1.17-2
+
+%DESC%
+twin-panel (commander-style) file manager (GTK3)
+
+%CSIZE%
+8282068
+
+%ISIZE%
+44681643
+
+%MD5SUM%
+d41f23b46c631bdee765780627c6ba7d
+
+%SHA256SUM%
+263968933710c91086400bc1a38800ec7c4ab770a904f4c5f7236b3a0f8931c0
+
+%PGPSIG%
+iHUEABYKAB0WIQRTHs82RKRP6gtH283h488FOUSL/wUCZuHgGgAKCRDh488FOUSL/+0IAQD0GIof/4cpQTZ9a5kyqZd/JboE8+7JXWxxDDwnyx2gPAEAgi/3h5iyV89msavXt1CvdRjddp6OGMAYYMh0UzHeHwI=
+
+%URL%
+http://doublecmd.sourceforge.net/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1726078540
+
+%PACKAGER%
+Ike Devolder <ike.devolder@archlinux.org>
+
+%CONFLICTS%
+doublecmd-qt5
+doublecmd-qt6
+
+%PROVIDES%
+doublecmd
+
+%DEPENDS%
+gtk2
+desktop-file-utils
+hicolor-icon-theme
+shared-mime-info
+
+%OPTDEPENDS%
+lua: scripting
+unzip: support extracting zip archives
+zip: suport packing zip archives
+p7zip: support for 7zip archives
+libunrar: support for rar archives
+imagemagick: preview xcf files
+ffmpegthumbnailer: preview video files
+
+%MAKEDEPENDS%
+lazarus
+gtk2
+qt5pas
+qt6pas
+imagemagick
+ffmpegthumbnailer
+
