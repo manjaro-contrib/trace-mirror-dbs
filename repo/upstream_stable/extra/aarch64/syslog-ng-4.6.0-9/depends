@@ -1,0 +1,32 @@
+%DEPENDS%
+awk
+bash
+curl
+glib2
+glibc
+grpc
+json-c
+libcap
+libnet
+libnsl
+openssl
+pcre2
+protobuf
+systemd-libs
+
+%CONFLICTS%
+eventlog
+
+%OPTDEPENDS%
+logrotate: for rotating log files
+libdbi: for the SQL plugin
+librabbitmq-c: for the AMQP plugin
+mongo-c-driver: for the MongoDB plugin
+libesmtp: for the SMTP plugin
+hiredis: for the Redis plugin
+libmaxminddb: for the GeoIP2 plugin
+net-snmp: for the SNMP plugin
+librdkafka: for the Kafka C plugin
+python: for Python-based plugins
+python-ply: for debugger CLI
+

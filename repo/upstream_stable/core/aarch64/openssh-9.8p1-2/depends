@@ -1,0 +1,22 @@
+%DEPENDS%
+glibc
+krb5
+libkrb5.so=3-64
+libgssapi_krb5.so=2-64
+libedit
+libedit.so=0-64
+libxcrypt
+libcrypt.so=2-64
+openssl
+libcrypto.so=3-64
+pam
+libpam.so=0-64
+zlib
+libz.so=1-64
+
+%OPTDEPENDS%
+libfido2: FIDO/U2F support
+sh: for ssh-copy-id and findssl.sh
+x11-ssh-askpass: input passphrase in X
+xorg-xauth: X11 forwarding
+
