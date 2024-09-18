@@ -1,0 +1,17 @@
+%DEPENDS%
+gcc-libs
+glibc
+jbigkit
+libjpeg-turbo
+libjpeg.so=8-64
+zlib
+xz
+zstd
+
+%PROVIDES%
+libtiff.so=6-64
+libtiffxx.so=6-64
+
+%OPTDEPENDS%
+freeglut: for using tiffgt
+
