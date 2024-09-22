@@ -1,0 +1,69 @@
+%FILENAME%
+python-hishel-0.0.31-1-any.pkg.tar.zst
+
+%NAME%
+python-hishel
+
+%BASE%
+python-hishel
+
+%VERSION%
+0.0.31-1
+
+%DESC%
+An elegant HTTP Cache implementation for HTTPX and HTTP Core
+
+%CSIZE%
+77700
+
+%ISIZE%
+533669
+
+%SHA256SUM%
+b55a63e31b701f02f45862566ead4a14aaa7860341b9039e02e9ba0506915fbe
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZvAGQwAKCRCbeih9mi7GCGtsAQDTNz+tGsK2FZlIlsTxccBgGwhWPyorr9CfmmKn0lGMAQEAxiMFkrkY3S2FrCLxtmynFV1sZaJ2tiuh9mLZwhmfjAI=
+
+%URL%
+https://github.com/karpetrosyan/hishel
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1727006172
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-anyio
+python-httpcore
+python-httpx
+python-typing_extensions
+
+%OPTDEPENDS%
+python-boto3: for S3 support
+python-pyyaml: for YAML support
+python-redis: for Redis support
+python-anysqlite: for SQLite support
+
+%MAKEDEPENDS%
+python-build
+python-hatchling
+python-hatch-fancy-pypi-readme
+python-installer
+
+%CHECKDEPENDS%
+python-anyio
+python-anysqlite
+python-pytest
+python-pyyaml
+python-redis
+python-trio
+
