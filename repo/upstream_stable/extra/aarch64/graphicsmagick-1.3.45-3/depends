@@ -1,0 +1,26 @@
+%DEPENDS%
+bzip2
+freetype2
+lcms2
+libltdl
+libpng
+libsm
+libtiff
+libwebp
+libxext
+xz
+
+%PROVIDES%
+Magick.so
+libGraphicsMagickWand.so=2-64
+libGraphicsMagick.so=3-64
+libGraphicsMagick++-Q16.so
+
+%OPTDEPENDS%
+jasper: jp2 module
+libwmf: wmf module
+libxml2: msl, svg, url modules
+ghostscript: pdf, ps modules
+libheif: heic module
+libjxl: jpeg-xl module
+
