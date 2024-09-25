@@ -1,0 +1,25 @@
+%DEPENDS%
+python
+python-anyio
+python-distro
+python-h2
+python-httpx
+python-jiter
+python-pydantic
+python-pydantic-core
+python-sniffio
+python-tqdm
+python-typing_extensions
+
+%OPTDEPENDS%
+python-numpy: Needed for CLI fine-tuning data preparation tool
+python-pandas: Needed for CLI fine-tuning data preparation tool
+python-pandas-stubs: Needed for type hints for mypy
+python-openpyxl: Needed for CLI fine-tuning data preparation tool xlsx format
+python-wandb: Support for Weights & Biases
+python-scikit-learn: Needed for embedding utils
+python-tenacity: embeddings
+python-matplotlib: embeddings
+python-plotly: embeddings
+python-scipy: embeddings
+
