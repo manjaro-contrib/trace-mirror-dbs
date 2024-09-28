@@ -1,0 +1,17 @@
+%DEPENDS%
+glibc
+libsasl
+openssl
+snappy
+zstd
+
+%CONFLICTS%
+libbson
+libmongoc
+
+%PROVIDES%
+libbson
+libbson-1.0.so=0-64
+libmongoc
+libmongoc-1.0.so=0-64
+
