@@ -1,0 +1,55 @@
+%FILENAME%
+fortunecraft-1.8.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+fortunecraft
+
+%BASE%
+fortunecraft
+
+%VERSION%
+1.8.1-1
+
+%DESC%
+Craft fortunes using Ollama and Gemma2
+
+%CSIZE%
+2198980
+
+%ISIZE%
+5995469
+
+%SHA256SUM%
+a223c3f615a74bd5135c822e1834ed5f95406a2ac0edbaff0695ce69c75e829d
+
+%PGPSIG%
+iQIzBAABCgAdFiEEipvFgZxU/rPcKptIwyIX9vE/8ZIFAmb9skQACgkQwyIX9vE/8ZJ/dA//f6w1OXZmXw8JcQCLO7SiUVuu5UivBS0gLNuDeJ6XlH5wBllrSz8QipDv0ar9hSOEzxqZW58KAqErc9e2627Wiq3w23KFPMXddL/R6EGR+xhpEPTfnxwbWNLeZN2KHZy+tooF+c1OrVdd5Uhwf7PYWFV2bC5gh0ApG1hr1OTwbYDIUUjXhnK+sWaODxPRp7H7zbTkUvvugI1A6o5EU9GXe2lBGSvj+yg6SYH8K+SR2dr5qXjum/IX83WHzUy6pmROvTNQt2FTU2YNzs5Kvomg/VZDVco8/6iJ/qdJVQdf0N+9Y6ibIKZ7HExDS6QiT7LRF/0jZhf9sXQTefixeun7iUwrjcLmmCX3LD39Stlu3Hj6DkRfqCUpNrTnXbm6QRhsxfPpdoUgAdgAKQ0iIfHj6CjqX456VzpQqxha2FrawCznodJf1bNRvGSihVt88wr6I+Ii2abhG1QLdRC09pdxwoyWeJxmKlp6dxsN9o9zVtJd3/Kqp2RCe7yRe/PBCw9yXXoQrY9z+cTboLgT5REPznTI6hyJlrc1stbxKjex+5FaE4CC2RYLXP7fAx6kYhkBKXWoICWAeNckWg6PvCaxS+JCJP7ScNE5dMDTNNFFbWIMwok+nOPVIwe9+dsEdTfaENLU5iKVIUo/uED28jRiaMTKroym1SCAOZvxACK+qZY=
+
+%URL%
+https://github.com/xyproto/fortunecraft
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1727902168
+
+%PACKAGER%
+Alexander F. Rødseth <xyproto@archlinux.org>
+
+%DEPENDS%
+llm-manager
+ollama
+
+%OPTDEPENDS%
+ollama-cuda: CUDA support for Ollama
+ollama-rocm: ROCm support for Ollama
+ollama-gemma2-2b: the Gemma2 (2B) model
+
+%MAKEDEPENDS%
+git
+go
+
