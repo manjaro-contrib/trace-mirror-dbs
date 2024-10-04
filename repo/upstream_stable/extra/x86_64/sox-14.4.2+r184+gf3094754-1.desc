@@ -1,0 +1,88 @@
+%FILENAME%
+sox-14.4.2+r184+gf3094754-1-x86_64.pkg.tar.zst
+
+%NAME%
+sox
+
+%BASE%
+sox
+
+%VERSION%
+14.4.2+r184+gf3094754-1
+
+%DESC%
+The Swiss Army knife of sound processing tools
+
+%CSIZE%
+418470
+
+%ISIZE%
+1261815
+
+%SHA256SUM%
+00e3f754b91be2e245a9c314654c8b631610a61e798b635919d74fbcc9dee4e1
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCZo2dzQAKCRDylr3lA2jGzqV0AP94RAeNKCi3FZkpjEZ93qqFaEEjDonYWINaSCgVIvz6kAEAhfsJdlfx6ZrvEBn2YEZXmpw7EKINiwrBjh2OZkyy8AU=
+
+%URL%
+https://sox.sourceforge.net/
+
+%LICENSE%
+GPL2
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1720556930
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%PROVIDES%
+libsox.so=3-64
+
+%DEPENDS%
+file
+gcc-libs
+gsm
+libid3tag
+libltdl
+libpng
+zlib
+
+%OPTDEPENDS%
+alsa-lib: alsa plugin
+flac: flac plugin
+lame: mp3 plugin
+libao: ao plugin
+libmad: mp3 plugin
+libpulse: pulse plugin
+libsndfile: caf, fap, mat4, mat5, paf, pvf, sd2, sndfile, w64 and xi plugins
+libvorbis: vorbis plugin
+opencore-amr: amr_nb and amr_wb plugins
+opusfile: opus plugin
+twolame: mp3 plugin
+wavpack: wavpack plugin
+
+%MAKEDEPENDS%
+alsa-lib
+autoconf-archive
+flac
+git
+lame
+libao
+libmad
+libpulse
+libsndfile
+libvorbis
+opencore-amr
+opusfile
+twolame
+wavpack
+
+%CHECKDEPENDS%
+time
+

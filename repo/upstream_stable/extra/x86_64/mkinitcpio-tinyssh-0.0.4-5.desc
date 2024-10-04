@@ -1,0 +1,54 @@
+%FILENAME%
+mkinitcpio-tinyssh-0.0.4-5-any.pkg.tar.zst
+
+%NAME%
+mkinitcpio-tinyssh
+
+%BASE%
+mkinitcpio-tinyssh
+
+%VERSION%
+0.0.4-5
+
+%DESC%
+Archlinux mkinitcpio hook to install and enable the tinyssh daemon in early userspace
+
+%CSIZE%
+5212
+
+%ISIZE%
+4524
+
+%SHA256SUM%
+9eae830912edba5738c29e733298d493214c801b0472bacfeb7732c0ca41bdf5
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCZpG5hwAKCRDylr3lA2jGzuAbAP9ZspVHR71GII1kn+2tcKqUYE4jXJ4+g0e1fq4oQemXAQD+N+Z4NNEzVopCvhR+4kmrqz3d9SjR46pe/uLM7BJaKg0=
+
+%URL%
+https://github.com/grazzolini/mkinitcpio-tinyssh
+
+%LICENSE%
+BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1720826234
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%CONFLICTS%
+mkinitcpio-dropbear
+
+%DEPENDS%
+mkinitcpio-busybox
+psmisc
+tinyssh
+
+%OPTDEPENDS%
+mkinitcpio-netconf: Network interface configuration
+tinyssh-convert: For converting OpenSSH keys
+

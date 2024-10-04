@@ -1,0 +1,74 @@
+%FILENAME%
+postorius-1.3.13-1-any.pkg.tar.zst
+
+%NAME%
+postorius
+
+%BASE%
+postorius
+
+%VERSION%
+1.3.13-1
+
+%DESC%
+The New Mailman Web UI
+
+%CSIZE%
+1566660
+
+%ISIZE%
+14518661
+
+%SHA256SUM%
+f15c7084cc64ea791ae00a24cdc91f6fb332ed63a49f618b132f9612a108bf0c
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZu/9mQAKCRCbeih9mi7GCINLAQCkkOhP5xK4jxjfrMYDXfRwDI9wLBvpF5b56GaT1O3x3QD+JugbwF3SVXS6D0bdUgjVJyrd9zlTSbx7cXcisoYOHAg=
+
+%URL%
+https://gitlab.com/mailman/postorius
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1727003786
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%REPLACES%
+python-django-postorius
+
+%DEPENDS%
+python
+python-cmarkgfm
+python-django
+python-django-allauth
+python-django-mailman3
+python-mailmanclient
+python-readme-renderer
+
+%OPTDEPENDS%
+python-django-debug-toolbar: for debugging
+python-django-gravatar: for gravatar support
+mailman3: for configuring a local mailman instance
+uwsgi-plugin-python: for running inside uwsgi
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-pdm-backend
+
+%CHECKDEPENDS%
+mailman3
+python-beautifulsoup4
+python-isort
+python-pytest
+python-pytest-django
+python-vcrpy
+

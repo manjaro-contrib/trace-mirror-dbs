@@ -1,0 +1,101 @@
+%FILENAME%
+rosegarden-24.06-1-x86_64.pkg.tar.zst
+
+%NAME%
+rosegarden
+
+%BASE%
+rosegarden
+
+%VERSION%
+24.06-1
+
+%DESC%
+MIDI/audio sequencer and notation editor
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+7889646
+
+%ISIZE%
+14531704
+
+%SHA256SUM%
+ff4b5b5df5815c41d77fbfd4d050555dab952a3245a1e44bcd76f9651baae6ce
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZmG/2wAKCRCbeih9mi7GCOtOAP402XDDA4iom3TFL9EYm5l9p8RqmcFRaElbm36/dkecSwEAqK3Lhxd5msbhzlJ/IPBdMMsU142lp26GNj65DprUHQw=
+
+%URL%
+https://www.rosegardenmusic.com/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1717676465
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+dssi-host
+ladspa-host
+
+%DEPENDS%
+gcc-libs
+glibc
+lirc
+hicolor-icon-theme
+qt5-base
+zlib
+alsa-lib
+libasound.so=2-64
+fftw
+libfftw3f.so=3-64
+jack
+libjack.so=0-64
+liblrdf
+liblrdf.so=2-64
+liblo
+liblo.so=7-64
+libsamplerate
+libsamplerate.so=0-64
+libsndfile
+libsndfile.so=1-64
+
+%OPTDEPENDS%
+cups: Printing support
+evince: Print preview support
+flac: FLAC support
+lilypond: Notation display support
+mupdf: Print preview support
+okular: Print preview support
+timidity++: Softsynth support
+wavpack: Lossless audio codec support
+
+%MAKEDEPENDS%
+alsa-lib
+cmake
+dssi
+fftw
+jack
+ladspa
+liblrdf
+liblo
+libsamplerate
+libsndfile
+qt5-tools
+
+%CHECKDEPENDS%
+lilypond
+python
+tex-gyre-fonts
+ttf-dejavu
+xorg-server-xvfb
+

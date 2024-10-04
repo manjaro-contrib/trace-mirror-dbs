@@ -1,0 +1,51 @@
+%FILENAME%
+mkinitcpio-dropbear-0.0.3-8-any.pkg.tar.zst
+
+%NAME%
+mkinitcpio-dropbear
+
+%BASE%
+mkinitcpio-dropbear
+
+%VERSION%
+0.0.3-8
+
+%DESC%
+hook to install and enable the dropbear daemon in early userspace
+
+%CSIZE%
+4906
+
+%ISIZE%
+4455
+
+%SHA256SUM%
+3ad46e379c5c3a26e6c2bc73d5e264de7e8fee1036bc3ce68ee417a4f735f634
+
+%PGPSIG%
+iQIzBAABCAAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmaGeFgACgkQqF6BHrTKLgitoA/6AsvHZ9Rkxs26ZxxxDJbOqJAXKA/jqab5FKCq7D1m+hsVikgLEbX6sTfeU1s4sUchKPmA2YEsXHKJJCCYWRZYpVQp/MVWFnyjvqf9P/qt9VMQ07Ni7eZpo2hRLuld+UhDF6ipt/mWdCCVKFAXe2iKpB7+2IjP6gOMIM2LJbjfUP4lA8D5ISJBRPEE9/CKnQVjJeXoC+OHgnXWR0vSHva5nWLJg/2f7xlHlKK4/stvqspS0ITaWxft97r4H+0F+8iTAzny2C61qW1zgUGy5ySWIEEoJRUzts+LdVKlRVgLyHS3JE0Lar35Ye4KTnAoSBENyMFe3J5tCjlpeNawMaZwNfRimS9HE3p13ShV1DzO+ofQpYhTmSTnQZct6OMa80M/LC4+nwi0x4zhuMc07w79+JDmvmKsrUcrvzgZUM9mngF/zCGeSW3GFZ8WIaq4QtjXk1ALDjiOUAATd9PAQSbiGBRbXgD8HCOdll2BpeXrXkAr+DnvydECaLIJJ9rk6eQiRtfXLc6vBIwpug4qKyG3c5RM3i2P9nw8vyEGvVKlVR5bfOFI/OOC5EBANtzugvZFzxQkK1pndWhHppDvzTQaWX28uFUekJmAILuBBN/oW4fjIW9Su9IcWfZQ2T+rqlVqBk7njoOb+sFWhhazJlquS6IAX3VNnji7818Bb5XRJAU=
+
+%URL%
+https://github.com/grazzolini/mkinitcpio-dropbear
+
+%LICENSE%
+GPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1720088656
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%DEPENDS%
+dropbear
+psmisc
+
+%OPTDEPENDS%
+mkinitcpio-netconf: Network interface configuration
+mkinitcpio-ppp: PPP interface configuration
+openssh: Allows the use of the same host keys used for normal access
+
