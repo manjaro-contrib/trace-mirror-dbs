@@ -1,0 +1,59 @@
+%FILENAME%
+gdk-pixbuf2-docs-2.42.12-2-x86_64.pkg.tar.zst
+
+%NAME%
+gdk-pixbuf2-docs
+
+%BASE%
+gdk-pixbuf2
+
+%VERSION%
+2.42.12-2
+
+%DESC%
+An image loading library (documentation)
+
+%CSIZE%
+1299458
+
+%ISIZE%
+4131430
+
+%SHA256SUM%
+20a7a5cc0505841573cb7e1116c89aa969c8e6df97a2bddefb8ccfed57b693b9
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZwCWWQAKCRC4rAhgDxCM34qLAQC5/H9Rg73NrF2OQIIhRn2gaSZfQSPzh9G4RMDHbMNd1QEAvW3dtnPGq5GIuK4hiMznSSz7NCOkCCAKaUgAKrJunQs=
+
+%URL%
+https://wiki.gnome.org/Projects/GdkPixbuf
+
+%LICENSE%
+LGPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1728091637
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%OPTDEPENDS%
+libwmf: Load .wmf and .apm
+libopenraw: Load .dng, .cr2, .crw, .nef, .orf, .pef, .arw, .erf, .mrw, and .raf
+libavif: Load .avif
+libheif: Load .heif, .heic, and .avif
+libjxl: Load .jxl
+librsvg: Load .svg, .svgz, and .svg.gz
+webp-pixbuf-loader: Load .webp
+
+%MAKEDEPENDS%
+gi-docgen
+git
+glib2-devel
+gobject-introspection
+meson
+python-docutils
+
