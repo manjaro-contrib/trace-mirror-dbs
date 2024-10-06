@@ -1,0 +1,70 @@
+%FILENAME%
+picom-12.1-3-x86_64.pkg.tar.zst
+
+%NAME%
+picom
+
+%BASE%
+picom
+
+%VERSION%
+12.1-3
+
+%DESC%
+A lightweight compositor for X11
+
+%CSIZE%
+274424
+
+%ISIZE%
+818972
+
+%SHA256SUM%
+4e21a69ad37c72a3559e6fdaf5753232c2a3a50c6dfa2a6c690fc92dbe61fb22
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmb5VVAACgkQ/cMEC5Ksp0iSgw//cex85iWx4agbqyD1ZmLaEYYodc+NoTm61DRSwQ8fdozpyt2zwhxfSEplEfV/51TzTzuSkSqHqrkf8KxD/nzAN0NXkdjhRJMqVX1Ly3kkPYyBxahr7Q9BPpzvmxnfdEjOqxuOqhhMUmZq9CO0PEKEjLGj7Xy5yQNns1+UciT+pAquSy3bzpJYt9xIw9oyhyNZmvBlG6ZYxbVMcP5f2ZnBxotc4VXsV0oU7K6oZB/IJtrXIEV6yNz5Wi8gWvQMZKuNia68C47ld10Tm7+yxZpUGSgmwIiv14yqVlDFKmK1ACTupu7kazgcFaCMIYeZFJO75KTRRmJZIEPvImD2t9aC0BCK4ds9AaEGse60ZAkInnxIo0abnERK4pui57eGNbMWsb1E3Oa4cntA5Z7DQcS0zs4uGvBRnFUUcsKowgmyFQa2DKZBPnMWYy2hnXqD0VN8vHffxhQwmYPw7oNXvo/UEgXUW6f+civZ2QHeK/pb2lkWvXtXtHvKVwi2UtY5+wuoPAGFzvEmIkQeOgIBxkRBpbyND7HVJutOeZ7TJV8ewUqb0Yzq/nVV1aPD4we/sz9LT7TOjaSLXcCuUKb3UHSwVYmKhGYyggdPoVbiSxtNzXrS/5MolTJEzVTDVeVte50Aj/LwH0ArzXXcgS+MvJbewNLgvUnxi4KvvYuYc9r5Ie8=
+
+%URL%
+https://picom.app
+
+%LICENSE%
+MPL-2.0 AND MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1727616249
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+hicolor-icon-theme
+libconfig
+libdbus
+libev
+libgl
+pcre2
+pixman
+xcb-util-image
+xcb-util-renderutil
+libepoxy
+
+%OPTDEPENDS%
+dbus: for controlling picom via D-Bus
+python: for running picom-convgen.py
+rtkit: for realtime scheduling priority
+xorg-xprop: for picom-trans
+xorg-xwininfo: for picom-trans
+
+%MAKEDEPENDS%
+asciidoctor
+git
+mesa
+meson
+ninja
+setconf
+uthash
+
