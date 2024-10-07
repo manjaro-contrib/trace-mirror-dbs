@@ -1,0 +1,92 @@
+%FILENAME%
+libcamera-0.3.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+libcamera
+
+%BASE%
+libcamera
+
+%VERSION%
+0.3.2-1
+
+%DESC%
+A complex camera support library for Linux, Android, and ChromeOS
+
+%CSIZE%
+537039
+
+%ISIZE%
+1711660
+
+%SHA256SUM%
+58f20683b78e64f8c7c25756f395763648093dc2ad1fdab71109202eff6afd2f
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZvkScgAKCRCbeih9mi7GCE98AP45mWQMNkSiNzWxbYzTdMpgevG4g56lieU0v1VB8YduUQD/VUZKrqU/Ul2cQMqrs8UjcGqIGzE5J+ZTktYguALXzQM=
+
+%URL%
+https://libcamera.org/
+
+%LICENSE%
+Apache-2.0
+CC0-1.0
+GPL-2.0-only WITH Linux-syscall-note
+GPL-2.0-or-later
+LGPL-2.1-or-later
+GPL-2.0-or-later WITH Linux-syscall-note OR BSD-3-Clause
+GPL-2.0-or-later WITH Linux-syscall-note OR MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1727598956
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+libcamera.so=0.3-64
+libcamera-base.so=0.3-64
+
+%DEPENDS%
+gcc-libs
+glibc
+gnutls
+libcamera-ipa
+libelf
+libunwind
+libyaml
+sh
+systemd-libs
+libudev.so=1-64
+
+%OPTDEPENDS%
+gst-plugin-libcamera: GStreamer plugin
+libcamera-docs: for documentation
+libcamera-tools: for applications
+
+%MAKEDEPENDS%
+doxygen
+git
+glib2
+graphviz
+gst-plugins-base
+gtest
+libdrm
+libjpeg-turbo
+libtiff
+libyaml
+meson
+pybind11
+python-jinja
+python-ply
+python-sphinx
+python-pyyaml
+qt6-base
+qt6-tools
+sdl2
+systemd
+texlive-core
+

@@ -1,0 +1,95 @@
+%FILENAME%
+mailman3-3.3.9-3-any.pkg.tar.zst
+
+%NAME%
+mailman3
+
+%BASE%
+mailman3
+
+%VERSION%
+3.3.9-3
+
+%DESC%
+The GNU mailing list manager
+
+%CSIZE%
+1980040
+
+%ISIZE%
+16543598
+
+%SHA256SUM%
+60d44a9f46c7d252209dab77b1ea2a0c389aed3f17165434c1193f930b29c4ea
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmaBRPAACgkQ/cMEC5Ksp0jIRQ/9HgaP20mcI6NLxHiSgY0R2yHBAub5fSuPgi5z56kNCExnC52SwBVidaxRLfp812LGzxvxu17wc/qSW+c9fRxp8DppDklwqxAGgMl1nn3zYPp28eGk68FdjUMCpmAP9i1JUTACFy1pTTmy1TLGnXGUMB6NR2BiO+HeQId3qiOFkYH+Pnvt0NpnTxdoV/9W0Jn7OmafOdfiqNmhkbFZRLLZjbWi7wkr40q7FKU46wqYdXAcrSfnP3vEZl5Fo95eTqPL0BtmKz/KLB5ECIb3BLOgAZgSy6bUkdIVpKDoJYxziuKxY5vPppBsHYfJUQhROLx7BMOD05Jt+10d/4AmGXLp+olPFauTl8tkqXcOqLuYtq5srcvPmaI5zhPEgEo/bpYjOERkJg6f75K7avn+IJIgIOH/aCAabViQXlg28FSs9t5g163xHxlMsGF2lf2+7VbF11CYrIlv1OTwdkPyPMIhEyR97ifCG0io/cdcOD5G2BQVnLz6Vj3nPfg7+s7ST94fWAmzaAENLR5AWIZNeF4DJZ33LvG4Zc0zkMLpHznARGG140WFYfwhJtX0OOCG8tbRM8OlymJ3rthdnaAK8+V+8eHnpRNKDbgSErxhKwBObEE3gInyHQTSvBM7XhzCb2LIntgKey5xRUoor3D8za4VUG2VJ1Q1GFln8l191I49f+8=
+
+%URL%
+https://www.list.org/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1719747794
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%REPLACES%
+mailman-core
+
+%CONFLICTS%
+mailman
+
+%DEPENDS%
+gunicorn
+python
+python-aiosmtpd
+python-alembic
+python-atpublic
+python-authheaders
+python-authres
+python-click
+python-dateutil
+python-dnspython
+python-falcon
+python-flufl.bounce
+python-flufl.i18n
+python-flufl-lock
+python-lazr.config
+python-passlib
+python-requests
+python-sqlalchemy>=1.4
+python-zope-component
+python-zope-configuration
+python-zope-event
+python-zope-interface
+
+%OPTDEPENDS%
+hyperkitty: for local archive and list interaction
+lynx: for the default HTML to plaintext conversion
+mailman3-hyperkitty: for archiving mails with an instance of hyperkitty
+postorius: for local configuration interaction
+python-mailmanclient: for programmatically interfacing the mailman REST API locally
+python-psycopg2: for PostgreSQL support
+python-pymysql: for MySQL support
+smtp-server: for using a local mail server
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-nose2
+python-psycopg2
+python-pymysql
+python-pytest
+

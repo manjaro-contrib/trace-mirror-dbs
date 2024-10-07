@@ -1,0 +1,65 @@
+%FILENAME%
+python-paramiko-3.4.0-2-any.pkg.tar.zst
+
+%NAME%
+python-paramiko
+
+%BASE%
+python-paramiko
+
+%VERSION%
+3.4.0-2
+
+%DESC%
+Python module that implements the SSH2 protocol
+
+%CSIZE%
+354910
+
+%ISIZE%
+2500800
+
+%SHA256SUM%
+71929ad7db805369210d7698b176bafab2d623a8791f944e3629194aa537f873
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYS0roACgkQwGCGM3xQdz5IpwgAgMAnYJflc9nHB9xKWHbGJ1UiyI8Xli5XCRylN3H5WRZ/tmEqgSi5nKx3DQY6AvBBJcrfi1ddZ5+63Hc7u/VIgSuFnKY0ile7YC32gR1YqIrSZBhSHmo4Z+pGB/LEN7+6rI9OnTnUNf7InUhaPRSmq5XHayQTQ0YLedzIPOWQmxpeLq/3wjpxhZBzTccRKhJVL7WSzonAHxYntt5uOobE9KKFfEBPq2V7po2eXsWFhtDm302DzP2T4m21F4DVQYJZ1X+1ZMMZRj91ShFGjqZcdBG48ZxLVuCjYKx8o6koG7jM5enb1lz/qh/lJjV8UAMdg+LD13CDLQZ4oOhBIECyFg==
+
+%URL%
+https://github.com/paramiko/paramiko/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712509535
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python-bcrypt
+python-cryptography
+python-pynacl
+
+%OPTDEPENDS%
+python-invoke: config support
+python-gssapi: GSS-API/SSPI support
+python-pyasn1: GSS-API/SSPI support
+
+%MAKEDEPENDS%
+python-setuptools
+python-bcrypt
+python-cryptography
+python-pynacl
+
+%CHECKDEPENDS%
+python-pytest-relaxed
+python-pyasn1
+python-invoke
+python-lexicon
+python-icecream
+

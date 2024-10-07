@@ -1,0 +1,68 @@
+%FILENAME%
+pari-2.17.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+pari
+
+%BASE%
+pari
+
+%VERSION%
+2.17.0-2
+
+%DESC%
+Computer algebra system designed for fast computations in number theory
+
+%CSIZE%
+9122069
+
+%ISIZE%
+30193044
+
+%SHA256SUM%
+2e3297a6271413a3a978cd364c41ca46f7a4bf923c11915706dc70371e9dd564
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmb7m4cACgkQek52CV2KUuRpSwf+Lb+2fATWysupKZfkPyUBPwuqtMgWfD2hESBDQzJVBTjFI4+Dy6s8y1YY+ku7+E+Ed0J+oC6rR83eSY+ca8HZ4C/vkFEtzVfnqTzBvW6TxI9Gd+q6kYHPntyJReXY+0djqbVmoDCWIANDYeRMADrAQHTYK3xzx9bKp6qlVcuURJ4VSS5JttjkwFuhpbamYyGy7bAqTkMUsQEiz5uysvwxDSZseoSxfHOWVsm3pUaX7y3gxb35qd5wk0XIrh1VE+7nMa8FinlyH1ftMNHTrOOsG16CL5kWzBXIHto6/n/H+sT1dbHA2mTcmQFDZz0bXvzq5lNRH5aJxiKfaS/9zNHEdA==
+
+%URL%
+https://pari.math.u-bordeaux.fr/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1727764485
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+gmp
+libx11
+readline
+sh
+
+%OPTDEPENDS%
+perl: gphelp, tex2mail
+pari-elldata: J. Cremona elliptic curve database
+pari-galdata: to compute Galois groups in degrees 8 through 11
+pari-seadata: needed by ellap for large primes
+pari-galpol: GALPOL database of polynomials defining Galois extensions of the rationals
+
+%MAKEDEPENDS%
+chrpath
+perl
+texlive-latex
+
+%CHECKDEPENDS%
+pari-elldata
+pari-galdata
+pari-seadata
+pari-galpol
+
