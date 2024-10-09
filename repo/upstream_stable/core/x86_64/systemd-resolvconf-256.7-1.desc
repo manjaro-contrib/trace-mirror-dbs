@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-resolvconf-256.6-1-x86_64.pkg.tar.zst
+systemd-resolvconf-256.7-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd-resolvconf
@@ -8,22 +8,22 @@ systemd-resolvconf
 systemd
 
 %VERSION%
-256.6-1
+256.7-1
 
 %DESC%
 systemd resolvconf replacement (for use with systemd-resolved)
 
 %CSIZE%
-3263
+3283
 
 %ISIZE%
 0
 
 %SHA256SUM%
-d679369c982e7bd21732df3c2f6e752fbcba45710099c37574cf67defaa88aac
+ecc43189dd98958572aa096a685c9be57462f2393d852ec385a8d176015727bd
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZuBhWAAKCRBtQr3RFuAGj4CpAP9pMe7b2SfEqTxZiqKIl2BqKYc3hNo2fILY9m4EmsJxxAD+LT7Of3Q6dGOhJEEzy7VxmtHmeY1obzoZnirvTDHXkwI=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZwVVIwAKCRBtQr3RFuAGj4N3AQCRCwm6D+jEZL2x0ZtXPZoepoBLOsgiikwznJlg3TS7gwEAnS41OwvE9eTy6j0dbTKx0DwqHg1sTOjs5XB79ByhbQw=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -35,7 +35,7 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1725980776
+1728402469
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
@@ -48,7 +48,7 @@ openresolv
 resolvconf
 
 %DEPENDS%
-systemd=256.6
+systemd=256.7
 
 %MAKEDEPENDS%
 acl
@@ -99,4 +99,5 @@ libpwquality
 qrencode
 lib32-gcc-libs
 python-pefile
+linux-headers
 
