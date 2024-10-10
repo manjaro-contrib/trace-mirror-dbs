@@ -1,0 +1,15 @@
+%DEPENDS%
+python-packaging
+python-requests
+python-urllib3
+python-websocket-client
+
+%CONFLICTS%
+python-docker-py
+
+%PROVIDES%
+python-docker-py
+
+%OPTDEPENDS%
+python-paramiko: for connections using the SSH protocol
+
