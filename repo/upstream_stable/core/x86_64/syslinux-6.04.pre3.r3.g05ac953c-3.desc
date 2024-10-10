@@ -1,0 +1,59 @@
+%FILENAME%
+syslinux-6.04.pre3.r3.g05ac953c-3-x86_64.pkg.tar.zst
+
+%NAME%
+syslinux
+
+%BASE%
+syslinux
+
+%VERSION%
+6.04.pre3.r3.g05ac953c-3
+
+%DESC%
+Collection of boot loaders that boot from FAT, ext2/3/4 and btrfs filesystems, from CDs and via PXE
+
+%CSIZE%
+1457786
+
+%ISIZE%
+4483767
+
+%SHA256SUM%
+e894a81d6ddfd44a7ae47fba123136a7ec243a5b5c75c072d982ff7b0c80a4b3
+
+%PGPSIG%
+iHQEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZwUp2gAKCRBtQr3RFuAGj44wAPiVh8TntSt0yDXOFxi3uoEoawZNxtxx4qkIrtj840/IAP4grZjhHU363Vo6jKKoDzsKi3Acft0qx88W+M/Ol4vFBQ==
+
+%URL%
+https://www.syslinux.org/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1728391448
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%OPTDEPENDS%
+perl-crypt-passwdmd5: For md5pass
+perl-digest-sha1: For sha1pass
+mtools: For mkdiskimage and syslinux support
+gptfdisk: For GPT support
+util-linux: For isohybrid
+efibootmgr: For EFI support
+dosfstools: For EFI support
+
+%MAKEDEPENDS%
+git
+python
+nasm
+upx
+asciidoc
+lib32-glibc
+
