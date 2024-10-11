@@ -1,0 +1,43 @@
+%DEPENDS%
+gcc-libs
+glibc
+kbookmarks
+kcolorscheme
+kcompletion
+kconfig
+kconfigwidgets
+kcoreaddons
+kcrash
+kdbusaddons
+kguiaddons
+ki18n
+kiconthemes
+kio
+knewstuff
+kparts
+kservice
+ktexteditor
+ktextwidgets
+kuserfeedback
+kwidgetsaddons
+kwindowsystem
+kxmlgui
+qt6-base
+syntax-highlighting
+
+%CONFLICTS%
+kwrite
+
+%PROVIDES%
+kwrite
+
+%OPTDEPENDS%
+clang: C and C++ LSP support
+git: git-blame plugin
+konsole: open a terminal in Kate
+python-lsp-server: Python LSP support
+qt6-declarative: RBQL plugin
+qtkeychain-qt6: SQL plugin
+rust: Rust LSP support
+texlab: LaTeX LSP support
+
