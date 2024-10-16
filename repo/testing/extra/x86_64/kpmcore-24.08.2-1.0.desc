@@ -1,0 +1,73 @@
+%FILENAME%
+kpmcore-24.08.2-1.0-x86_64.pkg.tar.zst
+
+%NAME%
+kpmcore
+
+%BASE%
+kpmcore
+
+%VERSION%
+24.08.2-1.0
+
+%DESC%
+Library for managing partitions
+
+%CSIZE%
+929552
+
+%ISIZE%
+4322248
+
+%MD5SUM%
+cec37e9572545a7c733d54710bac74cb
+
+%SHA256SUM%
+8fcd31384aad936752d0bc95aa1c19a4b6b34a2b9e18921a4759fec33da06967
+
+%PGPSIG%
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmcPG38SHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B++7cH/0kc4FEJ93TGYJq/Rhk/L4iUcHmScrsOlgquNDW8FLM0aM04hbiUUTMeZpnVArrD0M8RtokYqFVC6SmKqyuaaQKGvIFnJ6vrOIyq6hmkIVM9WQN9L5LMaUucBW+SkoPAmOV27npMn+Ss4o22SFscDZKACh/XT6/QC5yuABHaaHz6qcTjfc5lRT8KPP3VPre8yCoLmi2EUaxcM2FAcf2M2hGuOROEbONpnLNkdiqHUmVb0FDzjxhuc22OMFjQdcIreeqDWqPK5L4HoOHSyo+H6z2VJyhY6qEIdzmnFCYUaVt1HsETZhvN5EtvGvzDnrYHoCMPIEcbr0mmp0DNwYzkBuQ=
+
+%URL%
+https://apps.kde.org/partitionmanager/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1729043277
+
+%PACKAGER%
+Philip Mueller <philm@manjaro.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+kcoreaddons
+ki18n
+kwidgetsaddons
+polkit-qt6
+qt6-base
+smartmontools
+util-linux-libs
+
+%OPTDEPENDS%
+bcachefs-tools: BCacheFS support
+dosfstools: FAT32 support
+e2fsprogs: ext2/3/4 support
+exfat-utils: exFAT support
+exfatprogs: exFAT support (alternative to exfat-utils)
+f2fs-tools: F2FS support
+fatresize: FAT resize support
+jfsutils: JFS support
+nilfs-utils: nilfs support
+ntfs-3g: NTFS support
+udftools: UDF support
+xfsprogs: XFS support
+
+%MAKEDEPENDS%
+extra-cmake-modules
+
