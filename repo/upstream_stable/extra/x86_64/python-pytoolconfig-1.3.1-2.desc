@@ -1,0 +1,65 @@
+%FILENAME%
+python-pytoolconfig-1.3.1-2-any.pkg.tar.zst
+
+%NAME%
+python-pytoolconfig
+
+%BASE%
+python-pytoolconfig
+
+%VERSION%
+1.3.1-2
+
+%DESC%
+Manage configuration for python tools, such as black and rope.
+
+%CSIZE%
+32893
+
+%ISIZE%
+127306
+
+%SHA256SUM%
+bd4a6a4ea61e8df80f8810f969d285fabc2345d12780aa704b68783691b9e4c7
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmYZiioACgkQek52CV2KUuTlVAf/VZBRpCHyTNYi4Wsh8aHPA9dreezRuGzZrQBDUYAr1EXYrTnyr83GSKoEc/3EIaVDT5p0nI6bFf+s4XTDJLVZnFtONprdWqVJN4zf8iMJdFGYY/X4+kubZQyE7Nb/29xy5iXHTqlhJvxkrPV5afjbjObpA5ELctfSQJA1eYVVV5j4/Kd7qyAiJw76S9KKIiTLCjWs4uPOu1BywLYWSEg6bAz4xHKHhs3o/LGEC7H8f5rhN2CuB95AzAhZ6fXVYmCrVq1ixRyDcPzk3dmRSHfIcDT3PyVP9I6qU2eh4G69IdF4KcJlHOs+t5kcpoozGMClImVXfNx77GVnFF3V0/cbKg==
+
+%URL%
+https://github.com/bagel897/pytoolconfig
+
+%LICENSE%
+LGPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1712949779
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python
+python-packaging
+
+%OPTDEPENDS%
+python-platformdirs: for finding configuration dirs
+python-pydantic: for validation
+python-sphinx: for automatic documentation
+python-tabulate: for tables in documentation
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-pdm-backend
+
+%CHECKDEPENDS%
+python-docutils
+python-pytest
+python-sphinx
+python-tabulate
+python-platformdirs
+

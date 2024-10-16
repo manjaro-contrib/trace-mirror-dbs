@@ -1,0 +1,65 @@
+%FILENAME%
+python-cvxopt-1.3.2-5-x86_64.pkg.tar.zst
+
+%NAME%
+python-cvxopt
+
+%BASE%
+python-cvxopt
+
+%VERSION%
+1.3.2-5
+
+%DESC%
+A free software package for convex optimization written in Python
+
+%CSIZE%
+573706
+
+%ISIZE%
+2740170
+
+%SHA256SUM%
+93c7c630e487e7ca5508d5144f043dd7a55c3e4c9ca46e69958851b2819938da
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmZkthcACgkQek52CV2KUuStmwf/W/kJdesVRhhbkpJ2MTBCbVvK2ArcX1eCfdJ5PdvTlmPO3SwCyE/IuS+DYXN01PQ+vcA0nk4lj8wcpXzo98PxD7XD5FdQZLo/LWEWLUS3vOUef2JsoHqSsNwVGZBBa7XJ+Huu/R0ZzVHKkYlgupePD33Zm7AnDYtGqwNYLG+K9z0gKY4MLxNVt5GhVoG+wvn3HrMbKTWuqfQswt+OKns+r5xtOykdko7kJUMS68rTo57XvsqG1vkiHg69RfAjUgKWLncM3wzKszXrIiExXCrbnj6ROoHvWB6QTSjD4+SdT2WbcapRLlcj5P/Z1ckeKlDPcgGYI07Nb2BzJQTqJt1MIQ==
+
+%URL%
+https://cvxopt.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1717876210
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+blas
+glibc
+lapack
+python
+suitesparse
+
+%OPTDEPENDS%
+gsl: for custom random number generators
+fftw: for FFTW interface
+glpk: solver for linear cone and PWL programming problems
+dsdp: solver for linear cone semidefinite programming problems
+
+%MAKEDEPENDS%
+gsl
+fftw
+glpk
+dsdp
+python-build
+python-installer
+python-setuptools-scm
+python-wheel
+

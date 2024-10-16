@@ -1,0 +1,80 @@
+%FILENAME%
+switchboard-8.0.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+switchboard
+
+%BASE%
+switchboard
+
+%VERSION%
+8.0.1-1
+
+%DESC%
+The Pantheon Control Center
+
+%GROUPS%
+pantheon
+
+%CSIZE%
+141512
+
+%ISIZE%
+834087
+
+%SHA256SUM%
+0992c86c3346d364627fb2653905bc3393d32703b4cfa62dd1ebd961bbbcbef3
+
+%PGPSIG%
+iQIzBAABCAAdFiEElSIL6Zzm/3eK4NxnD2XH2IFQYTAFAmb+mVcACgkQD2XH2IFQYTBkphAAqHmA0UjrghjHRXHbr4WXBRcxKQyOTw82OMlQ2w4Go33BlL7Md+/2CUvPB/hLoAlaKIJBhQmuaBqVo9zlrL54QC7g1RV1En+SLKaWyLmwu96nV2P84unYLtHKUMIKDmt2HczOnHvu8X1ew/dGgSoqngCmWrbC8R9UgvBzVmr31yPmwIH4TBaEcl9YDBOR0zDUvxdO/2BIJ5i5xUeOnU2UUPJmr9HPBxI+oM/Xac/1ShAhq+3R+LhiqiEX+km6yG2GItnYKz77j3+PM0/IRue+tLSidfLs1QgW8tJHeJ+UcZKPtE/PQFU9pLGyDXorcayFSuL2VH0cqS6MEiBxmWeROAlaMvnVTU7UmpGn6EJOKg7oWPMZf3ocqFLki4Sym75VALElLI3vo3n31tS7+D80HYFZuUSFZgFH3EfpsPBJnX0MriRz1g6yuDhB9+QJIdv0givnBZ2cZR1u1k2yGh/Ln8u2lTejtUNKIqW8DML3zgogzDtogemH80XJyNYCuiME+CB1DfQzr4h26ttRDhy5wgl4r9E7ohxPvyCPYoUBLsq/IIJ3r56FMziHi+xvFQtYzuO5I6m5Ds2hr9qOqY7FdtCxXOsk6Lhor0fsb0r/3tJ9sxTeZOUU2HGmPGvWIuMlXO8LPhao6hRT1/h7nhp4HQ5DAaDq/B2L1DKYYarVe1k=
+
+%URL%
+https://github.com/elementary/switchboard
+
+%LICENSE%
+LGPL-2.1-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1727243215
+
+%PACKAGER%
+Maxime Gauduin <alucryd@archlinux.org>
+
+%PROVIDES%
+libswitchboard-3.so=0-64
+
+%DEPENDS%
+dconf
+glib2
+glibc
+gtk4
+hicolor-icon-theme
+libadwaita-1.so=0-64
+libgee
+libgranite-7.so=7-64
+
+%OPTDEPENDS%
+switchboard-plug-about: About plug
+switchboard-plug-applications: Applications plug
+switchboard-plug-datetime: Date & Time plug
+switchboard-plug-desktop: Desktop plug
+switchboard-plug-display: Display plug
+switchboard-plug-elementary-tweaks: Elementary Tweaks plug
+switchboard-plug-keyboard: Keyboard plug
+switchboard-plug-locale: Locale plug
+switchboard-plug-network: Network plug
+switchboard-plug-notifications: Notifications plug
+switchboard-plug-power: Power plug
+switchboard-plug-security-privacy: Security & Privacy plug
+
+%MAKEDEPENDS%
+cmake
+git
+intltool
+meson
+sassc
+vala
+

@@ -1,0 +1,86 @@
+%FILENAME%
+hyperkitty-1.3.12-1-any.pkg.tar.zst
+
+%NAME%
+hyperkitty
+
+%BASE%
+hyperkitty
+
+%VERSION%
+1.3.12-1
+
+%DESC%
+A web interface to access GNU Mailman v3 archives
+
+%CSIZE%
+1812690
+
+%ISIZE%
+9787841
+
+%SHA256SUM%
+5d7738fcda00e546a651babb7acf254864064fa7148e18808c49c4c549dee72c
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZu/+PgAKCRCbeih9mi7GCHmnAP42eDf38AYEi+JPasiwXB72agBbBoFTj3LNmz1nKnImaQEAhEvjljDskNumxjnkLv4SWWneVP/VaxdmDECcESHorwc=
+
+%URL%
+https://gitlab.com/mailman/hyperkitty
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1727004034
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-dateutil
+python-django
+python-django-allauth
+python-django-compressor
+python-django-extensions
+python-django-gravatar
+python-django-haystack
+python-django-mailman3
+python-django-q2
+python-django-rest-framework
+python-flufl-lock
+python-mailmanclient
+python-mistune
+python-networkx
+python-robot-detection
+sassc
+
+%OPTDEPENDS%
+python-django-debug-toolbar: for debugging
+python-elasticsearch: for using elasticsearch as search backend
+python-whoosh: for using whoosh as search backend
+python-xapian-haystack: for using xapian as search backend
+uwsgi-plugin-python: for running inside uwsgi
+ruby-sassc: alternative to sassc
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-isort
+python-pdm-backend
+
+%CHECKDEPENDS%
+python-beautifulsoup4
+python-django-debug-toolbar
+python-elasticsearch
+python-lxml
+python-html5lib
+python-pytest
+python-pytest-django
+python-whoosh
+
