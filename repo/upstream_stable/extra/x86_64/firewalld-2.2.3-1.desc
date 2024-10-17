@@ -1,0 +1,64 @@
+%FILENAME%
+firewalld-2.2.3-1-any.pkg.tar.zst
+
+%NAME%
+firewalld
+
+%BASE%
+firewalld
+
+%VERSION%
+2.2.3-1
+
+%DESC%
+Firewall daemon with D-Bus interface
+
+%CSIZE%
+1213606
+
+%ISIZE%
+23847955
+
+%SHA256SUM%
+647caca399637431525b789bcf426b96001ebc7052eabda74a1c44fe12e8465f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmcRYPoACgkQ/cMEC5Ksp0gGHQ//W2IXL10jqTCGJAiX43mObQIZEaOr9BhZmEv8Fj28RjTFBCxeIURNnxBMuFJydF4iSch1w/yFp0Noqx5NnKQ36WEQBH6OC9O8nFQwzWJkaF8qdTQ/UCQ1FXoR2u61pBdKnmpL6YHtjzR4VX379MPHDjd7W+r5zIsc5B+I6zMsVGc+TMCiWQc2/owUI1kv/uklCY3CZy2gziGZ72ED5FCD25/c7Eb/HCXQ2TvWtCwTARSepK7TTm6I9ntKnkHoDWBTX2MTNAD4Q3iaL6GgpMs54ybTcxxyNb1jwWs22RuzX/q1tIjTJ9I24hyt3W4/a6F0BSG1QGm0XeG+9VleWsNmIudaY2yu+k+bfX/CmbopDp9ht1Or+B2QrvSXkDLEkr+P6nouKX61bIsUEqbqfBx43leZ7i9IF1KgxeUQ8JS2K9nsfu5c8jo9HNuzyCYwLYGwOVuJgjGV/aAEbRsi9Zrkvp8dNziKCKVrQx9TKTf9xxuzHKVE/XmA0yVENk1IaxBzxPXixxkSz0y+jPmN3RlAFc0/uOreuc3iWPFj2wq/A8i0kCBH9LtqivpcZyF2ku59dtGEtEGkCKXKNpFXRtVuvKmGxflAMOW50IFgpXxae5dXd7Z8Rp0u4yULYVKRfb8pM81q+0L/JX7ZlwzeKEfUnW3xUTpwyhMCuDZdU8+xoAo=
+
+%URL%
+https://firewalld.org
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1729192154
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python-dbus
+glib2
+hicolor-icon-theme
+nftables
+python-capng
+python-gobject
+
+%OPTDEPENDS%
+bash-completion: bash completion
+gtk3: firewall-config
+libnotify: firewall-applet
+networkmanager: NetworkManager support
+polkit: privileged actions
+python-pyqt6: firewall-applet
+
+%MAKEDEPENDS%
+docbook-xsl
+git
+intltool
+podman
+
