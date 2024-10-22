@@ -1,0 +1,66 @@
+%FILENAME%
+nyxt-3.12.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+nyxt
+
+%BASE%
+nyxt
+
+%VERSION%
+3.12.0-1
+
+%DESC%
+A keyboard-driven web browser designed for power users
+
+%CSIZE%
+26338255
+
+%ISIZE%
+147391355
+
+%SHA256SUM%
+51335cc9812e800cc3e329ac6a5533c9cada7194c18f8435af79dd59883cb254
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCZxdG/QAKCRDglZ/qi1UFOexEAP93O/OxJFxKb+MUOh6M6wGif247IeUMGQTsDxxE77sjZgEAqvmTvNPr5hJsMh+HhFgxxwqZA+oh/Nc+yv9qHspl+gA=
+
+%URL%
+https://nyxt.atlas.engineer
+
+%LICENSE%
+BSD-3-Clause
+CC-BY-SA-3.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1729578551
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+glibc
+hicolor-icon-theme
+enchant
+glib-networking
+gobject-introspection-runtime
+gsettings-desktop-schemas
+libfixposix
+webkit2gtk-4.1
+zstd
+
+%OPTDEPENDS%
+gstreamer: for HTML5 audio/video
+gst-plugins-base: for HTML5 audio/video
+gst-plugins-good: for HTML5 audio/video
+gst-plugins-bad: for HTML5 audio/video
+gst-plugins-ugly: for HTML5 audio/video
+
+%MAKEDEPENDS%
+git
+sbcl
+cl-asdf
+
