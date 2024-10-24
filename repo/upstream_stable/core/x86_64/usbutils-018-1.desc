@@ -1,0 +1,64 @@
+%FILENAME%
+usbutils-018-1-x86_64.pkg.tar.zst
+
+%NAME%
+usbutils
+
+%BASE%
+usbutils
+
+%VERSION%
+018-1
+
+%DESC%
+A collection of USB tools to query connected USB devices
+
+%CSIZE%
+110236
+
+%ISIZE%
+384502
+
+%SHA256SUM%
+45b269841e03102830d4ccccb342987359b46157f6ab7be583c6568656b58424
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZxf5uQAKCRCbeih9mi7GCB3BAQCjZOaxQ7B/8UIPd0GeyoSXHet3nr+f1Kw2whj6hlZ1YAEA7Y9BPIEdvrX886vwtGxPK8cKhUCsfvj7ksFwtyirkAA=
+
+%URL%
+https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usbutils.git/
+
+%LICENSE%
+GPL-2.0-only
+GPL-2.0-or-later
+GPL-3.0-only
+LGPL-2.1-or-later
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1729624446
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+glibc
+hwdata
+libusb
+libusb-1.0.so=0-64
+systemd-libs
+libudev.so=1-64
+
+%OPTDEPENDS%
+coreutils: for lsusb.py usage
+python: for lsusb.py usage
+sh: for usb-devices
+
+%MAKEDEPENDS%
+libusb
+meson
+systemd
+
