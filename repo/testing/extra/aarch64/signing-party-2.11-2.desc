@@ -1,0 +1,65 @@
+%FILENAME%
+signing-party-2.11-2-aarch64.pkg.tar.xz
+
+%NAME%
+signing-party
+
+%BASE%
+signing-party
+
+%VERSION%
+2.11-2
+
+%DESC%
+Collection for all kinds of pgp related things, including signing scripts, party preparation scripts, etc.
+
+%CSIZE%
+142776
+
+%ISIZE%
+636619
+
+%MD5SUM%
+e405da246266700316f56e883065b383
+
+%SHA256SUM%
+a5a8ff3deb75b5095ae9992f9c70cbe897a685b41cc4cc1b95c378cb4420a2a5
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmaUaCEACgkQdxk/FSvb5qZrdhAAsfBzPbhJ7FxNsz/OblYysekpF6SYNeoo/ZUCd4wGDE51xNUB+43Tg5pg8f0LfSwSmHLWR0DcpBQRN5sP7F4EqpkPZjNOLMx/deVQ6avvCnnc8DkIKRDjHkAHRn7I0MWr69HrhU0jeEX6W++J5Fka2KolZ2ewMCye4HIv/XEeiH1UyHVpmKIQBR3DidY8e27aSSMjuHaMEQ589sDnT8r7rlxj6JWAe0FvGCe85gI2ulLw5a3q8oBBtaw5ha+aeZ8ibLZk2j/tmTF6EaDp0DlyTGhaJcvMUkGQmYM6SOzw38N+zDinMfQotEGbOK4KBZxaV5frGT4teka+7uBBg8YhpXimPQK1kIdxDy3CHUy2g3sIgTUcjT2ZCujMEKS0rId35rDrEIyIB87XmjRkWrloYjFNvTECCzvJBPTjRRjoPWn3T4AOiVCC2Gtb+1G3UaCIMHR9/7jUEckRY9w9waf5pk8OfjU6RjxfLvnjrqZAFyKFoAq/xukGHq9yOwBT3FljVUrpwPS2m7LhEzj/Wj4SxT8g2VWbQ95h3jcojpyFU8ZyS1rVJyo8XXPX8SfWBo02sqbeECm5P9HYaw4hLo5FHEc8x2JNUMslOuwa+PzbotBKHX8g7e3QRAjpLAPveXhaWg9QeZxJgREEooIKA1Ukda/wAiJwMXr+dsqNcjU4KNA=
+
+%URL%
+https://salsa.debian.org/signing-party-team/signing-party
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1721001998
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+libmd
+perl-class-methodmaker
+perl-gnupg-interface
+perl-mailtools
+perl-mime-tools
+perl-net-idn-encode
+perl-term-readkey
+perl-text-template
+qprint
+
+%OPTDEPENDS%
+python: keyart support
+imagemagick: photo uid support in gpgsigs
+perl-gd: springgraph support
+qrencode: QR code support in gpg-key2latex
+texlive-latexextra: QR code support in gpg-key2latex
+noto-fonts: fonts for pretty printouts
+noto-fonts-cjk: fonts for pretty printouts
+
