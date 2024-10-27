@@ -1,0 +1,102 @@
+%FILENAME%
+qt5-base-5.15.15+kde+r136-1-aarch64.pkg.tar.xz
+
+%NAME%
+qt5-base
+
+%BASE%
+qt5-base
+
+%VERSION%
+5.15.15+kde+r136-1
+
+%DESC%
+A cross-platform application and UI framework
+
+%GROUPS%
+qt5
+
+%CSIZE%
+13200052
+
+%ISIZE%
+74793296
+
+%MD5SUM%
+259bc72ab831b762a4b4335ce1a920f6
+
+%SHA256SUM%
+1ad62401715b1539b922d78b69769e0f59e09e8d0911d68ad982150ac909e744
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmcdVH0ACgkQdxk/FSvb5qa6/w//WEC0yPv6v28kbOghGdqdx5MIDVJICv+DoMdY1kQBO/XdzX+AK0CQwin3vgEGBUC4/tsQ1OXVeG3eOabvevRdsrFiTmYNY+OEKIyVdpieN2OoiV9mnHfDDUDX9weU3dDH6ICKetC58P34LNV9tRh7IUk3tKQmolw1nrpGb75NJ9+JBQNwK8BEqoOwaumHjysMPFYwpNJ3i4jpmFBXPAHI1iVrZeRecR4MTWnP1jWfqDvmrVyW9cAAcLHXfACW5JyM2CmMx4tmHt+snO88s50OmFAprahuBQKbsVX2O2noxkMOP9PQZ0l1Jdu6kXdZB9xuw8IhVE8gzUGDSSk+qSHxvcJfyAYZOKILqWupdcAOGqmn6UZpDh82DrBL2IR9mQFHW3Z3wLZ+xf1hU6IEwA7XQ/IA3zjanCHmutmIJcTnwEiLsMRW7nejYHqHLrus4HoIxH0/Dc995wSCuDUVEP6NP74hSNVDmPc095VK0Pc2F4BVS4ZeVXIBxFt7W76veMT42JinA02v/C4UwhtYk0tFHoTy/Aa+6ANvsKSNd+x8ksvPT1pPhtimIWoHHuuWw8IcTcdlriB508NVY0Qm6D30NmUgrOWzu8vUHf/rhpyZdwyqFjpH/sUqyRNR9vyzbXwq7sDQ/LfpuQVUM8ifuR5OBGy4QGI0jFgF96+xzKurStU=
+
+%URL%
+https://www.qt.io
+
+%LICENSE%
+GPL3
+LGPL3
+FDL
+custom
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1729974060
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%CONFLICTS%
+qtchooser
+
+%DEPENDS%
+libjpeg-turbo
+xcb-util-keysyms
+xcb-util-renderutil
+libgl
+fontconfig
+xdg-utils
+shared-mime-info
+xcb-util-wm
+libxrender
+libxi
+sqlite
+xcb-util-image
+mesa
+tslib
+libinput
+libxkbcommon-x11
+libproxy
+libcups
+double-conversion
+md4c
+qt5-translations
+
+%OPTDEPENDS%
+qt5-svg: to use SVG icon themes
+qt5-wayland: to run Qt applications in a Wayland session
+postgresql-libs: PostgreSQL driver
+mariadb-libs: MariaDB driver
+unixodbc: ODBC driver
+libfbclient: Firebird/iBase driver
+freetds: MS SQL driver
+gtk3: GTK platform plugin
+perl: for fixqt4headers and syncqt
+
+%MAKEDEPENDS%
+libfbclient
+mariadb-libs
+unixodbc
+postgresql-libs
+alsa-lib
+gst-plugins-base-libs
+gtk3
+libpulse
+cups
+freetds
+vulkan-headers
+git
+
