@@ -1,0 +1,75 @@
+%FILENAME%
+python-pillow-11.0.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-pillow
+
+%BASE%
+python-pillow
+
+%VERSION%
+11.0.0-1
+
+%DESC%
+Python Imaging Library (PIL) fork
+
+%CSIZE%
+870762
+
+%ISIZE%
+4398526
+
+%SHA256SUM%
+057861d7515f952a5c5afe9d78e0b0a6c0636f4b3a5a23081df0239693d0b9b8
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCZxAqBwAKCRDglZ/qi1UFOUMwAP45Ojyrupx4KTEmpBsfujCkwITwvjz1vQGgUee3wN01TAEAl0PXSfhppkPN+V75EsgL9+CP2PcwbcxV+xZ/CMUiHg0=
+
+%URL%
+https://python-pillow.org
+
+%LICENSE%
+MIT-CMU
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1729112489
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+python-packaging
+freetype2
+lcms2
+libraqm
+libtiff
+openjpeg2
+libjpeg-turbo
+libimagequant
+libxcb
+zlib
+
+%OPTDEPENDS%
+libwebp: for webp images
+tk: for the ImageTK module
+python-olefile: OLE2 file support
+python-pyqt6: for the ImageQt module
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-wheel
+python-setuptools
+libwebp
+tk
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-timeout
+
