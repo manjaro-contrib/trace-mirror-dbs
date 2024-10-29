@@ -1,0 +1,67 @@
+%FILENAME%
+nvidia-utils-560.35.03-18-x86_64.pkg.tar.zst
+
+%NAME%
+nvidia-utils
+
+%BASE%
+nvidia-utils
+
+%VERSION%
+560.35.03-18
+
+%DESC%
+NVIDIA drivers utilities
+
+%CSIZE%
+245166963
+
+%ISIZE%
+683924208
+
+%SHA256SUM%
+771134a2011da410f847d0e3182c10efd212b84b863bf0a7f4345463fba2c10c
+
+%PGPSIG%
+iQIzBAABCAAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmcZlhQACgkQOeS4d+YuuRU7rRAAkC+jedLddu0KpMtg9XPCkcA1n2KBZDWlirPFpGjDcw0QoFHkaltRcK4BJJm1hw2bosddvB4XKrJiU6vUujeB3pBQMUh5TOWDIHvWflhtf9uBLSBge2vWmd5IeLA7oaK33xynDkN1zvbHDbSyeaWdaYeCKdNnwUyc7ZWW/67046R+DMAUojLTN1YuSB25L4sTAA+FPQOd/zD3JlkrYISXzWbWyElzNMGgTyAftEf+lHlbxIzO2KQFkl7jkH0P8mGrfcdgl80OXi1lVgNgyKCWTSg1s/duy+b+6rhe5R4N7I4zSrnnevhXkm+PmU370ekIX9VJt2Cys7n8g5kQFcoc6ZnrOSMtH5wEGXd81Ea8D9Z8Q5X/Cdqy5yHNsioTyDp8bNNT+WjDpxeLzSWqf2x2c5LacctGo0inwI9fDMBi5BhtV9cKiOudSTbTNfDfgDdmKpMTC+NlVmjHR3OVB34AArEe23VA0V5dAy/dxlbs3AR0M2adNw8+sU/RDmVHa/VoBdETAqjwd2Toi5ydEOPL5d+fL8ZR37ctFOAdr8ZRRddKeCsgLJXUo5FOnY6ts/YOJnjmL1qdvnN9WTv7FeV2AIATLvLVjVKZaNBLE8xnYZaPOmefs3GQehsJ2GpYTQh3TQeEWPgay9RboMAqoJ2ZYwVpqyDhI1rxh8Qn9p6tnAY=
+
+%URL%
+http://www.nvidia.com/
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1729729902
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%REPLACES%
+nvidia-libgl
+
+%CONFLICTS%
+nvidia-libgl
+
+%PROVIDES%
+vulkan-driver
+opengl-driver
+nvidia-libgl
+
+%DEPENDS%
+libglvnd
+egl-wayland
+egl-gbm
+
+%OPTDEPENDS%
+nvidia-settings: configuration tool
+xorg-server: Xorg support
+xorg-server-devel: nvidia-xconfig
+opencl-nvidia: OpenCL support
+
+%MAKEDEPENDS%
+patchelf
+

@@ -1,0 +1,96 @@
+%FILENAME%
+beets-2.0.0-2-any.pkg.tar.zst
+
+%NAME%
+beets
+
+%BASE%
+beets
+
+%VERSION%
+2.0.0-2
+
+%DESC%
+Flexible music library manager and tagger
+
+%CSIZE%
+953505
+
+%ISIZE%
+5325016
+
+%SHA256SUM%
+e921ed8fdc78e54f302335c4bf19fa18d69c64a6a42210b9bbc4643d229a689d
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZwJPEAAKCRDwXowSExrrXv8GAP0Z066RB+f97bsd2V5rAn/QHae/aTnjWVsNMvbHlh8SYwEAhSOuTPse1JgUPthBQf0yeLshfHpD24o6Lo8cY4jipgs=
+
+%URL%
+https://beets.io/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1728204356
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python-confuse
+python-jellyfish
+python-mediafile
+python-munkres
+python-musicbrainzngs
+python-typing_extensions
+python-unidecode
+python-yaml
+
+%OPTDEPENDS%
+bash-completion: Bash completion
+chromaprint: Chromaprint/Acoustid plugin
+ffmpeg: Convert, ReplayGain plugins
+gst-plugins-bad: Chromaprint/Acoustid, BPD, ReplayGain plugins
+gst-plugins-good: Chromaprint/Acoustid, BPD, ReplayGain plugins
+gst-plugins-ugly: Chromaprint/Acoustid, BPD, ReplayGain plugins
+gst-libav: Chromaprint/Acoustid, BPD, ReplayGain plugins
+gst-python: Chromaprint/Acoustid, BPD, ReplayGain plugins
+imagemagick: Thumbnails plugin
+python-beautifulsoup4: Lyrics plugin
+python-discogs-client: Discogs plugin
+python-flask: Web plugin
+python-gobject: ReplayGain plugin
+python-mpd2: MPDStats plugin
+python-pyacoustid: Chromaprint/Acoustid plugin
+python-pylast: LastGenre plugin
+python-requests: Chromaprint/Acoustid, BPD, FetchArt plugins
+python-requests-oauthlib: Beatport plugin
+python-xdg: Thumbnails plugin
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-sphinx
+python-wheel
+
+%CHECKDEPENDS%
+bash-completion
+imagemagick
+python-beautifulsoup4
+python-discogs-client
+python-flask
+python-mpd2
+python-py7zr
+python-pylast
+python-pytest
+python-reflink
+python-requests-oauthlib
+python-responses
+python-xdg
+

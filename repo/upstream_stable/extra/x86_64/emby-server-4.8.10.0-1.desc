@@ -1,0 +1,59 @@
+%FILENAME%
+emby-server-4.8.10.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+emby-server
+
+%BASE%
+emby-server
+
+%VERSION%
+4.8.10.0-1
+
+%DESC%
+Bring together your videos, music, photos, and live television
+
+%CSIZE%
+25111505
+
+%ISIZE%
+73404600
+
+%SHA256SUM%
+0e85359990c0f0e83ccac2bf7a0d4c08d000417bb6929addffb391bdd22add20
+
+%PGPSIG%
+iQIzBAABCAAdFiEElSIL6Zzm/3eK4NxnD2XH2IFQYTAFAmb+vfwACgkQD2XH2IFQYTAP4RAAkKaGz0JrUzdz2N8xpsweKzdfGPouHtyH3hLqWxQhhlQne4ilVIyu4g7ECqmk7vf0TZJy3JKyAK4YPqLgBThMduWDKHr4Os4R3UvScFjcgF/X5aRUtVmoyeAdp2jdUSiHN3xuGm5Rp0wibjWNHCCUCvQovGFV44eR3EnSucGWlVLMJpKvihk7ZIffnICkIVKR0EzrraYVU/iBUQLV2drLbtewFpRTNzxuOi8OurkMeEcGFpbHsEUyQxDbWz99RgB6iRDDRkGbd/XVOmAodSPo7NGs9fBGF5B6eWpwvga8Y5DkN6yyREkyIupci5XVUymW7qETmjIbV2tPDEcwi0rShrIJWX5pbjg/Q6XIrrhbahtDwJUakNv8ZgjVo+cvxbRfbabw2fjKqCTToUjGBWr1zooNjOj8yfPgihEV8tbDQFijuoHM65vh8/csmQpvcWnnIuk1s6+htI93vUMa2nhx3YcRJqMwcXrriZcLuV4YBp5efr/o3alXs9sTHnkRmjcBvKlJ4gNstu8Z8hHB1lusSoEIIi74VZ+EnHItJupQxM4s2ebEnWvdGteo48upwzo+nxDqbCHKuyVeN4TTW4rDzw3OcCtEQ8VVB9F/EX0jh8UsmJoVchGXOWO0JTELhoWSJNL0v/MC/esXr6PCRw4hwS4nFoYfNvQxvDWrVrA6ZgA=
+
+%URL%
+https://emby.media
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1727970744
+
+%PACKAGER%
+Maxime Gauduin <alucryd@archlinux.org>
+
+%DEPENDS%
+aspnet-runtime-6.0
+dotnet-runtime-6.0
+emby-ffmpeg
+libvips
+skia-sharp
+sqlite
+
+%OPTDEPENDS%
+intel-compute-runtime: Intel OpenCL tone-mapping support (Premiere)
+intel-media-driver: Intel VAAPI support for Broadwell and newer (Premiere)
+intel-media-sdk: Intel QuickSync support (Premiere)
+libva-intel-driver: Intel VAAPI support for Comet Lake and older (Premiere)
+libva-mesa-driver: AMD VAAPI support (Premiere)
+nvidia-utils: Nvidia NVDEC/NVENC support (Premiere)
+onevpl-intel-gpu: Intel QuickSync support for Alder Lake and newer (Premiere)
+

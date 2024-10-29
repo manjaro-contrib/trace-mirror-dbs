@@ -1,0 +1,105 @@
+%FILENAME%
+rhythmbox-3.4.7-3-x86_64.pkg.tar.zst
+
+%NAME%
+rhythmbox
+
+%BASE%
+rhythmbox
+
+%VERSION%
+3.4.7-3
+
+%DESC%
+Music playback and management application
+
+%CSIZE%
+2560709
+
+%ISIZE%
+13784498
+
+%SHA256SUM%
+a293cfba0ca2b6f5ebe40bbf6811705e571b5890cf1cc21bb48f1e050cfb3b80
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmcVGHIACgkQwGCGM3xQdz6swQgAg3VTWAC8h0zXaBa8lxBur4vpdV6VsGWQ3K0dQ769ux4sYyG2e+hoboDJdIlGraSr70ypNJPMr0bmp84SliShILS94H7r3JF2misaZz3M50z2xLsuao56VCvsuIUTrorz1AUVNjPrMKkP5nCu0Uug/wUvWMHmSJ7kaDlZfTdcnEevR0VXZx0HjzsNkD3UFS+FUTeFr5IJOfw7iMdXveHqj5/6zWF9yHUzydbc8ATsNZYw3HAjUgGXEUNUMEWlD8lmiQ4HIvIXQrDvV+nQf9uARcIiKw4v/rt4ynTpmqI65Atr8q0KNl7KhrGZNaIMsoe2n8CqkcxVTcVqNIvJGwULWA==
+
+%URL%
+https://gitlab.gnome.org/GNOME/rhythmbox
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1729435677
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+at-spi2-core
+cairo
+dconf
+gcc-libs
+gdk-pixbuf2
+glib2
+glibc
+grilo
+gst-plugins-base
+gst-plugins-base-libs
+gst-plugins-good
+gstreamer
+gtk3
+gvfs
+hicolor-icon-theme
+json-glib
+libgirepository
+libgudev
+libnotify
+libpeas
+libsecret
+libsoup3
+libx11
+libxml2
+media-player-info
+pango
+python
+python-gobject
+tdb
+totem-plparser
+
+%OPTDEPENDS%
+brasero: Audio CD Recorder plugin
+grilo-plugins: Grilo media browser plugin
+gst-libav: Extra media codecs
+gst-plugins-bad: Extra media codecs
+gst-plugins-ugly: Extra media codecs
+gvfs-mtp: Portable Players - Android plugin
+libdmapsharing: DAAP Music Sharing plugin
+libgpod: Portable Players - iPod plugin
+libmtp: Portable Players - MTP plugin
+lirc: LIRC plugin
+zeitgeist: Zeitgeist logging plugin
+
+%MAKEDEPENDS%
+brasero
+git
+gobject-introspection
+gtk-doc
+libdmapsharing
+libgpod
+libmtp
+lirc
+meson
+vala
+yelp-tools
+zeitgeist
+
+%CHECKDEPENDS%
+check
+xorg-server-xvfb
+

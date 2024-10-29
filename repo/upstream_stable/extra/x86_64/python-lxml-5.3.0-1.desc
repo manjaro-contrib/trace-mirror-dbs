@@ -1,0 +1,66 @@
+%FILENAME%
+python-lxml-5.3.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-lxml
+
+%BASE%
+python-lxml
+
+%VERSION%
+5.3.0-1
+
+%DESC%
+Python3 binding for the libxml2 and libxslt libraries
+
+%CSIZE%
+1343437
+
+%ISIZE%
+5265579
+
+%SHA256SUM%
+6aef1c28f212d2c0615e174a2da1d4c62f893c4484738c64f214e89b11a5c483
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAma/mqIACgkQwGCGM3xQdz6tPQf/f9DVMdClATi3G3W10JwonUVq71gMf4qjng+66DvWa1i8hsL20lll2f++idwN5EKIvDUWcPUmdGWbaY5TUJ3RSnx0b6eo5DwDaKvSPsluCKsF/gr2ePw2dnV82MSOyJ7x9rACQAygIPTC77wdNBTkOwwLMScZDCF5XOjox43dsS/Ysq+AnkLYk1oy9R9E9xzWk/4oRJaMU4/paNolPcJULCp8yvQpXfFdFaAlwiqt2mc3zPRL7mkSDCvGgPASSwIB3DSvJg0MGpBiiD5567vs+Td5ubHYZ1T87Hiwnf+ZS9fL+yln/PBOdKbVFvX/YYCL6YFrfeGX4P0+NtiWoSPRDA==
+
+%URL%
+https://lxml.de/
+
+%LICENSE%
+BSD
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1723832775
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+libxslt
+
+%OPTDEPENDS%
+python-beautifulsoup4: support for beautifulsoup parser to parse not well formed HTML
+python-cssselect: support for cssselect
+python-html5lib: support for html5lib parser
+python-lxml-docs: offline docs
+python-lxml-html-clean: enable htmlclean feature
+
+%MAKEDEPENDS%
+python-setuptools
+python-pygments
+python-sphinx
+python-sphinx_rtd_theme
+cython
+
+%CHECKDEPENDS%
+python-cssselect
+python-html5lib
+python-beautifulsoup4
+

@@ -1,0 +1,76 @@
+%FILENAME%
+graphicsmagick-1.3.45-3-x86_64.pkg.tar.zst
+
+%NAME%
+graphicsmagick
+
+%BASE%
+graphicsmagick
+
+%VERSION%
+1.3.45-3
+
+%DESC%
+Image processing system
+
+%CSIZE%
+2725436
+
+%ISIZE%
+14817215
+
+%SHA256SUM%
+5a01bd8e56b353b6e09712df7265528b4902d69fb51fa174a0091c34e1529136
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmbr2pIACgkQeGxj8zDXy5LNiA//YmAQWTznK+qFOsk6b4LYHnbPt/T77httBoXj2ALTDYLfeA+EpuBERvg3S7JH8qgNeVDVj0eOJg9o3OBQFbK9vhBHLh2djC5WJZ63CHuG82oqUamgMZA+IDi22DMBaYa1jd9iaPveHghjzJl5WnsdUi+QZIqAJewamL3Qpl53nk5JSQN15v1Wqz7W7XLl7tV2xSR8l/Mh5H3jBvynjs6Uxgo+weOIFl2EK2TCUYjK5Jfxo4puCzsR3NRLmqxdHCB8Mvx4FEvT56NtbqIjXkfElHEN/KocH3/gyLRZKNTjQV26vxH+QsHtU8zWokfHRO7x9qAFEd8nTS9VQtThpVHg9m0POpVLzQImsJg4XcdQyHMylDT0iSBya0BB8rKkDsmyzvmVOTJcfQxxi3U4+28Yr0/MxZLllt1ndfWmAJJqlV7r+htYfDK86OXgJu1uh/kx0NxtUCocvpRRMuPKRmk4Ewr6DahCtDCto1HuA7QWqK9anV3qTBllYbHUpFA7vgYt9OXwzffdRMiaXO6PStRwNpCjT/KqtS1rvi0CDUulVKF8DyiYFJvAdBrUsfxLg1lbTD16b+oKGSkffmpR9iUROZrJKK4fsP6WEOQaURpo3hHzcIBachDwUUZmZ6YhiPAFYcb/qv612uhD4/63oO1+wcCuczfFO6Kz8DaEibqLnDM=
+
+%URL%
+http://www.graphicsmagick.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1726732817
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%PROVIDES%
+Magick.so
+libGraphicsMagickWand.so=2-64
+libGraphicsMagick.so=3-64
+libGraphicsMagick++-Q16.so
+
+%DEPENDS%
+bzip2
+freetype2
+lcms2
+libltdl
+libpng
+libsm
+libtiff
+libwebp
+libxext
+xz
+
+%OPTDEPENDS%
+jasper: jp2 module
+libwmf: wmf module
+libxml2: msl, svg, url modules
+ghostscript: pdf, ps modules
+libheif: heic module
+libjxl: jpeg-xl module
+
+%MAKEDEPENDS%
+jasper
+libheif
+libjxl
+libwmf
+libxml2
+perl
+

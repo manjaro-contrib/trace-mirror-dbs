@@ -1,0 +1,67 @@
+%FILENAME%
+python-lark-parser-1.1.9-3-any.pkg.tar.zst
+
+%NAME%
+python-lark-parser
+
+%BASE%
+python-lark-parser
+
+%VERSION%
+1.1.9-3
+
+%DESC%
+A modern parsing library
+
+%CSIZE%
+260819
+
+%ISIZE%
+1283067
+
+%SHA256SUM%
+9f2360859cfd1b286fbd22a20822099d37fecd93f38c1bc19904b5d429dd0856
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmYlDDYACgkQwGCGM3xQdz7O9Qf/UBY2icQ5rCrrO5G8CtwWJ7vcqYmkp7lQnpvyffyE/kOOofCwPXcfd86TJ6+Fs/w6ekjNIK9p+SCsDF18T8zHBKx+DlRj1FUGgW1epzvAwGStnIwnTaD2ufHP0uK2BBiQatzLFNeZcet53UWDKroxpmTWFj0rDX6BLZcGHgDr9oWhLtqSZGmprhgmUajn+tDRnJlWd4DznHqdhGTkdU6g8S1racQ+qV4uPOZVrREg4ONepHQTkJYTQW93DqWbvSEjzG5s+Eh3HVUN57R3BoKsGRMu0+/v2cyVnjJeuzF5Rc2sJEJwF8aINUoBEymvGBEDPgNhL0vJ7cOtgqQLd8fDTA==
+
+%URL%
+https://github.com/lark-parser/lark
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1713703974
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%PROVIDES%
+python-lark
+
+%DEPENDS%
+python
+python-typing_extensions
+
+%OPTDEPENDS%
+python-atomicwrites: for atomic_cache
+python-regex: for regex support
+python-js2py: for nearley support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-js2py
+python-tzlocal
+python-atomicwrites
+python-regex
+

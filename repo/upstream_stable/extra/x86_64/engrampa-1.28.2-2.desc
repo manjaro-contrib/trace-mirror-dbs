@@ -1,0 +1,79 @@
+%FILENAME%
+engrampa-1.28.2-2-x86_64.pkg.tar.zst
+
+%NAME%
+engrampa
+
+%BASE%
+engrampa
+
+%VERSION%
+1.28.2-2
+
+%DESC%
+A file archiver for MATE
+
+%GROUPS%
+mate-extra
+
+%CSIZE%
+1200536
+
+%ISIZE%
+13507017
+
+%SHA256SUM%
+7ab4d2b33def721af2323ecaf02d222f70f8efdbbee369ad1d5635503daf690b
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmbd5C0ACgkQ/cMEC5Ksp0j51A/+MuUI4nck/OBqZZHzji3xH666KfUcPaRobelWoGVkeS7/D1NbXKxylG3Q18aVUQFH2yx3JtNAwQoxWf3cIuqQqHcbE5bpvvD7O1DE43V7bQQMd6plfF8xASfpXPCQXT0xqDpnKh2Ix9LIwqlYFg/ZtjTp7TljLMKCeF5r+Kj9lMmEa8+/wEsSwtbwq6/3qJoa7E8Lne9B8XXjkMJZTnx6Fof+EKj8TWn3U0cgyfKLW289U4wJIUDZ8SnO5IyxXBb5qsJWPwytURQS/twpOANd8t5hehETONNYMmRMgIap2V2kikiYXim7G1c/8/dxQdoUVbgb4Ve6DKmkpTZaa2+WwAmobskARyX0C8WI1/zmEz6PLo7WFDk6MkTKyjfgz9pUQAZSu9R1f+6eCd9mt7x0X91hk0fxsWRl33ZavpWY8bJvVhKbHXuxZFv2mxlSeMKXxtjONtZqRwmlv6+cwS1qAA2Of1MMwsbSYoSFwuyxzVyn+Seu+mgL23dWRiFtoHR4sSOJTQVC5+yXBvsjvEjg4lxYz3+xApfwd5x8OMa/lkBljr3qlKTp4di/qBNCRYpBTH6r0WyDPyNPTTHqH8jL+GzQQBOd8G5OrFjRtHS5rbPgAHa1gUAsduk5RKOYNgAzh00HWCLp1IYVv6VuVnU+kB2gAMXAxrO5F3oKzMpgdYE=
+
+%URL%
+https://mate-desktop.org
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1725817839
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%REPLACES%
+engrampa-gtk3
+
+%CONFLICTS%
+engrampa-gtk3
+
+%DEPENDS%
+gtk3
+gzip
+gettext
+libarchive
+tar
+unzip
+zip
+
+%OPTDEPENDS%
+caja: Caja support
+p7zip: 7Z and ARJ archive support
+unace: ACE archive support
+unrar: RAR archive support
+brotli: Brotli compression support
+rpm-tools: RPM support
+cpio: RPM support
+
+%MAKEDEPENDS%
+autoconf-archive
+caja
+git
+glib2-devel
+itstool
+mate-common
+python
+yelp-tools
+

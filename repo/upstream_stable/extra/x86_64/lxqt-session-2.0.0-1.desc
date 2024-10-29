@@ -1,0 +1,65 @@
+%FILENAME%
+lxqt-session-2.0.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+lxqt-session
+
+%BASE%
+lxqt-session
+
+%VERSION%
+2.0.0-1
+
+%DESC%
+The LXQt session manager
+
+%GROUPS%
+lxqt
+
+%CSIZE%
+200338
+
+%ISIZE%
+832565
+
+%SHA256SUM%
+8373e8192e6369493f07bb8dde0dfd3e72f98ab15084123d3006a691e4e79653
+
+%PGPSIG%
+iHUEABYKAB0WIQQNmeQ7UMKtIbreRjJJPeIcgk6VQQUCZiX8WgAKCRBJPeIcgk6VQWe/AQC9DhqYDKPHK9qA8umTAuW5lXeQ0ccptLYuf/QOxeBgXwEAofL9vjZabDVACzstmHD+EbZJkjdmASWpVf3vfXJV8AU=
+
+%URL%
+https://github.com/lxqt/lxqt-session
+
+%LICENSE%
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1713765396
+
+%PACKAGER%
+Chih-Hsuan Yen <yan12125@archlinux.org>
+
+%DEPENDS%
+liblxqt
+qtxdg-tools
+xdg-user-dirs
+libx11
+udev
+kwindowsystem
+libQt6Xdg.so=4-64
+procps-ng
+layer-shell-qt
+
+%OPTDEPENDS%
+breeze-icons: Default icon theme
+oxygen-icons: Alternative icon theme
+sddm: The recommended display manager
+
+%MAKEDEPENDS%
+cmake
+lxqt-build-tools
+

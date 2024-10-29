@@ -1,0 +1,58 @@
+%FILENAME%
+libvdpau-1.5-3-x86_64.pkg.tar.zst
+
+%NAME%
+libvdpau
+
+%BASE%
+libvdpau
+
+%VERSION%
+1.5-3
+
+%DESC%
+Nvidia VDPAU library
+
+%CSIZE%
+64325
+
+%ISIZE%
+291237
+
+%SHA256SUM%
+a3c672446d129e6d3be2f6ef6d2d432049235c3bbdab92403588da16eb0be507
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmaJaH0ACgkQwGCGM3xQdz6xUgf+OlyfBDlePBFnqDEA+k2tO612K4goKHQiXmJasV7s9Z9DPsBxsHHR7g2GB6bRLnzqst4uu9Qbw/CBtTeOUKZQLxPgilH5X0hT5npuntb/WS+B7T8yvgBD3P/b37i87TicV74k3UGhVsxTvxkXJpmIh31X9+tWSJmfymlsiMJybtNy5IJtN9FuK8k5r++bZ9Tm6jNR6+yjJ7fGObjUXZIVGggXlPy4ZPJy02ncplgNQMNI25lbgtvE30H6yUmbvuSTiUpjF+CR7Vh/T+Lho9rppoEDOqSIFqbXJ77GH1UKlpXpc6DuLKdpj4DC3VrUNjzxit+q5zOKoloXEcAJUUyqow==
+
+%URL%
+https://www.freedesktop.org/wiki/Software/VDPAU/
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1720281196
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%PROVIDES%
+libvdpau.so=1-64
+
+%DEPENDS%
+libxext
+
+%OPTDEPENDS%
+libvdpau-va-gl: driver using VAAPI
+mesa-vdpau: driver for Mesa
+nvidia-utils: driver for NVIDIA
+
+%MAKEDEPENDS%
+git
+meson
+xorgproto
+
