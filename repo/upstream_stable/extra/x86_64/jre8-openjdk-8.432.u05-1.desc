@@ -1,0 +1,76 @@
+%FILENAME%
+jre8-openjdk-8.432.u05-1-x86_64.pkg.tar.zst
+
+%NAME%
+jre8-openjdk
+
+%BASE%
+java8-openjdk
+
+%VERSION%
+8.432.u05-1
+
+%DESC%
+OpenJDK Java 8 full runtime environment
+
+%CSIZE%
+179004
+
+%ISIZE%
+421637
+
+%SHA256SUM%
+b8597994f91c22fbe5985ec3d0c5505ef502e464cb1498ac2cedc874bd2efcf7
+
+%PGPSIG%
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCZw/qb18UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaClJuAQCFhP4LLk0KQdfxWPZ38qvKMhJ9jUu0j7TMOhOL7yIbKQD/ao8UEOR5WwKOVM6iAemok7g+cYfwPRX3rtSEDSB0DAw=
+
+%URL%
+https://openjdk.java.net/
+
+%LICENSE%
+LicenseRef-Java
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1729095507
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%REPLACES%
+jre8-openjdk-wm
+
+%PROVIDES%
+java-runtime=8
+java-runtime-openjdk=8
+
+%DEPENDS%
+jre8-openjdk-headless=8.432.u05-1
+xdg-utils
+hicolor-icon-theme
+giflib
+
+%OPTDEPENDS%
+icedtea-web: web browser plugin + Java Web Start
+alsa-lib: for basic sound support
+gtk3: for the Gtk+ look and feel - desktop usage
+java8-openjfx: for JavaFX GUI components support
+
+%MAKEDEPENDS%
+alsa-lib
+bash
+ccache
+cpio
+fontconfig
+giflib
+git
+java-environment=8
+libcups
+libxrender
+libxtst
+unzip
+zip
+

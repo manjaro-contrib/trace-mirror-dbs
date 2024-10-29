@@ -1,0 +1,67 @@
+%FILENAME%
+postgresql-old-upgrade-15.7-3-x86_64.pkg.tar.zst
+
+%NAME%
+postgresql-old-upgrade
+
+%BASE%
+postgresql-old-upgrade
+
+%VERSION%
+15.7-3
+
+%DESC%
+PostgreSQL build for migrating between major versions with pg_upgrade
+
+%CSIZE%
+16641622
+
+%ISIZE%
+49207057
+
+%SHA256SUM%
+3514f2de4de644ed8cd3c0573b23de1d7bee29a9c84d16b427caf6782a3e1dc1
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmbUwyQACgkQek52CV2KUuT9yggAoLboe6Fsago9q6h5pLi+PwKQeLzD/wZuVeC7AMR/nLStxDT5QcIHu1qXYcT0PjabCedw/lSdR/rzDxlokC4PWVNHTJSw5+Y2wzdWiBTy+GQlnwaiQivABLngz8ZPp0mt98IIPyghvbANKo0ETCaHRyLo8FFSt4n/tcXMDA1tHB0SR2PLPUuOOG9RYbxmZE93OGROBBYxvhhuE1whXfjCD3ixRJTQfNQ/4GQEVoJXjnhaXnlPo2GwmoqEqqtFAoJp/7xfmVdVTvreL46jF/CAyp4mjzNIIpweSyGt7iKRoVhADmavfuZedE8XvfK6QNIac9FQSI1hiDYOXy5WXfxcyQ==
+
+%URL%
+https://www.postgresql.org/
+
+%LICENSE%
+custom:PostgreSQL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1725218757
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+postgresql-libs>=15
+libxml2
+openssl
+pam
+zlib
+icu
+systemd-libs
+libldap
+krb5
+llvm-libs
+
+%OPTDEPENDS%
+python: for PL/Python 3 support
+perl: for PL/Perl support
+tcl: for PL/Tcl support
+
+%MAKEDEPENDS%
+python
+perl
+tcl
+systemd
+llvm
+clang
+

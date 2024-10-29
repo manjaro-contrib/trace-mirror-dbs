@@ -1,0 +1,54 @@
+%FILENAME%
+snap-sync-0.7-3-any.pkg.tar.zst
+
+%NAME%
+snap-sync
+
+%BASE%
+snap-sync
+
+%VERSION%
+0.7-3
+
+%DESC%
+Use snapper snapshots to backup to external drive
+
+%CSIZE%
+17220
+
+%ISIZE%
+40353
+
+%SHA256SUM%
+51e7756179979527de7fabb6e0e565546d48c10b70b32e66278bbbfae6e182c9
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCZpL3TQAKCRDylr3lA2jGzpUqAPwOWWrVrJ0fJiMVgwQFWhy8q90OwI4ShOW0wQ/yFPh5lwEA9d/VU6WknY+B3aaHF+lcqr6tanzJbvx1k/ObqwsQzAU=
+
+%URL%
+https://github.com/wesbarnett/snap-sync
+
+%LICENSE%
+GPL2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1720907582
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%DEPENDS%
+snapper
+btrfs-progs
+which
+
+%OPTDEPENDS%
+pv: progress bar during backup
+libnotify: desktop notifications
+rsync: sending info.xml to remote hosts
+openssh: sending snapshots to remote destination
+sudo: use sudo for remote snapshots
+

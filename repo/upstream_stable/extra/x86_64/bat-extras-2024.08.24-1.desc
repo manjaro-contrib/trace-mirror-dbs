@@ -1,0 +1,67 @@
+%FILENAME%
+bat-extras-2024.08.24-1-any.pkg.tar.zst
+
+%NAME%
+bat-extras
+
+%BASE%
+bat-extras
+
+%VERSION%
+2024.08.24-1
+
+%DESC%
+Bash scripts that integrate bat with various command line tools
+
+%CSIZE%
+32596
+
+%ISIZE%
+132518
+
+%SHA256SUM%
+08829cb85fbdbe8cbfb570bc631dcee996bf39cbadb2900cd2636a2cfab2a1cf
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCZswDpQAKCRDglZ/qi1UFORpBAQCe415foFUOpkmsj7FnxgFDTHEm+xUnsDGzhAA2tUud2AD+NJNa1koTGBkaXSQ69AHtD5wcvJ/0Y0a+vxpxiEZMygI=
+
+%URL%
+https://github.com/eth-p/bat-extras
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1724646268
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+bat
+bash
+git
+ripgrep
+man
+
+%OPTDEPENDS%
+ncurses: optional for batdiff script
+git-delta: optional for batdiff script
+fzf: optional for batman script
+exa: optional for batpipe script
+entr: optional for batwatch script
+prettier: various code formatting for prettybat script
+shfmt: bash formatting for prettybat script
+rustfmt: Rust formatting for prettybat script
+clang: C / C++ / Objective-C formatting for prettybat script
+python-black: Python formatting for prettybat script
+
+%MAKEDEPENDS%
+shfmt
+
+%CHECKDEPENDS%
+fish
+

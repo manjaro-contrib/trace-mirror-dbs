@@ -1,0 +1,57 @@
+%FILENAME%
+riscv64-elf-gcc-14.1.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+riscv64-elf-gcc
+
+%BASE%
+riscv64-elf-gcc
+
+%VERSION%
+14.1.0-1
+
+%DESC%
+The GNU Compiler Collection - cross compiler for RISCV64 (bare-metal) target
+
+%CSIZE%
+122735826
+
+%ISIZE%
+699590948
+
+%SHA256SUM%
+2e4f7e5719509a75a4d71eea9ea8cbec61bd9613b51b8e9b7cb891d00a67e873
+
+%PGPSIG%
+iQIzBAABCAAdFiEEzZzJfXA4H9kwnLT5KhDNV3fI85UFAmZftcgACgkQKhDNV3fI85VTNw//RUY2Z0y3n+O8QQXGaxPq/KezbhIWGWrJElOhXLqr8eVyd+jlF7FcK6IQeYbl4akTbxZ52wzIlxMa9T9xRdIc0mC9esRDx79Vo8VNhP23V3h59W7cF+Q2luCpGFiRmGsBLI4CYwZGlmaMTxLIwcDKyeVjWJ/kbVOIZYVVoNdZMwxF57ZggqneK/ki8m+wUDKo79kJJ2QAX8sYWcmDPD5MJ2D8frUt0y3u5cU++5AT9Yktq7Apx21mPnvexZZe+GPu9Djnwc5q9ygOFdjEdz3uivW/iHK7o4C7N+vXe1r8dYLoXMCtYIDx9gy78zWeYVmwgFOcfBYWfTlMWVuy0jLhZjaWypfNfq0jxK/HU2nk2Ggz8uCFl4Wa9N6cZh3MOPMk0apENk8rjlC5OZnsZ7NFGv8Z1g3uzd7c3nTtBN355A2caPDCrfQYXIrH0FyOcNIpFTSUOHfB7KBGBuB16gL2KxqNhEfnIIusuMaSmB3/6bdozwLTFjDpT3H0ervqTzh5DmdBkC4DDOP6cfS+PVaV/IJtFB0WC+pe+MK0FDCOig4HC9Rqbahz/CbfVW0KVpDUXe+U9aQzZOQ2ZD8MZfVfGFrnVdx3aJ02L/XuI9zug6bG85fNitvmR7JCRrKgJImvLFPH7J/Gcpa0CCzzMpfeSBrvD7NmdHuI7mK3sLayYEo=
+
+%URL%
+https://gcc.gnu.org/
+
+%LICENSE%
+GPL-3.0-with-GCC-exception AND GFDL-1.3-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1717547839
+
+%PACKAGER%
+Filipe Laíns <lains@archlinux.org>
+
+%DEPENDS%
+riscv64-elf-binutils
+zlib
+libmpc
+libisl
+zstd
+
+%OPTDEPENDS%
+riscv64-elf-newlib: Standard C library optimized for embedded systems
+
+%MAKEDEPENDS%
+gmp
+mpfr
+riscv64-elf-newlib
+

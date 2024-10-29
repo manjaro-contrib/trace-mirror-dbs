@@ -1,0 +1,63 @@
+%FILENAME%
+gitui-0.26.3-2-x86_64.pkg.tar.zst
+
+%NAME%
+gitui
+
+%BASE%
+gitui
+
+%VERSION%
+0.26.3-2
+
+%DESC%
+Blazing fast terminal-ui for git written in Rust
+
+%CSIZE%
+2779273
+
+%ISIZE%
+6547796
+
+%SHA256SUM%
+c4b1c55a5305ce06cc0befb0e9ec508b5deaf011c1235009864cb1354156a2a3
+
+%PGPSIG%
+iQIzBAABCAAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmbi6MMACgkQqF6BHrTKLgjCVxAAwTkU43AsxxJZVL1WKUQbFczhocfWpz4vl57zwpOpMl3KMOv3vsopOMcgybe4Hp3Fe3kniCu7+NlcVzbF1QTdztS8MLNJb0ClCqHVsV+ijKMVYe5I2PmkTyAxvCiZ0OpgJwjO3PPQbwUwiqW8fgijAyQNEthwgOjeq9fvXFilm8zeg+1wo0CgidCJ+ETtR6xA5x9xoe63k12vS4QMrcEkVmyBxl5JnKlsaI1/eydcxe6esbI86J1IUjqtFVJcRus3R87NTrHtNt3DqK2uHRlkeKSrUGVTWPLjgfooZbye69P/NqjguOTDm6MgCt5z4UH3EUnr01Uj8CBuDmvAu6T1yWUcOjpC4Plq/Mkq4BscU1pFQLtIERj4+bZTPgSUHVy9ymCL72XnypGv/S7ynC4gxNlxm+8i5nUobCdGxN72Xkq1syvu9akf9bdUnrhCSDbDV1gt9wDlYmzAFnW/svoBOTODNdNqBo2b/5FBAic0yhjUoFztoCNi7iBlqOT6aza7Aiknfucai8tRdNu6KRNVVN8phJmOl8yZe8lFCaWOzJlJEz+S5q2qEYxiHLjFXhvhAPQ3iEMBHjDuPqcgdnFf41ARUEVjeC2hcEpzGCqYP86+QBsh49tlbksX9mztqoYpq72Ua0xtUNyWXNTkgh/4UgO2Y9E9uMj5a0s20WILYCM=
+
+%URL%
+https://github.com/extrawurst/gitui
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1726146473
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+libgit2
+libxcb
+openssl
+zlib
+libgit2.so=1.8-64
+libz.so
+
+%OPTDEPENDS%
+xclip: for clipboard support on X11 (or xsel)
+xsel: for clipboard support on X11 (or xclip)
+wl-clipboard: for clipboard support on Wayland
+
+%MAKEDEPENDS%
+cargo
+cmake
+git
+python
+
