@@ -1,0 +1,91 @@
+%FILENAME%
+libvirt-1:10.9.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+libvirt
+
+%BASE%
+libvirt
+
+%VERSION%
+1:10.9.0-1
+
+%DESC%
+API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)
+
+%CSIZE%
+8030936
+
+%ISIZE%
+55121410
+
+%MD5SUM%
+ef19f02706955a3158b3e9ca8c88746b
+
+%SHA256SUM%
+e11f1d7dc63437f75ce5af7bd3490f08c505d043c5269c37c5c3affd0f91a474
+
+%PGPSIG%
+iQIyBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmcmsVUACgkQdxk/FSvb5qaJ8Q/4ocrAAsly6WiEyknXPBg5eLYt4lIF8/h2LskTeUaVyaly10bEkA+McjI1tMh0vt12NHnit95Xr2sVrb6aSBBc6r9MtElMroDbsWQUFvwyEsYoJ8FmzhfDOy6tgDhLAzDZXo55TCPjvh1t0LhorT/Dd0/5EjD8ddYXeA/Lm+a86zQ8Xv4tKFOV0Uy8uyTfC1Hcuq31OMxje0+Yb9L27YyDsTSRAsFP0YdNA9dwbjg1f0AJEcOGtnKHSF/DfKUXHbJ1K3BJqBv7BtHQaAPXOugfS920EGeNXAmsAlv5z09uWMLbeq27Y4MDZ20gApXc4aW/enJ7eadeWu1m00zi7ugAMyH2/ueXKI2DcjzFHowt0kzP2F3eZByTom/+zyBoq6+nv02SxK5x72tx8dhR16WsQxHvrEyJoBZQ/ymYQnRv5w1TewSiz35PP6Ncx6rSa3zpQ6fCEMUpiccII1qXMM4BiY1VLvI5l1QVTAjqVKeIxPH6JJWWKC5lrDH+MYIliUmu9WG3bFiN4uGiApzX+KGBc8GTpXXmS/ChyPSO7OBA044qxAifWacgH6+CWcqUTijpVPBfnQspMPtOTpm6Qpa5SMnuwMFZULw1nL/Kaovqcf9cyLHLSM01hG0AQgv4vY9Uzb2v+ofQWtjHzn9yvXB3k93JRT4+QjXnqZGwXolbfg==
+
+%URL%
+https://libvirt.org/
+
+%LICENSE%
+LGPL-2.1-or-later
+GPL-3.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1730588809
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+libvirt=10.9.0
+libvirt.so=0-64
+libvirt-admin.so=0-64
+libvirt-lxc.so=0-64
+libvirt-qemu.so=0-64
+
+%DEPENDS%
+fuse3
+gnutls
+libnbd
+libnl
+libpciaccess
+libssh
+libxml2
+numactl
+parted
+polkit
+
+%OPTDEPENDS%
+dmidecode: DMI system info support
+dnsmasq: required for default NAT/DHCP for guests
+gettext: required for libvirt-guests.service
+iptables-nft: required for default NAT networking
+libvirt-storage-gluster: Gluster storage backend
+libvirt-storage-iscsi-direct: iSCSI-direct storage backend
+lvm2: Logical Volume Manager support
+openbsd-netcat: for remote management over ssh
+open-iscsi: iSCSI support via iscsiadm
+radvd: IPv6 RAD support
+swtpm: TPM emulator support
+
+%MAKEDEPENDS%
+bash-completion
+dnsmasq
+glusterfs
+iproute2
+libiscsi
+libxslt
+lvm2
+meson
+open-iscsi
+python-docutils
+systemd
+
