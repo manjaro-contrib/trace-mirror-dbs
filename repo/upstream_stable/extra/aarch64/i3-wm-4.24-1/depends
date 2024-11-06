@@ -1,0 +1,25 @@
+%DEPENDS%
+libev
+libxkbcommon-x11
+pango
+startup-notification
+ttf-font
+xcb-util-cursor
+xcb-util-keysyms
+xcb-util-wm
+xcb-util-xrm
+yajl
+
+%PROVIDES%
+i3-gaps
+
+%OPTDEPENDS%
+dmenu: for the default program launcher
+rofi: for a modern dmenu replacement
+i3lock: for the default screen locker
+xss-lock: for the default screen locker
+i3status: for the default status bar generator
+perl: for i3-save-tree and i3-dmenu-desktop
+perl-anyevent-i3: for i3-save-tree
+perl-json-xs: for i3-save-tree
+
