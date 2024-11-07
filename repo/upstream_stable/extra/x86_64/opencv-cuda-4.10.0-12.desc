@@ -1,0 +1,106 @@
+%FILENAME%
+opencv-cuda-4.10.0-12-x86_64.pkg.tar.zst
+
+%NAME%
+opencv-cuda
+
+%BASE%
+opencv
+
+%VERSION%
+4.10.0-12
+
+%DESC%
+Open Source Computer Vision Library (with CUDA support)
+
+%CSIZE%
+82642270
+
+%ISIZE%
+1728742193
+
+%SHA256SUM%
+609b750be2ef52fa001b77652e727fc44bf14d1a61074c8889d2e87beeb0d05a
+
+%PGPSIG%
+iQIzBAABCAAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmcrsagACgkQOeS4d+YuuRV+RA//biPYjBHa1nnSAMNmiszZS8QN/+xpZQB0CcyJ5GxjpIHRimt95cuSL+4IAlKzB+WNf9YtIuAPiX59boLu5SoMTxPmI7nPbuVO7V9H2iMAJlb6OBfTyLn9gz7w2pwF0XGmiCKSsYx5Ad1gBKkXYwGwzWoTA0yvsZ9d/et9l46fkgLO5c2L+WEdRfIOqjPiMlRMCQ5FzHffF/QKwomesn/Qa5xEebGYl6ChB32x4XdNLg2SEHAHO7EpuMj7KKQ5eS14C5gsoblsfHjlXiq/T/Fts4NVmDrLPqVc8cnvs6Ytg11nckglyirednn6BkdbcFsJvitSngLyRS6WzV7hkdOhiVtSUT6mJycEaz5xAAIXiKItPHrugS//lj73IDCCmpySD2IxMQcXKPh7iPQppNv92UZxeKGlyuojFDVyFIZ18D+lm8IFbw+XbL5348EwiBPEEfaZWZfIJwPmqt1DuUvnfzrpD3XK5PTZ7R5P6JjxY1rHWoDs42SgDY54mlCauXF1UA2VjpqlzVnAQR/iIwKyUnsHaZeccoLqmtlCvwvQ5GPmbfZeSFA7TrQvg3NcUPGRmA/PkddvYJ+1cMIOMj01IabbaVBd0jn87j27OPb7YNN9lBnz2gPIRjNcN6qtN26NA4TI6EAzWD4gwwnI7dV5KmXcA27hktMLoz8obnd5lFU=
+
+%URL%
+https://opencv.org/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1730910561
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%CONFLICTS%
+opencv
+
+%PROVIDES%
+opencv=4.10.0
+
+%DEPENDS%
+abseil-cpp
+cblas
+ffmpeg
+freetype2
+gcc-libs
+glib2
+glibc
+gst-plugins-base
+gst-plugins-base-libs
+gstreamer
+harfbuzz
+lapack
+libdc1394
+libglvnd
+libjpeg-turbo
+libpng
+libtiff
+libwebp
+openexr
+openjpeg2
+verdict
+protobuf
+tbb
+zlib
+cudnn
+
+%OPTDEPENDS%
+opencv-samples: samples
+vtk: for the viz module
+glew: for the viz module
+qt6-base: for the HighGUI module
+hdf5: for the HDF5 module
+opencl-icd-loader: For coding with OpenCL
+java-runtime: Java interface
+
+%MAKEDEPENDS%
+ant
+cmake
+cuda
+cudnn
+eigen
+fmt
+gcc13
+git
+glew
+hdf5
+java-environment
+lapacke
+mesa
+nlohmann-json
+openmpi
+pugixml
+python-numpy
+python-setuptools
+qt6-5compat
+vtk
+

@@ -1,0 +1,109 @@
+%FILENAME%
+baresip-3.16.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+baresip
+
+%BASE%
+baresip
+
+%VERSION%
+3.16.0-2
+
+%DESC%
+portable and modular SIP User-Agent with audio and video support
+
+%CSIZE%
+952806
+
+%ISIZE%
+2566235
+
+%SHA256SUM%
+8e8fb7cdd3ddeab9cc8c3f665b5ea6c376cd3bfc5004a91784aa00834e9e9252
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmcKPuYACgkQek52CV2KUuSl1Af+IhBgK0SmizD7B33ySzh2N6aIu5CQtiBUUmpQZLxqr11Fq7PIBb1C3mxIewUlglxAKQU4F7qJK5F10GHDNM3a5tCFw9bjUv60JQEWpFciw+lbOmjKk00epCJwUIZTuUl4fUJthGzSQE7BlMFeRJMHy67VruaDRcKz4gJ7r0ohFSWz+saEisrOfe230a2bmrc8K+kI5k6R3mjwg9VF8974RPY1gzLrxuxzpT7BR4IIOlI7WCwaQIFV/gj6/txY4JE15+Xaf43XpGK3KMHC7GlBWL07j3zfVxtBnAtuVaVGW5NoXE387v+e3SxR5aniySxGe/EYVqDWXABbrbu2UhkFGA==
+
+%URL%
+https://github.com/baresip/baresip
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1728724615
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+libre.so=27-64
+openssl
+
+%OPTDEPENDS%
+libfdk-aac: AAC audio codec
+alsa-lib: ALSA audio driver
+opencore-amr: Adaptive Multi-Rate (AMR) audio codec
+aom: (av1 module}
+codec2: CODEC2 low-bitrate speech audio codec
+ffmpeg: (avcodec, avformat, h265 modules)
+gsm: (gsm module)
+gst-plugins-bad: (gst1, gst_video1 modules)
+gst-plugins-base: (gst1, gst_video1 modules)
+gst-plugins-good: (gst1, gst_video1 modules)
+gst-plugins-ugly: (gst1, gst_video1 modules)
+gtk3: gtk+ user interface
+jack2: JACK Audio Connection Kit audio driver
+lame: MPA audio codec
+libvpx: (vpx module)
+libsndfile: (sndfile module)
+libpng: Snapshot video module
+libpulse: Pulseaudio audio driver
+libx11: (x11, x11grab modules)
+mpg123: (rst module)
+mosquitto: (mqtt module)
+opus: (opus module)
+portaudio: Portaudio audio driver
+sdl2: (sdl2 module)
+spandsp: (g722, g726,plc modules)
+speexdsp: (speex_aec, speex_pp modules)
+sndio: sndio audio driver
+v4l-utils: (v4l2 module)
+
+%MAKEDEPENDS%
+libfdk-aac
+alsa-lib
+opencore-amr
+aom
+codec2
+ffmpeg
+gsm
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gtk3
+jack2
+lame
+libvpx
+libsndfile
+libpng
+libpulse
+libx11
+mpg123
+mosquitto
+opus
+portaudio
+sdl2
+spandsp
+speexdsp
+sndio
+v4l-utils
+python
+cmake
+glib2-devel
+
