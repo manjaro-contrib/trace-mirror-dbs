@@ -1,50 +1,66 @@
 %FILENAME%
-systemd-sysvcompat-256.7-1-x86_64.pkg.tar.zst
+systemd-libs-256.8-1-x86_64.pkg.tar.zst
 
 %NAME%
-systemd-sysvcompat
+systemd-libs
 
 %BASE%
 systemd
 
 %VERSION%
-256.7-1
+256.8-1
 
 %DESC%
-sysvinit compat for systemd
+systemd client libraries
 
 %CSIZE%
-6204
+1158369
 
 %ISIZE%
-2717
+2954525
 
 %SHA256SUM%
-a138b522d857e69f54ba980f5f9561799a321d2cddd290a58866a68d2dc9360e
+c40ae4e1ea20f2d9d9dcb64e66a906b77c8ae9c9dd0aba1d1522e9bf59202b46
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZwVVJAAKCRBtQr3RFuAGj+ZlAP47hbBAMY9PrUKXTdW1CrklPWi6+ogOCXBvnh22jzpGZAD/SVTnuDSVWQRmQGwsJeOdcfbR0nTNIRU+wfe19xIN+AY=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZzZVSwAKCRBtQr3RFuAGj+s5AQD28+aIhN7QV9bGRaHQTB6EJClhd7ceK6n5ZV+p1685MgEA7vKlipJExXd++sGJjRCq9ulzDfsaDoI55eghTzVc0Qg=
 
 %URL%
 https://www.github.com/systemd/systemd
 
 %LICENSE%
 LGPL-2.1-or-later
+CC0-1.0
+GPL-2.0-or-later WITH Linux-syscall-note
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1728402469
+1731613789
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
 
+%REPLACES%
+libsystemd
+
 %CONFLICTS%
-sysvinit
+libsystemd
+
+%PROVIDES%
+libsystemd
+libsystemd.so=0-64
+libudev.so=1-64
 
 %DEPENDS%
-systemd=256.7
+glibc
+gcc-libs
+libcap
+libgcrypt
+lz4
+xz
+zstd
 
 %MAKEDEPENDS%
 acl

@@ -1,29 +1,29 @@
 %FILENAME%
-systemd-ukify-256.7-1-x86_64.pkg.tar.zst
+systemd-resolvconf-256.8-1-x86_64.pkg.tar.zst
 
 %NAME%
-systemd-ukify
+systemd-resolvconf
 
 %BASE%
 systemd
 
 %VERSION%
-256.7-1
+256.8-1
 
 %DESC%
-Combine kernel and initrd into a signed Unified Kernel Image
+systemd resolvconf replacement (for use with systemd-resolved)
 
 %CSIZE%
-28633
+3280
 
 %ISIZE%
-75081
+0
 
 %SHA256SUM%
-440b6c5b6a166c74d7a449b9471930bdb8ce96c5a92e82563367974f45dba895
+58b9de25f80ec45dfebfe4bc9f35ba8dde7f8666712fe92f7d04c8cd5656fa2b
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZwVVJAAKCRBtQr3RFuAGjzM+AP0eIraQKKJ/zFBstlxa/pYHDMZnvQldeVTsuuzRtV+QUQD+IjmG4u+0hUFVjkde+dR38ujKxxU3zCfp5p22cvD3eAs=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZzZVSwAKCRBtQr3RFuAGjx/6AQDhYNW8dTbGCMdL+HuVJDXLrzYKM59kKKiZdInTfMU9MwEA6F0He9m3VHEXr7SYLHVFAcnv6yCTK3BtlcDsK6RlTwA=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -35,26 +35,20 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1728402469
+1731613789
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
 
 %CONFLICTS%
-mkinitcpio<38-1
+resolvconf
 
 %PROVIDES%
-ukify
+openresolv
+resolvconf
 
 %DEPENDS%
-systemd=256.7
-binutils
-python-cryptography
-python-pefile
-
-%OPTDEPENDS%
-python-pillow: Show the size of splash image
-sbsigntools: Sign the embedded kernel
+systemd=256.8
 
 %MAKEDEPENDS%
 acl
