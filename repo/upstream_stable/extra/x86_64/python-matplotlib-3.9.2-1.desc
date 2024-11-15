@@ -1,0 +1,119 @@
+%FILENAME%
+python-matplotlib-3.9.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-matplotlib
+
+%BASE%
+python-matplotlib
+
+%VERSION%
+3.9.2-1
+
+%DESC%
+A python plotting library, making publication quality plots
+
+%CSIZE%
+6081799
+
+%ISIZE%
+28933546
+
+%SHA256SUM%
+3eb18fc8f453e996ee5ad8691975ffc04057cd660937f145398789fc7d7d8035
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmbLcBwACgkQek52CV2KUuQF1Af9FYDObxj5fefkxln9bUnNCJif2vNg8eykL1sC5FvzIKQ/v3zBTmSUZDUyom+k9K2tDSp6eBFx2d2eTqx1YYgEF4+QWMohDLIM5M1EvVa2yH12f1MRZA0Xw5xDo0CQ9/YvRa+QEYDgMuWGmQN0pWTAZ0Q5gYlClXGaOXQx2Lh7iTts/st1qDN6/3z94IOyEgPE9ihRsz7zwaxthwPS7A37mhLZMbQlvWIbtQBkFBD2z3P419ol4fVm3icGzCkvHpny6FXAiIHwr8eJojFrhWZSg1B1+qU/lmsS7CFKkJ4vDWrllQumIZwP4X5ChDIQQJohWF7vmLdBwnnc07p4IuE+nw==
+
+%URL%
+https://matplotlib.org
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1724608174
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+freetype2
+python-contourpy
+python-cycler
+python-dateutil
+python-fonttools
+python-kiwisolver
+python-numpy
+python-packaging
+python-pillow
+python-pyparsing
+qhull
+
+%OPTDEPENDS%
+tk: Tk{Agg,Cairo} backends
+pyside6: alternative for Qt6{Agg,Cairo} backends
+python-pyqt5: Qt5{Agg,Cairo} backends
+python-pyqt6: Qt6{Agg,Cairo} backends
+python-gobject: for GTK{3,4}{Agg,Cairo} backend
+python-wxpython: WX{Agg,Cairo} backend
+python-cairo: {GTK{3,4},Qt{5,6},Tk,WX}Cairo backends
+python-cairocffi: alternative for Cairo backends
+python-tornado: WebAgg backend
+ffmpeg: for saving movies
+imagemagick: for saving animated gifs
+ghostscript: usetex dependencies
+texlive-binextra: usetex dependencies
+texlive-fontsrecommended: usetex dependencies
+texlive-latexrecommended: usetex usage with pdflatex
+python-certifi: https support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-certifi
+python-setuptools-scm
+pybind11
+python-wheel
+meson-python
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-xdist
+python-pytest
+python-pytest-rerunfailures
+xorg-server-xvfb
+texlive-bin
+texlive-latexextra
+texlive-pictures
+texlive-fontsrecommended
+texlive-luatex
+ghostscript
+inkscape
+ffmpeg
+imagemagick
+gtk4
+python-cairo
+python-cairocffi
+python-gobject
+python-pyqt5
+python-pyqt6
+pyside6
+python-tornado
+python-wxpython
+tk
+jupyter-nbconvert
+jupyter-nbformat
+python-ipykernel
+python-pandas
+python-pikepdf
+python-pytz
+python-xarray
+noto-fonts-cjk
+wqy-zenhei
+python-xcffib
+

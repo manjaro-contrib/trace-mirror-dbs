@@ -1,0 +1,56 @@
+%FILENAME%
+openrgb-0.9-4-x86_64.pkg.tar.zst
+
+%NAME%
+openrgb
+
+%BASE%
+openrgb
+
+%VERSION%
+0.9-4
+
+%DESC%
+Open source RGB lighting control that doesn't depend on manufacturer software
+
+%CSIZE%
+1681980
+
+%ISIZE%
+5649311
+
+%SHA256SUM%
+b9ec07e1600984d95f6eb2cfdabf112080a4c6f2e46d46d278d5d40c4f2428fc
+
+%PGPSIG%
+iQIzBAABCAAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmbKm50ACgkQOeS4d+YuuRW/ixAArSui3Dqh3pocyBE3BFzX+j3bq1Hxbf4X7bEqrEa5dLayWKR9nwE023DujH1g5oyjbYiMtFsYL6Vzc5SqITh7zMgbte9ND/IcfXHbIcy2/yvV3H9MHcyXw7UqJHaFen0epTi9NF8Txirl45jJk5JFpD1PUiDn9j1xaC8z/6oY47c3b1bxvgNBnkKoeEd5SbrqoqKEnpVbGnxw6ud9Ed7shDWJ27VUQPgOzO6y9f3D/Ha+PpQ3yozsec0kPxA96z/mGiBiSEb1yras49ssmXNqLhjJ3KeZrUtV4AMm9VI0Pf6Hjd23c++QXRxuF2F0s6H7NHHpciRCZ6yeg1j+skJeTZ9JQJj3JQUq8C1QBsLIoU1L3o9BOA1JOD8RMQbkaJVJINLchBi6HESrq7AlCCbYIkNi6jHWKn66L9RuASt2VOTgV0Yl9kJpulDlSn/06ZE0m1NMLCSF0Gxhr9W0cEbxes+mtIc1zcWDBBa99kNOQ7N48ze6wYaeWL/OiXqy4mHkneKlNWaoX6lBV2sWwrlV87Ex8FRu53fRA+dE1BIt7omdd7pTDw8aUgUNvBUti7jR0fh0J5mFBH+ilfLfWlkYDbq/8lvr/DV2XcCVV0/929ZjNmimJCtrX7nhBJH6YkJBR2Td/8keEKp61S7XS9KIrOCQ+3IlAS39aOm3ELohWgc=
+
+%URL%
+https://gitlab.com/CalcProgrammer1/OpenRGB
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1724554013
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%DEPENDS%
+qt5-base
+libusb
+hidapi
+mbedtls2
+
+%OPTDEPENDS%
+i2c-tools: mainboard & RAM access
+openrazer-driver-dkms: for Razer devices
+
+%MAKEDEPENDS%
+pkgconf
+qt5-tools
+

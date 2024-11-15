@@ -1,0 +1,78 @@
+%FILENAME%
+obs-studio-30.2.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio
+
+%BASE%
+obs-studio
+
+%VERSION%
+30.2.3-1
+
+%DESC%
+Free, open source software for live streaming and recording
+
+%CSIZE%
+6411803
+
+%ISIZE%
+24312042
+
+%SHA256SUM%
+ef788be96e51b5a82f8a2416d857761fa722ec0a7d05cc9ea04588507bf71990
+
+%PGPSIG%
+iQIzBAABCAAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmcv+BIACgkQOeS4d+YuuRVxQw/6AivRC0j2sDNKMhGaEaErKOvSZbu71VnyEM2ZUNc6MvogyiXT4/E6aZV/AXeSj2xw3VDNW/zAVgTJErsaT8yG5d0G8M+i4ATDtJWX/J1GKwHbEv6YcayusagLhgneJedc3hGPBzKAwcQTe/9DBAFkeFRTOu72rqFv+uN1Ch+b7QhpJYBO25k+kaaq6utKhC4dl7fre1+MS23ogqQxO8zSYojlpac5ObDrVuCb/IW/7YYrk0DAjlLu/JRvl8+AflZM1eLJcHAsQKBVkk7tA4KhvcYEDmfl0roEw4kbgSb70Tgpq/hGkW3xgcJX0XXFzbcHwSA2lt3BqEQVUIut/Zvv0oI2JQ2shjogH0mc9qwsEs4MFxPrpHHc825G0BoCiEKSLmI8D90j+rp33+1vKMg+QazKKTgJZ8oqPV7+xXAgvRQOzG8fadfcR1v154Mi7n4IjwwQ7TSDaA1+kHw/Vc+THfVl5J9i6TUn/z3voNB/yIZUO6uLK8P/mXi1hSGopEtLX0JOeN8LICJfguuXHW20wiHrTi2o7qTEmvFyBIu0B213yiK2l3UnganHejxDj9h/Txyom2r5ArRBH1Q4jbq07jlaxSeasLzt+omborYdSEFjT/xz3diWQNRXCnd5H01UIGwHniXJG9H5R01Lg9W2Xa7YInR7/8CPsvEAPuW6n/E=
+
+%URL%
+https://obsproject.com
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1731196820
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%DEPENDS%
+ffmpeg
+jansson
+libxinerama
+libxkbcommon-x11
+mbedtls
+rnnoise
+pciutils
+qt6-svg
+curl
+jack
+gtk-update-icon-cache
+pipewire
+libxcomposite
+libdatachannel
+uthash
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+libva-intel-driver: hardware encoding
+libva-mesa-driver: hardware encoding
+luajit: scripting support
+python: scripting support
+sndio: Sndio input client
+v4l2loopback-dkms: virtual camera support
+
+%MAKEDEPENDS%
+cmake
+libfdk-aac
+x264
+swig
+python
+luajit
+sndio
+nlohmann-json
+

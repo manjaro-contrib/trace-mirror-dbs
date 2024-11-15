@@ -1,0 +1,98 @@
+%FILENAME%
+ecasound-2.9.3-13-x86_64.pkg.tar.zst
+
+%NAME%
+ecasound
+
+%BASE%
+ecasound
+
+%VERSION%
+2.9.3-13
+
+%DESC%
+Command-line multitrack audio processor
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+1655488
+
+%ISIZE%
+8670759
+
+%SHA256SUM%
+1868c29bbc6dc25ddcfe283918d262feab738bd79834235d5cc8b9e1074f030e
+
+%PGPSIG%
+iQIzBAABCAAdFiEElnTU7T37atzE+fHqHHNq75ZALnwFAmb+axQACgkQHHNq75ZALnwbsRAAkfoIf+fY38GtpFmQaDKE56+inC10Jj5W9GWZekDLIzw+Ezi7x5O7MjYIAaG0sdGAE5mNm9DCd3tqy+RHDJM2YMozWp7asdhpESEE9h3nHXTYhjt7mmDv+CF8OaOEwyzqMOXWq8rAyCqAvcwRpN0lkDtZTH0gn7U1pK8cdhB101zQqA1/UsvzRsjUGaZdeN6Ye9cFalFNF7DyPKnNKYtPhbD/ni++y+l5cGcJ9F2RU7t1YVHUTSyWb7PTnjNb78vG0Zux0Tu96b6QJCJg2U7QithxKPxxjCIndLEBA1NFV4Jz0qVO9Q6Cpk831i12zgx26f/wcXVuekzd/gUgMRM/z7JqwKrShmBOr/3sDIz1wKKDn+mkSGfrviqKulBo1JwMdBbreUJ/0tAhuPkwU6IWsRNAXN4SMhYDXPMVyMfgOqRIlqfflZKUMUUIoyiCwetPpqie+h8/lKaYkJL0z3rI5lAFHC1Pf8O9cZt1T8z/Nh9i7T1oIT99uKeXrF6RhYmuTDoxkzYDyv/ItoCtSyni6UY3vxQFDv2fAVMZaLtMViXlQcyJK2K0OlpkOUKWdNj7xJkIHwJqGt/bsiCPTlkoUB//27h0PN3mGbmnmLhShfHnoU6WghCVkFPXT2FZ5g4Ju70b8+ZxV0oS+bi4Yd+dVSiF2qwmihZsmooEQO3E1YE=
+
+%URL%
+https://ecasound.seul.org/ecasound/
+
+%LICENSE%
+GPL2
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1727949525
+
+%PACKAGER%
+Andreas Schleifer <segaja@archlinux.org>
+
+%PROVIDES%
+lv2-host
+
+%DEPENDS%
+gcc-libs
+glibc
+alsa-lib
+libasound.so=2-64
+jack
+libjack.so=0-64
+audiofile
+libaudiofile.so=1-64
+liblo
+liblo.so=7-64
+lilv
+liblilv-0.so=0-64
+ncurses
+libncursesw.so=6-64
+readline
+libreadline.so=8-64
+libsamplerate
+libsamplerate.so=0-64
+libsndfile
+libsndfile.so=1-64
+
+%OPTDEPENDS%
+bash: for libecasoundc-config and libecasound-config
+lame: MP3 encoding
+libfaad2: for .aac/.m4a/.mp4 file support
+libfaac: for .aac/.m4a/.mp4 file support
+libmikmod: for tracker module
+mpg123: MP3 decoding
+python: for ecamonitor
+ruby: ECI API
+timidity++: for .mid file support
+vorbis-tools: for .ogg file support
+
+%MAKEDEPENDS%
+alsa-lib
+audiofile
+jack
+liblo
+libmikmod
+libsamplerate
+libsndfile
+lilv
+lv2
+ncurses
+python
+readline
+ruby
+

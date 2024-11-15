@@ -1,0 +1,66 @@
+%FILENAME%
+python-mako-1.3.6-1-any.pkg.tar.zst
+
+%NAME%
+python-mako
+
+%BASE%
+python-mako
+
+%VERSION%
+1.3.6-1
+
+%DESC%
+A template library written in Python
+
+%CSIZE%
+171640
+
+%ISIZE%
+999376
+
+%SHA256SUM%
+2c57ce7261ea0bc876265d3aa2cb259da4bf5c405edd726cdcf51d99f898ad97
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZxiGogAKCRDwXowSExrrXiP2APwMzIyVD+TSEaVtVUJE9f1PfmnNceJVDq2saex+6GNFGAEAnlKcH+47u8LLOQzf1SxnDC7imKY4Kl5jMjxkhw91EAU=
+
+%URL%
+https://github.com/sqlalchemy/mako
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1729660522
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-markupsafe
+
+%OPTDEPENDS%
+python-babel: for i18n features
+python-beaker: for caching support
+python-dogpile.cache: for caching support
+python-pygments: for syntax highlighting
+python-pytest: for testing utilities
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-babel
+python-beaker
+python-dogpile.cache
+python-pygments
+python-pytest
+

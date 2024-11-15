@@ -1,0 +1,77 @@
+%FILENAME%
+neovim-0.10.2-2-x86_64.pkg.tar.zst
+
+%NAME%
+neovim
+
+%BASE%
+neovim
+
+%VERSION%
+0.10.2-2
+
+%DESC%
+Fork of Vim aiming to improve user experience, plugins, and GUIs
+
+%CSIZE%
+6420764
+
+%ISIZE%
+28265376
+
+%SHA256SUM%
+c3d137b074ba2eef085b4cd1f5a676bd8f464dcc6ff93cfc4eba764d2aa97d8c
+
+%PGPSIG%
+iQIzBAABCgAdFiEEBNw/sURf7KgTwn766k97MhqQatkFAmcG6w4ACgkQ6k97MhqQatk2sA/5AaFzt7CfV+spVkg5a9kywSqXS8rI0rfM6gSJ21mj4VBnOZhLZ+pEQBnZmlAKV1Y5ZIYoBZ2/Xdk4oITaZ57yoIw8AFxbi5FeaB0nNxTFot/8tZG+wcmFBQuJbq26PJLjZD5oSwz5N3YoRxZogq/G7Dg+14JVkCi+TrxG+H2HOAHyW3YMSySlgY1zCC6jouSLU4T0FoCI8aV/brffuZwIg6CONOAF87tkmwY2SbsPgGwn3FzJ7b0gL7DrwbOYXPyj/AoLtsoae1jj+mXpBndNW/95anH5kcF2gm4+EO/s+nIHwHeMPd+lpAbGtuqocjI0mLR9WGa7ibcf8VbX+3nDFtvzhvgDze8sYMmM6R+rqlMG0y5uAZgvvf8R8DpZmxjcQr+oFNoYlSL50GKaw3cw7Yvg6g40KogMJntWKcmz7qB+0TmSErCHp2FDwdS+XmOQX/V+Mk7gDIAIZzxk6tRVAdG52a1yVebR+03m/NkLdyR7PE/F6H+sYB83YNH6E+Ulp9GrQqzzEhnuseOpzGyEEcjoXwCN4fKvbhrNgPA39FiGa2HhLEVo4qeMIkKWETq4OjLEOi6cl4/8hkIiueyE2pojjUfk5B5nejB7K0CUN/w4KKcgd+ywyeiDysCXua2KgVsxOu1hmIlblaKza/Qp139a04518pBdgouj1lPwmmI=
+
+%URL%
+https://neovim.io
+
+%LICENSE%
+Apache-2.0
+LicenseRef-vim
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1728506342
+
+%PACKAGER%
+Daniel M. Capella <polyzen@archlinux.org>
+
+%PROVIDES%
+vim-plugin-runtime
+
+%DEPENDS%
+libluv
+libutf8proc
+libuv
+libvterm>=0.3.3
+lua51-lpeg
+luajit
+msgpack-c
+tree-sitter
+tree-sitter-c
+tree-sitter-lua
+tree-sitter-markdown
+tree-sitter-query
+tree-sitter-vim
+tree-sitter-vimdoc
+unibilium
+
+%OPTDEPENDS%
+python-pynvim: for Python plugin support (see :help python)
+xclip: for clipboard support on X11 (or xsel) (see :help clipboard)
+xsel: for clipboard support on X11 (or xclip) (see :help clipboard)
+wl-clipboard: for clipboard support on wayland (see :help clipboard)
+
+%MAKEDEPENDS%
+cmake
+git
+ninja
+lua51-mpack
+lua51-lpeg
+unzip
+

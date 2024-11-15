@@ -1,0 +1,74 @@
+%FILENAME%
+arduino-ide-2.3.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+arduino-ide
+
+%BASE%
+arduino-ide
+
+%VERSION%
+2.3.3-1
+
+%DESC%
+Open-source electronics prototyping platform
+
+%CSIZE%
+21827697
+
+%ISIZE%
+123147288
+
+%SHA256SUM%
+3973a14cc8f94c86b5b75d83d04550cea13fcf65b9c39ca720c673c4264121bf
+
+%PGPSIG%
+iQIzBAABCAAdFiEElSIL6Zzm/3eK4NxnD2XH2IFQYTAFAmb1pS8ACgkQD2XH2IFQYTBDqg/7BiYyz9gacxFG//TCAvFsTODOudepPtoE5782S11WVx6nJz/QfRHEsZNgPEmXuFX7Gilyoylc+KkdALJzmqyGq5xh/DPdltLfK8NPJZsYZfuVzgiRQ7RhM/TurucRhzyc8VWc4BxP1aR6bhuUd9UKmT5yUvfe/0b7N6nfMS1WRqrSe13Gg33u6c4Cu9oq0QIivh6gPCFjhyfDtDBOcD4QVo36RN7z5srL18ww8hUrclWamEsIupN2fVbryVbtyRItuLCrAsSSRWRpZgc6e4mrFLVPZeBRddMthYF61kj+m4LSKI1VB5CJRRhTvCLO5UzP6M8/sTxCh+Y3W9L76vmhtyx3DPKnVCCA8zA4olq4TNU+QUks50rPDXGMvOYc7z43Cjt2KBYGWu6rTBiZbQd0kWF7EIBfvR8fhpnm+xAVtNdNAABGN8bswdHhmdzbdm1OmVqIRE1AhobC7JWHqaUFwn3DsK6PXG4PwWh2CjhSyK329xlo9wMBL0p6lOQIpYlpChc9Fs8avklBrRHE3QLPS8eONsm+uKqFTFUVodhhiuH26C7v4Mp2dWnE+Zg/QJ55OaXmewi7n+PgHe5+HUUKi8EhXe5KA+OijOlak1W7TT2qLDO6Z8DV+JlvQbQSRVg0Zcf6lJjb63eu4JxqJkBYm/pU60pdD6Fr3D8okK02Uf4=
+
+%URL%
+https://github.com/arduino/arduino-ide
+
+%LICENSE%
+AGPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1727374294
+
+%PACKAGER%
+Maxime Gauduin <alucryd@archlinux.org>
+
+%DEPENDS%
+arduino-cli
+arduino-fwuploader
+bash
+gcc-libs
+glib2
+glibc
+electron27
+libsecret
+libx11
+libxkbfile
+python
+ripgrep
+
+%OPTDEPENDS%
+arduino-language-server: Arduino language server
+clang: Needed for clangd support
+libusb: Needed for some libraries or boards
+libusb-compat: Needed for the `micronucleus` cli utility
+python-pyserial: Needed for esptool
+usbutils: Needed for stm32 boards using st-link
+
+%MAKEDEPENDS%
+arduino-language-server
+clang
+git
+jq
+nodejs-lts-iron
+npm
+python-setuptools
+yarn
+
