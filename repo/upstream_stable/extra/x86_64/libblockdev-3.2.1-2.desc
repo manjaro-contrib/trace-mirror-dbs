@@ -1,0 +1,110 @@
+%FILENAME%
+libblockdev-3.2.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+libblockdev
+
+%BASE%
+libblockdev
+
+%VERSION%
+3.2.1-2
+
+%DESC%
+A library for manipulating block devices
+
+%CSIZE%
+257552
+
+%ISIZE%
+3689087
+
+%SHA256SUM%
+d7a32006e2cb98a6570d8eca3db6eb785ac79f5e0e1f8a7958b43c33294d58f6
+
+%PGPSIG%
+iQJKBAABCgA1FiEEwQA0ZnZjToDJQPuenAL/QZ/svhYFAmc4vZQXHGZveGJvcm9uQGFyY2hsaW51eC5vcmcACgkQnAL/QZ/svhYVVg/3bhZb4aELiAzPw+1X0QuhYB4c/c9yH4MZTob+ue1qVhivYnXo63ZRYLhst21TL+QGNfAP2/Q6wfAk2PjJ6ubcrfmQtc+MWAoFIryOoSeLoDGIdvBwQWl1z91BzbLLzxLaQnm/GBP5T4WYZGcHyQ6XXG4LBPjxw+PQB4IkgCayZJisGixgk9zemUUsxArt83r+LQRmO+lqFl2Tb/CbEbEuE/+RhrNDwDcEaB8JPkhxX8GUvauyu8oExcHVrZ3Oz0/Y9VmYzX7eRzDTtFHMMDYL3OeYQNVREzAj3igoSFb9t6psLIWOhQXL+pYlpTtengPEK6T2AKVLPdr+CgDYCZexgydVpbYMR31ivbqxFUZJb606K/GfUAZL8Fowd12ISg9nJ3C0IEr+nxFGWwFgPL2Rc2X88D3e/Uheq9YAJGkKrrxKpkasV/kvFi37yhF9rjzSGmmXZxbq38s/4Db0Hem6fvsjHVTz3Dgc1jLIu+Q4zw77rKTSCSoX1R+axDKUDYvuysXUviTTRRSPOPZZ6kgsTr9xE5VUxCcBt364GnZw0/7N1W/BTcH9Um72I+RYoswxzmf1n080sVWFvsqVq7i1EHXl0siTpqJ+ostmwsaNqUWYx9AkXFwCGCVnZxL8wSJStrg9ynyRSgTSdUxs+MkY4K1YA3zTt0Oz++RAArKNTw==
+
+%URL%
+https://github.com/storaged-project/libblockdev
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1731771646
+
+%PACKAGER%
+Morten Linderud <foxboron@archlinux.org>
+
+%REPLACES%
+libblockdev-utils
+
+%CONFLICTS%
+libblockdev-utils
+
+%PROVIDES%
+libbd_utils.so=3-64
+libblockdev.so=3-64
+
+%DEPENDS%
+glib2
+libglib-2.0.so=0-64
+libgio-2.0.so=0-64
+libgobject-2.0.so=0-64
+glibc
+kmod
+libkmod.so=2-64
+systemd-libs
+libudev.so=1-64
+
+%OPTDEPENDS%
+libblockdev-btrfs: for BTRFS support
+libblockdev-crypto: for crypto support
+libblockdev-dm: for device-mapper support
+libblockdev-fs: for filesystem support
+libblockdev-loop: for loop device support
+libblockdev-lvm: for LVM support
+libblockdev-mdraid: for MDRAID support
+libblockdev-mpath: for multipath support
+libblockdev-nvdimm: for NVDIMM support
+libblockdev-nvme: for NVME support
+libblockdev-part: for partitioning support
+libblockdev-smart: for S.M.A.R.T. support
+libblockdev-swap: for swap support
+python-libblockdev: for Python support
+
+%MAKEDEPENDS%
+autoconf-archive
+btrfs-progs
+cryptsetup
+device-mapper
+dosfstools
+e2fsprogs
+exfatprogs
+gcc-libs
+glib2
+glibc
+gobject-introspection
+gtk-doc
+json-glib
+kmod
+keyutils
+libatasmart
+libbytesize
+libnvme
+libyaml
+lvm2
+mdadm
+ndctl
+nss
+parted
+python
+systemd-libs
+util-linux
+util-linux-libs
+volume_key
+
