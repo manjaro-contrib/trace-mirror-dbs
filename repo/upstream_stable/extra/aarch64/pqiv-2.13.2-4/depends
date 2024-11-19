@@ -1,0 +1,34 @@
+%DEPENDS%
+at-spi2-core
+libatk-1.0.so=0-64
+cairo
+libcairo.so=2-64
+libcairo-gobject.so=2-64
+gdk-pixbuf2
+libgdk_pixbuf-2.0.so=0-64
+glib2
+libgio-2.0.so=0-64
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+libgmodule-2.0.so=0-64
+glibc
+gtk3
+libgdk-3.so=0-64
+libgtk-3.so=0-64
+harfbuzz
+libharfbuzz.so=0-64
+libx11
+pango
+libpango-1.0.so=0-64
+libpangocairo-1.0.so=0-64
+zlib
+libz.so=1-64
+
+%OPTDEPENDS%
+ffmpeg: rudimentary video support
+imagemagick: support for various images formats like PSD
+libarchive: archives and cbX comic book support
+libspectre: PS/EPS support
+libwebp: WebP support
+poppler-glib: rudimentary PDF support
+
