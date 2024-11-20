@@ -1,0 +1,80 @@
+%FILENAME%
+easyeffects-7.2.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+easyeffects
+
+%BASE%
+easyeffects
+
+%VERSION%
+7.2.0-1
+
+%DESC%
+Audio Effects for Pipewire applications
+
+%CSIZE%
+1307126
+
+%ISIZE%
+8440554
+
+%SHA256SUM%
+10040eacd22e5a74b558ee4bdc71c339fb95f12151e9951f6de62828d159787c
+
+%PGPSIG%
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCZz2Xe18UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaClysAP9HQySL8APEQ/evxqC7LXqJc5r2cvk9SwF4kSlvNPT2LQEAuTtIHUjFwlKcFsI8VJH+JZiZaEeU4raL8tTRFBM4pwo=
+
+%URL%
+https://github.com/wwmm/easyeffects
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732089639
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%REPLACES%
+pulseeffects
+
+%DEPENDS%
+fftw
+libfmt.so=11-64
+gsl
+gtk4
+ladspa
+libadwaita-1.so=0-64
+libbs2b.so=0-64
+libebur128
+libsamplerate.so=0-64
+libsigc-3.0.so=0-64
+libsndfile.so=1-64
+liblilv-0.so=0-64
+pipewire
+rnnoise
+soundtouch
+speexdsp
+tbb
+zita-convolver
+
+%OPTDEPENDS%
+calf: limiter, exciter, bass enhancer and others
+lsp-plugins-lv2: equalizer, compressor, delay, loudness
+zam-plugins-lv2: maximizer
+mda.lv2: bass loudness plugin
+yelp: in-app help
+
+%MAKEDEPENDS%
+appstream-glib
+itstool
+meson
+nlohmann-json
+speex
+lv2
+
