@@ -1,0 +1,72 @@
+%FILENAME%
+nwg-panel-0.9.51-1-any.pkg.tar.zst
+
+%NAME%
+nwg-panel
+
+%BASE%
+nwg-panel
+
+%VERSION%
+0.9.51-1
+
+%DESC%
+GTK3-based panel for sway and Hyprland Wayland compositors
+
+%CSIZE%
+373601
+
+%ISIZE%
+3465536
+
+%SHA256SUM%
+385169296d8072c3c1ff7c8138c428b818445ffa0649f7732b798eec44e8dda9
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmc+3GIACgkQ/cMEC5Ksp0hlww//T+UtBQGXQ0Svu8JYd+K/U/HN6Fdg3hnWOpshl79tb+vl21CtMriz699jbLn+S91+l7VeTQkzH2qYJJU6wBHHm9B0ubomUlS01c8oa8hKx1/LJSXBd9vqYEqqzjzEC52a6B5d81bVq66f7sf0lTUNFdIkIjOVCT0/sptUd1n+La4maBLPkGE/scK7YTAV/A/RVy5+u9LrJp/3t3H4ux9Rs6+ji6dDJ11kIE0RNWmjmQn0U3Or4S17XLT30Z+cmOyaU9UJyxAFyIUfHVUeVi08QenW+gqnoGPqAEe+CENnoXNwajYSMOXXS8UUoxgOuxDKbDZxZYWOFrESrNNt9d2PVpr83rPoxuSJRd6fzAvveK58cAJiVmr/fKRIr+3EsY7xdb5iO4bN2duuaiMfgZcpCtw0WYrzTJlLkTTQLbPTJxpMelW4tQQoBwBAIzXeY5k6O4innWDXTuhkIEvrZhiVnaSsGIDblSWsaSkq1cQ18HucZa5VmGf4u9fh4BqnSx2WCC/m0gOhV0LXYwVrqVomWK1xf9ZQT8N+FhOh8DRn/M9t+HPo+Q1zJfwDxQjnWGPABGc9IVnsBTLJ0G9QgLq6cgfYansn3kbKW5O0pSO+JIAcTFEjq8DbXSYuhQzjkXBHdDalgrhTt+8Ny3EqpAC758SQXHaTPGsO9XFlaRFcPXc=
+
+%URL%
+https://github.com/nwg-piotr/nwg-panel
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732172839
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-gobject
+python-i3ipc
+python-cairo
+python-dasbus
+python-netifaces
+python-psutil
+python-requests
+bluez-utils
+gtk3
+libappindicator-gtk3
+gtk-layer-shell
+brightnessctl
+playerctl
+glib2
+
+%OPTDEPENDS%
+wlr-randr: for non-sway Wayland WMs support
+swaync: for Sway Notification Center support
+ddcutil: for external displays brightness control
+upower: for multiple batteries support
+nwg-icon-picker: for a graphical icon chooser
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+
