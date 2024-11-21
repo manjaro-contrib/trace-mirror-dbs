@@ -1,0 +1,69 @@
+%FILENAME%
+cuda-12.6.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+cuda
+
+%BASE%
+cuda
+
+%VERSION%
+12.6.3-1
+
+%DESC%
+NVIDIA's GPU programming toolkit
+
+%CSIZE%
+1931737719
+
+%ISIZE%
+5146097617
+
+%SHA256SUM%
+fa5fa50c2b4f88d65a399f37358c9ae94e31a323bc6140d1aad0f104b996180d
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCZz+DDwAKCRAAHPSBC+jZERWiAQDdO7d2BwzKOGTKyM9woY/1yqyii8IZOmQx8/p61IhBBAD9H0LtmfVrz9c8tYsa35HWFhzWSAdl3r1h55HljLawDAo=
+
+%URL%
+https://developer.nvidia.com/cuda-zone
+
+%LICENSE%
+LicenseRef-NVIDIA-CUDA
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732215072
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%REPLACES%
+cuda-toolkit
+cuda-sdk
+cuda-static
+
+%PROVIDES%
+cuda-toolkit
+cuda-sdk
+libcudart.so=12-64
+libcublas.so=12-64
+libcublas.so=12-64
+libcusolver.so=11-64
+libcusolver.so=11-64
+libcusparse.so=12-64
+libcusparse.so=12-64
+
+%DEPENDS%
+opencl-nvidia
+python
+gcc13
+
+%OPTDEPENDS%
+gdb: for cuda-gdb
+glu: required for some profiling tools in CUPTI
+nvidia-utils: for NVIDIA drivers (not needed in CDI containers)
+rdma-core: for GPUDirect Storage (libcufile_rdma.so)
+
