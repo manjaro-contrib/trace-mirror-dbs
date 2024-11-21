@@ -1,0 +1,100 @@
+%FILENAME%
+beets-2.0.0-1-any.pkg.tar.zst
+
+%NAME%
+beets
+
+%BASE%
+beets
+
+%VERSION%
+2.0.0-1
+
+%DESC%
+Flexible music library manager and tagger
+
+%CSIZE%
+955185
+
+%ISIZE%
+5333254
+
+%MD5SUM%
+4d0ecdaaea4ea9638ccd64e2d6ce4cff
+
+%SHA256SUM%
+c0b917c8d61c2f972633bfb24ffe2d7eeca8656891be9210efd1912f193384a2
+
+%PGPSIG%
+iQIzBAABCAAdFiEElSIL6Zzm/3eK4NxnD2XH2IFQYTAFAmZvTwQACgkQD2XH2IFQYTCTmQ/9EwvIGQhXWUzxTjy+QMcHVDTGXEsk9v4/9Hip53ijM+QVmJv47DYiZZLddKo2O7OiQmaW+zVcrwXVkLvpk05QhERoMtnJ+6iTJ54RVHGjVHS6gVK06KJBSJ1k/r4hJlzdbxh7hTOU/0P3P7kiLzrKlvyCEa1l7Sek0BknQlrM8G/xNjDWoRcVhgAvldtpC/9QUCr4uEFEttX5hCuQkDYBIRQsOFAL2NuDHGNy/TABinR5OP7g5B/AmTP+wb6lYSg36p3jGSu/wJfOlv2SV4p0DzoJeuh50yGZki3hpdjSPs/t3BBHxm/ZroQso8gE4aMj/NcnmPfaEC7fPFFOhlebj+dEzDIOkbG4DnQucHwR14xBIUXR5YXvglyPRTa1V+N5HUfiuapXSgi+BjZNJXbB5PjwBUeARthLqrUjj/eBVI4Vb5kNxPH3V//fZ09u9YnlzrHc7x71ACIVTp7eC6jHEjavVKkvIUg/gluugTNg6TK0ZQ3UkytUTaDLl7VornpawDGfgNTKPCQ52M3vv5ms2zgNp59YpZCkhnxR4gFhDm9GN+kbZDS6h09GAvyibjBwqeewS4EHrkwgxSqEGZKj2ch6QorK3jUzXgtF06NooCkPSPhsKAlUXiloMQzKo9uAiNqqHLx2n+XYSZmIhbEGhhqlRjPmJkCthXXC4W8sfBQ=
+
+%URL%
+https://beets.io/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1718570545
+
+%PACKAGER%
+Maxime Gauduin <alucryd@archlinux.org>
+
+%DEPENDS%
+python-confuse
+python-jellyfish
+python-mediafile
+python-munkres
+python-musicbrainzngs
+python-typing_extensions
+python-unidecode
+python-yaml
+
+%OPTDEPENDS%
+bash-completion: Bash completion
+chromaprint: Chromaprint/Acoustid plugin
+ffmpeg: Convert, ReplayGain plugins
+gst-plugins-bad: Chromaprint/Acoustid, BPD, ReplayGain plugins
+gst-plugins-good: Chromaprint/Acoustid, BPD, ReplayGain plugins
+gst-plugins-ugly: Chromaprint/Acoustid, BPD, ReplayGain plugins
+gst-libav: Chromaprint/Acoustid, BPD, ReplayGain plugins
+gst-python: Chromaprint/Acoustid, BPD, ReplayGain plugins
+imagemagick: Thumbnails plugin
+python-beautifulsoup4: Lyrics plugin
+python-discogs-client: Discogs plugin
+python-flask: Web plugin
+python-gobject: ReplayGain plugin
+python-mpd2: MPDStats plugin
+python-pyacoustid: Chromaprint/Acoustid plugin
+python-pylast: LastGenre plugin
+python-requests: Chromaprint/Acoustid, BPD, FetchArt plugins
+python-requests-oauthlib: Beatport plugin
+python-xdg: Thumbnails plugin
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-sphinx
+python-wheel
+
+%CHECKDEPENDS%
+bash-completion
+imagemagick
+python-beautifulsoup4
+python-discogs-client
+python-flask
+python-mpd2
+python-py7zr
+python-pylast
+python-pytest
+python-pytest-cov
+python-reflink
+python-requests-oauthlib
+python-responses
+python-xdg
+

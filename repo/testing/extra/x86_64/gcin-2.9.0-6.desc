@@ -1,0 +1,70 @@
+%FILENAME%
+gcin-2.9.0-6-x86_64.pkg.tar.zst
+
+%NAME%
+gcin
+
+%BASE%
+gcin
+
+%VERSION%
+2.9.0-6
+
+%DESC%
+Input method server supporting various input methods
+
+%CSIZE%
+4980028
+
+%ISIZE%
+18926768
+
+%MD5SUM%
+28e008129edbf69be9488293fa84eb11
+
+%SHA256SUM%
+43de98b88e06c230feb5e7237fe0dc6d9082dd06dc78d6cbcd1c45a275fe8be0
+
+%PGPSIG%
+iHUEABYKAB0WIQQNmeQ7UMKtIbreRjJJPeIcgk6VQQUCZoJ1wwAKCRBJPeIcgk6VQaJjAP9rKvOJyFMwYLT8YKE3zCd+0KMUugMN3DQLWXiL5XzOsgD+JuyO0APHG1lkbv/ldpGU7QWeN3EfS5ULkCTsWNZTQgw=
+
+%URL%
+https://hyperrate.com/dir.php?eid=67
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1719821495
+
+%PACKAGER%
+Chih-Hsuan Yen <yan12125@archlinux.org>
+
+%DEPENDS%
+glibc
+glib2
+gdk-pixbuf2
+cairo
+pango
+gtk3
+libx11
+libxtst
+libappindicator-gtk3
+
+%OPTDEPENDS%
+qt5-base: support for qt5 input method
+gcc-libs: support for qt5 input method
+gtk2: support for gtk2 input method
+anthy: support for anthy input method
+curl: for downloading and uploading vocabulary databases via ts-edit
+bash: for various scripts
+
+%MAKEDEPENDS%
+qt5-base
+gtk2
+anthy
+curl
+

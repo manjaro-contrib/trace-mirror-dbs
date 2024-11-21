@@ -1,0 +1,83 @@
+%FILENAME%
+switchboard-8.0.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+switchboard
+
+%BASE%
+switchboard
+
+%VERSION%
+8.0.0-1
+
+%DESC%
+The Pantheon Control Center
+
+%GROUPS%
+pantheon
+
+%CSIZE%
+140667
+
+%ISIZE%
+831748
+
+%MD5SUM%
+afe5e218830c4b57f5e7fde6961d3fb8
+
+%SHA256SUM%
+5abff603527533bb1cafa3b0b5d9b0f90da8545d2a946bbdc44b3a79ba932925
+
+%PGPSIG%
+iQIzBAABCAAdFiEElSIL6Zzm/3eK4NxnD2XH2IFQYTAFAmaIBEsACgkQD2XH2IFQYTBSWA/+LYkot9YZ3H3ZT9DiZb1dNiTNY017zPaXC0cid+t6KvURZZ90/e/AQwSVgCCSTJhCe+2DqWmtMnAzCFPl0JjkINbgGFGYpNHkDQgus3V6QEiBxc9E9rzQHqVqIQbfISNirIbuhvW7MfvmAF3cssmqkNdc/XP67iGqEubp+25L9TMLRIIQZ4s4b+3xKqTAMtCdky8YW/fmWZas9edD23zR1B5FLWSs6yJMVp2o7nPhuio/5+eq0N1CEL86YYp9CSJ+sd42r8B3PZLmM8qOYau62tEpClDulrHQZLwkh2/x6U166VetUDPGqRd0pFWKvREqPhjrivqmAHuae8l38LiBzTCQYfE/5MqQD3FiMLXvEYxECPd2ACDdgcKog55ddP6si+DDiT4bjWn/RHcQyvAFTld+1W5JJ9S2PDsjRDDQSPd7uPSfZRMIyoHrAvKmF+LZvBkw7foHJ6lgA3BDP7HZ3GZ1r4AM8XJirLNmBTcj/JjDxZ2sdRHV8KkLhsO4IqOneQ8WPNFgb/ULTY/6ew0BjWmdxe9nhTScbQpFI6MiLHk4jJbU1v9D7Pw2agIe2eEd/Jb10npLcl81xiAjbKA9ci2WeFTDNk9Kyy8olaGRBkg1UiDyT1vsd8UlyF5zpg7JbRppxHugUvq7spAplp+MWu1VzBUfSQAYZ4QGVRC9g2Q=
+
+%URL%
+https://github.com/elementary/switchboard
+
+%LICENSE%
+LGPL-2.1-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1720189984
+
+%PACKAGER%
+Maxime Gauduin <alucryd@archlinux.org>
+
+%PROVIDES%
+libswitchboard-3.so=0-64
+
+%DEPENDS%
+dconf
+glib2
+glibc
+gtk4
+hicolor-icon-theme
+libadwaita-1.so=0-64
+libgee
+libgranite-7.so=7-64
+
+%OPTDEPENDS%
+switchboard-plug-about: About plug
+switchboard-plug-applications: Applications plug
+switchboard-plug-datetime: Date & Time plug
+switchboard-plug-desktop: Desktop plug
+switchboard-plug-display: Display plug
+switchboard-plug-elementary-tweaks: Elementary Tweaks plug
+switchboard-plug-keyboard: Keyboard plug
+switchboard-plug-locale: Locale plug
+switchboard-plug-network: Network plug
+switchboard-plug-notifications: Notifications plug
+switchboard-plug-power: Power plug
+switchboard-plug-security-privacy: Security & Privacy plug
+
+%MAKEDEPENDS%
+cmake
+git
+intltool
+meson
+sassc
+vala
+

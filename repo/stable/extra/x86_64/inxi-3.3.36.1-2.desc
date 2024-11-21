@@ -1,0 +1,89 @@
+%FILENAME%
+inxi-3.3.36.1-2-any.pkg.tar.zst
+
+%NAME%
+inxi
+
+%BASE%
+inxi
+
+%VERSION%
+3.3.36.1-2
+
+%DESC%
+Full featured CLI system information tool
+
+%CSIZE%
+453177
+
+%ISIZE%
+1394326
+
+%MD5SUM%
+25b80461dde55b7c5f9e20883ccb8832
+
+%SHA256SUM%
+36103d590bb0a2aefe3571f83110cd5818476e8d23e6dcbdabee760c05ed8ceb
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmcioMUACgkQFQwgB0PtRtjFPAf/Z8D22a6KCVj12dYN/77FNKutKQ5h2G3lZ+HCyyBJVzC3EJQAQO/glgi6Nzm9LzDXhAzzeZtFt9rnv53KoRxfoMEr6aqqRHMEK3TFjkFXy3Iz8nbS2gVzv7m3rpRaCYPl6zib7cdpD8+kC//eOAoFEI3r5WTuSO1KvaaO0S9f4v2JxVNAAsAx2VKAMHgVUtlTw4PNMDY/0IWd3zw0upERXbL9r3wzXeKVbbSyIq4wl88kouL3MjGUWUMkl99Q3xoV9EEnuiN7cBivDz7GZU+F+/btMLBcLXuK839Mt/gvzRhLnlaCEd2BnpSH4wK1ZXKwbxUzRM2IoGFayi4StpTbrQ==
+
+%URL%
+https://smxi.org/docs/inxi.htm
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1730318415
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%DEPENDS%
+coreutils
+pciutils
+perl
+procps-ng
+util-linux
+
+%OPTDEPENDS%
+bind: dig: -i wlan IP
+bluez-tools: bt-adapter: -E bluetooth data (if no hciconfig, btmgmt)
+bluez-utils: btmgmt: -E bluetooth data (if no hciconfig)
+bluez-deprecated-tools: hciconfig: -E bluetooth data (deprecated, good report)
+curl: -i (if no dig); -w,-W; -U
+dmidecode: -M if no sys machine data; -m
+doas: -Dx hddtemp-user; -o file-user (alt for sudo)
+freeipmi: ipmi-sensors: -s IPMI sensors (servers)
+hddtemp: -Dx show hdd temp, if no drivetemp module
+iproute2: ip: -i ip LAN
+kmod: modinfo: Ax; -Nx module version
+ipmitool: -s IPMI sensors (servers)
+lvm2: lvs: -L LVM data
+lm_sensors: sensors: -s sensors output (optional, /sys supplies most)
+mdadm: -Ra advanced mdraid data
+mesa-utils: eglinfo / glxinfo: -G X11/Wayland EGL / GLX info
+net-tools: ifconfig: -i ip LAN (deprecated)
+perl-cpanel-json-xs: Cpanel::JSON::XS: -G wayland, --output json (faster)
+perl-json-xs: JSON::XS: -G wayland, --output json (legacy)
+perl-io-socket-ssl: IO::Socket::SSL: -U; -w,-W; -i (if dig not installed)
+smartmontools: smartctl: -Da advanced data
+systemd: udevadm: -m ram data for non-root, or no dmidecode
+systemd-sysvcompat: runlevel: -I fallback to Perl
+sudo: -Dx hddtemp-user; -o file-user
+tree: --debugger 20,21 /sys tree
+upower: -sx attached device battery info
+usbutils: lsusb: -A usb audio; -J (optional); -N usb networking
+vulkan-tools: vulkaninfo: -G Vulkan API info
+wayland-utils: wayland-info: -G Wayland data
+wget: -i (if no dig); -w,-W; -U
+wmctrl: -S active window manager (fallback)
+xorg-xdpyinfo: xdpyinfo: -G (X) Screen resolution, dpi; -Ga Screen size
+xorg-xdriinfo: xdriinfo: -G (X) DRI driver (if missing, fallback to Xorg log)
+xorg-xprop: xprop: -S (X) desktop data
+xorg-xrandr: xrandr: -G (X) monitors(s) resolution; -Ga monitor data
+

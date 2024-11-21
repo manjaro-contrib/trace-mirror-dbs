@@ -1,0 +1,64 @@
+%FILENAME%
+wimlib-1.14.4-1-aarch64.pkg.tar.xz
+
+%NAME%
+wimlib
+
+%BASE%
+wimlib
+
+%VERSION%
+1.14.4-1
+
+%DESC%
+A library and program to extract, create, and modify WIM files
+
+%CSIZE%
+317108
+
+%ISIZE%
+858803
+
+%MD5SUM%
+26e3b3cd14c979397d9cd7642c802464
+
+%SHA256SUM%
+a443220878797cfc8494b5960f1865727c406e56491c483fcbe27ebd862c57d4
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmXvm8IACgkQdxk/FSvb5qZpBQ//TKprpK1IxBgWGc/f9J2O8qyo9Af4iZAMa7RrXrdB7XAodCXR9NZWLMLrzw1thFk5Yr/D00aHizjVTIFlyO7JHVzsqlH2XSX6/08v3vgYXKwPzMV7gndpdaxnw5+RHlDKyReCdDMyeNLmNC94ZGfoAtjZGdLZEpwgZjDVWY2jnNEvuPYaWfDlxwzjaWL2KFryvKN0v/V6X9V4WJS29pKQRT7vYyn4ONTdF8HtwXIFQDw/ApBGCvSdNti1PxcRyZ4tpfkrFmTwzkhA4V+xCXkpLsnebiajdV8Hkm6LA5mKmGEixvj0mChiXh6x/HEhDj7k+1Ivo4WXaM9tqZDknH5n8ipFA1Imen73EzPX+ylMc6/xH6Ul/vSl3gB4WvBfVCF0jZ/IGA5QfEIXcc9CJ1W2RRa8X+EXlhpgOfueOdwsXwhgOYM3Abqhxbbo7pYKkFIQn3315ynmkJulRHPzRJRdNkuDAoeC338yoo86QjZsbRhGILcEwrdnEoTQ8rOTUOtUIMC2spKXKRk7tXrVXpYdwgq3Cju6kmA0EIrF05YKf2E3RdBNkpPrca6e8ujHuaukJIM5AbTP7I9l0ikxykWn2CJqus6MT7Ueoap/xM91yH3kCftPSsN3r1STmTAXY951LMQlL4AHrFJFEHXDk5GyVFrMOqAUCXS7yiZWVof+QPw=
+
+%URL%
+https://wimlib.net
+
+%LICENSE%
+custom
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1710201763
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+libwim.so=15-64
+
+%DEPENDS%
+fuse3
+ntfs-3g
+
+%OPTDEPENDS%
+cdrkit: for making ISO image of Windows PE
+mtools: for making disk image of Windows PE
+syslinux: for making disk image of Windows PE
+cabextract: for extracting Windows PE from the WAIK
+
+%MAKEDEPENDS%
+git
+
+%CHECKDEPENDS%
+attr
+

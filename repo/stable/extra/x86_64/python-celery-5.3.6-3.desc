@@ -1,0 +1,91 @@
+%FILENAME%
+python-celery-5.3.6-3-any.pkg.tar.zst
+
+%NAME%
+python-celery
+
+%BASE%
+python-celery
+
+%VERSION%
+5.3.6-3
+
+%DESC%
+Distributed Asynchronous Task Queue
+
+%CSIZE%
+866410
+
+%ISIZE%
+5026140
+
+%MD5SUM%
+15f6d0fdfc67117c64d57f41e4cb11eb
+
+%SHA256SUM%
+4aa892b1b3284df134c4821c9924525479dced5b413500af49c7694ecc964f00
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmaBOdcACgkQ/cMEC5Ksp0h26A/+Ktsq2IiIgmIr7IF9vCgRGx3cSe+Ggms8Jh7Ud/DKw6x7zZs/sSrqiXxdf9fznZyPzh7BqI+CDY4UBhgqDJm1AWmVIXiqGZgH1juzXCYsitme6ImgP7wIM8+5yiAabVPKCDNa6sMSWHyMzz/Qj1udDYJrGZXKBjKkIhH6pNau1c1m4KevLKS0LhtsCTkwPWD08ouoQN/qlvbqpyseQSNfjhjT6y/VqYa4azPc5JujK7TgJ5ZugNhvVJQOSBNcTSXn9f1Bsy6kWJn6KAFT8C1YoiQBz41GN63AVWhSPECRbQL+5ZkT5ilJ5YxlFvDYVinAe/AR4yLmU+75nDaOtTmVd8zwVJe4TifqwGkr1oUmYgUxXuL5yPtSBArBW7Hryo6jRREV6i/3nEgbq1VgKfgioEX927r8X25OC4i3VNEEGCLyUz9Z+rhWhPYfQ1jq9ov9Rs//mmiDK4XWm9grawq9xKwyuxmOQmcQmTiWH+9eA1v+EHer+BrsnHDXB9cwX0LAOgRXh8rIP46aEMo5yHOp2GmKt6ZLlc4xLXOWbPBlwumCGyLjFpbbf5ajB7j02NM+GnCyFvkfEuz+d3M0kSgN65IIZWK9yz9gOT9uE0qFAtt/279cvAK9TU2trs7Q3QivWhkxw4yP4xMS297lLYolr2PEbrZkgW+gL6RBKnmKsqo=
+
+%URL%
+http://celeryproject.org/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1719744890
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python-billiard
+python-click-didyoumean
+python-click-plugins
+python-click-repl
+python-kombu
+python-pytz
+python-vine
+
+%OPTDEPENDS%
+python-cryptography: for celery.security
+python-pymongo: for celery.backends.mongodb
+python-msgpack: for using the msgpack serializer
+python-pyro: for using Pyro4 message transport
+python-redis: for celery.backends.redis
+python-sqlalchemy: for celery.backends.database
+python-boto3: for SQS transport
+python-yaml: for using the yaml serializer
+python-pyzmq: for using ZeroMQ transport
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest-celery
+python-pytest-subtests
+python-pytest-timeout
+python-case
+python-cryptography
+python-gevent
+python-pymongo
+python-msgpack
+python-pyro
+python-redis
+python-sqlalchemy
+python-boto3
+python-yaml
+python-pyzmq
+python-eventlet
+python-moto
+python-pytest-click
+systemd
+

@@ -1,0 +1,65 @@
+%FILENAME%
+gitea-1.22.3-2-x86_64.pkg.tar.zst
+
+%NAME%
+gitea
+
+%BASE%
+gitea
+
+%VERSION%
+1.22.3-2
+
+%DESC%
+Painless self-hosted Git service, community managed.
+
+%CSIZE%
+35185098
+
+%ISIZE%
+106065387
+
+%MD5SUM%
+9a23fb0bf6b4224f14c78e6ced39f53c
+
+%SHA256SUM%
+6f2e8dae0089683183a89ca7ae18be0b69f8d80c69df8c279bfd2c375c1bd179
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZy38rQAKCRCbeih9mi7GCO1sAQC2bdUSyTW8EQX2LqG4HRv2c647dnMage1EC6uJkXvnqAEAv4g91K+pzt1OLmX8et5rKMxmuYQ9CABOUmbW/00bWgY=
+
+%URL%
+https://gitea.io
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1731064819
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+git
+
+%OPTDEPENDS%
+mariadb: MariaDB support
+memcached: MemCached support
+openssh: GIT over SSH support
+pam: Authentication via PAM support
+postgresql: PostgreSQL support
+redis: Redis support
+sqlite: SQLite support
+
+%MAKEDEPENDS%
+go
+nodejs
+npm
+
+%CHECKDEPENDS%
+openssh
+

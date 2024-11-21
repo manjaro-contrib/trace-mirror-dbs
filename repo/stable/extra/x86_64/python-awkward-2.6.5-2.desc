@@ -1,0 +1,86 @@
+%FILENAME%
+python-awkward-2.6.5-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-awkward
+
+%BASE%
+python-awkward
+
+%VERSION%
+2.6.5-2
+
+%DESC%
+Manipulate jagged, chunky, and/or bitmasked arrays as easily as Numpy
+
+%CSIZE%
+1690370
+
+%ISIZE%
+13040560
+
+%MD5SUM%
+f3a85f2a83618404336e486c1a892bc6
+
+%SHA256SUM%
+9322bfb7f82709a5a98eca0e2a82a98e3bea1a5165ff94ec540ed244624c94fd
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmZ3H6AACgkQek52CV2KUuTb5Af/brjDuGryi/A/eUSfeQFQSQZCSuopnWDQE5T4qFnS9thPVdnIsVWh+hSSPA21M5oq4mR3jKPNHR6m8uuQU7wB8IUlRyBw72feoVl6HzXUXwNB6nv9rvb4wSvRowGfn7q00PJf7CVDLIR7YE5JWwV7i+N6fSsDn6P3t5l9/bYxLEuKYrLa7PnaV+bf+Gs7SLe6F/xV1E6EimLrhsO5XBOUt0Jt2llLsCJkj752V4w+OLcmySXabhzq24zgre5tLqPBs1HZXq+GPwMa7NEcM8rDdBsB0HQ9OIVyuG3kpg4l2CbcLj/R2+a7O9v/xlaR2uR9OFdNd3XFJTvw3IUNXct7sw==
+
+%URL%
+https://github.com/scikit-hep/awkward
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1719082753
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python-numpy
+python-packaging
+python-importlib_resources
+
+%OPTDEPENDS%
+cuda: CUDA support
+python-pyarrow: pyArrow connector
+python-numexpr: numexpr connector
+python-pandas: pandas connector
+python-awkward-docs: docs
+
+%MAKEDEPENDS%
+cmake
+git
+python-build
+python-installer
+python-hatchling
+cuda
+doxygen
+python-sphinx
+python-sphinx_rtd_theme
+python-hatch-fancy-pypi-readme
+python-scikit-build-core
+python-nox
+
+%CHECKDEPENDS%
+python-pyaml
+python-pytest
+python-pytest-cov
+python-hist
+python-pandas
+python-numexpr
+python-pyarrow
+python-scikit-hep-testdata
+python-vector
+root
+pybind11
+rapidjson
+python-fsspec
+

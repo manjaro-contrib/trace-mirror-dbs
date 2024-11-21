@@ -1,0 +1,68 @@
+%FILENAME%
+python-databases-0.9.0-1-any.pkg.tar.xz
+
+%NAME%
+python-databases
+
+%BASE%
+python-databases
+
+%VERSION%
+0.9.0-1
+
+%DESC%
+Async database support for Python
+
+%CSIZE%
+56868
+
+%ISIZE%
+371088
+
+%MD5SUM%
+546e6a675c0b802f2dbc56b0e77eb76c
+
+%SHA256SUM%
+7bfca3f0fb011c891b7a6fccd9208c71d0a44f5356dcb2c1aaba6415053b70d6
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmbS/HUACgkQdxk/FSvb5qYslBAAue3wvuMFyZOf6NMuqUKNwsJ7SZyiRlgEi5P1uUfn/m/kmJcultE7tvdLehopxwN1+GeDRl7GzUJpOGHop726mihJXrUq/t5X86E1nFm64pGXg5PCKxDWD8xGmdHFdM9SNcCGcTOQa9bIk2dbAd9cirDBW4/ifIk9r5ObMA4Pd4ZV0uOZFSg9tbeORPZ/jJ1iuGcb1dbm3GgOOWMbyAtp4U94JXJZHJNSPnSz38hWQYQmugOxIC8byX0GlF1cPta5P5IRTQvnb6QMJ6Wz81I5b657WcQFGNuYUZh3jomqUMqcw0ptBXtdon6FFVKv3eafumrFpM5O2vy4TdTJrgO2OGJsuCJlt5EBQVDAy80Tm81nikcTJu8olQrAOQbDhylTdT5dAvtLMJ/P9qQh1WF0LEQ/dMb+us3wVpqzNNp5hm+fVHEYprv/aU9p0mnOemhqP/VaKetbUQcVtZ0oWou8TkaEtcaX0FzWl2WeI/fl8ncdgNxh1RxNWgbKQLUltXlLKF6tY0QdX7Qj97lnBTWkb0XuvTOXrUpKEg8smWTo2Iz+1ZuwEa2rU2qyWt3wFdqw7nP6mZNeSZcVtTatLgaQ8wZcBh2PMnFrky2BOo9YU7wax8D77yb1Cdiza2i7LhwCvW8mGQG0bVQ40sIj+x37y6iANzBJLNnaWjcJauLgzpQ=
+
+%URL%
+https://github.com/encode/databases
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1725103212
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-sqlalchemy
+
+%OPTDEPENDS%
+python-aiomysql: mysql support
+python-aiopg: postgresql + aiopg support
+python-aiosqlite: sqlite support
+python-asyncpg: postgresql support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-aiosqlite
+python-httpx
+python-pytest
+python-requests
+python-starlette
+

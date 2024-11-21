@@ -1,0 +1,80 @@
+%FILENAME%
+binwalk-2.4.2-1-any.pkg.tar.zst
+
+%NAME%
+binwalk
+
+%BASE%
+binwalk
+
+%VERSION%
+2.4.2-1
+
+%DESC%
+Tool for searching a given binary image for embedded files
+
+%CSIZE%
+259584
+
+%ISIZE%
+1414731
+
+%MD5SUM%
+6b6d9171ec5fbcb06a223849e7470897
+
+%SHA256SUM%
+f6adbeb045401bfe4fa67aa5ce93d7b2bf5e0dcc1974dd9b67c3066750a16205
+
+%PGPSIG%
+iQIzBAABCgAdFiEE4kC1fixGMLp2ji8m/BtUfI2BcsgFAmbdzKkACgkQ/BtUfI2Bcsgmqw//b0ZvfH0nR2HvFqRLAWNlgLQbp9zuFKm0zbqsZ/rfejLy6HEDDkXDaLsKdF793lfELB/7JOIR1lLyHvOpPcSNZ3C6fbKlFmeHi/tPS5BvkWzNecAnMj6G3sSen85DsRtMlSFGOksht0EXKC3G9+RCsgmrFSTRZlaeeqgZCoHuy6KJ4xiMncvuG+LA0TQMa78oxnYpW+c5wUfCdYsTfx2ZFoio1eF5tt1bUnsd4fXRYYnsPMUPnUNbtqH+Senw7+w8X224ewk/vKDathlumzDx44PBnSJaRIyp6W0zW17S5J8o4KovBbClmx6OIrEvc5FMmEjpmYhLOYlqL5T8t036+DsQKqN4NiDYsVpJ/60+d4KixvOsSEUfm8MGENI7mAkSltvjeWiAHv4gsz0DpwLsaDn9yIod4eC/KSlGBNcNnt8woWjuiJ7Zy2bfiV7SpRW4z5ldQ4oDM5GjQSFg80BH1OtNMvdzABWdXDN/8UIoeoiDZUrwLL3pDcsWAKXHbIjlcU8dOiPz8ifHg9oazR+NRHR4tSHvNqCY90yw9KhmyhJL5Z1AfPqwpUP+L8QTk4mhnx3HkBsHb5CihG0l9JmFZv+d1AmN9JhsGezvI/PH6UoE1ffpXCshtgZKNEvYxIEatVacqvFSxszoykVqv7M9mN/mN+0eWhLNChDrlWuSZdk=
+
+%URL%
+https://github.com/OSPG/binwalk
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1725811773
+
+%PACKAGER%
+Levente Polyak <anthraxx@archlinux.org>
+
+%DEPENDS%
+python
+python-setuptools
+
+%OPTDEPENDS%
+python-opengl: binviz module support
+python-capstone: disassembly support
+python-matplotlib: entropy plotting
+python-pyqtgraph: entropy plotting
+python-numpy: entropy module
+python-numba: entropy module
+python-gnupg: pgp plugin
+arj: ARJ decompression support
+cabextract: CAB archive support
+cpio: CPIO archive support
+gzip: GZIP decompression support
+mtd-utils: JFFS filesystem support
+p7zip: ZIP, LZMA and ISO decompression support
+squashfs-tools: squashfs support
+tar: TAR archive support
+bzip2: BZIP2 archive support
+unrar: RAR decompression support
+xz: XZ decompression support
+lhasa: LHA support
+sleuthkit: forensic analysis support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+

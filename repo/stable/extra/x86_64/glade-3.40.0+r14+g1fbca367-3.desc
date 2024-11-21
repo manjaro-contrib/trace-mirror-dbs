@@ -1,0 +1,77 @@
+%FILENAME%
+glade-3.40.0+r14+g1fbca367-3-x86_64.pkg.tar.zst
+
+%NAME%
+glade
+
+%BASE%
+glade
+
+%VERSION%
+3.40.0+r14+g1fbca367-3
+
+%DESC%
+User Interface Builder for GTK+ applications
+
+%GROUPS%
+gnome-extra
+
+%CSIZE%
+2179363
+
+%ISIZE%
+12996563
+
+%MD5SUM%
+9f812e3f3e73dfdf50f2a2a39d0d5304
+
+%SHA256SUM%
+d313231c251e757b0d38f2d7bcce20d682aafbc28fe7b01630db58eb2287c1e4
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmYQOy4ACgkQek52CV2KUuTIcQf/Xw0HU9aC1BetBgZz7rt1tamRkSKb+51plF4hBbgFPmi80EVIaX5dXkrDInGSQ+CH3r+f/hY0XwWXoYkEs5a4mgmwzkAY8I2sc2UPknW+3ga3cgkmU7AFObWAS9MyhYdi1DHe7xk6arQUiEJJ0abpc5ZfiWqHiwKNSUpiXi8LR89q8m3wpF8ZsJsr/di+aQ8cezZm6lFlfivQXZkuGJWcgU81g0RujfEhfRqeAPAMDPVOhFH7thEFaF9rE3WoU1IwTrgC9vs9KBN0M7xrtdJKRpEKAl+/zsIEWA+xlwo/phkqMLLPcJYEoiXZ101X8lLmlo1Ywl7NP0U3ql3VqjTq5Q==
+
+%URL%
+https://glade.gnome.org/
+
+%LICENSE%
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1712339685
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+libgladeui-2.so=13-64
+
+%DEPENDS%
+gtk3
+libxml2
+
+%OPTDEPENDS%
+devhelp: development help
+gjs: gjs module
+python-gobject: python module
+webkit2gtk-4.1: webkit2gtk module
+
+%MAKEDEPENDS%
+gtk-doc
+gobject-introspection
+itstool
+docbook-xsl
+git
+meson
+gjs
+python-gobject
+webkit2gtk-4.1
+python-setuptools
+
+%CHECKDEPENDS%
+xorg-server-xvfb
+

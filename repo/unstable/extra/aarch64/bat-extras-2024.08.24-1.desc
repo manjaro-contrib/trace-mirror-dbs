@@ -1,0 +1,70 @@
+%FILENAME%
+bat-extras-2024.08.24-1-any.pkg.tar.xz
+
+%NAME%
+bat-extras
+
+%BASE%
+bat-extras
+
+%VERSION%
+2024.08.24-1
+
+%DESC%
+Bash scripts that integrate bat with various command line tools
+
+%CSIZE%
+31852
+
+%ISIZE%
+132518
+
+%MD5SUM%
+b86fcca24f62a4db79801889ed6b6e9b
+
+%SHA256SUM%
+5d0d5ffc81f3a0b8c5c56ec8fe0522a6efbf33a0dc55dba7de6844909ece50cf
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmbMHY0ACgkQdxk/FSvb5qYr8A/+IPKP9r5PAfhuVNKOxpWAv+ZDCrvHb0dnnWaC2HkIfQHkpSk1wyyuBvwnT5pTNrxctUtHHHaHwrcv8fzkgSiYf9nzRUMGgEe7TyyB5wMWFestyQiDszstIkIu2pfwC0ERT9yUxi5aPYCg4L2h17xzTERCJxMJqY+S6Cb/vQq1a0u/0vaaj83JMlDL/5tFykRqMb3c/cuvM5oS1xv2+7TtDpj02qJ2tkCZDgFccYrpVNpEptVr7w8s02e8kOvpfz+pQW3DgrNjPA6T+kpMR+kTDINcLtbXRZz24jbvkO4sdlgCGFdLhp+Y8ega4dIzgUSZuqp8/ZCkqat155h0LRbV1Ct54hqDAfTvqNdHANtY4hFDCAGEa00syuh7G7NHYZibM/alwxRI/yITKUYHwa7XNSjIbhwkZFisyVDPdBn1nWhSg/d6xmmLKkzFcDnDTO06UtM9ReFpLF9euZLSugm32Xvo2JPy8tefCrRoCQvgxx+Vuag/xV13sPE6HR7uP9z5C2TkYKCaas0+WRqrdpVcsxUNDL1QM9RBUUH2BUx4500O9UdQhotWoocMEtjIOZXofq46GLnN5rXW33hr+anbIOIBcEslTG+Dm7YyFIAjS7B9uTXF5wGluOlj6g15Ko8rnZjVp9A3o2GJZQ3c8CjZgWfgSDB++M2aeby4K5ozqeI=
+
+%URL%
+https://github.com/eth-p/bat-extras
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1724652911
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+bat
+bash
+git
+ripgrep
+man
+
+%OPTDEPENDS%
+ncurses: optional for batdiff script
+git-delta: optional for batdiff script
+fzf: optional for batman script
+exa: optional for batpipe script
+entr: optional for batwatch script
+prettier: various code formatting for prettybat script
+shfmt: bash formatting for prettybat script
+rustfmt: Rust formatting for prettybat script
+clang: C / C++ / Objective-C formatting for prettybat script
+python-black: Python formatting for prettybat script
+
+%MAKEDEPENDS%
+shfmt
+
+%CHECKDEPENDS%
+fish
+

@@ -1,0 +1,60 @@
+%FILENAME%
+openmp-18.1.8-1-aarch64.pkg.tar.xz
+
+%NAME%
+openmp
+
+%BASE%
+openmp
+
+%VERSION%
+18.1.8-1
+
+%DESC%
+LLVM OpenMP Runtime Library
+
+%CSIZE%
+1164460
+
+%ISIZE%
+28772597
+
+%MD5SUM%
+b10f7f27b33e0c11d076fff4d0f2d5d4
+
+%SHA256SUM%
+cc96290ad644aca10806c314832f9a5aef3448baba2d30480a779426a57d1ee0
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmaIp2IACgkQdxk/FSvb5qbTCw//VegqNApE5E8qlVzTfeLAWsDAntuo9/tiKwTlNhvYMyNarL492nHU3Liin3OrZ8mPIgNPQrrMUph40D+UhsxenJPLyRkU/9h5lCZtfa+mK7zMAsOIRQbdMAYrggG2U0UjmusoxQmI2YsIBx44uGs0ER/YOEp0a3pjhRdQyXhMxxjLiRPYNpVHHr/WsJJPZ9uzE9IOBKfiJZZfo1qTanyDEBlX2HP9XkVXKfSdOSPhiYoz33Xj8FTgvqWd1E8TsaRoL2v2XjQebJFFESdohN5WIJl2aWk3hOdmKSwW+rGcwReGtiKhW1djOIWDHPJ5LfNkTFNJ0P0LOL1da7tKsO1h2mH1Z01Q39XVT4Y1NfQ0i1rrGlZqbW+xzhXLdWhe0zfz8OZk9g6+deq9Zn0lR2CG1Nxm+JAySMXvLgp/+g8h9mCliAbpAJnvT/CjufnCwYvT7nHq3jdMwunKReToXueFOhhmo15trt2UbP5aLG52noZ7l5DtsDugIrnXZ4d4TxHWaXB5i7iPMdeJnoDupen9biQ7sDKNwPT8sgF3NtuKcY3WcJtJvp0nYWymWZV9HIY1BiM07MIgxe/lgIpXcaTKx0B9IDlX0VxDfFAJRZmE+a6UAp+J63i5ePUoxFpshaer/3l66BH+Ietzof3Bd8nvdjJLjChwD5gQvtiJV/Y1Un4=
+
+%URL%
+https://openmp.llvm.org/
+
+%LICENSE%
+custom:Apache 2.0 with LLVM Exception
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1720231475
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+llvm-libs
+libelf
+libffi
+
+%OPTDEPENDS%
+cuda: offloading to NVIDIA GPUs
+hsa-rocr: offloading to AMD GPUs
+
+%MAKEDEPENDS%
+llvm
+clang
+cmake
+ninja
+

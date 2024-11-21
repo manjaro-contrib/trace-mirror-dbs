@@ -1,0 +1,77 @@
+%FILENAME%
+lxd-6.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+lxd
+
+%BASE%
+lxd
+
+%VERSION%
+6.1-1
+
+%DESC%
+Daemon based on liblxc offering a REST API to manage containers
+
+%CSIZE%
+35099380
+
+%ISIZE%
+169258560
+
+%MD5SUM%
+299de8605f1287697718fe11f839b40a
+
+%SHA256SUM%
+3d7084fbf3c25a8c936bd06c2c36fb4512032c36865bfafed8fedd216a4ed06a
+
+%PGPSIG%
+iQJLBAABCgA1FiEEwQA0ZnZjToDJQPuenAL/QZ/svhYFAmaRjskXHGZveGJvcm9uQGFyY2hsaW51eC5vcmcACgkQnAL/QZ/svhYBGw//ZhDJ5ur28osJJEm3okShWe6wQC0HNLoFXMFdag7FrtItUXS10mt7Ports4oT8PgE0R7UUfLFB1k7rXj6pBhmbXm7keHOa17mTFM8rgRq2bMEIUciKwuVsN18Afs1Df8IaYq5uDpPS4SXXXEOXeWbfC9OvGqTGtCiJMWA3/ARld8CCAQUNO4uL8AV0lBxWX9BHdDBLnDl1swEp0TRWGPiFHxhfm9NF+y8g1cc3iaMDYLlWZ9Zv7TzeuxnA4ibaeRv/7rMO0ChfyPC/xe/Qpa18HGAxzqeFTOZ0y45D3tvuYNQW5xvZ8B6+8qdQLqEZpLhopkqG/pc4rrH0xIHhA4VEF6chh7fa3avQwEo7rhiupssqoSB/LjmMEHq4wCj4uPyODUCYMjZFsC/VWRwePxuW8Cc1az1+uXodo5Uwrl81eYWAqzaVlMzW3O5zVBW5iE5Xknu15MuIr7DIClLgm5klpW9pC6Dbsr1GIYqsh3JXqVYRRc/cwVQesP3/+/hYroZ0pXCgyS6hyu3/zmzNTIZgvQmV4kVwCya1RH6lB+zVRx8EBRHrZ2iNJGXIknJUoUjQ23bAz7e6ArRYSp2VA8jQdzaD8+7ogCul1DEUc8DUmcz5jBkgn6THIRYEh9b1w8PcJo74dKKWB5pBpmuh6WfukCcF77iBD2Rxh9gJ7RxoYg=
+
+%URL%
+https://ubuntu.com/lxd
+
+%LICENSE%
+AGPL-3.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1720815168
+
+%PACKAGER%
+Morten Linderud <foxboron@archlinux.org>
+
+%DEPENDS%
+lxc
+lxcfs
+squashfs-tools
+dnsmasq
+dqlite
+libuv
+ebtables
+raft
+sqlite
+libcap
+acl
+
+%OPTDEPENDS%
+lvm2: lvm2 support
+thin-provisioning-tools: thin provisioning support
+btrfs-progs: btrfs storage driver support
+minio: storage buckets support
+cdrtools: VM support
+qemu: VM support
+edk2-ovmf: VM support
+systemd-libs: unix device hotplug support
+apparmor: apparmor support
+
+%MAKEDEPENDS%
+go
+git
+tcl
+apparmor
+libseccomp
+systemd
+

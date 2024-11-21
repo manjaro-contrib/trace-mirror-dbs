@@ -1,0 +1,76 @@
+%FILENAME%
+lxd-6.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+lxd
+
+%BASE%
+lxd
+
+%VERSION%
+6.1-2
+
+%DESC%
+Daemon based on liblxc offering a REST API to manage containers
+
+%CSIZE%
+35949272
+
+%ISIZE%
+174447656
+
+%MD5SUM%
+1e8b28401ad8e16aef43d78490c9d380
+
+%SHA256SUM%
+92df7044dacfdc0b23f80b00425e77d236d440043a8bfd54bab9bd2c8fce6b3c
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCZwDsmQAKCRDglZ/qi1UFOfehAP9N9EmlzVwLJh9oD8K7XAJ2i1AHpeLc7cgtlddSohRckAEAiCkb0L1aU7EL0KiGmD7BYnE2s6MYSNmke12nTe9irwA=
+
+%URL%
+https://ubuntu.com/lxd
+
+%LICENSE%
+AGPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1728112562
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+lxc
+lxcfs
+squashfs-tools
+dnsmasq
+dqlite
+libuv
+ebtables
+sqlite
+libcap
+acl
+
+%OPTDEPENDS%
+lvm2: lvm2 support
+thin-provisioning-tools: thin provisioning support
+btrfs-progs: btrfs storage driver support
+minio: storage buckets support
+cdrtools: VM support
+qemu: VM support
+edk2-ovmf: VM support
+systemd-libs: unix device hotplug support
+apparmor: apparmor support
+
+%MAKEDEPENDS%
+go
+git
+tcl
+apparmor
+libseccomp
+systemd
+

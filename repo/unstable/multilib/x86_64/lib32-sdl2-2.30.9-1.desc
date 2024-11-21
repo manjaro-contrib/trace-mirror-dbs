@@ -1,0 +1,76 @@
+%FILENAME%
+lib32-sdl2-2.30.9-1-x86_64.pkg.tar.zst
+
+%NAME%
+lib32-sdl2
+
+%BASE%
+lib32-sdl2
+
+%VERSION%
+2.30.9-1
+
+%DESC%
+A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard
+
+%CSIZE%
+709229
+
+%ISIZE%
+2228840
+
+%MD5SUM%
+6c7fbc2db1b54a4ebf4fb13ec020fdbb
+
+%SHA256SUM%
+55422bf61a9f85a2b15bf6c28b6c346de272c4b090f560c692cac6b51267ab2e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmcnuawACgkQOeS4d+YuuRUANA/8CwZiCZ8irAjcEWPY9hHtO5X2uUP8DxqrMHOG15H0r8IigPCp62EjJgaHmnN9Hk361/KfjV+sQRhlwPYW1S5Chq5JtRQGn+01IansxfulrcWW1jh3jMDtghGXa3AKSDX2zWL9swimZSFpWGT18Fo8hyTULho/VPASmdoZsIq+GNJDjQ/05EE1213aDlbtHsf0wF2swYrovGZQfj80I5Fy2hN7VpB50XJgcixeJ81En4rh9aoV6mWoiMpurTvHUlm6+Ym0HpsWQsQdZdYzGkm3Wmub0/SWcDukgHcksLVNHXeAhjVOMqJuf8Rh8SNQ1FXS9U2VJwwf82DEGM/B6LnYjVKHTldksKCNU360+J6ZtlXUwsffx0xU0ryPTW6FyhA3Ea+hPaGl1US9RTuTXxdVJDX2rPmYLxlXynnln/6Wo+PdDIVIT4TjQK2mJ17HjxxawyBoA08xFeA6DkQn3onDOywufKKHYZxPU50sMo2oeoK/72gzHLljXIyDM6C0bXHAVqQGrX2XEx6DqbpkYgT89sVVJP9hTxMyulYyAhCwRmLNDuk7scdeIabqA09dboiaoDLgiofgbgEffdvkIMgyHCCcRrgW9iI9FJM6tCmvvNxFCBFZWgF0rhXzhx6Enx6sGWHkCDcvEPwcgoYGRhlIrC36bVXKtO0BHL7eoV5zACM=
+
+%URL%
+https://www.libsdl.org
+
+%LICENSE%
+Zlib
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1730656602
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%DEPENDS%
+lib32-glibc
+lib32-libxext
+lib32-libxrender
+lib32-libx11
+lib32-libgl
+lib32-libxcursor
+sdl2
+
+%OPTDEPENDS%
+lib32-alsa-lib: ALSA audio driver
+lib32-jack: JACK audio driver
+lib32-libpulse: PulseAudio audio driver
+lib32-pipewire: PipeWire audio driver
+
+%MAKEDEPENDS%
+cmake
+git
+jack
+lib32-alsa-lib
+lib32-libpulse
+lib32-libxinerama
+lib32-libxkbcommon
+lib32-libxrandr
+lib32-libxss
+lib32-mesa
+lib32-pipewire
+lib32-wayland
+ninja
+wayland-protocols
+

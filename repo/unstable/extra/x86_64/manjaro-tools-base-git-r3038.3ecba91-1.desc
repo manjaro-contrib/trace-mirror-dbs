@@ -1,0 +1,71 @@
+%FILENAME%
+manjaro-tools-base-git-r3038.3ecba91-1-any.pkg.tar.zst
+
+%NAME%
+manjaro-tools-base-git
+
+%BASE%
+manjaro-tools-git
+
+%VERSION%
+r3038.3ecba91-1
+
+%DESC%
+Development tools for Manjaro Linux (base tools)
+
+%GROUPS%
+manjaro-tools
+
+%CSIZE%
+23050
+
+%ISIZE%
+68491
+
+%MD5SUM%
+01b2671aefb79a54b1af0f4c89a67360
+
+%SHA256SUM%
+c684793c462c18ebad1972407cc5455d70a81d6b519370cbeb337015540c7308
+
+%PGPSIG%
+iQFGBAABCAAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAma8JNcSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+5gYIAIUUPY3fVpZ9aDmKfJOJCSO5d0/Jfx0GEU7BLb3oGwWJBrTBiyyVcSLdZO+YoHcw93Ui+3jYtjV1ZAK4kG44opDo1tp/bFkfPLNq5jhh4DobNdr7zNu2Jdx8gZnKlN0ArtGqLMgIlcdpBfZzkbF6vnLXQL3wJ36pfsVll4rDTNDaG0gM7a6FnoTcbGSprYcpcVsgnJvSnWvyAGjvzNknRjt0WnrZLHnAeaoz3GuWhCBsE+D8nYZo7ceVvQ12pO+BkZdasu9VfEeRaI0gCNga/gYNu1hBK2stAT5IoKvz8wKBuWyaML8qDee3uCaPLNWG/+OZsl1pLkOM5mp367x8yBg=
+
+%URL%
+https://gitlab.manjaro.org/tools/development-tools/manjaro-tools
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1723605439
+
+%PACKAGER%
+Philip Mueller <philm@manjaro.org>
+
+%CONFLICTS%
+manjaro-tools-base
+
+%PROVIDES%
+manjaro-tools-base=0.15.15dev
+
+%DEPENDS%
+gnupg
+openssh
+os-prober
+pacman-mirrors
+rsync
+
+%OPTDEPENDS%
+manjaro-tools-pkg-git: Manjaro Linux package tools
+manjaro-tools-iso-git: Manjaro Linux iso tools
+manjaro-tools-yaml-git: Manjaro Linux yaml tools
+haveged: for faster keygen tasks
+
+%MAKEDEPENDS%
+git
+docbook2x
+
