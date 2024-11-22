@@ -1,0 +1,83 @@
+%FILENAME%
+easyeffects-7.2.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+easyeffects
+
+%BASE%
+easyeffects
+
+%VERSION%
+7.2.0-1
+
+%DESC%
+Audio Effects for Pipewire applications
+
+%CSIZE%
+1171492
+
+%ISIZE%
+9478472
+
+%MD5SUM%
+0a640e12e488c9d24d3a4ca0ba59e91f
+
+%SHA256SUM%
+931eb04d41965822294133aeb5079bdc49dcc650a191edc283e0f7161a983870
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmc91HUACgkQdxk/FSvb5qZFEw//ZHy7c+cDIw7uz4BAtgagGkJmCxMJKL6qfe9+bET+ZJouU9ZMeIEehrTVhHkxD1BZ38mz4iHEGlIHcGF4sSV0N5HJ6VYKQur+T2YTh0MQHQi3vUGVSVlJc9xh3djwSuiSKKWuP43L1xfpBixwv2/Gsr0tTdSoK74xg7LkdrgBCwEk1FLAs7KgJWQ53MVxNpjZR9G72Ep8U7p5wsQ46TKulzeZa6tPRbg4trhoCM5R1zqwFGDTzgRe0BSQZ2bgXKV8iP9tDGD9Cjhwh+1ZOXxwwWv6IQHJT8bLV0E8dgdpQL/gWn9OQIpeUBjfR87ZyE3mHmj9CmO4MG6/nD235CEm6hsvnOznA35dTgTw/icWLBuDJD03n3Uo/EpAQY5uQFc3NVuH5/w1wtrwBEnvrr9QjjLNhoCtnzti4W34NU/agZebXWKcE4gqePFSCqinLo+derA2ESTy0yuqdfKyjOqxhNPk4lyd5aIleVbBDUGAlWqQ56aenNY1Wg/VMPw6pB5kKkbQtaDUpF/eVToL6JXyOHdsx1TEOHUpSiBoOYbo5YF/jX4hqMHkU3jEJdI7zwEHA/Y0Er6n3HFD61IJFS7Z9mx1vjXWhEZA9JQv0amsy/hb18NKVy6LLmGkpcc1bdaaWpu2Lr0AIxFLc5kKpaQ15UstvsVMEoQFmmU7dZSdUPM=
+
+%URL%
+https://github.com/wwmm/easyeffects
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1732105169
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%REPLACES%
+pulseeffects
+
+%DEPENDS%
+fftw
+libfmt.so=11-64
+gsl
+gtk4
+ladspa
+libadwaita-1.so=0-64
+libbs2b.so=0-64
+libebur128
+libsamplerate.so=0-64
+libsigc-3.0.so=0-64
+libsndfile.so=1-64
+liblilv-0.so=0-64
+pipewire
+rnnoise
+soundtouch
+speexdsp
+tbb
+zita-convolver
+
+%OPTDEPENDS%
+calf: limiter, exciter, bass enhancer and others
+lsp-plugins-lv2: equalizer, compressor, delay, loudness
+zam-plugins-lv2: maximizer
+mda.lv2: bass loudness plugin
+yelp: in-app help
+
+%MAKEDEPENDS%
+appstream-glib
+itstool
+meson
+nlohmann-json
+speex
+lv2
+

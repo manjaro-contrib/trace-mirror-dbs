@@ -1,0 +1,89 @@
+%FILENAME%
+fastfetch-2.30.1-1-aarch64.pkg.tar.xz
+
+%NAME%
+fastfetch
+
+%BASE%
+fastfetch
+
+%VERSION%
+2.30.1-1
+
+%DESC%
+A feature-rich and performance oriented neofetch like system information tool
+
+%CSIZE%
+555784
+
+%ISIZE%
+2986267
+
+%MD5SUM%
+79e0d82b8fbdf05ec3cf7cc2db9ebc73
+
+%SHA256SUM%
+97b4cc5efa57e252e6ac31bcc32cb852aa6695d7b39f88f2abc48793ee807161
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmc7Be0ACgkQdxk/FSvb5qbD7A//RkZ+m5nP1bmyvvX4u9dH9azxQfXXczyM59ZrbZzGyepRIGRfpWcUPtHK30MKpwcaJML8E3I2wLLnkd708hozJQWEcXKZOebKnD4YEkbDH+b2+H9QPY8SkQxETMU7dfmWwr1qwID3PChaEJwQ2mN2m2iDjmHasg8r8XD1pbRKOixoldFPWvyGl9Jtys/G80bYN1HhOZxvrV/bqK70yd3j3slN2rKbvP4obPmMes6uRo+plLGK+YH/+raoPcfQDOgMXh4ak3V8zRz5QHeE96Ej7tjlgDiPwiGR6g5AnUEnBiC+u8Sw1kiXG32qrhfH36AnSXyr1Ukk2CzSrababXxQIcLT08p8RWVbU59tzFdz/fJ+TC4rW99XzUvHA69RlGkIvQbLGvy/ewTVw81KfoLVdGAEGAUxiq5VP7VbB+s6RTUPi+PPkefhT3APJ4UKjZJa7dElJj1N6B1CnwTOtaj3iqiz4Wxxkpl4EygJ4pJ8OqwtN0A0HDaXnAvrXJsYDwybucU99GMPyOwnzjQ9UysCbM5jN7NYpBMkf0Ap3Ba/fjYJVRYbQSP4cROmAPCvtNfuBo29kkvKPlhsCdQH3mETLLyKWccqKcoso309GHg3AFNrPzNCmU5K8ZJ9onO1/cpDX4tKBgqCY3Rpy7K86ZghRNv/rCvfom47iHm6QOCsyTs=
+
+%URL%
+https://github.com/fastfetch-cli/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1731921310
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+glibc
+yyjson
+
+%OPTDEPENDS%
+chafa: Image output as ascii art
+dbus: Bluetooth, Player & Media detection
+dconf: Needed for values that are only stored in DConf + Fallback for GSettings
+ddcutil: Brightness detection of external displays
+directx-headers: GPU detection in WSL
+glib2: Output for values that are only stored in GSettings
+hwdata: GPU output
+imagemagick: Image output using sixel or kitty graphics protocol
+libdrm: Displays detection
+libelf: st term font detection and fast path of systemd version detection
+libpulse: Sound detection
+libxrandr: Multi monitor support
+mesa: Needed by the OpenGL module for gl context creation.
+ocl-icd: OpenCL module
+python: Needed for zsh and fish completions
+vulkan-icd-loader: Vulkan module & fallback for GPU output
+xfconf: Needed for XFWM theme and XFCE Terminal font
+zlib: Faster image output when using kitty graphics protocol
+
+%MAKEDEPENDS%
+chafa
+cmake
+dbus
+dconf
+ddcutil
+directx-headers
+imagemagick
+libpulse
+libxcb
+libxrandr
+mesa
+ocl-icd
+opencl-headers
+vulkan-headers
+vulkan-icd-loader
+wayland
+xfconf
+zlib
+
