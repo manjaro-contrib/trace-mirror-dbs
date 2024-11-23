@@ -1,0 +1,67 @@
+%FILENAME%
+gnucash-5.9-1-x86_64.pkg.tar.zst
+
+%NAME%
+gnucash
+
+%BASE%
+gnucash
+
+%VERSION%
+5.9-1
+
+%DESC%
+Personal and small-business financial-accounting application
+
+%CSIZE%
+11853927
+
+%ISIZE%
+77419258
+
+%SHA256SUM%
+24f4382a1bc46aa89389ab2f0c89ea69a56d466b4ab1ab7c83c190fdcd558795
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmdCJ7YACgkQek52CV2KUuTt6wf/YtErpPHs86oSG5mMNmZRKcoJjpxHgjjubv6eOeSYeCqfHR4NKRt6wKD6ks+yZ6aBTnfyDCP2WclnV8LqSrjiTEAlkPuYzqj1bUmiys2JJLrDjg/d4aZbiPu0hotM4Y52SzuGjsq+xup+27TUtMEY4BEXE3dtli9jwdpnb3yxs1pYULuabXgZ2tJsi6oDtguHR6cf+0leczJOb9863Tu8PH+mGBzLFteJBXX8FhQ6AUSSmlgCYwhX/xHkb66GhRs1HSyYQxG9jrZ/HujOqJyrezuTCXMNaKOLn7iyZW1Hv0SCZurSwrMNhsESCfkrzjCXX690quCoxdCU2yHQh223tw==
+
+%URL%
+https://gnucash.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732388331
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+aqbanking
+gwenhywfar
+boost-libs
+guile
+libdbi
+webkit2gtk
+libofx
+
+%OPTDEPENDS%
+gnucash-docs: documentation
+libdbi-drivers: open and save data into SQL database
+perl-date-manip: stock information lookups
+perl-finance-quote: stock information lookups
+
+%MAKEDEPENDS%
+boost
+cmake
+gtest
+libdbi-drivers
+mariadb-libs
+postgresql-libs
+swig
+python
+
