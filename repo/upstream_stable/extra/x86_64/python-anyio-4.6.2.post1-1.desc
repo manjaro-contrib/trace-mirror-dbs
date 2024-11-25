@@ -1,0 +1,70 @@
+%FILENAME%
+python-anyio-4.6.2.post1-1-any.pkg.tar.zst
+
+%NAME%
+python-anyio
+
+%BASE%
+python-anyio
+
+%VERSION%
+4.6.2.post1-1
+
+%DESC%
+High level compatibility layer for multiple asynchronous event loop implementations
+
+%CSIZE%
+208920
+
+%ISIZE%
+1367265
+
+%SHA256SUM%
+c23c3a81d85f4cd39f503a174454b6fbae7646e9801cdd3b2fca3588ae7e8558
+
+%PGPSIG%
+iHUEABYKAB0WIQQNmeQ7UMKtIbreRjJJPeIcgk6VQQUCZ0GXMgAKCRBJPeIcgk6VQSwvAQDqQQC+H04VnONqqWgYx0vWcHG2IdwdyMXrG5TdoQmyAQEAgmUdMmxpv0YdaW+DMKnbYuAuiuzzVHvCiMhm46z33gA=
+
+%URL%
+https://github.com/agronholm/anyio
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732351591
+
+%PACKAGER%
+Chih-Hsuan Yen <yan12125@archlinux.org>
+
+%DEPENDS%
+python
+python-idna
+python-sniffio
+
+%OPTDEPENDS%
+python-trio: trio backend
+python-outcome: trio backend
+python-uvloop: use uvloop for asyncio backend
+python-pytest: pytest plugin
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+python-uvloop
+python-trio
+
+%CHECKDEPENDS%
+python-pytest
+python-trustme
+python-hypothesis
+python-pytest-mock
+python-psutil
+python-truststore
+
