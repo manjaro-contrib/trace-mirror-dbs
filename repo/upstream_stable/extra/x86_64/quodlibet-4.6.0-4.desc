@@ -1,0 +1,93 @@
+%FILENAME%
+quodlibet-4.6.0-4-any.pkg.tar.zst
+
+%NAME%
+quodlibet
+
+%BASE%
+quodlibet
+
+%VERSION%
+4.6.0-4
+
+%DESC%
+Music player and music library manager
+
+%CSIZE%
+2810375
+
+%ISIZE%
+15936451
+
+%SHA256SUM%
+15270a2b45e6a4249bc01ef7994e8e1f921ad8bf9a099357329f8d8a325090f9
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdF4BwACgkQwGCGM3xQdz5+AAgArV1+BfKjIRq39bAUr0GfwFvfgfeVmQKfJ1c5Kkl16qMByvkSRtpP+Rb/lqlUtyFroxgFECXbfsF/YIMBov6M1uqKqcq6C1cs1dXo/mkXfGv8r0tXK5qvYTsCqFBmQxsFpqXetITWnPD8hZpyRAkiQY0cv5VpIQKr31KJ7BRpmX4iDX/blvDY2pMzSfRwldM1KAvgog9f24aqHkZQl0EW1Q2/wWLhDzTrJF7JCHUxkKBgAZrGmrCHyjGEGVBYEA6CQ7f0sTbT/mq04Mqe//8bI1bVx2cIUxuQX8+N9yrxNwq79ykr3/Vt3zz9GQcZhBwzfOYz6uf1WRmQeNTE23JxWg==
+
+%URL%
+https://quodlibet.readthedocs.io/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732632413
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+dbus-python
+gdk-pixbuf2
+gobject-introspection-runtime
+gstreamer
+gst-plugins-base
+gst-plugins-base-libs
+gtk3
+hicolor-icon-theme
+libsoup3
+pango
+python
+python-cairo
+python-feedparser
+python-gobject
+python-mutagen
+python-requests
+
+%OPTDEPENDS%
+gst-libav: Extra media codecs for the GStreamer backend
+gst-plugins-bad: Extra media codecs for the GStreamer backend; Audio Pitch / Speed, Crossfeed, Submit Acoustic Fingerprints plugins
+gst-plugins-good: Extra media codecs, PulseAudio support for the GStreamer backend; Audio Compressor, Karaoke, Replay Gain plugins
+gst-plugins-ugly: Extra media codecs for the GStreamer backend
+gtksourceview3: Undo and redo support in multiline text fields
+kakasi: Kana/Kanji Simple Inverter plugin
+libappindicator-gtk3: Appindicator support in the Tray Icon plugin
+libkeybinder3: Multimedia key support under non Gnome setups
+libmodplug: MOD support
+python-musicbrainzngs: MusicBrainz Lookup, MusicBrainz Sync plugins
+python-paho-mqtt: MQTT Publisher plugin
+python-pyinotify: Automatic Library Update plugin
+rygel: UPnP AV Media Server plugin
+webkit2gtk: Web Lyrics plugin
+xine-lib: Alternative audio backend
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-sphinx_rtd_theme
+python-wheel
+
+%CHECKDEPENDS%
+gst-plugins-bad
+gst-plugins-good
+gst-plugins-ugly
+python-pytest
+python-pyvirtualdisplay
+xine-lib
+xorg-server-xvfb
+
