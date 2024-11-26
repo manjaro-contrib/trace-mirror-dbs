@@ -1,0 +1,20 @@
+%DEPENDS%
+gcc-libs
+glibc
+pciutils
+psmisc
+alsa-lib
+libasound.so=2-64
+libatopology.so=2-64
+ncurses
+libformw.so=6-64
+libmenuw.so=6-64
+libncursesw.so=6-64
+libpanelw.so=6-64
+libsamplerate
+libsamplerate.so=0-64
+
+%OPTDEPENDS%
+bash: for alsa-info.sh and alsabat-test.sh
+fftw: for alsabat
+
