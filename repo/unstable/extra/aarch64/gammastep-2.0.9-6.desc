@@ -1,0 +1,71 @@
+%FILENAME%
+gammastep-2.0.9-6-aarch64.pkg.tar.xz
+
+%NAME%
+gammastep
+
+%BASE%
+gammastep
+
+%VERSION%
+2.0.9-6
+
+%DESC%
+Adjust the color temperature of your screen according to your surroundings.
+
+%CSIZE%
+130164
+
+%ISIZE%
+863088
+
+%MD5SUM%
+a8289d1f2f2ae36f0063e9e4f9853380
+
+%SHA256SUM%
+d050ce9dea6c7c0cfc16c5d1b354e12bd2343ba36b091e225058035851858946
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmdFuOEACgkQdxk/FSvb5qYBOQ/+P4XRYML3pIXhbkHdbRPXc/DD1aOQfTKO3W9S77jQ84RD5gxUo+GKS6Qz2PTAOQ3RgqMNISk2lntLQGcrV0+Oa88XTBFYoZ/oatFITcoXoAxMfGOsPWVrzYCbdNiZ9nPKXn/hSlRN2chkRt8ciSIUsn2J2yKF/w788PDO2jcb7NUEpYLvZZQRgl7RPFRlfa3dq+D90Fxa204sWXSRpytha5s/vAtd4vWTcC2lrEjJuNIVkKrcJHqY4yekq3sM6gbnlpPDk5lsaawDlIip2amRM72eyNGpmbV650vkx1ZvzRYGwVhgw+nQHeH89VstJ2wmz1IJ6SGt04YdtQrqycnESXqDIaVifMERdBKgucVsFEGDN+LH8GHfy25P9tdwK9M7mncQh6+ow1SAzo/qNIHviZ5SRrPrq2Gq9GPECAmZgUb/BRJigyH1sVU8CFYQ/cr1+FkExG6iV5oZtqDIoTUY5WEwangAumDEmP9p5lTIVCMK9x/dT1WuChbuBPdvwbyymku/XxIX/gGMJRc4q5Z9S82gfJWGAlUD6eFRz7JFqfIAmBZZh2WI06lncTa6Aexc8F70Do0s/xwYx6FxJz/sMGp1oK2F6kpwAtZy0Czv1FZ7LtamBlPtFOdyRTDP5H7c2hvCeUzoJn1fcgTdTch/M//dHv1+OyXpGwX/S/4Jp1Y=
+
+%URL%
+https://gitlab.com/chinstrap/gammastep
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1732622519
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+glibc
+hicolor-icon-theme
+libdrm
+libx11
+libxcb
+libxxf86vm
+wayland
+glib2
+libgio-2.0.so=0-64
+libgobject-2.0.so=0-64
+libglib-2.0.so=0-64
+
+%OPTDEPENDS%
+geoclue: for automatic location based on GeoClue2
+python-gobject: for gammastep-indicator
+python-xdg: for gammastep-indicator
+gtk3: for gammastep-indicator
+libappindicator-gtk3: for gammastep-indicator
+
+%MAKEDEPENDS%
+glib2
+intltool
+python
+systemd
+
