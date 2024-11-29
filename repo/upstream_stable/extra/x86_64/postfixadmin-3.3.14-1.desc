@@ -1,0 +1,59 @@
+%FILENAME%
+postfixadmin-3.3.14-1-any.pkg.tar.zst
+
+%NAME%
+postfixadmin
+
+%BASE%
+postfixadmin
+
+%VERSION%
+3.3.14-1
+
+%DESC%
+Web based interface to manage Postfix mailboxes, virtual domains and aliases
+
+%CSIZE%
+867453
+
+%ISIZE%
+5404498
+
+%SHA256SUM%
+1bb9d61d7f590a3b3cecd931507980419836be4807e71b23ffeac175c55c6f11
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZz+1pgAKCRCbeih9mi7GCGRxAQDH9ZLflQK6Gn5jSguFiHNPIFzDHePDAj3P+PIFMyVThwEAgc+SRDrYwGgZvHDnbQApHnB0IrK9mDObNfpu+0IqbwQ=
+
+%URL%
+https://postfixadmin.sourceforge.io/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732228420
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+php
+
+%OPTDEPENDS%
+apache: run in webserver
+dovecot: interface local IMAP/POP3 server
+mariadb: use local MySQL server
+perl: for example scripts
+php-fpm: run in fastCGI process manager
+php-imap: use IMAP
+php-sqlite: use SQLite database backend
+php-pgsql: use PostgreSQL database backend
+postfix: interface local mail server
+postgresql: use local PostgreSQL server
+python: for example scripts
+uwsgi-plugin-php: run as application container
+
