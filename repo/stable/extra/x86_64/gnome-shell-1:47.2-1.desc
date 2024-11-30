@@ -1,0 +1,117 @@
+%FILENAME%
+gnome-shell-1:47.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+gnome-shell
+
+%BASE%
+gnome-shell
+
+%VERSION%
+1:47.2-1
+
+%DESC%
+Next generation desktop shell
+
+%GROUPS%
+gnome
+
+%CSIZE%
+2957931
+
+%ISIZE%
+14291155
+
+%MD5SUM%
+783852b5f6b311e657bfb3fc6ef098e2
+
+%SHA256SUM%
+452c0d775db9b42e7cd6864480fdd58b3a68e1c1a64d526fdf39e63e52989a56
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmdExpcACgkQFQwgB0PtRti6LwgA1lJGa2YD9F/OOIGhO302oPrMaq2wkcbiEM38MkFLQAsk3jtILEYe1Lf+ckg0r3dPrqCmywswAPjsfbNGMnE/xUgaOzv0bfAqBTNkSJJkTD8uG5HdlXJNsue1dLKbl500WGM7NFeq2zJzyjaM62P8UDY2d1doj+4TjKyvP0ZX/iB16/CCl6LDZ3mkxZsATZvkEXOiygAbyeYiJJRaJKkyeh9y/0yEwY8U3r2vLnEf45jFVuWQJ7f9x3HgWXsK0T8RdKEMt8HW30jPWxgvUpngu3GcYjdmwuVqqjJ6bFOqfpcWA41OCQivn6oTFHQiOks5eePpE2PygoCMOv8RMi2vRg==
+
+%URL%
+https://gitlab.gnome.org/GNOME/gnome-shell
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732560292
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%DEPENDS%
+accountsservice
+at-spi2-core
+bash
+cairo
+dconf
+gcc-libs
+gcr-4
+gdk-pixbuf2
+gjs
+glib2
+glibc
+gnome-autoar
+gnome-desktop-4
+gnome-session
+gnome-settings-daemon
+graphene
+gsettings-desktop-schemas
+gtk4
+hicolor-icon-theme
+json-glib
+libadwaita
+libcanberra-pulse
+libgdm
+libgirepository
+libglvnd
+libgweather-4
+libibus
+libical
+libnm
+libnma-gtk4
+libpipewire
+libpulse
+libsecret
+libsoup3
+libx11
+libxfixes
+mutter
+pango
+polkit
+systemd-libs
+unzip
+upower
+webkitgtk-6.0
+libmutter-15.so=0-64
+
+%OPTDEPENDS%
+evolution-data-server: Evolution calendar integration
+gnome-bluetooth-3.0: Bluetooth support
+gnome-control-center: System settings
+gnome-disk-utility: Mount with keyfiles
+gst-plugin-pipewire: Screen recording
+gst-plugins-good: Screen recording
+power-profiles-daemon: Power profile switching
+python-gobject: gnome-shell-test-tool performance tester
+python-simplejson: gnome-shell-test-tool performance tester
+switcheroo-control: Multi-GPU support
+
+%MAKEDEPENDS%
+bash-completion
+evolution-data-server
+git
+glib2-devel
+gnome-keybindings
+gobject-introspection
+meson
+python-docutils
+sassc
+
