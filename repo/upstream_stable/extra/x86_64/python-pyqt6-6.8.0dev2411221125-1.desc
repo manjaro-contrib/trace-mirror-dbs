@@ -1,0 +1,90 @@
+%FILENAME%
+python-pyqt6-6.8.0dev2411221125-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-pyqt6
+
+%BASE%
+pyqt6
+
+%VERSION%
+6.8.0dev2411221125-1
+
+%DESC%
+A set of Python bindings for the Qt6 toolkit
+
+%GROUPS%
+pyqt6
+
+%CSIZE%
+3976212
+
+%ISIZE%
+25809062
+
+%SHA256SUM%
+8ae5fdca84b89e556c493401984949429ac50e2683b677d2614cc3d1ab97ea74
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmdN/R8ACgkQek52CV2KUuRENQgAkoktSzE33mNEkWdHBqV/S+lneuWByVwGXxv+pI8NBusAdR4LGSDbrAPcyB2xRCecszrDNy8VB6NiQCIItzkjnV+ZaFG9OT8nIz0x43ab9IRGN5bzEG2ZQlO/0BftM+xZulJHmDaVgh5qL+FsPfXPPkOwjGWNm+G1FfcYDHyOuBAoSpc5wm7ILepj29RZEje67BSCoZ6KnHyxaX8SD09IM8M+BR1lXGP1DgXcqy45+YaziIHHQcwio0NQn282FQGWhFK/+i9WAUpwkwrwYmJEfzds9Jwgn05T3xzIVPInlHngq2rZjS5MWvu9tB+8Zq5YNDoF42T6l3OS3wYor3iVUA==
+
+%URL%
+https://riverbankcomputing.com/software/pyqt/intro
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1733161826
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+qt6-python-bindings
+
+%DEPENDS%
+qt6-base
+python-pyqt6-sip
+
+%OPTDEPENDS%
+qt6-tools: QtHelp, QtDesigner bindings
+qt6-svg: QtSvg bindings
+qt6-declarative: QtQml bindings, qmlplugin
+qt6-quick3d: QtQuick3D bindings
+qt6-connectivity: QtBluetooth, QtNfc bindings
+qt6-multimedia: QtMultimedia, QtSpatialAudio bindings
+qt6-positioning: QtPositioning bindings
+qt6-remoteobjects: QtRemoteObjects bindings
+qt6-sensors: QtSensors bindings
+qt6-serialport: QtSerialPort bindings
+qt6-speech: QtTextToSpeech bindings
+qt6-webchannel: QtWebChannel bindings
+qt6-webengine: QtPdf bindings
+qt6-websockets: QtWebSockets bindings
+dbus-python: for python-dbus mainloop support
+
+%MAKEDEPENDS%
+sip
+pyqt-builder
+python-opengl
+dbus-python
+qt6-tools
+qt6-svg
+qt6-declarative
+qt6-quick3d
+qt6-shadertools
+qt6-multimedia
+qt6-remoteobjects
+qt6-positioning
+qt6-sensors
+qt6-serialport
+qt6-webchannel
+qt6-websockets
+qt6-connectivity
+qt6-speech
+qt6-webengine
+
