@@ -1,29 +1,29 @@
 %FILENAME%
-gpgme-1.24.0-1-x86_64.pkg.tar.zst
+qgpgme-qt6-1.24.1-1-x86_64.pkg.tar.zst
 
 %NAME%
-gpgme
+qgpgme-qt6
 
 %BASE%
 gpgme
 
 %VERSION%
-1.24.0-1
+1.24.1-1
 
 %DESC%
-A C wrapper library for GnuPG
+Qt6 bindings for GPGme
 
 %CSIZE%
-473328
+320913
 
 %ISIZE%
-1351371
+1431799
 
 %SHA256SUM%
-c2e3a6217069635531d650c9b2bd1a43bcf19dc5f5c5f5fd87307d5c34ca9e5a
+cbf998156a3afff5d0a59522c1f4a97d9f76f4ba22d38c8b3620bd30074ea000
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZytqRwAKCRBtQr3RFuAGj8iVAQDQZN7yLxwt4UTqApT4jY/Cdg18/HFJhje1lIeP+pFXAgD9Gf6Jtqks1bpfGAG/+IGb0UwfD5sFMwOfBB9kgF0xJA4=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZ1BzSQAKCRBtQr3RFuAGj20qAP0V2urphjfiv8sxzyZ6VSNyY4cxPvqZ5nZ7vMyXEvgxjAEApmTPxE0/Y2KiNF0IED/sjGNisR1sZWNu0Y9A9e+w9gk=
 
 %URL%
 https://www.gnupg.org/related_software/gpgme/
@@ -32,28 +32,22 @@ https://www.gnupg.org/related_software/gpgme/
 GPL-2.0-or-later
 LGPL-2.0-or-later
 LGPL-2.1-or-later
-MIT
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1730898285
+1733325432
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
 
-%PROVIDES%
-libgpgme.so=11-64
-libgpgmepp.so=6-64
-
 %DEPENDS%
 gcc-libs
-glib2
 glibc
-libassuan
+gpgme
 libgpg-error
-gnupg>=2
+qt6-base
 
 %MAKEDEPENDS%
 gnupg

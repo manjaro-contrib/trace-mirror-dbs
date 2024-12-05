@@ -1,29 +1,29 @@
 %FILENAME%
-python-gpgme-1.24.0-1-x86_64.pkg.tar.zst
+gpgme-1.24.1-1-x86_64.pkg.tar.zst
 
 %NAME%
-python-gpgme
+gpgme
 
 %BASE%
 gpgme
 
 %VERSION%
-1.24.0-1
+1.24.1-1
 
 %DESC%
-Python bindings for GPGme
+A C wrapper library for GnuPG
 
 %CSIZE%
-257805
+473378
 
 %ISIZE%
-1747329
+1351483
 
 %SHA256SUM%
-7cae9e28b556327f6099f743ba0422582eb10c2e0de83baf59a4e4975b6baa54
+8032f56d14b9cf48c6140ee53ed4f8b39d4f9ad84773f7e3ba0a1ca7633f0130
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZytqRwAKCRBtQr3RFuAGj+UnAQC179tMufGglkuoPEno6WEwtq/r8obtK0UXX8LHfCrD9wEAiJTw2hgHrUFYywUzyotxSI8wXHWMm45+Rsv0qkRlFAY=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZ1BzSQAKCRBtQr3RFuAGj+qhAQCg2j/HzevVCJrOnow2wKVLXEjIpmU7hh4PnxywYEREDgEAisBagKdc3FarGaPhxPANUDOBFznPUiPuKWXmkpVXNgY=
 
 %URL%
 https://www.gnupg.org/related_software/gpgme/
@@ -32,20 +32,28 @@ https://www.gnupg.org/related_software/gpgme/
 GPL-2.0-or-later
 LGPL-2.0-or-later
 LGPL-2.1-or-later
+MIT
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1730898285
+1733325432
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
 
+%PROVIDES%
+libgpgme.so=11-64
+libgpgmepp.so=6-64
+
 %DEPENDS%
+gcc-libs
+glib2
 glibc
-gpgme
-python
+libassuan
+libgpg-error
+gnupg>=2
 
 %MAKEDEPENDS%
 gnupg
