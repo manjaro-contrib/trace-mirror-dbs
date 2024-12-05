@@ -1,0 +1,68 @@
+%FILENAME%
+nvidia-utils-565.77-1-x86_64.pkg.tar.zst
+
+%NAME%
+nvidia-utils
+
+%BASE%
+nvidia-utils
+
+%VERSION%
+565.77-1
+
+%DESC%
+NVIDIA drivers utilities
+
+%CSIZE%
+297125492
+
+%ISIZE%
+722558387
+
+%MD5SUM%
+a25e092b09f0f4595dc08140874e39c2
+
+%SHA256SUM%
+77474de0b61d5cf739e702d04d8911a7806e6bebc19f5bd9943b92e320e9cfe5
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmdSBecACgkQFQwgB0PtRtjuqQf/S3imGiRuwdv134GU2ofsydGPtWRrxoKV84aA85tLZ3QJwLZMIKbGGzKeLh2qxoBvxh51QzZcoJXfgB5zVp/Zdf+fNilSAh+50PJVRoDt3ZzrhhVKR338KcUKm7T9ArYzCw7c444+g8m+w6YBLQVaJ1YrVmlsMlg9jCxs/7ruggPpPx/HNaJcFFsdtM5TGWIFXF+6F61+cXb4uiQqwGn6jKcNYpWSM+MHM+efNWas7v9ECdLlGTcrNZshiV1BkHD6RuvP1eBYEd9YEcE1BEC6HDM/hLIy5Iu3wG+ki1v0Oas9rgkfVu3qzwwVHxeHRI6OTs1nPM61KKsia8/ho7df7g==
+
+%URL%
+http://www.nvidia.com/
+
+%LICENSE%
+LicenseRef-custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1733418917
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%REPLACES%
+nvidia-libgl
+
+%CONFLICTS%
+nvidia-libgl
+
+%PROVIDES%
+vulkan-driver
+opengl-driver
+nvidia-libgl
+nvidia-utils=565.77
+
+%DEPENDS%
+libglvnd
+egl-wayland
+egl-gbm
+
+%OPTDEPENDS%
+nvidia-settings: configuration tool
+xorg-server: Xorg support
+xorg-server-devel: nvidia-xconfig
+opencl-nvidia=565.77: OpenCL support
+
