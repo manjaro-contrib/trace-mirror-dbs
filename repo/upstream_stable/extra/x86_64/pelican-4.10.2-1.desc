@@ -1,0 +1,85 @@
+%FILENAME%
+pelican-4.10.2-1-any.pkg.tar.zst
+
+%NAME%
+pelican
+
+%BASE%
+pelican
+
+%VERSION%
+4.10.2-1
+
+%DESC%
+A tool to generate a static blog, with restructured text (or markdown) input files.
+
+%CSIZE%
+773670
+
+%ISIZE%
+4869068
+
+%SHA256SUM%
+3fd19938f80ecee461d0ef3ea2da07145cc28cf6aa02e9dc9f6114b82c71dcd5
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmdaGzgACgkQek52CV2KUuQRNAgAiuuj4TXbDppJ3FZtyJlgCKZgqAwYvJ+9TldcVWw7LTtLBw3B5YHDzn2A8gOjaX4oLbNZiQruo1yQ7deNKjCC5w5Be4qlnfFxPnY/su6ddP+H5arsRtRQdQlr9gnNmk8fWRtFIOs56fQjwKWJQ08KoVvymclzAiuOVImgRRFSCnnughhJdjBX7Y1Rsp0myjXQgKx/G4eA1iEcH+0jaf8jzBKm6Smb+GJnaT9MtadIxl0nBe+qWVEy2qCJcItj6XF28hq0/4fIaUAv0gK7sAwR19MPXyqlynOZ4qrC3FvO2v3W8VbIiiaUxislMwwrFuc30leJOlau1woZDmsaxFfvqQ==
+
+%URL%
+https://blog.getpelican.com/
+
+%LICENSE%
+AGPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1733958418
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python-jinja
+python-pygments
+python-feedgenerator
+python-docutils
+python-blinker
+python-unidecode
+python-dateutil
+python-rich
+python-watchfiles
+python-ordered-set
+
+%OPTDEPENDS%
+python-markdown: Markdown support
+asciidoc: AsciiDoc support
+python-beautifulsoup4: importing from wordpress/dotclear/posterous
+python-feedparser: importing from feeds
+openssh: uploading through SSH
+rsync: uploading through rsync+SSH
+lftp: uploading through FTP
+s3cmd: uploading through S3
+python-invoke: Task parallelism
+python-ghp-import: uploading through gh-pages
+python-typogrify: typographical enhancements
+pandoc: for pelican-import auto convert
+python-mdx-video: easier embedding of youtube videos in markdown
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-sphinx
+python-sphinxext-opengraph
+python-pdm-backend
+
+%CHECKDEPENDS%
+python-lxml
+git
+python-feedparser
+python-markdown
+python-typogrify
+python-pytest-xdist
+python-beautifulsoup4
+
