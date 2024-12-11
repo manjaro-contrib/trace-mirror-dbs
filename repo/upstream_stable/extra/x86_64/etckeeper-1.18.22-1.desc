@@ -1,0 +1,57 @@
+%FILENAME%
+etckeeper-1.18.22-1-any.pkg.tar.zst
+
+%NAME%
+etckeeper
+
+%BASE%
+etckeeper
+
+%VERSION%
+1.18.22-1
+
+%DESC%
+Collection of tools to let /etc be stored in a git, hg or bzr repository
+
+%CSIZE%
+21970
+
+%ISIZE%
+43533
+
+%SHA256SUM%
+0857ead7a31102edf53eb6eb8361fdf3063586f66d3d0f9f1ede93215ddd9e74
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZ1dSuAAKCRBtQr3RFuAGj659AQDecr0YKZTbKHNDS/rZzgiu5XNMCV++A4NCjE0N4OaF5QD/SPBQ3U0/DHnQbG4If2PDbn87cR8VfnmR1wZaJYp3UAg=
+
+%URL%
+https://etckeeper.branchable.com/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1733776014
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+git
+diffutils
+sed
+
+%OPTDEPENDS%
+mercurial: use mercurial for version control
+breezy: use bazaar for version control
+
+%MAKEDEPENDS%
+git
+mercurial
+breezy
+python-setuptools
+
