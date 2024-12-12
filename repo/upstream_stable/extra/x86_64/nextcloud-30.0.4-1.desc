@@ -1,0 +1,82 @@
+%FILENAME%
+nextcloud-30.0.4-1-any.pkg.tar.zst
+
+%NAME%
+nextcloud
+
+%BASE%
+nextcloud
+
+%VERSION%
+30.0.4-1
+
+%DESC%
+A cloud server to store your files centrally on a hardware controlled by you
+
+%CSIZE%
+143894439
+
+%ISIZE%
+635161192
+
+%SHA256SUM%
+e0dff5c358183c2fd31a8f87d009d8ec730403de13056a3f5de81053fdbfa3bd
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZ1rkmgAKCRCbeih9mi7GCN2NAP9Gf1H7h/5qKpeMFkPRNi0x18OiT4cfW66Xib1KeMpotgD9EDpaS1D6Pe8W2B3HuE0KgC76EJ1PW6CzqK8O3JFfaQY=
+
+%URL%
+https://nextcloud.com
+
+%LICENSE%
+AGPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1734009690
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+php-interpreter<8.4
+php-gd-interpreter<8.4
+
+%OPTDEPENDS%
+curl: for webcron jobs from within uwsgi
+ffmpeg: for preview generation
+libreoffice: for preview generation
+mariadb: to use a local MariaDB server
+memcached: to use a local memcached server
+mod_itk: to use the Apache web server
+postgresql: to use a local PostgreSQL server
+redis: to use a local Redis server
+smbclient: for SMB/CIFS integration
+sudo: for privilege elevation in occ command when not run as root
+php-apache: to use the Apache web server (latest PHP)
+php-legacy-apache: to use the Apache web server
+php-apcu: for caching with APCU (latest PHP)
+php-legacy-apcu: for caching with APCU
+php-fpm: to run in fastCGI process manager (latest PHP)
+php-legacy-fpm: to run in fastCGI process manager
+php-imagick: for preview generation (latest PHP)
+php-legacy-imagick: for preview generation
+php-memcached: for caching with memcached (latest PHP)
+php-legacy-memcached: for caching with memcached
+php-pgsql: to use the PostgreSQL database backend (latest PHP)
+php-legacy-pgsql: to use the PostgreSQL database backend
+php-redis: for caching with redis (latest PHP)
+php-legacy-redis: for caching with redis
+php-sodium: for Argon2 password hashing (latest PHP)
+php-legacy-sodium: for Argon2 password hashing
+php-sqlite: to use the SQLite database backend (latest PHP)
+php-legacy-sqlite: to use the SQLite database backend
+uwsgi-plugin-php: run as application container (latest PHP)
+uwsgi-plugin-php-legacy: run as application container
+
+%MAKEDEPENDS%
+php
+php-legacy
+
