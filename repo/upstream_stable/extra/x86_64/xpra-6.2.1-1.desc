@@ -1,0 +1,77 @@
+%FILENAME%
+xpra-6.2.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+xpra
+
+%BASE%
+xpra
+
+%VERSION%
+6.2.1-1
+
+%DESC%
+multi-platform screen and application forwarding system screen for X11
+
+%CSIZE%
+11510253
+
+%ISIZE%
+34455328
+
+%SHA256SUM%
+f02d59466febeaea1d2d2df6757accbb48d48553389e19ed1f78cf1881f5c046
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCZ1SafgAKCRAAHPSBC+jZEUoIAP9t8su9Ff36h0RAVZOX8krDPlMOS6dnh+400qCUu8WgMgD/d66OnW8G5fDwLtiDOKZa15skPhcK2dAfaw8qZHyndw0=
+
+%URL%
+https://www.xpra.org
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1733597478
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+gtk3
+python
+libxtst
+python-cairo
+python-gobject
+python-pillow
+python-lz4
+ffmpeg
+libvpx
+xf86-video-dummy
+libxkbfile
+libxres
+python-netifaces
+python-rencode
+python-opengl
+python-lz4
+
+%OPTDEPENDS%
+x264: Codec
+python-dbus: dbus features
+python-pycups: Printing support
+python-cryptography: Cryptography
+python-numpy: GPU accelerated capture and compression for NVIDIA cards
+gst-python: Sound Forwarding
+opencv: Webcam Forwarding
+
+%MAKEDEPENDS%
+pkgconf
+pygobject-devel
+python-setuptools
+cython
+uglify-js
+pandoc
+
