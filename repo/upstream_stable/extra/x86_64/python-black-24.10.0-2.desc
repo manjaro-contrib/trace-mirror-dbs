@@ -1,0 +1,71 @@
+%FILENAME%
+python-black-24.10.0-2-any.pkg.tar.zst
+
+%NAME%
+python-black
+
+%BASE%
+python-black
+
+%VERSION%
+24.10.0-2
+
+%DESC%
+Uncompromising Python code formatter
+
+%CSIZE%
+397998
+
+%ISIZE%
+2050954
+
+%SHA256SUM%
+2fa77133ca47e912d8a09f8b982d4eda256e95567d7912e4c87e0086335efe1b
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc6BdgACgkQwGCGM3xQdz7VnQf/Ws6fFNlCXE95nzNU9WGOkNG5bAAAt1ze7awGOk2fdpDb+ZNZ72MTAFa8v0XB2536cUY0Y4X6aLFK9nqY8EUkbUJFC6ZMMLtalX5c6UQ/zQkCS+iR5nejhhneCJollkloYtG4i3Nh47Xj3wt9emZM9tdtxmEfxEcjDcK1j5dcrFRU9ltwTeAshZGKkF+kkj8E/30Mo/Qakut7Y+QZjrSKdgn+zwWlFbczSlQmCdJbpLuhceFjPyckzE2HtBvXNBx7oW5FQOlL6nnj+ezFU3ZAGXFKVMDcagqIRoxN8Lx3FP1AKfBtbUz5NodozNSxcyLv3DWCxJRcIkwr9SF4/6UBeA==
+
+%URL%
+https://github.com/psf/black
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1731855790
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-click
+python-mypy_extensions
+python-packaging
+python-pathspec
+python-platformdirs
+
+%OPTDEPENDS%
+ipython: for Jupyter notebook support
+python-tokenize-rt: for Jupyter notebook support
+python-aiohttp: for the blackd HTTP server
+python-colorama: for colored diffs
+
+%MAKEDEPENDS%
+git
+python-build
+python-hatch-fancy-pypi-readme
+python-hatch-vcs
+python-hatchling
+python-installer
+
+%CHECKDEPENDS%
+ipython
+python-aiohttp
+python-parameterized
+python-pytest
+python-tokenize-rt
+

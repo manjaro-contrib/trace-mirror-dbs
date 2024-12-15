@@ -1,0 +1,198 @@
+%FILENAME%
+qemu-desktop-9.1.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+qemu-desktop
+
+%BASE%
+qemu
+
+%VERSION%
+9.1.2-1
+
+%DESC%
+A QEMU setup for desktop environments
+
+%CSIZE%
+14818
+
+%ISIZE%
+50758
+
+%SHA256SUM%
+1e09cdb3573f6219447ed3bac6147835cbf24f919bca93a3e90a306266cf60d5
+
+%PGPSIG%
+iHUEABYKAB0WIQQhkbiUMbrAqLlt6T0kR0DRfH/Q7AUCZ0EJKAAKCRAkR0DRfH/Q7LtxAP0Qd73rATmd45NCcI9T9igr0iExjlqwry4zGB8ASeQdUgEA5DJEebUw3tcbnBsD8oCMRPwwg7KsKy4Cjmkbb5XX/AE=
+
+%URL%
+https://www.qemu.org/
+
+%LICENSE%
+BSD-2-Clause
+BSD-2-Clause-Patent
+BSD-3-Clause
+CC0-1.0
+FSFAP
+GPL-1.0-or-later
+GPL-2.0-only
+GPL-2.0-only WITH Linux-syscall-note
+GPL-2.0-only WITH Linux-syscall-note OR BSD-2-Clause
+GPL-2.0-only WITH Linux-syscall-note OR BSD-3-Clause
+GPL-2.0-or-later
+GPL-2.0-or-later OR BSD-3-Clause
+GPL-2.0-or-later WITH Linux-syscall-note
+ISC
+LGPL-2.1-only OR BSD-3-Clause
+LGPL-2.0-or-later
+LGPL-2.1-or-later
+LicenseRef-Public-Domain
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732314243
+
+%PACKAGER%
+Leonidas Spyropoulos <artafinde@archlinux.org>
+
+%PROVIDES%
+qemu=9.1.2
+
+%DEPENDS%
+qemu-base=9.1.2-1
+qemu-audio-alsa=9.1.2-1
+qemu-audio-dbus=9.1.2-1
+qemu-audio-jack=9.1.2-1
+qemu-audio-oss=9.1.2-1
+qemu-audio-pa=9.1.2-1
+qemu-audio-pipewire=9.1.2-1
+qemu-audio-sdl=9.1.2-1
+qemu-audio-spice=9.1.2-1
+qemu-block-curl=9.1.2-1
+qemu-block-dmg=9.1.2-1
+qemu-block-nfs=9.1.2-1
+qemu-block-ssh=9.1.2-1
+qemu-chardev-spice=9.1.2-1
+qemu-hw-display-qxl=9.1.2-1
+qemu-hw-display-virtio-gpu=9.1.2-1
+qemu-hw-display-virtio-gpu-gl=9.1.2-1
+qemu-hw-display-virtio-gpu-pci=9.1.2-1
+qemu-hw-display-virtio-gpu-pci-gl=9.1.2-1
+qemu-hw-display-virtio-vga=9.1.2-1
+qemu-hw-display-virtio-vga-gl=9.1.2-1
+qemu-hw-usb-host=9.1.2-1
+qemu-hw-usb-redirect=9.1.2-1
+qemu-hw-usb-smartcard=9.1.2-1
+qemu-ui-curses=9.1.2-1
+qemu-ui-dbus=9.1.2-1
+qemu-ui-egl-headless=9.1.2-1
+qemu-ui-gtk=9.1.2-1
+qemu-ui-opengl=9.1.2-1
+qemu-ui-sdl=9.1.2-1
+qemu-ui-spice-app=9.1.2-1
+qemu-ui-spice-core=9.1.2-1
+qemu-vhost-user-gpu=9.1.2-1
+
+%OPTDEPENDS%
+qemu-user-static: for static user mode emulation of QEMU targets
+samba: for SMB/CIFS server support
+qemu-block-gluster: for Gluster block driver
+qemu-block-iscsi: for iSCSI block driver
+qemu-chardev-baum: for Baum chardev driver
+qemu-docs: for documentation
+qemu-emulators-full: for all system emulators
+qemu-full: for a full QEMU installation
+qemu-hw-s390x-virtio-gpu-ccw: for s390x-virtio-gpu-ccw display device
+qemu-pr-helper: for persistent reservation utility
+qemu-system-aarch64: for AARCH64 system emulator
+qemu-system-alpha: for Alpha system emulator
+qemu-system-arm: for ARM system emulator
+qemu-system-avr: for AVR system emulator
+qemu-system-cris: for CRIS system emulator
+qemu-system-hppa: for HPPA system emulator
+qemu-system-m68k: for ColdFire (m68k) system emulator
+qemu-system-microblaze: for Microblaze system emulator
+qemu-system-mips: for MIPS system emulator
+qemu-system-or1k: for OpenRisc32 system emulator
+qemu-system-ppc: for PPC system emulator
+qemu-system-riscv: for RISC-V system emulator
+qemu-system-rx: for RX system emulator
+qemu-system-s390x: for S390 system emulator
+qemu-system-sh4: for SH4 system emulator
+qemu-system-sparc: for SPARC system emulator
+qemu-system-tricore: for tricore system emulator
+qemu-system-xtensa: for Xtensa system emulator
+qemu-tests: for QEMU tests
+qemu-tools: for QEMU tools
+qemu-user: for user mode emulation of QEMU targets
+qemu-vmsr-helper: for accessing the Running Average Power Limit (RAPL) MSR
+
+%MAKEDEPENDS%
+alsa-lib
+brltty
+bzip2
+cairo
+capstone
+curl
+dtc
+fuse3
+gcc-libs
+gdk-pixbuf2
+glib2
+glib2-devel
+glusterfs
+gnutls
+gtk3
+jack
+keyutils
+libaio
+libbpf
+libcacard
+libcap-ng
+libepoxy
+libiscsi
+libnfs
+libpipewire
+libpng
+libpulse
+libsasl
+libseccomp
+libslirp
+libssh
+liburing
+libusb
+libx11
+libxdp
+libxml2
+libxkbcommon
+lzo
+mesa
+meson
+multipath-tools
+ncurses
+ndctl
+numactl
+pam
+pcre2
+python
+python-distlib
+python-setuptools
+python-pip
+python-sphinx
+python-sphinx_rtd_theme
+sdl2
+sdl2_image
+snappy
+spice-protocol
+spice
+systemd
+usbredir
+vde2
+virglrenderer
+vte3
+zlib
+zstd
+

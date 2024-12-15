@@ -1,0 +1,54 @@
+%FILENAME%
+postgrey-1.37-6-any.pkg.tar.zst
+
+%NAME%
+postgrey
+
+%BASE%
+postgrey
+
+%VERSION%
+1.37-6
+
+%DESC%
+a Postfix policy server implementing greylisting
+
+%CSIZE%
+24585
+
+%ISIZE%
+73740
+
+%SHA256SUM%
+4ba18194148c656eaa3e2721e439e0002ace72af20f6186b0752a9b85ddb2ff6
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCZpKr3AAKCRDylr3lA2jGztOsAPwJNsmqm1io1x03t7exjz1FlmnkOwXJTOopaLnGBwXiRAD9HSNVdRKt05GEhvv/zsNqO7Ve/8TQyl4IsiXPGfKtVA4=
+
+%URL%
+https://postgrey.schweikert.ch/
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1720888270
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%DEPENDS%
+perl
+perl-berkeleydb
+perl-io-multiplex
+perl-net-server
+perl-netaddr-ip
+
+%OPTDEPENDS%
+postfix: the recommended MTA for use with postgrey
+exim: an alternative MTA
+perl-net-dns: for postgreyreport tool
+

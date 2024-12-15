@@ -1,0 +1,94 @@
+%FILENAME%
+feeluown-4.1.8-1-any.pkg.tar.zst
+
+%NAME%
+feeluown
+
+%BASE%
+feeluown
+
+%VERSION%
+4.1.8-1
+
+%DESC%
+FeelUOwn Music Player
+
+%GROUPS%
+feeluown-full
+
+%CSIZE%
+981517
+
+%ISIZE%
+4704224
+
+%SHA256SUM%
+e6fd26296bfcc311564a539dedf62f561adc62dae5dc2e7920c97a8b66709467
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmdS5ZQACgkQ/cMEC5Ksp0jdCg/9FgN1E1xDG77AFCMFICVPSYbPG03IYQPy4cA+f+xQYVqdxUh+v5BinZ1eNxNV/nLpRJKVKI+mZ91q7Scwt4Nmha0eGR2cLOzihQJ6g3lXVakEzKTyz9ukGq8HM0U4SPVP8AL3Ua66ftahzPZmYLDQAOm3gTeNDdn0zJbB+aBblOwp+N2SSAcW6hCzRn3/RCPLxuoPQR1rDSrEsXHbqHeSLHsxlWBlUfWzw2LMLvyK1RBGHgrXdHgad9aPCOMrJXcdPTEQlHJdR9hCkMZEuMMdBlvEzfx+BB5GHzNYzxDtm8dvTxXPWunUnVrVFp4E8aQgOWim3wmi7JQx0JJ59gj0B6dvEwyDXNVs4TscQGQo2fdJm/aBQo6OBZ8X/3GuVO7L7ROdROOTsvrk97N6mdZep/8c04f1e9O34AfX0voIMrTEuiGNrkGeph9seeHzC9P9kJjvcfnH1mmpZlLIR7h8PnSFaq7P+uMEvtctsP59i0wxgwhNOLaky1VfbNRDiFoycbvUPjqbFnNONhF9T6TRG8NI5hJXCAeZoJHK7R6nHMH3+TXHbcRzJePcN2hQHX2VBMTAufy6voFUfeSL7ZwZwDYgmgDIUq8+ctjDFaolbOATR9edW3algUXsed+MLpAkBU4xnFI45DwPHlTPjVPr1W1kLccUphg9Z4VZYcYMWsA=
+
+%URL%
+https://github.com/feeluown/FeelUOwn
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1733485879
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%REPLACES%
+feeluown-local
+
+%CONFLICTS%
+feeluown-local
+
+%PROVIDES%
+feeluown-local
+
+%DEPENDS%
+python-qasync
+python-pyqt5
+mpv
+python-opengl
+python-janus
+python-requests
+python-tomlkit
+python-packaging
+python-pydantic
+python-mutagen
+qt5-svg
+xdg-user-dirs
+
+%OPTDEPENDS%
+python-secretstorage: browser cookie extraction support
+python-pycryptodome: browser cookie extraction support
+dbus-python: mpris2 server support
+python-sanic: webserver support
+python-json-rpc: webserver support
+python-websockets: webserver support
+feeluown-netease
+feeluown-qqmusic
+feeluown-ytmusic
+feeluown-bilibili
+yt-dlp
+
+%MAKEDEPENDS%
+git
+python-setuptools
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-asyncio
+python-pytest-mock
+python-pytest-qt
+python-pycryptodome
+xorg-server-xvfb
+yt-dlp
+

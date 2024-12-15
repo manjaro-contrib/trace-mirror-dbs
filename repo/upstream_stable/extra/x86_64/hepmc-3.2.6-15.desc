@@ -1,0 +1,66 @@
+%FILENAME%
+hepmc-3.2.6-15-x86_64.pkg.tar.zst
+
+%NAME%
+hepmc
+
+%BASE%
+hepmc
+
+%VERSION%
+3.2.6-15
+
+%DESC%
+A particle physics package for storing collision events from Monte Carlo generators
+
+%CSIZE%
+1404556
+
+%ISIZE%
+6393305
+
+%SHA256SUM%
+a4e00f50f0d90c5787d5b7d6ab97f4237fabf896273d5aad3c5c4b2c8cb27652
+
+%PGPSIG%
+iQIzBAABCAAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmcs26EACgkQk7EdqkwZfj33tBAArn3+x0TezCRMFYxxj2aNOzWF7cAiCHAKx6Fz3VSAIsylVbT5vFwjXlpCCuF4J3MDYI2HPLUTvAR4bN/SVoTV6O+7a79TBqVq/uDQ3Ir8TK88XvdrSGi437EyqqlojvgD09IYcOX67SWLalplXaIP7YvjXlu1LiVCkwkPkV8w0D/gruzntuerMvFrvi7X6nVm+FM2vLMUmMQ9/0iaSyrekZKImNrtKXkHFz8RlRxdENLvILfNq0dLUMGN7ZXkMqet8Z7d1gD6XFUvBaboIrLiMvr7aBuPIcD1/bJr3985jBjgvgvhoAMNj/0JwH8cMQwfhlylBwrfq7FyziUUe8OiWc6XzR2XCQwXeSyfS3CnkjIDqjgzUk5ALGuxedw3dHo1o/DfoisZb/UrYM1H7jwCi43dS4b+6uXTQVtyioz9q2Du7J+0omN9cNmgxWjJ83BAqZrg/qQiXtbsv0Ilu6mp0pkpt3+XZ0TS5Pb+4soj2hD6nxGPOxky4T85bUz92Eef6Py0RyXBI4NYHg8OBCRdu9sTN/VNfEKTfeb9FWzzC0EOOU6nPYirZ+7oxbWXZQMvwloTYi9qxoBm1IWAPllrA5WzyGRrq4cSBZjIAK/e2C7B+IKiAV5ABsaYCqtsxQr95nPJkOftwhiVm1SVhDHGOPU94pkmgGX3Q6BmZLW9LHg=
+
+%URL%
+https://hepmc.web.cern.ch/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1730992887
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+bash
+gcc-libs
+glibc
+
+%OPTDEPENDS%
+hpmc-docs: for documentation
+pythia8: Pythia support
+python: Python interface
+root: ROOT I/O
+protobuf: Protocol Buffers I/O
+
+%MAKEDEPENDS%
+cmake
+doxygen
+gcc-fortran
+graphviz
+hepmc2
+pythia8
+python
+root
+protobuf
+cern-vdt
+

@@ -1,0 +1,68 @@
+%FILENAME%
+azote-1.14.0-3-any.pkg.tar.zst
+
+%NAME%
+azote
+
+%BASE%
+azote
+
+%VERSION%
+1.14.0-3
+
+%DESC%
+Wallpaper & color manager for wlroots-based compositors and some X11 WMs
+
+%CSIZE%
+8004117
+
+%ISIZE%
+8966943
+
+%SHA256SUM%
+226754e9e0c8c0fddfe3ef602f5e235650d3a012b083313365936d4525eb041b
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmdQGUwACgkQ/cMEC5Ksp0hNkg//eCUj29ctlKBMuKM01QGmkQjXi/XimCz4RLxhaMMZ+xfU3ISVCZRcFhOWtLJ6RevEC+elTaju1k3yp8vxr24Uo4khL5jkOmaXHMq3osfFDbIg4JpcOoL8tqn4cwGbj9owxnvWzFn+UoXReeLS4k+6mJAhXw/vL8VZlaHPwyKc+klh9qbJ+j5Njf1PTwBSStvdIlAR5vuBYHW5ZmAAJtIx0T+tQgKdY0waLnmLBrI4ouyVV6ri/yO0uvt4o20WwEbt/+nh0Dnaa79zJAPd+QD/v4InphggtBF5C1r/LpZ+AaXsmeI7M9XQb/7JkvICd3pBXnLRuqfxwWJgWMT8s604VttQkYtbF03R8M2tohBg0UDKYRpYBkb3xSet3RJya7KmlgpOn+hUB7e2MamAIEuZSPW6lnvZTeNh+vKMaIU/x2xalKfV5h1FTzbwNC4QdEXEGGYNs7bHL+ktgCKZ9mDeNP9EzG97I2hNfXN4VTLuZPvpP5CJBsFZUS1raZTC6HT7LfMNYDwqUyK4jJxSzcv9QdKEoeXU5T9s1R3tVcxEvzhpVtLZkh1M42N8x+UiBMGFX0uMTVJ6Ds1PeuOHPiHd3XqRe9ADjYxLqJzgyF4IsyQ7XEF71VKJ4C9zQMCExMPy+olyXpHBTUsebOXs+68eoS9q+wiOV9sZEq3BmoGJcVo=
+
+%URL%
+https://github.com/nwg-piotr/azote
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1733302490
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-setuptools
+python-gobject
+python-pillow
+gtk3
+python-cairo
+python-send2trash
+
+%OPTDEPENDS%
+imagemagick: for screen color picker
+grim: for screen color picker on wlroots
+slurp: for screen color picker on wlroots
+maim: for screen color picker on X11-based WMs
+libappindicator-gtk3: for tray status icon
+python-yaml: for alacritty.yml toolbox
+swaybg: for setting background on wlroots-based compositors
+feh: for setting background on X11-based WMs
+python-xlib: for checking outputs on X11-based WMs
+wlr-randr: for checking outputs on wlroots-based compositors other than Sway and Hyprland
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+

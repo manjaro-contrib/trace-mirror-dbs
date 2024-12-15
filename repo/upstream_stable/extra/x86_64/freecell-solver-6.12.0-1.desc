@@ -1,0 +1,61 @@
+%FILENAME%
+freecell-solver-6.12.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+freecell-solver
+
+%BASE%
+freecell-solver
+
+%VERSION%
+6.12.0-1
+
+%DESC%
+A program that automatically solves layouts of Freecell and similar variants of Card Solitaire
+
+%CSIZE%
+201669
+
+%ISIZE%
+628730
+
+%SHA256SUM%
+a462b12e951599f88022913ebfcd4aeebcc97e338092a13d3dfe6e83b6d08a7c
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmaBHJUACgkQek52CV2KUuQNnAf9Ee7tTOTGbbBR7aPMWJgMN6NfYMk8bYCmQ+NjTo6wvhcPIgsY8iaDl3dj6U4q8n5yTHk/l/QamTXrM6lnwyerBCANZPP5kIeo52V66HdZr+Kkx+0WMwn6fFsQuKqlaaJXa3/XfuebjoAjqwG7YO6A6oJr8S05j/LwtBNJtTqXkCxDk1lMz0Sz8Q5uxZy5DVjE68RY0FOULRXy18/L30sig+e/PO0muc1FTv7jByilaefCYJulKpBiPOiQvKRAWm1sq87FQYbfvKjAB4HD6Jce/IkSqAqbdPfxxxe3c+yuuQhf/LM0b7VnVBFGeRoNOIP+MHiy9hCjHj6HyPPQbk5OjQ==
+
+%URL%
+https://fc-solve.shlomifish.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1719737181
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+bash
+glibc
+
+%OPTDEPENDS%
+python-pysol_cards: for the Python interface
+python-random2: for the Python interface
+python-six: for the Python interface
+
+%MAKEDEPENDS%
+cmake
+gperf
+perl-moo
+perl-path-tiny
+perl-template-toolkit
+python-random2
+python-pysol_cards
+rinutils
+

@@ -1,0 +1,55 @@
+%FILENAME%
+cozy-stack-1:1.6.33-1-x86_64.pkg.tar.zst
+
+%NAME%
+cozy-stack
+
+%BASE%
+cozy-stack
+
+%VERSION%
+1:1.6.33-1
+
+%DESC%
+Digital home: brings all your web services in the same private space – Stack component
+
+%CSIZE%
+12288753
+
+%ISIZE%
+38890549
+
+%SHA256SUM%
+57db64a957720686e95732d93fe79be48eb5be0d72b2b14f977ec17d97b71785
+
+%PGPSIG%
+iQEzBAABCgAdFiEEado014/g79WWrG0EnYk+xNqvkSkFAmdMc7gACgkQnYk+xNqvkSkhJggAk/9/KpGqBY5MnBn1gzL/S/wT725B46E6RgJA5A+KDDgH2U9UBP55/aVjwBO7XrlaLJ85sCqzRPAcAoeFkfVQ6beW0aoZS8fnzWVsBrKGuMKqVL3xV+be7i4JjAHREm+VknwctxN8nG4O44dn6tPTa/FHTgLQlnHkXe2r4fUjTri4Bz+g9jXK5HuB5wvMK/48cjrga3zqdY50p6nICjl2/plT2a2SHMb7e0APvXotBM4AIAhVPMp+g1YM8AGYAfpUXNDHM3O97WNAfnPf693h4IXdduFiNzNsT5nmGjSLPNJE8vPIUzzdiuq0fYyJ6KkErbWaoIqfZW6p+JsbpR7FNw==
+
+%URL%
+https://cozy.io
+
+%LICENSE%
+AGPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1733063489
+
+%PACKAGER%
+Bruno Pagani <archange@archlinux.org>
+
+%DEPENDS%
+couchdb
+imagemagick
+git
+
+%OPTDEPENDS%
+nodejs: required for konnectors
+nsjail: run konnectors isolated
+smtp-forwarder: to allow sending mail to users
+
+%MAKEDEPENDS%
+go
+

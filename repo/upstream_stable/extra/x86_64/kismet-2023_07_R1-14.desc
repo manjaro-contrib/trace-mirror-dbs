@@ -1,0 +1,85 @@
+%FILENAME%
+kismet-2023_07_R1-14-x86_64.pkg.tar.zst
+
+%NAME%
+kismet
+
+%BASE%
+kismet
+
+%VERSION%
+2023_07_R1-14
+
+%DESC%
+802.11 layer2 wireless network detector, sniffer, and intrusion detection system
+
+%CSIZE%
+10857083
+
+%ISIZE%
+24181593
+
+%SHA256SUM%
+ac0962b5240ba8b8e18bdc553a65b61179c4b8e0190c6505acb6b717299bddea
+
+%PGPSIG%
+iQIzBAABCAAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmcs3HsACgkQk7EdqkwZfj1zOg/+IdIjoRRczGkFAWVE3pBLbzwKttna6hVVCTSgcCuwECAzrSDmU0zSZtdHIZcRae/LdsviXeJ6dq9vIvBefuNHe2/cd3az459JXPDaOiCx3DtBAzscy49S7e6DSr3QmnkH+ra/xmFmEiy+xi3i5gaE3hjatGtaRWImHGd8cOh24rkjikDH0U8JQyCf6H8A5hluag1AFNXH7sQIXPycsaMmdQ/eyKCiEJeGGZyPzgoUIF7t0r6auQBnCv3dpCnhynnz/Y3wXbEvrVfReU9462qTTICfnZ/b5g7oCmxaAQH7dWK9o1oKDhNreskb3diyU7eqJ3RqT9xUMDCYGkkQ7zPJpEe7MS3top9iRW/Q1gADiZL9U61X9sEL6tYhlMFHwT4FUAqlTxFa9cw2SMcKUx8pQREz8bcxNHtQAsmS6xzO6C7K5/7H+f+qn5uUGKZ8opNZVscL3iJ0QhkmZXw/P73FAGjMQL/5J3OW4LyJ0jrrdVK+bAXKl6Me5sFN0Pfb5biaZwMMDv0XLv1QlyqNQMExrFZS+XZTCy6y0jxcwiyIjA7WjSLzGX8g8cGa+D2yrM43vhON8vJSMTXlIzJcPofrZhUTeMNr/Duc5LXTSrhAhywRA2D/2j46/l39kdP97I2GTf/6qhN/YXPaWA++dYEwDTqAQHTt5BGRp367kjVMVxc=
+
+%URL%
+https://www.kismetwireless.net/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1730993082
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+libpcap
+pcre2
+bluez-libs
+libcap
+protobuf-c
+libprotobuf-c.so=1-64
+sqlite
+libnm
+gcc-libs
+libusb
+libusb-1.0.so=0-64
+libnl
+glibc
+zlib
+libelf
+lm_sensors
+systemd
+python
+python-setuptools
+python-protobuf
+python-pyserial
+python-numpy
+python-websockets
+libwebsockets
+libcap-ng
+libpcap.so=1-64
+libprotobuf.so=28.3.0-64
+libnm.so=0-64
+libwebsockets.so=19-64
+libsensors.so=5-64
+
+%OPTDEPENDS%
+gpsd: log coordinates of detected networks
+wireshark-cli: provide OUI files used to determine device manufacturer
+wireshark-cli: mergecap, to merge multiple capture files
+sox: provide the default kismet sound playback binary
+festival: text-to-speech support
+flite: alternative/lightweight text-to-speech support
+
+%MAKEDEPENDS%
+python-setuptools
+

@@ -1,0 +1,83 @@
+%FILENAME%
+python-openai-1.55.0-1-any.pkg.tar.zst
+
+%NAME%
+python-openai
+
+%BASE%
+python-openai
+
+%VERSION%
+1.55.0-1
+
+%DESC%
+Python client library for the OpenAI API
+
+%CSIZE%
+473471
+
+%ISIZE%
+4305933
+
+%SHA256SUM%
+f88982809daa92ef5355001fbb6432a0572b9b1a3644f59fd4f0ae9a5804a826
+
+%PGPSIG%
+iQIzBAABCAAdFiEEph5oDnze5xbx8Yihae9tnkmmTrgFAmdAnVIACgkQae9tnkmmTrinuRAAyQbXO6R5TQtDGuT0Gx9KQcq0/l1+5fiYumYfzEim6d2BL5SWow9lGLC2N5YY6Sia7dW6AVDFhXSWBYW75fY38/1Tr9Goalu+WMQkwjzHBLyyUtju7RefOoSgagKYYQjMCZj1dJULU7yCzzfTUv0maOAk7oK3cD5hYkknSbw00nQ2rBcvA5z/YabLzE19f4EZ/9IZA5RICtqaIZK8RP2rrG0KmaM+k3XBOo70DSnkXQFnQDnjaRyTepSPbWRlp9ba4gyTnfxCnPYgq1UtzAla7JZGyPgIlafnpFKlqFZ+j9BLGqhSnQQHmhkTgSKxY6HP78jDvfWup7FVik0m0dDf1M/ng4AKfP9XRnL1gGwyu/7kvpTE84sOTfHHA/awoLWmVYprWzqvRrkCC4amFKA0ZhCvlYMHn7V3x0Z1qvCmJ53F/az//O6o0+ce1S+odt8YMgCb0QO+Cm2bLB1XSyBvxlMJiEG6VbkeS913hXBj/keIvc8/YF6HruXC18ApMsBOkQ0RO7ebJkqfUilOzjPxO4Rgps2DqTOL1k8ELjWbatJM6GhN85kHYHGmi4ViAvfpTg1aZf2YuzFImO1v/6MBy5DKxLSfNgAHMZywevaII8NNBajlMCmMvwsvcugQsCyVdGuVdKKrwdIcrM14ETMsF7RT1z1GVXGvEZqxvVh7PWM=
+
+%URL%
+https://github.com/openai/openai-python
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732287738
+
+%PACKAGER%
+Justin Kromlinger <hashworks@archlinux.org>
+
+%DEPENDS%
+python
+python-anyio
+python-distro
+python-h2
+python-httpx
+python-jiter
+python-pydantic
+python-pydantic-core
+python-sniffio
+python-tqdm
+python-typing_extensions
+
+%OPTDEPENDS%
+python-numpy: Needed for CLI fine-tuning data preparation tool
+python-pandas: Needed for CLI fine-tuning data preparation tool
+python-openpyxl: Needed for CLI fine-tuning data preparation tool xlsx format
+python-scikit-learn: Needed for embedding utils
+python-tenacity: embeddings
+python-matplotlib: embeddings
+python-plotly: embeddings
+python-scipy: embeddings
+
+%MAKEDEPENDS%
+python-build
+python-hatch-fancy-pypi-readme
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+npm
+procps-ng
+python-dirty-equals
+python-inline-snapshot
+python-pytest
+python-pytest-asyncio
+python-nest-asyncio
+python-respx
+python-rich
+

@@ -1,0 +1,69 @@
+%FILENAME%
+xreader-4.2.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+xreader
+
+%BASE%
+xreader
+
+%VERSION%
+4.2.3-1
+
+%DESC%
+Document viewer for files like PDF and Postscript. X-Apps Project.
+
+%GROUPS%
+x-apps
+
+%CSIZE%
+1123419
+
+%ISIZE%
+6088834
+
+%SHA256SUM%
+e11a610c3bd4c1ecdc3b282e1f3e797c8ebc31ff423233b81ce0963b4c73c4dd
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmdXLpEACgkQek52CV2KUuRFOggAgcmgZ7N+CVuiB/+YjdtDBjz42udl9/mS0sRPEevhuBCM1ji9zejlIMtK4Qu2Z2hq7mfdtooLebIcBUPI3EjHbajNyVSTMa9mYiT+84LC6s+Dgworbt65wjEdvTwJLPnwpQv0JUTUhbqOCaMgc3rGk5Iif1Ro2I/qeqx/MzDtlw4z7MTD4FZlix/fMTQBs08N8pIJF+uEBPyXOM0youmrsWK2GbjDN5MxA+ImIa/vGoO6QyYLU2+S0aFYXIjEFIkz/7+VrvZFllAh078EqLBRlf9c/aQ+FKeajGKVzURuoNLzdAHhMwxfDXhXKInkmDdl6peSP6Jk+g8emj5eksPN9Q==
+
+%URL%
+https://github.com/linuxmint/xreader
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1733766734
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+poppler-glib
+webkit2gtk-4.1
+xapp
+
+%OPTDEPENDS%
+djvulibre: support for djvu files
+libgxps: support for xps files
+libspectre: support for dvi and ps files
+mathjax2: support for math in epub files
+texlive-bin: support for dvi files
+
+%MAKEDEPENDS%
+meson
+samurai
+intltool
+itstool
+gobject-introspection
+djvulibre
+libgxps
+libspectre
+texlive-bin
+glib2-devel
+

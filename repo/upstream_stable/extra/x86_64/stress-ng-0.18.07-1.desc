@@ -1,0 +1,71 @@
+%FILENAME%
+stress-ng-0.18.07-1-x86_64.pkg.tar.zst
+
+%NAME%
+stress-ng
+
+%BASE%
+stress-ng
+
+%VERSION%
+0.18.07-1
+
+%DESC%
+Software to stress test a computer system in various selectable ways
+
+%CSIZE%
+3078840
+
+%ISIZE%
+13712499
+
+%SHA256SUM%
+8090b13a0765994d97477d0e73079b02cf6e16d98131e3186aa1a91d715fc703
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmdMju4ACgkQ/cMEC5Ksp0hMghAAtRd8/Ck9saJEZTneCHq4m7sJ8/yJC89sCbCFd5P4SaB2KpJWinIV3O1NsuCRXd2lt0VHwXxwG1SxOKcCZD5eSeB1e47R4Olp/0QTxc8Ya8ChFL1sISfOmN3irBQsAB/QteEX41Qz7QaZgdztRyAwQ/pUNnHRUjAe9tqf5ECKPYeoO6TrQRFc3Goz9t1or3RRa8ESyjAzFIFWQFSG4U2DTDvpeu3tkbDws6JhzpX8YvUY/rBsTzm1wJS+vjutngrSl7drzripvj2wxivYqDk/7E3lBtbAZB9fcDqL8BmkGFc4JE9blbAPuz7QwSoowujSLWePrzK6VcJdP5gdyFySuKg0u/veDbDQjhF1ZuouhICZM27vssM1tHneMipubF4f9UHnRHQGRECJ9wESSucf4mtoD6ZIytrIRjAamnhNZn6HqtYa/+bcZtSHeuMA1YhbqpSSgVwvouzw6JVJpktipBNcQ8NHdxJjpYx7/LH6aOootv5DLeC0LwBJ3XW93nN83YgUJlldrm4GuVrQtVJBLXGaCUaDsYTfhf2BK0cQ4gcNr0wW3wtXohmCyuTA1a7ve2CEOLHUbEGdlV0iRvSFPd/CQXwxbDlEVB3AH2a9B6hZ45wgS04M4s5G8FCK1zl9K8lnQt2r79x5JAQrVMWXNl8OzPbg0gkaxRvk11rmc6o=
+
+%URL%
+https://github.com/ColinIanKing/stress-ng
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1733070431
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+apparmor
+gmp
+judy
+kmod
+libbsd
+libglvnd
+libjpeg-turbo
+lksctp-tools
+mpfr
+xxhash
+
+%OPTDEPENDS%
+intel-ipsec-mb: support for IPsec tests
+linux-headers: include some headers from the Arch kernel
+linux-lts-headers: include some headers from the LTS kernel
+linux-zen-headers: include some headers from the ZEN kernel
+linux-hardened-headers: include some headers from the HARDENED kernel
+
+%MAKEDEPENDS%
+attr
+eigen
+keyutils
+libaio
+libcap
+libgcrypt
+libglvnd
+libmd
+

@@ -1,0 +1,124 @@
+%FILENAME%
+gnome-control-center-47.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+gnome-control-center
+
+%BASE%
+gnome-control-center
+
+%VERSION%
+47.2-1
+
+%DESC%
+GNOME's main interface to configure various aspects of the desktop
+
+%GROUPS%
+gnome
+
+%CSIZE%
+5887314
+
+%ISIZE%
+23025735
+
+%SHA256SUM%
+3568bf8f58d5926fc723e8afbc0312f209356653c258adb7ce3c85a5a6deb809
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCZ0S6VAAKCRC4rAhgDxCM32+fAP47Grg7nm5BT+lyLB7W4EpmbfTucyXqArZIa7G2n3tSxwD+NBOh+5z8mc7BZOEAIry+XidyG307yuaTrOIddP0FpwE=
+
+%URL%
+https://gitlab.gnome.org/GNOME/gnome-control-center
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732557234
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%DEPENDS%
+accountsservice
+bolt
+cairo
+colord-gtk4
+cups-pk-helper
+dconf
+fontconfig
+gcc-libs
+gcr-4
+gdk-pixbuf2
+glib2
+glibc
+gnome-bluetooth-3.0
+gnome-color-manager
+gnome-desktop-4
+gnome-online-accounts
+gnome-settings-daemon
+gnome-shell
+gnutls
+graphene
+gsettings-desktop-schemas
+gsound
+gtk4
+hicolor-icon-theme
+json-glib
+krb5
+libadwaita
+libcolord
+libcups
+libepoxy
+libgoa
+libgtop
+libgudev
+libibus
+libmalcontent
+libmm-glib
+libnm
+libnma-gtk4
+libpulse
+libpwquality
+libsecret
+libsoup3
+libwacom
+libx11
+libxi
+libxml2
+pango
+polkit
+smbclient
+sound-theme-freedesktop
+tecla
+udisks2
+upower
+gnome-keybindings
+
+%OPTDEPENDS%
+fwupd: device security panel
+gnome-remote-desktop: screen sharing
+gnome-user-share: WebDAV file sharing
+malcontent: application permission control
+networkmanager: network settings
+openssh: remote login
+power-profiles-daemon: power profiles
+rygel: media sharing
+system-config-printer: printer settings
+
+%MAKEDEPENDS%
+docbook-xsl
+git
+glib2-devel
+meson
+modemmanager
+
+%CHECKDEPENDS%
+python-dbusmock
+python-gobject
+xorg-server-xvfb
+

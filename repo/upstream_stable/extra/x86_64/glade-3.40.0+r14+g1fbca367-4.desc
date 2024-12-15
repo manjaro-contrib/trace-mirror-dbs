@@ -1,0 +1,75 @@
+%FILENAME%
+glade-3.40.0+r14+g1fbca367-4-x86_64.pkg.tar.zst
+
+%NAME%
+glade
+
+%BASE%
+glade
+
+%VERSION%
+3.40.0+r14+g1fbca367-4
+
+%DESC%
+User Interface Builder for GTK+ applications
+
+%GROUPS%
+gnome-extra
+
+%CSIZE%
+2564706
+
+%ISIZE%
+13401735
+
+%SHA256SUM%
+0efa9be194ab3a68d5ce9ea2362e7ecee5d86bdba6e619ef943ff74fb1521be8
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZz9/lgAKCRDwXowSExrrXhRcAP9tIrAFFGynHm2TTquPDJe8p0LRwC1VruemtK1RehNugQEA9uj7sFbdXWe7Q3vX8ouJ4jcoTJ3XEDCSotcjjjAwVgE=
+
+%URL%
+https://glade.gnome.org/
+
+%LICENSE%
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732214600
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%PROVIDES%
+libgladeui-2.so=13-64
+
+%DEPENDS%
+gtk3
+libxml2
+
+%OPTDEPENDS%
+devhelp: development help
+gjs: gjs module
+python-gobject: python module
+webkit2gtk-4.1: webkit2gtk module
+
+%MAKEDEPENDS%
+gtk-doc
+glib2-devel
+gobject-introspection
+itstool
+docbook-xsl
+git
+meson
+gjs
+python-gobject
+webkit2gtk-4.1
+python-setuptools
+
+%CHECKDEPENDS%
+xorg-server-xvfb
+

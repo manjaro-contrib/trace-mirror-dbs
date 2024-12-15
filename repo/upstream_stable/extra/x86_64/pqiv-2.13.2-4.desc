@@ -1,0 +1,84 @@
+%FILENAME%
+pqiv-2.13.2-4-x86_64.pkg.tar.zst
+
+%NAME%
+pqiv
+
+%BASE%
+pqiv
+
+%VERSION%
+2.13.2-4
+
+%DESC%
+Powerful image viewer with minimal UI
+
+%CSIZE%
+105707
+
+%ISIZE%
+340792
+
+%SHA256SUM%
+897af434a59f9afcecd0de14e1905ae448f3b9372145e79c72b757b2e1f29d3e
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmc6Wr8ACgkQek52CV2KUuQq6Af+M9uhNO3480DQagMbALy1e2ijWuv/Wh7Gi9rQ9lRApjS5lrx3mFXHtml86HScteALi+Iax0KyyirFjnglB/6sBm7QecA8lKuftX1G8Aj8HDnhcIVhOJYDj9qETrQ6O2R+PLN3Eu2k+z2/pOmuQmHco5CBabTzLuhN4bCibxfU5BR1dVeICIjHUrXCs/fLfDEyCCaA4jaWYaKnKtjG80a1L5nlvujIwJpFhu6QmNhR2ueOUYD/udcJ5C1Vc4LGhu3ThFvk85QIaFYvl6DdqwRE8IbQ/A94j0TCi2VJK11+zXOKsLlk7i1rEX3BDzCJuUki5fylCd83L5U+4YAdTB/aZg==
+
+%URL%
+https://github.com/phillipberndt/pqiv
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1731877491
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+at-spi2-core
+libatk-1.0.so=0-64
+cairo
+libcairo.so=2-64
+libcairo-gobject.so=2-64
+gdk-pixbuf2
+libgdk_pixbuf-2.0.so=0-64
+glib2
+libgio-2.0.so=0-64
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+libgmodule-2.0.so=0-64
+glibc
+gtk3
+libgdk-3.so=0-64
+libgtk-3.so=0-64
+harfbuzz
+libharfbuzz.so=0-64
+libx11
+pango
+libpango-1.0.so=0-64
+libpangocairo-1.0.so=0-64
+zlib
+libz.so=1-64
+
+%OPTDEPENDS%
+ffmpeg: rudimentary video support
+imagemagick: support for various images formats like PSD
+libarchive: archives and cbX comic book support
+libspectre: PS/EPS support
+libwebp: WebP support
+poppler-glib: rudimentary PDF support
+
+%MAKEDEPENDS%
+ffmpeg
+imagemagick
+libarchive
+libspectre
+libwebp
+poppler-glib
+

@@ -1,0 +1,97 @@
+%FILENAME%
+chromium-131.0.6778.139-1-x86_64.pkg.tar.zst
+
+%NAME%
+chromium
+
+%BASE%
+chromium
+
+%VERSION%
+131.0.6778.139-1
+
+%DESC%
+A web browser built for speed, simplicity, and security
+
+%CSIZE%
+108448912
+
+%ISIZE%
+352124693
+
+%SHA256SUM%
+8386fdcd63b9beec8da3556d3459396a4e39ca53db666f3fab1675879dadbf3d
+
+%PGPSIG%
+iQEzBAABCAAdFiEEhs/8qRjPOvRxR1iAUeixSKmZnDQFAmdZTsMACgkQUeixSKmZnDQPgwf+NrscDDqkeXJTSIFKRgMRgp2lAuSYaCl1sTWu0sDZM8PHyehJkwjUNabRuuZECa4o/FfEbek0SCeQipz0HOLwPt3e8+mbLmeV/xQyihlTKHxC4JuqgUAUlUYSMpMkHl6qd5xN7+J3JhPMPVLfwuGY5yAI/ovGzryQD916GaeFqOcYyucqTKpvlD0xMuz4Wa/XrOX6OaBlY92Dg4b/CrGcQlAhLNlJP+UgxgtL3pii/Lh1UGV7zRRQFShwKbfM/SRymQbKDAyLRp591oJWN1TwJxiDR5h9VdEUg7vwy8a2cFI6/3ySibgxEd9T139TU2x+Id1I9HNy0Rol4hjwSQe+zw==
+
+%URL%
+https://www.chromium.org/Home
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1733901660
+
+%PACKAGER%
+Evangelos Foutras <foutrelis@archlinux.org>
+
+%DEPENDS%
+gtk3
+nss
+alsa-lib
+xdg-utils
+libxss
+libcups
+libgcrypt
+ttf-liberation
+systemd
+dbus
+libpulse
+pciutils
+libva
+libffi
+desktop-file-utils
+hicolor-icon-theme
+fontconfig
+brotli
+libjpeg-turbo
+icu
+flac
+libxml2
+libwebp
+minizip
+opus
+harfbuzz
+libxslt
+libpng
+freetype2
+
+%OPTDEPENDS%
+pipewire: WebRTC desktop sharing under Wayland
+kdialog: support for native dialogs in Plasma
+gtk4: for --gtk-version=4 (GTK4 IME might work better on Wayland)
+org.freedesktop.secrets: password storage backend on GNOME / Xfce
+kwallet: support for storing passwords in KWallet on Plasma
+upower: Battery Status API support
+
+%MAKEDEPENDS%
+python
+gn
+ninja
+clang
+lld
+gperf
+nodejs
+pipewire
+rust
+rust-bindgen
+qt5-base
+qt6-base
+java-runtime-headless
+git
+

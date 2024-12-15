@@ -1,0 +1,57 @@
+%FILENAME%
+arch-wiki-lite-20241202-1-any.pkg.tar.zst
+
+%NAME%
+arch-wiki-lite
+
+%BASE%
+arch-wiki-lite
+
+%VERSION%
+20241202-1
+
+%DESC%
+Arch Wiki without HTML. 1/9 as big, easily searched & viewable on console
+
+%CSIZE%
+17174306
+
+%ISIZE%
+17348872
+
+%SHA256SUM%
+8c207bd31369ab132b23c3e6efdaddffcd81adacdf3b84451675b3dfa27e26c4
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCZ045jwAKCRAAHPSBC+jZETiJAQCI7ibfq1uuld0zlYhesQt95F2OzAsjnjiyR7vqrSMQ5QD9EdTXoKyKZgqN4FqzDyFW7nvGjBZfnAnqGmAYFDkd4QY=
+
+%URL%
+https://gitlab.archlinux.org/grawlinson/arch-wiki-lite
+
+%LICENSE%
+GPL-2.0-or-later
+GFDL-1.3-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1733179734
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+bash
+gzip
+
+%OPTDEPENDS%
+dialog: for interactive menu
+arch-wiki-docs: for wiki-search-html
+xdg-utils: for wiki-search-html
+
+%MAKEDEPENDS%
+git
+python
+arch-wiki-docs=20241202
+
