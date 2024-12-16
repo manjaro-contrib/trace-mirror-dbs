@@ -1,5 +1,5 @@
 %FILENAME%
-linux-rpi5-6.6.64-2-aarch64.pkg.tar.zst
+linux-rpi5-6.12.5-1-aarch64.pkg.tar.zst
 
 %NAME%
 linux-rpi5
@@ -8,25 +8,25 @@ linux-rpi5
 linux-rpi5
 
 %VERSION%
-6.6.64-2
+6.12.5-1
 
 %DESC%
 The Linux Kernel and modules - Raspberry Pi 5 64-bit kernel
 
 %CSIZE%
-30433619
+44611821
 
 %ISIZE%
-33280674
+47317442
 
 %MD5SUM%
-da66e70678029636650d6fff649f1a86
+211136555947c1fffe8455de6fb33257
 
 %SHA256SUM%
-1e62b94f2ea29176d674eede3bc7952763f9a543db00ecf3b1999c548782086b
+151b0df8a75fe64f7c62f60903f34ddf1dad26637ccc592cbd8bf8bb48848d04
 
 %PGPSIG%
-iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmdZ4RUACgkQHzWBGKB6z1eIQgf/a04RHkSwQCaMwbkgM5S+5VWwO2nkEtR5t/UlDyOQ15W654HSLHvsLJmX5Wscr2wKktL7RN9NI/HUccaH/RxLdo1yJtbr2y0n/QW0/4XEXxG0dTr+lpoJMgtD7pw3EuRqTZ3L1MzdBlwjQKl35q7MgX4UBWeb0KiDI4TsBVGta1NVhlRnQ9cC6xDdSoD5DFkYuNBQk4x2OdAzdLKyBj9txqRg7qwEWFRaCX/5MCEWr+7huD8UcMzPgOFSZQK9GQVwRW3G9Vwm9+xe/JDvv3/1huw7Gsrmhz8cZu+RSOawUe2mcU/nt1BOULWRbRKX0E9V2vpCiMi0Hxxgot5C8b/lIg==
+iQEzBAABCAAdFiEEGkw02NQnAhoBEkXfHzWBGKB6z1cFAmdgXYwACgkQHzWBGKB6z1fjNQf/SBM3O7XgbuFaAfozxvLa8T9a4moep9vzNdcLmNbLLR2BeAsLrgEr7WgzRcnd0WZ6QKlnuK7763arEHcIr6kdiX6GGPZrqVA0IcxtxN6zZV4oCRuBQxqVm7+c1GfPAIb477dUg/9HN3azIvAlhGIrn9YBWPp7nQHbTtQcifZ2xDcE9FUUW3sGUGg74e8AoVe5hPw9p0sRLGd0aGC3SlFQXhhDGMaOk9JO5M/WK+MpdfWC6c/r+kPIbgnqXrKqtZN6omuU4FNIdN6Sr4XmE0xpab1IQw4GCr2/UVr57pbR+E7AAChZBtMlmcnWVQaVYacKVhfoJ7TdOAM52NU5KsxMgg==
 
 %URL%
 http://www.kernel.org/
@@ -38,7 +38,7 @@ GPL2
 aarch64
 
 %BUILDDATE%
-1733942704
+1734363128
 
 %PACKAGER%
 Manjaro Build Server <build@manjaro.org>
@@ -48,7 +48,7 @@ linux-rpi5-rc
 linux-rpi5-mainline
 
 %PROVIDES%
-linux=6.6.64
+linux=6.12.5
 
 %DEPENDS%
 coreutils
@@ -56,6 +56,7 @@ kmod
 initramfs
 firmware-raspberrypi
 raspberrypi-bootloader
+scx-scheds
 
 %OPTDEPENDS%
 wireless-regdb: Set the correct wireless channels of your country
@@ -68,4 +69,6 @@ kmod
 inetutils
 bc
 git
+pahole
+zstd
 
