@@ -1,0 +1,77 @@
+%FILENAME%
+bcc-0.32.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+bcc
+
+%BASE%
+bcc
+
+%VERSION%
+0.32.0-1
+
+%DESC%
+BPF Compiler Collection - C library and examples
+
+%CSIZE%
+1004340
+
+%ISIZE%
+3443106
+
+%SHA256SUM%
+a457f0fb63625fda7c1365d7564f82c6f11e762a02a0c6d95f8d2afdc2b2b0fe
+
+%PGPSIG%
+iQIzBAABCAAdFiEEjhmSFnRl21+wRVV8sChU7XU+Dx8FAmdHhiMACgkQsChU7XU+Dx/6vA/8CnsLluiw8lxwp62hFmWlrbEj6ub/2ErPzpXVyAOTIpbBVwkLlEszvaAtPB6y5Zqq0w5GGINKJ1303OOF8Os8clKhlPKjWUv+/+QXgubzbl9Pa2I2chTF7gmhQYIgcuASOhZXlmdJCnIbvMcV3AYDze+UHnSj+C6p4kHjnQeo9VUye755dUmax861jZJe4LUJWkr4Z86FZHbNTzMyl2rkkiZRhAW0X2OOsH2/bL82gC113bPM8OBDOl04URi4Eg6B4lFNTn1g1EIXV8564ZLVCktgjNibx4x6D9h1QkugmRvTfA00xdUP4UwiIuYTu21xafsKHS3tJU1+noFepeXbLWB1EJTYDnRPrQVfIhEnkde6rCR5ePncs9B9zaMIsaIagTy8Bx8iMihcGh7a97M/AE34NCXEjjKYJTxtF+fY0aVvkefiHto1+bRAfkoZA9Fr2qUgr4lsDvQtka9lau7J91E1EU4IdjqwDd7T/ahyG92HXEQM+rlvt3qEoPARdD247Sqg9OjDwMVYsx2sOeg5AdgP3Ix83eCJHkyoTzW2a9XwYAbXLubVYnTJQV3f5PyUpuuj9aSxwiSuNDXBpOqzrpfx1Kqum93wxazrHYOi99rLR4IN2fGaZEJSZiN7+R65MsZbNBu2xtsNRIrCQmdhtyiYcDgohie25aSO7DR3Uqw=
+
+%URL%
+https://github.com/iovisor/bcc
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732740416
+
+%PACKAGER%
+Anatol Pomozov <anatolik@archlinux.org>
+
+%PROVIDES%
+bcc
+libbcc
+
+%DEPENDS%
+clang
+gcc-libs
+glibc
+libbpf
+libbpf.so=1-64
+libelf
+llvm-libs
+python
+xz
+zlib
+
+%OPTDEPENDS%
+linux-headers: build modules against the Arch kernel
+linux-lts-headers: build modules against the LTS kernel
+linux-zen-headers: build modules against the ZEN kernel
+linux-hardened-headers: build modules against the HARDENED kernel
+bcc-tools: Python utilites using the BCC library
+python-bcc: Python 3 bindings for BCC
+luajit: Lua bindings for BCC
+
+%MAKEDEPENDS%
+cmake
+clang
+llvm
+flex
+bison
+libbpf
+python
+python-setuptools
+
