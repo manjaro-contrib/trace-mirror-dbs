@@ -1,0 +1,65 @@
+%FILENAME%
+yosys-0.44-1-x86_64.pkg.tar.zst
+
+%NAME%
+yosys
+
+%BASE%
+yosys
+
+%VERSION%
+0.44-1
+
+%DESC%
+A framework for RTL synthesis
+
+%CSIZE%
+11504661
+
+%ISIZE%
+91861308
+
+%SHA256SUM%
+d04d11b4e8cb19efc5a7641e679160692715a383640ea2d47a70fcc8911a583d
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc8dEUACgkQwGCGM3xQdz46uwf/d7WuoSigI6N6vVt0pXRlw8VFSWImxSXUvitNZxdMcHdWoF4F+os+S4bFaG5E+urA9vuXZxtCUmHscgcUpJx2T2Nkqv0DZDK5KbaSDeki1YD4pd4jQ4M3N99bBQXmR5gogWAXcEtvRi4yS+8tKw6wX98gABsTeXlEF//Bd57katMvY0eDO6LQ1YUwADnpjaAkV6dRyK0MmswYsRjhh3uF7PtI3G4+I3ZmQ83KMRSotyvrVcNBO6kKwQy05YHm7HIrTqEagNkhEMVVi08N0AmmZi7tlHgmieKKamzxQXiBEkkcGZTAlGQ0/c27zdjSJXg0TQnW+go12TcUhHFFSeZr7g==
+
+%URL%
+https://yosyshq.net/yosys/
+
+%LICENSE%
+custom:ISC
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732014192
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+abc
+bash
+boost-libs
+tcl
+libffi
+python
+protobuf
+
+%OPTDEPENDS%
+graphviz: Schematics display support
+xdot: Display netlists
+yices: default solver for yosys-smtbmc
+cvc4: alternative solver for yosys-smtbmc
+z3: alternative solver for yosys-smtbmc
+
+%MAKEDEPENDS%
+boost
+git
+
+%CHECKDEPENDS%
+iverilog
+

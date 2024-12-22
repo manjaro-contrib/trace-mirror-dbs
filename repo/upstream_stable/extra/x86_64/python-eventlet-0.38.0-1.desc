@@ -1,0 +1,69 @@
+%FILENAME%
+python-eventlet-0.38.0-1-any.pkg.tar.zst
+
+%NAME%
+python-eventlet
+
+%BASE%
+python-eventlet
+
+%VERSION%
+0.38.0-1
+
+%DESC%
+Highly concurrent networking library
+
+%CSIZE%
+1403237
+
+%ISIZE%
+11729763
+
+%SHA256SUM%
+c03bf3cd3af89a4b4c36d866f4b89ae80c8540e39dc9ac175b1425c15a29050a
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc+++UACgkQwGCGM3xQdz7TOQgAkcvceYm0CwACFLGEyRksLGK35cgNe98B2OS70am10q82f96T2/xB1gHdaaYCIxxn94rr4i5un/V68Y4SFaYrtGT7PAhGjHf1nF8tBWq0v3Wkln+XfLwtxNGltkloe6+wYsMUba1IhC1EbSCieCtJMJQGO8TNov/+6sqbAVyMSIGWTkncPu9TEAog0XfQSVK2bqwNbJsA+oSLFN7MKDuCLm8PETnzIWbOeTLYGKVSwKETSs0KVsfUamomKbykydcNGLKZcCokBASF2HEJYNtIGSUdEZcaZb9c+38UwepHOr488QORXFmfe/w8RUAhlwlGLPXcuWxTVF0OSQswr8aeQg==
+
+%URL%
+https://eventlet.net
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732180861
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-greenlet
+python-dnspython
+
+%OPTDEPENDS%
+python-psycopg2: non-blocking PostgreSQL support
+python-pyopenssl: non-blocking SSL support
+python-httplib2: non-blocking HTTP support
+python-pyzmq: non-blocking ZeroMQ support
+python-dnspython: non-blocking DNS support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-sphinx
+python-sphinxcontrib-apidoc
+python-hatchling
+python-hatch-vcs
+
+%CHECKDEPENDS%
+python-psycopg2
+python-pyopenssl
+python-httplib2
+python-pyzmq
+python-pytest
+

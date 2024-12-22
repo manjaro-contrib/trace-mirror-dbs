@@ -1,0 +1,77 @@
+%FILENAME%
+doublecmd-qt5-1.1.21-2-x86_64.pkg.tar.zst
+
+%NAME%
+doublecmd-qt5
+
+%BASE%
+doublecmd
+
+%VERSION%
+1.1.21-2
+
+%DESC%
+twin-panel (commander-style) file manager (Qt5)
+
+%CSIZE%
+8319742
+
+%ISIZE%
+44949204
+
+%SHA256SUM%
+790693328672181b4753ef668f75064c18d4fb09868b5eaf5840136941314958
+
+%PGPSIG%
+iHUEABYKAB0WIQRTHs82RKRP6gtH283h488FOUSL/wUCZ01xBgAKCRDh488FOUSL/9JUAQCDyXQx2w4D+GTV33zaEetvMe7/cweyq8IkdSffwqdX/wD/WBrwQpihQ8US82ZanEpyrrB9GuCQFwoloTqMnod1VA8=
+
+%URL%
+http://doublecmd.sourceforge.net/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1733127980
+
+%PACKAGER%
+Ike Devolder <ike.devolder@archlinux.org>
+
+%REPLACES%
+doublecmd-qt
+doublecmd-qt4
+
+%CONFLICTS%
+doublecmd-gtk2
+doublecmd-qt6
+
+%PROVIDES%
+doublecmd
+
+%DEPENDS%
+qt5pas
+desktop-file-utils
+hicolor-icon-theme
+shared-mime-info
+
+%OPTDEPENDS%
+lua: scripting
+unzip: support extracting zip archives
+zip: suport packing zip archives
+p7zip: support for 7zip archives
+libunrar: support for rar archives
+imagemagick: preview xcf files
+ffmpegthumbnailer: preview video files
+mplayer: to make use of the wlxmplayer plugin
+
+%MAKEDEPENDS%
+lazarus
+gtk2
+qt5pas
+qt6pas
+imagemagick
+ffmpegthumbnailer
+

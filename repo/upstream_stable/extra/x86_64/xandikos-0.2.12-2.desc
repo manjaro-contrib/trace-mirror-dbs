@@ -1,0 +1,63 @@
+%FILENAME%
+xandikos-0.2.12-2-any.pkg.tar.zst
+
+%NAME%
+xandikos
+
+%BASE%
+xandikos
+
+%VERSION%
+0.2.12-2
+
+%DESC%
+Lightweight yet complete CardDAV/CalDAV server that backs onto a Git repository
+
+%CSIZE%
+237504
+
+%ISIZE%
+1518167
+
+%SHA256SUM%
+6bd6e117987f9380e7d1b8e6af673b07c9d534713fe0259417b56999986b5402
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdKJekACgkQwGCGM3xQdz7Cdgf/fCc8e3qffoDTkO+E9zi7pd3GxbiEW6Q9eagbvyn6TpuJqcMMgXEufWrTtSD4X/SkyMPjQ5GFT6CFw/9qWurxbp3LGxJPFbKnzoOLCrB2h5L9xW0+1rBV5+6tEGDNwbjG19nT+MB+ZZNU+4eH4FMlnvNKLRuLDd08K3o8URN33WwjQEJsoaPz4DwUWQaIHgYAqjZ4gwWvxQTslSckYSIURBz/D4HWgv+qsr64cQtAiKLwMD9cZ6L+hdU4jZJ5Ec7klNbBIpRGNo5ADHItIiU3Y3IeQmBiNTcZhGmgCWtIsYZkFY+Tfo0OfA0Ct5sUG0rpYzIwp6XoDh5SKKoUcWqAEA==
+
+%URL%
+https://www.xandikos.org
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732912604
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python-aiohttp
+python-defusedxml
+python-dulwich
+python-icalendar
+python-jinja
+python-multidict
+python-vobject
+
+%OPTDEPENDS%
+python-aiohttp-openmetrics: for metrics with the standalone server
+python-systemd: for systemd socket activation
+uwsgi-plugin-python: for the WSGI interface
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+

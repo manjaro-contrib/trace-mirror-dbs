@@ -1,0 +1,73 @@
+%FILENAME%
+dns-lexicon-3.18.0-2-any.pkg.tar.zst
+
+%NAME%
+dns-lexicon
+
+%BASE%
+dns-lexicon
+
+%VERSION%
+3.18.0-2
+
+%DESC%
+Manipulate DNS records on various DNS providers in a standardized/agnostic way
+
+%CSIZE%
+377217
+
+%ISIZE%
+2761059
+
+%SHA256SUM%
+728cb47086b6b2c34030fc1c3885a97ac752e1c708c10a26500d08c21747561d
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdFysEACgkQwGCGM3xQdz7O7Qf/QQ+ULyDJYQ8g49ggBh0Qb8SD37361uLD9P6x0kPkOzeHHPJVsIZAVGztXqXFQxhxxFwzWoYU7LMD+5OkuPOoiLsbWubxBYV7wwBCb59+ewR7nKluRXfJ7kSPVsMjYhx4CcuyoHH8gy6Dc1ZE+bi4YXO3Uv45TFIvmnfelfDf0Z9vlo0MKziQkmDi16uucBFLZiuQLvS1WxhEh0SqDlcZeVQ5yJFetU8m1M3/8ksOlsD2t6aZfpUmftVIWJuFRozHwVQXIusFgtKWaUB6jtUPQhk02e4H8C20wMWWtoo363usxWJ1qR111CCLvhm9E+hq9XMflbgw4RJfsa1W2jatsQ==
+
+%URL%
+https://github.com/AnalogJ/lexicon
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732627121
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python-beautifulsoup4
+python-cryptography
+python-yaml
+python-requests
+python-tldextract
+python-importlib-metadata
+python-pyotp
+python-dnspython
+
+%OPTDEPENDS%
+python-boto3: for Route53 support
+python-localzone: for localzone support
+python-softlayer: for SoftLayer support
+python-zeep: for Gransy support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-poetry-core
+
+%CHECKDEPENDS%
+python-pytest
+python-vcrpy
+python-boto3
+python-localzone
+python-softlayer
+python-zeep
+bind
+

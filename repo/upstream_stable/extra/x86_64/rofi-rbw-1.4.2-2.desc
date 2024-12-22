@@ -1,0 +1,63 @@
+%FILENAME%
+rofi-rbw-1.4.2-2-any.pkg.tar.zst
+
+%NAME%
+rofi-rbw
+
+%BASE%
+rofi-rbw
+
+%VERSION%
+1.4.2-2
+
+%DESC%
+Rofi frontend for Bitwarden
+
+%CSIZE%
+48111
+
+%ISIZE%
+220383
+
+%SHA256SUM%
+067065745ffcaa74a94261cd899e11d7f1f552152c5fe621305314c8e6e5d635
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZzwm0gAKCRDwXowSExrrXjjcAP0ZQFmtAwaHDhu/3gqQ9St69z4T50soCxLr4HRIshETywD5Ab13O421h+DOmbIhSCrvENX0ln7DjT3fNH3dZiji8AY=
+
+%URL%
+https://github.com/fdw/rofi-rbw
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1731995331
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python-configargparse
+rbw
+
+%OPTDEPENDS%
+rofi: for the X.Org selector
+xclip: for one of the X.Org clipboarders
+xsel: for one of the X.Org clipboarders
+xdotool: for an X.Org typer
+wofi: for the Wayland selector
+wl-clipboard: for the Wayland clipboarder
+wtype: for a Wayland typer
+ydotool: for a generic typer
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-poetry-core
+python-wheel
+

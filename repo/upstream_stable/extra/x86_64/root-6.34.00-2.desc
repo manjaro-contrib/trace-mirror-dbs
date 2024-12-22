@@ -1,0 +1,118 @@
+%FILENAME%
+root-6.34.00-2-x86_64.pkg.tar.zst
+
+%NAME%
+root
+
+%BASE%
+root
+
+%VERSION%
+6.34.00-2
+
+%DESC%
+C++ data analysis framework and interpreter from CERN
+
+%CSIZE%
+151772610
+
+%ISIZE%
+526078761
+
+%SHA256SUM%
+1aebc10bbcb63f151763e78b63ae25f52c21d8e3e6e5be32488a1057f5b1e20a
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCZ1sAlgAKCRAAHPSBC+jZEdijAQCod44fIwOxejrrEmB8QNA9WEA0CIpQxjDFhytcG1ILWAEAk6JJ9Y4j1mumeaMAVvzewRZBXU6BZu9HQ8eXK1ZtlAc=
+
+%URL%
+https://root.cern
+
+%LICENSE%
+LGPL2.1
+GPL
+custom:University of California and Stanford University License
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1734014616
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+blas
+desktop-file-utils
+fcgi
+fftw
+ftgl
+giflib
+gl2ps
+glew
+graphviz
+gsl
+hicolor-icon-theme
+libafterimage
+librsvg
+liburing
+libxpm
+nlohmann-json
+pcre2
+python
+python-numpy
+tbb
+tex-gyre-fonts
+unixodbc
+xxhash>=0.6.5-1
+zstd
+
+%OPTDEPENDS%
+cern-vdt: Add a set of fast and vectorisable mathematical functions
+chromium: Support for WebGUI
+cfitsio: Read images and data from FITS files
+libmariadbclient: MySQL support
+libxml2: XML parser interface
+openmpi: Support for Message Passing Interface (MPI)
+openssl: OpenSSL support
+postgresql-libs: PostgreSQL support
+pythia8>=8.2.40-1: Pythia8 EG support
+python-pygments: syntax highlighting in interactive console
+qt5-webengine: Support for WebGUI
+sqlite: SQLite support
+tcsh: Legacy CSH support
+unuran: Support non-uniform random numbers
+vc: Add types for portable and intuitive SIMD programming
+xrootd>5: Support remote file server and client
+z3: Suuport the Z3 theorem prover
+gcc-fortran: Enable the Fortran components of ROOT
+
+%MAKEDEPENDS%
+ccache
+cern-vdt
+chromium
+cfitsio
+cmake
+cuda
+cudnn
+gcc-fortran
+git
+go
+libxml2
+libmariadbclient
+ninja
+ocaml
+ocaml-ctypes
+openmpi
+openssl
+postgresql-libs
+pythia8>=8.2.40-1
+python-pygments
+qt5-webengine
+sqlite
+unuran
+vc
+xrootd>5
+z3
+

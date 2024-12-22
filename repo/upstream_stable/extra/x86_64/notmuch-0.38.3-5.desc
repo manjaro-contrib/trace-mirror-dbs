@@ -1,0 +1,70 @@
+%FILENAME%
+notmuch-0.38.3-5-x86_64.pkg.tar.zst
+
+%NAME%
+notmuch
+
+%BASE%
+notmuch
+
+%VERSION%
+0.38.3-5
+
+%DESC%
+Notmuch is not much of an email program
+
+%CSIZE%
+287553
+
+%ISIZE%
+1768981
+
+%SHA256SUM%
+dc77ea9ba4f51e794aa7abb4e08214428578770db825f9d2fb61283431d96096
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc6HHwACgkQwGCGM3xQdz7fKAf/UAV4NnIIAfBYbGgVNOm1e+6r4NWbAVTcZtXJzwbEvfmq1uNf/ZWUIWWLCEnaKm+1fIcG7qC5LWhiY7uVf+RSA2ufTgzEf1sarq1on8+PhECioRgTUz56u4wmlHWwn8CL/tlvnmgPepvpinzVhkKONOeZqXeLLCUb/X5tAOddrEe6EteZPp+jjAiIsTnjxddJOIfO1GYq5QgAXORIaAKDVvlZwVBg9aMfI0Q9X6Bo8O9W4vMGc2h2K8boQu2cqBtVHUM8yxR+CnUb5x4GWx9uWEZatC2q5L4p5ZLRyndj91Ica/dQruqkAN3vsQre6p4DbJ8Fog+YC777cKUmT5sJBQ==
+
+%URL%
+https://notmuchmail.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1731861485
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+notmuch-runtime
+
+%OPTDEPENDS%
+emacs: for using the emacs interface
+vim: for using the vim interface
+python-cffi: for using the python-cffi bindings
+ruby: for using the ruby bindings
+gnupg: for email encryption
+
+%MAKEDEPENDS%
+python
+python-build
+python-cffi
+python-installer
+python-setuptools
+python-sphinx
+python-wheel
+doxygen
+emacs
+gnupg
+ruby
+pkgconfig
+xapian-core
+gmime3
+talloc
+sfsexp
+

@@ -1,0 +1,70 @@
+%FILENAME%
+python-pytest-testinfra-10.1.1-4-any.pkg.tar.zst
+
+%NAME%
+python-pytest-testinfra
+
+%BASE%
+python-pytest-testinfra
+
+%VERSION%
+10.1.1-4
+
+%DESC%
+Testinfra test your infrastructures
+
+%CSIZE%
+152017
+
+%ISIZE%
+759879
+
+%SHA256SUM%
+84a665138a0f299c93bf6535a311fa4d65389e908eebd832b316626ea954e815
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdLQnEACgkQwGCGM3xQdz7jBgf+J+ZOcT/6YVTBX1ayX798kgxBSl21IQX9Yi9GMGZYDy5sjxx4Ln3Ik8tIsv0QkJ4lcOFPAm9Nn4Ro3OGOtz4vIzmZBO7SSD08MRQmwkMh8WFbWKNpEjBdVKy8+bqqGvPVIUnzocDxTEwanDpUHR1C1p8DsPvR69x7wAzo+NJHGuuv+nemgQDSjfo5poMFm3SI8lgBQUCX5CBaOaeiWbMouHUJ9JcboR9gt2yHe37iIIv8r2gvX4xb7SbY9WEkyzih3b2sLww7+sCp7TYZitJdSUtOZGWRGAG7c8wn6SoS1xnmw7jxiWBRX+KJKAHki4cfd/EGQ5k3Q7WfcBnJbgPJtA==
+
+%URL%
+https://github.com/pytest-dev/pytest-testinfra
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732985426
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-pytest
+
+%OPTDEPENDS%
+ansible: for tests using ansible inventories
+docker: for test running docker containers
+kubectl: for test running containers in kubernetes
+lxd: for test running LXC or LXD containers
+podman: for test running podman containers
+python-paramiko: for testing remote hosts
+python-pywinrm: for testing on Windows hosts
+salt: for tests using saltstack
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools-scm
+python-sphinx
+python-wheel
+
+%CHECKDEPENDS%
+ansible
+python-paramiko
+python-pytest-xdist
+python-pywinrm
+python-tornado
+

@@ -1,0 +1,85 @@
+%FILENAME%
+molecule-24.12.0-2-any.pkg.tar.zst
+
+%NAME%
+molecule
+
+%BASE%
+molecule
+
+%VERSION%
+24.12.0-2
+
+%DESC%
+Aids in the development and testing of Ansible roles
+
+%CSIZE%
+159029
+
+%ISIZE%
+1024832
+
+%SHA256SUM%
+250b9f4e8f5779d17a276636b243355a56ce026f0941c764d492cfd191e002d0
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmdR8XYACgkQ/cMEC5Ksp0hoeA//U2TV2VBEpIJZle3+toZ0AmODVKaDbBooT467nYQQSUIAK8/Yb+IG9VSnM8gsGNH1iHxM232bt6lb7lVROoNBXLjXwNWCVlZ6LfTsneWPDNTmsRw5iouRtEeHk4NBm0yLbaUnvrpbsAZgTjGBkZGwN/I7HLHj9jg6exr2eplUZAC/G0ayZMnwjgeT89RV7rixW+7WSU/EXC51TTTaDuu1gHDJ7OVz1yTm579JEL57HJLkGKqsOAIOAZLTFYY2Mj8sKF8MOlktpV5zbLgaJoedYNP+75B0knbhNxoiwpYPCpVgDzYAVHDWEn3ilDzIvhP2gf7RNHVP+zflz7WeBnPSNHmvuYA6e2pi/qytTrLmTsQjHap4vVEYum2vRmpFkSu7VmwW440vGFrnz/nb8USkZygdSd4COXpvXTHrtMA7MQPf6CqajMbv732Yut5A8d3KTgvRrxH34w95T23P4INFg01W8f+32o5qNQGgAIH7WlVplpN+eTks85GQioHVjGuOO6X5cJ9IGzfLwostMTdWS3k/bTXFBvKwU8bZA8wZpw29al2pi7GO361dYFqZLW95me2GxdTRK6HpRjuPtBROPk+7meiUp6rJlPgDBLKNjCgGwNowsyjI4usAmYEGQL3l2XfHuBX2cv+wGiFrqK+hBDwvs1IilIlct7xO+ycoy8U=
+
+%URL%
+https://github.com/ansible-community/molecule
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1733423437
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-ansible-compat
+python-click
+python-click-help-colors
+python-enrich
+python-jinja
+python-jsonschema
+python-packaging
+python-pluggy
+python-pyyaml
+python-rich
+python-wcmatch
+
+%OPTDEPENDS%
+ansible: for the ansible verifier
+molecule-docker: for the docker driver
+molecule-podman: for the podman driver
+molecule-vagrant: for the vagrant driver
+python-pywinrm: for Windows support
+python-pytest-testinfra: for the testinfra verifier
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+git
+
+%CHECKDEPENDS%
+ansible
+check-jsonschema
+python-ansi2html
+python-filelock
+python-pexpect
+python-pytest
+python-pytest-mock
+python-pytest-testinfra
+python-pytest-xdist
+python-regress
+yamllint
+

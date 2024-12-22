@@ -1,0 +1,73 @@
+%FILENAME%
+doublecmd-gtk2-1.1.21-2-x86_64.pkg.tar.zst
+
+%NAME%
+doublecmd-gtk2
+
+%BASE%
+doublecmd
+
+%VERSION%
+1.1.21-2
+
+%DESC%
+twin-panel (commander-style) file manager (GTK2)
+
+%CSIZE%
+8300859
+
+%ISIZE%
+44730804
+
+%SHA256SUM%
+cd1fa701d86bb3cdb6097559ba65aa285c1ed6cc5afd5bdb724932f958fcddbb
+
+%PGPSIG%
+iHUEABYKAB0WIQRTHs82RKRP6gtH283h488FOUSL/wUCZ01xBgAKCRDh488FOUSL//WHAQCrYkY5Cw2FyxRw+8t7gc0HH1DyUERrK8JJ9XqWvbh4HgEAqdh3wRDMZzngY/U68RV2rIo7jVD6GijUtDAQjaOjOw8=
+
+%URL%
+http://doublecmd.sourceforge.net/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1733127980
+
+%PACKAGER%
+Ike Devolder <ike.devolder@archlinux.org>
+
+%CONFLICTS%
+doublecmd-qt5
+doublecmd-qt6
+
+%PROVIDES%
+doublecmd
+
+%DEPENDS%
+gtk2
+desktop-file-utils
+hicolor-icon-theme
+shared-mime-info
+
+%OPTDEPENDS%
+lua: scripting
+unzip: support extracting zip archives
+zip: suport packing zip archives
+p7zip: support for 7zip archives
+libunrar: support for rar archives
+imagemagick: preview xcf files
+ffmpegthumbnailer: preview video files
+mplayer: to make use of the wlxmplayer plugin
+
+%MAKEDEPENDS%
+lazarus
+gtk2
+qt5pas
+qt6pas
+imagemagick
+ffmpegthumbnailer
+

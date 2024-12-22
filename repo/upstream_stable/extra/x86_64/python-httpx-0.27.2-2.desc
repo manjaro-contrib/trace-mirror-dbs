@@ -1,0 +1,82 @@
+%FILENAME%
+python-httpx-0.27.2-2-any.pkg.tar.zst
+
+%NAME%
+python-httpx
+
+%BASE%
+python-httpx
+
+%VERSION%
+0.27.2-2
+
+%DESC%
+A next generation HTTP client for Python
+
+%CSIZE%
+170480
+
+%ISIZE%
+1008635
+
+%SHA256SUM%
+71805531a2743aceaf70b9a0dd2cf4ec8b433ff70cb74da18703be4bfcd5b78f
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc/B98ACgkQwGCGM3xQdz4qlwgAgI6ZAfup9sXU5AgFh+t7L+Oi1BGow9T04qYEI1nzaM6SW6So+b22j5SFinoxtQUJtynPSEeK5gquedZWQIUsnPCuMxIWLlQpnSbeAa3aOxnOaAsey1epi5vvj4+/Lk9mC6pPTWw5fGAZ6arlbUJBpApGpGh7RRy5l2kEukVM7TNJ5AcGW67vkrMaqV94hrgA9ssZVykImHjJdNN3ASfOXV7qNrDrii8ElStBAsxMMsMHdbWWqURBY3artx6kSLBCtfSefdStxJJb5y9/2+kSoHIcQ6URzz/iZMTnneQS0R7e+HPoS5VXFcuLiyPseEoL9/ol1nni/UY3rG7nsjSiyQ==
+
+%URL%
+https://github.com/encode/httpx
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732184011
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-certifi
+python-httpcore
+python-idna
+python-sniffio
+python-anyio
+
+%OPTDEPENDS%
+python-brotli: for brotli response decompression
+python-brotlicffi: for brotli response decompression
+python-zstandard: for zstd response decompression
+python-h2: HTTP/2 support
+python-socksio: SOCKS proxy support
+python-click: command line client support
+python-rich: command line client support
+python-pygments: command line client support
+python-trio: alternative async library
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-hatchling
+python-hatch-fancy-pypi-readme
+python-pygments
+
+%CHECKDEPENDS%
+python-pytest-asyncio
+python-pytest-trio
+python-typing_extensions
+python-brotli
+python-brotlicffi
+python-h2
+python-trustme
+uvicorn
+python-socksio
+python-rich
+python-chardet
+python-zstandard
+

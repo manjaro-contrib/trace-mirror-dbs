@@ -1,0 +1,120 @@
+%FILENAME%
+brltty-6.7-2-x86_64.pkg.tar.zst
+
+%NAME%
+brltty
+
+%BASE%
+brltty
+
+%VERSION%
+6.7-2
+
+%DESC%
+Braille display driver for Linux/Unix
+
+%CSIZE%
+1922753
+
+%ISIZE%
+10000154
+
+%SHA256SUM%
+76f347d488eef560ecf8e089b92db4f556d5fa82c22176d57092aec1cfe2fe7e
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZzrsvwAKCRDwXowSExrrXqXZAQDi64LgmxPcqiE5toTASc9idFPhEn0q8pJU55d2LNUfTAD+OskJ5eUSAELObOd2LFXrZdLUq88B0NmykYXHeRUXXg0=
+
+%URL%
+https://brltty.app
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1731914848
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%PROVIDES%
+libbrlapi.so=0.8-64
+
+%DEPENDS%
+alsa-lib
+libasound.so=2-64
+bluez-libs
+dbus
+libdbus-1.so=3-64
+expat
+libexpat.so=1-64
+glib2
+libgio-2.0.so=0-64
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+glibc
+gpm
+libgpm.so=2-64
+icu
+libicuuc.so=75-64
+libcap
+liblouis
+libspeechd
+ncurses
+libncursesw.so=6-64
+pcre2
+polkit
+systemd-libs
+libsystemd.so=0-64
+
+%OPTDEPENDS%
+at-spi2-core: X11/GNOME Apps accessibility
+brltty-udev-generic: for initializing brltty with generic USB devices
+espeak-ng: espeak-ng driver
+java-runtime: Java support
+libxaw: X11 support
+libxt: X11 support
+libx11: for xbrlapi
+libxfixes: for xbrlapi
+libxtst: for xbrlapi
+ocaml: OCaml support
+python: Python support
+speech-dispatcher: speech-dispatcher driver
+tcl: tcl support
+
+%MAKEDEPENDS%
+alsa-lib
+at-spi2-atk
+at-spi2-core
+atk
+bluez-libs
+cython
+dbus
+dracut
+espeak-ng
+expat
+festival
+gcc-libs
+glibc
+glib2
+gpm
+icu
+java-environment
+libcap
+liblouis
+libspeechd
+libxaw
+ncurses
+ocaml-ctypes
+ocaml-findlib
+pcre2
+polkit
+python-setuptools
+speech-dispatcher
+strip-nondeterminism
+systemd-libs
+tcl
+

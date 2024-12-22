@@ -1,0 +1,68 @@
+%FILENAME%
+glances-4.2.1-2-any.pkg.tar.zst
+
+%NAME%
+glances
+
+%BASE%
+glances
+
+%VERSION%
+4.2.1-2
+
+%DESC%
+CLI curses-based monitoring tool
+
+%CSIZE%
+817936
+
+%ISIZE%
+4433750
+
+%SHA256SUM%
+c56c5c4e837cdb442bd256df0307b9142fca7b34c8d1ab7a1994f8431a7070a6
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdNzLgACgkQwGCGM3xQdz5SDAf+Ljx2B4S4NXVG7+yETOzuq85DYsUrpKNrCK8LO9buc28Im30ZsZLXWo3AvTXJiHfLaVrm19iz7NuIXTmLRtJUA1BvLW/+rwU/7CAjF9D8UqZN4YmdSnpqhLC/93pOX3s1gsp98KZP92Vx7cWfG4Sg34aeYlWOyqXlCvMkHnafMRZecaOLLwCcj2pYMIvfaTIXREAIqrMuVxkh1/Oi09y6cZ1InEGHeDYb75br9dsb5umSTq0Dau1x+CJ77xjIrLlbZbD64DnKy9sbY8hr9Q/SlininPsQMXCpbfUD14uIvW08k2Q8fIhJl7Y1key1EKunCH9spPtxFmKbWW58OG3g3A==
+
+%URL%
+https://nicolargo.github.io/glances/
+
+%LICENSE%
+LGPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1733151910
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-psutil
+python-defusedxml
+python-orjson
+python-pydantic
+python-packaging
+
+%OPTDEPENDS%
+hddtemp: HDD temperature monitoring support
+uvicorn: for WebUI / RestFull API
+python-jinja: for WebUI / RestFull API
+python-fastapi: for WebUI / RestFull API
+python-docker: for the Docker monitoring support
+python-matplotlib: for graphical/chart support
+python-netifaces: for the IP plugin
+python-zeroconf: for the autodiscover mode
+python-pystache: templating engine
+python-prometheus_client: for the Prometheus export module
+
+%MAKEDEPENDS%
+python-setuptools
+python-build
+python-installer
+python-wheel
+

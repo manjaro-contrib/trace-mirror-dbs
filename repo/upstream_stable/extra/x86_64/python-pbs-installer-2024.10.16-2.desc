@@ -1,0 +1,54 @@
+%FILENAME%
+python-pbs-installer-2024.10.16-2-any.pkg.tar.zst
+
+%NAME%
+python-pbs-installer
+
+%BASE%
+python-pbs-installer
+
+%VERSION%
+2024.10.16-2
+
+%DESC%
+Installer for Python Build Standalone
+
+%CSIZE%
+64352
+
+%ISIZE%
+710098
+
+%SHA256SUM%
+e255b5413640c1d190399f77a57c69b18716055a5e75307caa6fbc5b9a87f25e
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc51xYACgkQwGCGM3xQdz5e1Af/cff8kA7gJCFD+jRevaAGQMTHMt0voly+tB/TPBXrahyjfJt1wPNlgpFY710plM4iHhp4UHTsH2abAAmW46UajukPCuNPYwpQlUMC/D2i+Yipuen2DifHklOrzO8TB6BVuWVFPo8ZXixnjTfZP+TskQA2CFl+wafwKGdyNFQ6jpNbt5TJ9XlK2Te/jqC2wUlk9sWoHPNjOcs95OcLnWAKA1dUfKXLHeBzfFpc0wG7DPOOWKQ3RiC53cySaFuqMMQL8730jNHytNyxRmiTIo+MhBaLO+jEt4HBBBNqxKuf+gdQLYZwT5rDTeP7QVoA/bf96MGT5FavcrZN51pEH7Cjjw==
+
+%URL%
+https://github.com/frostming/pbs-installer
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1731843852
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-httpx: for download support
+python-zstandard: for zstd installation support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-pdm-backend
+

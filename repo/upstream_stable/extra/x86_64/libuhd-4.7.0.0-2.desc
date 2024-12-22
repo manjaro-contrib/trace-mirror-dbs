@@ -1,0 +1,67 @@
+%FILENAME%
+libuhd-4.7.0.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+libuhd
+
+%BASE%
+libuhd
+
+%VERSION%
+4.7.0.0-2
+
+%DESC%
+Universal Software Radio Peripheral (USRP) userspace driver
+
+%CSIZE%
+8784918
+
+%ISIZE%
+39501895
+
+%SHA256SUM%
+5e9dd0c10f6475c445504c57a8079db8091d2393256e4885d1c4fa28d3eda5b8
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc/bjYACgkQwGCGM3xQdz7AxQf+L3OwQ4gUeCWDnhhePVlss1zIYbmwUtATLwqMM/k4HwNF3nmKm+3dGjRNPrFfC+eEoaHU5SoBr3CI98I522+YS64U1z3H6HxBqsL+xhGHdU7IMMdwxc49EFAmluF/r3N9g50pLLugqzZvkBM1HT+P2X8xMB9YOh9/8ACmAnbeaHl6a6ywMShmUHVP3FZf0UiuRXt3hh8Ko5ml2EyKUx7YZu4hE9izZxh24rYFgl3gD1zXNX2K03i5Dh1LXoeNNCaSZy8aZ7bTjkcJiI1qXlvyY5HjdJAg8NN5p/q+QneNiHIuuvFRK0RtsvSVkPQ1mK9K8CHrFsdrqoiaYlBAMuTCmA==
+
+%URL%
+https://files.ettus.com/manual/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732209995
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%PROVIDES%
+libuhd.so=4.7.0-64
+
+%DEPENDS%
+boost-libs
+gcc-libs
+glibc
+libusb
+orc
+
+%OPTDEPENDS%
+python-mako: for imgbuilder
+python-numpy: for Python bindings
+python: for Python bindings and USRP utils
+
+%MAKEDEPENDS%
+boost
+cmake
+python-mako
+python-numpy
+python-setuptools
+
+%CHECKDEPENDS%
+python-requests
+

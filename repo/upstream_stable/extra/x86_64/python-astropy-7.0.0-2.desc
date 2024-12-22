@@ -1,0 +1,79 @@
+%FILENAME%
+python-astropy-7.0.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-astropy
+
+%BASE%
+python-astropy
+
+%VERSION%
+7.0.0-2
+
+%DESC%
+Common core package for Astronomy
+
+%CSIZE%
+8869738
+
+%ISIZE%
+54825160
+
+%SHA256SUM%
+2ad892fdc760f522cb6e891bb69e6b7eb224f3829367cd4576ec1873c03dbc03
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmdKDcIACgkQek52CV2KUuTQCAf+Lh8u7ugLI2XACYqA0BWfCa3E2fbF0SzEyyEOh1coYduXr6AXyGUAktklMhKJM4ViFRgReDfGqZdsnaNhpj7f5LygKlkkyyAle2ZDhNop2Aq1QVCaABOvuIAEzOC3Mi5bCoS02JvQ8dSWnWegxdSxOaDQv56XAzXew47gQGFXvb4ShdSeKp3imHWR7PUq8xSn4dX1a/ECzD6r+uGRrWk810fBp5cPdodkJLdYjd6NjQIUPo4jiGdeNjKGO/bsWLsbJ7SE3/RI9ya/Lpcu8tT7TJTEC3sfuB+e56Dy6Qmex5iOvA6DoDtwVPEiBkMnFeziUyaoxfOxtBdOcUWGgQxdUw==
+
+%URL%
+https://www.astropy.org/
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732906143
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python
+expat
+wcslib
+python-numpy
+python-pyerfa
+python-yaml
+python-packaging
+python-astropy-iers-data
+
+%OPTDEPENDS%
+python-matplotlib: plotting functionality astropy.visualization
+python-scipy: variety of features in several modules
+python-certifi
+python-dask
+python-h5py: read/write Table objects from/to HDF5 files
+python-beautifulsoup4: read Table objects from HTML files
+python-html5lib: read Table objects from HTML files using the pandas reader
+python-bleach: sanitize text when disabling HTML escaping in the Table HTML writer
+libxml2: validates VOTABLE XML files
+python-pandas: convert Table objects from/to pandas DataFrame objects
+python-sortedcontainers: faster SCEngine indexing engine with Table
+python-pytz: specify and convert between timezones
+python-setuptools: discovery of entry points which are used to insert fitters into astropy.modeling.fitting
+python-mpmath: ‘kraft-burrows-nousek’ interval in poisson_conf_interval
+python-bottleneck: improves the performance of sigma-clipping and other functionality that may require computing statistics on arrays with NaN values
+python-pyarrow: read/write Table objects from/to Parquet files
+python-fsspec: opening remote and cloud-hosted FITS files
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools-scm
+python-extension-helpers
+cython
+

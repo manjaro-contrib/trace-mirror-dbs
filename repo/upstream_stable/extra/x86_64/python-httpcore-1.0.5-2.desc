@@ -1,0 +1,69 @@
+%FILENAME%
+python-httpcore-1.0.5-2-any.pkg.tar.zst
+
+%NAME%
+python-httpcore
+
+%BASE%
+python-httpcore
+
+%VERSION%
+1.0.5-2
+
+%DESC%
+A minimal HTTP client
+
+%CSIZE%
+124233
+
+%ISIZE%
+974416
+
+%SHA256SUM%
+a2e911c6f6746a4dad00eb0a7ed0e3e8e8125dfeed3a2ca5c42d2e9f87796fbb
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc/B60ACgkQwGCGM3xQdz4migf/e+linNsp7wms67HHIvsgH2XFpkhJnc7qXGA/SXZRhs05m14naF+k5Kk4peE4Mra8EGA4b8j8yDVlTIQD9yuqpCo20ubUYnKLByqy1iDrp+k0zc/mjlA8MGH68BnS65Reknp/2/fiBXjj+h3Rackqpjl6bK16jjPPG0Lb5NWuZUQU3ABnQTW1Z1I0aHnD8DWhXJYPvGPAhZRB1wHKdoAauVVvIlXBfJnvKzuLImutbxgHV90lmZMwHOeR+FNvu1qQ5qJBVn8FsvYcRpr9mjdb2ZKAl/R58SeAYrMXckvlmrdc/TEsSvSsGzUAyuIBupbC55k+x4eu+Ghyl4qx5cF3qA==
+
+%URL%
+https://github.com/encode/httpcore
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732183967
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-h11
+python-certifi
+
+%OPTDEPENDS%
+python-h2: for HTTP/2 support
+python-socksio: for SOCKS support
+python-anyio: for asyncio backend
+python-trio: for trio backend
+python-sniffio: for async support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-hatchling
+python-hatch-fancy-pypi-readme
+python-h2
+python-socksio
+python-trio
+python-anyio
+python-sniffio
+
+%CHECKDEPENDS%
+python-pytest-httpbin
+python-pytest-trio
+

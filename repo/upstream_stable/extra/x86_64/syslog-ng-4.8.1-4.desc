@@ -1,0 +1,126 @@
+%FILENAME%
+syslog-ng-4.8.1-4-x86_64.pkg.tar.zst
+
+%NAME%
+syslog-ng
+
+%BASE%
+syslog-ng
+
+%VERSION%
+4.8.1-4
+
+%DESC%
+Next-generation syslogd with advanced networking and filtering capabilities
+
+%CSIZE%
+1844776
+
+%ISIZE%
+8557748
+
+%SHA256SUM%
+99231eddb79555981fe528bcfbb2b2bc850e3d47bcf15d54fb5ca95515f3f906
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdN3BEACgkQwGCGM3xQdz69ZggAln8GoR+1g1OoenkP6vhtmzom9MKosvB0YIRvxXMB7Ci+MTnBKrFg71LRfY+0k+WXInZISL3quS/sBi5qtqRGmyp33peRJI99qtZDKMz0fc1FzJNflU1tKLZSfS0A7AowY7jwKeCgMBemJRFbj9eYdrScfuffU3xUR3djijDQkj9ckDtR1sFgnbQ4sbESPeGq0BfdXFYbzraEcgS90P2w6RRDlH/8y7G61uKK/Fg843Qfj8no4jwQCt6OeXOw7i2Rf/oOvSPoZWVAQd9XV7sjl+jukwccRMQLxOgg7R1ENSE4g/B2EjQkJYncd2vfCloAk/oeFfRT8RLqFUCZwQncYA==
+
+%URL%
+https://github.com/syslog-ng/syslog-ng
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1733155683
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%REPLACES%
+eventlog
+
+%CONFLICTS%
+eventlog
+
+%DEPENDS%
+abseil-cpp
+bash
+curl
+gawk
+gcc-libs
+glib2
+glibc
+grpc
+json-c
+libcap
+libnet
+openssl
+pcre2
+protobuf
+systemd-libs
+
+%OPTDEPENDS%
+hiredis: for the Redis plugin
+libdbi: for the SQL plugin
+libesmtp: for the SMTP plugin
+libmaxminddb: for the GeoIP2 plugin
+librabbitmq-c: for the AMQP plugin
+librdkafka: for the Kafka C plugin
+logrotate: for rotating log files
+mongo-c-driver: for the MongoDB plugin
+net-snmp: for the SNMP plugin
+python-boto3: for Python S3 module
+python-botocore: for Python S3 module
+python-kubernetes: for Python Kubernetes module
+python-ply: for debugger CLI
+python-requests: for Python hypr module
+python: for Python-based plugins
+
+%MAKEDEPENDS%
+autoconf-archive
+docbook-xsl
+git
+hiredis
+libdbi
+libesmtp
+libmaxminddb
+librabbitmq-c
+librdkafka
+libxslt
+mongo-c-driver
+net-snmp
+python
+python-boto3
+python-botocore
+python-cachetools
+python-certifi
+python-charset-normalizer
+python-dateutil
+python-google-auth
+python-idna
+python-kubernetes
+python-oauthlib
+python-ply
+python-pyasn1
+python-pyasn1-modules
+python-pyyaml
+python-requests
+python-requests-oauthlib
+python-rsa
+python-setuptools
+python-six
+python-urllib3
+python-websocket-client
+systemd
+
+%CHECKDEPENDS%
+criterion
+gperf
+python-pytest
+python-pytest-mock
+

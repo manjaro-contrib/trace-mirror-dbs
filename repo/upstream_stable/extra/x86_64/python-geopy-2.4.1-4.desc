@@ -1,0 +1,66 @@
+%FILENAME%
+python-geopy-2.4.1-4-any.pkg.tar.zst
+
+%NAME%
+python-geopy
+
+%BASE%
+python-geopy
+
+%VERSION%
+2.4.1-4
+
+%DESC%
+Geocoding library for Python
+
+%CSIZE%
+158716
+
+%ISIZE%
+1197334
+
+%SHA256SUM%
+5c61e29475154f7d804f6c8b9722a834e68d1948bd8032525955244f7efa4f60
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZ0Q36QAKCRDwXowSExrrXqmFAP9rdhkVwgSrElpgQpV9kMCK93wwjbEoocrZALEVY/+klQEAjIe6cyimo4MEvkvoDtaQw+IKh4pJozYWPJueuVisfAc=
+
+%URL%
+https://github.com/geopy/geopy
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732523968
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-geographiclib
+
+%OPTDEPENDS%
+python-aiohttp: for async http support
+python-requests: for requests support
+python-pytz: for timezone support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-aiohttp
+python-pytest-asyncio
+python-pytest-aiohttp
+python-pytest
+python-pytz
+python-requests
+

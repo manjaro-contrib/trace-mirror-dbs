@@ -1,0 +1,65 @@
+%FILENAME%
+python-cachelib-0.13.0-2-any.pkg.tar.zst
+
+%NAME%
+python-cachelib
+
+%BASE%
+python-cachelib
+
+%VERSION%
+0.13.0-2
+
+%DESC%
+A collection of cache libraries in the same API interface. Extracted from werkzeug
+
+%CSIZE%
+46524
+
+%ISIZE%
+239825
+
+%SHA256SUM%
+8e427bcfa91332d1546b456892f5632db2478faecd1819876359361fb2cfbb73
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZ0u+nQAKCRDwXowSExrrXgBIAQDmQ9p8x7fS1fFRZQAYZEIsMd/5Qr/Hv6CQ5olFWPbv5gD/W67tCqBG12Wmtdwgc9T8aOUeMEw3HjRn3+RMwPiHugo=
+
+%URL%
+https://github.com/pallets/cachelib
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1733017141
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-boto3: for S3 backend
+python-pylibmc: for memcached backend
+python-pymongo: for MongoDB backend
+python-redis: for Redis backend
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+memcached
+python-boto3
+python-pylibmc
+python-pytest-xprocess
+python-redis
+redis
+

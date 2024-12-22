@@ -1,0 +1,103 @@
+%FILENAME%
+python-moto-5.0.22-2-any.pkg.tar.zst
+
+%NAME%
+python-moto
+
+%BASE%
+python-moto
+
+%VERSION%
+5.0.22-2
+
+%DESC%
+Moto is a library to mock out the boto library.
+
+%CSIZE%
+6169730
+
+%ISIZE%
+44412760
+
+%SHA256SUM%
+a3461748ab6629c966ffb8cd20610391d368f1d0c99e232e2c55f67ca6a2f8c4
+
+%PGPSIG%
+iHUEABYKAB0WIQQNmeQ7UMKtIbreRjJJPeIcgk6VQQUCZ17XBAAKCRBJPeIcgk6VQdNEAP9TS9R3lC0F0zw5ZSbB5vmLiZ038dInRpXp9+qvqNexPgD7BnVLq9TbLX38uEpPr/T7k+G0ODZNzb8b2jedbx7yeQs=
+
+%URL%
+https://github.com/spulec/moto
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1734268107
+
+%PACKAGER%
+Chih-Hsuan Yen <yan12125@archlinux.org>
+
+%DEPENDS%
+python
+python-boto3
+python-botocore
+python-cryptography
+python-requests
+python-xmltodict
+python-werkzeug
+python-dateutil
+python-responses
+python-jinja
+python-urllib3
+
+%OPTDEPENDS%
+python-yaml: for apigatewayv2, cloudformation, s3 and ssm
+python-joserfc: for apigateway, cloudformation and cognitoidp
+python-openapi-spec-validator: for apigateway and cloudformation
+python-docker: for awslambda, batch, cloudformation, dynamodb and dynamodbstreams
+python-graphql-core: For appsync and cloudformation
+python-jsondiff: for iotdata and cloudformation
+python-aws-xray-sdk: for xray and cloudformation
+python-cfn-lint: for cloudformation
+python-pyparsing: for glue and cloudformation
+python-py-partiql-parser: for cloudformation and s3
+python-crc32c: for s3
+python-flask: for moto_server
+python-flask-cors: for moto_server
+python-multipart: for moto_proxy
+python-antlr4: for stepfunctions
+python-jsonpath-ng: for events, stepfunctions
+python-jsonschema: for quicksight
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-order
+python-freezegun
+python-yaml
+python-joserfc
+python-openapi-spec-validator
+python-docker
+python-graphql-core
+python-jsondiff
+python-aws-xray-sdk
+python-cfn-lint
+python-pyparsing
+python-py-partiql-parser
+python-crc32c
+python-flask
+python-flask-cors
+python-multipart
+python-antlr4
+python-jsonpath-ng
+python-jsonschema
+

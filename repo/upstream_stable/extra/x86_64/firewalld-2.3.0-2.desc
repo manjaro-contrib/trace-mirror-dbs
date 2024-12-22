@@ -1,0 +1,64 @@
+%FILENAME%
+firewalld-2.3.0-2-any.pkg.tar.zst
+
+%NAME%
+firewalld
+
+%BASE%
+firewalld
+
+%VERSION%
+2.3.0-2
+
+%DESC%
+Firewall daemon with D-Bus interface
+
+%CSIZE%
+1202391
+
+%ISIZE%
+24064616
+
+%SHA256SUM%
+7f603a88133810ef2cf694336911db4dbcd886ddaed19e403d4d1d60049755ad
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdGPgMACgkQwGCGM3xQdz4AVAgAlinU8m31I5+kSBlbqvg3SX0+RHnG2/eUx9z0DV8XM3Y/ZByh+OhoL0JaqDmKgwaKlNG+jQWz2KjSyXIQ/QMNKpr5CoaqMppTSW78fCpEpLN38SYBoJTV+UH+q5rp+rbpbV59LaMRB+XFTbeMorFGgeZFsgaF+h88SmY9ym+YRd53O4QDMNkV5iwTSUWqBX/N921g5SQa0SUCvl1oSPxGZH/E7AY1OA1ZmS0KdyOPxwu87WsjzoLb8ijrhAuu3Mmf9Ki2RwHFxjGy9czCofWdepG5tDaSbegQYmaAMwzow8bXPdeqqpsohBSECS0LZqOYKf0FyRe49yDawpfLqe5HwQ==
+
+%URL%
+https://firewalld.org
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732656608
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python-dbus
+glib2
+hicolor-icon-theme
+nftables
+python-capng
+python-gobject
+
+%OPTDEPENDS%
+bash-completion: bash completion
+gtk3: firewall-config
+libnotify: firewall-applet
+networkmanager: NetworkManager support
+polkit: privileged actions
+python-pyqt6: firewall-applet
+
+%MAKEDEPENDS%
+docbook-xsl
+git
+intltool
+podman
+

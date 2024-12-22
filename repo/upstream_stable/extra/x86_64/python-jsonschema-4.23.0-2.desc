@@ -1,0 +1,79 @@
+%FILENAME%
+python-jsonschema-4.23.0-2-any.pkg.tar.zst
+
+%NAME%
+python-jsonschema
+
+%BASE%
+python-jsonschema
+
+%VERSION%
+4.23.0-2
+
+%DESC%
+An implementation of JSON Schema validation for Python
+
+%CSIZE%
+192107
+
+%ISIZE%
+1394656
+
+%SHA256SUM%
+270bc2c307a693eb021ece24217dda238b43d124a049b6209f5c2aa5b60f1c3c
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc8rBMACgkQwGCGM3xQdz5NMAf9Egn2zuoiGmYiKIaxiXGCNqwpBtOxJU9rtc/5Pl5Dg2GUIsCHwfaUx70vSC8ra4YxiGDLQ3SNaF8WjhiwQU+g67Rd8BoTYV0nC98lXUutBXv5PKPAiPYwaso/hHZe/a02dRyfVHgGomsqnWXfZljR+tOs0HYzIT+gcFJHlWUd1COna/FIjJV65/ipgNdBWKfAyA8/6Qh3LZd3p/zEKV7bUhNkSrubVhhVBhasASzhCkKiL796TrLQdQYiY3jZrZBmpGbDz4y2uJaUHbRgPy2EO4DWZ9D8791CytElcTIc+Oq4jWpRd8TIOQJMEdf8BZ3L8iyE0XADC9D2skHqWABDLg==
+
+%URL%
+https://github.com/python-jsonschema/jsonschema
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732029446
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-attrs
+python-referencing
+python-jsonschema-specifications
+
+%OPTDEPENDS%
+python-isoduration: for duration format
+python-fqdn: for hostname format
+python-idna: for idn-hostname format
+python-jsonpointer: for json-pointer & relative-json-pointer format
+python-rfc3339-validator: for date-time format
+python-rfc3987: for iri, iri-reference, uri & uri-reference format
+python-uri-template: for uri-template format
+python-webcolors: for color format
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-wheel
+python-hatchling
+python-hatch-vcs
+python-hatch-fancy-pypi-readme
+
+%CHECKDEPENDS%
+python-pip
+python-twisted
+python-isoduration
+python-fqdn
+python-idna
+python-jsonpointer
+python-rfc3339-validator
+python-rfc3987
+python-uri-template
+python-webcolors
+

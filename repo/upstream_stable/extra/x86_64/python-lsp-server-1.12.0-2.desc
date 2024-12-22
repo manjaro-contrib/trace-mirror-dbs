@@ -1,0 +1,88 @@
+%FILENAME%
+python-lsp-server-1.12.0-2-any.pkg.tar.zst
+
+%NAME%
+python-lsp-server
+
+%BASE%
+python-lsp-server
+
+%VERSION%
+1.12.0-2
+
+%DESC%
+Fork of the python-language-server project, maintained by the Spyder IDE team and the community
+
+%CSIZE%
+151843
+
+%ISIZE%
+742855
+
+%SHA256SUM%
+421573afe15d29e5441f78d40630f9425a398ed7c5e8f959f942f615ed5659ee
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdQb7sACgkQwGCGM3xQdz6rdQf8Cfn0nTemwSKxRRBPa1mEfekH3EkqB+DZZ1UfC6R+lKPBgtRqw+I9TlUi1zQjbdhlaktgBrspj4DPNGqSdTfs1OU/368pjNQTGPRyqi5Ri5xzT5btXPOIwoUZB4EnxfVCgO4o1Nv5MrkV+Ql0PcrzUcQ61PtD7M9dtytlDYaWSo+yesTJmU2uV4hloYzD1L0N0NG1OqHGiT5nmlr7yQTs+IgJxz2MPIogFk/hBYV8Hf2PAx3VH6u1dzuMkbUuvOxZspIyjBxEMPySf2jfpYE2C3GKe87jIP++mf6zXLEEfXdI43UgcVQfi2B2xlT8kd32DDkrva1ugttSOrrU9yGm2w==
+
+%URL%
+https://github.com/python-lsp/python-lsp-server
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1733324652
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python-jedi
+python-lsp-jsonrpc
+python-pluggy
+python-ujson
+python-websockets
+python-docstring-to-markdown
+
+%OPTDEPENDS%
+python-mccabe: complexity checking
+python-pycodestyle: linter - style checking
+python-pydocstyle: linter - docstring style checking
+python-pyflakes: linter to detect various errors
+python-pylint: code linting
+python-rope: for completions and renaming
+autopep8: code formatting
+flake8: error checking
+yapf: code formatting (preferred)
+python-whatthepatch: required for yapf support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-flaky
+python-mccabe
+python-pycodestyle
+python-pydocstyle
+python-pyflakes
+python-pylint
+python-rope
+autopep8
+flake8
+yapf
+python-whatthepatch
+python-matplotlib
+python-numpy
+python-pandas
+python-pyqt5
+python-appdirs
+

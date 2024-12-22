@@ -1,0 +1,70 @@
+%FILENAME%
+python-structlog-24.4.0-2-any.pkg.tar.zst
+
+%NAME%
+python-structlog
+
+%BASE%
+python-structlog
+
+%VERSION%
+24.4.0-2
+
+%DESC%
+Structured Logging for Python
+
+%CSIZE%
+116860
+
+%ISIZE%
+681768
+
+%SHA256SUM%
+08bfd733ca90831407b74eb99f82d33130bc33335b4c074f869e5ada7df1c31f
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc9yM4ACgkQwGCGM3xQdz4b9Qf7BvsOo/mWYrwcDl+dO2W+1Dcy8Yb8fE2iyGfVkEFVtKS+wvTRIOh0j71pVCsWAfp0Da6XlF9ywV3AakllpvIbr5OJTByYcicUbukkJEBs/AeZmyjla/zvlZgN21zZqxDMRF905yy7GFQ1HSBhphUVxpz0YK6HbUtJBySL5QkOFlxGvItwDLGD+ksn+Eirht154lHPbC54tYbgueNrD1tafghA1V4vafFaKaOZIbR5Pkq/pbI79Xt5HWvjhS7vWf1lRmTAcJ5jFY/mgL9mZa7/y8kiPv5yHFiNvk3P+I8DkdENEgE0UjAhvgCpqpTIJt/8gv4Sxt6ZuG3mz0fqtYwAxA==
+
+%URL%
+https://www.structlog.org
+
+%LICENSE%
+MIT OR Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732102320
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-greenlet: for greenlet support in structlog.threadlocal (deprecated)
+python-twisted: for structlog.twisted
+python-rich: for structlog.dev
+
+%MAKEDEPENDS%
+git
+openssh
+python-build
+python-installer
+python-hatchling
+python-hatch-vcs
+python-hatch-fancy-pypi-readme
+
+%CHECKDEPENDS%
+python-pytest
+python-freezegun
+python-pretend
+python-simplejson
+python-twisted
+python-rapidjson
+python-greenlet
+python-pytest-asyncio
+python-rich
+

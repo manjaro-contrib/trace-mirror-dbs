@@ -1,0 +1,65 @@
+%FILENAME%
+frescobaldi-3.3.0-4-any.pkg.tar.zst
+
+%NAME%
+frescobaldi
+
+%BASE%
+frescobaldi
+
+%VERSION%
+3.3.0-4
+
+%DESC%
+A LilyPond sheet music text editor
+
+%CSIZE%
+2851728
+
+%ISIZE%
+14643595
+
+%SHA256SUM%
+e71eb35568a886fa3cedc0bd0ff581548fd4d184f216bacc5e504305e6703bcf
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc89qcACgkQwGCGM3xQdz7PqAgAnCpv617eA6dcpdrCbpY5cbWUn7rITJYeQ6n9Y9H5ZBMq5nPgPLZJ/w3chC0+8PcRD2V9AZqMZemkBdT/lxhSjZ2/jNGwLGDx2tpe8fsIQQmUfZuC9HVCMWdJ6abkujhxU4TMt39QPgDllcsXJq4cxxVhLqUWRiYh+LxZgd8/+0l4/mrde3PdX/uIo24QSn7OmNc7hKzPxja/Hbk57qvjfmbbZyRcFwNsgxzRHon5tADLTnu8j1FKHX4XXJGDFW92PpCvvaQJ0qozNhnB+Mbxpo7m35dl2qamzYSTE4fZtHMH+ysVCZwnsxtY51mwp/jMyR64PyRK2BpSUwZD2/lhdQ==
+
+%URL%
+https://www.frescobaldi.org/
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732048491
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-pyqt5
+python-pyqt5-webengine
+python-ly
+poppler
+python-poppler-qt5
+python-qpageview
+qt5-base
+qt5-svg
+
+%OPTDEPENDS%
+lilypond: music engraving
+python-pygame: MIDI input and playback
+python-pycups: printing to a CUPS server
+hyphen-lang: hyphenation patterns for desired languages
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+

@@ -1,0 +1,60 @@
+%FILENAME%
+pyzo-4.18.0-2-any.pkg.tar.zst
+
+%NAME%
+pyzo
+
+%BASE%
+pyzo
+
+%VERSION%
+4.18.0-2
+
+%DESC%
+Cross-platform Python IDE focused on interactivity and introspection, very suitable for scientific computing.
+
+%CSIZE%
+1960834
+
+%ISIZE%
+8919094
+
+%SHA256SUM%
+e426486e626fee6c99837b5b526293d5fc08d4f287efd6c816b9f6728ac8578d
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdJnoUACgkQwGCGM3xQdz4mCQf+Osrt/CBz1YSQXv4KAV46YvvG2vdc0tJb5ezYewyQbptmqLxvD535/iSvi4tFXqZNWNNk7mEVSVEwAECINKGzP/pT+GmVgbrxleERYR3aXDW28IykXHpPLEYSgOPSgHZRsw6Wjk9VxxjwuwVCiv2oCLdhIw+PVj2387dG4vksnhX3L3BgbTQzq9r9Ux1tw3kgpglvApehbeHdze/uwdDLA6lKKjWFWwkZKI2BewiDot26YGnMEIIjbR4PKoC/WZFL5LPyB6M8iH9oR2fcEHsTxinxfN5q+33Sv9NC/1ubIQh/mmNxgZJTD8b1OurschsKjFF2wyMn8HsmalUpsBy3bw==
+
+%URL%
+https://pyzo.org
+
+%LICENSE%
+BSD-2-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732877920
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python-packaging
+
+%OPTDEPENDS%
+pyside6: Qt6 backend
+python-pyqt5: Qt5 backend
+python-pyqt6: alternative Qt6 backend
+
+%MAKEDEPENDS%
+python-setuptools
+
+%CHECKDEPENDS%
+python-pytest
+pyside6
+python-pyqt5
+python-pyqt6
+xorg-server-xvfb
+

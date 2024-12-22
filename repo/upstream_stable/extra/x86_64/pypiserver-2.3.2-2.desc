@@ -1,0 +1,68 @@
+%FILENAME%
+pypiserver-2.3.2-2-any.pkg.tar.zst
+
+%NAME%
+pypiserver
+
+%BASE%
+pypiserver
+
+%VERSION%
+2.3.2-2
+
+%DESC%
+Minimal PyPI server for uploading and downloading packages with pip/easy_install
+
+%CSIZE%
+223933
+
+%ISIZE%
+1150498
+
+%SHA256SUM%
+71d305e16ba5d637535e41b2ce7d732a291345919c94056c896aacb667316e3c
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdKMicACgkQwGCGM3xQdz7kLAf/feh30mirA/odQJMPc3MPqBz84dO4rz8o4fI/IivKkxXAwVY5y8NFHZc8C8O/fI2VWep+cf7Vq+vC1ULDoot8rLp1kSV58wo/1SEEcXKJ5fDWl+y1w4yYNEAYQeNcvvW0rQXypTKifuYB0kC8119MSMiwkYTV23biH5dN1jAbePLjvlGCrZjp1FWr/njK9WbrAJac+vUrGLERd30teV4ErtEMIBdDmVyQDpgoaAd8exoBXOOQNVOmGqXc2VE5rLCH4duYiAt5SwJeH7TZVrhL11DwA/RIo6+sEBrntLwG8M9pC3/IUUgxiHFyARy44SrLNljfK40XS9SPBN7/ky49pg==
+
+%URL%
+https://github.com/pypiserver/pypiserver
+
+%LICENSE%
+MIT
+Zlib
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732915731
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-pip
+
+%OPTDEPENDS%
+python-passlib: for authentication
+python-setuptools: for new - still inactive - config module
+python-waitress: for waitress support
+python-watchdog: for cache
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-git
+python-wheel
+
+%CHECKDEPENDS%
+python-httpx
+python-passlib
+python-pip
+python-pytest
+python-watchdog
+python-webtest
+

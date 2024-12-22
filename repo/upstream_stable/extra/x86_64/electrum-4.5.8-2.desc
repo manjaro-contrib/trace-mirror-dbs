@@ -1,0 +1,84 @@
+%FILENAME%
+electrum-4.5.8-2-any.pkg.tar.zst
+
+%NAME%
+electrum
+
+%BASE%
+electrum
+
+%VERSION%
+4.5.8-2
+
+%DESC%
+Lightweight Bitcoin wallet
+
+%CSIZE%
+6701874
+
+%ISIZE%
+27745909
+
+%SHA256SUM%
+3195297f0aa07e558388dde13425fdbaedf709b480c058230a2d7f60faef1fcd
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdHOhgACgkQwGCGM3xQdz7oQQf+LxI4dxKLUpjBsyhXvKPUcaUlRewjiiyOT6PAKaQBqVf62HHOHerl+2Re3d7NSL6NAI6Mh6jbowBP0Oe8x5J+WdNHWOH8KiTQyPPC88e8iHts3I5n59kMFN1y+BwIq787/7ZdOyepwFguCeK4l3EnZiRirkAqF9ufkb6UbGofkSUCVGN0eIkv0IkoBKlYvLBnaI/IAITFLkNGu2VOuaF9CPQ1iQT6mjsTBvH239k4MYk3bqcvcYTiv9gV39QRSsxF+QO0wxBuznTiR0EKzkzNSXcHV+q8LpNyj9In6TJ3fW8p4m1OxOkADWiVM26b3tMoG/7QCGOS+luC9cgMa8F9Lg==
+
+%URL%
+https://electrum.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732721010
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+hicolor-icon-theme
+libsecp256k1
+python
+python-aiohttp
+python-aiohttp-socks
+python-aiorpcx
+python-attrs
+python-certifi
+python-cryptography
+python-dnspython
+python-jsonpatch
+python-pillow
+python-protobuf
+python-pyaes
+python-pyqt5
+python-qrcode
+
+%OPTDEPENDS%
+python-btchip: BTChip hardware wallet support
+python-hidapi: Digital Bitbox hardware wallet support
+python-matplotlib: plot transaction history in graphical mode
+python-pycryptodomex: use PyCryptodome AES implementation instead of pyaes
+python-qdarkstyle: optional dark theme in graphical mode
+python-rpyc: send commands to Electrum Python console from an external script
+python-pyqt6: QML GUI
+qt6-declarative: QML GUI
+zbar: QR code reading support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pycryptodomex
+python-pyqt6
+python-pytest
+qt6-declarative
+

@@ -1,0 +1,78 @@
+%FILENAME%
+freeradius-3.2.6-4-x86_64.pkg.tar.zst
+
+%NAME%
+freeradius
+
+%BASE%
+freeradius
+
+%VERSION%
+3.2.6-4
+
+%DESC%
+The premier open source RADIUS server
+
+%CSIZE%
+2139324
+
+%ISIZE%
+10779239
+
+%SHA256SUM%
+3f323b71544ee941815a8c575d3efb306ab46e9644dbb87c1ed236c17f371e97
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc/WasACgkQwGCGM3xQdz6fwQgApXMSdjx20VdYH5A4JxJlYUArpNbOUuzBH4wxgD7T9UHocENgT5jzuYr3od8vN2IutgpvZm5Jjww9coNrSqIRXAPRuM3uH72Vx7PbupO9kL/8D4PR+/HVWCEdIWmaQzN50zyVcQFQa1KA01QRqBqcEIDorUpllISyvMTNMCEq5BJSffroBDXPORbjObx6nvr/M49qqQ3/caCXDZ6WkkWJjdskNY96gN/5uQjauFbmqX6H8a1uoGKnuRxPTKoUbYXFm/Hz2i/dtSy7V7C2wtAsYp04bqtnE6qpe53GsKqbMUR+yStg6pdel73rTFSBBnexcEfobi67D9QuZ/RQFSFaNw==
+
+%URL%
+https://freeradius.org/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732204788
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+krb5
+net-snmp
+postgresql-libs
+mariadb-libs
+talloc
+libpcap
+libxcrypt
+libcrypt.so=2-64
+smbclient
+
+%OPTDEPENDS%
+curl: for REST
+freetds: for Sybase and MS SQL
+hiredis: for redis support
+json-c: rlm_rest module
+libmemcached: for memcached
+perl: for Perl
+python: for Python
+sqlite: for sqlite
+unixodbc: for ODBC
+yubico-c-client: for yubicloud
+
+%MAKEDEPENDS%
+curl
+freetds
+hiredis
+json-c
+libmemcached
+perl
+python
+samba
+sqlite
+unixodbc
+yubico-c-client
+

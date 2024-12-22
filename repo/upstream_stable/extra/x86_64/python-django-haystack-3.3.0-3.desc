@@ -1,0 +1,67 @@
+%FILENAME%
+python-django-haystack-3.3.0-3-any.pkg.tar.zst
+
+%NAME%
+python-django-haystack
+
+%BASE%
+python-django-haystack
+
+%VERSION%
+3.3.0-3
+
+%DESC%
+Modular search for Django
+
+%CSIZE%
+233420
+
+%ISIZE%
+1385348
+
+%SHA256SUM%
+c013caa2648e514890c5cb8d64515fd8e1b854d44ababe33ae58cf9cfaca0381
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdN2nsACgkQwGCGM3xQdz4CgAf/UVYkQNurwc1ZP6CpjpTv+EpMovhB95cHdHtoGEMQjVN+NCvbRREHRWa2y5sZm3nEHiZvklVjmtqX28vB429p1boUpjHTZUHxyulN6kRJJS71tUZfPBUuVkdKr/87HH1MnLYG5C4OF+Hm3ziDkgVbuCwDjvJNmlEXNhOtvxAQDB322TMEDhMjzyUGM/c7p2mUzOJmnGFFa43e+6kTzdggnIXCtwa/WIBjM+X0rxzJ8Exgcq8rbq209HE9iVbV5EIvza4d+QTezI9slBhcsgccktfi1UclFSbqvH6iiJklJZQAi6boemas55I07K71l9Yi66ikgNY/MvIxjA5AcD3l7g==
+
+%URL%
+https://github.com/django-haystack/django-haystack
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1733155429
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-django
+python-packaging
+
+%OPTDEPENDS%
+python-elasticsearch: interface with an elasticsearch instance as search backend
+python-pysolr: interface with a solr instance as search backend
+python-whoosh: use whoosh as search backend
+python-xapian-haystack: use python-xapian as search backend
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-dateutil
+python-elasticsearch
+python-geopy
+python-pysolr
+python-requests
+python-whoosh
+

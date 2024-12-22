@@ -1,0 +1,71 @@
+%FILENAME%
+duplicity-3.0.3-2-x86_64.pkg.tar.zst
+
+%NAME%
+duplicity
+
+%BASE%
+duplicity
+
+%VERSION%
+3.0.3-2
+
+%DESC%
+A utility for encrypted, bandwidth-efficient backups using the rsync algorithm
+
+%CSIZE%
+906983
+
+%ISIZE%
+5557449
+
+%SHA256SUM%
+840f59be53950b6572f62afec11e6732601ace0f7bc95c93328b577c340fe961
+
+%PGPSIG%
+iQIzBAABCAAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmc/OI0ACgkQk7EdqkwZfj3nORAAkylQovqiZHSq07ROyH9moUNsXbwT9cSy444se5U/wiayjsvkWYks3bsGUOR9wQAds7A0ENT+fNq/XPneEJ36GrdU/+/b+zcoR1CIfmyTiPS4czqVkyNE1UOOkeEagmpJWKI+QowB5MEUuWPqD2dyajvBMhh0Bgc2VtXH0BEpDo2PBaSH4V79rSWLYURrEx6UYsH3k3mRvc4kt8CuDg8KAPdqaFZmZf6QjQiVj8eBjn8/vc+EHABhN/SEOxdoEsqcV90szOlgF1NqdinL5vhqAfKAXXfjPwN7tWaN/VDERVxaYh3asdW22OxbU9qWa2/I2+/d5BmAw4svvScw+IN01jNaFdQoiac19Cmomt+7eUPqVUitDwSu9zf2bA3SmdQGnWl71Fwug+s9NmqbYwsOSRihp86woMHmqHtRqUB9CT2wuOnR/BoQeVX+an1m08/CKfj3GESM3XK1wJb5VJc07MiLMBgBYC0YS5ewuJkAeO0KnYo0OCooAchNRWUnYII1HgCF/+PjImuhqkzyyKEzY6TlYfENIB58TjNJVJ+hGyo3YYwJwtbGKPFfswS1zZrshe0dg4/NJE9vN5H5c4JUuWWSDZn49gas4JqRwotwPZUk+v4dorT0bNWS0kN4iVwd8lH6NH+Aa+NHEdEyCXffurKTu4EViWjdCZPtWLe6cn0=
+
+%URL%
+https://duplicity.gitlab.io/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732196470
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+gnupg
+librsync
+python-fasteners
+
+%OPTDEPENDS%
+lftp: backend for ftp, ftps, fish
+ncftp: alternative backend for ftp
+python-b2sdk: Backblaze B2 backend
+python-boto3: Amazon S3 and Google Cloud Storage backend
+python-dropbox: Dropbox backend
+python-gobject: GIO backend
+gvfs: GIO backend
+python-paramiko: SSH paramiko backend
+python-pexpect: SSH pexpect backend
+python-pydrive2: Google Drive backend
+python-mediafire: Mediafire backend
+python-requests-oauthlib: OneDrive backend
+rclone: rclone backend
+rsync: rsync backend
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+

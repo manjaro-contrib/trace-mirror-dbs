@@ -1,0 +1,67 @@
+%FILENAME%
+tmuxp-1.47.0-3-any.pkg.tar.zst
+
+%NAME%
+tmuxp
+
+%BASE%
+tmuxp
+
+%VERSION%
+1.47.0-3
+
+%DESC%
+Tmux session manager built on libtmux
+
+%CSIZE%
+135641
+
+%ISIZE%
+638266
+
+%SHA256SUM%
+9f1c550ddbfdc28c09c8288ab85d53ae90192cd72f9daab9a4e5c07a3e5a320e
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc7ayQACgkQwGCGM3xQdz4agwgAtRYzxF/TU2hzzUN10vOTIigIvOu33DxUvZCz6nlzAjB4QiDOSlc4K/3xd/8n0EKV2q7mPryPmIU4vzni0Spbs8w7QGAIYyV0TL+vLzZ0oY71D2iT2Qu+wr3mcu8jM2wAkz6lCVMqNPuugapQvJa2Y3OBokNrGYSwbXcmXGsp1MDOCiA9hNbNEyZbKw9JDaQuPa0KmO3oX9psVQ/oqbYERL+lzjgyYgGK6Fk9wDX/eY4tL1t7SczLaywiNih/hajTFrY+36zoEqOsGRLFPuln5uaZatrEFGT6CDnJfiSjx1whVGb4Zsl3I3bwU/l+13EgY3IMze7WmUw1QxhKI1cydQ==
+
+%URL%
+https://tmuxp.git-pull.com/en/latest/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1731947265
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-colorama
+python-libtmux
+python-pyyaml
+python-typing_extensions
+
+%OPTDEPENDS%
+python-shtab: for workspace completion and import
+ipython: for alternative CLI
+python-prompt_toolkit: for alternative CLI
+bpython: for alternative CLI
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-poetry-core
+python-shtab
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-mock
+python-pytest-rerunfailures
+

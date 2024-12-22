@@ -1,0 +1,64 @@
+%FILENAME%
+python-wheel-0.45.0-3-any.pkg.tar.zst
+
+%NAME%
+python-wheel
+
+%BASE%
+python-wheel
+
+%VERSION%
+0.45.0-3
+
+%DESC%
+A built-package format for Python
+
+%CSIZE%
+68252
+
+%ISIZE%
+295141
+
+%SHA256SUM%
+6b93044a2aa52de33e3834560a40d8cf279a579f875f4223164c545c8bf89916
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc4m1YACgkQwGCGM3xQdz7QAQf/Wz7tqfcxuGZxzUbnAKXnPNArBSlnislGSm6B0BKn3lIqr6G5b1HrhNabEJ2IK2DvBaSq/54lwNMeFL2aSUGyMNvx3zfJkuU9aY7YiLhj+85/crhUyP+zKtOcdvMPxyuHiAVD0xsVJXmCu8lBxi9BlDEZ8St6PrdMhoI+QehjAgCHcEYzjyF0LTDLlmR0rOVtVwM9iAJusUfUrUnfN5NC38a+/0r2p52U9xYQqzXAtjvtQga+VaBWrfShdW/oewBzXjRndRrodZQB3/eIzoeKB88jT8Hs/uaHHdJzvR7BVgbij3fI6otx9z+HZukEWraSZCWCuGjlKGvBnANBwkrIBw==
+
+%URL%
+https://pypi.python.org/pypi/wheel
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1731763024
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-packaging
+
+%OPTDEPENDS%
+python-keyring: for wheel.signatures
+python-xdg: for wheel.signatures
+python-setuptools: for legacy bdist_wheel subcommand
+
+%MAKEDEPENDS%
+python-build
+python-flit-core
+python-installer
+
+%CHECKDEPENDS%
+python-jsonschema
+python-pytest
+python-keyring
+python-keyrings-alt
+python-xdg
+python-setuptools
+

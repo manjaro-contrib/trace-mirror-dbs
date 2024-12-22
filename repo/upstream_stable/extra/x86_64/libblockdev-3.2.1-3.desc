@@ -1,0 +1,110 @@
+%FILENAME%
+libblockdev-3.2.1-3-x86_64.pkg.tar.zst
+
+%NAME%
+libblockdev
+
+%BASE%
+libblockdev
+
+%VERSION%
+3.2.1-3
+
+%DESC%
+A library for manipulating block devices
+
+%CSIZE%
+257526
+
+%ISIZE%
+3689087
+
+%SHA256SUM%
+ae2a51518c6cd5ccc16018d86e7586bfc7c8282588bb1f1773bd50667c15548a
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc/C5cACgkQwGCGM3xQdz7ezAf/dhc5ftQqKrSRCC5kK6VOj1ZOflLRPUFx5wqiRM/zlvjSJMW81aIYFSRSkFmLAyRazg1nwBM7KD1hdb9+l/hAQebAzfw+uBIEMbtYhGX7LfYsbrwNQCX4mzV/mB2gI8JxryyjkbMHrI/YgYucfUDsmitq5EAyQx3VEpc2HGf8gDOaKVEc35PPymervLJi3AP2T7zgNz6tBZYQ27QjXaCgustKR9wUBOoHcStUBd7WnJQW/pcEOnWhIaS/43+524Os0HhQiy7jPi23q0jhVfHzBZ+JPq5Nff9Qw26yF9Wenbr7TDQS2nCjlyb1SW+wzztd4aLhBtxhO9g53eMYo7k9CA==
+
+%URL%
+https://github.com/storaged-project/libblockdev
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732184881
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%REPLACES%
+libblockdev-utils
+
+%CONFLICTS%
+libblockdev-utils
+
+%PROVIDES%
+libbd_utils.so=3-64
+libblockdev.so=3-64
+
+%DEPENDS%
+glib2
+libglib-2.0.so=0-64
+libgio-2.0.so=0-64
+libgobject-2.0.so=0-64
+glibc
+kmod
+libkmod.so=2-64
+systemd-libs
+libudev.so=1-64
+
+%OPTDEPENDS%
+libblockdev-btrfs: for BTRFS support
+libblockdev-crypto: for crypto support
+libblockdev-dm: for device-mapper support
+libblockdev-fs: for filesystem support
+libblockdev-loop: for loop device support
+libblockdev-lvm: for LVM support
+libblockdev-mdraid: for MDRAID support
+libblockdev-mpath: for multipath support
+libblockdev-nvdimm: for NVDIMM support
+libblockdev-nvme: for NVME support
+libblockdev-part: for partitioning support
+libblockdev-smart: for S.M.A.R.T. support
+libblockdev-swap: for swap support
+python-libblockdev: for Python support
+
+%MAKEDEPENDS%
+autoconf-archive
+btrfs-progs
+cryptsetup
+device-mapper
+dosfstools
+e2fsprogs
+exfatprogs
+gcc-libs
+glib2
+glibc
+gobject-introspection
+gtk-doc
+json-glib
+kmod
+keyutils
+libatasmart
+libbytesize
+libnvme
+libyaml
+lvm2
+mdadm
+ndctl
+nss
+parted
+python
+systemd-libs
+util-linux
+util-linux-libs
+volume_key
+

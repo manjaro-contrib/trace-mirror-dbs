@@ -1,0 +1,67 @@
+%FILENAME%
+gnucash-5.9-2-x86_64.pkg.tar.zst
+
+%NAME%
+gnucash
+
+%BASE%
+gnucash
+
+%VERSION%
+5.9-2
+
+%DESC%
+Personal and small-business financial-accounting application
+
+%CSIZE%
+11856447
+
+%ISIZE%
+77463215
+
+%SHA256SUM%
+b210e820b6e76332c779a9f806ef81a4f498aadbb4bc30baefee9d134eb33e9e
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZ0P53AAKCRDwXowSExrrXgXWAP0arf1SHKhigKoxlCKNEPX8DpqyoXCrmQWtWOEd3MpSVAEAxJHFioTaBmqpotOG236G72ksuoWONmPZuRr+RPuKMwc=
+
+%URL%
+https://gnucash.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732507904
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+aqbanking
+gwenhywfar
+boost-libs
+guile
+libdbi
+webkit2gtk
+libofx
+
+%OPTDEPENDS%
+gnucash-docs: documentation
+libdbi-drivers: open and save data into SQL database
+perl-date-manip: stock information lookups
+perl-finance-quote: stock information lookups
+
+%MAKEDEPENDS%
+boost
+cmake
+gtest
+libdbi-drivers
+mariadb-libs
+postgresql-libs
+swig
+python
+

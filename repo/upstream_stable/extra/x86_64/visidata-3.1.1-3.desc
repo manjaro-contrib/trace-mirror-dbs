@@ -1,0 +1,90 @@
+%FILENAME%
+visidata-3.1.1-3-any.pkg.tar.zst
+
+%NAME%
+visidata
+
+%BASE%
+visidata
+
+%VERSION%
+3.1.1-3
+
+%DESC%
+Terminal spreadsheet multitool for discovering and arranging data
+
+%CSIZE%
+1005807
+
+%ISIZE%
+5558123
+
+%SHA256SUM%
+5e54054e5a146ee37fa21e224c787e6971b6e83b4aa6dca80f6a5f2979aa5510
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdFr9AACgkQwGCGM3xQdz6Omwf+NTDy7Ns7YBKxdi46Pc/jP70fdsrSkwPeeojj91WzkFb/6GgSA5TTdHcyyksUNbm9KRToxPBNnObEb+ECP5IwdvG6Vwd0q9ZUdwJGl32EMi6Tzqt/pbVe6+gINvsWkqBzvYYhsQuqkVylNR+rPUcdfqbOjP1CmHBTuIaz74FtJXuFisn2EAfzGSGu1Srm5uvWFMdOpEOfQseX32nlIZlI6wHvJdd+cChW3306h6mRKPkcRe7wOWXBC9Q2ykD8fZvzXtUhdtXappYqQYj8BAy56hZK6jtP+0MnRIDIdlf+b6Mj+DWpLzGv3FoDe+UzUhHHpdt+9FQW5UQErvX4L6yUdw==
+
+%URL%
+https://www.visidata.org
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732620210
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-dateutil
+python-importlib-metadata
+python-setuptools
+
+%OPTDEPENDS%
+python-beautifulsoup4: scraper support
+python-boto3: rds support
+python-conlu: connl/conllu support
+python-dnslib: pcap support
+python-faker: fake data support
+python-fonttools: ttf/otf support
+python-h5py: hdf5 support
+python-dpkt: pcap support
+python-lxml: html/xml support
+python-matplotlib: svg support
+python-mysqlclient: mysql support
+python-numpy: npy pandas hdf5 arrow support
+python-odfpy: odf support
+python-openpyxl: xlsx support
+python-pandas: dta (Stata) support
+python-pdfminer: pdf support
+python-praw: reddit support
+python-psutil: procmgr support
+python-psycopg2: postgres support
+python-pyaml: yaml/yml support
+python-pyarrow: parquet support
+python-pypng: png support
+python-requests: http support
+python-requests-cache: scraper support
+python-seaborn: seaborn plot support
+python-sh: ping support
+python-tabulate: tabulate saver support
+python-urllib3: remote zip support
+python-vobject: vcf support
+python-wcwidth: tabulate saver with unicode support
+python-xlrd: xls support
+python-xlwt: xls support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+

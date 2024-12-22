@@ -1,0 +1,64 @@
+%FILENAME%
+tuned-2.24.1-2-any.pkg.tar.zst
+
+%NAME%
+tuned
+
+%BASE%
+tuned
+
+%VERSION%
+2.24.1-2
+
+%DESC%
+Daemon that performs monitoring and adaptive configuration of devices in the system
+
+%CSIZE%
+444514
+
+%ISIZE%
+2494362
+
+%SHA256SUM%
+aa9639cd2507a06beeefa6ab29479a67166a3bf1f8495b7d533aa12abb963a55
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdN0T4ACgkQwGCGM3xQdz4LYgf/RgTmAtE6dg4ZZpJTVrKmQWb2DBMJAYLbEyMFdqqH/IEMnwoWfWSbgi7ji8CILQ1abVc3E6HyR/1rEtZS4oqZicNMBzToDK1ScNlUTJolcNbI3EnvVywLrcpV9XCxqaC07AsSARl592x0CC39cC08oyXHoYvatGgCJXzGyLFZuHd0ZInV+LgJlGTS+pso+Sg+ZEikPjvv/Ys21ititHANZwdi3inin91oKU8qAjN3PeQRk2Hp/3noipQTFoTVJ6tLE9vU00JRKk3/STEa8x2+bNVyMYKtR8MnSCrN+CU3ulWSh0I+kjFUB7zepwI9vrlb0AUeGEqugw74h2LTsQWiRA==
+
+%URL%
+https://github.com/redhat-performance/tuned
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1733153061
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+ethtool
+gawk
+hdparm
+polkit
+perf
+python-configobj
+python-dbus
+python-gobject
+python-linux-procfs
+python-pyudev
+
+%OPTDEPENDS%
+virt-what: Virtual machine detection
+systemtap: Detailed system monitoring
+tuned-ppd: power-profiles-daemon api translation
+wireless_tools: Wireless device power management
+x86_energy_perf_policy: Energy Performance Bias (EPB) support
+
+%MAKEDEPENDS%
+desktop-file-utils
+

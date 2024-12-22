@@ -1,0 +1,83 @@
+%FILENAME%
+python-openai-1.59.0-1-any.pkg.tar.zst
+
+%NAME%
+python-openai
+
+%BASE%
+python-openai
+
+%VERSION%
+1.59.0-1
+
+%DESC%
+Python client library for the OpenAI API
+
+%CSIZE%
+533784
+
+%ISIZE%
+4784068
+
+%SHA256SUM%
+a10a46977c08c5a7d33ba10a04b8743c57b047c1421175005b68c635f547be67
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZ2dSjgAKCRDwXowSExrrXu5qAQCf1bHZ+kVD0SLKui3gMqLITYLsSqQGwNEtaSVv21jCwAD/YHRxF7LNyxQADgLKJc4JEpg1hkpyAcqMmQYICAsTTAg=
+
+%URL%
+https://github.com/openai/openai-python
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1734824516
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-anyio
+python-distro
+python-h2
+python-httpx
+python-jiter
+python-pydantic
+python-pydantic-core
+python-sniffio
+python-tqdm
+python-typing_extensions
+
+%OPTDEPENDS%
+python-numpy: Needed for CLI fine-tuning data preparation tool
+python-pandas: Needed for CLI fine-tuning data preparation tool
+python-openpyxl: Needed for CLI fine-tuning data preparation tool xlsx format
+python-scikit-learn: Needed for embedding utils
+python-tenacity: embeddings
+python-matplotlib: embeddings
+python-plotly: embeddings
+python-scipy: embeddings
+
+%MAKEDEPENDS%
+python-build
+python-hatch-fancy-pypi-readme
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+npm
+procps-ng
+python-dirty-equals
+python-inline-snapshot
+python-pytest
+python-pytest-asyncio
+python-nest-asyncio
+python-respx
+python-rich
+

@@ -1,0 +1,68 @@
+%FILENAME%
+gammastep-2.0.9-7-x86_64.pkg.tar.zst
+
+%NAME%
+gammastep
+
+%BASE%
+gammastep
+
+%VERSION%
+2.0.9-7
+
+%DESC%
+Adjust the color temperature of your screen according to your surroundings.
+
+%CSIZE%
+141823
+
+%ISIZE%
+810692
+
+%SHA256SUM%
+64af20a07e83422411ae83ad804e63929b1a977bb4914c821dbeec2628e13070
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmdFi3kACgkQ/cMEC5Ksp0hS6Q//YQTBYrUtlBiTOORj/6HsAk3ZvkeGSvP1V2jtBLaR95Z1gpuNWk0nHxVKWFmgXWQXRpCVmqr0SPLgWTp8UUdAzqaRvNbKSNtG0Hu4irsmzCqGymYFAUyvTbc9Wz2EpkVmIH9K7Fg5WzRghPxm7w8JE5+6zm3MULsX9XVPiLx+wU2HAAOElwJTYoepB3k+mVIH3wRqjZ9riw+ZdEpD9nJCbNXHcZkjYVskAg44BdJa4/1NjesH/cEv5pNBhZV95gluYluvfIA8YQqX/+x9ypu8JXha5tx/vt7kNIzl/XNWTaoNMg0W2rmZqgigi5Bhs6PTMN5EtmXOnwPjTotC+OUyPQn0d+BBCJ1vUQpWAqbwJR3DsIItGEzV3iEdEDrGFCtKRSQs9fcVS3CTaML4cTC9RreK7up/HxHGNtp7wyXeGR38SGz4ZHjho/boVLw6odLxYbAGt1dG98OObxGgNoXjJhD0/1Xx/dhtN65hKnXapi++xuE5+aOcw80azS8mxf35ezIdH/vr/oCskN8joBuQahmXYm40JTfOGkY+PbvWDlvwLv4Xc7krrGfCZ3hCpQ2Yihse9sB38Dh/liy/0lbn1M3KirGrVOkEyR8SfEIqePswe8/JSS6IryEFdlXhao9zbnAqezlOeayhAPR1/iWbch0MICb+nR8mU7QpFTCkYJI=
+
+%URL%
+https://gitlab.com/chinstrap/gammastep
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732610890
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+glibc
+hicolor-icon-theme
+libdrm
+libx11
+libxcb
+libxxf86vm
+wayland
+glib2
+libgio-2.0.so=0-64
+libgobject-2.0.so=0-64
+libglib-2.0.so=0-64
+
+%OPTDEPENDS%
+geoclue: for automatic location based on GeoClue2
+python-gobject: for gammastep-indicator
+python-xdg: for gammastep-indicator
+gtk3: for gammastep-indicator
+libappindicator-gtk3: for gammastep-indicator
+
+%MAKEDEPENDS%
+glib2
+intltool
+python
+systemd
+

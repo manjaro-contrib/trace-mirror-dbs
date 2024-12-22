@@ -1,0 +1,92 @@
+%FILENAME%
+molecule-plugins-23.5.3-3-any.pkg.tar.zst
+
+%NAME%
+molecule-plugins
+
+%BASE%
+molecule-plugins
+
+%VERSION%
+23.5.3-3
+
+%DESC%
+Collection of molecule plugins
+
+%CSIZE%
+75352
+
+%ISIZE%
+416930
+
+%SHA256SUM%
+5b0f7c08a1baa26514527bd038ff37750fb1801c60d15cbbd6fce3704a348f76
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdN3VgACgkQwGCGM3xQdz5DuQf+LWghA/ZsFsMaxlTUULkzdrJmVtzeqFRWycBtrV1ZqaDK812Gq8Gbe1ANoV4j4KP2hWIS7mP09OAlY+WYTnCRGdV/Mg4GDOH63VQeSEROzlruXrTJxe+vIyFOJS/FUniATDTqpegX8l4mfxLNtFLTppplN7B4U3wB6ATAxX9AfvmoiRAnTImke+HrT2oDYeE9jDTpew8GOMcftfsxKcv98lbmzYXgIzMdqkdXTzHYbbTRZxH90Hr+q5Lc6DLxNNXiE3XsbqeHHreaE74JT39Zh1B26lm+Mmrx64cVcYP4Hec9+4ZBRXEr2H0k/7NWSNQ8kBa35rytXIMAfPBScBAwNA==
+
+%URL%
+https://github.com/ansible-community/molecule-plugins
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1733156142
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%REPLACES%
+molecule-containers
+molecule-docker
+molecule-podman
+molecule-vagrant
+
+%CONFLICTS%
+molecule-containers
+molecule-docker
+molecule-podman
+molecule-vagrant
+
+%DEPENDS%
+molecule
+python
+python-boto3
+python-cryptography
+python-jinja
+python-packaging
+
+%OPTDEPENDS%
+ansible-core: for vagrant driver and validating docker and podman playbooks
+python-ansible-compat: for podman driver
+python-docker: for Docker support
+python-google-auth: for GCE playbooks
+python-google-api-python-client: for GCE playbooks
+python-pycryptodome: for GCE playbooks
+python-requests: for Docker support
+python-selinux: for SELinux and Docker support
+python-vagrant: for vagrant module
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+podman
+python-filelock
+python-google-auth
+python-google-api-python-client
+python-pexpect
+python-pycryptodome
+python-pytest
+python-pytest-helpers-namespace
+python-vagrant
+vagrant
+

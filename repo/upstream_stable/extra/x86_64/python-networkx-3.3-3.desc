@@ -1,0 +1,66 @@
+%FILENAME%
+python-networkx-3.3-3-any.pkg.tar.zst
+
+%NAME%
+python-networkx
+
+%BASE%
+python-networkx
+
+%VERSION%
+3.3-3
+
+%DESC%
+Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
+
+%CSIZE%
+3425062
+
+%ISIZE%
+23333561
+
+%SHA256SUM%
+bfd4330270cdad0b8d0b1e46e049d2481a633ea0dc27c51b4f4d1ac7fb4eb0c1
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdF6mAACgkQwGCGM3xQdz6C9gf/Tc+seF0q6FRJ7qGj4PMQ4KGHKlDlNBFTkoXm75VvYsrqlsmaHmb+/yYku+Tsdn0GPz07paR2AI7p5CQcvFBgVVovc7etYiTHYZGHy3PZLbp/5TNqFKbsIpjo+R7XOgb32GSJEP3gW1mdIMffgA1gI0b49jZ7+Xxv4LH6/op6VvbE46vBSRlT6B9di974huzsab/nASv1k/qrOqi59GIBpZN7sciYyotQWJt29Zqe5ga6+bcYE/RnteAWi4JaAglzGGeFsr9hKh5m7pe22ZF2hOIkxczi9POKN4MNk9MtwjOzGRFagIdXDgw6Pz+MbbIDg5QUoQ3Sor6INNlGSlt9FQ==
+
+%URL%
+https://networkx.org/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732635059
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python-numpy
+python-scipy
+python-matplotlib
+python-pandas
+
+%OPTDEPENDS%
+python-lxml: for GraphML XML format
+python-pydot: for graph drawing and graph layout algorithms in pure Python via GraphViz
+python-pygraphviz: for graph drawing and graph layout algorithms with bindings to GraphViz
+python-sympy: for polynomial algorithms
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+
+%CHECKDEPENDS%
+python-pytest
+python-lxml
+python-pydot
+python-pygraphviz
+

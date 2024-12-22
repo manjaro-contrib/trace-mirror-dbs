@@ -1,0 +1,61 @@
+%FILENAME%
+python-dkim-1.1.8-2-any.pkg.tar.zst
+
+%NAME%
+python-dkim
+
+%BASE%
+python-dkim
+
+%VERSION%
+1.1.8-2
+
+%DESC%
+Python library that implements DKIM and ARC email signing and verification
+
+%CSIZE%
+80818
+
+%ISIZE%
+334734
+
+%SHA256SUM%
+7acb4db47b6628e5ef8bdc6987272c5a7a7c0a66845e093d3d2383a3980db013
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc7m/kACgkQwGCGM3xQdz5Lzgf9FpVGYccoPHNw0qXIhpLgDk9HYzdGIK3Tt4KIyNQE+qeG+gVABGhbdabH/nwM3OPYkKhsS3tm1g9IBv5/b7NiZqpkaDmsR0pDyVgx1nKjX260jPkOq+gFMl2eBtVxMIhY6J8f5M+OLUojV/SaGOdljdY83BKlpzfdtuWXyKiY1BwAjVi8aiudLLrjKZeMMnFbJoZtXiSNCK/HickBpgQRi/jh+NUYrcpsIncoHSD1XDHNdr1oZWoP86et4IbU7gGLRJv7V6ERe+fPkcm/j8jfYmUGfjq4j5UyOpUL3J7GFiYB6bKCPO5xubYNaK3VkpwLIlhU5Ws04uK8tdpmlkwt7Q==
+
+%URL%
+https://launchpad.net/dkimpy
+
+%LICENSE%
+ZLIB
+
+%ARCH%
+any
+
+%BUILDDATE%
+1731959784
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python-dnspython
+
+%OPTDEPENDS%
+python-aiodns: for asycnio
+python-authres: for ARC
+python-pynacl: for use of ed25519 capability
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-authres
+python-pynacl
+

@@ -1,0 +1,73 @@
+%FILENAME%
+ranger-1.9.4-2-any.pkg.tar.zst
+
+%NAME%
+ranger
+
+%BASE%
+ranger
+
+%VERSION%
+1.9.4-2
+
+%DESC%
+Simple, vim-like file manager
+
+%CSIZE%
+491931
+
+%ISIZE%
+2675727
+
+%SHA256SUM%
+dff12a9a18f8c08dee2dcd8f2ac05845c5d98952ba99f761d77750dd0f333ee3
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc5IP4ACgkQwGCGM3xQdz5qKAf/SrDHoRSfN1N56QdPlF3vdHwheO3HclqJdR2UUeuLQHgWKdAELlDBrjGrWK5RWuRTy13/HqicAChDYw4pXoqTqzzvZ7fIYiJ2miaMdYrBPy150utiOzIEc1B4m6JuPJ308Ee2FHgB1LSqhswXWjyNf5dPjkW40PkSqBo+KPwefF3FdeZbzdELV7cppou/yqljRfj/iDCQ7F7uHM8X6K3YRzWGqawoFp13hcav6Kn5Gk9i7fB+ZJM3cqmi4EC2ddB0dTDveZJoyzCNZAgK0n1BhmXMcXsD4RYALu/LQqii519gZFK992yvK3v3y+zPr4XWkeeeaoOsCJC5+dkD044i7w==
+
+%URL%
+https://ranger.github.io
+
+%LICENSE%
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1731797234
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+atool: for previews of archives
+elinks: for previews of html pages
+ffmpegthumbnailer: for video previews
+highlight: for syntax highlighting of code
+imagemagick: auto-rotate image previews based on EXIF data
+libcaca: for ASCII-art image previews
+lynx: for previews of html pages
+mediainfo: for viewing information about media files
+odt2txt: for OpenDocument texts
+perl-image-exiftool: for viewing information about media files
+poppler: for pdf previews
+python-chardet: in case of encoding detection problems
+python-pillow: for in-terminal preview of images in Kitty
+sudo: to use the "run as root"-feature
+transmission-cli: for viewing bittorrent information
+ueberzug: for previews of images
+w3m: for previews of images and html pages
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+
+%CHECKDEPENDS%
+python-pytest
+

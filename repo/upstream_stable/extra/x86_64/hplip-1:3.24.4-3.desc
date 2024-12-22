@@ -1,0 +1,86 @@
+%FILENAME%
+hplip-1:3.24.4-3-x86_64.pkg.tar.zst
+
+%NAME%
+hplip
+
+%BASE%
+hplip
+
+%VERSION%
+1:3.24.4-3
+
+%DESC%
+Drivers for HP DeskJet, OfficeJet, Photosmart, Business Inkjet and some LaserJet
+
+%CSIZE%
+23106798
+
+%ISIZE%
+40409692
+
+%SHA256SUM%
+c7b35cf573861c658b3aa5720c986935fffab8758a78f63a9666687d8dcb22b5
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdC8KMACgkQwGCGM3xQdz7R6AgApBRRlf66XhHClv6MilXfFhg2wwygbP/Umyf/oKWDva7p0TNe/ftAdzhaZ5yj2jLvT0a2n9IOLZIVUgya6g7p/P1iZ+n8a2jC4Ej3oA9PJdWB2g5+cvPH71bbCj6KC3htTXwUgsD8OS0EhR6POhN+7ZpWEs9SXtzVT810j33xWymFVsKFQ91LtKpfFKUv+qmCCFDh4Vm8QZtKtUXcrHsXcKcbcN4qX2eXlXBsbII44UgvGKWRJ9nB+Iwb4eYJY9TuB4DT1S+zmtjroZJv4uuAHe1IfjgufNa0xJkniN6fVRd1NgZF7ve3HNHp22mnnN61igivTTuTjlIT4eIeQkA4wQ==
+
+%URL%
+https://hplipopensource.com
+
+%LICENSE%
+GPL-2.0-or-later
+MIT
+BSD-3-Clause-HP
+IJG
+GPL-2.0-only
+LGPL-2.1-or-later
+BSD-2-Clause
+LicenseRef-hplip
+python-ldap
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732440105
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python-dbus
+python-distro
+ghostscript
+net-snmp
+foomatic-db-engine
+python-gobject
+libjpeg-turbo
+dbus
+gcc-libs
+avahi
+python
+xdg-utils
+zlib
+libcups
+glibc
+sh
+
+%OPTDEPENDS%
+cups: for printing support
+sane: for scanner support
+python-pillow: for commandline scanning support
+python-reportlab: for pdf output in hp-scan
+rpcbind: for network support
+python-pyqt5: for running GUI and hp-toolbox
+libusb: for advanced usb support
+wget: for network support
+
+%MAKEDEPENDS%
+python-pyqt5
+sane
+rpcbind
+cups
+libusb
+python-setuptools
+

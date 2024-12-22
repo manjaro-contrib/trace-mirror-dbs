@@ -1,0 +1,69 @@
+%FILENAME%
+python-hishel-0.1.1-2-any.pkg.tar.zst
+
+%NAME%
+python-hishel
+
+%BASE%
+python-hishel
+
+%VERSION%
+0.1.1-2
+
+%DESC%
+An elegant HTTP Cache implementation for HTTPX and HTTP Core
+
+%CSIZE%
+81146
+
+%ISIZE%
+562328
+
+%SHA256SUM%
+66329d116f4721131aecfd9113a27f75fb0bc7948249b0e74090b438cf359f58
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdFqRMACgkQwGCGM3xQdz7qVAf+PV6+SYaZY10GYZpWJF5buysB+xPp8ztXY6iVXuJZHD5O5tuNGTwC8zjfHCRXZYCwX0drtJIEzyeW8BONNFiXXMJbqYjuOOaXXiyNzvnQQwadzR0Fc7uSgzFrsRp9IpGNTrIvuvkCUb0y+xfH+o0GTOSIhXFAkZBHGyjr/lpGRUsBcNqKWf94Ho26Hxqze8sJ1v/L3rrN2uGr7o02xBtrVpoXTSMgI6HBgwkEN4cvkGh+MKZtkfZsCKV/8CaPjsRHQGofTmlTAVv7fVkOdqczANsNW+UE5wMh2RCk0w4seHMdzyDVQ6nwlmmVxnCtgavS/pMxlXPAJw6mWaQqFU0uag==
+
+%URL%
+https://github.com/karpetrosyan/hishel
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732618495
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-anyio
+python-httpcore
+python-httpx
+python-typing_extensions
+
+%OPTDEPENDS%
+python-boto3: for S3 support
+python-pyyaml: for YAML support
+python-redis: for Redis support
+python-anysqlite: for SQLite support
+
+%MAKEDEPENDS%
+python-build
+python-hatchling
+python-hatch-fancy-pypi-readme
+python-installer
+
+%CHECKDEPENDS%
+python-anyio
+python-anysqlite
+python-pytest
+python-pyyaml
+python-redis
+python-trio
+

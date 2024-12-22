@@ -1,0 +1,85 @@
+%FILENAME%
+python-falcon-3.1.3-4-x86_64.pkg.tar.zst
+
+%NAME%
+python-falcon
+
+%BASE%
+python-falcon
+
+%VERSION%
+3.1.3-4
+
+%DESC%
+Web API framework for fast and reliable microservices, proxies, and app backends
+
+%CSIZE%
+1554150
+
+%ISIZE%
+7960915
+
+%SHA256SUM%
+9da898d0596474a66b232a522eb1feec9acf062dac3658b1b4483583bd697e87
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdULsIACgkQwGCGM3xQdz51lQf9G87PGBIuA85DG0r/xFWthxPN2LcfzD68EsBhvPQOcXh7idth3gjQIxu1At2GUHVC4WAAfieBqyLeDLW9JfQTy2f+WINeMB1F285HWoI+DQwCtub0wEc5Fzv4FN2DsYaZGU/MHzpO+qb/ZN1RJnUnfTSyp0IdJR/Zgrs/eZrjeykmg4+SnknykkH4irGcZJo7BS0WVEUpO9B+HcOoXZHs2fWqMM8MvgeZdxjHpMqmtFWiJ1KpQ7gG8aP3815aC1zpmAWSCZ7VMC/JQYPaQ3WmkcbH5ofqJZbkW6HotoIo8NUCN0ENTOdX677G6HtRdf9Sf1KQraYHm4LF6dy7NhFv4A==
+
+%URL%
+https://falconframework.org/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1733569859
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+python-cgi
+
+%OPTDEPENDS%
+python-bottle: for falcon-bench
+python-django: for falcon-bench
+python-flask: for falcon-bench
+python-jsonschema: for JSON schema validation
+python-msgpack: for MessagePackHandler
+python-pecan: for falcon-bench
+python-pprofile: for falcon-bench
+
+%MAKEDEPENDS%
+cython
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+gunicorn
+hypercorn
+python-aiofiles
+python-cbor2
+python-httpx
+python-jsonschema
+python-mimeparse
+python-msgpack
+python-mujson
+python-orjson
+python-pecan
+python-pytest
+python-pytest-asyncio
+python-pyyaml
+python-rapidjson
+python-requests
+python-testtools
+python-ujson
+python-websockets
+uvicorn
+
