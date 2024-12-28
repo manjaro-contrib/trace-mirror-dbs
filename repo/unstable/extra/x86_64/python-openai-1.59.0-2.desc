@@ -1,0 +1,86 @@
+%FILENAME%
+python-openai-1.59.0-2-any.pkg.tar.zst
+
+%NAME%
+python-openai
+
+%BASE%
+python-openai
+
+%VERSION%
+1.59.0-2
+
+%DESC%
+Python client library for the OpenAI API
+
+%CSIZE%
+533585
+
+%ISIZE%
+4784068
+
+%MD5SUM%
+3432cff6e56283df899d6250fc359e31
+
+%SHA256SUM%
+2b1bfde18fee2bd5e59a81fdd3bcf74948efaa4aa828a1ffa583eb783757efbc
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmduy60ACgkQ/cMEC5Ksp0iKeQ//bBYp7ihEQHeCMKlCT3QuHB/0Oipr+82SAcrfh9wVT2Ez4620pfRElkF4wuUIdgn0c3neo7g1adlqZcRYEtsiyGAFhUxA7IBDavrkEU/AQRp/mgUqde6nG8S4d5Kwuccj2MnKZf7FIMZOhueKvnYCtqyGjyPPhmYTM7qAXIqjxNAxplPVxJiXrFWbUfsLIqdUP4ZvTAtm594y/9kxnz9OZgpft79/k2kVLrqrpKgc1tu7WewRBhOC2NQqAhXrDt07yDKbrqc/TFIobG+5TZLTbuh4C+JWGAIm7SbD+fGjMKIpEg++QGH8PgKMY25groGcKyt1vF+cfguwUrXGGlQ6LgtPnef8ztxC29wOCe3/c8UU1jA972+L4L44J3QvLP8fBNXbv8s1dPxLepm5oJqPsB7cyaPxyoNDSNhi9kwNYA9K9JSN0ykW26/tK0zo1rPyV07cmuot3OWLqOujpSsv+dyzxEwjMk3Mcr7o6fH6bQXsaxymj4IbVElYt6NLfgqEubtxmwdjRx0KS0MFX0Yjx+8eVuXpdnoJM0J0iKdDYpVzodpSHakOwSxgyUwYk7QXh98o+mj3PFdRy9XqWxzZEp5wQ5H6iv4nkiGEQM7u4EfoyqYg3+DV7qCvhN33291LX8M02qz4QSuyKQlvI3SBSMV86/zdZWdi4versRMSBhg=
+
+%URL%
+https://github.com/openai/openai-python
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1735314293
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-anyio
+python-distro
+python-h2
+python-httpx
+python-jiter
+python-pydantic
+python-pydantic-core
+python-sniffio
+python-tqdm
+python-typing_extensions
+
+%OPTDEPENDS%
+python-numpy: Needed for CLI fine-tuning data preparation tool
+python-pandas: Needed for CLI fine-tuning data preparation tool
+python-openpyxl: Needed for CLI fine-tuning data preparation tool xlsx format
+python-scikit-learn: Needed for embedding utils
+python-tenacity: embeddings
+python-matplotlib: embeddings
+python-plotly: embeddings
+python-scipy: embeddings
+
+%MAKEDEPENDS%
+python-build
+python-hatch-fancy-pypi-readme
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+npm
+procps-ng
+python-dirty-equals
+python-inline-snapshot
+python-pytest
+python-pytest-asyncio
+python-nest-asyncio
+python-respx
+python-rich
+

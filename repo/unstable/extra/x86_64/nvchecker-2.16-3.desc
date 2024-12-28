@@ -1,0 +1,89 @@
+%FILENAME%
+nvchecker-2.16-3-any.pkg.tar.zst
+
+%NAME%
+nvchecker
+
+%BASE%
+nvchecker
+
+%VERSION%
+2.16-3
+
+%DESC%
+New version checker for software releases
+
+%CSIZE%
+143376
+
+%ISIZE%
+587700
+
+%MD5SUM%
+3f992f8c07e9e408574c4c53324d69dc
+
+%SHA256SUM%
+6f140802514f714f12834a5592ce2e0b8dd40ae342f0c679c2fa9e110c06dde0
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmdu0p4ACgkQ/cMEC5Ksp0gLRBAAtnpccpzIs2Vk0bQx5AJocDT/VDLyFMutkiBrhanIISuzX9NzB1n2TfeCTbkJhCro4O0EGphKBHMvjU+cJ41o8QAxaKVRi1XX06kk3vjm+25YiD3ln2zAAuDkC4Uhf+kJaJgHoBCsMlYAGAsd9WwUp6Nf75GTSr2n7yf72Gi+CrMjClelVXiukunk3EegNla70mcxwKcWnLPCQc+6gEhuPZQO5SRveQwGOQx76jnHlfSJ+cuOsfZzPOHmIOhHaZvQKFSTAEbz+LIktqs5EkJQAajt7GNFKP7oRgprKkub6ZZVbrYomdej2q5SEjbVn2lGMggDO3WY1WH6lVGf3bVMGkIyUQ6CM514C+44ZJiLMJpkZXW9LgJLr9+gadn3XEFQdS+OXAjxQqrwnRd7VrwXkklBbc3ecUZC8UQPKj+ML9natDvNjmIge2W5+w6mm+xgw4zL2P9UqajJRtwK96xQIX9IprlUVb3/olPFYa4FSPLfcG3zr1Zx5zGRH+Iu6CnXoZAd9uwo1cnXWXXd9Qj0yw1tmWIyZdE5eaQ+4z7IWlEfh4yV4Sfhu7MrAtgv74COjSBO5ZReZOGFCjhMg99ZT7QXD/z/Sbtx8tsZ3yhK7ff8SF8/QVT8zsaXr4nkFfqHSkW4n0Szgqq9IDKP6J49WB622Z4zS3o666XByPMt7TU=
+
+%URL%
+https://github.com/lilydjwg/nvchecker
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1735316069
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-structlog
+python-platformdirs
+python-tornado
+python-pycurl
+
+%OPTDEPENDS%
+pyalpm: for using "sort_version_key = vercmp" in configuration files and the alpm source
+python-awesomeversion: for using "sort_version_key = awesomeversion" in configuration files
+python-lxml: for the htmlparser source
+python-packaging: for the pypi source
+python-jq: for the jq source
+python-toml: for nvchecker-ini2toml script
+python-aiohttp: alternative HTTP backend
+python-httpx: alternative HTTP backend
+git: support for git repositories
+python-gobject: for nvchecker-notify
+libnotify: for nvchecker-notify
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+python-docutils
+python-pygments
+python-gobject
+python-toml
+python-aiohttp
+python-httpx
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-asyncio
+python-pytest-httpbin
+python-pytest-rerunfailures
+pyalpm
+python-awesomeversion
+python-lxml
+python-jq
+git
+
