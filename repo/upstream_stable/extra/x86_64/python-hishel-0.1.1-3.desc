@@ -1,0 +1,69 @@
+%FILENAME%
+python-hishel-0.1.1-3-any.pkg.tar.zst
+
+%NAME%
+python-hishel
+
+%BASE%
+python-hishel
+
+%VERSION%
+0.1.1-3
+
+%DESC%
+An elegant HTTP Cache implementation for HTTPX and HTTP Core
+
+%CSIZE%
+81121
+
+%ISIZE%
+562444
+
+%SHA256SUM%
+dce0a6a8de1015f7a2103b5ba920651e1dbc82d1d80b01065886669ac8fe1923
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmduyw4ACgkQ/cMEC5Ksp0gDYw//WSoEw3lVxjwWN5gCLxB4HBK8LghTYZUQ9hrRqWJ2XLFiWI6c4maypzXoGpNn25x6qY7zCFzdHzAKe6KT43njnYcHVFFfR4pn87Uswkd1W4hqqhQd62iNIgQc6cgR7MR1kScfzm+3XeOKGT54ERgjXnGg3an03lbllCTfn+fDqmGjrTXk8k5cmzFedfDiPPNXLhYJ6+jl0pxVxKsHsJUAnBTnqOXI18TtqrMGD2eUytYXcc61Z1M3DtKqoHLqxQn81zCF92bcGSw+WL8eMfWiZVfMU7CxqNlGul/zDwu+E5bSBjPGYs+n3TqvZgFBUgkB4Se0FvXzyNChk3dikn78OPOE6jxT2npMDZGH9zwnK8uRpcgYmafz1SX9QBeX8az8og2S7qZq7jqpMzkHYrft21djVJE2vNIZ+ckgI1UAJ6KMm0YbldU2NNmxy308O6BEu0NgtVqMSvHxV+srhM8HM3jywnpx2e5WxINaczk48MQwl9kgWZq+OAais8DNAiTHy0wTVZppvAvITIpZsCdT1iQm138Lb2K7lqK/2Qf7QUXX1aUDh/vN3TKueqzCTFo0h93thKviBDMxexbOQSNnlnDNM8dLlbtymtKPvESNeDueSkvCsL/25446kRi/YlDrPiC1QD29sOydb5XXn5GjlqDBoJTR/DGMi4dpdrJzFO4=
+
+%URL%
+https://github.com/karpetrosyan/hishel
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1735314168
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-anyio
+python-httpcore
+python-httpx
+python-typing_extensions
+
+%OPTDEPENDS%
+python-boto3: for S3 support
+python-pyyaml: for YAML support
+python-redis: for Redis support
+python-anysqlite: for SQLite support
+
+%MAKEDEPENDS%
+python-build
+python-hatchling
+python-hatch-fancy-pypi-readme
+python-installer
+
+%CHECKDEPENDS%
+python-anyio
+python-anysqlite
+python-pytest
+python-pyyaml
+python-redis
+python-trio
+
