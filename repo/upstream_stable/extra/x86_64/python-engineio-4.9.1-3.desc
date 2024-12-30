@@ -1,0 +1,71 @@
+%FILENAME%
+python-engineio-4.9.1-3-any.pkg.tar.zst
+
+%NAME%
+python-engineio
+
+%BASE%
+python-engineio
+
+%VERSION%
+4.9.1-3
+
+%DESC%
+Python implementation of the Engine.IO realtime server
+
+%CSIZE%
+132634
+
+%ISIZE%
+778758
+
+%SHA256SUM%
+88e588cf2479cc9b9150cdbcd96539d1abad6b408997021582b1828dd5f60c25
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdyz2IACgkQwGCGM3xQdz4dEQf+PCj3MROY9EcUkZJ+YV+Az03mby+8MZZzXIF3ayttsKPdtRmykWB3yZuMwZicLQVj8kzjWGlQztdeAfVfaViEPnK/oEce5kyI8Jmg1AHIvOcciYSx2HibVeYFHXVIhC5VG9S6tMQO1inrglvBb7IskD9Oaoai/xqX54K3hp/rK1oio4vkSlPY8bcvqeOVnjFkdakunrE6y3AKPNAKuUd+oK5H3QGL6WnaU1H2HOjaa4kSuroFgWJPE4/C5HaiuCfYCsriKPEQbnMxEh4dgcVimo/ZPkd+Yq+DVcsVvylZUuAMJ1k5mL6gIhDKhdQNnmZVgelEnCIf7sC4I2uUUC2HfA==
+
+%URL%
+https://github.com/miguelgrinberg/python-engineio
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1735577385
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-requests
+python-websocket-client
+python-websockets
+
+%OPTDEPENDS%
+python-eventlet: eventlet driver
+python-aiohttp: aiohttp driver
+python-tornado: tornado driver
+python-gevent: gevent driver
+python-gevent-websocket: gevent driver
+
+%MAKEDEPENDS%
+python-aiohttp
+python-build
+python-eventlet
+python-gevent
+python-gevent-websocket
+python-installer
+python-setuptools
+python-sphinx
+python-tornado
+python-urllib3
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+
