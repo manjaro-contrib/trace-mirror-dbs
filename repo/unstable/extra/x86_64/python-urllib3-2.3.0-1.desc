@@ -1,0 +1,79 @@
+%FILENAME%
+python-urllib3-2.3.0-1-any.pkg.tar.zst
+
+%NAME%
+python-urllib3
+
+%BASE%
+python-urllib3
+
+%VERSION%
+2.3.0-1
+
+%DESC%
+HTTP library with thread-safe connection pooling and file post support
+
+%CSIZE%
+237227
+
+%ISIZE%
+1319847
+
+%MD5SUM%
+5da71af9f36faac8802261ed3dc25069
+
+%SHA256SUM%
+584a7140aab47fc57ccb0f4c5f7d2dc55b1365faeaacfbd54267e4c338ce6bee
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZ3PAdwAKCRDwXowSExrrXs9qAP9RDayyi1AOXcPXPRSXTguv/6U1q033FXm9d2h3kd/A3QD/YkVAe1h4JtaIkeNErVPRAo1kau5g5hA9CrPRvUeyXg0=
+
+%URL%
+https://github.com/urllib3/urllib3
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1735638964
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-brotli: Brotli support
+python-brotlicffi: Brotli support
+python-h2: HTTP/2 support
+python-pysocks: SOCKS support
+python-zstandard: Zstandard support
+
+%MAKEDEPENDS%
+python-build
+python-hatch-vcs
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+python-cffi
+python-cryptography
+python-h2
+python-httpx
+python-idna
+python-pyopenssl
+python-pysocks
+python-pytest
+python-pytest-socket
+python-pytest-timeout
+python-quart
+python-quart-trio
+python-trio
+python-trustme
+python-poetry-core
+
