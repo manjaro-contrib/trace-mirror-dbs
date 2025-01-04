@@ -1,0 +1,62 @@
+%FILENAME%
+znc-1.9.1-5-x86_64.pkg.tar.zst
+
+%NAME%
+znc
+
+%BASE%
+znc
+
+%VERSION%
+1.9.1-5
+
+%DESC%
+An IRC bouncer with modules & scripts support
+
+%CSIZE%
+3789305
+
+%ISIZE%
+17266111
+
+%SHA256SUM%
+a7c0c9ab489bb7988541b92a92134488539932dcc31bd59c21b8b2d76808c5bf
+
+%PGPSIG%
+iQIzBAABCAAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmd4+EUACgkQk7EdqkwZfj04MhAAwTldxm2js+sI+0n/T+Gaq5KZHCojxYxchbLEOeK0C1vywF2Uc/1zSWBDk+0yQWSMG2XOhxyHBs9oc4i9J24HDFXBWpwMVxwHt21j3NINwIGh2F1GxoE/kYuU7UjJqDKNvF5ARSNaWPpd1kFgvc+hX+69EpUtE9508+z9USZyyFN9YuvU4rd21cyokMmzagRDsgP735jHj5g3XT1PBzcYcY15EhmnLuY79oqPmUoU1OCr4Z7yw0Ac8sOcxOB3rL/oHJfRQxx9SctT88UyJtdm2eQkbnLqKKKbgNsnnB5/cFGn48GXiwav0v5LH7KbdDANa5fgF+d9VRWLmR2SUBFuGSQ3YqmsQ4M0ByhJZOpFMQ/S9NRWBxvW6yrUxMP9kv8tisKRseZ9y7zYV8IwpQSROnfgQguM5E4WyNFROu0C7AZUjvP4rXKRiattTDw87EOJB0r5hKxy3DRTizhwmZAtY4HKhutpKAJA8CfXgwuHYPTFEWjUbHNG5fyeuOcvkdjd3PNlKiCYqYTI+L5I2N5YGl/Fu3cHyunJLaw4KDPuT+VqhGsZRgVyvr7ANjx0A+tNwq7vbYcr3QJ4mo2po1dsGjma5P9EuPCjf2InIdFDmtCT25E/3IVuJAUQ6xBoXdJ3E7X1w6Z334ObbJUP0ojYpT3Ahw6rAIDh3mLJM1fOs9w=
+
+%URL%
+https://wiki.znc.in/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1735980684
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+libsasl
+icu
+boost-libs
+argon2
+
+%OPTDEPENDS%
+tcl: modtcl module
+python: modpython module & znc-buildmod script
+perl: modperl module
+cyrus-sasl: saslauth module
+cmake: znc-buildmod script
+
+%MAKEDEPENDS%
+tcl
+python
+perl
+cmake
+boost
+
