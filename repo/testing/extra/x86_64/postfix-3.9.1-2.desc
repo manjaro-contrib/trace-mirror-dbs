@@ -1,0 +1,93 @@
+%FILENAME%
+postfix-3.9.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+postfix
+
+%BASE%
+postfix
+
+%VERSION%
+3.9.1-2
+
+%DESC%
+Fast, easy to administer, secure mail server
+
+%CSIZE%
+1404781
+
+%ISIZE%
+4542396
+
+%MD5SUM%
+95a7e766d33089bda2a9d4764d123c91
+
+%SHA256SUM%
+a98220ca03a08bdfb5027f39df3520db1c1479baea5974e6f39e7ec282e38fb3
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmd0H88ACgkQ/cMEC5Ksp0inhBAAqSbfqhMAejUksECiv+tFTxSSSyLmmPTnq7o5kPqXkEtP+ufpA1R4AEz6Yw1Ds4PC8jm4wp9y7QJoc0snYNH67xujHRfhDZZxj8KasYXHASy+ZcCwh5Ih+RKRSF+Sehg3RXRS31QNwdJi/d9gr6/KpAKC/mgro3AVlDxAuHK3B+8MoBAhLI04VSNlMOpBeffeZSborqYRCUOtxOQC03szisyUH4KYyfMZm3sbHSme6WOche/UmiDBd2bOot7c0sGasTOaUbllKGbgMQp9pOPrUbWBcC2aU+MJcWMqnIQ/+kK37tOkWeC/2MTaen727rPTYqsorgDx/M4Xxh56lqFHyFpiV0RKEmewEj7ifGduCFsGnjiW+Dc8iQ1HtEXi2/UjITQ65JVsE3Bps2QoAwpYJG4v4A91Fn4FJDlQZehz+p7acJeOeKV3moufdHiTNfUqj6+iL8qNUqPeURdctNkGTK3w1mBzeyRbmYKLAG5lW0k91VbQkPqUSDixadnDficGYYMALX2XYcUkaOMIYphjslBfOVXrsXg7NB/MB/kYGUV1w8UkUUqc1yxJ9VJJ85NZjbaLOu0haaAxsXrnBPKPqjq6zfszxbcHnCyohUqnsv5iEJXZ7Xfl8MQoWTQZlmyhjCHdZ/xxU4gktpoUmpAFG4f4Ro7SGjF8bHvdc7YFswE=
+
+%URL%
+https://www.postfix.org/
+
+%LICENSE%
+EPL-2.0 OR IPL-1.0
+BSD-4-Clause-UC
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1735663494
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%CONFLICTS%
+smtp-server
+smtp-forwarder
+
+%PROVIDES%
+smtp-server
+smtp-forwarder
+
+%DEPENDS%
+glibc
+icu
+libicuuc.so=75-64
+libnsl
+libnsl.so=3-64
+libsasl
+libsasl2.so=3-64
+openssl
+libcrypto.so=3-64
+libssl.so=3-64
+postfix-lmdb
+sh
+
+%OPTDEPENDS%
+perl: for postfix-collate.pl, postfix-tlstype.pl and qshape
+postfix-cdb: for CDB integration
+postfix-ldap: for LDAP integration
+postfix-lmdb: for LMDB integration
+postfix-mongodb: for MongoDB integration
+postfix-mysql: for MySQL integration
+postfix-pcre: for PCRE integration
+postfix-pgsql: for PostgreSQL integration
+postfix-sqlite: for SQLite integration
+
+%MAKEDEPENDS%
+icu
+libldap
+libnsl
+libsasl
+lmdb
+mariadb-libs
+mongo-c-driver
+openssl
+pcre2
+postgresql-libs
+sqlite
+tinycdb
+

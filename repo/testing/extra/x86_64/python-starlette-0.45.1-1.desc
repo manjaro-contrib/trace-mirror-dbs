@@ -1,0 +1,74 @@
+%FILENAME%
+python-starlette-0.45.1-1-any.pkg.tar.zst
+
+%NAME%
+python-starlette
+
+%BASE%
+python-starlette
+
+%VERSION%
+0.45.1-1
+
+%DESC%
+The little ASGI framework that shines
+
+%CSIZE%
+179463
+
+%ISIZE%
+947987
+
+%MD5SUM%
+3ba8cba69d8f0109addc493ccab0f80a
+
+%SHA256SUM%
+1319f8ab2466b082dc2257f149fad4b92e6f49c04f67f00ada23ab5375c58cfa
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmdzrakACgkQ/cMEC5Ksp0h+IhAAozqC90KP8x1S5SIc1TyaFqasdbFibYToX7MyqAn9ltxZIpurUMuyWow1GjMWLk9LsGBy6pl3nfJVhVI6HzfDPKweBhIPVv0ObmfMJRuBIXsClCxfNxLk4DBlPXGm65PbVto4INVuHvDdQQdiUqnX9Lzzs3Rp1QLCBuG3pFGRaTjBmddQ6YaHM+eaZxm873/kEtiT8ngIDpbO3ho90E4/Yp7i/muykRslA90S8RjpdB7avYqpVtPWWw5uY6nNiAH/dEkuXJqEAd80bHirLnrFL0LRqgJzr5TGgaf/XGmKDHoxpOGdYdAVVQ1P7U3ooH12r+Y4SHw3WN3jZPHWf7o5pU3r0PPjlEHd8tXrFsEmUpg1bTH4lT5tUkElNwkHQfpN8Li4iMNGnSgoJRV3FEIwdBeEn6IA/fypmUvzS3ZeVnP3iV4gXEUDYJO8gp8JUB3DuLXaV4eIGZYxUGAT/sdbad4T2ZEtBnSa2N99SAJMXV0WTYrFRFSahVKky09stEEnWH1gCU0AZswi+39s7hJXPOpsd4ir9H57FcTQkp5P8C311CeilkMIwFjsXO1JdQEkEspqLZjG/SgGwIHwaDlRgRdE1lenNXJgEYJzLimyE08x5Bd7MBbILW7BSKj8ptPsWRJzTdKSEyEr0mlKm0IMVh4L3p4/O++/8U8FmeKP+H0=
+
+%URL%
+https://github.com/encode/starlette
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1735634274
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-anyio
+
+%OPTDEPENDS%
+python-itsdangerous: for session middleware support
+python-jinja: for jinja templates
+python-python-multipart: for form parsing
+python-pyyaml: for schema generator
+python-httpx: for test client
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-hatchling
+python-wheel
+
+%CHECKDEPENDS%
+python-aiosqlite
+python-databases
+python-pytest
+python-trio
+python-itsdangerous
+python-jinja
+python-python-multipart
+python-pyyaml
+python-httpx
+python-sqlalchemy
+
