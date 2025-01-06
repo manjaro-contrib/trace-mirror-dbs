@@ -1,0 +1,63 @@
+%FILENAME%
+translate-toolkit-3.14.5-1-any.pkg.tar.zst
+
+%NAME%
+translate-toolkit
+
+%BASE%
+translate-toolkit
+
+%VERSION%
+3.14.5-1
+
+%DESC%
+A toolkit to convert between various different translation formats, help process and validate localisations
+
+%CSIZE%
+1051732
+
+%ISIZE%
+6424116
+
+%SHA256SUM%
+4a6a8bf1a5003ab3328b68a68b4e77a3653ee6786d0556a738a93175afaa9d02
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmd8KegACgkQek52CV2KUuSjNgf/b5lwxDVSW9xeoN5tz7IzVoMeUn+yP0FCzHeWycgONle6QmBnTN1t4Pbw8ANjwBSlNzEegH7G7DGe/xrvV3K/o+T3kR3HiK9Y9/GKOM6WIJr2uE4RQN49Tle28xwcFo8EhE1bs+zJE/z7umVQKMObB5f9Li0YBQ1+3DAL1taOhurkd0Ms/AX+/tPrbc3Fb50H9tzHk0a+yH+D5uKaCfao/xSbarYutTVfyKRvv+ftjJ3Rs6UAmUqI90FO0D4TPBsCMl18n6PKi4Zfg+WVoiMrjzezy4g1mDY0AY+lQZt08kIFgOp7IELYZHmOilz408B3K/hY6oX7Rj/7hdM4/0KgYw==
+
+%URL%
+https://toolkit.translatehouse.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1736190407
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+bash
+python-lxml
+python-ruamel-yaml
+
+%OPTDEPENDS%
+gaupol: for po2sub
+python-chardet: encoding detector
+python-cheroot: for TM Server
+python-levenshtein: faster matching
+python-mistletoe: Markdown support for po2md
+python-pyenchant: for spellcheck filter
+python-pyparsing: RC support for po2rc
+python-vobject: iCalendar files support for po2ical
+
+%MAKEDEPENDS%
+python-setuptools-scm
+python-build
+python-installer
+python-wheel
+
