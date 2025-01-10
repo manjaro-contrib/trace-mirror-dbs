@@ -1,0 +1,93 @@
+%FILENAME%
+postfix-3.9.1-1-aarch64.pkg.tar.xz
+
+%NAME%
+postfix
+
+%BASE%
+postfix
+
+%VERSION%
+3.9.1-1
+
+%DESC%
+Fast, easy to administer, secure mail server
+
+%CSIZE%
+1371540
+
+%ISIZE%
+6970355
+
+%MD5SUM%
+3224ac3e3874d5b64ba0484e9391c7fd
+
+%SHA256SUM%
+d5fa58c840781224c9e70551b7ee6f816d79a28cfaf21a5022300e3fff18514a
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmda8KQACgkQdxk/FSvb5qaMiw//eZyN0YyG/rvUtY+F2oJbB3u4sZHiTMqtRhffsvR6d97nUSn70I2Uo7bn2vt/TcoYgFEMJcvMS1Rt3JuOZkDylXuOfECWxbnHhrXaC98Z/DR4zdQ1oI4HNM88zMVLIys6lQc9GTVTNtxrUxNbxBvMNnpjuqxVSOx/kJzg4ECA+PJjq49W0h6YnqckmdFKxuoueNwOzU9VyrAdQfooKjNOQ8JZOZ5Q4Y8/IIW9ufKP1TQWQnW521OPflIbu6EwcRC8x9hDb7vaXMTc484a0VAD5XWg/CBse48CP5i05WHuzutAc0QHaBazF0iNGhigcsVI5eUI6BAWt2N864QHJ22P15dvkevXnRrNQQCCqv+I31DmgIuhmKjK1hj0ujDhJjtV8FgkevYlVqR3f5CZqgyDWt7384362lBd3mVzHsJWrpU4pXs2xSRdF8ujs+ITGv5hufdcxCUZ5Hj9lk+UGx5FYat2apj3KJZPtgxNcs9K6oHPT5uqNGlQfYVupyG02GqP8Soj2vkjwd29M9W3rk6t/LLG7TXc+eDKe2IgnokzU/vqOpU03XE8QMKE2WBIJuaEqvPzzf+0UMg/8DwUfipBHGSOCP+eqGVR5k/8N76CzjHcsyMOWNABjc2qlGkmJHtRUQDdXIGioXtJPvFRuJMzNX2ACZyIWTDPY1Ps5HpG0eI=
+
+%URL%
+https://www.postfix.org/
+
+%LICENSE%
+EPL-2.0 OR IPL-1.0
+BSD-4-Clause-UC
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1734012980
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%CONFLICTS%
+smtp-server
+smtp-forwarder
+
+%PROVIDES%
+smtp-server
+smtp-forwarder
+
+%DEPENDS%
+glibc
+icu
+libicuuc.so=75-64
+libnsl
+libnsl.so=3-64
+libsasl
+libsasl2.so=3-64
+openssl
+libcrypto.so=3-64
+libssl.so=3-64
+postfix-lmdb
+sh
+
+%OPTDEPENDS%
+perl: for postfix-collate.pl, postfix-tlstype.pl and qshape
+postfix-cdb: for CDB integration
+postfix-ldap: for LDAP integration
+postfix-lmdb: for LMDB integration
+postfix-mongodb: for MongoDB integration
+postfix-mysql: for MySQL integration
+postfix-pcre: for PCRE integration
+postfix-pgsql: for PostgreSQL integration
+postfix-sqlite: for SQLite integration
+
+%MAKEDEPENDS%
+icu
+libldap
+libnsl
+libsasl
+lmdb
+mariadb-libs
+mongo-c-driver
+openssl
+pcre2
+postgresql-libs
+sqlite
+tinycdb
+

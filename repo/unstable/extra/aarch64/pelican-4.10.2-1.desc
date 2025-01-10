@@ -1,0 +1,88 @@
+%FILENAME%
+pelican-4.10.2-1-any.pkg.tar.xz
+
+%NAME%
+pelican
+
+%BASE%
+pelican
+
+%VERSION%
+4.10.2-1
+
+%DESC%
+A tool to generate a static blog, with restructured text (or markdown) input files.
+
+%CSIZE%
+752396
+
+%ISIZE%
+4869068
+
+%MD5SUM%
+306f967860376a6a6743933f2185dfbd
+
+%SHA256SUM%
+e90f8f1e471866f3c662ba813250c19483d7c930e89e903be4b6bc2203a42c77
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmdaMjgACgkQdxk/FSvb5qYcog//awtUqi9yvowf5sWhz3L1k/9eJihw3u33J2eTNlEQKDNVMD1PHGsVjpKQd8UecoI8Obx1MOlHcSLi5MCNKRXc/qCaytYChrPza+lPsQwDMjLdK0SmDo3gr1XteUTEOnVy7OCOuQCf5QbHzQ7Wv9kYeFXGJchaJJqdf5DdbYHMky3tKrUsUQNq/t+s7cB3yTNR85U0VG3EiDGwrKLTDZ0cwMuBXUYEn1IxiXlq6lb6tId90D0g2V5o2eXZkGhIiHQNtbKwkF7eOxfkqcHo1AQKRrZFpC2rJFAoO66ceIFKBJ3/rPDrIfA33PGPUpRgdlzxtCGAqufgboAYTjq9YJ/3E9IIssKF9SRM8tX00dExTKwBXMq9bF3Xe6cMBbI8CccHU7+NLeQeKwHFSKVVsCZ6hSNDhRY95cilDQGzgymU7kNiwJfNL3EIs2hVwGOz5wCn9GDJ7Y29Z0aIMiKxyK/nmZmHO2H/8+23QRG82Ke2yOdARAhLzg4yZVeUGcIjTNlWtz34KvQwTvFUZyiSiAAKYoKfvNN7PAl//0GXy3Iu2kX28fbRxVuYOlzZKo5MkLM9j0T3egLP7L4SkElSCowURwrMxjhaV+8na/uWitg9goCr4L9fxcKS/jHhmR4mDZqQw8TLLeR6apLhUKpTvAPS4xDJeHz6vVh2arhfGzZFpw8=
+
+%URL%
+https://blog.getpelican.com/
+
+%LICENSE%
+AGPL3
+
+%ARCH%
+any
+
+%BUILDDATE%
+1733964305
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python-jinja
+python-pygments
+python-feedgenerator
+python-docutils
+python-blinker
+python-unidecode
+python-dateutil
+python-rich
+python-watchfiles
+python-ordered-set
+
+%OPTDEPENDS%
+python-markdown: Markdown support
+asciidoc: AsciiDoc support
+python-beautifulsoup4: importing from wordpress/dotclear/posterous
+python-feedparser: importing from feeds
+openssh: uploading through SSH
+rsync: uploading through rsync+SSH
+lftp: uploading through FTP
+s3cmd: uploading through S3
+python-invoke: Task parallelism
+python-ghp-import: uploading through gh-pages
+python-typogrify: typographical enhancements
+pandoc: for pelican-import auto convert
+python-mdx-video: easier embedding of youtube videos in markdown
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-sphinx
+python-sphinxext-opengraph
+python-pdm-backend
+
+%CHECKDEPENDS%
+python-lxml
+git
+python-feedparser
+python-markdown
+python-typogrify
+python-pytest-xdist
+python-beautifulsoup4
+
