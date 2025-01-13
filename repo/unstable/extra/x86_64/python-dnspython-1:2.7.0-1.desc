@@ -1,0 +1,68 @@
+%FILENAME%
+python-dnspython-1:2.7.0-1-any.pkg.tar.zst
+
+%NAME%
+python-dnspython
+
+%BASE%
+python-dnspython
+
+%VERSION%
+1:2.7.0-1
+
+%DESC%
+A DNS toolkit for Python
+
+%CSIZE%
+516020
+
+%ISIZE%
+3610188
+
+%MD5SUM%
+401ddfa73562b2147d7dbbe35fbb375a
+
+%SHA256SUM%
+7c2dacc172c3881847f753b071bc9de96ee6882a7bcdba17aa71b28cf9eeabfe
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZ4LGBwAKCRDwXowSExrrXidQAP4ha8pC/gqAGTSGS5NefhpfUjK4xvbntqJgVJQrDkfzdAD+IqOblMJ/k1fMcI72f4CLxI81xDMOMq+x+kHzj0VbLQw=
+
+%URL%
+http://www.dnspython.org
+
+%LICENSE%
+ISC
+
+%ARCH%
+any
+
+%BUILDDATE%
+1736623487
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-cryptography: DNSSEC support
+python-requests-toolbelt: DoH support
+python-idna: support for updated IDNA 2008
+python-curio: async support
+python-trio: async support
+python-sniffio: async support
+
+%MAKEDEPENDS%
+python-build
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+python-cryptography
+python-idna
+python-pytest
+python-trio
+
