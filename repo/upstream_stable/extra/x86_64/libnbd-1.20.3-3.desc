@@ -1,0 +1,61 @@
+%FILENAME%
+libnbd-1.20.3-3-x86_64.pkg.tar.zst
+
+%NAME%
+libnbd
+
+%BASE%
+libnbd
+
+%VERSION%
+1.20.3-3
+
+%DESC%
+NBD client library in userspace
+
+%CSIZE%
+763752
+
+%ISIZE%
+1872393
+
+%SHA256SUM%
+f0ec11c5a913f382412078c09262b28d559f38dd83b5c42227dd622d5e460a59
+
+%PGPSIG%
+iHUEABYKAB0WIQQgmjbUPOLofahh/FhTnf1IE1GC7wUCZ4adOwAKCRBTnf1IE1GC7yjVAP9BbnxGh8CeZR4phqJYJsMXRYmxMfdHzb74rxe0+gQ4uQD+O0WRY9dzM0lX6hvSN96Cm+NozYuMV8jfSqumFTdwygk=
+
+%URL%
+https://gitlab.com/nbdkit/libnbd
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1736799784
+
+%PACKAGER%
+Juergen Hoetzel <juergen@archlinux.org>
+
+%DEPENDS%
+glibc
+gnutls
+libxml2
+
+%OPTDEPENDS%
+fuse3: For nbdfuse support
+ocaml: For OCaml bindings
+python>=3: For Python bindings
+
+%MAKEDEPENDS%
+perl
+ocamlbuild
+ocaml-findlib
+rust
+fuse3
+python
+go
+
