@@ -1,5 +1,5 @@
 %FILENAME%
-cryptsetup-2.7.5-1-x86_64.pkg.tar.zst
+cryptsetup-2.7.5-2-x86_64.pkg.tar.zst
 
 %NAME%
 cryptsetup
@@ -8,37 +8,37 @@ cryptsetup
 cryptsetup
 
 %VERSION%
-2.7.5-1
+2.7.5-2
 
 %DESC%
 Userspace setup tool for transparent encryption of block devices using dm-crypt
 
 %CSIZE%
-771941
+772994
 
 %ISIZE%
-3069023
+3069146
 
 %MD5SUM%
-97aa0b697fa85370915e700e41ad4db5
+0e3d865b45a97f97e0582e3058764e2e
 
 %SHA256SUM%
-7f603f586ccb21d946408ffe2f6011a3b0025e3051dfa70dbedb02a8a96476f3
+fc1191f26eb0bddcd1464dd350d6e629eaea050c1fc67e8f4078d29ed73da7b1
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZtbglQAKCRBtQr3RFuAGj/uIAQDk39GScrFJPMYjnw4mlUaIJOHOfRdI7pUE2baCbR/x3wD8CgYLVTLFeUYhWCFFDGYe2NYmAqS2XcpXlvWRbWknKQs=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZ4TabgAKCRBtQr3RFuAGj/NwAP4/+ZlMDN+DHzaom0ILy1i+WBQxbPuEg1fh7JvMljAKiwD8C8GuFDlht5z3Gat2eXWtHEk7BirUUBMelN4jrbDujwY=
 
 %URL%
 https://gitlab.com/cryptsetup/cryptsetup/
 
 %LICENSE%
-GPL
+GPL-2.0-or-later
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1725358197
+1736759735
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
@@ -52,14 +52,15 @@ libcryptsetup.so=12-64
 %DEPENDS%
 device-mapper
 libdevmapper.so=1.02-64
+glibc
 openssl
+libcrypto.so=3-64
 popt
 util-linux-libs
+libblkid.so=1-64
 libuuid.so=1-64
 json-c
 libjson-c.so=5-64
-argon2
-libargon2.so
 
 %MAKEDEPENDS%
 util-linux
