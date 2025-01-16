@@ -1,0 +1,88 @@
+%FILENAME%
+cosmic-session-1.0.0.alpha.5.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+cosmic-session
+
+%BASE%
+cosmic-session
+
+%VERSION%
+1.0.0.alpha.5.1-1
+
+%DESC%
+Session manager for the COSMIC desktop environment
+
+%GROUPS%
+cosmic
+
+%CSIZE%
+1776374
+
+%ISIZE%
+6678111
+
+%SHA256SUM%
+4960e0cd697ab258e88df082dc84f7228480b3da742ed4ac3339c712c8370bf1
+
+%PGPSIG%
+iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCZ4ftFAAKCRA9TFAIu1yNKSMJAP9/LU+iGyzwomn2R5gql8ekK13gVMyfKUmraZ17+YO5YQD/QUkIKOlyq/d4dlU4HPdCAguBOUvZlvilKASvzE0ZFAA=
+
+%URL%
+https://github.com/pop-os/cosmic-session
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1736961227
+
+%PACKAGER%
+Peter Jung <ptr1337@archlinux.org>
+
+%DEPENDS%
+bash
+cosmic-applets
+cosmic-app-library
+cosmic-bg
+cosmic-comp
+cosmic-files
+cosmic-greeter
+cosmic-icon-theme
+cosmic-idle
+cosmic-launcher
+cosmic-notifications
+cosmic-osd
+cosmic-panel
+cosmic-randr
+cosmic-screenshot
+cosmic-settings-daemon
+cosmic-settings
+cosmic-workspaces
+gcc-libs
+glibc
+otf-fira-mono
+otf-fira-sans
+switcheroo-control
+vulkan-driver
+xdg-desktop-portal-cosmic
+xorg-xwayland
+
+%OPTDEPENDS%
+cosmic-files: COSMIC file manager
+cosmic-player: COSMIC media player
+cosmic-store: COSMIC store
+cosmic-terminal: COSMIC terminal
+cosmic-text-editor: COSMIC text editor
+cosmic-wallpapers: COSMIC wallpapers
+dconf: Apply COSMIC settings to GTK applications
+
+%MAKEDEPENDS%
+cargo
+git
+just
+lld
+
