@@ -1,0 +1,80 @@
+%FILENAME%
+easyeffects-7.2.3-2-x86_64.pkg.tar.zst
+
+%NAME%
+easyeffects
+
+%BASE%
+easyeffects
+
+%VERSION%
+7.2.3-2
+
+%DESC%
+Audio Effects for Pipewire applications
+
+%CSIZE%
+1316611
+
+%ISIZE%
+8512592
+
+%SHA256SUM%
+284baa848ae7ae0c9bb0f468cc0ac78bbe7994b419b28e685d1097eef042cde2
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZ4Qm7QAKCRDwXowSExrrXo8JAQDhvxYjQgbit4MTA5ED2EazKMhcgoRWBtWOUNak8Xd1cAEAm+ySjotVAznyomOh2yOHn2wAU2AWmm6bVkXTabQYmAc=
+
+%URL%
+https://github.com/wwmm/easyeffects
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1736713880
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%REPLACES%
+pulseeffects
+
+%DEPENDS%
+fftw
+libfmt.so=11-64
+gsl
+gtk4
+ladspa
+libadwaita-1.so=0-64
+libbs2b.so=0-64
+libebur128
+libsamplerate.so=0-64
+libsigc-3.0.so=0-64
+libsndfile.so=1-64
+liblilv-0.so=0-64
+pipewire
+rnnoise
+soundtouch
+speexdsp
+tbb
+zita-convolver
+
+%OPTDEPENDS%
+calf: limiter, exciter, bass enhancer and others
+lsp-plugins-lv2: equalizer, compressor, delay, loudness
+zam-plugins-lv2: maximizer
+mda.lv2: bass loudness plugin
+yelp: in-app help
+
+%MAKEDEPENDS%
+appstream-glib
+itstool
+meson
+nlohmann-json
+speex
+lv2
+
