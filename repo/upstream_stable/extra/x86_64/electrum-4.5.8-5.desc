@@ -1,0 +1,83 @@
+%FILENAME%
+electrum-4.5.8-5-any.pkg.tar.zst
+
+%NAME%
+electrum
+
+%BASE%
+electrum
+
+%VERSION%
+4.5.8-5
+
+%DESC%
+Lightweight Bitcoin wallet
+
+%CSIZE%
+6701449
+
+%ISIZE%
+27747639
+
+%SHA256SUM%
+252b5b820f1b412936ec48c2e0c647090bb2ddc4bae4f996f425adfcd7f483f5
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZ4vukQAKCRDwXowSExrrXhKCAQDdZ6lXztkyADKo2aDFqncMPkJpPvytxrKUgRZ4Oq2RNgD/YHaLGpuooE6Iw2RjLIRCJa51myUM5w0Qq6FDyGXjwAk=
+
+%URL%
+https://electrum.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1737223677
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+hicolor-icon-theme
+libsecp256k1
+python
+python-aiohttp
+python-aiohttp-socks
+python-aiorpcx
+python-attrs
+python-certifi
+python-cryptography
+python-dnspython
+python-jsonpatch
+python-pillow
+python-protobuf
+python-pyaes
+python-pyqt5
+python-qrcode
+
+%OPTDEPENDS%
+python-hidapi: Digital Bitbox hardware wallet support
+python-matplotlib: plot transaction history in graphical mode
+python-pycryptodomex: use PyCryptodome AES implementation instead of pyaes
+python-qdarkstyle: optional dark theme in graphical mode
+python-rpyc: send commands to Electrum Python console from an external script
+python-pyqt6: QML GUI
+qt6-declarative: QML GUI
+zbar: QR code reading support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pycryptodomex
+python-pyqt6
+python-pytest
+qt6-declarative
+
