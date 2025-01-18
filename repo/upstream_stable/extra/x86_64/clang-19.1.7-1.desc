@@ -1,0 +1,71 @@
+%FILENAME%
+clang-19.1.7-1-x86_64.pkg.tar.zst
+
+%NAME%
+clang
+
+%BASE%
+clang
+
+%VERSION%
+19.1.7-1
+
+%DESC%
+C language family frontend for LLVM
+
+%CSIZE%
+45121249
+
+%ISIZE%
+207352288
+
+%SHA256SUM%
+c0b48b5e501d0c4dc11712807a5078dbb795c4ffb4da4488fc1776ad01d79bde
+
+%PGPSIG%
+iQEzBAABCAAdFiEEhs/8qRjPOvRxR1iAUeixSKmZnDQFAmeLrz8ACgkQUeixSKmZnDRijQf8C76fvwL/ewGyPljY6QigPOVWrT+z0DTDD2o8AaHLkkog1MkamEHLsyu2yv2nZwewCp4GTrwLSB3cJ+VKzlH+nkTZse8EmXwKEEFne9AUNbfTCdCLx407tHfwt7IpabvIqbiqaN0F4t+Ry4ZszHRaapWwEY3Ume+t2Z2JcTdsRwojv5mEAcmU9ffAtokVrAyCBKGS3DevG84zuI2D75fDeUdtXnTF5wCVW3yti8Op8F9D7BZOQbvZY0hm3gnJ3wq9gK2KkYBPtBy345+RQp8hUny96EhR9va2gy97++yjFkbSgQUsQaGY2Y/joTzsXv2iRDZMnylTBhA1u0GFwnTbAQ==
+
+%URL%
+https://clang.llvm.org/
+
+%LICENSE%
+Apache-2.0 WITH LLVM-exception
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1737206934
+
+%PACKAGER%
+Evangelos Foutras <foutrelis@archlinux.org>
+
+%REPLACES%
+clang-analyzer
+clang-tools-extra
+
+%CONFLICTS%
+clang-analyzer
+clang-tools-extra
+
+%PROVIDES%
+clang-analyzer=19.1.7
+clang-tools-extra=19.1.7
+
+%DEPENDS%
+llvm-libs
+gcc
+compiler-rt
+
+%OPTDEPENDS%
+openmp: OpenMP support in clang with -fopenmp
+python: for scan-view and git-clang-format
+llvm: referenced by some clang headers
+
+%MAKEDEPENDS%
+llvm
+cmake
+ninja
+python-sphinx
+python-myst-parser
+
