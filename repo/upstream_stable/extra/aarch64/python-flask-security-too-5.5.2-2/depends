@@ -1,0 +1,26 @@
+%DEPENDS%
+python
+python-flask
+python-flask-login
+python-flask-principal
+python-flask-wtf
+python-wtforms
+python-itsdangerous
+python-markupsafe
+python-passlib
+python-email-validator
+python-importlib_resources
+python-werkzeug
+python-jinja
+python-click
+python-blinker
+
+%CONFLICTS%
+python-flask-security
+
+%PROVIDES%
+python-flask-security
+
+%OPTDEPENDS%
+python-bleach: scrub user input
+

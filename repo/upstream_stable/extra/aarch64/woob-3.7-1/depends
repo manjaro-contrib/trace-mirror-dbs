@@ -1,0 +1,30 @@
+%DEPENDS%
+python
+python-lxml
+python-requests
+python-dateutil
+python-yaml
+python-html2text
+python-unidecode
+python-pillow
+python-babel
+python-packaging
+python-pycountry
+python-rich
+python-simplejson
+python-setuptools
+
+%CONFLICTS%
+weboob
+
+%PROVIDES%
+weboob
+
+%OPTDEPENDS%
+python-colorama: CLI usage
+python-prettytable: CLI output formatting
+python-feedparser: required by some modules
+python-jose: required by some modules
+python-pycryptodome: required by some modules
+python-google-api-python-client: multiple Google services like YouTube
+

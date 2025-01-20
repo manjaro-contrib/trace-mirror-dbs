@@ -1,0 +1,17 @@
+%DEPENDS%
+alsa-lib
+libx11
+libftdi
+libusb-compat
+
+%CONFLICTS%
+lirc-utils
+
+%PROVIDES%
+lirc-utils
+
+%OPTDEPENDS%
+python: for lirc-setup, irdb-get and pronto2lirc
+python-gobject: for lirc-setup and irdb-get
+python-yaml: for lirc-setup and irdb-get
+

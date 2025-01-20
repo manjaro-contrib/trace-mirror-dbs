@@ -1,0 +1,15 @@
+%DEPENDS%
+boost-libs
+gcc-libs
+glibc
+libusb
+orc
+
+%PROVIDES%
+libuhd.so=4.7.0-64
+
+%OPTDEPENDS%
+python-mako: for imgbuilder
+python-numpy: for Python bindings
+python: for Python bindings and USRP utils
+

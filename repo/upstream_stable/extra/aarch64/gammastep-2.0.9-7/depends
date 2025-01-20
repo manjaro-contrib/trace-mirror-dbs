@@ -1,0 +1,20 @@
+%DEPENDS%
+glibc
+hicolor-icon-theme
+libdrm
+libx11
+libxcb
+libxxf86vm
+wayland
+glib2
+libgio-2.0.so=0-64
+libgobject-2.0.so=0-64
+libglib-2.0.so=0-64
+
+%OPTDEPENDS%
+geoclue: for automatic location based on GeoClue2
+python-gobject: for gammastep-indicator
+python-xdg: for gammastep-indicator
+gtk3: for gammastep-indicator
+libappindicator-gtk3: for gammastep-indicator
+

@@ -1,0 +1,37 @@
+%DEPENDS%
+abseil-cpp
+bash
+curl
+gawk
+gcc-libs
+glib2
+glibc
+grpc
+json-c
+libcap
+libnet
+openssl
+pcre2
+protobuf
+systemd-libs
+
+%CONFLICTS%
+eventlog
+
+%OPTDEPENDS%
+hiredis: for the Redis plugin
+libdbi: for the SQL plugin
+libesmtp: for the SMTP plugin
+libmaxminddb: for the GeoIP2 plugin
+librabbitmq-c: for the AMQP plugin
+librdkafka: for the Kafka C plugin
+logrotate: for rotating log files
+mongo-c-driver: for the MongoDB plugin
+net-snmp: for the SNMP plugin
+python-boto3: for Python S3 module
+python-botocore: for Python S3 module
+python-kubernetes: for Python Kubernetes module
+python-ply: for debugger CLI
+python-requests: for Python hypr module
+python: for Python-based plugins
+

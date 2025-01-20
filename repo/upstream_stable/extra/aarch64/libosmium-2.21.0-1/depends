@@ -1,0 +1,14 @@
+%DEPENDS%
+expat
+zlib
+bzip2
+boost
+boost-libs
+
+%OPTDEPENDS%
+sparsehash: sparse-mem-table index map
+gdal: convert OSM geometries into OGR geometries
+geos: convert OSM geometries into GEOS geometries
+proj: project OSM coordinates into spatial reference systems
+lz4: use LZ4 compression in PBF files
+

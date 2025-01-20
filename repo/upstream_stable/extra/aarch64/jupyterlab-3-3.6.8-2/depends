@@ -1,0 +1,17 @@
+%DEPENDS%
+python
+python-jupyterlab_server
+python-jupyter_packaging
+jupyter-notebook-shim
+nodejs
+
+%CONFLICTS%
+jupyterlab
+
+%PROVIDES%
+jupyterlab=3.6.8
+
+%OPTDEPENDS%
+npm: to install extensions
+jupyterlab-widgets: ipywidgets support
+

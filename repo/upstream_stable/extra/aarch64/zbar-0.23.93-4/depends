@@ -1,0 +1,21 @@
+%DEPENDS%
+dbus
+imagemagick
+libxv
+v4l-utils
+
+%CONFLICTS%
+zbar-gtk
+zbar-qt
+python-zbar
+
+%PROVIDES%
+zbar-gtk
+zbar-qt
+python-zbar
+
+%OPTDEPENDS%
+gtk3: for zbar-gtk
+qt5-x11extras: for zbar-qt
+python: for zbar python bindings
+
