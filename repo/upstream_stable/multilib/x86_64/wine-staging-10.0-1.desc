@@ -1,5 +1,5 @@
 %FILENAME%
-wine-staging-9.22-1-x86_64.pkg.tar.zst
+wine-staging-10.0-1-x86_64.pkg.tar.zst
 
 %NAME%
 wine-staging
@@ -8,22 +8,22 @@ wine-staging
 wine-staging
 
 %VERSION%
-9.22-1
+10.0-1
 
 %DESC%
 A compatibility layer for running Windows programs - Staging branch
 
 %CSIZE%
-61012832
+61363481
 
 %ISIZE%
-517027787
+520829789
 
 %SHA256SUM%
-34c1e874bac78fb0d40c1738080ade23e0bc9f1ee4fb58f34ca280382b85b1e4
+f2a89073124a97c2bedf1f2ba509baeea8f8a877015ab44991524b2cb3bad592
 
 %PGPSIG%
-iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmdCHTAACgkQeGxj8zDXy5LxBQ//THz2vleMXlBS7dRp00BW3NMH59qyXMKRDAfgJWXW5FlV0jZsVYMEzOUxvpZfZyusl31gnQ0uToJei3cZ/9y1pRmMYutFyoGyYnwS/YgeO0Uh8Ficj/ahwMUuwxRLTb7oxzvd03PGyJvOBP3we0HsowJ1gYnPDxahzVzrbjmVclhnP75MvpIZSEGHqiYc+EUZfaQXN50R0iUbFsi3+4A0ntFGkxNrElknPuvJIoVxrV1y8BBGg7mKabPdu8lNCl4JsZ8E/BUrzPtviFLWahxhAmEsIrwvZADvaFDT7EXpnaXnoR4QZqsI6nQKbVU6GGknJu70151rGLeAX6JuSSXgqa++cS/KHU0RJlEqib9T9iiIqOf/nWEL06wA2HhvJwtiHv5tb9N4i3wVMygzeECS/CuawwJIDg+JeHoBtUKjCVLVhJJZ6OnlYk7Kqnb0hwzG0NA+dVMdJ8A0HxDOBdooJZonHrXudQUaUfUkJPnXvqzHQfGzu6MHNaGbq9isK8oK29eOiCM3bPUsNdI0bqBgB7WnlC8oo2lD+5zZuqk+fbwIbJqhdQe4slvtm1dceJ5rpXViS+fph7nx/fMe6s/Z/sC4WlThFvVff66ogFeLjodn4HR9lNFYWcpHzLYeSOHcmBYl+59Jwi4HvYpujqL3vsaXvN2uqcCR4wZ8FRFzvCw=
+iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCZ5ItEAAKCRA9TFAIu1yNKdYEAP0YOF/Qj2JGq4N2psBjXQ6Tl3o7LOc3ErLqGMUs6eYmLgD9FbadJKfyGj4sOyf2fZX4AEmhKW12l49Q8Pbul79uTAA=
 
 %URL%
 https://www.wine-staging.com
@@ -35,16 +35,16 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1732376235
+1737632364
 
 %PACKAGER%
-Felix Yan <felixonmars@archlinux.org>
+Peter Jung <ptr1337@archlinux.org>
 
 %CONFLICTS%
 wine
 
 %PROVIDES%
-wine=9.22
+wine=10.0
 
 %DEPENDS%
 attr
@@ -109,6 +109,7 @@ bison
 perl
 flex
 mingw-w64-gcc
+git
 giflib
 lib32-giflib
 gnutls
@@ -150,5 +151,4 @@ libgphoto2
 ffmpeg
 samba
 opencl-headers
-git
 
