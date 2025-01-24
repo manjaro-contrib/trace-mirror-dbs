@@ -1,0 +1,68 @@
+%FILENAME%
+python-keyring-25.5.0-3-any.pkg.tar.xz
+
+%NAME%
+python-keyring
+
+%BASE%
+python-keyring
+
+%VERSION%
+25.5.0-3
+
+%DESC%
+Store and access your passwords safely
+
+%CSIZE%
+72460
+
+%ISIZE%
+350233
+
+%MD5SUM%
+b81b51d91bcffe6ea74c07d399ed9ea9
+
+%SHA256SUM%
+3512d01b05c98fdebacd2856eb499b4283fcc1c9c4521e506d72145a8e1ad5fe
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmdsYLwACgkQdxk/FSvb5qZkCA/8DPwm7j0Sgv1O+6H/VYFnXm3lcbVy2p9GEBUpewjdZLH2PtrUGi0F7PMljaCof6lhqj63DMh0Bd8F5ALiNZCTn+Qzb/BIMwZuUP8BCBkcNQDEQ2SKXsO2003dRzChf9igroYACXMeFIdZ7ZbmLjRKxJY4jRRWUaJc4Vln4I5TGRaROkZyhGsQY6bbRzt1ggTD7ik6bt5ucqZ7VW5MZCU5h09Qfn/D8TAseGCxUvEidZTXdPjX4gZn0H0H3d8jtAqPQWZX5aNnJMOMnhpGTD/mI0tltMh9+Ykz0j25rFS1UttKDgPjPFCajpfHezDQGTJbkdJWHj0GaHndr5nTIDg5ZZJvfEEltldcDWNLVUl2lCCt0OvJ8SnhngNfnGxiQiAZ2fjzGpn3R+W6CN8MxrO20r+m4/QUd4Dr17g4Lj8ec+XDJXZdROIJ5bUG01ZKFgXmrRqUP4tQ4nLxdfCbQwj1RyB2L+uK0McyRQbmbTvpCEubUiSi/sADkAND7ecwrrWk8sZMyFphLsoU3r7OCSOTYvccQCPifXXaDxGqVEZLinEFBKanjV01Bn63b6sJ/eghPvEFbjZTZeWWUJIFG7r1o7pCICOrFKL6pt5LTRgJmzqBpMMrF+qwNpcUs2+xif/hrq+v0u/4fOXGYC8ZpFYXACXMUszz0EDsQHPrzzRIOGw=
+
+%URL%
+https://github.com/jaraco/keyring
+
+%LICENSE%
+PSF-2.0
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1735155890
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python-jaraco.classes
+python-secretstorage
+python-jaraco.functools
+python-jaraco.context
+
+%OPTDEPENDS%
+python-keyrings-alt: Alternative backends
+python-dbus: kwallet backend
+libsecret: libsecret backend
+python-gobject: libsecret backend
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-pyfakefs
+

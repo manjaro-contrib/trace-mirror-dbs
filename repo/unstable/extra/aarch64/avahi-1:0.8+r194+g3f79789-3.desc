@@ -1,0 +1,87 @@
+%FILENAME%
+avahi-1:0.8+r194+g3f79789-3-aarch64.pkg.tar.xz
+
+%NAME%
+avahi
+
+%BASE%
+avahi
+
+%VERSION%
+1:0.8+r194+g3f79789-3
+
+%DESC%
+Service Discovery for Linux using mDNS/DNS-SD (compatible with Bonjour)
+
+%CSIZE%
+399784
+
+%ISIZE%
+2730455
+
+%MD5SUM%
+eb869da1a4f3311be395ab94d18ed4c4
+
+%SHA256SUM%
+43300c5dc5a5e917dbfe6b0a76b2233186334fbf491947bfeeddf15224345295
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmdt/pEACgkQdxk/FSvb5qa/BA//WffWLRiovvcEAKVs1voF+WedHlaRIJTkuASsJia5n+z1th7DFDN9k/+6t0NCYqqvg/Wkh+zPLExSEcRC+d/cyLZEpYvc0hiXY2QO1Hh3IdxOXwqcAVqGPXceExb2tqIfgS08nb3xJ1RABn8Qnix4eYWocDQNKs5aCaNBOsGUjMnYHpPkyqEqpllWkLZfyw5W+JemwTHS1RP9IFSbbu2Av8htXKhiLpMB2tcqSR5K98K7WPfqWN842ol48vKzfH/U9shX0GSR7sTSs5q5BXJIG/RAI4s1Ooz53Jd+wP3Xk6/ADUjIOP36GPIO9NFkypir5Po/xtEW02MzNt0R9OPdVExULTwJlRbD5w13jMe8yqtHPMUTPvArZzElJKAgaf15T7aXQ4E4pNElKqnEJIrdmYprtkVcBqySz9oamYLqIiSZG2aV7B0nrIqWqojf7PwELk9ghSj0bnHCwh3zczDVaRVxeaWIRa6NQoLs1k000RMea50Pti6oQ1T4O1WMgyGvEz6/w0PpvXLKD+WEykaW6qWgmr+/udzG59EovBXeFnoyRVWnBI6qVQ+zvhcE4XgYb8a2sh+DLvCVshKWkPTOhlx/35wKZiV8R5X4RLH6zOe/mQ9OPAykL7JG1OokQuQchdzpMjfxYczHXB7XuhfACP8WVd1wVdBNL4pFWZQKWvU=
+
+%URL%
+https://github.com/avahi/avahi
+
+%LICENSE%
+LGPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1735261725
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+libavahi-client.so=3-64
+libavahi-common.so=3-64
+libavahi-core.so=7-64
+libavahi-glib.so=1-64
+libavahi-gobject.so=0-64
+libavahi-libevent.so=1-64
+libavahi-qt5.so=1-64
+libavahi-ui-gtk3.so=0-64
+libdns_sd.so=1-64
+
+%DEPENDS%
+dbus
+expat
+gdbm
+glib2
+libcap
+libdaemon
+libdbus-1.so=3-64
+
+%OPTDEPENDS%
+gtk3: avahi-discover, avahi-discover-standalone, bshell, bssh, bvnc
+libevent: libevent bindings
+nss-mdns: NSS support for mDNS
+python-dbus: avahi-bookmarks, avahi-discover
+python-gobject: avahi-bookmarks, avahi-discover
+python-twisted: avahi-bookmarks
+qt5-base: qt5 bindings
+
+%MAKEDEPENDS%
+doxygen
+git
+glib2-devel
+gobject-introspection
+graphviz
+gtk3
+libevent
+python-dbus
+python-gobject
+qt5-base
+xmltoman
+

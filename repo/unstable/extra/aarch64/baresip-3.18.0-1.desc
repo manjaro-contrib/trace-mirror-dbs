@@ -1,0 +1,112 @@
+%FILENAME%
+baresip-3.18.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+baresip
+
+%BASE%
+baresip
+
+%VERSION%
+3.18.0-1
+
+%DESC%
+portable and modular SIP User-Agent with audio and video support
+
+%CSIZE%
+888812
+
+%ISIZE%
+6269895
+
+%MD5SUM%
+9bc60162ab77ec31986f1db51ea5f53e
+
+%SHA256SUM%
+37806e820cb77c0b7c98f50f854750572bce909818134d86f2236a552553c312
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmduxfMACgkQdxk/FSvb5qYG3BAAozT5GIKI9p5jSdc6UUNN9VIi0K+oy0v44QjHWY4VpDr1t/tdIuZF82ZG7EKvDm6rwr+UtNgc2M9UGppw6h+wqfikCua6xHAGVPjXbWpKooEsbxLCLBIbqm86Z7IWcaSsD+SmJA18lgKOxmNXErdWo+EsJsNJyTw8lA8DjI6iuNeEVv0l8gVjdtizkBw8g1I11haNxpxo7NSYA+EqBBsN8yGUDGU8Y3OYbPtnq44qSM40oayw3X74duGUNv7XeQ8cnkak0+0L1Z+ZHHlCg0lC0AFM4bNnBaOD3SMbDEhxHM3vkq5zf1heM97He5rXe9J//ri+FjqHUUZAC1UqvejVqWglAeJMaid+rSMeIU4J0afMVzIphgp+ZzORRZW95//gOEKm0Rq8U90jcU1mQXGb2X0O2lsZIBqUB5yQY1AVILZElV2vbQ/u96Lu9VeCWxm0LTNTlZWMT6vXU7FDgM+lpOXqBwpUvkfEjxXOK8QZSss4ISki8HUfJigI2ywCN2dc24IqJY0mHIEexkXBDJUwH1y6v1/OOjWRx5d7xhRH26FV0+rPETTYLcikngW3IDZlnvCbNTRJDkYA2m4rPTeT8QjF2bWsz1XKoXlTh66hWOKxyWVCmGK9SJCdhSzoSHXd22c8TvgtKNjLQKyoNvKqxBir4J4dnnisjfEvLKi98vQ=
+
+%URL%
+https://github.com/baresip/baresip
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1735312803
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+libre.so=28-64
+openssl
+
+%OPTDEPENDS%
+libfdk-aac: AAC audio codec
+alsa-lib: ALSA audio driver
+opencore-amr: Adaptive Multi-Rate (AMR) audio codec
+aom: (av1 module}
+codec2: CODEC2 low-bitrate speech audio codec
+ffmpeg: (avcodec, avformat, h265 modules)
+gsm: (gsm module)
+gst-plugins-bad: (gst1, gst_video1 modules)
+gst-plugins-base: (gst1, gst_video1 modules)
+gst-plugins-good: (gst1, gst_video1 modules)
+gst-plugins-ugly: (gst1, gst_video1 modules)
+gtk3: gtk+ user interface
+jack2: JACK Audio Connection Kit audio driver
+lame: MPA audio codec
+libvpx: (vpx module)
+libsndfile: (sndfile module)
+libpng: Snapshot video module
+libpulse: Pulseaudio audio driver
+libx11: (x11, x11grab modules)
+mpg123: (rst module)
+mosquitto: (mqtt module)
+opus: (opus module)
+portaudio: Portaudio audio driver
+sdl2: (sdl2 module)
+spandsp: (g722, g726,plc modules)
+speexdsp: (speex_aec, speex_pp modules)
+sndio: sndio audio driver
+v4l-utils: (v4l2 module)
+
+%MAKEDEPENDS%
+libfdk-aac
+alsa-lib
+opencore-amr
+aom
+codec2
+ffmpeg
+gsm
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gtk3
+jack2
+lame
+libvpx
+libsndfile
+libpng
+libpulse
+libx11
+mpg123
+mosquitto
+opus
+portaudio
+sdl2
+spandsp
+speexdsp
+sndio
+v4l-utils
+python
+cmake
+glib2-devel
+

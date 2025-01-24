@@ -1,0 +1,112 @@
+%FILENAME%
+libblockdev-fs-3.2.1-3-aarch64.pkg.tar.xz
+
+%NAME%
+libblockdev-fs
+
+%BASE%
+libblockdev
+
+%VERSION%
+3.2.1-3
+
+%DESC%
+A library for manipulating block devices - filesystem support
+
+%CSIZE%
+41152
+
+%ISIZE%
+219738
+
+%MD5SUM%
+615a31c57c8adb4e68b8964684bb9250
+
+%SHA256SUM%
+5cb3eb4ca797ad6b950a9b305b590fc98ad5ac7c65c3a2b6648aa71eba6d5961
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmdtxlQACgkQdxk/FSvb5qYkww//WFmkbtRkeVbqdLG6QV5WHxhI7C5lz4JUwpBapWntqgl4Vz6G9QzIg+mRrhaz++Ri+35ccZVFyyorVvDEpDnyhoxHfY45aAzfzeU6Hscw9isYtVpz5LHmcHqMDS9uE6H1Z3qmW3r/IPzijD4OKHfxbfTupS2pKDXhVM20PUokPZ+vaoJvwYdNOZwpHTt6BT1JIiRqPK/cHjWRCWYjyXem/sfRZNnNpGzCIAKUE3+2bKl8RBx5h7uvyYW9vHrDfulNRTvg9P51QckaVjDK3Q8jsxBCBHAXnlRGZ7IO+OviDWSw6ipO6ltXH1Q7+I9mc2rzz0TgTPHKTNDhnfFB/YYOMY5tyb/1P9oKrkOzd1iy0aoY8x9pKIujf5O+FGubZPU/Y+9Z4L1TveVAwt4z5EeLCsVHbHbxSKKoLGkf1MUZtD1zrH6pXC27aVEvlYN9E71HdBYxGZMEXM0aaoxcuy3XG7OUSmr0h4KdBv0bTojJdZmsHBzg9aBf5esHQfCtX9ZY2EN8EkCgJqCZkJvigkIxKmL5Tnls1JxRv3iPA/u/k0g4CwLvg+Bp7a6lE/6y3PeMzr1sebqMWzUj/Pk2ekLrB1EnMUKWkqlqJdgsbN6PXcEmSQ7dhmGDUqgTFOjhE3zpfcLpXlnIFfoXMIWGRLj0uIad8v8lhSKaeZCVtipWeiY=
+
+%URL%
+https://github.com/storaged-project/libblockdev
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1735247278
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%REPLACES%
+libblockdev-tools
+
+%CONFLICTS%
+libblockdev-tools
+
+%PROVIDES%
+libbd_fs.so=3-64
+
+%DEPENDS%
+e2fsprogs
+libext2fs.so=2-64
+libe2p.so=2-64
+gcc-libs
+glib2
+libglib-2.0.so=0-64
+glibc
+libblockdev=3.2.1
+libbd_utils.so=3-64
+libbytesize
+parted
+util-linux-libs
+libblkid.so=1-64
+libmount.so=1-64
+libuuid.so=1-64
+
+%OPTDEPENDS%
+btrfs-progs: for BTRFS filesystem support
+dosfstools: for VFAT filesystem support
+exfatprogs: for exFAT filesystem support
+f2fs-tools: for F2FS filesystem support
+nilfs-utils: for nilfs filesystem support
+ntfs-3g: for NTFS filesystem support
+udftools: for UDF filesystem support
+xfsprogs: for XFS filesystem support
+
+%MAKEDEPENDS%
+autoconf-archive
+btrfs-progs
+cryptsetup
+device-mapper
+dosfstools
+e2fsprogs
+exfatprogs
+gcc-libs
+glib2
+glibc
+gobject-introspection
+gtk-doc
+json-glib
+kmod
+keyutils
+libatasmart
+libbytesize
+libnvme
+libyaml
+lvm2
+mdadm
+ndctl
+nss
+parted
+python
+systemd-libs
+util-linux
+util-linux-libs
+volume_key
+

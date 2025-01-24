@@ -1,0 +1,88 @@
+%FILENAME%
+libportal-0.9.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+libportal
+
+%BASE%
+libportal
+
+%VERSION%
+0.9.0-1
+
+%DESC%
+GIO-style async APIs for most Flatpak portals
+
+%CSIZE%
+92444
+
+%ISIZE%
+678394
+
+%MD5SUM%
+fa443c00a0f701b70871b78634411417
+
+%SHA256SUM%
+801801997fbb75e28819b034b4671cecfae90ba2eb0583f472a377eeb172fc5f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmd/FfIACgkQdxk/FSvb5qYNwg/+Nwk/G1RMzHprBDinNQYMhhsxG0tZsH7YAi9RvYXMfBQ9lvhVTMCbXsF7FLtniFw4tSjXxdtUBatar3drpLZmX22HwR837v8E1QwQ67rWsVwb/aFa+NIs+ZEnJpFurnLsoCNAjADPfwLJF1A2ZYIPC/Fspd+biiUiAhV5yJu1Y7iutO2AoKUt3i5ULqWDx7E+Mnb+cbkFLDkAgeHYo6G1Ad5F+zrgf9R4XyZynw5YcREFlOpyQ5vjB4stjeD2Psy6g2YKxr1wFbkdPsGnZRRMGHX4cK7SVaZ1B+hNEW8Q6DHZgE+yOpeAk5Jq3bhRZDUVzM7muPk7UnCZGeO7P7wMfJ+uOF/+PpYUicAtDvs64JnUAuj7MfEtiXVD7E4bUOjD7CUzUq7F7jBNo8Ud9lwYBy8J02BSfjkOUO/Nthzo4qwpVecxxnxPMOPMitFkMGXFQJ/alfvknMP+FwoIyZZhD43x7TWX5l+IKmMjK9+DOR7wp2Dd6g2HQkB7xApTkJtZu5RRIrV1UYvJ2Q687HEb6QnRcrkXW49dKQOFHdmRwGE08FzVM9D8H3qln3cemTrUZ0zSa1EbBpviNTkv8G0BCMOOxsJdLoGuaRF1Sf96BIArXiG9FJ9WD01tt2xl21dTertL279uwgLFGPeugxUCQHHJ9sVqLKFry+HCph582TY=
+
+%URL%
+https://github.com/flatpak/libportal
+
+%LICENSE%
+LGPL-3.0-only
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1736381821
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%PROVIDES%
+libportal.so=1-64
+
+%DEPENDS%
+gcc-libs
+glib2
+glibc
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+libgio-2.0.so=0-64
+
+%OPTDEPENDS%
+libportal-docs: API documentation
+libportal-gtk3: GTK 3 backend
+libportal-gtk4: GTK 4 backend
+libportal-qt5: Qt 5 backend
+libportal-qt6: Qt 6 backend
+xdg-desktop-portal: Portal service
+
+%MAKEDEPENDS%
+gcc-libs
+gi-docgen
+git
+gjs
+glib2
+glib2-devel
+glibc
+gobject-introspection
+gtk3
+gtk4
+meson
+qt5-base
+qt5-tools
+qt5-x11extras
+qt6-base
+qt6-tools
+vala
+
+%CHECKDEPENDS%
+python-dbusmock
+python-pytest
+xorg-server-xvfb
+

@@ -1,0 +1,70 @@
+%FILENAME%
+klipper-0.12.0-5-aarch64.pkg.tar.xz
+
+%NAME%
+klipper
+
+%BASE%
+klipper
+
+%VERSION%
+0.12.0-5
+
+%DESC%
+3D printer firmware with motion planning on the host
+
+%CSIZE%
+6921384
+
+%ISIZE%
+214266440
+
+%MD5SUM%
+ac6b3a733f44eb2179bb744463cd2f51
+
+%SHA256SUM%
+b031c2cabd575a5f151291219395613d60332fdd4d3d16e2aa53717f7728bbec
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmdsMZQACgkQdxk/FSvb5qY28A//Tspg9p4AJ7NKcx51x7GuduQgx69vFEwIg9QxLOY3QuCsJeT6ofEIKTZd/wYQ0psjgvT5vHjWyZR3gdpJa5vhIM7kefPlgzVSJezAB8bYQ1uReGOV0NJtFY7OQFr5f54lzgPiCFJM4iz/jCfN2pZtMqd7GtS/nU1cJn0CRHKiMTvkmHtibYAhxHzvJwhlPNGPtaZcOw7l0P4AepZsNRP4jLcng3U2Mk4QH/ZX8gH96Ry7Pf6aCVLm60uCxnRgH5HEBcnFbVSeMQfP8VWvbKEEcPkYfSO6VlaP2u28H4cx3VNZSboIyfY4hoS3Vd6BZo/11bvcBJBAmuEgVoT3O412IAzcUcsP6Wl1sgoy/RWTBipfUspE8g548yFJGDgEB0G+WHx43qfg4eLqeTUsldkZmD5cWifoNCn3sVRhsg3c5m/EKJekKmvd5ogSN2aa/qm7NVB6OUN36m/hL5EqmubZBGrtIf/Pa6ybfEcBrOUzqgTkXex5ktLoYnXx6JHMVXsngNrWXNLR3qWC40yRqfeD321FceHEZbCH0kaMxKNV8UgGJHuujeWzlWC6easAA5MzBznW/L8M3MlrDebKvzC6jGxha16E6IYFit7XVTGCee55UcOhSg8JlOIyTP3rb5C6DZ8JkxGPAxMlBdnSU5xjsiiA8SGBt0vrfP2CgOl4JUs=
+
+%URL%
+https://www.klipper3d.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1735143737
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python-can
+python-cffi
+python-greenlet
+python-jinja
+python-markupsafe
+python-pyserial
+libusb
+
+%OPTDEPENDS%
+ncurses: for choosing compilation config
+avrdude: for flashing firmware on AVR MCU
+stm32flash: for flashing firmware on STM32 MCUs
+avr-gcc: for AVR MCU firmware compilation
+avr-binutils: for AVR MCU firmware compilation
+avr-libc: for AVR MCU firmware compilation
+python-numpy: for resonance measurement
+python-matplotlib: for resonance measurement
+dfu-util: for flashing firmware on STM32 MCUs
+arm-none-eabi-gcc: for RPi firmware compilation
+arm-none-eabi-newlib: for RPi firmware compilation
+
+%MAKEDEPENDS%
+git
+
