@@ -1,0 +1,81 @@
+%FILENAME%
+sdl3-3.2.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+sdl3
+
+%BASE%
+sdl3
+
+%VERSION%
+3.2.0-1
+
+%DESC%
+A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard (Version 3)
+
+%CSIZE%
+1406121
+
+%ISIZE%
+6339741
+
+%SHA256SUM%
+ae96eb9270feee55ca65c230634a5b281afcc8c8c76945fcb10631e6a8edabd9
+
+%PGPSIG%
+iQIzBAABCAAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmeThvwACgkQOeS4d+YuuRXhGBAAtyWoCtNjbxQcZgx4o4H7ca5CGKcuts0IiBQk+6YT6H2lpMh99mG72fh9RU2uhd03SiVW/CrZZg7ib5akYUXBGdNBsXy9UKsbN+UgHMFAFeZ3FMChEbK19B7VsS1zR+bxVqHkfAwSBdIoeEmzl5RxSgKMnRmG3GlwdP5Tcg9fWbQdvSa5ARu0ZWynOHcXCpUXhulqaAc/QXpqcFZRFd+AdlV++fx3iM2yEQsf51x3KENGK1DZC9hIJK2iFkw90oQt93lEc3mWeyXd8G0SDvUHq1OQ3itOgRoVhZ7/4j+DbzByIebOPL9lkUYDZF0d/VvUHNb4VcUvEkZt9y6s4BJUjhiEHWRgEMZxXYs6hvXhGEpBcdFkeD3iKEaZcbTPHVLvIQ8CpiqPrcMXS/5tbFmr7eCIcknzHHcnZK7BehuLF8Lc/dIsQG5vE+QT+Ih/BZ31GJZS0KE1CzdMAyyO6FNcMBNoisPYCjyYhccRZA5KytcVivRUBELdS4lhafMxEiNoX9gNdnY2DnqN9kBM1UAiQgBlSYgof3973gf929HkS60Tj41AWu8AZg8YjJvW6uQW0ozRqU6Vl6dph2+pP4G79S5PAjkXzKE4z2SLHlNIOrWi7sOAk5yz9thKrZa3FHPib3k1eqiwrI8n5+MDJE4hmCgj78VGRkQ8v7iGV0jE2LA=
+
+%URL%
+https://www.libsdl.org
+
+%LICENSE%
+Zlib
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1737721294
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%DEPENDS%
+glibc
+libxext
+libxrender
+libx11
+libgl
+libxcursor
+hidapi
+libusb
+
+%OPTDEPENDS%
+alsa-lib: ALSA audio driver
+libpulse: PulseAudio audio driver
+jack: JACK audio driver
+pipewire: PipeWire audio driver
+vulkan-driver: vulkan renderer
+sndio: sndio audio driver
+libdecor: Wayland client decorations
+
+%MAKEDEPENDS%
+alsa-lib
+mesa
+libpulse
+libxrandr
+libxinerama
+wayland
+libxkbcommon
+wayland-protocols
+ibus
+fcitx5
+libxss
+cmake
+jack
+ninja
+pipewire
+libdecor
+vulkan-headers
+sndio
+
