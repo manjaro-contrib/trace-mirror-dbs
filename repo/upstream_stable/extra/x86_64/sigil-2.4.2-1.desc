@@ -1,0 +1,70 @@
+%FILENAME%
+sigil-2.4.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+sigil
+
+%BASE%
+sigil
+
+%VERSION%
+2.4.2-1
+
+%DESC%
+multi-platform EPUB2/EPUB3 ebook editor
+
+%CSIZE%
+4642823
+
+%ISIZE%
+22726657
+
+%SHA256SUM%
+151a200039b5d362f98c1417692a55c7969546bf1aaa86d439aad021833c0e97
+
+%PGPSIG%
+iQIzBAABCAAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmeehWcACgkQqF6BHrTKLgjURBAApitB3AYduZPM5g7avJT4V8LN/U8mFD9itH/u36+VEHigoZ/9T3pLkGT3wN4esBBxbXw88RjPijBLeV+AIeKgTbRDg3SrTNQhhe1hBY7fGpW6CYsnJ1+40o6IbRVB1A68D/SOHYA7Nosf1C7/YGdY03ypWthzjNd0K04Yf+D7o01r3iUzKXqCZN7xrjfuf3EMsx1hfoata4tXsXm1HD30B8wB5PzQOGyPtGCYOd7gT+NM0qdHIrhPCacna6RnWMGc1gVhk7vBktYMANlT08MhgXaU/qeswjlXoEr1tq0GrKUkG2o0kan+jrt/KBn3zZYpyjhHoFGkrmtqHyG2/zFSQvc81Ad4FQjex/UpEU6R3/UitkSX7Dxt3wOsEQz6xVHKeRhP4knFd0PgLAAUiJuT9fL6BrVUbfitLeP0xCJVHbcB7U+peV4gH4jRhdreDDbloxnBbIzSUSLbjf8ZLhu3fEkcVUPkcvDMK2ZSQ/wIiU7AVDupv4In/iUQkmiWyoSFnOWu660dI8mElVgY4eKSSGz8cQddzChXHv+LPKSMGlRIjqbN/ttWAG1s/6GYcio0sxMT6n/VgrNO1UPwl2PvdQx5igeFVPp0tSyNHv1l0DrTP14A1r+1u44bIFiz0zZpcCdj6nNYmM/z2d1fKWMUEYEgoKKx+1rJIqQClTy0GBk=
+
+%URL%
+https://sigil-ebook.com
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1738441923
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%DEPENDS%
+hicolor-icon-theme
+hunspell
+mathjax
+minizip
+python-css-parser
+python-dulwich
+python-lxml
+qt6-5compat
+qt6-svg
+qt6-webengine
+
+%OPTDEPENDS%
+hunspell-en_US: for English dictionary support
+hyphen-en: for English hyphenation support in plugins
+pageedit: external editor to replace BookView
+pyside6: recommended for plugins
+python-html5lib: recommended for plugins
+python-chardet: recommended for plugins
+python-cssselect: recommended for plugins
+python-pillow: recommended for plugins
+python-regex: recommended for plugins
+tk: recommended for plugins
+
+%MAKEDEPENDS%
+cmake
+qt6-tools
+
