@@ -1,0 +1,85 @@
+%FILENAME%
+mkosi-25.3-1-any.pkg.tar.zst
+
+%NAME%
+mkosi
+
+%BASE%
+mkosi
+
+%VERSION%
+25.3-1
+
+%DESC%
+Build Legacy-Free OS Images
+
+%CSIZE%
+619449
+
+%ISIZE%
+3227876
+
+%MD5SUM%
+475a269ca87dfb419c26ffe9b7907622
+
+%SHA256SUM%
+cd53d5c9532f2f63e9694064c87cbfb55437ece110ae4f4ced84df2a8086b214
+
+%PGPSIG%
+iQIzBAABCAAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmecoRgACgkQk7EdqkwZfj0vAQ//cxPYuRDHcyRAmst/fY/FLzNGZA6pwZ+Z9zPgdbvxu6ZOMvCjPUqZVxa+hKfiOLCA16A9mkv5E/FHlzFZFoU5mZJXm7+Hr8zO0cEqKjwhO8oAMMEcx6VdeVPDV5QcAsLRNlU3/ljVqhfmLTjVqwIm4+pTdZk9Q89ffLvDazn4Hm1KeQzFz7M1sPfpJQD1x6AcgkYONsQb+CxX2foPozQlMk0UGS4gThTSO/zCUOF5OooUurE3nyoA2DV6H3uWlgu8xSCkay49lYJsIfeG3Hn7OQ566sh567l4AlTGRdb9ITte0a1EGsN0cV2n+CQ337UILgpEhr35zL75OZ9eoVSXV0gput6n34epLo/1IfT4eDBTQZAb0ZxDoOontwWnY6Qc4zuBlkupuvJcRU1NZJy9SPOo+ch1AUGY9m1cw6p+XAntXJExwCIIoQuZxN517a+u0Q6bcZ5Pf6ZB6W731PkjgiZhv+j9hLCqTwYFFqS9ta3JT97TGd1c3IZNi35SMHmZz63jI4WxqSsnrJCED5HB20U8eKz6+iFB/2cirG/QgBGyAegfhD0rMVCV4CvMiA+J2flnTctTZEAY2yWQTq37VcNadKKygZE/22YCY4aSsl7jHVgZxNVHhlvxx3DmRG+0F8scCdESckU2r5TVci4bq3hkbOqg2ITMx5jXnFCOD6c=
+
+%URL%
+https://github.com/systemd/mkosi
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1738317511
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+python
+python-argcomplete
+sh
+systemd
+
+%OPTDEPENDS%
+acl: for removing directories created by mkosi
+apt: for creating Debian and Ubuntu images
+btrfs-progs: raw_btrfs and subvolume output formats
+cpio: for cpio output format
+debian-archive-keyring: build Debian images
+dnf: for creating CentOS, Fedora, OpenMandriva, Mageia and OpenSUSE images
+edk2-ovmf: for running bootable images using QEMU
+erofs-utils: for EROFS support
+gnupg: for signing image checksums
+kmod: for images using Linux kernels
+mtools: for FAT support
+openssl: for UEFI SecureBoot
+python-pefile: for bootable images
+qemu: for running bootable images using QEMU
+sbsigntools: for UEFI SecureBoot
+swtpm: for adding software TPM when running bootable images using QEMU
+systemd-ukify: for Unified Kernel Image (UKI) support
+tar: for tar output format and Debian or Ubuntu images
+ubuntu-keyring: for building Ubuntu images
+xz: for compressing images with xz
+zstd: for compressing images with zstd
+
+%MAKEDEPENDS%
+pandoc-cli
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+
