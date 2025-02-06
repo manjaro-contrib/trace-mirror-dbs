@@ -1,0 +1,70 @@
+%FILENAME%
+kpmcore-24.12.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+kpmcore
+
+%BASE%
+kpmcore
+
+%VERSION%
+24.12.2-1
+
+%DESC%
+Library for managing partitions
+
+%CSIZE%
+753460
+
+%ISIZE%
+4389432
+
+%SHA256SUM%
+d9f74930681af5aba50411d000b2e4d42a5993e65520ed931e9ca15c014adb3b
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmektugACgkQek52CV2KUuR6YQf6AtYCgZ0a8J7XunIa2aD2zEEoYi4ySAzeGiOZHyvU2A6a1FCPKaD1ambi3XyRM+OZs/wvu07FESCAPRZGZcBcX8pS/t/TIK9SRbsOeMbqxQ54f5QvfEAE5NDhHvwWQTplZzMB8oVAY4Fz23qHUCyYtQjCdSaJ3ixRfMtDarStbgy719AQ6TYyC+luim0vblBtCyy1i1Iaa4cfQWkAGGW6bXc+ISmEnCAypYb8uKFhQg9bowyOnb/z1wP5O/5sPmdSWeS/7KJls4A6Qky/leP3537U05b4Lr6ErfXJyQH9DiZjhx2hgEBnMwj+0PTIh3bsGHKQL87xqSlgt3mXWmtNzA==
+
+%URL%
+https://apps.kde.org/partitionmanager/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1738689739
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+kcoreaddons
+ki18n
+kwidgetsaddons
+polkit-qt6
+qt6-base
+smartmontools
+util-linux-libs
+
+%OPTDEPENDS%
+bcachefs-tools: BCacheFS support
+dosfstools: FAT32 support
+e2fsprogs: ext2/3/4 support
+exfat-utils: exFAT support
+exfatprogs: exFAT support (alternative to exfat-utils)
+f2fs-tools: F2FS support
+fatresize: FAT resize support
+jfsutils: JFS support
+nilfs-utils: nilfs support
+ntfs-3g: NTFS support
+udftools: UDF support
+xfsprogs: XFS support
+
+%MAKEDEPENDS%
+extra-cmake-modules
+
