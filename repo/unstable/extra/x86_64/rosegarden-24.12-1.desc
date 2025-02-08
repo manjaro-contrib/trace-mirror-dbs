@@ -1,0 +1,104 @@
+%FILENAME%
+rosegarden-24.12-1-x86_64.pkg.tar.zst
+
+%NAME%
+rosegarden
+
+%BASE%
+rosegarden
+
+%VERSION%
+24.12-1
+
+%DESC%
+MIDI/audio sequencer and notation editor
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+8026419
+
+%ISIZE%
+14402456
+
+%MD5SUM%
+8263a0da46175870042420876a4fd11f
+
+%SHA256SUM%
+d498929d24ae941c39f8cb51578d8e7ec15087d172ccd2700cb35952f5b6420e
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZ4Q8zwAKCRCbeih9mi7GCMKAAQD1R1uPkaRDy6jI13Q/BpIHq4Y82cvSlExaVhUJDxe2+AEAjrD96y0/l60sseTUyeH/gb3bd+Qjqt6rPNQVmLo+zwQ=
+
+%URL%
+https://www.rosegardenmusic.com/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1736719431
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+dssi-host
+ladspa-host
+
+%DEPENDS%
+gcc-libs
+glibc
+lirc
+hicolor-icon-theme
+qt5-base
+zlib
+alsa-lib
+libasound.so=2-64
+fftw
+libfftw3f.so=3-64
+jack
+libjack.so=0-64
+liblrdf
+liblrdf.so=2-64
+liblo
+liblo.so=7-64
+libsamplerate
+libsamplerate.so=0-64
+libsndfile
+libsndfile.so=1-64
+
+%OPTDEPENDS%
+cups: Printing support
+evince: Print preview support
+flac: FLAC support
+lilypond: Notation display support
+mupdf: Print preview support
+okular: Print preview support
+timidity++: Softsynth support
+wavpack: Lossless audio codec support
+
+%MAKEDEPENDS%
+alsa-lib
+cmake
+dssi
+fftw
+jack
+ladspa
+liblrdf
+liblo
+libsamplerate
+libsndfile
+qt5-tools
+
+%CHECKDEPENDS%
+lilypond
+python
+tex-gyre-fonts
+ttf-dejavu
+xorg-server-xvfb
+

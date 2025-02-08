@@ -1,0 +1,85 @@
+%FILENAME%
+nextcloud-30.0.5-1-any.pkg.tar.xz
+
+%NAME%
+nextcloud
+
+%BASE%
+nextcloud
+
+%VERSION%
+30.0.5-1
+
+%DESC%
+A cloud server to store your files centrally on a hardware controlled by you
+
+%CSIZE%
+162247408
+
+%ISIZE%
+655255886
+
+%MD5SUM%
+a329dda6022eeedf733ad18cbcdb53b5
+
+%SHA256SUM%
+66a752ec55bce35606a1a284eef640fddd8e38ede24ad0364b9fea3c1b6d8fbd
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmePBvQACgkQdxk/FSvb5qYOvA//RyQNIczHcLxXSBVS//2kWmuDdmBjosDOFadY6yikp7rKYwTwsvaEjiG4ECEHhSMaza4sPy2Ak1PRbET5Nwy0Ii+E6exL2bSScwnWn1ikZK31+aQTqglQBnaPys1YXDgpB6EdB7/m5fGT6HmfoxoubVX9tpnAmOWJkGwX+n7Nr6g4zKweNxtGUHEmxDxJU0nuo8pL3CAbwA/Y76HYD3Mno5JTxt/IlqGJkiUDNCpoZLnWe64mFyHxteSATKbvk1aybzMiTKLBNm66X2nGPAqcUzyA+WDW7VxxdvfkTZgHQIiSgvM5rQA3qAYIhU5C0LQ2s5hdaDCVf1LSF4eNjH7K03R/aQndj9ciAAYlQGR5LOI6DZb/r+vYtXFKQH9zplwkufApqBaS5zIOoFeWl5EctboyfwpC8VhadIsElS7Y0EdFcsj2Q6gwIKVzl/5+5mUg9O3KT0I+4EL02FHi8+d+WuNxBnHXo4DD6/M6x3V73ZLLRm5F773uDVNdkXVETn1a0foqlaPjy36WsiK2LJFA4VinvVsBUt3mjMBj6GZYy10a3j9bXzLSjtZldAceY9OVljqzOiQSWN9Qcetr4XggmUvT9U8f+GQ1ntk9VtzfueBWg1xTBNZUSUdg0mpUO9lZwqaKPn+uot9vAM+3UdQ0TMUcVvIlhnJdMqw62a7SHQY=
+
+%URL%
+https://nextcloud.com
+
+%LICENSE%
+AGPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1737426304
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+php-interpreter<8.4
+php-gd-interpreter<8.4
+
+%OPTDEPENDS%
+curl: for webcron jobs from within uwsgi
+ffmpeg: for preview generation
+libreoffice: for preview generation
+mariadb: to use a local MariaDB server
+memcached: to use a local memcached server
+mod_itk: to use the Apache web server
+postgresql: to use a local PostgreSQL server
+redis: to use a local Redis server
+smbclient: for SMB/CIFS integration
+sudo: for privilege elevation in occ command when not run as root
+php-apache: to use the Apache web server (latest PHP)
+php-legacy-apache: to use the Apache web server
+php-apcu: for caching with APCU (latest PHP)
+php-legacy-apcu: for caching with APCU
+php-fpm: to run in fastCGI process manager (latest PHP)
+php-legacy-fpm: to run in fastCGI process manager
+php-imagick: for preview generation (latest PHP)
+php-legacy-imagick: for preview generation
+php-memcached: for caching with memcached (latest PHP)
+php-legacy-memcached: for caching with memcached
+php-pgsql: to use the PostgreSQL database backend (latest PHP)
+php-legacy-pgsql: to use the PostgreSQL database backend
+php-redis: for caching with redis (latest PHP)
+php-legacy-redis: for caching with redis
+php-sodium: for Argon2 password hashing (latest PHP)
+php-legacy-sodium: for Argon2 password hashing
+php-sqlite: to use the SQLite database backend (latest PHP)
+php-legacy-sqlite: to use the SQLite database backend
+uwsgi-plugin-php: run as application container (latest PHP)
+uwsgi-plugin-php-legacy: run as application container
+
+%MAKEDEPENDS%
+php
+php-legacy
+

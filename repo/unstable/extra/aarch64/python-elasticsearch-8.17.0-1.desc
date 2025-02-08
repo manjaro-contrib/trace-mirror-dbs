@@ -1,0 +1,74 @@
+%FILENAME%
+python-elasticsearch-8.17.0-1-any.pkg.tar.xz
+
+%NAME%
+python-elasticsearch
+
+%BASE%
+python-elasticsearch
+
+%VERSION%
+8.17.0-1
+
+%DESC%
+Official Python client for Elasticsearch
+
+%CSIZE%
+431864
+
+%ISIZE%
+10236204
+
+%MD5SUM%
+94f60210422549ed7339d6d1f3e4570b
+
+%SHA256SUM%
+a1dfb8fbdd50a6b81162d4ce8a888f63ad4ce5235da4450990034ab9cf12693c
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmdrP2AACgkQdxk/FSvb5qYbdQ/+NXqPZ2LXll2OPP1uuxLK/iVknmScd6QfXRceLGNU56LwGUPu9tW6dT5prL9IsPPRofW5Zkfz+vAAHX3uZO5nmdAFAkHDMX+KztaKopE4tzk0fIFO7acFIrlNpQazt1L7UBrrilylP2mnCC8+8A7f6fWFiM5vqj3lB+7pUfnQWSnfAboeOxVq1OrbZLuLgyutq0n6pB45FMgtbzuYvzwpyWdioJBFzbjVquFTAuO0Mp577u5VgihV2rjvyk8Jd5XJ9yQmRwvRz36TPma91F/J+bF6zUNTmmGd6MM17o4J9Eu4rhskTKxpwEXho0SHBwyYKzrZXFEvgQKoWX8E32/uAVgkibQ5h5JZrReIuG2tBqt3Es66mEhcA54y8NIC5B+0i+A5DygHz2DnVND06WKQQjaddGOEdzJQV1MUD7SYaVR1a+Wjbsf6u9McYP1VknfsucNZP5w6wcSXjkv2lSmsWIN9w0oxqoSn6x4HVDvNdoocnr9SxE1I5XQsRG9D0O2NQlfspiyPKAH8iDOMYjfHyOtKnhurggOyeYCWJcnaQV76AMjeqbXzZk+9OAmG+x+HkbufSet4h/eziJx2St/kNyXEAmpe7uDP4zPW7ZkUnRQ5C3tc/2MVVvVpC8zo1LY2s7EzrJh/cvbVaMZNLBlqaos4I2+bD/SyE6MGjBLqxjk=
+
+%URL%
+https://github.com/elastic/elasticsearch-py
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1735081805
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-elastic-transport
+
+%OPTDEPENDS%
+python-aiohttp: support for asynchronous requests
+python-numpy: support for Maximal Marginal Relevance (MMR) for search results
+python-orjson: support for faster JSON serialization
+python-pyarrow: support for Arrow deserialization
+python-requests: support for synchronous requests
+
+%MAKEDEPENDS%
+python-build
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+python-aiohttp
+python-dateutil
+python-numpy
+python-orjson
+python-pandas
+python-pyarrow
+python-pytest
+python-pytest-asyncio
+python-requests
+python-yaml
+

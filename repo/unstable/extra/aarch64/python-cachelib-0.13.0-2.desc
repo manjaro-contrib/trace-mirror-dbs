@@ -1,0 +1,68 @@
+%FILENAME%
+python-cachelib-0.13.0-2-any.pkg.tar.xz
+
+%NAME%
+python-cachelib
+
+%BASE%
+python-cachelib
+
+%VERSION%
+0.13.0-2
+
+%DESC%
+A collection of cache libraries in the same API interface. Extracted from werkzeug
+
+%CSIZE%
+43772
+
+%ISIZE%
+239909
+
+%MD5SUM%
+d31f74b4122ae3fe8a022a6e1bba9a82
+
+%SHA256SUM%
+63c67aa07789488415d88cfbab1ded452312352534b7f8875781e1d3ec1fb7e3
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmdpg4kACgkQdxk/FSvb5qY7LxAAq2r0c4x7KhgUTRTS2LFmMknvuoVRHxZN9GqaL8IS7QCK+cWVrxKGLrEJ+kjxmpX8biw5pFIxkNpeUAWHgmkFgh859gOey4hqYvx9rjnxn5ZUux4ATH/VwG9+cizGJxO4dbdTvbHw+Vz25E3547KmToSKoXE9Vlq+u9IWkUBGO2WkXOYplZytsajkSHTIawHPdkXZlKg1thild2czno3PizZDwIr/A6IViFUaA5GEhFis0+CHZhMFA1RMc4q9Lgmvtc6dddZSuEvPrB9tXOhRIMGSy0oNtOL+ulQY5U6Z6YRK4Lb3LClY09yuJE3OVmFMYFqcdIcCptB1h8FzAXOLgyO5GNBOopsLCa11qfexDi0T/dVETGeUpyUKFNPHrz1uTVgusgg4WzT0/UsdrkLqGzw52+fBxKcHVZr+yPWE09G6kWA9TNHUUZcohuGXBHUSEcTXzxUvALIh3dDASQcuFDktIfmJHsfsg81GihbfZMI3C66RCQ/YVjOXxpG/3n70o4t09nmWiRPEIDHHe9Sj1yxbn+CuW6tPtn6rrROLDGeoh0l9V8AiBwOSH9JvVgpmdcfXSKEh+hQ3oi9mlw/ZewgxjBLLBpT/pXk6N8y4/dgAnFrDVfFWJibc091Ug0UdZsuSrYng9m7rG07Uks/8iXctbPQRqF0GixdVSej76IE=
+
+%URL%
+https://github.com/pallets/cachelib
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1734968190
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-boto3: for S3 backend
+python-pylibmc: for memcached backend
+python-pymongo: for MongoDB backend
+python-redis: for Redis backend
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+memcached
+python-boto3
+python-pylibmc
+python-pytest-xprocess
+python-redis
+redis
+

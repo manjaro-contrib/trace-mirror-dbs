@@ -1,0 +1,84 @@
+%FILENAME%
+crossover21-21.2.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+crossover21
+
+%BASE%
+crossover21
+
+%VERSION%
+21.2.0-2
+
+%DESC%
+Run Windows productivity and utility apps like Microsoft Office and games
+
+%CSIZE%
+283551483
+
+%ISIZE%
+891599976
+
+%MD5SUM%
+95d605eb399b239b2e83efcdd97733d5
+
+%SHA256SUM%
+6ac0009f8f4537d12e0286efdd98e5d8e2a3581a7b962fa1eb4d630cb35e3596
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmOfar4ACgkQFQwgB0PtRtgiXggAnc+Vliz/Qw4HEqqko5qkjt68ELXspvgvknvEY1pkLQREPCW8NBLPT9vO5a/IVwpJz2esAV+lLGXZZWjRFMXcvtoXHu28WYxisKGymTNFvQ6g8DPa/oFv1tGDPrJfpG59jr92209czvOCCxfgN4hbSvyLxBgEV6VVnBSNslmii15o4CuKW9sO/5P4e0Zhm4ZDmC/mkDnEKvSaEVozlJ712aw+0EKbRqI5guLgMFoHosSLyFP9B7G9BIco4y6zpdlt+TgymnTsgjlBkRsPbHDHUCzGwUKp69nzjZNtYaX8n5yFmRCEk86Y5sb468p12uuhJZqIS3K90Gda2A97yZHdgw==
+
+%URL%
+https://www.codeweavers.com
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1671391812
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%CONFLICTS%
+crossover
+
+%PROVIDES%
+crossover=21.2.0
+
+%DEPENDS%
+dbus-python
+desktop-file-utils
+gtk3
+openssl
+perl
+python
+python-cairo
+python-gobject
+python-pyopencl
+vte3
+
+%OPTDEPENDS%
+lib32-alsa-lib: This is the preferred way to provide audio support to Windows applications.
+lib32-fontconfig: Makes it possible to find and use the system's TrueType fonts. This is strongly recommended for office-type applications.
+lib32-libcups: Needed to print to printers managed by the CUPS system, which is most likely the case. It is strongly recommended for office-type applications.
+lib32-libdbus: This is needed for Windows applications to automatically detect CD-ROM and USB key insertion.
+lib32-libldap: Lets Windows applications access LDAP servers.
+lib32-libpulse: A featureful, general-purpose sound server (client library).
+lib32-gnutls: This is needed by applications that perform encryption or check online certificates.
+lib32-libxcomposite: This is needed for most CAD-like applications and some games.
+lib32-libxinerama: This is needed if your display spans multiple screens. If your computer has a single screen then you don't need it.
+lib32-libxml2: This library makes it possible for Windows applications read and write XML files.
+lib32-libxslt: This library lets Windows applications perform queries and transformations on XML files.
+lib32-libxxf86vm: This is needed to let games perform some gamma adjustments (essentially to adjust the brightness).
+lib32-libxxf86dga: X11 Direct Graphics Access extension library.
+lib32-mpg123: Needed by some Windows applications to play MP3 files.
+lib32-nss-mdns: host name resolution via mDNS
+lib32-openal: Provides audio support to Windows applications.
+lib32-openssl: This library provides support for secure Internet communication.
+lib32-v4l-utils: Lets Windows applications access video devices.
+unzip: required to install Guild Wars, automatic installer extraction
+

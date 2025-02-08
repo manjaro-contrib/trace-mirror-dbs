@@ -1,0 +1,81 @@
+%FILENAME%
+git-2.48.1-1-aarch64.pkg.tar.xz
+
+%NAME%
+git
+
+%BASE%
+git
+
+%VERSION%
+2.48.1-1
+
+%DESC%
+the fast distributed version control system
+
+%CSIZE%
+7832744
+
+%ISIZE%
+46338549
+
+%MD5SUM%
+72391d49155e903b6b33d91ecdd2b9cf
+
+%SHA256SUM%
+33e70f432e9f3f9d1f69cf5e9dcefca1af67e4354fbf9595cdd7e3c2779d1b45
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmeG7jsACgkQdxk/FSvb5qZJYA/+IxDi4j0/rnQCHikhDinTOKm+du68PnpAF6Ur9sHyZQ3La6avZ50Z/Jg+vrLyTLmewll7873ou8eqXF/YNwDmDue/5B+LMOmMVew6qHCazKBl+YDfZl0iPw1TDRwoFHVA3WMNU1mhaG6Uygjlddjax7yq0hlbo+fFMl3NMIoKXBq3842ETiXCFRLuB01H4NhGG4JGDKKxtjz7F+0LJnLSXuav4D49e7TGEO3wqBO1hB4dIW7pW8fbvT7gcsWKuw/rO6Kku7PqKM3d1OF/MxNRazrnT5SM792ReGbcutWsbx3EUTgWzgfHtBVcpzXZ8UxQkq22T9jFbl0UAiAlpmWtEnf7JPoZAWtCvQMPE59e+TcXfl0JYlZEJja5lARxN5z3yjKKgpP+TqxDysOcKo/8ra1LXv6pVP8fCZd3rh6xci7KcTVeigPfTGUd7ZgkDOczi/LUKTpepustDPj3kcCHu94iENJlQjAZtDnAX1ys3MY3/x3OHU8XPkgL0Nd8CfKX998bqIuLzEKYRTO4rfQbHRVih/YztfWtUAA25LtswjMtfUdLR+25PRgbaC8TklEe3mR8lof4R7I02voy1zo7zfq4lQf/KNV34+Au8okb/g3dy1tQsNNBOzhJVaPXvClJjI/+qcJUHxFAQIMZYx4y1ftXOZCgNYJ2CmcNg6LReRM=
+
+%URL%
+https://git-scm.com/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1736895857
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+curl
+expat
+perl
+perl-error
+perl-mailtools
+openssl
+pcre2
+grep
+shadow
+zlib
+
+%OPTDEPENDS%
+tk: gitk and git gui
+openssh: ssh transport and crypto
+perl-libwww: git svn
+perl-term-readkey: git svn and interactive.singlekey setting
+perl-io-socket-ssl: git send-email TLS support
+perl-authen-sasl: git send-email TLS support
+perl-mediawiki-api: git mediawiki support
+perl-datetime-format-iso8601: git mediawiki support
+perl-lwp-protocol-https: git mediawiki https support
+perl-cgi: gitweb (web interface) support
+python: git svn & git p4
+subversion: git svn
+org.freedesktop.secrets: keyring credential helper
+libsecret: libsecret credential helper
+
+%MAKEDEPENDS%
+python
+xmlto
+asciidoc
+
+%CHECKDEPENDS%
+openssh
+

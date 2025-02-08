@@ -1,0 +1,77 @@
+%FILENAME%
+python-pymongo-4.10.1-2-aarch64.pkg.tar.xz
+
+%NAME%
+python-pymongo
+
+%BASE%
+python-pymongo
+
+%VERSION%
+4.10.1-2
+
+%DESC%
+The official MongoDB Python driver
+
+%CSIZE%
+840356
+
+%ISIZE%
+8294677
+
+%MD5SUM%
+0e352cc74bd755ea891243d5f26380f6
+
+%SHA256SUM%
+72c4bf03624a3157a655b4946d2e717a43fea069c01eb988d97d453beabf3f2a
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmdq8jwACgkQdxk/FSvb5qaTWQ//dB0TiwaNve075Pdj8G4LlXLpvDKZWU39thTOWNghKXf7cPRpxnPx2BRZYatOdU4qVOjRAc5Ih/YPIakBOckq1o3WRGf0e5BmIq9ScB8gS9SyXGOkthJ11ffwuTChE0ibMRTojX5CbOhJlbyp2he6F/ofMDu1sfZY65rhNDd6/wamxU4YduR7h5qTUS+qtb3MLjYoZ5MUa9HfLJQ4lyVxp3pKEm2RYuFrWxDe1w1NRcKKd1g8UK5ADSNi6UG9Mo5BMLkwwN10dgNVry7bIK7Iw7pLV/pvl3sPfuCef4ktLFwFjwQTaoEv/UgAE+Qn84yOemsxeusS6CUg9uHEYs0FVJZqERBniimU1eZAldl5+IUyCcXHqMRC+NO4SiaAk5BcFMF+s1k3JRGlBgHQn8p6/4Yl7wh1fVoO+8TMhWLREr3dnMdwFYpF1lNFEf1C4t7yM31pnw3qeS5mJ5v+JqP4hRH4tmUA/B1ig+429CITOa58fEFfu1PLbcyvCGlvlnAzsJaDcHy0yTU6mFyw7Z8Ei4LfGndVABuLrfvVL6svGO1HHlk5DoaT2dQzchJvF4SMRKXb1qL1oF6f1EBkLjoA+LgytfDybT/Vxe0UXi6lZG/0rszR7H94NJ2OsXpzOlAtoRzhKLvAfwMpFQEM/NVW5OvGsoN0DUGD6k+MOM4uL5U=
+
+%URL%
+https://github.com/mongodb/mongo-python-driver
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1735062051
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+glibc
+python
+python-dnspython
+
+%OPTDEPENDS%
+python-cryptography: for [ocsp]
+python-pyopenssl: for [ocsp]
+python-requests: for [ocsp]
+python-service-identity: for [ocsp]
+python-pykerberos: for [gssapi]
+python-snappy: for [snappy]
+python-zstandard: for [zstd]
+
+%MAKEDEPENDS%
+python-build
+python-hatch-requirements-txt
+python-hatchling
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pykerberos
+python-pyopenssl
+python-pytest
+python-pytest-asyncio
+python-requests
+python-service-identity
+python-snappy
+python-zstandard
+
