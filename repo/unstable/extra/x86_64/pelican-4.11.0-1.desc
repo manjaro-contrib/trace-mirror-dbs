@@ -1,0 +1,90 @@
+%FILENAME%
+pelican-4.11.0-1-any.pkg.tar.zst
+
+%NAME%
+pelican
+
+%BASE%
+pelican
+
+%VERSION%
+4.11.0-1
+
+%DESC%
+A tool to generate a static blog, with restructured text (or markdown) input files.
+
+%CSIZE%
+473476
+
+%ISIZE%
+1609623
+
+%MD5SUM%
+439c841c7f3bb91ede77e7db05369c5c
+
+%SHA256SUM%
+28d58814be403f740f56433f21b7c3d20690773db31558cd94f7eb7aaf8e34be
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZ5+WewAKCRDwXowSExrrXhR+AQDxNzHjCKIBjJK5Mo66cE50HNLorOtHEc4CXMJxiAO/nAEAleoftPBzKXSR2aRFx6RDozYhr1V+xe/ZZp0SccHYlgU=
+
+%URL%
+https://blog.getpelican.com/
+
+%LICENSE%
+AGPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1738511888
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-blinker
+python-dateutil
+python-docutils
+python-feedgenerator
+python-jinja
+python-ordered-set
+python-pygments
+python-rich
+python-unidecode
+python-watchfiles
+
+%OPTDEPENDS%
+pandoc: for pelican-import auto convert
+python-beautifulsoup4: importing from wordpress/dotclear/posterous
+python-feedparser: importing from feeds
+python-invoke: Task parallelism
+python-typogrify: typographical enhancements
+asciidoc: AsciiDoc support
+python-markdown: Markdown support
+python-mdx-video: easier embedding of youtube videos in markdown
+lftp: uploading through FTP
+openssh: uploading through SSH
+python-ghp-import: uploading through gh-pages
+rsync: uploading through rsync+SSH
+s3cmd: uploading through S3
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-pdm-backend
+python-sphinx
+python-sphinxext-opengraph
+
+%CHECKDEPENDS%
+git
+pandoc-cli
+python-beautifulsoup4
+python-feedparser
+python-lxml
+python-markdown
+python-pytest
+python-typogrify
+
