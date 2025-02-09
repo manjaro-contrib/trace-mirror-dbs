@@ -1,0 +1,108 @@
+%FILENAME%
+linux-lts-6.12.13-1-x86_64.pkg.tar.zst
+
+%NAME%
+linux-lts
+
+%BASE%
+linux-lts
+
+%VERSION%
+6.12.13-1
+
+%DESC%
+The LTS Linux kernel and modules
+
+%CSIZE%
+144473889
+
+%ISIZE%
+144734116
+
+%SHA256SUM%
+9ee8de4ac7916c4109006eba2ed67e137b52fffb719a7e65c18e4f40546dd7f9
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmeneDgACgkQlGV6sg8qCSuzaggApeOTYz9LlfdS+pu+KmdGEijKThJH/EAG9nB+MF2HwrG6JzmQfns4kyqo1aAgb75W4BI7mUGCr1OrZ7OSZWZSAiYlifP4ekqv0HDD0uNxmDYl7Lt0U94MDqnDVzO0H/K9uUV9slZ7VMlg/VUSaLTZtubkgeglMXd+qXPksFtN60V8Te8uKUFv6f/e3p4BQ8lbaPN02PuEYjv43zK66YQo7vU3DCu6No2rVMul00un5VdDa0GG9zlqzd0mkpP/5EYUfrrDlQm1wJwYw940rhm1FEjFSLyPr3XxGsSshNJX+GafUIyr9rdN5CvEPU0/tMab5eo18A0UQWRq9+skPmYmmQ==
+
+%URL%
+https://www.kernel.org
+
+%LICENSE%
+Apache-2.0 OR MIT
+BSD-2-Clause OR GPL-2.0-or-later
+BSD-3-Clause
+BSD-3-Clause OR GPL-2.0-only
+BSD-3-Clause OR GPL-2.0-or-later
+BSD-3-Clause-Clear
+GPL-1.0-or-later
+GPL-1.0-or-later OR BSD-3-Clause
+GPL-2.0-only
+GPL-2.0-only OR Apache-2.0
+GPL-2.0-only OR BSD-2-Clause
+GPL-2.0-only OR BSD-3-Clause
+GPL-2.0-only OR CDDL-1.0
+GPL-2.0-only OR Linux-OpenIB
+GPL-2.0-only OR MIT
+GPL-2.0-only OR MPL-1.1
+GPL-2.0-only OR X11
+GPL-2.0-only WITH Linux-syscall-note
+GPL-2.0-or-later
+GPL-2.0-or-later OR BSD-2-Clause
+GPL-2.0-or-later OR BSD-3-Clause
+GPL-2.0-or-later OR MIT
+GPL-2.0-or-later OR X11
+GPL-2.0-or-later WITH GCC-exception-2.0
+ISC
+LGPL-2.0-or-later
+LGPL-2.1-only
+LGPL-2.1-only OR BSD-2-Clause
+LGPL-2.1-or-later
+MIT
+MPL-1.1
+X11
+Zlib
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1739027764
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%REPLACES%
+wireguard-lts
+
+%PROVIDES%
+KSMBD-MODULE
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+initramfs
+kmod
+
+%OPTDEPENDS%
+wireless-regdb: to set the correct wireless channels of your country
+linux-firmware: firmware images needed for some devices
+scx-scheds: to use sched-ext schedulers
+
+%MAKEDEPENDS%
+bc
+cpio
+gettext
+libelf
+pahole
+perl
+python
+tar
+xz
+graphviz
+imagemagick
+python-sphinx
+python-yaml
+texlive-latexextra
+
