@@ -1,0 +1,55 @@
+%FILENAME%
+cacti-1.2.29-1-any.pkg.tar.zst
+
+%NAME%
+cacti
+
+%BASE%
+cacti
+
+%VERSION%
+1.2.29-1
+
+%DESC%
+Network graphing solution using RRDTool
+
+%CSIZE%
+34890847
+
+%ISIZE%
+98164821
+
+%SHA256SUM%
+51e5f65afb585adb12a4ad99e39b6ce548070e83f1314fbfc28585f3568b21b2
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZ6j79AAKCRCbeih9mi7GCH9WAP9u/ELrTRDqz6h44bmY925glV3PI3hMR4Ls6t5jw3SYVgEAtOamABARngECFyEJHOIqrHxdRyrsE0nN8y5RmEDnwg8=
+
+%URL%
+https://www.cacti.net
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1739127308
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+php
+php-gd
+php-snmp
+rrdtool
+ttf-dejavu
+
+%OPTDEPENDS%
+mariadb: use local MySQL server
+perl: for scripts
+php-fpm: run in fastCGI process manager
+uwsgi-plugin-php: run as local application container
+
