@@ -1,0 +1,58 @@
+%FILENAME%
+libdbi-drivers-0.9.0-10-x86_64.pkg.tar.zst
+
+%NAME%
+libdbi-drivers
+
+%BASE%
+libdbi-drivers
+
+%VERSION%
+0.9.0-10
+
+%DESC%
+Database drivers for libdbi (MySQL, PostgreSQL, and SQLite)
+
+%CSIZE%
+393510
+
+%ISIZE%
+827759
+
+%MD5SUM%
+c0558160c614c2f0786c676d7ea2ce33
+
+%SHA256SUM%
+783915898b4b54b5059a0fa7de5dbf80066fb3bf169cab484da337c60516b26d
+
+%PGPSIG%
+iQIzBAABCAAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAl8EkycACgkQeGxj8zDXy5I4ShAAllQLQ3nrrmnNu1/gzz+38RQuEFnMBxmOiOPQMfdxrUb2jbGtrJqGJUQl/tq8x+UeJXItx2cXHnfKbow5pFoLGy8Sk5I+xoDBNKtlvr8fCSvmN3bHAN8IlGjU0gmwaZrW9CopgxSXtSS2dV9I0pbuyg2ruUcj373mWh5sTz/HArVnXwLErmbabWMKs/fc64k+mVUUqzUpAYXhQUvu1ye0eV6Azd8w6mRTesSidpFxBN+prvZKaxqS342xogYyP7Q0ytWM1pbNFvhyFvGJVJMfszSfOkB04ZztbuJFYSnjYq8yabSSZs/H5p0qE2PULMxkDrZ4eeIu7rkXk6dkAZxp7XRZdCz9Dxt5Cc4YrYeHwbcDGZTG4sfbW4h59K4itrIw0MUvOxtDv/awmmb9JwUlyact1w3aC91ongD6dylZvrQZbmdOfBTXY8vgXwvzrdJfqqLP4Oipw7ULZMRMX/UIfRGmQo4hhV72m38yqSa+ezUm6twyfHcE+XOfo8NlkUENmVuLFtrYlqwjpdgTNKINhiUwD4gpf0+NHrgaYqUh2pbWtTPPAY1emhyLw+rvVgebMcTA9MKaX/+AEEnmk/u5zMEXucbAqn3EPj5e25OP6CFxqb/I3CMBZTonHVNKxDdsmfdPHcU5V5gnH/O/SuqIHAV6Qa/Rt8M2JYgXKqCuF0g=
+
+%URL%
+http://libdbi-drivers.sourceforge.net/
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1594135303
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+libdbi
+
+%OPTDEPENDS%
+mariadb-libs: To work with MariaDB using libdbdmysql
+postgresql-libs: To work with PostgreSQL using libdbdpgsql
+sqlite: To work with SQLite using libdbdsqlite3
+
+%MAKEDEPENDS%
+mariadb-libs
+postgresql-libs
+sqlite
+

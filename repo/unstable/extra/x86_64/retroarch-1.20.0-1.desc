@@ -1,0 +1,96 @@
+%FILENAME%
+retroarch-1.20.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+retroarch
+
+%BASE%
+retroarch
+
+%VERSION%
+1.20.0-1
+
+%DESC%
+Reference frontend for the libretro API
+
+%GROUPS%
+libretro
+
+%CSIZE%
+4479352
+
+%ISIZE%
+15137872
+
+%MD5SUM%
+e497293c975d5bad4ddee1bf4ff831a5
+
+%SHA256SUM%
+6189546217125b88bff93d3cba3b937475c3c7c4f130a263b8754fef8552bb6c
+
+%PGPSIG%
+iQIzBAABCAAdFiEElSIL6Zzm/3eK4NxnD2XH2IFQYTAFAmeSfh8ACgkQD2XH2IFQYTCVAw//TdB1hT0BfRr9t2T7uIVMp6z4p1cy2PwrlnQCA1hGMasIDwjbG+z2FikKy4H9AwC1mN0jElcmRWeIZCUFb+vJwpXi+ND+/y74f5GEPBfxl1xa0gapXGlLCZ8qiuEsxXCeAKPXnngj/LbIaOGM0vb4J0MQ0Idfqop4QdYGUzbqm/uyXEQkBkGBYaJfV7/wFHHYikOr8Jul7Bx7hg7s0V56a5Nk5a1aIvYy0dR/SpvUgRZP9gSqzXXiQbnBotoUn4G6miaf+i+yOeM6idi9sKqutEZeIgE7O3usUZ2zcbV+YXleAG28Q19fdjSgiRb+fHrMmyc8v8AzjJuJ1kUIUzhrPCknjefQjsfESf9nS+7Kw8O4NUZT8De4aQH8WbJ9O5YI4nI1svBHAfqtyciY+c6WzHtP+U5tQHr/ZBQJBJfZnk86hGGH8mxR3mnEY7O6z9ZOdOTP3R6PcyKzmaDLnYXYEYbR6EU9T7GSjwG3NjDduCkDObfvk7vNcwGrAbQ7ablyzV9OD6w9+qBmw+de+npnh6Gaq9lIx6piKY4E/OuGheQ68RaGk48s6SIUpoKO7hVU47aFAl5C7/ki3eiEw94kCSEN8RYct2zw9IzdkCBueed6DUVg24k4vLtbI5/E1FVdiC49V5irGfPOOhkAFNeJcRkK3qrxgSZvQ2vRh15Coes=
+
+%URL%
+http://www.libretro.com/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1737653653
+
+%PACKAGER%
+Maxime Gauduin <alucryd@archlinux.org>
+
+%DEPENDS%
+alsa-lib
+dbus
+ffmpeg
+flac
+fontconfig
+fribidi
+gcc-libs
+glibc
+libass.so=9-64
+libdrm
+libfreetype.so=6-64
+libgl
+libpulse
+libudev.so=1-64
+libusb
+libx11
+libxcb
+libxext
+libxinerama
+libxkbcommon
+libxrandr
+libxxf86vm
+libxv
+mesa
+openssl
+qt5-base
+sdl2
+v4l-utils
+wayland
+zlib
+
+%OPTDEPENDS%
+gamemode: GameMode support
+libdecor: Wayland decorations
+libretro-overlays: Collection of overlays
+libretro-shaders: Collection of shaders
+python: retroarch-cg2glsl
+retroarch-assets-ozone: Ozone menu assets
+retroarch-assets-xmb: XMB menu assets
+
+%MAKEDEPENDS%
+gamemode
+git
+libdecor
+vulkan-icd-loader
+wayland-protocols
+

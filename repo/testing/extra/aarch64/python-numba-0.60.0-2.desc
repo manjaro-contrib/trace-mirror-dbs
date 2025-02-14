@@ -1,0 +1,88 @@
+%FILENAME%
+python-numba-0.60.0-2-aarch64.pkg.tar.xz
+
+%NAME%
+python-numba
+
+%BASE%
+python-numba
+
+%VERSION%
+0.60.0-2
+
+%DESC%
+JIT compiler that translates a subset of Python and NumPy code into fast machine code
+
+%CSIZE%
+5400772
+
+%ISIZE%
+41531404
+
+%MD5SUM%
+a087d33e18f10b2edfc4c324e9ea8105
+
+%SHA256SUM%
+110c2586f0d5b374a9daa8893c661f2af20f9e61634fff1a65cc58997b2a15b8
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmbuvSMACgkQdxk/FSvb5qZVaBAAp3a+oPufQkj+P9dbxGnfzeeRQPXT00plyaGubUNcINGmf6DRBlsT+og2BD8pQjx7hnci1ciHuHhAgsT3ExpQaIsEE5LuqCdAl2gVMRsGD5vkaLp4cWrc6Xev/NuM630SwQ7/uuE8xZQ4W8DKLTsDFE6DDZwQUo9mdErMM/eYpvs7UhPzdjHBXg1UPK4x4ieJpLBlyD+XkgU5mXVpJCUGMeHyrPFBpFXQnfprCgU9pBTHDfDYcZdVbm0WA5WfOyOLlBZSLkC7VYrVdxc7/LYUyH521vqTdj/2h6JexX5AvBb6CgAXB69deOJZA4ThMsbYtzMIvzIFdOzvgWSbfZ4E/GR6/P40QwU4SVZB6FQCRbSjIaz9dOqyY7afjlDVY9YvVGaxd5bv57I80IwRHVSmLHSUuggc9S/JSXosG7RuzjBDFAokDYJCMjqCS+Ed4Ee6YaJcnFneEmLsB9XfbW8oz7K6mOQdXvpL1wkUmPtlXRoY0tPRQ4R+9ye7xt8PRd3iC4X5mz+jBSuCfeEtFP+oVSG7znpXf4XYdyH5GLqfaaWn85IOMLV7hEUHp1utbu+lAkJ99XpXzQ3FtW9me1OCK/4sTg8QqyKGs37Hw9zPFFXwByOqiEGfskaykxcO0xUOzcmblW2e3HcWm/n5/Nr7qwUhmjd27yETnC5PiZTXs+Y=
+
+%URL%
+https://numba.pydata.org/
+
+%LICENSE%
+BSD
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1726921913
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+python
+python-llvmlite
+python-numpy
+
+%OPTDEPENDS%
+onetbb: TBB threading backend
+openmp: OpenMP threading backend
+python-cffi: use of CFFI bindings in compiled functions
+python-colorama: error message highlighting
+python-scipy: cython bindings used in np.linalg.* support
+python-jinja: “pretty” type annotation output (HTML) via the CLI
+python-pyelftools: for code generation
+python-pygments: “pretty” type annotation
+python-pyyaml: use of a .numba_config.yaml file for storing per project configuration options
+python-psutil: for sysinfo
+
+%MAKEDEPENDS%
+git
+onetbb
+openmp
+python-build
+python-installer
+python-packaging
+python-setuptools
+python-versioneer
+python-wheel
+
+%CHECKDEPENDS%
+gdb
+ipython
+python-cffi
+python-ipykernel
+python-jinja
+python-pexpect
+python-pip
+python-pygments
+python-pytest
+python-pyyaml
+python-scipy
+

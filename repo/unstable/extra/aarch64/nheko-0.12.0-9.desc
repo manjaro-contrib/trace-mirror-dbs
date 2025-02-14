@@ -1,0 +1,88 @@
+%FILENAME%
+nheko-0.12.0-9-aarch64.pkg.tar.xz
+
+%NAME%
+nheko
+
+%BASE%
+nheko
+
+%VERSION%
+0.12.0-9
+
+%DESC%
+Desktop client for the Matrix protocol
+
+%CSIZE%
+3466352
+
+%ISIZE%
+17337494
+
+%MD5SUM%
+eb7a4f8885f30a15eadf82bf52e8fc86
+
+%SHA256SUM%
+b68591ae8174ef691d53959011235f4c1fea4489a5ba0f465fda1743dadef3db
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmd7wfMACgkQdxk/FSvb5qZq6A//YDHWv5p5DBE6sOf7+JPdsP40v27IFTf+I+3qBJGqfhQxsL6NptRgAxMH6IbjBmmnCQwXzrKy5kNLLpfYG/hbxCDh8r58UXOPG4Y/A6MULfNUpkzXJscetsncl+0vQEEVD71bR0hLKNji7XNF7czjczMzO5Uv/2AEqgB7msONj/lwaGWWVlAXhYR3xMvBY/jVHPouA5hjFrMtXmnCfVzCm5zmjGOBD2d6MnQEdsM5AH5Prs1lI76xkeTUP1/xyLRsbLWdCTAGMitb0N0VoKf9e2FDRVIdvuWUaKCupM3tLcwvU/h+DGwzmJ6+3s3LZjR67Z96B8/4VT0IsckDYv6vJ1fK7cwCJ8p89P02+cGMXO5sRaFBBFi1JNXUxSTxfUyL6G0x+K9kCWAn/HxxbA9O/bAoeiGh8Q5p4FFCND3QG/iIHd5vMtnJgwJgkc7kg2srj+jDFvJAuYUJ277wYLyu96lTqtmZDNtRITeZOwIxBv+tKQSRhO32RDoDkpUAIA/1EVW3anLxEIQ+cFtrm9Zm/d1CASqAgaL//OWStHpXSpBLCoMDBxhL8+2DLixeuqVSOLKwBbRnc/apT89VLE+68O0+Bc5z2VOPVlELaQ0yCBtyGdONGiW9CDWZt2UX8mcAIfs5mh/2RSgar47IObgWOGeJKSoQL6ETnJJy3rekIIA=
+
+%URL%
+https://nheko.im/nheko-reborn/nheko
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1736163466
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+qt6-base
+qt6-svg
+qt6-multimedia
+qtkeychain-qt6
+qt6-declarative
+qt6-imageformats
+coeurl
+mtxclient
+lmdb
+cmark
+libolm
+hicolor-icon-theme
+kdsingleapplication
+gst-plugins-bad-libs
+org.freedesktop.secrets
+mtxclient
+libmatrix_client.so=0.10.0-64
+spdlog
+libspdlog.so=1.15-64
+libolm
+libolm.so=3-64
+
+%OPTDEPENDS%
+qt6-jdenticon: Auto-generated profile pictures (identicons)
+kimageformats: Extends the formats nheko supports for image attachments
+gst-plugins-base-libs: VoIP/Video calls
+gst-plugins-good: VoIP/Video calls
+gst-plugins-bad: VoIP/Video calls
+libnice: VoIP/Video calls
+gst-libav: Video messages
+gst-plugin-qml6: Video calls support
+
+%MAKEDEPENDS%
+cmake
+ninja
+qt6-tools
+fontconfig
+nlohmann-json
+asciidoc
+lmdbxx
+spdlog
+

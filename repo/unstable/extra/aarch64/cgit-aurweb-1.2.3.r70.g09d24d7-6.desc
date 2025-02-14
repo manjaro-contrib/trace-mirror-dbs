@@ -1,0 +1,68 @@
+%FILENAME%
+cgit-aurweb-1.2.3.r70.g09d24d7-6-aarch64.pkg.tar.xz
+
+%NAME%
+cgit-aurweb
+
+%BASE%
+cgit-aurweb
+
+%VERSION%
+1.2.3.r70.g09d24d7-6
+
+%DESC%
+A web interface for git written in plain C (aurweb branch)
+
+%CSIZE%
+964504
+
+%ISIZE%
+2600836
+
+%MD5SUM%
+d89e82a9f767612ab01f85c7b79c8da1
+
+%SHA256SUM%
+142a753864c065dee0e4b2e93d5dbd15b6a4d21d13fce662f38750f1c3779c14
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmeG8VwACgkQdxk/FSvb5qaO3hAApdX5c7u2mdPAud1EJHBmhD62nBHTcAqh1WMwMN3UhppUtM587xmVwwChc8ZkbKUaAgCSxTOlW4TERIBdP4iyEX00BYZ1f+2GuAaT5XGLs24xdL1kAa1/IyvsuYtOUAbKBQvi151/3vs3e8wmmPREWxR1E9cff5nQIAo+LCmqpEfobJ2Bx4RbqnaqbWFihpju48WI1Hi2w8nDDKFwPHPTXiKs3bntNzZX7RIh+EXUM1HdI+gsTN34swtSYutc6efoVM5weSwrsi7zB+MaK7fifKlzBouj08Wbn3diIJQ9cWwoze50wkZq43xlye0zfe8zDa/CyES9JrHZXzHCLzOPYmcTv77pF8N6mZsF7hbcwz+BsdC0D4HUWhP4yuR3DRQDMsmdBYpmwIHpUNBtrcIRgLH58A0z3kLBN2saE/30rYasrSf9oyDveWEijbehJpHVEGYd2qxde5BvgVbdDK+7w9tcsQrzxJD5Uyoj6xFQn1Upa1hlzTPDnY2M+sb8QjiytosRmjaw0afJFMiglna5IuPZX3V06qKip8TfSjRpa5t/gkRgxqMAJpN1+OAWCrEH+36vikIuQ5sTtxnvqouzdO9Vj43hf07QEjozuAD5HEJ4uF2z+7OyRA6rZi6KLbndxEjJcCVjHOCRofFNB33EA7789+wWsLV0PRtIT0/NUZA=
+
+%URL%
+https://git.zx2c4.com/cgit/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1736896807
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+openssl
+luajit
+
+%OPTDEPENDS%
+groff: about page using man page syntax
+python-pygments: syntax highlighting support
+python-docutils: about page formatted with reStructuredText
+python-markdown: about page formatted with markdown
+lua51-luaossl: for lua filters
+gzip: gzip compressed snapshots
+bzip2: bzip2 compressed snapshots
+lzip: lzip compressed snapshots
+xz: xz compressed snapshots
+zstd: zstd compressed snapshots
+mime-types: serve file with correct content-type header
+
+%MAKEDEPENDS%
+git
+zlib
+curl
+asciidoc
+

@@ -1,0 +1,65 @@
+%FILENAME%
+python-tornado-6.4.1-1-aarch64.pkg.tar.xz
+
+%NAME%
+python-tornado
+
+%BASE%
+python-tornado
+
+%VERSION%
+6.4.1-1
+
+%DESC%
+open source version of the scalable, non-blocking web server and tools
+
+%CSIZE%
+810484
+
+%ISIZE%
+5942409
+
+%MD5SUM%
+a8cd488ff9efcf3683a05e40c998238a
+
+%SHA256SUM%
+fc39ffdc3c1ecf22e2afeec17ad5d7aa678ff8dd7df26b99263ea5b35b78f63c
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmacUxoACgkQdxk/FSvb5qa+wg//cSI5PmCLZCiFUlpDDOnhqqRgQ0C8a0Qt2nGggFBQV6do1sXkIguIrNX40wDbNdMdlJUHCSN9Wvr0njcvVF8kQSYcnSpxOAMJzRSIGE8wg/DZve5ypIFCetUkqRdxJYq/ucqHrxmVmX57w2Xr2XoNjluDZMjyJUonfiCt3nIqFb9UDaeXuZ8iacQBdQdpO1/VMczvnU9oeEMyEjDHno2dhhzPHxVntSlxeKZUkwVkc1JwiIKGLmbdCGWz57wiwc0wRhweB0Od0d4dsZJd4hBa8EsjHO88ASXW3mJ9fmSLisYXy0cliCSnXuBZxjPeDjavk4fTIGRwWEq2NTulsvdwvIt20aGzcECOjWm2PwI3psTAlvzuAh4i83qVLAhNLT9SnV+GqMf3tngrhKr1EaeE0DxmFzMsh+6sFTzTYbkW5TSTDjTZS1CIT7e8kMpQ60cNp12Hl42jdsphiSHRJ53ZW3M90HZzGNklJtxkIXImSVAZGOn4FCQO069mMY/qPXuFgVvpDt1IPiYAF8q+ZTse8Fpg1tD/zAaVbbBIKyPVk26X2vAVv08AF9nVIrRl+bIKM90bzwR3k7LYH6iSee5HT3tjjrGlJVv/ta4lmMe8vx/9FAb77bIyQLghaIVAGtwzKgMyN7eTVaBbVy7A1JM19qAJdkE89KEb6q0D1W7UlIE=
+
+%URL%
+https://www.tornadoweb.org/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1721520906
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+glibc
+python
+
+%OPTDEPENDS%
+python-pycurl: for tornado.curl_httpclient
+python-pycares: an alternative non-blocking DNS resolver
+python-twisted: for tornado.platform.twisted
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pycares
+python-pycurl
+python-twisted
+

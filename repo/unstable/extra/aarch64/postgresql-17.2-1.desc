@@ -1,0 +1,84 @@
+%FILENAME%
+postgresql-17.2-1-aarch64.pkg.tar.xz
+
+%NAME%
+postgresql
+
+%BASE%
+postgresql
+
+%VERSION%
+17.2-1
+
+%DESC%
+Sophisticated object-relational DBMS
+
+%CSIZE%
+18263324
+
+%ISIZE%
+73543315
+
+%MD5SUM%
+46fde7c70964a4b7e5dd5e65f14ac501
+
+%SHA256SUM%
+ebfc555d2be58bf6e7203fb1ee33a2bad841c1fe7d0c5056a4778283ef31678e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmeEbFAACgkQdxk/FSvb5qYHcg/+NPqtXQc/PSVK4b/fRfHv/Qcy1ROzgQYscMPc/wCzRD+ZHL0M5x+/TYJ0WLAhkdMsdhX48X58ed2+Y6lgQ1EGvp2m0pnN2YK8+GeCv6a/Av3GImbZ9+BNYJ9X6uZk9+11lmeop3DixObBHKlYuus7r+ebrrqOfO8sKz4ECk0wJ0W6onQCV9dWo9fX1oaUuXy3uDZoo2w/KjkKt/R6MjE5D1BE0aVj5aPMwR066Or7aUm5KCFfaAn4zsr+2mUojEUSPje11K9NtoGGLuPV3V5a0l/kou/RrcjkEoRNZCQncIL4LEifdYMKjUU7Sei3dc9fdlwU9N2YhnzkTmpbdak5G1kGk6QJr9AbNVvoi3n+hXFz6L5HpxmrH6mVAOy0k+tVVe2aXOBjjXAe+6gSowYurOBwhW0LZHp9lk2ranVTsO9zE0n6aEVNabQ2/k6YAWOnZuiazW88VGyr0tGGfdIwVl60hVOUKqQCGkeOKA+oml3q0vY0JbbNMGdWlXP0m/2dKsGyY+aKPfmTNwv6D4BtfNgslaS4svq2xkt+R0/ZKz/D6VuKeczYx8A7MdY6rN4GWbg5RrVo1y6InJgWQeZFapGSzgqQaihoPz+auF6AAT8idVzX1ulMuG7aTybTfTMdBJnf3saQYRy1OTHJOreKuQUFxqoIQHbY34AFMDO8Zi0=
+
+%URL%
+https://www.postgresql.org/
+
+%LICENSE%
+PostgreSQL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1736731376
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+bash
+gcc-libs
+glibc
+icu
+krb5
+libldap
+libxml2
+libxslt
+llvm-libs
+lz4
+openssl
+pam
+readline
+systemd-libs
+util-linux-libs
+zlib
+zstd
+postgresql-libs>=17.2
+
+%OPTDEPENDS%
+logrotate: rotates system logs automatically
+perl: for PL/Perl support
+postgresql-old-upgrade: upgrade from previous major version using pg_upgrade
+python: for PL/Python 3 support
+tcl: for PL/Tcl support
+
+%MAKEDEPENDS%
+clang
+docbook-xml
+docbook-xsl
+llvm
+perl
+perl-ipc-run
+python
+systemd
+tcl
+util-linux
+

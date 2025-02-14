@@ -1,0 +1,89 @@
+%FILENAME%
+hyperkitty-1.3.12-3-any.pkg.tar.zst
+
+%NAME%
+hyperkitty
+
+%BASE%
+hyperkitty
+
+%VERSION%
+1.3.12-3
+
+%DESC%
+A web interface to access GNU Mailman v3 archives
+
+%CSIZE%
+1814212
+
+%ISIZE%
+9794419
+
+%MD5SUM%
+9f6f3382e41dc9fdae3a70ee637330cb
+
+%SHA256SUM%
+4b081537a4e71088193cbcd19c6a94a26bba1a0e60eb6ae7d3707af33d3d43d5
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmeDqlYACgkQ/cMEC5Ksp0jmsQ/9FhIwG43DdBQnh3veJPHs3hF2wYcyyrpRdo4F8+Bt+t9f8ZTGGJ5MHIF0CsL12IFGobkS91ww9Eog08gaBaUg+VniC2YStOXPEGDr07GQE156RLx45s4sbvnzigEqkEQAb7bcGRjMTJH6/Myo66r8VZlaYnHJQvC/8Bx4gyt941Z+CO13r45CaQFhrh3/kPUkCTGRNZ1yGYmXyCPQ0muuu/DyiM51zyzoHRr3q9yKQhe0u19mmsKkv0vcd7UqN/UgESvo8WdJW4AMb5jMMFbo2fVe/hM6lvT/VzZxchdWT3bWbNVOdiOb/HvH2W6moIuanWwHZVuJ19G7llHE0hv8WCIFjq90m5pX/JzFSsoE7moWvw7nyIqpVNdOF/zLE9O9+wXrXrzrD2NTh5iqoO3z3WdxW5if5rMvthVZUrU7dnrQzAcfkqKtGtuFYlLZGWG1YAt07R/Ni/i3RRkDFmPwCMFMrPpHVtpwR42bJdzuXWzzZqWUm84f+vr7ho3+P3ouB525bjA0LJ6ZtTO8yQrpb5IvO4VOVUn0mWUmOUrV6FG8l4kfNKMBLKaGXsHAr6x+aY8V6l8TtCwXjp9rrIJD/8oO6L2LxiBwKvQcyW5t5jYwuRM/q0UudfyQo99uMF4Mj8b3P3aLToUeGBBptAWvCtdyk6c6cULEBK7M90eAT7U=
+
+%URL%
+https://gitlab.com/mailman/hyperkitty
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1736679945
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-dateutil
+python-django
+python-django-allauth
+python-django-compressor
+python-django-extensions
+python-django-gravatar
+python-django-haystack
+python-django-mailman3
+python-django-q2
+python-django-rest-framework
+python-flufl-lock
+python-mailmanclient
+python-mistune
+python-networkx
+python-robot-detection
+sassc
+
+%OPTDEPENDS%
+python-django-debug-toolbar: for debugging
+python-elasticsearch: for using elasticsearch as search backend
+python-whoosh: for using whoosh as search backend
+python-xapian-haystack: for using xapian as search backend
+uwsgi-plugin-python: for running inside uwsgi
+ruby-sassc: alternative to sassc
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-isort
+python-pdm-backend
+
+%CHECKDEPENDS%
+python-beautifulsoup4
+python-django-debug-toolbar
+python-elasticsearch
+python-lxml
+python-html5lib
+python-pytest
+python-pytest-django
+python-whoosh
+

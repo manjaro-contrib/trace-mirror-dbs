@@ -1,0 +1,72 @@
+%FILENAME%
+docker-1:27.3.1-1-aarch64.pkg.tar.xz
+
+%NAME%
+docker
+
+%BASE%
+docker
+
+%VERSION%
+1:27.3.1-1
+
+%DESC%
+Pack, ship and run any application as a lightweight container
+
+%CSIZE%
+21171684
+
+%ISIZE%
+99794390
+
+%MD5SUM%
+221e9467cc5bea55d544c601b936f8a7
+
+%SHA256SUM%
+d239fe68d9a33f24c0d02662b4a5bc23e57883d60fe791e71eb51f18b74a5a36
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmb0WFUACgkQdxk/FSvb5qbGfhAAjZ5Hqkh2An6OELw+1BAg/QyA/YATRwhGctQfKz4HUQJsJZi0FBX8KqcBsbjMifPl2+LZNI04Zto78jFLhE3oKV8IJGOr+heSqtWFvDK/yDLV0fPUNRPReFwTNdlHMRxf6VB/Uii6V6WBumqcxlMk5lquhTvv+Mvv1vtX7XLXsYcALXoWB85BTg533db7FlzAprCdQ9pVFT12zCTbfVfDeyaKsD9cC2j3FMwi1mEuqpwVhk8lGjXUdVLtmOMbQuesjPMos+w5Yi7cZnOxyygw1dfPDsIashs8VEPRDOeFmEy13JWEIq+ncMEjLNtVSpkyHVKfXyvPvBmOZ7erQ0iS4gz3JVrA/8jVIXO84SIBLDk/VYC/qbQS3vSrC5OAWYa5nSXCDBpJWBEv9YldF3buH1KAOwwDe8kkyQYcyin2sfc21u86isozx4tF/ZkY1Z9FLFyuW+xZRI5+GY3BtImvSFN7X5XmKnb6CXFCTmzg/G/4f8dnhHLnYMK7nXTbpJx8ne6L1vsv7+j2yjrE+xxvaBJuIFs17BLLS6J6+Ef4ZYY+n/tW50fwEvMiOO8zSnJ0pCcTG6YjwMOsZQQrfxJRW7eAsMipQYXUR3veddOpU2yXbfKYa0TwNxGOWz4BBMNg+qRrl3fO1myghwTIVK92Of744DFQG7Ln4y7cqVSQSYs=
+
+%URL%
+https://www.docker.com/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1727289088
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+glibc
+bridge-utils
+iproute2
+device-mapper
+sqlite
+systemd-libs
+libseccomp
+libtool
+runc
+containerd
+
+%OPTDEPENDS%
+btrfs-progs: btrfs backend support
+pigz: parallel gzip compressor support
+docker-scan: vulnerability scanner
+docker-buildx: extended build capabilities
+
+%MAKEDEPENDS%
+git
+go
+btrfs-progs
+cmake
+systemd
+go-md2man
+sed
+

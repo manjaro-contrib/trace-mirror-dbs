@@ -1,0 +1,85 @@
+%FILENAME%
+slurm-llnl-24.11.0.1-2-aarch64.pkg.tar.xz
+
+%NAME%
+slurm-llnl
+
+%BASE%
+slurm-llnl
+
+%VERSION%
+24.11.0.1-2
+
+%DESC%
+Simple Linux Utility for Resource Management
+
+%CSIZE%
+5932676
+
+%ISIZE%
+28180535
+
+%MD5SUM%
+5e961fc0cba4287239059d61022c31ff
+
+%SHA256SUM%
+bc00be72743f68162f11dfcd87163e8ba2dc270b2fd20e7e792c9d97c0e0d93b
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmd775UACgkQdxk/FSvb5qZr7hAAg/8UC09NieoZCYc8QhHR/U/tpXTIaZTZH2PJ+oEYpxWnlfXwtlRsFzxOs2BEBz9x5+GQUESf1Lgw4nkER57zClLYdGCaIwnePVLVFad4g14oscJvKEUB0aHOQ0kDAzSpawP5O/rLK79VY0O3c73U1c4WMOIPGx9BU0BgxZD8nKY7dSNLEVSOqNnEfTGMCDBCxJX53WWbA3Hcy2+R0SJ4DwKlvQNI1xfJ5xDz/uugf3xCoGY9zBjyolCFBoHrv5RjU0nPkV7RfqxX/Mkrzbe11PosrF0AwVkbVl7Zyyri+rdm8S8FlC0QxKdhzABVTtAocht/TThwJMWawBhHfch9gow9zeQIIyw4cjpT2DBEJDdrwJUXFmq/xW58acma08fEtse5CXORH1KyLVrjGThUrSNywetL57jT26QB98OEGIolhI7DprWm2odzkgKuuHQbW4ORBxykrxDbwR+WDNi+4qMOFVxneY/KOSfB55S7J2Rk1nQ5Wn+G5niOYqaxvw2JxT77WDu6Y20JQp/h6OOYpqM+kwLfG0WrOKnJ6I0SFtXOzkP7ObmG6NJpPIPjte7XyZWj/ei5pgHkqHRQq9BeeflaNNotdDLM809y69568eBIahY2R7jncI5BrSHQKI1IsKfsfXWQqzJquDjsEJoQSSZuZ5VdmGRP6SDsRxNwgoI=
+
+%URL%
+https://www.schedmd.com
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1736175075
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+curl
+dbus
+glibc
+hwloc
+lz4
+munge
+numactl
+pam
+readline
+
+%OPTDEPENDS%
+mariadb-libs: support for accounting
+openpmix: support Open MPI applications using PMIx
+freeipmi: for the acct_gather_energy_xcc plugin
+hdf5: support for acct_gather_profile/hdf5 job profiling
+lua: the lua API will be available in various plugins
+rdma-core: support for the acct_gather_infiniband/ofed InfiniBand accounting plugin
+rrdtool: support for the ext_sensors/rrd plugin
+gtk2: enables the sview command, a simple graphical frontend
+http-parser: for slurmrestd
+json-c: JSON serializer support
+libyaml: YAML serializer support
+
+%MAKEDEPENDS%
+freeipmi
+gtk2
+hdf5
+http-parser
+json-c
+level-zero-headers
+level-zero-loader
+libyaml
+lua
+mariadb-libs
+openpmix
+python
+rdma-core
+rrdtool
+
