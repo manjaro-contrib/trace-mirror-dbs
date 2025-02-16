@@ -1,0 +1,75 @@
+%FILENAME%
+asusctl-6.1.6-1-x86_64.pkg.tar.zst
+
+%NAME%
+asusctl
+
+%BASE%
+asusctl
+
+%VERSION%
+6.1.6-1
+
+%DESC%
+A control daemon, CLI tools, and a collection of crates for interacting with ASUS ROG laptops
+
+%CSIZE%
+10670142
+
+%ISIZE%
+23879699
+
+%MD5SUM%
+444062ae00e46a57a725a20c2261d95f
+
+%SHA256SUM%
+8171943bb78c827d4fe2edf6722ac8bbf82362841876ea02a2b6593138ff3547
+
+%PGPSIG%
+iQEzBAABCAAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmeyHrIACgkQFQwgB0PtRtiXowf/STmPTiuDJ05xcN32fXpKhvMoTwQbx1ijxaJAvA3wyQRij3G1e3CIROWPCrmQMNyen/qvjpyKEC0Ho72pPAOXZ943DQUc1/WlTM0HriLgNWTctQ72YQPirBvfCdCgyn/XwIR7IpTgBYePr59vz0v5Y4/hZgvn7TGklYekoNqVsVm23HJRGd7fu1tG+DtNs26iocvc2MPVdYP21KEmiTgAr6IuuDDt/kAietXjn3v7ZpmL6H/aycWZNf0QPMlcyklTm9HLMJm+w7gRWWMWSzP5c0NzzJzjWE/+/szq154UhZlMVU/biroKbWY5X+3Gz5QBxFIwYNFhMRTjKAIeJbXKQg==
+
+%URL%
+https://asus-linux.org
+
+%LICENSE%
+MPL-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1739726149
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%CONFLICTS%
+gnome-shell-extension-asusctl-gnome
+
+%DEPENDS%
+gcc-libs
+glibc
+hicolor-icon-theme
+libusb
+systemd
+systemd-libs
+
+%OPTDEPENDS%
+acpi_call: fan control
+asusctltray: tray profile switcher
+rog-control-center: app to control asusctl
+supergfxctl: hybrid GPU control
+
+%MAKEDEPENDS%
+cargo
+clang
+cmake
+fontconfig
+git
+hicolor-icon-theme
+libayatana-appindicator
+libinput
+libusb
+seatd
+systemd
+
