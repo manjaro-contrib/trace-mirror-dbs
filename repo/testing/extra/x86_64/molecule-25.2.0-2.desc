@@ -1,0 +1,89 @@
+%FILENAME%
+molecule-25.2.0-2-any.pkg.tar.zst
+
+%NAME%
+molecule
+
+%BASE%
+molecule
+
+%VERSION%
+25.2.0-2
+
+%DESC%
+Aids in the development and testing of Ansible roles
+
+%CSIZE%
+158407
+
+%ISIZE%
+1014301
+
+%MD5SUM%
+067567b21a23afdb95f187785ef88e12
+
+%SHA256SUM%
+ab2f1d1db4a0f550b85cd4fb4c5aab5499281acd4b191ad18d736c9a775410df
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmemb40ACgkQ/cMEC5Ksp0hcZhAAvE0tWIbKQyw18TSnRFvfqblqKsF37deDFQbrpct6lAPX6eCYbQzRJwTgFFAHsUF97R7FzRnxsCwqRY6+QBmTGsL4Uzp2moYeH1vJ6AwsZN4p3RQz7L0XVxu6GHgML9UtV8vRroTh5A5k+YKCGkqXX180s+uKxDAsKrqkgCLjrBdFGd0TO3Vveocb0DXG/LmYZbGnsateW06/mdhGEiqQTnDQ4deSyDdIgx8YsGVtMlp2J6WMV7YvDci5OT1W1Sc2EII6HV2D9D+s5p2b7meDFGqJPw3H52S9ccEE+4YYATIevCD8w3N47K9isOjFRdyKx6ycymTzRZZDQqZbaglgBV3BGldJbr6kGWUJaHVAZc+iqSunqj+VeOt27kUgb1mOJ5tAKvcX4PHTtU0ZN9jgKxj410I9+kdpDrMwozbAvZChspHUyzdUXY66wAwFltpSImWvf0+ktTdXfQDCVBadhbSw+yPbyg0bgEsUgJ0Wv6tFwDZJtJBcGqnVJ/ennPrisvW821V+F4fOyI+0PExL6rQQtSj6iw5miEoA+aGZetUuGrfO+ccZ1abe/5vNgypN5kyzQLtIXSKTP0V/0Ib5LUyl0KAtY0Khc7OnlcJPxlKw81jFoZBzxEY/vjTEjbtyF57MTZF5frlx+/DLSzNPJ4a3NlA6U16H2CdKwLonX38=
+
+%URL%
+https://github.com/ansible-community/molecule
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1738960713
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-ansible-compat
+python-click
+python-click-help-colors
+python-enrich
+python-jinja
+python-jsonschema
+python-packaging
+python-pluggy
+python-pyyaml
+python-rich
+python-wcmatch
+
+%OPTDEPENDS%
+ansible: for the ansible verifier
+molecule-docker: for the docker driver
+molecule-podman: for the podman driver
+molecule-vagrant: for the vagrant driver
+python-pywinrm: for Windows support
+python-pytest-testinfra: for the testinfra verifier
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+git
+
+%CHECKDEPENDS%
+ansible
+check-jsonschema
+python-ansi2html
+python-filelock
+python-pexpect
+python-pytest
+python-pytest-mock
+python-pytest-testinfra
+python-pytest-xdist
+python-regress
+python-uv
+yamllint
+
