@@ -1,0 +1,71 @@
+%FILENAME%
+plasma-firewall-6.3.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+plasma-firewall
+
+%BASE%
+plasma-firewall
+
+%VERSION%
+6.3.1-1
+
+%DESC%
+Control Panel for your system firewall
+
+%GROUPS%
+plasma
+
+%CSIZE%
+505962
+
+%ISIZE%
+1358611
+
+%MD5SUM%
+dc792dc64924c122fbdf8e83faa6e77e
+
+%SHA256SUM%
+00e68ad4c2ec00f93c16e9f370a43afe542dd7c25a805b8a3807fccdda083869
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAme0paEACgkQek52CV2KUuSaqwgAm9i1lkK2xMbRhRkVBroXLNek8tBsQb6VTi6TBZIhcbYInF3yQ9WbCW6DhsKUr3aPH2DcXvW8XEhVdv0nCsXPFEvl7HysoH06KGxMAWAtx4L1RemOaSJqWyTp74WrFLvoP9XN7iWI7k2mZv8Tb2qlz0CLhBZait1MBhJOf8kUPuN6PEAYMob6idmG64YIOtbRBvqIDYo68aWOtRytJS8PuAhppqFTs/oD7H34gyew/kZjtntSeN6XUtR1jzDL6Lk7f5NIvHfgV9n5khddXqfyXnFDclNUxoh1nQ2b1WpkymE7nBV9cXDmGoEwR/4CJHWWQXq+EM8+7JEBWsmx1nRPOQ==
+
+%URL%
+https://kde.org/plasma-desktop/
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1739890001
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+kauth
+kcmutils
+kconfig
+kcoreaddons
+ki18n
+kirigami
+qt6-base
+qt6-declarative
+
+%OPTDEPENDS%
+firewalld: firewalld backend
+iproute2: netstat backend
+python: ufw backend
+ufw: ufw backend
+
+%MAKEDEPENDS%
+extra-cmake-modules
+python
+
