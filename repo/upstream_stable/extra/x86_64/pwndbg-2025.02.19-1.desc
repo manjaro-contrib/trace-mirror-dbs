@@ -1,0 +1,77 @@
+%FILENAME%
+pwndbg-2025.02.19-1-any.pkg.tar.zst
+
+%NAME%
+pwndbg
+
+%BASE%
+pwndbg
+
+%VERSION%
+2025.02.19-1
+
+%DESC%
+Makes debugging with GDB suck less
+
+%CSIZE%
+1230920
+
+%ISIZE%
+8861738
+
+%SHA256SUM%
+15d09b573fa7dc70eda6a7b14f75a93c43decf1c15ec19ab840061ab455959a7
+
+%PGPSIG%
+iQIzBAABCgAdFiEE4kC1fixGMLp2ji8m/BtUfI2BcsgFAme5AQcACgkQ/BtUfI2BcshtJQ//ack7V8n3/2Z26UzGdAtABRknm9GuH/FpyO3pYY56qCx0CnqWBDcqYesiuePUfirhE1q46WfZZYJF1ktB4y3yab2MTcl2pMbfYPTRztMoiQP+Cl2zKJ+/F3r1pTcWBNkWWzfdrgtnX3Xty94fNk+p4FXnUCAJFOQP9+6DVNRgkLp+P+GT3Tm+DGkt/mMABjmp+htqYhd5HDaiHTpZPGXLnkDB/tV61RevhIMqILb18h23MTYUJeNVlhNsNt+ARLUXL8/8fOInUl8CDGzN6fAx54+s1+BEVyfhGKTPLpAoIQ1F+J1jX4EHaHUKDsHkWsd9jSU7t141b3huV6h1rHM9dGCeEQKMA0xeP+Yj43vCiirCmjRB66NfGUkg/ZdwqpaK7t5I60Skl1Lf4BA17IF+HPozfT9fKB4eaGEhn3VAbFriokRCokmzx+ULj2KJYu/JzoU8uXWxI8CgyqNl2QEophZ0B84rxLeBInUI1rJPJREC+FVKmNqkH4vfanJlFo5zwZmC7ZIsDsxaxZL9B+9485Zfe49hG1hxfGHUKZi1mQCBc880oTz+mkCMNTtG8ck6Pe9x3xJf+dqy0FZ0GbwBegbp6D+D7X0jOLs1Jb36qfU3s53GQPZWMzVy/5VSu4tUn62jfuxSW6WCq+TwCgSaXrNgeDOy9oPzhEIyuS7Cq/8=
+
+%URL%
+https://github.com/pwndbg/pwndbg
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1740177623
+
+%PACKAGER%
+Levente Polyak <anthraxx@archlinux.org>
+
+%DEPENDS%
+debuginfod
+gdb
+python
+python-capstone
+python-psutil
+python-pt
+python-ptrace
+python-pwntools
+python-pycparser
+python-pyelftools
+python-pygments
+python-requests
+python-setuptools
+python-sortedcontainers
+python-tabulate
+python-typing_extensions
+python-unicorn
+which
+
+%OPTDEPENDS%
+checksec: checksec command support
+ropper: ropper command support
+ropgadget: ropgadget command support
+radare2: radare2 command support
+rizin: rizin command support
+one_gadget: command to find ROP one_gadget
+
+%MAKEDEPENDS%
+python-build
+python-hatchling
+python-installer
+python-poetry-core
+python-wheel
+
