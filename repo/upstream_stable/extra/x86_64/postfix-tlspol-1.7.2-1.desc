@@ -1,0 +1,53 @@
+%FILENAME%
+postfix-tlspol-1.7.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+postfix-tlspol
+
+%BASE%
+postfix-tlspol
+
+%VERSION%
+1.7.2-1
+
+%DESC%
+Lightweight MTA-STS + DANE/TLSA resolver and TLS policy server for Postfix, prioritizing DANE
+
+%CSIZE%
+2777214
+
+%ISIZE%
+8119326
+
+%SHA256SUM%
+8818d57b0f530d207f055694916bfc9764b28347d8eb9bd8457e6a4fdc79ffa3
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAme6B7kACgkQ/cMEC5Ksp0hE5xAAs/q6KgZEei2Ji15bfjoE2vsS5jaOWqoePrZLmWaO2q5wyAp5YzyE3RU9lyZ54aTodpU67lN0+jGQhNHqjbw93BsNJndoZLUk6Lt0VT1KnfSZLpgM0DoFvuJP0ftsv76OyxIfgAvlHNMwFgoZbT1Tk2NZHaYfrEtrCb4TAjNE0Y7K1hbitfvc9AwkdOyFojkQSHLvtdxmZIiYgbmhNQwuQHa5gXxrFtE5Jo4+FtnSv0PJom2zKl2ThDO2DtaE0HyolQGw0GN5E806ztDW7/c+XoZQ4DOgCKySNG1POt3Lx2MsAKBZdQ7S3PKr2hYqwzsru5kHhsjcGtaKaHd1CKk8jPGwgzcXsQikZrTISrUNd7SgdozPk2xqmrckGWTCzrtrSRscJjSmlhsjIcWP5mh0JNyzkUZfqnVEeeuXjQo+1uTMx7OKEYcyAsBlFb3hPuN1tb42jD4kuTKcfOzJEjrnRDwNf1B+ut4dRxCWGblu5WsKGnPY72guzSmcwYXWOwU+UeorO0NfGrZAdKSC3i7ocyGnu0CdoU36DniBFZCcV9Elrb+hI9n9knnTVP+rRoUDogJsK+4B5xnN3CWEAlt42vd+asOzj0HIGN5fMCiP3hg7B18rOFhfMCN7bOsIKHUZ38hF5jPIw5XdN5mFT4mbY98Ay7L4Rn3F7+CUjZH40rQ=
+
+%URL%
+https://github.com/Zuplu/postfix-tlspol
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1740244703
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+glibc
+postfix
+
+%OPTDEPENDS%
+valkey: database option for caching support
+redis: databse option for caching support
+
+%MAKEDEPENDS%
+go
+
