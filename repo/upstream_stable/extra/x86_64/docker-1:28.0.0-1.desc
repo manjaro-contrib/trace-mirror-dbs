@@ -1,0 +1,67 @@
+%FILENAME%
+docker-1:28.0.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+docker
+
+%BASE%
+docker
+
+%VERSION%
+1:28.0.0-1
+
+%DESC%
+Pack, ship and run any application as a lightweight container
+
+%CSIZE%
+24742307
+
+%ISIZE%
+99178217
+
+%SHA256SUM%
+0ae12b6a5b5315fcb85e88200a2edb98a716695a5625d098259cae82dc634cdf
+
+%PGPSIG%
+iQJLBAABCgA1FiEEwQA0ZnZjToDJQPuenAL/QZ/svhYFAme8694XHGZveGJvcm9uQGFyY2hsaW51eC5vcmcACgkQnAL/QZ/svhZYmw//U04K8MLYCSXA79mPdqWc284EQIB5wWYxy8u2bv1v10zByvPbzglRFmwEvn96aZGJNwUbxjMy2SrLhU4hReGN9fWU0KsD+9KYCi8hqFsBmvHgUidjwCOx6FaGk4QIP97tUYKw7cuBbX6ExLWqYLMmn9uPuYqTeF2bUudTCeCSLHHQ7NPGKo87qxt1qe63xKH5+1PoIwgx8+luL9SmsG8kJaAmrb+Ur5z3Ewyi/Hse61B5rDiU066ERbluf1D1KGurSdi271qUPwnesIOF8fTgfD2vorLiZ529PB7URvNNvNm+gG3FCIa39nbDu9SlI3IAeZJPwmlu4de3O7s+e5lu11q87H5CGf13sLZKRpCAX+g6wHYF+WoK11tZG2D6c/xbkXhCF0qa1jfzx2GedEzUahNXi6IC+O8ZY3DW3hxj+N1HgNVWXWwthVuHjKhSsGfXnw3YvWjhnj6d0Vsnw39pf2q8Unse7g9F/POWo4kT+3xnsp7BTd11CT821DEeRNlJcqrr33Niw6XighZoPB1Jtbu/vwQGmjdEglPvrC3Sh9mY7JyxhCFtuk3xR/RwwYej2ZKnTI7W0jA0ID7cCpfXhyaZ9ggveRgaUr0MEbEZgjdHxVIcXc0292pXeND/whOWYrISAPjCRE4pJei2XMiMQ+SLgKCy7D8ouZ7YPz2rxsU=
+
+%URL%
+https://www.docker.com/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1740434148
+
+%PACKAGER%
+Morten Linderud <foxboron@archlinux.org>
+
+%DEPENDS%
+glibc
+iproute2
+device-mapper
+sqlite
+systemd-libs
+libseccomp
+libtool
+runc
+containerd
+
+%OPTDEPENDS%
+btrfs-progs: btrfs backend support
+pigz: parallel gzip compressor support
+docker-buildx: extended build capabilities
+
+%MAKEDEPENDS%
+git
+go
+btrfs-progs
+cmake
+systemd
+go-md2man
+sed
+

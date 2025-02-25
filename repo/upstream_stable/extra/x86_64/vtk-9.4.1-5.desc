@@ -1,0 +1,153 @@
+%FILENAME%
+vtk-9.4.1-5-x86_64.pkg.tar.zst
+
+%NAME%
+vtk
+
+%BASE%
+vtk
+
+%VERSION%
+9.4.1-5
+
+%DESC%
+Software system for 3D computer graphics, image processing, and visualization
+
+%CSIZE%
+71166015
+
+%ISIZE%
+412955173
+
+%SHA256SUM%
+2a3009274e9916418af5da6e46b32a02ca90b84392dab37b1239f54e47040696
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAme8IMgACgkQek52CV2KUuRHHAf+PXqDZlO+pHDvXTiAZZglJ3Z5Ult2pICtq5PUzxjoQPK1m9/0fLPz92lWVav/PgbSiLUSiUa5gAT47ubIzsp0LGrK9RImf7VjrKQ0SkgFs/EhCLJLLqzHEnnofcq1EgFXzL4iJ7wlXSlK6fsA0bMhyGKDTTxhRRaqE8X7i0btA6+HLg1Oz+Lhcri+MPtFp2MSlRL4Slq1SfRuSqUESZNdwzdWfqxkX07kAuHPYQSUQtdr2i3Mm8WErUslHLIG285qwBej8Dz9111FDbndk+4Wk6n9eATVjjDC9ZlTJ5DBVVMqx2X0Qe0DbueHLptnOn/s6MuLWYEHL4lnrs9HTFBMBA==
+
+%URL%
+https://www.vtk.org
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1740348482
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+onetbb
+double-conversion
+verdict
+fmt
+libarchive
+lz4
+pugixml
+xz
+zlib
+libjpeg-turbo
+libpng
+libtiff
+expat
+jsoncpp
+libxml2
+
+%OPTDEPENDS%
+graphviz: drawing tools
+libglvnd: OpenGL rendering
+java-runtime=11: java bindings
+python: python bindings
+python-matplotlib: for Matplotlib rendering
+python-mpi4py: OpenMPI python support
+qt5-declarative: QML plugin
+tk: tcl bindings
+libx11: rendering
+libxcursor: rendering
+fontconfig: rendering fonts with fontconfig support
+freetype2: rendering fonts
+gl2ps: rendering to PostScript, PDF, and SVG
+anari-sdk: ANARI rendering module
+openvr: rendering for virtual reality
+openxr: rendering for virtual and augmented reality
+openimagedenoise: rendering with raytracing support
+ospray: rendering with raytracing support
+openmpi: OpenMPI support
+adios2: IO module
+alembic: IO module
+cgns: IO module
+ffmpeg: IO module
+gdal: IO module
+hdf5: IO module
+imath: IO module
+libharu: IO module
+liblas: IO module
+libogg: IO module
+libtheora: IO module
+mariadb-libs: IO module
+netcdf: IO module
+opencascade: IO module
+openvdb: IO module
+pdal: IO module
+postgresql-libs: IO module
+proj: IO module
+sqlite: IO module
+unixodbc: IO module
+fast_float: for building downstream projects
+nlohmann-json: for building downstream projects
+openmp: OpenMP support for downstream projects built with Clang
+
+%MAKEDEPENDS%
+cmake
+java-environment=11
+python
+python-matplotlib
+python-mpi4py
+qt5-base
+qt5-declarative
+qt5-tools
+tk
+openmpi
+libx11
+freetype2
+libxcursor
+hdf5
+netcdf
+sqlite
+adios2
+cgns
+gdal
+gl2ps
+proj
+alembic
+anari-sdk
+ffmpeg
+imath
+libharu
+liblas
+libogg
+libtheora
+mariadb-libs
+opencascade
+openimagedenoise
+openvdb
+openvr
+openxr
+ospray
+pdal
+postgresql-libs
+unixodbc
+fontconfig
+boost
+cli11
+eigen
+fast_float
+nlohmann-json
+utf8cpp
+
