@@ -57,7 +57,7 @@ jobs:
       - name: download
         run: |
           [ -d repo ] && find ./repo/ -type f -name '*.desc' -delete
-          for db in core extra multilib; do
+          for db in core community extra multilib; do
             for arch in x86_64 aarch64; do
               for branch in stable testing unstable upstream_stable; do
                 if [ "$arch" == "aarch64" ]; then
@@ -102,7 +102,7 @@ jobs:
           fi
       - name: warm up search
         run: |
-          for repo in core extra multilib; do
+          for repo in core community extra multilib; do
             for arch in x86_64 aarch64; do
               for branch in stable testing unstable upstream_stable; do
                 url="https://search.manjaro-sway.download/update?branch=${branch}&arch=${arch}&repo=${repo}"
