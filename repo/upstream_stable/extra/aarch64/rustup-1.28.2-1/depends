@@ -1,0 +1,26 @@
+%DEPENDS%
+curl
+xz
+zstd
+
+%CONFLICTS%
+rust
+cargo
+rustfmt
+
+%PROVIDES%
+rust
+cargo
+rust-nightly
+cargo-nightly
+rustfmt
+rust-src
+lib32-rust-libs
+rust-musl
+rust-wasm
+rust-analyzer
+
+%OPTDEPENDS%
+lldb: rust-lldb script
+gdb: rust-gdb script
+

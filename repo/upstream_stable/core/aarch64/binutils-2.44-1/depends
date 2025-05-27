@@ -1,0 +1,15 @@
+%DEPENDS%
+glibc
+jansson
+libelf
+zlib
+zstd
+
+%PROVIDES%
+libctf.so=0-64
+libgprofng.so=0-64
+libsframe.so=1-64
+
+%OPTDEPENDS%
+debuginfod: for debuginfod server/client functionality
+

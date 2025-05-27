@@ -1,0 +1,16 @@
+%DEPENDS%
+glib2
+libglib-2.0.so=0-64
+glibc
+json-glib
+libatasmart
+libblockdev=3.3.0
+libbd_utils.so=3-64
+
+%PROVIDES%
+libbd_smart.so=3-64
+libbd_smartmontools.so=3-64
+
+%OPTDEPENDS%
+smartmontools: for experimental smartmontools-based plugin
+

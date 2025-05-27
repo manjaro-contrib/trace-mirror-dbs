@@ -1,0 +1,24 @@
+%DEPENDS%
+gcc-libs
+glibc
+python
+python-imageio
+python-lazy-loader
+python-networkx
+python-numpy
+python-packaging
+python-pillow
+python-scipy
+python-tifffile
+
+%OPTDEPENDS%
+python-astropy: for FITS I/O capability
+python-cloudpickle: necessary to provide the processes scheduler for dask
+python-dask: used to speed up certain functions
+python-matplotlib: for plotting
+python-pooch: for data fetching and caching
+python-pyamg: fast cg_mg mode of random walker segmentation
+python-pywavelets
+python-scikit-learn
+python-simpleitk: Optional I/O plugin providing a wide variety of formats. including specialized formats using in medical imaging
+

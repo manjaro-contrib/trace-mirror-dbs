@@ -1,0 +1,111 @@
+%FILENAME%
+qtile-0.31.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+qtile
+
+%BASE%
+qtile
+
+%VERSION%
+0.31.0-1
+
+%DESC%
+A full-featured, pure-Python tiling window manager
+
+%CSIZE%
+1006978
+
+%ISIZE%
+6569442
+
+%MD5SUM%
+9f48a0dc9364346db22766784335a004
+
+%SHA256SUM%
+09e37eaaaf63976398ae9eea8f87df7e671551cacdef649fe23446a160b61140
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZ9HxvgAKCRCbeih9mi7GCIdfAQCFcdITBn1cQQvQOn1L00bdqiD/Y62pa4cde+MsYj3ddgEAg/M+qP8WX/SqyfiFQIkDJcPnPwcH9QsXMHbl1Blylgk=
+
+%URL%
+https://qtile.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1741810714
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+gdk-pixbuf2
+glibc
+libnotify
+librsvg
+pango
+python
+python-cairocffi
+python-cffi
+python-gobject
+python-xcffib
+wlroots0.17
+libwlroots.so=12-64
+
+%OPTDEPENDS%
+alsa-utils: for volume widget
+canto-daemon: for canto widget
+cmus: for cmus widget
+jupyter_console: for interaction with qtile via Jupyter
+khal: for khal_calendar widget
+libinput: for Wayland backend
+libpulse: for pulse_volume and pulseaudio_ffi widget
+lm_sensors: for sensors widget
+moc: for moc widget
+python-bowler: for migrating configuration files
+python-dbus-fast: for utils, notifications and several widgets
+python-iwlib: for wlan widget
+python-keyring: for imapwidget widget
+python-libcst: for migrations
+python-mpd2: mpd2widget widget
+python-psutil: graph, net and memory widget
+python-pywayland: for Wayland backend
+python-pywlroots: for Wayland backend
+python-setproctitle: change process name to qtile
+python-xdg: launchbar widget
+python-xkbcommon: for Wayland backend
+xorg-xwayland: for XWayland support
+
+%MAKEDEPENDS%
+git
+libpulse
+python-build
+python-installer
+python-pywlroots
+python-setuptools-scm
+python-wheel
+wlroots0.17
+
+%CHECKDEPENDS%
+graphviz
+gtk3
+imagemagick
+lm_sensors
+procps-ng
+python-bowler
+python-dbus-fast
+python-gobject
+python-isort
+python-libcst
+python-pytest
+python-xdg
+xorg-server-xephyr
+xorg-server-xvfb
+xorg-xrandr
+xorg-xwayland
+

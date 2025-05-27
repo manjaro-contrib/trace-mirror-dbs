@@ -1,0 +1,72 @@
+%FILENAME%
+python-redis-6.1.0-1-any.pkg.tar.xz
+
+%NAME%
+python-redis
+
+%BASE%
+python-redis
+
+%VERSION%
+6.1.0-1
+
+%DESC%
+The Python interface to the Redis key-value store
+
+%CSIZE%
+506904
+
+%ISIZE%
+3906365
+
+%MD5SUM%
+673bd011f3c277586710bd85459da043
+
+%SHA256SUM%
+00432c48923e9f30ed2254d812ea494283b9cb6c8aeaeba9e3b1bab5d4602866
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmgoipQACgkQdxk/FSvb5qYTlQ/6A1NUQmt4shli1gRgNCPRhr/f1mZ2B5Akibmno2TDK2oM3VtcbTH1Yik4HuP+K7mZcHaMHrw7mTW+MiwD4XS/gBs8rWXYb48/5e/xivjdH4FEvY/ah8SQypYvP0x9SBQfo8VWNo9keaJ4I3IyYoZgfYQEsTL0+R0/bEzglkkS7d263aI5jpHnHg51vvG1vrsn3jHE/xb1l6lKzCxDB1T/Mwkycu2bHCoE7Cpf+O0Aa2f9OXQRuwhv47nm7E+8cs2oVZDKXMdoK4w5zUGsW/9Q7GyjHqeQRmbETssheqma2iYkcNgFmS3Lpme4eoTkR/Ur1AYj85LBYejEXsyY66hYB6PTIGdFJIOYXu8ybKA53PTzyar0H/badzVid0gj2yomfgj4M8UI6hzEHpwsPxNmuj2Ok+fvN36iemUtg0F0pk/q4czlLLV4peqRUtYfnS8VMpSnnVvoH3ey+jlU/QPDMf0PtfIKDUWN9aNx4fNFzxpXaHJVOQSOa3k2L+iWfLvEqYXTlSTSPxq1mk/acoq6mxTzsIQkiQjKlRMqbuHnwCPHiDLKljLLXkALXQPhuEkHh9ZBcTpRn3Mw6UVkGhnjhcgl7N9m1P6bmLg9jwpOmCpUabncQbop2ZQ5kW8NEwlS/xsFj9Gb1AWIgqRAlLTp4mVOddQycRHhl4MlhXieH3A=
+
+%URL%
+https://github.com/redis/redis-py
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1747487359
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-cryptography: OCSP certificate validation
+python-hiredis: faster performance via hiredis
+python-pyopenssl: OCSP certificate validation
+python-requests: OCSP certificate validation
+
+%MAKEDEPENDS%
+git
+python-build
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+python-coverage
+python-cryptography
+python-hiredis
+python-numpy
+python-pyopenssl
+python-pytest
+python-pytest-asyncio
+python-requests
+valkey
+

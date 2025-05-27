@@ -1,0 +1,28 @@
+%DEPENDS%
+pango
+libxinerama
+gtk-update-icon-cache
+shared-mime-info
+hicolor-icon-theme
+desktop-file-utils
+libxkbfile
+libxfixes
+dbus
+icu
+libxkbcommon
+
+%CONFLICTS%
+fcitx-gtk2
+fcitx-gtk3
+
+%PROVIDES%
+fcitx-gtk2
+fcitx-gtk3
+
+%OPTDEPENDS%
+enchant: for word predication support
+opencc: optional engine to do chinese convert
+gettext: for fcitx-po-parser
+fcitx-configtool: for configuration (GTK based)
+kcm-fcitx: for configuration under KDE
+

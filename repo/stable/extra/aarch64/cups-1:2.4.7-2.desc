@@ -1,0 +1,80 @@
+%FILENAME%
+cups-1:2.4.7-2-aarch64.pkg.tar.xz
+
+%NAME%
+cups
+
+%BASE%
+cups
+
+%VERSION%
+1:2.4.7-2
+
+%DESC%
+OpenPrinting CUPS - daemon package
+
+%CSIZE%
+5336600
+
+%ISIZE%
+13523507
+
+%MD5SUM%
+c4b4437fe377556a0b0a96f152d5afc9
+
+%SHA256SUM%
+b7b3b692159571cb65b9e45e1c21a23743afaecd6556fa6156d1059dde2fec27
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmUZrikACgkQdxk/FSvb5qY3Mg/+K+5m+MBxWo87egemJGOuciIDQ+/HG/hbBj7YDP0q35C5mTLgme63uQpxduE0waVQWcShglUj6EmsgdE68lDolKZ+S+bxAd8hhFBYqPEHeeL2qXaQGhICW2IOH6TakQ0LpYjfANZW+TcKsiDx2vtOxkFNYsOx/Kc0H6iSxKPen2WoJ4ytqokHU8NFyCFT/Cl/RLf2H8lXmtbXzWHf56O/SE/r7181J1XZc68G0lnkKdr/fw0egLjRnporUQLf74rqJh+QoFW9NC12PWvPlEhO5PxrDSWVuoCnLy/pkgYWEpA41ipfZKXa2jbojS6EChYyHKKKZf1m+mN+g4aedSmQLyjK+aiEAXKMaQn7m+Fhs0v/ulC1Liw27QK+bu/H+JVP9r3eRuHwMHqhAI8qzIHfvDuF2uDM34KqJsnvzFyw592/ZPbzE7CaO4BAP2nbsLrq9zVPhpn0qYlrTB4OK4pqowZeUlLNTrEPY/Nug2w3KHKXCVSHCvWl6ITWqriwVp+apSOPXfjie8ObMECeCgkKzHBPnGcMqyF1ZC0n9fIYWS0G+xfflophXSFguyhza/tNaVPKaBwj4gOvOWNeR+I+BBPa2jVBJiXcVCiQrJ4myvx9LCzZvutQWR5MsXgiRGjj0QijjloXSeEHRl9HmvWCzy4vf1GNZWAFiDpR5n1rkSQ=
+
+%URL%
+https://openprinting.github.io/cups/
+
+%LICENSE%
+Apache
+custom
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1696181690
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+acl
+pam
+libcups>=2.4.7
+cups-filters
+dbus
+systemd
+systemd-libs
+libpaper
+hicolor-icon-theme
+glibc
+gcc-libs
+avahi
+gnutls
+
+%OPTDEPENDS%
+cups-browsed: to browse the network for remote CUPS queues and IPP network printers
+libusb: for usb printer backend
+ipp-usb: allows to send HTTP requests via a USB connection on devices without Ethernet or WiFi connections
+xdg-utils: xdg .desktop file support
+colord: for ICC color profile support
+logrotate: for logfile rotation support
+
+%MAKEDEPENDS%
+acl
+pam
+gnutls
+cups-filters
+colord
+libusb
+avahi
+systemd
+libpaper
+

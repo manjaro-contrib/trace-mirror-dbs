@@ -1,0 +1,73 @@
+%FILENAME%
+xreader-4.2.6-1-x86_64.pkg.tar.zst
+
+%NAME%
+xreader
+
+%BASE%
+xreader
+
+%VERSION%
+4.2.6-1
+
+%DESC%
+Document viewer for files like PDF and Postscript. X-Apps Project.
+
+%GROUPS%
+x-apps
+
+%CSIZE%
+1108600
+
+%ISIZE%
+6076544
+
+%MD5SUM%
+85d02e2367719560620b6154a64368e1
+
+%SHA256SUM%
+f615b9d3f39d68ce1ad54f8e0d4561cdb3738abff91753774a381dbbfe8d8d55
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCaBLWuQAKCRDylr3lA2jGzuzAAQDXARKhOQr1Yz7lmCYFvilg4/ngc6ny68nuQ7UqY9HZHgD8CkRDx9qwR4MKpXiLZA1jiLN5d22CLPUJ8g+qWR4x2gs=
+
+%URL%
+https://github.com/linuxmint/xreader
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1746065033
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%DEPENDS%
+poppler-glib
+webkit2gtk-4.1
+xapp
+
+%OPTDEPENDS%
+djvulibre: support for djvu files
+libgxps: support for xps files
+libspectre: support for dvi and ps files
+mathjax2: support for math in epub files
+texlive-bin: support for dvi files
+
+%MAKEDEPENDS%
+meson
+samurai
+intltool
+itstool
+gobject-introspection
+djvulibre
+git
+libgxps
+libspectre
+texlive-bin
+glib2-devel
+

@@ -1,0 +1,36 @@
+%DEPENDS%
+gcc-libs
+glibc
+lirc
+hicolor-icon-theme
+qt5-base
+zlib
+alsa-lib
+libasound.so=2-64
+fftw
+libfftw3f.so=3-64
+jack
+libjack.so=0-64
+liblrdf
+liblrdf.so=2-64
+liblo
+liblo.so=7-64
+libsamplerate
+libsamplerate.so=0-64
+libsndfile
+libsndfile.so=1-64
+
+%PROVIDES%
+dssi-host
+ladspa-host
+
+%OPTDEPENDS%
+cups: Printing support
+evince: Print preview support
+flac: FLAC support
+lilypond: Notation display support
+mupdf: Print preview support
+okular: Print preview support
+timidity++: Softsynth support
+wavpack: Lossless audio codec support
+

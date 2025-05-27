@@ -1,0 +1,24 @@
+%DEPENDS%
+airspy
+bladerf
+boost-libs
+gcc-libs
+glibc
+gnuradio
+gnuradio-iqbal
+hackrf
+libuhd
+libvolk
+python
+python-gnuradio
+python-numpy
+python-pyqt5
+rtl-sdr
+soapysdr
+
+%PROVIDES%
+libgnuradio-osmosdr.so=0.2.0-64
+
+%OPTDEPENDS%
+python-opengl: for osmocom_fft
+

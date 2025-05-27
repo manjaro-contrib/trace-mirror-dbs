@@ -1,0 +1,156 @@
+%FILENAME%
+vtk-9.4.2-3-x86_64.pkg.tar.zst
+
+%NAME%
+vtk
+
+%BASE%
+vtk
+
+%VERSION%
+9.4.2-3
+
+%DESC%
+Software system for 3D computer graphics, image processing, and visualization
+
+%CSIZE%
+70654249
+
+%ISIZE%
+412453075
+
+%MD5SUM%
+ff9f02c29a1540740a4c6b18323a804a
+
+%SHA256SUM%
+4d788f75f98b763221b16ce39aa30d7ba045c790e940e42964a2d08a46729808
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmgLLscACgkQek52CV2KUuRmqAf+NK5ANKjeQcVNMmT5eayRVKhICu+BpgvPXz5VLNHqEG3G2CEnIoHONzCna0RBBiroRZ0bqcNKr2OCxKbD3a+KvT/DhsXhE4qG3CKRYyF9RiLjjUWUS90N6vuQsY+5TK8TWFmZ8CUpSz7i2wHD0B1qsmY+DveMQcgyFfHts3JmRdqf+BGkLAJkIyf3Dy4k15L0ob8LS4+kdvZFCDkd9wW65fXAt+HarijF5i6TeJGfdgOMTzUPOf4K+w5sFkpPMMnIz7tOv8uTvtAJMUtT7PEFCJDNZ5uLkZ+m2aSgrXFc0FSWQ3JWOGxVCJY0dIVWL3go0Fz6++K8jPqCdIBVi/7f3A==
+
+%URL%
+https://www.vtk.org
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1745561404
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+onetbb
+double-conversion
+verdict
+fmt
+libarchive
+lz4
+pugixml
+xz
+zlib
+libjpeg-turbo
+libpng
+libtiff
+expat
+jsoncpp
+libxml2
+
+%OPTDEPENDS%
+graphviz: drawing tools
+libglvnd: OpenGL rendering
+java-runtime=11: java bindings
+python: python bindings
+python-matplotlib: for Matplotlib rendering
+python-mpi4py: OpenMPI python support
+qt5-declarative: QML plugin
+tk: tcl bindings
+libx11: rendering
+libxcursor: rendering
+fontconfig: rendering fonts with fontconfig support
+freetype2: rendering fonts
+gl2ps: rendering to PostScript, PDF, and SVG
+anari-sdk: ANARI rendering module
+openvr: rendering for virtual reality
+openxr: rendering for virtual and augmented reality
+openimagedenoise: rendering with raytracing support
+ospray: rendering with raytracing support
+openmpi: OpenMPI support
+adios2: IO module
+alembic: IO module
+cgns: IO module
+ffmpeg: IO module
+gdal: IO module
+hdf5: IO module
+imath: IO module
+libharu: IO module
+liblas: IO module
+libogg: IO module
+libtheora: IO module
+mariadb-libs: IO module
+netcdf: IO module
+opencascade: IO module
+openvdb: IO module
+pdal: IO module
+postgresql-libs: IO module
+proj: IO module
+sqlite: IO module
+unixodbc: IO module
+fast_float: for building downstream projects
+nlohmann-json: for building downstream projects
+openmp: OpenMP support for downstream projects built with Clang
+
+%MAKEDEPENDS%
+cmake
+java-environment=11
+python
+python-matplotlib
+python-mpi4py
+qt5-base
+qt5-declarative
+qt5-tools
+tk
+openmpi
+libx11
+freetype2
+libxcursor
+hdf5
+netcdf
+sqlite
+adios2
+cgns
+gdal
+gl2ps
+proj
+alembic
+anari-sdk
+ffmpeg
+imath
+libharu
+liblas
+libogg
+libtheora
+mariadb-libs
+opencascade
+openimagedenoise
+openvdb
+openvr
+openxr
+ospray
+pdal
+postgresql-libs
+unixodbc
+fontconfig
+boost
+cli11
+eigen
+fast_float
+nlohmann-json
+utf8cpp
+

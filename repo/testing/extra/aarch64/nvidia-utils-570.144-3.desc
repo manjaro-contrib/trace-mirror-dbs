@@ -1,0 +1,71 @@
+%FILENAME%
+nvidia-utils-570.144-3-aarch64.pkg.tar.xz
+
+%NAME%
+nvidia-utils
+
+%BASE%
+nvidia-utils
+
+%VERSION%
+570.144-3
+
+%DESC%
+NVIDIA drivers utilities
+
+%CSIZE%
+249269516
+
+%ISIZE%
+741923257
+
+%MD5SUM%
+6ff1319f814900671535f68eee173fa5
+
+%SHA256SUM%
+55b4fce7c95123e448b093366af3f90b3f593652ba627dc00af8b9180537f67d
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmgekpMACgkQdxk/FSvb5qbPzBAAtHCjGQzzC5SSVyIAXbHjXHNlm/zJF2fVI//ojpPIT/FZW50YySN+17iR7BN0Pqnk/NCfAu6ZyCYbcLOUfXkgocG1Dlz1ss0NS6lfiN3tr/3EDd8Wt0+S6JgVI8bJKmOq8e4evV0ui5wpuGXt4UvjBw+KeNE6jp0N/9xIxxkEgI+C7/hS1CYyx5jZcdzTdNO2AO2+T9+bFktnTc1V9hX9qLr1s893pyIMbykJumzcehnhF8ZPZLpby8VNfNcs6OgWLbGvJIj+PbEilVRd0Dagn53/jTfVdiAo+KWafjXYOBaj3lzCGMDo9Rgc18S7Po2Pgq29B3gBsljY7ROj94XA5e+itxnhYJYXEvReL+15vzfSkT6S9lPBEhL7SLfSa3SlkLIaVetpJe7eDAlSmcsW+mVAcHuTHKZe+95bnI6Pk3v8UChbBdOskBsbu+CPcJ7SW0WOc1qb+qNpm98pC9ebNeTt17nMz79xrVQoOgFDKUkNi6yVy+T0BpxvlAiQDkya8JedIyOIxmGx1DzlbhWrUq2/w6iYBHo/fkOwHy41LcuiJJGlUWokSuXlhOuS60my/hNgPF3SGI9d6XKsaYVzXKgQ6y1WXR8LrRri1FV+IS93mc19u4r5HnoQW9iDay2ulKjz9gDj9yOrCllSHnVMjkSpYgp/OI87cO5eLOG6pYo=
+
+%URL%
+http://www.nvidia.com/
+
+%LICENSE%
+custom
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1746833669
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%REPLACES%
+nvidia-libgl
+
+%CONFLICTS%
+nvidia-libgl
+
+%PROVIDES%
+vulkan-driver
+opengl-driver
+nvidia-libgl
+
+%DEPENDS%
+libglvnd
+egl-wayland
+egl-gbm
+egl-x11
+
+%OPTDEPENDS%
+nvidia-settings: configuration tool
+xorg-server: Xorg support
+xorg-server-devel: nvidia-xconfig
+opencl-nvidia: OpenCL support
+
+%MAKEDEPENDS%
+patchelf
+

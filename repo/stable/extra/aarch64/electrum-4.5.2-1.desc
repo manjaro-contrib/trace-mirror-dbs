@@ -1,0 +1,78 @@
+%FILENAME%
+electrum-4.5.2-1-any.pkg.tar.xz
+
+%NAME%
+electrum
+
+%BASE%
+electrum
+
+%VERSION%
+4.5.2-1
+
+%DESC%
+Lightweight Bitcoin wallet
+
+%CSIZE%
+6744008
+
+%ISIZE%
+41111859
+
+%MD5SUM%
+ba14955fecc77a6acb31916aee4c5b21
+
+%SHA256SUM%
+e07f2e817a7c51cc4d626d2798a06c880656e5bda0cd010dfcfa248a7aa515ca
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmXQEq0ACgkQdxk/FSvb5qaRYQ//UwTBkv+AQVUzikamu1qGRj4lYmVamBm6GVqbIRq917Mbm2gcrYvOyWaqK959y6R7Kg5v5sIPcPtake+9dFVVnBg3sC+mVJ17ys45KeCZAH+vtgxvA+XuTuD4xg3oll6SxN1gPf8N5Tre6R+tWjQNp+TNgxCh3Ore7nOl9IhDJBHS8TgPTJacmNDHJuIULr4tSnZBsMuDWMgkPYoKcIw/Oev240E4Py424E4z9eGu4GW/TbtrPr6F5UhO/bLKuCMp5Jn2xBmM8K65eEE3I0wpx7suLHqIHJ+Q3WZyCadCpRP2kWrgx24g7nJHPxNe8UoaEFBbP8IzKaDCu4fyibrdWsitHvH+/zvDQNzmQbo/kvWWwyykaaO+BFA6mXP7sqcqGR/WohuRwI2GUrRM4qKKfZ/1vpj2r+aysdPX8SZZqr3vHpHW4gL4KwhuVxlWnjdwB4f1rein1IB36j4mdUIYub4PYwvTxiKwRiXWf9SWcCAeDmyc2dGFH7caaeMwkQbYBkyTgi1PwURS3mH2yk3PDRVQ8hs6KVR94BqpYdES2poch01JnH2RO8/YN/CkyChIGQEehUaos5m4/2OvSivAa38WouwmYBSg3HQWKjSTYNxu14NI6XRcvXkB0rnD/ktZKQmeM13tWKQE0H44fO8K5g/fz4cvcJDMfshvnJnL5Ts=
+
+%URL%
+https://electrum.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1708135008
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python-pyaes
+python-ecdsa
+python-pbkdf2
+python-requests
+python-qrcode
+python-protobuf
+python-dnspython
+python-jsonrpclib-pelix
+python-pysocks
+python-pyqt5
+python-pycryptodomex
+python-websocket-client
+python-certifi
+python-aiorpcx
+python-aiohttp
+python-aiohttp-socks
+libsecp256k1
+python-bitstring
+python-jsonpatch
+
+%OPTDEPENDS%
+python-btchip: BTChip hardware wallet support
+python-hidapi: Digital Bitbox hardware wallet support
+python-matplotlib: plot transaction history in graphical mode
+zbar: QR code reading support
+python-rpyc: send commands to Electrum Python console from an external script
+python-qdarkstyle: optional dark theme in graphical mode
+python-pycryptodomex: use PyCryptodome AES implementation instead of pyaes
+
+%MAKEDEPENDS%
+python-setuptools
+

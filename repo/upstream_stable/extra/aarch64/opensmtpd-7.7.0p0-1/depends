@@ -1,0 +1,19 @@
+%DEPENDS%
+libevent
+libxcrypt
+openssl
+pam
+systemd
+zlib
+
+%CONFLICTS%
+smtp-server
+smtp-forwarder
+
+%PROVIDES%
+smtp-server
+smtp-forwarder
+
+%OPTDEPENDS%
+opensmtpd-filter-rspamd: rspamd integration
+

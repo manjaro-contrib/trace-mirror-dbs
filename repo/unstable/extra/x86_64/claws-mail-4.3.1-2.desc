@@ -1,0 +1,95 @@
+%FILENAME%
+claws-mail-4.3.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+claws-mail
+
+%BASE%
+claws-mail
+
+%VERSION%
+4.3.1-2
+
+%DESC%
+A GTK+ based e-mail client
+
+%CSIZE%
+5105377
+
+%ISIZE%
+20117399
+
+%MD5SUM%
+c8d19f28e11d6dc067c1695e3cfa3b5f
+
+%SHA256SUM%
+87416421a03e1547a2de60dc8181bf51486401bfc9aa023003e7bbe3011abf16
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZ8sG7QAKCRDwXowSExrrXuipAQCWFQZ4j9pb3+QMGv2/o9b+Yg597kS9LuoSNFHcKRomlgEAyZMSaasy1Yf7Uyfeug1NoqZucLMRWmVI1f/K5wpt9Qw=
+
+%URL%
+https://www.claws-mail.org
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1741358225
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%PROVIDES%
+claws
+
+%DEPENDS%
+gtk3
+gnutls
+startup-notification
+enchant
+gpgme
+libetpan
+compface
+libsm
+dbus-glib
+
+%OPTDEPENDS%
+python: needed for some tools
+perl: needed for some tools and perl plugin
+spamassassin: adds support for spamfiltering
+bogofilter: adds support for spamfiltering
+libnotify: for notification plugin
+libcanberra: for notification plugin
+dbus: for notification plugin
+libxml2: for rssyl plugins
+curl: for vcalendar, rssyl and spamreport plugins
+libarchive: for archive plugin and various other plugins
+libytnef: for tnef_parse plugin
+poppler-glib: for pdf viewer plugin
+ghostscript: for pdf viewer plugin
+libical: for vcalendar plugin
+dillo: for dillo html viewer plugin
+webkit2gtk-4.1: for fancy webkit html viewer plugin
+gumbo-parser: for litehtml plugin
+
+%MAKEDEPENDS%
+spamassassin
+bogofilter
+networkmanager
+valgrind
+libnotify
+libcanberra
+poppler-glib
+libytnef
+libical
+dillo
+python
+gumbo-parser
+webkit2gtk-4.1
+docbook-utils
+texlive-formatsextra
+

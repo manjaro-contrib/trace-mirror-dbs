@@ -1,0 +1,88 @@
+%FILENAME%
+kismet-2023_07_R2-2-aarch64.pkg.tar.xz
+
+%NAME%
+kismet
+
+%BASE%
+kismet
+
+%VERSION%
+2023_07_R2-2
+
+%DESC%
+802.11 layer2 wireless network detector, sniffer, and intrusion detection system
+
+%CSIZE%
+11188988
+
+%ISIZE%
+30656108
+
+%MD5SUM%
+6e41a4b62438d4e2e650937b795d69c2
+
+%SHA256SUM%
+89038d4b63e90a98cc1043357b1305a6e659742ee920d183610696b77487a6cf
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmgUyDYACgkQdxk/FSvb5qboPhAAnQFqZPqm8ddFHN8/3HNjRT2IW6bLvfhzFwBqGlB0/JpBoAl3QahrJZv4EejCG7vqS/WAGmxvDYUO+7Ol7boLPfGnxboQikbcpViXO2gfeF2r9kv7+9EVJVvG88YpAMQjcusWt4w4HMpbzLs8i06IdP87N80U7hP50ttQ00tEHTxNjRS1YMyXvAS2P6qL+sntEOb50fr2nQxg12/qDUb/mAqgsb2MKZkhJN44cMShH55xTY9MP2GC39ttCoM35Hku9lFozWInwvszn2BEP8m8gh4tQ3coDdUI4C818ldnULLEIen4d7jiX99bXn8TWb98LubFzS0jZZkCx8jS+cKLQPJmzT/TPOiC7CvnvaElOsEYLHhgFOog8URyaSOKj3ueMlrlRADFLStoJtueqIjmzduRZcRL3NdOdbk01cSMespeCC7LrtczjhBAY4mR8w2N97gpwR+ZYlyjtcDfRqJndJq7Ram7eSREEZwRYQ2ZVLczHeOonUD7SbxYcnWzdndHMajqW52xqsU2e3diWdtazM30190ZXk43kCRZE8R4SvQtrOOZxlSUScg0pcB7JVQtYrdzL02ZCXi+Lx64lsSrKpFJOZkSi5Uo0WYnffmV7tjwLO1THlcADKIXwnsGXEd9JCNpOdL8nV686iC2+8RkM1Zzl+UG7byHovg1Sge7p3M=
+
+%URL%
+https://www.kismetwireless.net/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1746191865
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+libpcap
+pcre2
+bluez-libs
+libcap
+protobuf-c
+libprotobuf-c.so=1-64
+sqlite
+libnm
+gcc-libs
+libusb
+libusb-1.0.so=0-64
+libnl
+glibc
+zlib
+libelf
+lm_sensors
+systemd
+python
+python-setuptools
+python-protobuf
+python-pyserial
+python-numpy
+python-websockets
+libwebsockets
+libcap-ng
+libpcap.so=1-64
+libprotobuf.so=30.2.0-64
+libnm.so=0-64
+libwebsockets.so=19-64
+libsensors.so=5-64
+
+%OPTDEPENDS%
+gpsd: log coordinates of detected networks
+wireshark-cli: provide OUI files used to determine device manufacturer
+wireshark-cli: mergecap, to merge multiple capture files
+sox: provide the default kismet sound playback binary
+festival: text-to-speech support
+flite: alternative/lightweight text-to-speech support
+
+%MAKEDEPENDS%
+python-setuptools
+

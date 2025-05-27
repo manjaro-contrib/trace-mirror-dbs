@@ -1,0 +1,58 @@
+%FILENAME%
+nerdctl-2.1.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+nerdctl
+
+%BASE%
+nerdctl
+
+%VERSION%
+2.1.1-1
+
+%DESC%
+Docker-compatible CLI for containerd
+
+%CSIZE%
+8597083
+
+%ISIZE%
+28899339
+
+%MD5SUM%
+6330d6193c9d9ff690934b1f40b7a6f6
+
+%SHA256SUM%
+cd25d74da48d57e0aebc62e5a44174c73e0e0c401e9204b1aec8f86c0d92717c
+
+%PGPSIG%
+iQIzBAABCAAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmgiGygACgkQqF6BHrTKLghh+xAAiT6LpFYrmJLBZpVHdRyr3y10d/Bn3nl5R1NEg17yZjrwFSWzjx0C0aEK13EuuaTtRyqYGr1Kviv6gUrTOxDhF5TuJuO3faeFXTqiuAbKeqY3bpxNRf+Exf6kLWwzj2gvRd1SPCKvzmUHZ1Y4GyFnatLDBLY5phYQMcxB2cffW0IHbQE8uKIYZ46k+J31XaoXzvSxyM1Hs/gC+QLiY2NCSR4oPT4X/JnvR19FysDP3OfFFg4s/KNg1JgtbfDNGmZzb8KCGH6RAyH0rpe7+gZ9+OHyKR1L1u8k9nFX3ZqcQv+Hwv4cBmSbj/IHfvkeagZtFiSP6VUa0WTP6pN+3lb++8ZiF9MH43j5V+GpAvd8j0TPcCorKdt3XEilMRESx6dirhM8vEmcWnXzTOfXmF6jyOvJv/x/BJL1yrbW280+wtkPe5owpD6H90nTFb/gqY8Al+jM8QwWzMq59yRCGgmBQW988qeudhUa9YuWL5b1HghgUOT37/VN0ATK2PTmLhFaFnw2bqcirKO4kGc+uHc309sfv0Z3xiGxQcC0dTvRsvc75RPJDMaqtjl5oNM7W7APyEr+wg4NIVzi3CM3Jd2HFjGqdL4Z1AkA7UpWAp7ij0UElbCkxJh7AInGCEwo0knzncm23JqMGgJopPqj8DabNaZWsHAtOypwQ1Na/1JH83M=
+
+%URL%
+https://github.com/containerd/nerdctl
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1747065498
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%DEPENDS%
+containerd
+
+%OPTDEPENDS%
+buildkit: to build OCI images
+cni-plugins: to run OCI images
+rootlesskit: for rootless mode
+slirp4netns: for rootless mode
+
+%MAKEDEPENDS%
+git
+go
+

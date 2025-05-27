@@ -1,0 +1,27 @@
+%DEPENDS%
+python
+python-blinker
+python-dateutil
+python-docutils
+python-feedgenerator
+python-jinja
+python-ordered-set
+python-pygments
+python-rich
+python-unidecode
+python-watchfiles
+
+%OPTDEPENDS%
+pandoc: for pelican-import auto convert
+python-beautifulsoup4: importing from wordpress/dotclear/posterous
+python-feedparser: importing from feeds
+python-invoke: Task parallelism
+python-typogrify: typographical enhancements
+asciidoc: AsciiDoc support
+python-markdown: Markdown support
+lftp: uploading through FTP
+openssh: uploading through SSH
+python-ghp-import: uploading through gh-pages
+rsync: uploading through rsync+SSH
+s3cmd: uploading through S3
+

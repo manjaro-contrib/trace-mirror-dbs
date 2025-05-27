@@ -1,0 +1,82 @@
+%FILENAME%
+python-kombu-5.5.3-1-any.pkg.tar.zst
+
+%NAME%
+python-kombu
+
+%BASE%
+python-kombu
+
+%VERSION%
+5.5.3-1
+
+%DESC%
+A messaging library for Python
+
+%CSIZE%
+426070
+
+%ISIZE%
+2577945
+
+%SHA256SUM%
+4260e37cb3e9aa61c026795f4570fe464ca9634cebbbeb26a83f7633eaf82dfe
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZ//5owAKCRDwXowSExrrXloUAQCHMyXGIsPQP/DeeNKxxQ0cl4zeuV5+rQb6bSUS+gHzAgEAo0Dsn38i1BmsincQKMzH7kCC/y2HpS9dBdodWK8mKwg=
+
+%URL%
+https://github.com/celery/kombu
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1744827881
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-amqp
+python-vine
+
+%OPTDEPENDS%
+python-boto3: for Amazon SQS support
+python-brotli: for brotli compression support
+python-kazoo: for Zookeeper support
+python-msgpack: for MessagePack support
+python-pycurl: for Amazon SQS support
+python-pymongo: for MongoDB support
+python-pyro: for Pyro support
+python-redis: for Redis support
+python-sqlalchemy: for SQLAlchemy support
+python-yaml: for YAML support
+python-zstandard: for zstd compression support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-boto3
+python-brotli
+python-hypothesis
+python-msgpack
+python-pycurl
+python-pymongo
+python-pyro
+python-pytest
+python-pytest-freezer
+python-pytest-sugar
+python-pytz
+python-redis
+python-sqlalchemy
+python-yaml
+

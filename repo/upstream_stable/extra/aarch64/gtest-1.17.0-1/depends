@@ -1,0 +1,17 @@
+%DEPENDS%
+gcc-libs
+glibc
+
+%CONFLICTS%
+gmock
+
+%PROVIDES%
+gmock
+libgmock.so=1.17.0-64
+libgmock_main.so=1.17.0-64
+libgtest.so=1.17.0-64
+libgtest_main.so=1.17.0-64
+
+%OPTDEPENDS%
+python: gmock generator
+

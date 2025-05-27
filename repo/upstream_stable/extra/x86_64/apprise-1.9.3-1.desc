@@ -1,0 +1,67 @@
+%FILENAME%
+apprise-1.9.3-1-any.pkg.tar.zst
+
+%NAME%
+apprise
+
+%BASE%
+apprise
+
+%VERSION%
+1.9.3-1
+
+%DESC%
+Push Notifications that work with just about every platform
+
+%CSIZE%
+1383250
+
+%ISIZE%
+7926796
+
+%SHA256SUM%
+16851886410a35c3f7706dc2912025d1337afb259f2f06a2ffa52b907e968b9a
+
+%PGPSIG%
+iQIzBAABCAAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmfufGwACgkQk7EdqkwZfj2I2RAAqqliQYMuCCleSPoAog49TFAx2sLVW0e9PDunAcl4XKCbKry+tOl9cGFtMT60Ge7+JYfBbBFhdaqcLqAH1gJyXw8DWG9FGwDhhMlQHQWxKExpw4YfftVPscRU8MQyb4AEO9TXSt0eG9EO+Vn2oJFziHYyBiLoy4HV8us+zObO23SOhDFWHGhANZr4IjhR//Kxw4hxoAM9l302dPjei4t3T6ejFy0mpcZpdciKenQTK0SegG0V6PwjSx0Oyjz/Fcu10jhH0/s6RXGCRzEPWPcNzqRT2vwoe4nfLJ5cqJoVb2e3ft94/JAb8D5MiKeTC+z41aWW5AAZsHqqo65RuxHO8RS82OnYC2TAAES0SgLNER99Q6ecr2iMkcRkZ3TRLp5GJdP8lpMlV0LCHf7MoISjqUGvyEeFmuoFYlwuxPNZCF3nlZkaIG+u6V0dIxUPyoO8/CGNTMWjYCWkYInpWcOJUfzEjsaqLxMQ+ewf8LwwXjn2giCBXYEJXXJa/zVVpEe9opEHgrN8+/J9Cey+mohstlPTN93KlJhAYP/CcEt5mLZj+QffAfqzg7JV33leVZZDRhh/UQyD2njyPFWiSBeF4soE5qlwa7MGVHG87KkbxnmPI9ZASjxJBTwVEiFh7ogAPdm0YIynBOJ0slxNMKYz4i7GNtFL5gQZBKbGUVMW8Vo=
+
+%URL%
+https://github.com/caronc/apprise
+
+%LICENSE%
+BSD-2-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1743682544
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+python-certifi
+python-click
+python-markdown
+python-requests-oauthlib
+python-yaml
+
+%OPTDEPENDS%
+dbus-python: for Linux DBus Notifications
+python-gobject: for Linux DBus Notifications
+python-paho-mqtt: for MQTT support
+
+%MAKEDEPENDS%
+git
+python-babel
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+dbus-python
+python-paho-mqtt
+python-pytest-mock
+

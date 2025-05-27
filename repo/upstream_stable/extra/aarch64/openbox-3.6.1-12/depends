@@ -1,0 +1,18 @@
+%DEPENDS%
+startup-notification
+libxml2
+libxinerama
+libxrandr
+libxcursor
+pango
+imlib2
+librsvg
+libsm
+
+%PROVIDES%
+libobrender.so=32-64
+
+%OPTDEPENDS%
+plasma-workspace: for the KDE/Openbox xsession
+python-xdg: for the openbox-xdg-autostart script
+

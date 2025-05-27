@@ -1,0 +1,78 @@
+%FILENAME%
+niri-25.02-1-x86_64.pkg.tar.zst
+
+%NAME%
+niri
+
+%BASE%
+niri
+
+%VERSION%
+25.02-1
+
+%DESC%
+A scrollable-tiling Wayland compositor
+
+%CSIZE%
+5877473
+
+%ISIZE%
+22802824
+
+%MD5SUM%
+da8ee31c40f3b9a814f4a541dd18f418
+
+%SHA256SUM%
+57b74a20372ac09a0cab44952747bf7bfa0ddba93252e0797466c2b268ce5239
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZ7mKyAAKCRCbeih9mi7GCLlGAQC31/U1djiQsUcXwuTLtHgcOmMAU6sP0K8v3PyTitPKGAD/fwItMOmXcPuRnUxa4KGk72Nb3MUby3f+Asv0yEyiagY=
+
+%URL%
+https://github.com/YaLTeR/niri
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1740212536
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+cairo
+gcc-libs
+glib2
+glibc
+libdisplay-info
+libinput
+libpipewire
+libxkbcommon
+mesa
+pango
+pixman
+seatd
+systemd-libs
+xdg-desktop-portal-impl
+
+%OPTDEPENDS%
+alacritty: a suggested GPU-accelerated terminal emulator
+bash: for niri-session script
+fuzzel: a suggested Wayland application launcher
+mako: a suggested Wayland notification daemon
+org.freedesktop.secrets: for apps to rely on secrets portal
+swaybg: a suggested Wayland wallpaper tool
+swaylock: a suggested Wayland screen locker
+waybar: a suggested Wayland customizable desktop bar
+xwayland-satellite: for running X11 apps in XWayland
+xdg-desktop-portal-gtk: a suggested XDG desktop portal
+xdg-desktop-portal-gnome: a XDG desktop portal required for screencasting
+
+%MAKEDEPENDS%
+clang
+rust
+
