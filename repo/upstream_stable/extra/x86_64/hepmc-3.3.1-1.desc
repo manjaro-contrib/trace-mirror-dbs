@@ -1,0 +1,66 @@
+%FILENAME%
+hepmc-3.3.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+hepmc
+
+%BASE%
+hepmc
+
+%VERSION%
+3.3.1-1
+
+%DESC%
+A particle physics package for storing collision events from Monte Carlo generators
+
+%CSIZE%
+1603882
+
+%ISIZE%
+7014917
+
+%SHA256SUM%
+5fa33628077206d074cfaa4e9dc72f3013ec4bec60a8ba91bf6ed34d5639aee7
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaDYOzAAKCRAAHPSBC+jZEXJ6AQDeyAlSC84QJHglzYSXZfVtuiQBFKoAMpkcQwkDwMoM4QD+IkLUsJY1jSa3LehlrV/wvJ3tdtp8p6zvPvMOBmlYJAk=
+
+%URL%
+https://hepmc.web.cern.ch/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1748372973
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+bash
+gcc-libs
+glibc
+
+%OPTDEPENDS%
+hpmc-docs: for documentation
+pythia8: Pythia support
+python: Python interface
+root: ROOT I/O
+protobuf: Protocol Buffers I/O
+
+%MAKEDEPENDS%
+cmake
+doxygen
+gcc-fortran
+graphviz
+hepmc2
+pythia8
+python
+root
+protobuf
+cern-vdt
+
