@@ -1,0 +1,10 @@
+%DEPENDS%
+python
+python-numpy
+
+%OPTDEPENDS%
+python-pandas: for interoperability with pandas frames
+python-pyarrow: for interoperability with arrow types
+python-pytz: to enable conversion to python datetimes with timezones
+python-fsspec: to transparently open files locally or remotely
+
