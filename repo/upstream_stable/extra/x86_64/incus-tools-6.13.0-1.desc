@@ -1,0 +1,83 @@
+%FILENAME%
+incus-tools-6.13.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+incus-tools
+
+%BASE%
+incus
+
+%VERSION%
+6.13.0-1
+
+%DESC%
+Powerful system container and virtual machine manager
+
+%CSIZE%
+9423485
+
+%ISIZE%
+57218206
+
+%SHA256SUM%
+57813f8d6f9666913f0b0122bf841f463c2286814608d4e6772429d7cc32e1d6
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaDpIUgAKCRDglZ/qi1UFORfmAQCrl/85lR3Z6bBW6fY6EVj39gGxAJPzSdy7kuZUZcg2cQD+Pcij5cHX2SE+LkZNZajYnkWTKEjSUcfoRqajsF8J+wA=
+
+%URL%
+https://linuxcontainers.org/incus/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1748649734
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%CONFLICTS%
+lxd
+
+%DEPENDS%
+lxc
+lxcfs
+squashfs-tools
+dnsmasq
+cowsql
+libuv
+ebtables
+raft
+sqlite
+libcap
+acl
+qemu-base
+qemu-chardev-spice
+qemu-hw-usb-redirect
+qemu-hw-display-virtio-vga
+qemu-hw-display-virtio-gpu
+
+%OPTDEPENDS%
+lvm2: lvm2 support
+thin-provisioning-tools: thin provisioning support
+btrfs-progs: btrfs storage driver support
+minio: storage buckets support
+cdrtools: VM support
+systemd-libs: unix device hotplug support
+apparmor: apparmor support
+xdelta3: support delta downloads of images
+skopeo: OCI support
+umoci: OCI support
+
+%MAKEDEPENDS%
+go
+git
+tcl
+apparmor
+libseccomp
+systemd
+
