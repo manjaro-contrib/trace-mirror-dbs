@@ -1,0 +1,61 @@
+%FILENAME%
+gnome-nettool-42.0-3-x86_64.pkg.tar.zst
+
+%NAME%
+gnome-nettool
+
+%BASE%
+gnome-nettool
+
+%VERSION%
+42.0-3
+
+%DESC%
+Graphical interface for various networking tools
+
+%CSIZE%
+378639
+
+%ISIZE%
+2030073
+
+%SHA256SUM%
+4d292154e1d2d1747f50bdadad51a00208c25bd605322fb2d6cea93a782c85d5
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCZpFVsgAKCRDylr3lA2jGzmM8AP0Z487ykq9GDC/o7SS/Yk78wXwZLEtBpdpTgATcfZGplwEAsKDa6TRdjGWIT3khT5v2jhJOJu3q2u86EHNZJiQ1Kgw=
+
+%URL%
+https://gitlab.gnome.org/GNOME/gnome-nettool
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1720800660
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%DEPENDS%
+gtk3
+iputils
+libgtop
+whois
+
+%OPTDEPENDS%
+bind: DNS lookup
+net-tools: Network statistics
+nmap: Port scanning
+
+%MAKEDEPENDS%
+bind
+git
+meson
+net-tools
+nmap
+yelp-tools
+

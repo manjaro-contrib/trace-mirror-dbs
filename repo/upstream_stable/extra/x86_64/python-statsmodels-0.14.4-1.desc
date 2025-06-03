@@ -1,0 +1,68 @@
+%FILENAME%
+python-statsmodels-0.14.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-statsmodels
+
+%BASE%
+python-statsmodels
+
+%VERSION%
+0.14.4-1
+
+%DESC%
+Statistical computations and models for use with SciPy
+
+%CSIZE%
+11073297
+
+%ISIZE%
+66070068
+
+%SHA256SUM%
+95f4de93c08541a290e440fb75194e949356d5c4cf279208a7f484e0a5d8c7f7
+
+%PGPSIG%
+iHUEABYKAB0WIQQEzwzW9u6TrhiW9YQH0GNRylsxvgUCZ0mfBAAKCRAH0GNRylsxviD6AP40Kbthsz9W1lpSkTVVF2a+gUaJUjaOil5LpV397X22RgEAscjbLOrQKs+84/VPeI0BJedFPzWbMcxEsz/Xgq6XWQU=
+
+%URL%
+https://www.statsmodels.org/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1732877198
+
+%PACKAGER%
+Torsten Keßler <tpkessler@archlinux.org>
+
+%DEPENDS%
+python-numpy
+python-scipy
+python-pandas
+python-patsy
+
+%OPTDEPENDS%
+jupyter-notebook: needed to run the notebooks
+python-cvxopt: regularized fitting of some models
+python-joblib: accelerate distributed estimation for certain models
+python-matplotlib: plotting functions
+
+%MAKEDEPENDS%
+python-setuptools-scm
+python-wheel
+python-build
+python-installer
+cython
+git
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-xdist
+python-joblib
+python-matplotlib
+

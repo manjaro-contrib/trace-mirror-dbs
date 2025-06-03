@@ -1,0 +1,66 @@
+%FILENAME%
+newsboat-2.39-2-x86_64.pkg.tar.zst
+
+%NAME%
+newsboat
+
+%BASE%
+newsboat
+
+%VERSION%
+2.39-2
+
+%DESC%
+RSS/Atom feed reader for text terminals
+
+%CSIZE%
+3003792
+
+%ISIZE%
+14199552
+
+%SHA256SUM%
+1e501fcf8d56ef1c47cbaa5a93afd617f53776b291b1b3d9dab57b24f695172d
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmgI8x4ACgkQ/cMEC5Ksp0j4lQ/9EJFP3/ziN7AQ4YUBT/znea1FbQEQm7pUapKk4PmXUrrniZwxeudgEPpwsw4YcGIT13HEXnNYYicgm7wjs4KCxrXtfpRrYmoj73vF7hyQMUIK0G9YsvCGUzFQZ9dWkPXEeJw4EhxGjWccxlyYoSwBBbVbN9Nirn42r5KW2NrL4y8Qt8dqcMFY8uBjCN5LuC0VlWCUtYrV/+BoRa75k+pvDUscGx9VIpqZCOv+tFbWdD5Kk77jnd50dVMrjvd9JK4lcpKm5cdcx5Sw5tsq6Wf9ugR/Qq1vuCRNkoslbTDBtEOm7Ntza8v8sfW5vc7QO7yCEZ6z9pJcPCLTYVH1vYB47ihHOuMV+TDA7aj980XPBe8qghERGpO3FXcNpDMtl2YJA1AS36rfdebJ4jjFMl0lAJkwUlDm3zBXg3VZBFtwqLl93ZRZHkxsZ680yJnnCkFGF1HjrUZwhfNj3FvmrNgmEfz7pDxfEangoh1tCYnEq3gUJSoqHk9UYCq6GY/Zyv+OjJjz8IRFoBcAunsev+f5llRHcZ8cYxYD+TKMtPfFiKHz3S8eAj3fjHq1G4VPpHCrFu1bgnB2BN17ZkIpoCQurrwYbRVSHBOf37xgrxTe4OLiHHcf0nHilxq5yg442Rezwt/QzbCiuNbNYm57nUXun6n+5+RhXokZ0zhiyZXTfYw=
+
+%URL%
+https://newsboat.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1745416754
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%REPLACES%
+newsbeuter
+
+%DEPENDS%
+curl
+hicolor-icon-theme
+json-c
+libxml2
+sqlite
+stfl
+
+%OPTDEPENDS%
+buku: for bookmark-buku.sh
+kitty: for kitty-img-pager.sh
+perl: for pinboard.pl
+python: for exportOPMLWithTags.py
+ruby: for feedgrabber.rb, heise.rb, and slashdot.rb
+
+%MAKEDEPENDS%
+asciidoctor
+git
+rust
+swig
+

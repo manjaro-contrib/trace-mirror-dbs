@@ -1,0 +1,63 @@
+%FILENAME%
+python-construct-2.10.70-4-any.pkg.tar.zst
+
+%NAME%
+python-construct
+
+%BASE%
+python-construct
+
+%VERSION%
+2.10.70-4
+
+%DESC%
+A powerful declarative parser/builder for binary data
+
+%CSIZE%
+143516
+
+%ISIZE%
+1131037
+
+%SHA256SUM%
+6d75844a7b9816e4116b4c679619de16bf643b25e10213099ab1940219c688a0
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdFx44ACgkQwGCGM3xQdz706gf+OtZDO14iv8Wc3CfdlMYsUbPLz0B5INX/eWfaLbaCRlCB4eM1KvfU4z6Eo8tpykTlNUlifp8j+3bIOgJrDf4mNJoYhnigz7So2SgMC2D9sWHNrs+Bk941LEh1VE+xRtdolfQEgLokxgWQkLwkZnmwykP5Z7ckpSzDsV4rYSCrqFTtEO9bVJTlLGNAgOZE3gTQpe+I4Dzh/wi6iQkKsHfhBKi43Tk8TXIkWdgPJM5utHgJadajvHUtAOHM0XcfRiQs37piQesTCMF5FVXFCzVyej2+nvYeISMFfjM4zFPyphTrQKXn+ScaHo4dwPDnpq3e/fH+eo+NqO4dZCD9OFbr7A==
+
+%URL%
+https://construct.readthedocs.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732626191
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-arrow: for Timestamp
+python-numpy: for array serialization with Numpy protocol
+python-ruamel-yaml: for KaitaiStruct (KSY) exporter
+
+%MAKEDEPENDS%
+python-setuptools
+
+%CHECKDEPENDS%
+python-arrow
+python-cloudpickle
+python-lz4
+python-numpy
+python-pytest
+python-pytest-benchmark
+python-ruamel-yaml
+python-cryptography
+

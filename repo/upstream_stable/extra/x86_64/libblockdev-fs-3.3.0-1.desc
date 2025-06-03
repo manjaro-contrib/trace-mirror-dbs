@@ -1,0 +1,109 @@
+%FILENAME%
+libblockdev-fs-3.3.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+libblockdev-fs
+
+%BASE%
+libblockdev
+
+%VERSION%
+3.3.0-1
+
+%DESC%
+A library for manipulating block devices - filesystem support
+
+%CSIZE%
+42424
+
+%ISIZE%
+137950
+
+%SHA256SUM%
+3a0c806c3995db9b557222f46f0486607a39dbd85ac0b2a2af00acce3a4f8747
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZ632WgAKCRCbeih9mi7GCMlOAQCP1KaatPSGbvRQAC0ZN7senu4SL6Owo84Eet3SrLmZrwEAlsqmVJZspACnOOtnPsKQt54HMKzIb+Atc4JTC/uVMQY=
+
+%URL%
+https://github.com/storaged-project/libblockdev
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1739453823
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%REPLACES%
+libblockdev-tools
+
+%CONFLICTS%
+libblockdev-tools
+
+%PROVIDES%
+libbd_fs.so=3-64
+
+%DEPENDS%
+e2fsprogs
+libext2fs.so=2-64
+libe2p.so=2-64
+gcc-libs
+glib2
+libglib-2.0.so=0-64
+glibc
+libblockdev=3.3.0
+libbd_utils.so=3-64
+libbytesize
+parted
+util-linux-libs
+libblkid.so=1-64
+libmount.so=1-64
+libuuid.so=1-64
+
+%OPTDEPENDS%
+btrfs-progs: for BTRFS filesystem support
+dosfstools: for VFAT filesystem support
+exfatprogs: for exFAT filesystem support
+f2fs-tools: for F2FS filesystem support
+nilfs-utils: for nilfs filesystem support
+ntfs-3g: for NTFS filesystem support
+udftools: for UDF filesystem support
+xfsprogs: for XFS filesystem support
+
+%MAKEDEPENDS%
+autoconf-archive
+btrfs-progs
+cryptsetup
+device-mapper
+dosfstools
+e2fsprogs
+exfatprogs
+gcc-libs
+glib2
+glibc
+gobject-introspection
+gtk-doc
+json-glib
+kmod
+keyutils
+libatasmart
+libbytesize
+libnvme
+libyaml
+lvm2
+mdadm
+ndctl
+nss
+parted
+python
+systemd-libs
+util-linux
+util-linux-libs
+volume_key
+

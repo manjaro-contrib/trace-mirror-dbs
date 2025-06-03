@@ -1,0 +1,89 @@
+%FILENAME%
+python-datasets-3.6.0-1-any.pkg.tar.zst
+
+%NAME%
+python-datasets
+
+%BASE%
+python-datasets
+
+%VERSION%
+3.6.0-1
+
+%DESC%
+Ready-to-use datasets for ML models with fast, easy-to-use and efficient data manipulation tools
+
+%GROUPS%
+huggingface
+
+%CSIZE%
+868674
+
+%ISIZE%
+5910015
+
+%SHA256SUM%
+b8848f2d412ac55115eb1f088c5559d5e322d6574dc260ae6bbf53954eadeb65
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaBxMMwAKCRAAHPSBC+jZEZkJAP9PmtnFRVqNKAbwBQGFZyyizeAzfHaVawbf88s9hiOXsgEAi5wP9Ns9YUP8ioXgaTxgzoe2IoiUuZUCc6gh3kfMVwo=
+
+%URL%
+https://github.com/huggingface/datasets
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1746684889
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python
+python-aiohttp
+python-dill
+python-filelock
+python-fsspec
+python-huggingface-hub
+python-multiprocess
+python-numpy
+python-packaging
+python-pandas
+python-pyarrow
+python-requests
+python-tqdm
+python-xxhash
+python-yaml
+
+%OPTDEPENDS%
+python-librosa: Audio datasets
+python-soundfile: Audio datasets
+python-soxr: Audio datasets
+python-pillow: Vision datasets
+python-tensorflow: TensorFlow support
+python-pytorch: PyTorch support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-absl
+python-decorator
+python-librosa
+python-pytest
+python-pytest-datadir
+python-pytest-xdist
+python-pytorch
+python-soundfile
+python-soxr
+python-sqlalchemy
+python-zstandard
+

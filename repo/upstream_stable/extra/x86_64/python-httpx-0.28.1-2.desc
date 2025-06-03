@@ -1,0 +1,82 @@
+%FILENAME%
+python-httpx-0.28.1-2-any.pkg.tar.zst
+
+%NAME%
+python-httpx
+
+%BASE%
+python-httpx
+
+%VERSION%
+0.28.1-2
+
+%DESC%
+A next generation HTTP client for Python
+
+%CSIZE%
+165466
+
+%ISIZE%
+974548
+
+%SHA256SUM%
+e4b3eb30974ff44f4d4efa9f09beaaff496fdd6aaf728eb91fff5627ae93adc6
+
+%PGPSIG%
+iQIzBAABCAAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmduvYEACgkQ/cMEC5Ksp0jkHBAAnY3hNJJPwYacuFB85Dv7vt7rHFucVStH87RRQtAfJ4slj4yjSoZJ9rO86K6e5HlAGMwbG9P7zTQk6hCvvEsKdi4cORDwI77BHvxojNFVbTBv2ctX8mDYBnhgAT2JdhnGylVXYKgtb6aYEQgAf/bvBnpdKmoZAmzrGgTxy/SNOiDu3r0UcEvIwnp+BrLjP0DnhMSGTUuOk1vLWIb0ACEKXut8tnJOigEpctX0InYgBH3oBFvZjNm8v6ty5u/nNaZu7ftjLMIcrjyAy7qRBSCysngqz+wOgsWnKk09BOMuhFpRrmqIUWgMtYYvkfXt2Ip1N75vuZIsNJLONq2u1lr1RJCxooQ3M/Ji2yMuIXxVFK7XuiPMC6UK59eGlNMO+WRoTec2nk2dNCHwXmRny/BDVlWOX4FhraxpaZnp8WPWBtnIyJKmAsGAxbQBepUgau4f1QpPTeiV8+2f4VQ0QqEYLMlAzmCQMjkfWDZtCyzsVlnptBsldXm60DZGTO3mJyn6clwDWrHDhvz2AHksW+ypZrKAhb2U3jcrkZeG9Rx7PAACQAu4Npht4mfwKphgnPLFO3KM4bisWatdq7ihfbGRqh4y6Wh7WAjWqi/AskxH9ZUkgg6LIWuyS8cgymHA2S9Ka8+A2kZN53WZgwTgEix1lDDxNbd3YiOAeYfM4qUJJLQ=
+
+%URL%
+https://github.com/encode/httpx
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1735310694
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-certifi
+python-httpcore
+python-idna
+python-sniffio
+python-anyio
+
+%OPTDEPENDS%
+python-brotli: for brotli response decompression
+python-brotlicffi: for brotli response decompression
+python-zstandard: for zstd response decompression
+python-h2: HTTP/2 support
+python-socksio: SOCKS proxy support
+python-click: command line client support
+python-rich: command line client support
+python-pygments: command line client support
+python-trio: alternative async library
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-hatchling
+python-hatch-fancy-pypi-readme
+python-pygments
+
+%CHECKDEPENDS%
+python-pytest-asyncio
+python-pytest-trio
+python-typing_extensions
+python-brotli
+python-brotlicffi
+python-h2
+python-trustme
+uvicorn
+python-socksio
+python-rich
+python-chardet
+python-zstandard
+

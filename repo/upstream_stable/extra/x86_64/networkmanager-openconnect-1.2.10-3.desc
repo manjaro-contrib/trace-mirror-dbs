@@ -1,0 +1,67 @@
+%FILENAME%
+networkmanager-openconnect-1.2.10-3-x86_64.pkg.tar.zst
+
+%NAME%
+networkmanager-openconnect
+
+%BASE%
+networkmanager-openconnect
+
+%VERSION%
+1.2.10-3
+
+%DESC%
+NetworkManager VPN plugin for OpenConnect
+
+%CSIZE%
+574658
+
+%ISIZE%
+3218537
+
+%SHA256SUM%
+6d8e409a0ad6694c69e482fdf7e3b3a7e03f1bb755f30f817c6a103607010e85
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCaAmpMwAKCRC4rAhgDxCM3yGZAP4mGAaMPI0n5OiaiiM2DngD/iCxil9RdSScVyVEQG1+twEAi4T5t2erL5JZXMmUqSCnCFsoO/wxsN8fA9TgxSVzyAI=
+
+%URL%
+https://networkmanager.dev/docs/vpn/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1745463315
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glib2
+glibc
+libnm
+libsecret
+libxml2
+openconnect
+libopenconnect.so=5-64
+
+%OPTDEPENDS%
+gcr: GUI support
+libnma-gtk4: GUI support (GTK 4)
+libnma: GUI support (GTK 3)
+webkit2gtk-4.1: GUI support
+
+%MAKEDEPENDS%
+gcr
+git
+intltool
+libnma
+libnma-gtk4
+python
+webkit2gtk-4.1
+

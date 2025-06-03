@@ -1,0 +1,75 @@
+%FILENAME%
+python-django-compressor-4.5.1-3-any.pkg.tar.zst
+
+%NAME%
+python-django-compressor
+
+%BASE%
+python-django-compressor
+
+%VERSION%
+4.5.1-3
+
+%DESC%
+Compresses linked and inline javascript or CSS into a single cached file
+
+%CSIZE%
+184240
+
+%ISIZE%
+984364
+
+%SHA256SUM%
+e9ae0184ab22a8f2993098c06b077fbf164d27a40f1a4a7fb52be083bd815c8b
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc7TPUACgkQwGCGM3xQdz6kgwf8CvKxJCEUfxyXyiwOoh+rIDyidlSkXkjwtLacQVSq+O0/gUy41gaVNpZPdp2vtm1ckcU+ySvRvLpRKw5j26CmYVEf1YBYgTiP2oUMseLkeTn7UxbYti+YWyRTrf6FrtkKNxQ2cwk1Kk+XY9yuJ0ajgkZOH7q8NjvrwlCIceUlRBSfkACsZrvmKR40LRLK2ubMo8n5tGMClvxUej0+XymzZ8XiPkgHRfOZ881gOak65yTWcslgnBLHhPHYzKG1j4lnylAr95lqE25qDzWI0CGWI5k8HPJiJd+gYWjH9GZXbMML/4rt7OUqYJRi62GdmoiqOiHUHsulS06/n0szOoPOSA==
+
+%URL%
+https://github.com/django-compressor/django-compressor
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1731939554
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-django
+python-django-appconf
+python-rcssmin
+python-rjsmin
+
+%OPTDEPENDS%
+python-beautifulsoup4: for compressor.parser.BeautifulSoupParser and compressor.parser.LxmlParser
+python-brotli: for compressor.storage.BrotliCompressorFileStorage
+python-calmjs: for compressor.filters.jsmin.CalmjsFilter
+python-csscompressor: for compressor.filters.cssmin.CSSCompressorFilter
+python-django-sekizai: for including template code into main template
+python-html5lib: for compressor.parser.Html5LibParser
+python-jinja: for jinja2 templating support
+python-lxml: for compressor.parser.LxmlParser
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-beautifulsoup4
+python-brotli
+python-calmjs
+python-csscompressor
+python-django-sekizai
+python-html5lib
+python-jinja
+python-lxml
+
