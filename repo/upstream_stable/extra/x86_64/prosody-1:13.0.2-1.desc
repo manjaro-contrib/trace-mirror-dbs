@@ -1,0 +1,55 @@
+%FILENAME%
+prosody-1:13.0.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+prosody
+
+%BASE%
+prosody
+
+%VERSION%
+1:13.0.2-1
+
+%DESC%
+Lightweight and extensible Jabber/XMPP server written in Lua
+
+%CSIZE%
+454824
+
+%ISIZE%
+2292550
+
+%SHA256SUM%
+006137a949355bc42f2fba149069b41cd0e445782892e1d76e8a78b467142400
+
+%PGPSIG%
+iQJLBAABCgA1FiEEiee5MxxK59f699MFwTIpOVS75K0FAmg/nNUXHHNwdXB5a2luQGFyY2hsaW51eC5vcmcACgkQwTIpOVS75K03xQ//TUQoHzVYcnQt6/3MV48jIiehSKxiQlNixJrz5erEEz1hmnasZ77dv/TJ08wqEgE0y4tonlQnbXh3qvx1xGUgh0bRWaSr5HVPLjxltSbUNyiir1isewABTD+9bM8EDVzfcchAUBWYMLFg16DL81wiBqfn/ZXryeBvQqQRy/+We/vp83BbNBQu1Y82h+9ObIlQ20V35dYPRgIt0vrPXuoVWhs2aMF1WPgYwNwHeX4nqejpoKT/G2pTCaMsRp057ENH6WytkQy6S2amoF2vuiOJmcXW8+H9ct1vW8HHuTQlURNWkQGTt4TK1ude+EyBYSFZb45Q5pGtwwwlCES2E1h0m2yxw2W6IP2gzXPtVesDq9SojKfRD1PWDLhjX9LFpe/Yn/Sl0OxkNMBeSsQW/6Gwr/JhjaU4Q8HaCJmTCPzxg1d7mgLJM8YdIS4CqnvYqdfnbXsH1VYXrb73GdGAXLdKy6fONhh+jvatWYPxpU3OYJ3wGWJAOsr/X9HNiwPO/AVZLrqkkppUxXgORm6HgGsVMWXDxl4FcXaLWMcddW+hR8joFxJCVy3OkN9irVXBwid+n8jv3HOO5Ba6/gWeFyO08LIebztk9a7gbAFu6mr80XtcAybjej7bX8fJPO89A8/fLI0TEYG5d1FQXnxq21UrJw3LhSfQsn/AFFUOl28xAUU=
+
+%URL%
+https://prosody.im/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1748999175
+
+%PACKAGER%
+Sergej Pupykin <spupykin@archlinux.org>
+
+%DEPENDS%
+lua
+lua-sec
+lua-socket
+lua-expat
+lua-filesystem
+libidn
+openssl
+
+%OPTDEPENDS%
+lua-dbi: SQL storage support
+luarocks: plugin manager
+
