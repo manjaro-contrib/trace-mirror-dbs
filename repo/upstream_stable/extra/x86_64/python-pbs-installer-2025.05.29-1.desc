@@ -1,0 +1,54 @@
+%FILENAME%
+python-pbs-installer-2025.05.29-1-any.pkg.tar.zst
+
+%NAME%
+python-pbs-installer
+
+%BASE%
+python-pbs-installer
+
+%VERSION%
+2025.05.29-1
+
+%DESC%
+Installer for Python Build Standalone
+
+%CSIZE%
+73767
+
+%ISIZE%
+847354
+
+%SHA256SUM%
+0d42cabe48da0c1a93a91e44e2ce0078afe2b02ca53dd5b7e4b542497b4f7123
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCaEAfpwAKCRCbeih9mi7GCF6eAQDzk496PisTa9AzareMJHEBh8K36tmlNmRvxp99U7cahgD/Qm1B6zw0dQCWZwz13rjG1RS8BtBysknKVmxy/vFOtQA=
+
+%URL%
+https://github.com/frostming/pbs-installer
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1749032831
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-httpx: for download support
+python-zstandard: for zstd installation support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-pdm-backend
+
