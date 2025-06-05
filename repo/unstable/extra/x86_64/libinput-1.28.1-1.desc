@@ -1,0 +1,67 @@
+%FILENAME%
+libinput-1.28.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+libinput
+
+%BASE%
+libinput
+
+%VERSION%
+1.28.1-1
+
+%DESC%
+Input device management and event handling library
+
+%CSIZE%
+313687
+
+%ISIZE%
+1210024
+
+%MD5SUM%
+fe1cbada62a87db0adcb50375f7af2ee
+
+%SHA256SUM%
+8d77504dab3b1fe9c1bbd41523c25635ae5459c8c282ab65b0769012eebec51c
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmftUjcACgkQlGV6sg8qCSvY8wf8DaivkJtXScvArJmAYvrd8zEjz5ahM2Jf4/MBesWzzMqYzQQtCRIVRJUuRh6fln0/LS9QQ/R48kXXKEFJ6sGx9LOVaWScxREEXfoJU1O55KZEJWP+kggXo3aYU9u3OwgwzbCsR7eYao9D9QutP3V6dry4EaDygcgyNsjRp+7TY7zC9E1cVXJsQXP9eeUc48y2zOWhvHUlrXeEmGAjx/PE1sYmd2iOTsbhRetQ52B5xc7EtVkNkBFGcFjCxzFGu4O6tC3pU1vEuBDctODgYzzNiStsy1fJhDLeS97rh6k6Ls7asOuzfAOUY9wYVUGgXtxTPbdsT5vqPQNP/OofptsNZA==
+
+%URL%
+https://gitlab.freedesktop.org/libinput/libinput
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1743606270
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%DEPENDS%
+mtdev
+libevdev
+libwacom
+systemd-libs
+glibc
+
+%OPTDEPENDS%
+gtk4: libinput debug-gui
+python-pyudev: libinput measure
+python-libevdev: libinput measure
+python-yaml: used by various tools
+
+%MAKEDEPENDS%
+gtk4
+meson
+wayland-protocols
+check
+
+%CHECKDEPENDS%
+python-pytest
+

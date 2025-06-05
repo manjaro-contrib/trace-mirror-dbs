@@ -1,0 +1,89 @@
+%FILENAME%
+python-awkward-2.8.2-1-aarch64.pkg.tar.xz
+
+%NAME%
+python-awkward
+
+%BASE%
+python-awkward
+
+%VERSION%
+2.8.2-1
+
+%DESC%
+Manipulate jagged, chunky, and/or bitmasked arrays as easily as Numpy
+
+%CSIZE%
+1648332
+
+%ISIZE%
+14344464
+
+%MD5SUM%
+7770452773b878c6aa91f5c40022537b
+
+%SHA256SUM%
+3c5624f3cfc252403452646fb9c9482d834a1fbb7995de198959a6642007b087
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmgeTHcACgkQdxk/FSvb5qYKQg/9HvcMfPR/K81H3SkoHgks0ZJcETw+Ph9hdSuy3rj/iL75KoEqBuHx2qUfUZ/QNJrBNQbxEYuqY0ydvJbBcDCUHV4z8eqRyTdGEamoby61uD0xOQQnuYfrgKSkm0fL2RbZM9DEO2XTmYlAs5+WtWmWYthyrocuMdYdrqidpsIU7Lwl1/xhPAbpim1xSBQIu79418dHpfgyqmuDf59DlH1rXsw00/4dQH0FeypZvuaEsV7LK+IGzWAUboWdN/jus/6xdoC1hKbpzt9ByHFMjD+LKs/OV2S5eQXUUwH3FEPefR/COp+JaAOxkByPl4G0PTWi1iAYxnDVpPIOFR3kjgxmzVkGLF47n6JvnulRIlbgyNUtFL5nW0Fmyv2QlK2lJASTTDrKlAPBO70i2NbjoFeU72ZNyYGrJkV9iyj7q9gOm8+D9+sJViqPVyzfwJnUUC7sFZOBl7KnQKWkonoe9Jj6TAkFVAC+jD6yFpDzcGKV9CEk0trTmckub/8TshqVyAfOrTpUymghOF3EAeh+NzXTftl6Sb6NExaZQA5wDy65wh0gR7sa7Fab/vGOb2/KX8u1z2Kj1q157dN7LEmO8CPTSwdPvyjWLKSXf294Oy/G2te9clyjfT2iGPQhRhvIHb23dGqpwtSV4wj4BZGYYNKx5sPVIn3HuJakvc7zGMxQ77o=
+
+%URL%
+https://github.com/scikit-hep/awkward
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1746815934
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+python
+python-fsspec
+python-numpy
+python-packaging
+python-typing_extensions
+
+%OPTDEPENDS%
+python-numba: for using in Numba JIT functions
+python-numexpr: numexpr connector
+python-pandas: pandas connector
+python-pyarrow: pyArrow connector
+root: rdataframe connector
+python-awkward-docs: documentation
+
+%MAKEDEPENDS%
+cmake
+doxygen
+git
+pybind11
+python-build
+python-hatch-fancy-pypi-readme
+python-hatchling
+python-installer
+python-nox
+python-pyaml
+python-scikit-build-core
+python-setuptools
+python-sphinx
+python-sphinx_rtd_theme
+
+%CHECKDEPENDS%
+python-hist
+python-numba
+python-numexpr
+python-pandas
+python-pyarrow
+python-pytest
+python-scikit-hep-testdata
+python-vector
+root
+

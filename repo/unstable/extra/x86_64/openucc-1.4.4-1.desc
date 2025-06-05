@@ -1,0 +1,69 @@
+%FILENAME%
+openucc-1.4.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+openucc
+
+%BASE%
+openucc
+
+%VERSION%
+1.4.4-1
+
+%DESC%
+Unified Collective Communication Library
+
+%CSIZE%
+6099398
+
+%ISIZE%
+74897976
+
+%MD5SUM%
+0f0454a598268063855f228b6ef6ea58
+
+%SHA256SUM%
+37f5198061e61ecfb44eb3d781ed89f761441950933e60521d780309e3e24572
+
+%PGPSIG%
+iHMEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaB8omAAKCRAAHPSBC+jZEay4APiIbBhvE5wrtXKFn4UUMxikmuk6vhQJ+4Df+gv90csjAPjUnGIJwG0r3SfBgjFcgeUPqN9kiM8m1Ci8N6NT10cA
+
+%URL%
+https://github.com/openucx/ucc
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1746869238
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%PROVIDES%
+libucc.so=1-64
+
+%DEPENDS%
+glibc
+openucx
+
+%OPTDEPENDS%
+cuda: for CUDA execution engine and transport layer
+hip-runtime-amd: for HIP execution engine
+nccl: for NCCL transport layer
+rccl: for RCCL transport layer
+rdma-core: for InfiniBand transport layer
+
+%MAKEDEPENDS%
+cuda
+hip-runtime-amd
+nccl
+rccl
+rdma-core
+
+%CHECKDEPENDS%
+gtest
+

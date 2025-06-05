@@ -1,0 +1,67 @@
+%FILENAME%
+python-tifffile-2025.5.10-1-any.pkg.tar.xz
+
+%NAME%
+python-tifffile
+
+%BASE%
+python-tifffile
+
+%VERSION%
+2025.5.10-1
+
+%DESC%
+Read and write TIFF files
+
+%CSIZE%
+459308
+
+%ISIZE%
+3036680
+
+%MD5SUM%
+901328b548c429daffa5a2b1269b14e1
+
+%SHA256SUM%
+0c16fb4f60f9f59dfd2ea227b2e5fe66774ba583c08c6720cc5e3041185379f7
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmggj/UACgkQdxk/FSvb5qYkWw/+PT34Rj9u/Exf5x+3PkauLHvO6TNhPfhoI7XbE+7et5oz6dKBNybplqcKzQc0zx5H6K3sIZkOGUCSi1PDaao+5u+us2Cle+hbjh6eCC1Lyv5cM6XO+39gseuqx8lUdslGnFRFfZ0bOVn4Q5fItOj0bfBMB+nQCZ4+XSXnoaSEAkTlBvTd+I0uHjMhSbj8O5MJl9cnDDA+drcou2/icekEYwvAirU3ONiIoVeHCkWDksAS6FUx0xq+DW66mE8SDAE27eHPrBE50gHLmZkrrcuYxcsIie6r3GJ+bKgBCfHRsqejVMJRtyS70UoCiTLuhKwD4tX1+Bz0qbhXXWehs1D4ZAd/7cNQP/2ano1znj7E6Ughs1hAwJ0uywzYNB+4V1FJeQ58EjZaQh+XCv4Hqx/97b/Me+/wJAqfdwp3WTfuZG8nienMPIR/D3UrBXrE0BsAuDTB1M51smOzrSl25YvJ8/diMvCpbTGA/aFDSUyhnhh6kka6OsXhIrQ1KZGITGipf8Vb6boinFIIF8NyFS2YrN2z5YaiiEU2XU+Pr+qhOYD4e9jO6q/6g8mzJ4SJwL3PVRVtljVftfxoP96Y4lPJ7xGh39rgBpWVJQ8RQNtDEE0GZiPRwl9C3CAY9FF/5aad56SbzJnISSfUhJ98q30EsMhVRE8aCl1IeZDCKr/FJxY=
+
+%URL%
+https://github.com/cgohlke/tifffile
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1746964446
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-numpy
+
+%OPTDEPENDS%
+python-fsspec: for opening ReferenceFileSystem files
+python-imagecodecs: for encoding or decoding LZW, JPEG, etc. compressed segments
+python-lxml: for validating and printing XML
+python-matplotlib: for plotting
+python-zarr: for opening Zarr stores
+tk: for Tkinter file open dialog
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+
+%CHECKDEPENDS%
+python-fsspec
+python-lxml
+python-pytest
+

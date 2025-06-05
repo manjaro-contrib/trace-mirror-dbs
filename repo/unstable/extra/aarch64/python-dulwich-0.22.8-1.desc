@@ -1,0 +1,67 @@
+%FILENAME%
+python-dulwich-0.22.8-1-aarch64.pkg.tar.xz
+
+%NAME%
+python-dulwich
+
+%BASE%
+python-dulwich
+
+%VERSION%
+0.22.8-1
+
+%DESC%
+Pure-Python implementation of the Git file formats and protocols
+
+%CSIZE%
+757312
+
+%ISIZE%
+4685068
+
+%MD5SUM%
+9a1613911030841b3c075564cc718f50
+
+%SHA256SUM%
+643e091497f2f60ac424af524b1ebd038cad410eb0ae51efbb7f9210ced45663
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmfE/fgACgkQdxk/FSvb5qa8Pg//UmFNg26SSObbEmJhdzj3RqcCdoEknR469LebzR5Q3OCAFvWyDVLl73vdGR9lcy9VI6SdvllS6I2RvfumnjZTvxVqurVZ0k42zzg8euqEyMbr9lIq/boZNg0bAPbc4VlUB9/mOlhWFbUJkVXxcVq80SH6LjD3p03IqsKqpRFY8mXDFxdCJqOVFjlVd/ZQWVr1EbgG25UZIyfpbuFglIr2zGP9qH0lkpGv50sxLLvo6si3rmo4IbnCysS+9Cprh8cmzJmCN2gMn3eFsZPXG4u/0HVaWdUWnemqST9qOKbCeOjzyO4oPzolf9JYB9XUF9dsMcJxKqO9T+hQtu9V0GAG88BPRFow4bX46pMqHFDH2Kx8mE7nax0uC7NT2RHaGOJ0tUgDvzxXv34ic1r3DUeBE137WWheDA/Bk8hL22qjVxYWOgIbZJCKHSFqwUwn8EiwV1gYfEOoIqWogtNPWF1WhL1fFf2zXMwtBKaF235A7MyRfF4fYXsDM/2YsALv4o6itiqEZCkpkEbV6NvovfWo4igH6wdIAcFYVfA5iz+YkJy0Vw30edtZVMbnPiWjscKu1JyCsQbuts6WWsIKmf7LbWjp9Kw/BB4sAVBaWise4h5Kv09THN3S3GXymu39+ZLE6e1SUlzas2+FA3/EWmb7PULyoMJIkIb/B1EaE9bzoVE=
+
+%URL%
+https://www.dulwich.io
+
+%LICENSE%
+Apache-2.0 OR GPL-2.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1740963248
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python-urllib3
+
+%OPTDEPENDS%
+python-fastimport: for fast-import support
+python-gpgme: for PGP signature support
+python-idna: for HTTPS support via urllib3
+python-paramiko: for use as the SSH implementation
+python-pyopenssl: for HTTPS support via urllib3
+python-pyinotify: to watch for changes to refs
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools-rust
+python-wheel
+
+%CHECKDEPENDS%
+python-gpgme
+python-paramiko
+
