@@ -1,0 +1,75 @@
+%FILENAME%
+nwg-panel-0.10.6-1-any.pkg.tar.zst
+
+%NAME%
+nwg-panel
+
+%BASE%
+nwg-panel
+
+%VERSION%
+0.10.6-1
+
+%DESC%
+GTK3-based panel for sway and Hyprland Wayland compositors
+
+%CSIZE%
+399010
+
+%ISIZE%
+3733242
+
+%SHA256SUM%
+fb952bcbfb2093b3280dbf86194820fcfc587dfd6f05829f130703d77b8328fa
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmhCiLsACgkQ/cMEC5Ksp0jy2xAAq0HWYomzUUn2agcMzosnws/BxP65yEeJI6sMd7gx9P7phCT+S0YBjK4+E7otcIUZv2SRNdogrCsHOnm79mofVKlwFydNKEeynm/u3Z/UR5J6azwWE+R2LRGDf5smIsiR2c7IWmEvwzy/t3rNk/JZ32PFvO4vjYsW04FMJq6S4Nsh0goq2enJJWwChGI8f8oC/RY5x2imgh0/dbUHUhg5GIijLsGjHroJ8bLVFy+el/a8CovXlwh6TBxlFGISJQeYqqEo6/wuDH/iYeTNxRibvaHSXl0/e2XMoerIkT14B0SoeCHA9L9ulmBDyF8GO+/Ypsk5s+XJQTtkUcubEQfrFJ9H8KiHWLSW0vABjHfNwR7VQMhqi9j9fxJ+bCQnJRj2lfhpntfSmiqfGchOs420AaeGIFlZJziWygCD/e93cK4UpxoEZbU0rbT6neu8Tv2oTrhP3bmRHGq4sN8cVzsGoxg19ZUZUReiDTkqT1TESZ/+5496YwxkkMvvcl6iY620gpr7YjoxcHI6IVgtKj0k2fZNwAxHsTOF2cePaQNyN0lrFh5mHDf/gZkqVr6Pbu5tXbUnda9pHv2kSCqnqwULdHoi94DPWC1VPMy9FmOkATtvK1G6n/ViSGuZgVrs8bwrym0v8+WU+45jmzqo1AbHCi8QochxO6EQbeYUqY3XGjo=
+
+%URL%
+https://github.com/nwg-piotr/nwg-panel
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1749190822
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-gobject
+python-i3ipc
+python-cairo
+python-dasbus
+python-netifaces
+python-psutil
+python-requests
+bluez-utils
+gtk3
+libappindicator-gtk3
+gtk-layer-shell
+brightnessctl
+playerctl
+glib2
+
+%OPTDEPENDS%
+wlr-randr: for non-sway Wayland WMs support
+swaybg: for the random wallpaper module
+swaync: for Sway Notification Center support
+ddcutil: for external displays brightness control
+upower: for multiple batteries support
+python-pillow-avif-plugin: for AVIF support in Pillow
+python-pillow-heif: for HEIF support in Pillow
+nwg-icon-picker: for a graphical icon chooser
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+
