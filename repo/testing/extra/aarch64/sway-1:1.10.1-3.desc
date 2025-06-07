@@ -1,0 +1,89 @@
+%FILENAME%
+sway-1:1.10.1-3-aarch64.pkg.tar.xz
+
+%NAME%
+sway
+
+%BASE%
+sway
+
+%VERSION%
+1:1.10.1-3
+
+%DESC%
+Tiling Wayland compositor and replacement for the i3 window manager
+
+%CSIZE%
+5132768
+
+%ISIZE%
+6221754
+
+%MD5SUM%
+3b1e44c0aa6ff1675a76c9ddfc18d31b
+
+%SHA256SUM%
+6591203eab7b6b68a8ba20c30697f1e6d1a51c2a013a53f973168a5bee02f26c
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmg7LwoACgkQdxk/FSvb5qatgBAAnzrvboUPzqeHJnRVJBddgdw2c4cDJV2n9k1ld0y6qo3hAlhjgr7hYQwNMUMncBSFSS+lM3wgZxeNENQuvyZWlopZTTFuit09T7i2/C+cOW29DfHm8G06vzB39xF/t/JWY6dE4+sE+bYxClIJQhbp45fwtYSRfPMKyfqb7TNIaGjkIVa+zqSSHpB7a0GB29HM7ku7iXhQ48DBhmlr36KFSkTGgjvwvIinWcGr6upVTeXAe8j2mEReS/i0sOBSejXm/nqtZMwTNa7AnK9dKg4BYv8lIjVOHWO/5ULVosUssUiYT+xO6KqTUzkvfaa70kVKqZnD/n81w4wkKSmzUeVEugToXit3Ggm21fBAPXsBIkjIVs/u9rzLfy3+ML77kYY7mO3QnNRNe6/tGl3o08jyUhDlX5r8WHFHbjT0OYDe0G1jygZiKzWG6HFuaDelM46Utx6e/QTu5qvPQENT/VlUag8IDUomhO7kF4duDAGqZ53RzzQGL/kiwN1oE7tHU0srweJdgti9beZZ/0ZHYk/KgfYsNmBd3kbPlkhmbjpmHotx/lYFSl8T2dgrJMEZpAyzoPrLp36vuGQP3EtbguPtVzjIqsvoJQLQUNOPFwJl6K2Y03LuLw+azkyApeW6o454wSxwWcGjrlNafhGaMQLwOGpUXYY2d2f3LaoW4jkqwwE=
+
+%URL%
+https://swaywm.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1748709088
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+wayland-compositor
+
+%DEPENDS%
+cairo
+gdk-pixbuf2
+libevdev.so=2-64
+libinput
+libjson-c.so=5-64
+libpixman-1.so=0-64
+libudev.so=1-64
+libwayland-server.so=0-64
+libxcb
+libxkbcommon.so=0-64
+pango
+pcre2
+ttf-font
+wlroots0.18
+xcb-util-wm
+
+%OPTDEPENDS%
+brightnessctl: Brightness adjustment tool used in the default configuration
+foot: Terminal emulator used in the default configuration
+i3status: Status line generation
+libpulse: Volume adjustment tool (pactl) used in the default configuration
+mako: Lightweight notification daemon
+polkit: System privilege control. Required if not using seatd service
+swaybg: Wallpaper tool for sway
+sway-contrib: Collection of user-contributed scripts for sway
+swayidle: Idle management daemon
+swaylock: Screen locker
+waybar: Highly customizable bar
+wmenu: Application launcher used in default config
+xorg-xwayland: X11 support
+xdg-desktop-portal-gtk: Default xdg-desktop-portal for file picking
+xdg-desktop-portal-wlr: xdg-desktop-portal backend
+
+%MAKEDEPENDS%
+git
+meson
+ninja
+scdoc
+wayland-protocols
+
