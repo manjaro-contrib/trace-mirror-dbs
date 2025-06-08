@@ -1,0 +1,26 @@
+%DEPENDS%
+bash
+coreutils
+curl
+libcurl.so=4-64
+gawk
+gettext
+glibc
+gnupg
+gpgme
+libgpgme.so=45-64
+grep
+libarchive
+libarchive.so=13-64
+openssl
+libcrypto.so=3-64
+pacman-mirrorlist
+systemd
+
+%PROVIDES%
+libalpm.so=15-64
+
+%OPTDEPENDS%
+base-devel: required to use makepkg
+perl-locale-gettext: translation support in makepkg-template
+

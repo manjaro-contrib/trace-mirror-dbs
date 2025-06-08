@@ -1,0 +1,52 @@
+%DEPENDS%
+acl
+audit
+bash
+curl
+device-mapper
+fuse3
+gcc-libs
+glib2
+glibc
+gnutls
+json-c
+libcap-ng
+libnbd
+libnl
+libpcap
+libpciaccess
+libsasl
+libssh
+libssh2
+libtirpc
+libxml2
+numactl
+parted
+polkit
+readline
+systemd-libs
+util-linux-libs
+
+%PROVIDES%
+libvirt=11.4.0
+libvirt.so=0-64
+libvirt-admin.so=0-64
+libvirt-lxc.so=0-64
+libvirt-qemu.so=0-64
+
+%OPTDEPENDS%
+dmidecode: DMI system info support
+dnsmasq: required for default NAT/DHCP for guests
+gettext: required for libvirt-guests.service
+iptables-nft: required for default NAT networking
+libvirt-python: for virt-qemu-qmp-proxy and virt-qemu-sev-validate commands
+libvirt-storage-gluster: Gluster storage backend
+libvirt-storage-iscsi-direct: iSCSI-direct storage backend
+lvm2: Logical Volume Manager support
+openbsd-netcat: for remote management over ssh
+open-iscsi: iSCSI support via iscsiadm
+python-cryptography: for virt-qemu-sev-validate command
+python-lxml: for virt-qemu-sev-validate command
+radvd: IPv6 RAD support
+swtpm: TPM emulator support
+

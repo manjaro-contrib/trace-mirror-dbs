@@ -1,0 +1,26 @@
+%DEPENDS%
+glibc
+libgpg-error
+mime-types
+sqlite
+zlib
+gdbm
+libgdbm.so=6-64
+gpgme
+libgpgme.so=11-64
+krb5
+libgssapi_krb5.so=2-64
+libidn2
+libidn2.so=0-64
+libsasl
+libsasl2.so=3-64
+ncurses
+libncursesw.so=6-64
+openssl
+libssl.so=3-64
+
+%OPTDEPENDS%
+perl: for smime_keys
+python: for experimental mutt_oath2.py
+smtp-forwarder: to send mail
+
