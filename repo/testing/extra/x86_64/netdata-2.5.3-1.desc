@@ -1,0 +1,80 @@
+%FILENAME%
+netdata-2.5.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+netdata
+
+%BASE%
+netdata
+
+%VERSION%
+2.5.3-1
+
+%DESC%
+Real-time performance monitoring, in the greatest possible detail, over the web
+
+%CSIZE%
+35172799
+
+%ISIZE%
+180514928
+
+%MD5SUM%
+187bce352f87dd21d1378aa491f8aeb2
+
+%SHA256SUM%
+a71879c4c717002c5cb0f44d21f0605890263ec0e9a0b00340b98e649e44b6ce
+
+%PGPSIG%
+iQIzBAABCgAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmhDlHIACgkQOeS4d+YuuRW0jQ//dbeHNpu35HySvRljTismArtI/P1NONrJ1UgKTgytj3S8Y1cJiB7yjEe0L6yi65fcuRa/G6NaC4/J24UAvZcoW8whTPEVUNrVqf+c8FmtZUth/iU6Y0Z2hokqVy4FbvIIFsa3m3gqke2YGit2Rjwz6td01ymiFZYvzoKOkdZncA6A9cUXmtf7OOM69Ow2IOD+Af1pMZjScBSUiS6XINUIUTFfmyevG13a3DXLrQQleRR/niReiUuV+a4h3l7hEykn/x+Cz+CWTn/Jk/xZN3dao2aUPvtp7W2CruP5XWEpmVK8wAO4hpYYooV1oHUjmrqDFgdHlV4jp98yggJqAmm2XtRxVTkt9szBtr9g8h+c6JWespzXUCtuxnJ2wMH2zt1DT/xZEaHExerdkHvJYZ1x5wYMVvXIjfznF0ENwfSFM0QU+R9cW1Veeey4C651zeywn9pUWrJsDyUyJ/030EsVRjEQ/D4fm2HyUtQnWQrtoMOWnrN/B/lwDMDQK4Gi4ckB20TSo9NG2XOM4OVRKKwOyTKpoeqAmoTFyY10EEUFhi+3ip/HrpVpGu3jhyaC/2FSRkQZ9wssIeWskd15qtemSBIocspQh2aQUt0QcA2DOarnGMk37I0Fb5Ka2Nc8GHHWGu0i2BxlJlsN5d4Nt8xy/l3M3SQvC1fayQzG+h8ch/Q=
+
+%URL%
+https://github.com/netdata/netdata
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1749258045
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%DEPENDS%
+libmnl
+libnetfilter_acct
+zlib
+judy
+libuv
+json-c
+libcap
+lz4
+openssl
+which
+snappy
+protobuf
+libwebsockets
+mongo-c-driver
+libyaml
+cups
+freeipmi
+
+%OPTDEPENDS%
+iproute2: for monitoring Linux QoS
+python: for most of the external plugins
+apcupsd: for monitoring APC UPS
+lm_sensors: for go.d/sensors module
+smartmontools: for go.d/smartctl module
+nvme-cli: for go.d/nvme module
+iw: for monitoring Linux as access point
+
+%MAKEDEPENDS%
+cups
+go
+cmake
+ninja
+git
+
