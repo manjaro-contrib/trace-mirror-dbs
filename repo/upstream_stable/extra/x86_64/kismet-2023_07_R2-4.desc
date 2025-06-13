@@ -1,0 +1,85 @@
+%FILENAME%
+kismet-2023_07_R2-4-x86_64.pkg.tar.zst
+
+%NAME%
+kismet
+
+%BASE%
+kismet
+
+%VERSION%
+2023_07_R2-4
+
+%DESC%
+802.11 layer2 wireless network detector, sniffer, and intrusion detection system
+
+%CSIZE%
+11247173
+
+%ISIZE%
+25159716
+
+%SHA256SUM%
+bfe7572dccc885b76960a4e38b2b3f5c8f40a2a6d726003d1989b145199ca99f
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmhKpCcACgkQ/cMEC5Ksp0jgNg//TkY4ftDsv5u4ngq7rehA+qx3N281P3hvlgr0KjZYT45WylsuZsVteLaIcrJq3P1Bal2iqOczLhkgjDV4aRITn2MR/x45FbCg+xN/iWClT1M8oiAvyM1HpP9dC5Y7JqcNt5R5od/u4Boz+J2CWqF8Ic0F0KCQ4/sh4Zn4NmUWekp1IyCji3+bN459mX65hp0GwiLAEAWc5RwrSYDpPbvO6cNKhUj41Oo6OeBLKyiqOT4nkXtFlif5qKnJefLagJUoXOB1iYdZR3xarx0rT6eptb0alRafveuz9aUbwCs5cwrKZF7w9IgrWr6/tqw8S926YIGR2va5W9841+25XidjjSW4CYvFe/QgQO9V3MyhvPO0tN/w9OABJcs99r0Qd9Jg8PIA3RKSVa2RV3Tb4Ws09lH6nmbGSbvG9XMs9rczn1e1YsobU4kibkLyUqPq+ITTWLkwV5Yjzf+LIoKhOFbvAHad8P4VuI9DVCzc+KTH8k9tF/gUJVrejhwNMdOsuElKAoK5AQ596ts5eSzh92tjDO/fRjB0W3Zo/18mavMRXPiEq0BG3Qh18VKWQ/4W5zBSt2zQgyrD6LnU+T4nY0lA5Ak5chfooPVkeOQU6zrX0Pj1CZ0/reI1xVlnSNRA8ieR1RYERwbjgQbiTcbQ9FrPFd4uyZwJQddTC1yj2dbF/QM=
+
+%URL%
+https://www.kismetwireless.net/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1749721990
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+libpcap
+pcre2
+bluez-libs
+libcap
+protobuf-c
+libprotobuf-c.so=1-64
+sqlite
+libnm
+gcc-libs
+libusb
+libusb-1.0.so=0-64
+libnl
+glibc
+zlib
+libelf
+lm_sensors
+systemd
+python
+python-setuptools
+python-protobuf
+python-pyserial
+python-numpy
+python-websockets
+libwebsockets
+libcap-ng
+libpcap.so=1-64
+libprotobuf.so=31.1.0-64
+libnm.so=0-64
+libwebsockets.so=19-64
+libsensors.so=5-64
+
+%OPTDEPENDS%
+gpsd: log coordinates of detected networks
+wireshark-cli: provide OUI files used to determine device manufacturer
+wireshark-cli: mergecap, to merge multiple capture files
+sox: provide the default kismet sound playback binary
+festival: text-to-speech support
+flite: alternative/lightweight text-to-speech support
+
+%MAKEDEPENDS%
+python-setuptools
+
