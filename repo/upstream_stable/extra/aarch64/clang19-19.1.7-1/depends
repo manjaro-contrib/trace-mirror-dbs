@@ -1,0 +1,10 @@
+%DEPENDS%
+llvm19-libs
+gcc
+compiler-rt19
+
+%OPTDEPENDS%
+openmp: OpenMP support in clang with -fopenmp
+python: for scan-view and git-clang-format
+llvm19: referenced by some clang headers
+

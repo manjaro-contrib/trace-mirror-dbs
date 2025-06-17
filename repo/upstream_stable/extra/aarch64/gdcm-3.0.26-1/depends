@@ -1,0 +1,29 @@
+%DEPENDS%
+expat
+libexpat.so=1-64
+gcc-libs
+glibc
+json-c
+libjson-c.so=5-64
+libxml2
+libxml2.so=16-64
+openjpeg2
+openssl
+libcrypto.so=3-64
+util-linux-libs
+libuuid.so=1-64
+zlib
+libz.so=1-64
+
+%PROVIDES%
+libgdcmCommon.so=3.0-64
+libgdcmDICT.so=3.0-64
+libgdcmDSED.so=3.0-64
+libgdcmIOD.so=3.0-64
+libgdcmMEXD.so=3.0-64
+libgdcmMSFF.so=3.0-64
+
+%OPTDEPENDS%
+gdcm-docs: GDCM documentation
+python: Python bindings
+
