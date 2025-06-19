@@ -1,0 +1,76 @@
+%FILENAME%
+python-polars-1.30.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+python-polars
+
+%BASE%
+python-polars
+
+%VERSION%
+1.30.0-1
+
+%DESC%
+Blazingly fast DataFrames library using Apache Arrow Columnar Format as memory model
+
+%CSIZE%
+22286100
+
+%ISIZE%
+133949000
+
+%MD5SUM%
+7076868921dbdc7d934bcf30dd0035f6
+
+%SHA256SUM%
+0475ccd3e32dc9f9f530f0f1e0a743d3f628ff52c54daca17c7b5c7a67801529
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmg5lswACgkQdxk/FSvb5qZN5g//UD0Lxpdv8lzZMNnsvsZtgYd0Ttw1iwMtrr4c55KwLEpS5+t6o81VKn3gnrPwphm7eTxmol7qU5sBau278k0xz59TXE8C5NJ4pX/wghLWHc4nCt0ucZsZKnWdoREL6EsQVd1XQj38OO6S8Vn25IS505p9c5X/EW6jqnUnOyjLGqqnB1YIQAc5AyMT6iA9s0HJVjmLyz+STj3sA2gmtonSvrjYwZbUVHBZCvr+/ZYSIEW7R2f09We4yMjDJYRMh5CNf32FWTodQsaA1hqLIwva9w5jqBnFZWazsKZIEiWfoyn54tNvxNHUgwKIoM7iIOGw9lX5jeS7tBKdbTaDcRMGbN77biSzZBhuhtY9+aLfbvbFBgpWTaXKZbMIvTydmUYAXuMr3nfjQMGEshvAJikgN7pQX993DMDZESaTbJUpK2E/rohpr4YblMV16SzgKEKiOwEdSZrkhTMsGr0CobGzaK/nGysc5Kkoqsu0fN1+yVVLRVo++Nddgi6FUKD7V+5l4qUnaHSHjBHCUnNJZ4fKS4IfJ1kX6EduFoJbl+hCslAImF5hEo0EsgZy1TLBbIVZ5vjFoPNJp9NEPkT1ohYk67Mw/gTGI37knNetmLHlWWh45ctAWfXyI/AFU0sfOMbVUsOekfotGe4eUjpfbix3INy/W/DsxVOmqyZwwUOcs/A=
+
+%URL%
+https://www.pola.rs/
+
+%LICENSE%
+MIT
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1748602731
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-numpy
+
+%OPTDEPENDS%
+python-pandas: for interoperability with pandas frames
+python-pyarrow: for interoperability with arrow types
+python-pytz: to enable conversion to python datetimes with timezones
+python-fsspec: to transparently open files locally or remotely
+
+%MAKEDEPENDS%
+maturin
+rustup
+python-installer
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-xdist
+python-matplotlib
+python-hypothesis
+python-pandas
+python-pyarrow
+python-pydantic
+python-fsspec
+python-sqlalchemy
+python-zstandard
+python-cloudpickle
+python-aiosqlite
+python-boto3
+python-orjson
+

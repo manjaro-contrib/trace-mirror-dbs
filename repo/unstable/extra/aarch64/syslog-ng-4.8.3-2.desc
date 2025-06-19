@@ -1,0 +1,129 @@
+%FILENAME%
+syslog-ng-4.8.3-2-aarch64.pkg.tar.xz
+
+%NAME%
+syslog-ng
+
+%BASE%
+syslog-ng
+
+%VERSION%
+4.8.3-2
+
+%DESC%
+Next-generation syslogd with advanced networking and filtering capabilities
+
+%CSIZE%
+1723200
+
+%ISIZE%
+11564119
+
+%MD5SUM%
+aced21332273fca1f06e32d0fcb4077f
+
+%SHA256SUM%
+414490d1e228a6cdd5b10cef0c5607957a88cb80e41c3ecd1089d35a0cfd44e0
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmgzr9UACgkQdxk/FSvb5qYqkRAAhZLJRhNbxcjiYqculwd0ADuls89rYVkdTItoB+b8Ved50HWNA3RzbjVd9D6I2mH938gBLSAU1e/FjzZx4sFUm++tN8PUIe4egu7psol1UZFeiZ5xTnu6DLHLstTRCMsQoY0LaK4TqRWH9Nzy1z/fJOAJMC8aZtiyi0pNwrlTDxIwSxgx0SqfEWEWiOk1OfsnhCovYMU90MFtPyOJ5/mpfEre7CFBznB0vZI7HM9mF+AYK/SQMBX+dEDz924q8DM0w2iUv9L25r2HETZD5rCYM76SUt04TuzoPQs0eUD3PPH2qbJnq65WrvxI+eAVkqmD6reS8RCXT9T3tAPUYzMtJPPRY5B+VWd0Woz2L0ZT3KaT9kZ9XHWtyKY2QpEHHFOANYlM+tsfnL/6ROBHqZnkdqbceLr9iD35mUptjWusbl7Kat6etDTX/STIRv7WjVmTiwVoPhx6ytwLYp45kG65tVRFu+gS8E+HIEs6Mm/YiqgoD7W2wZnYBhBEq6yQMp89RyfZOcRqcPRqoH2a2w5NZ3ApfoGvBgPudh++8xRgx59P/ZDQZRTJFA/FX2ouW0Gb9GO+WjA5C6Yug4qfq0Jit0TCxieDm3hWWdXNckRJKwHm8g01w9IzkIDSM6bXwfGnuLgB0Gv00hnuNHIYxdCIfuoWjYlME/KcRnau0c+LAac=
+
+%URL%
+https://github.com/syslog-ng/syslog-ng
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.1-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1748217381
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%REPLACES%
+eventlog
+
+%CONFLICTS%
+eventlog
+
+%DEPENDS%
+abseil-cpp
+bash
+curl
+gawk
+gcc-libs
+glib2
+glibc
+grpc
+json-c
+libcap
+libnet
+openssl
+pcre2
+protobuf
+systemd-libs
+
+%OPTDEPENDS%
+hiredis: for the Redis plugin
+libdbi: for the SQL plugin
+libesmtp: for the SMTP plugin
+libmaxminddb: for the GeoIP2 plugin
+librabbitmq-c: for the AMQP plugin
+librdkafka: for the Kafka C plugin
+logrotate: for rotating log files
+mongo-c-driver: for the MongoDB plugin
+net-snmp: for the SNMP plugin
+python-boto3: for Python S3 module
+python-botocore: for Python S3 module
+python-kubernetes: for Python Kubernetes module
+python-ply: for debugger CLI
+python-requests: for Python hypr module
+python: for Python-based plugins
+
+%MAKEDEPENDS%
+autoconf-archive
+docbook-xsl
+git
+gperf
+hiredis
+libdbi
+libesmtp
+libmaxminddb
+librabbitmq-c
+librdkafka
+libxslt
+mongo-c-driver
+net-snmp
+python
+python-boto3
+python-botocore
+python-cachetools
+python-certifi
+python-charset-normalizer
+python-dateutil
+python-google-auth
+python-idna
+python-kubernetes
+python-oauthlib
+python-ply
+python-pyasn1
+python-pyasn1-modules
+python-pyyaml
+python-requests
+python-requests-oauthlib
+python-rsa
+python-setuptools
+python-six
+python-urllib3
+python-websocket-client
+systemd
+
+%CHECKDEPENDS%
+criterion
+python-pytest
+python-pytest-mock
+

@@ -1,0 +1,73 @@
+%FILENAME%
+gpsd-3.26-1-x86_64.pkg.tar.zst
+
+%NAME%
+gpsd
+
+%BASE%
+gpsd
+
+%VERSION%
+3.26-1
+
+%DESC%
+GPS daemon and library to support USB/serial GPS devices
+
+%CSIZE%
+1173275
+
+%ISIZE%
+5429400
+
+%MD5SUM%
+00f8cc567bb5099523953ef53cd82ef2
+
+%SHA256SUM%
+9d67286155c877b84d6d9df3a76606ac4f40530252bf0d548855a80fa88af910
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmgkwjEACgkQek52CV2KUuSS2wf+Myh3OduSTFz1F6dAw7IiSNzy7ng9cGQryz3cnIjBP7vOKO+gZwM1Cta/MP4kexPKcrrArVDBdGaaCrSXisosRxoALNQLmgWI4Itz02nZEsna3vkm4LQuYw2iMyJpE0JKaCpKiQAcUojXdaanQbN9AADczszEowUjpAaY5/z6aUU2dGXJ8Hyc205VTaB9jq6SNiipFbCiKD9z23zfhcAF5SQp1YaCABaYZ+W9dWiw18AVX067zck8P5N5pZV866+khS2Eqje+T6LPmEW0nH1fQxQbyK/BzW1RAeJSXGWyRmXC3BgcEnYlQ2tqDIzOrY4ANkDJBbHRPqOAA12LPejERw==
+
+%URL%
+http://catb.org/gpsd/
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1747239252
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+dbus
+gcc-libs
+glibc
+python
+libusb
+bluez-libs
+pps-tools
+
+%OPTDEPENDS%
+gtk3: GUI frontends
+php: generate a PHP status page for your GPS
+php-gd: image support for the PHP status page
+python-cairo: GUI frontends
+python-gobject: GUI frontends
+python-pyserial: GUI frontends
+qt5-base: for Qgpsmm
+
+%MAKEDEPENDS%
+scons
+docbook-xsl
+qt5-base
+python-gobject
+python-cairo
+python-pyserial
+gtk3
+python-setuptools
+

@@ -1,0 +1,59 @@
+%FILENAME%
+ruby-build-20250507-2-any.pkg.tar.zst
+
+%NAME%
+ruby-build
+
+%BASE%
+ruby-build
+
+%VERSION%
+20250507-2
+
+%DESC%
+A tool to download, compile, and install Ruby on Unix-like systems
+
+%CSIZE%
+92869
+
+%ISIZE%
+324611
+
+%MD5SUM%
+1037c6a14b150644ac01d927b5979676
+
+%SHA256SUM%
+11a80abdf09602ff535d806fcc54b71cb20e9749ffc98d29a994df61fb39bcba
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaBztKAAKCRDwXowSExrrXk07AP9yPO6X7Oc86Zt6NYG17u3uyseshQhBRT4xVigawQxDTwD/VW57kbJnPozRxc9d2OXHhPNY4dLv6VBjewm66koxxQ8=
+
+%URL%
+https://github.com/rbenv/ruby-build
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1746726073
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+bash
+
+%OPTDEPENDS%
+git: install ruby from git
+libyaml: install recent versions of mri
+rust: install ruby with YJIT enabled
+
+%MAKEDEPENDS%
+git
+
+%CHECKDEPENDS%
+bats
+
