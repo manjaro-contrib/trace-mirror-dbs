@@ -1,0 +1,112 @@
+%FILENAME%
+libvirt-1:11.4.0-1-aarch64.pkg.tar.xz
+
+%NAME%
+libvirt
+
+%BASE%
+libvirt
+
+%VERSION%
+1:11.4.0-1
+
+%DESC%
+API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)
+
+%CSIZE%
+8227424
+
+%ISIZE%
+56470985
+
+%MD5SUM%
+48b33dec12934f105e79387f0f2044d1
+
+%SHA256SUM%
+2b16ce6a5a46132f3068aba7cf19a6f44d52d5b267c05beab86dd0239ccfd9e6
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmhBjq4ACgkQdxk/FSvb5qb7DQ//eLYjhXMeTz2W4cZ48bMmHkOkBRuTg58f1le7iA834WySISYwy5NFpaG8e3Oa1Ix+HnWdxFzwMzEoH3gSGeiOLQokGWJppEzhySCnHD9sYT7vt1v3qxxOdSrj44eV/VscxkqpW1KkH4xc6oKxTaQjKnRJrkVwbQa2g7MtT8yLot19lcRwMxLYnFImhgrQWoUz/xqmNz6wahGy1bFlLO/hvGEUY+9ZJXzVzYyqGPtGeWTkb1bgYHZj1uTDfPcRIB9a/hkl0brXJg0t6RA4MrWjllnzIrdjZmn6OmSNVNqaiLXQW83d6kIKOHanWALFv6l5EwZYD7Gb2mNPgM3745ogRndsOeOyEmUSxbUQgpHE0hBoSvYg53YTqgk4sTPKWqLkHRwGq5/qd97MLAnYWvf8kjLa2VG9gqOZr+43Hi4c6janDY6Sidmzxix1QFGWIIWyR0SQpMdwdukELK+XAt5gVgpGyjp51YtkdYwgmAwRZz2H5ZNXyEt2HvOKn8NlTXmxkPkT9pg/+kBcnlrH4TetIo7ig5YN7dhhHDdFQypmACF4c2t3ns6O5xt2+z3OHX+/0Er6sYaWV/E9AkNtG6Lsfg6l+5/RfEBTBA8sRBRYTLmT/H6wGeCQO7sKPQAFC6Fw6d0hkaVT3wNbB+2gM1PMhfR+VlTCxq7ApGQ5wtemIT0=
+
+%URL%
+https://libvirt.org/
+
+%LICENSE%
+LGPL-2.1-or-later
+GPL-3.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1749126487
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%PROVIDES%
+libvirt=11.4.0
+libvirt.so=0-64
+libvirt-admin.so=0-64
+libvirt-lxc.so=0-64
+libvirt-qemu.so=0-64
+
+%DEPENDS%
+acl
+audit
+bash
+curl
+device-mapper
+fuse3
+gcc-libs
+glib2
+glibc
+gnutls
+json-c
+libcap-ng
+libnbd
+libnl
+libpcap
+libpciaccess
+libsasl
+libssh
+libssh2
+libtirpc
+libxml2
+numactl
+parted
+polkit
+readline
+systemd-libs
+util-linux-libs
+
+%OPTDEPENDS%
+dmidecode: DMI system info support
+dnsmasq: required for default NAT/DHCP for guests
+gettext: required for libvirt-guests.service
+iptables-nft: required for default NAT networking
+libvirt-python: for virt-qemu-qmp-proxy and virt-qemu-sev-validate commands
+libvirt-storage-gluster: Gluster storage backend
+libvirt-storage-iscsi-direct: iSCSI-direct storage backend
+lvm2: Logical Volume Manager support
+openbsd-netcat: for remote management over ssh
+open-iscsi: iSCSI support via iscsiadm
+python-cryptography: for virt-qemu-sev-validate command
+python-lxml: for virt-qemu-sev-validate command
+radvd: IPv6 RAD support
+swtpm: TPM emulator support
+
+%MAKEDEPENDS%
+bash-completion
+dnsmasq
+git
+glusterfs
+iproute2
+libiscsi
+libxslt
+lvm2
+meson
+open-iscsi
+python-docutils
+systemd
+
