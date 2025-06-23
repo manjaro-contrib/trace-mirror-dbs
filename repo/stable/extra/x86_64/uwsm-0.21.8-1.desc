@@ -1,0 +1,65 @@
+%FILENAME%
+uwsm-0.21.8-1-any.pkg.tar.zst
+
+%NAME%
+uwsm
+
+%BASE%
+uwsm
+
+%VERSION%
+0.21.8-1
+
+%DESC%
+A standalone Wayland session manager
+
+%CSIZE%
+77523
+
+%ISIZE%
+298622
+
+%MD5SUM%
+687dd2ee2d1f62691ee6d52738463558
+
+%SHA256SUM%
+9914d7e1976744adeb616d79a9e094e697b5617340f075e5a28f95edd6a006a1
+
+%PGPSIG%
+iQIzBAABCgAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmhD7vEACgkQqF6BHrTKLggdFBAAg7RdqgvlIroEcsyQTZITOkdcS48uHtXE83KEzV1k3sS7dOnAr0Fqqsnh6JSFEwhEkpgPw4FjGQnRbqUg0cU4nfJrNADdDTcdU33dsZavHSt0m7SRX9HKYMaI423golR9dj7FpM+/HjfHOfL1T2e4VLUaknRpPFqd3SISEZ4100DzhGRGa9UJbmQRONQGnLwn5NmDNE04qbaF/ERwwYlbTS7LB6oxQ/bTl1ZSAtLRkAgG/emKuRDbHdL8EET+XYAil78SoT4rIPsavPxFyk1mpZhAUYwDKWSSorOy+B2eMwrhl6tS+SmMxYcblzsYhYt7BqnjELefR5IoXYA9kqgzY2mV48PyTTppOKIKNg6AD42wVRlngjopC39tmyrgsHarpJjGlsoBJo1/au5PkVRlOcx6kZewURiwKHdKotKs3EbWga46uMwps68GO0xDXYcmFNI94gczr6kXO/zDniIVDpjZT2uERBbx11HhSaUEgIRtWjWBHepSwstCDjw8k0tMMgmPzg3/1w6uHaFfgm1EvQBx9AGNfyNHS6nAbgi3+FegWKV/g+ZkNOz6BqK+OqVYhpZW9Spjzs3ytSwsGpHcrNrQACUvpSOOVI9bRG6/oKxEg6Ldox4MvYXitRJFCQr5OE/sZ0+YsV43nDSBxhDvwvOVK5graDLDo1DN7mVtUBQ=
+
+%URL%
+https://github.com/Vladimir-csp/uwsm
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1749282088
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%DEPENDS%
+bash
+python
+python-pyxdg
+python-dbus
+
+%OPTDEPENDS%
+bemenu: optional picker for uuctl support
+dmenu: optional picker for uuctl support
+fuzzel: optional picker for uuctl support
+libnewt: for "uwsm start select"
+libnotify: for feeback from "uswm app" commands or fmon service
+rofi-wayland: optional picker for uuctl support
+wmenu: optional picker for uuctl support
+wofi: optional picker for uuctl support
+
+%MAKEDEPENDS%
+meson
+scdoc
+

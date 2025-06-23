@@ -1,0 +1,76 @@
+%FILENAME%
+translate-toolkit-3.15.5-1-any.pkg.tar.zst
+
+%NAME%
+translate-toolkit
+
+%BASE%
+translate-toolkit
+
+%VERSION%
+3.15.5-1
+
+%DESC%
+A toolkit to convert between various different translation formats, help process and validate localisations
+
+%CSIZE%
+1056411
+
+%ISIZE%
+6453425
+
+%MD5SUM%
+1a5cc1b5cab7c01cee7f8dfd530d3c61
+
+%SHA256SUM%
+2bba6bc818fff950e94c4e0b03512ff6ca58859a239e27325e79e9caeeecb9f4
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaFBrEwAKCRDwXowSExrrXhzOAQDCIyDXEVzSeVFRhnDR1uL3WVqMZq6mSCGb0z/uQu0d9AEAo4wO0BVtkSv6/i24s8nGR0sdDWnBM4Rx/oJKC6459go=
+
+%URL%
+https://toolkit.translatehouse.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1750100702
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+bash
+python
+python-cwcwidth
+python-lxml
+python-ruamel-yaml
+
+%OPTDEPENDS%
+gaupol: for po2sub
+python-chardet: encoding detector
+python-cheroot: for TM Server
+python-levenshtein: faster matching
+python-mistletoe: Markdown support for po2md
+python-pyenchant: for spellcheck filter
+python-pyparsing: RC support for po2rc
+python-vobject: iCalendar files support for po2ical
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-cheroot
+python-mistletoe
+python-mistletoe
+python-pyparsing
+python-pytest
+python-vobject
+

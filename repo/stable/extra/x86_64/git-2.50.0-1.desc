@@ -1,0 +1,84 @@
+%FILENAME%
+git-2.50.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+git
+
+%BASE%
+git
+
+%VERSION%
+2.50.0-1
+
+%DESC%
+the fast distributed version control system
+
+%CSIZE%
+7044636
+
+%ISIZE%
+30823030
+
+%MD5SUM%
+ac14c093760fa1513fa871e6a309c9e4
+
+%SHA256SUM%
+079d7446a77d2fec2064978007cd6d0b988ab3f1ec6179856aefc76008720ff4
+
+%PGPSIG%
+iQIzBAABCgAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmhQZkIACgkQk7EdqkwZfj2P0hAA1uWPgN+7IzQsXjit1kEBqtdMBjZg8qZY2Cb83SWiaDu1c89sNjyPuWUlNdDbwGNXu8+B0JF8qPewf5LMQZsVdQx6pgVjFdkijaN/LWwVGpjMMyfsDf7vJ1l2wbn4ArwtprdBAMJtApyiG4SgcUa2mP0YD7gsyst9iNj2ds2/uUpK/qY6gLsQZlf6BShdsF/e92Rce4+nFsFtqAkEXnIMRgaYox2ljbohCLvth5x/qLnJLg3LU7JVSLjYt1DZTBScdBZgSCollE70Gq2OdYZ2Spu5sneOOPbfyIDCSDaURImv3mlJbMdtNJ+/0mTbgyY2eVX+/nFycsPnbzBzjwWZ3JS2GQg6q6Vbn32AaDIHN3Ta3yxROIheYJ6vHpHFYR3ZROPQRicMW3ncw7GiQ7q64lhywf3XXj38TDGyab2+472an4p4t8rsN/6W7efmG9an+iTo9OLUpjlFprdTnkvjGg+g0tpLvL1rxxKudNVyT2zv98+23fJWqlV//B6VzccmwGZD+SZEey3bNKSO+UantyXRC0v63OuZkdAi6zQ/NPyWevDmWKDcFO18KymgBNiurCY8j34z3AypYuGi2P3tOt9QLOUlLuofdnG6J3CE6OoYA4NpuUoFVddu34eXgoHhKZjorUYZ37L4TGf06uzYePys2G/BDLZ6UtcXsEVMXhc=
+
+%URL%
+https://git-scm.com/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1750099317
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+curl
+expat
+perl
+perl-error
+perl-mailtools
+openssl
+pcre2
+grep
+shadow
+zlib-ng
+
+%OPTDEPENDS%
+git-zsh-completion: upstream zsh completion
+tk: gitk and git gui
+openssh: ssh transport and crypto
+man: show help with `git command --help`
+perl-libwww: git svn
+perl-term-readkey: git svn and interactive.singlekey setting
+perl-io-socket-ssl: git send-email TLS support
+perl-authen-sasl: git send-email TLS support
+perl-mediawiki-api: git mediawiki support
+perl-datetime-format-iso8601: git mediawiki support
+perl-lwp-protocol-https: git mediawiki https support
+perl-cgi: gitweb (web interface) support
+python: git svn & git p4
+subversion: git svn
+org.freedesktop.secrets: keyring credential helper
+libsecret: libsecret credential helper
+
+%MAKEDEPENDS%
+python
+xmlto
+asciidoc
+git
+
+%CHECKDEPENDS%
+openssh
+
