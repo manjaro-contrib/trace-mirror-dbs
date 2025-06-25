@@ -1,0 +1,68 @@
+%FILENAME%
+knot-resolver-5.7.5-1-x86_64.pkg.tar.zst
+
+%NAME%
+knot-resolver
+
+%BASE%
+knot-resolver
+
+%VERSION%
+5.7.5-1
+
+%DESC%
+Caching DNSSEC-validating DNS resolver
+
+%CSIZE%
+634097
+
+%ISIZE%
+2204735
+
+%MD5SUM%
+08995d503de25d36a24b28988df63675
+
+%SHA256SUM%
+6bb9175c2b5414011a27295fe22d7e58d179e7fcacbfa018f9378ed4de34ea18
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCaBOS8gAKCRDylr3lA2jGzmYcAP4w5rM+w+tPQdPsyFzksjXT5CQzB2C40sJqcMW5W4j3tAD/Y8A9t+Roccaz00Spo85gHyirkMN3CgCirrRipv7KXg4=
+
+%URL%
+https://www.knot-resolver.cz/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1746113222
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%DEPENDS%
+dnssec-anchors
+gnutls
+knot
+libedit
+libuv
+lmdb
+luajit
+libcap-ng
+libnghttp2
+systemd-libs
+
+%OPTDEPENDS%
+lua51-basexx: experimental_dot_auth module
+lua51-cqueues: http and dns64 module, policy.rpz() function
+lua51-http: http and prefill modules, trust_anchors bootstrap
+lua51-psl: policy.slice_randomize_psl() function
+
+%MAKEDEPENDS%
+cmocka
+git
+meson
+
