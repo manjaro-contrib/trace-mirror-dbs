@@ -1,5 +1,5 @@
 %FILENAME%
-cryptsetup-2.7.5-2-x86_64.pkg.tar.zst
+cryptsetup-2.8.0-1-x86_64.pkg.tar.zst
 
 %NAME%
 cryptsetup
@@ -8,22 +8,22 @@ cryptsetup
 cryptsetup
 
 %VERSION%
-2.7.5-2
+2.8.0-1
 
 %DESC%
 Userspace setup tool for transparent encryption of block devices using dm-crypt
 
 %CSIZE%
-772994
+819005
 
 %ISIZE%
-3069146
+3401270
 
 %SHA256SUM%
-fc1191f26eb0bddcd1464dd350d6e629eaea050c1fc67e8f4078d29ed73da7b1
+647c05a7329d7bcf3cc2ece274ff0267685b81b03f2d3a8cf9e63ef0c024b754
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCZ4TabgAKCRBtQr3RFuAGj/NwAP4/+ZlMDN+DHzaom0ILy1i+WBQxbPuEg1fh7JvMljAKiwD8C8GuFDlht5z3Gat2eXWtHEk7BirUUBMelN4jrbDujwY=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaFqAdwAKCRBtQr3RFuAGj9kSAP0UhP0x2WOulnW1AfRrTlV9UMhaRgdxCmViipvQQL9CqgD9G2ktDCdS8+sSixJTLWlh7IsgWUdy37RH2Kv/GbpghAM=
 
 %URL%
 https://gitlab.com/cryptsetup/cryptsetup/
@@ -35,7 +35,7 @@ GPL-2.0-or-later
 x86_64
 
 %BUILDDATE%
-1736759735
+1750761460
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
@@ -62,4 +62,9 @@ libjson-c.so=5-64
 %MAKEDEPENDS%
 util-linux
 asciidoctor
+
+%CHECKDEPENDS%
+jq
+procps-ng
+xxd
 
