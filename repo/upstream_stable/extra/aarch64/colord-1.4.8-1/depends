@@ -1,0 +1,22 @@
+%DEPENDS%
+dbus
+dconf
+gcc-libs
+glib2
+glibc
+lcms2
+libgudev
+libgusb
+polkit
+shared-mime-info
+sqlite
+systemd-libs
+libcolord=1.4.8-1
+
+%PROVIDES%
+libcolorhug.so=2-64
+
+%OPTDEPENDS%
+argyllcms: color profiling
+colord-sane: SANE support
+
