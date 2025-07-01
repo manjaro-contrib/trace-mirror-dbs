@@ -1,0 +1,107 @@
+%FILENAME%
+opencv-cuda-4.11.0-14-x86_64.pkg.tar.zst
+
+%NAME%
+opencv-cuda
+
+%BASE%
+opencv
+
+%VERSION%
+4.11.0-14
+
+%DESC%
+Open Source Computer Vision Library (with CUDA support)
+
+%CSIZE%
+127999199
+
+%ISIZE%
+3383016937
+
+%SHA256SUM%
+9243f9330a258ce52e54ad0072e444edb5aa306f38a5728b59aa017e3907d50a
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaFzjPQAKCRAAHPSBC+jZEYI7AQDMum43SRYAOZbqnBmLJ9CUFTTp0myfgg5qfypM7Ui2sAEA9xAA3a9vhuX1coOqrgYGloIKwtELfypcspOOkf3h7w0=
+
+%URL%
+https://opencv.org/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1750916197
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%CONFLICTS%
+opencv
+
+%PROVIDES%
+opencv=4.11.0
+
+%DEPENDS%
+abseil-cpp
+cblas
+ffmpeg
+freetype2
+gcc-libs
+glib2
+glibc
+gst-plugins-base
+gst-plugins-base-libs
+gstreamer
+harfbuzz
+lapack
+libdc1394
+libglvnd
+libjpeg-turbo
+libjxl
+libpng
+libtiff
+libwebp
+openexr
+openjpeg2
+verdict
+protobuf
+tbb
+zlib
+cudnn
+
+%OPTDEPENDS%
+opencv-samples: samples
+vtk: for the viz module
+glew: for the viz module
+qt6-base: for the HighGUI module
+hdf5: for the HDF5 module
+opencl-icd-loader: For coding with OpenCL
+java-runtime: Java interface
+
+%MAKEDEPENDS%
+ant
+cmake
+cuda
+cudnn
+eigen
+fmt
+gcc14
+git
+glew
+hdf5
+java-environment
+lapacke
+mesa
+nlohmann-json
+openmpi
+pugixml
+python-numpy
+python-setuptools
+qt6-5compat
+vtk
+
