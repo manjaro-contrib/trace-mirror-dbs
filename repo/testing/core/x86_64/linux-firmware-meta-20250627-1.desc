@@ -1,0 +1,80 @@
+%FILENAME%
+linux-firmware-meta-20250627-1-any.pkg.tar.zst
+
+%NAME%
+linux-firmware-meta
+
+%BASE%
+linux-firmware
+
+%VERSION%
+20250627-1
+
+%DESC%
+Firmware files for Linux - Default set (Meta Package)
+
+%CSIZE%
+2610
+
+%ISIZE%
+0
+
+%MD5SUM%
+c03c1a8cfeb2a4e932e201aa3429d960
+
+%SHA256SUM%
+e133d0ed2af03481cb88f11cb0d684d4115039c3ba67901ca77ad29c35764e44
+
+%PGPSIG%
+iQEzBAABCgAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmhfRAwACgkQFQwgB0PtRthUvwgAwJmLIPTJkkg7q/CGg6hXnTs8b59dP69sGdx75c55Awy7jKOpB0qQI6DIhveP/VCvH//6YDVap3/xbbZoOY0rMP2oJGVOI2QVg40OwV6rmLSfJe7JLD+ZLTwgP4Qjofg0nk11rGF/7NnAgwU22zVYZtrV+PEmL4CQ5cklHTKcHRIjBU9GOK2L3lkQWjIy0hpVvubSiXa93avDrdUrzAKWoEf6NWNiTAKsa3EvGcUqFi5aR44Z4ZvV0FfB7z/y/Sbhd+UMBxzO/y9Rv57a0yQftXscd0k17l8msPoSg5C2T3iOPvGdooy7w7Kzbc7uh4J9v4tyKSmXeB5hhc9ZSDFmLQ==
+
+%URL%
+https://gitlab.com/kernel-firmware/linux-firmware
+
+%LICENSE%
+CC0-1.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1751073617
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%REPLACES%
+linux-firmware
+
+%CONFLICTS%
+linux-firmware
+
+%PROVIDES%
+linux-firmware=20250627-1
+
+%DEPENDS%
+linux-firmware-amdgpu
+linux-firmware-atheros
+linux-firmware-broadcom
+linux-firmware-cirrus
+linux-firmware-intel
+linux-firmware-mediatek
+linux-firmware-nvidia
+linux-firmware-other
+linux-firmware-radeon
+linux-firmware-realtek
+
+%OPTDEPENDS%
+linux-firmware-liquidio: Firmware for Cavium LiquidIO server adapters
+linux-firmware-marvell: Firmware for Marvell devices
+linux-firmware-mellanox: Firmware for Mellanox Spectrum switches
+linux-firmware-nfp: Firmware for Netronome Flow Processors
+linux-firmware-qcom: Firmware for Qualcomm SoCs
+linux-firmware-qlogic: Firmware for QLogic devices
+
+%MAKEDEPENDS%
+git
+parallel
+python
+rdfind
+
