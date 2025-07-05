@@ -1,0 +1,79 @@
+%FILENAME%
+python-pillow-11.3.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-pillow
+
+%BASE%
+python-pillow
+
+%VERSION%
+11.3.0-1
+
+%DESC%
+Python Imaging Library (PIL) fork
+
+%CSIZE%
+910605
+
+%ISIZE%
+4545252
+
+%MD5SUM%
+2795bbcb7b059f03987b6dc5782fae42
+
+%SHA256SUM%
+ffa36cabdbf7e7ac28acf54ed89ba669c2f512bbe50e07e46e9d882c460fa25b
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaGRaQAAKCRDglZ/qi1UFOUELAQD0Jr4WTsSD9sWQnzklTRLhRlF/QzB88+YWNO5ti6vTEwD/WaXWZWbi0Q79yIj0vqFbrwSYtjU3YgSQaccaH2woxQg=
+
+%URL%
+https://pillow.readthedocs.io
+
+%LICENSE%
+MIT-CMU
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1751407097
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+python-packaging
+freetype2
+lcms2
+libraqm
+libtiff
+openjpeg2
+libjpeg-turbo
+libimagequant
+libxcb
+zlib
+
+%OPTDEPENDS%
+libwebp: for webp images
+tk: for the ImageTK module
+python-olefile: OLE2 file support
+python-pyqt6: for the ImageQt module
+python-defusedxml: for reading XMP tags
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-wheel
+python-setuptools
+libwebp
+tk
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-timeout
+
