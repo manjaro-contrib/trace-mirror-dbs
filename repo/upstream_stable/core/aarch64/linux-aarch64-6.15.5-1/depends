@@ -1,0 +1,17 @@
+%DEPENDS%
+coreutils
+kmod
+mkinitcpio>=0.7
+
+%CONFLICTS%
+linux
+
+%PROVIDES%
+linux=6.15.5
+KSMBD-MODULE
+WIREGUARD-MODULE
+
+%OPTDEPENDS%
+linux-firmware: firmware images needed for some devices
+wireless-regdb: to set the correct wireless channels of your country
+
