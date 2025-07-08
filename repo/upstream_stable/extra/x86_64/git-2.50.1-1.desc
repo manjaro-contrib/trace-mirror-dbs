@@ -1,0 +1,81 @@
+%FILENAME%
+git-2.50.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+git
+
+%BASE%
+git
+
+%VERSION%
+2.50.1-1
+
+%DESC%
+the fast distributed version control system
+
+%CSIZE%
+7032501
+
+%ISIZE%
+30827129
+
+%SHA256SUM%
+b4d995aeec19be79446cc739007cef8918d92ccff0dc234c01325226ed3d1529
+
+%PGPSIG%
+iQIzBAABCgAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmhtT7sACgkQk7EdqkwZfj1Heg/7Bfrp1AnoWVZ5x2DtUAnzyv+BgdEjMjSWFhZlmQ1v1N2+FUZ0TFS9ICH5qDQGNZqDUNAZEVBOEKtmLztzDgg40pcSxP31qH0ZTtXABEUXmrmjLxkaywFKLw6wSUNH1XJuNvq7ecA3TJ1OtjMITPQYzXo6Kd7O1dF/3rvKXMRnZ+AXQtZL1Tv9KU03yuLpfi0oRf+86TmhPED8z+8/EPdpudiHwasedn7VPOQQG9ipKPUJ+JaXJgvFsBVwiCr9pYxnF/kQsTVPCMym8A5IVjyOFQ+HrXZHvY+kNdq+9F+/oZdBAXm4aaev5vWd8giDvR9YXoyD+ZODrolgaFdtUALuWc6VrZXNtzrdy7PONY0xK4VRiX1GLQpgo1OkRSIdLYiQErKN9S/nHdyPBpkrVmVXPL0e0W623crNStdTYLBvbaWk2kkTMwjXjkQbNE1GPtKmgWUiHT/u+IoTraCszLZVUrqi87HSuEmCG6GAxD6vCxV7jftWhM1x8dlPZfeAht4aWL018v9llAnNRzKJMPEtWlvjx6VI5R+njpoOJRwgU3Ik0Oz8KTAIRRqpV60Pi4TlWBgm/q9B3NBy+C8GQNSwyuOeDEfLBB7/TDbY0KL5fkbLgReDBRsIhcKvQcCwrPb7Ue8y7BJRXIGXCts+E7omlyZ/y4KtsLZ/Ki/cgEjHPE4=
+
+%URL%
+https://git-scm.com/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1751994146
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+curl
+expat
+perl
+perl-error
+perl-mailtools
+openssl
+pcre2
+grep
+shadow
+zlib-ng
+
+%OPTDEPENDS%
+git-zsh-completion: upstream zsh completion
+tk: gitk and git gui
+openssh: ssh transport and crypto
+man: show help with `git command --help`
+perl-libwww: git svn
+perl-term-readkey: git svn and interactive.singlekey setting
+perl-io-socket-ssl: git send-email TLS support
+perl-authen-sasl: git send-email TLS support
+perl-mediawiki-api: git mediawiki support
+perl-datetime-format-iso8601: git mediawiki support
+perl-lwp-protocol-https: git mediawiki https support
+perl-cgi: gitweb (web interface) support
+python: git svn & git p4
+subversion: git svn
+org.freedesktop.secrets: keyring credential helper
+libsecret: libsecret credential helper
+
+%MAKEDEPENDS%
+python
+xmlto
+asciidoc
+git
+
+%CHECKDEPENDS%
+openssh
+
