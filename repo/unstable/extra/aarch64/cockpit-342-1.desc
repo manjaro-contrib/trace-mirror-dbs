@@ -1,0 +1,96 @@
+%FILENAME%
+cockpit-342-1-aarch64.pkg.tar.xz
+
+%NAME%
+cockpit
+
+%BASE%
+cockpit
+
+%VERSION%
+342-1
+
+%DESC%
+A systemd web based user interface for Linux servers
+
+%CSIZE%
+6251508
+
+%ISIZE%
+8784331
+
+%MD5SUM%
+10351ea54b9ef17d79a77a91ab2a73e5
+
+%SHA256SUM%
+1dc4f2edb43e298c7bb6025e5d0c379e6798b8fc62366eb0d60ad68724afa841
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmhu0EYACgkQdxk/FSvb5qZGcg//esgTcWGsjCt7IQKcpcqMfEHoG6MDwQEISEP9dsox4rSjgLivwSp01XFbCF3oRtOsrGFQJXNxxLZXk80pm6I1YoOqGAnLoHr7Okg+7SQGJtNwdE3DHgBWuXt6VspayJ6VKALiuu0nswy5R/s1d+zM/jCfjVW4RoSC9Xjuzc/YIUt1MyMrGhoJt0Pdf0onMQxARvMqYtXx7ilUBRSkBwPFIr44452zM8QYKjlrXx5i3R1Ci5woIdvByVBvfzafQ40XQqSSE1ZKtb9XHQtTq1LwqhTulxR9TS9RvhWUkpONKdFJDlP1k+WGBE4jBuHv50WJhykyOGR6jqGntmLhdNt0rCfspyykqGIIo8FP7D5xGc5iqIVH9SsK9hq6N/YV7s9JT1wJDijqEACSTHAVTOVC+UrtIKGjEyw+mKpNW2R1XmSOvum7kcBk1E7dIPBql8LVUX9DoUNHsDllUNyiiju0yS93aw6Ga3MZD/xm5ssh3pyPil7z+ofsP/2ZtesZkJE/ZnZF/H346R0vAuFGS6yrAVz1A69fospjpd0STo54Cwxz3iGqDCa8SquLQiiPHmTFXEajARQ8QvvFbhbVDhjJlYhnfUQrcLReY+ChGPfxPPUO2CsWZRFCfWt8SVXkqkFkhhoKXf+vu1o1U44Si880vdHgPY/uhazyI0C0Xas8SuQ=
+
+%URL%
+https://cockpit-project.org/
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1752092669
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%REPLACES%
+cockpit-pcp
+
+%PROVIDES%
+cockpit-pcp
+
+%DEPENDS%
+krb5
+libssh
+json-glib
+glib-networking
+libpwquality
+systemd
+openssl
+kexec-tools
+python
+gobject-introspection-runtime
+
+%OPTDEPENDS%
+cockpit-storaged: manage storage
+cockpit-packagekit: manage packaged
+cockpit-podman: user interface for managing podman containers
+cockpit-machines: user interface for managing virtual machines
+pcp: reading performance metrics
+polkit: elevate privileges
+sudo: elevate privileges
+networkmanager: manage network connections
+sssd: authentication
+sscg: generate self-signed certificate
+
+%MAKEDEPENDS%
+krb5
+libssh
+json-glib
+glib-networking
+glib2-devel
+systemd
+git
+intltool
+gtk-doc
+gobject-introspection
+networkmanager
+xmlto
+npm
+pcp
+gendesk
+python-installer
+python-wheel
+python-build
+python-pip
+
