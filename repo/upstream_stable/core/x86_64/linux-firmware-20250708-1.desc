@@ -1,0 +1,68 @@
+%FILENAME%
+linux-firmware-20250708-1-any.pkg.tar.zst
+
+%NAME%
+linux-firmware
+
+%BASE%
+linux-firmware
+
+%VERSION%
+20250708-1
+
+%DESC%
+Firmware files for Linux - Default set
+
+%CSIZE%
+2432
+
+%ISIZE%
+0
+
+%SHA256SUM%
+eec5361b315de39cf8c299a45b1be06ede6d0cc070d5950a3326eab6812633ce
+
+%PGPSIG%
+iQEzBAABCgAdFiEEW34/txt/EDKaHAOrdx32Yn7faB8FAmht/e0ACgkQdx32Yn7faB/cGAf8D4sHQexUgi708JOsApvK2rcmL+Qxq+tcNc29eLlMph8xk2Tw+EcNQ372hKPrEJT9IGEB5aNzq1s+HmSMaYFxp3JFb5ap/C8N8YF699g9syL6mze2zJHJFPxmvYiw+O7j7QyecFBqLDgihbpJfnw5SArsqX4t4UFp7LRqlMsecU7f5zACHtUeKp3HOLOiRkvw1Ll0SEAJumddTjL6CpvLXO9b/h4MOmm493fWy8h3H/BUGaQMkIjAnkgjikQZwGiDLfy48EfVyFC/X0fqjD/vvLfItK00zI8N6OMwj4dXyUEEmAVDz2ODopEJ9f+y+j8XH1Nv9CWiFvOe+nXCqTLMJA==
+
+%URL%
+https://gitlab.com/kernel-firmware/linux-firmware
+
+%LICENSE%
+CC0-1.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1752038650
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%DEPENDS%
+linux-firmware-amdgpu
+linux-firmware-atheros
+linux-firmware-broadcom
+linux-firmware-cirrus
+linux-firmware-intel
+linux-firmware-mediatek
+linux-firmware-nvidia
+linux-firmware-other
+linux-firmware-radeon
+linux-firmware-realtek
+
+%OPTDEPENDS%
+linux-firmware-liquidio: Firmware for Cavium LiquidIO server adapters
+linux-firmware-marvell: Firmware for Marvell devices
+linux-firmware-mellanox: Firmware for Mellanox Spectrum switches
+linux-firmware-nfp: Firmware for Netronome Flow Processors
+linux-firmware-qcom: Firmware for Qualcomm SoCs
+linux-firmware-qlogic: Firmware for QLogic devices
+
+%MAKEDEPENDS%
+git
+parallel
+python
+rdfind
+
