@@ -1,0 +1,72 @@
+%FILENAME%
+python-httpcore-1.0.2-2-any.pkg.tar.xz
+
+%NAME%
+python-httpcore
+
+%BASE%
+python-httpcore
+
+%VERSION%
+1.0.2-2
+
+%DESC%
+A minimal HTTP client
+
+%CSIZE%
+112300
+
+%ISIZE%
+1003199
+
+%MD5SUM%
+ab340d09979f666613e53e9541471f52
+
+%SHA256SUM%
+515ef35e7630b1b653959e95b74636089fc0998da385dd3ac1565bcdf4b259b2
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmWFunwACgkQdxk/FSvb5qa39Q//V5cE6wAz+JH14Cl9i/hQzT3cSk/dOxDvhOcmM0Teq6y2/ANwxWY8lC7G0+pKKAD5gZpH0WitrsmtO1OTDtFNFdZPSae1m9agd7rut0GnpUitkV9q/OqVvh1PDH1IhtAstRSQPBhmcRMPLXM/EiQja5b7f2F4yjzrrNr0LYbZtC79TDigfoBRN1JDLZReL5KOjOXhKIKd6WOa1FOTxMVjjgJIHGlz8J4jky5QKAi+00MLYqjuBgmw6poUYDAwCoUftacZNrENnewsoj34ISuRIN4LTTydvoaHKEwFQ6cPvjGNjBZ5PRAkc9EHZ/HaDJcs+xkQ/L+bT7cZBuZoGypqFe2DVIA7l5jleChxqnEX0dWVvuID6DGnfAxHFVeyrRNzMnSVIOt1MnM380VlBmV63YCfhxKkI8p0RbJjU93FG/U5RbPppluh8BsLKs0V0b+cuZlJgKpoyCWY2opmZyQVCWqxRncltiNl8WIB0AL1LM3SuAYOoq+RoEXxkDJNrfUdnU953OxvrQH4VrkfbWCvCLd2kp7k6URuLyBXMXeYr2dZf+5aeqcMVnI2xIIYg8ADo7MdO3tZWyVRkjW9L2n6MY1mSla3/yoCg3xRF1dBA0G65hIAY0Kg8/85O+rFQHXxHSspXCC3aDb9cG3U03kCmiSOZl2zknUWe3u8RHDrU5U=
+
+%URL%
+https://github.com/encode/httpcore
+
+%LICENSE%
+BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1703262833
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+python-h11
+python-certifi
+
+%OPTDEPENDS%
+python-h2: for HTTP/2 support
+python-socksio: for SOCKS support
+python-anyio: for asyncio backend
+python-trio: for trio backend
+python-sniffio: for async support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-hatchling
+python-hatch-fancy-pypi-readme
+python-h2
+python-socksio
+python-trio
+python-anyio
+python-sniffio
+
+%CHECKDEPENDS%
+python-pytest-httpbin
+python-pytest-trio
+

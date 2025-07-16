@@ -1,0 +1,76 @@
+%FILENAME%
+python-polars-1.31.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-polars
+
+%BASE%
+python-polars
+
+%VERSION%
+1.31.0-1
+
+%DESC%
+Blazingly fast DataFrames library using Apache Arrow Columnar Format as memory model
+
+%CSIZE%
+25215308
+
+%ISIZE%
+138330960
+
+%MD5SUM%
+a8beb2bbb5bd7b1e658fd8ad26086360
+
+%SHA256SUM%
+6de27b8d392198ad8675a8d86903f1a4b59501993010ab95e6501d93eaca39ed
+
+%PGPSIG%
+iHUEABYKAB0WIQQ4EAwkN2zV9u1P9LRpGEAMJwMEDAUCaFRshgAKCRBpGEAMJwMEDDT+AP9mNYLRsrQyEMLEVsU+YfTZR5+NcLWd17EHUEWJHO8C2gEA7iKMpN3z8hzLx2NncCZeIfq6jyknSTYifze1b7N8mAI=
+
+%URL%
+https://www.pola.rs/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1750362843
+
+%PACKAGER%
+Bert Peters <bertptrs@archlinux.org>
+
+%DEPENDS%
+python
+python-numpy
+
+%OPTDEPENDS%
+python-pandas: for interoperability with pandas frames
+python-pyarrow: for interoperability with arrow types
+python-pytz: to enable conversion to python datetimes with timezones
+python-fsspec: to transparently open files locally or remotely
+
+%MAKEDEPENDS%
+maturin
+rustup
+python-installer
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-xdist
+python-matplotlib
+python-hypothesis
+python-pandas
+python-pyarrow
+python-pydantic
+python-fsspec
+python-sqlalchemy
+python-zstandard
+python-cloudpickle
+python-aiosqlite
+python-boto3
+python-orjson
+

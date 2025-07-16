@@ -1,0 +1,86 @@
+%FILENAME%
+slurm-llnl-25.05.1.1-1-aarch64.pkg.tar.xz
+
+%NAME%
+slurm-llnl
+
+%BASE%
+slurm-llnl
+
+%VERSION%
+25.05.1.1-1
+
+%DESC%
+Simple Linux Utility for Resource Management
+
+%CSIZE%
+6081576
+
+%ISIZE%
+30082392
+
+%MD5SUM%
+0c9bf419a11d31f352ffc56c40940088
+
+%SHA256SUM%
+11b7c6d3a7ee637971ff367a940818cc75a4b3c471b1006a071c145902c001ea
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmhvZPsACgkQdxk/FSvb5qbzQg/+OmWewM9HJ0SP8yM0JJ6H39Pw678rc+J2mzjFZ8KLNsp2iMUF8TxPm+5u25ZBeOcJbAdvfIX75GsXHGJV28SWH9TRb/AYXXVC0wTovkLayvcbTq/Jo7gGjX575k4Ld3GzSzcRzYfe4yXtlxXmOv9yOCSIOssIJVFQyzQyO+OsKVgsMuPN/Q2/l8F02UUZ8UzZQ6+7av+iCObZEJHF19d5BIsDMajxjozibeRIxJDTsCTTbRMQYSeZJjBB/ZYm95dODTWIhG5t6mZEv04W3Hp/Lb+H2mLHqFbI1JSzKyTOJ4Q4jtoSEuMpx6HshPG+JncOF5PG5+dZWRqcgTlwPB4GW+V12rp5BEGrYCE/GliShAuN9cBlTMHOzuexCyvFCSg5neBhfQpRJe71x5stTEcZ/fyxin8kS0YrIHocxl2gbJ7zzUKzXW5o5wdSvHDEHCoMi+YKjs+x+bTgB+FjarHT1KDqRH7iGV1ZpQQzSwRIHGUfJeNUvzTqCDz2qDiXzQ1aN836bhMFlRrqr7JVoAWHHzQX30Vmz8JS8QeWJNDBLr1EXInOpPbMCpMSZw25RVqplyaE4xqAp/6uKBpdPiLYevDvvYIxFy6UPLyUBZswfk6NCF6hs571HJwcoLnRJLxBNWJJ+lZVpxJv+OL7GgD+yBGjA4PO4S0JeECtRV+qxK8=
+
+%URL%
+https://www.schedmd.com
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1752130447
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+curl
+dbus
+gcc-libs
+glibc
+hwloc
+lz4
+munge
+numactl
+pam
+readline
+
+%OPTDEPENDS%
+mariadb-libs: support for accounting
+openpmix: support Open MPI applications using PMIx
+freeipmi: for the acct_gather_energy_xcc plugin
+hdf5: support for acct_gather_profile/hdf5 job profiling
+lua: the lua API will be available in various plugins
+rdma-core: support for the acct_gather_infiniband/ofed InfiniBand accounting plugin
+rrdtool: support for the ext_sensors/rrd plugin
+gtk2: enables the sview command, a simple graphical frontend
+http-parser: for slurmrestd
+json-c: JSON serializer support
+libyaml: YAML serializer support
+
+%MAKEDEPENDS%
+freeipmi
+gtk2
+hdf5
+http-parser
+json-c
+level-zero-headers
+level-zero-loader
+libyaml
+lua
+mariadb-libs
+openpmix
+python
+rdma-core
+rrdtool
+

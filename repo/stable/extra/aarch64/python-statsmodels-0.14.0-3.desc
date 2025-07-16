@@ -1,0 +1,68 @@
+%FILENAME%
+python-statsmodels-0.14.0-3-aarch64.pkg.tar.xz
+
+%NAME%
+python-statsmodels
+
+%BASE%
+python-statsmodels
+
+%VERSION%
+0.14.0-3
+
+%DESC%
+Statistical computations and models for use with SciPy
+
+%CSIZE%
+9991244
+
+%ISIZE%
+66166440
+
+%MD5SUM%
+bf79e83f3c084168d444f9589d04608d
+
+%SHA256SUM%
+b02e2e2b40a0334c74033a6a326098727096d43a260957cb1386b17cfd9fd159
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmUTbsMACgkQdxk/FSvb5qaz2hAAj/r/EWfZk+NDHsGEJNgDgel57B/J8uf7DQIbKNI0szdG8X/n/DAj0i0cIExyrGku1vQTD+XC0dYWqNkVgSQBDbz1MG1UyslhFtwurVsnF4BTvgY3Y1LziVLHlcPVpJD56vBR5a6rFvLRv56xzA3TahOvoDKPHwdw0bKpV90nDNA8frbBBozxR5h/tlp8b2snsLfCizYrZgvLBx61D9inNs3CPxWho0d3M5Evig9OVT4NcOIHeQcjTku6FWMkmIHVrd2nahrFotnqe7JFxiN78ntYRo9Ccmy13PKM/pat4/xewolcamrMzDa/STKc8fMQzTrLQQhTd3gmtDFkOKnzZrV4PMYVc+80+vq5iEVE+ENcRgqDwKmdsSNsmiJLXod1sdNUv01QRTtylysJVxDuJekn3OYN8K+Dde0jN5lWbJdWqPvv7fquT+vFnsAXxlR14V4q3Q153SxxS7lS9BA/BhRuXWQF9ok3BtPcK2opdcun8mSX81gUrDjMVF5wZ+bBw5jM4cDldlUK28drtf0rTi6HjaalBcNYH0DvpVEarDxzln/5Skg/kFpSO7bEtifjlK8L0VPAxlztdCE+Xx0WwTYTYUX/KyU54PMGcTbKko5XTTuGl/FIZjrBW8euJk8dpP/wejqLPapmxGL0Aos+2fobtpE54yWS6ogcMET3DZw=
+
+%URL%
+https://www.statsmodels.org/
+
+%LICENSE%
+BSD
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1695771821
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python-numpy
+python-scipy
+python-pandas
+python-patsy
+
+%OPTDEPENDS%
+jupyter-notebook: needed to run the notebooks
+python-cvxopt: regularized fitting of some models
+python-joblib: accelerate distributed estimation for certain models
+python-matplotlib: plotting functions
+
+%MAKEDEPENDS%
+python-setuptools-scm
+cython0
+git
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-xdist
+python-joblib
+python-matplotlib
+

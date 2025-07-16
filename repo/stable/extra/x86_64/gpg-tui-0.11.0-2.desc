@@ -1,0 +1,60 @@
+%FILENAME%
+gpg-tui-0.11.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+gpg-tui
+
+%BASE%
+gpg-tui
+
+%VERSION%
+0.11.0-2
+
+%DESC%
+A terminal user interface for GnuPG
+
+%CSIZE%
+1008408
+
+%ISIZE%
+2712185
+
+%MD5SUM%
+a48c5f89c0ae45f092a419901b47034b
+
+%SHA256SUM%
+0bc2425a95257e27bb07fa1b86d69718539e9dca3c7ac01bc613b65f3a77531b
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmhAL/0ACgkQek52CV2KUuTB+Qf8C1nXtG+lXeXobwnCYlz9PIsVd6ZW5x4skcyYzPk2/t7ySpF7GBCs6SaECvHtMCwSzxiuHfCrfyh4KuOBa4UwvPVq7iUPnGBF0aLcCj+5CNj4hMj1y8hCauCbb57snATRX6k12InRuQr1H5YyCL5F5qM7r/1J06CJDIVTaM/1UzpSb8IMbtzJG9HBtOeFzhABjyfkwIBPFjwTR7AWJmdS4rvyPxsY5rd3PlpLFlv8jQozVob/QInLKwU5nFyK+3tnG1O/Ne+WPph9ZyB+dTZDrgZ+lC0j2GvS8tRNllwsYM5tbSj1+AprvJEE3pgcEDvpytPWZHFXtSkh/NraJwNv0A==
+
+%URL%
+https://github.com/orhun/gpg-tui
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1749036936
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+libxcb
+libxkbcommon
+gpgme
+
+%OPTDEPENDS%
+xplr: for file selection support
+xclip: for clipboard support on X11 (or xsel)
+xsel: for clipboard support on X11 (or xclip)
+wl-clipboard: for clipboard support on Wayland
+
+%MAKEDEPENDS%
+cargo
+python
+
