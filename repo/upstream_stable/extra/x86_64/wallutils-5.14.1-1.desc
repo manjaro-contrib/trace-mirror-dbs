@@ -1,0 +1,66 @@
+%FILENAME%
+wallutils-5.14.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+wallutils
+
+%BASE%
+wallutils
+
+%VERSION%
+5.14.1-1
+
+%DESC%
+Utilities for handling resolutions, wallpapers and timed wallpapers
+
+%CSIZE%
+22729612
+
+%ISIZE%
+22822478
+
+%SHA256SUM%
+cbacdd43580316516caff9ccdc28fa154ff980674cb003f8ab37abe36d768182
+
+%PGPSIG%
+iQIzBAABCgAdFiEEipvFgZxU/rPcKptIwyIX9vE/8ZIFAmiBXbQACgkQwyIX9vE/8ZKEOhAA3O5vK/L17CeACk9cHe32byS8iRH3ZX2zcgcFC3pEcOmAjUnPEFPnJnRCVStXOeJOFbEIw67Oe3TxQBaXumjG/lEQ7gLoQdp9Wpr7/V3qMV99VGjMOou7UvoL+letKrmMJV8iNlfPwrWiUjTHt+qsUExJI/bkgoTm1Teo/NcdCyWHVeJtpm8YKifchHJKdasSuxPxsyxl7Gxd8urkwpVfeO4VEX2s+mj7GsUtPESlQTpx9TDHaHvZOO/zuFAq82TF16zhjedIWWWldsNL4Vkq1VRXW/fD4kxnzj0rdb2cK1KROuiLUnG3PE9OHWTZia9j5IHoQgHRhM36zUu7sAaOcaiijTBXJvvMAZQCeXS+YCXnzE5Iru145p77XSp0roR25MpPFMTjnMR1rRIjlwseEc/ZNEuArsxT1J0clPlcuHY2j2sJdIYPkoQ/6ZwBOyGV56o5Jd32ToC49s7o84EY9pxtYMCdVWoAclR4UUCknAjEdGv7Nb4w3Sy+D+Fw8o7Cjq9KySpV1DwqrF/YM/3HEvzNGJ08X74201+F+/SqDvokILyC8HpWFnkWHl9G8ILtPog0vi4nQxlVaXkvcU45FJfTgDi7iKp5O9x4URBVSchneW0Flo2i4QTtN7PaB1/SjoS3SERuYfnsyL7PVNJAD2hh9x4cujTZgZjHRZmxOgw=
+
+%URL%
+https://github.com/xyproto/wallutils
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1753308373
+
+%PACKAGER%
+Alexander F. Rødseth <xyproto@archlinux.org>
+
+%DEPENDS%
+bash
+glibc
+libheif
+libx11
+wayland
+
+%OPTDEPENDS%
+feh: for setting the wallpaper for some window managers that runs under X
+imagemagick: for supporting HEIF/HEIC (macOS wallpaper) files
+nvidia-utils: for the vram utility
+procps-ng: for the Labwc window manager
+swaybg: for the Sway and Labwc window managers
+
+%MAKEDEPENDS%
+git
+go
+libxcursor
+libxmu
+libxpm
+upx
+xbitmaps
+xorgproto
+
