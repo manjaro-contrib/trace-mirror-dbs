@@ -1,0 +1,68 @@
+%FILENAME%
+nvidia-utils-575.64.05-1-x86_64.pkg.tar.zst
+
+%NAME%
+nvidia-utils
+
+%BASE%
+nvidia-utils
+
+%VERSION%
+575.64.05-1
+
+%DESC%
+NVIDIA drivers utilities
+
+%CSIZE%
+289308824
+
+%ISIZE%
+923685184
+
+%SHA256SUM%
+8a262b98c13c2a2f9b246a20a9aebcdac23322159cb6742a31c83bbbc9c85ce7
+
+%PGPSIG%
+iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCaH+vcQAKCRA9TFAIu1yNKUkoAQCC7UUulgID60iDW7+rP2yOLHBnxUd6SeFoquJ4hQXa4wEA7TG8fmQ6etUrXfcPjsy1lruNkSn/iMgv6YKDLEHLyQM=
+
+%URL%
+http://www.nvidia.com/
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1753198327
+
+%PACKAGER%
+Peter Jung <ptr1337@archlinux.org>
+
+%REPLACES%
+nvidia-libgl
+
+%CONFLICTS%
+nvidia-libgl
+
+%PROVIDES%
+vulkan-driver
+opengl-driver
+nvidia-libgl
+
+%DEPENDS%
+libglvnd
+egl-wayland
+egl-gbm
+egl-x11
+
+%OPTDEPENDS%
+nvidia-settings: configuration tool
+xorg-server: Xorg support
+xorg-server-devel: nvidia-xconfig
+opencl-nvidia: OpenCL support
+
+%MAKEDEPENDS%
+patchelf
+
