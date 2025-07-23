@@ -1,0 +1,88 @@
+%FILENAME%
+electrum-4.6.0-1-any.pkg.tar.xz
+
+%NAME%
+electrum
+
+%BASE%
+electrum
+
+%VERSION%
+4.6.0-1
+
+%DESC%
+Lightweight Bitcoin wallet
+
+%CSIZE%
+7841316
+
+%ISIZE%
+45053446
+
+%MD5SUM%
+1f53d797437541565a0cf75d35937d1d
+
+%SHA256SUM%
+d245eea9a92044b8bf603588f0ab1224fe567b9b886466f4261a1c32f093ab19
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmiBCTgACgkQdxk/FSvb5qYwJg/9HkW8VGs5pp8QOhdrWnaY8IrBu21H/zbHlCI66NzoWBv0xUEdby7TXR6Yll5y6EQhDtcrdtjLNpk3IObcvseWXtjbA/vcepmZ7oqOWkgxSiol8oDmdutvVCPJ+2kmh0i3L02WvLUS5gmdZx2CMGKrdTvMgL04VYBmkLyhV4MLweS/cZAtpPUczvDLxdCUcTdlFLxtHJ/db6sk2ON7sHuw3C+F+YBs03TtORibILVLKXheYR+HBRLW6L5SDmn7N4umDnTiebIEDAg3Mluj3xdNHmapBuuGkMA1OJctbQLDsyJydrdGIiqTe45EDrbs5k9y2K3JH6K1XOtNacs6sJo7yDrYFYEy94GJSeCH/4f3yaQAyQQkp7na5EJfzSyfJZ1coiwJv0Opeep5BGTQJgMfGkAhIb9hHMyJ04NhJAJ3rEvPNz5WyKQ0gCgqvmRMS8j1YYA/oVTNjV2WP2Pp5afqtdDroJKOQBeBngjedD1BUJJWJIF7colyqhJbpC+uj8aOhMUaASYolNoZrZpzKP6JdDyYCl5ls3Uo12BnMWPLeUQiqkfrrFTJR4TpczOkBmH93GxaYvksMI/iJGJid3a7r/2w4M+exzlGkvyJvj2mEPW+BlQYR6d9VKEejcOfq6GfUmMu7FwMBV+nqjSq0Bvm9yjepuqXVgUH91cDE2qFPXE=
+
+%URL%
+https://electrum.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1753286889
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+hicolor-icon-theme
+python
+python-aiohttp
+python-aiohttp-socks
+python-aiorpcx
+python-attrs
+python-certifi
+python-cryptography
+python-dnspython
+python-electrum-aionostr
+python-electrum-ecc
+python-jsonpatch
+python-jsonpointer
+python-pillow
+python-protobuf
+python-pyaes
+python-pyqt5
+python-qrcode
+
+%OPTDEPENDS%
+python-hidapi: Digital Bitbox hardware wallet support
+python-matplotlib: plot transaction history in graphical mode
+python-pycryptodomex: use PyCryptodome AES implementation instead of pyaes
+python-qdarkstyle: optional dark theme in graphical mode
+python-rpyc: send commands to Electrum Python console from an external script
+python-pyqt6: QML GUI
+qt6-declarative: QML GUI
+zbar: QR code reading support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pycryptodomex
+python-pyqt6
+python-pytest
+qt6-declarative
+
