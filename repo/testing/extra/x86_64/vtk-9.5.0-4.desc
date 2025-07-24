@@ -1,0 +1,159 @@
+%FILENAME%
+vtk-9.5.0-4-x86_64.pkg.tar.zst
+
+%NAME%
+vtk
+
+%BASE%
+vtk
+
+%VERSION%
+9.5.0-4
+
+%DESC%
+Software system for 3D computer graphics, image processing, and visualization
+
+%CSIZE%
+53798454
+
+%ISIZE%
+321646456
+
+%MD5SUM%
+592a19bb92faa76596f703533a8332b2
+
+%SHA256SUM%
+60d74df00a24f6a0ae69867445abb1a3b3f001f8eb7ef7e2244d5881f0b89a77
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaHzKFgAKCRAAHPSBC+jZEcS3AQDiBiyA/ea/ZsJcqp9n9doFVEItoNQbCmubVSYCZTM94wEAwbj3z0lcH2644yMglMVDbEutWYhRThhTDFREnfI15AA=
+
+%URL%
+https://www.vtk.org
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1753006916
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+onetbb
+double-conversion
+verdict
+fmt
+libarchive
+lz4
+pugixml
+xz
+zlib
+libjpeg-turbo
+libpng
+libtiff
+expat
+jsoncpp
+libxml2
+
+%OPTDEPENDS%
+graphviz: drawing tools
+libglvnd: OpenGL rendering
+java-runtime=11: java bindings
+python: python bindings
+python-matplotlib: for Matplotlib rendering
+python-mpi4py: OpenMPI python support
+qt5-declarative: QML plugin
+tk: tcl bindings
+libx11: rendering
+libxcursor: rendering
+fontconfig: rendering fonts with fontconfig support
+freetype2: rendering fonts
+gl2ps: rendering to PostScript, PDF, and SVG
+anari-sdk: ANARI rendering module
+openvr: rendering for virtual reality
+openxr: rendering for virtual and augmented reality
+openimagedenoise: rendering with raytracing support
+ospray: rendering with raytracing support
+openmpi: OpenMPI support
+viskores: accelerators support
+adios2: IO module
+alembic: IO module
+cgns: IO module
+ffmpeg: IO module
+gdal: IO module
+hdf5: IO module
+imath: IO module
+libharu: IO module
+liblas: IO module
+libogg: IO module
+libtheora: IO module
+mariadb-libs: IO module
+netcdf: IO module
+opencascade: IO module
+openvdb: IO module
+pdal: IO module
+postgresql-libs: IO module
+proj: IO module
+sqlite: IO module
+unixodbc: IO module
+fast_float: for building downstream projects
+nlohmann-json: for building downstream projects
+openmp: OpenMP support for downstream projects built with Clang
+
+%MAKEDEPENDS%
+cmake
+ninja
+java-environment=11
+python
+python-matplotlib
+python-mpi4py
+qt5-base
+qt5-declarative
+qt5-tools
+tk
+openmpi
+libx11
+freetype2
+libxcursor
+hdf5
+netcdf
+sqlite
+viskores
+adios2
+cgns
+gdal
+gl2ps
+proj
+alembic
+anari-sdk
+ffmpeg
+imath
+libharu
+liblas
+libogg
+libtheora
+mariadb-libs
+opencascade
+openimagedenoise
+openvdb
+openvr
+openxr
+ospray
+pdal
+postgresql-libs
+unixodbc
+fontconfig
+boost
+cli11
+eigen
+fast_float
+nlohmann-json
+utf8cpp
+
