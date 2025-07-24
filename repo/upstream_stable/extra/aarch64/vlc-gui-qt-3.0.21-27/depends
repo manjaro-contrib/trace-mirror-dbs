@@ -1,0 +1,26 @@
+%DEPENDS%
+bash
+gcc-libs
+glibc
+libvlc
+libvlccore.so=9-64
+libx11
+qt5-base
+qt5-svg
+qt5-wayland
+qt5-x11extras
+vlc-cli=3.0.21
+vlc-plugin-lua=3.0.21
+vlc-plugin-pulse=3.0.21
+vlc-plugins-base=3.0.21
+vlc-plugins-video-output=3.0.21
+wayland
+
+%OPTDEPENDS%
+vlc-plugin-ffmpeg: for FFMPEG support
+vlc-plugin-kwallet: for kwallet keyring support on KDE
+vlc-plugin-libsecret: for libsecret/gnome-keyring support on Gnome
+vlc-plugin-notify: for notification support
+vlc-plugins-extra: for extra plugins
+vlc-plugins-visualization: for visualization plugins
+
