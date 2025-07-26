@@ -1,0 +1,23 @@
+%DEPENDS%
+libpipewire=1:1.4.7-1
+libpipewire-0.3.so=0-64
+pipewire-audio=1:1.4.7-1
+pipewire=1:1.4.7-1
+glibc
+pipewire-session-manager
+sh
+
+%CONFLICTS%
+jack
+jack2
+pipewire-jack-client
+
+%PROVIDES%
+jack
+libjack.so=0-64
+libjacknet.so=0-64
+libjackserver.so=0-64
+
+%OPTDEPENDS%
+jack-example-tools: for official JACK example-clients and tools
+
