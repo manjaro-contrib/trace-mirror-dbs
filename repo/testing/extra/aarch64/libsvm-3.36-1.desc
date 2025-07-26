@@ -1,0 +1,68 @@
+%FILENAME%
+libsvm-3.36-1-aarch64.pkg.tar.xz
+
+%NAME%
+libsvm
+
+%BASE%
+libsvm
+
+%VERSION%
+3.36-1
+
+%DESC%
+Library for support vector machines (SVM) classification and regression
+
+%CSIZE%
+168892
+
+%ISIZE%
+905499
+
+%MD5SUM%
+ee760431e655844f60a3f9f563be1336
+
+%SHA256SUM%
+6b33c568b76ebac13b74a8746a906088bc12e6830702f34bef50d087ad15e5b9
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmh4jCAACgkQdxk/FSvb5qaaFRAAwnCotD2fdXFv8MIX6JsjyWqmz61O7/5klMJR0oT6EAy4t3vFPzOeuf7sdc7txyoZgGb3VH3ibEkOc124MaPp/BNbqnaE0p9FSLiSj3iwMXH8pPuI4ZlYnhwPYuhp1gP/v6CookFnqP6SEAAzM97aR37gTCu7teZpeMj8Kg74uFET3fwpNfwtEJaib+m9WVhERPjaUr2jvKXvRNJRmrFmt3elkYRigSKSgPJwDaZdT0LQBD37XVrZsNhfpbj44I8kq2lhzYhPcH/RRCmpE/EDbmqojLWKtrAMQz85FvZg0EycVKP6JzZhCg+tRD9x2ovM+JrI03GQBK9kb4dAq11tlfOPK/vuGBfUq/1rtGNqz5aXKxMEbUsbVbSzDyNXiRINTD1ChEwVgczVj+PFd9+K/Epj4AosDcKX+USUSL36PA0WkL1NuITtTRKdyc0fgg1qRgi6wIUoLWzGS5CTUmpn+Q+4UdyyWU7ROub1N7Y6WEeOFz8o5xoq8WCrDHFHmj9TfveO3id1x00amJDgSzO1Cj0olNP8/TzRj14WQPHijhAczRxGtBHdxFHAKQiSjC4K4KTcyAIFZNDUQqGJLN+ULtWNkr/a0R9qxN9fSeP8Q2O1Zz7sLEuuXnJh18HEaLI1O7PV9cML4HEfC3MI0erI1J6LqL8GDYiJBFHU9C8L0Bk=
+
+%URL%
+https://www.csie.ntu.edu.tw/~cjlin/libsvm/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1752730506
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+gnuplot
+python
+
+%OPTDEPENDS%
+java-runtime: for java bindings
+python-numba: for enabling JIT compiler in python bindings
+python-numpy: for python bindings
+python-scipy: for python bindings
+qt5-base: for Qt5 interface with svm-toy
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+qt5-base
+python-numba
+python-numpy
+python-scipy
+

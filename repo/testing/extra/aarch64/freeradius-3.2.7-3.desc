@@ -1,0 +1,81 @@
+%FILENAME%
+freeradius-3.2.7-3-aarch64.pkg.tar.xz
+
+%NAME%
+freeradius
+
+%BASE%
+freeradius
+
+%VERSION%
+3.2.7-3
+
+%DESC%
+The premier open source RADIUS server
+
+%CSIZE%
+2071020
+
+%ISIZE%
+14495330
+
+%MD5SUM%
+c15e921d611cd6825fe697a013340ea9
+
+%SHA256SUM%
+15bad3d753c57ca88988ffb802889b4c2b8ed3a703070bc2e75c3e1e4a47247e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmh5YfYACgkQdxk/FSvb5qYvIQ//QlD6hZl19yROZghw6O3/S+9yJM82oX2OqBIOGJd2xcBPRnSg+DKp2bCG54mkglpi7AXEsx7OMuikON8V4Z6U6AuTCTBwAlLjiirST4bAwilxkd6GlOR18kC5xSsUb54l4vZmILzRxlIJcqHG5C8AnKJyvn2L8yYSQFEnt80KaXY51oJWM3vYnZDl8lFXg8OURbv7TxyXCygKW3fX6sdoKyFNGperMVEkJGZzyQs6Sv8I9tLxtjFXhlEc7PpeDC9fVZ8PyGAWfyiMiDrzCz4dmUukRbiY+sMQ5ByO2rABXzqStfOAzb3zguZ8xuOiE5fZtBb1nn2CKpaRYd82giZ1LRtu+s9PciOY2Gnk0VlyayRyhUqQCkKlE15qJaawLeMXP2/rv/BY9yb4YgiUoIWysSjr3Q73nAhCyZsXg78VXWASgb5qQfnzhsrxjNiCzrFKigVWmCNIqkMZDWMrHz4yF8NV6hjglwC+PDPr43hlnh+efuvHbcz4/Hrs/I6YP4rvdqJup0hp/eF45p0PXvQfUASqk2VL93ijsuxEhjrNRNDZYvJd1RMJNi75H17/GjVv/8Sncwycz5Q7GwHX+b0Fs/QQmhjNPPfcfH5WBZNZVYEYo5yJOZJ+77tVJi3hdBncypBqQBE+mrVSPV/JGn6IhrHXODYGuxUmjaEZkhkUU5g=
+
+%URL%
+https://freeradius.org/
+
+%LICENSE%
+GPL
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1752785056
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+krb5
+net-snmp
+postgresql-libs
+mariadb-libs
+talloc
+libpcap
+libxcrypt
+libcrypt.so=2-64
+smbclient
+
+%OPTDEPENDS%
+curl: for REST
+freetds: for Sybase and MS SQL
+hiredis: for redis support
+json-c: rlm_rest module
+libmemcached: for memcached
+perl: for Perl
+python: for Python
+sqlite: for sqlite
+unixodbc: for ODBC
+yubico-c-client: for yubicloud
+
+%MAKEDEPENDS%
+curl
+freetds
+hiredis
+json-c
+libmemcached
+perl
+python
+samba
+sqlite
+unixodbc
+yubico-c-client
+
