@@ -1,0 +1,71 @@
+%FILENAME%
+python-lxml-docs-6.0.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-lxml-docs
+
+%BASE%
+python-lxml
+
+%VERSION%
+6.0.0-2
+
+%DESC%
+Python binding for the libxml2 and libxslt libraries (docs)
+
+%CSIZE%
+3199899
+
+%ISIZE%
+11674094
+
+%SHA256SUM%
+adde3d5185337d43faebc018b619bc4361f8d44d12d5d4ba5e444644e1237fc4
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaIRh3wAKCRDglZ/qi1UFOXpqAP9iCFzyKTFWq07bWzJlGpnwCX1C7sE1x+f8r+M+zZ2pRgD+MZ0X53L/hEja+lWsemasom+D2ENo9PAxjJutbCx7Ngk=
+
+%URL%
+https://lxml.de/
+
+%LICENSE%
+BSD-3-Clause
+MIT
+MIT-CMU
+GPL-2.0-only
+LicenseRef-RNG2Schtrn
+LicenseRef-XSD2Schtrn
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1753504306
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%OPTDEPENDS%
+python-beautifulsoup4: support for beautifulsoup parser to parse not well formed HTML
+python-cssselect: support for cssselect
+python-html5lib: support for html5lib parser
+python-lxml-docs: offline docs
+python-lxml-html-clean: enable htmlclean feature
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+python-pygments
+python-sphinx
+python-sphinx_rtd_theme
+cython
+
+%CHECKDEPENDS%
+python-cssselect
+python-html5lib
+python-beautifulsoup4
+python-lxml-html-clean
+
