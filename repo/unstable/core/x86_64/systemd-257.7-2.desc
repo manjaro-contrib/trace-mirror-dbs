@@ -1,0 +1,165 @@
+%FILENAME%
+systemd-257.7-2-x86_64.pkg.tar.zst
+
+%NAME%
+systemd
+
+%BASE%
+systemd
+
+%VERSION%
+257.7-2
+
+%DESC%
+system and service manager
+
+%CSIZE%
+11224451
+
+%ISIZE%
+35176651
+
+%MD5SUM%
+bade5616e9f74dc867865e4b3248f68f
+
+%SHA256SUM%
+4536a9cc6ecb29266496268b65e76ee35a2011f9b8b870139636a1898b797edf
+
+%PGPSIG%
+iQEzBAABCgAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmiJGIMACgkQFQwgB0PtRtiCUgf/dCJkZRQyYmbCpXdCL7cip03j57oI0eobr9f+kwIhlAa63g6THt/Qnkmw85stCHb8p7CaJ9Rg2WJCsFsO0DXgXMcM7UlBIitx+hsIgIxiM9XlYPVDFkiHcusUQqDmQI//UygZigfo/MXqUwUGSHPVXSSDSkuB9Oq/158ZcVGI48l0LoKQC0pnMXumB9KGjEBOefByGDaRmk8j8P40pXWyqeYzuvMTZpopMC8yWENEQLeOv7skRPmY5HayHIp26abMkrdRybHm8rwm1bkSiv5aNTwRp8FVMplJ6ENYA/8EGvB7AYbDqlSgHtpr96xRWD9SGdwZjzLUTWXQ2fd+/IAaMw==
+
+%URL%
+https://www.github.com/systemd/systemd
+
+%LICENSE%
+LGPL-2.1-or-later
+CC0-1.0
+GPL-2.0-or-later
+MIT-0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1753814927
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%REPLACES%
+nss-myhostname
+systemd-tools
+udev
+
+%CONFLICTS%
+nss-myhostname
+systemd-tools
+udev
+
+%PROVIDES%
+nss-myhostname
+systemd-tools=257.7
+udev=257.7
+
+%DEPENDS%
+systemd-libs=257.7
+acl
+libacl.so=1-64
+bash
+cryptsetup
+libcryptsetup.so=12-64
+dbus
+dbus-units
+kbd
+kmod
+hwdata
+libcap
+libcap.so=2-64
+libgcrypt
+libxcrypt
+libcrypt.so=2-64
+libidn2
+lz4
+pam
+libelf
+libseccomp
+libseccomp.so=2-64
+util-linux
+libblkid.so=1-64
+libmount.so=1-64
+xz
+pcre2
+audit
+libaudit.so=1-64
+openssl
+libcrypto.so=3-64
+libssl.so=3-64
+
+%OPTDEPENDS%
+libmicrohttpd: systemd-journal-gatewayd and systemd-journal-remote
+quota-tools: kernel-level quota management
+systemd-sysvcompat: symlink package to provide sysvinit binaries
+systemd-ukify: combine kernel and initrd into a signed Unified Kernel Image
+polkit: allow administration as unprivileged user
+curl: systemd-journal-upload, machinectl pull-tar and pull-raw
+gnutls: systemd-journal-gatewayd and systemd-journal-remote
+qrencode: show QR codes
+iptables: firewall features
+libarchive: convert DDIs to tarballs
+libbpf: support BPF programs
+libpwquality: check password quality
+libfido2: unlocking LUKS2 volumes with FIDO2 token
+libp11-kit: support PKCS#11
+tpm2-tss: unlocking LUKS2 volumes with TPM2
+
+%MAKEDEPENDS%
+acl
+cryptsetup
+docbook-xsl
+gperf
+lz4
+xz
+pam
+libelf
+intltool
+iptables
+kmod
+libarchive
+libcap
+libidn2
+libgcrypt
+libmicrohttpd
+libxcrypt
+libxslt
+util-linux
+linux-api-headers
+python-jinja
+python-lxml
+quota-tools
+shadow
+git
+meson
+libseccomp
+pcre2
+audit
+kexec-tools
+libxkbcommon
+bash-completion
+p11-kit
+systemd
+libfido2
+tpm2-tss
+rsync
+bpf
+libbpf
+clang
+llvm
+curl
+gnutls
+python-pyelftools
+libpwquality
+qrencode
+lib32-gcc-libs
+python-pefile
+linux615-headers
+
