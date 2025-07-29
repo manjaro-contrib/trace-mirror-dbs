@@ -1,0 +1,15 @@
+%DEPENDS%
+gcc-libs
+glibc
+libjack.so=0-64
+liblo.so=7-64
+
+%CONFLICTS%
+non-session-manager
+
+%PROVIDES%
+non-session-manager
+
+%OPTDEPENDS%
+fltk: for nsm-legacy-gui
+
