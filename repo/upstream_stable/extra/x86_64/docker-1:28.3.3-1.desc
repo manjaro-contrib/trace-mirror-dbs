@@ -1,0 +1,67 @@
+%FILENAME%
+docker-1:28.3.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+docker
+
+%BASE%
+docker
+
+%VERSION%
+1:28.3.3-1
+
+%DESC%
+Pack, ship and run any application as a lightweight container
+
+%CSIZE%
+25446436
+
+%ISIZE%
+101300317
+
+%SHA256SUM%
+5b7d7ee1601f5c5882310870a16d00fc4ae38dbb26231a3de67d9a2f2ffa98dc
+
+%PGPSIG%
+iQIzBAABCgAdFiEELjbYYgIhSC/EXLfyqRdkdZMmtEAFAmiKIQ0ACgkQqRdkdZMmtEC8dg/+OuZNbwQHVeQ5kPVUoFrgs8avNcdACPapEnTeIBXpJ7Q9VRQalU1GyLX4vnd2nsQUqpsEh9uQtqAuEac7zbllLY4qLlkuKfCvv15K1smRCCsCjOFbjNkmIHrzQCs9+HEHlWqV88NyEuu/jLaY53XG3zWJUW9ewl8ZEnIlykbza+5NMbIot6ZyV4EApvqhKUJFtEGZqN4lNx8cumJD1dad0dmH1tNKc3x92Rkfk0o9QRxLOWxpguqj97KSBQWfe974lerb5Xa92B9jeAwh7rNaR4I5lPSLTNo5DQgXkB5Np5hASOOW4nTglGo0w69wj6Nh1j8URmFN5LgpnoQrr4H2GxTrZsbqdxDexqpiGKbOR32N1gXStPGrloB5pMpWb+pwYhyevLks3r70fHqrU6nQJwVt7G/ZDxl0MsGv/D6Nucl5UYrZpRg7XMGJ+Vt/nC+7fr15FffDXMiMQRaqeHuaDJnyiUhRqYPvrwAbnIQqjIoeTCcgrX+w5NfP9vvapAijqGoxiZs1MO9DRHHJzwWfAERhHK4iaCzavhlVeO+xtmqGf+gmEAf8o0t/GJns574fz6Ex6htM1TyP0QXqY48zu3fNoJnNX4fI/UNMjF6A6jgbhM2ZVEoTP49+HIPEddAzWt1jZbJrTMARNZzOjFhYPJqXvjau5EuMZJ46jDyVXuY=
+
+%URL%
+https://www.docker.com/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1753882348
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%DEPENDS%
+glibc
+iproute2
+device-mapper
+sqlite
+systemd-libs
+libseccomp
+libtool
+runc
+containerd
+
+%OPTDEPENDS%
+btrfs-progs: btrfs backend support
+pigz: parallel gzip compressor support
+docker-buildx: extended build capabilities
+
+%MAKEDEPENDS%
+git
+go
+btrfs-progs
+cmake
+systemd
+go-md2man
+sed
+
