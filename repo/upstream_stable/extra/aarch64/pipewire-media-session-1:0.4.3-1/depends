@@ -1,0 +1,16 @@
+%DEPENDS%
+dbus
+glibc
+libpipewire
+pipewire
+systemd-libs
+libdbus-1.so=3-64
+libpipewire-0.3.so=0-64
+libsystemd.so=0-64
+
+%CONFLICTS%
+wireplumber
+
+%PROVIDES%
+pipewire-session-manager
+
