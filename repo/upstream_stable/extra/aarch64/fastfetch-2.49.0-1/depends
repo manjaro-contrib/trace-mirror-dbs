@@ -1,0 +1,24 @@
+%DEPENDS%
+glibc
+yyjson
+
+%OPTDEPENDS%
+chafa: Image output as ascii art
+dbus: Bluetooth, Player & Media detection
+dconf: Needed for values that are only stored in DConf + Fallback for GSettings
+ddcutil: Brightness detection of external displays
+directx-headers: GPU detection in WSL
+glib2: Output for values that are only stored in GSettings
+hwdata: GPU output
+imagemagick: Image output using sixel or kitty graphics protocol
+libdrm: Displays detection
+libelf: st term font detection and fast path of systemd version detection
+libpulse: Sound detection
+libxrandr: Multi monitor support
+ocl-icd: OpenCL module
+python: Needed for zsh and fish completions
+sqlite: Needed for Sqlite integration and Soar packages count
+vulkan-icd-loader: Vulkan module & fallback for GPU output
+xfconf: Needed for XFWM theme and XFCE Terminal font
+zlib: Faster image output when using kitty graphics protocol
+
