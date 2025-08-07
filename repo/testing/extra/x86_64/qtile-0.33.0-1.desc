@@ -1,0 +1,113 @@
+%FILENAME%
+qtile-0.33.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+qtile
+
+%BASE%
+qtile
+
+%VERSION%
+0.33.0-1
+
+%DESC%
+A full-featured, pure-Python tiling window manager
+
+%CSIZE%
+1049549
+
+%ISIZE%
+6721853
+
+%MD5SUM%
+79f5b67ebf4b26ae38acb823102cb692
+
+%SHA256SUM%
+2b46756a6d623644730cf200e9788a2e096af7c790aac7132ac3be37022fe139
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCaIiLjgAKCRCbeih9mi7GCLCqAP4va7ofR76fqezv/h6j9HVxe9F85GeJ0LXVbb/ZH2F+4wD+K1pKbni9iGgiUNj5/o9ypaJFGW/Fj7bnFE908q+7JA4=
+
+%URL%
+https://qtile.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1753776878
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+gdk-pixbuf2
+glibc
+libnotify
+librsvg
+pango
+python
+python-cairocffi
+python-cffi
+python-gobject
+python-xcffib
+wlroots0.17
+libwlroots.so=12-64
+
+%OPTDEPENDS%
+alsa-utils: for volume widget
+canto-daemon: for canto widget
+cmus: for cmus widget
+jupyter_console: for interaction with qtile via Jupyter
+khal: for khal_calendar widget
+libinput: for Wayland backend
+libpulse: for pulse_volume and pulseaudio_ffi widget
+lm_sensors: for sensors widget
+moc: for moc widget
+python-bowler: for migrating configuration files
+python-dbus-fast: for utils, notifications and several widgets
+python-iwlib: for wlan widget
+python-keyring: for imapwidget widget
+python-libcst: for migrations
+python-mpd2: mpd2widget widget
+python-psutil: graph, net and memory widget
+python-pywayland: for Wayland backend
+python-pywlroots: for Wayland backend
+python-setproctitle: change process name to qtile
+python-xdg: launchbar widget
+python-xkbcommon: for Wayland backend
+xorg-xwayland: for XWayland support
+
+%MAKEDEPENDS%
+git
+libpulse
+python-build
+python-installer
+python-pywlroots
+python-setuptools-scm
+python-wheel
+wlroots0.17
+
+%CHECKDEPENDS%
+graphviz
+gtk3
+imagemagick
+lm_sensors
+procps-ng
+python-anyio
+python-bowler
+python-dbus-fast
+python-gobject
+python-isort
+python-libcst
+python-pytest
+python-xdg
+xorg-server-xephyr
+xorg-server-xvfb
+xorg-xrandr
+xorg-xwayland
+xterm
+
