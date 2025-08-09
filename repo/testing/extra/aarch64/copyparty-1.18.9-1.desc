@@ -1,0 +1,70 @@
+%FILENAME%
+copyparty-1.18.9-1-any.pkg.tar.xz
+
+%NAME%
+copyparty
+
+%BASE%
+copyparty
+
+%VERSION%
+1.18.9-1
+
+%DESC%
+File server with accelerated resumable uploads, dedup, WebDAV, FTP, TFTP, zeroconf, media indexer, thumbnails++
+
+%CSIZE%
+1399908
+
+%ISIZE%
+5847307
+
+%MD5SUM%
+745c8ce6100daf033ede136d32188951
+
+%SHA256SUM%
+dc27227e2f35303d3b57dcf34f1351f2730f896fe7b8f412f6780a9268a2131e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmiPUFEACgkQdxk/FSvb5qYLNQ//UnNrr0Pv/TwBuVaTtxdEFWTDf5adFj6JaKLqt9Gt5gR1Uv0G5zZO7HW8ZoJylyL/1qHG3F5SECAZI/wKMaJVbv81d1tqfuyut2cwGUfma7GXG1n/tmgj4EmrMuHWpx3KOG5fnlwdbmUrRAvijWrUiKb+h1o2Iw8NoowE8WvGHRH114y9FnQyQQqP/pE6sGsRSIsvwfoqsd++z49u8qwt5i37Ttt0pSRGoNVKEpDEi88D4l6mD0sllA3ls93+aQLWajZDN40xbPd/6+lILkJG8YvZOwbvXZDYEscbSQNHlnh1pNycvnTY4jTzMU63qZVEBYAulyhciusvQz9REaw89itlf77JApnVpTsYrHwTlGX/BgDkODUJOpjzylnjUAzD8n+mqMmcy5BuAsczzOkR9cxy/pXBLkIFYJfYRqRKucLw0nu1/nAP4ZBXZPs23YW7VSjuwDxJuqrxcSjTmVf4ONeH+A4Tdwp3x/2EpEtjsgZqJo5LA3ab8P1Jvep8LspK0R7deY0RAHMuKeuTBkRSye9hjvLD00gwp1ZeMqZk1daNkI1UZ6KyaM8uu9O9x19ajiiUZlwGvIzCeUehC0xZbi2zwC6/5RiTdj6cjn1zB0afQtKbb20+qzZmfu/SzO+Rm1FfPyjsjNEvBiQJABDzM2k2rQTOMeky0gA/+R/XRlE=
+
+%URL%
+https://github.com/9001/copyparty
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1754222625
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+bash
+python
+lsof
+python-jinja
+
+%OPTDEPENDS%
+ffmpeg: thumbnails for videos, images (slower) and audio, music tags
+cfssl: generate TLS certificates on startup
+python-mutagen: music tags (alternative)
+python-pillow: thumbnails for images
+python-pyvips: thumbnails for images (higher quality, faster, uses more ram)
+libkeyfinder: detection of musical keys
+python-pyopenssl: ftps functionality
+python-pyzmq: send zeromq messages from event-hooks
+python-argon2-cffi: hashed passwords in config
+
+%MAKEDEPENDS%
+python-wheel
+python-setuptools
+python-build
+python-installer
+make
+pigz
+
