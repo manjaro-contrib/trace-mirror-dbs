@@ -1,0 +1,73 @@
+%FILENAME%
+python-construct-2.10.70-5-any.pkg.tar.zst
+
+%NAME%
+python-construct
+
+%BASE%
+python-construct
+
+%VERSION%
+2.10.70-5
+
+%DESC%
+A powerful declarative parser/builder for binary data
+
+%CSIZE%
+144348
+
+%ISIZE%
+1133082
+
+%MD5SUM%
+5feab78354cde63d59a3e6e14c05063b
+
+%SHA256SUM%
+2029eb50aa73d218afa9cf5f34b7bc5c5c2984aa08ca4ea04bec72c00ba50517
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaH8ceAAKCRDglZ/qi1UFOWPLAP9GU/gplK3SYAgPEUI6eZ/GacRwOP4s0lyOFqTjLLE6WAD+JWdcWA7aO5cKOr4Pu0dWg5phlshHnF+sxc2VRxFcWwY=
+
+%URL%
+https://construct.readthedocs.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1753160545
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-arrow: for Timestamp
+python-numpy: for array serialization with Numpy protocol
+python-ruamel-yaml: for KaitaiStruct (KSY) exporter
+python-cloudpickle: for extended pickling
+python-lz4: for compressed LZ4
+python-cryptography: for encrypting/decrypting cryptography primitives
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-arrow
+python-cloudpickle
+python-lz4
+python-numpy
+python-pytest
+python-pytest-benchmark
+python-ruamel-yaml
+python-cryptography
+
