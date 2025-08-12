@@ -1,0 +1,110 @@
+%FILENAME%
+imagemagick-7.1.2.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+imagemagick
+
+%BASE%
+imagemagick
+
+%VERSION%
+7.1.2.1-1
+
+%DESC%
+An image viewing/manipulation program
+
+%CSIZE%
+9077286
+
+%ISIZE%
+24236621
+
+%SHA256SUM%
+8830cc6a942ed4fd4d50ff8f4c8a9fd48ad8ac47ba5b77a4dde75a831e79a4fb
+
+%PGPSIG%
+iQIzBAABCgAdFiEELjbYYgIhSC/EXLfyqRdkdZMmtEAFAmibwhoACgkQqRdkdZMmtEBosBAAqdRHtsHe/Sgc/p7/f1C9Eo5o9lQ5i9ooWY49juT4JASQiwOdk03lYOdfwINimJA9tLlADWFIiulTnRK+7TUy3MR5I4rRsLf2QmuJveXEqRNOZ2UwjJpPTTTCMF53tJ223jPOVEYVvb1JFHUO6cTdUDb50BKz99EO8ersRFqMnwj+mnJVkXZJ9yHQb3zGAgq0Md8rRCmkiQ9sAF7cHvKvIFG8Sjw/vd26rOElYqh0v7AGj0AUpB2LOvsnYWEHnVTdpXtkq42pCSK56O8f1u9bqrOZSOmCz109s2uKTXa9fds1canN7n58TQHWVX+9GqEoGAE+t8btdXMGExrYQQpLVvvXOLLdBcVuBEQpym8zs4e33oa8N8OzjZZgrd4TJgmnev9zzC28xQUAZ4BiQ2Dv7CV1OKAgEW0aMEnTLhHie3tBeIIbua8NrPs3mJxPWNQX4yj9ck70iCa/Cno16f30dFEbBivEqj4a+QbxTpobk9tIDic5cZtCQBGN/zO9JdU0ebJUW2iPPDWS9BbATy98QBuvWyQqg9QEBDvuuMfiLrNGdd0jqAzB3BEYn9LYZR229zoQ6pt0W7bloXx07s5isTW/T13NohjFhcSHB1/Gdm/9+3zzdhLjMejPwop/UjYxlCjOZLn5PvuMkdkZgMfUUpqochtAcuqSHtOrmR+0sNU=
+
+%URL%
+https://www.imagemagick.org/
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1755037229
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%REPLACES%
+imagemagick-doc
+
+%PROVIDES%
+libmagick
+
+%DEPENDS%
+bzip2
+cairo
+fftw
+fontconfig
+freetype2
+gcc-libs
+glib2
+glibc
+lcms2
+liblqr
+libltdl
+libpng
+libraqm
+libxext
+libxml2
+xz
+zlib
+
+%OPTDEPENDS%
+ghostscript: PS/PDF support
+jbigkit: JBIG support
+libheif: HEIF support
+libjpeg-turbo: JPEG support
+libjxl: JPEG XL support
+libraw: DNG support
+librsvg: SVG support
+libtiff: TIFF support
+libultrahdr: UHDR support
+libwebp: WEBP support
+libwmf: WMF support
+libzip: OpenRaster support
+ocl-icd: OpenCL support
+openexr: OpenEXR support
+openjpeg2: JPEG2000 support
+djvulibre: DJVU support
+pango: Text rendering
+
+%MAKEDEPENDS%
+chrpath
+djvulibre
+ghostscript
+glu
+jbigkit
+libheif
+libjpeg-turbo
+libjxl
+libraw
+librsvg
+libultrahdr
+libwebp
+libwmf
+libzip
+ocl-icd
+opencl-headers
+openexr
+openjpeg2
+
+%CHECKDEPENDS%
+gsfonts
+ttf-dejavu
+
