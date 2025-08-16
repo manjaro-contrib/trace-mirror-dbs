@@ -1,0 +1,57 @@
+%FILENAME%
+jellyfin-server-10.10.7-2-x86_64.pkg.tar.zst
+
+%NAME%
+jellyfin-server
+
+%BASE%
+jellyfin-server
+
+%VERSION%
+10.10.7-2
+
+%DESC%
+Jellyfin server backend
+
+%CSIZE%
+17176373
+
+%ISIZE%
+58719043
+
+%SHA256SUM%
+8a6f4ad285155f295daec14dc18ea3403113121b984d2ca2c6b299c52489bf0d
+
+%PGPSIG%
+iHUEABYKAB0WIQQytdrGUYq7eNTFccZhXFHdyrhOtwUCaKBh0QAKCRBhXFHdyrhOtyuZAQCKNfT30pttYXHpv3LbTKXjimA0iojgl7DRhOkvAf+vCwEAm1RNQDqhVlrwRxojn/CfKbouNRFWxF3Co14FVAkeWQw=
+
+%URL%
+https://jellyfin.org
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1755341166
+
+%PACKAGER%
+Giovanni Harting <anonfunc@archlinux.org>
+
+%DEPENDS%
+aspnet-runtime-8.0
+bash
+sqlite
+fontconfig
+jellyfin-ffmpeg
+
+%OPTDEPENDS%
+jellyfin-web: to run web-app on the same machine
+noto-fonts: for text titles in library folders
+
+%MAKEDEPENDS%
+git
+dotnet-sdk-8.0
+
