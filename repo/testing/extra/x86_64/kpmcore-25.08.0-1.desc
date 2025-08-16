@@ -1,0 +1,73 @@
+%FILENAME%
+kpmcore-25.08.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+kpmcore
+
+%BASE%
+kpmcore
+
+%VERSION%
+25.08.0-1
+
+%DESC%
+Library for managing partitions
+
+%CSIZE%
+775309
+
+%ISIZE%
+4643784
+
+%MD5SUM%
+4791b5a22964cb9d967937f1532e2441
+
+%SHA256SUM%
+5bee862c3f1b02b4a88bc6754b5a7e3cf3323eea5ff2e131942479b6e32ea25b
+
+%PGPSIG%
+iHUEABYKAB0WIQSP5qfUzELIPJvMqOMtoqzD7OTc5gUCaJ/FkAAKCRAtoqzD7OTc5p8/AP9pHzfjYFV8EL9ydvQlyqy2vXiuUxaINLJH52oaVsl7pQD7BL4j6NPKPrf//MYMIdHwzDlNlERRnbCbNbhrv2xykgk=
+
+%URL%
+https://apps.kde.org/partitionmanager/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1755186792
+
+%PACKAGER%
+Tomaz Canabrava <tcanabrava@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+kcoreaddons
+ki18n
+kwidgetsaddons
+polkit-qt6
+qt6-base
+smartmontools
+util-linux-libs
+
+%OPTDEPENDS%
+bcachefs-tools: BCacheFS support
+dosfstools: FAT32 support
+e2fsprogs: ext2/3/4 support
+exfat-utils: exFAT support
+exfatprogs: exFAT support (alternative to exfat-utils)
+f2fs-tools: F2FS support
+fatresize: FAT resize support
+jfsutils: JFS support
+nilfs-utils: nilfs support
+ntfs-3g: NTFS support
+udftools: UDF support
+xfsprogs: XFS support
+
+%MAKEDEPENDS%
+extra-cmake-modules
+
