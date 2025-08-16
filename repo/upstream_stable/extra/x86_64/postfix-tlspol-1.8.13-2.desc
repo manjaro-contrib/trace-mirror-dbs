@@ -1,0 +1,53 @@
+%FILENAME%
+postfix-tlspol-1.8.13-2-x86_64.pkg.tar.zst
+
+%NAME%
+postfix-tlspol
+
+%BASE%
+postfix-tlspol
+
+%VERSION%
+1.8.13-2
+
+%DESC%
+Lightweight MTA-STS + DANE/TLSA resolver and TLS policy server for Postfix, prioritizing DANE
+
+%CSIZE%
+2696372
+
+%ISIZE%
+7737369
+
+%SHA256SUM%
+006a36b53c0d498e80b569c917bae6a067258557761a38531892d29638d43116
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmihBhEACgkQ/cMEC5Ksp0iWLBAAs5whUGjguzW4g47doyXzogbyrr3rT/xfepZaLuQbfGnBp3pykS7LPPOeVoIXXN5rU/30SGd1Sd5LAm0Vhv5Zs90dtgaCUbJq6e4gS/yWcx1p+Sn15x1cETzv69FA2LKRboDZ296Lfv3OI0UtSLZX1+xsTRVBz4it71tpM4EbFb3M92gnGCDtSBVsJsO7/T2EqxY2VLNeTKGxUecnfDZ4rVFO64ZO8G2c9O5KRKLfznWCO9gwlwr276F+056QlPtvCs6dy6lq8tjLJ6gdXO6Uksw8eu/KCkENoJqu2RzeFmFssAQg4uTgB7cO6GWJIHS3yc59VDqjujwJuWz/1hwEgoxGCMOGP6JSNz6nV/oq+8NbTg85wH/tGkIMRc0eiij7c8TMhCjjRxl6U6U7jwKFipMaYXLbsEfzJmChQHPUp4cqsNDZhSKU9dB+zkHYgu2gDbGB86IPYydQQLJoH1HMpw4/B6xLRNZSnYdseuHGIlJQrMhpe8v4xNgSsK699qBKkE2ujsptha50FLqXCYS6feJBLnZOGExnfPo6t/T27XqntiXnuRWytOPd6TqbOvNMIXM+qzHznDYkCpJmSt9RoSvvyZkm6JR8xxRD6EroVIdhPaC4g6o63enrEPUulDljYdr4zRdkUyG2MAHWgBXzYSLtBrH6jj4BM9Gan50DTqQ=
+
+%URL%
+https://github.com/Zuplu/postfix-tlspol
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1755383233
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+glibc
+postfix
+
+%OPTDEPENDS%
+less: for dump formatting
+jq: for query formatting
+
+%MAKEDEPENDS%
+go
+
