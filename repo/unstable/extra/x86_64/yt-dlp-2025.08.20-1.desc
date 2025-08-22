@@ -1,0 +1,76 @@
+%FILENAME%
+yt-dlp-2025.08.20-1-any.pkg.tar.zst
+
+%NAME%
+yt-dlp
+
+%BASE%
+yt-dlp
+
+%VERSION%
+2025.08.20-1
+
+%DESC%
+A youtube-dl fork with additional features and fixes
+
+%CSIZE%
+5178856
+
+%ISIZE%
+32984225
+
+%MD5SUM%
+a39d4cd09f0e942f12706cbc828371bc
+
+%SHA256SUM%
+cc48b28406e2e76745e974dd65ac8435a12f34597c3249d60a5b9a53e5b0c828
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCaKijRwAKCRDylr3lA2jGztN0AP9H/I/dJ8T48SsiPBN+5nm2Df4ObL4egpQZhcDmq0jTOQD+M3pqJJj0Pxm+DEghXiTc5W/1Dy2th6Dmx4iA3mmFfQc=
+
+%URL%
+https://github.com/yt-dlp/yt-dlp
+
+%LICENSE%
+Unlicense
+
+%ARCH%
+any
+
+%BUILDDATE%
+1755882145
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%DEPENDS%
+python
+python-certifi
+python-requests
+python-urllib3
+
+%OPTDEPENDS%
+ffmpeg: for video post-processing
+rtmpdump: for rtmp streams support
+atomicparsley: for embedding thumbnails into m4a files
+aria2: for using aria2 as external downloader
+python-mutagen: for embedding thumbnail in certain formats
+python-pycryptodome: for decrypting AES-128 HLS streams and various other data
+python-pycryptodomex: for decrypting AES-128 HLS streams and various other data
+python-websockets: for downloading over websocket
+python-brotli: brotli content encoding support
+python-brotlicffi: brotli content encoding support
+python-xattr: for writing xattr metadata
+python-pyxattr: for writing xattr metadata (alternative option)
+phantomjs: for extractors with javascript code
+python-secretstorage: For -cookies-from-browser to access the GNOME keyring while decrypting cookies of Chromium-based browsers
+
+%MAKEDEPENDS%
+pandoc
+python-build
+python-hatchling
+python-installer
+
+%CHECKDEPENDS%
+python-pytest
+
