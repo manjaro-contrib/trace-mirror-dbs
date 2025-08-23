@@ -1,0 +1,23 @@
+%DEPENDS%
+rpcbind
+nfsidmap
+gssproxy
+libevent
+device-mapper
+libxml2
+libtirpc
+e2fsprogs
+keyutils
+util-linux-libs
+libnl
+krb5
+libcap
+gcc-libs
+glibc
+sh
+readline
+
+%OPTDEPENDS%
+sqlite: for nfsdcltrack and fsidd usage
+python: for rpcctl, nfsiostat, nfsdclnts and mountstats usage
+
