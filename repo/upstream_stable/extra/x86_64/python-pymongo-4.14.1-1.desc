@@ -1,0 +1,74 @@
+%FILENAME%
+python-pymongo-4.14.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-pymongo
+
+%BASE%
+python-pymongo
+
+%VERSION%
+4.14.1-1
+
+%DESC%
+The official MongoDB Python driver
+
+%CSIZE%
+934423
+
+%ISIZE%
+8548845
+
+%SHA256SUM%
+86d5fa8e4debf5554a1ea95a90372794f2f76c74a18d94e374983e6290fe63d7
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaKgREAAKCRDwXowSExrrXu+HAP9ubWNSMnpQHoMv2CGqWvH8gvHChTloJY+r0fA17Ca5hgEAhRh+1C942AGrmiv8T3JUKmzs7NCYscBl0+ZSz1yOFQI=
+
+%URL%
+https://github.com/mongodb/mongo-python-driver
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1755844781
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+python-dnspython
+
+%OPTDEPENDS%
+python-cryptography: for [ocsp]
+python-pyopenssl: for [ocsp]
+python-requests: for [ocsp]
+python-service-identity: for [ocsp]
+python-pykerberos: for [gssapi]
+python-snappy: for [snappy]
+python-zstandard: for [zstd]
+
+%MAKEDEPENDS%
+python-build
+python-hatch-requirements-txt
+python-hatchling
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pykerberos
+python-pyopenssl
+python-pytest
+python-pytest-asyncio
+python-requests
+python-service-identity
+python-snappy
+python-zstandard
+
