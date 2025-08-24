@@ -1,0 +1,75 @@
+%FILENAME%
+python-fonttools-4.59.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-fonttools
+
+%BASE%
+python-fonttools
+
+%VERSION%
+4.59.1-1
+
+%DESC%
+A library to manipulate font files from Python
+
+%CSIZE%
+2892814
+
+%ISIZE%
+20735558
+
+%MD5SUM%
+dd0f9c912c33bffebcfc70f25bded71b
+
+%SHA256SUM%
+cf12b85ee481df86b600dd721d2615ace232390c1b4c66374f0b0366170f4f15
+
+%PGPSIG%
+iQIzBAABCgAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmik0+8ACgkQqF6BHrTKLghyEBAAiB88El6mW4zTTDOpc4QXRrFWYTdCC16c8kq62mzAaU53pZ3S2tv30Fwk0l/0RlJ1G10lUiMjikky9SQIHHR5fAxf1dG2jS8yDD71Flt9c9lzz2O7AS3LSFtQyNxSFsA7sjLYyyiO+kQXofOpmiEsnUkVVCshOd+HcemiMph4jd/iwcAjAsrwTh2xOT/0gLqhYfu5RaSNgho/Phw0Xl/XSeG88M6vAmLnUuys1wjZHff3UNOThQ+CazS66wexpTdJz8UmFdLgcCLhP4ywYJBOWMGipH2qk3wrjAY7bKExubglbhzcnka9aY7Cp/xDn3GE9erm1AkM6hx5Vjn0GhB8yd6Cs68SMg4UtzwrybOdASbRzLdqmOG4VmCruKiTyRCPw+H7Tjhl6hcXkKYPFJReMfINp81bIdK0gFKxaAJt3nqfWUDgSKGZ+nxWkcQ0MDv7LLwDXMuTQzNk+SxRt4AYI9Z2VaXMb9+RJ+7q9y5zIR48hJaYh4MtzAIFdq/sjPpyMRJb45t9gnp9cC4bNwjqJZ3L+4Xh+A50Wg4QwwoL/wvNU+FIaFg3pNJsH/MQCvkIcO9Is5O/VtQs9mJIs2AEWnilVACFybVAjv7EsGZZaBVlT82PVgBkMnjICZ/XjXXXNnm+h86LP0VMBFU7xBfD2MhO2JqDSQyawv9/EilbrVM=
+
+%URL%
+https://github.com/fonttools/fonttools
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1755631988
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-brotli: to compress/decompress WOFF 2.0 web fonts
+python-fs: to read/write UFO source files
+python-lxml: faster backend for XML files reading/writing
+python-lz4: for graphite type tables in ttLib/tables
+python-matplotlib: for visualizing DesignSpaceDocument and resulting VariationModel
+python-pyqt5: for drawing glyphs with Qt’s QPainterPath
+python-reportlab: to drawing glyphs as PNG images
+python-scipy: for finding wrong contour/component order between different masters
+python-sympy: for symbolic font statistics analysis
+python-uharfbuzz: to use the Harfbuzz Repacker for packing GSUB/GPOS tables
+python-unicodedata2: for displaying the Unicode character names when dumping the cmap table with ttx
+python-zopfli: faster backend fom WOFF 1.0 web fonts compression
+
+%MAKEDEPENDS%
+cython
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-brotli
+python-fs
+python-pytest
+python-ufolib2
+
