@@ -1,0 +1,23 @@
+%DEPENDS%
+gcc-libs
+glibc
+gnutls
+libcamera-ipa
+libelf
+libpisp
+libunwind
+libyaml
+libyuv
+sh
+systemd-libs
+libudev.so=1-64
+
+%PROVIDES%
+libcamera.so=0.5-64
+libcamera-base.so=0.5-64
+
+%OPTDEPENDS%
+gst-plugin-libcamera: GStreamer plugin
+libcamera-docs: for documentation
+libcamera-tools: for applications
+
