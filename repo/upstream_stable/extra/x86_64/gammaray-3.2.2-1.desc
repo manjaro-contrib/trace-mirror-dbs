@@ -1,0 +1,70 @@
+%FILENAME%
+gammaray-3.2.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+gammaray
+
+%BASE%
+gammaray
+
+%VERSION%
+3.2.2-1
+
+%DESC%
+A tool for examining the internals of a Qt application and to some extent also manipulate it
+
+%CSIZE%
+12241631
+
+%ISIZE%
+23743227
+
+%SHA256SUM%
+1dbea2a2ace7e73ec39cccddfafc2c4f694cffdb60999784afc6b051e56f0c35
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmisMOwACgkQek52CV2KUuTjeggAhjDVyNoQg5TBjiXYt0eLKQSDxoFS8imv0T0qyVCu82Mdz5ktCJjbwHAIZQ077aONiKnavqp4aeHswFpcTGDH5so8SPJnH4FMgLpRNJkPKI53WWvq57ucGtDYzbaKpzdgsgia85pywsuTig7GBS5GhONNUgWchz18Cf7NLG1iN0ubA9OnwkmncCLssDl/YbWR4ZX4eCRN7U8IUl4uWbZzCnC96Q3G/cVvz75y4Oieq2sMfEE4Fa+quwXkiL53NbvGnz3Fbhij+RwMQYqzVTuXCuTNKxGCKvNzmORqK7RKO0uGN09kwRKUvf5BIpK5EtfoVVMRiKaQL5dDTv2Ew6IKVg==
+
+%URL%
+https://www.kdab.com/gammaray/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1756115017
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+libelf
+qt6-base
+qt6-svg
+qt6-tools
+syntax-highlighting
+
+%OPTDEPENDS%
+qt6-declarative: QML support
+qt6-positioning: Qt Positioning support
+qt6-scxml: state machine viewer plugin
+qt6-wayland: Wayland compositor inspector plugin
+qt6-webengine: web inspector plugin
+qt6-connectivity: bluetooth plugin
+
+%MAKEDEPENDS%
+cmake
+doxygen
+git
+qt6-connectivity
+qt6-location
+qt6-scxml
+qt6-shadertools
+qt6-wayland
+qt6-webengine
+
