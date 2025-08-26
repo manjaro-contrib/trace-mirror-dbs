@@ -1,0 +1,18 @@
+%DEPENDS%
+gcc-libs
+glib2
+glibc
+gtk3
+libnm
+libnma
+libsecret
+openssl
+networkmanager-vpn-plugin-l2tp=1.20.20-4
+
+%CONFLICTS%
+networkmanager-l2tp-gtk3
+networkmanager-l2tp-gtk4
+
+%OPTDEPENDS%
+libnma-gtk4: GUI support (GTK 4)
+
