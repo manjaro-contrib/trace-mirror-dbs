@@ -1,0 +1,84 @@
+%FILENAME%
+python-falcon-4.1.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-falcon
+
+%BASE%
+python-falcon
+
+%VERSION%
+4.1.0-1
+
+%DESC%
+Web API framework for fast and reliable microservices, proxies, and app backends
+
+%CSIZE%
+529637
+
+%ISIZE%
+3574716
+
+%SHA256SUM%
+6e9154aae21cc8984572a231f61c91509d2e00f344f5ebbbe4630e0985454e40
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCaKtdewAKCRCbeih9mi7GCPw2AP4/6P2j07k25gnmwYZd20yrGGGCSSAyuykVqGBbOPlXrwD+PEI4LTzsHz8Tg9QHCHVkMYE55fd//hw+LaHX0O0JjAs=
+
+%URL%
+https://falconframework.org/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1756059650
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+
+%OPTDEPENDS%
+python-bottle: for falcon-bench
+python-django: for falcon-bench
+python-flask: for falcon-bench
+python-jsonschema: for JSON schema validation
+python-msgpack: for MessagePackHandler
+python-pecan: for falcon-bench
+python-pprofile: for falcon-bench
+
+%MAKEDEPENDS%
+cython
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+gunicorn
+hypercorn
+python-aiofiles
+python-cbor2
+python-httpx
+python-jsonschema
+python-mimeparse
+python-msgpack
+python-mujson
+python-orjson
+python-pecan
+python-pytest
+python-pytest-asyncio
+python-pyyaml
+python-rapidjson
+python-requests
+python-testtools
+python-ujson
+python-websockets
+uvicorn
+
