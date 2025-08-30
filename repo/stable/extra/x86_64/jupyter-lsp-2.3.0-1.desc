@@ -1,0 +1,78 @@
+%FILENAME%
+jupyter-lsp-2.3.0-1-any.pkg.tar.zst
+
+%NAME%
+jupyter-lsp
+
+%BASE%
+jupyter-lsp
+
+%VERSION%
+2.3.0-1
+
+%DESC%
+Multi-Language Server WebSocket proxy for Jupyter Notebook/Lab server.
+
+%CSIZE%
+86629
+
+%ISIZE%
+445065
+
+%MD5SUM%
+a70f008989de9724fc10a269405fa6dc
+
+%SHA256SUM%
+96863d95ba32e56165d4a5ccce761ac01463418619f9503c5fdcf3b567c9d19e
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaK9f5wAKCRAAHPSBC+jZETMwAP4zRJ/jl/2txmYHZTgIQl69z1O81POHQoTedJhE6zNpKgD9FzuAcaofSV93KFSaiwe+lM9Lk7sB1Cdy2n51JT/pAA8=
+
+%URL%
+https://github.com/jupyter-lsp/jupyterlab-lsp
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1756323742
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python
+jupyter-server
+
+%OPTDEPENDS%
+bash-language-server: Bash language server
+jedi-language-server: Jedi language server
+pyright: Python type checker
+python-lsp-server: Python language server
+texlab: LaTeX language server
+typescript-language-server: TypeScript language server
+vscode-css-languageserver: CSS/LESS/SCSS language server
+vscode-html-languageserver: HTML language server
+vscode-json-languageserver: JSON language server
+yaml-language-server: YAML language server
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-asyncio
+bash-language-server
+jedi-language-server
+pyright
+python-lsp-server
+texlab
+typescript-language-server
+yaml-language-server
+
