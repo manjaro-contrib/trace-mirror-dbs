@@ -1,0 +1,63 @@
+%FILENAME%
+forgejo-12.0.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+forgejo
+
+%BASE%
+forgejo
+
+%VERSION%
+12.0.2-1
+
+%DESC%
+A lightweight software forge
+
+%CSIZE%
+36716642
+
+%ISIZE%
+108029084
+
+%SHA256SUM%
+3161c8d47c0e7c403141f0289d37278873449d487e1224e93df88e15a657eb19
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaLaqgAAKCRDglZ/qi1UFOV1BAP9UinQUeyfX3fuYY9FkRQiYn95liNubxiW7wLDYMydJKAD6AtUm+es8PXi468JudQIwf2IQ7v5dujqnf/1aAd6DYAQ=
+
+%URL%
+https://forgejo.org
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1756801073
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+glibc
+git
+
+%OPTDEPENDS%
+mariadb: MariaDB support
+memcached: MemCached support
+openssh: GIT over SSH support
+pam: Authentication via PAM support
+postgresql: PostgreSQL support
+valkey: Redis support
+sqlite: SQLite support
+
+%MAKEDEPENDS%
+go
+nodejs
+npm
+
+%CHECKDEPENDS%
+openssh
+
