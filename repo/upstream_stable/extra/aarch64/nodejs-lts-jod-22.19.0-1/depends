@@ -1,0 +1,19 @@
+%DEPENDS%
+openssl
+zlib
+icu
+libuv
+c-ares
+brotli
+libnghttp2
+
+%CONFLICTS%
+nodejs
+
+%PROVIDES%
+nodejs=22.19.0
+nodejs-lts
+
+%OPTDEPENDS%
+npm: nodejs package manager
+

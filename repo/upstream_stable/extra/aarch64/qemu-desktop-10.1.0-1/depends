@@ -1,0 +1,75 @@
+%DEPENDS%
+qemu-base=10.1.0-1
+qemu-audio-alsa=10.1.0-1
+qemu-audio-dbus=10.1.0-1
+qemu-audio-jack=10.1.0-1
+qemu-audio-oss=10.1.0-1
+qemu-audio-pa=10.1.0-1
+qemu-audio-pipewire=10.1.0-1
+qemu-audio-sdl=10.1.0-1
+qemu-audio-spice=10.1.0-1
+qemu-block-curl=10.1.0-1
+qemu-block-dmg=10.1.0-1
+qemu-block-nfs=10.1.0-1
+qemu-block-ssh=10.1.0-1
+qemu-chardev-spice=10.1.0-1
+qemu-hw-display-qxl=10.1.0-1
+qemu-hw-display-virtio-gpu=10.1.0-1
+qemu-hw-display-virtio-gpu-gl=10.1.0-1
+qemu-hw-display-virtio-gpu-rutabaga=10.1.0-1
+qemu-hw-display-virtio-gpu-pci=10.1.0-1
+qemu-hw-display-virtio-gpu-pci-gl=10.1.0-1
+qemu-hw-display-virtio-gpu-pci-rutabaga=10.1.0-1
+qemu-hw-display-virtio-vga=10.1.0-1
+qemu-hw-display-virtio-vga-gl=10.1.0-1
+qemu-hw-display-virtio-vga-rutabaga=10.1.0-1
+qemu-hw-uefi-vars=10.1.0-1
+qemu-hw-usb-host=10.1.0-1
+qemu-hw-usb-redirect=10.1.0-1
+qemu-hw-usb-smartcard=10.1.0-1
+qemu-ui-curses=10.1.0-1
+qemu-ui-dbus=10.1.0-1
+qemu-ui-egl-headless=10.1.0-1
+qemu-ui-gtk=10.1.0-1
+qemu-ui-opengl=10.1.0-1
+qemu-ui-sdl=10.1.0-1
+qemu-ui-spice-app=10.1.0-1
+qemu-ui-spice-core=10.1.0-1
+qemu-vhost-user-gpu=10.1.0-1
+qemu-system-aarch64=10.1.0-1
+
+%PROVIDES%
+qemu=10.1.0
+
+%OPTDEPENDS%
+qemu-user-static: for static user mode emulation of QEMU targets
+samba: for SMB/CIFS server support
+qemu-block-gluster: for Gluster block driver
+qemu-block-iscsi: for iSCSI block driver
+qemu-chardev-baum: for Baum chardev driver
+qemu-docs: for documentation
+qemu-emulators-full: for all system emulators
+qemu-full: for a full QEMU installation
+qemu-hw-s390x-virtio-gpu-ccw: for s390x-virtio-gpu-ccw display device
+qemu-pr-helper: for persistent reservation utility
+qemu-system-aarch64: for AARCH64 system emulator
+qemu-system-alpha: for Alpha system emulator
+qemu-system-arm: for ARM system emulator
+qemu-system-avr: for AVR system emulator
+qemu-system-hppa: for HPPA system emulator
+qemu-system-m68k: for ColdFire (m68k) system emulator
+qemu-system-microblaze: for Microblaze system emulator
+qemu-system-mips: for MIPS system emulator
+qemu-system-or1k: for OpenRisc32 system emulator
+qemu-system-ppc: for PPC system emulator
+qemu-system-riscv: for RISC-V system emulator
+qemu-system-rx: for RX system emulator
+qemu-system-s390x: for S390 system emulator
+qemu-system-sh4: for SH4 system emulator
+qemu-system-sparc: for SPARC system emulator
+qemu-system-tricore: for tricore system emulator
+qemu-system-xtensa: for Xtensa system emulator
+qemu-tests: for QEMU tests
+qemu-tools: for QEMU tools
+qemu-user: for user mode emulation of QEMU targets
+
