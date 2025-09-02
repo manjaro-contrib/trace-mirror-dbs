@@ -1,0 +1,80 @@
+%FILENAME%
+linux-firmware-meta-20250808-2-any.pkg.tar.zst
+
+%NAME%
+linux-firmware-meta
+
+%BASE%
+linux-firmware
+
+%VERSION%
+20250808-2
+
+%DESC%
+Firmware files for Linux - Default set (Meta Package)
+
+%CSIZE%
+2614
+
+%ISIZE%
+0
+
+%MD5SUM%
+16118e600d377044a0f6c682d78297f2
+
+%SHA256SUM%
+e3485fdec6b808e24a0abb3e69a347ffe2a346b80653b5e2219cac9884a8af14
+
+%PGPSIG%
+iQFGBAABCgAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmiz+lQSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+v5MH/2sPqWxDpBQy/VFV/BZq/hE7j6+cszuFS4NARcKlEmxLGOg1bRUzmbBD8iOxJtqh9Tse/Gcm9sGB+0iJPseP8BxiFisD4aCC0eWCQaqBXMGrrqUml6WLXv3rEau8oE9ejnL5KPxK1qYMOm2HTF/i1gmjVNYk0gaKlFD0Mtmp/OKfjK8/NBy/0q70ftIzBtY9lwKDvKAs5qQgRy3VYss1/Uvi3A+Za9oTycAdvHdZCMqGF+AEl4RHjvNPo11cedoP+RVQYVp9k/zyWZIDkgDAFZ+Hl4M9IwEJIg5/c2e8RSJsfRScypRZh3HssbL+2fcUOBzkLVd3CI1fjVH4iXoRI3g=
+
+%URL%
+https://gitlab.com/kernel-firmware/linux-firmware
+
+%LICENSE%
+CC0-1.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1756624984
+
+%PACKAGER%
+Philip Mueller <philm@manjaro.org>
+
+%REPLACES%
+linux-firmware
+
+%CONFLICTS%
+linux-firmware
+
+%PROVIDES%
+linux-firmware=20250808-2
+
+%DEPENDS%
+linux-firmware-amdgpu
+linux-firmware-atheros
+linux-firmware-broadcom
+linux-firmware-cirrus
+linux-firmware-intel
+linux-firmware-mediatek
+linux-firmware-nvidia
+linux-firmware-other
+linux-firmware-radeon
+linux-firmware-realtek
+
+%OPTDEPENDS%
+linux-firmware-liquidio: Firmware for Cavium LiquidIO server adapters
+linux-firmware-marvell: Firmware for Marvell devices
+linux-firmware-mellanox: Firmware for Mellanox Spectrum switches
+linux-firmware-nfp: Firmware for Netronome Flow Processors
+linux-firmware-qcom: Firmware for Qualcomm SoCs
+linux-firmware-qlogic: Firmware for QLogic devices
+
+%MAKEDEPENDS%
+git
+parallel
+python
+rdfind
+
