@@ -1,32 +1,32 @@
 %FILENAME%
-systemd-sysvcompat-257.8-4-x86_64.pkg.tar.zst
+systemd-tests-257.9-1-x86_64.pkg.tar.zst
 
 %NAME%
-systemd-sysvcompat
+systemd-tests
 
 %BASE%
 systemd
 
 %VERSION%
-257.8-4
+257.9-1
 
 %DESC%
-sysvinit compat for systemd
+systemd tests
 
 %CSIZE%
-6810
+6914750
 
 %ISIZE%
-2707
+23705720
 
 %MD5SUM%
-a1175c75b592aad7e047aed41c579282
+2de34f54b896f961116b77f23445f2cc
 
 %SHA256SUM%
-31839b248f077f606a6b6053728858837fe0943990366a247c3964fe34bff342
+ad767d1ffe14215160313bbeebcbed7a0bf9e5a95f1c8b1861bca82acc97aefd
 
 %PGPSIG%
-iQFGBAABCgAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmifZfMSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+SawH/0Npx3Wul5XqOdy7uD8jRe9BZlIApypGPaCCJr9pl1FlQ9WJdO0C4b4aqKI203g1n3SFn5OJTclSRHW24X6STs3QleI5hgcppWnso9XrGILix2UTgZ34x1l6fGN6k8wyM1VGvgUbYpWlGzv+vrxyJZh7j7gi9d+zyHcpS3m/rT1KQ1SfmrqjkJFZqBd8JBQKlthK2poAEmECOvVaeVMO4oWM8ygJg9Tggo4TEbFLqHsZwOMFcmq2JJEcZp0A2xOjZq/ofuFDptPtc1q9OavL4Y8pHQj0KoPdyKAT6vATz0KQAKeJXV4H6crGX4GpBmLWewtOZu7I+3NRA/HRx42HIKw=
+iQFGBAABCgAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmi5oOMSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B++U0IAICnbSpxCxAY/Etav0suO+uoFHUFC14WTq9LbSPdKvmFDGOL5whrMhWR8FhAPXxSU5RKKiFkGM74ftoKPO4CBcTolobrDTl3k+Klr8BPBTz4/ZqGBm9fTccRDj8VrSkjVE2snyLUC1bvhSVjkOwhIwDJRBaovI+hXdKSa6qP+f3LSey5rA/mQiXU3SNfCq8r5JEUdRJdniUBBzYHuPpuFN2to1XBT7S62/bIJ712JsZdYFZ1shPUABD9+zPWdoC/YviDRbcNzRaXTZfwX/yRQR5S1cAmRTsygoArd7IJG9+RTYHRGucR6VDSWC2BSFz8cXy5lUA0yYjlFDLIgnjRjuo=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -38,16 +38,16 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1755276538
+1756995542
 
 %PACKAGER%
 Philip Mueller <philm@manjaro.org>
 
 %CONFLICTS%
-sysvinit
+mkinitcpio<38-1
 
 %DEPENDS%
-systemd=257.8
+systemd=257.9
 
 %MAKEDEPENDS%
 acl
@@ -98,5 +98,5 @@ libpwquality
 qrencode
 lib32-gcc-libs
 python-pefile
-linux615-headers
+linux616-headers
 
