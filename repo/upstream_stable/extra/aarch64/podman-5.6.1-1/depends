@@ -1,0 +1,24 @@
+%DEPENDS%
+catatonit
+conmon
+containers-common
+oci-runtime
+gcc-libs
+glibc
+iptables
+gpgme
+libgpgme.so=45-64
+libseccomp
+libseccomp.so=2-64
+passt
+shadow
+sqlite
+
+%OPTDEPENDS%
+apparmor: for AppArmor support
+btrfs-progs: support btrfs backend devices
+fuse-overlayfs: for deprecated storage driver in rootless environment
+slirp4netns: for alternative rootless network support
+podman-compose: for docker-compose compatibility
+podman-docker: for Docker-compatible CLI
+
