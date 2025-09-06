@@ -1,0 +1,95 @@
+%FILENAME%
+grub-2:2.12.r359.g19c698d12-1-x86_64.pkg.tar.zst
+
+%NAME%
+grub
+
+%BASE%
+grub
+
+%VERSION%
+2:2.12.r359.g19c698d12-1
+
+%DESC%
+GNU GRand Unified Bootloader (2)
+
+%CSIZE%
+7663920
+
+%ISIZE%
+40100562
+
+%SHA256SUM%
+c31c9aca8e34f4ad99f8319a032ce39b9e8dabaeeb78b4b299618c7ae5f771f8
+
+%PGPSIG%
+iQEzBAABCgAdFiEEW34/txt/EDKaHAOrdx32Yn7faB8FAmi5MooACgkQdx32Yn7faB/kpgf7BktAp2eVcqtDeRsDqvCPX04tCKh+JBkxHcyvNNbBr/o9Z+OXt9Le1Ixd+Z8YA75Wgh3JCNDz7p6Bq2VVvheIrHZpNKyGPAKY72vn3GwCoyHoKD4nbtP9BW0GI6Csic5bMWUQmQ5ghzEg8FLre7TOaNI1UqG0ktt4ZnbtG6ziS/fRGfTeczbayEq0vf0i4wtYU/DPoDrPn/spkQqX4TJqrYzJt4BMHuzCoAkpKND22nbM87WT6/IawPz5IIetUAsc/vEFQKOJdk3mdqZ8hYX5SYScvHXmjGVtc7zpeIOE4LzPMggISmmxJmqZOBducm6R17EenrMBkhIchgqvAqpwtw==
+
+%URL%
+https://www.gnu.org/software/grub/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1756966515
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%REPLACES%
+grub-common
+grub-bios
+grub-emu
+grub-efi-x86_64
+
+%CONFLICTS%
+grub-bios
+grub-common
+grub-efi-x86_64
+grub-emu
+grub-legacy
+
+%PROVIDES%
+grub-bios
+grub-common
+grub-efi-x86_64
+grub-emu
+
+%DEPENDS%
+device-mapper
+gettext
+sh
+xz
+
+%OPTDEPENDS%
+dosfstools: For grub-mkrescue FAT FS and EFI support
+efibootmgr: For grub-install EFI support
+freetype2: For grub-mkfont usage
+fuse3: For grub-mount usage
+libisoburn: Provides xorriso for generating grub rescue iso using grub-mkrescue
+libusb: For grub-emu USB support
+lzop: For grub-mkrescue LZO support
+mtools: For grub-mkrescue FAT FS support
+os-prober: To detect other OSes when generating grub.cfg in BIOS systems
+sdl: For grub-emu SDL support
+
+%MAKEDEPENDS%
+autogen
+device-mapper
+freetype2
+fuse3
+gettext
+git
+help2man
+libusb
+python
+rsync
+sdl
+texinfo
+ttf-dejavu
+xz
+
