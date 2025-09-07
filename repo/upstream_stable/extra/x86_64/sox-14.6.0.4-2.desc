@@ -1,0 +1,83 @@
+%FILENAME%
+sox-14.6.0.4-2-x86_64.pkg.tar.zst
+
+%NAME%
+sox
+
+%BASE%
+sox
+
+%VERSION%
+14.6.0.4-2
+
+%DESC%
+The Swiss Army knife of sound processing tools
+
+%CSIZE%
+466303
+
+%ISIZE%
+1076216
+
+%SHA256SUM%
+df3da2a62ada23766d9464028bfd8543a201d60b304a85739c9d5f5a1c84032f
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCaLr2aAAKCRDylr3lA2jGzhx2AP9saWKTBaVTpMMBusULao/88+bkDndME9YAjh7SA7lKPgEA5BQISRrdfjHUw+fhHMnWNLqN4UJlUX9ZLxBvkK0EAAQ=
+
+%URL%
+https://codeberg.org/sox_ng/sox_ng/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1757082956
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%PROVIDES%
+libsox.so
+
+%DEPENDS%
+ffmpeg
+file
+gcc-libs
+gsm
+libao
+libid3tag
+libltdl
+libmad
+libpng
+opusfile
+twolame
+wavpack
+zlib
+
+%OPTDEPENDS%
+alsa-lib: alsa plugin
+flac: flac plugin
+lame: mp3 plugin
+libpulse: pulse plugin
+libsndfile: caf, fap, mat4, mat5, paf, pvf, sd2, sndfile, w64 and xi plugins
+libvorbis: vorbis plugin
+opencore-amr: amr_nb and amr_wb plugins
+
+%MAKEDEPENDS%
+alsa-lib
+autoconf-archive
+flac
+git
+lame
+libpulse
+libsndfile
+libvorbis
+opencore-amr
+
+%CHECKDEPENDS%
+time
+
