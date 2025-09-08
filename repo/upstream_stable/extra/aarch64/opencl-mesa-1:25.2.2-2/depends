@@ -1,0 +1,24 @@
+%DEPENDS%
+clang
+expat
+gcc-libs
+glibc
+libdrm
+libelf
+llvm-libs
+spirv-llvm-translator
+spirv-tools
+zlib
+zstd
+libclc
+
+%CONFLICTS%
+opencl-clover-mesa
+opencl-rusticl-mesa
+
+%PROVIDES%
+opencl-driver
+
+%OPTDEPENDS%
+opencl-headers: headers necessary for OpenCL development
+
