@@ -1,0 +1,83 @@
+%FILENAME%
+apache-2.4.65-3-x86_64.pkg.tar.zst
+
+%NAME%
+apache
+
+%BASE%
+apache
+
+%VERSION%
+2.4.65-3
+
+%DESC%
+A high performance Unix-based HTTP server
+
+%CSIZE%
+1754943
+
+%ISIZE%
+6722287
+
+%MD5SUM%
+697f7d47e5f061d41b9404d2e0153c75
+
+%SHA256SUM%
+5d90a61e557af6fa2b358ff5942ea9cdb482b5c2d13b9be135e6cc9a8f6aa58a
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaMGERQAKCRBtQr3RFuAGj02cAP4xhRDOyax6oKthVVsazzuSNC7CHmHF/E92m7UOQ6wT2AD8DoeT6FsCEqUMBOILqaPLknG0lkL8sOmqZZ0U1W7eggs=
+
+%URL%
+https://www.apache.org/dist/httpd
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1757512635
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%REPLACES%
+mod_proxy_uwsgi
+
+%CONFLICTS%
+mod_proxy_uwsgi
+
+%PROVIDES%
+mod_proxy_uwsgi
+
+%DEPENDS%
+zlib
+apr-util
+pcre2
+libnghttp2
+openssl
+libxcrypt
+
+%OPTDEPENDS%
+lua: for mod_lua module
+libxml2: for mod_proxy_html, mod_xml2enc modules
+curl: for mod_md module
+jansson: for mod_md module
+brotli: for mod_brotli module
+uwsgi: for mod_proxy_uwsgi module
+lynx: apachectl status
+perl: for apxs and dbmmanage
+systemd-libs: for mod_systemd module
+logrotate: for rotating logs
+
+%MAKEDEPENDS%
+libxml2
+lua
+curl
+brotli
+jansson
+db
+systemd
+
