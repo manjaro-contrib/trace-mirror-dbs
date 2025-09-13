@@ -1,0 +1,61 @@
+%FILENAME%
+libnbd-1.22.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+libnbd
+
+%BASE%
+libnbd
+
+%VERSION%
+1.22.4-1
+
+%DESC%
+NBD client library in userspace
+
+%CSIZE%
+789540
+
+%ISIZE%
+1932458
+
+%SHA256SUM%
+6711c7e6aa4256b21313366b077a295fca3e0e8184caed7a5eff70de6fc80d36
+
+%PGPSIG%
+iQIzBAABCgAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmjEuqEACgkQOeS4d+YuuRXfvA//axcnNB4mAKDMFeeg2mBgUtW4Sq9I4lju9SFHeKLmXHDgIcJ5kzzjpza+ZrWcA/EopA/ijlB93dhV/KovZP8dA4t7OTlQaCuBfNO+7W+3JgVgoAcXTmWD2Xlms+A983K8CNdbFFcdGX4s3SrOHcclRRywlvpGwHfhHgzmD6tDmK5A7RmAhL+pFNHgao8QMioJXZAR+sZcqackn7y3T9Jf6ESBQVWdYpZ+aAeT1XVRvCrHPj/iXM1/RgWIKljsAQb3SE+K2M5/ob33uv4VUuBj78ANONz0iwS+T5zwwr4n5sEqk3i8sdAjLacyfcKRsDLdjBKlMFZzYUJKjjrMmYvnyCIHrhID4oWIeFYr7ryN22OEjGeqB5vQabE1/uyiJnW4UmeX8NR9vKXUCA/uF56c4Ysb2PUncJnSm1oGMVXyyy0ksnmoOYOyuRhTKw5Yhpr64J48iDz9HjXCONedbqnOXnOso2+IBZsvxpsSYO5S+y9qT+H3MCh/luVXRyFbBkCSHx6pnDv03126mP0BZETlxL4/cZb6ZRykzPbOC+ehumcbgCkCg4I4G/xZ0WJWOvRgQ9JmbkxGMOo98J+lDdTtWoxYqex6YOoE6WwdgEHya1Uaw+U6hETggIMDNf5fgJHeVYG1RD0ZF+3AMOO63gjh4KdC9UeFZsByeocgivpILPY=
+
+%URL%
+https://gitlab.com/nbdkit/libnbd
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1757723120
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%DEPENDS%
+glibc
+gnutls
+libxml2
+
+%OPTDEPENDS%
+fuse3: For nbdfuse support
+ocaml: For OCaml bindings
+python>=3: For Python bindings
+
+%MAKEDEPENDS%
+perl
+ocamlbuild
+ocaml-findlib
+rust
+fuse3
+python
+go
+
