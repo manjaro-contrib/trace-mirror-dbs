@@ -1,0 +1,70 @@
+%FILENAME%
+nvidia-570xx-utils-570.190-1-x86_64.pkg.tar.zst
+
+%NAME%
+nvidia-570xx-utils
+
+%BASE%
+nvidia-570xx-utils
+
+%VERSION%
+570.190-1
+
+%DESC%
+NVIDIA 570xx drivers utilities
+
+%CSIZE%
+331462742
+
+%ISIZE%
+828777167
+
+%MD5SUM%
+86d9ef67abfca2e782c84e7df72e0d39
+
+%SHA256SUM%
+7e50faec74e5b7cbbbddc39d80a072030d8e1dbcb729f0445816672b1f870b86
+
+%PGPSIG%
+iQFGBAABCgAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmjE5FASHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+MJwH/R3/IsTOR+sm/EpgBrAhqbyOOw4YAAxa5vbQmH25pdVBzpzfH0pzQkELxOmDvOTeB1DugTs4QpMbqWXPZnF1o3B0RnA9a5GkA5eQ+E3wcQJkpU5ivK9yGEHNLpWMz31YZ5ZJWpkJM4Kl36Fw63At9PpuBF/sc5Y4u+vRfv0SMhHGgJ/RVhNdQLy6EOrFzMJ4jRZPVAbZCAfqbeKq1Z3aB4+mmmWMTJI6pic1TTjsERpCl1qkURJ5VYqd9HzfeUh+plKWR4Jlft7ec93kAws4FiZgaES6zeJGlfHIZjKrdMVrIEjlboA7Ow8ScPT4NxrAbXxFeIZEi7/n1ZxSZGc0P8s=
+
+%URL%
+http://www.nvidia.com/
+
+%LICENSE%
+LicenseRef-custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1757733837
+
+%PACKAGER%
+Philip Mueller <philm@manjaro.org>
+
+%CONFLICTS%
+nvidia-libgl
+nvidia-utils
+
+%PROVIDES%
+vulkan-driver
+opengl-driver
+nvidia-libgl
+nvidia-utils=570.190
+
+%DEPENDS%
+libglvnd
+egl-wayland
+egl-gbm
+egl-x11
+
+%OPTDEPENDS%
+nvidia-settings: configuration tool
+xorg-server: Xorg support
+xorg-server-devel: nvidia-xconfig
+opencl-nvidia=570.190: OpenCL support
+
+%MAKEDEPENDS%
+desktop-file-utils
+
