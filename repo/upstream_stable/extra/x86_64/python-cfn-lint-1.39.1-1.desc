@@ -1,0 +1,75 @@
+%FILENAME%
+python-cfn-lint-1.39.1-1-any.pkg.tar.zst
+
+%NAME%
+python-cfn-lint
+
+%BASE%
+python-cfn-lint
+
+%VERSION%
+1.39.1-1
+
+%DESC%
+CloudFormation Linter
+
+%CSIZE%
+1920504
+
+%ISIZE%
+37399748
+
+%SHA256SUM%
+893dc12ea218dbcfed146fe4f40f0da7de09cf78d33c4cc054e00b4d6687e257
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaL3QgAAKCRDwXowSExrrXv+zAP0ZgbZHHvaVjCBy9SGFk3I9p61eV2jOs0HF/S95QKSgDgD7B9IM+ZLkTPZUJ4GADg/Hvgrlp5sFJLhXlRDu6juadg4=
+
+%URL%
+https://github.com/aws-cloudformation/cfn-lint
+
+%LICENSE%
+MIT-0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1757269888
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-aws-sam-translator
+python-jsonpatch
+python-jsonpointer
+python-networkx
+python-regex
+python-sympy
+python-typing_extensions
+python-yaml
+
+%OPTDEPENDS%
+python-pydot: for building graphs from templates
+python-junit-xml: for junit formatter
+python-jschema-to-python: for sarif formatter
+python-sarif-om: for sarif formatter
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-defusedxml
+python-jschema-to-python
+python-junit-xml
+python-pydot
+python-pytest
+python-pytest-xdist
+python-sarif-om
+
