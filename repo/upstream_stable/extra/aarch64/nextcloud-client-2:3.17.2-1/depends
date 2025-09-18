@@ -1,0 +1,29 @@
+%DEPENDS%
+hicolor-icon-theme
+karchive
+kguiaddons
+libcloudproviders
+libp11
+openssl
+qt6-5compat
+qt6-declarative
+qt6-svg
+qt6-webengine
+qt6-websockets
+qtkeychain-qt6
+sqlite
+xcb-util-cursor
+xdg-utils
+
+%CONFLICTS%
+nextcloud-client-cloudproviders
+
+%PROVIDES%
+nextcloud-client-cloudproviders
+
+%OPTDEPENDS%
+kio: integration with Dolphin
+nemo-python: integration with Nemo
+nautilus-python: integration with Nautilus
+python-caja: integration with Caja
+
