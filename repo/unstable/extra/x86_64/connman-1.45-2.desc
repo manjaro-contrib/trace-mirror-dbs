@@ -1,0 +1,71 @@
+%FILENAME%
+connman-1.45-2-x86_64.pkg.tar.zst
+
+%NAME%
+connman
+
+%BASE%
+connman
+
+%VERSION%
+1.45-2
+
+%DESC%
+Intel's modular network connection manager
+
+%CSIZE%
+589013
+
+%ISIZE%
+1776756
+
+%MD5SUM%
+5548558f35baa5e1a03b511ac4a5afea
+
+%SHA256SUM%
+83a89eb64815d18b4eef2c7b5df06bc9f3d9df70ef757480a7e6384d09c79277
+
+%PGPSIG%
+iHQEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaMhhEwAKCRDwXowSExrrXqnUAP9x3oIOlYBU2IoD/NKTSuQDNSDInHZCvYz5GPsLsT6qggD3WI+BXpLmY8qyG9Ijw0NpE3DYnrX/sNmNSt8nCDlnAQ==
+
+%URL%
+https://git.kernel.org/pub/scm/network/connman/connman.git/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1757962292
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+dbus
+gcc-libs
+glib2
+glibc
+gnutls
+iptables
+libmnl
+readline
+
+%OPTDEPENDS%
+bluez: Support for Bluetooth devices
+iwd: for WiFi devices
+openconnect: for VPN Support
+openvpn: for VPN Support
+pptpclient: for ppp support
+wpa_supplicant: for WiFi devices
+
+%MAKEDEPENDS%
+bluez
+iwd
+openconnect
+openvpn
+ppp
+wpa_supplicant
+
