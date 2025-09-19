@@ -1,29 +1,29 @@
 %FILENAME%
-systemd-sysvcompat-258-1-x86_64.pkg.tar.zst
+systemd-ukify-258-2-x86_64.pkg.tar.zst
 
 %NAME%
-systemd-sysvcompat
+systemd-ukify
 
 %BASE%
 systemd
 
 %VERSION%
-258-1
+258-2
 
 %DESC%
-sysvinit compat for systemd
+Combine kernel and initrd into a signed Unified Kernel Image
 
 %CSIZE%
-6248
+36532
 
 %ISIZE%
-2704
+107178
 
 %SHA256SUM%
-bb319e7bb231cea9b300efc5457d5eced06a1fa1a5bae823fdf2285928042ce5
+5c6a7f4dba463a7071edcee96fdc6f2957968b945e6e0675b1438b0822c25b78
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaMqlRwAKCRBtQr3RFuAGj/nOAQDzHJjRWAwpqTQv7gerMS6oA3w0Ho9nbY1hsit7l9r0FgD/X8QSyo0Xf+EWNfAcylems6VU6TIK7sF8yASzVPBkZAE=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaM081AAKCRBtQr3RFuAGj2tBAP0c0koFbbpmKaHh4zwQ4IO0uEdIQKkuS5z3FjbUkm7TnAEAvDhKsYsy8aO/vJbFqAkrGDevdkX3WbNiWR93YmoNYQk=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -35,16 +35,26 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1758110711
+1758280561
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
 
 %CONFLICTS%
-sysvinit
+mkinitcpio<38-1
+
+%PROVIDES%
+ukify
 
 %DEPENDS%
 systemd=258
+binutils
+python-cryptography
+python-pefile
+
+%OPTDEPENDS%
+python-pillow: Show the size of splash image
+sbsigntools: Sign the embedded kernel
 
 %MAKEDEPENDS%
 acl
