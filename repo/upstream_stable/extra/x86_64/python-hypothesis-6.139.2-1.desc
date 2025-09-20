@@ -1,0 +1,88 @@
+%FILENAME%
+python-hypothesis-6.139.2-1-any.pkg.tar.zst
+
+%NAME%
+python-hypothesis
+
+%BASE%
+python-hypothesis
+
+%VERSION%
+6.139.2-1
+
+%DESC%
+Advanced Quickcheck style testing library for Python
+
+%CSIZE%
+1004528
+
+%ISIZE%
+5393270
+
+%SHA256SUM%
+5a3c8cccc8eafb10d2d93660e5e67c61ac5aba6fb0c380c4278563e2d56fe0b9
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaMuc0AAKCRDwXowSExrrXi94AQD7FmXIJuXYoms/KQ06r21ep0WSPEGj2S46S+KwKBNWmQEAgTDoK/X5ePgL+OViL6sSPz46B/8goEuWeug83F1U5gY=
+
+%URL%
+https://hypothesis.readthedocs.org
+
+%LICENSE%
+MPL-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1758174353
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-attrs
+python-sortedcontainers
+
+%OPTDEPENDS%
+python-black: for CLI and ghostwriter
+python-click: for CLI
+python-dateutil: for date support
+python-django: for django module
+python-dpcontracts: for contracts support
+python-faker: for fakefactory and django module
+python-lark-parser: for lark module
+python-libcst: for codemods module
+python-numpy: for numpy module
+python-pandas: for pandas support
+python-pytest: for pytest module
+python-pytz: for datetime and django module
+python-redis: for redis support
+python-rich: for CLI
+python-watchdog: for tracking file system events
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-black
+python-django
+python-dpcontracts
+python-faker
+python-fakeredis
+python-flaky
+python-lark-parser
+python-libcst
+python-numpy
+python-pandas
+python-pexpect
+python-pytest
+python-pytest-xdist
+python-pytz
+python-watchdog
+
