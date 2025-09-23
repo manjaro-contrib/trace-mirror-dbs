@@ -1,0 +1,64 @@
+%FILENAME%
+gdk-pixbuf2-2.44.1-4-x86_64.pkg.tar.zst
+
+%NAME%
+gdk-pixbuf2
+
+%BASE%
+gdk-pixbuf2
+
+%VERSION%
+2.44.1-4
+
+%DESC%
+An image loading library
+
+%CSIZE%
+477068
+
+%ISIZE%
+3038664
+
+%SHA256SUM%
+714eedfd8d1d9264d82a215c3aad9787d07d62587c5ee1b0974a58251da52595
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCaNHwSwAKCRC4rAhgDxCM36ycAQCU2YHTMJoPYsNWRxPPpHW7PlGzb4iJdHEDiMEtc3JmZQD/bcKpUuqnfnfu5ipyiKl5mkCDFJleZ//AnmFuVcRU+gY=
+
+%URL%
+https://wiki.gnome.org/Projects/GdkPixbuf
+
+%LICENSE%
+LGPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1758588179
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%PROVIDES%
+libgdk_pixbuf-2.0.so=0-64
+
+%DEPENDS%
+glib2
+glibc
+glycin
+shared-mime-info
+
+%OPTDEPENDS%
+libheif: Load .avif, .heic and .heif
+libopenraw: Load .arw, .cr2, .crw, .dng, .erf, .mrw, .nef, .orf, .pef and .raf
+libwmf: Load .apm and .wmf
+
+%MAKEDEPENDS%
+gi-docgen
+git
+glib2-devel
+gobject-introspection
+meson
+python-docutils
+
