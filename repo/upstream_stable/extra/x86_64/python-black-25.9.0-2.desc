@@ -1,0 +1,72 @@
+%FILENAME%
+python-black-25.9.0-2-any.pkg.tar.zst
+
+%NAME%
+python-black
+
+%BASE%
+python-black
+
+%VERSION%
+25.9.0-2
+
+%DESC%
+Uncompromising Python code formatter
+
+%CSIZE%
+392597
+
+%ISIZE%
+2014852
+
+%SHA256SUM%
+a08d97b093fa07764aa5d85b0cc3b67bde8f5224bba8df32f644f4e899310164
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaM+6JQAKCRDglZ/qi1UFOZ7lAQDXMClCJcVPW6JwNxB1E6QuSsFGzjSSk5ePuAGBm/3S0QD/eEyUSeMBq51+LDJR3Pu/NrsF0Usem3YfYWNCgGcaXwY=
+
+%URL%
+https://github.com/psf/black
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1758443904
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+python
+python-click
+python-mypy_extensions
+python-packaging
+python-pathspec
+python-platformdirs
+python-pytokens
+
+%OPTDEPENDS%
+ipython: for Jupyter notebook support
+python-tokenize-rt: for Jupyter notebook support
+python-aiohttp: for the blackd HTTP server
+python-colorama: for colored diffs
+
+%MAKEDEPENDS%
+git
+python-build
+python-hatch-fancy-pypi-readme
+python-hatch-vcs
+python-hatchling
+python-installer
+
+%CHECKDEPENDS%
+ipython
+python-aiohttp
+python-parameterized
+python-pytest
+python-tokenize-rt
+

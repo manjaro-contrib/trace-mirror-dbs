@@ -1,0 +1,92 @@
+%FILENAME%
+claws-mail-4.3.1-4-x86_64.pkg.tar.zst
+
+%NAME%
+claws-mail
+
+%BASE%
+claws-mail
+
+%VERSION%
+4.3.1-4
+
+%DESC%
+A GTK+ based e-mail client
+
+%CSIZE%
+5115835
+
+%ISIZE%
+20125575
+
+%SHA256SUM%
+c9868fd718ea98d45aa61f1309aee4ac9aedf96f5a2373047255c3e0a5ef9247
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmhz6z8ACgkQek52CV2KUuTEzwf/UI1u6ye9dLG4FdUeOp8Gx/orOE8i9FZJmzBaGp6hAHB09ZgFYbMNJwE+bmz0PdrX0Yxkst6xxOpauMMIDwZWSqPzyd0veD9Wdx/d0PRGh/zIfMR3AxPSKAoXO8gGquL0+yz/5P/HJ5f2Vt/GDOstKPLxHikAsCp8DaBKUvbJiiELllSLQl/2Ccoi424n938SvPCQVPA1oJ2LrWSRGUciRqI4BjJJTjIguDAkzKLMMUdJR8yTXDK9eumNU/j/Ied19E7fwqB3QUcIw8nj4cONdlcxvHq5+Qm8/Yv4Cc7IwUMuJUQiPQt7kIp8qQ3zbrmQJy/x5lWRWvV8HFNGbR85Nw==
+
+%URL%
+https://www.claws-mail.org
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1752427178
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+claws
+
+%DEPENDS%
+gtk3
+gnutls
+startup-notification
+enchant
+gpgme
+libetpan
+compface
+libsm
+dbus-glib
+
+%OPTDEPENDS%
+python: needed for some tools
+perl: needed for some tools and perl plugin
+spamassassin: adds support for spamfiltering
+bogofilter: adds support for spamfiltering
+libnotify: for notification plugin
+libcanberra: for notification plugin
+dbus: for notification plugin
+libxml2: for rssyl plugins
+curl: for vcalendar, rssyl and spamreport plugins
+libarchive: for archive plugin and various other plugins
+libytnef: for tnef_parse plugin
+poppler-glib: for pdf viewer plugin
+ghostscript: for pdf viewer plugin
+libical: for vcalendar plugin
+dillo: for dillo html viewer plugin
+webkit2gtk-4.1: for fancy webkit html viewer plugin
+gumbo-parser: for litehtml plugin
+
+%MAKEDEPENDS%
+spamassassin
+bogofilter
+networkmanager
+valgrind
+libnotify
+libcanberra
+poppler-glib
+libytnef
+libical
+dillo
+python
+gumbo-parser
+webkit2gtk-4.1
+docbook-utils
+texlive-formatsextra
+

@@ -1,0 +1,65 @@
+%FILENAME%
+python-openpyxl-3.1.5-2-any.pkg.tar.zst
+
+%NAME%
+python-openpyxl
+
+%BASE%
+python-openpyxl
+
+%VERSION%
+3.1.5-2
+
+%DESC%
+A Python library to read/write Excel 2010 xlsx/xlsm/xltx/xltm files
+
+%CSIZE%
+482292
+
+%ISIZE%
+3031253
+
+%SHA256SUM%
+fe6a00663bb9edde0e1af8af66777bfea8951452d57173d2d4b7c25c53843c30
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdFqgcACgkQwGCGM3xQdz51hwf8C5WO6ELnEuuztRUKEbXiZ50eK22bdeTft0Ui6+abrKR4kM+2A0HPGnyeKuAqm4/l1PKNtLzndRIC/k+Px7QVyYNR1K715NdQB3AH6AnzJvOAtrT3MA9NXtEXavXBPybh/jzgnEH4xuE+Ka6ptl88BfKMOmsPtaROFoJ/PurcAOsVxQfiFxwxozmPHxaNb4e7KfW9UM5xSzkodLPcigrY5jCVsVdZ5qJBkTEZlpyjYoOZYLey8d2HVdYUe74JkIeh0gkg4u8MBGDyPLsApyoSsJu3aGWBqDy29IzFYpMvt0P6fwMNZVhYy3Q9rniyhi6qIEVhMB42ofa0H60ERnxq4w==
+
+%URL%
+https://openpyxl.readthedocs.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732618734
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-et-xmlfile
+
+%OPTDEPENDS%
+python-pillow: needed to include images
+python-lxml: alternative XML backend
+python-defusedxml: guard against various XML vulnerabilities
+python-pandas: for iteration over Pandas DataFrames
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-defusedxml
+python-pytest
+python-lxml
+python-pandas
+python-pillow
+

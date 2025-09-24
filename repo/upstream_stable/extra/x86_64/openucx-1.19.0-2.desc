@@ -1,0 +1,66 @@
+%FILENAME%
+openucx-1.19.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+openucx
+
+%BASE%
+openucx
+
+%VERSION%
+1.19.0-2
+
+%DESC%
+Communication framework for data-centric and high-performance applications
+
+%CSIZE%
+2137743
+
+%ISIZE%
+6833915
+
+%SHA256SUM%
+8902656d960ba168e5e3a21a8f376ff325ce7abae376410f35d44de6e6057eff
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaLQ8PwAKCRAAHPSBC+jZEabuAP4wIXaSA8xpfJyKJCrOwB6gtwT1SrzBu1Ap/Vc7vSJ8fwD/YMJcBopG+gyhi0cuD+zDL7ZoGkNt0bIP8yNEzU9vxA0=
+
+%URL%
+https://openucx.org/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1756642227
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%PROVIDES%
+libucm.so=0-64
+libucp.so=0-64
+libucs.so=0-64
+libucs_signal.so=0-64
+libuct.so=0-64
+
+%DEPENDS%
+binutils
+gcc-libs
+glibc
+zlib
+zstd
+
+%OPTDEPENDS%
+rdma-core: for InfiniBand and RDMA support
+cuda: for CUDA support
+rocm-language-runtime: for ROCm support
+
+%MAKEDEPENDS%
+rdma-core
+cuda
+rocm-language-runtime
+

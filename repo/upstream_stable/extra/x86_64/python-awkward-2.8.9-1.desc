@@ -1,0 +1,87 @@
+%FILENAME%
+python-awkward-2.8.9-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-awkward
+
+%BASE%
+python-awkward
+
+%VERSION%
+2.8.9-1
+
+%DESC%
+Manipulate jagged, chunky, and/or bitmasked arrays as easily as Numpy
+
+%CSIZE%
+1862113
+
+%ISIZE%
+14460246
+
+%SHA256SUM%
+fae21f4ae2a756f4e98a3483f806e2c87508f534d8ab5790fcbe5cd165f9a93a
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaM7ulQAKCRAAHPSBC+jZETbGAQC2DwDRlXBnJrXw/NMjEhv61N5+8Eb1XVaA3KunXCW2jgD/eeTlN/fUqEm8EF8AOPZNiandB8Jyn9Ji8QZMk4SNDAk=
+
+%URL%
+https://github.com/scikit-hep/awkward
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1758391167
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+python
+python-fsspec
+python-numpy
+python-packaging
+python-typing_extensions
+
+%OPTDEPENDS%
+cuda: CUDA support
+python-numba: for using in Numba JIT functions
+python-numexpr: numexpr connector
+python-pandas: pandas connector
+python-pyarrow: pyArrow connector
+root: rdataframe connector
+python-awkward-docs: documentation
+
+%MAKEDEPENDS%
+cmake
+cuda
+doxygen
+git
+python-build
+python-hatch-fancy-pypi-readme
+python-hatchling
+python-installer
+python-nox
+python-scikit-build-core
+python-sphinx
+python-sphinx_rtd_theme
+
+%CHECKDEPENDS%
+pybind11
+python-hist
+python-numba
+python-numexpr
+python-pandas
+python-pyaml
+python-pyarrow
+python-pytest
+python-scikit-hep-testdata
+python-vector
+root
+

@@ -1,0 +1,84 @@
+%FILENAME%
+obs-studio-31.1.2-2-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio
+
+%BASE%
+obs-studio
+
+%VERSION%
+31.1.2-2
+
+%DESC%
+Free, open source software for live streaming and recording
+
+%CSIZE%
+6845167
+
+%ISIZE%
+25150741
+
+%SHA256SUM%
+c4528f1cf96e5fa1eac1efbae6776652a2c66885cfeda21a80171bff9c924f8c
+
+%PGPSIG%
+iQIzBAABCgAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmiwLCYACgkQk7EdqkwZfj2HShAAw0KrxDjhHGZVgoW+AII72Jq7nwPMiv4R+e7eRUuwSoTQDum44LT5dyAV8ixhnDSzUkyiFbkCQ3YG5ccPpikUrFMe3LHbipNTxi0KDJ0mWX0Ywe9gwFTPcmeUlzmoK6q1grubWRkd4Wr9igTKTVHyQP8+z/kDWN1Azk7OEuJE7rhJh55z55HShJJFt+m2JOxUPU/fyC4YcjPyDTYk9kl7AMAj2UyBy9Bw0HzATXqj/eRYmmmAA0vt1lD0ib5V40DeI5oAqVX2dvOEwN1K6Ix3dEszxGOF6lzFULny6nnXZY57iisJJ+LqIOK+Ctt7nI1R0CXHMoRgv5htNG8+y3TKAJAtUbv38jEEFrPQCEs7xMQVgGRuPOpFx4p0CNAxLWfzD1Cq5X6zT2DYYAQDMYxQcVukVeIAc8EeV57qcaO/DPlRGec1KCcUZAYcL0Xe1ZDgj2qGy8FYVcWViwGUA0qIRgLV5nNKB9Y+eop7zWxE2X/qJ71HdN59lZRTyVHN32+q8T4GiKjR9sfq1xytG7OU/Yx3TBL5CBWde33PEJNI7dTxqLvgQYUNM6LPTPzb4gu+EaZ3rbmTUb6RXcMm1P+5uGa9Bh/JYlIieOQ/DdNlK7CGsPoKVn4FVS8xEF7Ias6uvBsRsFucH5WgG8xXy9SX0iQ3yF0H/CJpGCzlmfhNd/Y=
+
+%URL%
+https://obsproject.com
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1756375975
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+ffmpeg
+jansson
+libxinerama
+libxkbcommon-x11
+mbedtls
+rnnoise
+pciutils
+qt6-svg
+curl
+jack
+gtk-update-icon-cache
+pipewire
+libxcomposite
+libdatachannel
+uthash
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+libva-intel-driver: hardware encoding
+libva-mesa-driver: hardware encoding
+luajit: scripting support
+python: scripting support
+sndio: Sndio input client
+qrcodegencpp-cmake: websocket support
+v4l2loopback-dkms: virtual camera support
+
+%MAKEDEPENDS%
+cmake
+libfdk-aac
+x264
+swig
+python
+luajit
+sndio
+nlohmann-json
+ffnvcodec-headers
+websocketpp
+asio
+qrcodegencpp-cmake
+extra-cmake-modules
+

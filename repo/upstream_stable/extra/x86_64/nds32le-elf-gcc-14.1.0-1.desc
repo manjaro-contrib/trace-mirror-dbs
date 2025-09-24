@@ -1,0 +1,57 @@
+%FILENAME%
+nds32le-elf-gcc-14.1.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+nds32le-elf-gcc
+
+%BASE%
+nds32le-elf-gcc
+
+%VERSION%
+14.1.0-1
+
+%DESC%
+The GNU Compiler Collection - cross compiler for Andes 32 little-endian (bare-metal) target
+
+%CSIZE%
+61248234
+
+%ISIZE%
+370844369
+
+%SHA256SUM%
+5c55375c39d11faa92a5df1c887bc1fd3c706a93e8950b5640394b1b375d4dac
+
+%PGPSIG%
+iQIzBAABCAAdFiEEzZzJfXA4H9kwnLT5KhDNV3fI85UFAmZftQQACgkQKhDNV3fI85Ve2g//b0J5ystu5pVKr++5+pqgKViPQBiVZeH5rX00QeuGb68lqrirAIXsT1mXLtemaWpeZkRKRuqhKReBHv9a7675oKCcf3V3tuZrca97tHUaaL+2twmJlX1TieeyxUyQkmmdOLwSKKIzocdpPpgjzm+mvKkNCAUVk6rritRh8zSro0/Iy1j1onAZsA6FnX/VfjXWFqAXsTwrvZV9W0CqjNlzVcqefBNxvP+joV+QMROTit9bFkAbrmMcePoMds3G6qJ7oezvCZ+5yyUPCkZFQzyVYrfkhUC8rGgZYMFC5zmERhVoFy7foJN6x2OJZIDQQqKJtEooWlPxKUjwKwsTj7cr4BmRx5LRM88YoOCYoNTIBrisdOkt6eL/88lWhbfp1J2NTCJ1flqP0K9qR1bvz8wOcZVx1ntwbtNQu/DPfEMMYaIynJd+ruf1HfPisvDKOKlDCe+Y92XS/sLt6gd5+cNm4NQy3a9Jv77Kjng+rM9wuscH4+7mI1lY6l36rqUOh1fzIMJxnv+hfEYaD/7MDv2Ieq9Q80/zi4bNRpcMGVME3jNhsFuvu34h5bSQVeUQhptWMaq6hFmkSHDilxNsjUJQ13QsnoNZ4IUxHRyqtmjVYhmCThjrx0j9gV71nB1f+v9A8KXGCjOBKGg9UON7rwhoNTxnsaOnmDn2qIDE/WBZTuI=
+
+%URL%
+https://gcc.gnu.org/
+
+%LICENSE%
+GPL-3.0-with-GCC-exception AND GFDL-1.3-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1717547833
+
+%PACKAGER%
+Filipe Laíns <lains@archlinux.org>
+
+%DEPENDS%
+nds32le-elf-binutils
+zlib
+libmpc
+libisl
+zstd
+
+%OPTDEPENDS%
+nds32le-elf-newlib: Standard C library optimized for embedded systems
+
+%MAKEDEPENDS%
+gmp
+mpfr
+nds32le-elf-newlib
+

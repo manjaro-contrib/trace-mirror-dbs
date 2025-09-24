@@ -1,0 +1,70 @@
+%FILENAME%
+azote-1.16.0-3-any.pkg.tar.zst
+
+%NAME%
+azote
+
+%BASE%
+azote
+
+%VERSION%
+1.16.0-3
+
+%DESC%
+Wallpaper & color manager for wlroots-based compositors and some X11 WMs
+
+%CSIZE%
+8008424
+
+%ISIZE%
+8989215
+
+%SHA256SUM%
+c2a3d878cc2da74777b9a5960cfbc79349383f3f67c5b7aea410f6f40a61ab05
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmi+mmUACgkQ/cMEC5Ksp0iuog//fSbLwbT2I6wGgWmz8dGiAoVE+5ZvG2V6H4w/QVs81pg/oXDLlXu/SqgCCwBcqCDHlcSGelEkR3rYf68vwlrYtMbTtgZtC7rcHu+v2JURUyjTHirfZV/ECdNZ0/Crn970X5gxyiuc1Le7AMrr/irI0JqupORbaQvZSOHIVoQt56piro/DwSGRanApekanBMaKp69qljoX/4XFOip8SSxuH76ZST52+h5mO7sDSqIX0Aqs5O4xx+5xZmMf8ZyzjaiAO5lHQVXDkKSrwfU+m4CxMfaPSL6oFbO62jnRUFhGc5TrgTBgRLSx7KNeT9I/Tb/Yca2mDL0U9HN0AwTXDncbY5PIipVrbqhK/kxi6JeXOw7j0PIizVlyXmZmCHUk1sKpEAL5ZFFeld/BigznVQWIrVeie1Z1jA4x8/SIVvQN/zhMyNOkE0M+i/fC9AS6CCrsivTBCanK+3lix4PM8NSwxmtlajqa2kbXkWdgqyQNYOI1t2JmDOPbAvEuy95FW+aQ4QfQMOoAWcef+JADpWef8VVotARA10Y/c9j5KmYoUgRQp7/T1dzGXCfmPVaTV+SYndQObLXGY287IZSApYZ3ybNpt3Z+pQ4HXh5R6ERWQ2EQtPQ0nQ/k/VIl373osYIWvukTaicDg1pzdqtEWd9hqpVTil7DKo2tWDSjgDUQsvo=
+
+%URL%
+https://github.com/nwg-piotr/azote
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1757321806
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-setuptools
+python-gobject
+python-pillow
+gtk3
+python-cairo
+python-send2trash
+
+%OPTDEPENDS%
+imagemagick: for screen color picker
+grim: for screen color picker on wlroots
+slurp: for screen color picker on wlroots
+maim: for screen color picker on X11-based WMs
+libappindicator-gtk3: for tray status icon
+python-yaml: for alacritty.yml toolbox
+swaybg: for setting background on wlroots-based compositors
+feh: for setting background on X11-based WMs
+python-xlib: for checking outputs on X11-based WMs
+python-pillow-heif: for HEIF support in Pillow
+python-pillow-jpegxl-plugin: for JPEG XL support in Pillow
+wlr-randr: for checking outputs on wlroots-based compositors other than Sway and Hyprland
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+

@@ -1,0 +1,93 @@
+%FILENAME%
+scrapy-2.12.0-1-any.pkg.tar.zst
+
+%NAME%
+scrapy
+
+%BASE%
+scrapy
+
+%VERSION%
+2.12.0-1
+
+%DESC%
+A fast high-level scraping and web crawling framework.
+
+%CSIZE%
+595261
+
+%ISIZE%
+3446276
+
+%SHA256SUM%
+c6c6f3bcbec6d289a21f3449811e567ac26c50ab92693b2862fd9bc783b664d2
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdUPgQACgkQwGCGM3xQdz5yPgf+L32WNC8xtHN6zkCfjLUhGfFSxPg8+s8aftKK20f3Li/HPbFVSw/fJe0XfnVfG6KhwJzOVvcggD3LO3dh/n7XLmmqVvswx+DxPnFhh2Ti46bBh8EFtJvQE4huJqD+IOaDgQ/8/qatzyUKhPOKJu7E5QTJjBEKp6Jq01Fj80Xg3P+T+ZjeweYXSbritzmh3hVx2X1vkocA8p8/dCW5MgFKRnNTVOGX+lAGMWIK7uQwTAAsZEoRG7VQt/TAgZPNuZhFUSpuLbO5iwdQOZnjWCJPSYYcvEfbWcngVGPS/oY/gvNF8auU2LC+Et5yHVnbsDLSRe+AgwoHtQOkXnr8BC+YPg==
+
+%URL%
+https://scrapy.org
+
+%LICENSE%
+BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1733573123
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-cryptography
+python-cssselect
+python-defusedxml
+python-itemadapter
+python-itemloaders
+python-lxml
+python-packaging
+python-parsel
+python-protego
+python-pydispatcher
+python-pyopenssl
+python-queuelib
+python-service-identity
+python-setuptools
+python-tldextract
+python-twisted
+python-w3lib
+python-zope-interface
+
+%OPTDEPENDS%
+bpython: for ncurses support in cmdline
+ipython: for enhanced support of the interactive scraping shell
+python-botocore: for various utils
+python-brotli: for HTTP compression using brotli
+python-h2: for HTTP2 support
+python-hpack: for HTTP2 streaming support
+python-zstandard: for HTTP compression using zstandard
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+bpython
+ipython
+mitmproxy
+python-attrs
+python-botocore
+python-brotli
+python-h2
+python-markupsafe
+python-pyftpdlib
+python-pytest
+python-sybil
+python-testfixtures
+python-uvloop
+python-zstandard
+

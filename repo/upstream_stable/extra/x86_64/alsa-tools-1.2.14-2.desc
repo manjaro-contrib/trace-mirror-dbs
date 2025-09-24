@@ -1,0 +1,67 @@
+%FILENAME%
+alsa-tools-1.2.14-2-x86_64.pkg.tar.zst
+
+%NAME%
+alsa-tools
+
+%BASE%
+alsa-tools
+
+%VERSION%
+1.2.14-2
+
+%DESC%
+Advanced tools for certain sound cards
+
+%CSIZE%
+367910
+
+%ISIZE%
+1233075
+
+%SHA256SUM%
+995252ccb5952c55677cbf0bd38bdb8907923e2646a126bc76bf0ea365331350
+
+%PGPSIG%
+iQIzBAABCgAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmh5Ti4ACgkQk7EdqkwZfj3UDhAAg8seELjmdraNG83PYyWBMVf+5QT3KZH0p0ptv0zzagZcDeTULZdHQLo+9ggbC6805kB8lj8XMDWAIDWhBwCQVmE9T1S/uBUq20eQGXHIl/CrcMH7NcKfwzBiT9YUNJTWtqsPZA4aOG0HxjfMMcLbD9hoTv8oH0nyxhFcXz+7F5dzeNHfCzHVJEv8t0C0v3VmvnuHxumMU4WvWm61vZhFYKQVMu+xl4q05CV5ZoxKw4+UcJ7Z2WTmcpI/HcOVWJ5zpOejnve3R62Su5WIVysuFc68lH9nDhjJOhVj2F95S08CyN9rdmW7LzAHdXShlqOzEGsHZsfjYJnkYQ1iIkNf5398yAxGhwz5QmpD3/7oQAeHduyraRE5R37wnM81ybIV5557tUpeOX68hwXPjFrv0+x/UVEaLme1mPOTyc4P97uZd+2NGdwe+8rGpLZWkbbfmhS1b4MHeooh8lk8eMwF4105QBxWtEE2mkm7/ckxGYNKV+kUvmoEWALM0VciDvSfsCot8DzzsOpuaAKPd5oO0LlqB15NmUoUZEnQQXC5g8DVMezJyk1o5SDR6N8kpb5V9eEwLjPuNFKX/fUwY/kyqvZ1E6wuuKO6KorDnYDV9knTEZKPs9RtJ3Oe6x6wThZFuYqDF/yndoaaAVjieLuOqcRvsxt1zLk7YhPDPn8q6x0=
+
+%URL%
+https://alsa-project.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1752780241
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%PROVIDES%
+alsa-tools-emu10k1
+alsa-tools-ice1712
+liblo10k1.so=0-64
+
+%DEPENDS%
+gcc-libs
+glibc
+hicolor-icon-theme
+alsa-lib
+libasound.so=2-64
+
+%OPTDEPENDS%
+fltk: hdspconf, hdspmixer
+gtk2: envy24control, echomixer, rmeddigicontrol
+gtk3: hdajackretask
+python-pyalsa: hwmixvolume
+python-gobject: hwmixvolume
+
+%MAKEDEPENDS%
+alsa-lib
+fltk
+gtk2
+gtk3
+

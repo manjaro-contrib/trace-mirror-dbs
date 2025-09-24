@@ -1,0 +1,82 @@
+%FILENAME%
+python-aiogram-3.22.0-1-any.pkg.tar.zst
+
+%NAME%
+python-aiogram
+
+%BASE%
+python-aiogram
+
+%VERSION%
+3.22.0-1
+
+%DESC%
+A modern and fully asynchronous framework for Telegram Bot API
+
+%CSIZE%
+655102
+
+%ISIZE%
+7459681
+
+%SHA256SUM%
+280adff48a8bb9c2e891c57c81c35aaa1ee66e93e9ec3939cb062b0d29434820
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaKoW2wAKCRDwXowSExrrXgp7AP45p/x9M48KTmwkt15S1yAddF/jv5zJhsSS5mcAs+g7ZwD+Ks8RgfAcVgmJNS/cuAZgG+vGN5i9Xl9iPrELqWApug8=
+
+%URL%
+https://github.com/aiogram/aiogram
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1755977370
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-aiofiles
+python-aiohttp
+python-certifi
+python-cryptography
+python-magic-filter
+python-pydantic
+
+%OPTDEPENDS%
+python-uvloop: fast, drop-in replacement of the built-in asyncio event loop
+python-ujson: ultra fast JSON encoder and decoder written in pure C
+python-rapidjson: extremely fast C++ JSON parser and serialization library
+python-emoji: emojize and demojize support
+python-redis: Redis storage support
+python-aiohttp-socks: SOCKS4(a) and SOCKS5 proxy support
+python-motor: MongoDB storage support
+python-babel: i18n support
+
+%MAKEDEPENDS%
+python-build
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+pifpaf
+python-aiohttp-socks
+python-aresponses
+python-babel
+python-motor
+python-pycryptodomex
+python-pymongo
+python-pytest
+python-pytest-aiohttp
+python-pytest-lazy-fixture
+python-pytz
+python-redis
+valkey
+

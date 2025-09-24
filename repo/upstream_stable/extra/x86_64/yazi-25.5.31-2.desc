@@ -1,0 +1,66 @@
+%FILENAME%
+yazi-25.5.31-2-x86_64.pkg.tar.zst
+
+%NAME%
+yazi
+
+%BASE%
+yazi
+
+%VERSION%
+25.5.31-2
+
+%DESC%
+Blazing fast terminal file manager written in Rust, based on async I/O
+
+%CSIZE%
+5862953
+
+%ISIZE%
+20044599
+
+%SHA256SUM%
+076d0fa0292f7335ce0e8c11dce5bee24b28d2a759077cd0043e491c2bd85ed5
+
+%PGPSIG%
+iQIzBAABCgAdFiEEFl4P98SMIm4ew2On+DQkgks+S5AFAmiBGtcACgkQ+DQkgks+S5D3+g/9EMIgZcQG7fr6mRCnSYJJlSgpJzMbqUMn289jFRSNDQtNX7NSPx3NkdK0tqHtEMBYReuMWkLfTk3YzDpFy//Nte0qNSs6TcTXrixs5JOUMYI8nM21q/G94SeTNiMfTrjAVNz6JDeZ7m61lZ1a6SONSnsYtVfe9Zdao2tgUQ3bfP0HJz/XH/oHK/BVXGJQ+tEBBYSKgrZPKLbxMBq5eDvwqZeFcMOWlLp+8TiCzrmND7F7aDWUP+yrQI0qNdzawqz10rfFM5SAX8I6SIZxskNRITizEb79TmhzNEY9pC9k0gBsODdip5Nl4bVhUtA+H36YPB4+GShsE4bjiUheevmJ97Mo74gbfXai1iaHO5XJPCL7NUnpvJCwLw2PiIkjJpIWPFsN99e7+QYcPENrP/Zmes6EQ6Kde9KF1BbuEInEh7KtGFT+5Uf2Ffa0gMTM53jUh4RUE+mfyks60/n3Hox7mHCDivUd4XRgZjyRnWVIUmNpEAdsdpMFH5j/GSxdPQJuOphzvwq/ucOsDci216C83LYCXOzKiJYd6+QtONTRdEc1Y1KE6GTl38M5/W7mbtqseIxtQRsgb2X9Huk6tpoD3MyP8pIgiUumGnGcvK/ZS/re1OzyD6wzbmgNrly80NsP5sYfhefO59OElOAC0CRWQOK9R8fv0ghTnX5ggHgvCRk=
+
+%URL%
+https://github.com/sxyazi/yazi
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1753291093
+
+%PACKAGER%
+Orhun Parmaksız <orhun@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+ttf-nerd-fonts-symbols
+
+%OPTDEPENDS%
+ffmpeg: for video thumbnails
+7zip: for archive extraction and preview
+jq: for JSON preview
+poppler: for PDF preview
+fd: for file searching
+ripgrep: for file content searching
+fzf: for quick file subtree navigation
+zoxide: for historical directories navigation
+resvg: for SVG preview
+imagemagick: for image and font preview
+xclip: for X11 clipboard support
+xsel: for X11 clipboard support
+wl-clipboard: for Wayland clipboard support
+chafa: for ASCII image preview as fallback
+
+%MAKEDEPENDS%
+cargo
+imagemagick
+

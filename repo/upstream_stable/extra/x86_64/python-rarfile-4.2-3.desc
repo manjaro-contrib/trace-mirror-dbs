@@ -1,0 +1,67 @@
+%FILENAME%
+python-rarfile-4.2-3-any.pkg.tar.zst
+
+%NAME%
+python-rarfile
+
+%BASE%
+python-rarfile
+
+%VERSION%
+4.2-3
+
+%DESC%
+Python module for RAR archive reading
+
+%CSIZE%
+122544
+
+%ISIZE%
+703823
+
+%SHA256SUM%
+5ded8262ab293c1684e9483ea1f38dd0f8cec13b524dbc040655d7635236a27f
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc7l00ACgkQwGCGM3xQdz6v9gf/fg0y38bTrUetnWj4DESDAuncdcbgx/Cz8rc9WdN1UcCHHann3Zuy2L94/xAm1IlwQ06LmUNIwnh/SxQyB/k0LyHKQlov/U5ePto05ygHEFo3yRiUnihbRpIhoCSmRCklLbh4iqJVrTvr+y1QWt9s49hwb8ecSNCczhLvFzI23lIq6A+Wg1fAq4HRCJq0GdRtM/2KzSFw/D7ILlDrqN+B0in8lx0rLEHpiE28P837cMlRB8hj3NER8BYUUepWXmF+ykk9kQV4QG2qjeU5HmUzxeA7SvDw6OnMezAAJxMezdVdaDsYb0CKvTHJUd5xklPcmvFmU2c4t2jy0kDEI5OSUQ==
+
+%URL%
+https://github.com/markokr/rarfile
+
+%LICENSE%
+ISC
+
+%ARCH%
+any
+
+%BUILDDATE%
+1731958582
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+p7zip: Alternative decompression backend
+python-cryptography: Process archives with password-protected headers
+python-pycryptodome: Alternative crypto backend
+unarchiver: Alternative decompression backend
+unrar: Recommended decompression backend
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-sphinx
+python-wheel
+
+%CHECKDEPENDS%
+p7zip
+python-cryptography
+python-pytest
+unarchiver
+unrar
+

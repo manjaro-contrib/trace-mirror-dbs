@@ -1,0 +1,85 @@
+%FILENAME%
+kismet-2023_07_R2-6-x86_64.pkg.tar.zst
+
+%NAME%
+kismet
+
+%BASE%
+kismet
+
+%VERSION%
+2023_07_R2-6
+
+%DESC%
+802.11 layer2 wireless network detector, sniffer, and intrusion detection system
+
+%CSIZE%
+11248433
+
+%ISIZE%
+25163652
+
+%SHA256SUM%
+2250795a8a1727142cae112871b71ebab28511e5005c9c6995add9368a420c19
+
+%PGPSIG%
+iQIzBAABCgAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmilBwAACgkQk7EdqkwZfj3pFhAA1khpmE4V5i5nlHp/znVU5HbQHwPUpkvGtgZAH4mhn8jDG/2ElbC4J9de2B3i9EpEa0oolZ5F/IvfVsi/pizqiUiv0wEJc6AXW10lI8imse86m+JzMf6HiQpkQ28g2EMwInr+6TAu3iVbWnh+AKUar+TjP3tVgWjdsNEfyQg2Nt7e+2XjnX9XvnMHrNhoF6QMhQxpY3VEtI6T0lvqfLgZg0+3BowtPj6sdnE8Jtrl9pAnqLcA39CMhIuw1vA432OOKq6P4r68RPE9XTeJ1t5UxZce9d1PyN8BoSEsCRigTab9JVm7jymVfyvd2IwSYLY3yEUnBtx4RX2OA1nFNsA+GSN5CjDwke9fvxRJDHQFPcblZfZAHeKIfy0DZnOyTehy2iZWh6WBM49qG+r86odT9GAi8T/4D6TkgrsevUOfWNintYxxAv4rqlhycY+I8hfy3y6qsDqbJMeTAkZQVJXij45nQvNTlbZqSkhcfc3MQbb986XdINjJbas67/8toBGR4zQSjlPKP/geXjUDBoF5OYmMfgdySgBMmFEZWd/pYP2Wq9vmS9b5dvgqvcfeTNQbtnnR8Vh0YDLfUYVUjkUjMWHbtUO7m9k5rVjkNnIP2Ag2Sp7zqSBo1zHoeowyS4dcB5vo3DmO04QvWlo4ZTl+Y8PYja4u+EBNW3weCGNSj1w=
+
+%URL%
+https://www.kismetwireless.net/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1755645516
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+libpcap
+pcre2
+bluez-libs
+libcap
+protobuf-c
+libprotobuf-c.so=1-64
+sqlite
+libnm
+gcc-libs
+libusb
+libusb-1.0.so=0-64
+libnl
+glibc
+zlib
+libelf
+lm_sensors
+systemd
+python
+python-setuptools
+python-protobuf
+python-pyserial
+python-numpy
+python-websockets
+libwebsockets
+libcap-ng
+libpcap.so=1-64
+libprotobuf.so=32.0.0-64
+libnm.so=0-64
+libwebsockets.so=20-64
+libsensors.so=5-64
+
+%OPTDEPENDS%
+gpsd: log coordinates of detected networks
+wireshark-cli: provide OUI files used to determine device manufacturer
+wireshark-cli: mergecap, to merge multiple capture files
+sox: provide the default kismet sound playback binary
+festival: text-to-speech support
+flite: alternative/lightweight text-to-speech support
+
+%MAKEDEPENDS%
+python-setuptools
+

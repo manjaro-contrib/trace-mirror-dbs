@@ -1,0 +1,62 @@
+%FILENAME%
+redshift-1.12-14-x86_64.pkg.tar.zst
+
+%NAME%
+redshift
+
+%BASE%
+redshift
+
+%VERSION%
+1.12-14
+
+%DESC%
+Adjusts the color temperature of your screen according to your surroundings.
+
+%CSIZE%
+152587
+
+%ISIZE%
+939418
+
+%SHA256SUM%
+1cb72145cd6b9a14df268558340ddc0ba7cb0e300fc8f47c05f1990c4e8e67dc
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCZzlO3QAKCRDwXowSExrrXvrqAP48F3tQ81pBlIWnqmWxkunKo7Lsc8Eo13Sjngq8BeAP8gEA/OXfC2yjtpzutXMSnfM82ucJJczsFld4ULteBQw5pwY=
+
+%URL%
+http://jonls.dk/redshift/
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1731808963
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+glib2
+glibc
+hicolor-icon-theme
+libdrm
+libx11
+libxcb
+libxxf86vm
+
+%OPTDEPENDS%
+geoclue: for automatic location based on GeoClue2
+gtk3: for redshift-gtk
+libappindicator-gtk3: for AppIndicator support in redshift-gtk
+python-gobject: for redshift-gtk
+python-pyxdg: for redshift-gtk
+
+%MAKEDEPENDS%
+intltool
+python
+

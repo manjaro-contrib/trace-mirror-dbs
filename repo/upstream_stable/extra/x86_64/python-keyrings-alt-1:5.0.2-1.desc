@@ -1,0 +1,66 @@
+%FILENAME%
+python-keyrings-alt-1:5.0.2-1-any.pkg.tar.zst
+
+%NAME%
+python-keyrings-alt
+
+%BASE%
+python-keyrings-alt
+
+%VERSION%
+1:5.0.2-1
+
+%DESC%
+Alternate keyring implementations
+
+%CSIZE%
+40570
+
+%ISIZE%
+179801
+
+%SHA256SUM%
+286fd40e6584a5dd83ad0329ce96f87b187786cb1ee69b5212cc2f8fc600b21d
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmdKGoIACgkQwGCGM3xQdz7dxAf/VVAkavWpcjO5FZ3UlNLpE6xGom1QMiGKE/GPBv+pKRc5PG6i5QesPYOVR1Noff0XnnU7gj5UCU5N5xI4xTIWa+MXyHDpHLRIkTp1Y2mui5BM7YWV24WJzkSyZ00DoZ+/OZ1FjNvby6hfzi+i8cQeCfS+9Mae8R1dSd/a2FgjFrn+aQlseu1gTqbSWmsfYIWKBngi3UVk9+rubXur6oAdTSYzJRQXi1QDvOJjilGYVJraONNuyZ9CSVYiSn/sSbBIW2+HpIW6+c7jODvnpGvz/PQfVZv/CxJVdhkDUwwuEiy0pH3sL9apzkQvfmkG3tiaenR4KRXhJpdQx6pwL+dyAw==
+
+%URL%
+https://github.com/jaraco/keyrings.alt
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732909686
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python-keyring
+python-pycryptodomex
+
+%OPTDEPENDS%
+libgnome-keyring: GNOME Integration
+python-gobject: GNOME Integration
+python-fs
+python-pycryptodome: Encrypted file storage
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+libgnome-keyring
+python-pycryptodome
+python-gobject
+python-keyring
+python-pytest-enabler
+

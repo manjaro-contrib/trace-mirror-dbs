@@ -1,0 +1,75 @@
+%FILENAME%
+sigal-2.5-1-any.pkg.tar.zst
+
+%NAME%
+sigal
+
+%BASE%
+sigal
+
+%VERSION%
+2.5-1
+
+%DESC%
+Yet another simple static gallery generator
+
+%CSIZE%
+766027
+
+%ISIZE%
+4069609
+
+%SHA256SUM%
+6c48f6731e1b17420f7636357c6c39b9be370b3a962738fd5beeb8da6c268a60
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZ8bAegAKCRCbeih9mi7GCJ0AAPwMxA/cAdFcE7og34NgJK2xMApSS8OtYqwsKFev5xL2RAEAs2lFquBh0xasCU3kWsq4qV1L0FA336yA3uv2urE3SQk=
+
+%URL%
+http://sigal.saimon.org/en/latest/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1741078564
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+ffmpeg
+python
+python-blinker
+python-click
+python-jinja
+python-markdown
+python-natsort
+python-pillow
+python-pilkit
+
+%OPTDEPENDS%
+python-brotli: compress assets plugin
+python-cryptography: encrypt plugin
+python-feedgenerator: feed plugin
+python-markupsafe: feed plugin
+python-pillow-heif: for HEIF/HEIC support
+python-zopfli: compress assets plugin
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools-scm
+python-toml
+python-wheel
+
+%CHECKDEPENDS%
+python-brotli
+python-cryptography
+python-feedgenerator
+python-pytest
+python-zopfli
+

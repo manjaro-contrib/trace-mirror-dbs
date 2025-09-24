@@ -1,0 +1,67 @@
+%FILENAME%
+kuserfeedback-6.18.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+kuserfeedback
+
+%BASE%
+kuserfeedback
+
+%VERSION%
+6.18.0-1
+
+%DESC%
+Framework for collecting user feedback for applications via telemetry and surveys
+
+%CSIZE%
+333241
+
+%ISIZE%
+2031406
+
+%SHA256SUM%
+33b39b1d23e2e2883e35a4da3467948dd97c5aa75a6b5d4716b745c2274bd1c9
+
+%PGPSIG%
+iHUEABYKAB0WIQSP5qfUzELIPJvMqOMtoqzD7OTc5gUCaMWFpQAKCRAtoqzD7OTc5nqpAQC7FUljsk6g6OyyDyEgzyXf38xVlEi5NvpEauHwpk7iPwD/V07+lCev4mHDpApjxd7GmLjpJcCgxn0q8oVAcid/egA=
+
+%URL%
+https://community.kde.org/Frameworks
+
+%LICENSE%
+LGPL-2.0-only
+LGPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1757771259
+
+%PACKAGER%
+Tomaz Canabrava <tcanabrava@archlinux.org>
+
+%REPLACES%
+kuserfeedback5
+
+%CONFLICTS%
+kuserfeedback5
+
+%DEPENDS%
+gcc-libs
+glibc
+qt6-base
+
+%OPTDEPENDS%
+qt6-charts: Feedback console
+qt6-declarative: QML bindings
+qt6-svg: Feedback console
+
+%MAKEDEPENDS%
+clang
+extra-cmake-modules
+qt6-charts
+qt6-declarative
+qt6-svg
+qt6-tools
+

@@ -1,0 +1,67 @@
+%FILENAME%
+python-networkx-3.5-1-any.pkg.tar.zst
+
+%NAME%
+python-networkx
+
+%BASE%
+python-networkx
+
+%VERSION%
+3.5-1
+
+%DESC%
+Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks.
+
+%CSIZE%
+3811437
+
+%ISIZE%
+24598634
+
+%SHA256SUM%
+ac8e77a37df84eaa78db376ee680aadb0778960b31111073a1868a41fea68f7e
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmhb81YACgkQek52CV2KUuTqFQf9Fub2Dghbxn+rsdLF9Dzvj3biyKwM/MHHbIfzo++JxfK03sVVtaKGKwbSPg+Z3bqrp0L3oVMEIjytsFGDM0Ofn0VELhb+i+82cDQfgbcrttd761QrIbsgpdZPFS7gdVGoAFyCl1ubqF82DQ5Zbrvhp2aDIfxovsrSBM3rP71Kwpi1NyU6qroHNRlxKupzjFyyPzg+sqi9PV7evVSoy0LSoykXntrnrFTo+oLE4cW9Tk/3JlU5cEkHpkXZlEr6ljQkXUZqVuhqVhiNoa4I9lpimX9HpqZ1DeAsyXb/sOzImtrHWtw9fhhJE7J7Oe5cZHtIfpwdL2klfPL/i8PdKR9luA==
+
+%URL%
+https://networkx.org/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1750856384
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python-numpy
+python-scipy
+python-matplotlib
+python-pandas
+
+%OPTDEPENDS%
+python-lxml: for GraphML XML format
+python-pydot: for graph drawing and graph layout algorithms in pure Python via GraphViz
+python-pygraphviz: for graph drawing and graph layout algorithms with bindings to GraphViz
+python-sympy: for polynomial algorithms
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+git
+
+%CHECKDEPENDS%
+python-pytest
+python-lxml
+python-pydot
+python-pygraphviz
+

@@ -1,0 +1,71 @@
+%FILENAME%
+clang-20.1.8-1-x86_64.pkg.tar.zst
+
+%NAME%
+clang
+
+%BASE%
+clang
+
+%VERSION%
+20.1.8-1
+
+%DESC%
+C language family frontend for LLVM
+
+%CSIZE%
+47276381
+
+%ISIZE%
+220356429
+
+%SHA256SUM%
+77509d302f22642492c9b8723a5e43c4330f6939c9407c3800f16f1676d01545
+
+%PGPSIG%
+iHUEABYKAB0WIQQhkbiUMbrAqLlt6T0kR0DRfH/Q7AUCaHD2UgAKCRAkR0DRfH/Q7OmKAQDgYXuVlcvfgjqp5ZdxQS7H1dReGhiDGsYAC2bRRkgdPQD+PnP8QjEvnW86aw5pQZiBBTQTVdaq5ar4fmsfIFv7zgA=
+
+%URL%
+https://clang.llvm.org/
+
+%LICENSE%
+Apache-2.0 WITH LLVM-exception
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1752232971
+
+%PACKAGER%
+Leonidas Spyropoulos <artafinde@archlinux.org>
+
+%REPLACES%
+clang-analyzer
+clang-tools-extra
+
+%CONFLICTS%
+clang-analyzer
+clang-tools-extra
+
+%PROVIDES%
+clang-analyzer=20.1.8
+clang-tools-extra=20.1.8
+
+%DEPENDS%
+llvm-libs
+gcc
+compiler-rt
+
+%OPTDEPENDS%
+openmp: OpenMP support in clang with -fopenmp
+python: for scan-view and git-clang-format
+llvm: referenced by some clang headers
+
+%MAKEDEPENDS%
+llvm
+cmake
+ninja
+python-sphinx
+python-myst-parser
+

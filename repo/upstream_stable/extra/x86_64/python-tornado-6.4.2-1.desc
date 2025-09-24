@@ -1,0 +1,62 @@
+%FILENAME%
+python-tornado-6.4.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-tornado
+
+%BASE%
+python-tornado
+
+%VERSION%
+6.4.2-1
+
+%DESC%
+open source version of the scalable, non-blocking web server and tools
+
+%CSIZE%
+879555
+
+%ISIZE%
+5899062
+
+%SHA256SUM%
+72c5e19cdc2eea5cc89bcf4b823fbd416ff6d57f5fc763373944ff98f853d582
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmdr5CQACgkQek52CV2KUuRtaQf+MK7Fy9btvAzRVH38ayXuwQMTz7wLkr7qJomwcchzDl1mTE+9UpaiOc/oLBVHE929PzQdLRCOC6865H4vVSsnwDMAppCnFvl7PMG1apeWav1BuBs0UbLCPysd4Y4XiGr3vS2D7C6ZMBZc5sNv2RCJF4eRH4Ic+aT5N21U6R4yNrrBa+H4DJPOx2uz8OaNPhYSP2olqcVfSxdw60UnBaJyDZd7kVmQA0o1iUqLi+v/6UKcFFl44giWlDs9emnO/H2D829UqMl+rdBqA6lko/QZZlMo6tdl1HiEsjMM/DD3k0zFiXAJdJPXlHSlVgrl3qOwbSWu9zDDP6tC9kdF+7poNQ==
+
+%URL%
+https://www.tornadoweb.org/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1735123877
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+
+%OPTDEPENDS%
+python-pycurl: for tornado.curl_httpclient
+python-pycares: an alternative non-blocking DNS resolver
+python-twisted: for tornado.platform.twisted
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pycares
+python-pycurl
+python-twisted
+

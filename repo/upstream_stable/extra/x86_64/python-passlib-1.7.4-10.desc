@@ -1,0 +1,60 @@
+%FILENAME%
+python-passlib-1.7.4-10-any.pkg.tar.zst
+
+%NAME%
+python-passlib
+
+%BASE%
+python-passlib
+
+%VERSION%
+1.7.4-10
+
+%DESC%
+A password hashing library for Python
+
+%CSIZE%
+838282
+
+%ISIZE%
+5456598
+
+%SHA256SUM%
+65de13eb865063dcf31e3f9ff6390fb6e43231c7afe4d29f992bdf4a60b77fc6
+
+%PGPSIG%
+iQEzBAABCAAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmc9vPwACgkQwGCGM3xQdz4CTwf+NUKQ6piSPrmdiwCeogspps9NbgAlR/wKowy9vFMdz9R+BIgRHg1ytLnH/GHC25p12dMfbZMcdCCpmvJLZ3mxCwF+Exzkv4a+JT1FWwYkDc5EWRSMCJiDlWRWd7dX3ljPb5BRm2c7gdBU5eYoD21Tuz/uJQhlKVjYqJsyJfXgLJi+Cujs/JO+JuKJBi5pJI6N8E4safd6oszYyRdtt8u9xUgaaMY4bvYlBrrxAg/w7PHWntc6DV6VUxuusZ+VUfaDlGKY/CrW1k2p6u46YE8oww+WX8mxocTf8dpb4UHIYx3VX8MtY5TmggfJIWtndNOHYZnM/X7Hy58toY28FiXO7w==
+
+%URL%
+https://passlib.readthedocs.io/en/stable
+
+%LICENSE%
+custom:BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1732098329
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-fastpbkdf2: accelerate PBKDF2-based hashes
+python-bcrypt: accelerate Bcrypt hashes
+python-scrypt: accelerate SCrypt hashes
+
+%MAKEDEPENDS%
+python-setuptools
+
+%CHECKDEPENDS%
+python-nose
+python-bcrypt
+python-django
+python-fastpbkdf2
+python-scrypt
+

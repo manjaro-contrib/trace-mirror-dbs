@@ -1,0 +1,61 @@
+%FILENAME%
+gitui-0.27.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+gitui
+
+%BASE%
+gitui
+
+%VERSION%
+0.27.0-2
+
+%DESC%
+Blazing fast terminal-ui for git written in Rust
+
+%CSIZE%
+2849685
+
+%ISIZE%
+6801644
+
+%SHA256SUM%
+05c1b4796d584793f149baf16505d49081e37a7d13de4b751fe8cc5eff8493c8
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZ8G01gAKCRCbeih9mi7GCIaMAQCzsuHzI+h4ciVuNntWLgaTKQfneV0d1eCGJ4QzEJhVTgEAr0DjlRGZKRpTPZnbLoyI+/y0qTb0bz9PQ12emfScNAs=
+
+%URL%
+https://github.com/extrawurst/gitui
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1740747606
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+libgit2
+libssh2
+openssl
+libgit2.so=1.9-64
+
+%OPTDEPENDS%
+xclip: for clipboard support on X11 (or xsel)
+xsel: for clipboard support on X11 (or xclip)
+wl-clipboard: for clipboard support on Wayland
+
+%MAKEDEPENDS%
+cargo
+cmake
+git
+python
+
