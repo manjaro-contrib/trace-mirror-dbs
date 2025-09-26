@@ -1,0 +1,70 @@
+%FILENAME%
+nvidia-575xx-utils-575.64.05-1-x86_64.pkg.tar.zst
+
+%NAME%
+nvidia-575xx-utils
+
+%BASE%
+nvidia-575xx-utils
+
+%VERSION%
+575.64.05-1
+
+%DESC%
+NVIDIA 575 drivers utilities
+
+%CSIZE%
+349869663
+
+%ISIZE%
+923687307
+
+%MD5SUM%
+6e88b6e576cb3b0d26c51f49c16c4b47
+
+%SHA256SUM%
+d8926461ff99959898e3346ffce7a948f7ee38cddda302d2e6d1c28119e3c9cc
+
+%PGPSIG%
+iQFGBAABCgAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmjE7QQSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+ZKYIAMp9ksso8P+HfsdckiOKV6JaBLFH68eV1UL3QmZiC7uSIyWBNRGF6u6kjzE5RQHOBbP0X+zlklKEXQ9Opl9QxVWnRY9+8jc0XC+ToTmb4uDAfpLvMTOIKZzOaJtzNqFkJdFn2rUcJ0Gw/xegmPIGzCm4UKIOo0MA/Dzxn9A3b7e+zrOXYHZrBecgdSYyvhTZACkKIA27HocO04C7cu/ojA7CKW3Y+ioZ34qvNHgBJRiNbOEmy4vhhHVtJ0Jo4wIG8nB2kkx/Rt/xFeACjCX7c8jnxTCuaHG6OAJ5bxw7wy67JltlF73emJe2Rks9bWbLw3t9LPFGSTi9k8fRqIn5WtU=
+
+%URL%
+http://www.nvidia.com/
+
+%LICENSE%
+LicenseRef-custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1757735876
+
+%PACKAGER%
+Philip Mueller <philm@manjaro.org>
+
+%CONFLICTS%
+nvidia-libgl
+nvidia-utils
+
+%PROVIDES%
+vulkan-driver
+opengl-driver
+nvidia-libgl
+nvidia-utils=575.64.05
+
+%DEPENDS%
+libglvnd
+egl-wayland
+egl-gbm
+egl-x11
+
+%OPTDEPENDS%
+nvidia-575xx-settings: configuration tool
+xorg-server: Xorg support
+xorg-server-devel: nvidia-xconfig
+opencl-nvidia-575xx=575.64.05: OpenCL support
+
+%MAKEDEPENDS%
+desktop-file-utils
+
