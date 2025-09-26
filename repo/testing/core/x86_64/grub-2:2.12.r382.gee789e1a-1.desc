@@ -1,0 +1,100 @@
+%FILENAME%
+grub-2:2.12.r382.gee789e1a-1-x86_64.pkg.tar.zst
+
+%NAME%
+grub
+
+%BASE%
+grub
+
+%VERSION%
+2:2.12.r382.gee789e1a-1
+
+%DESC%
+GNU GRand Unified Bootloader (2)
+
+%CSIZE%
+12121744
+
+%ISIZE%
+40174136
+
+%MD5SUM%
+85261be4543ef84fa2c5696f1b917c6d
+
+%SHA256SUM%
+326030b6a520c8873b379bbf3890e7ff72be6e7b8c2249b38fbf6863921d4273
+
+%PGPSIG%
+iQFGBAABCgAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmjW9SMSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+5wsIAK1LVrNP1+257HgqSfPIfQyMK92VhH8MpHH7NgAACrh2h6np3g51dSVUTg7iKXZVB9F8zRNehZweiGK4jhgESBwBeEcXh8sPcnEF5ewunoBq91DeVGkSsQ8woIGgqGsFl7FK0EldtNspp3WRcsOMygSo6CMO8vm0kSEQx6CfALQbUcKxe6pvuuo2+WU/k4L5/I3cXS2M64bSUhysJDYHYn8kkWSnDAgsO8CEo3A3UOEo52Swogj9mUMrXGHs1y2OOjZb4MjZe4vyYVohREyKkOHlH2s86yCyL7TyXM+HYiBBUU/W5VQLe+xuLlbFb3TffGydt5pI9UrZSrXHwdOEREs=
+
+%URL%
+https://www.gnu.org/software/grub/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1758917467
+
+%PACKAGER%
+Philip Mueller <philm@manjaro.org>
+
+%REPLACES%
+grub-common
+grub-bios
+grub-emu
+grub-efi-x86_64
+
+%CONFLICTS%
+grub-bios
+grub-common
+grub-efi-x86_64
+grub-emu
+grub-legacy
+
+%PROVIDES%
+grub-bios
+grub-common
+grub-efi-x86_64
+grub-emu
+
+%DEPENDS%
+device-mapper
+gettext
+sh
+xz
+
+%OPTDEPENDS%
+dosfstools: For grub-mkrescue FAT FS and EFI support
+efibootmgr: For grub-install EFI support
+freetype2: For grub-mkfont usage
+fuse3: For grub-mount usage
+libisoburn: Provides xorriso for generating grub rescue iso using grub-mkrescue
+libusb: For grub-emu USB support
+lzop: For grub-mkrescue LZO support
+mtools: For grub-mkrescue FAT FS support
+os-prober: To detect other OSes when generating grub.cfg in BIOS systems
+sdl: For grub-emu SDL support
+update-grub: Script to update Grub Menu on Linux Kernel updates
+install-grub: Script to install Grub after package updates
+
+%MAKEDEPENDS%
+autogen
+device-mapper
+freetype2
+fuse3
+gettext
+git
+help2man
+libusb
+python
+rsync
+sdl
+texinfo
+ttf-dejavu
+xz
+
