@@ -1,0 +1,88 @@
+%FILENAME%
+python-django-allauth-65.11.2-1-any.pkg.tar.zst
+
+%NAME%
+python-django-allauth
+
+%BASE%
+python-django-allauth
+
+%VERSION%
+65.11.2-1
+
+%DESC%
+Authentication, registration, account management and 3rd party account authentication
+
+%CSIZE%
+1073436
+
+%ISIZE%
+8253737
+
+%MD5SUM%
+4838f2f556a9f882553ece9b87d8e0e9
+
+%SHA256SUM%
+5ff5ad2d9059d82d7b5429446494288517f152f6c8cdebd8c97f1702123f33d6
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCaNUQ6gAKCRCbeih9mi7GCKmEAQDNuIDTEnYa7YuZmAWuEAKz/Mz5jRzgs2kPeosSNdJ8SQEAoGvuDd7g+GkvhqweZpom7QQ2/QpXizGlnzs6j3oz+AQ=
+
+%URL%
+https://codeberg.org/allauth/django-allauth
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1758793883
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-asgiref
+python-django
+python-pyyaml
+
+%OPTDEPENDS%
+python-cryptography: for social account support
+python-fido2: for MFA support
+python-openid: for OpenID and Steam support
+python-oauthlib: for OIDC IdP support
+python-pyjwt: for social account and OIDC IdP support
+python-qrcode: for MFA support
+python-requests: for social account support
+python-requests-oauthlib: for social account support
+python-saml: for SAML support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-cryptography
+python-django-ninja
+python-django-rest-framework
+python-fido2
+python-oauthlib
+python-openid
+python-pillow
+python-pytest
+python-pytest-asyncio
+python-pytest-django
+python-pyjwt
+python-psycopg2
+python-qrcode
+python-requests
+python-requests-oauthlib
+python-saml
+
