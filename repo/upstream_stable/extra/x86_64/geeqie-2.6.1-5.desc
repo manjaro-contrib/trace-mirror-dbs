@@ -1,0 +1,107 @@
+%FILENAME%
+geeqie-2.6.1-5-x86_64.pkg.tar.zst
+
+%NAME%
+geeqie
+
+%BASE%
+geeqie
+
+%VERSION%
+2.6.1-5
+
+%DESC%
+Lightweight image viewer
+
+%CSIZE%
+2182333
+
+%ISIZE%
+7229914
+
+%SHA256SUM%
+0c1c1f4565a40a35063fba9bfc2b25eef903d64d8f37e4afee2ad47f09a391b0
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCaNljYgAKCRC4rAhgDxCM385+AP9oqhk/i1STX5/rXWWNPTdrP+urC2pZpunOfRpoGfxAbwEAiPmytrz/8ST4/jUpHzjuYgjqf1Ib/6YL4V3kA79VVAE=
+
+%URL%
+http://www.geeqie.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1759076893
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%DEPENDS%
+cairo
+cfitsio
+clutter
+clutter-gtk
+djvulibre
+exiv2
+ffmpegthumbnailer
+gcc-libs
+gdk-pixbuf2
+glib2
+glibc
+gspell
+gtk3
+hicolor-icon-theme
+lcms2
+libarchive
+libchamplain
+libheif
+libjpeg-turbo
+libjxl
+libraw
+libtiff
+libunwind
+lua
+openexr
+openjpeg2
+pango
+poppler-glib
+sh
+
+%OPTDEPENDS%
+librsvg: SVG rendering
+fbida: for jpeg rotation
+gawk: to use the geo-decode function
+perl-image-exiftool: for the jpeg extraction plugin
+gphoto2: command-line tools for various (plugin) operations
+imagemagick: command-line tools for various (plugin) operations
+evince: for print preview
+libwebp: for WebP image format
+
+%MAKEDEPENDS%
+evince
+fbida
+gawk
+glib2-devel
+imagemagick
+intltool
+librsvg
+libwebp
+libwmf
+meson
+perl-image-exiftool
+python
+doxygen
+yelp-tools
+graphviz
+pandoc-cli
+
+%CHECKDEPENDS%
+xorg-server-xvfb
+shellcheck
+markdownlint
+appstream
+
