@@ -1,0 +1,104 @@
+%FILENAME%
+beets-2.4.0-2-any.pkg.tar.zst
+
+%NAME%
+beets
+
+%BASE%
+beets
+
+%VERSION%
+2.4.0-2
+
+%DESC%
+Flexible music library manager and tagger
+
+%CSIZE%
+976462
+
+%ISIZE%
+5450137
+
+%SHA256SUM%
+fac990aeb9994be1e57535b8174811ca12491c97c90ea45dd012056bc8638701
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaNowZwAKCRDglZ/qi1UFOYZqAQCLJt7xQkylJ/62QRtbPWC5R1aDn52/PniDxQOg+tQAggD/eoA+ozRnK/fWQ3HOOMlcujBOcdz06uikaHIenJX2OQA=
+
+%URL%
+https://beets.io/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1759129549
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+python
+python-confuse
+python-jellyfish
+python-lap
+python-mediafile
+python-munkres
+python-musicbrainzngs
+python-platformdirs
+python-unidecode
+python-yaml
+
+%OPTDEPENDS%
+bash-completion: Bash completion
+chromaprint: Chromaprint/Acoustid plugin
+ffmpeg: Convert, ReplayGain plugins
+gst-plugins-bad: Chromaprint/Acoustid, BPD, ReplayGain plugins
+gst-plugins-good: Chromaprint/Acoustid, BPD, ReplayGain plugins
+gst-plugins-ugly: Chromaprint/Acoustid, BPD, ReplayGain plugins
+gst-libav: Chromaprint/Acoustid, BPD, ReplayGain plugins
+gst-python: Chromaprint/Acoustid, BPD, ReplayGain plugins
+imagemagick: Thumbnails plugin
+python-beautifulsoup4: Lyrics plugin
+python-discogs-client: Discogs plugin
+python-flask: Web plugin
+python-gobject: ReplayGain plugin
+python-langdetect: Lyrics plugin
+python-librosa: AutoBPM plugin
+python-mpd2: MPDStats plugin
+python-pyacoustid: Chromaprint/Acoustid plugin
+python-pylast: LastGenre plugin
+python-requests: Chromaprint/Acoustid, BPD, FetchArt, Lyrics plugins
+python-requests-oauthlib: Beatport plugin
+python-xdg: Thumbnails plugin
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-poetry-core
+python-sphinx
+python-wheel
+
+%CHECKDEPENDS%
+bash-completion
+imagemagick
+python-beautifulsoup4
+python-discogs-client
+python-flask
+python-langdetect
+python-librosa
+python-mpd2
+python-numba
+python-py7zr
+python-pylast
+python-pytest
+python-reflink
+python-requests-oauthlib
+python-requests-mock
+python-responses
+python-xdg
+
