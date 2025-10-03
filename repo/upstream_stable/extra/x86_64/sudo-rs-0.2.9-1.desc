@@ -1,0 +1,58 @@
+%FILENAME%
+sudo-rs-0.2.9-1-x86_64.pkg.tar.zst
+
+%NAME%
+sudo-rs
+
+%BASE%
+sudo-rs
+
+%VERSION%
+0.2.9-1
+
+%DESC%
+A memory-safe implementation of sudo and su
+
+%CSIZE%
+566828
+
+%ISIZE%
+2160266
+
+%SHA256SUM%
+05abf376f378ce56610b8a673fc5cef2553355bfeb80529ddfd6f1c4e3cf281a
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCaN/WsQAKCRDylr3lA2jGzlRPAP9hZoTg42KJEpBkQOBIkP4tBz8U6UYRHTn7lrx5dR4yYQEAvx6GEw+9kOv/VLR8rCiZlKBcG8f7o26xtl/36J+7xQo=
+
+%URL%
+https://github.com/trifectatechfoundation/sudo-rs
+
+%LICENSE%
+Apache-2.0 AND MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1759499847
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+pam
+
+%OPTDEPENDS%
+sudo: default configuration files
+apparmor: apparmor support
+
+%MAKEDEPENDS%
+cargo
+git
+
+%CHECKDEPENDS%
+procps-ng
+
