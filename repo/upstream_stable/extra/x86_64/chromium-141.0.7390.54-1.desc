@@ -1,0 +1,96 @@
+%FILENAME%
+chromium-141.0.7390.54-1-x86_64.pkg.tar.zst
+
+%NAME%
+chromium
+
+%BASE%
+chromium
+
+%VERSION%
+141.0.7390.54-1
+
+%DESC%
+A web browser built for speed, simplicity, and security
+
+%CSIZE%
+121765114
+
+%ISIZE%
+394282573
+
+%SHA256SUM%
+ff2cf5c08e7ab1c1f14ee0ed59aa201681a714d51cfc8ae8789c23b2196d74fe
+
+%PGPSIG%
+iQIzBAABCgAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmjdzJEACgkQk7EdqkwZfj02+RAAq9S6Drvf8iJyPIUNCpkCcipD7juQBsfq2pjvMCIe90tLOLTq2jLQwRsNZ2LP9oaw4SBtn5UDhCfqD65ENq5HJaTxMAqct9dTyH26h7FZZA+FqNQxk3hQt7gjS7lAvZzfXh2ZP23lGrs17/PGwkG3wHCT29OJ7krhcZLTn8Oc8izEfJGfPA3s3fxQaBxwNZunJjbqnTDnLq09o4tOIwlO+5x0gHCJvPbDVHMGE2yhFRs8N/m0sGeux5+MgsDa9s+G2x+B4MmNoPpIcmDpUw7EzHtN/lViOwu9FbcdyitTzylupfip8KshN37joTxoEWlt9LW1V+41ClD59adGIR6iwKYa4LuFzK3GjuxD1kgHxMMVnn6C1iHOF0P+ORqTHOqw3h6BERFMhX/7Mh2gdPHp0nvriNeSGDGdN6duKda1t4Fs8o7AXr2uT898ZO3OQvVBcFOdJKfnDvfYA+c+NYoCukZst2EpXZ8kIeKfcjaU6HLahlhF8KgpN0fv0dceYY/t+vs4TdancAPUovILzhcDe212TQazTNY9BxWEKzX//BvXfqnIUuypuCMS69vNZn33VjdKSuNrJ/ZDwxG5+60yQnHjtemyx1qw7d2s7iKGF+e4AyQwulqTiORm430emDkNXM7p2222+S2jjCuCY9JfibrWx9MwQHQdBouajZg9dKQ=
+
+%URL%
+https://www.chromium.org/Home
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1759360864
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+gtk3
+nss
+alsa-lib
+xdg-utils
+libxss
+libcups
+libgcrypt
+ttf-liberation
+systemd
+dbus
+libpulse
+pciutils
+libva
+libffi
+desktop-file-utils
+hicolor-icon-theme
+fontconfig
+brotli
+libjpeg-turbo
+flac
+libxml2
+libwebp
+minizip
+opus
+harfbuzz
+libxslt
+libpng
+freetype2
+
+%OPTDEPENDS%
+pipewire: WebRTC desktop sharing under Wayland
+kdialog: support for native dialogs in Plasma
+gtk4: for --gtk-version=4 (GTK4 IME might work better on Wayland)
+org.freedesktop.secrets: password storage backend on GNOME / Xfce
+kwallet: support for storing passwords in KWallet on Plasma
+upower: Battery Status API support
+
+%MAKEDEPENDS%
+python
+gn
+ninja
+clang
+lld
+gperf
+nodejs
+pipewire
+rust
+rust-bindgen
+qt6-base
+java-runtime-headless
+git
+compiler-rt
+
