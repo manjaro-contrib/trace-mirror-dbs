@@ -1,0 +1,88 @@
+%FILENAME%
+obs-studio-32.0.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio
+
+%BASE%
+obs-studio
+
+%VERSION%
+32.0.1-1
+
+%DESC%
+Free, open source software for live streaming and recording
+
+%CSIZE%
+6695677
+
+%ISIZE%
+24629052
+
+%MD5SUM%
+65842663ebd6c6172c441a677178c02d
+
+%SHA256SUM%
+d92c5f40036e918d87b3b820b12a175d4b37e2cfe800a8535956e58a9f4348b9
+
+%PGPSIG%
+iQEzBAABCgAdFiEEh0L3U157OUobBIFjMyycQPQNIHIFAmjY+DYACgkQMyycQPQNIHIvEAgAs931sqksEwTlTdaQ3SXs+aqd2BuMsmM9DljB0vl0t10hf3xQ5zs3N6gLB7hgZBWkinZd6h+Hso8iaEsCmRl83Xa//yQMQQ7oTg66fC56smajpLIqZop5YITvzHhATp1cSnGxsfOZLTo/hYDOao5v3qi/FMfWyNSJVUS2eX1HbLMniVHZ7uObe6GAKyzq58lqLeujmvijXo7x+G5VNfGWWV8N5JdNq7NSZKG2ITZxm60dflXsYtGRXZcqXaXykY9v2xD0wyNFF0rE8lHmJ8+U0EhQc9yhFzuDSz/CMCIukUmGmH6guB7aPOAZl4l6ATnIF8eVDzG2OhEC2sC+pPnzrw==
+
+%URL%
+https://obsproject.com
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1759048812
+
+%PACKAGER%
+Jonathan Steel <jsteel@archlinux.org>
+
+%DEPENDS%
+ffmpeg
+jansson
+libxinerama
+libxkbcommon-x11
+mbedtls
+rnnoise
+pciutils
+qt6-svg
+curl
+jack
+gtk-update-icon-cache
+pipewire
+libxcomposite
+libdatachannel
+uthash
+simde
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+libva-intel-driver: hardware encoding
+libva-mesa-driver: hardware encoding
+luajit: scripting support
+python: scripting support
+sndio: Sndio input client
+qrcodegencpp-cmake: websocket support
+v4l2loopback-dkms: virtual camera support
+
+%MAKEDEPENDS%
+cmake
+libfdk-aac
+x264
+swig
+python
+luajit
+sndio
+nlohmann-json
+ffnvcodec-headers
+websocketpp
+asio
+qrcodegencpp-cmake
+extra-cmake-modules
+
