@@ -1,0 +1,94 @@
+%FILENAME%
+scrapy-2.13.3-1-any.pkg.tar.zst
+
+%NAME%
+scrapy
+
+%BASE%
+scrapy
+
+%VERSION%
+2.13.3-1
+
+%DESC%
+A fast high-level scraping and web crawling framework.
+
+%CSIZE%
+613443
+
+%ISIZE%
+3581709
+
+%SHA256SUM%
+63ec42ec27c8413272ae898d1a78ad3b88cf6a1e545a77ac3c78bfa67b05e3f2
+
+%PGPSIG%
+iQIzBAABCgAdFiEELjbYYgIhSC/EXLfyqRdkdZMmtEAFAmjibq8ACgkQqRdkdZMmtEBBqw//Vgy4/PZsU7J2+jDQErQJShJ++zg4G15nKRQ3jlCvOPquV1LxLKh8hZciXJMyIsJnMJBABJJfmx4XfjNXidSovdEUUdyGRHeGAEKbJjKgmXlzBgrBIa6MI6cVr74mW46uX/+XZqULbwcmlBj2Fov9TznAV9B8IVHdWuLifh/M6ZlHBJbNsHWwdZIRuipvMDtS95Qja+wYB6QBFgMFW3LrBRzrLeggCjqYXJ3nBAaaJXvF60Mb1YhPBZkxzWPmlLp6ITLK65sYZr9NYA8j6ETmX+kApvKoPTugPRVnVjFvTvO8s0LxNZWr/N54y9FOcXoflBmlu2vrix/Y7fSIW+Ne5iR+n5BR76n0HATR0AdzHAkN/TzKbDDBaYOuW7w0nOQOt90oLVrc3daqan+ZD4t3YaJuDKzu95ojoeEo+2OlgyYtrfbeR/otbkE4Skh8AqQF9EAnsLgxHfpYuEEB5wyttefCODq5CAn8odqVQi5bhnnit25Aky4D1HRp0VZwt+XBejiJbkUFaBJKCJ9RQ7IbTSiZ7UEJOKEL2sJk2t7840s7XNa1CTnSc3NtyxfGCkkNlwDGAB1Bsnlsn712X2Sf5E05ruX1UYh4+IFdL+n5aP6K7aGfyergX0QDcgDWcFwhBESXIrCJwMGAUIB5/O6Rk5j/dmugAJirsNEXn9QPSVU=
+
+%URL%
+https://scrapy.org
+
+%LICENSE%
+BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1759669198
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%DEPENDS%
+python
+python-cryptography
+python-cssselect
+python-defusedxml
+python-itemadapter
+python-itemloaders
+python-lxml
+python-packaging
+python-parsel
+python-protego
+python-pydispatcher
+python-pyopenssl
+python-queuelib
+python-service-identity
+python-setuptools
+python-tldextract
+python-twisted
+python-w3lib
+python-zope-interface
+
+%OPTDEPENDS%
+bpython: for ncurses support in cmdline
+ipython: for enhanced support of the interactive scraping shell
+python-botocore: for various utils
+python-brotli: for HTTP compression using brotli
+python-h2: for HTTP2 support
+python-hpack: for HTTP2 streaming support
+python-zstandard: for HTTP compression using zstandard
+
+%MAKEDEPENDS%
+python-build
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+bpython
+ipython
+mitmproxy
+python-attrs
+python-botocore
+python-brotli
+python-h2
+python-markupsafe
+python-pyftpdlib
+python-pytest
+python-sybil
+python-testfixtures
+python-uvloop
+python-zstandard
+
