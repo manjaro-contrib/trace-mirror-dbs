@@ -1,0 +1,58 @@
+%FILENAME%
+wallabag-2.6.14-1-any.pkg.tar.zst
+
+%NAME%
+wallabag
+
+%BASE%
+wallabag
+
+%VERSION%
+2.6.14-1
+
+%DESC%
+Self hostable application for saving web pages
+
+%CSIZE%
+50546663
+
+%ISIZE%
+139958247
+
+%SHA256SUM%
+86dea3a1582bda56be49fca97267da4ad14ee65546cf2aacf12d758c39dac2ad
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaOddSwAKCRDglZ/qi1UFOYx2AP9fkZEfgKIuygyiIq4NjYwvDYdHmqO8jCuH5IYm3v7W+QD8CVUhJRGbShx98XZj1uxO4iH4C0dSn/Uijb9HgZXokwg=
+
+%URL%
+https://www.wallabag.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1759992889
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+php
+php-gd
+php-tidy
+php-intl
+
+%OPTDEPENDS%
+php-fpm: to run in FastCGI process manager
+php-pgsql: to use a local PostgreSQL server
+php-sqlite: to use the SQLite database backend
+rabbitmq: to use a local RabbitMQ server for async import
+valkey: to use a local Redis server for async import
+
+%MAKEDEPENDS%
+systemd
+
