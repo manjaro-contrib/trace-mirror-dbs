@@ -1,0 +1,55 @@
+%FILENAME%
+nvshmem-3.4.5-3-x86_64.pkg.tar.zst
+
+%NAME%
+nvshmem
+
+%BASE%
+nvshmem
+
+%VERSION%
+3.4.5-3
+
+%DESC%
+NVIDIA parallel programming interface based on OpenSHMEM
+
+%CSIZE%
+97864072
+
+%ISIZE%
+487380896
+
+%SHA256SUM%
+af8823eeb7f5b39a51c52c6ec52bef0da2a5b72bcfd82fd140b5cb1eb5281ec7
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaOgITwAKCRAAHPSBC+jZEdK+AP9T3hMA+0iTdyLGUhycUb5tbtmpZuSwhSmWLEpIoPcYogEArFVaDKU0pybYIPs0tmnGAuzZ9xuCvxvf2Otb3RMOTQs=
+
+%URL%
+https://developer.nvidia.com/nvshmem
+
+%LICENSE%
+LicenseRef-NVIDIA-NVSHMEM
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1760036524
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+cuda
+gcc-libs
+glibc
+hwloc
+
+%OPTDEPENDS%
+libfabric: For OpenFabrics transport plugin
+openmpi: For MPI and OpenSHMEM bootstrap plugins
+openpmix: For PMI bootstrap plugins
+openucx: For UCX transport plugin
+rdma-core: For IBGDA transport plugin
+

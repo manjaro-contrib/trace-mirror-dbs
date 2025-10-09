@@ -1,0 +1,51 @@
+%FILENAME%
+cudss-0.7.0.20-2-x86_64.pkg.tar.zst
+
+%NAME%
+cudss
+
+%BASE%
+cudss
+
+%VERSION%
+0.7.0.20-2
+
+%DESC%
+A high-performance CUDA library for Direct Sparse Solvers
+
+%CSIZE%
+62827459
+
+%ISIZE%
+73257119
+
+%SHA256SUM%
+0c104b22854aacba8196a0429bcb18e8757af7c22824658902c500b3a39c90dc
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaOgFSQAKCRAAHPSBC+jZEVQlAQDV2y2eCptFf7/8VN2LhxLOeBQUvge8wRraDk1DD4l5/QD+K3fzZyI1FJJjJfgOmClrhvq2rcwQxNC6kRvc4OMFRgo=
+
+%URL%
+https://docs.nvidia.com/cuda/cudss/
+
+%LICENSE%
+LicenseRef-NVIDIA-cuDSS
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1760036102
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+cuda>=13
+gcc-libs
+glibc
+
+%OPTDEPENDS%
+nccl: for the NCCL multi-GPU communication layer
+openmpi: for the OpenMPI multi-GPU communication layer
+
