@@ -1,0 +1,68 @@
+%FILENAME%
+linux-firmware-20251011-1-any.pkg.tar.zst
+
+%NAME%
+linux-firmware
+
+%BASE%
+linux-firmware
+
+%VERSION%
+20251011-1
+
+%DESC%
+Firmware files for Linux - Default set
+
+%CSIZE%
+2455
+
+%ISIZE%
+0
+
+%SHA256SUM%
+c7662d523b93d67d730f8c54603f25ea3dda70bf1f4a449c716f5e921c888990
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCaOkpfAAKCRC4rAhgDxCM35VwAQDBoLef8L62VjJhfDpEHjvWfvuYN4Wsu41NcHbqLVHdMQD/eTadQoVthoUmQngqJG0dCYACLngPR0P5J0CxQs/zjQs=
+
+%URL%
+https://gitlab.com/kernel-firmware/linux-firmware
+
+%LICENSE%
+CC0-1.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1760110537
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%DEPENDS%
+linux-firmware-amdgpu
+linux-firmware-atheros
+linux-firmware-broadcom
+linux-firmware-cirrus
+linux-firmware-intel
+linux-firmware-mediatek
+linux-firmware-nvidia
+linux-firmware-other
+linux-firmware-radeon
+linux-firmware-realtek
+
+%OPTDEPENDS%
+linux-firmware-liquidio: Firmware for Cavium LiquidIO server adapters
+linux-firmware-marvell: Firmware for Marvell devices
+linux-firmware-mellanox: Firmware for Mellanox Spectrum switches
+linux-firmware-nfp: Firmware for Netronome Flow Processors
+linux-firmware-qcom: Firmware for Qualcomm SoCs
+linux-firmware-qlogic: Firmware for QLogic devices
+
+%MAKEDEPENDS%
+git
+parallel
+python
+rdfind
+
