@@ -1,0 +1,77 @@
+%FILENAME%
+python-hishel-0.1.4-1-any.pkg.tar.zst
+
+%NAME%
+python-hishel
+
+%BASE%
+python-hishel
+
+%VERSION%
+0.1.4-1
+
+%DESC%
+An elegant HTTP Cache implementation for HTTPX and HTTP Core
+
+%CSIZE%
+166166
+
+%ISIZE%
+1167312
+
+%MD5SUM%
+58d0636b060d953d14aa2458b9999337
+
+%SHA256SUM%
+ba60e7fa8f5ef4d4542411f3f220eb7fb4c85d2fcb442286d48c9cebac61b6db
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCaO6HQwAKCRCbeih9mi7GCNf9AP4vWmc/WoV2hvbr3WiAo6QRPmCkp6pYvZR0fWXbMQU5RQD/TqpO10GKSzu60KGzdpDo5EoqPoZKTvY2AQU1z6tCLA4=
+
+%URL%
+https://github.com/karpetrosyan/hishel
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1760462608
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-anyio
+python-anysqlite
+python-httpcore
+python-httpx
+python-msgpack
+python-typing_extensions
+
+%OPTDEPENDS%
+python-boto3: for S3 support
+python-pyyaml: for YAML support
+python-redis: for Redis support
+python-requests: for requests support
+
+%MAKEDEPENDS%
+python-build
+python-hatchling
+python-hatch-fancy-pypi-readme
+python-installer
+
+%CHECKDEPENDS%
+python-anyio
+python-anysqlite
+python-inline-snapshot
+python-pytest
+python-pyyaml
+python-redis
+python-requests
+python-time-machine
+python-trio
+
