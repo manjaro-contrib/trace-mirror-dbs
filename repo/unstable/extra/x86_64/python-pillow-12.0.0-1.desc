@@ -1,0 +1,81 @@
+%FILENAME%
+python-pillow-12.0.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-pillow
+
+%BASE%
+python-pillow
+
+%VERSION%
+12.0.0-1
+
+%DESC%
+Python Imaging Library (PIL) fork
+
+%CSIZE%
+916627
+
+%ISIZE%
+4586554
+
+%MD5SUM%
+46d4edb0b2398a1889284d02c594b623
+
+%SHA256SUM%
+83e984b555f0d567f016df93ae6c1e48eaede7d1fe22018ce16a900e1561cf97
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmjvlQ4ACgkQ/cMEC5Ksp0jX6A//bja0qWZa4XZF3unVPMvmyCDpJHnvCBmMJ/dSN5v9Hg5b0JAJf2b7SUYkNet+rO+xEbuogBUZ+kBaUPVVzxKfg2HiaABuJnuGvFGG/76T87i/BLnTs3EqNgkAINW3GSlw26hqm4y+W2BpcGcBHlVvu/crXc6LEoV43TR2S2wlIuxVP8uLIHJXREE6ul3jpS9jYyMFlaIoP9vwkJ2TyFHx9TDfOocUYnaOMtDn3pBhLpKEE8GIbyux5nUfXUzgXTy2l8BO0DUwI+MbJSf/nXxs5YM/cDBb7ZOZoX9fYboha9+UjTC+bz+EBtdggcDKop+SPnNhMWEeUSPsDeHgUqs3d8S4eNaryyuzPyNbwuguQyOnOKpiyEqOeROGqPd4h49jQwugAucltMRUczPpuc1QK9yoZXMtOIJbGfXkipzKJBwsJt/QKAoVz1XoVRpZhQY3PxqYsdOULc4vMq7ruRt1Ti3/VNLLnnXaydzg80qgWwwn/jyELA+yRci9j5qpz1LXcrjiMe2JDygQUNgTBWmWApbpd5/1J2O+tkCV24/zfd+DRAw+fj+hoIq896RpRap65xcvFGfida5WHmSST1aiyiPg1129wNK7YXY2D7jYLePPlT6jzi1praT1GNbT9z4jyCeQ+Rpo+QXGp4elGbpMzQ9TvgLAB/R+8za9P2clZcc=
+
+%URL%
+https://pillow.readthedocs.io
+
+%LICENSE%
+MIT-CMU
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1760531668
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+python-packaging
+freetype2
+lcms2
+libavif
+libraqm
+libtiff
+openjpeg2
+libjpeg-turbo
+libimagequant
+libxcb
+zlib
+
+%OPTDEPENDS%
+libwebp: for webp images
+tk: for the ImageTK module
+python-olefile: OLE2 file support
+python-pyqt6: for the ImageQt module
+python-defusedxml: for reading XMP tags
+
+%MAKEDEPENDS%
+git
+pybind11
+python-build
+python-installer
+python-wheel
+python-setuptools
+libwebp
+tk
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-timeout
+
