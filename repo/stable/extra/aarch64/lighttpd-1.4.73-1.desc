@@ -1,0 +1,64 @@
+%FILENAME%
+lighttpd-1.4.73-1-aarch64.pkg.tar.xz
+
+%NAME%
+lighttpd
+
+%BASE%
+lighttpd
+
+%VERSION%
+1.4.73-1
+
+%DESC%
+A secure, fast, compliant and very flexible web-server
+
+%CSIZE%
+337476
+
+%ISIZE%
+1141862
+
+%MD5SUM%
+3887e1ef7a68309f94ba869e76c3b258
+
+%SHA256SUM%
+6dce41c252c10dd7f15b6459b8d85e6367af11f25772373d3d3048d36a527b92
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmVCUjcACgkQdxk/FSvb5qbBQw/+PYJg5WxITEDRpebObfcGhrSNEyTxC2hw9gUOm0g76jLobe+hFAtz+6yndnJxgf4ZY34S2HwTq62HMv/bnHkFslUpYLV1sIL3dp29ScJnbV+1uERUeLvVPoLCl4ofEkSn/s29JUrzOGyx8oylxbinY3DN0kQAYiEfNnrF/M8DS1wzyk5MUIgOKjt1tyEP4133EFbfqPgI2IiMOkkKIwacYGR5RDVKgGojfkBQvYD14+GB9Q6s8tGcRmpI5ghFebEkT2PYj+kKsZ0+QluCIvDpK4s5DN0ah2GWyZMDeG+wVGxxtzUqh2khqC0z2HMj5IzTMjVJNkDrt4g3kgprRVzNLwauRzwxnB7HT4g1RQvFG+QHTDGg4cQH+V4nTlGfPDZkcfsRzL7wowe+QHX3gn5t9u3pUWYZ2ldp3kna6yUciA7dyxYYBRCK5C7JmdDPuynDiAhp8B55BGzlVOUosQnGsW69IPw6NQsOHT3iRXIDeLvPdUiXafcKJdGmFa+p+Nw0oC6hwzSYEsEhkdJh/xkqFW4061VNZ+TBNJOF/kbyruA14lSRnONw2riI7ytgYcaIFmI2CqoXdMCZN4gVnJbqayIuYoQMg4xBoZ6/gcqMKFO2mE6oi/2VslYzeL5XhaSjB7UTcWZrrb4M3xdnmN/CpAJsNMTF9NoXXzL1CtgTjTs=
+
+%URL%
+https://www.lighttpd.net/
+
+%LICENSE%
+custom
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1698845196
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+pcre2
+systemd
+brotli
+
+%OPTDEPENDS%
+libxml2: mod_webdav
+lua: mod_cml/mod_magnet
+mariadb-libs: mod_mysql_vhost/mod_authn_mysql
+sqlite: mod_webdav
+
+%MAKEDEPENDS%
+mariadb-libs
+lua
+libxml2
+e2fsprogs
+sqlite
+pkgconfig
+

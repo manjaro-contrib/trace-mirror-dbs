@@ -1,0 +1,163 @@
+%FILENAME%
+systemd-257.8-2-aarch64.pkg.tar.xz
+
+%NAME%
+systemd
+
+%BASE%
+systemd
+
+%VERSION%
+257.8-2
+
+%DESC%
+system and service manager
+
+%CSIZE%
+8227396
+
+%ISIZE%
+43467096
+
+%MD5SUM%
+2b5e79f5005b3fa88ee12816c3025b88
+
+%SHA256SUM%
+6d9058ca36033f39a5012e3341f55bae85c5bea62e1a30c564e5379a9dee3848
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmiV6AAACgkQdxk/FSvb5qYjyRAAg7VEFnOg4qtF00gkE70fTxBdP5qxPjdczCIey3JPw/SgL/CbMTN5sykN/e5FCuDeVu2UcSlb4jVdbClE3wEXkXlD96jTER14lAHFC7j8JZ/zy+dwVdbUAxLvrpgP3EIWTxsKzeOz7MKqOBvE4MMmtcc8lBKAh99Dptt5wIqOpkoWwR3inXg2JKAATS6La9X3eZZeWdwhyahrIfVvSNMnIWFfc3zkWzyHI/iEyQ7tDcLj/9cbf9lz79PAtzxxu6UPt4SvC+LsFVNdbHlnmtmEd8+Du5PGXlosJ0qXVFjqU/kLSpoEzdp5AIlA9T+YG2O5gu5EmlPVEduMTl/wMTDDzspIPvHnYRdzuKxpeb4si8BC0lIK2yGqALjF4LtLFTau5Qu6zll81uyn15wJl8MUrvRf+d/3v42On9pdt+vX8QUKtx5uLmAKBi5pmGHli9J1lSMYwXXPSE0ev5ZgI2dTnizvGlcAF2pWRQgLTeC0/B4emaZm2J6X0AJu1gCaPUW6N9/xsjzfkmupWpo7kJf89YnV7Tju87EjVm9oQcx0oDKY7GAYhMEhRWWkPJi1RvbbmmCeyncz7W8BAhEdokqQ5pydiQf6c8RUybfjFQtI8v15Fleai+YD3xIeKg+EERYYsd9PohYu9BJX8/g/JI6le6eY8IDppFr+k5MxEZKcFEc=
+
+%URL%
+https://www.github.com/systemd/systemd
+
+%LICENSE%
+LGPL-2.1-or-later
+CC0-1.0
+GPL-2.0-or-later
+MIT-0
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1754654144
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%REPLACES%
+nss-myhostname
+systemd-tools
+udev
+
+%CONFLICTS%
+nss-myhostname
+systemd-tools
+udev
+
+%PROVIDES%
+nss-myhostname
+systemd-tools=257.8
+udev=257.8
+
+%DEPENDS%
+systemd-libs=257.8
+acl
+libacl.so=1-64
+bash
+cryptsetup
+libcryptsetup.so=12-64
+dbus
+dbus-units
+kbd
+kmod
+hwdata
+libcap
+libcap.so=2-64
+libgcrypt
+libxcrypt
+libcrypt.so=2-64
+libidn2
+lz4
+pam
+libelf
+libseccomp
+libseccomp.so=2-64
+util-linux
+libblkid.so=1-64
+libmount.so=1-64
+xz
+pcre2
+audit
+libaudit.so=1-64
+openssl
+libcrypto.so=3-64
+libssl.so=3-64
+
+%OPTDEPENDS%
+libmicrohttpd: systemd-journal-gatewayd and systemd-journal-remote
+quota-tools: kernel-level quota management
+systemd-sysvcompat: symlink package to provide sysvinit binaries
+systemd-ukify: combine kernel and initrd into a signed Unified Kernel Image
+polkit: allow administration as unprivileged user
+curl: systemd-journal-upload, machinectl pull-tar and pull-raw
+gnutls: systemd-journal-gatewayd and systemd-journal-remote
+qrencode: show QR codes
+iptables: firewall features
+libarchive: convert DDIs to tarballs
+libbpf: support BPF programs
+libpwquality: check password quality
+libfido2: unlocking LUKS2 volumes with FIDO2 token
+libp11-kit: support PKCS#11
+tpm2-tss: unlocking LUKS2 volumes with TPM2
+
+%MAKEDEPENDS%
+acl
+cryptsetup
+docbook-xsl
+gperf
+lz4
+xz
+pam
+libelf
+intltool
+iptables
+kmod
+libarchive
+libcap
+libidn2
+libgcrypt
+libmicrohttpd
+libxcrypt
+libxslt
+util-linux
+linux-api-headers
+python-jinja
+python-lxml
+quota-tools
+shadow
+git
+meson
+libseccomp
+pcre2
+audit
+kexec-tools
+libxkbcommon
+bash-completion
+p11-kit
+systemd
+libfido2
+tpm2-tss
+rsync
+bpf
+libbpf
+clang
+llvm
+curl
+gnutls
+python-pyelftools
+libpwquality
+qrencode
+python-pefile
+

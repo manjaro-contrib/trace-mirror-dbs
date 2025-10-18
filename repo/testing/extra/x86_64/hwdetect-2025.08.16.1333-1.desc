@@ -1,0 +1,58 @@
+%FILENAME%
+hwdetect-2025.08.16.1333-1-any.pkg.tar.zst
+
+%NAME%
+hwdetect
+
+%BASE%
+hwdetect
+
+%VERSION%
+2025.08.16.1333-1
+
+%DESC%
+Hardware detection script with loading modules and mkinitcpio.conf
+
+%CSIZE%
+5996
+
+%ISIZE%
+15798
+
+%MD5SUM%
+4293d1f9f4bc6356c82cd8ec00d7199f
+
+%SHA256SUM%
+dbe9143af99f4e4423f5a386931d65f1cfc09c9644f1e503a0bf00516c813ffc
+
+%PGPSIG%
+iQEzBAABCgAdFiEEW34/txt/EDKaHAOrdx32Yn7faB8FAmigbPUACgkQdx32Yn7faB8ZPwf/c18ScC6xhcC8nmQk+h1OEGKed0mEG4PM8shKkKaLjYsXlGvBpBgYjOjdh0e4H9SKLvG3mN2PGLsM399Y4/EcAJ3C8tyjxmoAmrYYHRaNtJqUp+lvT4L32H6P626AHxS45hczlSgkI/ezt0ht1u4pWdMNtmn09o1vLj5CZRNsbyQ6gEguKoH65X5RNtzcLUtss8UktqlKrhDjiVWLaE57gr2oLBej48fQAI5hUYuXonBRTJacax/1zreULJCyy+/8XKR0W6ITRS/9B0ZxAnfhcKAtUyzW/toUglyks5zBxjXZPnlGQnIL2EKCEVzTy0ki+BakO0ozGTtoyaa2wzdPeA==
+
+%URL%
+https://archlinux.org/packages/extra/any/hwdetect/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1755344084
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%DEPENDS%
+bash
+coreutils
+fd
+gzip
+ripgrep
+sd
+
+%OPTDEPENDS%
+cryptsetup: for encrypt mkinitcpio config support
+lvm2: for lvm2 mkinitcpio config support
+mdadm: for raid mkinitcpio config support
+

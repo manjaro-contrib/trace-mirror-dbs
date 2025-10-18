@@ -1,0 +1,88 @@
+%FILENAME%
+python-scikit-image-0.25.2-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-scikit-image
+
+%BASE%
+python-scikit-image
+
+%VERSION%
+0.25.2-2
+
+%DESC%
+Image processing in Python
+
+%CSIZE%
+10790156
+
+%ISIZE%
+37432431
+
+%MD5SUM%
+f211e2fce0bc572441d5867edc71e4b4
+
+%SHA256SUM%
+dbcf0eba9b0c96cb3f5f8828443b6f4b6398e1fb33857fbdeb50cdc5c639936f
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaBeP6gAKCRAAHPSBC+jZEVUjAQCj5maU6IfC/EPLXSZs3LwnQWP8S5vObp3U2rUPkpeb3gD+JGd0cdvxtoygrj1NNGH5jJvXYJL90Xz6aH1xg8YtEw0=
+
+%URL%
+https://github.com/scikit-image/scikit-image
+
+%LICENSE%
+BSD-3-Clause
+BSD-2-Clause
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1746373863
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+python
+python-imageio
+python-lazy-loader
+python-networkx
+python-numpy
+python-packaging
+python-pillow
+python-scipy
+python-tifffile
+
+%OPTDEPENDS%
+python-astropy: for FITS I/O capability
+python-cloudpickle: necessary to provide the processes scheduler for dask
+python-dask: used to speed up certain functions
+python-matplotlib: for plotting
+python-pooch: for data fetching and caching
+python-pyamg: fast cg_mg mode of random walker segmentation
+python-pywavelets
+python-scikit-learn
+python-simpleitk: Optional I/O plugin providing a wide variety of formats. including specialized formats using in medical imaging
+
+%MAKEDEPENDS%
+cython
+meson-python
+python-build
+python-installer
+python-pythran
+
+%CHECKDEPENDS%
+python-pytest
+python-astropy
+python-cloudpickle
+python-dask
+python-matplotlib
+python-pooch
+python-scikit-learn
+python-simpleitk
+

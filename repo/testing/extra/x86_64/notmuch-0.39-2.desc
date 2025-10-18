@@ -1,0 +1,73 @@
+%FILENAME%
+notmuch-0.39-2-x86_64.pkg.tar.zst
+
+%NAME%
+notmuch
+
+%BASE%
+notmuch
+
+%VERSION%
+0.39-2
+
+%DESC%
+Notmuch is not much of an email program
+
+%CSIZE%
+244870
+
+%ISIZE%
+1411012
+
+%MD5SUM%
+aaabf8bb2d0974a4c09aa0c86df7dc33
+
+%SHA256SUM%
+ec0ba1a19f30cc4f70538b86e9bfc2bdab16501ae367785c200f101c3e7226e2
+
+%PGPSIG%
+iHUEABYKAB0WIQQ4EAwkN2zV9u1P9LRpGEAMJwMEDAUCZ+7s6QAKCRBpGEAMJwMEDMQnAQC+UWaXQWenaXf7J5J9gVjZKC1YthbVioGaGRrRpbGwGQD/XpFmgJcDdLQce0V/YJsLHglp9WxmaKzInGyZ0c3Tow8=
+
+%URL%
+https://notmuchmail.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1743711265
+
+%PACKAGER%
+Bert Peters <bertptrs@archlinux.org>
+
+%DEPENDS%
+notmuch-runtime
+
+%OPTDEPENDS%
+emacs: for using the emacs interface
+vim: for using the vim interface
+python-cffi: for using the python-cffi bindings
+ruby: for using the ruby bindings
+gnupg: for email encryption
+
+%MAKEDEPENDS%
+python
+python-build
+python-cffi
+python-installer
+python-setuptools
+python-sphinx
+python-wheel
+doxygen
+emacs
+gnupg
+ruby
+pkgconfig
+xapian-core
+gmime3
+talloc
+sfsexp
+

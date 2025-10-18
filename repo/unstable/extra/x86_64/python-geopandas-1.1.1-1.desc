@@ -1,0 +1,83 @@
+%FILENAME%
+python-geopandas-1.1.1-1-any.pkg.tar.zst
+
+%NAME%
+python-geopandas
+
+%BASE%
+python-geopandas
+
+%VERSION%
+1.1.1-1
+
+%DESC%
+Python tools for geographic data
+
+%CSIZE%
+749579
+
+%ISIZE%
+5171529
+
+%MD5SUM%
+6543131ba193233cf441025e356be505
+
+%SHA256SUM%
+fd6f608548256165e0c68cc64517c406013c25a846501dcbf2dea5d3689ddded
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmjsx4wACgkQek52CV2KUuQJBAf+LYkRcHKse7isoKo7+QdzNveqqk+O+WpO2VZth07GyNDmtfFdBfRMtpZf7Ay8SGGIHul05pE5zq5a7u2Q7rHYdVUky5/7/Rrn9UZGs06LiSZf9qmsWhkTtxF6Ki1XjXY3p8V/bi80qx6ylvaFV3sEVycrAHXpsvn7JX0IlgTsY9TSq2kCcHUZdh9tmvicHa805su3dGrT6vIOzljCt3MMQhuttLNCmUb0C4vxQ2Alt04FPaZGXOTpIS1M7Vf7C0zdJ/9w+kL5TUdeIPxfGl5od/u1vCv4Y1lGBJLmo1g7ZmTmrzw0Q1m+PA1yIlkzaBkhM4Ic1yZF1AOMAlO/gZJv9A==
+
+%URL%
+https://geopandas.org
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1760347918
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gdal
+python-fiona
+python-numpy
+python-packaging
+python-pandas
+python-pyproj
+python-shapely
+
+%OPTDEPENDS%
+python-pyogrio: vectorized IO for GDAL/OGR
+python-rtree: spatial access methods
+python-psycopg2: PostGIS access
+python-sqlalchemy: other geodatabase access
+python-geopy: geocoding
+python-matplotlib: plotting
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-fsspec
+python-pyogrio
+python-rtree
+python-matplotlib
+python-scipy
+python-geopy
+python-sqlalchemy
+python-psycopg2
+libspatialite
+python-pyarrow
+postgis
+ghostscript
+

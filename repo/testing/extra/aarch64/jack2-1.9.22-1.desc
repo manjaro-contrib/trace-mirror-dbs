@@ -1,0 +1,91 @@
+%FILENAME%
+jack2-1.9.22-1-aarch64.pkg.tar.xz
+
+%NAME%
+jack2
+
+%BASE%
+jack2
+
+%VERSION%
+1.9.22-1
+
+%DESC%
+The JACK low-latency audio server
+
+%CSIZE%
+424808
+
+%ISIZE%
+2019187
+
+%MD5SUM%
+216a7887540d40f4b6df8f6626cb0e96
+
+%SHA256SUM%
+3c77d66121a20f4aedb8661394e98d0d02d807da24fa56d2e55aa5e3aafdb13f
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmPsTcEACgkQdxk/FSvb5qZR+A//WnJilwhIDvsUVUxnA3yB6ZR0lQGaUYVDn1HKWYmwrGSo0aJ+ZDhfLoxSniTes4bFjAlDMhqNaa3kgzavXkbrJDehU1bSSdwCdxCJtRJWCHq50is2cstxRDE2CkuUy3vpQoIsB6xU7zGkQKVeWK23CDTXv1WbF5xMgJzhdwK2tJA9n0IzCgmZsnaC5UCTfivVdJ7OZwGWPsRPh/uFfW0AuCc6Hutz5KhK2hcKh/98IHVEHIW6THIewrjroudwt0fFYzJEqfswLjIGeefobBgxWkGzo8oFPN1P2JxQ2aZvCHqvW52Yhvkyb0pJV2TsMfUNKKNK7rslTIQPGEF/c+Xrql+bDHflXt+0xeQkjOGPMxDlmI6NoM+IeBzgruaEJURSZjFf9AXOPz4h6OJ5n9IaWa7Mmkuux5zCAuF4KZ0Aronuq0ZruNtcQlpYWpl3RR3ge8f+ufWHz47cAsXdcFrOBPn0eE6HfaptD2FMtO99CVmmhk/S8Q6Pyq76W6HlBeYQchDDv6yYcTgDE3GZce0YutA4HBHIxLDwe09SI9yDloSJL2GCXxA6CvC7wLNxvdmccK/faNk/U8LU9A4lMjkeMhUf9b0fK0JxJfJaw1JX//CpFmKU6cJSmt8olaSzrVOmySzK0rk7yG1iFpyZ5FWGzKDT7S2P4SkUymSRSX5aYa0=
+
+%URL%
+https://github.com/jackaudio/jack2
+
+%LICENSE%
+GPL2
+LGPL2.1
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1676430725
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%CONFLICTS%
+jack
+
+%PROVIDES%
+jack
+libjack.so=0-64
+libjacknet.so=0-64
+libjackserver.so=0-64
+
+%DEPENDS%
+alsa-lib
+libasound.so=2-64
+db5.3
+dbus
+libdbus-1.so=3-64
+gcc-libs
+glibc
+libsamplerate
+libsamplerate.so=0-64
+opus
+libopus.so=0-64
+systemd-libs
+libsystemd.so=0-64
+
+%OPTDEPENDS%
+a2jmidid: for ALSA MIDI to JACK MIDI bridging
+libffado: for firewire support using FFADO
+jack-example-tools: for official JACK example-clients and tools
+jack2-dbus: for dbus integration
+jack2-docs: for developer documentation
+realtime-privileges: for realtime privileges
+
+%MAKEDEPENDS%
+alsa-lib
+db5.3
+dbus
+doxygen
+expat
+git
+libffado
+libsamplerate
+opus
+systemd
+waf
+

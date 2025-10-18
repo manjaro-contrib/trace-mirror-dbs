@@ -1,0 +1,84 @@
+%FILENAME%
+slurm-llnl-25.05.3.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+slurm-llnl
+
+%BASE%
+slurm-llnl
+
+%VERSION%
+25.05.3.1-2
+
+%DESC%
+Simple Linux Utility for Resource Management
+
+%CSIZE%
+5875752
+
+%ISIZE%
+22847529
+
+%MD5SUM%
+ea2d68363f4549fa9e061e942649f534
+
+%SHA256SUM%
+9ebc4310f001d2c2e2239cb56fba706e85123c93bad6101bb1425f2c98921ee3
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaM8PyAAKCRAAHPSBC+jZEdvUAQCJOsJGx0Nzlbk8KKeWqFO8GQVWaceYv+d1EnC8rwiMvAD/XpKWcjkRL3m7CZ2lbm5CutMKboGsQfcP7sUvJi8hYgo=
+
+%URL%
+https://www.schedmd.com
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1758400096
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+curl
+dbus
+gcc-libs
+glibc
+hwloc
+lz4
+munge
+numactl
+pam
+readline
+
+%OPTDEPENDS%
+mariadb-libs: support for accounting
+openpmix: support Open MPI applications using PMIx
+freeipmi: for the acct_gather_energy_xcc plugin
+hdf5: support for acct_gather_profile/hdf5 job profiling
+lua: the lua API will be available in various plugins
+rdma-core: support for the acct_gather_infiniband/ofed InfiniBand accounting plugin
+rrdtool: support for the ext_sensors/rrd plugin
+gtk2: enables the sview command, a simple graphical frontend
+json-c: JSON serializer support
+libyaml: YAML serializer support
+
+%MAKEDEPENDS%
+freeipmi
+gtk2
+hdf5
+json-c
+level-zero-headers
+level-zero-loader
+libyaml
+lua
+mariadb-libs
+openpmix
+python
+rdma-core
+rrdtool
+

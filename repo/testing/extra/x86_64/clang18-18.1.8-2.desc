@@ -1,0 +1,65 @@
+%FILENAME%
+clang18-18.1.8-2-x86_64.pkg.tar.zst
+
+%NAME%
+clang18
+
+%BASE%
+clang18
+
+%VERSION%
+18.1.8-2
+
+%DESC%
+C language family frontend for LLVM 18
+
+%CSIZE%
+45998247
+
+%ISIZE%
+225800433
+
+%MD5SUM%
+e22123ff0a6e02dfc9cb62a6d5006efb
+
+%SHA256SUM%
+08386e647148020541d15a9bad7cf10a6682cdeaba68caaa0ff43e0bb4084a9f
+
+%PGPSIG%
+iQEzBAABCAAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmgJUm4ACgkQek52CV2KUuQo0ggAjzewOCS0JLYkOBGtccLMFsxJ5MjM5OCJnFm1Qy8ohmJz9S64zzDaOp6TNG/+zNB5yIQO0nkrN2In2LpPeFSdk8+7XyZOlELEi2Aq/WC0CLZvlQXShX7RdbmvgApojmz/NaDAKD5oSOIkcCo+TK92DZdSrXpYPMkrwpCeYv6DS237ZmY/MC9n79ipM0YcQVEQc3zBnXeck/1AdOxCNooCtU+345ZqjXY5Uth7S0YXh9UCWQtHytcci8L614GTIAICIt2oWAguMLsDkLQnA4cVHSGbPuWUBFzw5rIKrj6VfI8EE4WRi0a9I4P8tlRWrNQ44xuIOeilr6N+/qGMo3nAvg==
+
+%URL%
+https://clang.llvm.org/
+
+%LICENSE%
+Apache-2.0 WITH LLVM-exception
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1745440656
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+llvm18-libs
+gcc
+compiler-rt18
+
+%OPTDEPENDS%
+openmp: OpenMP support in clang with -fopenmp
+python: for scan-view and git-clang-format
+llvm18: referenced by some clang headers
+
+%MAKEDEPENDS%
+llvm18
+cmake
+ninja
+python-sphinx
+python-myst-parser
+
+%CHECKDEPENDS%
+llvm
+

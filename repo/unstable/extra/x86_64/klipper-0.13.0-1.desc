@@ -1,0 +1,70 @@
+%FILENAME%
+klipper-0.13.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+klipper
+
+%BASE%
+klipper
+
+%VERSION%
+0.13.0-1
+
+%DESC%
+3D printer firmware with motion planning on the host
+
+%CSIZE%
+6906851
+
+%ISIZE%
+223112570
+
+%MD5SUM%
+0c5e028b7cb74d509f41d550d1274b05
+
+%SHA256SUM%
+07abdd53e3ab7c4fc502c97d7c144a728c5078f12902e25af289899b59ed77b3
+
+%PGPSIG%
+iQIzBAABCAAdFiEElSIL6Zzm/3eK4NxnD2XH2IFQYTAFAmiD58gACgkQD2XH2IFQYTA+cBAAyqP1YvL6BZfH/M8uPIM3l4so0ski5plQupivaiwBzRxXIyBCdazIEBp+X2PlHW0BLhKIbHTT/jOgqeQKDeD9L7KXqQKl2E6Aq8bPCVWGY4eshhDQ5hyY+ytbVHi8NbpR2R8I4vPJJrqJy5PjYgt1tvEqR8s5g7tmzQsKEMOJ8frZds+iiJogScRBOWBfJyDEpJLNlx39omDgv3sdCHNO6fYRH3a/El0ev7EPANqBUqJNQJ3DZRrqmz3vHma8SSS2LLyBQ1QghNep7u43dZwStvQyxL6KibgEnW4FMz2kq6xVIVpWWWr7DMPPK2Q5ptgk7HNkUw7JGMnivKoRRw40uUa3XIibVJZ5DccftnKPAMTQWzSW4fk3RQ5lDPka0BEtCOYnoa/dOlKlXTLXNkZn/3uOYnFjrtMOYw1J4gVI9AaoJR3P8xjZ0WuFqpCF5yK8Qnbwg4211RHZrut8qBMcLDkoUooplt2hliY5iz0c6mMwUTzXiQMgq05naDWP+1V5+1/qS9S9dZHX8ZsReB+hGA9qAQUlQ7O3IvsBbzLEjbOAjL1vSpDgM/TXLIN89UDHerMtMnXzCwbp8NKrf0eMFGf/k8Ix5YQ63mP0GJjqO2hBXba+K8fPYjzO9SvvM61PhNpACvL/QpPXor+D5QqMkWfQHA8aPQeA7pYiScSqqqg=
+
+%URL%
+https://www.klipper3d.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1753474937
+
+%PACKAGER%
+Maxime Gauduin <alucryd@archlinux.org>
+
+%DEPENDS%
+python-can
+python-cffi
+python-greenlet
+python-jinja
+python-markupsafe
+python-pyserial
+libusb
+
+%OPTDEPENDS%
+ncurses: for choosing compilation config
+avrdude: for flashing firmware on AVR MCU
+stm32flash: for flashing firmware on STM32 MCUs
+avr-gcc: for AVR MCU firmware compilation
+avr-binutils: for AVR MCU firmware compilation
+avr-libc: for AVR MCU firmware compilation
+python-numpy: for resonance measurement
+python-matplotlib: for resonance measurement
+dfu-util: for flashing firmware on STM32 MCUs
+arm-none-eabi-gcc: for RPi firmware compilation
+arm-none-eabi-newlib: for RPi firmware compilation
+
+%MAKEDEPENDS%
+git
+

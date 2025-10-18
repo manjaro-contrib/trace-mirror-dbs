@@ -1,0 +1,72 @@
+%FILENAME%
+python-testinfra-5.3.1-3-any.pkg.tar.xz
+
+%NAME%
+python-testinfra
+
+%BASE%
+python-testinfra
+
+%VERSION%
+5.3.1-3
+
+%DESC%
+Testinfra test your infrastructures
+
+%CSIZE%
+100068
+
+%ISIZE%
+481432
+
+%MD5SUM%
+b0172575eb6a097ed57edf64bf5ef85c
+
+%SHA256SUM%
+52c0f0376ff275d8df433420189bf6375244552347aad806b8ee01d1760ea69e
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAl/JuOIACgkQdxk/FSvb5qYwqBAAjTgnWvqFsYaxGdQ2+61Whivl0koFxQ2DAJYDEHPma2KJq3SPZuEdpOPPQZBqtsZZOoC4RRymHJR62YMTyTMo12aAFY6JvMXS5BZZ0hwatzo2qvnHfHS9M2dvyMXMKoS6GHtlvsGXZHIo7h/IKd6tuhEskItyzWuI1VS/uiYudkdHLHTaQu3UpJIYc3hNKFWh6+26bnOQdgy3tggInBFRY4/2XWfzIb6nGdVUKAPQg+za6lCN3k557O34gF13HRWCjp8iLPZ2cmASuUS/m0bOeLt86FXmW65XCMgRBURJNIBzw05q0H8TW6NE9FQFWUA/La+hHGLb+NzPZgC4qrQ5J4Ix5lmYMRCI07sqKkV1CkhkvVlyv2F1ebcNVvpRY1jSLrm5PvRjbIBwn04YkP60kLOLqktv7IvHwImOo5B8RATzbLLYpUgKe1UutKfYvls4zV+6GsDod1rphp0Jxt+XTR5ofx6QEFmKKdW7VfOfWmdBszn+K/cr/lA3EZr5rOe146uqQWauaoHJEROppiQUHeUXN7iNiSLSvm5OVxJ3Pgod/i2EzOvUm0sqSbWFtcSD9dgwuLK1WNDQ3ftI1LgYAVoJCCp4f3z6U5DykvPBk9OYiwfC81L+ss5Z1Xj32+Vk48q+aOEBg++iElss9zmxBNXwkln8WkB1vdiTkIdtzg8=
+
+%URL%
+https://github.com/philpep/testinfra
+
+%LICENSE%
+Apache
+
+%ARCH%
+any
+
+%BUILDDATE%
+1607055567
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python-pytest
+
+%OPTDEPENDS%
+ansible: for tests using ansible inventories
+docker: for test running docker containers
+kubectl: for test running containers in kubernetes
+lxd: for test running LXC or LXD containers
+podman: for test running podman containers
+python-paramiko: for testing remote hosts
+python-pywinrm: for testing on Windows hosts
+
+%MAKEDEPENDS%
+python-hacking
+python-setuptools_scm
+python-sphinx
+
+%CHECKDEPENDS%
+ansible
+python-mock
+python-paramiko
+python-pytest-cov
+python-pytest-xdist
+python-pywinrm
+python-tornado
+salt
+

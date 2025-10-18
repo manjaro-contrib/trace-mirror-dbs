@@ -1,0 +1,63 @@
+%FILENAME%
+xfsprogs-6.16.0-3-x86_64.pkg.tar.zst
+
+%NAME%
+xfsprogs
+
+%BASE%
+xfsprogs
+
+%VERSION%
+6.16.0-3
+
+%DESC%
+XFS filesystem utilities
+
+%CSIZE%
+1402338
+
+%ISIZE%
+4600127
+
+%MD5SUM%
+3a00971339228816bc6e97a6eb78b882
+
+%SHA256SUM%
+e436843198ff612993849cbea676555d41faa5213ed9d4ee5c886b57d37b79dd
+
+%PGPSIG%
+iQEzBAABCgAdFiEEW34/txt/EDKaHAOrdx32Yn7faB8FAmjHCI0ACgkQdx32Yn7faB//JggAu6+scj3Zvl8++3nlHJ5T4HQhEw76YlSrvK+9uBhxcRUarxdBbIt1npRFKo58i2IJkdsesr8YkEik62m3heUcXc+9UwrvzpW3x7C8rORKKxgEhxJp4aqS0Pg8BMPpTDt3Yc1r+3Ek3sCDElq1qvXzg7KX5djpfGcb/JAbPLJNaceErJdun4zwF1PJbiDotBwQ7i7GX9Xw5mwuJ9iskhV6wV9RVV2aiJAzdxJsKTEzPU2Iikbe7AKLLjoPeDs5K+FyiDfIVulsW2uEYn0ZjMw4+1WqqQOGJZ1ZqJwn8S5Q+IgleL5R47pjmY3E4PXRgK3ZSjDsyhsMPw99uuay8Mcezg==
+
+%URL%
+https://xfs.wiki.kernel.org
+
+%LICENSE%
+GPL-2.0-only
+LGPL-2.1-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1757874256
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%DEPENDS%
+device-mapper
+libedit
+libinih
+liburcu
+sh
+util-linux-libs
+
+%OPTDEPENDS%
+icu: for xfs_scrub
+python-dbus: for xfs_scrub_all script
+smtp-forwarder: for xfs_scrub_fail script
+
+%MAKEDEPENDS%
+git
+icu
+
