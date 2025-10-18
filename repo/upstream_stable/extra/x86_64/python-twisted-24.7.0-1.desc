@@ -1,0 +1,99 @@
+%FILENAME%
+python-twisted-24.7.0-1-any.pkg.tar.zst
+
+%NAME%
+python-twisted
+
+%BASE%
+python-twisted
+
+%VERSION%
+24.7.0-1
+
+%DESC%
+Asynchronous networking framework written in Python
+
+%CSIZE%
+6032664
+
+%ISIZE%
+47854530
+
+%SHA256SUM%
+5d7f6d7e6127239e2d4d32a3b22f1f00116013dc00c0f6350878c6593ebee4c6
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmjzzucACgkQwGCGM3xQdz5i4Qf/fqNv5XkJUsIuvSe0KAptat6Dt03qWtwprkQN9+YtcisO1fS+xR7WjGsg9AIyDrS3OhakDL7cUa+qnS6s8xS3ogsFAr0waSii4zWUq5muBRx8A3r6H5IQEScOofXrkkSGZSRRXl0qbzbPh6Zn2jRmfoGns/Y2RL3GR5hqcUrzbp6pJHFvFuFxKOpoHqVJ2Go72YeQ2jou3Rv4ZoXbxKlXCwVcICNupVEj4VOXTxh0Zda8t2/0KQtOUYSMYHW7otSYDat60tP45KJM6GG/ZdwdENCZ8xTRxx3l2Gb+KGn05zJYdPbLg58So6VyyoUzPt1cgWb0VhQDVAiHbB6QpyOH6g==
+
+%URL%
+https://twistedmatrix.com/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1760807823
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-attrs
+python-automat
+python-constantly
+python-hyperlink
+python-incremental
+python-typing_extensions
+python-zope-interface
+
+%OPTDEPENDS%
+python-appdirs: for using conch
+python-bcrypt: for using conch
+python-cryptography: for using conch
+python-h2: for http2 support
+python-idna: for TLS client hostname verification
+python-priority: for http2 support
+python-pyasn1: for using conch
+python-gobject: for GObject Introspection support
+python-pyopenssl: for TLS client hostname verification
+python-pyserial: for serial support
+python-service-identity: for TLS client hostname verification
+tk: for using tkconch
+
+%MAKEDEPENDS%
+python-build
+python-hatch-fancy-pypi-readme
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+cairo
+git
+glib2
+gtk3
+libffi
+libgirepository
+openssh
+python-bcrypt
+python-cryptography
+python-cython-test-exception-raiser
+python-gobject
+python-h2
+python-hypothesis
+python-idna
+python-priority
+python-pyasn1
+python-pyhamcrest
+python-pyopenssl
+python-pyserial
+python-service-identity
+python-subunit
+subversion
+tk
+xorg-server-xvfb
+
