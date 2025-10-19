@@ -1,0 +1,76 @@
+%FILENAME%
+wt-4.12.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+wt
+
+%BASE%
+wt
+
+%VERSION%
+4.12.1-2
+
+%DESC%
+a C++ library and application server for developing and deploying web applications
+
+%CSIZE%
+8671260
+
+%ISIZE%
+43409979
+
+%MD5SUM%
+70915049bf540751a0fa09218c73845c
+
+%SHA256SUM%
+72837a1c25cc923f1bf2cec5ebabed2f778070b12dffafa85814c0dd04eb846e
+
+%PGPSIG%
+iQIzBAABCgAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmj0E/kACgkQOeS4d+YuuRVyjg/9HrcuH7HqQ1RkO5+0EI1jDc+tn3J4RmQx+41OzP9uQnql8zRrN6B3am1pVlnVI1D1ZmtkEJSNNwFs7sTF3sPIieS7Mrv/GMEpHJFBrkr+JeNbJYkVp3UMnjlRsq8LfJr1cH04+vLppV5xg2vPcfRCiWjwyPUX9lDFSk6Z1YeyRQN+IkmN2kDqeqXZ4RT/ii0IUKXAkOxOX37VqdyLt+8QXL73+P56i1/LQcokhT2zq8uk/rY3NYqijSGIxUzDyS1zlxErWgWgVt3eC9RjDnn3N3AA6eT+UsViG4QVgKR9k/RcGZlTZIYPZDNDpBeQcW/gTBII2Vm2aV51bQlMh22fpSncsdj7p9yYDvqYPS4Lif/ERDt51WzNRWN6+souDFu83wWQe4l+kHKqZAHGI7lN7RP1xNRp314ecgI3RZ6Iv43qZHZmZJNwnuR3PXks8fpd8X03ZQgsne6tjynAryM78lybGO0tKOcpo+Y1U9Siodsctr1CPgT/E9zUyEnnwbt2NL9Zs/y73OSj6SrflD4G+9cYhP4f1fUg5Bta5htL8mxzAlMShutxtgcJm0y/AJv2TCJDBTKXgEL2mpdFZpmBroEcN/KuiI8l6BwSaK/U6O9ZbE8mUSZf6WVBDe9VTIZmrg3zpdPeuuisAupCpqXnU1aNs2p0nqFEdkvWNX+LzE4=
+
+%URL%
+http://www.webtoolkit.eu/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1760826177
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%DEPENDS%
+boost-libs
+libharu
+graphicsmagick
+pango
+zlib
+libgl
+harfbuzz
+qt5-base
+
+%OPTDEPENDS%
+openssl: for SSL support in built-in webserver
+fcgi: for FastCGI support
+postgresql-libs: for PostgreSQL Dbo support
+mariadb-libs: for MySQL Dbo support
+sqlite: for Sqlite Dbo support
+mysql++: for the hangman example
+
+%MAKEDEPENDS%
+boost
+cmake
+postgresql-libs
+fcgi
+sqlite
+mysql++
+doxygen
+graphviz
+mesa
+glu
+ninja
+
