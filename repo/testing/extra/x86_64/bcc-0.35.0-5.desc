@@ -1,0 +1,81 @@
+%FILENAME%
+bcc-0.35.0-5-x86_64.pkg.tar.zst
+
+%NAME%
+bcc
+
+%BASE%
+bcc
+
+%VERSION%
+0.35.0-5
+
+%DESC%
+BPF Compiler Collection (C library)
+
+%CSIZE%
+692538
+
+%ISIZE%
+2808609
+
+%MD5SUM%
+25555307773186bf244d1998cf2a649b
+
+%SHA256SUM%
+711ceb45e5bd13efe3ebffe61514b68980c8e9c75364a8b289aa6b2c7c00be22
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaO2HOwAKCRDwXowSExrrXjZgAQCo5NaSw2LRgsEupGUJDYRBBkroxOAKqcLLjTQfQnWS9gD/XtBbjpH3BEHMmJVrjhXkkt7pFjDGavnHje+QiSim5w8=
+
+%URL%
+https://github.com/iovisor/bcc
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1760396812
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%PROVIDES%
+libbcc.so=0-64
+libbcc_bpf.so=0-64
+
+%DEPENDS%
+clang
+gcc-libs
+glibc
+libbpf
+libbpf.so=1-64
+libelf
+llvm-libs
+xz
+
+%OPTDEPENDS%
+linux-headers: build modules against the Arch kernel
+linux-lts-headers: build modules against the LTS kernel
+linux-zen-headers: build modules against the ZEN kernel
+linux-hardened-headers: build modules against the HARDENED kernel
+luajit: Lua bindings for BCC
+
+%MAKEDEPENDS%
+bison
+cargo
+clang
+cmake
+flex
+git
+libbpf
+llvm
+python
+python-build
+python-installer
+python-setuptools
+python-wheel
+
