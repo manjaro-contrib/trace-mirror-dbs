@@ -1,0 +1,62 @@
+%FILENAME%
+clang20-20.1.8-1-x86_64.pkg.tar.zst
+
+%NAME%
+clang20
+
+%BASE%
+clang20
+
+%VERSION%
+20.1.8-1
+
+%DESC%
+C language family frontend for LLVM 20
+
+%CSIZE%
+47603693
+
+%ISIZE%
+225901799
+
+%SHA256SUM%
+ee799669e570558cf7f39f98529afa407a3191595921916c84caaeb8544dac70
+
+%PGPSIG%
+iHUEABYKAB0WIQQhkbiUMbrAqLlt6T0kR0DRfH/Q7AUCaOzDkAAKCRAkR0DRfH/Q7L4xAP9qqFyzCfL4WpAJQ/0mCi6EqBM+nurK5ywHl0/yssvOMgEA5u11zy26WhPpD9QLo3pei05saBEV5J4sh/ph5yTqrA4=
+
+%URL%
+https://clang.llvm.org/
+
+%LICENSE%
+Apache-2.0 WITH LLVM-exception
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1760345844
+
+%PACKAGER%
+Leonidas Spyropoulos <artafinde@archlinux.org>
+
+%DEPENDS%
+llvm20-libs
+gcc
+compiler-rt20
+
+%OPTDEPENDS%
+openmp: OpenMP support in clang with -fopenmp
+python: for scan-view and git-clang-format
+llvm20: referenced by some clang headers
+
+%MAKEDEPENDS%
+llvm20
+cmake
+ninja
+python-sphinx
+python-myst-parser
+
+%CHECKDEPENDS%
+llvm
+
