@@ -1,0 +1,64 @@
+%FILENAME%
+python-internetarchive-5.7.0-1-any.pkg.tar.zst
+
+%NAME%
+python-internetarchive
+
+%BASE%
+python-internetarchive
+
+%VERSION%
+5.7.0-1
+
+%DESC%
+A Python and Command-Line Interface to Archive.org
+
+%CSIZE%
+185315
+
+%ISIZE%
+1110338
+
+%SHA256SUM%
+1b913f6e1e561c917224d80a9e83ecdc0224795d487fd6bbce509f83d3bea0ac
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaPIQbAAKCRDwXowSExrrXmM1AQCDUROG2g33B7FwsKDdFy1LGLBZKBmH8hqPauv4yxonrAD9GxjabHRib1I0UsghQd0BP1+kxQe6C6dw2kV76UXlEwQ=
+
+%URL%
+https://github.com/jjjake/internetarchive
+
+%LICENSE%
+AGPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1760694249
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-jsonpatch
+python-requests
+python-tqdm
+python-urllib3
+
+%OPTDEPENDS%
+cython: speedups
+python-gevent: concurrent downloads
+python-ujson: faster json parsing
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-responses
+
