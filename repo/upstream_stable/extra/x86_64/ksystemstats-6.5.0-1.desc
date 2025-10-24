@@ -1,0 +1,67 @@
+%FILENAME%
+ksystemstats-6.5.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+ksystemstats
+
+%BASE%
+ksystemstats
+
+%VERSION%
+6.5.0-1
+
+%DESC%
+A plugin based system monitoring daemon
+
+%GROUPS%
+plasma
+
+%CSIZE%
+291983
+
+%ISIZE%
+1631623
+
+%SHA256SUM%
+5dee6f51dbc6cf54e5315270233eb2821e2c455e5711da8b4f37cb60b34fd176
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmj36l8ACgkQek52CV2KUuQEFAf9FppJkQs7PAW4WRslmUKpZGIcX0JlXoOUGW/cIj1XQ0jiZ6qVPdf9hEFjVdZF8a7TcxsqgFoTUbf+gYICkWQ0jbeXdpm3YUn/jLvKn90jPKdMqMWgqgg2vad3jJKbYga2zcCdENnVu/257bFgnRcQSZLKgMXnl58qEv7czwVTq9+k7sjtIf9NRa7txHhWDXxMg3BM1qe0gerAEB3JuwoFuIW/5zVHeNK3x3/d5Fevo97xefew2hvX4mImh+5s50Y/kw6X/8WHRDMJHrXkhHanTiBXNoKIuUJpyUkfgJlTH4oR4/ur+NtNFP8rweyaWlLr+QRgSJPzE9Eax/BoXHJ+VA==
+
+%URL%
+https://kde.org/plasma-desktop/
+
+%LICENSE%
+LGPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1760622416
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+kcoreaddons
+kcrash
+ki18n
+kio
+libksysguard
+lm_sensors
+qt6-base
+solid
+
+%OPTDEPENDS%
+libnl: network usage monitor
+networkmanager-qt: network usage monitor
+systemd-libs: GPU monitor
+
+%MAKEDEPENDS%
+extra-cmake-modules
+libnl
+networkmanager-qt
+
