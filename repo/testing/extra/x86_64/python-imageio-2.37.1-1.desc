@@ -1,0 +1,70 @@
+%FILENAME%
+python-imageio-2.37.1-1-any.pkg.tar.zst
+
+%NAME%
+python-imageio
+
+%BASE%
+python-imageio
+
+%VERSION%
+2.37.1-1
+
+%DESC%
+Python library for reading and writing image data
+
+%CSIZE%
+610030
+
+%ISIZE%
+3690210
+
+%MD5SUM%
+6460bc10f8db4a79dc3c2377943c7e1b
+
+%SHA256SUM%
+317df37fca4858225894e088173fbcff878fd4ee787b12e15c066476bde27df6
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaPlB2AAKCRAAHPSBC+jZEdThAQCLhcDQFy1O/iqBxiJ5b48cnGTrax0VRijcrpeAyCw65AD+OTm8Kq094dlthMH1OfuwnWBFJnoRM86RvSM5AWEutAs=
+
+%URL%
+https://github.com/imageio/imageio
+
+%LICENSE%
+BSD-2-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1761165511
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python
+python-numpy
+python-pillow
+
+%OPTDEPENDS%
+python-av: for the PyAV plugin
+python-opencv: for the OpenCV plugin
+python-tifffile: for the TIFF plugin
+python-rawpy: for the RawPy plugin
+freeimage: for the FreeImage plugin (legacy)
+python-astropy: for the FITS plugin (legacy)
+python-imageio-ffmpeg: for the FFMPEG plugin (legacy)
+python-gdal: for the GDAL plugin (legacy)
+python-simpleitk: for the ITK plugin (legacy)
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+
+%CHECKDEPENDS%
+python-pytest
+
