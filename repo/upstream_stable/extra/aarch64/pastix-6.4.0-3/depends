@@ -1,0 +1,20 @@
+%DEPENDS%
+cblas
+gcc-libs
+glibc
+hwloc
+lapacke
+openmpi
+scotch
+
+%PROVIDES%
+libpastix.so=6.4-64
+libpastix_kernels.so=libpastix_kernels.so-64
+libspm.so=1-64
+libspmf.so=1-64
+
+%OPTDEPENDS%
+python-numpy: for Python interface
+python-mpi4py: for Python interface
+python-scipy: for Python interface
+

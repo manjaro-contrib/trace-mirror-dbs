@@ -1,0 +1,14 @@
+%DEPENDS%
+libsystemd.so=0-64
+libudev.so=1-64
+libpolkit-gobject-1.so=0-64
+
+%PROVIDES%
+libpcsclite.so=1-64
+libpcsclite_real.so=1-64
+libpcscspy.so=0-64
+
+%OPTDEPENDS%
+python: API call trace logging with the pcsc-spy
+ccid: USB Chip/Smart Card Interface Devices driver
+

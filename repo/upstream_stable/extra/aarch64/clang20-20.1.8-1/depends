@@ -1,0 +1,10 @@
+%DEPENDS%
+llvm20-libs
+gcc
+compiler-rt20
+
+%OPTDEPENDS%
+openmp: OpenMP support in clang with -fopenmp
+python: for scan-view and git-clang-format
+llvm20: referenced by some clang headers
+

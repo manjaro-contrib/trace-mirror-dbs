@@ -1,0 +1,13 @@
+%DEPENDS%
+glibc
+hwdata
+libusb
+libusb-1.0.so=0-64
+systemd-libs
+libudev.so=1-64
+
+%OPTDEPENDS%
+coreutils: for lsusb.py usage
+python: for lsusb.py usage
+sh: for usb-devices
+

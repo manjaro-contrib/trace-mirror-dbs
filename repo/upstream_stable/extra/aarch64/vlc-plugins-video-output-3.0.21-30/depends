@@ -1,0 +1,20 @@
+%DEPENDS%
+gcc-libs
+glibc
+libglvnd
+libva
+libvlc
+libvlccore.so=9-64
+libx11
+libxcb
+wayland
+xcb-util-keysyms
+
+%PROVIDES%
+libvlc_xcb_events.so=0-64
+libvlc_vdpau.so=0-64
+
+%OPTDEPENDS%
+libva-intel-driver: for Intel VA-API drivers
+libva-mesa-driver: for open-source VA-API drivers
+

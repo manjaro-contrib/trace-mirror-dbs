@@ -1,0 +1,15 @@
+%DEPENDS%
+gcc-libs
+glibc
+lv2
+
+%PROVIDES%
+libsuil-0.so=0-64
+
+%OPTDEPENDS%
+glib2: support for wrapping X11 and Qt5 in GTK3
+gtk3: support for wrapping X11 and Qt5 in GTK3
+libx11: support for wrapping X11 directly and in GTK3
+qt5-base: support for wrapping X11 in Qt5 and Qt5 in GTK3
+qt5-x11extras: support for wrapping X11 in Qt5
+

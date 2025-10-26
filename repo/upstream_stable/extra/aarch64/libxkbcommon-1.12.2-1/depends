@@ -1,0 +1,13 @@
+%DEPENDS%
+glibc
+libxml2
+xkeyboard-config
+
+%PROVIDES%
+libxkbcommon.so=0-64
+libxkbregistry.so=0-64
+
+%OPTDEPENDS%
+libxkbcommon-x11: xkbcli interactive-x11
+wayland: xkbcli interactive-wayland
+

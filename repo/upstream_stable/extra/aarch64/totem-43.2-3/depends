@@ -1,0 +1,42 @@
+%DEPENDS%
+at-spi2-core
+cairo
+dconf
+gcc-libs
+gdk-pixbuf2
+glib2
+glibc
+gnome-desktop
+grilo
+gsettings-desktop-schemas
+gst-plugin-gtk
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-base-libs
+gst-plugins-good
+gstreamer
+gtk3
+hicolor-icon-theme
+iso-codes
+libepoxy
+libgirepository
+libhandy
+libpeas
+libportal
+libportal-gtk3
+pango
+python
+python-gobject
+totem-plparser
+
+%CONFLICTS%
+totem-plugin
+
+%PROVIDES%
+libtotem.so=0-64
+
+%OPTDEPENDS%
+gst-plugins-ugly: Extra media codecs
+gst-libav: Extra media codecs
+grilo-plugins: Media discovery
+

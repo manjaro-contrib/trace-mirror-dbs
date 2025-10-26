@@ -1,0 +1,21 @@
+%DEPENDS%
+bubblewrap
+cairo
+fontconfig
+gcc-libs
+glib2
+glibc
+lcms2
+libjxl
+librsvg
+libseccomp
+
+%CONFLICTS%
+glycin<2
+
+%PROVIDES%
+libglycin-1.so=0-64
+
+%OPTDEPENDS%
+libheif: heif/heic file support
+
