@@ -1,0 +1,37 @@
+%DEPENDS%
+bzip2
+expat
+gcc-libs
+glibc
+icu
+krb5
+libcap
+libsodium
+libstemmer
+libxcrypt
+lz4
+mariadb-libs
+openssl
+pam
+postgresql-libs
+sqlite
+systemd-libs
+zlib
+zstd
+
+%CONFLICTS%
+dovecot
+pigeonhole>=2.4
+dovecot-fts-elastic
+dovecot-fts-xapian
+
+%PROVIDES%
+imap-server
+pop3-server
+dovecot
+
+%OPTDEPENDS%
+libldap: ldap plugin
+lua53: LUA auth and push support
+xapian-core: FTS flatcurve indexer
+
