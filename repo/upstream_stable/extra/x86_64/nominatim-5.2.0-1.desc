@@ -1,0 +1,79 @@
+%FILENAME%
+nominatim-5.2.0-1-any.pkg.tar.zst
+
+%NAME%
+nominatim
+
+%BASE%
+nominatim
+
+%VERSION%
+5.2.0-1
+
+%DESC%
+Geocoding tool using OpenStreetmap data
+
+%CSIZE%
+15486778
+
+%ISIZE%
+35480923
+
+%SHA256SUM%
+59ce404f64b6d493aeef468657387c1451e4ba9291353b32ac13d02a71650bd9
+
+%PGPSIG%
+iQIzBAABCgAdFiEEph5oDnze5xbx8Yihae9tnkmmTrgFAmkDXPoACgkQae9tnkmmTrjgCg/+Lhd+k+z/+XLortplZr1B+DvEF2BNFNTtQhVZPocagk7ryRM5nQXUNjMRSMfdz1FGi8KY8i2JVHd4wAXOwxg9KmA6rpjLze+fhFj7uqwIDKR62KxNFcFWs5HqJY4FjGxLS8KVMyuavuiiGXNOHWtpnFo6v5SiIUs2BU0JKHGCy2fs4paACB4yK5cTbe5aqsOGB/KAqfLUm037r1KTPhS2JbFBnON0/eP3Eeg5YELUeY4F5+5fHKYt5/fTk/aPxyTjDReI8T0bNaexJj+Ai1DcWqDSFTmT8JlSm9UmCEOq+G8Ph9gyKtEaskvNldGqHCEzC3ejQinEtw96dcMwQEosRH0bCnqBP9xGRaAcKiLZgJ3WbE+aBXa47SMDrC+Lo7W6nmQ6NW/FFsUYuUMDdU1UtVu6t000XKoMiqPhlcZib3QuW5Cg3UYFSFFBVp9wCfKgtSz5TAQ/KuOuspG6HLt6QsciglYSA6YVLH34ay/IgdDB5LT8E3l8NFeJXThgOsNZtZmSVxdMPY6BIy/AA91SC1mk0KUNKtfUYnIebP2DgG5+3QTZLGejnpKFqdYFSJ7GwgSA/GWaFg36W9O50Ri3QefrEhndHq4rem7dVp4gbr79ZbVQksJwU4MAzsWM5MRoFRxS0V/szM2jwjnwGrJ5fmExrO1H/7eH2SkLGrFQe6U=
+
+%URL%
+https://nominatim.org
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+any
+
+%BUILDDATE%
+1761734766
+
+%PACKAGER%
+Justin Kromlinger <hashworks@archlinux.org>
+
+%DEPENDS%
+libosmium
+osm2pgsql
+postgis
+python-asyncpg
+python-psycopg
+python-dotenv
+python-psutil
+python-jinja
+python-pyicu
+python-yaml
+python-requests
+python-osmium
+python-ujson
+python-falcon
+python-sqlalchemy
+python-pygments
+uvicorn
+gunicorn
+
+%OPTDEPENDS%
+nginx: http server for python frontend
+apache: http server for python frontend
+python-starlette: Alternative Python frontend using Starlette ASGI framework
+nominatim-data-wikipedia: optional auxiliary data source to help indicate the importance of OSM features
+nominatim-data-postcodes-gb: improve searches that involve a UK postcode
+nominatim-data-postcodes-us: improve searches that involve a US postcode
+nominatim-data-tiger: improves searches that involve US house numbers
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-hatchling
+python-argparse-manpage
+python-psycopg
+
