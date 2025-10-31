@@ -1,0 +1,70 @@
+%FILENAME%
+python-dulwich-0.24.8-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-dulwich
+
+%BASE%
+python-dulwich
+
+%VERSION%
+0.24.8-1
+
+%DESC%
+Pure-Python implementation of the Git file formats and protocols
+
+%CSIZE%
+1471365
+
+%ISIZE%
+8928740
+
+%SHA256SUM%
+997b52933405c47f63015a5d55349337cfe477039fc3b038d54b4fb1a4a51970
+
+%PGPSIG%
+iQIzBAABCgAdFiEEBNw/sURf7KgTwn766k97MhqQatkFAmkE/CUACgkQ6k97MhqQatlAwg//RzJiS/VynVosw/+4FCCvhU2zm739L6y7e8o4W4vmFiX/ZPYRI2QUWIwQl7pfl0M0l7hFWDTr0Gowr0qT7lVtmzUvIq9R+BzB7eVdhGmP5lSagnd7yap/pQRdmfEtl5yypMUBlcQJNtH/4mxEdzPGpUri2C0GDG9uF7yA4+8LUcg7lDYRhwVHiPjOipVCr3cWXYDOkTnieHibt2HxSxdRXNdRoy4J06JdNxZz4zwHh6tfwrl2ahuc/1vaR585V578VxsHCCSk4mmsM7FlFr+arVBGZbYZPdWCp01JDO8mZ1o7rNzmrAXvPco2LQyHcrxHIyv7B93Ku5/tZJ9Zi14bz6ezrdQopUcO9ltuMmNPW36r6IuyeQ36WLOttP18xzUzmi3UJ2HITfgp/NlrC+K2HqILU47/Qs5/JaVP+lIENxd5hR/YJxg1BadxX7AngxMmR2lryNfhNkNAd8AxAvMGLRvmjHawaLmYQ1WCOJyzAZiuZwJ+Sxr5jS6BvaBT008kMiTMY/q8PDXEI4aM/fkYLwKEXYUUmYUXRUS9u49/AZW81I/cXwlxxbgpS5jVQZ7trlaR46ywzYNS8y81Eop5TORnjXmWhp1d2hWjbFL026TzOFhbG2jH2QlmwRxwmk9y+cIgCCslDD9//RkSbzhaargx9DX6MB9lWNH2g5Iw+uc=
+
+%URL%
+https://www.dulwich.io
+
+%LICENSE%
+Apache-2.0 OR GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1761934093
+
+%PACKAGER%
+Daniel M. Capella <polyzen@archlinux.org>
+
+%DEPENDS%
+python-urllib3
+
+%OPTDEPENDS%
+python-fastimport: for fast-import support
+python-gpgme: for PGP signature support
+python-idna: for HTTPS support via urllib3
+python-merge3: for merge support
+python-paramiko: for use as the SSH implementation
+python-pyopenssl: for HTTPS support via urllib3
+python-pyinotify: to watch for changes to refs
+python-rich: for colorized diff support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools-rust
+python-wheel
+
+%CHECKDEPENDS%
+python-fastimport
+python-gevent
+python-gpgme
+python-merge3
+python-paramiko
+python-pytest
+
