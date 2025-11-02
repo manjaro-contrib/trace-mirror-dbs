@@ -1,0 +1,76 @@
+%FILENAME%
+python-elasticsearch-9.2.0-1-any.pkg.tar.zst
+
+%NAME%
+python-elasticsearch
+
+%BASE%
+python-elasticsearch
+
+%VERSION%
+9.2.0-1
+
+%DESC%
+Official Python client for Elasticsearch
+
+%CSIZE%
+891319
+
+%ISIZE%
+17040383
+
+%SHA256SUM%
+849606358f7116308131bbcbcb1ea61be583a3e745929250ee0cc8436b14d09f
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaQOoRAAKCRDwXowSExrrXlOPAP9Q9fO+e1cxECYMXpu9qs+7OwxsUFc7zsRie/P5pUT6XAEAhbgF18UQfyuSBeacIVHLjCsAVpTRAShHoHB5IGonVQg=
+
+%URL%
+https://github.com/elastic/elasticsearch-py
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1761847259
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-dateutil
+python-elastic-transport
+python-typing_extensions
+
+%OPTDEPENDS%
+python-aiohttp: support for asynchronous requests
+python-numpy: support for Maximal Marginal Relevance (MMR) for search results
+python-orjson: support for faster JSON serialization
+python-pyarrow: support for Arrow deserialization
+python-requests: support for synchronous requests
+
+%MAKEDEPENDS%
+python-build
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+nltk-data
+python-aiohttp
+python-nltk
+python-numpy
+python-orjson
+python-pandas
+python-pyarrow
+python-pydantic
+python-pytest
+python-pytest-asyncio
+python-requests
+python-trio
+python-yaml
+
