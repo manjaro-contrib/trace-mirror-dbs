@@ -1,0 +1,67 @@
+%FILENAME%
+docker-1:28.5.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+docker
+
+%BASE%
+docker
+
+%VERSION%
+1:28.5.2-1
+
+%DESC%
+Pack, ship and run any application as a lightweight container
+
+%CSIZE%
+25670395
+
+%ISIZE%
+101754109
+
+%SHA256SUM%
+d1fcbf690a245b3c33a0a5f00f51e258085a4d79d6c338b29a1c6f1d062836b0
+
+%PGPSIG%
+iQIzBAABCgAdFiEELjbYYgIhSC/EXLfyqRdkdZMmtEAFAmkLpS4ACgkQqRdkdZMmtECCGw//QlLwPOMo6el+DAJRV5uGBzfeitBYFutDXVm1DRT8IXsvemB6u00qk89L34AJzmVgQB3DwrLYctmRVp9V0Fxt+but3HQBnLCUaaVw5pQsZYNtYU89fZBRvmQhYmBQvLJsRZk7qN7tmWY41HiWihIw052d1A6VM/l+ZhPq5OIY22ogOoyv9Tb4ALu2oC2qDX0oNQKBR9CRnvN842OfoWrl1ZKLW6938jbi4CDyvXRYs/VA4Kr5hkpA41A3ppl8ocyhSSOUSMW1bYbYamu8mPJBD2OMZwu/V5Dq29eQGOV4F8g8+A9Qvt4mNMjJ9Q/jSa/YZMlMrIQ5atBrI/PH5Q+us80BgC08yziRA01O+PHsKQGpatkAJgWZI0UWFE5O33x3Ra1Pkip7ekR+iKRm4JI1LCouLVlbF9UQbMXLSJyTBh/EAir7GjshxoLchrYRUmwjhmxcKS38NcDCaAN7YKBd1FMXN0aSBcLEnyvQ9SCsaUYJ8KYAatEarvP0y5/6l/miKltsuByBFcht61d3aPtTmvt0EzqQkPbmrEFCcWX1d7ECC0EzbA3Xae9pyF4e+fhavS6Bc0wJgRA8PdF2WckAwicKlzptc1ywnif5chfMoweGy0PK1bkELRwJzgstuczWH5kgNHEKWMddzchGJnpq9qWYsGugDB/ekUobpr0xsOw=
+
+%URL%
+https://www.docker.com/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1762370679
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%DEPENDS%
+glibc
+iproute2
+device-mapper
+sqlite
+systemd-libs
+libseccomp
+libtool
+runc
+containerd
+
+%OPTDEPENDS%
+btrfs-progs: btrfs backend support
+pigz: parallel gzip compressor support
+docker-buildx: extended build capabilities
+
+%MAKEDEPENDS%
+git
+go
+btrfs-progs
+cmake
+systemd
+go-md2man
+sed
+
