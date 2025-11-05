@@ -1,0 +1,71 @@
+%FILENAME%
+xfce4-session-4.20.3-2-x86_64.pkg.tar.zst
+
+%NAME%
+xfce4-session
+
+%BASE%
+xfce4-session
+
+%VERSION%
+4.20.3-2
+
+%DESC%
+Xfce's session manager
+
+%GROUPS%
+xfce4
+
+%CSIZE%
+385908
+
+%ISIZE%
+1621942
+
+%SHA256SUM%
+3a7826dc36b407f2f80968d67dbcb97507f2684fa5e622250a5ed38bbe6cf81d
+
+%PGPSIG%
+iQIzBAABCgAdFiEExdKm4O0tEcZrn6KjBjE5EQV91agFAmkFoHwACgkQBjE5EQV91ahVOQ//bvC2zbxQUoiaVvFuuJLvnjxncP4LBwNwRPLRXULVZgf+czNMgrqjG4LEjnp3/YKRSvF/tbcyzoxLyUlNGM0ZmYhEDWGTdgd2tnUr3I4ICcF6b01VFJXPz6yAkzL2kz05IX8TpsXZ2uVjARzVoBcRgnFbaDs4c4Eg4C9/Gf95/u22UIYrBAD/qdZQMeTtixSf1u5h5C6OYp5IKRSoHYRZ/TIh4e+/sY6wOGiitvrEF4KHwLcSZH11mAuhX3VwTIbkPPRWnbsQXXHmAXjs936lwEdhwtV0HkerlfrB7RXaMzvM6TkCxQqUY4l71/q7JX0Z6z0tpHFqNzWUw2mE5b/P5iGD3/gDW2YuajjQc5/noI6GiUCwM9s+WEdelDqHMPHJVJuTRvyoznOx223yugJEv9e5EuefiU0ACHtDiuI6yDpnE2ciL73EZ2nZU9XVM8jHLRI0brhXqnXFWtBx2/30vJ95TuLz2A8lhXFLLP1MFMlgG6pEayKbFiExMsdkZSibRR3kcWwMlwPsnJynirnd/n7c8kRBWhnaBtx1jo0xSBEUy83+hJJJIv8VEQq5+Qe+rrlmfUZ69yPrdyjOauFqHeTEHw4Jtg67zwb9aTNA2jxg6LHxXkzJu7f3qFHm51SkXmY1N/RkVO/84v++SVqphBrB3+SGRihdbxo5wxPapiI=
+
+%URL%
+https://docs.xfce.org/xfce/xfce4-session/start
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1761976218
+
+%PACKAGER%
+George Hu <integral@archlinux.org>
+
+%DEPENDS%
+libxfce4ui
+libwnck3
+libxfce4windowing
+xfconf
+libsm
+polkit
+gtk-layer-shell
+xorg-iceauth
+xorg-xinit
+xorg-xrdb
+polkit-gnome
+hicolor-icon-theme
+
+%OPTDEPENDS%
+gnome-keyring: for keyring support when GNOME compatibility is enabled
+xfce4-screensaver: for locking screen with xflock4
+xscreensaver: for locking screen with xflock4
+light-locker: for locking screen with xflock4
+labwc: recommended compositor for the experimental Wayland session
+
+%MAKEDEPENDS%
+git
+glib2-devel
+xfce4-dev-tools
+
