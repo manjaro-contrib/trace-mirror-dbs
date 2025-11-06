@@ -1,0 +1,58 @@
+%FILENAME%
+openmp-21.1.5-1-x86_64.pkg.tar.zst
+
+%NAME%
+openmp
+
+%BASE%
+openmp
+
+%VERSION%
+21.1.5-1
+
+%DESC%
+LLVM OpenMP Runtime Library
+
+%CSIZE%
+591166
+
+%ISIZE%
+2052914
+
+%SHA256SUM%
+d44f10a85c83b3b90ee9018c644b1e9db2c6f9af981da64bd33d1d60299df73f
+
+%PGPSIG%
+iHUEABYKAB0WIQQhkbiUMbrAqLlt6T0kR0DRfH/Q7AUCaQn8GAAKCRAkR0DRfH/Q7HT1AP9HHGc/FXtIR6Xtrk1K+g/vNwOLOPsEnIzQ4nE+c4lLuwD/dFGO1jrsdGPUT70xyzb49NesknOcBDWXJO7Z1Qwp6g0=
+
+%URL%
+https://openmp.llvm.org/
+
+%LICENSE%
+Apache-2.0 WITH LLVM-exception
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1762262008
+
+%PACKAGER%
+Leonidas Spyropoulos <artafinde@archlinux.org>
+
+%DEPENDS%
+llvm-libs
+libelf
+libffi
+
+%OPTDEPENDS%
+cuda: offloading to NVIDIA GPUs
+hsa-rocr: offloading to AMD GPUs
+
+%MAKEDEPENDS%
+llvm
+clang
+cmake
+ninja
+python
+
