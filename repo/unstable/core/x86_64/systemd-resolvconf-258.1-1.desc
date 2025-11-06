@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-resolvconf-257.10-1-x86_64.pkg.tar.zst
+systemd-resolvconf-258.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd-resolvconf
@@ -8,25 +8,25 @@ systemd-resolvconf
 systemd
 
 %VERSION%
-257.10-1
+258.1-1
 
 %DESC%
 systemd resolvconf replacement (for use with systemd-resolved)
 
 %CSIZE%
-3498
+3519
 
 %ISIZE%
 0
 
 %MD5SUM%
-dcaa6636b7a03394f1dbfd154bbd5796
+38eeee5ee74962d035e48141fea389f1
 
 %SHA256SUM%
-b88a9d38657a3e3d4037acb19ddd7c96e748353bb56d12c9b21657ae6017adc1
+45aa58bfe4751cee62219e4f394faa49068cf4580e28044419075accd878bfd8
 
 %PGPSIG%
-iQEzBAABCgAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmjunfcACgkQFQwgB0PtRtiVvgf/ZcvEF1Dm/kXD+U0s0nFHJ6K5BldO2fgNS9Vvt/nm/0uciOJ7YRCHlOBPbsKJajm9tOHzpraQvdRFDD8v3hNkw1XyYxjJ2nsjNmhuJ4mxkbozW/pNOH7iRDGoQHeZIzsF8X4piIQqv0a9NrtfYjrenOPC2RVBMVMlpfTfhVFr+aRsziGrjqrQ82H2dTP2QOi6fiAOWpCyeTweEpnoiZPbijQZs6xlXJdJyyBlxWdqYRhLklNPnoWCW+qhcWMyQvLBCBz1AdMwVgIXmbEY05F5iDGTGi+4M4CjGUPxMzX4L0sWh0XwFjQAWMxqP7IyxRacIDDwvn4QnBA3OYijwhzEJw==
+iQFGBAABCgAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmkMUbYSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+8QUIAIKtOUK/EWU3u7oJGG8qvMWY8F3/9YvcmzW89GxAUq0XK0lFIiqpCoTN6InJ3xtUts6G/2RySA3gCmQcLgUW7gir7hd4A2ra7LNUbImfcewG3ca3P3IAUPHSTsAhUiP1NOCj8UZzO/a9MymYSqSqVJ64i7+Py8bc+l7367BAjjx1NGao9EAZ5LZU7DHEMNDxmfQkjySUjkrztA3NM8cpiyMVRxV8At6Sl2kTeJosOsj1nE2PhUUCNrDRtHmSTjVJ3sL1e1UEeQcreqJGumrIiuGlPr/Kkc2zcmriKla/i1m+rNH8mSdvBNpimpm8h2CIETd4eXQxY/wvGMPnB6KefFg=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -38,10 +38,10 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1760468254
+1762414708
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Mueller <philm@manjaro.org>
 
 %CONFLICTS%
 resolvconf
@@ -51,10 +51,11 @@ openresolv
 resolvconf
 
 %DEPENDS%
-systemd=257.10
+systemd=258.1
 
 %MAKEDEPENDS%
 acl
+apparmor
 cryptsetup
 docbook-xsl
 gperf

@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-sysvcompat-257.10-1-x86_64.pkg.tar.zst
+systemd-sysvcompat-258.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd-sysvcompat
@@ -8,25 +8,25 @@ systemd-sysvcompat
 systemd
 
 %VERSION%
-257.10-1
+258.1-1
 
 %DESC%
 sysvinit compat for systemd
 
 %CSIZE%
-6808
+6826
 
 %ISIZE%
-2711
+2709
 
 %MD5SUM%
-37af570f30ebb302fdcd0908923b9009
+ace730b4714de6b2048e3d2729a4f634
 
 %SHA256SUM%
-e1df40af308824129f95cfa4040c7264103a6acfcdae96ccf23526ce40e21b37
+63388abd6cdfecf73ca55df37b5b242d2fbb0349a31221b88db7cf829b5bd504
 
 %PGPSIG%
-iQEzBAABCgAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmjunfcACgkQFQwgB0PtRthGtwgAj3qsf9vMDNw5OyfsG6dKy0huLdFfFsh6npbTW3e/e6qAqSpF+8tiP0L7F+c8mBFRjtTuiYRyAx7IqKD1qCtzF/ihvDOcQReDYDdJq/rjmLzXVb55Sev7H8U7FqTPpC3zKmJoK1AtictRYaFZ4ZmbltuGoC9YAaeNjn/oLcCERgUh8e2ttl2RsBuZwQTJRDIJyakI0P7S6zU+iCSctaaZLrX6Abh4/0HXWOSLvZFKN2FNXbjPmKnAZYMjA1HjckDeM1MfKzh/BmsgvfN1j6Ap7H9c0GCeHrF3taD/D3lHBEOKFV4t7p9JOhWqv2h84f0EvQpZyABO92cvnxPSnZsiyw==
+iQFGBAABCgAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmkMUbYSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+KNgIAKuq57jFWLTi1cyqFwt/7rTlNL+OfcJXIKMt4pvnvjRF6SKMA24ntAMhraHV1aUglJG891QY/apU3P3EZvwdrPl/IyXOgdjAqDQ28GPEKZZIjct+de9B8n7ajTcmuVFdZG24xM9qYkqBHkB6qUIgiS/HP3W246ocjDW75M6CDMAsX+9G0k/AC2w6XmVAg85Fnpgzd2oPJp63iXTqIUoQdRmsuawWF/uPiKGpa1kZco28eU+HS24CchVNqNRdodOrAbeNOLM0fYJlMRP3486f+lOiYjtDZQyjFp/bHdYT7I1eKWNtL7h0FXEZ3BRUkyObYbQdkAs1mPjJXsVHAvcB5+I=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -38,19 +38,20 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1760468254
+1762414708
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Mueller <philm@manjaro.org>
 
 %CONFLICTS%
 sysvinit
 
 %DEPENDS%
-systemd=257.10
+systemd=258.1
 
 %MAKEDEPENDS%
 acl
+apparmor
 cryptsetup
 docbook-xsl
 gperf

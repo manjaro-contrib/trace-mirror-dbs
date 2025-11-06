@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-257.10-1-x86_64.pkg.tar.zst
+systemd-258.1-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd
@@ -8,25 +8,25 @@ systemd
 systemd
 
 %VERSION%
-257.10-1
+258.1-1
 
 %DESC%
 system and service manager
 
 %CSIZE%
-11260327
+11725477
 
 %ISIZE%
-35352198
+36743493
 
 %MD5SUM%
-69bc7a5913b5dd0a9db5eac1de7be3be
+8556e2790494d19ce93477545c465ab4
 
 %SHA256SUM%
-502ea287daba037951d7372d3896256bda2edab4029b9e75ec8746b660b44773
+0320f3fdb059094ec748dc06106bc04a3626b9f2ef5b4f4ade8fec68def27b5c
 
 %PGPSIG%
-iQEzBAABCgAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmjunfcACgkQFQwgB0PtRtjwlgf/TsfTi5dlsh6e3wCRBbc0fFfoQiiiHfzn/stHxQ75ouf0ww+kxPcG39B5PZf5MjllDldpG2QrDlrZHjsqa7o0Z+RECIFjIvSUFaW7hIi+pUT5U5TrbC6TdtK+RFaSOWSAO7cPZCTQNtTsfC4aZUZRhYjycx4qCvfgUqbFzgKbdtVmgD8rr/NYX+5yD8PEL8VoZRftEPyHvLF4hqRZsif3ANXWfQ0MNG0rfY2tHGfnvNtDvJGmp81xt2ByFyZ9vBOlDRyXbSkzXf5J6QF2ve3yfq/GU1/RMIvQmLbkxh5bCVwV/bwzbnj9jkS58EvWx4qLNDd26JhQkRT2VhWg0uhCwA==
+iQFGBAABCgAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmkMUbYSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+QwoH/2e4dDhfy07qN4tVLxgEXchcmnpfmVpbt3FRfvhejl/7QoQ1gDfEskEly5g0MXzSxOdPpJml8RP7cvGPRAsxBmmOmNRo7ypte/kW6L1IgJVHp76iq9IOaKeb+C4BnSmsYDTlio76EILbNrufEkHrbRzzUujvPpN1LRIt47YkiiRsiSeDHsI5G1xH8cHsZJrmjH+WbYw2ZnGd1uIfmqYmsGbZfrz3ZsTmtnfbNBnQi0MyR0Xx/TTt4ThdPtThuQy+DI205lhsPSC+4PZsMp2OnzI4/gE+74GkgBDVYi22QxBZHNqIz1RALNnABuvr+ZtVoov5hlF0Z7K3LlIH/An/jQc=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -41,10 +41,10 @@ MIT-0
 x86_64
 
 %BUILDDATE%
-1760468254
+1762414708
 
 %PACKAGER%
-Mark Wagie <mark@manjaro.org>
+Philip Mueller <philm@manjaro.org>
 
 %REPLACES%
 nss-myhostname
@@ -58,11 +58,11 @@ udev
 
 %PROVIDES%
 nss-myhostname
-systemd-tools=257.10
-udev=257.10
+systemd-tools=258.1
+udev=258.1
 
 %DEPENDS%
-systemd-libs=257.10
+systemd-libs=258.1
 acl
 libacl.so=1-64
 bash
@@ -114,6 +114,7 @@ tpm2-tss: unlocking LUKS2 volumes with TPM2
 
 %MAKEDEPENDS%
 acl
+apparmor
 cryptsetup
 docbook-xsl
 gperf
