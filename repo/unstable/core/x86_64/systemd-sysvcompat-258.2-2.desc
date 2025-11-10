@@ -1,32 +1,32 @@
 %FILENAME%
-systemd-resolvconf-258.2-1-x86_64.pkg.tar.zst
+systemd-sysvcompat-258.2-2-x86_64.pkg.tar.zst
 
 %NAME%
-systemd-resolvconf
+systemd-sysvcompat
 
 %BASE%
 systemd
 
 %VERSION%
-258.2-1
+258.2-2
 
 %DESC%
-systemd resolvconf replacement (for use with systemd-resolved)
+sysvinit compat for systemd
 
 %CSIZE%
-3526
+6822
 
 %ISIZE%
-0
+2709
 
 %MD5SUM%
-ebf63114a5c4a12544685788f9ee3078
+21f9d5b2c82755526a73a71b4b7f1ba8
 
 %SHA256SUM%
-b2d080b03093ad918a9d20fc0a36687574bbff8c925ced094c08f081b012464d
+9165e0f5bf8eef13cbcdf62c6a0c6abec8809e36975e0f6bf0818a8b58aa02b2
 
 %PGPSIG%
-iQFGBAABCgAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmkOCI4SHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+2lsH/j8twE+8GKbshbSAVbPPir84z1oB66/EIOpW0sQ9g0uXm7QmTU6ra/Zxj75m+BiJB7ULa+Y7KmHcTUaNp4Wpv7zfPZzXgivjwa1p72+y8FWNrsgjfsnU5gd3FLOIj4gdO5uo82hZMKNEDPvDnqQ3pGRNP5ciUTofeCf2vQbnxvGg0IiPrAJJsjbz5tF6EJBuSIhEeQVOQgwR75RLwY3y7GuZPJpl7lx02sSZdjYeihwPpvWb5yZs5r+hwXKA4/i6EHZ8m6dLXlRjSsFo4xIgBurnDFxqSUHhiq4tMiqP3gH+X/tsw01pLwgJEswec9lwqdARqFnF5Gx2YI0s/4elTRQ=
+iQFGBAABCgAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmkR02QSHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+HiEIAMDV7R1t2gZxPwgEGMNIXLIqFg2sX8PP6K+iX6lKppKXS826bC2rG0SxX41ehpMLGTmYXFMuWxVW8uCwGDTa4YE8QhKzeM40gpRqPmgejzr5owNn0UYd0IZvt9IH2noDrTNnY6C7ctoYKOGErFHU59VfrTClhUYKuNeMf/7wvNjA3LYnsBWZYAwS1pfl5tnfMANQ1t7b7zWvCfjTIZuTKP9wf5HfvKJZJKshgEKcpJcZyupIwwnJnTyV6Rp8HP13jUBkBCQ3EXwL84rcv3o2C7b+tMBwkqECOXvvDr0/rJg7XvhqwX4qBLtabvw3GwTnSNZhbxSuzS5h/6miBVRgQBc=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -38,17 +38,13 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1762527153
+1762774647
 
 %PACKAGER%
 Philip Mueller <philm@manjaro.org>
 
 %CONFLICTS%
-resolvconf
-
-%PROVIDES%
-openresolv
-resolvconf
+sysvinit
 
 %DEPENDS%
 systemd=258.2
