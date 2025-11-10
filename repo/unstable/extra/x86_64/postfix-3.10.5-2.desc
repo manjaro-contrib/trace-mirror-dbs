@@ -1,0 +1,96 @@
+%FILENAME%
+postfix-3.10.5-2-x86_64.pkg.tar.zst
+
+%NAME%
+postfix
+
+%BASE%
+postfix
+
+%VERSION%
+3.10.5-2
+
+%DESC%
+Fast, easy to administer, secure mail server
+
+%CSIZE%
+1423134
+
+%ISIZE%
+4574495
+
+%MD5SUM%
+2aa2d9b8638b4a4054cc9f508f30f2ea
+
+%SHA256SUM%
+92dfdddc06893d4995d00204bb21f905ccd49622b6b9553be96f0ac03a473a5b
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmkKZ2gACgkQlGV6sg8qCSuCBwf8CUY73g1TCiByf0Sv61FBt1YsIfilL8mXpCxT+b/s6NoH5wXV73cNZFLnP6x682+boEJ0VRo0tLzudd/cypUb/MGMmbeQXkO7+GpPElFh/0lzJgzYGpFJICGLFTek6y02EdkjcR92X8st1+gwU0gMcyZaeQyv0R8arPA8qpWW363DrgH+0J7iCGRgk1qviox4X+5gjmAUxNfCjCXyyOJk+qOR2XSX9K4Vs+rRZ0PM375pq3pD1WwXv1B+AG7pQUCtyYz2x4Tt5CLgppcMjo0UruGp0XqhHOe4dqeWTsfvb+yfU7x4MpwmLLycpIBTdOe9FWuu4VsrazGFJuGk10MIJw==
+
+%URL%
+https://www.postfix.org/
+
+%LICENSE%
+EPL-2.0 OR IPL-1.0
+BSD-4-Clause-UC
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1762289411
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%CONFLICTS%
+smtp-server
+smtp-forwarder
+
+%PROVIDES%
+smtp-server
+smtp-forwarder
+
+%DEPENDS%
+glibc
+icu
+libicuuc.so=78-64
+libnsl
+libnsl.so=3-64
+libsasl
+libsasl2.so=3-64
+libtlsrpt
+libtlsrpt.so=0-64
+openssl
+libcrypto.so=3-64
+libssl.so=3-64
+postfix-lmdb
+sh
+
+%OPTDEPENDS%
+perl: for postfix-collate.pl, postfix-tlstype.pl and qshape
+postfix-cdb: for CDB integration
+postfix-ldap: for LDAP integration
+postfix-lmdb: for LMDB integration
+postfix-mongodb: for MongoDB integration
+postfix-mysql: for MySQL integration
+postfix-pcre: for PCRE integration
+postfix-pgsql: for PostgreSQL integration
+postfix-sqlite: for SQLite integration
+
+%MAKEDEPENDS%
+icu
+libldap
+libnsl
+libsasl
+libtlsrpt
+lmdb
+mariadb-libs
+mongo-c-driver
+openssl
+pcre2
+postgresql-libs
+sqlite
+tinycdb
+
