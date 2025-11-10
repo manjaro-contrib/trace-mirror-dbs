@@ -1,0 +1,62 @@
+%FILENAME%
+znc-1.10.1-4-x86_64.pkg.tar.zst
+
+%NAME%
+znc
+
+%BASE%
+znc
+
+%VERSION%
+1.10.1-4
+
+%DESC%
+An IRC bouncer with modules & scripts support
+
+%CSIZE%
+3807086
+
+%ISIZE%
+17655735
+
+%SHA256SUM%
+9785be9926f5207f50dbeaf42f4f0d4746fad5a7ce5de00d189c0b7ec8506b45
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmkKNFUACgkQlGV6sg8qCSvzBggAukYBHefHNBFlkNZ8gt6lIwN32czpFH/2mehgy/auTqGaj3GGNe2YhOhc6awhBp3RykB/wZG83NexXMRjV4U/Hc0cQMAbYYuEQsIutHA6Z5BJ0fm9K8epcBNVNQRAfWYGHZPovkonW9bR52E1DRuQhOtDdsy5J/JdLPmPA9+RdyPhwXPESG8GTw4fCS2zy9J/JFLsjo0efnsHmV+XcmQLOI9BHqIpxngtJFmtbgggYTHa8b/C+bGEtYNJs3PAwy1m7B69sMPirijcabYtRdhmqc8WOvmnAh+P2RPukbQzPE81UZ5xN6jA9Jznl4LAEvfu0V+I7dtmT44St+XqpY/r7w==
+
+%URL%
+https://wiki.znc.in/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1762276310
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%DEPENDS%
+libsasl
+icu
+boost-libs
+argon2
+
+%OPTDEPENDS%
+tcl: modtcl module
+python: modpython module & znc-buildmod script
+perl: modperl module
+cyrus-sasl: saslauth module
+cmake: znc-buildmod script
+
+%MAKEDEPENDS%
+tcl
+python
+perl
+cmake
+boost
+

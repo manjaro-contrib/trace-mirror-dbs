@@ -1,0 +1,69 @@
+%FILENAME%
+enchant-2.8.12-2-x86_64.pkg.tar.zst
+
+%NAME%
+enchant
+
+%BASE%
+enchant
+
+%VERSION%
+2.8.12-2
+
+%DESC%
+A wrapper library for generic spell checking
+
+%CSIZE%
+78231
+
+%ISIZE%
+285571
+
+%SHA256SUM%
+e110ccfb5afc7a7a1bbb538be286d6c51d3738c03b95ec15461efec5765d43a3
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmkKMB8ACgkQlGV6sg8qCSvj4gf/UrMSdToy3qwgBna6TZMnJIzOBhZ7STItjGIl0YqQIJycUIT7wkTpPdsZCLBVQpGrt+4g5La+bfjiaAob2a9RN8Cerd8lFKK51T95LdE8F4BtUk2cw67NtbYG1D9+L5KMLmSzvFbF+H1Ulrj4TY0fdGVTlalIjbyOggA840ZIUOdVve/rlC9G/QWtyPx8HSDkUERieJmlGQkqq2ArFVYyaZne33N+2qzIOwHTIlu+X2TVgh3DgIPE74AR9rLccJTsYiRqYL7i/Du3i2MQkq+TNjyryuKcnotSdQeZ/JcIsugBD90Qez0S/aGobulBFkN3RVX6ZdRcfHNf1dL+mNw90w==
+
+%URL%
+https://rrthomas.github.io/enchant/
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1762275144
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%PROVIDES%
+libenchant-2.so=2-64
+
+%DEPENDS%
+gcc-libs
+glib2
+glibc
+
+%OPTDEPENDS%
+aspell: for aspell based spell checking support
+hspell: for hspell based spell checking support
+hunspell: for hunspell based spell checking support
+libvoikko: for libvoikko based spell checking support
+nuspell: for nuspell based spell checking support
+
+%MAKEDEPENDS%
+aspell
+git
+hspell
+hunspell
+libvoikko
+nuspell
+vala
+
+%CHECKDEPENDS%
+unittestpp
+
