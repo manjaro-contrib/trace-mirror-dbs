@@ -1,0 +1,14 @@
+%DEPENDS%
+libtevent.so=0-64
+lmdb
+popt
+talloc
+tdb
+libtdb.so=1-64
+
+%PROVIDES%
+libldb.so=2-64
+
+%OPTDEPENDS%
+python: for python bindings
+
