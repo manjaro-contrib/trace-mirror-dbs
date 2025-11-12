@@ -1,0 +1,97 @@
+%FILENAME%
+python-fastapi-0.121.1-1-any.pkg.tar.zst
+
+%NAME%
+python-fastapi
+
+%BASE%
+python-fastapi
+
+%VERSION%
+0.121.1-1
+
+%DESC%
+FastAPI framework, high performance, easy to learn, fast to code, ready for production
+
+%CSIZE%
+206339
+
+%ISIZE%
+1783439
+
+%SHA256SUM%
+7abc7d34ea27e36c962a5662af6f7aa4d9a1d0020ec452b43c1e90e6ccb9dc32
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmkPwKQACgkQ/cMEC5Ksp0j3Dw//UrXxbmQZGgFRAdvn80UruyYKlKtvCX3hkgzwsTt+m1Tx71lLK09AXGjvgj1HsW8Y4NdsobMeyAGNcXgcXMqSSd0zaW3wcWmBVC3wVSmuObNvgGMuJ9kgmOVjEDUQpB1FMh55wxawMnSS1kl+bUWh7TDxRWlLBydMVF1Vn80xQ6owQup+JzTv4ds2hZ5VVSheB8JO82y9CNCZSXEfvozxVyLUGiSVazM6KieMatuCWPKBNb0I/CGz/vX1mRl1yb/BKR+sJ+yn113fuAn1J6WPJCgcx0/6eyHNK0W/sG4YajduDDE2PfbILpKJUNigtcNDCccckaa71Wv/A57qgD/hgvMf9EOWpFNNTokr7jXIclhJYjDIUZWF40yN2zdxTd4AAsAMTPmqnJJ8JuGEwEoDDNqVt+NdbBokDaR02n4IorIt78V0LaPcGZjYZLVA5VygoPKK6lVl4geuu9RPHIqjTpiXRhZpSCEbXo6/XwSClHZLIXmYCVDUlZ42NS3AMlhZHjGL2TA8TUWex2fsZRn41qElptSdcbRGQk9FU7G1k6IB3sDi5+fKHrau85g8irIcQ+ygfrQv2XvgBhTiipXExy+Rhe/L24Vff2O0bK28W9PW85YaAPK99jRkp1GkWqDkE4dBgPpaf19ZAPPW6Wz6yykqjNbdRNWOESFwH1vE8pA=
+
+%URL%
+https://github.com/fastapi/fastapi
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1762640003
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-annotated-doc
+python-anyio
+python-pydantic
+python-pydantic-core
+python-pydantic-extra-types
+python-pydantic-settings
+python-starlette
+python-typing_extensions
+
+%OPTDEPENDS%
+hypercorn: for Hypercorn as ASGI server
+python-email-validator: for email validation
+python-itsdangerous: for SessionMiddleware support
+python-jinja: for default starlette template configuration
+python-orjson: for ORJSONResponse
+python-python-multipart: for form parsing support
+python-pyyaml: for starlette SchemaGenerator support
+python-httpx: for TestClient support
+python-ujson: for faster JSON parsing and UJSONResponse
+uvicorn: for Uvicorn as ASGI server
+
+%MAKEDEPENDS%
+python-build
+python-dirty-equals
+python-installer
+python-pdm-backend
+python-wheel
+
+%CHECKDEPENDS%
+python-aiosqlite
+python-anyio
+python-databases
+python-flask
+python-httpx
+python-inline-snapshot
+python-peewee
+python-pytest
+python-sqlalchemy
+python-sqlmodel
+python-trio
+python-email-validator
+python-itsdangerous
+python-jinja
+python-orjson
+python-python-multipart
+python-pyyaml
+python-ujson
+uvicorn
+python-argon2-cffi
+python-cryptography
+python-pyjwt
+python-pwdlib
+
