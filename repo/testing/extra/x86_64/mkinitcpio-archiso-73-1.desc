@@ -1,0 +1,65 @@
+%FILENAME%
+mkinitcpio-archiso-73-1-any.pkg.tar.zst
+
+%NAME%
+mkinitcpio-archiso
+
+%BASE%
+mkinitcpio-archiso
+
+%VERSION%
+73-1
+
+%DESC%
+Initcpio scripts used by archiso
+
+%CSIZE%
+17535
+
+%ISIZE%
+48500
+
+%MD5SUM%
+f3e2d3fd4ece9d1b4f05b600fb9b16f9
+
+%SHA256SUM%
+e52560154f9c5580492ec1f5072851bb25530c134c11cf47cf4fc800566da520
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaRsDiQAKCRBtQr3RFuAGj5IuAQDh37ztUhbX6TWUsdZKfYwQeERiVhSeB+XcZ4c7lUe5WQD+LQahu//MBIekik4klm91B54llV0iiMh8Yax2j/gXFws=
+
+%URL%
+https://gitlab.archlinux.org/archlinux/mkinitcpio/mkinitcpio-archiso
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1763378000
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+bash
+device-mapper
+mkinitcpio
+
+%OPTDEPENDS%
+curl: for PXE over HTTP
+gnupg: for PGP signature verification of rootfs over PXE
+mkinitcpio-nfs-utils: for PXE over NFS
+nbd: for PXE over NBD
+openssl: for CMS signature verification of rootfs over PXE
+pv: for status display during copy to RAM
+
+%MAKEDEPENDS%
+git
+
+%CHECKDEPENDS%
+shellcheck
+shfmt
+
