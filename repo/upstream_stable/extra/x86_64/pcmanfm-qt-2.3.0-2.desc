@@ -1,0 +1,60 @@
+%FILENAME%
+pcmanfm-qt-2.3.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+pcmanfm-qt
+
+%BASE%
+pcmanfm-qt
+
+%VERSION%
+2.3.0-2
+
+%DESC%
+The LXQt file manager, Qt port of PCManFM
+
+%GROUPS%
+lxqt
+
+%CSIZE%
+569322
+
+%ISIZE%
+3019588
+
+%SHA256SUM%
+f717ac2b70e423d7d58d2472f0ddc6ff2b5a807d0e3d16ec688ed429caea4606
+
+%PGPSIG%
+iQIzBAABCgAdFiEEFORv5f1p8uKH4kTbYyw8wNHJyvYFAmkU2XsACgkQYyw8wNHJyvZTfg//cdhZIIqEBhLWVYWgU0mNZqEwjhsCCO4mNZhYK1NH6lJ6KufZnT0nRwSvm0pH80VHb5U9Flse56St8YBgg4Vmwbo4qnNv1c8JXeLRQvCp/zft4HgLXqMBmW5k5I+4GfyxNaDsLqORSIDfcty1N32fuZ9XwNkSYr8KhRp34qyrHT6BmkVvoJmUQqBpT9W7AOejWQJp9oxaAEQiC82Na30UFB0Dy4ikyvMrOd3jHmkmPBsJ34Rz54q37bnbBN0HrVayhufn+ei9nRBX7X7SiEE4xxtOHgMZ7SOXhWV1VhvB4V0BOvkiusPb4sQCg+Pikl/A8X3MuZw0r6Vlg5KuICvNXenNroEH2any+kV3bggQwvSjdg3yJ6zK5JtYCeaEMCVUdVkpAe+ZE0Yq3y4yx9pNKefi50rPX+D5pzgQnMIia5jddqve3an1RIrKJSsrUyorn45W0+6Mvci1HeXPP6NoB5eVUcdAUULxXjk7vleAI+nnHucApqOxuDdoFGozmEmRJt/BeecLrBtX0JAL1/RPQcsOSdmHJRNJaNAlcM2UlHi8VlsmPa3B+dEDW6zgEyG05dpe2vTmpoo18Wg3LgSWC5Iu69Nf5eszE3LdYsg0oHeLkjHFyyGIOBxdLuT9IF8n9DcdDaHRhR77Q5+6+e0ZdXW+NxJlpFHyBWHvGrU6wKw=
+
+%URL%
+https://github.com/lxqt/pcmanfm-qt
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1762973869
+
+%PACKAGER%
+Balló György <bgyorgy@archlinux.org>
+
+%DEPENDS%
+desktop-file-utils
+libfm-qt
+libfm-qt6.so=17-64
+layer-shell-qt
+
+%OPTDEPENDS%
+gvfs: for various features like mounting without root, remote filesystems, encrypted filesystems and many others mentioned on https://github.com/lxqt/pcmanfm-qt/wiki
+gvfs-mtp: MTP support (Media Transfer Protocol)
+lxqt-archiver: archive management
+qt6-translations: allow keyboard shortcuts to function in some languages (e.g. German)
+
+%MAKEDEPENDS%
+lxqt-build-tools
+
