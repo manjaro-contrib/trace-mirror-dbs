@@ -1,0 +1,89 @@
+%FILENAME%
+nheko-0.12.1-1-aarch64.pkg.tar.xz
+
+%NAME%
+nheko
+
+%BASE%
+nheko
+
+%VERSION%
+0.12.1-1
+
+%DESC%
+Desktop client for the Matrix protocol
+
+%CSIZE%
+3366472
+
+%ISIZE%
+16158979
+
+%MD5SUM%
+9328e2a7df8733b9532f9a0191ca3844
+
+%SHA256SUM%
+43ea3c988b6abb10560d427e41e31a5ade4f3ac62ea83ef0ba62b9648a68a8cc
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmifIq4ACgkQdxk/FSvb5qbFEQ/9FuoSZj+3VfKK4+VYJ21zMDY1y9jAmBOuOvYCJZ8VYrOek3R4Hats5dMYH6R1lvYpFfROeJhrPPzgTEIRhbaenRXW8QxgqfDQj6ins55j7OpONWTEsEjG3zDns0xHvjgVRpaXZWebxyvEpsFPUYWzKGoaP5M5fWChxrt5E3YFC6AzeHU8qtxzPeerhKghWG97jMZox1ilmhuqHsvR3nx2gvVHoMz37t1XERyXKWiZXkeU1LMK2cPvWqrLfwmxk5W8yeaGGAusaXJhnxZFoa1ZPki8UzzN+vouV93/W9+sdbPrw2camrqJrV7vcBMZWi0yGMrjzko2yrj4znQTN8p6rfE7BtizSHoUoDbAulYSDR+I7ZWC1ktLpCwwJ/fGiON6AGqR5WCm9i2eI3c1k6UpFx9rFYXsgTQvMUZfgNR1VXmKJX0nlKfQADBHm7o4o6Qm6GNgfLjhUfQRpLm+Decz8OzjeoT9ASFV9fbDQu0TMu8SAQyfgRmP1102p+09Wa4oVBsUJ05ywkbtXXIh8zb3DMAzFm0QAV1dsQ8GegUnvazhAxH5aQIBSrufO7hhWGtaG/gJxSa3yn/4jo8KWoR1T84H6O+0LIUgDRYeNl3DmliuUZpwuH7n9zcUql4fL9vlGdq66hBA+WaU4gX0gXAMc/+jgAuSTMXy2RvsXj5Meic=
+
+%URL%
+https://nheko.im/nheko-reborn/nheko
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1755259181
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+qt6-base
+qt6-svg
+qt6-multimedia
+qtkeychain-qt6
+qt6-declarative
+qt6-imageformats
+coeurl
+mtxclient
+lmdb
+cmark
+libolm
+hicolor-icon-theme
+kdsingleapplication
+gst-plugins-bad-libs
+org.freedesktop.secrets
+mtxclient
+libmatrix_client.so=0.10.1-64
+spdlog
+libspdlog.so=1.15-64
+libolm
+libolm.so=3-64
+
+%OPTDEPENDS%
+qt6-jdenticon: Auto-generated profile pictures (identicons)
+kimageformats: Extends the formats nheko supports for image attachments
+gst-plugins-base-libs: VoIP/Video calls
+gst-plugins-good: VoIP/Video calls
+gst-plugins-bad: VoIP/Video calls
+libnice: VoIP/Video calls
+gst-libav: Video messages
+gst-plugin-qml6: Video calls support
+
+%MAKEDEPENDS%
+git
+cmake
+ninja
+qt6-tools
+fontconfig
+nlohmann-json
+asciidoc
+lmdbxx
+spdlog
+

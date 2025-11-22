@@ -1,0 +1,60 @@
+%FILENAME%
+lm_sensors-1:3.6.2-1-aarch64.pkg.tar.xz
+
+%NAME%
+lm_sensors
+
+%BASE%
+lm_sensors
+
+%VERSION%
+1:3.6.2-1
+
+%DESC%
+Collection of user space tools for general SMBus access and hardware monitoring
+
+%CSIZE%
+125904
+
+%ISIZE%
+536100
+
+%MD5SUM%
+bcd90183bf05332f592309c5b5a3c229
+
+%SHA256SUM%
+dc855daccb5fe4a7f89702db47bd3c53b3047dee8de92df2de975fe130985eb5
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmgkNxcACgkQdxk/FSvb5qbJLBAAxs0/td0p3xc/kFerbVH/UfXfy7Q/x2UGU9TmXDhNH2ihzAJ7aUmo6YJDRBBc0/KXW+q4F7brzPKjuqpUuQFswLZJgYR4uVvVAHra71AZ+Ys9t0k0+XvQroSu9k00S8klpwzHCAzNYT5yQ5eD2Pu/zqM+KKy67tg4yWAqLZP/Et8kbmrl1iYornqtt/CoSGMcsZ+KgxLk0ShCty8l3d4ADRvUzIfMajYTh6NEvCs6PO7eyPnzMsVN9ncLKxCqL6amilPRSkFQdrPXJggasAfOjlTPOLsq8X/NOBsZmeGnuPOwHxeY1MgTUe2GjKHDPzVIG4SYDce+GMsJc3ZPG6Q27P/kvLkqa4hF2vL9lucQbtTMw5+sJgOu8usx3hhZt1XcdjfGT6P8v9ZAGK64Q0vTLhqIcPXH6ieEFn50joIHY/YUcqsgimNNoKmx89XzVW8NvD6ASVVjKsWMrBzK9SCUt+1KNLpuG4lLgD5zNTutbUiBO3lqiO9k2Bezw1SKxOUsRiHytsXwZ0boZgL2OcsvK0GRGR51ZSv4UbIvoWa1lK0/ovpMwRDpu3myBS11mCY5sMIKY7t+SwVGvI35dfhVEc6wLyhaTYBWDrYNnsWwC1Tq+N7THvrDJ5MGMN4aAPPkTk+HvBJ+TXOE3Y0YpH6hASnXG/WWm6E7Eg3nj1XoK4Q=
+
+%URL%
+https://hwmon.wiki.kernel.org/lm_sensors
+
+%LICENSE%
+GPL-2.0-only OR LGPL-2.1-only
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1747203849
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+libsensors.so=5-64
+
+%DEPENDS%
+bash
+glibc
+
+%OPTDEPENDS%
+rrdtool: for logging with sensord
+perl: for sensor detection and configuration convert
+
+%MAKEDEPENDS%
+rrdtool
+perl
+

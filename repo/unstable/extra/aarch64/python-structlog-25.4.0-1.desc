@@ -1,0 +1,75 @@
+%FILENAME%
+python-structlog-25.4.0-1-any.pkg.tar.xz
+
+%NAME%
+python-structlog
+
+%BASE%
+python-structlog
+
+%VERSION%
+25.4.0-1
+
+%DESC%
+Structured Logging for Python
+
+%CSIZE%
+113656
+
+%ISIZE%
+702529
+
+%MD5SUM%
+06145575c472d7c16227a2b89dbbdb08
+
+%SHA256SUM%
+5ed0136d9a8da33ba6e4fb764065fa4c0127e694d693d429a43f8032acc611d2
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmhCSkoACgkQdxk/FSvb5qbNBQ//UrDMHWQfkN88lh7CdyWQpFdD0bILmgpVmVMKtefMCm+S2Mj49GpiTYGH/N04zmSRgZh1j9iWRP6lRPdLhCe6new0iXRia2gdiDB4cNaz6ChowHC0dKosSAWQNnM3dTiw1DBXAeJPOc2ER9gu04b06+Wh3ADRRxN708MioJmEPMZ9ZCbILFdR6k35psFFC/MSckvdmwM6a8X8f8W9Dq1JG6rynufwcOmRDz5ssYZWat/9A1O1iiws+WfUlo5ykCowfXAFi8KdJ8DGyXfCTonGSgbmuAvsxEszMasF3JpASHC6OF8gIt+vcjJe/ctrC1JlGL4qtnehte78xGX+Edij0i1IyXpKJgwEu4keJPpd2EibHpGgYn8Bmi37g2Sg4XIG/FtXAjJPa1tmoKTyCNeLJX+khbAkJsqLzEPnqSuqRX3IAFKE7FInhLmLDKigI5B+g2gnAHijNDFHZ/2/JEgT74pG+5oLcz/9hIUjRoukxpMNdVIzoxmZKSi2+TIUhe4jeNfF39qG4b/RVGMgok1DWmtFp2wG9rwe6RFL/VwoV2YXzCKu2j2tnHyoPMZaPgqKKRG+/sa3PHNF5lHHwlCqP78bg6kTrNtOZ0JCVcJBHpIzjYQvXIFuuGNOjzpjfMV6pPmCnKt7wR1EoPPlF+WRwg5qyOIngDP1qEnr4oZfdbo=
+
+%URL%
+https://www.structlog.org
+
+%LICENSE%
+MIT OR Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1749174847
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-greenlet: for greenlet support in structlog.threadlocal (deprecated)
+python-twisted: for structlog.twisted
+python-rich: for structlog.dev
+python-better-exceptions: for structlog.dev
+
+%MAKEDEPENDS%
+git
+openssh
+python-build
+python-installer
+python-hatchling
+python-hatch-vcs
+python-hatch-fancy-pypi-readme
+
+%CHECKDEPENDS%
+python-pytest
+python-freezegun
+python-pretend
+python-simplejson
+python-twisted
+python-rapidjson
+python-greenlet
+python-pytest-asyncio
+python-rich
+python-better-exceptions
+

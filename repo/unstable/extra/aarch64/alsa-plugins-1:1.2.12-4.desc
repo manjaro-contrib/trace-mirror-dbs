@@ -1,0 +1,70 @@
+%FILENAME%
+alsa-plugins-1:1.2.12-4-aarch64.pkg.tar.xz
+
+%NAME%
+alsa-plugins
+
+%BASE%
+alsa-plugins
+
+%VERSION%
+1:1.2.12-4
+
+%DESC%
+Additional ALSA plugins
+
+%CSIZE%
+82732
+
+%ISIZE%
+1248222
+
+%MD5SUM%
+26ca481df1b71fc8861e77e59488e271
+
+%SHA256SUM%
+6ac1997e3c4e9f019310114e525deb7ff3f50210c1e60fd6ec892145c2b22826
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmctnBkACgkQdxk/FSvb5qZAtRAAsbKCLauEkPbDm6Cz/t/d7++4tB3aDuN83j3MX0dS2IuHSmspn0p6+vWfFEqUN1ekqlKRD74aDmvLEC/LAN6Mi5/zcq9vrlgs65EgB39bcPkEiS0YCPO66B+ukYfQFSH1Rc6FCDp7sTTo4Kvax6tAw1Piny1gMMFiDWbaqiDdhSFsLfM9LErnGjr5vAL5FySnIu3DAMIWZGwRuwSbz5VfBK+SkBd68BpTPigmHc1CkSVp6ULIUJQydli3VCvmas7H9XZZr2hdXpKAjWip0Skl81bEmhObmPkZZcdkH9ILUGRRkAW29xQ9e83Ce4a9SjUyDDvBfBDCzzHYSQq1X3vc2Dw5i+Q/hdaN8mYC4NEt/R35zSt+/XjKugkXGcvBylQH9VQbIaufqPLDiclQbCXfARvwC4ep4lfixESIcWWX8CA3dLsQyUxlcX1Bbtj1ws5QcPguD5NVkR/uCvTqd7e7FGuUG4NHEoRpCvNFVPt+iFRi3bhig6HsmRDIpuk33jn3nZP81PjtYqR6o6n7Usepl4qJ9okH1PrQ/pvEObOekkLnE84gS29ldQJuBxYuY3BixUgRv2yCtBNQSZUp98WDyO0kIBLzKT1L9Ip4Yk6CrVqKTMAfm/aSEahGKVRMbjw5Et8U8TsyB2zgIrS9W0WNSjeGCV51zrvR0fUwrr8lr1E=
+
+%URL%
+https://www.alsa-project.org
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.1-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1731042258
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+alsa-lib
+libasound.so=2-64
+glibc
+
+%OPTDEPENDS%
+dbus: for maemo plugin
+ffmpeg: for pcm_a52 plugin
+jack: for pcm_jack plugin
+libavtp: for pcm_aaf plugin
+libsamplerate: for rate_samplerate plugin
+libpulse: for conf_pulse, ctl_pulse and pcm_pulse plugins
+speexdsp: for pcm_speex and rate_speexrate plugins
+
+%MAKEDEPENDS%
+alsa-lib
+dbus
+ffmpeg
+jack
+libavtp
+libpulse
+libsamplerate
+speexdsp
+
