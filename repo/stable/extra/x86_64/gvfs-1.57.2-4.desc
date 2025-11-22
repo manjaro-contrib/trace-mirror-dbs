@@ -1,0 +1,106 @@
+%FILENAME%
+gvfs-1.57.2-4-x86_64.pkg.tar.zst
+
+%NAME%
+gvfs
+
+%BASE%
+gvfs
+
+%VERSION%
+1.57.2-4
+
+%DESC%
+Virtual filesystem implementation for GIO
+
+%GROUPS%
+gnome
+
+%CSIZE%
+974812
+
+%ISIZE%
+5343307
+
+%MD5SUM%
+1557e79ba90ac13a3e6de23761cd2b82
+
+%SHA256SUM%
+de706f17c4cdc18b8b2cae11906bdf77dec9549f35e1b8f15ab0c5bcf0893fdd
+
+%PGPSIG%
+iHUEABYKAB0WIQRTHs82RKRP6gtH283h488FOUSL/wUCaE2ccwAKCRDh488FOUSL/w7NAQDPdIVQjiLVRIT/VNmxAuIadG9aX7jqZOJ6VVda+y4LHAEA9eou1DejcXZk19x4KY67PcYtETNy0/MNIKWkQ7wLbwc=
+
+%URL%
+https://gitlab.gnome.org/GNOME/gvfs
+
+%LICENSE%
+LGPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1749906552
+
+%PACKAGER%
+Ike Devolder <ike.devolder@archlinux.org>
+
+%REPLACES%
+gvfs-afp
+gvfs-obexftp
+
+%DEPENDS%
+dconf
+fuse3
+gcc-libs
+gcr-4
+glib2
+glibc
+gsettings-desktop-schemas
+libarchive
+libbluray
+libcdio
+libcdio-paranoia
+libgcrypt
+libgudev
+libsecret
+libsoup3
+polkit
+procps-ng
+systemd
+systemd-libs
+udisks2
+
+%OPTDEPENDS%
+gvfs-afc: AFC support (Apple mobile devices)
+gvfs-dnssd: DNS-SD and WebDAV support (macOS file sharing)
+gvfs-goa: Gnome Online Accounts support (e.g. OwnCloud)
+gvfs-google: Google Drive support
+gvfs-gphoto2: gphoto2 support (PTP camera, MTP media player)
+gvfs-mtp: MTP support (Android, media player)
+gvfs-nfs: NFS support
+gvfs-onedrive: Microsoft OneDrive support
+gvfs-smb: SMB/CIFS support (Windows file sharing)
+gvfs-wsdd: Web Services Dynamic Discovery support (Windows discovery)
+
+%MAKEDEPENDS%
+avahi
+dbus
+docbook-xsl
+git
+glib2-devel
+libgdata
+libgoa
+libgphoto2
+libimobiledevice
+libmtp
+libnfs
+libxml2
+meson
+msgraph
+openssh
+python
+smbclient
+wsdd
+

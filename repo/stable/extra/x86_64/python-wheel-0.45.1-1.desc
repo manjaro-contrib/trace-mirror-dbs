@@ -1,0 +1,67 @@
+%FILENAME%
+python-wheel-0.45.1-1-any.pkg.tar.zst
+
+%NAME%
+python-wheel
+
+%BASE%
+python-wheel
+
+%VERSION%
+0.45.1-1
+
+%DESC%
+A built-package format for Python
+
+%CSIZE%
+68510
+
+%ISIZE%
+295051
+
+%MD5SUM%
+4228332763a7369c964b0f8ce3696a81
+
+%SHA256SUM%
+928b1c47a9334dbe521986c1b5714eb8d5e35155d52d04ee2225dbf057d30655
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCZ9j5iAAKCRDglZ/qi1UFOUSwAPwJ+0IrQxGlDZr3pDcIriRAGa16Itv0qul9FyNLqVV8DQD+Lv0LwppoDYEoWde6nkKDsPnXRzQFoqm6UsnEhjQVhgc=
+
+%URL%
+https://pypi.python.org/pypi/wheel
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1742272840
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+python
+python-packaging
+
+%OPTDEPENDS%
+python-keyring: for wheel.signatures
+python-xdg: for wheel.signatures
+python-setuptools: for legacy bdist_wheel subcommand
+
+%MAKEDEPENDS%
+python-build
+python-flit-core
+python-installer
+
+%CHECKDEPENDS%
+python-jsonschema
+python-pytest
+python-keyring
+python-keyrings-alt
+python-xdg
+python-setuptools
+

@@ -1,0 +1,63 @@
+%FILENAME%
+opendmarc-1.4.2-3-aarch64.pkg.tar.xz
+
+%NAME%
+opendmarc
+
+%BASE%
+opendmarc
+
+%VERSION%
+1.4.2-3
+
+%DESC%
+Free open source software implementation of the DMARC specification
+
+%CSIZE%
+127492
+
+%ISIZE%
+459691
+
+%MD5SUM%
+091df03eaae2c91e8e13800d05c58b0e
+
+%SHA256SUM%
+519785fe023d9a95ecdf653317934a4a0013bcc68dd2cc8b216fd100d105e281
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmRZaO8ACgkQdxk/FSvb5qY00A//W5l7TBkJmHWyQbnABnE1My8gwuqiEgVT14ikUHOfpugUTNMmA38PDd1JDMet8sIMSlr9RP1b87oWAMh+0rjKaTOWN4wauNZij9lQu0ClAjlpbnVkvvzxrlt0R/5y5f8TolrMEFkuvsUmSeiRp+pF+NH0NwZMd48ChSSDeb6rcC2t1yMYKSz0nROoQTlzxv3gwkVGJJ2n5BlZeRUB+2eHKPtxAodaLVk5ucBWBPKyBbQsJkWp0CaqjQJ+n7xBk/F4WkVF9nlPM0sX8k3Q7sbAhrDvrT7/3zoI6gJ9IN9dqdWE6vVrHA9/9ri7cnY+YYMz4Ps5yj0MWH68e/Ay09DkfQXOrZXcXSw5Yo7COEWJymfwtideNt2GH1vapHlGJ52aCuVPRwZ3dsWoNeoGmwg2yfwcgqyYA+WFr7PurmJE7Y4LN4ROt7tPaY6o7FkcYQhBpZA1BGRBVCeb9zBT0zx+rSQuMotGLcGRU6PGdtO8yiy6AyOkEKiQreMPIfOO11HpkmguwXDE1c2LsjK063u8FcBLkiBAfyXSV1mRP4m3VYwZ2Wb7T2F2yGlq7QQ3DpHYD8YJP7ua4dj/FsEJ9GnFB8KVIet3NcWg3O5WsxfabqzLukTgt9g3GuVDNlK4B0kfvOsVLFfqWV5k1oTV59rZPsVE6V67MOemE6Fw/MiM2DM=
+
+%URL%
+https://github.com/trusteddomainproject/OpenDMARC
+
+%LICENSE%
+custom
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1683581120
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+smtp-server
+libspf2
+libbsd
+libidn
+perl-json
+
+%OPTDEPENDS%
+opendbx: acts as a middleware layer between OpenDMARC and a SQL backend of choice
+python: run opendmarc scripts at /usr/share/doc/opendmarc
+perl: run opendmarc scripts at /usr/share/doc/opendmarc
+perl-switch: generate DMARC reports
+perl-dbd-mysql: generate DMARC reports
+perl-libwww: generate DMARC reports
+
+%MAKEDEPENDS%
+libmilter
+

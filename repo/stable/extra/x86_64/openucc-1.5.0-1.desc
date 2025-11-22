@@ -1,0 +1,69 @@
+%FILENAME%
+openucc-1.5.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+openucc
+
+%BASE%
+openucc
+
+%VERSION%
+1.5.0-1
+
+%DESC%
+Unified Collective Communication Library
+
+%CSIZE%
+6671223
+
+%ISIZE%
+99237939
+
+%MD5SUM%
+aa95aa2f341afed2ebae6368ccb7af01
+
+%SHA256SUM%
+a4daf313143cdd1d1a0762d08f35407d1e421412c7339928e013954e19af61f0
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaKTivwAKCRAAHPSBC+jZEXTXAPkBmZdELlqci3Qcic8frqzme5ZEHtyUFh9gPb5aDvn7XAEA7dvYlDGCVhe59hylW7/UOfcMBYx3z/b2lbTIQwnFFQc=
+
+%URL%
+https://github.com/openucx/ucc
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1755635550
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%PROVIDES%
+libucc.so=1-64
+
+%DEPENDS%
+glibc
+openucx
+
+%OPTDEPENDS%
+cuda: for CUDA execution engine and transport layer
+hip-runtime-amd: for HIP execution engine
+nccl: for NCCL transport layer
+rccl: for RCCL transport layer
+rdma-core: for InfiniBand transport layer
+
+%MAKEDEPENDS%
+cuda
+hip-runtime-amd
+nccl
+rccl
+rdma-core
+
+%CHECKDEPENDS%
+gtest
+

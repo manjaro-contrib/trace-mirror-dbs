@@ -1,0 +1,86 @@
+%FILENAME%
+urh-2.9.6-9-aarch64.pkg.tar.xz
+
+%NAME%
+urh
+
+%BASE%
+urh
+
+%VERSION%
+2.9.6-9
+
+%DESC%
+Universal Radio Hacker: investigate wireless protocols like a boss
+
+%CSIZE%
+4113200
+
+%ISIZE%
+20413209
+
+%MD5SUM%
+e8e1909ae818f8fd1496b59591d028b8
+
+%SHA256SUM%
+f5b3c42a351bc13795375d64800b8017e8654ce922585203c3265ebbfc0d32ce
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmfIvncACgkQdxk/FSvb5qYtJhAAsNflHdRCjFpEbX3tjMJ3r8VIUD7BhZ1HZYw4Ve+valuU2dMs13ftkvQnrR2pirCxxINHiX7umpgU2aZOlNd5SehPmYRlLOdigqTu0C4aQQlExoWt/7sADZn4d6vUHbyhpfM96zDjZdFf2DaDyy3EjlDuwoJ57ttvrS+FZyF+rWzQZ2MM/wwR7swZdt0GUqJ9ZGzof9vbl8zU+LsGjwZ1HtXkfRVDRERw3E7jt8YT9wgAr/KZBOLLRsRWviNoMcxAlOGuj85cs5Qt0KJmN9Inb7bF6znhi1eYpVnhlzd2KIM5XOXfqg8/PLDdwDgedVGvTIIsCJAcbZh7SKYck4nJy/tFB3SfN7SVB5gsoJbk+tAqkjHETPdWbTVRuYZ+n4Ynsm51nEN1ii9ljEeewrldlBiRVu/uXtGO36S9DdwZJtMnFoLnW+mTNWxdbj1KSPsmkNX+W96hQsmhrgPZsI2Y//tJNr12klVxqgUWkjZm+Zl0fwLxHiP/+fcNi876j1F14osPeahNcmMtGRLywS+0yTi1y6lRGVH9N6yjluwuYaGpWGJHasc33HCKk2t0Dzv80LoaNlQURMuFXmT6Hu9QKNiKAd6qnuKhuvbw8FAVWmXoEOdckZp5+nmG2RyO6kKIySGBej33YOdGUFNLhG5EoRr22h8XppjmdOgZKl1s34g=
+
+%URL%
+https://github.com/jopohl/urh
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1741208959
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+python
+python-numpy
+python-psutil
+python-pyqt5
+
+%OPTDEPENDS%
+airspy: Airspy backend
+bladerf: BladeRF backend
+cython: compiling native modules inside URH
+gnuradio-osmosdr: OsmoSDR backend, via GNURadio
+gnuradio: GNURadio backend
+hackrf: HackRF backend
+libiio: IIO backend (PlutoSDR)
+libuhd: USRP backend
+limesuite: LimeSDR backend
+python-pyaudio: Soundcard backend
+python-pylibiio: IIO backend (PlutoSDR)
+rtl-sdr: RTL-SDR backend
+
+%MAKEDEPENDS%
+airspy
+bladerf
+cython
+gcc
+hackrf
+libiio
+libuhd
+limesuite
+python-build
+python-installer
+python-setuptools
+python-wheel
+rtl-sdr
+
+%CHECKDEPENDS%
+python-pytest-xdist
+xorg-server-xvfb
+

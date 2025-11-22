@@ -1,0 +1,78 @@
+%FILENAME%
+powerline-2.8.4-3-aarch64.pkg.tar.xz
+
+%NAME%
+powerline
+
+%BASE%
+powerline
+
+%VERSION%
+2.8.4-3
+
+%DESC%
+Statuslines and prompts for several applications including vim, zsh, bash, tmux, IPython, Awesome, i3 and Qtile
+
+%CSIZE%
+442792
+
+%ISIZE%
+2540232
+
+%MD5SUM%
+cef1d778826a47b3640a47a43c371d5f
+
+%SHA256SUM%
+8581aaafdb4f35296226b62c42a7d2a4986aa0e55642e5561e16d305d040d0d8
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmdrXYkACgkQdxk/FSvb5qZg2RAAhuAp4NA8WrABAmBeExOQohZa1QU08F1kB3HRA6ybIxlvea87tnrCigwdAmpPtsCOl5qB9nGa1L35u3HHOgUvcoqupUmpj7Vt/20X7irsFGEp06uSmkG2SpITBTgvzmaSVjHMSLR9fpA4Acs16SbjeoDuZdvIOYO0VekAOmI7YT32ijNp5vl3Gxu9LNrUT7MlA9dZPbssgSbI2WYNXe1GbKdYJQGqdpEjBpWWZ5WF4PZoBjxamTKdEVqRoEPs3Bkgufutv4kWud/p8bgYX+hPYf0ZTgnREppMMGQu+4EMIbdlN7HykPgt00208CVv6Bls+hyCCTssAV5JzODcY0A+VrLrptTzhcEoR8PeXmtbAKVf52vGxkReA76jKIa1JRez89ezBtMgkxj0VHBouGxZzYpwMX7iLJVWQ2hVPK9Oti7JqD5t4OCGcTloIf7hIh1pwmRwyNrYesbvlGcIA5K+QRrxjk3xng6Lhd3fFoiMuF6TbSZ0+5orN+Ef47XfcB2ojPw6yk2+pdnrfZw92RfxfMj2Mq6MO07hj3K6V+viupAUE97IcPAzhq4YGVRHW9v8yJowIddX4T7XkLEq53F+BskTk7d4gFxcTAAmR+If6XhfKTU0Lr7MOUO6/C0+e+vatStbrvgpP6VDfA2S7u2Mb9byzLihrXBoUOK1amp0Rxc=
+
+%URL%
+https://github.com/powerline/powerline
+
+%LICENSE%
+MIT
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1735089510
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%REPLACES%
+powerline-common
+python-powerline
+
+%PROVIDES%
+python-powerline
+powerline-common
+
+%DEPENDS%
+glibc
+python
+
+%OPTDEPENDS%
+powerline-fonts: patched fonts for powerline
+vim-powerline: vim plugin
+python-netifaces: for displaying internal IP addresses
+python-psutil: improved system information
+python-pygit2: improved git support
+which: fish bindings
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-sphinx
+python-wheel
+
+%CHECKDEPENDS%
+python-netifaces
+python-pexpect
+python-psutil
+

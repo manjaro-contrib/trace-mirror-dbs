@@ -1,0 +1,91 @@
+%FILENAME%
+mkosi-25.3-4-any.pkg.tar.zst
+
+%NAME%
+mkosi
+
+%BASE%
+mkosi
+
+%VERSION%
+25.3-4
+
+%DESC%
+Build Legacy-Free OS Images
+
+%CSIZE%
+619515
+
+%ISIZE%
+3227876
+
+%MD5SUM%
+53c5b3e033d7ec86e0ddabbb9d964292
+
+%SHA256SUM%
+b2e3e5b93c1cd56ea430c352e2911589b0e2f65b00a55eb1704c199a46926e37
+
+%PGPSIG%
+iQIzBAABCAAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAme3GFwACgkQk7EdqkwZfj0jYg/+IpfTeYmkyT1Zi9yEDl2ooIdAqlvfPgED0Tx3LVjMt73avErFWE58KLIBOq6Ps/S9lh+JIC9TTE8vKO5iBT8i/zAnQxYtALNx/Acm0CfQeJpztoHw8GUzeYjg8v5cq9yp9JdePkKkRMblb/TT+icOaHa7cHg+RyopFAwVIIv2XhydVEE6voQyW8PiVh0GNuHUQzd3v03PTcSF9cssKYQncXNqG05j5KowOMy9Dz/sFaigfQN/XFsfyDnjGxh5pHDB2U6UsTAOVJFGuJmY6voVIYdZqIphm1tXLOIkJ89RZUhBX4AWwj7YIiCkRsS1LvHgETl7OOizlxfpSjHGK/bYlHpAzPmyXnFVXRIjfemfJK2xLn0j3sZpi8gTo4Hd6SBAVg5B66n2UwmxLcecmvmRmyJgaG6C2YLdlT9EvJSJUZtzwibse3gv/i+jZAz4bWrM0BgJN5f5V1hr/JK6nfIBsdAFfycpR0xa4sEM/dW/BOelGIQI2v+eyyUJe/X2Jo38N85N7Ng3mDANbX0VTusTMLFEYWLW6xCsSMk5CT613qOzj+q5hBwmgRInEIwbOvg24Y8Aa0TDT9q4uV1uJyjWIbK9/tQbReeg4SaJ2lgnmtqfhLX+SYnDhSvCAKV98Od+/h1uZNkcCQp2D6Xff6Y7sAoi5t51zMLalJGOvt3J4r4=
+
+%URL%
+https://github.com/systemd/mkosi
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1740052468
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+python
+python-argcomplete
+sh
+systemd
+
+%OPTDEPENDS%
+acl: for removing directories created by mkosi
+apt: for creating Debian and Ubuntu images
+btrfs-progs: raw_btrfs and subvolume output formats
+cpio: for cpio output format
+debian-archive-keyring: build Debian images
+dnf: for creating CentOS, Fedora, OpenMandriva, Mageia and OpenSUSE images
+dosfstools: for FAT support
+e2fsprogs: for ext2/3/4 support
+edk2-ovmf: for running bootable images using QEMU
+erofs-utils: for EROFS support
+gnupg: for signing image checksums
+kmod: for images using Linux kernels
+mtools: for FAT support
+openssl: for UEFI SecureBoot
+python-pefile: for bootable images
+qemu: for running bootable images using QEMU
+sbsigntools: for UEFI SecureBoot
+socat: for running the "mkosi ssh" subcommand
+squashfs-tools: for squashfs support
+swtpm: for adding software TPM when running bootable images using QEMU
+systemd-ukify: for Unified Kernel Image (UKI) support
+tar: for tar output format and Debian or Ubuntu images
+ubuntu-keyring: for building Ubuntu images
+xfsprogs: for XFS support
+xz: for compressing images with xz
+zstd: for compressing images with zstd
+zypper: for creating OpenSUSE images
+
+%MAKEDEPENDS%
+pandoc-cli
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+
