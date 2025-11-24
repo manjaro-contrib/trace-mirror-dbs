@@ -1,0 +1,64 @@
+%FILENAME%
+xonsh-0.20.0-1-any.pkg.tar.zst
+
+%NAME%
+xonsh
+
+%BASE%
+xonsh
+
+%VERSION%
+0.20.0-1
+
+%DESC%
+A python-powered shell. Full-featured and cross-platform.
+
+%CSIZE%
+1263322
+
+%ISIZE%
+9736793
+
+%SHA256SUM%
+ef14383a47dace8f2895b0432c18718ea90b84644153883583ab4b4952cacd50
+
+%PGPSIG%
+iHUEABYKAB0WIQSAJH2Z6r06TR46GDboW4aD60i8lQUCaSSKfAAKCRDoW4aD60i8lXnBAQCR5uaqCSm4N9LjEO+564uUFWLpVCxX3vJ6wzztGTW2hgEA4CrwnPUVNY+ES0MBpjNgYOViYks5mKWiBggkA74LfAs=
+
+%URL%
+https://xon.sh/
+
+%LICENSE%
+BSD-2-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1764001961
+
+%PACKAGER%
+Daniel Bermond <dbermond@archlinux.org>
+
+%DEPENDS%
+python
+python-distro
+python-packaging
+python-ply
+python-pyperclip
+python-ujson
+
+%OPTDEPENDS%
+python-prompt_toolkit: for SHELL_TYPE=prompt_toolkit
+python-pygments: for syntax highlighting and colorization
+python-setproctitle: for updating process title to match Xonsh arguments
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+python-prompt_toolkit
+python-pygments
+python-setproctitle
+
