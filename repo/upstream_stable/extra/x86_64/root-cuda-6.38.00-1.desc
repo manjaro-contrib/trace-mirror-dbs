@@ -1,0 +1,132 @@
+%FILENAME%
+root-cuda-6.38.00-1-x86_64.pkg.tar.zst
+
+%NAME%
+root-cuda
+
+%BASE%
+root
+
+%VERSION%
+6.38.00-1
+
+%DESC%
+C++ data analysis framework and interpreter from CERN with GPU (CUDA) features enabled
+
+%CSIZE%
+158158629
+
+%ISIZE%
+619559967
+
+%SHA256SUM%
+868b73d31b7770047e0a78e729fc245c183a747bb026acb561a42df4a165b7cd
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaSoYcwAKCRAAHPSBC+jZEfQjAQDgIdfeDH7Wwc1BNP1P7/kNwMYfgxQPzuDF+uAlcrj5UAD+JT+ufDEHHFY2uoNhhL2J1AQ26KuKg4pTwPaP1CRjGA4=
+
+%URL%
+https://root.cern
+
+%LICENSE%
+LGPL-2.1-or-later
+BSD-2-Clause
+BSD-3-Clause-LBNL
+NCSA
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1764364076
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%CONFLICTS%
+root
+
+%PROVIDES%
+root
+
+%DEPENDS%
+blas
+desktop-file-utils
+fcgi
+fftw
+ftgl
+gcc-libs
+giflib
+gl2ps
+glew
+glibc
+graphviz
+gsl
+hicolor-icon-theme
+libafterimage
+libglvnd
+libjpeg-turbo
+libpng
+librsvg
+libtiff
+liburing
+libxpm
+lz4
+ncurses
+pcre2
+python
+python-numpy
+tbb
+tex-gyre-fonts
+xxhash
+xz
+zlib
+zstd
+cuda
+cudnn
+
+%OPTDEPENDS%
+cern-vdt: Add a set of fast and vectorisable mathematical functions
+cfitsio: Read images and data from FITS files
+chromium: Support for WebGUI
+gcc-fortran: Enable the Fortran components of ROOT
+jupyter-metakernel: for Jupyter kernel
+libxml2: XML parser interface
+openmpi: Support for Message Passing Interface (MPI)
+openssl: OpenSSL support
+pythia8>=8.2.40-1: Pythia8 EG support
+python-pygments: syntax highlighting in interactive console
+qt6-webengine: Support for WebGUI
+sqlite: SQLite support
+tcsh: Legacy CSH support
+unuran: Support non-uniform random numbers
+vc: Add types for portable and intuitive SIMD programming
+xrootd>5: Support remote file server and client
+z3: Suuport the Z3 theorem prover
+
+%MAKEDEPENDS%
+cern-vdt
+cfitsio
+chromium
+cmake
+cuda
+cudnn
+gcc-fortran
+git
+go
+libxml2
+ninja
+nlohmann-json
+ocaml
+ocaml-ctypes
+openmpi
+openssl
+pythia8
+python-pygments
+qt6-webengine
+sqlite
+unuran
+vc
+xrootd
+z3
+
