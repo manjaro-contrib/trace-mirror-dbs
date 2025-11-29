@@ -1,0 +1,69 @@
+%FILENAME%
+opensips-3.6.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+opensips
+
+%BASE%
+opensips
+
+%VERSION%
+3.6.2-1
+
+%DESC%
+An Open Source SIP Server able to act as a SIP proxy, registrar, location server, redirect server ...
+
+%CSIZE%
+4596774
+
+%ISIZE%
+18079910
+
+%MD5SUM%
+d08798091f0ae4bf97f88072a8c4f313
+
+%SHA256SUM%
+808d6127d42d3321f9fd7ff10f1f5b0825b3d338a8f812886d8538d125493b13
+
+%PGPSIG%
+iQJLBAABCgA1FiEEiee5MxxK59f699MFwTIpOVS75K0FAmkrDIAXHHNwdXB5a2luQGFyY2hsaW51eC5vcmcACgkQwTIpOVS75K286g//QWrRPDzpLbQDzL1KpqN51U7JRtyJygnGVM+GLEdTvvRNmh4+/ho+F5kOFiuFZKIv/12o7bdswizr9YCCKE2ggwOZ6NO19m3HuuUgXQIhcawcp48lm95MjMnDhhkEMQSrCCQlz1kIDTCf3UL0sBZVT6WzNOit0XSFKCXWUZquhuGfnD9oY0oUv8iNFWEF7Z6NUYQemJO7XQ8fShOZv72xFctaLQdqvfNU8gfwACiiZ9s00T4JCDe7KKOOO5MxULkd7CU8VCvPveIW+oyqV+paIAZDYz16yy5bQFIpnE7TqZOFb13oyCzY8MR3qB9IudBvSXmiuBEoZlaDnrjH8tUwTGxMy81Z+fQc9ztt9EVVf+o5ZE341wuVOubU3NXjnTvI7ZMrTj1iMdLCXvB7vI15sdzkEj3Xz8DkQwVaD0W5K9nHHIVcy57dtb+KssVPukeKT3x3w2OsHFWequwKFM9Cx4yY41az6fbmBQOlwzdGd37vLL23nHGiNaK3/cFCjdpgiQcZmN8aUC7B35yRYlhKY8K5io60Keo9hluZbhUbEct9CTuBOSemTCMmk1QcKYEywc6jGPlZYaU8FbcfGAHtBOf0tVvgM2dB06IQ7qOMkopMIAUSOMxd1eclSv9OXl20+wY+EBOxZrKs6HdN8R/OuZyH9p5XFgSGn/KMhtmKhi8=
+
+%URL%
+https://www.opensips.org
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1764428291
+
+%PACKAGER%
+Sergej Pupykin <spupykin@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+
+%OPTDEPENDS%
+curl: db_http module
+libldap: ldap module
+libmicrohttpd: httpd module
+libxml2: presence module
+mariadb-libs: db_mysql module
+openssl: tls_openssl module
+postgresql-libs
+unixodbc: db_unixodbc module
+
+%MAKEDEPENDS%
+libldap
+libmariadbclient
+libmicrohttpd
+libxml2
+libxslt
+lynx
+openssl
+postgresql-libs
+unixodbc
+
