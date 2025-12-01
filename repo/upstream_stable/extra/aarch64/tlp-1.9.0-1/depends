@@ -1,0 +1,20 @@
+%DEPENDS%
+hdparm
+iw
+pciutils
+perl
+rfkill
+usbutils
+util-linux
+
+%CONFLICTS%
+laptop-mode-tools
+pm-utils
+power-profiles-daemon
+
+%OPTDEPENDS%
+bash-completion: Bash completion
+ethtool: Disable Wake On Lan
+smartmontools: Display S.M.A.R.T. data in tlp-stat
+tp_smapi: Older ThinkPad battery functions (before Sandy Bridge)
+
