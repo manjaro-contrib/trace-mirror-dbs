@@ -1,0 +1,101 @@
+%FILENAME%
+grub-2:2.14rc1-3-x86_64.pkg.tar.zst
+
+%NAME%
+grub
+
+%BASE%
+grub
+
+%VERSION%
+2:2.14rc1-3
+
+%DESC%
+GNU GRand Unified Bootloader (2)
+
+%CSIZE%
+12814435
+
+%ISIZE%
+43301655
+
+%MD5SUM%
+faa60096e56e4a441cb7d3717f592335
+
+%SHA256SUM%
+43f3312ed9918249e867a07fc3340066f8887dd8ca90a499b4c16ebd739bf30d
+
+%PGPSIG%
+iQFGBAABCgAwFiEE5M3+UKLahdWMioxwyqallhHH8H4FAmktuW8SHHBoaWxtQG1hbmphcm8ub3JnAAoJEMqmpZYRx/B+zX0H/App+DyZcemW3AiKKyoPFsC6coqVoxprc/36V03gDOyCZz2ESuoEoW7Nzt8HP1tN8LsMsaoXI7qoSh1HNYN5bR/RnPKD9wZAuooHF0IAm2+/IpDJTnwVjkyAjSBw92e5o2/2i1g3PKkevygLIQMOlZ7S+MV0jXJsJbn3H3SquD92+BVxVlTMErzQDDok36iZ9+GDyNtR4cu3kRx/fYICT40kvATG/tShl50ioBYG8g0HgK2O04OGHAP3K4wjHGk6m8LS/W9R1gDyE0A5w6O7zteQmRzIXpCFVSwr2anQ6xFAuxOLbWbdi+zzhCFUSwRtq7sUCiXs8elX24cZrWzIl9g=
+
+%URL%
+https://www.gnu.org/software/grub/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1764604040
+
+%PACKAGER%
+Philip Mueller <philm@manjaro.org>
+
+%REPLACES%
+grub-common
+grub-bios
+grub-emu
+grub-efi-x86_64
+
+%CONFLICTS%
+grub-bios
+grub-common
+grub-efi-x86_64
+grub-emu
+grub-legacy
+
+%PROVIDES%
+grub-bios
+grub-common
+grub-efi-x86_64
+grub-emu
+
+%DEPENDS%
+device-mapper
+gettext
+sh
+xz
+
+%OPTDEPENDS%
+dosfstools: For grub-mkrescue FAT FS and EFI support
+efibootmgr: For grub-install EFI support
+freetype2: For grub-mkfont usage
+fuse3: For grub-mount usage
+libisoburn: Provides xorriso for generating grub rescue iso using grub-mkrescue
+libusb: For grub-emu USB support
+lzop: For grub-mkrescue LZO support
+mtools: For grub-mkrescue FAT FS support
+os-prober: To detect other OSes when generating grub.cfg in BIOS systems
+sdl: For grub-emu SDL support
+update-grub: Script to update Grub Menu on Linux Kernel updates
+install-grub: Script to install Grub after package updates
+
+%MAKEDEPENDS%
+autogen
+device-mapper
+freetype2
+fuse3
+gettext
+git
+help2man
+libusb
+python
+rsync
+sdl
+texinfo
+ttf-dejavu
+xz
+wget
+
