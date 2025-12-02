@@ -1,0 +1,68 @@
+%FILENAME%
+nvidia-utils-580.105.08-5-x86_64.pkg.tar.zst
+
+%NAME%
+nvidia-utils
+
+%BASE%
+nvidia-utils
+
+%VERSION%
+580.105.08-5
+
+%DESC%
+NVIDIA drivers utilities
+
+%CSIZE%
+301570995
+
+%ISIZE%
+944301969
+
+%SHA256SUM%
+98ee83e1d23f2c37337ddabc7c35f249bc944f7cd175292137f22c873661eb23
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCaS4xTgAKCRC4rAhgDxCM32QXAP45Wzyhv5qTs617l56FBR5FfAjY0xAE5N8hoTwfRVXoEQEAhp+e0Ifl1veVJp9VxM8oPyy8VgdTgZ4bBeqg3P197wQ=
+
+%URL%
+http://www.nvidia.com/
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1764634199
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%REPLACES%
+nvidia-libgl
+
+%CONFLICTS%
+nvidia-libgl
+
+%PROVIDES%
+vulkan-driver
+opengl-driver
+nvidia-libgl
+
+%DEPENDS%
+libglvnd
+egl-wayland
+egl-gbm
+egl-x11
+
+%OPTDEPENDS%
+nvidia-settings: configuration tool
+xorg-server: Xorg support
+xorg-server-devel: nvidia-xconfig
+opencl-nvidia: OpenCL support
+
+%MAKEDEPENDS%
+patchelf
+
