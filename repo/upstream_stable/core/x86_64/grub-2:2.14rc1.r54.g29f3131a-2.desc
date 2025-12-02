@@ -1,0 +1,96 @@
+%FILENAME%
+grub-2:2.14rc1.r54.g29f3131a-2-x86_64.pkg.tar.zst
+
+%NAME%
+grub
+
+%BASE%
+grub
+
+%VERSION%
+2:2.14rc1.r54.g29f3131a-2
+
+%DESC%
+GNU GRand Unified Bootloader (2)
+
+%CSIZE%
+7940777
+
+%ISIZE%
+43296766
+
+%SHA256SUM%
+65144031e430de134efa535ee94cbcc3fcb3cf2044aae42098dcf5c15b8c2d6b
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaS2tDQAKCRBtQr3RFuAGj6a3AQC/Mzy+j3TMhOSMuvvzaUZMSwXpCRO1jTcqmY7eQCsgowD9GzBZpYbISd44XWzd9wZ8qqX0OqGXuHA+VbGNQ3vJHwo=
+
+%URL%
+https://www.gnu.org/software/grub/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1764600734
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%REPLACES%
+grub-common
+grub-bios
+grub-emu
+grub-efi-x86_64
+
+%CONFLICTS%
+grub-bios
+grub-common
+grub-efi-x86_64
+grub-emu
+grub-legacy
+
+%PROVIDES%
+grub-bios
+grub-common
+grub-efi-x86_64
+grub-emu
+
+%DEPENDS%
+device-mapper
+gettext
+sh
+xz
+
+%OPTDEPENDS%
+dosfstools: For grub-mkrescue FAT FS and EFI support
+efibootmgr: For grub-install EFI support
+freetype2: For grub-mkfont usage
+fuse3: For grub-mount usage
+libisoburn: Provides xorriso for generating grub rescue iso using grub-mkrescue
+libusb: For grub-emu USB support
+lzop: For grub-mkrescue LZO support
+mtools: For grub-mkrescue FAT FS support
+os-prober: To detect other OSes when generating grub.cfg in BIOS systems
+sdl: For grub-emu SDL support
+
+%MAKEDEPENDS%
+autogen
+device-mapper
+freetype2
+fuse3
+gettext
+git
+help2man
+libusb
+python
+rsync
+sdl
+texinfo
+ttf-dejavu
+wget
+xz
+
