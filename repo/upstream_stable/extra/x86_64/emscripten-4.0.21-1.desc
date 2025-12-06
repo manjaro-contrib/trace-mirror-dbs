@@ -1,0 +1,66 @@
+%FILENAME%
+emscripten-4.0.21-1-x86_64.pkg.tar.zst
+
+%NAME%
+emscripten
+
+%BASE%
+emscripten
+
+%VERSION%
+4.0.21-1
+
+%DESC%
+Compile C and C++ into highly-optimizable JavaScript for the web
+
+%CSIZE%
+395073240
+
+%ISIZE%
+1264113784
+
+%SHA256SUM%
+3910930c597c8c30f3f82fda956c03436001ed8a4705e158db68710a59256c46
+
+%PGPSIG%
+iQIzBAABCgAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmkzjbgACgkQOeS4d+YuuRUW0A//cbO+7ansDUGs9mzrFs4EeXIg0Ryu/rTiMM5ul0An9EU8MQYcORxg5VYf1WTSf4VbctPuAUuf/ZVE2ghnrMS/fWQGLN04wQ37IrWTK4LJocDLuyeNAISARNFoABqvMWtA8cbdxxpAVzH/84GQJt4/hYZQTv7tWtZMoyxyCP1wO9acscKGzFCoyqRHNv8rFqx9hwaZQKHLLvB/jkSj2RgNimrqw7cM0hX+TtYiZ5JhGQG0VVpIlZORrY+K3LeKKRcQSAJziHmF3YYzLrM3gbv6SH5/DTY90w7hG54HmZe9TaGyQgBPhjBmr39b1sCQHVQK49WZHvzw+OGgNfBpDKYs1N0AvdaEfyax+tXvjY1gj8zwJZ6xHFGZT8lEcgKyKbm4zDnFzjuRotVN8X4ijobWBVHn7+QKSgfz380F6SzkMivu0fGn2RPItcxQgHxwKiH/uzsFIw5yCT4gVBTYUyH1COHX9Bp0M9+N9W3+S7HGOFYhT+64nPnmtNXvZeqwEUfb0qfd1yPFrrI3uxXLMr7+ISpKlN5u/CX8ROU80IJNwZQxsmLEjwC0+0S7v5xsQt/+OLiZCUlNHkJ6iaPkuIJmWKPNqbhQRv5UZ6xwBXBjJxEBBaGMqDqrvMGEt5KQypqX1QzY/TxWNQD/QOti3/z0WdgryEyfGEio4+u7fNbePgU=
+
+%URL%
+https://emscripten.org
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1764985788
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%CONFLICTS%
+binaryen
+
+%PROVIDES%
+binaryen
+
+%DEPENDS%
+nodejs
+python
+which
+acorn
+
+%OPTDEPENDS%
+java-environment: for using clojure
+ruby: for using websockify addon
+cmake: for emcc --show-ports
+
+%MAKEDEPENDS%
+cmake
+libxml2
+git
+ninja
+npm
+

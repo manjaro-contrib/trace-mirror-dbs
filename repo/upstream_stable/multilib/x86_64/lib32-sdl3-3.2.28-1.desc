@@ -1,0 +1,78 @@
+%FILENAME%
+lib32-sdl3-3.2.28-1-x86_64.pkg.tar.zst
+
+%NAME%
+lib32-sdl3
+
+%BASE%
+lib32-sdl3
+
+%VERSION%
+3.2.28-1
+
+%DESC%
+A library for portable low-level access to a video framebuffer, audio output, mouse, and keyboard (Version 3) - 32-bit
+
+%CSIZE%
+1034477
+
+%ISIZE%
+3025629
+
+%SHA256SUM%
+1e4bb59574723c8d078aba5589fb868ed150777b9e0a3836b1055bd0f6e41eaf
+
+%PGPSIG%
+iQIzBAABCgAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmkzh6AACgkQOeS4d+YuuRVpgg/+NpbC5lGctJy9xQ7SV0HDa2qGWbYMzslYW2UGdumF42RGYGUWZFvCIf59zrscUQg8QZjKF9lYvHWP6Z+o3UZqbYv05Hx5OID2fUQvMURjZSJtZR7SSZzmJnw7H44JuzprfsHxMsvar2xblg4T3P1AKjWWytnmhbjeaIAFb9d/wOWTrpNeDwPjB6Ob2HO33edRZE1KKCLtPx1r5Yhzucq0O2S66dmrSNwEwZvgRY26iYEzLK+OcU1DUooZJ39J/WvhsswQIHOQtl9S9bPxKO73gSItl6fXeYzNvIs4CZWKWkVnxvCNjBXMmYt/70CwI4Q1vyJQJxdTJvuPmDyCyOd3Ma1yHEaiV30DbP1hQZtHzF4VY+fZtqV/IQhANQozJV5kkIt3rWmPZuOYNpsWscLxAZBcKgocY93atziGnai58a6WH+x+8jaNXkqiE89Aj74GbZ4jFj+Gmud7qiYF4+1hOTcRGt1I4jjJjzS0m7q7sdp6qHggWormza5CYUOcBZjr9+skE0NYu5K/StP96IckjNZ4RxXD9F2OPgEKWyCg8wcAKV+tRRYU5mUC4EhezVk0c/rbWsdJlTHGLKMUy/tnjdR8GpgaevV4s/YphUZhlanL8eaJoGcD1q/A6G5wl2iLGjpPqkUgTJNVyhxBpYFVGFr/U8Pjoq0g1pel/mbQRGY=
+
+%URL%
+https://www.libsdl.org
+
+%LICENSE%
+Zlib
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1764984680
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%DEPENDS%
+sdl3
+lib32-glibc
+lib32-libxext
+lib32-libxrender
+lib32-libx11
+lib32-libgl
+lib32-libxcursor
+lib32-libusb
+
+%OPTDEPENDS%
+lib32-alsa-lib: ALSA audio driver
+lib32-libpulse: PulseAudio audio driver
+lib32-jack: JACK audio driver
+lib32-pipewire: PipeWire audio driver
+lib32-vulkan-driver: vulkan renderer
+lib32-libdecor: Wayland client decorations
+
+%MAKEDEPENDS%
+cmake
+ninja
+jack
+wayland-protocols
+lib32-alsa-lib
+lib32-mesa
+lib32-libpulse
+lib32-libxrandr
+lib32-libxinerama
+lib32-wayland
+lib32-libxkbcommon
+lib32-libxss
+lib32-pipewire
+lib32-libdecor
+vulkan-headers
+lib32-sndio
+
