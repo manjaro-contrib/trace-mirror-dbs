@@ -1,0 +1,23 @@
+%DEPENDS%
+expat
+gcc-libs
+glibc
+libdisplay-info
+libdrm
+libx11
+libxcb
+libxshmfence
+systemd-libs
+vulkan-icd-loader
+vulkan-mesa-implicit-layers
+wayland
+xcb-util-keysyms
+zlib
+zstd
+
+%PROVIDES%
+vulkan-driver
+
+%OPTDEPENDS%
+vulkan-mesa-layers: additional vulkan layers
+
