@@ -1,0 +1,100 @@
+%FILENAME%
+python-fastapi-0.124.0-1-any.pkg.tar.zst
+
+%NAME%
+python-fastapi
+
+%BASE%
+python-fastapi
+
+%VERSION%
+0.124.0-1
+
+%DESC%
+FastAPI framework, high performance, easy to learn, fast to code, ready for production
+
+%CSIZE%
+213672
+
+%ISIZE%
+1827508
+
+%MD5SUM%
+36429795fe6b1cdee5708482f4f68bcf
+
+%SHA256SUM%
+040327527b1f4da253bb3f895486628b9c0c614fb20b05fd3758904f2db2dfd7
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmk1iPkACgkQ/cMEC5Ksp0ixrRAAiZv+pvakJjPg4UsuAa+/Ju6RsHkEckr1ZYpefuhmMPcWqj8hBuHilHrh0c4uFiHV9M3z56Q3hsLnxD45mbUAMucPStOpJljdxASnsavCwtybMphzeBROJYL3S1wN7acf/m8V0y8LEKuovZx/jyMZxNdwwVh+iD7fy7o8bWJaFp3LagycJr4rGV1BGxkxj6Lv+8OUeouI3NDGZRf1Vx9/IfHOZD9BIitKts/AFXLMC0YbFXLz6nkPjrHqZ7LXWC+FcxJBLIqmmSU6dawz+z0bUOlZYVR7NvpXo1oAq/UZJEF9LnQ66zkgucMTrvYy9CM8g3zTrprhPc53tueHCLmMY4VHet9b3CblBbG40WsQP12Hq0s4ac9oU4gleB+9Drb6EnYQxaB9BeIN2wyFSxHdfxAD4+EdqoOeK6/xFZlL5+xOpVaskZLjCMmWD4Nt2hyy/sKNK2Q6pjMnb3FCM4LoOThiyoEbkA0Rl23oQ0wyJZQpzuVMsjeR14uJ5ty6+vHkGzuUkn0YgOG3uxr4KsSaIttUoy/OicxMz16DzQPPnh7hlFnH/iQI9WoQwIhxJTfjeCC2o79MIAOM1lqJveE9EArJKrlkZbH347TCoeCxUPTo5qgEC1DpE0qD0PL3wc8IDFogrdyh7RWmofdIIfmdDAMiLwMTkKsk0XUBiumk8wU=
+
+%URL%
+https://github.com/fastapi/fastapi
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765116119
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-annotated-doc
+python-anyio
+python-pydantic
+python-pydantic-core
+python-pydantic-extra-types
+python-pydantic-settings
+python-starlette
+python-typing_extensions
+
+%OPTDEPENDS%
+hypercorn: for Hypercorn as ASGI server
+python-email-validator: for email validation
+python-itsdangerous: for SessionMiddleware support
+python-jinja: for default starlette template configuration
+python-orjson: for ORJSONResponse
+python-python-multipart: for form parsing support
+python-pyyaml: for starlette SchemaGenerator support
+python-httpx: for TestClient support
+python-ujson: for faster JSON parsing and UJSONResponse
+uvicorn: for Uvicorn as ASGI server
+
+%MAKEDEPENDS%
+python-build
+python-dirty-equals
+python-installer
+python-pdm-backend
+python-wheel
+
+%CHECKDEPENDS%
+python-aiosqlite
+python-anyio
+python-databases
+python-flask
+python-httpx
+python-inline-snapshot
+python-peewee
+python-pytest
+python-sqlalchemy
+python-sqlmodel
+python-trio
+python-email-validator
+python-itsdangerous
+python-jinja
+python-orjson
+python-python-multipart
+python-pyyaml
+python-ujson
+uvicorn
+python-argon2-cffi
+python-cryptography
+python-pyjwt
+python-pwdlib
+
