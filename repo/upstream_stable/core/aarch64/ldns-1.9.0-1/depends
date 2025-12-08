@@ -1,0 +1,11 @@
+%DEPENDS%
+openssl
+dnssec-anchors
+
+%PROVIDES%
+drill
+libldns.so=3-64
+
+%OPTDEPENDS%
+libpcap: ldns-dpa tool
+
