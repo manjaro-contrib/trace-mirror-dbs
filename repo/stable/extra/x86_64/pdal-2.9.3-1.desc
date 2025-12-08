@@ -1,0 +1,65 @@
+%FILENAME%
+pdal-2.9.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+pdal
+
+%BASE%
+pdal
+
+%VERSION%
+2.9.3-1
+
+%DESC%
+A C++ library for translating and manipulating point cloud data
+
+%CSIZE%
+2515901
+
+%ISIZE%
+8956134
+
+%MD5SUM%
+218718650ddea5fef576ff1491f95e53
+
+%SHA256SUM%
+0bbd204eb0976ca041d4265cf37b0389fc884e048a9cf7da48cc1e875809ff2d
+
+%PGPSIG%
+iQIzBAABCgAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmkreXgACgkQOeS4d+YuuRVUDA//Zogqfg6emXnM9kHRx/deS5aP/Hex2/lxD2Rtw7VcoXBzVqlNZiOOgljhG4nv7jmANjj3LKVFv6skSIqoYvPs/d2PhXiFcB7yvKsudUVXv1NHTG7W457OVUZvJTOPwsr2vxb7WW8HAV9UwyXQxHV9/OKALW9FZB6YXKPp8Z8/eb+1B6F1LAdmazEuD96X6M6z8HTCxEDf2v0S/cK2BZfdc6YQ4EIEb1wEifhx/PVvuF26St/tOi5GxKphBcOEMysXX+cJNzoqPsIKwlLStlojoRCv0ThUM/GPcLDzIt/MbQItGw32KMRW9uihUBqiwDqb6WvaklcU3bTnKcRVY1w9HOdvq7OqD9ztPWqCLsbpDdqmx8PV1WJE1httm6V6Ve79LzuT002GOT706mDQAhpCkv5r35LPgch79ku3vHmdK4KbXROXqToyRzL5ZaNpQw2W311ctYaKJs0AQGYD/Ddb7eF28mwimkElUDdhwW1rcJWN75AVZpopHDHuDDa7HnlSbZlWNKKWTygW3iLZaD0LSEmnBqrAl5QggkaFIxI7svfmCTpSBOBfVsxQqWJwTAgIdfHE64ZYHtKFFMakcZgmumxI8ZzcSQnxrh/x/2cdAAEvYwmEIGTEytGQ4YvZl+zAMij5pByipbmcvCQLQNAuHPHK0qTFIbr0KwZVY20hReI=
+
+%URL%
+http://www.pdal.io
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1764456669
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%PROVIDES%
+pdal
+
+%DEPENDS%
+gdal
+libgeotiff
+jsoncpp
+
+%OPTDEPENDS%
+python-numpy: for the Python plugin
+sqlite: for the sqlite plugin
+postgresql-libs: for the postgresql plugin
+
+%MAKEDEPENDS%
+cmake
+python
+python-numpy
+ninja
+postgresql-libs
+
