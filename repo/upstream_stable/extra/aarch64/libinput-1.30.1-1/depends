@@ -1,0 +1,15 @@
+%DEPENDS%
+gcc-libs
+glibc
+libevdev
+libwacom
+lua
+mtdev
+systemd-libs
+
+%PROVIDES%
+libinput.so=10-64
+
+%OPTDEPENDS%
+libinput-tools: debug utilities
+
