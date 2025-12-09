@@ -1,0 +1,17 @@
+%DEPENDS%
+bash
+mkinitcpio
+systemd
+
+%CONFLICTS%
+mkinitcpio-dropbear
+mkinitcpio-tinyssh
+
+%OPTDEPENDS%
+busybox: for initrd-tinysshd.service
+cryptsetup: for initrd-cryptsetup.service
+dropbear: for initrd-dropbear.service
+mc: for initrd-debug-progs.service
+nftables: for initrd-nftables.service
+tinyssh: for initrd-tinysshd.service
+
