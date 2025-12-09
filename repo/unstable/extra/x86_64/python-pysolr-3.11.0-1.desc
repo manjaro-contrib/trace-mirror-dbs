@@ -1,0 +1,61 @@
+%FILENAME%
+python-pysolr-3.11.0-1-any.pkg.tar.zst
+
+%NAME%
+python-pysolr
+
+%BASE%
+python-pysolr
+
+%VERSION%
+3.11.0-1
+
+%DESC%
+Python Solr client
+
+%CSIZE%
+51035
+
+%ISIZE%
+216197
+
+%MD5SUM%
+709bfa9590b77dbfe567a8cadd7da9ca
+
+%SHA256SUM%
+545f33f9a2516e1c30e15efe59e58e77d68461832b613bc0d7f252fe19b21c8d
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCaTfmywAKCRCbeih9mi7GCAoyAP9x+Baklvukn0dI2z+S+WPFer5hwp0KxfQJnhElug9b2AD/eV1m7NWyWsgj3TK2cNFYv5pCJqu4ZYeCGEOQi6uBSwU=
+
+%URL%
+https://github.com/django-haystack/pysolr
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765271108
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-setuptools
+python-requests
+
+%OPTDEPENDS%
+python-kazoo: for solrcloud
+python-simplejson: for JSON support
+solr: for interfacing a local solr instance
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools-scm
+python-wheel
+
