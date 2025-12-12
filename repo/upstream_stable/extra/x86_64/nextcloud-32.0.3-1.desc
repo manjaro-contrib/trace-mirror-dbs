@@ -1,0 +1,68 @@
+%FILENAME%
+nextcloud-32.0.3-1-any.pkg.tar.zst
+
+%NAME%
+nextcloud
+
+%BASE%
+nextcloud
+
+%VERSION%
+32.0.3-1
+
+%DESC%
+A cloud server to store your files centrally on a hardware controlled by you
+
+%CSIZE%
+209032711
+
+%ISIZE%
+782892528
+
+%SHA256SUM%
+75d2ae21126baac959eb1ad526385359bcb0c9019ed29481382d3833bb5a9baf
+
+%PGPSIG%
+iQJLBAABCgA1FiEEiee5MxxK59f699MFwTIpOVS75K0FAmk8BVoXHHNwdXB5a2luQGFyY2hsaW51eC5vcmcACgkQwTIpOVS75K3G5A/+LYU4jImL9zAlLkGTPDWgdoPBfNJdcADzUPTE2+PxL3LT7hUiBteJiw0cCJWtN9RLyPleX4bZ1qeuvvBDM2wD+YdWdkm3ypm0OXuGZ3ZY1hseQ2biwtpoUdKuaEVByyHRwBd5iu/9WULWUsyWZI2wau3TqxGgcO1uVLlMP5PMEh9F+g8DAg8UkTX4zqloHCB+lvSK97dv+BhqaIi6rNS1g0t8kI1/k7U1lIfjydJSmvBZei4OE09xhyZ0BtnQVlYIcTXOXT4rPfUwKhmi5if2UoLS7J0cqsJWOoS1HUrI2s/p/eEqI6CVKeSEDz+03JkNNZzvZmWBC/WTNjBUlNUWtTWRuYtW0v7gSL2nwsbv9ky+19X2IlwYeuXHRN4uxH7xV8MkQKQrjyGySOZrApMZoBwbPT09rQwVC9xSOfNXp+rZWH6YZUojiPl78wimfB9uci21wBYNwslk3W398lea88Bojo+wMndk/abVrnK+Zxc7TN8TliNjvOefg1IH1AD0wzxWWbaIY9/johcLMrFOo1F86piFE4lfCvTUa+DnXong7H5FAFpl+c6N/+ejVCFkm1DNu93gotRSXfGpX2KsilA4YawksLj9KAwidmHVnsZaAuofL5URahLy4LG24m7E1leKLLDa4WBRr4wD3jlPw6pWU0G6j+zs2JadP3woXhg=
+
+%URL%
+https://nextcloud.com
+
+%LICENSE%
+AGPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765540702
+
+%PACKAGER%
+Sergej Pupykin <spupykin@archlinux.org>
+
+%DEPENDS%
+php-legacy-gd
+php-legacy
+
+%OPTDEPENDS%
+curl: for webcron jobs from within uwsgi
+ffmpeg: for preview generation
+libreoffice: for preview generation
+mariadb: to use a local MariaDB server
+memcached: to use a local memcached server
+mod_itk: to use the Apache web server
+php-legacy-apache: to use the Apache web server
+php-legacy-apcu: for caching with APCU
+php-legacy-fpm: to run in fastCGI process manager
+php-legacy-imagick: for preview generation
+php-legacy-memcached: for caching with memcached
+php-legacy-pgsql: to use the PostgreSQL database backend
+php-legacy-redis: for caching with redis
+php-legacy-sodium: for Argon2 password hashing
+php-legacy-sqlite: to use the SQLite database backend
+postgresql: to use a local PostgreSQL server
+valkey: to use a local Redis server
+smbclient: for SMB/CIFS integration
+sudo: for privilege elevation in occ command when not run as root
+uwsgi-plugin-php-legacy: run as application container
+
