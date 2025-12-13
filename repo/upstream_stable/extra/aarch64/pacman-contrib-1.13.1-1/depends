@@ -1,0 +1,14 @@
+%DEPENDS%
+pacman
+
+%OPTDEPENDS%
+diffutils: for pacdiff
+fakeroot: for checkupdates
+findutils: for pacdiff --find
+mlocate: for pacdiff --locate
+plocate: faster mlocate alternative
+perl: for pacsearch
+sudo: privilege elevation for several scripts
+vim: default diff program for pacdiff
+neovim: default diff program for pacdiff if EDITOR=nvim
+
