@@ -1,0 +1,67 @@
+%FILENAME%
+spamassassin-4.0.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+spamassassin
+
+%BASE%
+spamassassin
+
+%VERSION%
+4.0.2-1
+
+%DESC%
+A mail filter to identify spam
+
+%CSIZE%
+1076141
+
+%ISIZE%
+3612391
+
+%SHA256SUM%
+c8421d21023b101a19759c4a64b8eefe6d3507f4cf977e6bd30a9f13fbe5388e
+
+%PGPSIG%
+iQIzBAABCgAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmk9XGAACgkQqF6BHrTKLgh5PxAA42ptlLImvWCSXn57+otzJqQ25ASFd124A9r28wsxZKjzoRRZ0H31LJ/Gij4q1j5LE4Y23dfmIRq4pQ6vu4gvodLZ6rOeuV+KOAlTzsY626qP4zDL2zxf873tsLA/kZ8jzn9SlK7iMY9KVyCnO+FWQmjUWNTo8I9+iuvADt/3e/ouqbtmvEDbL1R0AIHMXWIFdqtoRMa3w0PIrcDxCds2MvfO9WuVKQgOExOKC6r9KwVSw6r7diaHCvgomIRxkRjlb98eaK83da8kUGvKqxQQo9sjubB4UlpU36xz2+U6GzgnNUjvWGdWJJSvEN2UY2C27xVRLLqWKITqt+BcSN72eHULakgI8zccd6T6Jtnh8h0nNh9edpEjZapmhWc123zHbyc6Yf8x9Tfz+9hPc6f2+AaVGHHWQBys30bQqO0goZdYcCqAVaKZo/Amflc+lPyhB1hyU5dwueCwPqc+PpwdMUZbALadONiqC/iIkyLtRsQd/w/668m/00arW9D4G7hJjzWiRn3MIq9ipw+SeYQzQMGmwq2BIkTJNk0Lngxp6HyFl/ERRiiYwAavGJKkeHFzozMFrkHMNh3xiaYfpEFCGAD6VGszPVlV4fJ+flO7rkpC0+Jjv4dCAbde0abckh8pjdaZTWXeo9UDQ9ITjPH036O7m2/TwwQiEikpDWTFsbQ=
+
+%URL%
+https://spamassassin.apache.org
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765625683
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%DEPENDS%
+openssl
+perl-http-message
+perl-io-socket-inet6
+perl-io-socket-ssl
+perl-libwww
+perl-mail-dkim
+perl-mail-spf
+perl-net-dns
+perl-net-http
+re2c
+zlib
+
+%OPTDEPENDS%
+razor: to identify collaborately-flagged spam
+make: to use sa-compile
+gcc: to use sa-compile
+
+%MAKEDEPENDS%
+perl-dbi
+razor
+
+%CHECKDEPENDS%
+perl-text-diff
+
