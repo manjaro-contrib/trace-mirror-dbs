@@ -1,0 +1,71 @@
+%FILENAME%
+nemo-6.6.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+nemo
+
+%BASE%
+nemo
+
+%VERSION%
+6.6.1-1
+
+%DESC%
+Cinnamon file manager (Nautilus fork)
+
+%CSIZE%
+988714
+
+%ISIZE%
+4680279
+
+%SHA256SUM%
+171e60aa3696081f98e27e91ad1eec5129228bf943c16e2898bb294d74cfd53d
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmk5udMACgkQek52CV2KUuRi3Af+PWJGSc8PhnYByan/7evZ96cA/3ZEL++yvbkJ1RDvqiDvpsfgWrBpgGxYdoz2wQoEwhHv1kgqwU22g3C5cJbMNvFDpxpTy/pfFrtbvRh2agiqIPaoyu1R/3DNdwzpO/GabOoP7pmeFqZvChSI9R/SqQC4qjivGdQC/Yli4Bao1eCC86DHwV4wkGTn5/bvM6zsiwmLCBE08dxxHVK3wJR9Ukm+YXvcUI3bWQuZ8EmxnxDmmPcLxiCal0oE/0U3kbYO4tOmUWGztyCejXo/VL+bRopZtr6pE23aC8fT0hDFc4qsIRVRJnb7f2kR1KNDoMF6Dzr6XuQ17Epc9oI5URtAng==
+
+%URL%
+https://github.com/linuxmint/nemo
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765389343
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+cinnamon-desktop
+dconf
+gvfs
+exempi
+libexif
+libnotify
+libxml2
+python
+xapp
+
+%OPTDEPENDS%
+cinnamon-translations: i18n
+ffmpegthumbnailer: support for video thumbnails
+catdoc: search helpers support for legacy MS Office files
+ghostscript: search helpers support for PostScript files
+libgsf: search helpers support for MS Office files
+libreoffice: search helpers support for legacy MS Office powerpoint files
+odt2txt: search helpers support for LibreOffice files
+poppler: search helpers support for PDF
+
+%MAKEDEPENDS%
+git
+meson
+gobject-introspection
+intltool
+libgsf
+glib2-devel
+
