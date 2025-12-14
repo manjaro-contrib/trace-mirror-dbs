@@ -1,0 +1,102 @@
+%FILENAME%
+python-autobahn-25.10.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-autobahn
+
+%BASE%
+python-autobahn
+
+%VERSION%
+25.10.2-1
+
+%DESC%
+Real-time framework for Web, Mobile & Internet of Things
+
+%CSIZE%
+755395
+
+%ISIZE%
+6332121
+
+%MD5SUM%
+cc7cb3a2c500f8dd33379a6908744a3b
+
+%SHA256SUM%
+1b15508ae65462484386d7e278aa05e2dd028c6b70672bfbddbf2d8f36b57669
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaRrlDgAKCRAAHPSBC+jZEVr5AQCGopgd8mNSBXEkqq12MgYA6PthPxThmngTVkNmglr4XwEAi724pZauzFvcarZmfREyWrVtlYgDW8x9/I+IHNccXQI=
+
+%URL%
+https://github.com/crossbario/autobahn-python/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1763370020
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+python-base58
+python-cffi
+python-twisted
+python-txaio
+python-wsaccel
+python-cryptography
+python-hyperlink
+python-zope-interface
+
+%OPTDEPENDS%
+python-cbor2: CBOR serializer support
+python-flatbuffers: FlatBuffers serializer support
+python-msgpack: MsgPack serializer support
+python-u-msgpack: pure-python alternative to python-msgpack for MsgPack serializer support
+python-ubjson: UBJSON serializer support
+python-ujson: accelerated JSON serializer support
+python-argon2_cffi: WAMP-SCRAM authentication support
+python-passlib: WAMP-SCRAM authentication support
+python-pynacl: WAMP-cryptosign and WAMP-cryptobox support
+python-pytrie: WAMP-cryptobox support
+python-qrcode: support QR codes in WAMP
+python-pyopenssl: SSL/TLS support
+python-ecdsa: ECDSA signatures
+python-snappy: snappy compression support for WebSocket messages
+python-click: for text highlights
+python-txtorcon: connections to Tor Onion services
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+python-argon2_cffi
+python-cbor2
+python-flatbuffers
+python-msgpack
+python-passlib
+python-pynacl
+python-pytrie
+python-ubjson
+python-u-msgpack
+python-ujson
+python-qrcode
+python-pyopenssl
+python-ecdsa
+python-snappy
+python-click
+python-txtorcon
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-asyncio
+

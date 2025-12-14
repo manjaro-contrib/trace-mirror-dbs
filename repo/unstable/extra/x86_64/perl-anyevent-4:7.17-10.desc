@@ -1,0 +1,63 @@
+%FILENAME%
+perl-anyevent-4:7.17-10-any.pkg.tar.zst
+
+%NAME%
+perl-anyevent
+
+%BASE%
+perl-anyevent
+
+%VERSION%
+4:7.17-10
+
+%DESC%
+The DBI of event loop programming
+
+%CSIZE%
+348974
+
+%ISIZE%
+776020
+
+%MD5SUM%
+b1d592ab2edfdf90733f4c7dac7cf37b
+
+%SHA256SUM%
+bbcbe5885f6dd2a51fb1dc35b49c1c14b18c8d3c1a7b8c53f6d5d6cba83912e7
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmk9uZUACgkQek52CV2KUuQHpQf/S7w6q1S5ybyQtjbXLUsOcsyFCSlcpchSDz8UdhEwL6ad9G8rFIbWMCm3cAZwJnbV6jTt+MNwxLOF6RTW0DHqdgBVqHr1y6mt71YdVQoaQrRhcFh8+6LkgtkSJs70W1u7eLfPJ+HiK2AVNB+PlK1fF0R3yYS/rDjWQmKE45wxTLPbrC+VeXScfBVakNE4AwRgTMmVayDC9FMxyEqXx/GXcnlSlSlHTDrI4KIzKNJRnI6J/0oP2cRxYGBGouQBqGkhJ2arowftBb/e8rinF3YS23Afw3Y72MZ7JgjB91WQ+lsal0EAy98wn1ja56rgzf0ITWYs56DK+ALydwYxBL7YSA==
+
+%URL%
+https://metacpan.org/release/AnyEvent
+
+%LICENSE%
+PerlArtistic
+GPL
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765652859
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+perl
+
+%OPTDEPENDS%
+perl-async-interrupt: for fast signal handling
+perl-ev: for the recommended EV event loop backend
+perl-guard: to speed up guards
+perl-json: send or receive JSON with AnyEvent::Handle
+perl-json-xs: send or receive JSON with AnyEvent::Handle
+perl-net-ssleay: TLS/SSL connections with AnyEvent::Handle
+
+%CHECKDEPENDS%
+glib-perl
+perl-async-interrupt
+perl-ev
+perl-net-ssleay
+
