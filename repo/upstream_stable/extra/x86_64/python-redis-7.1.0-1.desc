@@ -1,0 +1,71 @@
+%FILENAME%
+python-redis-7.1.0-1-any.pkg.tar.zst
+
+%NAME%
+python-redis
+
+%BASE%
+python-redis
+
+%VERSION%
+7.1.0-1
+
+%DESC%
+The Python interface to the Redis key-value store
+
+%CSIZE%
+685471
+
+%ISIZE%
+5177421
+
+%SHA256SUM%
+aad161c757b92a965333bc888727bd2b0043235ab93f896bcbce1590f144f903
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaSLfyAAKCRDwXowSExrrXmlUAQCXqxYNwRcHpYc30EHQHaAzc/ZS7ofpRMnCv3x/Gt5eUgD/UTtIGXObDrQq5SuCav87qDBENAGIAI8FdHFDw4noxgk=
+
+%URL%
+https://github.com/redis/redis-py
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1763892856
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-cryptography: OCSP certificate validation
+python-hiredis: faster performance via hiredis
+python-pyopenssl: OCSP certificate validation
+python-requests: OCSP certificate validation
+
+%MAKEDEPENDS%
+git
+python-build
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+python-coverage
+python-cryptography
+python-hiredis
+python-numpy
+python-pyopenssl
+python-pytest
+python-pytest-asyncio
+python-requests
+python-pybreaker
+python-typing_extensions
+valkey
+
