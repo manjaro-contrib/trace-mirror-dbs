@@ -1,0 +1,59 @@
+%FILENAME%
+frei0r-plugins-2.5.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+frei0r-plugins
+
+%BASE%
+frei0r-plugins
+
+%VERSION%
+2.5.1-1
+
+%DESC%
+Collection of video effect plugins
+
+%CSIZE%
+489190
+
+%ISIZE%
+6357235
+
+%SHA256SUM%
+869afcd4ea5eebe8b3dd6ac6e6cddb8f3e1df716ca800e12fb9ef32d43e9a60a
+
+%PGPSIG%
+iQIzBAABCgAdFiEEFORv5f1p8uKH4kTbYyw8wNHJyvYFAmk/9PoACgkQYyw8wNHJyvanTg/+Jdv+9Wz1ItDqO53sJ6i9c+xuM196PyY1O6M3LlGsNB/APRxXSuE8Nmw7BFfd8oOlmJapKcFCbY1z8yzmE/DVyNWDu7A8g9lfaFS9Y/z4q9zxA/87h1dLhm6XDQyMFXbikQGANfzV5nNnBPcuecFsZmvj4G8ir/aXMk4BmAM7hSdOa8Ky1R3rzXW+nz/eZT6UK1kDF6ELVzpjNEmHRUp4wxdTEjJhISG7MGmN+mO7VAanSn+reLDZ2MNegXZthNfoQ18UzmKozQsZzjMe5AAPaNz7iWHEq3dN2iNEdDtb4DryHKxIQTxPVLNGu1Wb1kghG7TWkrVzn5FYkmRfyDtiiQLy+nEG87dG6eRB6Ng3X5q/f9OmguX3j9YyIBYsO0IGy6PI9S3HfrNCX22BpK8q6ur4U0z8fDkdjOxQlBG1UV+iAuqNIRFcOoCGCRkWDw082lraCBJpThCuK/ccoEHhyf3yDlEJ586lcLKAF1Clv2tpuhUjMYLF1gFOll+mtz8+ga+FUuZrBu59TO7Aa77XvoSPjtXmGHTy7ntRg4VvzQHsDPMA0eefsAK2Wx16D228tLCSd8IH5wvhvCjNuK8mgu/ihCKF04t6J0SK4XhdxkDmx+53jz5oQ2cr/oLgbnpsbrS/nijj9NyKHtlcJ+ncQudZEl0d0Q2J/efH+ZDLy5w=
+
+%URL%
+https://frei0r.dyne.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765799039
+
+%PACKAGER%
+Balló György <bgyorgy@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+
+%OPTDEPENDS%
+cairo: cairoaffineblend, cairoblend, cairogradient, cairoimagegrid and mirr0r plugins
+gavl: rgbparade, scale0tilt and vectorscope plugins
+opencv: facebl0r and facedetect plugins
+
+%MAKEDEPENDS%
+cairo
+cmake
+gavl
+git
+ninja
+opencv
+
