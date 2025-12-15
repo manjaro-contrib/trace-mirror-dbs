@@ -1,0 +1,83 @@
+%FILENAME%
+podman-5.7.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+podman
+
+%BASE%
+podman
+
+%VERSION%
+5.7.1-1
+
+%DESC%
+Tool and library for running OCI-based containers in pods
+
+%CSIZE%
+24092151
+
+%ISIZE%
+82395783
+
+%MD5SUM%
+74ed801a4edafbb60a4ccf8fdd047db1
+
+%SHA256SUM%
+bacbbc566839d3ccedcb5662086cf4f07f9492bb517e63bc9970b2a796f02cff
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCaTqacQAKCRCbeih9mi7GCGomAQDWlHnMOgvtAgu6TvmqvKVZ62XzE38IB+ylg4IMckM7SwEAgwx4KYCqBafJeTdJkC58SovFkj7PMZETU764KAi/4gU=
+
+%URL%
+https://github.com/containers/podman
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765447754
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+catatonit
+conmon
+containers-common
+oci-runtime
+gcc-libs
+glibc
+iptables
+gpgme
+libgpgme.so=45-64
+libseccomp
+libseccomp.so=2-64
+passt
+shadow
+sqlite
+
+%OPTDEPENDS%
+apparmor: for AppArmor support
+btrfs-progs: support btrfs backend devices
+fuse-overlayfs: for deprecated storage driver in rootless environment
+slirp4netns: for alternative rootless network support
+podman-compose: for docker-compose compatibility
+podman-docker: for Docker-compatible CLI
+
+%MAKEDEPENDS%
+apparmor
+btrfs-progs
+catatonit
+git
+go
+go-md2man
+gpgme
+libseccomp
+man-db
+shadow
+sqlite
+systemd
+
