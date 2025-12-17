@@ -1,0 +1,78 @@
+%FILENAME%
+vivaldi-7.7.3851.66-1-x86_64.pkg.tar.zst
+
+%NAME%
+vivaldi
+
+%BASE%
+vivaldi
+
+%VERSION%
+7.7.3851.66-1
+
+%DESC%
+An advanced browser made with the power user in mind.
+
+%CSIZE%
+133028867
+
+%ISIZE%
+436924940
+
+%SHA256SUM%
+7d28d61aa27fbbbfc63fe4bf8433ca269b70191b8884282eb4774a673c22d49b
+
+%PGPSIG%
+iHUEABYKAB0WIQRTHs82RKRP6gtH283h488FOUSL/wUCaULIdQAKCRDh488FOUSL/xsSAP4mVNjthhJlKaIc9G9TXdTHUrJE+HpuIbGlVB1KDr0vfgD9H0M5H5N/FQjA1jDn1voH5rWFQeG+F13Lva3BMskW8AA=
+
+%URL%
+https://vivaldi.com
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765984046
+
+%PACKAGER%
+Ike Devolder <ike.devolder@archlinux.org>
+
+%PROVIDES%
+vivaldi-stable
+
+%DEPENDS%
+alsa-lib
+at-spi2-core
+cairo
+libcups
+libxcomposite
+libxdamage
+libxkbcommon
+libxrandr
+libxss
+mesa
+nss
+pango
+ttf-font
+desktop-file-utils
+shared-mime-info
+hicolor-icon-theme
+
+%OPTDEPENDS%
+vivaldi-ffmpeg-codecs: playback of proprietary video/audio
+org.freedesktop.secrets: better secret storage in gnome-keyring or kwallet
+libnotify: native notifications
+pipewire: WebRTC desktop sharing under Wayland
+gtk3: gtk3 integration
+gtk4: for use with --gtk-version=4
+qt5-base: qt5 integration
+qt6-base: qt6 integration
+upower: Battery Status API support
+
+%MAKEDEPENDS%
+w3m
+imagemagick
+
