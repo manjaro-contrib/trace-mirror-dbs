@@ -1,0 +1,97 @@
+%FILENAME%
+python-dask-2025.12.0-2-any.pkg.tar.zst
+
+%NAME%
+python-dask
+
+%BASE%
+python-dask
+
+%VERSION%
+2025.12.0-2
+
+%DESC%
+Parallel computing with task scheduling
+
+%CSIZE%
+3468239
+
+%ISIZE%
+22529257
+
+%SHA256SUM%
+075560af2f76323bd61b20edd1c9fdcd8a67dd417f3e05d11e4c8d56278cfe25
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaURiuAAKCRAAHPSBC+jZEcm8APsF3o+jd02UxODNSJNJ91ph8QyWErAV1ANqTgJKobq0IgD/el1d5v74JQyYcqHBjCS+r/VRB3E4oExk5l+3ATQk8wQ=
+
+%URL%
+https://dask.org
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1766089152
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python
+python-click
+python-cloudpickle
+python-fsspec
+python-packaging
+python-partd
+python-yaml
+python-toolz
+
+%OPTDEPENDS%
+python-distributed: distributed computing
+python-graphviz: graph visualization using the graphviz engine
+python-jinja: HTML representations of Dask objects in Jupyter notebooks
+python-lz4: transparent use of lz4 compression algorithm
+python-matplotlib: color map support for graph visualization
+python-numpy: arrays and dataframes support
+python-pandas: dataframes support
+python-psutil: more accurate CPU count
+python-pyarrow: Apache Arrow, for parquet support
+python-scipy: for dask.array.stats, dask.array.fft, and dask.array.linalg.lu
+python-snappy: snappy compression for reading/writing Avro or Parquet files
+python-sqlalchemy: writing and reading from SQL databases
+python-xarray: N-D labeled arrays and datasets
+python-xxhash: faster hashing of arrays
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+ipython
+python-pytest
+python-pytest-mock
+python-pytest-rerunfailures
+python-pytest-timeout
+python-pytest-xdist
+python-distributed
+python-graphviz
+python-jinja
+python-lz4
+python-matplotlib
+python-numpy
+python-pandas
+python-psutil
+python-pyarrow
+python-scipy
+python-snappy
+python-sqlalchemy
+python-xarray
+python-xxhash
+
