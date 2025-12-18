@@ -1,0 +1,83 @@
+%FILENAME%
+python-httpx-0.28.1-6-any.pkg.tar.zst
+
+%NAME%
+python-httpx
+
+%BASE%
+python-httpx
+
+%VERSION%
+0.28.1-6
+
+%DESC%
+A next generation HTTP client for Python
+
+%CSIZE%
+371190
+
+%ISIZE%
+2744970
+
+%MD5SUM%
+97c7c6d3686b881b8ae8c0da82b9816d
+
+%SHA256SUM%
+5a5b77db2b0e8a131b6f97a3f075d93c66f76772e6a1ea074e9f52f4a7313ec1
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmkyrWQACgkQ/cMEC5Ksp0iniw//QbiB+fcCRYe0gcfhrh01mcY6rJJdL3vx/CyvyJkLEOXzWqJToBaxg/FDk6AVNNYPudblFS4hccHy1UKHw+BdPN4nIZP8hd/Oi0KtOLUzHXrdBitz5Pnh9DcObOC5y25pqyGXrARPrwWKFRYMinBQU8VE8+pGmvXUTuJrU8MYb1Q1jEsjFTOvx2mO7ADdf1osiUqs1BVufyScd0DrcSJ/GMznZ2NYpKu1LPe2tIPH9ZSmOVpwKDY6YPCKPZ5cPi8rqHMABhhCb4SQc29B7dHx9+gLB2rt89+JlfrbZUSFYiRY/qFUk1cNeTx3vfr6lHaHqbrfH0p+O6ho28KEbtFfaK9qHTf+nTTvCEg4/3DRqN1hZhR5W7BVRLqC31Bc52qdJ16LwhAG4+zGTprKrnjs4VZqoJiElh4OSBTKrtrwM00NNMSgda3fMNgGisIL7H3SFHVVslstnG7dxmDT3lwUYAYmXHgyjKP7fhzxr7P3IQmLUG0nG4LYkwpZWwKpMHAEkb2tEyOW/4ef4+Omqya4n1Y5qS4clBetxxgIAXD+DDUxvxh2PrnZuuU+mAt4wZZab4QcxW0D7UFTDyhqPpfo2a86KH9HtR10/KmoUZ3ZUcIULGhHM5L3VSB64WDOPGBsKj42Qur3A7DbZ7u1r5XX07FqvmOUp7e1K9dbwtrmKaw=
+
+%URL%
+https://github.com/encode/httpx
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1764928846
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-certifi
+python-httpcore
+python-idna
+python-anyio
+
+%OPTDEPENDS%
+python-brotli: for brotli response decompression
+python-brotlicffi: for brotli response decompression
+python-zstandard: for zstd response decompression
+python-h2: HTTP/2 support
+python-socksio: SOCKS proxy support
+python-click: command line client support
+python-rich: command line client support
+python-pygments: command line client support
+python-trio: alternative async library
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-hatchling
+python-hatch-fancy-pypi-readme
+python-pygments
+
+%CHECKDEPENDS%
+python-pytest-asyncio
+python-pytest-trio
+python-brotli
+python-brotlicffi
+python-h2
+python-trustme
+uvicorn
+python-socksio
+python-rich
+python-chardet
+python-zstandard
+
