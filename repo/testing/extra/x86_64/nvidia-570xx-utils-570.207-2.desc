@@ -1,0 +1,70 @@
+%FILENAME%
+nvidia-570xx-utils-570.207-2-x86_64.pkg.tar.zst
+
+%NAME%
+nvidia-570xx-utils
+
+%BASE%
+nvidia-570xx-utils
+
+%VERSION%
+570.207-2
+
+%DESC%
+NVIDIA 570xx drivers utilities
+
+%CSIZE%
+331489295
+
+%ISIZE%
+828807115
+
+%MD5SUM%
+749a546e3f759367274a20576b6afef8
+
+%SHA256SUM%
+2cd4f9e1110664160a654edc285ea2528bb11d425d1afc05a2b29681318e0310
+
+%PGPSIG%
+iQEzBAABCgAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmlESUwACgkQFQwgB0PtRti9iAf8CcsHBYIgRC2Wexx80PXpTvP+CzZAglWRuNUZauWee0+12k9I3F0mJ2hKvSK9JXJ2kGlsioPmAKuljJMchJqCBGsdsweVRf8aSBDTgW+9u0j0SsHh6z4Pt5efQlmqIy3l46aemW8tJf8HG1lyXn3zd1BOoe8TseDy0wZiIsm9j0e1B+OP2UzlI99o1aS35o6P5zjz+50gVxmq6mr5TksOXcuvj386IqG3kwZ5TtSswboVEw8krBL8jV/VsUtabo0s01xQeTV53o8s5EbyodKuUV/1dkOtbaQCW1xKT6LCxMoH/SgjiBLJdSfQkcKk9ECeslxkyzsShh55iIlDvP4jIA==
+
+%URL%
+http://www.nvidia.com/
+
+%LICENSE%
+LicenseRef-custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1766082732
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%CONFLICTS%
+nvidia-libgl
+nvidia-utils
+
+%PROVIDES%
+vulkan-driver
+opengl-driver
+nvidia-libgl
+nvidia-utils=570.207
+
+%DEPENDS%
+libglvnd
+egl-wayland
+egl-gbm
+egl-x11
+
+%OPTDEPENDS%
+nvidia-570xx-settings: configuration tool
+xorg-server: Xorg support
+xorg-server-devel: nvidia-xconfig
+opencl-nvidia-570xx=570.207: OpenCL support
+
+%MAKEDEPENDS%
+desktop-file-utils
+
