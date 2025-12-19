@@ -1,5 +1,5 @@
 %FILENAME%
-systemd-258.3-1-x86_64.pkg.tar.zst
+systemd-259-1-x86_64.pkg.tar.zst
 
 %NAME%
 systemd
@@ -8,22 +8,22 @@ systemd
 systemd
 
 %VERSION%
-258.3-1
+259-1
 
 %DESC%
 system and service manager
 
 %CSIZE%
-9684147
+9833106
 
 %ISIZE%
-37108500
+37657259
 
 %SHA256SUM%
-a0eeb354746faed18950d1d015449ec42a9ba5e8994fcb7e7366b01a237b5afe
+c33a21dd56b9fcb4c65513b7e5bd46097df9593c7108ed4e9d7287316a499f3a
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaTwnKAAKCRBtQr3RFuAGjzRpAQDqR2+2nZuHbdf+73oafp064BWYv7IJC7qxRx43BZk7ogEAgkB+qR/17RxH70GFLJqaEaZFuLlvZlPJl7rF2ujhnwY=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaUOgKQAKCRBtQr3RFuAGj7TcAP9tWLb9+6uKazJuBUcPjf43clUB7L1eEGayhqKNNcqqkAD/cFa5l6pqTbJU7BcRYs1VoJnxjZLLpSshk39Zy6QzqgI=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -38,7 +38,7 @@ MIT-0
 x86_64
 
 %BUILDDATE%
-1765549570
+1766039267
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
@@ -55,13 +55,12 @@ udev
 
 %PROVIDES%
 nss-myhostname
-systemd-tools=258.3
-udev=258.3
+systemd-tools=259
+udev=259
 
 %DEPENDS%
-systemd-libs=258.3
+systemd-libs=259
 acl
-libacl.so=1-64
 bash
 cryptsetup
 libcryptsetup.so=12-64
@@ -71,7 +70,6 @@ kbd
 kmod
 hwdata
 libcap
-libcap.so=2-64
 libgcrypt
 libxcrypt
 libcrypt.so=2-64
@@ -80,14 +78,10 @@ lz4
 pam
 libelf
 libseccomp
-libseccomp.so=2-64
 util-linux
-libblkid.so=1-64
-libmount.so=1-64
 xz
 pcre2
 audit
-libaudit.so=1-64
 openssl
 libcrypto.so=3-64
 libssl.so=3-64

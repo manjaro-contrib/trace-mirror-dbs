@@ -1,54 +1,66 @@
 %FILENAME%
-systemd-resolvconf-258.3-1-x86_64.pkg.tar.zst
+systemd-libs-259-1-x86_64.pkg.tar.zst
 
 %NAME%
-systemd-resolvconf
+systemd-libs
 
 %BASE%
 systemd
 
 %VERSION%
-258.3-1
+259-1
 
 %DESC%
-systemd resolvconf replacement (for use with systemd-resolved)
+systemd client libraries
 
 %CSIZE%
-3321
+1306720
 
 %ISIZE%
-0
+3363512
 
 %SHA256SUM%
-28b02d612a2072c8b8f94e60878d1be0fcfed9e57893b21390e49bf842209f02
+d887a73191cee72f0c2f218588a231242f3d54b70dcbe3921e540a017c7532b0
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaTwnKQAKCRBtQr3RFuAGjx+XAQCA/zT+WSg0gDZu0YGR7IyH8/dDjokW4usiKNF6WtMxWwD/dz0iAlaDHf4cD1iq8QNCZL5Hl3EJEhsEluBgAGYjBwc=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaUOgKQAKCRBtQr3RFuAGj0w7AQCyI+pBp6IC0Wvs/4uppp+eCqyRo/Evamgm+4oOBewbswD/aZo2qpSz0PQIf8KULepIcWBEGNMvw1+L1pzX/62T4wE=
 
 %URL%
 https://www.github.com/systemd/systemd
 
 %LICENSE%
 LGPL-2.1-or-later
+CC0-1.0
+GPL-2.0-or-later WITH Linux-syscall-note
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1765549570
+1766039267
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
 
+%REPLACES%
+libsystemd
+
 %CONFLICTS%
-resolvconf
+libsystemd
 
 %PROVIDES%
-openresolv
-resolvconf
+libsystemd
+libsystemd.so=0-64
+libudev.so=1-64
 
 %DEPENDS%
-systemd=258.3
+glibc
+gcc-libs
+libcap
+libgcrypt
+lz4
+xz
+zstd
 
 %MAKEDEPENDS%
 acl
