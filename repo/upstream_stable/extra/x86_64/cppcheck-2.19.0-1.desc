@@ -1,0 +1,63 @@
+%FILENAME%
+cppcheck-2.19.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+cppcheck
+
+%BASE%
+cppcheck
+
+%VERSION%
+2.19.0-1
+
+%DESC%
+A tool for static C/C++ code analysis
+
+%CSIZE%
+3995662
+
+%ISIZE%
+17228462
+
+%SHA256SUM%
+9a44d196b9ec3c342de048051db162b9101da011f1ddf2a02dcb5779379927c1
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaUi8OwAKCRDglZ/qi1UFOa3LAQCSbKuCMttvGBD6e69O4owQ1o4pPEnFfvEa0WRvD9KPYQD/XJ5ev3w0WaVMeJAH4Xn0mui+5BnBh6Cwk5Ifuao7gwQ=
+
+%URL%
+http://cppcheck.sourceforge.net/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1766373609
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+python-pygments
+tinyxml2
+pcre
+
+%OPTDEPENDS%
+qt6-tools: run cppcheck-gui
+python-pygments: cppcheck-htmlreport
+clang: for cppcheck-gui integration
+
+%MAKEDEPENDS%
+git
+docbook-xsl
+qt6-tools
+qt6-base
+qt6-declarative
+python
+pandoc
+cmake
+clang
+
