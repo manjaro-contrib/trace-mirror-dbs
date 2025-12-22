@@ -1,0 +1,72 @@
+%FILENAME%
+enchant-2.8.14-1-x86_64.pkg.tar.zst
+
+%NAME%
+enchant
+
+%BASE%
+enchant
+
+%VERSION%
+2.8.14-1
+
+%DESC%
+A wrapper library for generic spell checking
+
+%CSIZE%
+78368
+
+%ISIZE%
+285571
+
+%MD5SUM%
+9e49f4f9ad08cce2f7b784e4c5a84a63
+
+%SHA256SUM%
+c6763494121f8f493c87ada9d98cd6b250398df64f321d670558b3c390041144
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCaUNF4gAKCRC4rAhgDxCM39yUAQCn2CIk/vj/SNDUC3hI1lIEL/zRd7rUkLPnzLZ9azotdgD/Y9a9G3JfreFb4+9VeFqO+UNOkrZ8HBoCTvFkc4ysrwA=
+
+%URL%
+https://rrthomas.github.io/enchant/
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1766016321
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%PROVIDES%
+libenchant-2.so=2-64
+
+%DEPENDS%
+gcc-libs
+glib2
+glibc
+
+%OPTDEPENDS%
+aspell: for aspell based spell checking support
+hspell: for hspell based spell checking support
+hunspell: for hunspell based spell checking support
+libvoikko: for libvoikko based spell checking support
+nuspell: for nuspell based spell checking support
+
+%MAKEDEPENDS%
+aspell
+git
+hspell
+hunspell
+libvoikko
+nuspell
+vala
+
+%CHECKDEPENDS%
+unittestpp
+
