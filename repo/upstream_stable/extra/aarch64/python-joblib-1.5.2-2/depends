@@ -1,0 +1,9 @@
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-distributed: for dask parallel backend
+python-lz4: for compressed serialization
+python-numpy: for array manipulation
+python-psutil: to mitigate memory leaks in worker processes
+
