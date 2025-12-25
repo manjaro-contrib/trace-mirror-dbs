@@ -1,0 +1,105 @@
+%FILENAME%
+cinnamon-6.6.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+cinnamon
+
+%BASE%
+cinnamon
+
+%VERSION%
+6.6.3-1
+
+%DESC%
+Linux desktop which provides advanced innovative features and a traditional user experience
+
+%CSIZE%
+1936273
+
+%ISIZE%
+10365951
+
+%SHA256SUM%
+ae91737824d6ccf1f02459378387cf7ce305d87312dbf274bd351d98db419773
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmlM6RYACgkQek52CV2KUuQ6Egf9EPgkBqpXlOIbZLU/ehfwS8Vf1GMG+cLNs1YqUU3tixiub/bn2WS0MaYFfyD73oKRN78GlVciJfeE+yNF9osPqw++G/ssfWGCtBa6vVKsowqBUuv59FVP4YqNh4EmYrOUpv3jRpTeMfThG2xrUkLPYq0PL8/GI/wPOQBIcl+5pqt1/0EnFDZFEkoifhRhATedA5JNx13aba/LokzXACkJ2N5fzeGAGC9NQ1QkGDZ/OExpbEsjwU2i/pd5U6R0gTbnGBeR5QUroHDZPYB3n2XFLaAfad2yWsvAgoGFM/qr0s9CJqwrwLx/pY3suyuPgLhcUk26vKXHPT60u4NSV200yQ==
+
+%URL%
+https://github.com/linuxmint/cinnamon
+
+%LICENSE%
+GPL2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1766648026
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%CONFLICTS%
+caribou<=0.4.21+75+g8ad9883-8
+
+%DEPENDS%
+accountsservice
+cinnamon-control-center
+cinnamon-desktop
+cinnamon-menus
+cinnamon-screensaver
+cinnamon-session
+cinnamon-settings-daemon
+cjs
+gcr
+gdk-pixbuf2
+glib2
+gnome-backgrounds
+gsound
+gstreamer
+gtk3
+libibus
+libgnomekbd
+libkeybinder3
+librsvg
+muffin
+network-manager-applet
+nemo
+pango
+polkit-gnome
+python
+python-cairo
+python-dbus
+python-gobject
+python-pam
+python-pexpect
+python-pillow
+python-pyinotify
+python-pytz
+python-tinycss2
+python-xapp
+python-requests
+timezonemap
+xapp
+xdg-desktop-portal-xapp
+
+%OPTDEPENDS%
+blueman: Bluetooth support
+cinnamon-translations: i18n
+gnome-panel: fallback mode
+metacity: fallback mode
+system-config-printer: printer settings
+wget: cover download support in audio applet
+gnome-terminal: X terminal emulator
+touchegg: touch gestures
+switcheroo-control: GPU offloading
+
+%MAKEDEPENDS%
+git
+meson
+gobject-introspection
+intltool
+glib2-devel
+python-libsass
+
