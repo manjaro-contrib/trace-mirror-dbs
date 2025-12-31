@@ -1,0 +1,114 @@
+%FILENAME%
+qtile-0.34.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+qtile
+
+%BASE%
+qtile
+
+%VERSION%
+0.34.1-1
+
+%DESC%
+A full-featured, pure-Python tiling window manager
+
+%CSIZE%
+1081480
+
+%ISIZE%
+6517919
+
+%SHA256SUM%
+3cba1cff0e6a9eb860d4701d5773e9d65f7741b9739df723033d514079a944e5
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCaUXn3AAKCRCbeih9mi7GCCnnAP9UVFgKi5Q6rR1U2KfdFBg309jHhQw8feh9LABwtDZh+gD+OUXr+y6b4FS5SsZ2QWlYbMKu25lEVX5kpW2gJIjrmwA=
+
+%URL%
+https://qtile.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1766187800
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+cairo
+gdk-pixbuf2
+glibc
+libinput
+libnotify
+librsvg
+pango
+python
+python-cairocffi
+python-cffi
+python-gobject
+python-xcffib
+wayland
+wlroots0.19
+
+%OPTDEPENDS%
+alsa-utils: for volume widget
+canto-daemon: for canto widget
+cmus: for cmus widget
+jupyter_console: for interaction with qtile via Jupyter
+khal: for khal_calendar widget
+libpulse: for pulse_volume and pulseaudio_ffi widget
+lm_sensors: for sensors widget
+moc: for moc widget
+python-aiohttp: for generic poll text widget
+python-bowler: for migrating configuration files
+python-dbus-fast: for utils, notifications and several widgets
+python-isort: for migrating configuration files
+python-iwlib: for wlan widget
+python-keyring: for imapwidget widget
+python-libcst: for migrations
+python-mpd2: mpd2widget widget
+python-prompt_toolkit: for repl script
+python-psutil: graph, net and memory widget
+python-pytz: clock widget
+python-setproctitle: change process name to qtile
+python-xdg: launchbar widget
+xorg-xwayland: for XWayland support
+
+%MAKEDEPENDS%
+git
+libpulse
+python-build
+python-installer
+python-setuptools-scm
+python-wheel
+wayland-protocols
+
+%CHECKDEPENDS%
+graphviz
+gtk3
+imagemagick
+lm_sensors
+procps-ng
+python-aiohttp
+python-anyio
+python-bowler
+python-dbus-fast
+python-gobject
+python-isort
+python-libcst
+python-pytest
+python-pytest-asyncio
+python-pytest-httpbin
+python-xdg
+xorg-server-xephyr
+xorg-server-xvfb
+xorg-xrandr
+xorg-xwayland
+xterm
+
