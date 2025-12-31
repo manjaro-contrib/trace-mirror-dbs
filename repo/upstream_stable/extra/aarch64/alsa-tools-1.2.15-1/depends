@@ -1,0 +1,19 @@
+%DEPENDS%
+gcc-libs
+glibc
+hicolor-icon-theme
+alsa-lib
+libasound.so=2-64
+
+%PROVIDES%
+alsa-tools-emu10k1
+alsa-tools-ice1712
+liblo10k1.so=0-64
+
+%OPTDEPENDS%
+fltk: for hdspconf, hdspmixer
+gtk3: for hdajackretask and hwmixvolume
+gtk4: for envy24control
+python-pyalsa: for hwmixvolume
+python-gobject: for hwmixvolume
+
