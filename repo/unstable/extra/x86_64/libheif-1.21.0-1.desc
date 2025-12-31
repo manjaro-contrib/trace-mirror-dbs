@@ -1,0 +1,78 @@
+%FILENAME%
+libheif-1.21.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+libheif
+
+%BASE%
+libheif
+
+%VERSION%
+1.21.0-1
+
+%DESC%
+An HEIF and AVIF file format decoder and encoder
+
+%CSIZE%
+735167
+
+%ISIZE%
+2386308
+
+%MD5SUM%
+6c21e9193f2bb7fa1bbc408a673b9f7d
+
+%SHA256SUM%
+dfae6e771427b8e64b4db7771405d84ddebf0c36fd3cf5a9a67aee2a7c9ddf59
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaVLRLwAKCRBtQr3RFuAGj2PJAQDIwR0QAoECkhc7nkfzpXsjfgVWBFCmTneHsW4yMChq6QEAjHYaRAO8bQ8UMkaS/1ubG7eqq9vBZE409YnQpY2tIQE=
+
+%URL%
+https://github.com/strukturag/libheif
+
+%LICENSE%
+LGPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1767035096
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%PROVIDES%
+libheif.so=1-64
+
+%DEPENDS%
+aom
+gcc-libs
+glibc
+libde265
+libwebp
+openh264
+x265
+
+%OPTDEPENDS%
+libjpeg-turbo: for heif-convert and heif-enc
+libpng: for heif-convert and heif-enc
+dav1d: dav1d encoder
+ffmpeg: hardware decode
+openjpeg2: JPEG2000 decoder
+rav1e: rav1e encoder
+svt-av1: svt-av1 encoder
+
+%MAKEDEPENDS%
+cmake
+dav1d
+ffmpeg
+git
+libjpeg-turbo
+libpng
+libtiff
+openjpeg2
+rav1e
+svt-av1
+
