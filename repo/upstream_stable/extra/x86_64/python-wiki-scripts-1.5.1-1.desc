@@ -1,0 +1,71 @@
+%FILENAME%
+python-wiki-scripts-1.5.1-1-any.pkg.tar.zst
+
+%NAME%
+python-wiki-scripts
+
+%BASE%
+python-wiki-scripts
+
+%VERSION%
+1.5.1-1
+
+%DESC%
+Framework for writing bots, maintenance scripts or performing data analysis on wikis powered by MediaWiki
+
+%CSIZE%
+398461
+
+%ISIZE%
+2347856
+
+%SHA256SUM%
+cd6abc9cd9bc0fd1cdfd9b6e73c20046fb68234724738a1e0cd9226f96116f91
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaVgmBwAKCRAAHPSBC+jZER2CAP0QeZ91Svqv5/74/c+MmjDKNv+JnsCLI5IVbFIg3ptzPgEAxRlaDPHxz9rK5vDo/eiow46xtvw4KIEZ3oAlWGh8Mgg=
+
+%URL%
+https://github.com/lahwaacz/wiki-scripts
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1767384492
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python
+python-httpx
+python-httpx-retries
+python-truststore
+python-jinja
+python-mwparserfromhell
+
+%OPTDEPENDS%
+python-colorlog: colors in logging output
+python-sqlalchemy: for the ws.db module
+python-alembic: for the ws.db module
+python-psycopg: for the ws.db module
+python-asyncpg: for the ws.db module
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+
+%CHECKDEPENDS%
+python-alembic
+python-dotenv
+python-pytest
+python-pytest-bdd
+python-pytest-mock
+python-pytest-httpx
+python-sqlalchemy
+
