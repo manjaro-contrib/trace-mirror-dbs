@@ -1,0 +1,76 @@
+%FILENAME%
+libheif-1.21.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+libheif
+
+%BASE%
+libheif
+
+%VERSION%
+1.21.1-2
+
+%DESC%
+An HEIF and AVIF file format decoder and encoder
+
+%CSIZE%
+735959
+
+%ISIZE%
+2398604
+
+%SHA256SUM%
+3e156bbe7f95c72ccaaa02ddde7e565f8a40d4e10f085be831c0aaf6b5551a79
+
+%PGPSIG%
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCaVlY3F8UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCqFHAQDBNZ9QxxbOiBzDv4ZSZLBAh4I/jcsnVkE3qUx9gUkL0wD/cq+UEBAl2gwo8WlYbrM05Q/fCOstOxsiDLsh+poW9A0=
+
+%URL%
+https://github.com/strukturag/libheif
+
+%LICENSE%
+LGPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1767463067
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%PROVIDES%
+libheif.so=1-64
+
+%DEPENDS%
+aom
+gcc-libs
+glibc
+libde265
+libwebp
+openh264
+x264
+x265
+
+%OPTDEPENDS%
+libjpeg-turbo: for heif-convert and heif-enc
+libpng: for heif-convert and heif-enc
+dav1d: dav1d encoder
+ffmpeg: hardware decode
+openjpeg2: JPEG2000 decoder
+rav1e: rav1e encoder
+svt-av1: svt-av1 encoder
+
+%MAKEDEPENDS%
+cmake
+dav1d
+ffmpeg
+git
+libjpeg-turbo
+libpng
+libtiff
+openjpeg2
+rav1e
+svt-av1
+
