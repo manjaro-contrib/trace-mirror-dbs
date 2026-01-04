@@ -1,0 +1,88 @@
+%FILENAME%
+fastfetch-2.56.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+fastfetch
+
+%BASE%
+fastfetch
+
+%VERSION%
+2.56.1-1
+
+%DESC%
+A feature-rich and performance oriented neofetch like system information tool
+
+%CSIZE%
+528542
+
+%ISIZE%
+1661713
+
+%MD5SUM%
+459ba797810298b61980f7e152b7f3f7
+
+%SHA256SUM%
+ed1892ab174be3657d8d97e6d4e6cd7deb7a63e8f794fa700491d9d4912a358e
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmlEPYUACgkQ/cMEC5Ksp0h1wRAArWLtEXkhKv8DAIPoSfoVgHuLebxb51yYd/nc57FTM5PxvZJVaeWTTVFh0FcWKuiuvREC3BAJSfk/5nsa6wxvEOeFVhCI3uosUUZicf+higAFGhcNjoQLq17oD7kR1QY1EtMbPjy3gQ0t84JNd+sBjYBXMWhR6eR/S2Y6zlzlO9mrHS3qfwvJUEc9lZ/y173g7alNhSIOjs/6Iea7UxUFQa3GiDOdQdMOQlDe2lFgWsBoeic64jTs9EaDgtINa4l84RUY1r16x8aUXggEpOif4MlMBVrCTxHwZRbDgY+934zFW/N/HgIa7ApKJnLcwKdhpkqnS/N+6yrvESnejFF36tOGc4VTsOuWYBKcK3AeR79Xrjw8SWURvjc1PoLCTcewVj4890L0+YtpTIKwoqATOEmE6F9xLCFUDeumqe0qEyWgFmN00vjcZrXcHGLqZ7wH4f7xolAPqeXGiZApRFXaMY+UQ6yyiTBIDB3BxmFNqJz0qULG9oWiC1SZ4s9FJZ08ZMPkeeFhLY6eCN0VcoTPe6xIGviTNgTs/yl05OPJ0gBbkrfs5f6aqyb1PHe520nVkbwB2SxMNP3Vnd7kFjldi/xnXRCRChgQbW+I2TWCyfoPuMmrYflydvrWyZiAXw0zXCOs8TyFakW4il77LDEhXog+bDv/fWjtPi2cNcf8Gnw=
+
+%URL%
+https://github.com/fastfetch-cli/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1766079775
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+glibc
+yyjson
+
+%OPTDEPENDS%
+chafa: Image output as ascii art
+dbus: Bluetooth, Player & Media detection
+dconf: Needed for values that are only stored in DConf + Fallback for GSettings
+ddcutil: Brightness detection of external displays
+directx-headers: GPU detection in WSL
+glib2: Output for values that are only stored in GSettings
+hwdata: GPU output
+imagemagick: Image output using sixel or kitty graphics protocol
+libdrm: Displays detection
+libelf: st term font detection and fast path of systemd version detection
+libpulse: Sound detection
+libxrandr: Multi monitor support
+ocl-icd: OpenCL module
+python: Needed for zsh and fish completions
+sqlite: Needed for Sqlite integration and Soar packages count
+vulkan-icd-loader: Vulkan module & fallback for GPU output
+zlib: Faster image output when using kitty graphics protocol
+
+%MAKEDEPENDS%
+chafa
+cmake
+dbus
+dconf
+ddcutil
+directx-headers
+imagemagick
+libpulse
+libxcb
+libxrandr
+ocl-icd
+opencl-headers
+sqlite
+vulkan-headers
+vulkan-icd-loader
+wayland
+xfconf
+zlib
+
