@@ -1,0 +1,67 @@
+%FILENAME%
+3cpio-0.13.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+3cpio
+
+%BASE%
+3cpio
+
+%VERSION%
+0.13.0-2
+
+%DESC%
+Manage Linux kernel initramfs cpio files written in Rust
+
+%CSIZE%
+265997
+
+%ISIZE%
+628294
+
+%SHA256SUM%
+9089506edf10530ccad85f20f96e596f0aedb986f2831cdf641b6e637f92b001
+
+%PGPSIG%
+iQEzBAABCgAdFiEEW34/txt/EDKaHAOrdx32Yn7faB8FAmlat6sACgkQdx32Yn7faB+WPAf+JzFvQitxIbdkCreL12RjrG3JkG/q8SqPW1WWvrsGB9EVFKARX2sGu7rgkyd96V3c3yCnyoNV+LxpNPSbGfJveBA0xViTr6uSn/I846EbpXuaoOgrDm3/DCwEcQh42I0MpBJrEdGgidD2RNpfShHs87CmCGjbiQv5Di3WdYUmIEBrZe7v03v7XQaWprhtzlMiPHkehiveMZmA+g8KAh0w/3eUJrrMO6nxVteEQ+l32/vGYMjTiN5RXCrxbUtRRDqcDc+benlv+7R+QJklAE1PuIub9q1HYCezXAA/DSqwFuw6bYxctGf+CaWP8hiRSS/433/En3t3aDq6PnrIIdD0Kg==
+
+%URL%
+https://github.com/bdrung/3cpio
+
+%LICENSE%
+ISC
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1767552844
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%DEPENDS%
+glibc
+gcc-libs
+
+%OPTDEPENDS%
+bzip2: Support for bzip2 compressed initramfs image
+lz4: Support for lz4 compressed initramfs image
+lzop: Support for lzo compressed initramfs image
+pigz: Support for gzip compressed initramfs image
+xz: Support for lzma or xz compressed initramfs image
+zstd: Support for zstd compressed initramfs image
+
+%MAKEDEPENDS%
+asciidoctor
+git
+rust
+
+%CHECKDEPENDS%
+bzip2
+pigz
+lz4
+lzop
+xz
+zstd
+
