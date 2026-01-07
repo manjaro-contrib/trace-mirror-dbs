@@ -1,0 +1,106 @@
+%FILENAME%
+gvfs-1.58.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+gvfs
+
+%BASE%
+gvfs
+
+%VERSION%
+1.58.0-2
+
+%DESC%
+Virtual filesystem implementation for GIO
+
+%GROUPS%
+gnome
+
+%CSIZE%
+972722
+
+%ISIZE%
+5346759
+
+%MD5SUM%
+58b08ca8de8178c538e2964886b4424a
+
+%SHA256SUM%
+943bdeffd1b130c7f00197bd2da2cdef9fd13f5be7717b2b05e84a8eb3acb9eb
+
+%PGPSIG%
+iQIzBAABCgAdFiEELjbYYgIhSC/EXLfyqRdkdZMmtEAFAmjURk8ACgkQqRdkdZMmtEBnoQ//WH+5wUurKwnB0wA2+H57S00xDYFUvqiUsIgb2zOSA/7tzDqlNncvkxW6HLacrlAcRhN84qUAFtJIckkw2dMr0lP0wr52viTL10/fSk7E4dd0fca36xtePXJgmLn6tCfviVUAZfYuabiqgyXyF/9EZf4r1TbqnWMK6RMZulGT88Giz+j9jNPJv+a3h7vNRj1j6/oY7Hx/B+dDzZh0AxROyLDbBcKtSQS16f6X0VM4Q27aB/XjwlMXicWqJEmd0VMJpq2MLUN82h9zfl/ujLn7QHWQSDItR1UspHu7qVS6NNmicGuBAaSl1SRRA0a0l4SmUvE8atNX1+PEWWeZdofnCduce6VpVrWFGaUqXz0fq07LvjUMM3B4W+X0nvPgg8VjdpdkBGZhyG/8iK5q2/1kPNh9c4FLzYHpgyZCBHNIXPaBytYMneWrYp5eoo7H24zWFAYN3Z17Lz79kbX0LJ92c2X4sA5ApPLTBqjRDG38+kjvhBU/7XI5/S2D1pYCduTPIcOW9d/TvuSIFxoK0hFdne1qnJ5s2deEWVej3dFdN3xNhUqNYYZPSXnyk5U3Y0oO9qsWaQm1/lp2HRv6LlcC82fBV+hYko6U6ZehSC4pSR5+mvLr8H5CDseBfSQ6nz+ewlYBOHtWKRQxQruvdP+u5F3mXEoipIZfIYO6LjPek/8=
+
+%URL%
+https://gitlab.gnome.org/GNOME/gvfs
+
+%LICENSE%
+LGPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1758742016
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%REPLACES%
+gvfs-afp
+gvfs-obexftp
+
+%DEPENDS%
+dconf
+fuse3
+gcc-libs
+gcr-4
+glib2
+glibc
+gsettings-desktop-schemas
+libarchive
+libbluray
+libcdio
+libcdio-paranoia
+libgcrypt
+libgudev
+libsecret
+libsoup3
+polkit
+procps-ng
+systemd
+systemd-libs
+udisks2
+
+%OPTDEPENDS%
+gvfs-afc: AFC support (Apple mobile devices)
+gvfs-dnssd: DNS-SD and WebDAV support (macOS file sharing)
+gvfs-goa: Gnome Online Accounts support (e.g. OwnCloud)
+gvfs-google: Google Drive support
+gvfs-gphoto2: gphoto2 support (PTP camera, MTP media player)
+gvfs-mtp: MTP support (Android, media player)
+gvfs-nfs: NFS support
+gvfs-onedrive: Microsoft OneDrive support
+gvfs-smb: SMB/CIFS support (Windows file sharing)
+gvfs-wsdd: Web Services Dynamic Discovery support (Windows discovery)
+
+%MAKEDEPENDS%
+avahi
+dbus
+docbook-xsl
+git
+glib2-devel
+libgdata
+libgoa
+libgphoto2
+libimobiledevice
+libmtp
+libnfs
+libxml2
+meson
+msgraph
+openssh
+python
+smbclient
+wsdd
+
