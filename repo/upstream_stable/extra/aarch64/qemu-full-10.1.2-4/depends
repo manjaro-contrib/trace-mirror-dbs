@@ -1,0 +1,27 @@
+%DEPENDS%
+qemu-audio-alsa=10.1.2-4
+qemu-audio-dbus=10.1.2-4
+qemu-audio-jack=10.1.2-4
+qemu-audio-oss=10.1.2-4
+qemu-audio-pa=10.1.2-4
+qemu-audio-sdl=10.1.2-4
+qemu-audio-spice=10.1.2-4
+qemu-block-gluster=10.1.2-4
+qemu-block-iscsi=10.1.2-4
+qemu-chardev-baum=10.1.2-4
+qemu-desktop=10.1.2-4
+qemu-docs=10.1.2-4
+qemu-emulators-full=10.1.2-4
+qemu-hw-s390x-virtio-gpu-ccw=10.1.2-4
+qemu-pr-helper=10.1.2-4
+qemu-tests=10.1.2-4
+qemu-tools=10.1.2-4
+qemu-user=10.1.2-4
+
+%PROVIDES%
+qemu=10.1.2
+
+%OPTDEPENDS%
+qemu-user-static: for static user mode emulation of QEMU targets
+samba: for SMB/CIFS server support
+
