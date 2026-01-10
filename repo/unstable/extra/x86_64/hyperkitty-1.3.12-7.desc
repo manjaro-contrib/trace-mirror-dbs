@@ -1,0 +1,90 @@
+%FILENAME%
+hyperkitty-1.3.12-7-any.pkg.tar.zst
+
+%NAME%
+hyperkitty
+
+%BASE%
+hyperkitty
+
+%VERSION%
+1.3.12-7
+
+%DESC%
+A web interface to access GNU Mailman v3 archives
+
+%CSIZE%
+1812499
+
+%ISIZE%
+9818381
+
+%MD5SUM%
+621644118d05fdaa6ef97a1f157fe9fc
+
+%SHA256SUM%
+dbefe194cb9b2d3d7f78d78a9551e6ebe977d92a994e6aa760129a5ee8947125
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmlOiJcACgkQek52CV2KUuTmAAgAlne4geCoQq1byPH8bHRR60CHTaCitkK9nfwcbjCff5Z08M0Gupk20wzWwXBdphoqu+p4KWdm+cfYJs76bWrcj8JiFGs+Ei1R7DAO8fhkqtMIAKwIV/myPJTk8b8n1ivmQE9AmdpowDFGj3BOQVlWZy/HmSytPrGmUsaCFPvfPMueFMHy/SO9m7kks/qz2t0RGDkVWXP5ApLSnh9lXX/ZCZAMg29R47dtyRBkmOa/Vud1oE5NjAGTOH/NfIALUecr3fOkZwpRwRNyIYQWllR58lzwyGQkRQXS03Y6TmZBTgJ5zA/6MtsTm0L9A3QPfqG1WVHdUm97E29gdmVpnY0WbQ==
+
+%URL%
+https://gitlab.com/mailman/hyperkitty
+
+%LICENSE%
+0BSD
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1766754242
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python
+python-dateutil
+python-django
+python-django-allauth
+python-django-compressor
+python-django-extensions
+python-django-gravatar
+python-django-haystack
+python-django-mailman3
+python-django-q2
+python-django-rest-framework
+python-flufl-lock
+python-mailmanclient
+python-mistune
+python-networkx
+python-robot-detection
+sassc
+
+%OPTDEPENDS%
+dart-sass: alternative to sassc
+python-django-debug-toolbar: for debugging
+python-elasticsearch: for using elasticsearch as search backend
+python-whoosh: for using whoosh as search backend
+python-xapian-haystack: for using xapian as search backend
+uwsgi-plugin-python: for running inside uwsgi
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-isort
+python-pdm-backend
+
+%CHECKDEPENDS%
+python-beautifulsoup4
+python-django-debug-toolbar
+python-elasticsearch
+python-lxml
+python-html5lib
+python-pytest
+python-pytest-django
+python-whoosh
+

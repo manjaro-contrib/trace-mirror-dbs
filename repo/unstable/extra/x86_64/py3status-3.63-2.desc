@@ -1,0 +1,72 @@
+%FILENAME%
+py3status-3.63-2-any.pkg.tar.zst
+
+%NAME%
+py3status
+
+%BASE%
+py3status
+
+%VERSION%
+3.63-2
+
+%DESC%
+An extensible i3status replacement/wrapper written in python
+
+%CSIZE%
+653030
+
+%ISIZE%
+4102668
+
+%MD5SUM%
+bfb706f889ba60cb63d1f8ed71b4e0ed
+
+%SHA256SUM%
+85ba6b8a533b39967b31e67894d8a1de77cd5f2393e7dcc056aee4042cfbe27c
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmk+ypAACgkQwGCGM3xQdz5YFggAlAwSvHxD9fdNl05S5MBW3u56OunvuF3xVYlcqPPLzRQwMc3mtIEm6xGyNXT+e+G5nF9fYwDLCMB6PaK283X11jKfvjaDD2orvK/S06+3n1ax3Q4EACPdAw5OwC4gbwqehDz4MBwgLCEdhGmlJ+GxZkBFwqFORekQuvKmZbXGDbIIrfp9BdKY1nEm/P+LjU+H/lrne0tx9aqxTzzMRFVc2IuzGy7KVAHzzGuJcyKNqQ+MyG/3x24pgHrtK+5wQGBZhEkrAgVbZ69mrOcn5WMD4hqYWO5WSrPPlVmG2fG4mxkp8PQmzu4INGRTb1FGTtD6uvi/x4M20o6MRnRWAyT9GA==
+
+%URL%
+https://ultrabug.github.io/py3status/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765722754
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-setuptools
+glib2
+
+%OPTDEPENDS%
+i3status: for i3status modules
+i3blocks: for i3blocks modules
+iw: for the wifi module
+playerctl: for the playerctl module
+python-gobject: needed for the playerctl module
+python-mpris2: for the mpris module
+python-pyudev: for udev event monitoring
+python-dbus: for modules that rely on D-Bus
+python-pytz: for the clock module
+python-tzlocal: for the clock module
+pacman-contrib: for the arch_updates module
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-hatchling
+
+%CHECKDEPENDS%
+python-pytest
+

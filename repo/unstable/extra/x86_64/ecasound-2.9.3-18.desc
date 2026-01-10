@@ -1,0 +1,101 @@
+%FILENAME%
+ecasound-2.9.3-18-x86_64.pkg.tar.zst
+
+%NAME%
+ecasound
+
+%BASE%
+ecasound
+
+%VERSION%
+2.9.3-18
+
+%DESC%
+Command-line multitrack audio processor
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+1672463
+
+%ISIZE%
+8730897
+
+%MD5SUM%
+095b7913947557a5df45886c73118b1a
+
+%SHA256SUM%
+90ff5f1bd2e9ad8cc812e83745f8bb064186c3d4f0672deb97ee03ffff877a34
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmk+vE8ACgkQwGCGM3xQdz6pOwf+LmrQbcLi6FQLvotre1cuLL4pQAv5WVXaF6XnSgl8pqN6Uat8qcPKv/kjpkDu/ypTtfTmJfCV2AXUbaF9yxWIjZOaohWA8/JqDp9Hd2CzvBJ5f8yAmfnDSI8zHsa/CagrQFwdWl3elQO+9RFntDPRSyAljK2rOlsBsXo/4L2O+T7n/ehbABR/RHaPPmsU9/0RyWgB2q/tm9SpOxfTcrkRXsB62lSoTVnpM4TK2DUYu/MO1avW1vhcWFrfZNuCR5JdHBeFznh0KywZUXnIZBqJk7zqFc2c012E9Ta77+qfiEW8oDxafg3fmlxrCFyv/lx1A2nBU/0eEgin/+BcF+ZBjw==
+
+%URL%
+https://ecasound.seul.org/ecasound/
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765719042
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%PROVIDES%
+lv2-host
+
+%DEPENDS%
+gcc-libs
+glibc
+alsa-lib
+libasound.so=2-64
+jack
+libjack.so=0-64
+audiofile
+libaudiofile.so=1-64
+liblo
+liblo.so=7-64
+lilv
+liblilv-0.so=0-64
+ncurses
+libncursesw.so=6-64
+readline
+libreadline.so=8-64
+libsamplerate
+libsamplerate.so=0-64
+libsndfile
+libsndfile.so=1-64
+
+%OPTDEPENDS%
+bash: for libecasoundc-config and libecasound-config
+lame: MP3 encoding
+libfaad2: for .aac/.m4a/.mp4 file support
+libfaac: for .aac/.m4a/.mp4 file support
+libmikmod: for tracker module
+mpg123: MP3 decoding
+python: for ecamonitor
+ruby: ECI API
+timidity++: for .mid file support
+vorbis-tools: for .ogg file support
+
+%MAKEDEPENDS%
+alsa-lib
+audiofile
+jack
+liblo
+libmikmod
+libsamplerate
+libsndfile
+lilv
+lv2
+ncurses
+python
+readline
+ruby
+

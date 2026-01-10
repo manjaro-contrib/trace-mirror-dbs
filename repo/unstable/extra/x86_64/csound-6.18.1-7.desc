@@ -1,0 +1,115 @@
+%FILENAME%
+csound-6.18.1-7-x86_64.pkg.tar.zst
+
+%NAME%
+csound
+
+%BASE%
+csound
+
+%VERSION%
+6.18.1-7
+
+%DESC%
+Programming language for sound rendering and signal processing
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+7130229
+
+%ISIZE%
+12416624
+
+%MD5SUM%
+62afb7dde627bae6a377e826f8b9c1f1
+
+%SHA256SUM%
+8f9bb2471cd3616d01589628648bd36922a15b5923b8cdc144d42967a4d37bce
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmlQQYYACgkQek52CV2KUuRe5Qf+J5+jyYJusNykJrCsJ7Ovw08BpGfKHbBbYgPpPhJNDzh6ibJm/2Lmm7tk76SZLt3yqqaWVgROlJAvLf2A4aDZAlhF0u3jr6qN4KIcHVdjz3+U3bM65UtDHBFTPBlfQF9MekuzgKeiX4tq7+m0QdQTXnOZwiRMq/x89StXdu/mURcl8uuLSPpTdT0TqixKIoRcTdXG/Cg2AnhKOV15D8GJRGHT6eMTeCm87/8/HYLWOIGMdza8DGMltwwtp/IQ/EqptvTnLIF7xffX+Hllj8UaZE5bDSWc1OimUBgc7Vm5oBzLWMlFbp2nx0BE65NZBSMP8pqeEF1YkKVFuFl12hUsMw==
+
+%URL%
+https://csound.com
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1766867178
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+libcsound64.so=6.0-64
+libcsnd6.so=6.0-64
+
+%DEPENDS%
+curl
+libcurl.so=4-64
+gcc-libs
+glibc
+libsamplerate
+libsamplerate.so=0-64
+libsndfile
+libsndfile.so=1-64
+
+%OPTDEPENDS%
+alsa-lib: for librtalsa plugin
+csound-doc: for the canonical Csound Reference Manual
+csound-plugins: for additional opcodes
+csoundqt: for frontend/ editor with integrated help
+hdf5: for hdf5ops plugin
+java-runtime: java integration
+fluidsynth: for libfluidOpcodes plugin
+jack: for libjacko, librtjack and libjackTransport plugins
+liblo: for libosc plugin
+ncurses: for libfaustcsound plugin
+portmidi: for libpmidi plugin
+portaudio: for librtpa plugin
+libpulse: for librtpulse plugin
+stk: for libstkops plugin
+libwebsockets: for libwebsocketIO plugin
+wiiuse: for libwiimote plugin
+libx11: for libwidgets plugin
+lua: for LUA integration
+openssl: for libfaustcsound plugin
+python-numpy: For Csound Python bindings
+vim-csound: vim integration
+zlib: for libfaustcsound plugin
+
+%MAKEDEPENDS%
+alsa-lib
+cmake
+doxygen
+dssi
+fluidsynth
+hdf5
+jack
+java-environment
+ladspa
+libmusicxml
+libsamplerate
+libsndfile
+libwebsockets
+llvm
+lua
+openssl
+portaudio
+portmidi
+portsmf
+python
+stk
+strip-nondeterminism
+swig
+wiiuse
+
+%CHECKDEPENDS%
+cunit
+

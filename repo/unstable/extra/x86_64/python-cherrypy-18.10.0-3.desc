@@ -1,0 +1,76 @@
+%FILENAME%
+python-cherrypy-18.10.0-3-any.pkg.tar.zst
+
+%NAME%
+python-cherrypy
+
+%BASE%
+python-cherrypy
+
+%VERSION%
+18.10.0-3
+
+%DESC%
+A pythonic, object-oriented web development framework
+
+%CSIZE%
+620380
+
+%ISIZE%
+3667207
+
+%MD5SUM%
+f68808c357d69bd4ab6bf4de8f833ded
+
+%SHA256SUM%
+5f44b4e0e905ef7fdaa1b20f75aff6462f9542e6712d225600cb55f0391bb2cb
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaU0qpQAKCRDwXowSExrrXloPAQC8qz6wnx34nr5xoE77JB91ex8jVAWjkc7CplFYIcMBJQEAu27T/tyyR1YOkVfzrPqleqntwDBGz6xr4iFEOrYYEw8=
+
+%URL%
+https://cherrypy.dev
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1766664737
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-cheroot
+python-jaraco.collections
+python-more-itertools
+python-portend
+python-zc.lockfile
+
+%OPTDEPENDS%
+python-flup: for xcgi support
+python-memcached: for memcached session support
+python-pyopenssl: for TLS support
+python-routes: for routes_dispatcher support
+python-simplejson: for JSON support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-objgraph
+python-path
+python-pytest
+python-pytest-forked
+python-pytest-services
+python-pytest-sugar
+python-requests-toolbelt
+

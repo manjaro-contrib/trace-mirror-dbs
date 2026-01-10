@@ -1,0 +1,69 @@
+%FILENAME%
+python-audioread-3.1.0-2-any.pkg.tar.zst
+
+%NAME%
+python-audioread
+
+%BASE%
+python-audioread
+
+%VERSION%
+3.1.0-2
+
+%DESC%
+Cross-library (GStreamer + Core Audio + MAD + FFmpeg) audio decoding for Python
+
+%CSIZE%
+40817
+
+%ISIZE%
+183279
+
+%MD5SUM%
+072a0fd54271cf35e6b849254f2a20f7
+
+%SHA256SUM%
+01db15088b1e66dd3013f0e6a46914bf008ebfa7a2f4c9a95950f3e7445c4f8a
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmk/Jn4ACgkQwGCGM3xQdz40fwf/RShL7N47xCU3QmtOyqrzq7ssnkJPYKbWLt0jjCK6qSAnvo2wFOMNpkLLMlLJQS9OFZHJeQo7MZIOHMG5jJtTaSzLhfBJe4HQO/8J+oOUCdgHesHQXvcmAyhDgw8cs92bWOuhXUDITw6m0SOgUsgL6PuC5P2BQPLJfo479vxXHnWHCHHUirE7cbnpi3UOdRJv2T6C7JSk6YBPlYT3b+h43Rj5u8wt/A4BYIZ98WCNfUtsfSa0gVjd1Wet2lz7DKVSHOT975VtXa2mBauvdjSEZ7rztObkiJegXCeSHQ5OmIO2KYo+0gUUyvFApASb9DXb1l47EiAATpGaxoVfC5f2Fw==
+
+%URL%
+https://github.com/beetbox/audioread
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765746292
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+gst-python: GStreamer backend
+python-gobject: GStreamer backend
+python-pymad: MAD backend
+python-standard-aifc: AIFF/AIFF-C file support
+python-standard-sunau: Sun AU file support
+
+%MAKEDEPENDS%
+git
+python-build
+python-poetry-core
+python-gobject
+python-installer
+python-pymad
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-standard-aifc
+python-standard-sunau
+

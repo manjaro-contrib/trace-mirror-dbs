@@ -1,0 +1,113 @@
+%FILENAME%
+matrix-synapse-1.144.0-3-x86_64.pkg.tar.zst
+
+%NAME%
+matrix-synapse
+
+%BASE%
+matrix-synapse
+
+%VERSION%
+1.144.0-3
+
+%DESC%
+Matrix reference homeserver
+
+%CSIZE%
+8105567
+
+%ISIZE%
+39783780
+
+%MD5SUM%
+6f9bff261eaddbda281f98476c630f32
+
+%SHA256SUM%
+8bf7d779150881efbf82673a0d3f6eddfa5a0260a5f57f7010d9634c13b60e46
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaVQGrQAKCRDwXowSExrrXrDWAP0Smz0xqrRx5h3/IS6wqd7aPkN8vHumLL/7SjfzcYP/ZQEAqctAiCnRAE5ZvwVEVEwpURA4xcoV2XCSmG6tzq8D0gk=
+
+%URL%
+https://github.com/element-hq/synapse
+
+%LICENSE%
+AGPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1767114309
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+libwebp
+python
+python-ijson
+python-jsonschema
+python-twisted
+python-pyopenssl
+python-yaml
+python-pyasn1
+python-pynacl
+python-bcrypt
+python-immutabledict
+python-pillow
+python-pysaml2
+python-pydantic
+python-systemd
+python-unpaddedbase64
+python-canonicaljson
+python-signedjson
+python-pymacaroons
+python-service-identity
+python-msgpack
+python-phonenumbers
+python-prometheus_client
+python-attrs
+python-netaddr
+python-sortedcontainers
+python-treq
+python-idna
+python-jinja
+python-matrix-common
+python-bleach
+python-typing_extensions
+python-python-multipart
+systemd
+
+%OPTDEPENDS%
+perl: sync_room_to_group.pl
+python-psycopg2: PostgreSQL support
+python-lxml: URL previewing
+python-psutil: metrics
+python-pyjwt: jwt
+python-txredisapi: redis
+python-hiredis
+python-pyicu: Improve user search for international display names
+python-authlib: OpenID SSO support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-wheel
+python-poetry-core
+python-setuptools-rust
+
+%CHECKDEPENDS%
+python-pip
+python-authlib
+python-pyjwt
+python-lxml
+python-parameterized
+python-txredisapi
+python-hiredis
+postgresql
+python-pyicu
+
