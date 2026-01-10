@@ -1,0 +1,66 @@
+%FILENAME%
+hamlib-4.6.5-2-x86_64.pkg.tar.zst
+
+%NAME%
+hamlib
+
+%BASE%
+hamlib
+
+%VERSION%
+4.6.5-2
+
+%DESC%
+Ham radio equipment control libraries
+
+%CSIZE%
+4010451
+
+%ISIZE%
+26674083
+
+%SHA256SUM%
+30815a5444c51cf9753667028ceaea4d6c9b2d9fcebd44f57a900bc9a75f7ae2
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmk/AQYACgkQwGCGM3xQdz5Mywf7BY3BNH7wvslkiHgbTCMlLaa/U6nKf1f76uWuUkvvZ8oPtAeaX87b2U6V7Am92fc5JUMov/CTdappg09pERwMr+NXieV/e398w2/YVAgU0bxCkean2qsfC/DbrWnLcaSvkZieaqSjOAwpcqaFAEMPPgFOesHwocFyc2rkqFZLqJZoSuXh8Iowh2OkXQnx7hx47J0a5FG2PC5dIbnNV3YZj4vVvaPEv/TZWeqDeLcXLE6awByoF67NDu/5AWqaLs165hMIe5HwA3N+nt90R5yp9ewplnVmUveUxXAGvm0pr3KFWmwW6ix4MIXK5ZMv40vlcONcI0kwm7oDXN731LfneQ==
+
+%URL%
+https://hamlib.github.io
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765736591
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%PROVIDES%
+libhamlib++.so=4-64
+libhamlib.so=4-64
+
+%DEPENDS%
+gcc-libs
+glibc
+libindi
+libusb
+readline
+
+%OPTDEPENDS%
+lua: Lua bindings
+perl: Perl bindings
+python: Python bindings
+tcl: Tcl bindings
+
+%MAKEDEPENDS%
+lua
+python
+swig
+tcl
+

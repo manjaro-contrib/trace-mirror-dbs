@@ -1,0 +1,60 @@
+%FILENAME%
+python-passlib-1.7.4-11-any.pkg.tar.zst
+
+%NAME%
+python-passlib
+
+%BASE%
+python-passlib
+
+%VERSION%
+1.7.4-11
+
+%DESC%
+A password hashing library for Python
+
+%CSIZE%
+845988
+
+%ISIZE%
+5618316
+
+%SHA256SUM%
+d50810f65663b4cb69af8354b3774a410a60d391b467b5e41ca4897c71d38028
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaUHJgwAKCRAAHPSBC+jZEQ8XAQDRkme7AS/N6hEaN6IIcputm6NGwsb4oAV8vqWveBkRcgEA/qe0Pyv+rP7+zaYILUjUUjsOPxkoYNcth9gBhhBHaQw=
+
+%URL%
+https://passlib.readthedocs.io/en/stable
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765918629
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-fastpbkdf2: accelerate PBKDF2-based hashes
+python-bcrypt: accelerate Bcrypt hashes
+python-scrypt: accelerate SCrypt hashes
+
+%MAKEDEPENDS%
+python-setuptools
+
+%CHECKDEPENDS%
+python-nose
+python-bcrypt
+python-django
+python-fastpbkdf2
+python-scrypt
+

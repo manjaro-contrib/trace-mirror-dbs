@@ -1,0 +1,56 @@
+%FILENAME%
+python-pymysql-1.1.2-2-any.pkg.tar.zst
+
+%NAME%
+python-pymysql
+
+%BASE%
+python-pymysql
+
+%VERSION%
+1.1.2-2
+
+%DESC%
+Pure Python MySQL Client
+
+%CSIZE%
+105177
+
+%ISIZE%
+531140
+
+%SHA256SUM%
+8678b7397360d2f2f2e9aa41010664b9d5717f1fb479bac2d4ddab8e91ae58cd
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmk+wQsACgkQwGCGM3xQdz5cmggAljr/Rvu0JrvWdyhQjM7psopGMfEXaaqBZ+gNGp7YoEmoCJdgonXz4L2hODFH5vJOibpvBbQlgoxoInXscwMqCeXYLrYEZ2R1Kh+NbfkO5Z988UmNi1jqa6uq/LJl8a4GQZwOd6DJoFRW+v11TjzrSd9YhZZUNoabhNntxv2O32pWZp9Gh7w0dHLdRKdSOvuJoVhnud0VQyVkZ74uvmsRQktrzwv04xh6Q7KlZ1kUNWW+cCkVLcfUD5OSBMIVz9ejpsB7WxULnJj/Zp09AkvoxzYXMRCanT5h5qTTTLivLv/cAq/TLNPcCHRgBAQ320gLEr1laO3kqdIc8vJ0tP1mFw==
+
+%URL%
+https://github.com/PyMySQL/PyMySQL/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765720319
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+mariadb: for using a local MariaDB instance
+python-cryptography: for RSA cryptography
+python-pynacl: for ed25519 cryptography
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+

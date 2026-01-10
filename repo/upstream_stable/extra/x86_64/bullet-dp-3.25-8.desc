@@ -1,0 +1,66 @@
+%FILENAME%
+bullet-dp-3.25-8-x86_64.pkg.tar.zst
+
+%NAME%
+bullet-dp
+
+%BASE%
+bullet
+
+%VERSION%
+3.25-8
+
+%DESC%
+A 3D Collision Detection and Rigid Body Dynamics Library for games and animation (double precision)
+
+%CSIZE%
+37900983
+
+%ISIZE%
+139239125
+
+%SHA256SUM%
+22c98c8db106cc6657e7a06479437c677d74d78d67b8132b429410fbaf0e0eda
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmlNvmAACgkQek52CV2KUuQFuQf9HHUQtlH/E2dWCeWrtvwW6k/MvjkSOJJwd9+QsT6cQYBn1kHfU07x61oICYbM96SH3wmp8Vcq8sixF6hPuBT0PrnhJAUl5IlevkHTwVP7TJXnI4Zxx8DQcQZe/2/K43Zav4Y7a+atlGhteGxc76Kv3NPIZlqSv1bk+uV/UMt92yQKD+ofKP278NlvfHEU49Imm7jsHhPEprM3FEovOmZZ4S0NNY+udRfE5EuWBWF4cXGzwiK6CM0mC5XXIIr2fTbsXGL5+OX/SIMgIZoyHxkelSw8F+4jtBuwyJC7YzgSi6dvWM7zRgeQj5DI7ugnBfAfQse5sBeML3JGFMFofOUN+A==
+
+%URL%
+http://www.bulletphysics.com/Bullet/
+
+%LICENSE%
+custom:zlib
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1766702141
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%CONFLICTS%
+bullet
+
+%PROVIDES%
+bullet
+
+%OPTDEPENDS%
+glu: for the example browser
+python: python bindings
+python-numpy: python bindings
+bullet-docs: documentation
+
+%MAKEDEPENDS%
+cmake
+doxygen
+graphviz
+ttf-dejavu
+mesa
+glu
+python
+python-numpy
+python-setuptools
+ninja
+

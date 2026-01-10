@@ -1,0 +1,64 @@
+%FILENAME%
+python-tifffile-2025.12.20-1-any.pkg.tar.zst
+
+%NAME%
+python-tifffile
+
+%BASE%
+python-tifffile
+
+%VERSION%
+2025.12.20-1
+
+%DESC%
+Read and write TIFF files
+
+%CSIZE%
+530696
+
+%ISIZE%
+3362548
+
+%SHA256SUM%
+5fed943b82dec9082689010eb66af665a64ebb711a0776420f247df45364ad96
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaV1vxgAKCRAAHPSBC+jZER5GAQDb6TInuxIiszL/Y/Fc2kin2ICM8ndlc0HjPnyXbjffrgD+Ny1SgBWm79Nt26sAPx9IeAlBnbfCntozQrvUtbkzXAU=
+
+%URL%
+https://github.com/cgohlke/tifffile
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1767730955
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python
+python-numpy
+
+%OPTDEPENDS%
+python-fsspec: for opening ReferenceFileSystem files
+python-imagecodecs: for encoding or decoding LZW, JPEG, etc. compressed segments
+python-lxml: for validating and printing XML
+python-matplotlib: for plotting
+python-zarr: for opening Zarr stores
+tk: for Tkinter file open dialog
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+
+%CHECKDEPENDS%
+python-fsspec
+python-lxml
+python-pytest
+

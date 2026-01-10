@@ -1,0 +1,80 @@
+%FILENAME%
+python-httpx-0.28.1-7-any.pkg.tar.zst
+
+%NAME%
+python-httpx
+
+%BASE%
+python-httpx
+
+%VERSION%
+0.28.1-7
+
+%DESC%
+A next generation HTTP client for Python
+
+%CSIZE%
+392270
+
+%ISIZE%
+2963475
+
+%SHA256SUM%
+c5366415f2cfd1be85e5b9ae4056e0576c3c76921422bc12a7a99d072b72f851
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaUG8GwAKCRAAHPSBC+jZERJqAQCQ25sORmLZmgRoe+YLLPBCPfJfzs9iNjlQNU83+HMp2AEA1JVl3Te5L7a1oBuvwGrrMU+CV0zM7gmVLL33FrM+egs=
+
+%URL%
+https://github.com/encode/httpx
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765910390
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python
+python-certifi
+python-httpcore
+python-idna
+python-anyio
+
+%OPTDEPENDS%
+python-brotli: for brotli response decompression
+python-brotlicffi: for brotli response decompression
+python-zstandard: for zstd response decompression
+python-h2: HTTP/2 support
+python-socksio: SOCKS proxy support
+python-click: command line client support
+python-rich: command line client support
+python-pygments: command line client support
+python-trio: alternative async library
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-hatchling
+python-hatch-fancy-pypi-readme
+python-pygments
+
+%CHECKDEPENDS%
+python-pytest-asyncio
+python-pytest-trio
+python-brotli
+python-brotlicffi
+python-h2
+python-trustme
+uvicorn
+python-socksio
+python-rich
+python-chardet
+python-zstandard
+

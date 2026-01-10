@@ -1,0 +1,62 @@
+%FILENAME%
+python-micawber-0.6.2-1-any.pkg.tar.zst
+
+%NAME%
+python-micawber
+
+%BASE%
+python-micawber
+
+%VERSION%
+0.6.2-1
+
+%DESC%
+A small library for extracting rich content from urls
+
+%CSIZE%
+50290
+
+%ISIZE%
+238562
+
+%SHA256SUM%
+124f98e9cb6f4bd4b240855093fca42672e1008834b24523f63b14926184b689
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCaV+SDgAKCRCbeih9mi7GCPpSAP4kaJ1HUgC8/5nVyXvzox0HXIaynIPL7szTJr192LvvXgD/bHd2HDwteODKp1+JGjNdl+5FPcCN/ewAlo5MGrv6ZwI=
+
+%URL%
+https://github.com/coleifer/micawber
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1767870955
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-beautifulsoup4: for text parser
+python-django: django support
+python-flask: flask support
+python-redis: redis caching support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-beautifulsoup4
+python-django
+

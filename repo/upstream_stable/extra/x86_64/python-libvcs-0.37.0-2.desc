@@ -1,0 +1,65 @@
+%FILENAME%
+python-libvcs-0.37.0-2-any.pkg.tar.zst
+
+%NAME%
+python-libvcs
+
+%BASE%
+python-libvcs
+
+%VERSION%
+0.37.0-2
+
+%DESC%
+Lite, typed, pythonic utilities for git, svn, mercurial, etc
+
+%CSIZE%
+174580
+
+%ISIZE%
+1200674
+
+%SHA256SUM%
+d30b1af2a9c0c71412491750b1fcb9746ab629943f1774651a8f736137975de7
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmlK+yMACgkQwGCGM3xQdz6mMgf9EmjYhTaCMBOr963jKcGSsvGzQWhhSwaeE/mcuka3N8Bz9Lv8Z4UFkFkyR4lGZu+5yGbAV9v5W4wr9TjWal+9dGZQigqPGEmARUI6KfKehwQdJFZcdkQTQhOYnyGR64wNISQaJaLLxRYOHzrF2LiXtAretCkWBjt0YsibekJvg8hECFS/XMIzKRxZj1K8Da1SNa/6q6mpr7RzYn/aw4OosK77aCFBl815xlHIgk5gWc8dh3mPYZHzlUSsr7V8VQuXgBDfwot3ay9xz3l5EaMt+J3tGd8QQzWQIdifhhasZQhTBBI/fpw/hbByA0QO3fU4GErKUU+dvDAuQTvdpy7aug==
+
+%URL%
+https://libvcs.git-pull.com/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1766521608
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+git: for git repository support
+mercurial: for mercurial repository support
+subversion: for subversion repository support
+python-pytest: for pytest plugin
+
+%MAKEDEPENDS%
+python-build
+python-installer
+
+%CHECKDEPENDS%
+git
+python-gp-libs
+mercurial
+python-hatchling
+python-pytest
+python-pytest-mock
+python-pytest-rerunfailures
+subversion
+

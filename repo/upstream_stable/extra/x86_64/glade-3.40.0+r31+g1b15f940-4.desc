@@ -1,0 +1,72 @@
+%FILENAME%
+glade-3.40.0+r31+g1b15f940-4-x86_64.pkg.tar.zst
+
+%NAME%
+glade
+
+%BASE%
+glade
+
+%VERSION%
+3.40.0+r31+g1b15f940-4
+
+%DESC%
+User Interface Builder for GTK 3 applications
+
+%CSIZE%
+2530522
+
+%ISIZE%
+13305660
+
+%SHA256SUM%
+c6f1fcfccc8c7dd75be888ef03808b5d7dc5d0fb2e32e6ff1e94e8436a6d80da
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmlDA6EACgkQwGCGM3xQdz4DMQf+L+meaXtViUPfHIWXlFlVM4i8oE/dkZ4kbC0zIAwSEsR17MSdXI8M1U3E+PUvcPv6cabSDqb+MPjjnFnBcGXeUscuK3874BETIUK2pPanjms7P8VQObIlmVzi9QQzm1EzdxiPl1vmUWxkyWeme4qWfmjvDWW7OxuZk46PthL3/T3BvoO8sa4HCsz/mIeRbIPngm8IsbBQj0eMiYoTYuSUTTo174An53EikwWCzl1tybcaQ0C0iU/8ipv2y+0LlV/b2Hc5PJx1Oae2o75uS43QfCTiX3rXeQALEJ+Ci/jZguVgDnuIeBV+sZMhR4AP6VKoyH0w2U5ebwXh/TdoTsvY3g==
+
+%URL%
+https://glade.gnome.org/
+
+%LICENSE%
+GPL
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765993250
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%PROVIDES%
+libgladeui-2.so=13-64
+
+%DEPENDS%
+gtk3
+libxml2
+
+%OPTDEPENDS%
+devhelp: development help
+gjs: gjs module
+python-gobject: python module
+webkit2gtk-4.1: webkit2gtk module
+
+%MAKEDEPENDS%
+gtk-doc
+glib2-devel
+gobject-introspection
+itstool
+docbook-xsl
+git
+meson
+gjs
+python-gobject
+webkit2gtk-4.1
+python-setuptools
+
+%CHECKDEPENDS%
+xorg-server-xvfb
+

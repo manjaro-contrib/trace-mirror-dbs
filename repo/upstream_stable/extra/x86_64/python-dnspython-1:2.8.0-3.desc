@@ -1,0 +1,65 @@
+%FILENAME%
+python-dnspython-1:2.8.0-3-any.pkg.tar.zst
+
+%NAME%
+python-dnspython
+
+%BASE%
+python-dnspython
+
+%VERSION%
+1:2.8.0-3
+
+%DESC%
+A DNS toolkit for Python
+
+%CSIZE%
+578198
+
+%ISIZE%
+4178694
+
+%SHA256SUM%
+def3d6a476527f7650e660cd8aa769597e5c4a4de5fc7e5480a4116fed1c6ebc
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmlO3fYACgkQek52CV2KUuSZBgf/YCNuw02zlxyIxLp2Ds4fwSYdeMRlGPtnk05asmbkfTA64EGDG4FHpFwTKg2aYKaqflsmwDCSkuFti6uKSBeFMpoa3grO3OBuQvEIsHteOdvxtKaxUAZ8r2Fq6vwtGafUeeVzSbhj6/gScqZzVbWYqPNBzqsV4NkRNP5ycq8I4Zsq4y1+pJyGr6k3PU1MB9B2C1DqFCD+sJxxMzrscEyIRI8ENsrQgEFkbA0Mi5GlAML7IT3swGmLUD1KyWgu1VU8TByjdQAWozumxp2mBwyfI0UrSCvxGyhxLGIUyn6s0sNNCZXstYbxRiW/5RiOmJq8a5V8WFptE1ryvoSmd07dlw==
+
+%URL%
+http://www.dnspython.org
+
+%LICENSE%
+ISC
+
+%ARCH%
+any
+
+%BUILDDATE%
+1766776281
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-cryptography: DNSSEC support
+python-requests-toolbelt: DoH support
+python-idna: support for updated IDNA 2008
+python-curio: async support
+python-trio: async support
+python-sniffio: async support
+
+%MAKEDEPENDS%
+python-build
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+python-cryptography
+python-idna
+python-pytest
+python-trio
+

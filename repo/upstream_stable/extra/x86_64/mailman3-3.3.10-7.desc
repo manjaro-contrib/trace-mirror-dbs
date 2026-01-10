@@ -1,0 +1,95 @@
+%FILENAME%
+mailman3-3.3.10-7-any.pkg.tar.zst
+
+%NAME%
+mailman3
+
+%BASE%
+mailman3
+
+%VERSION%
+3.3.10-7
+
+%DESC%
+The GNU mailing list manager
+
+%CSIZE%
+2040440
+
+%ISIZE%
+17422306
+
+%SHA256SUM%
+c4d4115d86367d02e6fec410cb1398b99165d666b1624633e0fda109c7ef2b7f
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmlAJSUACgkQwGCGM3xQdz7SmAf/alHgP0o5mMKzwTesro3wEsrKpKTh/yNriaEI4siZJfmotvMDgK+Mw+z8O7NQ8sMsagZL+H6Mo2PiHIv+zyBz3i+GapAeE849HuZla3WaHQoA2qpE+8CQ7Zz54enTFz7RcxvymMInNSLkJPGMlM5W6DeQXA8T+MO8vCcHHp70EIblIy0FMIXRFsUMT+g6BvQQ/WPWdywdGkQZ03XOKUfmT774ZbxNoVcfu1VXyE2oSXfAnLQ8sUrQ9blBozGoIV/Lsfl8KuA8+ovUwWIMCryVBI7JWTuuhZTn+xp6p/My33xbllJ7xaLAh4KR6xycNZ1OasT7i7maihBiUP4YFV5EIw==
+
+%URL%
+https://www.list.org/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765811449
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%REPLACES%
+mailman-core
+
+%CONFLICTS%
+mailman
+
+%DEPENDS%
+gunicorn
+python
+python-aiosmtpd
+python-alembic
+python-atpublic
+python-authheaders
+python-authres
+python-click
+python-dateutil
+python-dnspython
+python-falcon
+python-flufl.bounce
+python-flufl.i18n
+python-flufl-lock
+python-lazr.config
+python-passlib
+python-requests
+python-sqlalchemy>=1.4
+python-zope-component
+python-zope-configuration
+python-zope-event
+python-zope-interface
+python-nntplib
+
+%OPTDEPENDS%
+hyperkitty: for local archive and list interaction
+lynx: for the default HTML to plaintext conversion
+mailman3-hyperkitty: for archiving mails with an instance of hyperkitty
+postorius: for local configuration interaction
+python-mailmanclient: for programmatically interfacing the mailman REST API locally
+python-psycopg2: for PostgreSQL support
+python-pymysql: for MySQL support
+smtp-server: for using a local mail server
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-pdm-backend
+
+%CHECKDEPENDS%
+python-nose2
+python-psycopg2
+python-pymysql
+python-pytest
+

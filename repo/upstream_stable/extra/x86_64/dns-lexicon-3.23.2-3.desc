@@ -1,0 +1,73 @@
+%FILENAME%
+dns-lexicon-3.23.2-3-any.pkg.tar.zst
+
+%NAME%
+dns-lexicon
+
+%BASE%
+dns-lexicon
+
+%VERSION%
+3.23.2-3
+
+%DESC%
+Manipulate DNS records on various DNS providers in a standardized/agnostic way
+
+%CSIZE%
+403434
+
+%ISIZE%
+3079560
+
+%SHA256SUM%
+5c0ecc517829f907b226bdfbdefdb3ea3660b5feef89b3c8c5ec72a704cf94d4
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmlO6+EACgkQek52CV2KUuRZTgf+LPjfzHTf/6r6H3PRfHJr64q0geUq906KQU9GPv9AjktqL1Rx8Ch4Tpp6vDAoxSLBFngZNS9EDpcwM80UjnAqrABNs2IwYtwSFb3leRy/dfaTJBnRSO2VstdretHXBSzrWLaSNXsHDM9aWCAPJJpss/I+RpPh+4/1MX54Aft5AxuLm3T+m1wL5V8KVAaqxtQ2+WZvjlRtTzkFCpQlCkgfWVi/0b4bVShF0IQc74ZJWltVoX0GttS8R6rZHylwjjYu4ShfV8QtaOLhp05hB/1cJDTNUmlmd3gBRMW+AV/xhTNZURvIz4a4FFtyukIo8xpt21fEXlvX/YSbG2Q1VmOy9A==
+
+%URL%
+https://github.com/dns-lexicon/dns-lexicon
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1766779798
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python-beautifulsoup4
+python-cryptography
+python-yaml
+python-requests
+python-tldextract
+python-importlib-metadata
+python-pyotp
+python-dnspython
+
+%OPTDEPENDS%
+python-boto3: for Route53 support
+python-localzone: for localzone support
+python-softlayer: for SoftLayer support
+python-zeep: for Gransy support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-hatchling
+
+%CHECKDEPENDS%
+python-pytest
+python-vcrpy
+python-boto3
+python-localzone
+python-softlayer
+python-zeep
+bind
+

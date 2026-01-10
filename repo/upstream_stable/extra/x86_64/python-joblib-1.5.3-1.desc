@@ -1,0 +1,66 @@
+%FILENAME%
+python-joblib-1.5.3-1-any.pkg.tar.zst
+
+%NAME%
+python-joblib
+
+%BASE%
+python-joblib
+
+%VERSION%
+1.5.3-1
+
+%DESC%
+Set of tools to provide lightweight pipelining in Python
+
+%CSIZE%
+559870
+
+%ISIZE%
+2982304
+
+%SHA256SUM%
+afd11b4f123a570fdccee5a492e53c1b8e4ddd445552eef9fb8e0d202079df41
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaVlDJAAKCRDwXowSExrrXnhXAQDJzz72Rf43/+JgHPVw5MEPH4cuAkdPGBOV51n9V+qoggD/UZ8knGY1zHVJMIWTSbjPeVvZTSsEAcE0Rxb3Piq1jQA=
+
+%URL%
+https://joblib.readthedocs.io/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1767457291
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-distributed: for dask parallel backend
+python-lz4: for compressed serialization
+python-numpy: for array manipulation
+python-psutil: to mitigate memory leaks in worker processes
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+procps-ng
+python-distributed
+python-lz4
+python-numpy
+python-pytest
+python-pytest-asyncio
+python-threadpoolctl
+

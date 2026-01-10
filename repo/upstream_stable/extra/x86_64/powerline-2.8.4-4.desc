@@ -1,0 +1,75 @@
+%FILENAME%
+powerline-2.8.4-4-x86_64.pkg.tar.zst
+
+%NAME%
+powerline
+
+%BASE%
+powerline
+
+%VERSION%
+2.8.4-4
+
+%DESC%
+Statuslines and prompts for several applications including vim, zsh, bash, tmux, IPython, Awesome, i3 and Qtile
+
+%CSIZE%
+472266
+
+%ISIZE%
+2544338
+
+%SHA256SUM%
+3c175b9403269a20b0e35b7560c37e10970aad5473eefa96a53869b51fc4e325
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaUq9awAKCRDwXowSExrrXoHcAQC4RWFJ8jBgGcnrdMKu5AsnNKXoWfetc/uvueBHDwRibgD/eqoUgSsevS27+kh7jjsqdOVs/9EjFY4uxHl5DSmzZws=
+
+%URL%
+https://github.com/powerline/powerline
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1766505153
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%REPLACES%
+powerline-common
+python-powerline
+
+%PROVIDES%
+python-powerline
+powerline-common
+
+%DEPENDS%
+glibc
+python
+
+%OPTDEPENDS%
+powerline-fonts: patched fonts for powerline
+vim-powerline: vim plugin
+python-netifaces: for displaying internal IP addresses
+python-psutil: improved system information
+python-pygit2: improved git support
+which: fish bindings
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-sphinx
+python-wheel
+
+%CHECKDEPENDS%
+python-netifaces
+python-pexpect
+python-psutil
+

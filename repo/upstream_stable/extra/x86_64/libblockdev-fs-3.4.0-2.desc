@@ -1,0 +1,109 @@
+%FILENAME%
+libblockdev-fs-3.4.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+libblockdev-fs
+
+%BASE%
+libblockdev
+
+%VERSION%
+3.4.0-2
+
+%DESC%
+A library for manipulating block devices - filesystem support
+
+%CSIZE%
+42558
+
+%ISIZE%
+133854
+
+%SHA256SUM%
+deaaa015447e7806f78de05e8005b7f97b839b3439e84ded67e79f606939369f
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmlCfSsACgkQwGCGM3xQdz7upQf/bdUU0V3qVcKty/bnDcnWKIqRjjdWUSaBTJjUL9rrDZWLS3GvPfGAd5BcpojrVzzAhxbZR7hXJg0rVVBkCV4ShmPMZ1gK+IRZuAYsxFMKqNDSMiK7MGVL/rCEZM67crhNadHLipSa5oujXdtIeU+o8wgcsbqrXyRUVll0QjwGiUyUZ/L2wATd/D0rD7Nawe0hjMRDGqsrmemOiyIq6jAYH6q6zVWmbZ9JvgJdM92cdzz3B+h+RW8YQMYpzdgNBd3yzcnWhWPz1TgRC+V7l7wcq5fzx/HU56iIlh4ekaGyNpEv/295a1sOclMm6so+FuLSPrtoiDQgFttLriTa4ay1gQ==
+
+%URL%
+https://github.com/storaged-project/libblockdev
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765965002
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%REPLACES%
+libblockdev-tools
+
+%CONFLICTS%
+libblockdev-tools
+
+%PROVIDES%
+libbd_fs.so=3-64
+
+%DEPENDS%
+e2fsprogs
+libext2fs.so=2-64
+libe2p.so=2-64
+gcc-libs
+glib2
+libglib-2.0.so=0-64
+glibc
+libblockdev=3.4.0
+libbd_utils.so=3-64
+libbytesize
+parted
+util-linux-libs
+libblkid.so=1-64
+libmount.so=1-64
+libuuid.so=1-64
+
+%OPTDEPENDS%
+btrfs-progs: for BTRFS filesystem support
+dosfstools: for VFAT filesystem support
+exfatprogs: for exFAT filesystem support
+f2fs-tools: for F2FS filesystem support
+nilfs-utils: for nilfs filesystem support
+ntfs-3g: for NTFS filesystem support
+udftools: for UDF filesystem support
+xfsprogs: for XFS filesystem support
+
+%MAKEDEPENDS%
+autoconf-archive
+btrfs-progs
+cryptsetup
+device-mapper
+dosfstools
+e2fsprogs
+exfatprogs
+gcc-libs
+glib2
+glibc
+gobject-introspection
+gtk-doc
+json-glib
+kmod
+keyutils
+libatasmart
+libbytesize
+libnvme
+libyaml
+lvm2
+mdadm
+ndctl
+nss
+parted
+python
+systemd-libs
+util-linux
+util-linux-libs
+volume_key
+

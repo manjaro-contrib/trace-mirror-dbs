@@ -1,0 +1,111 @@
+%FILENAME%
+lutris-0.5.19-7-any.pkg.tar.zst
+
+%NAME%
+lutris
+
+%BASE%
+lutris
+
+%VERSION%
+0.5.19-7
+
+%DESC%
+Open Gaming Platform
+
+%CSIZE%
+2002152
+
+%ISIZE%
+11045436
+
+%SHA256SUM%
+868ad193a1426db16c5ab93807d1d7e9a1c7903a844ca222d0b422f3019676f4
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmlDCU4ACgkQwGCGM3xQdz5rDwgAj+ss/0PXVUnpbrZUfxzjZOXqCqD3rpPij1BvnKc/Sy8X/XT7H9N/VpX4dxXVFlldMwuJMHmVvpBfyvgLCFuocfZCjImlIbkTewAC8Zi12epMJqema/cEN7bnrFQ1Rx4x37qEYnNmizXeEOkejN67vT5MW3aGy791JY7J77vLmgGjwoBluWv/oA2fCxiI33TVlL3Q7SLOptq6vnDAU+xaZtEStTbPrvwEwqBTTeaYF1SVSemIvEC2XCE6ILsViboAyenmVieuuXkOSTywnc7j19K8H60+n2cJ/GBAwkXoaOhPjYwB/UqQ9o3ioOGgiHaYgDI7kBZKmri56xM6kJV3iQ==
+
+%URL%
+https://lutris.net
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+any
+
+%BUILDDATE%
+1766000935
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+cabextract
+curl
+gdk-pixbuf2
+glib2
+gnome-desktop
+gobject-introspection-runtime
+gtk3
+hicolor-icon-theme
+mesa-utils
+p7zip
+pango
+psmisc
+python
+python-cairo
+python-certifi
+python-dbus
+python-distro
+python-evdev
+python-gobject
+python-lxml
+python-moddb
+python-pillow
+python-requests
+python-urllib3
+python-yaml
+unzip
+webkit2gtk-4.1
+xdg-desktop-portal-impl
+xorg-xrandr
+
+%OPTDEPENDS%
+fluidsynth: For games that have MIDI music
+gamemode: Allows games to request a temporary set of optimisations
+gvfs: GVFS backend
+innoextract: Extract Inno Setup installers
+libayatana-appindicator: tray icon support
+lib32-gamemode: Allows games to request a temporary set of optimisations
+lib32-gnutls: Required to login to some game platforms (e.g. Ubisoft Connect, EA Origin and GOG)
+lib32-mesa-libgl: OpenGL support
+lib32-vkd3d: DirectX 12 support
+lib32-vulkan-icd-loader: Vulkan support
+python-pefile: Display icons of Microsoft executable files
+python-protobuf: Battle.net support
+vkd3d: DirectX 12 support
+vulkan-icd-loader: Vulkan support
+vulkan-tools: Vulkan support
+wine: Windows support
+winetricks: Use system winetricks
+xorg-xgamma: Restore gamma on game exit
+umu-launcher: For running games through Proton
+
+%MAKEDEPENDS%
+git
+meson
+ninja
+protobuf
+python-poetry-core
+
+%CHECKDEPENDS%
+python-nose
+xorg-server-xvfb
+xterm
+fluidsynth
+vulkan-tools
+pciutils
+procps-ng
+wine
+

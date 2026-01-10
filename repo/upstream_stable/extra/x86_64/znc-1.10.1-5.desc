@@ -1,0 +1,62 @@
+%FILENAME%
+znc-1.10.1-5-x86_64.pkg.tar.zst
+
+%NAME%
+znc
+
+%BASE%
+znc
+
+%VERSION%
+1.10.1-5
+
+%DESC%
+An IRC bouncer with modules & scripts support
+
+%CSIZE%
+3808531
+
+%ISIZE%
+17668021
+
+%SHA256SUM%
+7b00b7a9b2d446b5cd7336a64188c19539aef59c674354336ac5e99d79f0cb4d
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmk+/YUACgkQwGCGM3xQdz615Qf5ARS1Csv39Gd0iJfB2wEIIHjcyE54BGfR8zXrn8+SkAi2FWWl/FDpdrohUueR9oU1WHGqj1piyvOCucLrPdzkHpU7PlPf5BeGxf1+DM9zTT8VqmA412N68DV/oBEN2dfoYrbOjAwu+gHA4DeVbi69SxBMVGcA711UjzWu5BLZ0LBTjmIue3JCJStZff/J2nTvXz3LhohIic9IgyDRS8e69lK1mCUmiqpmsbWsO0CJy5j9f2/0/vbJqsSFgsRdp4bAc8NgKIxMSQokdCJw/67Y17CAb0jV65ogWLNJI7LY6K0u6bz9rIz6AaXyALamPgoeOBwY+JwapwiSh2mDTSVUQQ==
+
+%URL%
+https://wiki.znc.in/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765734661
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+libsasl
+icu
+boost-libs
+argon2
+
+%OPTDEPENDS%
+tcl: modtcl module
+python: modpython module & znc-buildmod script
+perl: modperl module
+cyrus-sasl: saslauth module
+cmake: znc-buildmod script
+
+%MAKEDEPENDS%
+tcl
+python
+perl
+cmake
+boost
+

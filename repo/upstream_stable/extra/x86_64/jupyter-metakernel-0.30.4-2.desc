@@ -1,0 +1,71 @@
+%FILENAME%
+jupyter-metakernel-0.30.4-2-any.pkg.tar.zst
+
+%NAME%
+jupyter-metakernel
+
+%BASE%
+jupyter-metakernel
+
+%VERSION%
+0.30.4-2
+
+%DESC%
+A Jupyter/IPython kernel template
+
+%CSIZE%
+294070
+
+%ISIZE%
+1096532
+
+%SHA256SUM%
+4c110fbbbec2cc7e7c2169174e7d1552823452831952a53a4871ec79860b4e0a
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaUMgogAKCRAAHPSBC+jZEbXGAP9LxQl2LIAEUdadVTl4E40eyNqN5TkxZvZkhrrUIlihJQEAhZSaA02auwUGHrAvoVUEHPfDaLYapYkCkGinC9ta8wA=
+
+%URL%
+https://github.com/Calysto/metakernel
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1766006401
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python
+python-ipykernel
+python-jedi
+python-jupyter-core
+python-pexpect
+ipython
+python-jupyter-client
+python-parso
+python-pyzmq
+python-traitlets
+
+%OPTDEPENDS%
+python-ipywidgets: for activity magics
+python-ipyparallel: for parallel magics
+python-matplotlib: for matplotlib magics
+python-pydot: for dot magics
+
+%MAKEDEPENDS%
+python-build
+python-hatchling
+python-installer
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-timeout
+python-requests
+man-db
+

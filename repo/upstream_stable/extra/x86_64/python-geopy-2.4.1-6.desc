@@ -1,0 +1,66 @@
+%FILENAME%
+python-geopy-2.4.1-6-any.pkg.tar.zst
+
+%NAME%
+python-geopy
+
+%BASE%
+python-geopy
+
+%VERSION%
+2.4.1-6
+
+%DESC%
+Geocoding library for Python
+
+%CSIZE%
+161582
+
+%ISIZE%
+1221412
+
+%SHA256SUM%
+a64a0d2659381a046329dce25813899ce881e41486095a6a03c1be2c46b4cc98
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmlBUf8ACgkQwGCGM3xQdz71Sgf/WKqD+4GYJqlVGFPW5kKFMrAoYxd63N2yI7rAdONhGYW+zJ6nmNgGWPsAbaocFdGTfRRWC1K07HmpHQw4bh2+bKfkjNUJ0fW5l4nMNtF/XPjwahSXExoC8ijvmLdTso95iUOcwFXvTbNk4xvrrSOLzKHco4/KpGEDbQsjgLAbE1HQ5nPJfeaVTfbLi8eF0B/18j1gsWjGerD+wL2gq9tF2/PV1E5d5TG3WfrQEd9mIUdotjBeoQLG1u1xuZyI7D6WjHv0C6NBgKj+2G8d/MdTxGvDlIwZxYMY5JV9ZTfzWcG0bk7D+Jp2vX3p4VMC7H7nuuddTt1mvjwbKF8o18Xi/g==
+
+%URL%
+https://github.com/geopy/geopy
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765888496
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-geographiclib
+
+%OPTDEPENDS%
+python-aiohttp: for async http support
+python-requests: for requests support
+python-pytz: for timezone support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-aiohttp
+python-pytest-asyncio
+python-pytest-aiohttp
+python-pytest
+python-pytz
+python-requests
+

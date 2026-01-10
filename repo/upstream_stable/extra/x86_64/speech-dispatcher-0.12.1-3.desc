@@ -1,0 +1,67 @@
+%FILENAME%
+speech-dispatcher-0.12.1-3-x86_64.pkg.tar.zst
+
+%NAME%
+speech-dispatcher
+
+%BASE%
+speech-dispatcher
+
+%VERSION%
+0.12.1-3
+
+%DESC%
+High-level device independent layer for speech synthesis interface
+
+%CSIZE%
+4336664
+
+%ISIZE%
+29268175
+
+%SHA256SUM%
+6dfe836ff55080ea3f4a87deb3727605bcd042a06c204fb084f7b570bf77a8f8
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmk+54wACgkQwGCGM3xQdz6/6gf/b30QXeKa093ZEq2gRrQ0iv3xWS7X6mVz/50FIQnaw7YiIg4GVDsS/nblFi0A9azsx9VTlAQ3kiQnPiF3cDvLn+TofgYSo4qyzL7vlY5mQ5YviZUHDB8rfyDnF0Al22ch+o9U/+kJaEUJgv+p5LWRc5r5ZDzVsAKqvMLz79Z+Z6Dog0JzodD173/sW3TM7h0sVN7xVcblChw9E7JMP6e0cbrZwtnUVSUK6SgulrGKuQrwT6GifSw0Iw5UOKzea9LFMtErk7QJkhKfUK41RuAGeBrIjly4qoXyvId4a8YojfuRuonXqjv+qpRpeeHUy5ykkzukS42cS0Sfb0ozbZ4C6g==
+
+%URL%
+http://www.freebsoft.org/speechd
+
+%LICENSE%
+GPL2
+FDL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765730149
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+libspeechd=0.12.1-3
+python-pyxdg
+dotconf
+libpulse
+libao
+
+%OPTDEPENDS%
+festival: Speech output using Festival
+espeak-ng: Speech output using ESpeak-ng
+pulseaudio: PulseAudio support
+pipewire: Pipewire support
+
+%MAKEDEPENDS%
+glib2
+intltool
+espeak-ng
+libtool
+python-pyxdg
+dotconf
+libpulse
+libpipewire
+libao
+

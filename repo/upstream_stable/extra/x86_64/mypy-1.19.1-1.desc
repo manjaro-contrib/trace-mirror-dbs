@@ -1,0 +1,70 @@
+%FILENAME%
+mypy-1.19.1-1-any.pkg.tar.zst
+
+%NAME%
+mypy
+
+%BASE%
+mypy
+
+%VERSION%
+1.19.1-1
+
+%DESC%
+Optional static typing for Python (PEP484)
+
+%CSIZE%
+3513179
+
+%ISIZE%
+24269587
+
+%SHA256SUM%
+877fc9832ba4d07d28ab41edfaea4acb2413d19d31ce9f0e4a48d5f86ee6e139
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaVlDdAAKCRDwXowSExrrXn1LAP9vo7ouCssiro4TFKpHbkdYnhYYnfVZXQYb5oMtasYBqwEAqsZel8Ub8aqiPNbQYEkOfjAG8R8BVn3kWA+Gi33T+Qo=
+
+%URL%
+http://www.mypy-lang.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1767457460
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-librt
+python-mypy_extensions
+python-orjson
+python-pathspec
+python-typing_extensions
+
+%OPTDEPENDS%
+python-lxml: for reports
+python-pip: for installing missing types
+python-psutil: for dmypy
+python-setuptools: for mypyc
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-attrs
+python-filelock
+python-psutil
+python-pytest
+python-pytest-xdist
+python-tests
+

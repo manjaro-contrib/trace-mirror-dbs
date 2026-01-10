@@ -1,0 +1,62 @@
+%FILENAME%
+python-oauthlib-3.3.1-2-any.pkg.tar.zst
+
+%NAME%
+python-oauthlib
+
+%BASE%
+python-oauthlib
+
+%VERSION%
+3.3.1-2
+
+%DESC%
+A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
+
+%CSIZE%
+212380
+
+%ISIZE%
+1602833
+
+%SHA256SUM%
+77885eb3edd9db9714f72ef8b54d67ce733ec73937291484e904880fa3ffc9ed
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmk//YMACgkQwGCGM3xQdz7pJAf9EyJQQ6wVDnE+lQTqM1hOoWbslQImKeS1VctwqsSGKQYfhybIAZAw8DJ2KJ0Wc8O6cRSvV/y28LCn04lKG5/MJxEeRt4XSGna1ZXgJvqKfRxwAFjRNU/YpHW3GiuhKv3zeOPIFWZe38eJnzxmxhrRGRPyeowGL10i+i8eh2zZoVFHldGqZRUCs+V7c9uzZUD+m3kIfucf7Y817OgmYNXNbgEVnoVX8BcJ65OmG3uLNXNek1MbSpU3UZDrGwfbDwccGcNoid/KCaNOQEP8kb4JcrXZssWjLFzdlbIQ2nsXRmuWH86DooaA9omNPn4TFn9l3+V8ybH4ADkw+rWzGXlHSQ==
+
+%URL%
+https://github.com/oauthlib/oauthlib
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765801333
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-blinker: for signals support
+python-cryptography: for RSA and signed token support
+python-pyjwt: for signed token support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-blinker
+python-cryptography
+python-pyjwt
+python-pytest
+

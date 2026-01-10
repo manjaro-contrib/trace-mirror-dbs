@@ -1,0 +1,65 @@
+%FILENAME%
+python-schemdraw-0.16-5-any.pkg.tar.zst
+
+%NAME%
+python-schemdraw
+
+%BASE%
+python-schemdraw
+
+%VERSION%
+0.16-5
+
+%DESC%
+Electrical circuit schematic drawing.
+
+%CSIZE%
+273334
+
+%ISIZE%
+1898290
+
+%SHA256SUM%
+bd5aa9cceb2228df89c739661ea7a154471f4b57ea575b70362eb2362346f593
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmlChncACgkQwGCGM3xQdz7nLwf+OsowzycmNDY0rb0lryyS7IGB2P2tLjV9ekEeQHHAJGwxqGC34Fm7Flg9BgbXnmFWoYKuQ6FRDuFVef63YDFDPVGh5ZRxWWWMRfC5Aw55nBjG2lwLfdCC95H2O9boNbYIK+Cv6tkXlIUWzRCH9XXb1v4dA5++bKC13dbH/bpG1SKqAMrzclaKohJHrj1siwBDOGKcQRmpl9TFgEetTjsLVDEy1c4tywiHGbRqgHbHxh3hWZ3hFgc3BFphCOUET7LVphSSnv+CKSTzdNtnTVSsoEx6rs2ROKGsZ3LUlk7BRFIjTMUq2X//i5HgJY3NLdHgNgXhempJftnVAep5LfjFMA==
+
+%URL%
+https://bitbucket.org/cdelker/schemdraw
+
+%LICENSE%
+BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765967444
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-matplotlib: for matplotlib backend
+python-ziafont: for svg backend
+python-ziamath: for svg backend
+python-latex2mathml: for svg backend
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+
+%CHECKDEPENDS%
+python-pytest
+python-nbval
+python-matplotlib
+python-ziafont
+python-ziamath
+python-latex2mathml
+

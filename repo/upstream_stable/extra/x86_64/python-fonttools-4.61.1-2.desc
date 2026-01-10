@@ -1,0 +1,72 @@
+%FILENAME%
+python-fonttools-4.61.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-fonttools
+
+%BASE%
+python-fonttools
+
+%VERSION%
+4.61.1-2
+
+%DESC%
+A library to manipulate font files from Python
+
+%CSIZE%
+3048110
+
+%ISIZE%
+21863995
+
+%SHA256SUM%
+3ec06ade49e842a3fad60bfa5c3991d312e611b68af96ac0cc691fde815d779f
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmk/KUMACgkQwGCGM3xQdz70dAgAiB0BVaciblx4dx1uyCvFC6Ru24GOnLyhIvUvDfObeNQgxdXCEomCBVXMJoqzepwaY7VMtVm2UEUhMsRRaRM0K5Hjf/792NqxhF6+dsJ1MiWzfxT8Vr8rszMwBFiOMXhZVa+MBFIqK/TmOJ7h8g4GDRdR0TyHbzHn+wfZkm8XQ3cyKccYcbToMeMXWaZfZZDyN21VPIkbszvqQp9rxuoEdfXPwD4hZiOW1Upzht+8xb9i4WW6geefOAVzYd3xlwk/IIa/ry/NHOi6XTIywvY/EnOYbQxCHeMRhuAgjCouL4k3tIJCxnR17BrwRpzvsSPCRTgSTW8SXQZhxABHTQ694g==
+
+%URL%
+https://github.com/fonttools/fonttools
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765746948
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-brotli: to compress/decompress WOFF 2.0 web fonts
+python-fs: to read/write UFO source files
+python-lxml: faster backend for XML files reading/writing
+python-lz4: for graphite type tables in ttLib/tables
+python-matplotlib: for visualizing DesignSpaceDocument and resulting VariationModel
+python-pyqt5: for drawing glyphs with Qt’s QPainterPath
+python-reportlab: to drawing glyphs as PNG images
+python-scipy: for finding wrong contour/component order between different masters
+python-sympy: for symbolic font statistics analysis
+python-uharfbuzz: to use the Harfbuzz Repacker for packing GSUB/GPOS tables
+python-unicodedata2: for displaying the Unicode character names when dumping the cmap table with ttx
+python-zopfli: faster backend fom WOFF 1.0 web fonts compression
+
+%MAKEDEPENDS%
+cython
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-brotli
+python-fs
+python-pytest
+python-ufolib2
+

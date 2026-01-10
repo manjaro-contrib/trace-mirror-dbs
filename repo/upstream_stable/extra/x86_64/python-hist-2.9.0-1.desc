@@ -1,0 +1,72 @@
+%FILENAME%
+python-hist-2.9.0-1-any.pkg.tar.zst
+
+%NAME%
+python-hist
+
+%BASE%
+python-hist
+
+%VERSION%
+2.9.0-1
+
+%DESC%
+Python bindings for Boost's Histogram library.
+
+%CSIZE%
+99650
+
+%ISIZE%
+495836
+
+%SHA256SUM%
+05b0152f0bc5c14ab39bde01c3f84a45d39d5b84c539486d597a38746c6c760f
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaUp6dgAKCRAAHPSBC+jZEbKdAPkBU1ISj0a1ImC69ddhoQNqdcU0t94sVil3qOwW8fu/kgD+JqImaFHTqz+MdnfZDL9ISCZ8hGfGAkNkurFOHSb8EQw=
+
+%URL%
+https://github.com/scikit-hep/hist
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1766488644
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python
+python-boost-histogram
+python-histoprint
+
+%OPTDEPENDS%
+python-dask: for dask support
+python-iminuit: for fit support
+python-matplotlib: for mpl and plot support
+python-mplhep: for mpl and plot support
+python-scipy: for fit support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-wheel
+python-setuptools-scm
+python-hatchling
+python-hatch-vcs
+
+%CHECKDEPENDS%
+python-dask
+python-pytest
+python-pytest-benchmark
+python-pytest-mpl
+python-iminuit
+python-mplhep
+python-scipy
+

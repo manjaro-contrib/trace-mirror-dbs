@@ -1,0 +1,65 @@
+%FILENAME%
+radicale-3.5.10-1-any.pkg.tar.zst
+
+%NAME%
+radicale
+
+%BASE%
+radicale
+
+%VERSION%
+3.5.10-1
+
+%DESC%
+Simple calendar (CalDAV) and contact (CardDAV) server
+
+%CSIZE%
+392708
+
+%ISIZE%
+2324943
+
+%SHA256SUM%
+8b97ec1fd2490f0e12a87265d9b839879ef5af6810b644696c7be45b6648c1b6
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaV10GAAKCRAAHPSBC+jZEZW1AQDBPQ2365Ckebz7AJYUct01Cu+G73buasg2MBJpsWMULwEAupmJOF+pZl/jplEtronCuH4nQnSlwslMcd7BoIVr6gM=
+
+%URL%
+https://radicale.org/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1767732164
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python
+python-bcrypt
+python-defusedxml
+python-passlib
+python-pika
+python-vobject
+
+%OPTDEPENDS%
+python-ldap3: for LDAP authentication
+python-pam: for PAM authentication
+python-requests: for OAuth2 authentication
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-waitress
+
