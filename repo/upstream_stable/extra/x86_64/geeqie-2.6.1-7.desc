@@ -1,0 +1,104 @@
+%FILENAME%
+geeqie-2.6.1-7-x86_64.pkg.tar.zst
+
+%NAME%
+geeqie
+
+%BASE%
+geeqie
+
+%VERSION%
+2.6.1-7
+
+%DESC%
+Lightweight image viewer
+
+%CSIZE%
+2174976
+
+%ISIZE%
+7209434
+
+%SHA256SUM%
+83539c68bf017a5fae7a8f62e5587bb970f0903cc24fb377abaf2d5f6617a6b3
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmlmMysACgkQek52CV2KUuRg5Qf9HizaJuCabnI4Ce290YDDLEww2aRAANwEKyRrpY9XSgCE8olxFEmiJPWtn+LYGdUbbSvSS4pVTtQnI5r0ntFeT7HKC7OAFgSV7+LmlKHshK75jZtCl6YKkW/3xbBNkFvl9ecJKuQWAgIRUH+/mVA+xxN2hS9jG4vsxofhNDafanpwDTdU7hHeB6rnqDb2YxjLCfNSuOjEIPBAf7iX3h/239P9du3fHHrNUdmJztRfFr4RkULNZiL2j6vf3EhCmqQVMLCL7M98cb19Ek0dQGpegJNEhXYuqPWAeGayUbVNs1fvmVRnTvI2PPONA0RQkQns2dwpwToFTW69k/uxYzM/gQ==
+
+%URL%
+http://www.geeqie.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1768305287
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+cairo
+cfitsio
+djvulibre
+exiv2
+ffmpegthumbnailer
+gcc-libs
+gdk-pixbuf2
+glib2
+glibc
+gspell
+gtk3
+hicolor-icon-theme
+imath
+lcms2
+libarchive
+libheif
+libjpeg-turbo
+libjxl
+libraw
+libtiff
+libunwind
+libwebp
+lua
+openexr
+openjpeg2
+pango
+poppler-glib
+sh
+
+%OPTDEPENDS%
+librsvg: SVG rendering
+fbida: for jpeg rotation
+gawk: to use the geo-decode function
+perl-image-exiftool: for the jpeg extraction plugin
+gphoto2: command-line tools for various (plugin) operations
+imagemagick: command-line tools for various (plugin) operations
+evince: for print preview
+
+%MAKEDEPENDS%
+evince
+fbida
+gawk
+glib2-devel
+imagemagick
+intltool
+librsvg
+libwmf
+meson
+perl-image-exiftool
+python
+doxygen
+yelp-tools
+graphviz
+pandoc-cli
+
+%CHECKDEPENDS%
+xorg-server-xvfb
+shellcheck
+markdownlint
+appstream
+
