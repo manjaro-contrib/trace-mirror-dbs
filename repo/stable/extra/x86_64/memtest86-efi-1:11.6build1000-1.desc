@@ -1,0 +1,53 @@
+%FILENAME%
+memtest86-efi-1:11.6build1000-1-any.pkg.tar.zst
+
+%NAME%
+memtest86-efi
+
+%BASE%
+memtest86-efi
+
+%VERSION%
+1:11.6build1000-1
+
+%DESC%
+A free, thorough, stand alone memory test as an EFI application
+
+%CSIZE%
+3748900
+
+%ISIZE%
+8904713
+
+%MD5SUM%
+b01ef48b409021d3342f8b8e074c3f2f
+
+%SHA256SUM%
+5a7c9b061f07df21b8266b1cfb454f5882493a3bd99e2a0ba67b0365a3d6c4e6
+
+%PGPSIG%
+iQEzBAABCgAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmlemB0ACgkQFQwgB0PtRthE0QgAhjJiIJq4MHukCmyqdtIiQF1JHLOOVuQYhFJ1XbgDX5d4nSI16rTGtFTugTECKKkyM3rUnuflGP4Rd7Jn3rsl+b+ig6S7rjbPy1Lx4Yyj1s0KfcIsE1L7l38vQFpd+CgPaqIiLIF1pgLNyirFHnOj0MTSbe0EEaUDXyTFOg4q0X9MiGZf6dI94IA/SNmzh+qlZHE2T5yTE9eLgfr5706vO5wm8w+nwUyxu6Xz6QyUlIHromB4KcB2J5TgFTPHmgoS+//PN9bPCphkomVDAdN8W/eCjqL62MXRWxTRPuUDXX7SfQHXMAnVUq9dG99c08dekPG300UxsHfU5kN1053axg==
+
+%URL%
+https://www.memtest86.com
+
+%LICENSE%
+LicenseRef-custom
+
+%ARCH%
+any
+
+%BUILDDATE%
+1767806663
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%OPTDEPENDS%
+efibootmgr: to add a new EFI boot entry
+grub: to add MemTest86 entry in GRUB2 menu
+refind: to use it with this EFI boot manager
+
+%MAKEDEPENDS%
+7zip
+
