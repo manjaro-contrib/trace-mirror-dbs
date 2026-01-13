@@ -1,0 +1,59 @@
+%FILENAME%
+frei0r-plugins-2.5.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+frei0r-plugins
+
+%BASE%
+frei0r-plugins
+
+%VERSION%
+2.5.1-2
+
+%DESC%
+Collection of video effect plugins
+
+%CSIZE%
+489151
+
+%ISIZE%
+6357235
+
+%SHA256SUM%
+07dea0f78406e274278ee8139775c5d25fb85b8b13d231560dd63c1065070adf
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmljjEsACgkQek52CV2KUuRQ1gf8Dz/plb1J7Y2fk8CkIIdjzo1/YNXzf1EYkkCuHLiyRVehrPYRC5bUKTD5NSB4YGY3Z/VqNLESPTb1dvwMggW4D/Whk4HWa9nT8Ax6kQXmptCptnk8xVS7nhu0yaUI6MLs0NkOMOlW/XTY/7JJJyKryopNzlNl7+3Xd4/+tZfQkDSbv473KtUOvWGCvPurTvqoRbYOgDt0up2Ot97KwlVd/EeGeoQ3fNcp5n++R+L7fRb9Qs8mRbB+evlMKriPuuvEN/bNQWBW/Ej5rc26QOiEaxEjIJ4em2QEDRqwC8zDVQp/XPGqL85L7dRYqkVg+Ev01YPY5muweUSH8fGMAu3czw==
+
+%URL%
+https://frei0r.dyne.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1768131611
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+
+%OPTDEPENDS%
+cairo: cairoaffineblend, cairoblend, cairogradient, cairoimagegrid and mirr0r plugins
+gavl: rgbparade, scale0tilt and vectorscope plugins
+opencv: facebl0r and facedetect plugins
+
+%MAKEDEPENDS%
+cairo
+cmake
+gavl
+git
+ninja
+opencv
+

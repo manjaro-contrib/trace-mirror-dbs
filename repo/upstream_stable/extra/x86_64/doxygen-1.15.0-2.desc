@@ -1,0 +1,83 @@
+%FILENAME%
+doxygen-1.15.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+doxygen
+
+%BASE%
+doxygen
+
+%VERSION%
+1.15.0-2
+
+%DESC%
+Documentation system for C++, C, Java, IDL and PHP
+
+%CSIZE%
+6034516
+
+%ISIZE%
+21588354
+
+%SHA256SUM%
+a69d0842ddee5dbdae0c950566a40055bb400a80f3514e7332a1fe56698a8c94
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaVqxYwAKCRDwXowSExrrXpaWAP91o1KoN5+mc20QvNEDzqe1u59pRIM79dwE7cqmmnwnXAD/UrF/LirsnNalSE7ihBJBtQIKfrZJibrjwp3KmkRQWwM=
+
+%URL%
+http://www.doxygen.nl
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1767550967
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+clang
+fmt
+libfmt.so=12-64
+gcc-libs
+glibc
+llvm-libs
+spdlog
+libspdlog.so=1.17-64
+sqlite
+libsqlite3.so=0-64
+
+%OPTDEPENDS%
+graphviz: for caller/callee graph generation
+qt6-base: for doxywizard
+qt6-svg: for doxywizard
+texlive-fontsrecommended: for generating LaTeX, Postscript and PDF output
+texlive-fontutils: for generating LaTeX, Postscript and PDF output
+texlive-latexextra: for generating LaTeX, Postscript and PDF output
+texlive-plaingeneric: for generating LaTeX, Postscript and PDF output
+
+%MAKEDEPENDS%
+clang
+cmake
+flex
+fmt
+gcc-libs
+ghostscript
+glibc
+graphviz
+llvm
+python
+qt6-base
+qt6-svg
+spdlog
+sqlite
+texlive-fontsrecommended
+texlive-fontutils
+texlive-latexextra
+texlive-plaingeneric
+
