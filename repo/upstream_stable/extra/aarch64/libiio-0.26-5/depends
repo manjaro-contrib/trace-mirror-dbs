@@ -1,0 +1,17 @@
+%DEPENDS%
+avahi
+libavahi-client.so=3-64
+libavahi-common.so=3-64
+glibc
+libaio
+libserialport
+libxml2
+libusb
+libusb-1.0.so=0-64
+
+%PROVIDES%
+libiio.so=0-64
+
+%OPTDEPENDS%
+python-pylibiio: for Python bindings
+

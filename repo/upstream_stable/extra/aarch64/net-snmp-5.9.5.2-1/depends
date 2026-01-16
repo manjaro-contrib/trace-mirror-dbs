@@ -1,0 +1,22 @@
+%DEPENDS%
+libnsl
+libpcap
+lm_sensors
+openssl
+pciutils
+pcre2
+perl
+
+%PROVIDES%
+libnetsnmpagent.so=45-64
+libnetsnmphelpers.so=45-64
+libnetsnmpmibs.so=45-64
+libnetsnmp.so=45-64
+libnetsnmptrapd.so=45-64
+libsnmp.so=45-64
+
+%OPTDEPENDS%
+perl-term-readkey: for snmpcheck application
+perl-tk: for snmpcheck and tkmib applications
+python: for the python modules
+

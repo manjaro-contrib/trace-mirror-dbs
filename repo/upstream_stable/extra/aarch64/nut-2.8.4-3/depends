@@ -1,0 +1,22 @@
+%DEPENDS%
+gcc-libs
+glibc
+libmodbus
+libtool
+libusb
+neon
+net-snmp
+openssl
+sh
+systemd-libs
+
+%CONFLICTS%
+network-ups-tools
+
+%PROVIDES%
+network-ups-tools
+
+%OPTDEPENDS%
+gd: for CGI support
+python: for PyNUT
+

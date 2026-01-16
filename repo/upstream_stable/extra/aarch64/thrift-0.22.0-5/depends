@@ -1,0 +1,18 @@
+%DEPENDS%
+gcc-libs
+glib2
+glibc
+libevent
+openssl
+zlib
+
+%PROVIDES%
+libthrift.so=0.22.0-64
+libthrift_c_glib.so=0.22.0-64
+libthriftnb.so=0.22.0-64
+libthriftqt5.so=0.22.0-64
+libthriftz.so=0.22.0-64
+
+%OPTDEPENDS%
+qt5-base: TQTcpServer (Qt5) support
+

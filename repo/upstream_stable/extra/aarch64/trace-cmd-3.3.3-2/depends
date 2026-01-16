@@ -1,0 +1,14 @@
+%DEPENDS%
+audit
+glibc
+libtraceevent
+libtracefs
+zlib
+zstd
+
+%PROVIDES%
+libtracecmd.so=1-64
+
+%OPTDEPENDS%
+python: for Python plugins
+

@@ -1,0 +1,18 @@
+%DEPENDS%
+python-django
+python-django-picklefield
+
+%CONFLICTS%
+python-django-q
+
+%PROVIDES%
+python-django-q
+
+%OPTDEPENDS%
+python-blessed: Display the statistics in the terminal
+python-setproctitle: customize the proctitle
+python-hiredis: redis support
+python-boto3: Amazon Simple Queue Service message queue support
+python-psutil: resource usage limit support
+python-pymongo: MongoDB as a message broker support
+

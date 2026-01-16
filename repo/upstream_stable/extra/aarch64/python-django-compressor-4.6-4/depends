@@ -1,0 +1,17 @@
+%DEPENDS%
+python
+python-django
+python-django-appconf
+python-rcssmin
+python-rjsmin
+
+%OPTDEPENDS%
+python-beautifulsoup4: for compressor.parser.BeautifulSoupParser and compressor.parser.LxmlParser
+python-brotli: for compressor.storage.BrotliCompressorFileStorage
+python-calmjs: for compressor.filters.jsmin.CalmjsFilter
+python-csscompressor: for compressor.filters.cssmin.CSSCompressorFilter
+python-django-sekizai: for including template code into main template
+python-html5lib: for compressor.parser.Html5LibParser
+python-jinja: for jinja2 templating support
+python-lxml: for compressor.parser.LxmlParser
+
