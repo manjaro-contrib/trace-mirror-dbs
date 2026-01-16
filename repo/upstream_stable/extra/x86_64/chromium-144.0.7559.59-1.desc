@@ -1,0 +1,95 @@
+%FILENAME%
+chromium-144.0.7559.59-1-x86_64.pkg.tar.zst
+
+%NAME%
+chromium
+
+%BASE%
+chromium
+
+%VERSION%
+144.0.7559.59-1
+
+%DESC%
+A web browser built for speed, simplicity, and security
+
+%CSIZE%
+124350147
+
+%ISIZE%
+403647048
+
+%SHA256SUM%
+37cd3e60a29a906e249482633fa6d26be28abde951bae987812aa2473a80775a
+
+%PGPSIG%
+iQIzBAABCgAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmlqD9UACgkQk7EdqkwZfj1+WA/+MD6CWXL4xpWdS72lE6Jcgi0ZYFq0RGC4k/Yy845JruB8FaCvjT+Gql3dP+CMHDpkP9397MNQ9gWiLFtLJzW+IfdvgVWyAvSPqUj/PyNwbNL9o4Fo5hGwc/prGTFWG1N2UIkxMdbsK2+6KNvTH9i42b0E5b1jHy0AqFEQ2HuhvTRpdGJkpRWfA+TQmggQR/bEWuzG23UbHCovoA3oAscjFQ5C2uMFTa2cKdrs8b+rkUNGlpIVXdgvlTnN4RlQIuJBJfj1iZ1rXEaDMvnpJRFh9yJeqPTrcBi9shPBr+ZId5w0B/s1FehlL7plIt1W7tNLmV6/ZouN+cDuX8oeNV9LIMu36g7Pmfp8vULc8dPvRQe7g6LhEr1/AVv3mdu+sdMbZgSEDzw5b0hHOOhKWE66WQ5cndBx97+I45Btt17g0ig7TAWk92qth0InIdekuT34q2b69dd38ONVLM+10+e4iY9WNgbRFSRsVCS3xS92OWmkUCkRil+H37RZh4xszPZJx4Pc+MrcP/XwmZhyAuyK08vKWhYbHXG2zd/+2kLP1mFDOyLFN0mW9/hgmoHCH0t6Ulg9FI+yuOcayYaUJHSEzE6q808oIY9UbcCfCAqJK5lKOrkH8ZJCqQXKVorSVkz1e9LYo8gBWPNdTGpINY5rkGVP2Qe2stnjZVePfd0TXbs=
+
+%URL%
+https://www.chromium.org/Home
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1768554654
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+gtk3
+nss
+alsa-lib
+xdg-utils
+libxss
+libcups
+libgcrypt
+ttf-liberation
+systemd
+dbus
+libpulse
+pciutils
+libva
+libffi
+desktop-file-utils
+hicolor-icon-theme
+fontconfig
+brotli
+libjpeg-turbo
+flac
+libxml2
+libwebp
+minizip
+opus
+harfbuzz
+libxslt
+freetype2
+
+%OPTDEPENDS%
+pipewire: WebRTC desktop sharing under Wayland
+kdialog: support for native dialogs in Plasma
+gtk4: for --gtk-version=4 (GTK4 IME might work better on Wayland)
+org.freedesktop.secrets: password storage backend on GNOME / Xfce
+kwallet: support for storing passwords in KWallet on Plasma
+upower: Battery Status API support
+
+%MAKEDEPENDS%
+python
+gn
+ninja
+clang
+lld
+gperf
+nodejs
+pipewire
+rust
+rust-bindgen
+qt6-base
+java-runtime-headless
+git
+compiler-rt
+
