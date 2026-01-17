@@ -1,0 +1,36 @@
+%DEPENDS%
+bash
+bluez-libs
+gcc-libs
+glib2
+glibc
+libcap
+libcap-ng
+libelf
+libnl
+libnm
+libnm.so=0-64
+libpcap
+libpcap.so=1-64
+libsensors.so=5-64
+libusb
+libusb-1.0.so=0-64
+libwebsockets
+libwebsockets.so=20-64
+lm_sensors
+mosquitto
+openssl
+pcre2
+rtl-sdr
+sqlite
+systemd
+zlib
+
+%OPTDEPENDS%
+gpsd: log coordinates of detected networks
+wireshark-cli: provide OUI files used to determine device manufacturer
+wireshark-cli: mergecap, to merge multiple capture files
+sox: provide the default kismet sound playback binary
+festival: text-to-speech support
+flite: alternative/lightweight text-to-speech support
+
