@@ -1,0 +1,113 @@
+%FILENAME%
+matrix-synapse-1.144.0-4-x86_64.pkg.tar.zst
+
+%NAME%
+matrix-synapse
+
+%BASE%
+matrix-synapse
+
+%VERSION%
+1.144.0-4
+
+%DESC%
+Matrix reference homeserver
+
+%CSIZE%
+8105714
+
+%ISIZE%
+39783702
+
+%MD5SUM%
+c710c8e37e69e388b1b3615e51d277f7
+
+%SHA256SUM%
+7c6076cee96e3b8e1350544f39437632650b9c8d0030b0d0505e9973ae533923
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmlrqcAACgkQwGCGM3xQdz4z8ggAjxV4xsmrV0RmdjBnEQTdhtdLoO7H45Iy9xLNd98EesFz5FSiC4LBmgsZTGp1oJ+z7JItFXscB3Jg6Lg8rTWMdiwTcszMBzXEB5Nx7DnU3juJ8QwpDufKaxcdm/MrngQvmNQOY4hVQwgAOZe0Zt3mrRNgra9GBQ/EZkn9XHeH9PN7lG4/LcoMq3O7FXbP0Em19fyNXRntLXg03A2zrmZ0bCad8iMk2NqhvjVI9ScZ8GREYv0fqeLO+WgBE9WEzmfim2Ivnya8Mg4PE2Ky3+i94a8Kh59XWy4BlS8DgN5B4dzDsE9XmLKr/6uYgX8J5wMIgiIxDmmmTKQc18ROQ6vLYQ==
+
+%URL%
+https://github.com/element-hq/synapse
+
+%LICENSE%
+AGPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1768663302
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+libwebp
+python
+python-ijson
+python-jsonschema
+python-twisted
+python-pyopenssl
+python-yaml
+python-pyasn1
+python-pynacl
+python-bcrypt
+python-immutabledict
+python-pillow
+python-pysaml2
+python-pydantic
+python-systemd
+python-unpaddedbase64
+python-canonicaljson
+python-signedjson
+python-pymacaroons
+python-service-identity
+python-msgpack
+python-phonenumbers
+python-prometheus_client
+python-attrs
+python-netaddr
+python-sortedcontainers
+python-treq
+python-idna
+python-jinja
+python-matrix-common
+python-bleach
+python-typing_extensions
+python-python-multipart
+systemd
+
+%OPTDEPENDS%
+perl: sync_room_to_group.pl
+python-psycopg2: PostgreSQL support
+python-lxml: URL previewing
+python-psutil: metrics
+python-pyjwt: jwt
+python-txredisapi: redis
+python-hiredis
+python-pyicu: Improve user search for international display names
+python-authlib: OpenID SSO support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-wheel
+python-poetry-core
+python-setuptools-rust
+
+%CHECKDEPENDS%
+python-pip
+python-authlib
+python-pyjwt
+python-lxml
+python-parameterized
+python-txredisapi
+python-hiredis
+postgresql
+python-pyicu
+

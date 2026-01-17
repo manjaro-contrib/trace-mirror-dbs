@@ -1,0 +1,81 @@
+%FILENAME%
+kismet-2025_09_R1-3-x86_64.pkg.tar.zst
+
+%NAME%
+kismet
+
+%BASE%
+kismet
+
+%VERSION%
+2025_09_R1-3
+
+%DESC%
+802.11 layer2 wireless network detector, sniffer, and intrusion detection system
+
+%CSIZE%
+11133701
+
+%ISIZE%
+23779732
+
+%MD5SUM%
+dcc16260f8e2240ef6c8965297bcd2c1
+
+%SHA256SUM%
+805451c3fb5d68842f05339d3f9789cab2eb18f9c115b8664b56c025db7388f4
+
+%PGPSIG%
+iQIzBAABCgAdFiEE4kC1fixGMLp2ji8m/BtUfI2BcsgFAmlqr+AACgkQ/BtUfI2BcsjZiw/+MBzA9N0RDNzf6GELmUiSv3z3gEMoq5lWh0DsQB3nWEQhuYb+Q0g1u2dz1/ULIZmWRomeEP4kBf9JJm1oAd3p40BH8hHIAbnp6u2ws86ybavFyiiGpGMaX9Yxkbhg7+coQzYWE9Ak4zpx7Obxu0NVVwMza2UXnTdiEgtx74dVa2xapSmoJfOykBz+xt6qJWEYsswdChINYwPNL+GKwBTd0nTDzy+aLdCioe9xIr1nrfdAEnKO/tqpCDrwB7iLFOT8OypYz31gBZxCdGs1bICqdLjeumH6Pav9nYidwqrBKfBhLP30MZJL1zNLRqkOA5nK1RBEex/iiNGBGqzO4gvaxl4DRHUoAsWTIvqVxBfeoSz9yRPGSuiPzscP9P30Acv4oJv5Xx4X1c2HAGqaPnrjak1+g2WXtzINF4hRtFHiW9PLXbmDeo6Pxttydt8N2tlE3kJKo7uFZNmAesemBai/PXZYGGZFd5fc7/DQSLB6JAO42saA5MQxV4zJIQ90JI/Bw0LfykTlyY21WJEYrmD+flDbcEqODaYqEancXUvAW3Qe/fna/GWFwJQTpfjGfdlf1dRQ379NLnJVL0Xlm+/RdubU3Kh5W93xXT0JIVI1dgIQPAbkC+Vr1F3xia216bVJ1G7guVaoOrhceuyIEbiCVJi2CKAwUo8iU1qsCBjIRL8=
+
+%URL%
+https://www.kismetwireless.net/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1768599288
+
+%PACKAGER%
+Levente Polyak <anthraxx@archlinux.org>
+
+%DEPENDS%
+bash
+bluez-libs
+gcc-libs
+glib2
+glibc
+libcap
+libcap-ng
+libelf
+libnl
+libnm
+libnm.so=0-64
+libpcap
+libpcap.so=1-64
+libsensors.so=5-64
+libusb
+libusb-1.0.so=0-64
+libwebsockets
+libwebsockets.so=20-64
+lm_sensors
+mosquitto
+openssl
+pcre2
+rtl-sdr
+sqlite
+systemd
+zlib
+
+%OPTDEPENDS%
+gpsd: log coordinates of detected networks
+wireshark-cli: provide OUI files used to determine device manufacturer
+wireshark-cli: mergecap, to merge multiple capture files
+sox: provide the default kismet sound playback binary
+festival: text-to-speech support
+flite: alternative/lightweight text-to-speech support
+
