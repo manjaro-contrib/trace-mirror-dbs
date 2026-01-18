@@ -1,0 +1,86 @@
+%FILENAME%
+subversion-1.14.5-5-x86_64.pkg.tar.zst
+
+%NAME%
+subversion
+
+%BASE%
+subversion
+
+%VERSION%
+1.14.5-5
+
+%DESC%
+A Modern Concurrent Version Control System
+
+%CSIZE%
+8500530
+
+%ISIZE%
+37520704
+
+%MD5SUM%
+0c7b39e6177eb6285fa20a6e08cc4e3c
+
+%SHA256SUM%
+46dbd5371baf55026822a3cbcd562fa615fcc549dffc7fc8b25fcaf45e7c6c5f
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmlQMNcACgkQek52CV2KUuTR5wf+IddI5Md735yXfvgNG+p1ifjhTlTHC3/ggJBnxJfTM231d+bMrriUxT7KaqlOLEM74/Ypom5r57uKac/ln1ueS8TsPASTOLRLX4wL48+od4W3hiM2rg+jhOzzahVF3GBP/MxrP+EGTOI9UmCzHN5znzdUTEO0ZMp+mXx8vqhisaDZ1a0BbQos93jmJ6JZLPkVGPfYVoL5b/ssqQldyYfNpAuXv3IzGsTLJliUpc3DXYgjDjkOiq3m8LGQUygHzr+2xGvtJWJfpjxK+K0+MXUIvNccZS30DMQrz64k6i2L0TZaeBk1krnE+GgtBdLzLEtAo4ZyuJPdrdoPtRSjuQua4w==
+
+%URL%
+https://subversion.apache.org/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1766861603
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+svn
+
+%DEPENDS%
+apr
+apr-util
+bash
+dbus
+expat
+file
+gcc-libs
+glibc
+libsasl
+libutf8proc
+lz4
+serf
+sqlite
+zlib
+
+%OPTDEPENDS%
+libsecret: for GNOME Keyring for auth credentials
+bash-completion: for svn bash completion
+python: for some hook scripts
+java-environment: for Java support
+ruby: for some hook scripts
+
+%MAKEDEPENDS%
+apache
+python
+python-py3c
+perl
+swig
+java-environment>=8
+libsecret
+ruby
+ruby-nkf
+python-setuptools
+
+%CHECKDEPENDS%
+ruby-test-unit
+

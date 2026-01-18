@@ -1,0 +1,78 @@
+%FILENAME%
+python-keystoneauth1-5.8.0-4-any.pkg.tar.zst
+
+%NAME%
+python-keystoneauth1
+
+%BASE%
+python-keystoneauth1
+
+%VERSION%
+5.8.0-4
+
+%DESC%
+Authentication Library for OpenStack Identity
+
+%CSIZE%
+491674
+
+%ISIZE%
+4106693
+
+%MD5SUM%
+f9b0133a1aadb6c1f0aeca2e9bda5bb7
+
+%SHA256SUM%
+0890130d6c7414af895b2749b9e8a3531847d7de6884b90a76e9bdcb3aa9e0ef
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmlP3DAACgkQek52CV2KUuRewwf+I1LbL0K3bm7nQ1w/RyKzMsUqHwjgNK/ONTwnD7oqduoGgD2WZ9VUm60bhKP6K+eIehmispKGdnq8+MvBqPpuOkRMbT3MVwXgqW3dtjAu5fHjZyc07m/efPPFTmc8+M845jAXM1hz4pyFQNW5D9TE9EKXl1k1zY9V1lt57r8LKssR6l7Ttl+7nAOupkLZN5XvSBEusqN3tlk+tFt/tzA8+AGgC8JMMd7CPVLD3//gDsXuGWlADMfL9wq9GnHaz4jpCoB50MYvys1xAb/phjqugC27I71KAlvbKXrztbbZPUfZEHATHJR2tgIgZ3oxUNW4X4Pjb2Vuj6qYbhAYsMq5jQ==
+
+%URL%
+https://docs.openstack.org/developer/keystoneauth
+
+%LICENSE%
+Apache
+
+%ARCH%
+any
+
+%BUILDDATE%
+1766841354
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python-pbr
+python-iso8601
+python-stevedore
+python-os-service-types
+python-requests
+
+%OPTDEPENDS%
+python-requests-kerberos: for kerberos support
+python-lxml: for saml2 support
+python-oauthlib: for oauth1 support
+python-betamax: for betamax support
+python-fixtures: for betamax support
+
+%MAKEDEPENDS%
+git
+python-setuptools
+
+%CHECKDEPENDS%
+python-hacking
+python-oslo-config
+python-oslo-utils
+python-oslotest
+python-betamax
+python-requests-mock
+python-stestr
+python-testresources
+python-testtools
+python-yaml
+python-requests-kerberos
+python-lxml
+python-oauthlib
+

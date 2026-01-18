@@ -1,0 +1,60 @@
+%FILENAME%
+rt-tests-2.9-2-x86_64.pkg.tar.zst
+
+%NAME%
+rt-tests
+
+%BASE%
+rt-tests
+
+%VERSION%
+2.9-2
+
+%DESC%
+A collection of latency testing tools for the linux(-rt) kernel
+
+%GROUPS%
+realtime
+
+%CSIZE%
+140128
+
+%ISIZE%
+514975
+
+%MD5SUM%
+671bac6fce129c8723ba635e0081907c
+
+%SHA256SUM%
+4f80dfc6a69aa25d250dbe16bf24e60702be37c236f969cc216e429467b63e8a
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmk+xMMACgkQwGCGM3xQdz5AkwgAiNZ7eLJ/0S45uBXE22mu5SiSxK092V5wW9oLjjgYMBrle1ix9P23jHXlgP3p8tIch8+ERqz6vuxmuBQdhZzafP8/HoT/7Dt4dmwGaTs/WtkBKzitysGURowiRPG0Z1qwVA45PJCqp44cznTJe4PrOkmRFH8nxEFYs489e2/SI4gYoxcbRzNrQ8oyDqpJSWna9pYE3st8tQ6t37PxkFbw/gPkx1J3NWKc2AOhE5Hyk2hwJG2gwnJYERF4g/nPHUKpEhZFCpN4Wk7mixPnizamxmerYUPz6FbNWoYkCYPixYUW4gADxzu5KkijkTXVw/kI4bEXD1OksygF/ZsbVt0hYQ==
+
+%URL%
+https://git.kernel.org/pub/scm/utils/rt-tests/rt-tests.git/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765721266
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+bash: for determine_maximum_mpps.sh
+numactl: for cyclictest, oslat and signaltest
+python: for get_cyclictest_snapshot and hwlatdetect
+
+%MAKEDEPENDS%
+numactl
+python-setuptools
+

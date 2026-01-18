@@ -1,0 +1,88 @@
+%FILENAME%
+woob-3.7-2-any.pkg.tar.zst
+
+%NAME%
+woob
+
+%BASE%
+woob
+
+%VERSION%
+3.7-2
+
+%DESC%
+Core library and modules for Web outside of Browsers
+
+%CSIZE%
+892793
+
+%ISIZE%
+5476941
+
+%MD5SUM%
+ac1a53d4450509370edf2168796e9632
+
+%SHA256SUM%
+762e08a0fc99d152a7c3908ea8945b451b62e687fc6ce1b4b2495d7bf483ca65
+
+%PGPSIG%
+iQEyBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmlChr0ACgkQwGCGM3xQdz6FhQf0DUeo/JNgvwII7JvYJuXAqHkXarb5to6GNiL9fsBgS2+OTZE+6yBlbZKMCpBzFbtNJjpSpstO4CkG1q4tNWy94gEFRo6nghrjEhg408+Q91LK3tfMwaSK6gpquw23QrJK4/I/PzEINSA+D5BDJbn6NHVe4IDu0Bag+rwrHV/wpNxL3qhqKKLBxHhsVEkUr8RwocULoAReyy8n14e44U+LfZz0AeN7olELHoZmQSBFOTLxzSEgLdGxrK0v6zrRvxFEmFlYejlFQgUSdcRWipXXCjI253hy/Rl653LO81loS5BqMZLlE1iMD/Ai8aqxwJ++mDuvfY4xwCeQ8KmrOCjg
+
+%URL%
+https://woob.tech/
+
+%LICENSE%
+LGPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765967529
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%REPLACES%
+weboob
+
+%CONFLICTS%
+weboob
+
+%PROVIDES%
+weboob
+
+%DEPENDS%
+python
+python-lxml
+python-requests
+python-dateutil
+python-yaml
+python-html2text
+python-unidecode
+python-pillow
+python-babel
+python-packaging
+python-pycountry
+python-rich
+python-simplejson
+python-setuptools
+
+%OPTDEPENDS%
+python-colorama: CLI usage
+python-prettytable: CLI output formatting
+python-feedparser: required by some modules
+python-jose: required by some modules
+python-pycryptodome: required by some modules
+python-google-api-python-client: multiple Google services like YouTube
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-prettytable
+python-responses
+

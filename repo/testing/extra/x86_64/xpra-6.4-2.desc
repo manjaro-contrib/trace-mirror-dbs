@@ -1,0 +1,80 @@
+%FILENAME%
+xpra-6.4-2-x86_64.pkg.tar.zst
+
+%NAME%
+xpra
+
+%BASE%
+xpra
+
+%VERSION%
+6.4-2
+
+%DESC%
+multi-platform screen and application forwarding system screen for X11
+
+%CSIZE%
+12101905
+
+%ISIZE%
+39555114
+
+%MD5SUM%
+21983fe8652aac4d9740a41b21c064b8
+
+%SHA256SUM%
+590a6011c48cb508c1da099f0566c466d11a5937896a2966d7228b8a9e80173f
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaUj6WAAKCRAAHPSBC+jZEQMaAP40KHKSBDk+zhLda7QaDNaBos48v7qgPXmdwVt+7NWm5QD/X31BP31zNzX7skSYCGxVypKtO/IWdiW/B9VGVq8nAAc=
+
+%URL%
+https://www.xpra.org
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1766390047
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+gtk3
+python
+libxtst
+python-cairo
+python-gobject
+python-pillow
+python-lz4
+ffmpeg
+libvpx
+xf86-video-dummy
+libxkbfile
+libxres
+python-netifaces
+python-rencode
+python-opengl
+python-lz4
+
+%OPTDEPENDS%
+x264: Codec
+python-dbus: dbus features
+python-pycups: Printing support
+python-cryptography: Cryptography
+python-numpy: GPU accelerated capture and compression for NVIDIA cards
+gst-python: Sound Forwarding
+opencv: Webcam Forwarding
+
+%MAKEDEPENDS%
+pkgconf
+pygobject-devel
+python-setuptools
+cython
+uglify-js
+pandoc
+

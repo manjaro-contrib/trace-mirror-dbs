@@ -1,0 +1,64 @@
+%FILENAME%
+fail2ban-1.1.0-8-any.pkg.tar.zst
+
+%NAME%
+fail2ban
+
+%BASE%
+fail2ban
+
+%VERSION%
+1.1.0-8
+
+%DESC%
+Bans IPs after too many failed authentication attempts
+
+%CSIZE%
+910380
+
+%ISIZE%
+5253737
+
+%MD5SUM%
+a777364be840f993697fa5f07e572d18
+
+%SHA256SUM%
+eee7536063bf0ba069150ea7a99898b592a36816e82f11f2d7aa134d4e6c5276
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmlOcD8ACgkQek52CV2KUuQ9Egf/fuQjeFhKBTQVL+UV3g4989S7AxfOrMv+eLqOuiK2UKApM6wXPg8/n/ze/lQPqQp8ICh9vxqMw/b7c2+wdl79YQ/GVt8hIknN+SKVF0FL8vxzXIhiJMz540KRVUw7nVX4EQ8ArUqFf0i9TAYzQM3DFvBhv5NoBPLr+zMS0Jap4QoJ3wWSozeV4KBzLn1K5mR0n/a8wXXjpqGrt1CRWXrOBMCzuI6WmErituFU3ud6XwUNRf5XnCagAfddtetdOzulKPbZ+jr7gyEPfX6H/ijY5zf7Oug7e0d9g77bZaR6hVdMEK9qn9DS3M9qXdgJR19JGfmv2igwgcgcJsBKS8SkrQ==
+
+%URL%
+https://www.fail2ban.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1766748183
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python-pyinotify
+python-systemd
+sqlite
+whois
+
+%OPTDEPENDS%
+firewalld: for a firewall backend
+ipset: for a firewall backend
+iptables: for a firewall backend
+nftables: for a firewall backend
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+

@@ -1,0 +1,62 @@
+%FILENAME%
+python-docutils-1:0.22.3-2-any.pkg.tar.zst
+
+%NAME%
+python-docutils
+
+%BASE%
+python-docutils
+
+%VERSION%
+1:0.22.3-2
+
+%DESC%
+Set of tools for processing plaintext docs into formats such as HTML, XML, or LaTeX
+
+%CSIZE%
+1034514
+
+%ISIZE%
+6833802
+
+%MD5SUM%
+21848224f276ece46c0619a2c1fce6ae
+
+%SHA256SUM%
+1618b789548b2dcd19e8b55ee51b898799fe434ac7dba0e8e68b5089bc2aa93a
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmk+qIwACgkQwGCGM3xQdz5vAAf+LrJp5ZcKZRjejHpv7tWodGJKYIYuv8t1wOw6kGLbGdk0Rtbx8f9gH5tgPn3yJXJ9oZMJ2XUsS+xYaJWZEgryODeIT7tid1TXSczLHLVez6MeR2CVh+TbxJlHoRtBP1CJun+iCwXhZMF6pSC2Hzk2LyDoeNgZvdFb38y5mPGR2np643tAuiKeisFovbC0Z7FvE4JC8EC2IcoSib4Fh2ELAgYw1Aj9pldxgZznVcgZiyp2OhfEB1MtuRh7Dty4bi2FpGko31lrDSrWU6cDerbUNU1drNgUecK0EiFeMEFuEY8HgCQ2DfHLTysKMLXdvA4sqiwadsW+qS0WbLQaQdeuFA==
+
+%URL%
+http://docutils.sourceforge.net
+
+%LICENSE%
+LicenseRef-Public-Domain
+BSD-2-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765714042
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-myst-parser: to parse input in "Markdown" (CommonMark) format
+python-pillow: for some image manipulation operations
+python-pygments: for syntax highlighting of code directives and roles
+
+%MAKEDEPENDS%
+python-build
+python-flit-core
+python-installer
+
+%CHECKDEPENDS%
+python-pillow
+

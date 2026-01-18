@@ -1,0 +1,74 @@
+%FILENAME%
+strongswan-6.0.4-2-x86_64.pkg.tar.zst
+
+%NAME%
+strongswan
+
+%BASE%
+strongswan
+
+%VERSION%
+6.0.4-2
+
+%DESC%
+Open source IPsec implementation
+
+%CSIZE%
+1248734
+
+%ISIZE%
+4250126
+
+%MD5SUM%
+eee247be98c742b626f2f4893a645085
+
+%SHA256SUM%
+56c4178cd6df9c492a2193afeafc74027b49fdeb570d833eb3dc35f1f70c6591
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmk+xfMACgkQwGCGM3xQdz6D/wf+L8FCGLMN7B8HdTfTCPRJAWTK89JL++/XT//q82m9X5JzQGRf8jnkt+oL3Ukfwk95TZDvhF07s7xC/CBpNsIPzlkuusUO3LQZUTLFjfAUkmK/NY2NWuYi7Zd+2T6bgc89/uWKCoIX7NsIBWsS5ABuBbDm2J9Sn1Q84zOZFhr1Fksb4TGUUlpPsYKAJ0p+aYxY5/KBIasdAYluxr5Mw2tPmUEqq9qfZ/1u0M/EFWWMYHVbQryG3AfZg/J7dnLv33BsJR2+ZDM2C+i26OJNmOZRGwNgLh434BLNeQr7ioKK3Su+IFan7FmRzZ3gjEa/KbCj+mGEVfPwixExwTaNnMZ0+A==
+
+%URL%
+https://www.strongswan.org
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765721453
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+curl
+gmp
+iproute2
+openssl
+sqlite
+libcap
+systemd-libs
+pam
+
+%OPTDEPENDS%
+libnm: for networkmanager support
+mariadb: MySQL support
+ruby: Ruby support
+python: Python support
+resolvconf: Resolveplugin
+openldap: LDAP support
+
+%MAKEDEPENDS%
+libnm
+systemd
+ruby
+ruby-rdoc
+mariadb
+python-build
+python-installer
+python-setuptools
+python-wheel
+

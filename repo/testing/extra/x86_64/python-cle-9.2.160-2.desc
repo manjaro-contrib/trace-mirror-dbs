@@ -1,0 +1,75 @@
+%FILENAME%
+python-cle-9.2.160-2-any.pkg.tar.zst
+
+%NAME%
+python-cle
+
+%BASE%
+python-cle
+
+%VERSION%
+9.2.160-2
+
+%DESC%
+Loads binaries and their libraries, resolves imports and provides an abstraction of process memory
+
+%CSIZE%
+402250
+
+%ISIZE%
+2447719
+
+%MD5SUM%
+b4aba3ed03f5c27a375cb1c16ea7db6b
+
+%SHA256SUM%
+50c5c91a016bdbb00aa8545a5f6a6696ec29e641636d1ebd19157c9d131c97f9
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmlGqQ4ACgkQwGCGM3xQdz492Af/ZIURQj6eg3N60Lr7Rx0XiRdMWUQSPaLMWWL9fNDcgPygtoUcPR0vp8xxhC7ERkginoDIqQK0GEyZm33ridoAVCXFAjuSB7ewDflTJLsYaR64xIbiuffLRfL4sG5a0pVZ+Xboi2QYi26CC8XYZ0GDk7KNa1u7ZWEZ7zqRTYU+UsKKcg6bmSyz/dS047zbVkiIeRN15EngdPPoUZlAEQOoM4wGAA62HiOnGEHuII3SY4G6qIgwdOK8K0lMGyNQevuNZFU9A9rHIAHcHeFpjIZ41uqwiH9eml5tNgqbS4WNYrszDi5LofOquSfOKyt1iD6G6hhPYJw+iN3gOl1wzIqohQ==
+
+%URL%
+https://github.com/angr/cle
+
+%LICENSE%
+custom:BSD
+
+%ARCH%
+any
+
+%BUILDDATE%
+1766238429
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+python-pyelftools
+python-cffi
+python-pyvex
+python-pefile
+python-sortedcontainers
+
+%OPTDEPENDS%
+python-claripy: symbolic constraints
+python-minidump: minidump
+python-pyxbe: xbe
+python-arpy: ar
+python-pyaxmlparser: apk
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+
+%CHECKDEPENDS%
+python-pytest
+python-minidump
+python-pyxbe
+python-arpy
+python-claripy
+python-pyaxmlparser
+python-cart
+

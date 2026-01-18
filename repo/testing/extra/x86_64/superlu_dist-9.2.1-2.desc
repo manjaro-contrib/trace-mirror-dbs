@@ -1,0 +1,67 @@
+%FILENAME%
+superlu_dist-9.2.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+superlu_dist
+
+%BASE%
+superlu_dist
+
+%VERSION%
+9.2.1-2
+
+%DESC%
+Distributed memory, MPI based SuperLU
+
+%CSIZE%
+1326562
+
+%ISIZE%
+3160392
+
+%MD5SUM%
+260d8c7f110c660d6642cb0acd4fd0fc
+
+%SHA256SUM%
+e1a4f5b81633de71962c86aa3974085e8ec393bb8de22079ce33de442dd23bce
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaUHDnQAKCRAAHPSBC+jZEdcXAQD0T7y3QDUhfRSELu8coHE9axm7qXPjwonCr1IYmaGXdwD/TDjnILNQcFvyXqlOuc0p9rZO4sE7C2uLLgXltV5rYw8=
+
+%URL%
+https://github.com/xiaoyeli/superlu_dist
+
+%LICENSE%
+BSD-3-Clause-LBNL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765917529
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+blas
+glibc
+gcc-libs
+lapack
+openmpi
+
+%OPTDEPENDS%
+python-mpi4py: for Python interface
+python-numpy: for Python interface
+python-scipy: for Python interface
+
+%MAKEDEPENDS%
+cmake
+gcc-fortran
+python
+
+%CHECKDEPENDS%
+python-mpi4py
+python-numpy
+python-scipy
+

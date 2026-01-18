@@ -1,0 +1,83 @@
+%FILENAME%
+python-geopandas-1.1.2-2-any.pkg.tar.zst
+
+%NAME%
+python-geopandas
+
+%BASE%
+python-geopandas
+
+%VERSION%
+1.1.2-2
+
+%DESC%
+Python tools for geographic data
+
+%CSIZE%
+766369
+
+%ISIZE%
+5371738
+
+%MD5SUM%
+437be5a31cebcf2cc1bbb48d8558b897
+
+%SHA256SUM%
+dd0d1fe320a0da4b435bffc14307ba0efb0e5afff360291c23a33cd333d56c30
+
+%PGPSIG%
+iHUEABYKAB0WIQQEzwzW9u6TrhiW9YQH0GNRylsxvgUCaVPrjgAKCRAH0GNRylsxvj6qAP9nb2hG0apxzdN3y8zwWTonErxdScVg73JTmCwM7NV5rgD+Nl7KsSb7iHOCYKqCb8oufd/qSN2rl4Nfmns/PMLVnw4=
+
+%URL%
+https://geopandas.org
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1767107118
+
+%PACKAGER%
+Torsten Keßler <tpkessler@archlinux.org>
+
+%DEPENDS%
+gdal
+python-fiona
+python-numpy
+python-packaging
+python-pandas
+python-pyproj
+python-shapely
+
+%OPTDEPENDS%
+python-pyogrio: vectorized IO for GDAL/OGR
+python-rtree: spatial access methods
+python-psycopg2: PostGIS access
+python-sqlalchemy: other geodatabase access
+python-geopy: geocoding
+python-matplotlib: plotting
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-fsspec
+python-pyogrio
+python-rtree
+python-matplotlib
+python-scipy
+python-geopy
+python-sqlalchemy
+python-psycopg2
+libspatialite
+python-pyarrow
+postgis
+ghostscript
+

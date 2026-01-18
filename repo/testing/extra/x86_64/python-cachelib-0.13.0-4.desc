@@ -1,0 +1,68 @@
+%FILENAME%
+python-cachelib-0.13.0-4-any.pkg.tar.zst
+
+%NAME%
+python-cachelib
+
+%BASE%
+python-cachelib
+
+%VERSION%
+0.13.0-4
+
+%DESC%
+A collection of cache libraries in the same API interface. Extracted from werkzeug
+
+%CSIZE%
+49117
+
+%ISIZE%
+280928
+
+%MD5SUM%
+ec8a756d2d51ffff688bee61c1923d3e
+
+%SHA256SUM%
+1e6aabd3880cd3fd8a60ccc0e910f33a89f2a078b19c5a2512a1f1523afd23fa
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmlAba8ACgkQwGCGM3xQdz7Y8wf/QElsaedNJzXd+yFdEb4qjamR72kWRHdU2ivxflPiLY2VvQDfJZbJCgh9sPb6fcSEnUFxdl5OlQik57/IEJdLnatku3UjWe57KbcQ1huFcCxwYGoDZEHHhAy1qmHTPo5gCnOKlQWCi2R+vrOCy6uFDxPvMeCelMWxSrT/JwhYG7qLDit5mp04tU2Vi7/3PfKPY3HGke/gjJ/xU3gmBcwDKppA1caxSq+jUMD++3uZ+JIf2QhhGyq+dyM5S0MVlTlFwm5HVZEoIeJobhCGR94cDr8qz7UzFEsosOqmG9uxhmAeA9EHCbqOFUntxY/ydxRkPUojR/jr01vAk+TXg5KIzg==
+
+%URL%
+https://github.com/pallets/cachelib
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765829988
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-boto3: for S3 backend
+python-pylibmc: for memcached backend
+python-pymongo: for MongoDB backend
+python-redis: for Redis backend
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+memcached
+python-boto3
+python-pylibmc
+python-pytest-xprocess
+python-redis
+valkey
+

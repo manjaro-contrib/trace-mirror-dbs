@@ -1,0 +1,82 @@
+%FILENAME%
+doublecmd-qt6-1.2.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+doublecmd-qt6
+
+%BASE%
+doublecmd
+
+%VERSION%
+1.2.0-1
+
+%DESC%
+twin-panel (commander-style) file manager (Qt6)
+
+%CSIZE%
+8683683
+
+%ISIZE%
+47117591
+
+%MD5SUM%
+0a52ec9d1cf32ed43e4be123b4a3c9f6
+
+%SHA256SUM%
+5884ad9e181a38cb5bbbb1a89f6a0f7dbe0f5daa4f7a21b6dd55d491e38e749c
+
+%PGPSIG%
+iHUEABYKAB0WIQRTHs82RKRP6gtH283h488FOUSL/wUCaWOjLAAKCRDh488FOUSL//XlAQD6UHkGT3PrhCaEzBjQnBamUFX3CKqVlG/cvdXrOyowXQD/aTGwSTRGoAJlQKBk/WIrpTODHYy7m8ANMVEl8mK92w4=
+
+%URL%
+http://doublecmd.sourceforge.net/
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.0-or-later
+MIT
+MPL-1.1
+MPL-2.0
+Apache-2.0
+BSD-2-Clause
+Zlib
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1768137227
+
+%PACKAGER%
+Ike Devolder <ike.devolder@archlinux.org>
+
+%CONFLICTS%
+doublecmd-gtk2
+doublecmd-qt5
+
+%PROVIDES%
+doublecmd
+
+%DEPENDS%
+qt6pas
+desktop-file-utils
+hicolor-icon-theme
+shared-mime-info
+
+%OPTDEPENDS%
+lua: scripting
+unzip: support extracting zip archives
+zip: suport packing zip archives
+p7zip: support for 7zip archives
+libunrar: support for rar archives
+imagemagick: preview xcf files
+ffmpegthumbnailer: preview video files
+mplayer: to make use of the wlxmplayer plugin
+
+%MAKEDEPENDS%
+lazarus
+qt5pas
+qt6pas
+imagemagick
+ffmpegthumbnailer
+

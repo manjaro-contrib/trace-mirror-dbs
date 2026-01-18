@@ -1,0 +1,70 @@
+%FILENAME%
+klipper-0.13.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+klipper
+
+%BASE%
+klipper
+
+%VERSION%
+0.13.0-2
+
+%DESC%
+3D printer firmware with motion planning on the host
+
+%CSIZE%
+6932284
+
+%ISIZE%
+223203864
+
+%MD5SUM%
+94550b24d1c607b89d88c5520d4b0ea3
+
+%SHA256SUM%
+d69b05b93dbfa5bf402212d03275d53e8c478db5113d4a0be45eafc5763dabd6
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmk/JXsACgkQwGCGM3xQdz4S9gf/TUSMd73HGHQDGBjszRnklavfWzuh1k9XCRkg7PUf14M5QQ2qyKKWf38H8BdzO0N3HWuXCEqR2smIitq6U6UYzlU9mbPB2MrKdYqpWsshHA9k4Nr/tn7151+U3csPmBeeMdOfcj/1Q/0+itBZzAmm0uo30Dg2RhPtN8MpXc4B09xTObJ/64kITj7VlMDXNtXYh8XnOrfvP1ebzE01jtGi1LI5IXvCdHkeJN77l3G8B77FfV8h8oKtOH56Ccr4IFqfEJA4z77MMVTuB4Oon2C+dOifwRarnUvFGPU8wy0nuM7wgERcHYFNLfgBn/p4y/5BtFjjeUFX0NRg6G6oNjOusg==
+
+%URL%
+https://www.klipper3d.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765745987
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python-can
+python-cffi
+python-greenlet
+python-jinja
+python-markupsafe
+python-pyserial
+libusb
+
+%OPTDEPENDS%
+ncurses: for choosing compilation config
+avrdude: for flashing firmware on AVR MCU
+stm32flash: for flashing firmware on STM32 MCUs
+avr-gcc: for AVR MCU firmware compilation
+avr-binutils: for AVR MCU firmware compilation
+avr-libc: for AVR MCU firmware compilation
+python-numpy: for resonance measurement
+python-matplotlib: for resonance measurement
+dfu-util: for flashing firmware on STM32 MCUs
+arm-none-eabi-gcc: for RPi firmware compilation
+arm-none-eabi-newlib: for RPi firmware compilation
+
+%MAKEDEPENDS%
+git
+

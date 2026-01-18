@@ -1,0 +1,88 @@
+%FILENAME%
+python-numba-0.63.1-5-x86_64.pkg.tar.zst
+
+%NAME%
+python-numba
+
+%BASE%
+python-numba
+
+%VERSION%
+0.63.1-5
+
+%DESC%
+JIT compiler that translates a subset of Python and NumPy code into fast machine code
+
+%CSIZE%
+5663606
+
+%ISIZE%
+42416248
+
+%MD5SUM%
+de3059d926289eb53346f09c712376cf
+
+%SHA256SUM%
+12101f73e9df2214badc505d04897bb0c50c46bd5ccaeb3bf91f82ea019f21a8
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmlQIEkACgkQek52CV2KUuS/Bgf/WVB/ouwLGb60O+nAvUIcvEQBT6FMSGPPFZ3A3w4xiab0j/NADjJTT6GBYC5oecZZPAT2JXPN2sBN33UgLxYmjlMhrE1APR+i3TL/UrN+zLYvBmEuDWFjdiL/qrEOC3YxnXu/NqwWfOfZhxj30PcY5dPaHjd0V75ZGwaknSoAYvgacAbUAxZpfKUcHBxybQk0eIXZDYNJI/2+HCk4HGtbQ7EuLZPCOYx48+JlacVBc+tQWxmxlIvOfDIlUNAg//kxZoODmfZQ9lJ+96AraXd8UyQHNT/lq5NqvbeXWmFVgP0XWaXaJssctSZ9yb9a6U78pg5t7KY9h5CZ/uh76+QwpQ==
+
+%URL%
+https://numba.pydata.org/
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1766857370
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+python
+python-llvmlite
+python-numpy
+
+%OPTDEPENDS%
+onetbb: TBB threading backend
+openmp: OpenMP threading backend
+python-cffi: use of CFFI bindings in compiled functions
+python-colorama: error message highlighting
+python-scipy: cython bindings used in np.linalg.* support
+python-jinja: “pretty” type annotation output (HTML) via the CLI
+python-pyelftools: for code generation
+python-pygments: “pretty” type annotation
+python-pyyaml: use of a .numba_config.yaml file for storing per project configuration options
+python-psutil: for sysinfo
+
+%MAKEDEPENDS%
+git
+onetbb
+openmp
+python-build
+python-installer
+python-packaging
+python-setuptools
+python-versioneer
+python-wheel
+
+%CHECKDEPENDS%
+gdb
+ipython
+python-cffi
+python-ipykernel
+python-jinja
+python-pexpect
+python-pip
+python-pygments
+python-pytest
+python-pyyaml
+python-scipy
+
