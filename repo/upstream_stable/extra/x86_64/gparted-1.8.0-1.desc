@@ -1,0 +1,70 @@
+%FILENAME%
+gparted-1.8.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+gparted
+
+%BASE%
+gparted
+
+%VERSION%
+1.8.0-1
+
+%DESC%
+A Partition Magic clone, frontend to GNU Parted
+
+%CSIZE%
+2067873
+
+%ISIZE%
+7847851
+
+%SHA256SUM%
+ac063a62fc81b7968c3fa97eba089377532b190f6969c8e485a67b296712db20
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaXe9mgAKCRBtQr3RFuAGj36dAPwLvoSANiCqjkUmLQX7QpjSw0L6jUijPyqQ+QuNJKh/XAD/VDCeZa1CyphRjz5GkIBNLcKWtFlflyRwWzlAg/tiyg8=
+
+%URL%
+https://gparted.org/
+
+%LICENSE%
+GPL-2.0-or-later
+GFDL-1.2-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1769454750
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+parted
+gtkmm3
+
+%OPTDEPENDS%
+bcachefs-tools: for bcachefs partitions
+btrfs-progs: for btrfs partitions
+dosfstools: for FAT16 and FAT32 partitions
+exfatprogs: for exFAT partitions
+f2fs-tools: for Flash-Friendly File System
+gpart: for recovering corrupt partition tables
+jfsutils: for jfs partitions
+mtools: utilities to access MS-DOS disks
+nilfs-utils: for nilfs2 support
+ntfs-3g: for ntfs partitions
+polkit: to run gparted from application menu
+udftools: for UDF file system support
+xfsprogs: for xfs partitions
+xorg-xhost: authorization from wayland
+
+%MAKEDEPENDS%
+intltool
+itstool
+pkg-config
+yelp-tools
+polkit
+
