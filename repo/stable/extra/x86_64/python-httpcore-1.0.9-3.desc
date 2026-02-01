@@ -1,0 +1,72 @@
+%FILENAME%
+python-httpcore-1.0.9-3-any.pkg.tar.zst
+
+%NAME%
+python-httpcore
+
+%BASE%
+python-httpcore
+
+%VERSION%
+1.0.9-3
+
+%DESC%
+A minimal HTTP client
+
+%CSIZE%
+128400
+
+%ISIZE%
+1095154
+
+%MD5SUM%
+158c321b0102a586f87978242b2f6ddb
+
+%SHA256SUM%
+cb28c55620f3c03f928b28fde5c824406b7f54a2d994887b7330e6cd694deddf
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaUGj8gAKCRAAHPSBC+jZERkAAP43JF8AtgJAUv4IVhjJdeLAaf4jFEyvq/qr4oSzRgkWbgEApGIyXWuC6HdlFsXRpig4cYTKIA9e2xl/L3qgvDDyFQM=
+
+%URL%
+https://github.com/encode/httpcore
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765909466
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python
+python-h11
+python-certifi
+
+%OPTDEPENDS%
+python-h2: for HTTP/2 support
+python-socksio: for SOCKS support
+python-anyio: for asyncio backend
+python-trio: for trio backend
+python-sniffio: for async support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-hatchling
+python-hatch-fancy-pypi-readme
+python-h2
+python-socksio
+python-trio
+python-anyio
+python-sniffio
+
+%CHECKDEPENDS%
+python-pytest-httpbin
+python-pytest-trio
+

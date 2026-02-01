@@ -1,0 +1,71 @@
+%FILENAME%
+gammastep-2.0.11-2-x86_64.pkg.tar.zst
+
+%NAME%
+gammastep
+
+%BASE%
+gammastep
+
+%VERSION%
+2.0.11-2
+
+%DESC%
+Adjust the color temperature of your screen according to your surroundings.
+
+%CSIZE%
+142818
+
+%ISIZE%
+812937
+
+%MD5SUM%
+4976d9b15d8f0b6dda18cceef3669625
+
+%SHA256SUM%
+ff72ce9635b2abdff98a56c73349777b41aa641deb74c7994590d084dd728575
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmk+vQ0ACgkQwGCGM3xQdz4GQggAljV5QGrj6H8OLdVhr1lOlMjfMQ7mQki9NjBwyO8DeyUP4vKQlrrDOuh+Zag+ZIBXFnJuM8rjyRdP0FGo9fTOqoH5rJ27B2jgEIVBnbaShO++Jtig5r0Z8pLLARfYrwfq3mYekQHwtqY7+Ihxx+7FqVpiVBcMLYrO3DypiUK0g2PDtYhQ1AY/Ik5DszWBqQZ1XSsceAdzhNM2SSfcXR0tfmO3lqwxolE7bcilmpxQYcNHgGAvdZ+yrlnW8t/T6aOiuxOmCiBcbbFtzujJ+VA60dt6jqfncJgPzoGJh8zMNjKoQusDF1iusxXc/Fzq4bccAxX4IdATyzHIFuOM1+/swQ==
+
+%URL%
+https://gitlab.com/chinstrap/gammastep
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1765719287
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+glibc
+hicolor-icon-theme
+libdrm
+libx11
+libxcb
+libxxf86vm
+wayland
+glib2
+libgio-2.0.so=0-64
+libgobject-2.0.so=0-64
+libglib-2.0.so=0-64
+
+%OPTDEPENDS%
+geoclue: for automatic location based on GeoClue2
+python-gobject: for gammastep-indicator
+python-xdg: for gammastep-indicator
+gtk3: for gammastep-indicator
+libappindicator-gtk3: for gammastep-indicator
+
+%MAKEDEPENDS%
+glib2
+intltool
+python
+systemd
+

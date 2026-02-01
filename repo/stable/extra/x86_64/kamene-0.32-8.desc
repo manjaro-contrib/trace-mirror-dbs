@@ -1,0 +1,74 @@
+%FILENAME%
+kamene-0.32-8-any.pkg.tar.zst
+
+%NAME%
+kamene
+
+%BASE%
+kamene
+
+%VERSION%
+0.32-8
+
+%DESC%
+Powerful interactive packet manipulation program (based on scapy) written in Python
+
+%CSIZE%
+1044536
+
+%ISIZE%
+7374319
+
+%MD5SUM%
+c154221f018a34cd602055282d87478f
+
+%SHA256SUM%
+d1fd6fbba7a9ea743d1e84be0ccf4981198b7e94781959ae36f50995565bc6cd
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmlBjroACgkQwGCGM3xQdz4pCggAtD6u68eClqvdI1p01FBqLj2b/2pnFRlS9FI97W+DXg/T2EXQmMDfbQ+/kv1ZACoumpabM7077loOBZXqkwlFLQfVRfwIGsBqvhnmWKPxmt9B3r3nieuw72WA57NN/xvrpt+0GuhcMb2mhDNzOakmSQy7b7WsP4/LJQAw0zQd6MZ9xIk5tj+VwAYujv9Y0s6/tQMD3WTE02YvPNIEeF5JNlcIITqDesFRbKDB7kg9WBVmkNtYrCw2fOoGhMhjoLQ2S8ZBj4FP2WK/87yFPPVhlpiWUXrsZXlLjP8Q5LTt7+l7JqtgKxpdY+GcOPN/TQS7vtCd3Wt7WlWH13jiJPP0nQ==
+
+%URL%
+https://github.com/phaethon/kamene
+
+%LICENSE%
+GPL2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765904015
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%REPLACES%
+scapy3k
+
+%DEPENDS%
+tcpdump
+python
+
+%OPTDEPENDS%
+python-cryptography: WEP decryption, IPsec and certificate support
+python-pyx: psdump() and pdfdump() functions
+python-matplotlib: plotting support
+python-netifaces: network interface information support
+graphviz: conversations() method support
+sox: for VOIP support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-cryptography
+python-pyx
+python-matplotlib
+python-netifaces
+graphviz
+sox
+

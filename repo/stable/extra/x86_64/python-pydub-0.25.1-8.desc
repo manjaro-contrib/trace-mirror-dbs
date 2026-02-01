@@ -1,0 +1,63 @@
+%FILENAME%
+python-pydub-0.25.1-8-any.pkg.tar.zst
+
+%NAME%
+python-pydub
+
+%BASE%
+python-pydub
+
+%VERSION%
+0.25.1-8
+
+%DESC%
+Manipulate audio with a simple and easy high level interface
+
+%CSIZE%
+31420
+
+%ISIZE%
+112582
+
+%MD5SUM%
+f859093b80288b5e9999dcf2c6275826
+
+%SHA256SUM%
+f8ab8e054a0324e6cf67411152aae09108e28a0d9c06b6b7197ef50910acf708
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmk+6C0ACgkQwGCGM3xQdz5kBAgAga21FDJSyfwOpdQV3PxAy+H1/mILSjKlyhH4igzAZ3OXNIZqLkKY3T20429wGlnw9RUjPvWM5cH9byr++CFhTUKvCzFGmf7OIoHOfap0LUBBmaTPXAmgoPdb5vNME438+UHuaHsxaPrERH74efpSt33hVxMOJSwDJcuyEvarwkptZbV1gk1pPomkMI2kz/99EdLzvpnnLQzJAWy7Gma7WtXeoF1jsMjm7N/l2pstWZhsuEjb9gF/++VcNa0C5kHIhXIjMKVJmRrijEx988V+bD+3kEbsq6KdO9v9fRKH5UPmH/GIkRfAkTlqQwEWUNR6JNOCz1OMG6DcD/5mXNsquQ==
+
+%URL%
+https://github.com/jiaaro/pydub
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1765729194
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python-audioop-lts
+ffmpeg
+
+%OPTDEPENDS%
+python-pyaudio: for playback
+python-scipy: for filters support
+python-simpleaudio: for playback
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+

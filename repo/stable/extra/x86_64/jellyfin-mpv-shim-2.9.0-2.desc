@@ -1,0 +1,70 @@
+%FILENAME%
+jellyfin-mpv-shim-2.9.0-2-any.pkg.tar.zst
+
+%NAME%
+jellyfin-mpv-shim
+
+%BASE%
+jellyfin-mpv-shim
+
+%VERSION%
+2.9.0-2
+
+%DESC%
+Cast media from Jellyfin Mobile and Web apps to MPV
+
+%CSIZE%
+380808
+
+%ISIZE%
+1808850
+
+%MD5SUM%
+3dd74705029e9afbcb6a999b0bd0d376
+
+%SHA256SUM%
+fefc04824a3a7885918f93a8919a26162d65604f7912c9cae72c40432bf4d8f7
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmlITj4ACgkQwGCGM3xQdz7StQgAsXKcRzaFh9audFdVRzCdAyNg2Rq6mzgzPKDl4urSf5/XB/yUEpbHTjodfohp8IEtQhrrq5Ad38l+pD2xVkztu5DiRwL4jxVrt6p0grkGtiAQedTgZHneEphQQqLur1fU4ulsDpMnQdNNCZrv9zIoqXgxGIo3pZvDvF0vHP+ZRlWk/7lV9yPHhkGr8/Ug2Fd5jvAZBXMxVrEHOUaT2o/2/wd4UrNA3TKJ/tUtzzeS3+Vhhffeden/5zQrsbl44oqMAdfGkwNWRsHbpO+doRNn66xDp0BYaaytY/DZ8clW461AAUUeZcNgOkzrL+bK3WM9byygoEO0bUYt7aBQt9/P/A==
+
+%URL%
+https://github.com/jellyfin/jellyfin-mpv-shim
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1766346284
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+mpv
+python>=3.6
+hicolor-icon-theme
+python-mpv
+python-requests
+python-mpv-jsonipc>=1.1.9
+python-jellyfin-apiclient>=1.8.1
+tk
+
+%OPTDEPENDS%
+python-pystray: systray support
+python-pillow: TrickPlay thumbnail previews
+python-jinja: display mirroring support
+python-pywebview>=3.3.1: display mirroring support
+mpv-shim-default-shaders: default shader pack
+python-pypresence: Discord Rich Presence integration
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+gettext
+python-setuptools
+

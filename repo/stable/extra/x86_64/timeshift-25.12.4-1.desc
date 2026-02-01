@@ -1,0 +1,64 @@
+%FILENAME%
+timeshift-25.12.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+timeshift
+
+%BASE%
+timeshift
+
+%VERSION%
+25.12.4-1
+
+%DESC%
+A system restore utility for Linux
+
+%CSIZE%
+816519
+
+%ISIZE%
+4135972
+
+%MD5SUM%
+e9ea18ebe47260f207f566d288ff8bc1
+
+%SHA256SUM%
+bf62bc47e04cde2953aaff2d0053279d80eb597179f1232c02d585fce5db31ac
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmlgHUQACgkQ/cMEC5Ksp0hXOQ//aeNno9Xa4kSmZEJfr3Zai1JeRBwo6kdOWVQQOwoslwTW7ErOPLQObiRJzOw2kzDk+pjU4CI5iUKWvXfCF9yi6xjFJt7rBK4grxGoaHQnRmpNzUL4i31kxCm2bbnyPYokdwzbgD66iWRq65oLevKHIP2OzGh3gzZobdNQn2KddKTIebiiF8dcAPDzEWE+wSKmF51cqQ93Qe7pCGV8eoSBKz4IibqYRhmvYgLHwhJU+jhYNDEDmAajaVcq9pstkG/z5jLq6K0MOx3GAKaXZkHj0/rlUQPnzKxvBweUoVHk/MAIV8NP8GlqbzKO64DGPo4YSNHLdoFvkq9do7N9xV8MCU9XlfS+NBwpDzXHs6gml7hxZn3RcoZO8GRe/9ha01aCQ9tn8yHDI/K3fH1/C66b9DkKwXMzZd4q3HNeQYbRD1ekP5LdyXNzUexGHBf+jGUiKrPGvXFG4y6VjgaLthDcP6NBZpJiOPRWrSPy0GCyg3eFeKoXuSmDKFwfhwr4bvGi9K8tJEXCfVHA3J3ZZa/mLySmYdKQRgG0xjEIkksuZM6J7+JRSSD9MOXID9pevdJGYZyirpYrV1cQQb69/zUAwVZxjEXchnlpKLsWKhHbMqMbe0wxX4axmaKP8xr6VkIf2nlnGq1shISHJA3mr/SGm9NF5UoMMR/I4pDBLTWwet8=
+
+%URL%
+https://github.com/linuxmint/timeshift
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1767906596
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+libgee
+json-glib
+gtk3
+vte3
+rsync
+xapp
+cronie
+
+%OPTDEPENDS%
+btrfs-progs: For BTRFS support
+grub-btrfs: For BTRFS snapshots in GRUB
+xorg-xhost: For authorization on Wayland
+
+%MAKEDEPENDS%
+help2man
+meson
+vala
+

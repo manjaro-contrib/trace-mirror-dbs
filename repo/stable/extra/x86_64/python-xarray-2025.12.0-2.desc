@@ -1,0 +1,91 @@
+%FILENAME%
+python-xarray-2025.12.0-2-any.pkg.tar.zst
+
+%NAME%
+python-xarray
+
+%BASE%
+python-xarray
+
+%VERSION%
+2025.12.0-2
+
+%DESC%
+N-D labeled arrays and datasets in Python
+
+%CSIZE%
+1529650
+
+%ISIZE%
+12505980
+
+%MD5SUM%
+fb2a6917afa1386da56a681ebcf2eb2c
+
+%SHA256SUM%
+58d6a272b1ab6b593c488c536777250211aff32e7952654dcf53bb947e464649
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaUR1GgAKCRAAHPSBC+jZEeElAQDiHy5ViCN/JFUNs70k/ggC/tUdZlJZxAZJnxlxVNvqngEAxJfEB92fEfh961Vh4eoWLGyDQCEOt9unSXEYfu2EJQM=
+
+%URL%
+https://xarray.pydata.org/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1766093842
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python
+python-numpy
+python-packaging
+python-pandas
+
+%OPTDEPENDS%
+python-netcdf4: netCDF4 support
+python-h5netcdf: alternative for netCDF4 support
+python-scipy: interpolation features & fallback for netCDF3 support
+python-cftime: datetimes support for non-standard calendars or distant dates
+python-bottleneck: faster NaN-skipping and rolling window aggregations
+python-dask: parallel computation
+python-distributed: parallel computation
+python-matplotlib: plotting support
+python-seaborn: better color palettes for plots
+python-pint: units of measure support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-aiobotocore
+python-bottleneck
+python-cftime
+python-dask
+python-distributed
+python-fsspec
+python-h5netcdf
+python-h5py
+python-hypothesis
+python-matplotlib
+python-netcdf4
+python-numexpr
+python-pint
+python-pyarrow
+python-pytest
+python-pytest-asyncio
+python-pytest-xdist
+python-scipy
+python-seaborn
+

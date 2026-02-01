@@ -1,0 +1,82 @@
+%FILENAME%
+python-astropy-7.2.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-astropy
+
+%BASE%
+python-astropy
+
+%VERSION%
+7.2.0-2
+
+%DESC%
+Common core package for Astronomy
+
+%CSIZE%
+9038011
+
+%ISIZE%
+57676135
+
+%MD5SUM%
+16fd9ee88e53c6777485f187fc3b6211
+
+%SHA256SUM%
+4d79c6d892cf8445a7ad6917d503f8ab6efdcd15a9307fc44dc14ff37b06cdd6
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmlK8+oACgkQek52CV2KUuRMYwf9G1hOVdJT0/SnAkVv6o3APclYoatJQiSjhmJX2oHFhWIcpenCFZfbQRYcT/7Zr4jCtFqxu8hWj6hMNq6kv4l4rAt51+sxV49nqnsM1hLigURh+GtdK4EKFtkFgbzh3npyu8LCx/dcqvauYYRGQv+qRV4t0P2K3XXqLhcBcX/fzcf0uhzHWCBtrrDgVFYQ92h6v1RDLJDQpC8vhbHopBq27o2YyeSpEpNBIIkAgzO507Nxg4NxtWpmv7+HQqljnYwB3OnG9ldJTJY5fuHSrKVixTKl0cY22ho8coZfYsAp/kShNplyAM5I0bNc+HAbbMM7IBmefSq+DqsXz1QDGGGKrg==
+
+%URL%
+https://www.astropy.org/
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1766519696
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python
+expat
+wcslib
+python-numpy
+python-pyerfa
+python-yaml
+python-packaging
+python-astropy-iers-data
+
+%OPTDEPENDS%
+python-matplotlib: plotting functionality astropy.visualization
+python-scipy: variety of features in several modules
+python-certifi
+python-dask
+python-h5py: read/write Table objects from/to HDF5 files
+python-beautifulsoup4: read Table objects from HTML files
+python-html5lib: read Table objects from HTML files using the pandas reader
+python-bleach: sanitize text when disabling HTML escaping in the Table HTML writer
+libxml2: validates VOTABLE XML files
+python-pandas: convert Table objects from/to pandas DataFrame objects
+python-sortedcontainers: faster SCEngine indexing engine with Table
+python-pytz: specify and convert between timezones
+python-setuptools: discovery of entry points which are used to insert fitters into astropy.modeling.fitting
+python-mpmath: ‘kraft-burrows-nousek’ interval in poisson_conf_interval
+python-bottleneck: improves the performance of sigma-clipping and other functionality that may require computing statistics on arrays with NaN values
+python-pyarrow: read/write Table objects from/to Parquet files
+python-fsspec: opening remote and cloud-hosted FITS files
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools-scm
+python-extension-helpers
+cython
+

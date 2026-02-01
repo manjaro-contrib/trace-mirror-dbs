@@ -1,0 +1,71 @@
+%FILENAME%
+pythia8-8.3.14-2-x86_64.pkg.tar.zst
+
+%NAME%
+pythia8
+
+%BASE%
+pythia8
+
+%VERSION%
+8.3.14-2
+
+%DESC%
+High-energy physics events generator
+
+%CSIZE%
+25450031
+
+%ISIZE%
+94088881
+
+%MD5SUM%
+399585969f69714ad4b8c0cb9a2694f3
+
+%SHA256SUM%
+2c7ccd8466a4ddde558631129ec043b14e83f4c9d0a0ba8b6578b0b35ef6c9f1
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaUpy3wAKCRAAHPSBC+jZEX+pAP4wxJnMQqkqvvcXIDY8pmIrfUs2HihHTYWGs1A8oUMR4QEA+d9pvCnVKDuVkb14PjjUJfP0AmFV8n0hxW0yQYhxgQ4=
+
+%URL%
+https://pythia.org
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1766486424
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+bash
+gcc-libs
+glibc
+openmp
+python
+zlib
+
+%OPTDEPENDS%
+fastjet: fast jet finding in pp and e+e- collisions
+hepmc: storing collisions from Monte Carlo
+hepmc2: storing collisions from Monte Carlo (old interface)
+lhapdf: evaluate PDFs from discretised data files
+python-pythia8: for examples
+root: integrated examples with CERN ROOT data analysis framework
+
+%MAKEDEPENDS%
+fastjet
+hepmc
+hepmc2
+lhapdf
+openmp
+python
+root
+zlib
+
