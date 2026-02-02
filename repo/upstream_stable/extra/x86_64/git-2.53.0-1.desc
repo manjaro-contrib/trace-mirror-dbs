@@ -1,0 +1,80 @@
+%FILENAME%
+git-2.53.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+git
+
+%BASE%
+git
+
+%VERSION%
+2.53.0-1
+
+%DESC%
+the fast distributed version control system
+
+%CSIZE%
+7158255
+
+%ISIZE%
+31158839
+
+%SHA256SUM%
+ca23dd0f0d6fe67b19df653f4815eff603fff18bcfc06e6991e76d0838a6aafe
+
+%PGPSIG%
+iQIzBAABCgAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmmA3KkACgkQk7EdqkwZfj0DKw/8CIp/2Gf1qHDWdvDxqLQd2DR2a6ISniHGvftpITbLln64PODlFEXquHArZTwPMYk4SzEco8jaKQgEWwldREPoB3d5vC8biWDYjsdw+FQj2IxfNSiE8sNCvEGp+ym4GXFBlJro8F546VqH0vsf31+4seYDhZ3ZrA25BuKuy5uZERghSCcsvMD83bNvk0PamrBbncaYF8HZn4C2M6aa0rKJckWPmsjdJBHkjlTGLgEuBIOpnDwmtEKtPEULaD2slUajdr5lc5yAcvfz2Baa3Ue/NPNYLETnng4Gs1vh1xtE7libsoR0SioVnxwfDT/MM+L3NCGYDdhHga3fOXtfvsi/Bny4m7h8gTmpFYSRV1tIJVcWnl5hHO7biwZBceO3NKuoUqmkin+F0ckfmk1QjrFa1gMYN4BugaH4dTyWtNL1dofNZNCHXprkKDG6NofDgLEjybfvlqIJmLGs0T792LPouK8BwT+ReREg0VBmI6lok8fUE1BNi54C1Z6HiUlUyAX/D8HRrOSZh5DrD1S+Ds1kOl8EFYitEHTZ0IlnnEPCuHhe5kitCQwtYdNt2SnuZgmh5Pv6m8mzc2ArZX12vmrYVgg3DV/K96qQkLLhqTpW/W1ouAk3e7W1Y9UdqKx6eugXKOSk/6tnZWrtJ0blWxMC1/2D6NAIbLMlgV/jzSZF3Xw=
+
+%URL%
+https://git-scm.com/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1770052636
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+curl
+expat
+perl
+perl-error
+perl-mailtools
+openssl
+pcre2
+grep
+shadow
+zlib-ng
+
+%OPTDEPENDS%
+git-zsh-completion: upstream zsh completion
+tk: gitk and git gui
+openssh: ssh transport and crypto
+man: show help with `git command --help`
+perl-libwww: git svn
+perl-term-readkey: git svn and interactive.singlekey setting
+perl-io-socket-ssl: git send-email TLS support
+perl-authen-sasl: git send-email TLS support
+perl-cgi: gitweb (web interface) support
+python: git svn & git p4
+subversion: git svn
+org.freedesktop.secrets: keyring credential helper
+libsecret: libsecret credential helper
+less: the default pager for git
+
+%MAKEDEPENDS%
+python
+xmlto
+asciidoc
+git
+rust
+
+%CHECKDEPENDS%
+openssh
+
