@@ -1,0 +1,68 @@
+%FILENAME%
+python-keyring-25.7.0-3-any.pkg.tar.zst
+
+%NAME%
+python-keyring
+
+%BASE%
+python-keyring
+
+%VERSION%
+25.7.0-3
+
+%DESC%
+Store and access your passwords safely
+
+%CSIZE%
+80827
+
+%ISIZE%
+379760
+
+%SHA256SUM%
+f0f1a4e5911431690fbff0bdd5d5b0a77772fffe892f6f705f09c05cd0b7aeb2
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaX+SeQAKCRDwXowSExrrXrxIAQDGtHtHFcGmFGX3mujWEfCSVH8rKQFaxquDWKnCa3Z2LAD/dXox/57KCY8NwxwYi7TZB7eqaFbTxP2KFTCiMff3fAk=
+
+%URL%
+https://github.com/jaraco/keyring
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1769965127
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-jaraco.classes
+python-jaraco.context
+python-jaraco.functools
+python-secretstorage
+
+%OPTDEPENDS%
+libsecret: libsecret backend
+python-dbus: kwallet backend
+python-gobject: libsecret backend
+python-keyrings-alt: Alternative backends
+python-pluggy: devpi client
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools-scm
+python-shtab
+python-wheel
+
+%CHECKDEPENDS%
+python-pyfakefs
+python-pytest
+

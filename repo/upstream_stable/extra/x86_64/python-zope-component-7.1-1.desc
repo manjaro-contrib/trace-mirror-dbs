@@ -1,0 +1,72 @@
+%FILENAME%
+python-zope-component-7.1-1-any.pkg.tar.zst
+
+%NAME%
+python-zope-component
+
+%BASE%
+python-zope-component
+
+%VERSION%
+7.1-1
+
+%DESC%
+Represents the core of the Zope Component Architecture
+
+%CSIZE%
+131386
+
+%ISIZE%
+1128621
+
+%SHA256SUM%
+575aa92d82da0a950cec0c4094533683e2734fb64dac69d117c22354b8c69dc0
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaYGt3QAKCRDwXowSExrrXhF6AQDtNPlQQO7kgMBJ9expmkD0OuipXJ3eoQb8vaHBk+jZaAEAs2VnCwCwIOwPV1l6gmfb3H6+yqu3quQ4s+GUex62Rg0=
+
+%URL%
+https://github.com/zopefoundation/zope.component
+
+%LICENSE%
+ZPL-2.1
+
+%ARCH%
+any
+
+%BUILDDATE%
+1770106278
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-setuptools
+python-zope-event
+python-zope-hookable
+python-zope-interface
+
+%OPTDEPENDS%
+python-persistent: for persistent registry
+python-zope-configuration: for zcml
+python-zope-i18nmessageid: for zcml
+python-zope-location: for security
+python-zope-proxy: for security
+python-zope-security: for security
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+python-persistent
+python-pytest
+python-zope-configuration
+python-zope-i18nmessageid
+python-zope-location
+python-zope-proxy
+python-zope-security
+python-zope-testrunner
+

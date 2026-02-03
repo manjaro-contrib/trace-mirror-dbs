@@ -1,0 +1,73 @@
+%FILENAME%
+translate-toolkit-3.18.1-1-any.pkg.tar.zst
+
+%NAME%
+translate-toolkit
+
+%BASE%
+translate-toolkit
+
+%VERSION%
+3.18.1-1
+
+%DESC%
+A toolkit to convert between various different translation formats, help process and validate localisations
+
+%CSIZE%
+1150868
+
+%ISIZE%
+7366106
+
+%SHA256SUM%
+9a7804d5486ec3e54cebc88adb940a8661ed58a0317a5a264c761261b862c989
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaX6P7gAKCRDwXowSExrrXirDAP9rXe8LTrTv2m2kw+xJlyK1gbpoRwjhCTMNJiGDaqe6FgD/WzKsZT5G4U11mrjAInwi2B/N+0ATYJlbQwjG4nmAmwY=
+
+%URL%
+https://toolkit.translatehouse.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1769902002
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+bash
+python
+python-lxml
+python-ruamel-yaml
+python-tomlkit
+python-unicode-segmentation-rs
+
+%OPTDEPENDS%
+gaupol: for po2sub
+python-chardet: encoding detector
+python-cheroot: for TM Server
+python-levenshtein: faster matching
+python-mistletoe: Markdown support for po2md
+python-pyenchant: for spellcheck filter
+python-pyparsing: RC support for po2rc
+python-vobject: iCalendar files support for po2ical
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-cheroot
+python-mistletoe
+python-pyparsing
+python-pytest
+python-vobject
+

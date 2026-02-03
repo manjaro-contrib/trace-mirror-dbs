@@ -1,0 +1,70 @@
+%FILENAME%
+volatility3-2.27.0-2-any.pkg.tar.zst
+
+%NAME%
+volatility3
+
+%BASE%
+volatility3
+
+%VERSION%
+2.27.0-2
+
+%DESC%
+Advanced memory forensics framework
+
+%CSIZE%
+1501756
+
+%ISIZE%
+17087554
+
+%SHA256SUM%
+fa94934e10072660ace1c13657f0ef52133044d85a25e2a9ac31cecd1aa3eae7
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaX6m+gAKCRDwXowSExrrXnSfAQC5Hl/KWaaGoEMlX3K2xetKYY7KZNewWM1ycgyudSVZDgD8DNdnRl7juPSYPBCNSMvJdjkarKaZ6sRXe7iIYcOHBQw=
+
+%URL%
+https://github.com/volatilityfoundation/volatility3
+
+%LICENSE%
+LicenseRef-VolatilityFoundation
+
+%ARCH%
+any
+
+%BUILDDATE%
+1769907496
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%REPLACES%
+volatility
+
+%PROVIDES%
+volatility
+
+%DEPENDS%
+python
+python-pefile
+
+%OPTDEPENDS%
+python-capstone: disassembly support
+python-pillow: screenshot and image support
+python-pycryptodome: cryptographic operations
+python-yara: YARA scanning support
+snappy: AVML compressed memory dump support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-yara
+unzip
+
