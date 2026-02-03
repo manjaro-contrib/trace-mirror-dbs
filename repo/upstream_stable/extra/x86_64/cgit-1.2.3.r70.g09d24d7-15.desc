@@ -1,0 +1,65 @@
+%FILENAME%
+cgit-1.2.3.r70.g09d24d7-15-x86_64.pkg.tar.zst
+
+%NAME%
+cgit
+
+%BASE%
+cgit
+
+%VERSION%
+1.2.3.r70.g09d24d7-15
+
+%DESC%
+A web interface for git written in plain C
+
+%CSIZE%
+1130904
+
+%ISIZE%
+2606964
+
+%SHA256SUM%
+9dfbd57adf6f944397b050ec09f679466c3c2a3cf8c8808ac3a0106de06dcfad
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaYEIQAAKCRBtQr3RFuAGj5v4AQD9cXXsfLpCUfRtb8Hx6ENefmrjhl4UO0v3HA+uYRrZDAD/QG8g7OXHp1kQ4uX55dTBLGvbsBn5HY7tgJ+kUS4fhQc=
+
+%URL%
+https://git.zx2c4.com/cgit/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1770063867
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+openssl
+luajit
+zlib-ng
+
+%OPTDEPENDS%
+groff: about page using man page syntax
+python-pygments: syntax highlighting support
+python-docutils: about page formatted with reStructuredText
+python-markdown: about page formatted with markdown
+lua51-luaossl: for lua filters
+gzip: gzip compressed snapshots
+bzip2: bzip2 compressed snapshots
+lzip: lzip compressed snapshots
+xz: xz compressed snapshots
+zstd: zstd compressed snapshots
+mime-types: serve file with correct content-type header
+
+%MAKEDEPENDS%
+git
+curl
+asciidoc
+
