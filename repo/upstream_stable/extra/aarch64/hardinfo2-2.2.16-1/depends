@@ -1,0 +1,40 @@
+%DEPENDS%
+cairo
+dmidecode
+gawk
+gcc-libs
+gdk-pixbuf2
+glib2
+glibc
+gtk3
+hicolor-icon-theme
+iperf3
+json-glib
+libdecor
+libsoup3
+libx11
+libxcb
+lm_sensors
+mesa-utils
+pango
+pciutils
+qt5-base
+sysbench
+udisks2
+usbutils
+vulkan-icd-loader
+vulkan-tools
+wayland
+xdg-utils
+
+%CONFLICTS%
+hardinfo
+
+%PROVIDES%
+hardinfo
+
+%OPTDEPENDS%
+apcupsd: apcaccess is used for UPS/battery information
+fwupd: Firmware module
+xorg-xrandr: Read monitor setup
+

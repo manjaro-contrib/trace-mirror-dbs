@@ -1,0 +1,14 @@
+%DEPENDS%
+python
+python-pefile
+
+%PROVIDES%
+volatility
+
+%OPTDEPENDS%
+python-capstone: disassembly support
+python-pillow: screenshot and image support
+python-pycryptodome: cryptographic operations
+python-yara: YARA scanning support
+snappy: AVML compressed memory dump support
+
