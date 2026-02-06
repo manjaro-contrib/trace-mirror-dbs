@@ -1,0 +1,109 @@
+%FILENAME%
+jellyfin-ffmpeg-1:7.1.3p1-4-x86_64.pkg.tar.zst
+
+%NAME%
+jellyfin-ffmpeg
+
+%BASE%
+jellyfin-ffmpeg
+
+%VERSION%
+1:7.1.3p1-4
+
+%DESC%
+Jellyfin fork of ffmpeg
+
+%CSIZE%
+23272607
+
+%ISIZE%
+73251728
+
+%MD5SUM%
+593c475cd4c6d458c51de052e43c27ae
+
+%SHA256SUM%
+b54442c9f158afc2ed016fd5073b95a62d7a71468058e73766b695b75976b882
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaYVh7AAKCRDglZ/qi1UFOSRsAP9b+DyMnCRh3tISyEjZFK705MYXUnsqHYDR1K07P/8fHgD/fzFenhLLMKfwea7Vu4m2Rg01cC+txk7Ge3zl9TDTuwo=
+
+%URL%
+https://github.com/jellyfin/jellyfin-ffmpeg
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1770348750
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+glibc
+alsa-lib
+bzip2
+fontconfig
+fribidi
+gmp
+gnutls
+lame
+libass.so=9-64
+libbluray.so=3-64
+libchromaprint.so=1-64
+libdav1d.so=7-64
+libdrm
+libfreetype.so=6-64
+libopenmpt.so=0-64
+libplacebo.so=351-64
+libtheora
+libva.so=2-64
+libva-drm.so=2-64
+libvdpau
+libvorbisenc.so=2-64
+libvorbis.so=0-64
+libvpx.so=11-64
+libwebp
+libx11
+libx264.so=165-64
+libx265.so=215-64
+libxext
+libxml2
+libzimg.so=2-64
+ocl-icd
+onevpl
+opus
+shaderc
+sndio
+srt
+svt-av1
+vulkan-icd-loader
+xz
+zlib
+zvbi
+
+%OPTDEPENDS%
+intel-media-driver: for Intel VAAPI support (Broadwell and newer)
+intel-media-sdk: for Intel Quick Sync Video
+onevpl-intel-gpu: for Intel Quick Sync Video (Alder Lake and newer)
+intel-compute-runtime: for Intel OpenCL runtime based tonemapping
+libva-intel-driver: for Intel legacy VAAPI support (Comet Lake and older)
+libva-mesa-driver: for AMD VAAPI support
+nvidia-utils: for Nvidia NVDEC/NVENC support
+opencl-amd: for AMD OpenCL runtime based Tonemapping
+vulkan-radeon: for AMD RADV Vulkan support
+vulkan-intel: for Intel ANV Vulkan support
+
+%MAKEDEPENDS%
+git
+nasm
+clang
+ffnvcodec-headers
+amf-headers
+opencl-headers
+vulkan-headers
+
