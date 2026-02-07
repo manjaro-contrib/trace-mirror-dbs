@@ -1,29 +1,29 @@
 %FILENAME%
-systemd-tests-259-2-x86_64.pkg.tar.zst
+systemd-resolvconf-259.1-1-x86_64.pkg.tar.zst
 
 %NAME%
-systemd-tests
+systemd-resolvconf
 
 %BASE%
 systemd
 
 %VERSION%
-259-2
+259.1-1
 
 %DESC%
-systemd tests
+systemd resolvconf replacement (for use with systemd-resolved)
 
 %CSIZE%
-5700601
+3334
 
 %ISIZE%
-23699638
+0
 
 %SHA256SUM%
-897f4879330276d58c9bf9308937b375c229d5b16c94159348edc26c28577339
+2fc2f29a3c7a1b84ca98e38f8ca1ce5dcb289861ce5a79c39ddc345788856a88
 
 %PGPSIG%
-iHQEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaV1HuwAKCRBtQr3RFuAGj63AAPwJ7Gaj1FuBDAf4kdy/+ffC3qdCkK5vIArUpbhmqCI39QD0CMQHDnjKfK459yuii36YMdj0zk3Lh/QpR0fnRo6nCw==
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaYYtzQAKCRBtQr3RFuAGjxVcAQDIatiGmH7ChwMz+6x51SYA5I9oCwr2yuYVPpUPMtTvlQEA9PuIJynb8dMaQcTz1odfbG07mjjElAAWLQQ5QwqbKgE=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -35,16 +35,20 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1767720552
+1770401017
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
 
 %CONFLICTS%
-mkinitcpio<38-1
+resolvconf
+
+%PROVIDES%
+openresolv
+resolvconf
 
 %DEPENDS%
-systemd=259
+systemd=259.1
 
 %MAKEDEPENDS%
 acl

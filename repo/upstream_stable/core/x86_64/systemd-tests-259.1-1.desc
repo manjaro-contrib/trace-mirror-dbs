@@ -1,65 +1,50 @@
 %FILENAME%
-systemd-libs-259-2-x86_64.pkg.tar.zst
+systemd-tests-259.1-1-x86_64.pkg.tar.zst
 
 %NAME%
-systemd-libs
+systemd-tests
 
 %BASE%
 systemd
 
 %VERSION%
-259-2
+259.1-1
 
 %DESC%
-systemd client libraries
+systemd tests
 
 %CSIZE%
-1306719
+5722268
 
 %ISIZE%
-3363512
+23793893
 
 %SHA256SUM%
-bc81420626e2be06fe0453a0d55672cf5c166b5027444517d6947f7fc7e51a64
+86c0bafcc8e3e4ce9b790b948ef927ccc092f8cf55db7ed51f819a2730b4d17d
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaV1HuwAKCRBtQr3RFuAGj/3sAP99XS0Y/+CU1c8qK6oa5SCy509I60Cg6a0OkTN1BqxnNAEAqAFPkQsraevc9oGvIkesx4sDY/MPZtNZ9n18uj0HWQ0=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaYYtzQAKCRBtQr3RFuAGj9eQAP0buzlAN0aZMzwUTEPusex9flFCZeSe7L5XpZDrApXIwwD/fsYGIOgfOpDcf5/f1oVcxqoIXOQGVk5+rtByaiQPvQs=
 
 %URL%
 https://www.github.com/systemd/systemd
 
 %LICENSE%
 LGPL-2.1-or-later
-CC0-1.0
-GPL-2.0-or-later WITH Linux-syscall-note
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1767720552
+1770401017
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
 
-%REPLACES%
-libsystemd
-
 %CONFLICTS%
-libsystemd
-
-%PROVIDES%
-libsystemd
-libsystemd.so=0-64
-libudev.so=1-64
+mkinitcpio<38-1
 
 %DEPENDS%
-glibc
-gcc-libs
-libgcrypt
-lz4
-xz
-zstd
+systemd=259.1
 
 %MAKEDEPENDS%
 acl
