@@ -1,0 +1,14 @@
+%DEPENDS%
+pam
+run-parts
+
+%CONFLICTS%
+dcron
+
+%PROVIDES%
+cron
+
+%OPTDEPENDS%
+smtp-forwarder: to send mails from cron jobs
+vim: default editor for fcrontab
+
