@@ -1,0 +1,19 @@
+%DEPENDS%
+hicolor-icon-theme
+libconfig
+libdbus
+libepoxy
+libev
+libgl
+pcre2
+pixman
+xcb-util-image
+xcb-util-renderutil
+
+%OPTDEPENDS%
+dbus: for controlling picom via D-Bus
+python: for running picom-convgen.py
+rtkit: for realtime scheduling priority
+xorg-xprop: for picom-trans
+xorg-xwininfo: for picom-trans
+

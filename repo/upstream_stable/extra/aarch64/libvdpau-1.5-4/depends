@@ -1,0 +1,12 @@
+%DEPENDS%
+glibc
+libx11
+libxext
+
+%PROVIDES%
+libvdpau.so=1-64
+
+%OPTDEPENDS%
+libvdpau-va-gl: driver using VAAPI
+nvidia-utils: driver for NVIDIA
+
