@@ -1,0 +1,29 @@
+%DEPENDS%
+dnssec-anchors
+fstrm
+gcc-libs
+glibc
+gnutls
+knot
+libcap-ng
+libnghttp2
+libngtcp2
+libuv
+lmdb
+luajit
+protobuf-c
+python
+python-aiohttp
+python-jinja
+python-yaml
+supervisor
+systemd-libs
+
+%OPTDEPENDS%
+lua51-basexx: experimental_dot_auth module
+lua51-cqueues: http and dns64 module, policy.rpz() function
+lua51-http: http and prefill modules, trust_anchors bootstrap
+lua51-psl: policy.slice_randomize_psl() function
+python-prometheus_client: stats and metrics in Prometheus format
+python-watchdog: files monitoring and reload on changes
+
