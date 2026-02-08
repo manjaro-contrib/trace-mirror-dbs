@@ -1,0 +1,61 @@
+%FILENAME%
+opendmarc-1.4.2-6-x86_64.pkg.tar.zst
+
+%NAME%
+opendmarc
+
+%BASE%
+opendmarc
+
+%VERSION%
+1.4.2-6
+
+%DESC%
+Free open source software implementation of the DMARC specification
+
+%CSIZE%
+112021
+
+%ISIZE%
+452045
+
+%MD5SUM%
+1032fc096a9c1683f5d8b304b923e2fa
+
+%SHA256SUM%
+8ce217d78da220374f09183ace5147e6371938dd1bf964e21050811d23252221
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaYbn5QAKCRDglZ/qi1UFOdDYAPsEdxJFCbRZn8peue9rKysaaTeiTA4/qNJhq94Q/veSywEAs9Oi5wGZsIz7U+qRmevVsViG0R7p2uTgvAV3WaAIpws=
+
+%URL%
+https://github.com/trusteddomainproject/OpenDMARC
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1770448764
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+smtp-server
+libspf2
+libbsd
+libidn
+perl-json
+libmilter
+
+%OPTDEPENDS%
+opendbx: acts as a middleware layer between OpenDMARC and a SQL backend of choice
+python: run opendmarc scripts at /usr/share/doc/opendmarc
+perl: run opendmarc scripts at /usr/share/doc/opendmarc
+perl-switch: generate DMARC reports
+perl-dbd-mysql: generate DMARC reports
+perl-libwww: generate DMARC reports
+
