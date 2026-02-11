@@ -1,0 +1,66 @@
+%FILENAME%
+nvidia-utils-590.48.01-4-x86_64.pkg.tar.zst
+
+%NAME%
+nvidia-utils
+
+%BASE%
+nvidia-utils
+
+%VERSION%
+590.48.01-4
+
+%DESC%
+NVIDIA drivers utilities
+
+%CSIZE%
+291441798
+
+%ISIZE%
+895395864
+
+%SHA256SUM%
+697907d18e1b8b5b50d11609c02db1e2d4183f5995b0fe892ec44f34d03fcc84
+
+%PGPSIG%
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCaYo8rl8UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCic6AP9LGHBtXfaEHMIxJcCPpYbo3h+D6tZ6a6OeTTmSkHwqcQD/WKo7vEFe1oJhW19P3QCjDJ4rujk9I+1BJ/eQSsEniQo=
+
+%URL%
+http://www.nvidia.com/
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1770666770
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%REPLACES%
+nvidia-libgl
+
+%CONFLICTS%
+nvidia-libgl
+
+%PROVIDES%
+vulkan-driver
+opengl-driver
+nvidia-libgl
+
+%DEPENDS%
+libglvnd
+egl-wayland
+egl-wayland2
+egl-gbm
+egl-x11
+
+%OPTDEPENDS%
+nvidia-settings: configuration tool
+xorg-server: Xorg support
+xorg-server-devel: nvidia-xconfig
+opencl-nvidia: OpenCL support
+
