@@ -1,0 +1,41 @@
+%DEPENDS%
+bash
+gcc-libs
+glibc
+icu
+libicui18n.so=78-64
+libicuuc.so=78-64
+krb5
+libgssapi_krb5.so=2-64
+libldap
+liburing
+liburing.so=2-64
+libxml2
+libxml2.so=16-64
+libxslt
+llvm-libs
+lz4
+liblz4.so=1-64
+numactl
+libnuma.so=1-64
+openssl
+libcrypto.so=3-64
+libssl.so=3-64
+pam
+libpam.so=0-64
+systemd-libs
+libsystemd.so=0-64
+util-linux-libs
+zlib
+libz.so=1-64
+zstd
+libzstd.so=1-64
+postgresql-libs>=18.1
+
+%OPTDEPENDS%
+logrotate: rotates system logs automatically
+perl: for PL/Perl support
+postgresql-old-upgrade: upgrade from previous major version using pg_upgrade
+python: for PL/Python 3 support
+tcl: for PL/Tcl support
+
