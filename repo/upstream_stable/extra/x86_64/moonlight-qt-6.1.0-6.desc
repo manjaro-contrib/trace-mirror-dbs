@@ -1,0 +1,57 @@
+%FILENAME%
+moonlight-qt-6.1.0-6-x86_64.pkg.tar.zst
+
+%NAME%
+moonlight-qt
+
+%BASE%
+moonlight-qt
+
+%VERSION%
+6.1.0-6
+
+%DESC%
+GameStream client for PCs
+
+%CSIZE%
+1019706
+
+%ISIZE%
+2015769
+
+%SHA256SUM%
+17364cd599943b5445c5887e6f93b80f2a175974749bcb18f24d9049b84a5639
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmmM/X0ACgkQ/cMEC5Ksp0geShAAiYQjkrsO9z951Kp8YMkYDhSDgoKodZ27S0VkKRgsClpjJUDTUKpwv/H749zuAQ1k8TQtkUvJdHMCJ4/u1NvXUTBHqSfaKBRjpnvOrhvbDx5ZJe3FTjBVJR17shrFKd1ND4R7eIXFh93/Dhv4ZirRTIlZfCc8Qa7ba1BP0N/vfQeFx5GaPDdg1Cf7PEi8aL01kGA48WfYFx2y5F7eYtCcFNGZwTJpVaSJm4IhgVFkoFJ69l5fbrgp3KEnqc3yodbx/OCqbPgMaS3kVDH6cqk74gDzlW0MXYYzIjIvnMoB7DVytvntC0gxl/gL0VsYl0lCDKN00kErW33zHQ3lNhPEVItixNlIgHoYlDfAGGmFzD7Yky7BR2+iiPmZB0/RRObkstkW81oHUSw4LDLHOH41E4JNyCuF5y1759RmqQF1lJDAt5b9v4+xFANXZJOgC1islAHQxG8uy9YmQyzq2f+10NnsRDRx7B2R1vlQmrKYXuDCTC/HcGkAKER5ecV0hke+XlUk20kj2IXoX/OC4SpYnt+M9LzYpjhEEmeMXAPxR8ccGs9NifkSykDQ5nwnWDXwzk1nrY0ouZfC1uB12J3lhtgqj4S5pEGKE8WfuIEwJdjOc2MEN7+GUZzqyRM3TMOeys4aFLIP56NhVNh1WfIlOutGyWJipVxO+niIbqJ4z0g=
+
+%URL%
+https://moonlight-stream.org
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1770847566
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+qt6-base
+qt6-declarative
+qt6-svg
+ffmpeg
+sdl2_ttf
+sdl2
+
+%OPTDEPENDS%
+libva-intel-driver: hardware acceleration for Intel GPUs GMA 4500 (2008) up to Coffee Lake (2017)
+intel-media-driver: hardware acceleration for Intel GPUs starting from Broadwell (2014) and newer (e.g. Intel Arc)
+
+%MAKEDEPENDS%
+vulkan-headers
+
