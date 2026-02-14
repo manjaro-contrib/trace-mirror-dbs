@@ -1,0 +1,67 @@
+%FILENAME%
+kuserfeedback-6.23.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+kuserfeedback
+
+%BASE%
+kuserfeedback
+
+%VERSION%
+6.23.0-1
+
+%DESC%
+Framework for collecting user feedback for applications via telemetry and surveys
+
+%CSIZE%
+339177
+
+%ISIZE%
+2069256
+
+%SHA256SUM%
+405648b1d482341ba4da873d7669f52f7f5cd74c79a2a4f32d8762e2c7a4ae6f
+
+%PGPSIG%
+iHUEABYKAB0WIQSP5qfUzELIPJvMqOMtoqzD7OTc5gUCaZC80AAKCRAtoqzD7OTc5uylAQCqsFH4jtl0miowdhI+WOaHAEbbcrpDVP9S8DsIG9qnOAD5AYhtCUr2Ca3UFS4LB+6APMbuOb7480h4zlmrcViirAI=
+
+%URL%
+https://community.kde.org/Frameworks
+
+%LICENSE%
+LGPL-2.0-only
+LGPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1771084079
+
+%PACKAGER%
+Tomaz Canabrava <tcanabrava@archlinux.org>
+
+%REPLACES%
+kuserfeedback5
+
+%CONFLICTS%
+kuserfeedback5
+
+%DEPENDS%
+gcc-libs
+glibc
+qt6-base
+
+%OPTDEPENDS%
+qt6-charts: Feedback console
+qt6-declarative: QML bindings
+qt6-svg: Feedback console
+
+%MAKEDEPENDS%
+clang
+extra-cmake-modules
+qt6-charts
+qt6-declarative
+qt6-svg
+qt6-tools
+
