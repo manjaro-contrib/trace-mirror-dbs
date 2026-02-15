@@ -1,0 +1,69 @@
+%FILENAME%
+copyparty-1.20.7-1-any.pkg.tar.zst
+
+%NAME%
+copyparty
+
+%BASE%
+copyparty
+
+%VERSION%
+1.20.7-1
+
+%DESC%
+File server with accelerated resumable uploads, dedup, WebDAV, FTP, TFTP, zeroconf, media indexer, thumbnails++
+
+%CSIZE%
+1740006
+
+%ISIZE%
+8631275
+
+%MD5SUM%
+2b65d876b9480eb7e0024ba3f25fbec2
+
+%SHA256SUM%
+61cef6898c5de900f9aabdf79e64adc46b573244cdfae2bda08e190f32878ee5
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaZFzeQAKCRDglZ/qi1UFObYvAPoCqABQ6Jm451eH9Q1/Yy+EG040hS5pomjku7U7zjtujQEArpri7EzI2PCfSg89k0kW8ZW3HzBBZolnM4PwgMXQ2AA=
+
+%URL%
+https://github.com/9001/copyparty
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1771139881
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+bash
+python
+lsof
+python-jinja
+
+%OPTDEPENDS%
+ffmpeg: thumbnails for videos, images (slower) and audio, music tags
+cfssl: generate TLS certificates on startup
+python-mutagen: music tags (alternative)
+python-pillow: thumbnails for images
+python-pyvips: thumbnails for images (higher quality, faster, uses more ram)
+libkeyfinder: detection of musical keys
+python-pyopenssl: ftps functionality
+python-pyzmq: send zeromq messages from event-hooks
+python-argon2-cffi: hashed passwords in config
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+pigz
+
