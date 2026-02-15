@@ -1,0 +1,108 @@
+%FILENAME%
+libvirt-1:12.0.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+libvirt
+
+%BASE%
+libvirt
+
+%VERSION%
+1:12.0.0-2
+
+%DESC%
+API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)
+
+%CSIZE%
+9478153
+
+%ISIZE%
+55245443
+
+%SHA256SUM%
+16641e0c9247d0f7b4501ae7a1e317758b2a426ea0d4addab950fd9275be1bb6
+
+%PGPSIG%
+iQEzBAABCgAdFiEEW34/txt/EDKaHAOrdx32Yn7faB8FAmmSEc8ACgkQdx32Yn7faB/gTggAqJmsBj1gYOwAvinR0x/XWEz+3oljKvYAbHHYZVAMcIl9BG8gKms6IE0Bmsp/zSAFUHqy0U3+mV0KmlmZNZYAAb9xd0tdWD9nNl4XUpsgj4wgo6YVQmNJvVWk9AtH6nqFqahEUzi7lVMwvVQOLDn+Z7nK+8FXG/K21Jmf5dboimCmO/REIXY543T91oUujjtXZYLQOxZ0x+Q+m5MW2EaOaVj7Qw0836tEhFxCNGbFyHRCvnQAEKeztR0/cLXJjIzNYSIMYdINF/7VV/8Ym1MrErbm9TtfLIANIDmkw34iRok25TJhtG4rfutO98CVP7VvqUDMmj//Owbve/yRK2zhcg==
+
+%URL%
+https://libvirt.org/
+
+%LICENSE%
+LGPL-2.1-or-later
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1771180290
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%PROVIDES%
+libvirt=12.0.0
+libvirt.so=0-64
+libvirt-admin.so=0-64
+libvirt-lxc.so=0-64
+libvirt-qemu.so=0-64
+
+%DEPENDS%
+acl
+audit
+bash
+curl
+device-mapper
+fuse3
+libgcc
+glib2
+glibc
+gnutls
+json-c
+libcap-ng
+libnbd
+libnl
+libpcap
+libpciaccess
+libsasl
+libssh
+libssh2
+libtirpc
+libxml2
+numactl
+parted
+polkit
+readline
+systemd-libs
+util-linux-libs
+
+%OPTDEPENDS%
+dmidecode: DMI system info support
+dnsmasq: required for default NAT/DHCP for guests
+gettext: required for libvirt-guests.service
+iptables-nft: required for default NAT networking
+libvirt-python: for virt-qemu-qmp-proxy and virt-qemu-sev-validate commands
+libvirt-storage-gluster: Gluster storage backend
+libvirt-storage-iscsi-direct: iSCSI-direct storage backend
+lvm2: Logical Volume Manager support
+openbsd-netcat: for remote management over ssh
+open-iscsi: iSCSI support via iscsiadm
+python-cryptography: for virt-qemu-sev-validate command
+python-lxml: for virt-qemu-sev-validate command
+qemu-base: QEMU/KVM support
+qemu-desktop: QEMU/KVM desktop support
+qemu-emulators-full: Support of additional QEMU architectures
+radvd: IPv6 RAD support
+swtpm: TPM emulator support
+
+%MAKEDEPENDS%
+bash-completion
+git
+glusterfs
+libiscsi
+libxslt
+meson
+python-docutils
+systemd
+
