@@ -1,0 +1,67 @@
+%FILENAME%
+libsvm-3.36-3-x86_64.pkg.tar.zst
+
+%NAME%
+libsvm
+
+%BASE%
+libsvm
+
+%VERSION%
+3.36-3
+
+%DESC%
+Library for support vector machines (SVM) classification and regression
+
+%CSIZE%
+198263
+
+%ISIZE%
+607918
+
+%SHA256SUM%
+d431753e31bd33a8f46594e867c2d52fad3b092f34446177a4b0a2911e5825b7
+
+%PGPSIG%
+iHUEABYKAB0WIQSAJH2Z6r06TR46GDboW4aD60i8lQUCaZH74AAKCRDoW4aD60i8lYLhAP9QtKBZzTrYD4Zxz+OtPYddMsLkPfbja1ngiRYtJQpBUAEA2VOujDHGuMOEKqF3O6fLbDa8NDII98q7hTpjNTy42AE=
+
+%URL%
+https://www.csie.ntu.edu.tw/~cjlin/libsvm/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1771174809
+
+%PACKAGER%
+Daniel Bermond <dbermond@archlinux.org>
+
+%DEPENDS%
+glibc
+gnuplot
+libgcc
+libgomp
+libstdc++
+python
+
+%OPTDEPENDS%
+java-runtime: for java bindings
+python-numba: for enabling JIT compiler in python bindings
+python-numpy: for python bindings
+python-scipy: for python bindings
+qt5-base: for Qt5 interface with svm-toy
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+qt5-base
+python-numba
+python-numpy
+python-scipy
+
