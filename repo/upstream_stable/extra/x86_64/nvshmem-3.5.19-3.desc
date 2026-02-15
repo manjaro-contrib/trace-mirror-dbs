@@ -1,0 +1,71 @@
+%FILENAME%
+nvshmem-3.5.19-3-x86_64.pkg.tar.zst
+
+%NAME%
+nvshmem
+
+%BASE%
+nvshmem
+
+%VERSION%
+3.5.19-3
+
+%DESC%
+NVIDIA parallel programming interface based on OpenSHMEM
+
+%CSIZE%
+162042458
+
+%ISIZE%
+1471895601
+
+%SHA256SUM%
+27e333ff7b4691e54741d26d33ae657eecdf5872a1fb8db50857ae9724b1a1ab
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaZHHbwAKCRAAHPSBC+jZEdEWAQDwiIuft9GUD4VLtS+LCGYWbLWNk1ckTPephdYrKsPDfQD8D+t7ElmgY7+Oe9v64ABDthap5oGZL/jRE2cD0/tUnQo=
+
+%URL%
+https://developer.nvidia.com/nvshmem
+
+%LICENSE%
+LicenseRef-NVIDIA-NVSHMEM
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1771156096
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+cuda
+glibc
+libgcc
+libstdc++
+
+%OPTDEPENDS%
+libfabric: For OpenFabrics transport plugin
+openmpi: For MPI and OpenSHMEM bootstrap plugins
+openpmix: For PMI bootstrap plugins
+openucx: For UCX transport plugin
+rdma-core: For IBGDA transport plugin
+
+%MAKEDEPENDS%
+cmake
+cuda
+cython
+ninja
+libfabric
+nccl
+openmpi
+openpmix
+openucx
+rdma-core
+python-build
+python-installer
+python-setuptools-scm
+python-wheel
+
