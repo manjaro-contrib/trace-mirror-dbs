@@ -1,0 +1,73 @@
+%FILENAME%
+python-arrow-adbc-22-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-arrow-adbc
+
+%BASE%
+python-arrow-adbc
+
+%VERSION%
+22-2
+
+%DESC%
+Database connectivity API for Apache Arrow
+
+%CSIZE%
+454583
+
+%ISIZE%
+2153791
+
+%MD5SUM%
+1a33135d45142238e231f85f01d9cf27
+
+%SHA256SUM%
+8c671dd0c033d5f1fd55162a4bf6dd0dd7bb08d8f0fc45594cbab88e561d41d6
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaZLTSAAKCRDglZ/qi1UFObF/AQDZmisy9sKZtXO0xTizalISdoCQ6nkiV0n/tIqSFK7VqQEA5A0DLxHD5QYG1GRpYwvtLYQnk8ZfO4FTTQVF0Gtp5wg=
+
+%URL%
+https://arrow.apache.org/adbc/current/index.html
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1771229688
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+glibc
+libgcc
+libstdc++
+python
+python-typing_extensions
+python-pandas
+python-pyarrow
+
+%OPTDEPENDS%
+python-arrow-adbc-driver-bigquery: BigQuery driver
+python-arrow-adbc-driver-flightsql: Flight SQL driver
+python-arrow-adbc-driver-postgresql: PostgreSQL driver
+python-arrow-adbc-driver-sqlite: SQLite driver
+python-arrow-adbc-driver-snowflake: Snowflake driver
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools-scm
+python-wheel
+cython
+cmake
+ninja
+go
+postgresql-libs
+
