@@ -1,0 +1,68 @@
+%FILENAME%
+fish-4.5.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+fish
+
+%BASE%
+fish
+
+%VERSION%
+4.5.0-1
+
+%DESC%
+Smart and user friendly shell intended mostly for interactive use
+
+%CSIZE%
+3738645
+
+%ISIZE%
+23488802
+
+%SHA256SUM%
+b52e96303c13347560215d75fdae920693e4a2938c434f0d80e94eff48ae5f8d
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaZQSFgAKCRDglZ/qi1UFOdZ8AP9dzmodpjvyfEZ8s9DlzW9bKgoXecC6qlI2J3DT6aB4mQEA2fRphnS6kmY4sO5CH7pe+fe2o1bSafS4S6S2IPcSjQI=
+
+%URL%
+https://fishshell.com/
+
+%LICENSE%
+GPL-2.0-only AND BSD-3-Clause AND ISC AND MIT AND PSF-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1771311085
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+glibc
+libgcc
+ncurses
+pcre2
+
+%OPTDEPENDS%
+python: man page completion parser / web config tool
+pkgfile: command-not-found hook
+groff: --help for built-in commmands
+mandoc: --help for built-in commmands (alternative)
+xsel: X11 clipboard integration
+xclip: X11 clipboard integration (alternative)
+wl-clipboard: Wayland clipboard integration
+
+%MAKEDEPENDS%
+cmake
+git
+jq
+rust
+python-sphinx
+
+%CHECKDEPENDS%
+expect
+procps-ng
+
