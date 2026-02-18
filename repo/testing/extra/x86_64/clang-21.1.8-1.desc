@@ -1,0 +1,74 @@
+%FILENAME%
+clang-21.1.8-1-x86_64.pkg.tar.zst
+
+%NAME%
+clang
+
+%BASE%
+clang
+
+%VERSION%
+21.1.8-1
+
+%DESC%
+C language family frontend for LLVM
+
+%CSIZE%
+51169185
+
+%ISIZE%
+227822188
+
+%MD5SUM%
+f5a0e8b041a2f5b491d07ee8b01182e2
+
+%SHA256SUM%
+3f64e7e1805fda4ee05def4f396b3b851a57ebeb55a2934e5efe70099b9e7627
+
+%PGPSIG%
+iHUEABYKAB0WIQQhkbiUMbrAqLlt6T0kR0DRfH/Q7AUCaYChnQAKCRAkR0DRfH/Q7AiwAQD3LNztZxYcjUrrChQ6xZyYk5M4HBimjdsWMBe5UXAWrwEAz5SlpTRR9b9k1eQHIA7KxGRa2gFhAyM4Rp/kuJ7SCAg=
+
+%URL%
+https://clang.llvm.org/
+
+%LICENSE%
+Apache-2.0 WITH LLVM-exception
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1770036149
+
+%PACKAGER%
+Leonidas Spyropoulos <artafinde@archlinux.org>
+
+%REPLACES%
+clang-analyzer
+clang-tools-extra
+
+%CONFLICTS%
+clang-analyzer
+clang-tools-extra
+
+%PROVIDES%
+clang-analyzer=21.1.8
+clang-tools-extra=21.1.8
+
+%DEPENDS%
+llvm-libs
+gcc
+compiler-rt
+
+%OPTDEPENDS%
+openmp: OpenMP support in clang with -fopenmp
+python: for scan-view and git-clang-format
+llvm: referenced by some clang headers
+
+%MAKEDEPENDS%
+llvm=21.1.8
+cmake
+ninja
+python-sphinx
+python-myst-parser
+
