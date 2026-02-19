@@ -1,0 +1,69 @@
+%FILENAME%
+glances-4.5.0.5-1-any.pkg.tar.zst
+
+%NAME%
+glances
+
+%BASE%
+glances
+
+%VERSION%
+4.5.0.5-1
+
+%DESC%
+CLI curses-based monitoring tool
+
+%CSIZE%
+949609
+
+%ISIZE%
+5622626
+
+%SHA256SUM%
+90ad0eb5f6e1b5e8181f1d6ba17b32b24b73e4b9a770ea0afa89bde17f303c73
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmmVdNMACgkQ/cMEC5Ksp0jqexAAsVLDBEF3XWUFf5/j1w68blGYHHMTmMNAOeLhrHLFUl9JpoQ0a8+F2GmzDuD7KY17GUjRS1y5hWkkzybseAFHS/IMBnEHRBxOMMIEflpi5lFaCGKRq9rdR86qUPcCcJrxmGmr+0svMwwHZrzOJ58964RMuqth/QUvFNeWNPzOBe9Kk48AFR14SXClBZphNHofoyY9liHPCDHNW9IK2C5F0TGthWspjeZnK78ZxQv7Hkk8UH0VD7BILxGuv3ATt0yhjoYB0ptHdCv7JFRvrtgRpLOu8Ihmr41l+8zzLWVB45q5wL4EO3GvwwsmUbac5hkUBmPjc/140zjP026SUXnXcIahjgSLl1VQ3StxZvFIARbwL2kTi1cDu3cLJboyfa/VB3wkbNCYtLqYRv4T2eBfp7qQ6PC/B58x+la2IRfQtXpPDqWOe+GEDeF+YLqECmankU6UcbVHqOJgQZuJEhsm303H84AY6wmTx+lN9kTYESaIp5HxSULAekrfsib59ZuR5n31cz2xnr/9U5qz47L77iyXruuGl4efU8+LpJLZJW+KsSfYs402yiimnJKbnkSgBesbmrnALlaOUjGvuH+E6RSYSPMlLYOjO+tJof1UgLrIEhf/TcYB6DD0VX0C6bIvylVaPObesa1T2uSqg7E0Krml79Fghh1wwIAB2DTFDo4=
+
+%URL%
+https://nicolargo.github.io/glances
+
+%LICENSE%
+LGPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1771402405
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-psutil
+python-defusedxml
+python-orjson
+python-pydantic
+python-packaging
+python-jinja
+python-shtab
+
+%OPTDEPENDS%
+hddtemp: HDD temperature monitoring support
+uvicorn: for WebUI / RestFull API
+python-fastapi: for WebUI / RestFull API
+python-docker: for the Docker monitoring support
+python-matplotlib: for graphical/chart support
+python-netifaces2: for the IP plugin
+python-zeroconf: for the autodiscover mode
+python-pystache: templating engine
+python-prometheus_client: for the Prometheus export module
+
+%MAKEDEPENDS%
+python-setuptools
+python-build
+python-installer
+python-wheel
+
