@@ -1,0 +1,62 @@
+%FILENAME%
+j4-dmenu-desktop-3.2-7-x86_64.pkg.tar.zst
+
+%NAME%
+j4-dmenu-desktop
+
+%BASE%
+j4-dmenu-desktop
+
+%VERSION%
+3.2-7
+
+%DESC%
+Find .desktop files and offer you a menu to start an application using dmenu
+
+%CSIZE%
+126077
+
+%ISIZE%
+305591
+
+%SHA256SUM%
+3d9dae37be62891d42a6296eb7c433d7ea1c1759ac67e10b8efb5768fe95d68b
+
+%PGPSIG%
+iHUEABYKAB0WIQQ1uuG/mmsxcCHmkMJufOCwo22irgUCaZjJSwAKCRBufOCwo22irs7iAP9tkE11+aAzUxIoKuKj0AkYLvfKZddxY68+nUFcEs+lIwEA0SjPtKGCDtmT65KiUKA7FhpTnDZJP1O/s5NTzBUk2Q0=
+
+%URL%
+https://github.com/enkore/j4-dmenu-desktop
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1771620622
+
+%PACKAGER%
+Brett Cornwall <ainola@archlinux.org>
+
+%DEPENDS%
+fmt
+glibc
+libstdc++.so=6-64
+libgcc_s.so=1-64
+spdlog
+
+%OPTDEPENDS%
+dmenu: The default backend
+bemenu: An alternative backend
+wmenu: An alternative backend
+
+%MAKEDEPENDS%
+catch2
+cmake
+meson
+
+%CHECKDEPENDS%
+python-pytest
+
