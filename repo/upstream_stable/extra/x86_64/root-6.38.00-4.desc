@@ -1,0 +1,135 @@
+%FILENAME%
+root-6.38.00-4-x86_64.pkg.tar.zst
+
+%NAME%
+root
+
+%BASE%
+root
+
+%VERSION%
+6.38.00-4
+
+%DESC%
+C++ data analysis framework and interpreter from CERN
+
+%CSIZE%
+155478004
+
+%ISIZE%
+572052360
+
+%SHA256SUM%
+3a09dde272588dd5af1cdf9098301b3f1573646c16b0ef3d26fb9c63081e8b05
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaZnM9QAKCRAAHPSBC+jZEUqPAP4mj9ZntdzH7CP6gd5m7kl2/8V8RG/XYCgi/o+ZmYy0tAEA+4x7k1FDWXqfi3/Yjyjs9GV4jzBfnw3Uc3ci0bWiOAg=
+
+%URL%
+https://root.cern
+
+%LICENSE%
+LGPL-2.1-or-later
+BSD-2-Clause
+BSD-3-Clause-LBNL
+NCSA
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1771683141
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%CONFLICTS%
+python-cppyy
+python-cppyy-backend
+python-cpycppyy
+
+%PROVIDES%
+python-cppyy
+python-cppyy-backend
+python-cpycppyy
+
+%DEPENDS%
+blas
+desktop-file-utils
+fcgi
+fftw
+ftgl
+giflib
+gl2ps
+glew
+glibc
+graphviz
+gsl
+hicolor-icon-theme
+libgcc
+libgfortran
+libglvnd
+libjpeg-turbo
+libpng
+librsvg
+libstdc++
+libtiff
+liburing
+libxcrypt
+libxft
+libxml2
+libxpm
+lz4
+ncurses
+openssl
+pcre2
+python
+python-numpy
+tbb
+tex-gyre-fonts
+xxhash
+xz
+zlib
+zstd
+
+%OPTDEPENDS%
+cern-vdt: Add a set of fast and vectorisable mathematical functions
+cfitsio: Read images and data from FITS files
+chromium: Support for WebGUI
+gcc-fortran: Enable the Fortran components of ROOT
+jupyter-metakernel: for Jupyter kernel
+openmpi: Support for Message Passing Interface (MPI)
+pythia8>=8.2.40-1: Pythia8 EG support
+python-pygments: syntax highlighting in interactive console
+qt6-webengine: Support for WebGUI
+sqlite: SQLite support
+tcsh: Legacy CSH support
+unuran: Support non-uniform random numbers
+vc: Add types for portable and intuitive SIMD programming
+xrootd>5: Support remote file server and client
+z3: Suuport the Z3 theorem prover
+
+%MAKEDEPENDS%
+cern-vdt
+cfitsio
+chromium
+cmake
+cuda
+cudnn
+gcc-fortran
+git
+go
+ninja
+nlohmann-json
+ocaml
+ocaml-ctypes
+openmpi
+pythia8
+python-pygments
+qt6-webengine
+sqlite
+unuran
+vc
+xrootd
+z3
+
