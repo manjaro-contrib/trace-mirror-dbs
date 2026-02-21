@@ -1,0 +1,32 @@
+%DEPENDS%
+bzip2
+expat
+glibc
+icu
+krb5
+libcap
+libgcc
+libsodium
+libstdc++
+libstemmer
+libxcrypt
+lz4
+mariadb-libs
+openssl
+pam
+pcre2
+postgresql-libs
+sqlite
+systemd-libs
+zlib
+zstd
+
+%PROVIDES%
+imap-server
+pop3-server
+
+%OPTDEPENDS%
+libldap: LDAP plugin
+lua53: Lua auth and push support
+xapian-core: FTS flatcurve indexer
+
