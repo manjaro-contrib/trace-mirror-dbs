@@ -1,0 +1,96 @@
+%FILENAME%
+postfix-3.10.8-1-x86_64.pkg.tar.zst
+
+%NAME%
+postfix
+
+%BASE%
+postfix
+
+%VERSION%
+3.10.8-1
+
+%DESC%
+Fast, easy to administer, secure mail server
+
+%CSIZE%
+1424894
+
+%ISIZE%
+4574598
+
+%MD5SUM%
+d6b337574cc962d9b6e04fa52289427f
+
+%SHA256SUM%
+f784366b061005345df22a132b00d33f409812d4d1549b5b6872f77af6a0f6ca
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmmYj30ACgkQ/cMEC5Ksp0hWzg//ScXba+PCw4+2dXNe2h/6E9M3wFzQYuzDSkIsI7e4nyJ5FeOuqK27zXlfC32mrniGWBKKyHGemFeK6nUbuhIZrl1gkN6a2Zstyr2jSx93SgutkZuH6cdG3/h8Q98mX7bVL0ZjS8rsWQ6B+fyqx5Pln64u+Sz+pgUTNWXwUMncep6uUACylP3mqpm9noTGVE7NmZtdCLQe39D4hSLCdV5XSPj054Xb9Mp9lHhXCy6NwcK0og1OnwvFXljeVED08mXbe/n0FVho0lRBHleEErlFEy2+FzLZCT6vW/ZOiYxRIH0NrmhTLdFoofKSSHixeBjbPWdk6T6tlB1owWlz5V34GOGEfZdcejYk1ZXMgqAf8x3EFuZmKccwNbJfrZeNsnEYta2QVc03eX7NBl56kz6SlXXlisEWIl/rDHIzzsN6dr4RvCJa/lO47izx5yIHLPijJOGU7zK7Cufcw8dJDt/u3dIbh5verEyICYuvZMgS8OkRLU6QDULX20HqAhGdn3MtHXSdVPbzyIcDDxzrcUpV7z1JP/B1LnzyXq+fhg+cOeVq8+Kb01S27oJcD+zzynvEbGXLEOn8T/4qZD3RXt7FNKH5Pmq5aDNZREDnJ8Zss0FX49W8SUW+5E9XOFhTntbcfLs4esvrQSN7ks07KszRFD/62x7Ns/GUc07FzpxfpFc=
+
+%URL%
+https://www.postfix.org/
+
+%LICENSE%
+EPL-2.0 OR IPL-1.0
+BSD-4-Clause-UC
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1771605804
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%CONFLICTS%
+smtp-server
+smtp-forwarder
+
+%PROVIDES%
+smtp-server
+smtp-forwarder
+
+%DEPENDS%
+glibc
+icu
+libicuuc.so=78-64
+libnsl
+libnsl.so=3-64
+libsasl
+libsasl2.so=3-64
+libtlsrpt
+libtlsrpt.so=0-64
+openssl
+libcrypto.so=3-64
+libssl.so=3-64
+postfix-lmdb
+sh
+
+%OPTDEPENDS%
+perl: for postfix-collate.pl, postfix-tlstype.pl and qshape
+postfix-cdb: for CDB integration
+postfix-ldap: for LDAP integration
+postfix-lmdb: for LMDB integration
+postfix-mongodb: for MongoDB integration
+postfix-mysql: for MySQL integration
+postfix-pcre: for PCRE integration
+postfix-pgsql: for PostgreSQL integration
+postfix-sqlite: for SQLite integration
+
+%MAKEDEPENDS%
+icu
+libldap
+libnsl
+libsasl
+libtlsrpt
+lmdb
+mariadb-libs
+mongo-c-driver
+openssl
+pcre2
+postgresql-libs
+sqlite
+tinycdb
+
