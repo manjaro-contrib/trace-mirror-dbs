@@ -1,0 +1,74 @@
+%FILENAME%
+python-engineio-4.13.1-1-any.pkg.tar.zst
+
+%NAME%
+python-engineio
+
+%BASE%
+python-engineio
+
+%VERSION%
+4.13.1-1
+
+%DESC%
+Python implementation of the Engine.IO realtime server
+
+%CSIZE%
+138104
+
+%ISIZE%
+825528
+
+%MD5SUM%
+4609387c04d8d9fd258155d4729b2304
+
+%SHA256SUM%
+450d632ae278b538c21f267e1a91105eb68be2d51853c142ad453f1b6b0a1bba
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaYcOsgAKCRDwXowSExrrXn+lAQDKq9ypQW+iEee5TNdv8AAdqKhiqfk1XdVrrZVwFaPoKQEAjhOA8oWiUsJD7dSCPzzC9JRcxr+v3K8hPQXbpK2LHg0=
+
+%URL%
+https://github.com/miguelgrinberg/python-engineio
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1770458721
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-requests
+python-simple-websocket
+python-websocket-client
+
+%OPTDEPENDS%
+python-aiohttp: aiohttp driver
+python-eventlet: eventlet driver
+python-gevent-websocket: gevent driver
+python-gevent: gevent driver
+python-tornado: tornado driver
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-sphinx
+python-wheel
+
+%CHECKDEPENDS%
+python-aiohttp
+python-eventlet
+python-gevent
+python-gevent-websocket
+python-pytest
+python-pytest-asyncio
+python-tornado
+

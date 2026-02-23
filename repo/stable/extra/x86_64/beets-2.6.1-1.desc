@@ -1,0 +1,113 @@
+%FILENAME%
+beets-2.6.1-1-any.pkg.tar.zst
+
+%NAME%
+beets
+
+%BASE%
+beets
+
+%VERSION%
+2.6.1-1
+
+%DESC%
+Flexible music library manager and tagger
+
+%CSIZE%
+1061259
+
+%ISIZE%
+6152711
+
+%MD5SUM%
+01d5bfdb99af9a41c4f88332bb2d2320
+
+%SHA256SUM%
+2303cb6116e3c1f350d6afd4a2e6211ef487ce2ecb0520100767e0a0c36145d9
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaYg6vgAKCRDglZ/qi1UFOeHIAQDtB9++Oudq1L2fjCy4vQIN7BPh+EVW4D8e6iGSQPcGRgEAmn8c5w6zbMWqf+us7f2XbjXFtyP0b6E69IiOUUVXFQk=
+
+%URL%
+https://beets.io/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1770535405
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+python
+python-confuse
+python-jellyfish
+python-lap
+python-mediafile
+python-munkres
+python-musicbrainzngs
+python-packaging
+python-platformdirs
+python-requests
+python-requests-ratelimiter
+python-typing_extensions
+python-unidecode
+python-yaml
+
+%OPTDEPENDS%
+bash-completion: Bash completion
+chromaprint: Chromaprint/Acoustid plugin
+ffmpeg: Convert, ReplayGain plugins
+gst-plugins-bad: Chromaprint/Acoustid, BPD, ReplayGain plugins
+gst-plugins-good: Chromaprint/Acoustid, BPD, ReplayGain plugins
+gst-plugins-ugly: Chromaprint/Acoustid, BPD, ReplayGain plugins
+gst-libav: Chromaprint/Acoustid, BPD, ReplayGain plugins
+gst-python: Chromaprint/Acoustid, BPD, ReplayGain plugins
+imagemagick: Thumbnails plugin
+python-beautifulsoup4: Lyrics plugin
+python-discogs-client: Discogs plugin
+python-flask: Web plugin
+python-gobject: ReplayGain plugin
+python-langdetect: Lyrics plugin
+python-librosa: AutoBPM plugin
+python-mpd2: MPDStats plugin
+python-pyacoustid: Chromaprint/Acoustid plugin
+python-pylast: LastGenre plugin
+python-requests-oauthlib: Beatport plugin
+python-xdg: Thumbnails plugin
+python-titlecase: Titlecase plugin
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-poetry-core
+python-sphinx
+python-wheel
+
+%CHECKDEPENDS%
+bash-completion
+imagemagick
+python-beautifulsoup4
+python-discogs-client
+python-flask
+python-langdetect
+python-librosa
+python-mpd2
+python-numba
+python-py7zr
+python-pylast
+python-pytest
+python-reflink
+python-requests-oauthlib
+python-requests-mock
+python-responses
+python-titlecase
+python-xdg
+gst-python
+

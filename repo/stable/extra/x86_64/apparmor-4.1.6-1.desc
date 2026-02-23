@@ -1,0 +1,86 @@
+%FILENAME%
+apparmor-4.1.6-1-x86_64.pkg.tar.zst
+
+%NAME%
+apparmor
+
+%BASE%
+apparmor
+
+%VERSION%
+4.1.6-1
+
+%DESC%
+Mandatory Access Control (MAC) using Linux Security Module (LSM)
+
+%CSIZE%
+1341284
+
+%ISIZE%
+5046362
+
+%MD5SUM%
+a2013a9a10b62c9249dcff8bcb6c8458
+
+%SHA256SUM%
+d4dbac8283797f03bba64742c6bea8fc7f471e521f6792cab422cfe902c88735
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmmLdSUACgkQ/cMEC5Ksp0hUHRAAwUAvPjO5rZhX/Css7E/TT8SCvCfkGXK6UpmxEfIJbHPK/u1xV77EnMCLvVLhl/ZE3DXAtZjNryMWueEW5ThmwsvVHuPmEC4Upafr0pWhfRR4V0ZFbk1gSY88GD5IaOD4O4B4s7M8WG5KDf/5HUa04HsORniyQa6GEnUHivujG8Tbe/9jj36/ANvfA7e3LxEd8T5EpCh0JC1EuTpLmcP1X2nASVydyhXI03Rv5WgBnHHseoUv2I7qwD179xzT6ZyFGPIoxkBPpGOrXCfffAOwBWA9EA/IBkzbmNQ/og2VUFFJuD/QBWjWL/3Jicw0yG8caj/mmQy9ggPsY3h5Mj+hFrvkn1KBb8/3/PoQ/ZTImB0W1ENHwYUjeMG31WpYSy0XO2SAs+Hn1p+wQugQq6rspjNlKcOnAFNwjpM27/mtSURmhV8Mq8WNXjICO80GZ8KpyfazlXaH6bcFKNe9+WuXq6Xy3hyAvQxMTcXh4aux57aN/b71QJcC1AbHHgf1Hi6jmFTgu2YJkWCk41oYMVGX4Gd36dhUnTQ/1ZZfBJUHucs88qe9gERhWmfOyQC7nLmlqrrXvSiOFTWJV4zs1R8e+m3kopxVDgqcY3DqnkZ6uMqAspFhNL+3hcc7At598OrvyZwn0GxZtU+MSuv5LGGujU5Xj1tKT9R8fWgRHH0VF9o=
+
+%URL%
+https://gitlab.com/apparmor/apparmor
+
+%LICENSE%
+GPL-2.0-only
+LGPL-2.0-only
+LGPL-2.1-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1770746465
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%PROVIDES%
+libapparmor.so=1-64
+
+%DEPENDS%
+audit
+bash
+gcc-libs
+glibc
+pam
+python
+python-legacy-cgi
+
+%OPTDEPENDS%
+perl: for perl bindings
+python-gobject: for aa-notify
+python-notify2: for aa-notify
+python-psutil: for aa-notify
+ruby: for ruby bindings
+sqlite: for aa-notify
+tk: for aa-notify
+
+%MAKEDEPENDS%
+apache
+autoconf-archive
+git
+libxcrypt
+python-setuptools
+ruby
+swig
+
+%CHECKDEPENDS%
+dejagnu
+perl-locale-gettext
+python-gobject
+python-notify2
+python-psutil
+sqlite
+tk
+

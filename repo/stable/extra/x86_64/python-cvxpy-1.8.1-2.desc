@@ -1,0 +1,77 @@
+%FILENAME%
+python-cvxpy-1.8.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-cvxpy
+
+%BASE%
+python-cvxpy
+
+%VERSION%
+1.8.1-2
+
+%DESC%
+A Python-embedded modeling language for convex optimization problems
+
+%CSIZE%
+1937701
+
+%ISIZE%
+14822796
+
+%MD5SUM%
+81c957fdbba1b290d7a6353f1b31d72e
+
+%SHA256SUM%
+ead19069c40accb71d1c63a30f4515cd12d8a640f37d69c2dc72e8e3fe2a06e3
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmmDxukACgkQek52CV2KUuQvlwf+PJKdQTSJ2ROMX/6ntnCkVbXbNSwieP3zB4vNPdvHKJF5OJzOUaiLvBiiSQFnm0NT2cNpqXPgE7R3WwtNJcyze/yGOWonn6UqaDuoyd9wh517/I8LrgyKh/P3ey77poUGf4Bns3X3EcAxlTcFn2IPBxX9biltrBj+UiZT9wxgyzJ4c+TtwN584ML9NATWPDJe32XARrmldNlRSeFs9drij7lNaqIZDuQcVk2c4PomtD9vdtkVkyfl/tCND7+SHD5enbnWKNC3FBLOVWYG5hgxD8mDe7ClTfIaiieVA7nQmOg0cdSktsklYpxeXQ/h6Q8aW94HY8zdaTVlnvLm7pyMtA==
+
+%URL%
+https://www.cvxpy.org/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1770243676
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+gcc-libs
+glibc
+python
+python-clarabel
+python-highspy
+python-numpy
+python-osqp
+python-scipy
+python-scs
+
+%OPTDEPENDS%
+python-cvxopt: GLPK solver
+python-cylp: CBC solver
+python-ecos: ECOS solver
+python-pyscipopt: SCIP solver
+
+%MAKEDEPENDS%
+git
+pybind11
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-cvxopt
+python-cylp
+python-hypothesis
+python-pyscipopt
+python-pytest
+

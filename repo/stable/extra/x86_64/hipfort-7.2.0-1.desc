@@ -1,0 +1,75 @@
+%FILENAME%
+hipfort-7.2.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+hipfort
+
+%BASE%
+hipfort
+
+%VERSION%
+7.2.0-1
+
+%DESC%
+Fortran interfaces for ROCm libraries
+
+%CSIZE%
+18810289
+
+%ISIZE%
+40656440
+
+%MD5SUM%
+072bd5c52959413f2d33de60e9d5d27d
+
+%SHA256SUM%
+d323a60c4db5b26c60774f80b96911a8a22e8332680fc74ddc0294bc904e7f46
+
+%PGPSIG%
+iHUEABYKAB0WIQQEzwzW9u6TrhiW9YQH0GNRylsxvgUCaXp7dwAKCRAH0GNRylsxvqXAAQDgL/SFJys6jhIYvW7Tp5NyWQLKbi0x5K5q2bQTDdMdMAEAxIvDhL6xaRxRN+LUSjUJWJ49X7m6Wg2voOosiX4k3Ao=
+
+%URL%
+https://rocm.docs.amd.com/projects/hipfort/en/latest/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1769634590
+
+%PACKAGER%
+Torsten Keßler <tpkessler@archlinux.org>
+
+%DEPENDS%
+gcc-fortran
+git
+hip-runtime-amd
+rocm-core
+
+%OPTDEPENDS%
+hipblas: Fortran bindings
+hipfft: Fortran bindings
+hiprand: Fortran bindings
+hipsolver: Fortran bindings
+hipsparse: Fortran bindings
+rocfft: Fortran bindings
+rocrand: Fortran bindings
+rocsolver: Fortran bindings
+
+%MAKEDEPENDS%
+cmake
+hipblas
+hipfft
+hiprand
+hipsolver
+hipsparse
+rocblas
+rocfft
+rocm-cmake
+rocrand
+rocsolver
+rocsparse
+

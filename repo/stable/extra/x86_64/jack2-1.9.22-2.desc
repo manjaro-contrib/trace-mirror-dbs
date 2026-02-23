@@ -1,0 +1,92 @@
+%FILENAME%
+jack2-1.9.22-2-x86_64.pkg.tar.zst
+
+%NAME%
+jack2
+
+%BASE%
+jack2
+
+%VERSION%
+1.9.22-2
+
+%DESC%
+The JACK low-latency audio server
+
+%CSIZE%
+483134
+
+%ISIZE%
+1930572
+
+%MD5SUM%
+3a2b6db2208bb3593a01616d4c4bebbc
+
+%SHA256SUM%
+e400bbd5f48b5f657d7835ef607822d14be1fc66c1807718b13086c53b95c8a7
+
+%PGPSIG%
+iHUEABYKAB0WIQSAJH2Z6r06TR46GDboW4aD60i8lQUCaZHeBgAKCRDoW4aD60i8lX8cAP9/Ae121O7bt/7N7Pwe1F8a4Cn18hnWAGbUmHbPKkJS9gD/ffoU/JX0jYdCicsxt1APR8e7tpkb0pTac50ypHxTDAw=
+
+%URL%
+https://github.com/jackaudio/jack2
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL2.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1771167083
+
+%PACKAGER%
+Daniel Bermond <dbermond@archlinux.org>
+
+%CONFLICTS%
+jack
+
+%PROVIDES%
+jack
+libjack.so=0-64
+libjacknet.so=0-64
+libjackserver.so=0-64
+
+%DEPENDS%
+alsa-lib
+libasound.so=2-64
+db5.3
+dbus
+libdbus-1.so=3-64
+glibc
+libgcc
+libsamplerate
+libsamplerate.so=0-64
+libstdc++
+opus
+libopus.so=0-64
+systemd-libs
+libsystemd.so=0-64
+
+%OPTDEPENDS%
+a2jmidid: for ALSA MIDI to JACK MIDI bridging
+libffado: for firewire support using FFADO
+jack-example-tools: for official JACK example-clients and tools
+jack2-dbus: for dbus integration
+jack2-docs: for developer documentation
+realtime-privileges: for realtime privileges
+
+%MAKEDEPENDS%
+alsa-lib
+db5.3
+dbus
+doxygen
+expat
+git
+libffado
+libsamplerate
+opus
+systemd
+waf
+

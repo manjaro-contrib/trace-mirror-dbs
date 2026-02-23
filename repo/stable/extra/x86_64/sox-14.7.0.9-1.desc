@@ -1,0 +1,94 @@
+%FILENAME%
+sox-14.7.0.9-1-x86_64.pkg.tar.zst
+
+%NAME%
+sox
+
+%BASE%
+sox
+
+%VERSION%
+14.7.0.9-1
+
+%DESC%
+The Swiss Army knife of sound processing tools
+
+%CSIZE%
+504197
+
+%ISIZE%
+1181043
+
+%MD5SUM%
+c01589badb127e1611899f083781f8ce
+
+%SHA256SUM%
+abfc478987d4b2379d24d9fa9bc30292ae526b72cda059040c925e716761ce99
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaZTkqAAKCRDglZ/qi1UFOXQVAP437FKf1ai1cr1Xaq8KSv+fSagkSewPuPgDpDhzRZq++QEAsB6Wl9xS9hgLepOhsxmj4o9nIl+pW47CIsqQjPLvyAY=
+
+%URL%
+https://codeberg.org/sox_ng/sox_ng/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1771365423
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%PROVIDES%
+libsox.so
+libsox_ng.so=3-64
+
+%DEPENDS%
+glibc
+ffmpeg
+file
+gsm
+libao
+libid3tag
+libltdl
+libmad
+libgcc
+libgomp
+libpng
+opusfile
+twolame
+wavpack
+zlib
+
+%OPTDEPENDS%
+alsa-lib: alsa plugin
+flac: flac plugin
+fftw: fftw support
+lame: mp3 plugin
+libpulse: pulse plugin
+libsndfile: caf, fap, mat4, mat5, paf, pvf, sd2, sndfile, w64 and xi plugins
+libvorbis: vorbis plugin
+libogg: ogg plugin
+opencore-amr: amr_nb and amr_wb plugins
+speexdsp: speexdsp plugin/effect
+
+%MAKEDEPENDS%
+alsa-lib
+flac
+fftw
+git
+lame
+libpulse
+libsndfile
+libvorbis
+libogg
+opencore-amr
+speexdsp
+
+%CHECKDEPENDS%
+time
+
