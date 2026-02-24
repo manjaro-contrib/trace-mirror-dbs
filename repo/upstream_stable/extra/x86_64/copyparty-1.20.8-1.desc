@@ -1,0 +1,66 @@
+%FILENAME%
+copyparty-1.20.8-1-any.pkg.tar.zst
+
+%NAME%
+copyparty
+
+%BASE%
+copyparty
+
+%VERSION%
+1.20.8-1
+
+%DESC%
+File server with accelerated resumable uploads, dedup, WebDAV, FTP, TFTP, zeroconf, media indexer, thumbnails++
+
+%CSIZE%
+1751540
+
+%ISIZE%
+8671056
+
+%SHA256SUM%
+8c9fa75a9a441cc19fe55bec7fabeb17874c8c8cf7eb30f6276499836308a25e
+
+%PGPSIG%
+iHQEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaZzmfgAKCRDglZ/qi1UFObaTAP9+Q62AofWToj2fDQvEC5FtGsiFHlh+1CICgHUM2M5XNgD1EUvE/Rgr8PNsF0P2BHPzKjXjLqNrTniJh2zWcYeUCg==
+
+%URL%
+https://github.com/9001/copyparty
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1771890240
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+bash
+python
+lsof
+python-jinja
+
+%OPTDEPENDS%
+ffmpeg: thumbnails for videos, images (slower) and audio, music tags
+cfssl: generate TLS certificates on startup
+python-mutagen: music tags (alternative)
+python-pillow: thumbnails for images
+python-pyvips: thumbnails for images (higher quality, faster, uses more ram)
+libkeyfinder: detection of musical keys
+python-pyopenssl: ftps functionality
+python-pyzmq: send zeromq messages from event-hooks
+python-argon2-cffi: hashed passwords in config
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+pigz
+
