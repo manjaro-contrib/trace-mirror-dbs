@@ -1,0 +1,17 @@
+%DEPENDS%
+bash
+python
+lsof
+python-jinja
+
+%OPTDEPENDS%
+ffmpeg: thumbnails for videos, images (slower) and audio, music tags
+cfssl: generate TLS certificates on startup
+python-mutagen: music tags (alternative)
+python-pillow: thumbnails for images
+python-pyvips: thumbnails for images (higher quality, faster, uses more ram)
+libkeyfinder: detection of musical keys
+python-pyopenssl: ftps functionality
+python-pyzmq: send zeromq messages from event-hooks
+python-argon2-cffi: hashed passwords in config
+
