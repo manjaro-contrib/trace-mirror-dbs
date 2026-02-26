@@ -1,0 +1,21 @@
+%DEPENDS%
+glibc
+libevdev
+libinput
+libxkbcommon
+mesa
+pixman
+sh
+wayland
+wlroots0.19
+xorg-xwayland
+
+%CONFLICTS%
+river
+
+%PROVIDES%
+wayland-compositor
+
+%OPTDEPENDS%
+polkit: access seat through systemd-logind
+
