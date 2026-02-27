@@ -1,0 +1,117 @@
+%FILENAME%
+dracut-110-2-x86_64.pkg.tar.zst
+
+%NAME%
+dracut
+
+%BASE%
+dracut
+
+%VERSION%
+110-2
+
+%DESC%
+An event driven initramfs infrastructure
+
+%CSIZE%
+476659
+
+%ISIZE%
+1477376
+
+%SHA256SUM%
+9499bd5af075ec450ca9e92c2924361ea0241f518dbc843a5aca01726d1876b5
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmmhz8cACgkQ/cMEC5Ksp0i1pBAAs2vD5NbHolaLcGdM05l4PAwq0CEUoqiXArh2W+ftZsXE3CTqDPz82nz4EG1ySxjSSAN1FktxnjeweISR6WYmZHdOHLwfqI9pTNuPhospPU6zeiSNz7DXBmgPTZ8XjlQVhzvQ0Cqkee+j7sqCJPRQdSefsHdf6p/WunF2g/n//m781hJ2TPVHMPSj7bFz2ierFGwm/QWW0wjujm5FiTTAoNRFAp7qu4qgGNhyGEQykJpyXGrt6/UmZnnXy4xHDqd7phaPAjA5oE1mWQFpoIVuQjCF+ORaBhh4lvemcxAvHPW5v1CHW+uvEGDbtFuNHVnGdY9WwGtEfMDpa1MbiFLx4wjWecIMEaptzRJw+ZTQTGlG8O/PpulASDag4dhdkzifgsCIoufdEqpo5SLJFlXYZn3ChfR9HCG+qbz9+jamS7c/vxUliCvMq6N0N4mIh0ojgRCd6PrykOLfIPmnJBIl55J0R1+2o6k9Rtl14Xowm6yhO/uzFmh/2n5ecX8JViwcyq2fGkU4uqlEcQ9JJjDh10G9B166l9xeQk/F3k4qnKppK2ZBt/YUe4AQWhkytcX2qUFaewSYu7SZl63h19X2VcuNP4+1I1n4+Wevqh0sPO66fC1OoOFglAzYBs6qLwRN5Je9Y87uEjp98DcPQGUws0fVlHO6qYocsh5si4nmG6I=
+
+%URL%
+https://github.com/dracut-ng/dracut-ng
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1772212145
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%PROVIDES%
+initramfs
+
+%DEPENDS%
+bash
+cpio
+coreutils
+filesystem
+findutils
+gawk
+grep
+kmod
+pkgconf
+procps-ng
+sed
+util-linux
+
+%OPTDEPENDS%
+3cpio: cpio alternative written in rust
+binutils: --uefi option support
+biosdevname: BIOS network device renaming
+bluez: bluetooth (keyboard)
+btrfs-progs: scan for Btrfs on block devices
+busybox: allows use of busybox (on your own risk)
+bzip2: bzip2 compression
+cifs-utils: support CIFS
+connman: support for connman networking
+cryptsetup: support for encrypted with LUKS filesystems
+dash: allows use of dash (on your own risk)
+dbus: dbus-daemon dracut module
+dbus-broker: dbus-broker dracut module
+dhclient: legacy networking support
+dmraid: dmraid dracut module support
+e2fsprogs: ext2/3/4 filesystem support
+elfutils: strip binaries to reduce initramfs size
+erofs-utils: support for building an erofs initramfs
+f2fs-tools: fsfs filesystem support
+fuse3: live on NTFS (dmsquash-live-ntfs module)
+gnupg: gpg for crypto operations and smartcards
+gzip: gzip compression
+iproute2: legacy networking support
+iputils: networking support
+jq: NVMe-oF support (nvmf module)
+lvm2: support Logical Volume Manager
+lzop: lzop compression
+mdadm: support MD devices, also known as software RAID devices
+memstrack: memstrack module support
+multipath-tools: multipath dracut module support
+nbd: support network block devices
+ndctl: NVDIMM support
+networkmanager: networkmanager support
+nfs-utils: support NFS
+ntfs-3g: live on NTFS (dmsquash-live-ntfs module)
+nvme-cli: NVMe-oF support (nvmf module)
+open-iscsi: support iSCSI (iscsi module)
+openssh: install ssh and scp along with config files and specified keys (ssh-client module)
+pigz: faster gzip compression
+plymouth: plymouth boot splash
+qrencode: systemd-bsod
+rng-tools: enable rngd service to help generating entropy early during boot
+rsyslog: enable logging with rsyslog
+sbsigntools: uefi_secureboot_cert/key configuration option support
+systemd: systemd system and service manager
+systemd-ukify: Unified Kernel Image
+squashfs-tools: support for building a squashed initramfs
+tar: live tar image
+tpm2-tools: tpm2 support for e.g. LUKS
+xz: xz compression
+
+%MAKEDEPENDS%
+asciidoctor
+bash-completion
+git
+rust
+
