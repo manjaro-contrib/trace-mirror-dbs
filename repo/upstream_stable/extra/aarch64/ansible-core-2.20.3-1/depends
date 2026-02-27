@@ -1,0 +1,26 @@
+%DEPENDS%
+python
+python-cryptography
+python-jinja
+python-packaging
+python-pyyaml
+python-resolvelib
+python-paramiko
+python-typing_extensions
+
+%PROVIDES%
+python-ansible
+ansible-base
+
+%OPTDEPENDS%
+python-argcomplete: shell completions
+python-dnspython: for dig lookup
+python-jmespath: json_query support
+python-netaddr: for the ipaddr filter
+python-passlib: crypt values for vars_prompt
+python-pip: for module to manage Python libarary dependencies
+python-pywinrm: connect to Windows machines
+python-setuptools: for module to manage Python libarary dependencies
+python-systemd: for journald support
+sshpass: for ssh connections with password
+
