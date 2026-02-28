@@ -1,0 +1,61 @@
+%FILENAME%
+maxima-5.49.0-5-x86_64.pkg.tar.zst
+
+%NAME%
+maxima
+
+%BASE%
+maxima
+
+%VERSION%
+5.49.0-5
+
+%DESC%
+A sophisticated computer algebra system
+
+%CSIZE%
+24504685
+
+%ISIZE%
+76199344
+
+%SHA256SUM%
+4354a018b143b54228cdf5f704ce9eb9f1678261d7b91ee2ce0ef5ee5567dc28
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaaKdggAKCRDglZ/qi1UFObaaAQCI639l5l4QuVoeH1NQ9sIw96fp6H52LMQoSJZW2Z6s6AEAqLbieIfLeIzL1C483wlrP6LTj01bSK7uk6H8B0PWYQY=
+
+%URL%
+http://maxima.sourceforge.net
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1772263212
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%REPLACES%
+maxima-ecl<5.45.1-9
+
+%DEPENDS%
+maxima-backend
+texinfo
+
+%OPTDEPENDS%
+gnuplot: plotting capabilities
+rlwrap: readline support via /usr/bin/rmaxima
+tk: graphical xmaxima interface
+
+%MAKEDEPENDS%
+ecl
+emacs
+git
+python
+sbcl
+
