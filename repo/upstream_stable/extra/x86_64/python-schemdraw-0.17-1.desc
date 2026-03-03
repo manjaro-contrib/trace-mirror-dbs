@@ -1,0 +1,66 @@
+%FILENAME%
+python-schemdraw-0.17-1-any.pkg.tar.zst
+
+%NAME%
+python-schemdraw
+
+%BASE%
+python-schemdraw
+
+%VERSION%
+0.17-1
+
+%DESC%
+Electrical circuit schematic drawing
+
+%CSIZE%
+290392
+
+%ISIZE%
+2059996
+
+%SHA256SUM%
+fed790feca999385fb8bebdafdb28d59a859fcd10abebe9d0fd73b98d2d38285
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmmnLWEACgkQeGxj8zDXy5LVWA/9EaPPTbeqf9ldrcNSjEM0r94ipK9+QDytsfnQqzqPm8FZxvSax4gNq0BUl/pRLk2CefOHOegBFhlBEwP5p5eWnBh3LE+igl2m4+WrXZSz9W+Z/hXEEfBhsy2LhsMMBsjQVm57oCqvRc3Vkr8x1qaLhyheORLi8jlb4bGWt+qKP+ASOOcqQ75ywTDXX3ynAas6zaafN4wrVUNsnNEE46CacRTuxsHZdF6FgPFkv50Z3W+EG7CvVDVSe7UlfG9QJAKDiLWfXWpmq9R0/tT3Tuogbe1LGDpGtM7TgljKShP21OQjHHsfMMu420tGabqmECwgQkk8AWHAKxXcLW61pAy9eqmEyudj2/p9UpRPNo38MgN6wJrZgqcbEzf8VHo+p3mgAmoC3KMVvkF2oTgO/M42V+YBtUrx/xKLAcaQXBwzq7+XmFUD4gSXanFP2POUkbTOvs2IJ1Mt9dDaYdLadnZbWuTlqS3FKz+81apbQ+pfNVCaE85MVd/+mYqqbmNnp9iyjzzb7es23C67NscrgQWvV3eRqSqFzWlAJajx6LNYMZolLF/nD6jMnyVjiw2xKN2V8bCj8Sr8eknPR8rf10YO9rt0e/o8H5D18CZO2WWNZ+CVgxe744i6GiLDNoJoloFVO/zGVDzrvKA7oDecrr+1x8XjBDqGBWT3aDzoOfgjjCg=
+
+%URL%
+https://schemdraw.readthedocs.io
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1772563757
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-matplotlib: for matplotlib backend
+python-ziafont: for svg backend
+python-ziamath: for svg backend
+python-latex2mathml: for svg backend
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-wheel
+python-setuptools
+
+%CHECKDEPENDS%
+python-pytest
+python-nbval
+python-matplotlib
+python-ziafont
+python-ziamath
+python-latex2mathml
+
