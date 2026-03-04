@@ -1,0 +1,88 @@
+%FILENAME%
+python-django-allauth-65.14.1-1-any.pkg.tar.zst
+
+%NAME%
+python-django-allauth
+
+%BASE%
+python-django-allauth
+
+%VERSION%
+65.14.1-1
+
+%DESC%
+Authentication, registration, account management and 3rd party account authentication
+
+%CSIZE%
+1137278
+
+%ISIZE%
+8801592
+
+%MD5SUM%
+f81e882d7976da1a9044bfb60d55f01d
+
+%SHA256SUM%
+ee25b86f837d7afe5d3637c5b07747e8c7c4c24a9f586a34bca5082a843a42f4
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmmnKMAACgkQeGxj8zDXy5K1JA//U8tEd+pRYNBZ8vj/JoXnNjDtbko/UuRz9D7w96jXKPBEFD51qhNpqciYT35uRMeoYOEqqyJ+e5va71dSJFs2VEbHHnDesw9Qk8pfEJOGFVHUCzsbwgXTdWl1QpvQlqJeX8IBqgOppcA+aPPlIsZCYnzeJl0/lc2O2J9w1etpsuhgG3unhlnFwGfq0/iAV6xownsl5huo2TvOFSL6TQ26FcaP6236h1TNzaVhIs1HMZIi0LZ8unftgty+SJVp6yZH7570fWcTDtUVhvHzWhbKZkQFkb+IQQTM73gsg9lmjmzj52zlCjgNdPcmSOJVZYLCFT2GLT1NUOKOhB31dmwJEj6R3rYif1gUcv55cqBw1vRRZx9K8+PKUlMaLyl5BntuLaBMbgH5unhRyhcCaobhnnb34lRieKfkDS4DJinB2qgQ2eUZRiryJah9i04tYm7Cky21XQ7IYmgUWx0ywFI76fbhZTstsRGLOA4WdEk8wf4mxnlj7uQxKrWqiznAfWVaNyJ3XWK7WKRCdKCg+r2JPZ5zgtMumfVpJ2yG1oeeq1/O6cJPYH5JtJxsFqdoLlGsTXnRbwssj7XAIepmyoBawbbZL0ShBTvM2ltSz7LAbd4TwHFWRI7sdtk7+HABsLs5j8UrJP7KYj7dO9wwbRjkTpE9i2rbX8F5nvQP0+0K/Qc=
+
+%URL%
+https://codeberg.org/allauth/django-allauth
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1772562570
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python
+python-asgiref
+python-django
+python-pyyaml
+
+%OPTDEPENDS%
+python-cryptography: for social account support
+python-fido2: for MFA support
+python-openid: for OpenID and Steam support
+python-oauthlib: for OIDC IdP support
+python-pyjwt: for social account and OIDC IdP support
+python-qrcode: for MFA support
+python-requests: for social account support
+python-requests-oauthlib: for social account support
+python-saml: for SAML support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-cryptography
+python-django-ninja
+python-django-rest-framework
+python-fido2
+python-oauthlib
+python-openid
+python-pillow
+python-pytest
+python-pytest-asyncio
+python-pytest-django
+python-pyjwt
+python-psycopg2
+python-qrcode
+python-requests
+python-requests-oauthlib
+python-saml
+
