@@ -1,0 +1,75 @@
+%FILENAME%
+python-requests-cache-1.3.1-1-any.pkg.tar.zst
+
+%NAME%
+python-requests-cache
+
+%BASE%
+python-requests-cache
+
+%VERSION%
+1.3.1-1
+
+%DESC%
+Persistent HTTP cache for python requests
+
+%CSIZE%
+141361
+
+%ISIZE%
+786898
+
+%MD5SUM%
+5069e51879b8dcf71b58dcfef8e8ae5d
+
+%SHA256SUM%
+d8d4f743182ca0704ce546711b0b68808ae8264e9928723afdd41bb9982ceffb
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaatP+QAKCRDglZ/qi1UFOZrjAP0ed/TrLtt3SPo4AlonsQg3IKiugUbqrJOpVfj3sHtcjAEAldxIKf/TXiB7biDE3WUAWT5BPDCTmFLeZzP1yXF4YAo=
+
+%URL%
+https://github.com/requests-cache/requests-cache
+
+%LICENSE%
+BSD-2-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1772834595
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+python
+python-requests
+python-urllib3
+python-attrs
+python-cattrs
+python-platformdirs
+python-url-normalize
+
+%OPTDEPENDS%
+python-boto3: DynamoDB support
+python-botocore: DynamoDB support
+python-pymongo: MongoDB support
+python-redis: Redis support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-hatchling
+
+%CHECKDEPENDS%
+python-pytest
+python-requests-mock
+python-rich
+python-pymongo
+python-responses
+python-redis
+python-tenacity
+
