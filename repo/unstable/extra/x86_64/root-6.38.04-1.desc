@@ -1,0 +1,138 @@
+%FILENAME%
+root-6.38.04-1-x86_64.pkg.tar.zst
+
+%NAME%
+root
+
+%BASE%
+root
+
+%VERSION%
+6.38.04-1
+
+%DESC%
+C++ data analysis framework and interpreter from CERN
+
+%CSIZE%
+155517009
+
+%ISIZE%
+571790529
+
+%MD5SUM%
+60920de47bc3a7ae42418e43a55ab772
+
+%SHA256SUM%
+b2280460b4a0bce90cff1c39b2c05886334e13e880d33223bc64ce3df8d360ab
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCabMkEwAKCRAAHPSBC+jZEVA1APwJijQWxwQ9bmCxCZ+3W0SQz3gbzCxSY0BmRiUpFIOk5gD/Ri+wVsDnlIYuaeEDzTBbaXmHeOzodnn9LxSE8mm8Vgo=
+
+%URL%
+https://root.cern
+
+%LICENSE%
+LGPL-2.1-or-later
+BSD-2-Clause
+BSD-3-Clause-LBNL
+NCSA
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1773341443
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%CONFLICTS%
+python-cppyy
+python-cppyy-backend
+python-cpycppyy
+
+%PROVIDES%
+python-cppyy
+python-cppyy-backend
+python-cpycppyy
+
+%DEPENDS%
+blas
+desktop-file-utils
+fcgi
+fftw
+ftgl
+giflib
+gl2ps
+glew
+glibc
+graphviz
+gsl
+hicolor-icon-theme
+libgcc
+libgfortran
+libglvnd
+libjpeg-turbo
+libpng
+librsvg
+libstdc++
+libtiff
+liburing
+libxcrypt
+libxft
+libxml2
+libxpm
+lz4
+ncurses
+openssl
+pcre2
+python
+python-numpy
+tbb
+tex-gyre-fonts
+xxhash
+xz
+zlib
+zstd
+
+%OPTDEPENDS%
+cern-vdt: Add a set of fast and vectorisable mathematical functions
+cfitsio: Read images and data from FITS files
+chromium: Support for WebGUI
+gcc-fortran: Enable the Fortran components of ROOT
+jupyter-metakernel: for Jupyter kernel
+openmpi: Support for Message Passing Interface (MPI)
+pythia8>=8.2.40-1: Pythia8 EG support
+python-pygments: syntax highlighting in interactive console
+qt6-webengine: Support for WebGUI
+sqlite: SQLite support
+tcsh: Legacy CSH support
+unuran: Support non-uniform random numbers
+vc: Add types for portable and intuitive SIMD programming
+xrootd>5: Support remote file server and client
+z3: Support the Z3 theorem prover
+
+%MAKEDEPENDS%
+cern-vdt
+cfitsio
+chromium
+cmake
+cuda
+cudnn
+gcc-fortran
+git
+go
+ninja
+nlohmann-json
+ocaml
+ocaml-ctypes
+openmpi
+pythia8
+python-pygments
+qt6-webengine
+sqlite
+unuran
+vc
+xrootd
+z3
+
