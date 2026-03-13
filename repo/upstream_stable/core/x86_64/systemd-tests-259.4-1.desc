@@ -1,29 +1,29 @@
 %FILENAME%
-systemd-sysvcompat-259.3-1-x86_64.pkg.tar.zst
+systemd-tests-259.4-1-x86_64.pkg.tar.zst
 
 %NAME%
-systemd-sysvcompat
+systemd-tests
 
 %BASE%
 systemd
 
 %VERSION%
-259.3-1
+259.4-1
 
 %DESC%
-sysvinit compat for systemd
+systemd tests
 
 %CSIZE%
-6325
+5732112
 
 %ISIZE%
-2708
+23806438
 
 %SHA256SUM%
-c541a11ffce9b9dcf90e0021b28bc01b67f8efd768895cf3431e5e084bbe8fb7
+a849809321a6d7cf209918634cada1c96ac05828d718fb56d0b6eceb2803202b
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaahD2AAKCRBtQr3RFuAGj9/mAPsHuqen2CawYa3Ajw41LBltXoxjVn7O6+3AAlh94MPVIQD+I4vRltCqrdXgfATOwCfyPAjxKCbM91I+xtDQr6pfRQ0=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCabL3zQAKCRBtQr3RFuAGj/ZqAQCSTGFHgqafMLDXGUirLfdYZqKKVXVQDGKdIwsuQsC1TAD9FnWF946+SKLJHlP28w8MvWPrjHEE7Da8PmLAVylzBQI=
 
 %URL%
 https://www.github.com/systemd/systemd
@@ -35,16 +35,16 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1772634870
+1773336316
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
 
 %CONFLICTS%
-sysvinit
+mkinitcpio<38-1
 
 %DEPENDS%
-systemd=259.3
+systemd=259.4
 
 %MAKEDEPENDS%
 acl
