@@ -1,0 +1,65 @@
+%FILENAME%
+python-safetensors-0.7.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+python-safetensors
+
+%BASE%
+python-safetensors
+
+%VERSION%
+0.7.0-2
+
+%DESC%
+Simple, safe way to store and distribute tensors
+
+%CSIZE%
+379359
+
+%ISIZE%
+1103698
+
+%MD5SUM%
+bb3eac47ce373c75b0c7dab47ed5126d
+
+%SHA256SUM%
+e3bf262a51aac1ae34ff1676b7815a3b28baa5a99eca1e035ca9f6afba09194b
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCabbTnwAKCRAAHPSBC+jZETpZAP43iAFl7MJ7aSVgr0IkZ1BG5GbSRYaQ/QApAdBSBkr8OgEA6vPpWcZwFUM/5pDgaJ77YCd8I9VH0+OllrWucn4EiAY=
+
+%URL%
+https://github.com/huggingface/safetensors
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1773589200
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+glibc
+libgcc
+python
+python-numpy
+
+%OPTDEPENDS%
+python-jax: usage with jax
+python-tensorflow: usage with tensorflow
+python-pytorch: usage with pytorch
+
+%MAKEDEPENDS%
+maturin
+python-installer
+
+%CHECKDEPENDS%
+python-pytest
+python-pytorch
+python-tensorflow
+
