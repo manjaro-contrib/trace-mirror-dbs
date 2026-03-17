@@ -1,0 +1,65 @@
+%FILENAME%
+python-alpm-0.4.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-alpm
+
+%BASE%
+python-alpm
+
+%VERSION%
+0.4.2-1
+
+%DESC%
+Python bindings for the Rust-based ALPM project
+
+%GROUPS%
+alpm
+
+%CSIZE%
+1162326
+
+%ISIZE%
+3101430
+
+%SHA256SUM%
+7351572deb33c52926f8fe1cb656384d030e4d583f9f9a84cf0e005c613bed16
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCablEWwAKCRCbeih9mi7GCDKcAP4ilES0ry2QK5MNVCn9vMuu2MGZLLB9Mz1QUGrPjYvvBQD+MeEx5FN1HimvqRNwnm/mJ3Rpudt3YbSCRsqqf6bPtg4=
+
+%URL%
+https://alpm.archlinux.page/python-alpm/
+
+%LICENSE%
+Apache-2.0 OR MIT
+CC-BY-SA-4.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1773749257
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+glibc
+libgcc
+python
+
+%OPTDEPENDS%
+alpm-docs: for additional specifications
+alpm-pkgbuild-bridge: for creating SRCINFO data from PKGBUILD files
+
+%MAKEDEPENDS%
+git
+python-build
+python-maturin
+python-installer
+
+%CHECKDEPENDS%
+alpm-pkgbuild-bridge
+python-pytest
+
