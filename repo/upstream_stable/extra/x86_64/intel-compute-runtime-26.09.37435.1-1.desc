@@ -1,0 +1,64 @@
+%FILENAME%
+intel-compute-runtime-26.09.37435.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+intel-compute-runtime
+
+%BASE%
+intel-compute-runtime
+
+%VERSION%
+26.09.37435.1-1
+
+%DESC%
+Intel(R) Graphics Compute Runtime for oneAPI Level Zero and OpenCL(TM) Driver
+
+%CSIZE%
+6551594
+
+%ISIZE%
+108588686
+
+%SHA256SUM%
+7743e1a2fb56f5102f0d9bd62d539e4934acb63281f1197310f7c545fd6b6832
+
+%PGPSIG%
+iHUEABYKAB0WIQSAJH2Z6r06TR46GDboW4aD60i8lQUCabmfcAAKCRDoW4aD60i8lcXRAQDMops1uCfecnNrOliRpnYbPs9+rVjYS6Td9U3TsiTDagEA+p4av2lM5JXc1ktHoQB7et0TGdJ28q9wlIpbhbhejAE=
+
+%URL%
+https://github.com/intel/compute-runtime/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1773771637
+
+%PACKAGER%
+Daniel Bermond <dbermond@archlinux.org>
+
+%PROVIDES%
+level-zero-driver
+opencl-driver
+
+%DEPENDS%
+glibc
+intel-gmmlib
+intel-graphics-compiler
+libgcc
+libstdc++
+
+%OPTDEPENDS%
+igsc: for discrete GPU firmware enumeration through Level Zero
+libdrm: for cl_intel_va_api_media_sharing OpenCL extension
+libva: for cl_intel_va_api_media_sharing OpenCL extension
+
+%MAKEDEPENDS%
+cmake
+igsc
+level-zero-headers
+libva
+
