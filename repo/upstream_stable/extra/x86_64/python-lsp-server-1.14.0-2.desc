@@ -1,0 +1,89 @@
+%FILENAME%
+python-lsp-server-1.14.0-2-any.pkg.tar.zst
+
+%NAME%
+python-lsp-server
+
+%BASE%
+python-lsp-server
+
+%VERSION%
+1.14.0-2
+
+%DESC%
+Fork of the python-language-server project, maintained by the Spyder IDE team and the community
+
+%CSIZE%
+161837
+
+%ISIZE%
+826663
+
+%SHA256SUM%
+a1ba73e18517624c9541f936027eb9d0e79362388580c084cfe52cdd96162ec6
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmm9qLsACgkQek52CV2KUuTUigf9HjyqrAyj6ZF9DaqYtjMFoZ9McKc4aNL8/sxiVqcDWrr81LBJGG9F23Hb09LouBiI19a628qsfhGD1a0ZXn+QLcepVFpuxgwVwQ4PFZiNyHKacYPtXxF3TzsS7vqVVRNnUXqZTmp2geewmHwzby9flYCi3xBsyqPJ/k58KpdDLY9zA6sLs3rZsxj3O4FB04FSnTUSb+2MqdrmUu9BXZwx8CSzE5K/9KHMausYRigjiW/M6DbjDzk+yF3//E8jrOiX35LpEhLDKsXF2ghoC8hOmkA/R33a5WdaxZNyVzdmKyetMt/175aa7H5HnxWS9p6Bs8X2JfwKRUJnTe8fiHwo/w==
+
+%URL%
+https://github.com/python-lsp/python-lsp-server
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1774037039
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python-black
+python-jedi
+python-lsp-jsonrpc
+python-pluggy
+python-ujson
+python-websockets
+python-docstring-to-markdown
+
+%OPTDEPENDS%
+python-mccabe: complexity checking
+python-pycodestyle: linter - style checking
+python-pydocstyle: linter - docstring style checking
+python-pyflakes: linter to detect various errors
+python-pylint: code linting
+python-rope: for completions and renaming
+autopep8: code formatting
+flake8: error checking
+yapf: code formatting (preferred)
+python-whatthepatch: required for yapf support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-flaky
+python-mccabe
+python-pycodestyle
+python-pydocstyle
+python-pyflakes
+python-pylint
+python-rope
+autopep8
+flake8
+yapf
+python-whatthepatch
+python-matplotlib
+python-numpy
+python-pandas
+python-pyqt6
+python-appdirs
+
