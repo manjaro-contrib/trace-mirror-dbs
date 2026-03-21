@@ -1,0 +1,79 @@
+%FILENAME%
+linux-hardened-6.19.9.hardened1-1-x86_64.pkg.tar.zst
+
+%NAME%
+linux-hardened
+
+%BASE%
+linux-hardened
+
+%VERSION%
+6.19.9.hardened1-1
+
+%DESC%
+The Security-Hardened Linux kernel and modules
+
+%CSIZE%
+149233269
+
+%ISIZE%
+149586304
+
+%SHA256SUM%
+921231830ed3de56faeccf5bc689890b27f63a31bded96ef13e8127943591f91
+
+%PGPSIG%
+iQIzBAABCgAdFiEE4kC1fixGMLp2ji8m/BtUfI2BcsgFAmm943oACgkQ/BtUfI2Bcsg/hBAAzusMmaigvaEuiitRZpRfwyrSD7l6tKOGU3/Pic+c2VA/7SGfWOSYaQ/MnlWe3TSce1VBUiVeNWvANV77hjAleoasT42r5nGvjtlCexIlA8fPe1xK3JpuVV52H9TNPL/q2qSq1L9XBsQWw9VlPqyc8ndqpU2WMEY1IlYSVgd5iME9TGhaYzyPXpLJY4GVPmf96a2mkxI06BNHYHnWY6g5LIwIw5AGozJeZfuSBtVAhosHN/8UwYWpQmHmT8mDE48dQ8jKedMS8EXzOB+FoD6CDkudSZ43QEhcy8GpMs6UAN53FQkwVDtsSApMtHCSbIE4mmU1tTnyVvdg2XwXXdmPMuCssW9Jp/HxEWOF+uNOtZP7yMawQciALRPAYevftYJGGEfbaz8tm6751m6WjhGKcnGGPmHDuN+hbdGJvAUqBrSP9CA0QIiYujPUSc8ClRxrHY7hRFe13iXefkhNeX1luwBvL3m+XDANQwoBA1ITSdCKKDw9tHojHzeIz6wA9oQcZTWBItuQt+lEuzlcabtk4+mM09/T4BdcXGE8QnldCPm/UvIjySV1nczYKzOqyQQLneRAgeyIN0fQXig7Kr0Sqad27OAQR39F1AdjboTscSVpwlOIy9/Rn5fDTXkUQVDppB15pnIePPmUJTu3auqJ44ob4MM9auq8IadL6fhIRxU=
+
+%URL%
+https://github.com/anthraxx/linux-hardened
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774049152
+
+%PACKAGER%
+Levente Polyak <anthraxx@archlinux.org>
+
+%PROVIDES%
+KSMBD-MODULE
+NTSYNC-MODULE
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+initramfs
+kmod
+
+%OPTDEPENDS%
+linux-hardened-headers: headers and scripts for building modules
+linux-firmware: firmware images needed for some devices
+scx-scheds: to use sched-ext schedulers
+wireless-regdb: to set the correct wireless channels of your country
+usbctl: deny_new_usb control
+
+%MAKEDEPENDS%
+bc
+cpio
+gettext
+libelf
+pahole
+perl
+python
+rust
+rust-bindgen
+rust-src
+tar
+xz
+graphviz
+imagemagick
+python-sphinx
+python-yaml
+texlive-latexextra
+
