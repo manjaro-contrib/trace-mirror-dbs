@@ -1,0 +1,69 @@
+%FILENAME%
+lighttpd-1.4.82-2-x86_64.pkg.tar.zst
+
+%NAME%
+lighttpd
+
+%BASE%
+lighttpd
+
+%VERSION%
+1.4.82-2
+
+%DESC%
+A secure, fast, compliant and very flexible web-server
+
+%CSIZE%
+406442
+
+%ISIZE%
+1246840
+
+%SHA256SUM%
+da3a9b5b2ed18f6de73b1accdddc9c5ee83839e25dfe3b947b4a2fffbc284fbc
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmmq888ACgkQek52CV2KUuQNmAf/eLsg2HlLTIO7fHIW10vR0KG1Wu1C/8cV9vONmFGRAFLV7MVx2Jz7wfAxnMG67hCD4GEkuprZtaTB97KiXfcS8SSf2RvSJR9e1W2V33TGsdgUFM9MYjvV81AxIYbViuaIjeP1gGqvAVXFFh++euULDQ4eIH/rUIXx4SzYLb/WH1TgZ5y7DV/hZtxzH9JjyNhJ+04cHRcvUjQWiEW7b62rEraU1z8bUvinIZjXxkoOYzDbhX5u8CwSncMNg350ku8/Jr2RXaCzQjbHtALIrhY4SRdllSa4vngJKPuGBnrAJlu/urkhj0RY2Pfc0X9h/p5ayRyo69VDdrwDLR1q0sjuwQ==
+
+%URL%
+https://www.lighttpd.net/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1772811183
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+pcre2
+
+%OPTDEPENDS%
+brotli: mod_deflate
+krb5: mod_authn_gssapi
+libdbi: mod_authn_dbi/mod_vhostdb_dbi
+libldap: mod_authn_ldap/mod_vhostdb_ldap
+libmaxminddb: mod_maxminddb
+libxml2: mod_webdav
+lua: mod_magnet
+mariadb-libs: mod_authn_mysql/mod_vhostdb_mysql
+sqlite: mod_webdav
+
+%MAKEDEPENDS%
+brotli
+git
+krb5
+libdbi
+libldap
+libmaxminddb
+libxml2
+lua
+mariadb-libs
+meson
+sqlite
+

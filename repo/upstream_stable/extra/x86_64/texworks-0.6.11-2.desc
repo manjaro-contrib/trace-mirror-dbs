@@ -1,0 +1,68 @@
+%FILENAME%
+texworks-0.6.11-2-x86_64.pkg.tar.zst
+
+%NAME%
+texworks
+
+%BASE%
+texworks
+
+%VERSION%
+0.6.11-2
+
+%DESC%
+Unicode-based, TeX-aware editor with integrated PDF viewer
+
+%CSIZE%
+2795845
+
+%ISIZE%
+5519900
+
+%SHA256SUM%
+b3da3ce56ecf47b3ec4940320127cfb3c03dc5f8435903cfdc438a671b712cbb
+
+%PGPSIG%
+iHUEABYKAB0WIQQEzwzW9u6TrhiW9YQH0GNRylsxvgUCaZ7+sAAKCRAH0GNRylsxvkDFAPwMvY8khnzUUELvAvHnActy6/H3s2tKloByiwX1QVLs1gEA5PpCBZgPTQzpcyyD9gMapybWybNpbek8c0HaGjIR4gw=
+
+%URL%
+https://www.tug.org/texworks/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1772027482
+
+%PACKAGER%
+Torsten Keßler <tpkessler@archlinux.org>
+
+%DEPENDS%
+hunspell
+libsynctex
+poppler-qt6
+qt6-base
+qt6-declarative
+qt6-tools
+qt6-5compat
+libpoppler-qt6.so=3-64
+
+%OPTDEPENDS%
+gsfonts: correctly display PDF files without embedded fonts
+lua: Lua scripts support
+poppler-data: correctly display certain CJK documents
+python: Python scripts support
+texlive-basic: typeset TeX documents
+
+%MAKEDEPENDS%
+cmake
+lua
+python
+
+%CHECKDEPENDS%
+gsfonts
+poppler-data
+
