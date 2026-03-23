@@ -1,0 +1,84 @@
+%FILENAME%
+fcitx5-configtool-5.1.12-3-x86_64.pkg.tar.zst
+
+%NAME%
+fcitx5-configtool
+
+%BASE%
+fcitx5-configtool
+
+%VERSION%
+5.1.12-3
+
+%DESC%
+Configuration Tool for Fcitx5
+
+%GROUPS%
+fcitx5-im
+
+%CSIZE%
+547496
+
+%ISIZE%
+1961298
+
+%MD5SUM%
+cc7c203a77ce31df7fc5709a53898386
+
+%SHA256SUM%
+fbf550de78418471dcf3912d99944665ac555a8eb1b98313b566f94a8a36d5e7
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmmeINEACgkQek52CV2KUuTxrgf/Y+L0fVWYmmo8sHZd0xeCZ6LOM4c8Fc3bz8dcoAZefNxDRvMLjIe2Eetl+On81KPQvI8R6AUY76iVd9HrHAayaM6u5vsUQOrNiSFh8UoihdosCthXlsBQOcAD3l+zjfk03PRp+1rFtF8AsRdCAIluJUB4RmdEbG/Y8DqGrnbuAMLxqMK7ZPqgdYqWuGqf8Dl+hktR5i1BUvHqGgGi1YL7LTqDN08KDAB1J+DO4kWsWg2I0cjiNQESH2o8/DMg6wC+yfmpGE+mOPEW6rO9vQUcqdsTUtS+n8BbynoMSqv8Eg7HyqW9t2w4XxmNWeSZ7z7AtsK9oJgF7wyoCrl8sIK/vg==
+
+%URL%
+https://github.com/fcitx/fcitx5-configtool
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1771970692
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%REPLACES%
+kcm-fcitx5
+
+%CONFLICTS%
+kcm-fcitx5
+
+%PROVIDES%
+fcitx5-config-qt
+kcm-fcitx5
+
+%DEPENDS%
+fcitx5
+fcitx5-qt
+kdbusaddons
+kwidgetsaddons
+kitemviews
+kwindowsystem
+
+%OPTDEPENDS%
+kcmutils: for KCM support
+kdeclarative: for KCM support
+kirigami: for KCM support
+ksvg: for KCM support
+libplasma: for fcitx5-plasma-theme-generator
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules
+kcmutils
+kdeclarative
+kirigami
+ksvg
+libplasma
+ninja
+python
+

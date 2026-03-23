@@ -1,0 +1,71 @@
+%FILENAME%
+nextcloud-33.0.0-1-any.pkg.tar.zst
+
+%NAME%
+nextcloud
+
+%BASE%
+nextcloud
+
+%VERSION%
+33.0.0-1
+
+%DESC%
+A cloud server to store your files centrally on a hardware controlled by you
+
+%CSIZE%
+216304622
+
+%ISIZE%
+783122113
+
+%MD5SUM%
+b46197e5babcd5dcbf95e45527091871
+
+%SHA256SUM%
+5164b1e66a7489a0e7c4de0c8785c786019e418f02d99af835ba01dc4d40c41d
+
+%PGPSIG%
+iQJLBAABCgA1FiEEiee5MxxK59f699MFwTIpOVS75K0FAmmWCcQXHHNwdXB5a2luQGFyY2hsaW51eC5vcmcACgkQwTIpOVS75K2+OQ/9G/ekpc8rth8aV4ccKVZpOeDuufJnZ7DGCPpJub60WfR19jR+GqmjIw1K17OOChspnxwVPYK/kMMZdYjtYXFAxHD6aIxCkVAMv5MM52pOmcmcUiwo8pnGMMkN3soVLHpOEAFxErQUY4v+DTEWz4a7N+uF4lJDxklPSMcsuxJLnafkB/A1pLgu8NOUIMeeW1FqX/Qz524HHAbxwA0h8uN1DuWv0S14RDetDlfRMJjfNVfmfrOk2DWeMcvngkGwajThV+FkZKnJTEfaQBvj26gWr3O+ePgXJpCmDPsbrFjLSMNC4/afYAoK41DAOKrvUMsYEXhaS149MyHNCngAga5avBZPnOfQ0k4YtWWXZ4aW9n7jELHhNMkIWwVcsD1rkScAIU/Ups1Lp0fF01nSIvuskiMiQkSC+5vBllYusXww1sLtsXfi+lX/nQxnwezoaLEfey2fwyo5qnLsEgyTVEp0ZLWjMw392nZAmjZG5nNdt1sDBeHW12hIlHBv+iNiN4lrLa62mh8I2129tQp+YPN9mWjUDYFAnRlqz91zPmLPJf08WJXLp24ydvgdI1bbNI4bHNDXILEIv7yvw+OwNpbtZlvGtPT0VLD9yncYnQzEsSd3S0xQaI+TTqw8n0H6vJDsCpZp4OkvSnoR1ATdrZh7ZqEXp7Mky6lbqjku8Z7rsH8=
+
+%URL%
+https://nextcloud.com
+
+%LICENSE%
+AGPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1771439754
+
+%PACKAGER%
+Sergej Pupykin <spupykin@archlinux.org>
+
+%DEPENDS%
+php-legacy-gd
+php-legacy
+
+%OPTDEPENDS%
+curl: for webcron jobs from within uwsgi
+ffmpeg: for preview generation
+libreoffice: for preview generation
+mariadb: to use a local MariaDB server
+memcached: to use a local memcached server
+mod_itk: to use the Apache web server
+php-legacy-apache: to use the Apache web server
+php-legacy-apcu: for caching with APCU
+php-legacy-fpm: to run in fastCGI process manager
+php-legacy-imagick: for preview generation
+php-legacy-memcached: for caching with memcached
+php-legacy-pgsql: to use the PostgreSQL database backend
+php-legacy-redis: for caching with redis
+php-legacy-sodium: for Argon2 password hashing
+php-legacy-sqlite: to use the SQLite database backend
+postgresql: to use a local PostgreSQL server
+valkey: to use a local Redis server
+smbclient: for SMB/CIFS integration
+sudo: for privilege elevation in occ command when not run as root
+uwsgi-plugin-php-legacy: run as application container
+

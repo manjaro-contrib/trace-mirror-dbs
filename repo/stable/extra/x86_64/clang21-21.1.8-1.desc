@@ -1,0 +1,65 @@
+%FILENAME%
+clang21-21.1.8-1-x86_64.pkg.tar.zst
+
+%NAME%
+clang21
+
+%BASE%
+clang21
+
+%VERSION%
+21.1.8-1
+
+%DESC%
+C language family frontend for LLVM 21
+
+%CSIZE%
+51438810
+
+%ISIZE%
+233410539
+
+%MD5SUM%
+47ba8d982b38c45f511dc0cc5364e230
+
+%SHA256SUM%
+8e7a7e156486e8a5a1198351a00088223423296ac0016aa0b86a14c965f5a5b9
+
+%PGPSIG%
+iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCaayQaAAKCRA9TFAIu1yNKVhaAP0Vckk/qH5r/hq6PZaboCcYa80gXaVp7dA4TlHrnNtLPQD9Grol7iKhnRYZqSRVt+/pDWw1nbkaRUmdn8szN7g4ZAg=
+
+%URL%
+https://clang.llvm.org/
+
+%LICENSE%
+Apache-2.0 WITH LLVM-exception
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1772916072
+
+%PACKAGER%
+Peter Jung <ptr1337@archlinux.org>
+
+%DEPENDS%
+llvm21-libs
+gcc
+compiler-rt21
+
+%OPTDEPENDS%
+openmp: OpenMP support in clang with -fopenmp
+python: for scan-view and git-clang-format
+llvm21: referenced by some clang headers
+
+%MAKEDEPENDS%
+llvm21
+cmake
+ninja
+python-sphinx
+python-myst-parser
+
+%CHECKDEPENDS%
+llvm
+
