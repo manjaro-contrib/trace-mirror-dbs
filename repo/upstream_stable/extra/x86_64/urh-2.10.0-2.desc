@@ -1,0 +1,85 @@
+%FILENAME%
+urh-2.10.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+urh
+
+%BASE%
+urh
+
+%VERSION%
+2.10.0-2
+
+%DESC%
+Universal Radio Hacker: investigate wireless protocols like a boss
+
+%CSIZE%
+3956757
+
+%ISIZE%
+18363348
+
+%SHA256SUM%
+20cfa0ab54abcc88f9ba6d0e316ba8df582e56a694a0de959ef390c029ee105b
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCabpb7wAKCRDwXowSExrrXrJoAQDefO+E0uXBPnoP8o8Ind+g7TyGjfHT4FIe+fhrI15JDwEAppG0S8XH45qWWVmNk+Ag32ipXVJHxMJ382t/5R/DwAI=
+
+%URL%
+https://github.com/jopohl/urh
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1773820700
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+glibc
+libgcc
+libgomp
+libstdc++
+python
+python-numpy
+python-psutil
+python-pyqt6
+python-setuptools
+
+%OPTDEPENDS%
+airspy: Airspy backend
+bladerf: BladeRF backend
+cython: compiling native modules inside URH
+gnuradio-osmosdr: OsmoSDR backend, via GNURadio
+gnuradio: GNURadio backend
+hackrf: HackRF backend
+libiio: IIO backend (PlutoSDR)
+libuhd: USRP backend
+limesuite: LimeSDR backend
+python-pyaudio: Soundcard backend
+python-pylibiio: IIO backend (PlutoSDR)
+rtl-sdr: RTL-SDR backend
+
+%MAKEDEPENDS%
+airspy
+bladerf
+cython
+gcc
+hackrf
+libiio
+libuhd
+limesuite
+python-build
+python-installer
+python-wheel
+rtl-sdr
+
+%CHECKDEPENDS%
+python-pytest-xdist
+xorg-server-xvfb
+
