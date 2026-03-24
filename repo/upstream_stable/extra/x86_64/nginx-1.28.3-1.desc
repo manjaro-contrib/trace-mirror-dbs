@@ -1,0 +1,84 @@
+%FILENAME%
+nginx-1.28.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+nginx
+
+%BASE%
+nginx
+
+%VERSION%
+1.28.3-1
+
+%DESC%
+Lightweight HTTP server and IMAP/POP3 proxy server
+
+%CSIZE%
+617758
+
+%ISIZE%
+1643324
+
+%SHA256SUM%
+1303f192cc981ae5a6d25334bd1c440e9cb04b816cbca305ca1a1c2757d2a360
+
+%PGPSIG%
+iQIzBAABCgAdFiEELjbYYgIhSC/EXLfyqRdkdZMmtEAFAmnDGgMACgkQqRdkdZMmtEDE9w//d0zdiVBjichBiCk6TyhAA6i4uPcB6cr7X0BUFMv41MIcm7vVITligFbg6kmRdIfxdDIXRiU9blKFXI/xJikwxhDO4EV6kfQB1SwxTut3FH9upcguVkG/IuBMznYMXj/jZjN1iTO3S5BlaMxYHZ7adWF5z88snITjI1vnvrQdr00s3JThPk6nSvLTczG0FrlvZyCq2TlXWr3HYh5fSJxDCDJth/QPzfLD1LDAYOPh/6l/lU6gEmVVhhjta7o5UMxExErqsNSpWJQefeH0iLyze/DjdiB/y9FQE8ZJosw812WVvo8i/IUVvCKOqropxxQ9IEIjIV7ZesmM4VmrC8VuhJ1k6jJ2FuCBoBFoxY0IsoPudmJG/5z7PecPhX5kUw7nfhanM8SUtwLtOU3DqIZx8nnDPvqOVFmNDYjx6MAvWkMYlUeP/PDHqw7EUH9i2l+nN3Fr8evO0FkZmWJQy+UA8fxdjMvOZcL59aDerbQNs4UTQcXE6ktAkCHTndJoyhPxpUvDEWaKs2PrYnBYfrS//3n9GKWJGn9Z/3nEldBLFec21idXk5jTkIAJRqGXDcYgaUn+seXUgsZVCPjmwXckM9oBHbT1M1c+BIOHTteItoWzO9SGdS0Ae1iYtO+1YqYaXStOlBb04mvMzxYA6Gubc1UY09bpL4vHr0bsw9ertAs=
+
+%URL%
+https://nginx.org
+
+%LICENSE%
+BSD-2-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774393696
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%DEPENDS%
+glibc
+pcre2
+zlib
+openssl
+mailcap
+libxcrypt
+
+%OPTDEPENDS%
+nginx-mod-geoip: GeoIP support
+nginx-mod-image-filter: transform images
+nginx-mod-mail: proxy IMAP, POP and SMTP protocols
+nginx-mod-perl: perl variables and location handlers
+nginx-mod-stream: proxy TCP/UDP data streams
+nginx-mod-xslt: transform XML responses
+
+%MAKEDEPENDS%
+findutils
+gd
+geoip
+git
+glibc
+libxcrypt
+libxml2
+libxslt
+mailcap
+openssl
+pcre2
+rsync
+zlib
+
+%CHECKDEPENDS%
+coreutils
+ffmpeg
+memcached
+perl
+perl-cache-memcached
+perl-cryptx
+perl-fcgi
+perl-gd
+perl-io-socket-ssl
+
