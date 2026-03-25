@@ -1,0 +1,30 @@
+%DEPENDS%
+glibc
+libgcc
+xz
+zstd
+
+%CONFLICTS%
+rust
+cargo
+rustfmt
+
+%PROVIDES%
+rust
+cargo
+rust-nightly
+cargo-nightly
+rustfmt
+rust-src
+lib32-rust-libs
+rust-musl
+rust-wasm
+rust-analyzer
+
+%OPTDEPENDS%
+lldb: rust-lldb script
+gdb: rust-gdb script
+gcc: build executables for most targets
+mingw-w64-gcc: {i686,x86_64}-pc-windows-gnu targets
+aarch64-linux-gnu-gcc: aarch64-unknown-linux-* targets
+

@@ -1,0 +1,12 @@
+%DEPENDS%
+glibc
+openssl
+postgresql-libs<19
+postgresql-libs>=18
+postgresql<19
+postgresql>=18
+
+%OPTDEPENDS%
+timescaledb-tune: tune postgresql.conf for better performance
+timescaledb-old-upgrade: upgrade from previous major version of PostgreSQL
+
