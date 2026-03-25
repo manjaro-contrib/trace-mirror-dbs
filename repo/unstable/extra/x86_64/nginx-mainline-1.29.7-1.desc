@@ -1,0 +1,93 @@
+%FILENAME%
+nginx-mainline-1.29.7-1-x86_64.pkg.tar.zst
+
+%NAME%
+nginx-mainline
+
+%BASE%
+nginx-mainline
+
+%VERSION%
+1.29.7-1
+
+%DESC%
+Lightweight HTTP server and IMAP/POP3 proxy server, mainline release
+
+%CSIZE%
+635940
+
+%ISIZE%
+1690775
+
+%MD5SUM%
+eaddb925fdeda5469c4b711cc1ecef2e
+
+%SHA256SUM%
+2dfaaabc14c612f4ee276c4d85188af6737c9cff547bb8c5172e5ed50aab7eb9
+
+%PGPSIG%
+iQIzBAABCgAdFiEELjbYYgIhSC/EXLfyqRdkdZMmtEAFAmnDGhQACgkQqRdkdZMmtEAwKxAAhKsWIb+ZIz7HZ1dmGWIglNDyPZjD4j73CbL7zJ68kAkha9Ifj/5ZaiRzu0tEpfiK8t/xhN9mwEyXcHbOc+B2LsFoSVFxWyTb2r0iKy4fYNTqSqnYaun2LAmOcCGfaId/QmixDlQ3c3Htc5tx0eWCm59XvdOXk/0MCaX49OoTwTzRJuD/UYb9iRj7q47JDFBsfDlHp3T8B5teP6eXV7Uw/2Up3SEjluJXp2zH3BbEIEKodRWjiXdavLA65WKWZs2/gA8t5AsTSSfx90tkFD8subAGkMrtQ9wGI5NkwgTidHCiMxi38uxcSVEROzcoVcjy0OMvvV+nK4Cal2yTsVUO28d1FE1PKHIf8QWpB3PUx+PTgfNfHf3QGlr+TdnSNMO/i2MNWjOwGm/uMbxKprl/YP+/+wz3jFXUr9dY2Zv+502lBeDswNJwrSaYeNMtwqbZHH++33/PjFyVAoDCcLKLwJ/ywD1sKQ95TzcIiKOS6ByrUslgvRbZERkJIOMa06XuMAbzRvuUwrWVZQ5xwAabaIHzCAHZ9333+4BHHvJcTAe4KErM9+lfG4DkS+SATtBs45JYx5jXCMXF2H9sZemaVASNkyM4eUTqpA01l/V666oArowFug4fDBxeVB8UJbCWPQKSG8m0t+MSIZ7cYxjOb0/xX0ay3C82LbI6bg5wfVo=
+
+%URL%
+https://nginx.org
+
+%LICENSE%
+BSD-2-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774393726
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%CONFLICTS%
+nginx
+
+%PROVIDES%
+nginx
+
+%DEPENDS%
+glibc
+pcre2
+zlib
+openssl
+mailcap
+libxcrypt
+
+%OPTDEPENDS%
+nginx-mainline-mod-geoip: GeoIP support
+nginx-mainline-mod-image-filter: transform images
+nginx-mainline-mod-mail: proxy IMAP, POP and SMTP protocols
+nginx-mainline-mod-perl: perl variables and location handlers
+nginx-mainline-mod-stream: proxy TCP/UDP data streams
+nginx-mainline-mod-xslt: transform XML responses
+
+%MAKEDEPENDS%
+findutils
+gd
+geoip
+git
+glibc
+libxcrypt
+libxml2
+libxslt
+mailcap
+openssl
+pcre2
+rsync
+zlib
+
+%CHECKDEPENDS%
+coreutils
+ffmpeg
+memcached
+perl
+perl-cache-memcached
+perl-cryptx
+perl-fcgi
+perl-gd
+perl-io-socket-ssl
+
