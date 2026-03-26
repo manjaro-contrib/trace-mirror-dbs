@@ -1,0 +1,65 @@
+%FILENAME%
+av1an-0.5.2-2-x86_64.pkg.tar.zst
+
+%NAME%
+av1an
+
+%BASE%
+av1an
+
+%VERSION%
+0.5.2-2
+
+%DESC%
+Cross-platform command-line encoding framework with per scene quality encoding
+
+%CSIZE%
+1957312
+
+%ISIZE%
+6462396
+
+%SHA256SUM%
+a6baf072edc8d23b98dec56526daf29fa482fead1ae90507452bcd54d5ca7f7c
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmnFeU0ACgkQeGxj8zDXy5J3sA/9GDrdjo2nzUdlKmTMSCsv4F+BnpcQJmRGtuGSy2dsiWFYmvk7YlYwB2d+ioQZj7LmV/03zwdP8F8xjcjpeadC+TAiVe3OGBImuqKBJTGgk3/N8kenjy34idj5hzGJcjmTQTVK+cjDbadPEyyaS9vpn8wCYwugUZG3PYUjg56zf8jUz2A0xhhZJeGNBgtGtf098IxqNvFHcL4xqrkLeoHKTFYRgtIyJcjQKsPZGk9vGKgmVk/IbjmBzPekTvamcViDd/l76S5WXpz5Ba+gmysoURys+eXMYh+63L71xkTSCe6onPR92LdpX6m9UureamacEO7kJr2tDe2FNIphWV+ZjML4B29r9YZwLr+9u6PWQ8DkaOgwPK8soUjXpvZoT9jlLmGwTwSOjzws5UPEdPu/JQ8JT3Sp1BWlYb4gHrMge2l6u9lovlNi3DkSDBD+FKbTbtmNbyJ6eMiSUf6tFrR00hOtfysWLcavIkbLBdp1iLO2Iag7MAB3TNtCvJhmudz9/Qf1oo8p5MZbLQmQnzuCWrlEtGgPoUrGuxia3eV4PcRDUWiD7qO0t1wacwsflmKw8YKCanOW1KkUSiJa/6qTMxMc6YokVdugPtJ+euY4e0Iah8FFm6U7WhOiEBpCIKk+tkm82PnODa9LMWM9pCCmdxOmYQ7VQYK/QLftkV2SE4s=
+
+%URL%
+https://github.com/rust-av/Av1an
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774549197
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+libgcc
+glibc
+ffmpeg
+aom
+vapoursynth
+
+%OPTDEPENDS%
+svt-av1: SVT-AV1 encoder support
+rav1e: rav1e encoder support
+libvpx: vpx encoder support
+vmaf: VMAF calculation support
+mkvtoolnix-cli: mkvmerge support
+ffms2: FFMS2 chunk detection support
+vapoursynth-plugin-bestsource: Preferred chunk detection plugin
+vapoursynth-plugin-lsmashsource: L-SMASH chunk detection support
+
+%MAKEDEPENDS%
+rust
+nasm
+clang
+git
+
