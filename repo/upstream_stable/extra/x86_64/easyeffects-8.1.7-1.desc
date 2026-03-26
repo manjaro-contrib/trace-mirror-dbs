@@ -1,0 +1,81 @@
+%FILENAME%
+easyeffects-8.1.7-1-x86_64.pkg.tar.zst
+
+%NAME%
+easyeffects
+
+%BASE%
+easyeffects
+
+%VERSION%
+8.1.7-1
+
+%DESC%
+Audio Effects for Pipewire applications
+
+%CSIZE%
+2386404
+
+%ISIZE%
+12458953
+
+%SHA256SUM%
+c9c9754076880aacb30ba7ad2d47ec95dcda4a25eb183be96c529af27dfec386
+
+%PGPSIG%
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCacWWj18UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCp29AQCGCadC0j/TtlXloZv8cTyq6dVOFj0yi1QBivURAp4R9AD/VeeTtYFpoQUYdwWFBav2wqL4LIVAhDaz5y2K9YvM6Ao=
+
+%URL%
+https://github.com/wwmm/easyeffects
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774556667
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%DEPENDS%
+kirigami
+kirigami-addons
+kiconthemes
+kconfigwidgets
+qqc2-desktop-style
+breeze-icons
+qt6-base
+qt6-graphs
+pipewire-pulse
+lilv
+libsamplerate
+libsndfile
+zita-convolver
+libebur128
+rnnoise
+soundtouch
+libbs2b
+nlohmann-json
+tbb
+speexdsp
+gsl
+webrtc-audio-processing
+
+%OPTDEPENDS%
+calf: limiter, exciter, bass enhancer and others
+lsp-plugins-lv2: equalizer, compressor, delay, loudness
+zam-plugins-lv2: maximizer
+mda.lv2: bass loudness plugin
+yelp: in-app help
+
+%MAKEDEPENDS%
+cmake
+extra-cmake-modules
+ninja
+intltool
+appstream
+ladspa
+
