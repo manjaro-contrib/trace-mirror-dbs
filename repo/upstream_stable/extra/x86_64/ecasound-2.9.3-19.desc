@@ -1,0 +1,99 @@
+%FILENAME%
+ecasound-2.9.3-19-x86_64.pkg.tar.zst
+
+%NAME%
+ecasound
+
+%BASE%
+ecasound
+
+%VERSION%
+2.9.3-19
+
+%DESC%
+Command-line multitrack audio processor
+
+%GROUPS%
+pro-audio
+
+%CSIZE%
+1660443
+
+%ISIZE%
+8685657
+
+%SHA256SUM%
+2aea40f4c7e290971c76e87066467d643f68b3c8f1422b85c8971c64352f3593
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmnGpwwACgkQeGxj8zDXy5LUuRAAnzOlhNtDP28LHF0w+roVVygn8EDrCBj21V6Tj6WWWwgrXsD1LL9kRKr2teD6y8HVa3ObQLtXafMOrcFTJ6CuZnNtRS11KnBrQV2mxoz7mMWIU25FG2WaiM/OgoFaTsyPe1wEG67ORyddCe6w3f9ArFDbxLV7AJGMga3lYtiB30PZPg77kUx7jufXVj/02ukvd/s6kIsSu/esj9ZBDw9d+C/wmv5PfNVb//tcGvImjf/oEJmXRKKn32Fit5LvcGD0+stMMwU7jkisc3Gsk9xe+yYuML+HIPTeyKJc70+TqU0maz4thlRd/mK0vc6GdWX/5rolC9DpjsFjQ1909LOoxvN7DJfsLzAb/eZgs3PIXW5NlHf361MoWNBfk+BCRtqyqVZBNSNvsqRabP8OEqC+LSnP3Xik3oE58tR9giZiNifB/FB9DN9PM4bJlDfuZwTbsDiAERjjYs8WZmaWCrqO0e2oAk6AgB2MBAxHvopcacY4GwlGrfrP8vOm31AhB9CDkrE95yNvF5h4wdKL+/doH2rYniw5D5181ArvmrKAUpw4tSJGB34ORvu8a6oWDJjOg7XSQap9RMBqxocl1r9Di2GEx+s/I+Ue1bK+U5vsevHNH61N6YsT3iZF40oM17yLQ6VLnEGcVb4r/xxIgbHUoAngqR9AuYQoVgmvI/3shNE=
+
+%URL%
+https://ecasound.seul.org/ecasound/
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774626512
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%PROVIDES%
+lv2-host
+
+%DEPENDS%
+glibc
+libgcc
+libstdc++
+alsa-lib
+libasound.so=2-64
+jack
+libjack.so=0-64
+audiofile
+libaudiofile.so=1-64
+liblo
+liblo.so=7-64
+lilv
+liblilv-0.so=0-64
+ncurses
+libncursesw.so=6-64
+readline
+libreadline.so=8-64
+libsamplerate
+libsamplerate.so=0-64
+libsndfile
+libsndfile.so=1-64
+
+%OPTDEPENDS%
+bash: for libecasoundc-config and libecasound-config
+lame: MP3 encoding
+libfaad2: for .aac/.m4a/.mp4 file support
+libfaac: for .aac/.m4a/.mp4 file support
+libmikmod: for tracker module
+mpg123: MP3 decoding
+python: for ecamonitor
+ruby: ECI API
+timidity++: for .mid file support
+vorbis-tools: for .ogg file support
+
+%MAKEDEPENDS%
+alsa-lib
+audiofile
+jack
+liblo
+libmikmod
+libsamplerate
+libsndfile
+lilv
+lv2
+ncurses
+python
+readline
+ruby
+
