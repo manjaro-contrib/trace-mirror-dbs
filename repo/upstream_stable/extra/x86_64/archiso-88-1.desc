@@ -1,0 +1,67 @@
+%FILENAME%
+archiso-88-1-any.pkg.tar.zst
+
+%NAME%
+archiso
+
+%BASE%
+archiso
+
+%VERSION%
+88-1
+
+%DESC%
+Tools for creating Arch Linux live and install iso images
+
+%CSIZE%
+101687
+
+%ISIZE%
+230903
+
+%SHA256SUM%
+095a453032f0d56c2275db3633c83eeda99bb3416f52f801e2cea5ce180cc56b
+
+%PGPSIG%
+iHUEABYKAB0WIQSAJH2Z6r06TR46GDboW4aD60i8lQUCacaW0AAKCRDoW4aD60i8lQi4AP9ifG+IXv+0d6Ki0oWOALUWnysPScOl7m+sQOnEfndGXQEAnVLeOR527Hjq/1sunEyRXOJmMNNdbmsI4AMpwxdyuAs=
+
+%URL%
+https://gitlab.archlinux.org/archlinux/archiso
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1774622161
+
+%PACKAGER%
+Daniel Bermond <dbermond@archlinux.org>
+
+%DEPENDS%
+arch-install-scripts
+bash
+dosfstools
+e2fsprogs
+erofs-utils
+libarchive
+libisoburn
+mtools
+squashfs-tools
+
+%OPTDEPENDS%
+edk2-ovmf: for emulating UEFI with run_archiso
+gnupg: for OpenPGP signature verification of rootfs over PXE
+grub: for grub support in the ISO
+openssl: for CMS signature verification of PXE artifacts and rootfs over PXE
+qemu-desktop: for run_archiso
+
+%MAKEDEPENDS%
+git
+python-docutils
+
+%CHECKDEPENDS%
+shellcheck
+
