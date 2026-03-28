@@ -1,0 +1,79 @@
+%FILENAME%
+linux-hardened-6.19.10.hardened1-1-x86_64.pkg.tar.zst
+
+%NAME%
+linux-hardened
+
+%BASE%
+linux-hardened
+
+%VERSION%
+6.19.10.hardened1-1
+
+%DESC%
+The Security-Hardened Linux kernel and modules
+
+%CSIZE%
+149054491
+
+%ISIZE%
+149502593
+
+%SHA256SUM%
+2e2cc86c08a46c87a57905d40a8a4e89fec4d785442849b4d781d721966f1512
+
+%PGPSIG%
+iQIzBAABCgAdFiEE4kC1fixGMLp2ji8m/BtUfI2BcsgFAmnHvfkACgkQ/BtUfI2Bcsh+jg/+Oe0zrl9m99Hb5/eVGaxqOHapRA03XgBOzqtNJfqeRXz50X6J7ca2EQN01bd7bKHToNKXhviPqORMQUBH1T5U3yi98HN+lbcFH/d2JGMAUWGSgGZTDxukGPu1BnPnNJa2KYE7jwO2kDgG/2oTQ2WBZGg3mhWYQOrooSDJ5CmBZYHphAarBt02/oaJxNIzNDPLUsLiUUTrYjjU+DlYfzoGpckVry2mQFtmn+LZMVplNZdGQdJY2APjFTteGB2ZJu5XlbsJUOoYdawwCZZBquZOhpYuL1z350WLQY68qonCwgwccxYX0P3PeGHa0Zywthou5OFdIWSlGmwpSXDGFIE6H4eX5Coo89WNHbNqwqBUQBWqEuQKB3QZaVLZQyANTFnMtJ4J8TtvuGT9/Et2SnULdt6IsAfvNCThoR3h5pWeFaK0tH3vbztv7fmAP2/SpmuNTn5ujrHvlBAqEbdEi9AkFZgGV4dZXt09rAj2TdIIH6++E5siFwDQxhrGppSuY42uIZ4JrzRUZi0SNxMiT5nCX68qNoXhHbG4FYZ+yR9obgCg46/WABs2xdJhY9tpzjUr9k/CtVczF7iaBpltS+1Ut1tPBRQ0N485dFtmCsPLaSWg9DdbIfCt2Kf7yD4KdX6npuq3OkPYcDtQ4fUZGJlhfXz0KtKMWkri3V6tgyHBzA0=
+
+%URL%
+https://github.com/anthraxx/linux-hardened
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774657637
+
+%PACKAGER%
+Levente Polyak <anthraxx@archlinux.org>
+
+%PROVIDES%
+KSMBD-MODULE
+NTSYNC-MODULE
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+initramfs
+kmod
+
+%OPTDEPENDS%
+linux-hardened-headers: headers and scripts for building modules
+linux-firmware: firmware images needed for some devices
+scx-scheds: to use sched-ext schedulers
+wireless-regdb: to set the correct wireless channels of your country
+usbctl: deny_new_usb control
+
+%MAKEDEPENDS%
+bc
+cpio
+gettext
+libelf
+pahole
+perl
+python
+rust
+rust-bindgen
+rust-src
+tar
+xz
+graphviz
+imagemagick
+python-sphinx
+python-yaml
+texlive-latexextra
+
