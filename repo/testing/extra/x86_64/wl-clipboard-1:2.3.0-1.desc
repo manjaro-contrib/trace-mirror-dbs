@@ -1,0 +1,57 @@
+%FILENAME%
+wl-clipboard-1:2.3.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+wl-clipboard
+
+%BASE%
+wl-clipboard
+
+%VERSION%
+1:2.3.0-1
+
+%DESC%
+Command-line copy/paste utilities for Wayland
+
+%CSIZE%
+31757
+
+%ISIZE%
+103042
+
+%MD5SUM%
+f5ff0d4e1dc35bcb4e45b9734fac4f21
+
+%SHA256SUM%
+3ba82e724f496eeafe16a6e6f2a54f0bbf5e64f28bf8555a0d3ce4efa8c17693
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmnAQCoACgkQ/cMEC5Ksp0ixQBAAg+qNbYN/iKCBBNP+bCwFxWL8mACrudazMHMIMn1wrzhC3snmscnjv58zZOheoU8sKWesESzvBcqERJn7ZzhwUfpfEkHOI48aLvCX8kZJfcRX0tGixw8vHX4DXECbCfhNVpj27SNPxEG1hGRFZywYNBZXqGuS3sV6rN8VZhPGYzaqDbX+YA3pR2MsWrO6fZK1clXARmADux/8CteQc/QLyE2O7UbCi4GVEcoFt97HThfQt69oya8BJSFUHq1pf8bYloX7kOuvDrKOvpb32G6Pdw6N7+dX3IzMxLiKNjeNk/nuAyLT3ENq35Rf9VcvgCO7Sig3jn6SoZcjFAhLVNb7d+kl0p8n09BAMNK63fVfVoWWwIrqpRgV29oVQemH+0+Mrnnt4DkRhGGfcgw1jD74bS4+sMm16XMMAB/i0U2czrrsFHauMUo9+oPF5y5vcXoCMPA1tST0BTysREG+KEXtOoUwZDpj/pT1+GpT7G+tckVI4V7oPByvBQ64aetJXlTxA768IEDkxiBv5K/ITEALsUXl7k960S2H7hHHagks7EeLyze3aWtQmzNMV+HJfk4I+oMzKGrSZ0l22zuxmojnARRUe+ysLOef+iAV7FAkab4m4VP2rKoR2UnmOqIWfJB6+5TqxxOZaKN51XrNY3dcWFPKjWG0tN6cgK7fuV1ajEk=
+
+%URL%
+https://github.com/bugaevc/wl-clipboard
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774207000
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+glibc
+wayland
+
+%OPTDEPENDS%
+xdg-utils: for content type inference in wl-copy
+mailcap: for type inference in wl-paste
+
+%MAKEDEPENDS%
+meson
+wayland-protocols
+

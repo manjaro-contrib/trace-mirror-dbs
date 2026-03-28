@@ -1,0 +1,84 @@
+%FILENAME%
+fcitx5-configtool-5.1.13-1-x86_64.pkg.tar.zst
+
+%NAME%
+fcitx5-configtool
+
+%BASE%
+fcitx5-configtool
+
+%VERSION%
+5.1.13-1
+
+%DESC%
+Configuration Tool for Fcitx5
+
+%GROUPS%
+fcitx5-im
+
+%CSIZE%
+554127
+
+%ISIZE%
+1980975
+
+%MD5SUM%
+29677fb3d03d2bb7eb229f4798ab58dd
+
+%SHA256SUM%
+6216cccaeb6b989a78a174fd0fdc43dcff9a493d60d43d701cd785e547e65113
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmm6OE8ACgkQeGxj8zDXy5J+8RAAoH/thT3xAFtS95kBjiD0Oam47GcTqqhXTlv8/ddEa8fLILacGjBX51PZNtTVbhh245DKP+DmwP2wxrEprqSWk509lUjkhpYcdKoe4umAVR2jEnBTUDuFKEMPRGeZ/B1jBrQqgStVozDEeO5T6vrShqyi85++h5L30bKx2D5MGhZAjDEdhuT0VYBwpKq2Hrnw63E5+3NoVkb+5m4AuRTuoRmj+j5jXxrKo5sLl0t1fQXVg0TFnRzHQEr41DONjqvqtXsPhtoxh/NtctcVf81Bxm3NWOFezhz1lVhRERA81UI033GhQfmxmecI6KUliVgZExFp8JMJuHuSb+lhEYBJgVO1OsFjZ01BSjSex0lc5hPfvWfSN7NGLVEMjgmyEQkiUx5EGpI0tClqc85pPrGULnpbeokOzrLpAUgPHEit2SicsfXBeanrPnXg2bZzqZ5ECfPL8hxSkqwGrveVdSTyey3d2bdTx4rRYgBjEYSDDV0bz1rTI95y/CTFTcyyWOzJNlZ3DYbZYXkt1pyJgl82c/Wj6G3CeEkEPr8CbzKr0AcASknsZWvTeaD1qNkLkCeZtnW8F0d0/xUc816C/Y//s5u9kEHCCQ7+vdHyG12jrdoZmThjIW4si82v15xbrVJtDS1YxER0ivUpneESi/ylfKxZ+oOdxFQWlxbJX3k69FA=
+
+%URL%
+https://github.com/fcitx/fcitx5-configtool
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1773811705
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%REPLACES%
+kcm-fcitx5
+
+%CONFLICTS%
+kcm-fcitx5
+
+%PROVIDES%
+fcitx5-config-qt
+kcm-fcitx5
+
+%DEPENDS%
+fcitx5
+fcitx5-qt
+kdbusaddons
+kwidgetsaddons
+kitemviews
+kwindowsystem
+
+%OPTDEPENDS%
+kcmutils: for KCM support
+kdeclarative: for KCM support
+kirigami: for KCM support
+ksvg: for KCM support
+libplasma: for fcitx5-plasma-theme-generator
+
+%MAKEDEPENDS%
+git
+extra-cmake-modules
+kcmutils
+kdeclarative
+kirigami
+ksvg
+libplasma
+ninja
+python
+

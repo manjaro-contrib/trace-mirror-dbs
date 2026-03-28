@@ -1,0 +1,72 @@
+%FILENAME%
+refind-0.14.2-2-x86_64.pkg.tar.zst
+
+%NAME%
+refind
+
+%BASE%
+refind
+
+%VERSION%
+0.14.2-2
+
+%DESC%
+An EFI boot manager
+
+%CSIZE%
+1009549
+
+%ISIZE%
+1977031
+
+%MD5SUM%
+211f8b2751babc1e3cd40a22773e66e8
+
+%SHA256SUM%
+10347c15091c386cf76ae92175b51c305c68821b3c6482f8e7a8160e82abed52
+
+%PGPSIG%
+iHUEABYKAB0WIQTofls58EpdiJ2MAUf22EFDSW9mgAUCabRPlAAKCRD22EFDSW9mgJYDAQCJcvi/u5nSaPknfn/aW9E/HuVEXK8NpXAf7f5LghfEhgD7BNNIlxo9LQdXEygvHD5Fged1yOFYV6mvY6mAh3dQQQ8=
+
+%URL%
+https://www.rodsbooks.com/refind/
+
+%LICENSE%
+BSD-2-Clause
+CC-BY-SA-3.0
+CC-BY-SA-4.0
+GPL-2.0-only
+GPL-2.0-or-later
+GPL-3.0-or-later
+LGPL-2.1-or-later
+LGPL-3.0-or-later OR CC-BY-SA-3.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1773424506
+
+%PACKAGER%
+Campbell Jones <serebit@archlinux.org>
+
+%DEPENDS%
+bash
+dosfstools
+efibootmgr
+
+%OPTDEPENDS%
+gptfdisk: for finding non-vfat ESP with refind-install
+imagemagick: for refind-mkfont
+openssl: for generating local certificates with refind-install
+python: for refind-mkdefault
+refind-docs: for HTML documentation
+sbsigntools: for EFI binary signing with refind-install
+sudo: for privilege elevation in refind-install and refind-mkdefault
+
+%MAKEDEPENDS%
+bash
+dosfstools
+efibootmgr
+gnu-efi
+
