@@ -1,0 +1,73 @@
+%FILENAME%
+python-cuda-13.2.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-cuda
+
+%BASE%
+python-cuda
+
+%VERSION%
+13.2.0-1
+
+%DESC%
+Python interface for CUDA provided by NVIDIA
+
+%CSIZE%
+11074
+
+%ISIZE%
+33533
+
+%SHA256SUM%
+a255d36f6b984922d6bf88e59a12b7d027b1ff590269d2a506e32145e04728ad
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCacYp8gAKCRAAHPSBC+jZEa0LAQDs5vkIOQEN/j9ipIihxnsJUVdwR6PaM5E/D/4xQor94gEAwxiGM8xNiLj6vkvPmjSFvrE2/XidW/QFSEeySOk5Vg8=
+
+%URL%
+https://nvidia.github.io/cuda-python
+
+%LICENSE%
+LicenseRef-NVIDIA
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774594360
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python-cuda-bindings
+python-cuda-core
+python-cuda-pathfinder
+
+%OPTDEPENDS%
+python-cccl: cuda.coop and cuda.compute modules
+python-numba-cuda: a DSL for CUDA SIMT programming model
+python-cuda-tile: a DSL for CUDA Tile programming model
+python-nvmath: bindings for math libraries
+python-nvshmem: bindings for NVSHMEM
+python-nsight: Python kernel profiling interface for performance analysis
+
+%MAKEDEPENDS%
+cuda
+cython
+git
+python-wheel
+python-build
+python-installer
+python-setuptools-scm
+python-versioneer
+python-pyclibrary
+python-cuda-pathfinder
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-benchmark
+python-numpy
+python-scipy
+
