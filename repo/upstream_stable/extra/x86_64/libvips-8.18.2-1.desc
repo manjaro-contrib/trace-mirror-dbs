@@ -1,0 +1,81 @@
+%FILENAME%
+libvips-8.18.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+libvips
+
+%BASE%
+libvips
+
+%VERSION%
+8.18.2-1
+
+%DESC%
+A fast image processing library with low memory needs
+
+%CSIZE%
+3173335
+
+%ISIZE%
+32323979
+
+%SHA256SUM%
+9f37533ceb2d1567144a88ba90e205616234534971ada7a18e6f68dd8db9c43c
+
+%PGPSIG%
+iQIzBAABCgAdFiEEph5oDnze5xbx8Yihae9tnkmmTrgFAmnMVYkACgkQae9tnkmmTrgsMxAAuhzoWYgLEp5WossXo1yajcK3/cBAUCZ8PMkL0mEZKN/XxRDRFtDc2oj5FK8YGbHRR6bdwPjjfRMX6dzU8l3xG+M9t4N12rKHism21/7s5cYPd139nd5VBqdOaZfR2qjcj9pX2ahbqT48TwcIw2JQ81KVvkBhRMe8VA9mswyuLk9rBBdtz9GvgTDrPkKeqycaGQGF1FTmnuEprBbDhS9F1HJDO1/idMUjeLomG5xttWB1DAS6r2zdqcZ6DxVquIvjestWeARd+Zi4LM5e/tf4q440TsduH3PP9j/PRgThihJ+OfYomTDl73pD0V9syuhJUvuQh2tPkrriMEKJsnvgVd+0+LwBAfezEUAHrcayWJ+VGvNhQf7A2jiWL7jIJ3XBuG1jh09sa2Z2qLgNjo1nX17ttAfZBgfYwR9f/7P8G6arB0HV9FviHXWmphjSkZJ5a0ylVWuC5E/zcWCb/0aOSAk+ZiBBXzDcFtUnWUmKiCI1yZVcKtALB0sOz7B51kU7upunk0juT40wUkI2YmL3goAqtwiE4QZ2iiazhWeZIrqDPpj4fMen+SdonqYmX8yZyijfmjwQ9b0DdwP75yHGNPdY7ZqrxZj5NzxgagtenuC2hxaJ9BPKMHlcuI1Ujs+SDeDkluEFPmzU86C/m2XOM3DOHFMKn7CQFvm7LbnaNGw=
+
+%URL%
+https://libvips.github.io/libvips/
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774998722
+
+%PACKAGER%
+Justin Kromlinger <hashworks@archlinux.org>
+
+%DEPENDS%
+cfitsio
+fftw
+libexif
+libarchive
+libimagequant
+librsvg
+libwebp
+openexr
+highway
+pango
+libcgif
+cairo
+lcms2
+openjpeg2
+
+%OPTDEPENDS%
+libheif: for heif module
+imagemagick: for magick module
+openslide: for openslide module
+poppler-glib: for poppler module
+python: for vipsprofile
+libjxl: for jxl module
+
+%MAKEDEPENDS%
+gobject-introspection
+libheif
+libjxl
+imagemagick
+openslide
+poppler-glib
+meson
+gi-docgen
+glib2-devel
+
+%CHECKDEPENDS%
+python-pytest
+python-pyvips
+
