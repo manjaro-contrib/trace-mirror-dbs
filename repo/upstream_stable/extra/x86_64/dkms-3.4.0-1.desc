@@ -1,0 +1,61 @@
+%FILENAME%
+dkms-3.4.0-1-any.pkg.tar.zst
+
+%NAME%
+dkms
+
+%BASE%
+dkms
+
+%VERSION%
+3.4.0-1
+
+%DESC%
+Dynamic Kernel Modules System
+
+%CSIZE%
+50405
+
+%ISIZE%
+166530
+
+%SHA256SUM%
+84af9314b2142ca437f6e0b423d7855323923cf1cbbd7fa2f125a7566773fdb9
+
+%PGPSIG%
+iQIzBAABCgAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmnBNawACgkQk7EdqkwZfj0qLg//eVM9znNNm/8aWazy82wJKavhgkIhuPnUgkZkw5YeRZPAntzGAWVJVVEtuGnmZoA54+qjb/yvqN0Ob/qG2q8jJBPFsrQ1QUKtvcLpZMGBOwjAojZdEzxKc5ARE4DP+4fbzI5eimUt3YUo1mqbTJsBpwJJcm5UHmKaLRG1HOEIZMiZGgM1Ixvs6y7XZ7Gnfyb+zMc/KKvDrV2l8GvCZKmKzFP4BeIKCsR803tDioD3SzhXAnuabnNO3dGMI8aGWp9ZW4w0E/Bxs/Jzej0/vNpjFOEvfa85QWEgdmsmKuEAgfovM7KnqszeQbZQB1a/OZZzTG7v9XbEDOIxObLdHjp1ZQQehkTIyNyyXvT+8smVIREAzPCwO9T6bCfPwzrZmd+9HjgXUvCoJO/crv21neOV4azflRHgORBBsYGdCf3mZCFMbvEqte0uR//3qtei3bgGBETWM/PT1YkshugqxT7SV+fn4Y8YOFU502cy8mvX98wyH7eQptBMtW2zG57OF1AK2o9OdxqUNeWw7bs9ADX11Or/sPjaFu1t3JVUgqYPL1ib1/IjDjfISe1cBR17/+Lua9G1kVToCkn2MU1RVRsG3CjbOlTT37NPUNrmaiFTRKLc5ZcoD7fx7XoVvu93NAwa6/+bOa9EPV7GerSMTIngURFD0UiiVtAlftAbXmNH8qE=
+
+%URL%
+https://github.com/dell/dkms
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1774268920
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+bash
+coreutils
+gawk
+gcc
+kmod
+make
+patch
+sed
+
+%OPTDEPENDS%
+linux-headers: build modules against the Arch kernel
+linux-lts-headers: build modules against the LTS kernel
+linux-zen-headers: build modules against the ZEN kernel
+linux-hardened-headers: build modules against the HARDENED kernel
+
+%MAKEDEPENDS%
+git
+
