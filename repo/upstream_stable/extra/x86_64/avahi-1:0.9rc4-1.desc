@@ -1,0 +1,85 @@
+%FILENAME%
+avahi-1:0.9rc4-1-x86_64.pkg.tar.zst
+
+%NAME%
+avahi
+
+%BASE%
+avahi
+
+%VERSION%
+1:0.9rc4-1
+
+%DESC%
+Service Discovery for Linux using mDNS/DNS-SD (compatible with Bonjour)
+
+%CSIZE%
+454866
+
+%ISIZE%
+2094265
+
+%SHA256SUM%
+8c06c6c4ea716aa15ad476b95053e5d2af7a3f5100e795ecdf82290ef7df59bb
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCac1RnAAKCRC4rAhgDxCM32fVAP94pB7RJo/GUMd67aqWGhcecPienoL5yJc2d/siwLy8oAEAwjm6a6jzmcsOg0jf61Obl6VGljPjg8QTMhUla9nDjwY=
+
+%URL%
+https://github.com/avahi/avahi
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1775063360
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%PROVIDES%
+libavahi-client.so=3-64
+libavahi-common.so=3-64
+libavahi-core.so=7-64
+libavahi-glib.so=1-64
+libavahi-gobject.so=0-64
+libavahi-libevent.so=1-64
+libavahi-ui-gtk3.so=0-64
+libdns_sd.so=1-64
+
+%DEPENDS%
+bash
+dbus
+expat
+gdbm
+glib2
+glibc
+libcap
+libdaemon
+systemd-libs
+libdbus-1.so=3-64
+
+%OPTDEPENDS%
+gtk3: avahi-discover, avahi-discover-standalone, bshell, bssh, bvnc
+libevent: libevent bindings
+nss-mdns: NSS support for mDNS
+python-dbus: avahi-bookmarks, avahi-discover
+python-gobject: avahi-bookmarks, avahi-discover
+python-twisted: avahi-bookmarks
+
+%MAKEDEPENDS%
+doxygen
+git
+glib2-devel
+gobject-introspection
+graphviz
+gtk3
+libevent
+python-dbus
+python-gobject
+systemd
+xmltoman
+
