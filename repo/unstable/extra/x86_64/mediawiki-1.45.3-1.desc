@@ -1,0 +1,62 @@
+%FILENAME%
+mediawiki-1.45.3-1-any.pkg.tar.zst
+
+%NAME%
+mediawiki
+
+%BASE%
+mediawiki
+
+%VERSION%
+1.45.3-1
+
+%DESC%
+Free and open-source wiki software system
+
+%CSIZE%
+53108732
+
+%ISIZE%
+365218969
+
+%MD5SUM%
+40fc5b96bfb55477caa6be9fe56179b5
+
+%SHA256SUM%
+9d288299c08e7591744658f0805f6f98990d00ba3400f747f9b90818f032c288
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCac2DPAAKCRAAHPSBC+jZER9cAP9nOeNQnQMQmlfmCSv8uuCMPTVFflwskZmuIKH+d7yfngD/ZKtascCvz57Ytks4rOprHjlQmCskvRjAkPPih0YpwAE=
+
+%URL%
+https://www.mediawiki.org/wiki/MediaWiki
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1775075534
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+php
+diffutils
+
+%OPTDEPENDS%
+pcre2: for regular expressions support
+php-pgsql: for PostgreSQL database support
+php-sqlite: for sqlite database support
+memcached: for cache support
+php-gd: for thumbnails rendering
+imagemagick: for thumbnails rendering
+smtp-forwarder: for mail sending
+python: required for SyntaxHighlight/ConfirmEdit extensions
+python-pillow: required for ConfirmEdit extension (creating FancyCaptcha images)
+perl: compare_schemas.pl and mediawiki_mysql2postgres.pl
+git: hash versions on Special:Version
+
