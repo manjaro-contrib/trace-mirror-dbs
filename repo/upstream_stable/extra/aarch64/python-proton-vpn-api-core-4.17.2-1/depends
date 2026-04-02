@@ -1,0 +1,23 @@
+%DEPENDS%
+networkmanager-openvpn
+libnm
+python
+python-cryptography
+python-distro
+python-jinja
+python-proton-core
+python-proton-vpn-local-agent
+python-cairo
+python-gobject
+python-pynacl
+python-packaging
+python-sentry_sdk
+python-fido2
+
+%PROVIDES%
+python-proton-vpn-network-manager
+
+%OPTDEPENDS%
+network-manager-applet: password prompt on Gnome and other GTK DEs
+plasma-nm: password prompt on KDE Plasma
+

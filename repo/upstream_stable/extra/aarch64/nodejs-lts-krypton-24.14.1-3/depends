@@ -1,0 +1,24 @@
+%DEPENDS%
+ada
+brotli
+c-ares
+icu
+libnghttp2
+libnghttp3
+libngtcp2
+libuv
+openssl
+simdjson
+zlib
+zstd
+
+%CONFLICTS%
+nodejs
+
+%PROVIDES%
+nodejs=24.14.1
+nodejs-lts
+
+%OPTDEPENDS%
+npm: nodejs package manager
+

@@ -1,0 +1,11 @@
+%DEPENDS%
+glibc
+openssl
+libssl.so=3-64
+gnutls
+
+%PROVIDES%
+libngtcp2.so=16-64
+libngtcp2_crypto_gnutls.so=8-64
+libngtcp2_crypto_ossl.so=0-64
+
