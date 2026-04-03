@@ -1,0 +1,18 @@
+%DEPENDS%
+glibc
+sqlite
+
+%CONFLICTS%
+libutil-linux
+
+%PROVIDES%
+libutil-linux
+libblkid.so=1-64
+libfdisk.so=1-64
+libmount.so=1-64
+libsmartcols.so=1-64
+libuuid.so=1-64
+
+%OPTDEPENDS%
+python: python bindings to libmount
+
