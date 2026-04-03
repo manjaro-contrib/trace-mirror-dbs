@@ -1,0 +1,72 @@
+%FILENAME%
+python-hist-2.9.1-1-any.pkg.tar.zst
+
+%NAME%
+python-hist
+
+%BASE%
+python-hist
+
+%VERSION%
+2.9.1-1
+
+%DESC%
+Python bindings for Boost's Histogram library.
+
+%CSIZE%
+101248
+
+%ISIZE%
+505517
+
+%SHA256SUM%
+88f1bcb96e0af583a8e2b6284b2337f6abc0a2678e851f06193369cfee4228dd
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmnP9UQACgkQeGxj8zDXy5LTmRAAojieFkd5VFCmceDZBstAzP48zwIdoPMy5dqN+y+vIxCGpo/PkvbLP9LyIpLM0VUXWnnvcKAYGeNeboHxfhDnN4EgHXe+6zulxzXj/8TVpcW/HvgDQtD13u7CycffjH/5t3A/g9peBwZ4ebmTvgSZQqeu+V6VMwUHQUaVgBc8g8uN/w4ijbW0vs/zpFDRXpPE2uN0geEnSPJMLzphZpFm6n2YLr/maIIGAqHC66uNHAZt96mybCoYhVZwulfEJM3tO0Qm4iKxhPw5vjXopOEYiBZp3cKQL17XBPADMcevMH9Eba/tnMPJUoC1AMMN5erG3OOHAYuY5ac26HZgyvtc+iI8z5hb3C0sT9Kce3jrxCoaS5PqrtJyJFpvOp2+8GIi5dSRnSfrqbS9pa9ds/LCpBRbJaGWl8RhltZKnwIfZBFqCkUxiImGeJPpMPqgtT8c7lOaE9Xdt2QXwhfUccV+NO0IOsN/6Pjy1xHlaghowB9FN8INT6HJtnYYk6DiWDfqKqH36nE4LaRZEMKAjDigHkpx6IaUjvyGfTjVt0tzst24YX4Lyzp4s5LPgmMlNpk/MSoXPznh3RqqYjpqZm6Y7F8QoqcXU24yk/uNnEfBYJia7EPS4h7CAetT3TrOnz+if8vc+NLusJk5oiMhCh6oD1VlAc3pMHl8NUSproeWWsk=
+
+%URL%
+https://github.com/scikit-hep/hist
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1775236375
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python
+python-boost-histogram
+python-histoprint
+
+%OPTDEPENDS%
+python-dask: for dask support
+python-iminuit: for fit support
+python-matplotlib: for mpl and plot support
+python-mplhep: for mpl and plot support
+python-scipy: for fit support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-wheel
+python-setuptools-scm
+python-hatchling
+python-hatch-vcs
+
+%CHECKDEPENDS%
+python-dask
+python-pytest
+python-pytest-benchmark
+python-pytest-mpl
+python-iminuit
+python-mplhep
+python-scipy
+
