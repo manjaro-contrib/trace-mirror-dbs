@@ -1,32 +1,32 @@
 %FILENAME%
-crossover21-21.2.0-3-x86_64.pkg.tar.zst
+crossover-26.0.0-2-x86_64.pkg.tar.zst
 
 %NAME%
-crossover21
+crossover
 
 %BASE%
-crossover21
+crossover
 
 %VERSION%
-21.2.0-3
+26.0.0-2
 
 %DESC%
-Run Windows productivity and utility apps like Microsoft Office and games
+Run Windows Programs on Linux
 
 %CSIZE%
-279783118
+271686168
 
 %ISIZE%
-891599976
+831146031
 
 %MD5SUM%
-63305b1fb556b04db0553a233014efdf
+b36f5b74fb0d90815fd40c077f0f986c
 
 %SHA256SUM%
-eb8d39359dc2f55a1fa4e115444af413aa4a08e31c9492a1b499f76e4fe75c75
+a3e7114e43eb548e765557b4319a0a4de3bc08b5c0af7f5260f96f7bd036ff46
 
 %PGPSIG%
-iQEzBAABCgAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAml5AnYACgkQFQwgB0PtRth8BAgAlTpaS+4Qven+V5AbyxA+i293Ow7iywRMprn9ELcPSyADHO9IrnizMCrUT8TdunG97oU3n1A2Df9NIruofv+CzSpiOX9yyotudXAeKLy/KuCi58RLew4c2q/o7OQ0GXR5N1f03MGcvFWLeg+YJA8TkYzXfuxtznaWA6+VVDza6v8f7kxMoRSXB3NPC22bRWgRQWhK97lyHS3E+LKpXjMItrFDHOFnT9xO7vNIguBXy48KMkkTWM0N/BSwpZqEgFyk30Cil9metEPm+qG9gVBNrCsnwSYNTU81N7a3ePyRz7rG5Ao1JabAlChfCvCj1anEr/h7OxjrgErtBcGxDsWsMg==
+iQEzBAABCgAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmnSxXIACgkQFQwgB0PtRthZWggAwrvrRsx4AO/A5ut8N7x6luYDYHNPquMB1WVv8nWOIFZCzxuRZKYhZiBYdj7XsRLknLHPmMoj1e/d/fDfbzn3ntoPs+rrWNBl+yCFFhOe/HM2m/qWOCa/Lf+5fNQfeDrXajU86SwG6M1bIdPyXLCT5MFODi+VDum1DYemSdQueY6TRSwuMQGov2F+AGOp6Vs6eyl7Qi3pIhjGfVhhoZC2EyolRmjHBtp1BvxE9KmCamBTI65SLuN3VnMLsUDcipGzguFoAW3fonqjkU3/8pifIHGxFNvUBxVVw6iOHQYiNwRbORLlDwQfi3jDUsBS5JAR96y9sQzyK57Q2gxdQemrlA==
 
 %URL%
 https://www.codeweavers.com/crossover
@@ -38,16 +38,10 @@ LicenseRef-custom
 x86_64
 
 %BUILDDATE%
-1769537551
+1775420030
 
 %PACKAGER%
 Mark Wagie <mark@manjaro.org>
-
-%CONFLICTS%
-crossover
-
-%PROVIDES%
-crossover=21.2.0
 
 %DEPENDS%
 desktop-file-utils
@@ -84,8 +78,6 @@ lib32-gcc-libs: Needed to unpack installers in the .7z format
 lib32-glu: May be needed by some games or CAD applications
 lib32-gmp: Needed by some Windows applications (Quicken, Outlook, Diablo III, and many more) to perform encryption or check online certificates
 lib32-gnutls: Needed by some Windows applications (Quicken, Outlook, Diablo III, and many more) to perform encryption or check online certificates
-lib32-gst-plugins-base: This is needed by some games and multimedia applications to play audio and/or video content
-lib32-gstreamer: This is needed by some games and multimedia applications to play audio and/or video content
 lib32-krb5: Lets Windows applications use the Kerberos authentication protocol
 lib32-lcms2: Provides color profile information to Windows applications. This is particularly useful if you have color-calibrated your screen but some applications need it even if you have not done so
 lib32-libcups: Needed to access printers managed by CUPS. Without it printing is most likely impossible so this is strongly recommended for office-type applications
@@ -105,9 +97,11 @@ lib32-mpg123: May be needed by some games and multimedia applications to play au
 lib32-ocl-icd: Some Windows applications use OpenCL to leverage the graphics card's GPU to speed up parallel computing tasks
 lib32-openal: Some Windows applications use the OpenAL library to produce three-dimensional positional audio
 lib32-openssl: Provides support for secure Internet communication
+lib32-pcsclite: Provides access to smart cards
 lib32-systemd: Provides access to the udev Linux device manager and lets Windows applications detect HID devices such as game controllers
 lib32-v4l-utils: Lets Windows applications access video capture devices such as webcams and TV tuners
 lib32-vulkan-icd-loader: Needed for games which use the Vulkan graphics API; for D3D12 applications; and for the DXVK layer for D3D11
+lib32-wayland: Can be used to display the graphical user interface of Windows applications directly through Wayland. It is strongly recommended to use the X Window System instead (libX11)
 libxcrypt-compat: Needed for NTLM authentication
 polkit: May be needed to run commands as root
 unzip: required to install Guild Wars, automatic installer extraction
