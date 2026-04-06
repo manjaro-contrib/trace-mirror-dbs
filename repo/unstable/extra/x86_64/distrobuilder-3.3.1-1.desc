@@ -1,0 +1,65 @@
+%FILENAME%
+distrobuilder-3.3.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+distrobuilder
+
+%BASE%
+distrobuilder
+
+%VERSION%
+3.3.1-1
+
+%DESC%
+System container image builder for Incus and LXC
+
+%CSIZE%
+8881062
+
+%ISIZE%
+28872272
+
+%MD5SUM%
+6c6b9c259c5b047f7de3759103147c62
+
+%SHA256SUM%
+59507c91cb55b596a13fe55b4ff31d3c951ffc371dbc1f35b2bbc3702a107635
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCadNtNQAKCRDglZ/qi1UFOZp6AQCz4VqRKExAbzrHODvS2yfTzlnldDtsV7sc1sAfmaYGNgEAgC0dKbILEbM4ZN5lv/rM9Lhlsl1s0mFCo2blzgi4Ugs=
+
+%URL%
+https://linuxcontainers.org/distrobuilder/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1775463395
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+rsync
+squashfs-tools
+gnupg
+debootstrap
+dosfstools
+gptfdisk
+qemu-img
+e2fsprogs
+btrfs-progs
+
+%OPTDEPENDS%
+cdrtools: for repack-windows command
+hivex: for repack-windows command
+wimlib: for repack-windows command
+
+%MAKEDEPENDS%
+go
+git
+
