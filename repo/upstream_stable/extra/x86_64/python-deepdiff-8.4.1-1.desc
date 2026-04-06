@@ -1,0 +1,74 @@
+%FILENAME%
+python-deepdiff-8.4.1-1-any.pkg.tar.zst
+
+%NAME%
+python-deepdiff
+
+%BASE%
+python-deepdiff
+
+%VERSION%
+8.4.1-1
+
+%DESC%
+Deep Difference and Search of any Python object/data.
+
+%CSIZE%
+193896
+
+%ISIZE%
+1068142
+
+%SHA256SUM%
+decb7ed60fe7c39a8a310d3e10a43f5730e04b0748bf973642256d505199d635
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmnUBoIACgkQeGxj8zDXy5KiIw//U8B75oqPYvvOls5oFc4qEHf/J6ntk7/DaXCmjbLgJszT2kBZJVTApe5YJJoVl+dWwR2e78SGlj0LI/pKWD0OzneRmnouXEWPOePb1t1I8CwLwZ1xjrSNjJq43k8PPKqpMfqxztvj3qy1BcwcpAv7sv20isiIz8m2WgoFEzw7NVo4rC5vL4mpCm7bsE0nBIV5bqlW+bu8CACLxz31f3D37Wndn3lf1vDj/Tip9UogX7fTjnSZYVbqjFwqE3YvlBC2xV39F7PjAvORCySmKTdhZ/UqPqqDYJGmyrXuscUIvXuo2fKYt6W417zCwjSffdSSGvzA8c3VyStZbCU479CM59TJ2GPlmYZr4LMg9bvgLWnrJ/gTIXM9I2KPzbSzYKUcVLWDF2YVMOltxRLl+T4XmAxcBYnzTdrMEq7q9fOVY1apsGwTi+8Ibj0kGKiJMioz3DORU3+HB8oGj6U2EW3KNigJbH0STaY4gjDFw7yJ70SUS9X7UJK66Ip124GsgtOHU8O6yNuIOHcg4bCJW4cR/4oJ0PgnuUptwqum+xuh0CtSgK+jwPQxM1eAwF2otB8K+dp1xHayuJ9U3EMa9KKP+NM5oZrt4ZytbNupKAveJYRZ8JvAMdB4wgGyjHVNer2ot7jVNAJcHAxPm7A/IeArHNMzYfFJ9iyhxgZJR7bk5n4=
+
+%URL%
+https://github.com/seperman/deepdiff
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1775502911
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python-orderly-set
+
+%OPTDEPENDS%
+python-click: for cli
+python-tomli-w: for TOML support
+python-yaml: for YAML support
+python-clevercsv: for more robust CSV parsing
+python-orjson: for speed and memory optimized parsing
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+git
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-benchmark
+python-clevercsv
+python-click
+python-dateutil
+python-jsonpickle
+python-numpy
+python-tomli-w
+python-yaml
+python-orjson
+python-pydantic
+python-pandas
+python-polars
+
