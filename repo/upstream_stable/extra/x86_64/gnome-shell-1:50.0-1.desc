@@ -1,0 +1,117 @@
+%FILENAME%
+gnome-shell-1:50.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+gnome-shell
+
+%BASE%
+gnome-shell
+
+%VERSION%
+1:50.0-1
+
+%DESC%
+Next generation desktop shell
+
+%GROUPS%
+gnome
+
+%CSIZE%
+1881303
+
+%ISIZE%
+14727882
+
+%SHA256SUM%
+d2535d4149619b196ea3c9b477fbe05263c2e16e8517b84d3ae0f7a56d3aa852
+
+%PGPSIG%
+iHUEABYKAB0WIQRebUlEiVizhDAfHyJJjvJH80DB4AUCabczdQAKCRBJjvJH80DB4NnSAP47MYhvxFyTnNI7m/m2Py4zfw8GBqDFLr+g6ulWL+1HwwEAkAB0vM923xwtoL9gqkkpFxfBB9oFNrNCbaMBbFIyEw8=
+
+%URL%
+https://gitlab.gnome.org/GNOME/gnome-shell
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1773613754
+
+%PACKAGER%
+Fabian Bornschein <fabiscafe@archlinux.org>
+
+%DEPENDS%
+accountsservice
+at-spi2-core
+bash
+cairo
+dconf
+gcr-4
+gdk-pixbuf2
+gjs
+glib2
+glibc
+gnome-autoar
+gnome-desktop-4
+gnome-session
+gnome-settings-daemon
+graphene
+gsettings-desktop-schemas
+gtk4
+hicolor-icon-theme
+ibus
+json-glib
+libadwaita
+libcanberra-pulse
+libgcc
+libgdm
+libglvnd
+libgweather-4
+libibus
+libical
+libnm
+libnma-gtk4
+libpipewire
+libpulse
+libsecret
+libsoup3
+libx11
+libxext
+libxfixes
+mutter
+pango
+polkit
+systemd-libs
+unzip
+upower
+webkitgtk-6.0
+libmutter-18.so=0-64
+
+%OPTDEPENDS%
+evolution-data-server: Evolution calendar integration
+gnome-bluetooth-3.0: Bluetooth support
+gnome-control-center: System settings
+gnome-disk-utility: Mount with keyfiles
+gst-plugin-pipewire: Screen recording
+gst-plugins-good: Screen recording
+power-profiles-daemon: Power profile switching
+python-gobject: gnome-shell-test-tool performance tester
+python-simplejson: gnome-shell-test-tool performance tester
+switcheroo-control: Multi-GPU support
+
+%MAKEDEPENDS%
+asciidoc
+bash-completion
+evolution-data-server
+gi-docgen
+git
+glib2-devel
+gnome-keybindings
+gobject-introspection
+meson
+python-docutils
+sassc
+
