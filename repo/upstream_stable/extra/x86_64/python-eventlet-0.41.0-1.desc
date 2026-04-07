@@ -1,0 +1,68 @@
+%FILENAME%
+python-eventlet-0.41.0-1-any.pkg.tar.zst
+
+%NAME%
+python-eventlet
+
+%BASE%
+python-eventlet
+
+%VERSION%
+0.41.0-1
+
+%DESC%
+Highly concurrent networking library
+
+%CSIZE%
+673222
+
+%ISIZE%
+3208259
+
+%SHA256SUM%
+08f078e9126972311a79ec87e4d590ddaac096a084a66d4d4f1613c4f1330801
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCac/KHgAKCRDwXowSExrrXsW+AP43nXaZC4nmI25S07bEBLpWX6QO5HqF8Tk1+CwkFx5ltQD/eRNEfU1ywCm37P9QUXoc2sjZyUoQypyRPcoMc/Qi7A8=
+
+%URL%
+https://eventlet.net
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1775225093
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-dnspython
+python-greenlet
+
+%OPTDEPENDS%
+python-httplib2: non-blocking HTTP support
+python-psycopg2: non-blocking PostgreSQL support
+python-pyopenssl: non-blocking SSL support
+python-pyzmq: non-blocking ZeroMQ support
+
+%MAKEDEPENDS%
+python-build
+python-hatch-vcs
+python-hatchling
+python-installer
+python-sphinx
+python-sphinxcontrib-apidoc
+
+%CHECKDEPENDS%
+python-httplib2
+python-psycopg2
+python-pyopenssl
+python-pytest
+python-pyzmq
+
