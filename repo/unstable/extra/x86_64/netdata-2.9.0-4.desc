@@ -1,0 +1,81 @@
+%FILENAME%
+netdata-2.9.0-4-x86_64.pkg.tar.zst
+
+%NAME%
+netdata
+
+%BASE%
+netdata
+
+%VERSION%
+2.9.0-4
+
+%DESC%
+Real-time performance monitoring, in the greatest possible detail, over the web
+
+%CSIZE%
+48048991
+
+%ISIZE%
+224716372
+
+%MD5SUM%
+a17319f6b631f743faae11a811775e16
+
+%SHA256SUM%
+0ef9f9359fc7e808412d0fca96758ac8c206650e203a93a16edbb5a3bd34342d
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCadO2UgAKCRDwXowSExrrXsdWAQC3sci7GHeb+QKHCp9WiQ9McS4Edaipk7oS25tfBbDhhgD/TRmXtB/zgwaPWJ3U/JAqsTFRN/Dd60n9sYw9oafxYAY=
+
+%URL%
+https://github.com/netdata/netdata
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1775482178
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+libmnl
+libnetfilter_acct
+zlib
+judy
+libuv
+json-c
+libcap
+lz4
+openssl
+which
+snappy
+protobuf
+libwebsockets
+mongo-c-driver
+libyaml
+cups
+freeipmi
+
+%OPTDEPENDS%
+iproute2: for monitoring Linux QoS
+python: for most of the external plugins
+apcupsd: for monitoring APC UPS
+lm_sensors: for go.d/sensors module
+smartmontools: for go.d/smartctl module
+nvme-cli: for go.d/nvme module
+iw: for monitoring Linux as access point
+
+%MAKEDEPENDS%
+cups
+go
+cmake
+ninja
+git
+rust
+
