@@ -1,0 +1,56 @@
+%FILENAME%
+pciutils-3.15.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+pciutils
+
+%BASE%
+pciutils
+
+%VERSION%
+3.15.0-1
+
+%DESC%
+PCI bus configuration space access library and tools
+
+%CSIZE%
+153666
+
+%ISIZE%
+428006
+
+%SHA256SUM%
+994429cef5db515b020bc5125faab04a441677837ebc16f03da53aecca213915
+
+%PGPSIG%
+iQEzBAABCgAdFiEEW34/txt/EDKaHAOrdx32Yn7faB8FAmnU1nMACgkQdx32Yn7faB85kAgApthsYZAQfSad8vPBta5Cc7lcxkXmtYMErdpPHzLvmhDmTBxP2Jrfu1rLnuB93GxPkIWMhKQ9npJ50SiAR/bsgOUDLoQB94KH3UOgxtzVq1h4JQzuj5K9AoB4u6uq8kL6+VoAeKQZC2AuCcF15xPQQGfxwiNlOiZCHrH/RXGhELPxXwc2aTn9IZJ8X89SPoEqDt+IdCeA1IX2VdTicGo4+vK3H69pjoN5lxa+oHtPy3cbGhILFYjkCJJZiSWYghUjsPBOM1FZwEc5wKSxL5C60ODzNGKtCLZZjPanH7Gb0Gwqdys3otzFRAuF8xNrsbbhDzrHCNXA74lhpQFaXq8tQA==
+
+%URL%
+https://mj.ucw.cz/sw/pciutils/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1775556191
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%DEPENDS%
+glibc
+hwdata
+kmod
+systemd-libs
+
+%OPTDEPENDS%
+which: for update-pciids
+grep: for update-pciids
+curl: for update-pciids
+
+%MAKEDEPENDS%
+git
+
