@@ -1,0 +1,56 @@
+%FILENAME%
+libdbi-drivers-0.9.0-13-x86_64.pkg.tar.zst
+
+%NAME%
+libdbi-drivers
+
+%BASE%
+libdbi-drivers
+
+%VERSION%
+0.9.0-13
+
+%DESC%
+Database drivers for libdbi (MySQL, PostgreSQL, and SQLite)
+
+%CSIZE%
+386494
+
+%ISIZE%
+799903
+
+%SHA256SUM%
+21ed4b298e7b206be4c28111e23c04fab7463640e88b38b2f6b85c90a3e00b52
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCadgRzgAKCRDwXowSExrrXm3mAQCyesi7KGLYZc5oTb6GX88gLEoLu1R1LWY8NtAzSJ/kswD+MV1o5zG9SNVUvz2AIs5C4QdTWVhsN2nesp3FKps0ugk=
+
+%URL%
+http://libdbi-drivers.sourceforge.net/
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1775767587
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+glibc
+libdbi
+
+%OPTDEPENDS%
+mariadb-libs: To work with MariaDB using libdbdmysql
+postgresql-libs: To work with PostgreSQL using libdbdpgsql
+sqlite: To work with SQLite using libdbdsqlite3
+
+%MAKEDEPENDS%
+mariadb-libs
+postgresql-libs
+sqlite
+
