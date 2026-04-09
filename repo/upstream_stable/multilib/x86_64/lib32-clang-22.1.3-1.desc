@@ -1,0 +1,55 @@
+%FILENAME%
+lib32-clang-22.1.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+lib32-clang
+
+%BASE%
+lib32-clang
+
+%VERSION%
+22.1.3-1
+
+%DESC%
+C language family frontend for LLVM (32-bit)
+
+%CSIZE%
+28163665
+
+%ISIZE%
+113279231
+
+%SHA256SUM%
+b08c89e90b1ef9fe1b2b70cbfc5f69a11d8ae37c979c0df3da926620002d2bc2
+
+%PGPSIG%
+iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCadUpRAAKCRA9TFAIu1yNKSs1AQD5gg/pFP+FcHgQoEeOtWhk2cJomat6QZX7523ChtXvsAD+KSgPQkofcym44ou9tZijqMoquTVGA69NKXUh2TcnFwo=
+
+%URL%
+https://clang.llvm.org/
+
+%LICENSE%
+Apache-2.0 WITH LLVM-exception
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1775576857
+
+%PACKAGER%
+Peter Jung <ptr1337@archlinux.org>
+
+%DEPENDS%
+lib32-llvm-libs
+clang
+
+%OPTDEPENDS%
+lib32-llvm: referenced by some clang headers
+
+%MAKEDEPENDS%
+lib32-llvm=1:22.1.3
+cmake
+ninja
+python
+
