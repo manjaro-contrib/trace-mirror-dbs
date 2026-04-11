@@ -1,0 +1,46 @@
+%DEPENDS%
+alsa-lib
+libasound.so=2-64
+at-spi2-core
+bash
+bluez-libs
+dbus
+libdbus-1.so=3-64
+espeak-ng
+expat
+libexpat.so=1-64
+glib2
+libgio-2.0.so=0-64
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+glibc
+gpm
+libgpm.so=2-64
+icu
+libicuuc.so=78-64
+libcap
+liblouis
+libspeechd
+libxaw
+libxt
+libx11
+libxfixes
+libxtst
+ncurses
+libncursesw.so=6-64
+pcre2
+polkit
+systemd-libs
+libsystemd.so=0-64
+
+%PROVIDES%
+libbrlapi.so=0.8-64
+
+%OPTDEPENDS%
+brltty-udev-generic: for initializing brltty with generic USB devices
+dracut-brltty: for dracut modules
+ocaml-brltty: for OCaml bindings
+python-brltty: for Python bindings
+speech-dispatcher: speech-dispatcher driver
+tcl-brltty: for TCL bindings
+
