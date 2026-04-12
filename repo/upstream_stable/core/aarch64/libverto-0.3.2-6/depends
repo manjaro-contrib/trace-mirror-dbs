@@ -1,0 +1,13 @@
+%DEPENDS%
+glibc
+libevent
+
+%CONFLICTS%
+krb5<1.19.3-2
+libverto-libevent<0.3.2-4
+
+%PROVIDES%
+libverto.so=1-64
+libverto-libevent.so=1-64
+libverto-module-base
+
