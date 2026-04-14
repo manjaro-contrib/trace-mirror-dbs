@@ -1,0 +1,67 @@
+%FILENAME%
+python-duckdb-1.5.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-duckdb
+
+%BASE%
+duckdb
+
+%VERSION%
+1.5.2-1
+
+%DESC%
+An analytical in-process SQL database management system Python API
+
+%CSIZE%
+15348987
+
+%ISIZE%
+57245678
+
+%SHA256SUM%
+0fbc793e1090c9d58cec0a60a630e3aa4b471672875e18f679e6cdfe4a692100
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCad3ypQAKCRDglZ/qi1UFOYOaAQDmgDbHVLBi9aaCeD0CU1/mD/JilTfcV5BqRBrB4/ISigD9HWSp0KvdQO8ni0QTk6tIUMBa1a+BxWK4ASDCZKCZpQc=
+
+%URL%
+https://www.duckdb.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1776142581
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+glibc
+libgcc
+libstdc++
+python
+python-typing_extensions
+
+%OPTDEPENDS%
+ipython: used in duckdb.query_graph
+python-fsspec: used in duckdb.filesystem
+python-numpy: used in duckdb.experimental.spark and in duckdb.fetchnumpy()
+python-pandas: used for pandas dataframes all over the place
+python-pyarrow: used for pyarrow support
+python-arrow-adbc: for the adbc driver
+
+%MAKEDEPENDS%
+git
+cmake
+ninja
+pybind11
+uv
+python-installer
+python-setuptools-scm
+python-scikit-build-core
+
