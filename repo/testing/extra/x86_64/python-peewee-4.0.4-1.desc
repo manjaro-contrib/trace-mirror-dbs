@@ -1,0 +1,77 @@
+%FILENAME%
+python-peewee-4.0.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-peewee
+
+%BASE%
+python-peewee
+
+%VERSION%
+4.0.4-1
+
+%DESC%
+A small, expressive orm
+
+%CSIZE%
+528190
+
+%ISIZE%
+3154734
+
+%MD5SUM%
+b4984d2a0f3d6aca84891311f59111c9
+
+%SHA256SUM%
+2eeb2fae15a6e8b700779fadafd4514f89a689ae6920494b14aa1db92c428b6e
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCac/LGAAKCRDwXowSExrrXgtPAP0WNQxCtpjn8sMTFbnkbGoVFGNKg8dwS3mkTix50DMmswEAnSJztDJsjmC9cqgZCpVUasmzX1ZlxNWeQU6QnSrUNQs=
+
+%URL%
+https://github.com/coleifer/peewee
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1775225509
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+sqlite
+
+%OPTDEPENDS%
+python-aiomysql: for async MySQL database support
+python-aiosqlite: for async SQLite database support
+python-apsw: for APSW SQLite database support
+python-asyncpg: for async PostgreSQL database support
+python-flask: for Flask integration utilities
+python-gevent: for green-thread based async support
+python-greenlet: for async database support
+python-psycopg2: for PostgreSQL database support
+python-psycopg: for PostgreSQL database support via psycopg3
+python-pymysql: for MySQL database support
+
+%MAKEDEPENDS%
+cython
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-aiosqlite
+python-apsw
+python-flask
+python-gevent
+python-greenlet
+python-psycopg2
+
