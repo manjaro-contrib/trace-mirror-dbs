@@ -1,0 +1,19 @@
+%DEPENDS%
+nodejs
+python
+which
+acorn
+zlib
+zstd
+
+%CONFLICTS%
+binaryen
+
+%PROVIDES%
+binaryen
+
+%OPTDEPENDS%
+java-environment: for using clojure
+ruby: for using websockify addon
+cmake: for emcc --show-ports
+
