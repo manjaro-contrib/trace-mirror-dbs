@@ -1,0 +1,84 @@
+%FILENAME%
+nginx-1.30.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+nginx
+
+%BASE%
+nginx
+
+%VERSION%
+1.30.0-2
+
+%DESC%
+Lightweight HTTP server and IMAP/POP3 proxy server
+
+%CSIZE%
+635994
+
+%ISIZE%
+1690873
+
+%SHA256SUM%
+053f4fc2dad1fccd143454cbb99d212acf66494aeeaad4e733498f7563c0d93c
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCad9mgAAKCRBtQr3RFuAGj/1KAP9uKvQwDfUkunUjEY45oAnlFGW6zoWNrxF03tqlW/sK2QD/bo4tvtIaLGVBomkKwKhKE2Qe2qR9LOpp4kdXzhdJywM=
+
+%URL%
+https://nginx.org
+
+%LICENSE%
+BSD-2-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1776248289
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+glibc
+pcre2
+zlib
+openssl
+mailcap
+libxcrypt
+
+%OPTDEPENDS%
+nginx-mod-geoip: GeoIP support
+nginx-mod-image-filter: transform images
+nginx-mod-mail: proxy IMAP, POP and SMTP protocols
+nginx-mod-perl: perl variables and location handlers
+nginx-mod-stream: proxy TCP/UDP data streams
+nginx-mod-xslt: transform XML responses
+
+%MAKEDEPENDS%
+findutils
+gd
+geoip
+git
+glibc
+libxcrypt
+libxml2
+libxslt
+mailcap
+openssl
+pcre2
+rsync
+zlib
+
+%CHECKDEPENDS%
+coreutils
+ffmpeg
+memcached
+perl
+perl-cache-memcached
+perl-cryptx
+perl-fcgi
+perl-gd
+perl-io-socket-ssl
+
