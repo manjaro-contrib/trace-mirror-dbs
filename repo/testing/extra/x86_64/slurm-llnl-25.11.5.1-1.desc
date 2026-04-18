@@ -1,0 +1,82 @@
+%FILENAME%
+slurm-llnl-25.11.5.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+slurm-llnl
+
+%BASE%
+slurm-llnl
+
+%VERSION%
+25.11.5.1-1
+
+%DESC%
+Simple Linux Utility for Resource Management
+
+%CSIZE%
+5774010
+
+%ISIZE%
+22907699
+
+%MD5SUM%
+ad4a14de83435d5cb4a23dbb55960bd4
+
+%SHA256SUM%
+ae7fab17401c9384978e5c74d3097de3d492c824b82d5aa1088e7e2e2c164219
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmnf62gACgkQeGxj8zDXy5IS5RAAv05YGktmJKXUbHcQL6jvXcorT8G1TMPuA0kkZAVcVlSdrQjiQionLVBBQhFstTgbnUxiA9yb4F2Q4ht8AOhZ70qA27s6fQZbFEC5rq5gb3DAm9bcQeKoq466l/sOK9wx3DOSmBRY6OtksyJ6b17EU+ctAXJOUVdhfGgSGbJnVwO7uF3tkO+yqYRwlNilY9BZRUiK1MO2PXU04I4Sr87HrKRPgUEbVVHEbdY924rWrBGAt5xEwAdmKJxG7gB5EfgQNOtNPPqo8+NIO7Y9rCEpdsYungkQhwXBRLA/nsvubJw9SH3A8P2nwd2rkTVXhc/SubDCsCn8chCwcr22hPbjMGPabHDaZAp5TFDgYUZxb+WiZP8snfiDj/lMMONBwWzWQ4a1RREXcTCEoSpRwuqMNZ4SBkQTeg219tasDmX6c9Hn/5WtJHx42WQOh1eM+JHSnXUZvhb90nvwWAv//x8ztqOo5D4uDxW6IpdNEo56+pLjNM2FhM66n3yDJgWGW6Gqk6xbrNcIst28M5xaP7d/LmocgOU8utsAtJtn/DgpZt21cQ7gFQqsRZKxiiXz84+8DKPf5v5krnNbE52PtF+jAYhME2o6fHKjVAxFxNY84vaN3IikmiGpUCnxL0U9SyTZAK4qBgJcYOn6Z9LYOTlDmnEBeo6Bx7wtZewMxodGJm0=
+
+%URL%
+https://www.schedmd.com
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1776282260
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+curl
+dbus
+glibc
+hwloc
+lz4
+munge
+numactl
+pam
+readline
+
+%OPTDEPENDS%
+mariadb-libs: support for accounting
+openpmix: support Open MPI applications using PMIx
+freeipmi: for the acct_gather_energy_xcc plugin
+hdf5: support for acct_gather_profile/hdf5 job profiling
+lua: the lua API will be available in various plugins
+rdma-core: support for the acct_gather_infiniband/ofed InfiniBand accounting plugin
+rrdtool: support for the ext_sensors/rrd plugin
+json-c: JSON serializer support
+libyaml: YAML serializer support
+
+%MAKEDEPENDS%
+freeipmi
+git
+hdf5
+json-c
+level-zero-headers
+level-zero-loader
+libyaml
+lua
+mariadb-libs
+openpmix
+python
+rdma-core
+rrdtool
+
