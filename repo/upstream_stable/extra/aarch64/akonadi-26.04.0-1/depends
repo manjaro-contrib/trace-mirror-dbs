@@ -1,0 +1,28 @@
+%DEPENDS%
+gcc-libs
+glibc
+kcolorscheme
+kconfig
+kconfigwidgets
+kcoreaddons
+kcrash
+ki18n
+kiconthemes
+kitemmodels
+kwidgetsaddons
+kxmlgui
+libxml2
+qt6-base
+xz
+
+%CONFLICTS%
+libakonadi
+
+%PROVIDES%
+libakonadi
+
+%OPTDEPENDS%
+kirigami-addons: QML bindings
+mariadb: MariaDB backend
+postgresql: PostgreSQL backend
+
