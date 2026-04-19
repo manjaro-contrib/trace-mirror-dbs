@@ -1,0 +1,29 @@
+%DEPENDS%
+libosmium
+osm2pgsql
+postgis
+python-asyncpg
+python-psycopg
+python-dotenv
+python-psutil
+python-jinja
+python-pyicu
+python-yaml
+python-requests
+python-osmium
+python-ujson
+python-falcon
+python-sqlalchemy
+python-pygments
+uvicorn
+gunicorn
+
+%OPTDEPENDS%
+nginx: http server for python frontend
+apache: http server for python frontend
+python-starlette: Alternative Python frontend using Starlette ASGI framework
+nominatim-data-wikipedia: optional auxiliary data source to help indicate the importance of OSM features
+nominatim-data-postcodes-gb: improve searches that involve a UK postcode
+nominatim-data-postcodes-us: improve searches that involve a US postcode
+nominatim-data-tiger: improves searches that involve US house numbers
+
