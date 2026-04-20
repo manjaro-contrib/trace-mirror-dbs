@@ -1,0 +1,79 @@
+%FILENAME%
+prismlauncher-11.0.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+prismlauncher
+
+%BASE%
+prismlauncher
+
+%VERSION%
+11.0.2-1
+
+%DESC%
+Minecraft launcher with ability to manage multiple instances
+
+%CSIZE%
+5191480
+
+%ISIZE%
+13652486
+
+%SHA256SUM%
+e0ee32f83f6ac922a34ca5da36fb204f174b8217fb6343c7f22c4093b251c513
+
+%PGPSIG%
+iHUEABYKAB0WIQQytdrGUYq7eNTFccZhXFHdyrhOtwUCaeARJgAKCRBhXFHdyrhOt+pjAQCwPfgGFmPnlMl8dBt1tj1WKxulurUpqp1tUaBhdWwg0gEA0d2Osxb+M2sonqGop/43Htr2h98lQjZ5e979pgctOwE=
+
+%URL%
+https://prismlauncher.org
+
+%LICENSE%
+GPL-3.0-only AND LGPL-3.0-or-later AND LGPL-2.0-or-later AND Apache-2.0 AND MIT AND LicenseRef-Batch AND OFL-1.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1776291948
+
+%PACKAGER%
+Giovanni Harting <anonfunc@archlinux.org>
+
+%DEPENDS%
+glibc
+mesa-utils
+libarchive
+libgl
+pciutils
+qrencode
+qt6-base
+qt6-imageformats
+qt6-networkauth
+qt6-svg
+zlib
+hicolor-icon-theme
+tomlplusplus
+cmark
+libstdc++
+libgcc
+
+%OPTDEPENDS%
+glfw: to use system GLFW libraries
+openal: to use system OpenAL libraries
+visualvm: Profiling support
+xorg-xrandr: for older minecraft versions
+orca: minecraft screen reader
+flite: minecraft voice narration
+java-runtime: use system java versions
+
+%MAKEDEPENDS%
+cmake
+extra-cmake-modules
+git
+jdk17-openjdk
+ninja
+scdoc
+gamemode
+vulkan-headers
+
