@@ -1,0 +1,33 @@
+%DEPENDS%
+bash
+compiler-rt
+curl
+gcc
+glibc
+libgcc
+libgit2
+libssh2
+libstdc++
+lld
+llvm-libs
+openssl
+zlib
+libcurl.so=4-64
+libgcc_s.so=1-64
+libgit2.so=1.9-64
+libssh2.so=1-64
+libssl.so=3-64
+
+%CONFLICTS%
+cargo
+rust-docs<1:1.56.1-3
+rustfmt
+
+%PROVIDES%
+cargo
+rustfmt
+
+%OPTDEPENDS%
+gdb: rust-gdb script
+lldb: rust-lldb script
+
