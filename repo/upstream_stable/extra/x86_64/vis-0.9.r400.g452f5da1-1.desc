@@ -1,0 +1,67 @@
+%FILENAME%
+vis-0.9.r400.g452f5da1-1-x86_64.pkg.tar.zst
+
+%NAME%
+vis
+
+%BASE%
+vis
+
+%VERSION%
+0.9.r400.g452f5da1-1
+
+%DESC%
+modern, legacy free, simple yet efficient vim-like editor
+
+%CSIZE%
+222402
+
+%ISIZE%
+654057
+
+%SHA256SUM%
+4f8e0e97c13486293bfcbcb6b414b15f904ea3c52aed4b9e465d0e4577f0fe61
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaeXlVwAKCRBtQr3RFuAGj/JnAQCA1QUNC6APU3SFTpKGYaLjQyWlPIPD7L5zhE9PaLZDegEA8Kt9gsMzqi4td/zTf9XHDRBVlTXTfRF9IEsZZSwLsQM=
+
+%URL%
+https://github.com/martanne/vis#vis-a-vim-like-text-editor
+
+%LICENSE%
+custom:ISC
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1776673374
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+acl
+libacl.so=1-64
+bash
+ncurses
+libncursesw.so=6-64
+libtermkey
+libtermkey.so=1-64
+lua
+tre
+file
+
+%OPTDEPENDS%
+wl-clipboard: wayland clipboard support
+xclip: X11 clipboard support
+xsel: X11 clipboard support
+vis-syntax-highlighting: syntax highlighting
+
+%MAKEDEPENDS%
+git
+
+%CHECKDEPENDS%
+vim
+lua-lpeg
+

@@ -1,0 +1,63 @@
+%FILENAME%
+tlp-1.10.0-1-any.pkg.tar.zst
+
+%NAME%
+tlp
+
+%BASE%
+tlp
+
+%VERSION%
+1.10.0-1
+
+%DESC%
+Linux Advanced Power Management
+
+%CSIZE%
+100223
+
+%ISIZE%
+745372
+
+%SHA256SUM%
+6ddb0e8b5d881a09417ec8ef463eb77e747f6aa4a0f5083162313d76a8507561
+
+%PGPSIG%
+iQIzBAABCgAdFiEELjbYYgIhSC/EXLfyqRdkdZMmtEAFAmnl7LEACgkQqRdkdZMmtEBYMRAAgjeILTc0LJnJ6vzdtMJW5lDYcMPjMYu4/o41IiclvmMsefUsSLKWgkvx+8FfivUGl9MDB7N48n5vIBOnsIhF7ngTR+N3vua14IVyC0cimxOJBo5AxOnUXrAxxnUyRlDBWcaiqNHejXin0I8cdwtv9Yh40uBYRK8ZBxfbK14U3SpsPqf03DwUe3pXPROEQtL+VHbJebyyjzyB3s8VnayFJJ/sTZ++dNnSon31L67Fi1lORWZxsXeTAXjBkZb+WNpl8b/nNpqCjOXUalzS1rmY1ERfqY67T3kaeacRjYbBf/9ELsrtd8S0aG2KHIKafJ8cEvY/0C5KXmIckB1HYQ7Vx65VuPNQZ7whxom8sZGWM0kbvEGPGOPnA8Gw0q3iwleFo139q1DXbuc6JyHcbR8cLblqMnt6OrDyfV7MKm/7FEefdFKxfgrAiNfPg8ASZv+7E5uljpFZfSSqcB+iahkgnymkDZcH1N7uFLeJDrl7dCbqGyE7hoVBDHR8He3yptXbBRpE8WZjN1YtVWyEkHWbxQnwzTPH1wPi3nnb/SkhTOnFvjGpH1Zk7PP14bMlLkeaIllN3gBXeqeps3Skenvw4VPdah1qXY0mLB7rbZkGV25RJZvWHFfZHnGl/ATdJiT/DEoD3f+mdwPVxzPMq44pyhRVftDb/je8wXJ03nTds30=
+
+%URL%
+https://linrunner.de/en/tlp/tlp.html
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1776675353
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%CONFLICTS%
+tuned
+
+%DEPENDS%
+bash
+hdparm
+iw
+pciutils
+perl
+rfkill
+usbutils
+
+%OPTDEPENDS%
+bash-completion: Bash completion
+ethtool: Disable Wake On Lan
+smartmontools: Display S.M.A.R.T. data in tlp-stat
+tp_smapi: Older ThinkPad battery functions (before Sandy Bridge)
+
+%MAKEDEPENDS%
+git
+
