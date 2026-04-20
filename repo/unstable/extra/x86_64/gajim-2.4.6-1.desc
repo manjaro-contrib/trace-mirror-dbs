@@ -1,0 +1,98 @@
+%FILENAME%
+gajim-2.4.6-1-any.pkg.tar.zst
+
+%NAME%
+gajim
+
+%BASE%
+gajim
+
+%VERSION%
+2.4.6-1
+
+%DESC%
+Full featured and easy to use XMPP (Jabber) client
+
+%CSIZE%
+3891436
+
+%ISIZE%
+21712710
+
+%MD5SUM%
+5846118275f5ecefe2ffb50d781b11d8
+
+%SHA256SUM%
+c5feab6f78b42df0fbd5eaa1f5772e4418ebcc8806bc13e3db17d9ca1dc90005
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmnlTh0ACgkQ/cMEC5Ksp0h3yQ/8DQh/lIaivp55nHgE3yd57KbV1QTauLloi6yVgnNAZn5CFgUqyR29qJfemjSvv2zmesB5bqUHbwkOd+0LubN4hscjpan2AcbeJB/+UUKEGygiZEFcHN/OJ25zXhIHbefHAZ1Ct3CBfketg1sCDdf8GUmkSUF7P3gDkG/4WWAuVPkrsTmBy7AJW1LJoBSwFbF8FmI5zC0dsKvxcV9IPpKWtwnuGeg9psVb12pCWvGZiJpZep124dnuxzoMP0fYewsbkrrK4wJmLUNAIoME8RJPvhK+RHqBWqNDWtN6EijRA/MnKmHuk5ru25q09VHzjrjo4xKHQzLW/Q+NeK0WqgjpMFW37gTzU0XojzO+cihlMzKaIB7yBJr8Ti3ItIGdvngMR8MUOScJDhYHd0sQHv/7CZkowMEQPQgQoHylzmIqfoa0l1ycC8UqpGuN4q1D/6I32GIbKMudd9kAvVFT2l92qov59LRwlePQcZnf5ye5ESJ9/q48WQ9OUwXK8LzRRGA/q+U4dGL7Ot80Y/5MGwjxXQyxHeFJgxqEINryHKXgrtLYNS9E0EArp8Az6nWXExQnAfiFi/dKNZN67U/u5A79PqvGJEY/Nc8e7wByQMCKFLi9qzKONj3SbdQAlFeQ0y4+mFOxDAVBwqbEaTzchqQUqaR3f7fOg0jYHHOMZecfvlA=
+
+%URL%
+https://gajim.org/
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+any
+
+%BUILDDATE%
+1776635365
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+gtk4
+gtksourceview5
+libadwaita
+python-cairo
+python-gobject
+python-keyring
+python-nbxmpp
+python-cryptography
+python-precis_i18n
+python-css-parser
+python-distro
+hicolor-icon-theme
+python-pillow
+python-gssapi
+python-netifaces
+python-qrcode
+python-omemo-dr
+python-packaging
+pango
+sqlite
+python-sqlalchemy
+python-emoji
+python-httpx
+python-truststore
+python-h2
+python-socksio
+emoji-font
+
+%OPTDEPENDS%
+python-dbus: to have gajim-remote working
+python-sentry_sdk: for Sentry error reporting to dev.gajim.org (users decide whether to send reports or not)
+libspelling: for spell checking support
+libsecret: for GNOME Keyring or KDE support as password storage
+gupnp-igd: for better NAT traversing
+networkmanager: for network lose detection
+geoclue: share current location
+gsound: Notification Sounds
+farstream: for video and audio calls
+gstreamer: for video and audio calls
+gst-plugins-base: for video and audio calls
+gst-plugins-ugly: for video and audio calls
+gst-libav: for video and audio calls
+gst-plugin-gtk4: for video and audio calls
+libxss: for idle time checking on X11
+python-gnupg: encrypting chat messages with OpenPGP
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+
