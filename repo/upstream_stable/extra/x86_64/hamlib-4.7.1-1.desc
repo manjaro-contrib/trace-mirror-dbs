@@ -1,0 +1,68 @@
+%FILENAME%
+hamlib-4.7.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+hamlib
+
+%BASE%
+hamlib
+
+%VERSION%
+4.7.1-1
+
+%DESC%
+Ham radio equipment control libraries
+
+%CSIZE%
+3554058
+
+%ISIZE%
+24180819
+
+%SHA256SUM%
+6cf8c8caeac0bea84836607477e6d13f5582617acb7c60b8c11f3fadcdff4c48
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaeQIoAAKCRDwXowSExrrXt9CAP9e6d+/lLD5xchWgeWDeLtIDSOIJ2JAEGFeFEtjSfzAlwD+IuiuNuNC4nt5bhYm3O0rCQLBndYVTwgf+vhZfUKdOQo=
+
+%URL%
+https://hamlib.github.io
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1776551947
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%PROVIDES%
+libhamlib++.so=4-64
+libhamlib.so=4-64
+
+%DEPENDS%
+glibc
+libgcc
+libindi
+libstdc++
+libusb
+readline
+
+%OPTDEPENDS%
+lua54: Lua bindings
+perl: Perl bindings
+python: Python bindings
+tcl: Tcl bindings
+
+%MAKEDEPENDS%
+git
+lua54
+python
+swig
+tcl
+
