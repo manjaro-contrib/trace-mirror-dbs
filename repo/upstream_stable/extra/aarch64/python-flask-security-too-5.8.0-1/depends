@@ -1,0 +1,37 @@
+%DEPENDS%
+python
+python-blinker
+python-click
+python-email-validator
+python-flask
+python-flask-login
+python-flask-principal
+python-flask-wtf
+python-itsdangerous
+python-markupsafe
+python-passlib
+python-werkzeug
+python-wtforms
+
+%CONFLICTS%
+python-flask-security
+
+%PROVIDES%
+python-flask-security
+
+%OPTDEPENDS%
+python-argon2-cffi: argon2 password hashing
+python-bcrypt: bcrypt password hashing
+python-bleach: scrub user input
+python-cryptography: encrypt multi-factor auth recovery codes
+python-flask-babel: translations
+python-flask-mail: alternative email backend
+python-flask-mailman: default email backend
+python-flask-sqlalchemy: SQLAlchemy datastore
+python-mongoengine: MongoEngine datastore
+python-peewee: Peewee datastore
+python-phonenumbers: SMS two-factor auth
+python-qrcode: generate QR codes for TOTP
+python-sqlalchemy: SQLAlchemy datastore
+python-zxcvbn: password strength validation
+
