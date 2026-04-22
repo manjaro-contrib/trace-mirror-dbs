@@ -1,0 +1,74 @@
+%FILENAME%
+strongswan-6.0.6-1-x86_64.pkg.tar.zst
+
+%NAME%
+strongswan
+
+%BASE%
+strongswan
+
+%VERSION%
+6.0.6-1
+
+%DESC%
+Open source IPsec implementation
+
+%CSIZE%
+1254029
+
+%ISIZE%
+4273247
+
+%MD5SUM%
+fef555a5b3762154bc1fa21ac9e18c0d
+
+%SHA256SUM%
+d2837efefdfff74cad3ec8df35475f91a0326c973c317d3c98a9930b3affc2a7
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCaejMdQAKCRDylr3lA2jGziMrAQDSqd3bM8t5DOyfrLEKyVTOIYse55uT1xnndHXvdVJ/wAEA/mXmksxnTl3gdGuiTQyec5b4syjOsVXB6PBugmKQ5QQ=
+
+%URL%
+https://www.strongswan.org
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1776864247
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%DEPENDS%
+curl
+gmp
+iproute2
+openssl
+sqlite
+libcap
+systemd-libs
+pam
+
+%OPTDEPENDS%
+libnm: for networkmanager support
+mariadb: MySQL support
+ruby: Ruby support
+python: Python support
+resolvconf: Resolveplugin
+openldap: LDAP support
+
+%MAKEDEPENDS%
+libnm
+systemd
+ruby
+ruby-rdoc
+mariadb
+python-build
+python-installer
+python-setuptools
+python-wheel
+
