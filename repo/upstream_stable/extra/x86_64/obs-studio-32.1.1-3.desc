@@ -1,0 +1,86 @@
+%FILENAME%
+obs-studio-32.1.1-3-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio
+
+%BASE%
+obs-studio
+
+%VERSION%
+32.1.1-3
+
+%DESC%
+Free, open source software for live streaming and recording
+
+%CSIZE%
+7238627
+
+%ISIZE%
+27043885
+
+%SHA256SUM%
+97d2805f50ec45cbaea750bfa03317f51db4cf4cb4ad451f5864f8ee46687b28
+
+%PGPSIG%
+iHUEABYKAB0WIQQatsJ4/0Eim890eyyN/bV1sFOMXQUCaeJL8gAKCRCN/bV1sFOMXQf6AQC9aYBq6qR7YgkfY95neEErL55KoSYql8+ST6rP3oBVzAD/RVev1dgGqIrEqOkmR+OGL/kEjFRvCE5wiw8Arq/cVww=
+
+%URL%
+https://obsproject.com
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1776437947
+
+%PACKAGER%
+Jonathan Grotelüschen <tippfehlr@archlinux.org>
+
+%DEPENDS%
+ffmpeg
+jansson
+libxinerama
+libxkbcommon-x11
+mbedtls
+rnnoise
+pciutils
+qt6-svg
+curl
+jack
+gtk-update-icon-cache
+pipewire
+libxcomposite
+libdatachannel
+uthash
+simde
+qrcodegencpp-cmake
+python
+cef
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+libva-intel-driver: hardware encoding for older Intel GPUs
+intel-media-driver: hardware encoding for recent Intel GPUs
+libva-mesa-driver: hardware encoding
+luajit: scripting support
+sndio: Sndio input client
+v4l2loopback-dkms: virtual camera support
+xdg-desktop-portal-impl: Wayland window/screen capture
+
+%MAKEDEPENDS%
+cmake
+libfdk-aac
+x264
+swig
+luajit
+sndio
+nlohmann-json
+ffnvcodec-headers
+websocketpp
+asio
+extra-cmake-modules
+
