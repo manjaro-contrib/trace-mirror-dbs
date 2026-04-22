@@ -1,0 +1,75 @@
+%FILENAME%
+python-altair-6.1.0-1-any.pkg.tar.zst
+
+%NAME%
+python-altair
+
+%BASE%
+python-altair
+
+%VERSION%
+6.1.0-1
+
+%DESC%
+Declarative statistical visualization library for Python
+
+%CSIZE%
+684957
+
+%ISIZE%
+14166792
+
+%SHA256SUM%
+14e81db316507956db8655355cce919a95fdb415c7b9fc00e550ed0ac99cca86
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaehhLAAKCRAAHPSBC+jZETHJAP9ukZpLTjal/SxjkJ7tneYFdDm1nlShT8VUSV8/c9oZYwD+NSmS853uDAgCtqXDI4l4pyf6K2hQHY+qaaY3fik7mA4=
+
+%URL%
+https://altair-viz.github.io/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1776836862
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python
+python-jinja
+python-jsonschema
+python-narwhals
+python-packaging
+python-typing_extensions
+
+%OPTDEPENDS%
+python-anywidget: for using JupyterChart widget
+python-numpy: for NumPy and Pandas imports
+python-pandas: for Pandas imports
+python-polars: for Polars imports
+python-pyarrow: for PyArrow imports
+python-vl-convert: PNG and SVG export via Vega-Lite specifications
+
+%MAKEDEPENDS%
+python-build
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+ipython
+python-anywidget
+python-mistune
+python-numpy
+python-pandas
+python-polars
+python-pytest
+python-pytest-xdist
+python-vl-convert
+
