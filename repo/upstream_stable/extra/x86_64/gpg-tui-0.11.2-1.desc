@@ -1,0 +1,57 @@
+%FILENAME%
+gpg-tui-0.11.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+gpg-tui
+
+%BASE%
+gpg-tui
+
+%VERSION%
+0.11.2-1
+
+%DESC%
+A terminal user interface for GnuPG
+
+%CSIZE%
+1217246
+
+%ISIZE%
+3245744
+
+%SHA256SUM%
+d6ad98dbc9d7b234c9ce893b02bd556d8e8bb885e0cc51ab1c1c9d5c2fdf3905
+
+%PGPSIG%
+iQIzBAABCgAdFiEEFl4P98SMIm4ew2On+DQkgks+S5AFAmnqTzMACgkQ+DQkgks+S5AUww/+LBkwzcwABJZnoxJmnk3rRIxl5VjKQUj5eSpq40cs3PHGo41FsupOnlSsE4BKhxwh5q9QA7E76XaNd+M2EsA5hleHLj+CAYcBSPCOss9qj0XGces1QyRGXEzbV4BW7BWD3NAErXycqhyFJlhkMXjkqwAA7bX6chaYFsJURf28DcD5vGh09nPGzpqo5ORf9wRrGUysn2jQHcXF2lAZE33Uy5IL+BsS7tRKOfSF60IvjFTyZBd7MS3dhiJj/rLAmav5B1iMhMEL6uQD+2vE3VsjxbY9laGrisvrUiNH9u1P6kwDlVAZk1QYX3i1Bi75zuBBZ6SgsCUHUfNZzk2ERS+fe9lqoImw5ehOIfNZ4ZYLwiSWq55iAQfSdVDatSw1/KnTAWvp13B9q2ilcTUoV2jeRtQAZzpez3M9AgaI8aqt9gQqukYlwdoFVm86JyncA9DSG1NVXP9cuh/VuosCnk5gXejbAlDcJcNqCBe1AIrme99uL6TNmmKDna5ysp1gH3tKAcQ4OU2ENVidEGZaiFpqSDdnlec5ok5FlzFAbKCcX0LVb8Kp+GJ86haV71Jyims7f7TZa+53E8dQhsGwgurIb3r/OhKjznTPVcdXsJghcLD3cce7D3Wm0R4yAC+6bmUP4rtkqDINuKfxKl5X5rvi4/j1ysM1RPPYF/mwNTmxutE=
+
+%URL%
+https://github.com/orhun/gpg-tui
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1776963233
+
+%PACKAGER%
+Orhun Parmaksız <orhun@archlinux.org>
+
+%DEPENDS%
+libxcb
+libxkbcommon
+gpgme
+
+%OPTDEPENDS%
+xplr: for file selection support
+xclip: for clipboard support on X11 (or xsel)
+xsel: for clipboard support on X11 (or xclip)
+wl-clipboard: for clipboard support on Wayland
+
+%MAKEDEPENDS%
+cargo
+python
+
