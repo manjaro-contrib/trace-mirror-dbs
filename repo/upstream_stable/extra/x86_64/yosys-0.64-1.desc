@@ -1,0 +1,73 @@
+%FILENAME%
+yosys-0.64-1-x86_64.pkg.tar.zst
+
+%NAME%
+yosys
+
+%BASE%
+yosys
+
+%VERSION%
+0.64-1
+
+%DESC%
+A framework for RTL synthesis
+
+%CSIZE%
+22002948
+
+%ISIZE%
+117982201
+
+%SHA256SUM%
+9a57aa24497f265e8a73c2d57f92cd797e18dd40db60ccb838674f655161f532
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmnrQNYACgkQeGxj8zDXy5Jj0w/7BuRFR18KOKWwO2vANL0t4/6cJUoQYS+7tjygDK69CoFrkz7bgNTTi8EUe9GWrSMHDYXRpF+p9gflmPSiJX8QxBkc207BCHqoUFOQ8hAHIYN5G0GJ9S7sdo9mq1OvhuCtXV5w4fp2cD0NIIY31mEnin6njtXqfVVnvZaFU/P5wPIXVP9S9d4/IBlxTzTFIzupPLF6+BWwLlBKJehKkCNsb8h2vWDpR8IwHnDTC1VtjmVEitRCzElw+JFNEXmfr5R6pZ4C2sGz5ctGWqX3xMywDbzjMHs+FUURPw74i6ZjmVl3nkP6QOW9/uCKGQnfKYvuXsjsuiCjiGwQwIABaYPIV+APDmckOV0WquORMVztO2kF9dDTn1P0dNCwN2AoA7a2nCBzd8Sytofw/htSKj7EH8ZlF6NnQPFDAIhhrhoGfMMJylfnaMQOdEo8AFik7ETjKIGeIucxLmGEoxs6DFKi/hrYV0RtDmR7hA1I8QjsNGvzYTF0bWx4itovZQ5rEQmB8ehebWmBfjTV7Hte+ET46H7xLLmqUe48nonGDXf2ktXFqTq5GvevSc+DrwCshWnMQ06rripOHyVGSoYJa9aywphJxkdhzXH28+Ol8Xh/h+HHihcMNV5iHqn+ZUZ+7HjHTNU9VkSSYjrp6HBt3obBfvCaxA9dBLc5Oc5+ddcGcdQ=
+
+%URL%
+https://yosyshq.net/yosys/
+
+%LICENSE%
+ISC
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1777024711
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+abc
+bash
+glibc
+libffi
+libgcc
+python
+protobuf
+readline
+tcl
+zlib
+libstdc++
+
+%OPTDEPENDS%
+graphviz: Schematics display support
+xdot: Display netlists
+yices: default solver for yosys-smtbmc
+cvc4: alternative solver for yosys-smtbmc
+z3: alternative solver for yosys-smtbmc
+
+%MAKEDEPENDS%
+boost
+git
+pybind11
+python-cxxheaderparser
+
+%CHECKDEPENDS%
+gmock
+iverilog
+gtkwave
+
