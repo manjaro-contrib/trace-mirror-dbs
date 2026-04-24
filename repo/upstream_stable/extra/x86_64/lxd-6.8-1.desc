@@ -1,0 +1,73 @@
+%FILENAME%
+lxd-6.8-1-x86_64.pkg.tar.zst
+
+%NAME%
+lxd
+
+%BASE%
+lxd
+
+%VERSION%
+6.8-1
+
+%DESC%
+Daemon based on liblxc offering a REST API to manage containers
+
+%CSIZE%
+38140225
+
+%ISIZE%
+170117059
+
+%SHA256SUM%
+f67713342fdf2672cff3b9e8f16c454568b899fe27ceddd2ba56dffe3aa17dd4
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaesirgAKCRDglZ/qi1UFOYx/AP9+UEBCZQqnTz5ZNQrfSoD1P6UMzoK1t68RCWQL8ZIG+gEAwjJiFbSPvYjnxJ2wUECJUnoUDzB/HmTDYwI5o15r4gc=
+
+%URL%
+https://ubuntu.com/lxd
+
+%LICENSE%
+AGPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1777016863
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+lxc
+lxcfs
+squashfs-tools
+dnsmasq
+dqlite
+libuv
+ebtables
+sqlite
+libcap
+acl
+
+%OPTDEPENDS%
+lvm2: lvm2 support
+thin-provisioning-tools: thin provisioning support
+btrfs-progs: btrfs storage driver support
+minio: storage buckets support
+cdrtools: VM support
+qemu: VM support
+edk2-ovmf: VM support
+systemd-libs: unix device hotplug support
+apparmor: apparmor support
+
+%MAKEDEPENDS%
+go
+git
+tcl
+apparmor
+libseccomp
+systemd
+
