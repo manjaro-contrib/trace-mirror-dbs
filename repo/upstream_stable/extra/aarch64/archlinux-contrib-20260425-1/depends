@@ -1,0 +1,16 @@
+%DEPENDS%
+python
+bash
+pyalpm
+
+%OPTDEPENDS%
+python-requests: for security tracker
+jq: for rebuild-todo
+devtools: for rebuild-todo
+pacman-contrib: to enable pacdiff usage in the checkservices script
+python-httpx: for check-pkg-urls
+python-tqdm: for check-pkg-urls
+ripgrep: for pkggrep
+parallel: for pkggrep & greposcope
+rebuilderd-tools: for greposcope
+
