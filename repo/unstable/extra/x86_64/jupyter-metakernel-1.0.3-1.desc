@@ -1,0 +1,75 @@
+%FILENAME%
+jupyter-metakernel-1.0.3-1-any.pkg.tar.zst
+
+%NAME%
+jupyter-metakernel
+
+%BASE%
+jupyter-metakernel
+
+%VERSION%
+1.0.3-1
+
+%DESC%
+A Jupyter/IPython kernel template
+
+%CSIZE%
+277431
+
+%ISIZE%
+1103560
+
+%MD5SUM%
+09276b0b32d0e4e8232ea65694ff01ba
+
+%SHA256SUM%
+d2e54dbee0e139484de337e57372b954dc44736b22ad49a4b6b63e4b0ce469f5
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaex9IAAKCRAAHPSBC+jZEb5dAQCi+C60eLSskkGmCAfCT234Ky1UMD4xV5m0sWVFLNqfJgD/SPPUFX1m6d142kh/vkrQKl4w0QwJMubAWZmcLC+Mfgg=
+
+%URL%
+https://github.com/Calysto/metakernel
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1777105637
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python
+python-comm
+python-ipykernel
+python-jedi
+python-jupyter-core
+python-pexpect
+ipython
+python-jupyter-client
+python-parso
+python-pyzmq
+python-traitlets
+
+%OPTDEPENDS%
+python-ipywidgets: for activity magics
+python-ipyparallel: for parallel magics
+python-matplotlib: for matplotlib magics
+python-pydot: for dot magics
+
+%MAKEDEPENDS%
+python-build
+python-poetry-core
+python-installer
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-timeout
+python-requests
+man-db
+
