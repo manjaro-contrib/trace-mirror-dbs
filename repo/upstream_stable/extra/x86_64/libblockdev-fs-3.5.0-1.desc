@@ -1,0 +1,109 @@
+%FILENAME%
+libblockdev-fs-3.5.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+libblockdev-fs
+
+%BASE%
+libblockdev
+
+%VERSION%
+3.5.0-1
+
+%DESC%
+A library for manipulating block devices - filesystem support
+
+%CSIZE%
+42796
+
+%ISIZE%
+133926
+
+%SHA256SUM%
+9a34abb5590053e097c5c145f9b794ba96659969838c5cd1879bf5c11783db68
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmnvZX8ACgkQeGxj8zDXy5K02Q//bxnDOQp6vkwzEejRRlJvgmt8OTSY3JSa30HFM/Dj56KsrcY0vjngGT45+hZ9nKfukb4N7up/eQfLCmQk0WbhD+vksewmTY2J7nYs++/ZGGpLrNtHRdta8cVQIjJQtj63J0JqxQuQmBRI+GcHfapr6wN1CouK81TX/BVZ0mfXTCWSVLdIgH6O2orlE82cCHJnq34CFyMmGulsZK4ArUEL3/bpdtNi9XZy/LYPckRY3fkCRHfQ7VTiEMWhDtx5VMXpi6XhF4SYvT71i7GagTUo2uxM+HF/jiaMvwqFJs58dqQZwcTmvujaT0StDTJruUVtB6iwl+Gek02vspr+MBB0YDXsCaes5592heJHtKixLOQRCt/azVEaVK5WpYDzRlR7/JBXc+XKu+439D8HD9Sl9yWsyadkr4Q+igyCqxJt30z4Wa5wNGMe3c94xq4LC6Zv0vZm6+OKl3CFuDgChOconAqQM5OzNy0JrcD8WoV2xguhlz3/uXBiRhYpl4Jr5iuzJmWwpWF51wFbIa88J9EO2BPJF6R7sgq9xV6hW9VQgwhZzQJiranqUPrBYJ01XPBs4FPVpR4m17AaF09uJbTUPMY1Q7t+Z01iepwgSFoahOR63jaIuMdwPaJnalnd+jDMIgKCGlZob5HHxJ67YLCPGMpMgrpyVYYDIPtet2te9uY=
+
+%URL%
+https://github.com/storaged-project/libblockdev
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1777296540
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%REPLACES%
+libblockdev-tools
+
+%CONFLICTS%
+libblockdev-tools
+
+%PROVIDES%
+libbd_fs.so=3-64
+
+%DEPENDS%
+e2fsprogs
+libext2fs.so=2-64
+libe2p.so=2-64
+glib2
+libglib-2.0.so=0-64
+glibc
+libblockdev=3.5.0
+libbd_utils.so=3-64
+libbytesize
+libgcc
+parted
+util-linux-libs
+libblkid.so=1-64
+libmount.so=1-64
+libuuid.so=1-64
+
+%OPTDEPENDS%
+btrfs-progs: for BTRFS filesystem support
+dosfstools: for VFAT filesystem support
+exfatprogs: for exFAT filesystem support
+f2fs-tools: for F2FS filesystem support
+nilfs-utils: for nilfs filesystem support
+ntfs-3g: for NTFS filesystem support
+udftools: for UDF filesystem support
+xfsprogs: for XFS filesystem support
+
+%MAKEDEPENDS%
+autoconf-archive
+btrfs-progs
+cryptsetup
+device-mapper
+dosfstools
+e2fsprogs
+exfatprogs
+glib2
+glibc
+gobject-introspection
+gtk-doc
+json-glib
+kmod
+keyutils
+libatasmart
+libbytesize
+libgcc
+libnvme
+libyaml
+lvm2
+mdadm
+ndctl
+nss
+parted
+python
+systemd-libs
+util-linux
+util-linux-libs
+volume_key
+
