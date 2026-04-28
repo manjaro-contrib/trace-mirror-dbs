@@ -1,0 +1,80 @@
+%FILENAME%
+knot-resolver-6.3.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+knot-resolver
+
+%BASE%
+knot-resolver
+
+%VERSION%
+6.3.0-1
+
+%DESC%
+Caching DNSSEC-validating DNS resolver
+
+%CSIZE%
+1016946
+
+%ISIZE%
+4249899
+
+%SHA256SUM%
+7fa25b0bd32e00bc5523ed2e80eeae65e4a36d173ef99e45ce1dae4c8d2df3bb
+
+%PGPSIG%
+iQIzBAABCgAdFiEEHiYzy/cw8s5ux6twRbQpqPnZ0ioFAmnwQzkACgkQRbQpqPnZ0iqYpxAAvOCRG2lPXrnSopJJDUW4vGgbSf5vL520a+xYbrVAbrwBBaXZvqRbzvj7RjZc8Kv5KimGhhAyrQNgKDm1mOwkVz18xP13Q+0hdwQnDerc81Jq41Yj6HyPCuUUIdeleWjJz5YPGzeo/l+BQzglT9gwcjoGTU/vWnZ3hJ4C/hiwWqyJMvGZ9kC05/ZQIaYoWg+93HvLwCuwrgOws31BrVlzM5ZXF8WhNBN7JUp/x5iRuR2hR627zjzGUzv4FS0uPKxwGJb8huo8OC9zLBbYzu+8tBA+GnZTqFcEKmmqDUKiUn+X1JXQNBJ6s2qs08s2nVEiP1piLl2T538/hWwBtqpX1/m7/UHCXS2HAOLU//goy+nhD7VMpehHPrHevqsQNT7zCYTSoGNh+Tvam0N2v45lNdxMm07/vSBAENnX0+/JwUEgEVsCyN4AZynPqJyFBhqumNULSd70GO7sAVgA1Dmcm4BgTcDdqNNnmtHQFzQ/u1aJNIR1UqSlb6q65kVBaPcuSWKu128vCuAyFVJojscdQ4lJoQq0wKjVGddd2kaQYmHhFNuIFCM8KCfzrQJuojYrm7TCzfV3doD1zT8yv8jxzD6+TieksTSZ6JwITDEwvKaM6JDHmRxCbqNZPqG/9Qwl/qPtOUBSMldjNgNsEL13ixwwtrTZBfhr2tbqLdqPD6w=
+
+%URL%
+https://www.knot-resolver.cz/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1777353251
+
+%PACKAGER%
+Daurnimator <daurnimator@archlinux.org>
+
+%DEPENDS%
+dnssec-anchors
+fstrm
+glibc
+gnutls
+knot
+libcap-ng
+libnghttp2
+libngtcp2
+libuv
+lmdb
+luajit
+protobuf-c
+python
+python-aiohttp
+python-jinja
+python-yaml
+supervisor
+systemd-libs
+
+%OPTDEPENDS%
+lua51-basexx: experimental_dot_auth module
+lua51-cqueues: http and dns64 module, policy.rpz() function
+lua51-http: http and prefill modules, trust_anchors bootstrap
+lua51-psl: policy.slice_randomize_psl() function
+python-prometheus_client: stats and metrics in Prometheus format
+python-watchdog: files monitoring and reload on changes
+
+%MAKEDEPENDS%
+cmocka
+git
+meson
+python-build
+python-installer
+python-poetry-core
+python-setuptools
+python-wheel
+
