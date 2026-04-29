@@ -1,0 +1,74 @@
+%FILENAME%
+jupyterlab-4.5.7-1-any.pkg.tar.zst
+
+%NAME%
+jupyterlab
+
+%BASE%
+jupyterlab
+
+%VERSION%
+4.5.7-1
+
+%DESC%
+JupyterLab computational environment
+
+%CSIZE%
+5532326
+
+%ISIZE%
+40431125
+
+%SHA256SUM%
+4eed8613643945b00007e371b4a521af6d70dac138f0d269575aaca359a60044
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmnyZ1kACgkQek52CV2KUuRmtwgAnOVAq0mtYUvnuDQjfETC8OUWc3v9dg049CHaisSvkQ5g9ZjI/lNpPszCW859h6kj4ZF+E7Kl3D9ukmOJfEghwDBD7BBQfqNrL68/eqgsYye48bp9GepPnIkOBBTEh/XWJPmPM2rAIJ3n8gedsBDUJNpNRArXv3DOJMx5oVapX+8GR9X70DzNPUcWN/EkIlOVWuUYu7nJh/mgUxGPXXkVSz/fCyt0Vaqble8wljhAYYchxwP204ygGK5rWPb6vFSJu1eYYXXB9R+snuSJ9ssjOSnPfEyIEAhLjS6kdtxrDtzsqLVuNMSJFHRVfHjeMzPW0YlDC3eqvv2xgF6xe1jGDA==
+
+%URL%
+https://github.com/jupyterlab/jupyterlab
+
+%LICENSE%
+LicenseRef-JupyterLab
+
+%ARCH%
+any
+
+%BUILDDATE%
+1777493314
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+jupyter-notebook-shim
+jupyter-server
+python
+python-async-lru
+python-httpx
+python-importlib-metadata
+python-ipykernel
+python-jupyter-core
+python-jupyterlab-server
+python-packaging
+python-tornado
+python-traitlets
+
+%OPTDEPENDS%
+jupyter-collaboration: collaborative mode
+jupyterlab-lsp: LSP extension
+jupyterlab-widgets: ipywidgets support
+npm: to install extensions
+
+%MAKEDEPENDS%
+git
+python-build
+python-hatch-jupyter-builder
+python-installer
+
+%CHECKDEPENDS%
+npm
+python-jupyter-server-terminals
+python-pytest-jupyter
+python-pytest-tornasync
+
