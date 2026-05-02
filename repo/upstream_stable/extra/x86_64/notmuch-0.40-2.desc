@@ -1,0 +1,70 @@
+%FILENAME%
+notmuch-0.40-2-x86_64.pkg.tar.zst
+
+%NAME%
+notmuch
+
+%BASE%
+notmuch
+
+%VERSION%
+0.40-2
+
+%DESC%
+Notmuch is not much of an email program
+
+%CSIZE%
+247865
+
+%ISIZE%
+1430825
+
+%SHA256SUM%
+db23d526a50e21256aa2ac595dcb70e273583b50e2b9327685b3c8b4036be1e7
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmnisYUACgkQek52CV2KUuRD9wf/RX0KWT2SE9/V827SyHDpcytfYrSUd3FK0A9O7Imd3rNo6UzYs1ZVnT+EvvMg4dy9Ski54QNtk9YRjtd8WateQjj88m7JS2RcHeLx8XIXVico4iTYyq9z1J6myZ6ucX7b5f/0mUTRyekya+D2ptn4W0RwmMyohUClhkDKfcIfWhCbeP3ZG4hTZd7wroshahyD4H3/ifs6PHDs6FHCN8oApZa0Ysh3mbDdh3RxEb4uABXoifXvbhZjO03nTAha77XVZ/2+I2XFnfTNpuB0D8Xqi5lAV7cqMvCCl+B4FirvpBPxPp1S0ZUKk8dVJsBxgZeFR3GmZTvIu7Mzu7Xu+8OXNg==
+
+%URL%
+https://notmuchmail.org/
+
+%LICENSE%
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1776464148
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+notmuch-runtime
+
+%OPTDEPENDS%
+emacs: for using the emacs interface
+vim: for using the vim interface
+python-cffi: for using the python-cffi bindings
+ruby: for using the ruby bindings
+gnupg: for email encryption
+
+%MAKEDEPENDS%
+python
+python-build
+python-cffi
+python-installer
+python-setuptools
+python-sphinx
+python-wheel
+doxygen
+emacs
+gnupg
+ruby
+pkgconfig
+xapian-core
+gmime3
+talloc
+sfsexp
+
