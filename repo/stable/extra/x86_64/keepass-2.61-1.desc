@@ -1,0 +1,59 @@
+%FILENAME%
+keepass-2.61-1-any.pkg.tar.zst
+
+%NAME%
+keepass
+
+%BASE%
+keepass
+
+%VERSION%
+2.61-1
+
+%DESC%
+Easy-to-use password manager for Windows, Linux, Mac OS X and mobile devices
+
+%CSIZE%
+1580921
+
+%ISIZE%
+3352560
+
+%MD5SUM%
+efd535ef5ac9927191e5aa812adb5236
+
+%SHA256SUM%
+8c895bc52932fe9905bafdbc64d46de6c11b93653b24e0fcba051a358fc0271f
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCabXIwQAKCRCbeih9mi7GCHirAQC8sH3BOeyFbT4SD02w/Q29UXiGjINIBBFXNtBTxoivzwD+NqYvJ0m5NXYNFMl5Rk9xrBe78uVDbNkjIYj9LiBajQ8=
+
+%URL%
+https://keepass.info/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1773520874
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+bash
+hicolor-icon-theme
+mono
+
+%OPTDEPENDS%
+argon2: For faster Argon2d and Argon2id
+libgcrypt: For faster AES-KDF
+xdotool: if you want to use auto-type
+xsel: clipboard operations in order to work around Mono clipboard bugs
+
+%MAKEDEPENDS%
+mono-msbuild
+

@@ -1,0 +1,71 @@
+%FILENAME%
+fish-4.6.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+fish
+
+%BASE%
+fish
+
+%VERSION%
+4.6.0-1
+
+%DESC%
+Smart and user friendly shell intended mostly for interactive use
+
+%CSIZE%
+3786204
+
+%ISIZE%
+23794271
+
+%MD5SUM%
+f8014362e376873108c1922b2cd0c503
+
+%SHA256SUM%
+559bcbc08aead5476d941356211820701604e8f608cc1675392d1d6913f86e95
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmnNMbsACgkQeGxj8zDXy5LBvxAAsrfPWt41Zl+rtVSu1kQkQqnzZ/rYZz146JhJh6vR7QnyXl3qbizyhsF/HiOCTHrNVcoWJeJXi0CWa2yuYJWRrp4NjiBgsbwRINIqqLecGXPE6qyloSyp+GmgoFelkzDVN8kjx3lss3xrC4DNLreanZaU1jkQQKaB9ySw8mq/whH9FXrNYUeGDEaEsO6Z6/hpIWplcPT3mwluxgHuLvA8gwjyWJSp0uHY0wQPtKlX20gYb44u0ev+J/ca/UiNr10RzrXjuzOVfXvqmrU5ND6pdO/pQrhNXpgx7figbGlP92ThP+2ObUwVjIHwrSYst6hvFsrx8XrewRa7zHpokW1cpA1rAfBA0o5ttsfSgeXQ4QFZVzt+V/Mv++rUQyCK1+6UML4M16QWey0NYMhPmNGcisLGT0efu8ul3IQib/yyV6q7bWnr5UlGYuZqKNAbFqjn0yjBFkl5Lz9YJ09ANKA+NWsW775xrdobyXbw4pYPCWhwocQqV7+/8FGMrW0rttTh6geuYG7I3rYTCFAXdkt++05Hubf+oNYkwNEMnvKAxFL/PxyjYG3tRpEiVQpKNcOgKT2hN3rW4x8mod055B3z3achvkzZCsKPASd5qCYNsFAWoBvNQ0RNug/cBZsO4v5s/fSLc8Ds4EaHLw1neIvtPGRx1sprNSwgSuhE8mKY/Fo=
+
+%URL%
+https://fishshell.com/
+
+%LICENSE%
+GPL-2.0-only AND BSD-3-Clause AND ISC AND MIT AND PSF-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1775054868
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+glibc
+libgcc
+pcre2
+
+%OPTDEPENDS%
+python: man page completion parser / web config tool
+pkgfile: command-not-found hook
+groff: --help for built-in commmands
+mandoc: --help for built-in commmands (alternative)
+xsel: X11 clipboard integration
+xclip: X11 clipboard integration (alternative)
+wl-clipboard: Wayland clipboard integration
+
+%MAKEDEPENDS%
+cmake
+git
+jq
+rust
+python-sphinx
+
+%CHECKDEPENDS%
+expect
+procps-ng
+python-pexpect
+

@@ -1,0 +1,87 @@
+%FILENAME%
+electrum-4.7.2-1-any.pkg.tar.zst
+
+%NAME%
+electrum
+
+%BASE%
+electrum
+
+%VERSION%
+4.7.2-1
+
+%DESC%
+Lightweight Bitcoin wallet
+
+%CSIZE%
+8091627
+
+%ISIZE%
+47462401
+
+%MD5SUM%
+05976eb30e3c2fb20943a455006e7e56
+
+%SHA256SUM%
+7eda73b302b6badc66bdddfe90f32e5bab8210c485bd18fe84dc3a8e35e7ce16
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCac2DJwAKCRDwXowSExrrXrAkAQDwhGsDhPpi4NoN+XgPJlL3WwrbvFgBusJAc3+yGRCdzwD/WsGa4BBbU7rGT5OnA3kQ7hxjbvk64KgBHaxU9RvnOgw=
+
+%URL%
+https://electrum.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1775075637
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+hicolor-icon-theme
+python
+python-aiohttp
+python-aiohttp-socks
+python-aiorpcx
+python-attrs
+python-certifi
+python-cryptography
+python-dnspython
+python-electrum-aionostr
+python-electrum-ecc
+python-jsonpatch
+python-jsonpointer
+python-pillow
+python-protobuf
+python-pyaes
+python-pyqt6
+python-qrcode
+qt6-declarative
+
+%OPTDEPENDS%
+python-cbor2: Jade hardware wallet support
+python-hidapi: Digital Bitbox hardware wallet support
+python-matplotlib: plot transaction history in graphical mode
+python-pycryptodomex: use PyCryptodome AES implementation instead of pyaes
+python-pyserial: Jade hardware wallet support
+python-qdarkstyle: optional dark theme in graphical mode
+python-rpyc: send commands to Electrum Python console from an external script
+zbar: QR code reading support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pycryptodomex
+python-pytest
+

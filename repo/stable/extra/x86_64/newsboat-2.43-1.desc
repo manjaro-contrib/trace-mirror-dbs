@@ -1,0 +1,69 @@
+%FILENAME%
+newsboat-2.43-1-x86_64.pkg.tar.zst
+
+%NAME%
+newsboat
+
+%BASE%
+newsboat
+
+%VERSION%
+2.43-1
+
+%DESC%
+RSS/Atom feed reader for text terminals
+
+%CSIZE%
+2847501
+
+%ISIZE%
+13757105
+
+%MD5SUM%
+7560c316b222fdd18272e33582547780
+
+%SHA256SUM%
+86d42ced8e24f80a9f2f13da1d845e93f8fa57302b5d724959bcf9f5bce453a3
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCacBU3AAKCRDylr3lA2jGzuMVAP9GFbsRhVQTHOwRIZw8uzKpUOrCibiZZtPAFt1z2HlzOAD/QO0tX0FeA6fPUfg8lqDdui+z4gJt+dN7nHUxLjjf7wU=
+
+%URL%
+https://newsboat.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774212085
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%REPLACES%
+newsbeuter
+
+%DEPENDS%
+curl
+hicolor-icon-theme
+json-c
+libxml2
+sqlite
+stfl
+
+%OPTDEPENDS%
+buku: for bookmark-buku.sh
+kitty: for kitty-img-pager.sh
+perl: for pinboard.pl
+python: for exportOPMLWithTags.py
+ruby: for feedgrabber.rb, heise.rb, and slashdot.rb
+
+%MAKEDEPENDS%
+asciidoctor
+git
+rust
+swig
+

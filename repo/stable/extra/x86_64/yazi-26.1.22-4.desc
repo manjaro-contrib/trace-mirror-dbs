@@ -1,0 +1,75 @@
+%FILENAME%
+yazi-26.1.22-4-x86_64.pkg.tar.zst
+
+%NAME%
+yazi
+
+%BASE%
+yazi
+
+%VERSION%
+26.1.22-4
+
+%DESC%
+Blazing fast terminal file manager written in Rust, based on async I/O
+
+%CSIZE%
+7008927
+
+%ISIZE%
+22845760
+
+%MD5SUM%
+14f387a0e6208dee378504e814a5bfd3
+
+%SHA256SUM%
+fa55e1181c599518a831d0503e97e8a05fef6ef233df2af2eb4e8a54254821e5
+
+%PGPSIG%
+iQIyBAABCgAdFiEExdKm4O0tEcZrn6KjBjE5EQV91agFAmm5cCgACgkQBjE5EQV91agizA/1F8wQINQ5X+9q8byMEOqpSAAt6NHJvg2reZ6qLoXJKXopF/qPUAmpQc9n9/rv9kdR9fOYoKg9GVh6qvzPi/C7s3Y68J2uaigG2IBurLdPmRa4hpVIREsk5kktGSh0w6fbfWZyAsDuRG64OORQniUXdqTlWRboY8S8R5GL1QN5GCNafhCFZ6SDy2UkD+v28bbXGw+IN+jC6Oq7ZcGzqvaF20uQn11I9rd1vcekVPQsELEAQIAXX2X6LMhWXyB6/eEJaqTG2xFaIiLQmCD5mJdE4O1u8esMaBGL7gWFmCE3bIXhTYJ9WX+RbMwifz4kP3EpAGO7eY5FynH3oePwXuQTWj1iIic/aUkgwOnIQvTQRS6d3wRIsm+tBafDdIjnv5Cn/eBsqR3UYpcL302/5qJbD46rStNY8QfQNUHp7pX+5npyDZM/ThtnO/gfLoCpgNyTw4FogXpBrqBFuATTxr2hxKJBxPg+cioH2wVzdtDL5s4iqm96WBBSgit1xMI2LTe5fXbSTNALYIEISzjmQrOQzRRw1eeRNYRCOoWhvBcKxG2LcRW7ehdUV9HdmtgCqLBwfTKcNKJV6DQ/8J5MitOCNYLQ1UX6lUit3hfkL1PDs8Wab+NkBlmqzPUb83sr6tT37Fes84M0bDNvh6TU/rEfZufvqtTZo56IY+ARq/dSLA==
+
+%URL%
+https://github.com/sxyazi/yazi
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1773759974
+
+%PACKAGER%
+George Hu <integral@archlinux.org>
+
+%DEPENDS%
+glibc
+hicolor-icon-theme
+jemalloc
+libgcc
+lua54
+oniguruma
+ttf-nerd-fonts-symbols
+
+%OPTDEPENDS%
+ffmpeg: for video thumbnails
+7zip: for archive extraction and preview
+jq: for JSON preview
+poppler: for PDF preview
+fd: for file searching
+ripgrep: for file content searching
+fzf: for quick file subtree navigation
+zoxide: for historical directories navigation
+resvg: for SVG preview
+imagemagick: for image and font preview
+xclip: for X11 clipboard support
+xsel: for X11 clipboard support
+wl-clipboard: for Wayland clipboard support
+chafa: for ASCII image preview as fallback
+git: for Yazi package management
+
+%MAKEDEPENDS%
+cargo
+imagemagick
+

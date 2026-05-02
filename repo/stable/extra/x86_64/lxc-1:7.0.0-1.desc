@@ -1,0 +1,67 @@
+%FILENAME%
+lxc-1:7.0.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+lxc
+
+%BASE%
+lxc
+
+%VERSION%
+1:7.0.0-1
+
+%DESC%
+Linux Containers
+
+%CSIZE%
+852702
+
+%ISIZE%
+2895499
+
+%MD5SUM%
+d1bb08a45434271578bd430a6848fe41
+
+%SHA256SUM%
+9ae2c4353e8dde664790e0515ee873865a6773a6a10565917b80bed6a473495e
+
+%PGPSIG%
+iQJLBAABCgA1FiEEiee5MxxK59f699MFwTIpOVS75K0FAmnzmbcXHHNwdXB5a2luQGFyY2hsaW51eC5vcmcACgkQwTIpOVS75K3xxhAAvRfZFEStli5JcN/VtMmui57sThklrwCxePxyJyba9hFKGSCnI5+IVnqPAJGYFNC6S6m8IgA1c3mOFwitllhBW6YA+umr3k+C2fLJIkcqr47pOA3ULcQQmqEuxypZYzXTSijV6bpDxqElN/pw/ryV4P3srEFaFU1+Tw3RiIA/SLTPvctc9XcSlKPvz336nor9oJzeaepgYYTD8iBgwxckCzMVbqlh0sicgv14Lk9ifi/TChIYcAK02va3d1oo1a0Z2X0eqikewqUd7nc1PoXx0rCDVfjayUZPl5JVVpvVlkyB/+ppIuvNXlf40KtFQb01avTmuzRAr/lFWJQXnQjtbGI1leprHt7WCsgnBZsQa6tHQquTW4wQirq8YfA/C7Cpu4uwuJ5ihhoxIYnqEMoeYtdjstX8EqdtooJqMwzma02Y56SPlklfmY57MbGsl7WZO1R7ptr51XRRAecpVUqSbG78S7038rzujcWMmqkckAUgIeQgKUP+PqTbd6dm+JpNOUo5iRKAq0SrWDi6GUjAbULKwYGYuGLMnV4t2ha1ZD9Md8hMyMo9QduGIqglBUl7bwgAdsbZ7/aVNzj04/64MsSj0vmyazgt9ALVGAJUPlIe7ASu/HHfFHQZW9S2TYjBXBOdtn77eB83WRnkphsW4IyYKcqwMEs4fq0MdQ+rQ6A=
+
+%URL%
+https://linuxcontainers.org
+
+%LICENSE%
+LGPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1777569638
+
+%PACKAGER%
+Sergej Pupykin <spupykin@archlinux.org>
+
+%DEPENDS%
+bash
+perl
+libseccomp
+libcap
+python
+rsync
+wget
+
+%OPTDEPENDS%
+dnsmasq: lxc-net.service
+lua
+lua-filesystem: lxc-top
+lua-alt-getopt: lxc-top
+
+%MAKEDEPENDS%
+docbook2x
+systemd
+meson
+python-setuptools
+apparmor
+

@@ -1,0 +1,59 @@
+%FILENAME%
+emptty-0.16.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+emptty
+
+%BASE%
+emptty
+
+%VERSION%
+0.16.1-1
+
+%DESC%
+Dead simple CLI Display Manager on TTY
+
+%CSIZE%
+1368352
+
+%ISIZE%
+3839001
+
+%MD5SUM%
+e3644be8aea2de3897e6885db73eb0a2
+
+%SHA256SUM%
+72ba89224f9021ed0c916f50ff5592d380c5974e925558c33439d361d1ead2d3
+
+%PGPSIG%
+iQIzBAABCgAdFiEEFl4P98SMIm4ew2On+DQkgks+S5AFAmnKNvUACgkQ+DQkgks+S5BAPw/9HBFmTfT1POdRjBTWcFpwyjimauMP9Lc/HGnr/EsiW5RoXPUCpBA8eDN9TZJ6jidlusYPkCl94uk/pAyyoqREsaP+UpHArMwgsbzinKafqAE9snknx2XINeyhYn/mTkNiChoGhrzS9YWLzfLPc5l26jymO3bmSIMoHKt95d3CGWUk65HYnFY4ZNUmhIqAAtBA/9Ep64Wh3aCQexnMlMSXFCy0Qa4nZg9NHfIAyUCD9rV1s47DfU0o1Hz14buO8XuhN3eHvICx/V87P+agLGXQ1QCwSdhuJVXBYY5ZMfu6pRxmk/4Usfh0LPcR0WouGarmQWeUTjDfp4kMDkW6EmMOes8Sp1YD9arBBZzH+4qPDwNoGhKwXnFEodtg3Izi2BxGPOPBOkyLzTK/LooGyItY7Zl5yKK+xfHCnaOz+mVDdUdHiGsTRE+d1Qbtb1r3YEQLI/GxDhAFZIQc+b0WJcaTJSE7I4hSx6bMZpz86kpBfhkPeJ4PYr+rOgtVgeCGW40Xyk5VZzZ906UEtQW9EHdL6qUpUlBB7Gv8UdoEgBMLcAPR507+ICH0h4C4WnNjPghZSpyHh96dSBEGYykmtu2/08wgPjrARAOVKv44xNA7SHIUkN+Oaq2A77vsz9RtymSx5KGtiKYjVlkG+h7q5jVWxXSAAbM7xMy5KvfR9XPZQKg=
+
+%URL%
+https://github.com/tvrzna/emptty
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1774859976
+
+%PACKAGER%
+Orhun Parmaksız <orhun@archlinux.org>
+
+%DEPENDS%
+pam
+libx11
+
+%OPTDEPENDS%
+xorg-server: default display server
+xorg-xauth: required if using xorg-server
+util-linux: mcookie required if using xorg-server
+wayland: alternative to xorg-server
+
+%MAKEDEPENDS%
+go
+git
+
