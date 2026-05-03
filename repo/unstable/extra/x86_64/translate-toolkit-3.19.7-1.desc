@@ -1,0 +1,76 @@
+%FILENAME%
+translate-toolkit-3.19.7-1-any.pkg.tar.zst
+
+%NAME%
+translate-toolkit
+
+%BASE%
+translate-toolkit
+
+%VERSION%
+3.19.7-1
+
+%DESC%
+A toolkit to convert between various different translation formats, help process and validate localisations
+
+%CSIZE%
+1172949
+
+%ISIZE%
+7605373
+
+%MD5SUM%
+ff0a81b280433750c75f0b4e25d35d5e
+
+%SHA256SUM%
+99e277ed82312ba61a73c1909b6cf34f763deaa30477efcf442f7e170d084ce9
+
+%PGPSIG%
+iQIzBAABCgAdFiEEOO3RiGdWkk4SJOSVJOTNsAE8JYAFAmn3NuwACgkQJOTNsAE8JYD2Mg/+NbnAVzk2hpwpGicxrcbX8sk2osNOd/nYCLPMmZepG8NxVaOyAoa2GKjgKYpp+nQmoKwHh5DFJ7MvKwmEvfoDicPhDlUcCUvtmI3Xh6nL/dknPaI9erKXOeKkNIWFdM7ZouXowVV+mP/22VpYj0OePELPBndNqXSxmyBzdwrBQ9CF99v27P05KuxN23d8mJBIIslxRxbjPFnducteuWaiy94odDOuFUhpl71XQKme9VPZWwgklqp1wkCUMobcMwgRVHhO+2gn6MTHA4gdEaqJ7cP+t98DaF3e4Xb3MyMHFHTwbf9yeeMpghMYvayEKYWrg8pMsy8e9OR3W2HnvOjWizjDTuR/Jqsk3F4jc1HcjEfaCMUPeLk6WHsNPj3Vc3x7h6NOlDK6Nv9cAVoVuDnV4PIrZ1aBxvM6mAM1l6WrUf3PXm545xK6Z8gP490W8f/t92oG+qRw8JpAcWcneViGFxyWWxJTiaNNPYhLdRi6+7VUWdfHYdnst6ZN6bv28CTRgpXM74olytm0lwEhFHVzwXajksV8CR5cPwtwzugQdSKFKRt6vjVs456VAYdAy6PCGfCWvcN3mpMUFWSxBpHsr87CdeqJrclOInjQwS8CmvMGiQ5Bxo+JXT6NySTuLIfecOt0qL12wJjfGxDkFZQ8QY488EHOQ16Q/oe9FNQWdWU=
+
+%URL%
+https://toolkit.translatehouse.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1777809053
+
+%PACKAGER%
+Jaroslav Lichtblau <svetlemodry@archlinux.org>
+
+%DEPENDS%
+bash
+python
+python-lxml
+python-ruamel-yaml
+python-tomlkit
+python-unicode-segmentation-rs
+
+%OPTDEPENDS%
+gaupol: for po2sub
+python-chardet: encoding detector
+python-cheroot: for TM Server
+python-levenshtein: faster matching
+python-mistletoe: Markdown support for po2md
+python-pyenchant: for spellcheck filter
+python-pyparsing: RC support for po2rc
+python-vobject: iCalendar files support for po2ical
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-cheroot
+python-mistletoe
+python-pyparsing
+python-pytest
+python-vobject
+
