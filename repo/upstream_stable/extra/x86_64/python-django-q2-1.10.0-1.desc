@@ -1,0 +1,68 @@
+%FILENAME%
+python-django-q2-1.10.0-1-any.pkg.tar.zst
+
+%NAME%
+python-django-q2
+
+%BASE%
+python-django-q2
+
+%VERSION%
+1.10.0-1
+
+%DESC%
+A multiprocessing distributed task queue for Django
+
+%CSIZE%
+183594
+
+%ISIZE%
+1051506
+
+%SHA256SUM%
+7bc9d484562efc38e6198276a6eea40afb11d34372468cb296a4d06e0a538b6e
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmn6IzIACgkQwGCGM3xQdz4iBgf7BDCoe+r+bC5YE90Jnxer4JomvHPF3cotj840z8xLToKNmBs1r57LUthsvOWrIduQ9jlU4e7GzmcgzuG9vfFrDOMt9Px4h77ANduhZrImQrm9gVra2Gbac/wY/9kByP13n5qcDpZTFr3pr5zTah/nk5pFsV749fCrQsfODI6k3O4a8j8FhMkelWYzjtPTWh2LX/9u9EbrIxH9Ud3rXlliaSxyTJ1lPUgVVB817O0VxwFuxAI4qYwdCr/D7ADv3vAQYuVLp+w+6cn4WlARYPIOr9nbPB4xDRm/hg5LvXvnLdTCLUyd8pRMnBneTvc/23r7T6ukf9RY97wW1jLOIEdddQ==
+
+%URL%
+https://github.com/django-q2/django-q2
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1778000353
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%REPLACES%
+python-django-q
+
+%CONFLICTS%
+python-django-q
+
+%PROVIDES%
+python-django-q
+
+%DEPENDS%
+python-django
+python-django-picklefield
+
+%OPTDEPENDS%
+python-blessed: Display the statistics in the terminal
+python-setproctitle: customize the proctitle
+python-hiredis: redis support
+python-boto3: Amazon Simple Queue Service message queue support
+python-psutil: resource usage limit support
+python-pymongo: MongoDB as a message broker support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-poetry-core
+

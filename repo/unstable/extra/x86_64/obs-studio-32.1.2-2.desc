@@ -1,0 +1,91 @@
+%FILENAME%
+obs-studio-32.1.2-2-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio
+
+%BASE%
+obs-studio
+
+%VERSION%
+32.1.2-2
+
+%DESC%
+Free, open source software for live streaming and recording
+
+%CSIZE%
+6970416
+
+%ISIZE%
+25758231
+
+%MD5SUM%
+5419d76ba482403ffec603f7137b9278
+
+%SHA256SUM%
+7eb98412ce343752572134f0d22d93aa102cb278f02d5fd7cfe8c81c83f18775
+
+%PGPSIG%
+iQIzBAABCgAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmn50k4ACgkQk7EdqkwZfj0iHw//Z86t5JtFuxNzmfhKABWeqB66/vEfmmeOTLUU4Jx0BwnLi+pFVXr1xRJckjOj2TltEzMx6jbohRdx07JjJ02zK8lelloM28pWEyGNbI4/pMqbUjpb8awPmWOORzfZTf5+yz6srJ7fWOV82crSW0bvqRifWe2zreG0G0hf7SdOXBneGDFFVtKl4d6p+YA1Nz/hc+5bQiWDrLGGqUV1jmEIDGviVNf2FzUWWcNsCy3sGtKlWjR5pyV3lJO+4Dp2SDSp8Zz5KczqeYcBmQ+rlcVrVOoKluypk6i7OCkYd0cIICKLR+wlbYEFcJ5dpmpusd1s6ltiBMVkiqFW6zWVpvlpNLfKh4Fw/Frwg0+PxMeHX1ugie/qk4K30Pl7B/OKtj4P+LSJh3xaM9AS96WnX01lYkDjU/rw4pAwMKZqPiEpa46vF4Mc7RLYAgOAJ6OwIqlXix9dEhGy7j5EPoEzbOaQHLY+F/VgaKrAEouvJj7QJVjsYUV0+QopNoLNFFO5HQ0S17HADq2Fj4AnWMMX6OTLzTHOEBfRm1EFG4rSinyTbAhMHOcu1UKhn6fjtXF93tBJH/Ae4o+5xIkAqplNndoFYRbuQ+elXNP+3+mwJU0qw4yOIawdHLq8u+K05oQETKXhCf6YwsuHrOGRUz0y6d7MSmDjEsTcOO0sn13mf3W0UW8=
+
+%URL%
+https://obsproject.com
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1777979759
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+ffmpeg
+jansson
+libxinerama
+libxkbcommon-x11
+mbedtls
+rnnoise
+pciutils
+qt6-svg
+curl
+jack
+gtk-update-icon-cache
+pipewire
+libxcomposite
+libdatachannel
+uthash
+simde
+qrcodegencpp-cmake
+python
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+libva-intel-driver: hardware encoding for older Intel GPUs
+intel-media-driver: hardware encoding for recent Intel GPUs
+libva-mesa-driver: hardware encoding
+luajit: scripting support
+sndio: Sndio input client
+v4l2loopback-dkms: virtual camera support
+xdg-desktop-portal-impl: Wayland window/screen capture
+obs-studio-plugin-browser: CEF-based browser plugin
+
+%MAKEDEPENDS%
+cef
+cmake
+libfdk-aac
+x264
+swig
+luajit
+sndio
+nlohmann-json
+ffnvcodec-headers
+websocketpp
+asio
+extra-cmake-modules
+git
+
