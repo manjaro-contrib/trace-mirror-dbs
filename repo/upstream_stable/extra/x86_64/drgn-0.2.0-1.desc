@@ -1,0 +1,66 @@
+%FILENAME%
+drgn-0.2.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+drgn
+
+%BASE%
+drgn
+
+%VERSION%
+0.2.0-1
+
+%DESC%
+Programmable debugger
+
+%CSIZE%
+1042338
+
+%ISIZE%
+5294514
+
+%SHA256SUM%
+f2ff699b107f3b352722d3d5bc9f7adce043648ec1b2173f61bab9fe6c8cac10
+
+%PGPSIG%
+iQIzBAABCgAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmnzTk0ACgkQk7EdqkwZfj2wMhAAzryOFTiJU10MbKxoSpGj5ej3cexG4BS7teC1xWamgie898klg/OGqpdx2UOqH9ljp536Xv0HYm3XxFEJPlJ8C6FmcUh5TI4eHzfNCwGZyBtaS8RWvAzMqXTtu0vsEP9Vc/IhmwbSr+LFOkRkTnXjN9uGjaB7GsR/3dnKkcE+ZhBF/UXghF9ZXk8mw5Mg5Nd9SkhD1zTPdpt5Hfx0OkW++J9AsqgiqPmQP16pCJwpcKKpzpmS93MBAdGUoYaHtmHBImJjnPYAePZ50HGC4QfRC6RlHCrXAcLXl6GuuEhk+aQdHHcQDqTs/5z1bd35Or2MavHBQxbKRVKgWf3tJSckMRr6/23OahN2jZj7m+pQnvjwcnGPtaWz+fBVRAAGPbpucBTTziRN/yAG+1JcRBaxvMcbg5P2KulkdESQ3v7+Qjh4HpwuaxAT/0sxLVW++ScAgi2mqmfLUyJfdGkyr/eGTq99xCvd2R+IC30f27LqYmRfDwjErPVkWa+sJux07cB7ECXZe2qXtrWOGB4t/QRTxlUls4u1FDatnzMMKx2kbZQmZHz03b2mfcssHPnv1yZfDg/srEN1F52LUgWSYwsA5jPz5a/1N26g7kLyIOo2Vn8Eb4x2+gxQJXo9dRW7IORiPcDBu9rOpWOMcde1azcS+LINLUddyasqDxr1f2ajJnE=
+
+%URL%
+https://github.com/osandov/drgn
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1777552928
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+glibc
+libelf
+libgcc
+libgomp
+libkdumpfile
+pcre2
+python
+
+%OPTDEPENDS%
+python-prompt_toolkit: enhanced terminal support in contrib/ptdrgn.py
+debuginfod: for libdebuginfod support
+xz: for MiniDebugInfo support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+check
+
