@@ -1,0 +1,164 @@
+%FILENAME%
+vtk-9.6.1-5-x86_64.pkg.tar.zst
+
+%NAME%
+vtk
+
+%BASE%
+vtk
+
+%VERSION%
+9.6.1-5
+
+%DESC%
+Software system for 3D computer graphics, image processing, and visualization
+
+%CSIZE%
+60105338
+
+%ISIZE%
+379361521
+
+%MD5SUM%
+2fd074560d5a163b9150d11fb41a91e7
+
+%SHA256SUM%
+255c0e0870809bade76d4239e4be36ee30e9d1b026fa8e8e16db6ee1014ab225
+
+%PGPSIG%
+iQIzBAABCgAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmn72VsACgkQOeS4d+YuuRUvqhAAibQSojYx0u7UarqtoR1mijHKbNnQBRE1pNwtxYzhWGgHObpHAeO0lELV57YFk9OWCe2LUv+a5vm9OK3ftcfJYJAvxIxwKl5MyuP2VIX5Wg1M3hg2BqT0FALQ8+c0815Lm6KFKXPp7LBb4tMKWGsO9GujsMs5d+pkKTY195MhaTryNpuVqHvX/bFxiaAUOjy6V3vdlQIz/0GNJEg1FQE7eQsPZd69TEYQSlqef21ulsCnQfx4/HHodCzJiF0b8plVcrmxl/ZTohtHvyREqn37FEDDGqqqJNYkcqqMme/vxHwVdxrppPabni1AKuu3atI6heYgbzixtBjLNAOPaUevat3/5ziD87R4Ul2gO6MqCP52mSczhIJv6A9Thjn4j17LNBSgzCP2XNZ12dxvbBptZfONMUfp/MoGwwRHZEZkeVICyvnBdgsMUT+b6FbrsdcyqW3zrBIn7Smve4Es1u5wG90UUiZcmxLNJGPh9GZ56JMMzGFGRVglfzPQlMo8aoulScCquzhhK4WKTWiKN2hFk6oGfVgBUOqRYEhmlj3V1o8w0DzUt07PLRpN4BLXFjX6TpoF79oADC/Mnkkq1zR+JONx6cCBui0BRxUXIIPbMmOXoAlYXcU5pnqOHF267LpU0k1iEun/h86aRv/W1CthIJLY37Ds5GgyJ9Pot9J8kAI=
+
+%URL%
+https://www.vtk.org
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1778111837
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%DEPENDS%
+glibc
+libstdc++
+libgcc
+fmt
+libgomp
+onetbb
+verdict
+libarchive
+lz4
+pugixml
+xz
+zlib
+libjpeg-turbo
+libpng
+libtiff
+expat
+jsoncpp
+libxml2
+
+%OPTDEPENDS%
+graphviz: drawing tools
+libglvnd: OpenGL rendering
+java-runtime=11: java bindings
+python: python bindings
+python-matplotlib: for Matplotlib rendering
+python-mpi4py: OpenMPI python support
+qt6-declarative: QML plugin
+tk: tcl bindings
+libx11: rendering
+libxcursor: rendering
+fontconfig: rendering fonts with fontconfig support
+freetype2: rendering fonts
+gl2ps: rendering to PostScript, PDF, and SVG
+anari-sdk: ANARI rendering module
+onnxruntime: ONNX filter for AI-related computation
+openvr: rendering for virtual reality
+openxr: rendering for virtual and augmented reality
+openimagedenoise: rendering with raytracing support
+ospray: rendering with raytracing support
+openmpi: OpenMPI support
+viskores: accelerators support
+adios2: IO module
+alembic: IO module
+cgns: IO module
+ffmpeg: IO module
+gdal: IO module
+hdf5: IO module
+imath: IO module
+libharu: IO module
+liblas: IO module
+libogg: IO module
+libtheora: IO module
+mariadb-libs: IO module
+netcdf: IO module
+opencascade: IO module
+openvdb: IO module
+paraview-catalyst: IO module
+pdal: IO module
+postgresql-libs: IO module
+proj: IO module
+sqlite: IO module
+unixodbc: IO module
+fast_float: for building downstream projects
+nlohmann-json: for building downstream projects
+openmp: OpenMP support for downstream projects built with Clang
+
+%MAKEDEPENDS%
+cmake
+ninja
+java-environment=11
+python
+python-matplotlib
+python-mpi4py
+qt6-base
+qt6-declarative
+qt6-tools
+tk
+freetype2
+openmpi
+libx11
+libxcursor
+hdf5
+netcdf
+sqlite
+viskores
+adios2
+cgns
+paraview-catalyst
+gdal
+gl2ps
+proj
+alembic
+anari-sdk
+ffmpeg
+imath
+libharu
+liblas
+libogg
+libtheora
+mariadb-libs
+onnxruntime
+opencascade
+openimagedenoise
+openvdb
+openvr
+openxr
+ospray
+pdal
+postgresql-libs
+unixodbc
+fontconfig
+boost
+cli11
+eigen
+fast_float
+nlohmann-json
+utf8cpp
+
