@@ -1,0 +1,66 @@
+%FILENAME%
+termusic-0.13.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+termusic
+
+%BASE%
+termusic
+
+%VERSION%
+0.13.2-1
+
+%DESC%
+Music Player TUI written in Rust
+
+%CSIZE%
+10106324
+
+%ISIZE%
+41544005
+
+%SHA256SUM%
+5695b298765c901106ef2c1783d8c041a0912da926efefd25da6712f66738653
+
+%PGPSIG%
+iQIzBAABCgAdFiEEFl4P98SMIm4ew2On+DQkgks+S5AFAmn8iw8ACgkQ+DQkgks+S5DQKA//akAHYf5oHLh5LuGSPSkW1YaOGOV8PkxJiQHq3RuU7soAEfW89pL6vq3JB7jFE5mC7DYfohkL7wK5d7yCw4OuLjrEx5hbcrek/H2eTppcQJGPUSCZjB7sjHQwdlPvdOYGMFH27BXe3Zdsq7CQGDqTBUmUic9GJd6hjc8Fxsg96Uce9P6nXyS0oXfqFX+2qUZvvRX4dHMDh/JKx0W52LOj+Vxh3Q/kNbUS55J1WR6Ombd7+t4cVn5gi31lXIPMPOgHrDkicevf0ApmnYWl82Ja5PeO+s+hKOS2Nd2aWoC0w5purK1UEQM2GY+I+a38x4uAxBDUEt6Nf6auBcg1Rd58EakBxBjPUYglbf/zPUcIL+zqeT9IkR/yuiQjmh1lPHbBhK5RtsUtR8OPKvzBtROJb2HL4OViT8x34IJXSw++74TTMhBGXVEEf/3JQDKbIm3G+URbTYC+eSrypRgT1cSE58LV1DmvO6gmQi7mNSqX4Gg21kzl2oFIv8M7zeKstGHEl1gdwPphxDYiQEUMCNs4awcRX1Wam0NglJI/Q6a1LWw8Y+TEzBxjjnadaTNTl6ibvsuG232MsRwdj7PuBeuy38uHQ8wKPaj9XYISEX2zSvlYNdyxoZPwn/RJlmpBHklj62Y9kLP0oTEV5ducrTU51D+13UPb3IyYt1qjFr8UJXQ=
+
+%URL%
+https://github.com/tramhao/termusic
+
+%LICENSE%
+MIT
+GPL3
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1778156536
+
+%PACKAGER%
+Orhun Parmaksız <orhun@archlinux.org>
+
+%DEPENDS%
+gstreamer
+gst-plugins-base
+gst-plugins-good
+gst-plugins-bad
+gst-plugins-ugly
+gst-libav
+dbus
+libsixel
+libmpv.so=2-64
+libopus.so=0-64
+
+%OPTDEPENDS%
+yt-dlp: download mp3
+ffmpeg: download mp3
+ueberzug: another cover display protocol in terminal
+emoji-font: for displaying emojis
+
+%MAKEDEPENDS%
+cargo
+clang
+protobuf
+
