@@ -1,0 +1,79 @@
+%FILENAME%
+python-geopandas-1.1.3-2-any.pkg.tar.zst
+
+%NAME%
+python-geopandas
+
+%BASE%
+python-geopandas
+
+%VERSION%
+1.1.3-2
+
+%DESC%
+Python tools for geographic data
+
+%CSIZE%
+769369
+
+%ISIZE%
+5392081
+
+%SHA256SUM%
+0596f72cb9584f8db25783ca3a53229ea65a959194746e4b5c171a5e69ec41dd
+
+%PGPSIG%
+iQIzBAABCgAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmn0sU4ACgkQqF6BHrTKLggFOQ/+NFvUcsLp2PqUfGCXCvYTQJQj3G90+KVbqOw04LthhrG9ywd3NxHfzMMA4nJmDWfUdltsZZx9WiW4nRKaI5i2JEfdfFIhJsr3s4jVS2Mq24YW3FNl3lwu3aD6Dfw8CbrQWymQWqTlJ9rqqmzURYBfNZ438tIk4+YDV3mo9ZCSbNKze1xYqtrbCcsAiOd4Zc4qGwI9EN4Gbs8JDKFlJu+pghD+5hseUNCS1wHUy3WdCSuis71Ekbv2Kcf/ezZJGbf0ufBSslvgvczsEouKsNVESzXZZZRn8VSgqBff2WZFMSByVLKc4D71sPKDdveHPg5yk69gaza6juAGJUNzh85qOoY5+zADrdHNR/Zr8tB5T24ynoH9u+5RumwFz4R7oqumlRaQo254TLe4alaVYzf5rPmsdqEM4LElLh06aZlBSOTuajzPc8XBtCLP8C8Pavmgofk/wdzZ6U9/NPJ1pNav8AOJBoiYjizxmNHb0sf2KtM0pwuWD0ZBmg+uhmCKzMqf8jUhZ6fq8Ro1N3VoR4lbZ59uQw/pgsbub+a9wtLH7U4YG8xPW7oD4dg/AwyV9nj7mGCsuJNSvdP3VWW2GEtyMaIt2BA49lP8gbi0XW8WL+BMsAfYRMl2v16PuPsgM/xoFXhCj8tt/GrUh7tnQ2fDD6iDEGTwusKK3/RBTfCHFqE=
+
+%URL%
+https://geopandas.org
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1777643765
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%DEPENDS%
+gdal
+python-fiona
+python-numpy
+python-packaging
+python-pandas
+python-pyogrio
+python-pyproj
+python-shapely
+
+%OPTDEPENDS%
+python-rtree: spatial access methods
+python-psycopg2: PostGIS access
+python-sqlalchemy: other geodatabase access
+python-geopy: geocoding
+python-matplotlib: plotting
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-fsspec
+python-rtree
+python-matplotlib
+python-scipy
+python-geopy
+python-sqlalchemy
+python-psycopg2
+libspatialite
+python-pyarrow
+postgis
+ghostscript
+
