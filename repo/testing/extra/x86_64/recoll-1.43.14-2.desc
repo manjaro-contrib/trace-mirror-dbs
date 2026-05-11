@@ -1,0 +1,83 @@
+%FILENAME%
+recoll-1.43.14-2-x86_64.pkg.tar.zst
+
+%NAME%
+recoll
+
+%BASE%
+recoll
+
+%VERSION%
+1.43.14-2
+
+%DESC%
+Full text search tool based on Xapian backend
+
+%CSIZE%
+2998999
+
+%ISIZE%
+11189268
+
+%MD5SUM%
+99d58c8cc1c523bf5956ee52084e7461
+
+%SHA256SUM%
+79a47f8254a9ba07719c2c27f5bde99f35130423dd7358e304fdc729cbf33f2b
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmnisGIACgkQek52CV2KUuRgeAf/fj5NMqOHsq9PdWdbdTXLLeFE07lVSNF68Kn1TLo1ILw67A6F7QkRgqoSVIvCe2zs6d/pGCgJF2EdMP53Dl13H87Vzm41d/O3kTj8McL7jy2UCxHuBXT1HToa7nQvq2RC12tyw6frHBCIx5dnSnSv2edkelCWc2xHWaHT3sKfeHhi/vDsuY6zClvb0AeadDo8ipZIh96yEMZmi0K/TFSdaPFuuC01A6xzwFTd9Ga3ngiOOISfnRYHnIEPmwAV/RQ7mq+yQMnPkWA3khcvIrvM6QrV/+AFwh7k50QW+fgmbSkOSq95QFB8TourvAWwnk3WU6tX2WLZlUPIYzKBJ0j8eQ==
+
+%URL%
+https://www.recoll.org
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1776463865
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+xapian-core>=1.0.15-1
+qt6-base
+openssl
+hicolor-icon-theme
+qt6-webengine
+chmlib
+aspell
+
+%OPTDEPENDS%
+libxslt: for XML based formats (fb2,etc)
+unzip: for the OpenOffice.org documents
+poppler: for pdf
+antiword: for msword
+catdoc: for ms excel and powerpoint
+unrtf: for RTF
+djvulibre: for djvu
+python-mutagen: Audio metadata
+perl-image-exiftool: EXIF data from image files
+python-lxml: indexing spreadsheets
+python-pychm: CHM filter
+kcoreaddons: KDE plugins
+kio: KDE plugins
+krunner: KDE plugins
+aspell-en: English stemming support
+
+%MAKEDEPENDS%
+python
+python-setuptools
+qt6-tools
+cmake
+extra-cmake-modules
+meson
+kcoreaddons
+kio
+krunner
+knotifications
+

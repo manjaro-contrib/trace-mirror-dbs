@@ -1,0 +1,69 @@
+%FILENAME%
+gunicorn-26.0.0-1-any.pkg.tar.zst
+
+%NAME%
+gunicorn
+
+%BASE%
+gunicorn
+
+%VERSION%
+26.0.0-1
+
+%DESC%
+WSGI HTTP Server for UNIX
+
+%CSIZE%
+430204
+
+%ISIZE%
+2767227
+
+%MD5SUM%
+ac3ec85ddf7158423b9b0ccc51dbf97b
+
+%SHA256SUM%
+061f19272e15bd1bf0b39c9109ce5c5017d09691b10c8fd6fe69254f63606aa1
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmn57JEACgkQeGxj8zDXy5IKRhAAkc/JXP9zkzSDUgX7ZXe8vSMr8mYv336jm1Z1AlVA+PWhrk1PmIDm4+0zVWrKsK4afNishrLq1O+jLClnIwfoopBlXYPaWmzeY6V1TIwmtpdADP3g24VWtFJ/z1n921MFSGrvrIBvvUepOnPfQC8Z14LwIOPUGVYAZ0/yMYgRsS3Os7/Q5sh5otSuRneOtPBZ5iIZMfaA86Nj5HXtctdYxs/S9wkmP+MhMo5TkkFNsE6D3mfm5cuiCtbZUIoxHTpQ958BcdNMVixM50oIMnuQAb0Hb8PU9ijgKDNJ7XA00tLwTjPSR77b0M2COIW3ubYUuE+eZkKTa/V86kV/tTyo0Zm6yCaFUluAsIre/8U4x2/RH6+8P2NCLFBNq3sH6loIBkWzKrauDsM9K1/21nR8FdlM10VWtCUWauE72opTYhjsyvS3CUzEq/NjBnS6MQB5tn6tyKPbKxy3tjWIxWn0kGL9u+2TATElKLPshtydLEypJhumNwQn1Cs1xNauX5U4CdXS2ruFNWWxZM8xX7q+RDZVLU2pjbwwFUNapqlGB1qIJn66A6rrTXnFZ0seZa6OL7zZRUGPIKCAnl+aTP+xZMeI5wvk/hj7+X9SyuxerKveLj/eeRKtQjicj7La58x5OUS85dfjH+FTNrdeMG0/v48WChtkLUivASOnsBLUGDQ=
+
+%URL%
+https://gunicorn.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1777986648
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python-packaging
+
+%OPTDEPENDS%
+python-gevent: for asynchronous request handling with gevent
+python-h2: for HTTP/2 support
+python-setproctitle: for process renaming
+python-tornado: for asynchronous request handling with tornado
+python-uvloop: for ASGI event loop performance
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-gevent
+python-h2
+python-httpx
+python-pytest
+python-pytest-asyncio
+
