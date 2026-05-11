@@ -1,0 +1,16 @@
+%DEPENDS%
+bash
+coreutils
+gawk
+gcc
+kmod
+make
+patch
+sed
+
+%OPTDEPENDS%
+linux-headers: build modules against the Arch kernel
+linux-lts-headers: build modules against the LTS kernel
+linux-zen-headers: build modules against the ZEN kernel
+linux-hardened-headers: build modules against the HARDENED kernel
+
