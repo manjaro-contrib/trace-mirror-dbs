@@ -1,0 +1,64 @@
+%FILENAME%
+nomad-2.0.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+nomad
+
+%BASE%
+nomad
+
+%VERSION%
+2.0.1-1
+
+%DESC%
+A simple and flexible workload orchestrator
+
+%CSIZE%
+25349381
+
+%ISIZE%
+107471021
+
+%MD5SUM%
+1e7d9519cb0e3c8eb6d782d9468074a9
+
+%SHA256SUM%
+e5d3796fc0c3c5928b238ee30e7e83ee650e5aa9fc9451f1f0c9df40a2cebeed
+
+%PGPSIG%
+iQIzBAABCgAdFiEEph5oDnze5xbx8Yihae9tnkmmTrgFAmoDVQsACgkQae9tnkmmTrjqnQ//b37JOYVFYpvDGSOiEyYTaYktEY6DFWJhTvFtGURFtcVLxlLoyUTMleyo7Garm1BzVWATFESWSLGkIjBbsraOmRL9TViS4jq2jXmO0yeEHqXBNV4PecTIg2NFP5xgzdGCPp/W8UW+NR6ey3n0j6PeXIHTc7Wv38+Zg3QsyL/m14vDJi1/m8x1/cNm2pYPcdE3L+avHaQT9kaaKuM4EAtEjMzs36QHqZcsY/rw24uBVZb6kvpM2TuJrYnhm/sWZJfHNFmjq1ajSU8bdDde3V0Sa/X43FSd5+NYFsGgXLfLOb817FhZ6ClC4idtaJguLYOHNZu9xbk4k5ut7IxyA2Ifg/3B74f1c3PPWAYGJkIFZtkhdmqjmDEHLorf4m6dmDPNKyQbH9I2Cq9DG/jBSaMFCurqtAvRUaiqN7oyqtXTUYOIBtarddV9sUQcsHg5z6TlDQkuW8IFwCZqWdKvtFgJnJSE4e33T6YKxmaLheWOYm0fKxF+jjKMuH+NiYxqI1h5c18zh8HMF1ZJWH/6MOLPVHfOMhY233nfe/0Ctutvpm37PJ9vRu8AP48idm8Vy4DOUurvmnCU/MktNpazrpVDXYmuDqhD4IKuVHCFM3LjCPUpB0Yb8+TLSy89SzKValrXZXPv5H3K0Yr3r3FtxQP4qde1Eh8bq4FIrX7ps877fV0=
+
+%URL%
+https://www.nomadproject.io
+
+%LICENSE%
+BUSL-1.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1778602990
+
+%PACKAGER%
+Justin Kromlinger <hashworks@archlinux.org>
+
+%DEPENDS%
+glibc
+libgcc
+iptables
+
+%OPTDEPENDS%
+docker: for docker driver
+java-runtime: for java driver
+java-runtime-headless: for java driver - headless
+qemu: for qemu driver
+nomad-driver-nspawn: for systemd-nspawn driver
+nomad-driver-podman: for podman driver
+nomad-driver-lxc: for lxc driver
+nomad-driver-containerd: for containerd driver
+
+%MAKEDEPENDS%
+git
+go
+
