@@ -1,0 +1,77 @@
+%FILENAME%
+dns-lexicon-3.25.2-2-any.pkg.tar.zst
+
+%NAME%
+dns-lexicon
+
+%BASE%
+dns-lexicon
+
+%VERSION%
+3.25.2-2
+
+%DESC%
+Manipulate DNS records on various DNS providers in a standardized/agnostic way
+
+%CSIZE%
+415870
+
+%ISIZE%
+3186036
+
+%SHA256SUM%
+ff0b0e518e98f46c9ffc9ef6ed86af748b20c06c73802a79ab38671b1201f3fa
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCagOligAKCRDglZ/qi1UFOc6mAP9JukwuvgHnQmxjD2MACOfyajewtc3aO/sgqP/BZhHpBgD8DhG4pv5FuhTSy4A4qpx4GZy4YbspixcqbgKe+rTIiwY=
+
+%URL%
+https://github.com/dns-lexicon/dns-lexicon
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1778623770
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%CONFLICTS%
+python-lexicon
+
+%DEPENDS%
+python-beautifulsoup4
+python-cryptography
+python-yaml
+python-requests
+python-requests-unixsocket
+python-tldextract
+python-importlib-metadata
+python-pyotp
+python-dnspython
+
+%OPTDEPENDS%
+python-boto3: for Route53 support
+python-localzone: for localzone support
+python-softlayer: for SoftLayer support
+python-zeep: for Gransy support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-hatchling
+
+%CHECKDEPENDS%
+python-pytest
+python-vcrpy
+python-boto3
+python-localzone
+python-softlayer
+python-zeep
+bind
+

@@ -1,0 +1,62 @@
+%FILENAME%
+pdal-2.10.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+pdal
+
+%BASE%
+pdal
+
+%VERSION%
+2.10.1-1
+
+%DESC%
+A C++ library for translating and manipulating point cloud data
+
+%CSIZE%
+2557090
+
+%ISIZE%
+9058260
+
+%SHA256SUM%
+38eb6494d50ec93268b7fb57072b0d9ce6756cb5a7411bab934a442b20753ec1
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmoDidUACgkQek52CV2KUuTv8Af9HWkfLKT3rZs6pfu1KOK74xO3Xdp4McW2rV2PBHASr5KpkHSpUTiCTZh/U9wDNtYe+bAyMMXwjzxTc/mLIEkq+gESfyid5GgewIV1ZEZaszWXL97LHK9OqTGImUzlq+Sj6ZaQQrn8H3Y0KBSdaBNYUAAo6pS8tAHYfV7OrSV9xe5ftPzZk/WphG+eo+FcxsvoIaDWnDgcIu8vzZ/nx7+fZlhtuwMhnikyzNTyevCrfdW9VX1xOMrBZxoxoPXTtVvh7YsUU8u1xJSDUSKbG60GpvJ751c1uH/H8COLgUvtLlNBtyeGyqKTcqk3OpJ57PGgiGR2z1B50e7UodiCrzhw7g==
+
+%URL%
+http://www.pdal.io
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1778615884
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+pdal
+
+%DEPENDS%
+gdal
+libgeotiff
+jsoncpp
+
+%OPTDEPENDS%
+python-numpy: for the Python plugin
+sqlite: for the sqlite plugin
+postgresql-libs: for the postgresql plugin
+
+%MAKEDEPENDS%
+cmake
+python
+python-numpy
+ninja
+postgresql-libs
+
