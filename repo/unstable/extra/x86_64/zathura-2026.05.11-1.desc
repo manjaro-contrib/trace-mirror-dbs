@@ -1,0 +1,75 @@
+%FILENAME%
+zathura-2026.05.11-1-x86_64.pkg.tar.zst
+
+%NAME%
+zathura
+
+%BASE%
+zathura
+
+%VERSION%
+2026.05.11-1
+
+%DESC%
+Minimalistic document viewer
+
+%CSIZE%
+404675
+
+%ISIZE%
+1722601
+
+%MD5SUM%
+46516579e3b766dcffe449876a3296a0
+
+%SHA256SUM%
+fe66efd3c3ce8a80955e6b340207273f65acefd092dd8f5e3aaafb30104ef1b2
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmoCJ6YACgkQ/cMEC5Ksp0iMSRAAsCnSJy2cmUGQ/fOOm4bmkRhxTZflHYWjPQ7NmEX8UjDH7HbbuN6eWhAUzFF0blQYOe69bvk4stwse6/R7CcVyMJQwgdWm2pONtVjh8M4Jb9UxMU9mJpeHXRbQb3Cdx7RLXhgXPqhbWBVkif/O3Fpo29tspEDHGQ7hl4gQ//N6bUWmk+LFowxG1Q+V3kY3p/9DHcZcYOOrwdXigaGjA9FN1dvjIUsACzyrejnl3NiSwLnFZZJ7t+HExEUTXFils4OtYcwRpxUCn0GP05TzCXtmths2PZrpcKO+3R7Ltz4V9lrdvKYxyCP+1TBIUz/n6dHcbykvgWJTqY9efzhn5uu6RLFBJfCoU1pVyRkrUeXuymvpqozttfrdlfy0dqKokgRBsbN3C/zoIcrCfNMdbTkn0DS7Y0GtI8TGgYhb3Ex2ftS+7O2KCoCDi2+rV2KVoUazUKysoJyqm+xER1hm7T7/Ws/k5OtvcVWWkB99W54ZdPHQjx3KHXD9W/NuusyqdL2Xmti4q4ouNQinLEyo8eHX/e+JIWq2UeKXAHqEanlHN9aqCaiy6XvkiF3dQRMnuaI3qx8MB9mM3rn6F0qHUR5DjoyPccfqjwVgXIXSHgQnoFwtiB/H/GxDnI01pqCnGfdGK+hv7VgrG7ie3odjMVY2roqIsi5TbE8AYJG8+efMTw=
+
+%URL%
+https://pwmt.org/projects/zathura/
+
+%LICENSE%
+Zlib
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1778526073
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+girara
+sqlite
+desktop-file-utils
+file
+libsynctex
+libseccomp
+gtk3
+glib2
+json-glib
+
+%OPTDEPENDS%
+zathura-djvu: DjVu support
+zathura-pdf-poppler: PDF support using Poppler
+zathura-pdf-mupdf: PDF support using MuPDF
+zathura-ps: PostScript support
+zathura-cb: Comic book support
+
+%MAKEDEPENDS%
+appstream
+python-sphinx
+texlive-bin
+meson
+ninja
+
+%CHECKDEPENDS%
+xorg-server-xvfb
+weston
+libdisplay-info
+
