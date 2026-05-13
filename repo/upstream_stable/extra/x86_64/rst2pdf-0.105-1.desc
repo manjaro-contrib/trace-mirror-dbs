@@ -1,0 +1,78 @@
+%FILENAME%
+rst2pdf-0.105-1-any.pkg.tar.zst
+
+%NAME%
+rst2pdf
+
+%BASE%
+rst2pdf
+
+%VERSION%
+0.105-1
+
+%DESC%
+Use a text editor. Make a PDF
+
+%CSIZE%
+320680
+
+%ISIZE%
+1733450
+
+%SHA256SUM%
+58b0869e92a1dcc87253355b8a5b00b0d23706dff39c246e273edede1bcefd74
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCaf8cRQAKCRCbeih9mi7GCHjUAQCslUgteoVAtxeLdHidJ+nve+2Oteqy8cJ0F8vlVGmxFAD/arhs/15w0LY/DaLIq6VJG+wIen0k9IU2dCRarGpiigI=
+
+%URL%
+https://github.com/rst2pdf/rst2pdf
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1778326394
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-docutils
+python-jinja
+python-packaging
+python-pillow
+python-pygments
+python-reportlab
+python-yaml
+
+%OPTDEPENDS%
+plantuml: for UML diagram support
+python-aafigure: for ASCII image support
+python-pyphen: for hyphenation support
+python-matplotlib: for math support
+python-sphinx: for sphinx support
+python-svglib: for SVG support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+graphviz
+plantuml
+python-aafigure
+python-matplotlib
+python-pymupdf
+python-pytest
+python-pytest-xdist
+python-sphinx
+python-svglib
+
