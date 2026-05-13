@@ -1,0 +1,69 @@
+%FILENAME%
+intel-compute-runtime-26.18.38308.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+intel-compute-runtime
+
+%BASE%
+intel-compute-runtime
+
+%VERSION%
+26.18.38308.1-1
+
+%DESC%
+Intel(R) Graphics Compute Runtime for oneAPI Level Zero and OpenCL(TM) Driver
+
+%CSIZE%
+6734354
+
+%ISIZE%
+120003496
+
+%SHA256SUM%
+346fef6f8501bddaaf92c5fbaa072e4d6353174d53d3ddc79bd6d8905c7a4e89
+
+%PGPSIG%
+iHUEABYKAB0WIQSAJH2Z6r06TR46GDboW4aD60i8lQUCagPWFAAKCRDoW4aD60i8lcMBAQDt/DfZ5nret2seyVlngZpAKF2aE4z+Bv4iYgF797ev0QEA8bVJWTBbR1LvJYpWZyyaVeATb96qw95BoLdc75bbpAo=
+
+%URL%
+https://github.com/intel/compute-runtime/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1778635630
+
+%PACKAGER%
+Daniel Bermond <dbermond@archlinux.org>
+
+%PROVIDES%
+level-zero-driver
+opencl-driver
+
+%DEPENDS%
+glibc
+intel-gmmlib
+intel-graphics-compiler
+libgcc
+libstdc++
+
+%OPTDEPENDS%
+libdrm: for cl_intel_va_api_media_sharing OpenCL extension
+libigsc.so=0: for discrete GPU firmware enumeration through Level Zero
+libnl-genl-3.so=200: for using Fabric related APIs in Level Zero
+libudev.so: for using Sysman events API in Level Zero
+libva: for cl_intel_va_api_media_sharing OpenCL extension
+
+%MAKEDEPENDS%
+cmake
+igsc<1.0.0
+level-zero-headers
+libnl>=3.0.0
+libnl<4.0.0
+libva
+systemd-libs
+
