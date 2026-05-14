@@ -1,0 +1,77 @@
+%FILENAME%
+open-vm-tools-6:13.1.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+open-vm-tools
+
+%BASE%
+open-vm-tools
+
+%VERSION%
+6:13.1.0-1
+
+%DESC%
+The Open Virtual Machine Tools (open-vm-tools) are the open source implementation of VMware Tools
+
+%CSIZE%
+1049784
+
+%ISIZE%
+4985115
+
+%SHA256SUM%
+9db1fa59745b238dd1bda26d74466e78cd9e29769db94cf42fa84a92b49ef4aa
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCagV7tQAKCRBtQr3RFuAGjzH9AQCV0la+90MDoilEMCJdpsnM33AqHA5/qWKGyZTkp/OVlwD/V09UX9w4epQSEmkdNi51EYtBl0mme86x+bRREdrUMAs=
+
+%URL%
+https://github.com/vmware/open-vm-tools
+
+%LICENSE%
+LGPL-2.1-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1778744081
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+fuse3
+icu
+iproute2
+libdnet
+libmspack
+libsigc++
+libxcrypt
+libcrypt.so
+libxss
+lsb-release
+procps-ng
+uriparser
+which
+xmlsec
+
+%OPTDEPENDS%
+gtkmm3: DnD/CP plugin
+libxtst: DnD/CP, resolution set plugins
+netctl: suspend-resume network state
+networkmanager: suspend-resume network state
+
+%MAKEDEPENDS%
+git
+chrpath
+doxygen
+gtkmm3
+libxtst
+python
+rpcsvc-proto
+glib2-devel
+
+%CHECKDEPENDS%
+cunit
+
