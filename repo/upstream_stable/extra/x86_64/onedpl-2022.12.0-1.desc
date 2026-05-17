@@ -1,0 +1,60 @@
+%FILENAME%
+onedpl-2022.12.0-1-any.pkg.tar.zst
+
+%NAME%
+onedpl
+
+%BASE%
+onedpl
+
+%VERSION%
+2022.12.0-1
+
+%DESC%
+oneAPI DPC++ Library
+
+%CSIZE%
+342736
+
+%ISIZE%
+3246653
+
+%SHA256SUM%
+526dab6130583aaba903297961e15f522dd9cd58f50fa0763ce1411277631cdf
+
+%PGPSIG%
+iHUEABYKAB0WIQQEzwzW9u6TrhiW9YQH0GNRylsxvgUCagl/jgAKCRAH0GNRylsxvsSDAQCWR4r4uvndO9n6j6zw5aqVqHevfEA4z2Kf8bk0k30FIAD/RcztgExjg4Ww7EAo/gra3waeGDvV9LLDoKlIHe4d2AE=
+
+%URL%
+https://www.intel.com/content/www/us/en/developer/tools/oneapi/dpc-library.html
+
+%LICENSE%
+Apache-2.0 WITH LLVM-exceptions
+
+%ARCH%
+any
+
+%BUILDDATE%
+1779007241
+
+%PACKAGER%
+Torsten Keßler <tpkessler@archlinux.org>
+
+%DEPENDS%
+level-zero-loader
+intel-oneapi-common
+intel-oneapi-tbb
+intel-oneapi-compiler-dpcpp-cpp-runtime-libs
+intel-oneapi-compiler-shared-runtime-libs
+
+%OPTDEPENDS%
+intel-oneapi-dpcpp-cpp: Develop applications on Intel GPUs
+intel-oneapi-openmp: Framework for thread or data parallel applications
+
+%MAKEDEPENDS%
+git
+cmake
+ninja
+intel-oneapi-dpcpp-cpp
+intel-oneapi-openmp
+
