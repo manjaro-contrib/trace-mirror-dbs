@@ -1,0 +1,88 @@
+%FILENAME%
+obs-studio-32.1.2-3-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio
+
+%BASE%
+obs-studio
+
+%VERSION%
+32.1.2-3
+
+%DESC%
+Free, open source software for live streaming and recording
+
+%CSIZE%
+6972135
+
+%ISIZE%
+25758231
+
+%SHA256SUM%
+4fe5a09ab36650fa1916e7a74a5799a05c8512844150993afbff7db62d437505
+
+%PGPSIG%
+iQIzBAABCgAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmoJ2DIACgkQOeS4d+YuuRXeFQ//f3ZFCuxfpeLaX7BrAAOAWBj2LosqOG1MAcRge5aFTY/TeP25gWJepw1R0E8AEkX+S+PNfNjpJHGHWjyiNIvaSNQ78k8yZnWBKOnGF1Zlcs3NBz/naKeqCutw3ScAF2Z3UaEeqkDEJGn5sKA15mYsgTO3xb9g43t4TA4cv+V4u5HLnFSOdSMCp5I2dt72XYfh8OpMzHz8azAf0QWY5Cj8YJBCFgYAqlp5s/ygv+ZhKrA0ljdDRNSTmq4Fo/JgfMBBEZE/uOMcd8dn6aJVkYHbEbG8tIfMRbVoh00T/1DJP0TKXj+V+EpGDfc0MD5qynFM8G5Ip7fs0iLOoX01beEc8U3/1sz/d0K7wrJ3JLbfMV7WUvFK/gCbOxcr+Joa+YFuM4p0LLuQmWtmFi8KZM8eN6yueIYla90rK98T5JZKjdJRNU9rFA9b6IIuy8sJ2ibGKX3jGC1ajuudm9/IP9eJFJerXxwXjs2+Zj5HTbSXOmlVi7Z3BpyAOyknSiuMaDDR9HrexzTRj9k52pYOyUXhdm+pYo1gY6gDvqGj7i3A61dPTHd+1pXiA6Nz7YoNhyJ4jAjomDKYGwQXugEnb1coxwz9P8KVQWN7CLQ0nR5ms4qsShCooZA6Y8hJFBzq4PxbmVC/n4ZSeB9F5Vv/lugGzwqPkC8bIOyqN18La5AsW8Y=
+
+%URL%
+https://obsproject.com
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1779029926
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%DEPENDS%
+ffmpeg
+jansson
+libxinerama
+libxkbcommon-x11
+mbedtls
+rnnoise
+pciutils
+qt6-svg
+curl
+jack
+gtk-update-icon-cache
+pipewire
+libxcomposite
+libdatachannel
+uthash
+simde
+qrcodegencpp-cmake
+python
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+libva-intel-driver: hardware encoding for older Intel GPUs
+intel-media-driver: hardware encoding for recent Intel GPUs
+libva-mesa-driver: hardware encoding
+luajit: scripting support
+sndio: Sndio input client
+v4l2loopback-dkms: virtual camera support
+xdg-desktop-portal-impl: Wayland window/screen capture
+obs-studio-plugin-browser: CEF-based browser plugin
+
+%MAKEDEPENDS%
+cef
+cmake
+libfdk-aac
+x264
+swig
+luajit
+sndio
+nlohmann-json
+ffnvcodec-headers
+websocketpp
+asio
+extra-cmake-modules
+git
+
