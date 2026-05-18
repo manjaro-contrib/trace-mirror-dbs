@@ -1,0 +1,111 @@
+%FILENAME%
+linux-lts-6.18.32-1-x86_64.pkg.tar.zst
+
+%NAME%
+linux-lts
+
+%BASE%
+linux-lts
+
+%VERSION%
+6.18.32-1
+
+%DESC%
+The LTS Linux kernel and modules
+
+%CSIZE%
+151032362
+
+%ISIZE%
+151362762
+
+%SHA256SUM%
+531abba2bfe8a73a4f8bfe7bb3f26d14b3b1888a7a53213538eb7e1004d9b534
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmoKDsYACgkQlGV6sg8qCStgFQf+IxiYAvXqXfXwavQbxOZEBDTEnh3XmTrKPTHyBh6fetqYMnF+hJrsyHF4mX6db91BE//CoMFEfIAJhKCePIJgo1bPEMT3TBeGpZnsC21ZKhzjk5L009C/hIxa9iJBecP6cdncTAfsSEB88wKgyHd1D34SSycpZSi3qMgK2SFb3VkiVR4wVXQYRizVewBrSGh0nlNcneW4macCABn2x9cx/uYcUm4bKj/TfGVddGpcJWsd+eYqRnbCaiAmwQfB78Knhq0dQxC8i3UqpHQNbsfNZ80Dp1rGU4tqGXy95pNWSU2qDXbtnJM7XzBf/XcvbqAjixPv6g52dmbbyZ+Ty0RINA==
+
+%URL%
+https://www.kernel.org
+
+%LICENSE%
+Apache-2.0 OR MIT
+BSD-2-Clause OR GPL-2.0-or-later
+BSD-3-Clause
+BSD-3-Clause OR GPL-2.0-only
+BSD-3-Clause OR GPL-2.0-or-later
+BSD-3-Clause-Clear
+GPL-1.0-or-later
+GPL-1.0-or-later OR BSD-3-Clause
+GPL-2.0-only
+GPL-2.0-only OR Apache-2.0
+GPL-2.0-only OR BSD-2-Clause
+GPL-2.0-only OR BSD-3-Clause
+GPL-2.0-only OR CDDL-1.0
+GPL-2.0-only OR Linux-OpenIB
+GPL-2.0-only OR MIT
+GPL-2.0-only OR MPL-1.1
+GPL-2.0-only OR X11
+GPL-2.0-only WITH Linux-syscall-note
+GPL-2.0-or-later
+GPL-2.0-or-later OR BSD-2-Clause
+GPL-2.0-or-later OR BSD-3-Clause
+GPL-2.0-or-later OR MIT
+GPL-2.0-or-later OR X11
+GPL-2.0-or-later WITH GCC-exception-2.0
+ISC
+LGPL-2.0-or-later
+LGPL-2.1-only
+LGPL-2.1-only OR BSD-2-Clause
+LGPL-2.1-or-later
+MIT
+MPL-1.1
+X11
+Zlib
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1779042989
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%REPLACES%
+wireguard-lts
+
+%PROVIDES%
+KSMBD-MODULE
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+initramfs
+kmod
+
+%OPTDEPENDS%
+wireless-regdb: to set the correct wireless channels of your country
+linux-firmware: firmware images needed for some devices
+scx-scheds: to use sched-ext schedulers
+
+%MAKEDEPENDS%
+bc
+cpio
+gettext
+libelf
+pahole
+perl
+python
+rust
+rust-bindgen
+rust-src
+tar
+xz
+graphviz
+imagemagick
+python-sphinx
+python-yaml
+texlive-latexextra
+
