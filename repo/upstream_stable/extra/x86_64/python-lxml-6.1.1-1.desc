@@ -1,0 +1,77 @@
+%FILENAME%
+python-lxml-6.1.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-lxml
+
+%BASE%
+python-lxml
+
+%VERSION%
+6.1.1-1
+
+%DESC%
+Python binding for the libxml2 and libxslt libraries
+
+%CSIZE%
+1657492
+
+%ISIZE%
+6201837
+
+%SHA256SUM%
+ae860b0610219f9bb432e60f1994cdae54c5106b488f14876e7a2e11b331f05d
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmoLUE4ACgkQeGxj8zDXy5LEZg//W8sc1oqygcFb/5Edm0Fr+CCsAwiqRrRazHsapFcytz9vtrQo6vuWyxq5Sm55G2UzyiDlavB3cl/LQKvcGm0qIkQOYtNhCPge5L5JHTmlvNbNJ7F8Hx3/T1XwutWwLCl57ol+9Fd1jeQ0SgUy/32zD+a7iJLpaM8v8oA8I1CXYdiMl7yDJiVRpgiHIMDco45q+4/JmfnfIXVm1RT8fsIUPCLTj+2LEOmLeAgPv+U5GUWGymVE4NsIGIrsbgUYNmocEJl1Vtk5TQpPOLOlGi60rCTmSmppujd4muEeX0j8KDfTUJTAoV1+aYYu8rfDsVWXXb4kjx0HDtq9uxT+hsNBJivnHYfT4Y0AcBUAK9nZmvrdZ0mOCXxj9PnPj2JSK77WkxfcMSWIJoD40S2KCa05vJyTuu0Ke74l73WI1G0V+4QYJujzmcF+gZxuk4aIQfzVarrZGcIrIjvaXHDsI9t03/plXDwSC/rIgONd722PsJPZ8NsVmM2ZSFD1m+yT7KvEkS0U6b++Tp7atVTOJWDgI8HtSk5MejfUTmhaA8W6lKxcNo/KWYzkKvT/0cXDqCZQXk5wo/P62neqqQdaEOdeB6pLQQrND5rRWMGsyCl7jaagk4YRbqjqLDC6vAiF+fJLdbtHDb9ZPnO3yorQOo4f/v7A61sSnYSU3/WhZZ0Z9lM=
+
+%URL%
+https://lxml.de/
+
+%LICENSE%
+BSD-3-Clause
+MIT
+MIT-CMU
+GPL-2.0-only
+LicenseRef-RNG2Schtrn
+LicenseRef-XSD2Schtrn
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1779124970
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+libxslt
+libxml2
+
+%OPTDEPENDS%
+python-beautifulsoup4: support for beautifulsoup parser to parse not well formed HTML
+python-cssselect: support for cssselect
+python-html5lib: support for html5lib parser
+python-lxml-docs: offline docs
+python-lxml-html-clean: enable htmlclean feature
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+python-pygments
+python-sphinx
+python-sphinx_rtd_theme
+cython
+
+%CHECKDEPENDS%
+python-cssselect
+python-html5lib
+python-beautifulsoup4
+python-lxml-html-clean
+

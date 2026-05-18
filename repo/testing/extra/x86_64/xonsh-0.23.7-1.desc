@@ -1,0 +1,69 @@
+%FILENAME%
+xonsh-0.23.7-1-any.pkg.tar.zst
+
+%NAME%
+xonsh
+
+%BASE%
+xonsh
+
+%VERSION%
+0.23.7-1
+
+%DESC%
+A python-powered shell. Full-featured and cross-platform.
+
+%CSIZE%
+2079359
+
+%ISIZE%
+21370580
+
+%MD5SUM%
+353b4fea0d6046d1568db7403a33e992
+
+%SHA256SUM%
+e696a06598e711d1c2fbe64b4f78a92936b35c6bbc6524886ca0fedd94b84044
+
+%PGPSIG%
+iHUEABYKAB0WIQSAJH2Z6r06TR46GDboW4aD60i8lQUCagpPzAAKCRDoW4aD60i8lWtfAP4wnckgQ+161NZIwRlPespjmKT2Oh5PTK8OAWYU+bJmlQD/dnKnQitcquBIARdTbZU875REWVSSWL61TRZ08UEKHgo=
+
+%URL%
+https://xon.sh/
+
+%LICENSE%
+BSD-2-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1779060620
+
+%PACKAGER%
+Daniel Bermond <dbermond@archlinux.org>
+
+%DEPENDS%
+python
+python-click
+python-distro
+python-packaging
+python-ply
+python-ujson
+
+%OPTDEPENDS%
+python-prompt_toolkit: for SHELL_TYPE=prompt_toolkit
+python-pygments: for syntax highlighting and colorization
+python-setproctitle: for updating process title to match Xonsh arguments
+python-wcwidth: for unicode symbols and emoji completer
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+python-prompt_toolkit
+python-pygments
+python-setproctitle
+python-wcwidth
+
