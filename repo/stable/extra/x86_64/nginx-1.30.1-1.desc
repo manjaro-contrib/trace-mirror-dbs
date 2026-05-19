@@ -1,0 +1,87 @@
+%FILENAME%
+nginx-1.30.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+nginx
+
+%BASE%
+nginx
+
+%VERSION%
+1.30.1-1
+
+%DESC%
+Lightweight HTTP server and IMAP/POP3 proxy server
+
+%CSIZE%
+670925
+
+%ISIZE%
+1756518
+
+%MD5SUM%
+d87d0bb183c397125815ef7af444707d
+
+%SHA256SUM%
+fb24898fdb8e5edaff59ec685cff97d4a97ee6cdbc999cfaaa63e4efbd6efe09
+
+%PGPSIG%
+iHUEABYKAB0WIQQMrarPcPZMZU4TGzERZ1x0NCnd7wUCagTdoQAKCRARZ1x0NCnd70MvAP9yDOgvgKVy/J7yPKE0I+YL21bzAH0sD2JzCJJMz8wTwgD9Gzydhk4U3pHNgJoCgY/o6n1Dhqq53j7yioOw1pBnrAM=
+
+%URL%
+https://nginx.org
+
+%LICENSE%
+BSD-2-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1778702566
+
+%PACKAGER%
+Massimiliano Torromeo <mtorromeo@archlinux.org>
+
+%DEPENDS%
+glibc
+pcre2
+zlib
+openssl
+mailcap
+libxcrypt
+
+%OPTDEPENDS%
+nginx-mod-geoip: GeoIP support
+nginx-mod-image-filter: transform images
+nginx-mod-mail: proxy IMAP, POP and SMTP protocols
+nginx-mod-perl: perl variables and location handlers
+nginx-mod-stream: proxy TCP/UDP data streams
+nginx-mod-xslt: transform XML responses
+
+%MAKEDEPENDS%
+findutils
+gd
+geoip
+git
+glibc
+libxcrypt
+libxml2
+libxslt
+mailcap
+openssl
+pcre2
+rsync
+zlib
+
+%CHECKDEPENDS%
+coreutils
+ffmpeg
+memcached
+perl
+perl-cache-memcached
+perl-cryptx
+perl-fcgi
+perl-gd
+perl-io-socket-ssl
+
