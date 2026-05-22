@@ -1,0 +1,22 @@
+%DEPENDS%
+glibc
+pcre2
+zlib
+openssl
+mailcap
+libxcrypt
+
+%CONFLICTS%
+nginx
+
+%PROVIDES%
+nginx
+
+%OPTDEPENDS%
+nginx-mainline-mod-geoip: GeoIP support
+nginx-mainline-mod-image-filter: transform images
+nginx-mainline-mod-mail: proxy IMAP, POP and SMTP protocols
+nginx-mainline-mod-perl: perl variables and location handlers
+nginx-mainline-mod-stream: proxy TCP/UDP data streams
+nginx-mainline-mod-xslt: transform XML responses
+
