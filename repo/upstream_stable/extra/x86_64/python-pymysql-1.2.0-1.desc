@@ -1,0 +1,56 @@
+%FILENAME%
+python-pymysql-1.2.0-1-any.pkg.tar.zst
+
+%NAME%
+python-pymysql
+
+%BASE%
+python-pymysql
+
+%VERSION%
+1.2.0-1
+
+%DESC%
+Pure Python MySQL Client
+
+%CSIZE%
+106785
+
+%ISIZE%
+537769
+
+%SHA256SUM%
+e433c4b4a48424c3512154a1258482664d1530e2c9a2e3684fbd13b1eb10f2e1
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCag5DkwAKCRCbeih9mi7GCNbrAQDw47mU12S5xZIVRYAszbHU/pDxIoICB/eYaCUjYM98ZgD+NPCiPvnCV11ONCeQTKAa2gPW2e5vb/iW7yAOrx8fIg4=
+
+%URL%
+https://github.com/PyMySQL/PyMySQL/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1779319663
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+mariadb: for using a local MariaDB instance
+python-cryptography: for RSA cryptography
+python-pynacl: for ed25519 cryptography
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
