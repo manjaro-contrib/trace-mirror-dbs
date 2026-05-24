@@ -1,0 +1,116 @@
+%FILENAME%
+linux-rt-lts-6.12.91.rt18.arch1-1-x86_64.pkg.tar.zst
+
+%NAME%
+linux-rt-lts
+
+%BASE%
+linux-rt-lts
+
+%VERSION%
+6.12.91.rt18.arch1-1
+
+%DESC%
+The Linux RT LTS kernel and modules
+
+%CSIZE%
+145767109
+
+%ISIZE%
+145985778
+
+%SHA256SUM%
+65d2cd1debac0c9eba9fc927f14a74730681d44dda3c7b0c0a5aa472c79dc72d
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCahHmngAKCRCbeih9mi7GCNf2AQCSQk1MroBYwNiUvzIdCVVuSgEnd8IQ/vqncUuRDmuwQgEAriuei82kRa95VBPPc7XwGDJ3K3jVzFO/M4oiaG2/xwg=
+
+%URL%
+https://gitlab.archlinux.org/archlinux/packaging/upstream/linux-rt-lts
+
+%LICENSE%
+Apache-2.0 OR MIT
+BSD-2-Clause OR GPL-2.0-or-later
+BSD-3-Clause
+BSD-3-Clause OR GPL-2.0-only
+BSD-3-Clause OR GPL-2.0-or-later
+BSD-3-Clause-Clear
+GPL-1.0-or-later
+GPL-1.0-or-later OR BSD-3-Clause
+GPL-2.0-only
+GPL-2.0-only OR Apache-2.0
+GPL-2.0-only OR BSD-2-Clause
+GPL-2.0-only OR BSD-3-Clause
+GPL-2.0-only OR CDDL-1.0
+GPL-2.0-only OR Linux-OpenIB
+GPL-2.0-only OR MIT
+GPL-2.0-only OR MPL-1.1
+GPL-2.0-only OR X11
+GPL-2.0-only WITH Linux-syscall-note
+GPL-2.0-or-later
+GPL-2.0-or-later OR BSD-2-Clause
+GPL-2.0-or-later OR BSD-3-Clause
+GPL-2.0-or-later OR MIT
+GPL-2.0-or-later OR X11
+GPL-2.0-or-later WITH GCC-exception-2.0
+ISC
+LGPL-2.0-or-later
+LGPL-2.1-only
+LGPL-2.1-only OR BSD-2-Clause
+LGPL-2.1-or-later
+MIT
+MPL-1.1
+X11
+Zlib
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1779556702
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+KSMBD-MODULE
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+initramfs
+kmod
+
+%OPTDEPENDS%
+linux-rt-lts-headers: headers and scripts for building modules
+linux-firmware: firmware images needed for some devices
+scx-scheds: to use sched-ext schedulers
+wireless-regdb: to set the correct wireless channels of your country
+
+%MAKEDEPENDS%
+bc
+binutils
+cpio
+gettext
+glibc
+graphviz
+imagemagick
+libelf
+libgcc
+openssl
+pahole
+perl
+python
+python-sphinx
+python-yaml
+rust
+rust-bindgen
+rust-src
+tar
+texlive-latexextra
+xxhash
+xz
+zlib
+zstd
+
