@@ -1,0 +1,15 @@
+%DEPENDS%
+glibc
+sh
+readline
+libburn
+libisofs
+
+%PROVIDES%
+xorriso
+xorriso-tcltk
+
+%OPTDEPENDS%
+tk: for xorriso-tcltk frontend
+sudo: for use with xorriso-dd-target
+
