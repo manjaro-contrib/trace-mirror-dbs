@@ -1,0 +1,21 @@
+%DEPENDS%
+ca-certificates
+glibc
+libgcc
+libstdc++
+nss
+qt5-base
+
+%CONFLICTS%
+qca
+
+%PROVIDES%
+qca
+
+%OPTDEPENDS%
+botan: botan plugin
+libgcrypt: gcrypt plugin
+libsasl: SASL plugin
+openssl: SSL plugin
+pkcs11-helper: PKCS-11 plugin
+
