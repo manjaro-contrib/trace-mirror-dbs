@@ -1,0 +1,82 @@
+%FILENAME%
+slurm-llnl-26.05.0.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+slurm-llnl
+
+%BASE%
+slurm-llnl
+
+%VERSION%
+26.05.0.1-1
+
+%DESC%
+Simple Linux Utility for Resource Management
+
+%CSIZE%
+4415846
+
+%ISIZE%
+18249720
+
+%MD5SUM%
+7c49c9047ee2764bad195838f6c59911
+
+%SHA256SUM%
+565b9b93b62447777fbe26209b27556d6060b7cbb0956049cc387d3bf38cfa67
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCahdP/AAKCRAAHPSBC+jZEc47AQDej288qLQVC5l8onIfnNNRYwSU1aAvqgfMLxunS6mQ9AEA0l2MqYyv41ADbIvnmk1Cu37hbBPh1jYYDNWn4BlJlAY=
+
+%URL%
+https://www.schedmd.com
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1779912271
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+curl
+dbus
+glibc
+hwloc
+lz4
+munge
+numactl
+pam
+readline
+
+%OPTDEPENDS%
+mariadb-libs: support for accounting
+openpmix: support Open MPI applications using PMIx
+freeipmi: for the acct_gather_energy_xcc plugin
+hdf5: support for acct_gather_profile/hdf5 job profiling
+lua: the lua API will be available in various plugins
+rdma-core: support for the acct_gather_infiniband/ofed InfiniBand accounting plugin
+rrdtool: support for the ext_sensors/rrd plugin
+json-c: JSON serializer support
+libyaml: YAML serializer support
+
+%MAKEDEPENDS%
+freeipmi
+git
+hdf5
+json-c
+level-zero-headers
+level-zero-loader
+libyaml
+lua
+mariadb-libs
+openpmix
+python
+rdma-core
+rrdtool
+
