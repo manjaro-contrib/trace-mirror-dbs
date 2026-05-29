@@ -1,0 +1,19 @@
+%DEPENDS%
+dconf
+glib2
+glibc
+gnome-desktop-4
+gsettings-desktop-schemas
+libgcc
+systemd-libs
+xdg-desktop-portal-gnome
+
+%CONFLICTS%
+gnome-mimeapps
+
+%PROVIDES%
+gnome-mimeapps
+
+%OPTDEPENDS%
+gnome-keyring: Secrets service backend
+
