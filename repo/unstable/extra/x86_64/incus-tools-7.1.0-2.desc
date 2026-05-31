@@ -1,0 +1,89 @@
+%FILENAME%
+incus-tools-7.1.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+incus-tools
+
+%BASE%
+incus
+
+%VERSION%
+7.1.0-2
+
+%DESC%
+Powerful system container and virtual machine manager
+
+%CSIZE%
+11389275
+
+%ISIZE%
+68752310
+
+%MD5SUM%
+df0e1943d702df1575ff32e4f5d1f893
+
+%SHA256SUM%
+7884e5fe714b60c59332b7f69408e7c2d659bd35b5000b4ddc6faae8514d49e9
+
+%PGPSIG%
+iQJLBAABCAA1FiEEwQA0ZnZjToDJQPuenAL/QZ/svhYFAmocL+QXHGZveGJvcm9uQGFyY2hsaW51eC5vcmcACgkQnAL/QZ/svhZtFA/+NbaP5YeuCa2xEeW2q3ZoMk5b9w7qV3pNWpeLdfCdcWYdqjXdfY+S4GJYUsn+tByaEuPST9BFSA+XfJFkRp3+zIUsMURgbz+uHXegkSec9F5TePXU/dVBQlODk/2NDtOtu7z5upLtr3f3l50de6xyj8PGhtoWm0ZBrA6eoU3Uu9sqqjdcWGur1bxPzgVqwPIw+G6wYGipajX72pr3x9792rku7E5CNAKWIX6oHcchN2Qh1mlJSj4jUtyIIqGEGGWbcEI08lZ/98DFJThy2KRv+ixg+8pXBF2Pz5SMMScnmdADEYwUkjkb7AtsTiiLm24vlefey+IlDLg6W21nyEkW1TlSMHWMsTlHCfLhQheEhEt6UUFPtmrtsrOjmq8v6XEdyH0UUqJdrAlTg5XStMHnDCzCTQHux7kWdsfNhQRm0oK3QC0X03pigmxpQxRT3w2BhAH6lZq2/7wYNWF4imNYoXaQR7oT2KD3+D/lwEA1UHW3uvEtT9/qBFTt5GxWZaiyXSiUCK5INAgybV3p85c+74J3RBoQUxCb7/20UFFUNmICm0a5FbWfqc1fcaX3mT6yMiC9miblxQwpgsgPh+ZOm+kVO2ueWgPatlMy5J9ojL+0EirHnCJEcg+9sKjvWaeqAmyZHD7e4x/2XNRsNhyf2S86G8kV/vxfs59BfHla8F8=
+
+%URL%
+https://linuxcontainers.org/incus/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1780231581
+
+%PACKAGER%
+Morten Linderud <foxboron@archlinux.org>
+
+%CONFLICTS%
+lxd
+
+%DEPENDS%
+glibc
+libgcc
+lxc
+lxcfs
+squashfs-tools
+dnsmasq
+cowsql
+libuv
+ebtables
+raft
+sqlite
+libcap
+acl
+qemu-base
+qemu-chardev-spice
+qemu-hw-usb-redirect
+qemu-hw-display-virtio-vga
+qemu-hw-display-virtio-gpu
+qemu-audio-spice
+
+%OPTDEPENDS%
+lvm2: lvm2 support
+thin-provisioning-tools: thin provisioning support
+btrfs-progs: btrfs storage driver support
+minio: storage buckets support
+cdrtools: VM support
+systemd-libs: unix device hotplug support
+apparmor: apparmor support
+xdelta3: support delta downloads of images
+skopeo: OCI support
+umoci: OCI support
+
+%MAKEDEPENDS%
+go
+git
+tcl
+apparmor
+libseccomp
+systemd
+
