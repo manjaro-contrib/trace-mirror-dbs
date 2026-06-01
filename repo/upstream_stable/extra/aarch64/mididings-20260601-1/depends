@@ -1,0 +1,19 @@
+%DEPENDS%
+glibc
+libgcc_s.so=1-64
+libstdc++.so=6-64
+boost-libs
+jack
+alsa-lib
+python
+python-decorator
+
+%OPTDEPENDS%
+python-dbus: send DBUS messages
+python-watchdog: automatically restart when a script changes
+python-pyliblo3: send/recieve OSC messages
+python-pysmf: read/write standard MIDI files using the process_file() function
+python-pyxdg: so mididings knows where to look for config files
+tk: for livedings GUI
+mididings-docs: documentation
+
