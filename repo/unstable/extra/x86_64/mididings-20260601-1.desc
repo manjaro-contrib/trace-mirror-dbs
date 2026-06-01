@@ -1,0 +1,87 @@
+%FILENAME%
+mididings-20260601-1-x86_64.pkg.tar.zst
+
+%NAME%
+mididings
+
+%BASE%
+mididings
+
+%VERSION%
+20260601-1
+
+%DESC%
+A MIDI router & processor
+
+%CSIZE%
+294206
+
+%ISIZE%
+1318458
+
+%MD5SUM%
+bffadec29214ae277e1a8286b29e76c6
+
+%SHA256SUM%
+fade657535ae072d26cd416c59a9654aa69088c0e011ee178eade4f9450d6526
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCahzj9AAKCRDglZ/qi1UFORfpAP9pr13j8WhfYP8n+p/mTik3MokBC7vWUseHfijCuvp0YQD+MdKhVOvM1X64xeKko32lw/3599WKgzeVN7Q9edRZIQ8=
+
+%URL%
+https://github.com/mididings/mididings
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1780278119
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+glibc
+libgcc_s.so=1-64
+libstdc++.so=6-64
+boost-libs
+jack
+alsa-lib
+python
+python-decorator
+
+%OPTDEPENDS%
+python-dbus: send DBUS messages
+python-watchdog: automatically restart when a script changes
+python-pyliblo3: send/recieve OSC messages
+python-pysmf: read/write standard MIDI files using the process_file() function
+python-pyxdg: so mididings knows where to look for config files
+tk: for livedings GUI
+mididings-docs: documentation
+
+%MAKEDEPENDS%
+git
+boost
+boost-libs
+alsa-lib
+jack
+python
+python-decorator
+python-build
+python-installer
+python-wheel
+meson-python
+python-sphinx
+python-sphinx-furo
+python-sphinxcontrib-fulltoc
+python-pyinotify
+python-pyliblo3
+dbus-python
+scdoc
+
+%CHECKDEPENDS%
+python-pytest
+
