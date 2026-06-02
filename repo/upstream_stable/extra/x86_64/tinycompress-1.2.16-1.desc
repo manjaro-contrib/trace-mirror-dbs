@@ -1,0 +1,55 @@
+%FILENAME%
+tinycompress-1.2.16-1-x86_64.pkg.tar.zst
+
+%NAME%
+tinycompress
+
+%BASE%
+tinycompress
+
+%VERSION%
+1.2.16-1
+
+%DESC%
+ALSA compressed device interface
+
+%CSIZE%
+33013
+
+%ISIZE%
+117789
+
+%SHA256SUM%
+4c8fa227cc48bd92ad34d601bd3eac74b8ca2ee86adc4cac8a002dfb32eb3ec5
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCah8aLgAKCRC4rAhgDxCM3zfRAP4jtP2PG3thqDxXfLpxOJH3hApQ4qPkUc3tzgEHaG8MuQD9EedtUogtROXhtnPI1+S+fOb8MJAGUkqKr2IJEeLoQAQ=
+
+%URL%
+https://github.com/alsa-project/tinycompress
+
+%LICENSE%
+BSD-3-Clause OR LGPL-2.1-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1780423142
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%PROVIDES%
+libtinycompress.so=0-64
+
+%DEPENDS%
+glibc
+
+%OPTDEPENDS%
+ffmpeg: fcplay utility
+
+%MAKEDEPENDS%
+ffmpeg
+git
+
