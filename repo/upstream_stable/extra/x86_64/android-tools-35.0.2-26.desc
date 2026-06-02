@@ -1,0 +1,67 @@
+%FILENAME%
+android-tools-35.0.2-26-x86_64.pkg.tar.zst
+
+%NAME%
+android-tools
+
+%BASE%
+android-tools
+
+%VERSION%
+35.0.2-26
+
+%DESC%
+Android platform tools
+
+%CSIZE%
+2224394
+
+%ISIZE%
+6963696
+
+%SHA256SUM%
+70f19a63e01ca32e3ec444ad93211c56a5707733dbfa6e420d2f2c3990491faa
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmobYfsACgkQek52CV2KUuQWEAf7BlR9g0/cZcuybxKPzH+d86rVmLLAEkyEhGmqndQU35TkH95cp42JavJYW0XMAao7xUFH5Zf2icnsuaOQKww1cWZr3fDlMDmM9ud1nZisx3QgEA+8sQbErdz7RsgLavyP5MA43WQwZQZgbanRX1p/eJawVdTr2tPas6CF+UG3dCb+DdYvY6WTxfAFGNHScaRN2Wt6VElc2yh6Ofiqoj7uIP9cxKP74xtJ8ZwjZr28RFbxvQTENY8eS+6/+KCf/IzI92U/IRONhvn3bXD6u2ZH2G+sxal3dnEH90vIE26cW0K93wUF1bcZ+jfxSSq2vGx0ACSUuhKIoLg5YRITMqBDqg==
+
+%URL%
+https://developer.android.com/tools
+
+%LICENSE%
+Apache-2.0 AND BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.1-or-later AND MIT AND libselinux-1.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1780179336
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+abseil-cpp
+brotli
+fmt
+glibc
+libgcc
+libstdc++
+libudev.so=1-64
+lz4
+pcre2
+protobuf
+zlib
+zstd
+
+%OPTDEPENDS%
+python: {mk,unpack_,repack_}bootimg and mkdtboimg support
+android-udev: optional additional device udev rules
+
+%MAKEDEPENDS%
+gtest
+cmake
+go
+ninja
+git
+
