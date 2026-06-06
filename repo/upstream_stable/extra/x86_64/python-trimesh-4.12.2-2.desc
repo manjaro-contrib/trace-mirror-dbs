@@ -1,0 +1,81 @@
+%FILENAME%
+python-trimesh-4.12.2-2-any.pkg.tar.zst
+
+%NAME%
+python-trimesh
+
+%BASE%
+python-trimesh
+
+%VERSION%
+4.12.2-2
+
+%DESC%
+Python library for loading and using triangular meshes
+
+%CSIZE%
+1216175
+
+%ISIZE%
+6212412
+
+%SHA256SUM%
+94825b59d6361df73d436836bbbcb6ca16b5760a11360079ed4d41df50550671
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCaiRdLgAKCRAAHPSBC+jZEfUhAQCN0lG1db5Gi9t6r/wW1DcjNlIy2Z+Xeo8dDSQIwf5MXQD+M0GTs6qzHzSuwbtRRi9RDfzkpy7bV9fjN9b35b+/UQ0=
+
+%URL%
+https://trimesh.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1780767483
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python
+python-numpy
+
+%OPTDEPENDS%
+python-charset-normalizer: encoding
+python-colorlog: print logs with colors
+python-httpx: network requests
+python-jsonschema: validate JSON schemas like GLTF
+python-lxml: handle XML better and faster than built-in XML
+python-manifold3d: triangulation engine
+python-networkx: graph operations
+python-pillow: load images
+python-rtree: vector path handling
+python-scikit-image: for voxel ops
+python-scipy: convex hulls
+python-shapely: vector path handling
+python-sympy: do analytical math
+python-xxhash: hash ndarrays faster than built-in MD5/CRC
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-httpx
+python-jsonschema
+python-lxml
+python-manifold3d
+python-networkx
+python-pillow
+python-pytest
+python-pytest-xdist
+python-rtree
+python-scipy
+python-shapely
+
