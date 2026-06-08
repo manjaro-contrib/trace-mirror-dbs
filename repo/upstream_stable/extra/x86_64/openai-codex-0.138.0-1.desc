@@ -1,0 +1,62 @@
+%FILENAME%
+openai-codex-0.138.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+openai-codex
+
+%BASE%
+openai-codex
+
+%VERSION%
+0.138.0-1
+
+%DESC%
+OpenAIs lightweight coding agent that runs in your terminal
+
+%CSIZE%
+58335160
+
+%ISIZE%
+226693782
+
+%SHA256SUM%
+287fabd31a64148e8e3b3b03cf995841781cb682748f44f5ba38c2d4eb419486
+
+%PGPSIG%
+iHUEABYKAB0WIQRUwf0nM2HqUUojd5Pylr3lA2jGzgUCaidKJwAKCRDylr3lA2jGzmVvAQDT5edXGhQBLru4Jg1fewWav+lJGYVEGNtf7aUKab4NiAD/X/pMsouvSFu2Ug6jhwo3q1w2CBtu7mcZCjihhLf4AAE=
+
+%URL%
+https://github.com/openai/codex
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1780958060
+
+%PACKAGER%
+T.J. Townsend <blakkheim@archlinux.org>
+
+%DEPENDS%
+bubblewrap
+bzip2
+glibc
+libcap
+libgcc
+openssl
+sqlite
+xz
+zlib
+zstd
+
+%OPTDEPENDS%
+git: allow for repository actions
+nodejs: enable the js_repl experimental tool
+ripgrep: accelerated large-repo search
+
+%MAKEDEPENDS%
+cargo
+
