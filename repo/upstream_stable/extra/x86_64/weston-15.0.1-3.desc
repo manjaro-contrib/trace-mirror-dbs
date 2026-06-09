@@ -1,0 +1,97 @@
+%FILENAME%
+weston-15.0.1-3-x86_64.pkg.tar.zst
+
+%NAME%
+weston
+
+%BASE%
+weston
+
+%VERSION%
+15.0.1-3
+
+%DESC%
+Reference implementation of a Wayland compositor
+
+%CSIZE%
+1524891
+
+%ISIZE%
+6875451
+
+%SHA256SUM%
+92fe0bfe2cf1ae02105b0e6573f6695c6bbd4637c9a6b20299a6fea8c3d23b4d
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCahNU4wAKCRC4rAhgDxCM35TQAQCPXe1IB48sys1FzdkJ1ugSccoGqJjy7bnD9BurEoD8JAEAppXVeQwhJiClgqGuVyhFySfUBQjMV6bn75XSaC3Zdgo=
+
+%URL%
+https://wayland.freedesktop.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1779651691
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%DEPENDS%
+fontconfig
+glibc
+wayland
+libxkbcommon
+libinput
+libunwind
+pixman
+libdrm
+pam
+systemd-libs
+cairo
+libpng
+libjpeg-turbo
+libwebp
+mesa
+libegl
+libevdev
+libgles
+glib2
+pango
+lcms2
+mtdev
+libx11
+libxcb
+dbus
+libva
+libxcursor
+colord
+seatd
+libdisplay-info
+gstreamer
+gst-plugins-base-libs
+
+%OPTDEPENDS%
+xorg-xwayland: support x11 backend
+libpipewire: support pipewire backend
+freerdp: support rdp backend
+neatvnc: support vnc backend
+vulkan-icd-loader: support vulkan renderer
+lua: support lua shell
+
+%MAKEDEPENDS%
+wayland-protocols
+meson
+ninja
+freerdp
+neatvnc
+libpipewire
+xorg-xwayland
+xcb-util-cursor
+vulkan-headers
+vulkan-icd-loader
+lua
+
