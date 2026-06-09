@@ -1,0 +1,61 @@
+%FILENAME%
+nomad-2.0.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+nomad
+
+%BASE%
+nomad
+
+%VERSION%
+2.0.3-1
+
+%DESC%
+A simple and flexible workload orchestrator
+
+%CSIZE%
+25408915
+
+%ISIZE%
+107786125
+
+%SHA256SUM%
+1132194ce7a33e9b6ab1a7736c815be2df91e2e470129979d2d9d97b1e61d599
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaiiKgAAKCRDglZ/qi1UFOZ5TAQDq/5ZfeGS49EA4kQlsSxbC//SfU9++lySq/PDaSyolwQD/Z6IRQVvPF56AALkXOizy77KTUnI1e4aW20JlghRoBQ8=
+
+%URL%
+https://www.nomadproject.io
+
+%LICENSE%
+BUSL-1.1
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1781041102
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+glibc
+libgcc
+iptables
+
+%OPTDEPENDS%
+docker: for docker driver
+java-runtime: for java driver
+java-runtime-headless: for java driver - headless
+qemu: for qemu driver
+nomad-driver-nspawn: for systemd-nspawn driver
+nomad-driver-podman: for podman driver
+nomad-driver-lxc: for lxc driver
+nomad-driver-containerd: for containerd driver
+
+%MAKEDEPENDS%
+git
+go
+
