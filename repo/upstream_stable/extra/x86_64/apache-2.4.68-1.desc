@@ -1,0 +1,80 @@
+%FILENAME%
+apache-2.4.68-1-x86_64.pkg.tar.zst
+
+%NAME%
+apache
+
+%BASE%
+apache
+
+%VERSION%
+2.4.68-1
+
+%DESC%
+A high performance Unix-based HTTP server
+
+%CSIZE%
+1805065
+
+%ISIZE%
+6798322
+
+%SHA256SUM%
+9b0ebab03d957e319cd36f8ac1679e2203b9778c56ac2a7d45f538aed320ad62
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaibrXwAKCRBtQr3RFuAGj9z/AP9kxyiR5OlrPKZUk14arKy8ibLGDNR0n34HaJa8VWdkPAEAsAD/J9wbJhVG0YOl7EGlHOxPbYEa1hTDEEO55Rp8pgQ=
+
+%URL%
+https://www.apache.org/dist/httpd
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1780935413
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%REPLACES%
+mod_proxy_uwsgi
+
+%CONFLICTS%
+mod_proxy_uwsgi
+
+%PROVIDES%
+mod_proxy_uwsgi
+
+%DEPENDS%
+zlib
+apr-util
+pcre2
+libnghttp2
+openssl
+libxcrypt
+
+%OPTDEPENDS%
+lua: for mod_lua module
+libxml2: for mod_proxy_html, mod_xml2enc modules
+curl: for mod_md module
+jansson: for mod_md module
+brotli: for mod_brotli module
+uwsgi: for mod_proxy_uwsgi module
+lynx: apachectl status
+perl: for apxs and dbmmanage
+systemd-libs: for mod_systemd module
+logrotate: for rotating logs
+
+%MAKEDEPENDS%
+libxml2
+lua
+curl
+brotli
+jansson
+db
+systemd
+
