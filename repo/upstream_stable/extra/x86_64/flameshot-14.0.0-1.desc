@@ -1,0 +1,58 @@
+%FILENAME%
+flameshot-14.0.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+flameshot
+
+%BASE%
+flameshot
+
+%VERSION%
+14.0.0-1
+
+%DESC%
+Powerful yet simple to use screenshot software
+
+%CSIZE%
+728934
+
+%ISIZE%
+3337428
+
+%SHA256SUM%
+1753af7e2b6cd4b57be755cd0b1dae4079c188b91b67c611e367deb11450abfd
+
+%PGPSIG%
+iQIzBAABCgAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmon094ACgkQqF6BHrTKLgihEQ//a8bXGmRGUNajWUMxhd7XmaGVVfJ47dIYCIVXgAM2Nt25ZEDs/1XBqINyIwNrnWm7cusoRw7kZlATHvHrRmrphEkZIpNINIehcSHS2wYXUQjcpf34gJVBjAr7McDvkk9XcJeaxQRfLsHN3si9LHf+2OtPDMvUJgs/ZY58QZMcQ0EUcLeWrqJHUb3l0dHKHTnUSRbXtTbgPjh++e/BMpzQRrkAYMSZR6uVoNRvxHupmyZ1JO36o663OA5VyySt/iLj91fSphjgBxPL/spwc1OlQqz30+YhpTYkWzVNXN+pDIhCzXDEB5r+Cw8W+4Cf74AExMtUo7dGC/Wn4v84RZ5RY4CvxsbTyrj7fiRSTSLxW1pllMizRG5u3SOUD/ZYN6fseHv54JNndZOKm6xKPCbKl52Wqr+vukhqoGEroz7EI6zomFKl2Z/QXbHF4Jxd67kT00xHa0su1xqy8MkMfe2aQiGYg78E+0CelU8o8uYsdrpOwHUEJsTqC75+3gGpQi2SBVD6JgokS/PiCKw01d45iNyqmVNbg+Si44XjgwhIGQxLYvqDZdk6RaIVPJjnkEpkI69QQRq+5ZIcLfGvCYUKmgN7TiSUz288XtGNuvIAvdDVYhjf2nRewk6RGPToRNVQmlhu1msBedtAmlahij7mw3NnnLm3enBbKVengmzmTTA=
+
+%URL%
+https://github.com/flameshot-org/flameshot
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1780994731
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%DEPENDS%
+qt6-svg
+hicolor-icon-theme
+kguiaddons
+
+%OPTDEPENDS%
+gnome-shell-extension-appindicator: for system tray icon if you are using Gnome
+grim: for wlroots wayland support
+xdg-desktop-portal: for wayland support, you will need the implementation for your wayland desktop environment
+qt6-imageformats: for additional export image formats (e.g. tiff, webp, and more)
+
+%MAKEDEPENDS%
+qt6-tools
+cmake
+git
+
