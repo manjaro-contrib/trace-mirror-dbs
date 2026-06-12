@@ -1,0 +1,26 @@
+%DEPENDS%
+catatonit
+conmon
+containers-common
+oci-runtime
+glibc
+iptables
+gpgme
+libgpgme.so=45-64
+libgcc
+libseccomp
+libseccomp.so=2-64
+passt
+shadow
+sqlite
+
+%OPTDEPENDS%
+apparmor: for AppArmor support
+btrfs-progs: support btrfs backend devices
+fuse-overlayfs: for deprecated storage driver in rootless environment
+podlet: Generate Podman Quadlet files from a Podman command, compose file, or existing object
+podman-compose: for docker-compose compatibility
+podman-desktop: GUI and tray to manage Podman containers (and Kubernetes pods)
+podman-docker: for Docker-compatible CLI
+slirp4netns: for alternative rootless network support
+
