@@ -1,0 +1,76 @@
+%FILENAME%
+lilv-0.28.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+lilv
+
+%BASE%
+lilv
+
+%VERSION%
+0.28.0-1
+
+%DESC%
+A C library interface to the LV2 plug-in standard
+
+%CSIZE%
+66412
+
+%ISIZE%
+210525
+
+%SHA256SUM%
+d8b6e7aea382261114d383eb0ea93249a1172e28a1bc25613c5cd2a737511c7c
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCaihjlAAKCRCbeih9mi7GCKYKAP0Z6kJGVJemLmr0+HFWXhm7KPKs4OYDPy5r0Yz/rt5WPwD/Xs0ndLB3c/X+vjCPsLGCro91nexQLOB/AaB/jE7uzg4=
+
+%URL%
+https://gitlab.com/lv2/lilv
+
+%LICENSE%
+0BSD OR ISC
+ISC
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1781031713
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%PROVIDES%
+liblilv-0.so=0-64
+
+%DEPENDS%
+glibc
+serd
+libserd-0.so=0-64
+sord
+libsord-0.so=0-64
+sratom
+libsratom-0.so=0-64
+lv2
+zix
+
+%OPTDEPENDS%
+lilv-docs: for documentation
+lilv-tools: for CLI tools
+python-lilv: for Python bindings
+
+%MAKEDEPENDS%
+doxygen
+libsndfile
+lv2
+meson
+python
+python-sphinx
+python-sphinx-lv2-theme
+python-sphinxygen
+serd
+sord
+sratom
+swig
+
