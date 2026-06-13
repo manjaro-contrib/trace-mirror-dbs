@@ -1,0 +1,90 @@
+%FILENAME%
+python-httpx2-2.3.0-1-any.pkg.tar.zst
+
+%NAME%
+python-httpx2
+
+%BASE%
+python-httpx2
+
+%VERSION%
+2.3.0-1
+
+%DESC%
+A next generation HTTP client for Python
+
+%CSIZE%
+177686
+
+%ISIZE%
+1111330
+
+%SHA256SUM%
+032f4889c9f78c4f277d10aad3c61ec521155e543f8620705941239990d398ea
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCaickQAAKCRDwXowSExrrXnEeAQCDTZ7s6lDMxi1FSoCbBRZdCzRLDQfa8+F++0jqheRXyAD9Gk29uSDtkPOL+rHlbalN8+g1683DpntjGc4kcZe5bAY=
+
+%URL%
+https://github.com/pydantic/httpx2
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1780949990
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+python
+python-httpcore2
+python-idna
+python-truststore
+
+%OPTDEPENDS%
+python-brotli: for brotli response decompression
+python-brotlicffi: for brotli response decompression
+python-click: command line client support
+python-h2: HTTP/2 support
+python-pygments: command line client support
+python-rich: command line client support
+python-socksio: SOCKS proxy support
+python-trio: alternative async library
+python-zstandard: for zstd response decompression
+
+%MAKEDEPENDS%
+git
+python-build
+python-hatch-fancy-pypi-readme
+python-hatchling
+python-installer
+python-uv-dynamic-versioning
+
+%CHECKDEPENDS%
+python-anyio
+python-brotli
+python-brotlicffi
+python-chardet
+python-click
+python-cryptography
+python-h11
+python-h2
+python-idna
+python-pygments
+python-pytest
+python-pytest-httpbin
+python-pytest-trio
+python-rich
+python-socksio
+python-trio
+python-trustme
+python-truststore
+python-werkzeug
+python-zstandard
+uvicorn
+
