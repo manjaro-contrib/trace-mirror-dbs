@@ -1,0 +1,68 @@
+%FILENAME%
+ulogd-2.0.8-2-aarch64.pkg.tar.xz
+
+%NAME%
+ulogd
+
+%BASE%
+ulogd
+
+%VERSION%
+2.0.8-2
+
+%DESC%
+Userspace Packet Logging for netfilter
+
+%CSIZE%
+96948
+
+%ISIZE%
+2188454
+
+%MD5SUM%
+5f6482fa60963ee193bfc0da850bb456
+
+%SHA256SUM%
+5070257fa3cf5b568f2be3bac36dba3d83297cc8c86af822403047683133cdd2
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmaUDCsACgkQdxk/FSvb5qZW5g//RYWCRz+Q5yuI5PzYNCb0/7CVogpquOU//6RfF4xTCHBJL1X8hR3bs7PZ3F4V1tfSF/dfJo/dcDhobbc9VFzCZjESQ9SG0r5mDd1ED4R49bL9PEO+UG/d3h44BNNEHCM8pAnG/BstSa3g9tb3oI1e4KqaWwOwf7p3n5ADrDEs0bgksgK4/Bkhy7smHTBaEHeU5FA7WQmsqQEXwwFA+j6p/QScnZ+Kk0qJWmcDYiTdBWnR/G8HVsdYwEKnzrfzu6vOVbtGi+MJaIH+pGUH794kSCiHD7btNK74LjfPRzJpFW8joU4GO5mYjO1j+ufE0wibaemRje3MDmnRcdOE+Aiu8oMbXrH6WexWwheCISHVdYfJYrRVyd1DCrNcp1yy3CLlXtUvktbxbhstmjSNKKE8b11DujsuJ6IlO+vSgY7yiMNEnun7hyWJeaBCnLpHKdafeLrqHDR6mUo/5mJkKCLVmEDcEgX4EPWE7dzf80BBhhrRyWfNq9YD0QDCVqciOEEe4YMc5k/9tgEtvzJwg/kQVmrbmXunLCSV9xKIqRV4dWka5KXRlZqyNQ+6oULHUqYh4viov633MkNy2FYvGlOI8S7OMZMlDkvwYsuu8kjr08gBmhdGzBNXM8QAcyeTUCC1cd/FUMApfX6eVkDb4k5/ZIzCC06LiDb7R/2nDrXI5/U=
+
+%URL%
+https://www.netfilter.org/projects/ulogd/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1720978448
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+libmnl
+libnetfilter_acct
+libnetfilter_conntrack
+libnetfilter_log
+libnfnetlink
+
+%OPTDEPENDS%
+mariadb-libs: MySQL databases support
+sqlite: SQLite3 databases support
+postgresql-libs: PostgreSQL databases support
+libdbi: DBI abstraction databases support
+libpcap: PCAP output support
+jansson: JSON output support
+
+%MAKEDEPENDS%
+mariadb-libs
+libpcap
+libdbi
+postgresql-libs
+sqlite
+jansson
+

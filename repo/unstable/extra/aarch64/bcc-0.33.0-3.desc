@@ -1,0 +1,80 @@
+%FILENAME%
+bcc-0.33.0-3-aarch64.pkg.tar.xz
+
+%NAME%
+bcc
+
+%BASE%
+bcc
+
+%VERSION%
+0.33.0-3
+
+%DESC%
+BPF Compiler Collection - C library and examples
+
+%CSIZE%
+959480
+
+%ISIZE%
+5499838
+
+%MD5SUM%
+4ac53af492db8153a5f79d42bea7fe47
+
+%SHA256SUM%
+72500244bf4996d3157606885ae526d4ddc2b6ff7675fc371ad9f8d71e18bc5a
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmhHc/AACgkQdxk/FSvb5qYh8hAAqZDZltw1R3/q4A5VKKfVN7oN3aFx3xCZc3B0iT1+o1fr6WTj3qt7x2bCrdEup3Ydj1ogC0a7ZEnbrsyl3gFn8V3D7CzjBEUdcBdbnt/hsbbPnvAR6EtRCX0wO/lM0eP8Pfdi+KQwJyYsJDZr2PT2a99M+F4vqdCvcqnaYzgA1zdiBujSLoq4MQfPxtZ4k3wjSLsM9DNOKhpt7Y/fxdzT42QWhHEvvTRRzdRf5/kyfEAdOEOMncir4ufzwLw4748QVBfy44n+tw8qCZeivCavDAQ7RTCNkavU4aGyxPm1zyk+YZNNXLiiqM55v26vnJAzPlZMzyoxsy7p/LRrrJBMeu1i9ooC9Q+CS78iqDXkcqixF/ESQm+Wx9pSMmJ1Ea1N1v3OJm0mLP8eXEXPrmIu9cHGZnWG6zQWBhhaE04iAyohxrwSwdvCj/supN69fdtdmqwqsgfyzTqcZZ5ClZFH1YOZU2QDxSOQVlhDRE3M/I9QAMcrvl/tXvGFV5nAGI8XN+uT0SzYO9shq+IOCC5FPBGwXFdogHmQeJOXCrdz9T6y2Zz+pLmBRB0n/hYvSLCcTGEzkpfihNJt0dHvn7UCBfxP5k0VTYjPgskrZdDuB14xZG6J4mzsn2vsqyNqmDMmIJMgZ9qn0jt/zM28sSxWKau6PhxhYFgE/wKxuzhbHtY=
+
+%URL%
+https://github.com/iovisor/bcc
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1749513053
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+bcc
+libbcc
+
+%DEPENDS%
+clang
+gcc-libs
+glibc
+libbpf
+libbpf.so=1-64
+libelf
+llvm-libs
+python
+xz
+zlib
+
+%OPTDEPENDS%
+linux-headers: build modules against the Arch kernel
+linux-lts-headers: build modules against the LTS kernel
+linux-zen-headers: build modules against the ZEN kernel
+linux-hardened-headers: build modules against the HARDENED kernel
+bcc-tools: Python utilites using the BCC library
+python-bcc: Python 3 bindings for BCC
+luajit: Lua bindings for BCC
+
+%MAKEDEPENDS%
+cmake
+clang
+llvm
+flex
+bison
+libbpf
+python
+python-setuptools
+

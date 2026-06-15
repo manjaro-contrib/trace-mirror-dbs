@@ -1,0 +1,73 @@
+%FILENAME%
+gutenprint-5.3.5-1-aarch64.pkg.tar.xz
+
+%NAME%
+gutenprint
+
+%BASE%
+gutenprint
+
+%VERSION%
+5.3.5-1
+
+%DESC%
+Top quality printer drivers for POSIX systems
+
+%CSIZE%
+4889496
+
+%ISIZE%
+37338904
+
+%MD5SUM%
+91197dbe510e403782a426c357d2521d
+
+%SHA256SUM%
+6568def745ae5ddbc8ff79d607d708d4abbeb794ece173138a1d5c2304369fee
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmfZIqoACgkQdxk/FSvb5qZX6xAAlwl02PoXdB20cx2FSOuEj+0lpjRZQUnu15OIqQ0f2KKDrSYLLfuXXKQlLRcNFngeC+4nsQqMUzpb2NQT2cvo5OU/3RNpf4g3N5KjDEefowOmRSCiuT1TsJmvltL52d1ZzhO6YRmjMTNV2w7/P3GxRCvLeck9+NzP/3RX8Q71U3ul4DcEIDsoxroFizKnIOoupNTWqlcXjD4TwlkpKF0fTi5TMUkeqjqCdVcovrOdbNqj55oNd1mPLBjLDd+TzBNXya0wmWsQg0k07KcLTAF+DrJV4q57Bfiko4MS1wOlVTtwPWGdjoxbYZ1dwuTdk7suMUtxdsWdFnEnUIolJYvxP7Pm436DxwYhIyPzqEiqEbjTlEBKFg95O1FhsQm1jevtg9NdRam6W4e+ocxuGDUAt3h/iuELotNfKC366p9PmKoBT1gcsO+goETN/5VABilMBNfnnPe9Smr4/uwFxMymK5e2hbO64LB4LN8YlDJXKHn2hSYtgDet0m/vh7yhVg7t9arWE1LdUXZjkh7AezXZQvtUVS0zxqtKvf62fDjbtZayrwGA5zmYFlHIJrHG7VVxksdpVNXCo6YhDdxOoeTdLBD8651RToEz9o0sKsGGHZ1DmLLO97MRZ89iOu1WHDJM4DjwVF+5rvF9ohATFLCiNrNbgSo8rrx1ak6Kb1Bgj8g=
+
+%URL%
+https://gimp-print.sourceforge.io/
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.0-or-later
+MIT AND GPL-3.0-or-later
+Bison-exception-2.2
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1742282658
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%REPLACES%
+gimp-print
+
+%DEPENDS%
+cups
+cups-filters
+glib2
+zlib
+glibc
+readline
+
+%OPTDEPENDS%
+libusb: required for drivers that depend on gutenprint52usb backend
+foomatic-db-gutenprint-ppds: prebuilt ppd files
+perl: to run cups-genppdupdate
+
+%MAKEDEPENDS%
+cups
+ghostscript
+dialog
+doxygen
+docbook-utils
+texi2html
+texlive-bin
+

@@ -1,0 +1,72 @@
+%FILENAME%
+python-scapy-2.6.1-1-any.pkg.tar.xz
+
+%NAME%
+python-scapy
+
+%BASE%
+scapy
+
+%VERSION%
+2.6.1-1
+
+%DESC%
+Powerful interactive packet manipulation program written in Python (library)
+
+%CSIZE%
+4207236
+
+%ISIZE%
+28897117
+
+%MD5SUM%
+770aec6c1d647c1c1dc2926909c457de
+
+%SHA256SUM%
+6772a3c473c9299617f32996b77b9dee2a40201798f395fb2e3196379d358229
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmdsxYAACgkQdxk/FSvb5qaqKQ//VHb+ttFYJ956yLepvFX9n3sCEQiH9E5Rb/EpjMDcS+3YfI95Uv4SmFzAjD6YtI3SK4dJSuLToZ3yn6dltDhjFMUVpTttxTHWPtSqvOjh7iOTACM+U2VgEvOFOcKK/1FRADZNJ0qyfFKuS6JjFrx2V+anxZT723f8Zcb8ZCCTjiL+nC4NYBxJnxDc0V95PouyoTIobkVEzOJt881Z4XmNeUJka06UJTOmZGA64WWrYn8316//WdPZdw8/JxytcrwONsuEMLraOz/lnIXSPdx/cRoWFC3MR3CENWTIbqia9ixLzAm24tRZBXm+dnVyxVnVBFVfVx4Xw6jHtzwiTZWCc296rN1gXvNUkeLnbE0ywTzlVbja83OKHmDmmBO9z4uS/cjOt02JxC/B7DT9ahgY7fiwkYJgBBsQuutTIBCLuq16wCyrUq+n0QurNfhqtqGwUbhC4Ajd1hLNnXNn65X6gg8Fyin2mSSwEhd13fJo/2TrxlIp3D2krReEyUfL8GQgRwa54UMtmR6aoEr6IzbVTKuv2NCyXrKgbPoZOIAhcMn3dlca/MvGQWa3lSV/Sj83Jm6CUIu0FOAWOs+2XxwJjAHlAAhp5qINtb+CUYcov55EM29tULKKGFyaJmKSg16joHDcPpF1Z56JYJLP9a3oKfT2upB0CLS/whgHamG6mag=
+
+%URL%
+http://www.secdev.org/projects/scapy/
+
+%LICENSE%
+GPL2
+
+%ARCH%
+any
+
+%BUILDDATE%
+1735181621
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+tcpdump
+python
+
+%OPTDEPENDS%
+python-cryptography: WEP, IPsec and SSL/TLS support
+python-pyx: psdump() and pdfdump() functions
+python-matplotlib: plotting support
+graphviz: conversations() method support
+sox: for VOIP support
+python-prompt_toolkit: expore function
+
+%MAKEDEPENDS%
+tcpdump
+python-build
+python-installer
+python-setuptools
+python-wheel
+python-sphinx
+
+%CHECKDEPENDS%
+python-cryptography
+python-pyx
+python-matplotlib
+graphviz
+sox
+

@@ -1,0 +1,119 @@
+%FILENAME%
+dracut-108-1-aarch64.pkg.tar.xz
+
+%NAME%
+dracut
+
+%BASE%
+dracut
+
+%VERSION%
+108-1
+
+%DESC%
+An event driven initramfs infrastructure
+
+%CSIZE%
+453692
+
+%ISIZE%
+1663130
+
+%MD5SUM%
+a5822df050dc47ebc818537b4aaf299a
+
+%SHA256SUM%
+b9d98e68d6d79218ff183db52c1ee9c33d118bd501bcd1369557049cc35c41d6
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmiQtJ4ACgkQdxk/FSvb5qYDfg/+ODEplaT4qr7WC86AczaB1Gn+SfU5Ggg2ommuK9ch+/7psxHuPSHhXIgIhsNqO+DG8ed2nALuh849ezSSqKk84sDsGDZhw7z7L80QSjZFHZI93RavFlybmKUj5oNXCWMi3bPBm9HKDpko5VGu3DMonN8mzy3Q8CcHlo0Gf0pXWySi0ER00nSKs7T7P9yWf189OPozBjll8kw4gcOQ1a01SG2WHFYeWt1DWzrwsCBOiI3IPR6F5iIcsfjMni9oNXyPhRmay8NIGYaWF3nXLHaTijU/fmZY66h6OWVxMJrPYXPlvnuDk15Nw/glprqt+UgjkB8XVgm7sk+bMp1ki2wYNdf7TavHfs9LDz+gYzAAZrSONuHiG+XzwjgiKNZ6PCQSXwVnYpKZZXIITFoD4D/Qf7mKjFvIf4OGy32KtmsgyMUk+rMhDoMN4dtGIC7Q2FpB3LDPkKjPwgFK9xEiBoRXXijdodE97L3+Zc35cFA8kXCixkbx219FKRWc2hXEwfweCg6mpo6+l6t4fX3WmOq3VBxxrwbt1qnvh0UzhhMwCw6dDZdfcSZjPuSNM2qGvmGINcgGqPpDLVVI0j0nbGfAn6hR3qG3r0jNPF2mhVWtQgotjfKWSgTcA09ec8KYTI+tmojMOTKlVw9Qph+DrpgP+BP29v8n6LLQYAyv56tAvlA=
+
+%URL%
+https://github.com/dracut-ng/dracut-ng
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1754313853
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%PROVIDES%
+initramfs
+
+%DEPENDS%
+bash
+coreutils
+cpio
+filesystem
+findutils
+gawk
+grep
+kmod
+pkgconf
+procps-ng
+sed
+systemd
+util-linux
+
+%OPTDEPENDS%
+binutils: --uefi option support
+biosdevname: BIOS network device renaming
+bluez: bluetooth (keyboard)
+btrfs-progs: scan for Btrfs on block devices
+busybox: allows use of busybox (on your own risk)
+bzip2: bzip2 compression
+cifs-utils: support CIFS
+connman: support for connman networking
+cryptsetup: support for encrypted with LUKS filesystems
+dash: allows use of dash (on your own risk)
+dbus: dbus-daemon dracut module
+dbus-broker: dbus-broker dracut module
+dhclient: legacy networking support
+dmraid: dmraid dracut module support
+e2fsprogs: ext2/3/4 filesystem support
+elfutils: strip binaries to reduce initramfs size
+erofs-utils: support for building an erofs initramfs
+f2fs-tools: fsfs filesystem support
+fuse3: live on NTFS (dmsquash-live-ntfs module)
+gnupg: gpg for crypto operations and smartcards
+gzip: gzip compression
+iproute2: legacy networking support
+iputils: networking support
+jq: NVMe-oF support (nvmf module)
+lvm2: support Logical Volume Manager
+lzop: lzop compression
+mdadm: support MD devices, also known as software RAID devices
+memstrack: memstrack module support
+multipath-tools: multipath dracut module support
+nbd: support network block devices
+ndctl: NVDIMM support
+networkmanager: networkmanager support
+nfs-utils: support NFS
+ntfs-3g: live on NTFS (dmsquash-live-ntfs module)
+nvme-cli: NVMe-oF support (nvmf module)
+open-iscsi: support iSCSI (iscsi module)
+openssh: install ssh and scp along with config files and specified keys (ssh-client module)
+pigz: faster gzip compression
+plymouth: plymouth boot splash
+qrencode: systemd-bsod
+rng-tools: enable rngd service to help generating entropy early during boot
+rsyslog: enable logging with rsyslog
+sbsigntools: uefi_secureboot_cert/key configuration option support
+systemd-ukify: Unified Kernel Image
+squashfs-tools: support for building a squashed initramfs
+tar: live tar image
+tpm2-tools: tpm2 support for e.g. LUKS
+xz: xz compression
+
+%MAKEDEPENDS%
+asciidoctor
+bash-completion
+git
+rust
+

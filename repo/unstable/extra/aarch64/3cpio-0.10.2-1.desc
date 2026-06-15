@@ -1,0 +1,69 @@
+%FILENAME%
+3cpio-0.10.2-1-aarch64.pkg.tar.xz
+
+%NAME%
+3cpio
+
+%BASE%
+3cpio
+
+%VERSION%
+0.10.2-1
+
+%DESC%
+Manage Linux kernel initramfs cpio files written in Rust
+
+%CSIZE%
+220708
+
+%ISIZE%
+665568
+
+%MD5SUM%
+aacdc58e3c42fb8cf6e9cfb051b23fb6
+
+%SHA256SUM%
+864ef4f58402cf7ac89d24d6a7dc3fe9a1fca0bf777df86b3bf2362d162a38b1
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmieiqMACgkQdxk/FSvb5qavVw/+I0Uu/DWgoUP5OD27Blm6P78NY3ZVFoMvXqtY15PxWW7SWd/2tFgq8qF6Ygr5qcA+17JoXwwmepWjPU1pXjLUAuL+SXXLPRKZAkAl9sqYEhD45xeLSAxJSwi7rzlEi6z3KnUnHgDdoVzfY0KDbdBiJt2RdYB6f5YGlgD2fATsdKsz4heLpothyhG6QoMhma7YYQoMJqb/j0jbRjs27S5acFix+K2riPUJuqW1uAmfz7/bjC2Szg3/0/I+5MZJvpxkFV1v56yB4JumxavOozkVzvC4qln1JDdLVlUimeL0DK1XHigthTUxFCYnJCMlGNZ/bTZPabg+pOCNcz2XuAoNK1aEBMlW8exUfDhHMDP6ZuqRBVDIEZvoZ+3U+ZPVb/t7cg69v08jGPFrE1SXGkDTNlP0jJCkuf16DJuMrrt1FLSShqF/vcHmQQmbdS4WA2aGzPXu0W+ZIrL1NAPw2UWl6z5kTON9lqEnaZCi/q788jOX/IWp0mTPWvGinGoYLlnZzdx/EMbWR2MkL70l63GEMqCdrU118J4O4R+hVOOLwGWHEDlPngvIo4eCWPLHBGvwGA6CA2GhxAq/JLjGe/7odrhe2IpwMNt7YbPRSrV1RMCYszQsXlcedu0bsf+8No97dU1eAiibP0gnGeVdwpmXmKYu2Ocb8B6OVL5OgAOa9Fc=
+
+%URL%
+https://github.com/bdrung/3cpio
+
+%LICENSE%
+ISC
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1755220611
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+seattle@archlinuxarm.org>
+
+%DEPENDS%
+glibc
+gcc-libs
+
+%OPTDEPENDS%
+bzip2: Support for bzip2 compressed initramfs image
+lz4: Support for lz4 compressed initramfs image
+lzop: Support for lzo compressed initramfs image
+xz: Support for lzma or xz compressed initramfs image
+zstd: Support for zstd compressed initramfs image
+
+%MAKEDEPENDS%
+asciidoctor
+git
+rust
+
+%CHECKDEPENDS%
+bzip2
+gzip
+lz4
+lzop
+xz
+zstd
+

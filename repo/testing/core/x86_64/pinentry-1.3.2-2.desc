@@ -1,0 +1,72 @@
+%FILENAME%
+pinentry-1.3.2-2-x86_64.pkg.tar.zst
+
+%NAME%
+pinentry
+
+%BASE%
+pinentry
+
+%VERSION%
+1.3.2-2
+
+%DESC%
+Collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
+
+%CSIZE%
+195413
+
+%ISIZE%
+784782
+
+%MD5SUM%
+e22410db862106418c179b41ed874fc2
+
+%SHA256SUM%
+0b5fe2bc694ba9490689a6a45e5482f791879d531e2ac335fecc4f4166c3529e
+
+%PGPSIG%
+iQIzBAABCgAdFiEELjbYYgIhSC/EXLfyqRdkdZMmtEAFAmikcdkACgkQqRdkdZMmtEAUaRAAnP3ZTlECFIYrQWAMDH2IF9S+JOcK8hYOz8a4sVZG8+IW2zfJLr71CoSzZ1eSZ7g8USxM8bFeJScx2OEcz/BKvgolkd9YkyVp4s500SfJMS/WQv64Hns1DU3iqvxnK0z/yRUxD0kTmmDojUaQvuXygPvHYGP/emfO/fBtDTCxlK3osbIfn9MYLYSSthHIzXqhHl7SsoaHnflM3eUKj3IZlm6/KEhNm9GOcbiuOLnE9ONBZzvU7VJxSjTXJhyzua8vKbMO4ge/E8r+h5VdYc4gOJVxh7UppETcOXRzm7gE2BkutdRaKHxrljZ1FXGwGPLyJQ/d+wutXwe9sP6sk7jiIpHLzpO+1IdA6F/LKTFV+ewz4VViQgDXf0nN6J3UFpGWzPmiCTvY6rN8JQLRtvWLBNLljNCnCJUcLtOauZo3X40Pt+qlOTqX5ftv4Q1gW8ConPVBEljWl7fW5NXWxInWg7Qa3QdvkxJP+rHJ6cK87haecYmIcZ057ejLgzN7Kr++RM7SNrcrFZVwrUcKjbZvD/BdEuLQ2OpZZ8U8cR324I4jyCHa2r17MUQ6KMtm0dyoLQHGqrXUp7jaX6wptZ+WXltjJ9OmBqLS8S/wfY9jFt8JiEy6/hjPp/1lBOVx2iZOZMMTxqAlld23P25jGC/gZxJcoUiS7LIZrSKMPJBN248=
+
+%URL%
+https://gnupg.org/related_software/pinentry/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1755607416
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%DEPENDS%
+glibc
+ncurses
+libassuan
+libsecret
+glib2
+libglib-2.0.so=0-64
+libncursesw.so=6-64
+libsecret-1.so=0-64
+
+%OPTDEPENDS%
+gcr: GNOME backend
+gtk3: GTK backend
+qt5-x11extras: Qt5 backend
+kwayland5: Qt5 backend
+kguiaddons: Qt6 backend
+kwindowsystem: Qt6 backend
+
+%MAKEDEPENDS%
+qt6-base
+qt5-x11extras
+kwayland5
+gtk2-compat
+gcr
+kguiaddons
+kwindowsystem
+

@@ -1,0 +1,91 @@
+%FILENAME%
+sox-14.4.2+r184+gf3094754-7-aarch64.pkg.tar.xz
+
+%NAME%
+sox
+
+%BASE%
+sox
+
+%VERSION%
+14.4.2+r184+gf3094754-7
+
+%DESC%
+The Swiss Army knife of sound processing tools
+
+%CSIZE%
+400260
+
+%ISIZE%
+2543151
+
+%MD5SUM%
+eb6f52cd1e86d2b551f5a756dfbe85f3
+
+%SHA256SUM%
+7e6a3cf2ac3c7e6acd5a89fba09991671b5c4ff2064cd17731b3f78ed351b402
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAme5A/oACgkQdxk/FSvb5qbYqBAAh3Mg4DnikcILBtj+BjJDD0/gS93e8c6bwPW0nuuubAONMylfHAOVlNnG/DprCCvkapFhClPcaUsfZcJGCf3kiJEYNU5dUw9z4S7MDkzAw4HD0rK/J7PnOyAyjabKqNjgPaUcX9VsC7ydzM9jQgY4laZyYJKxNiXESZFtQTd/8ix4Wn/2Rp+FPpIQraw9Hkd3J2a6WJfSyJf52/VnYDddhkINZI2fW1+mJnUdgd48WWOS0NbgfJjo3iwm/kIOPnG/OVpUusRA7MJG7oa53KK/WQhPhMz10VXqvJcLGWtnpK1vg41MFAWyQ2Nxc1FwVi+P7yqs38TCgREwwnFy4VpUnJibfmzMsCRgyvTkhdR781Nzpoo+1C8sLth3zvMsNx0X/N7D0aRr0gFGAoeYvjhkNdARQCpvpBG8Fh36isPVBVDMiWoZqi2gfECJpwLFsy6g1Au4khzchSQZlUpwGqPwbFmlpDuFt+31KEHQIP94TEMcyzLcbbinzajg35/+Ad/8kGrO8ubnSWd6+KJSIM6vB2mvZ2t/PEIA51D8LweNYOmynDbBr4CwQzPUh8zvBynz1SKeA+dswRu+pI6jiNMYg4gzRfMui4b3R0JW1yatBFXchcMVb5P136jdtXa2QDY03xna0Vo3pprdM5Sl1pcw8rsFjgtDuWq9iz9JNzu03tg=
+
+%URL%
+https://sox.sourceforge.net/
+
+%LICENSE%
+GPL2
+LGPL2.1
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1740178321
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%PROVIDES%
+libsox.so=3-64
+
+%DEPENDS%
+file
+gcc-libs
+gsm
+libid3tag
+libltdl
+libpng
+zlib
+
+%OPTDEPENDS%
+alsa-lib: alsa plugin
+flac: flac plugin
+lame: mp3 plugin
+libao: ao plugin
+libmad: mp3 plugin
+libpulse: pulse plugin
+libsndfile: caf, fap, mat4, mat5, paf, pvf, sd2, sndfile, w64 and xi plugins
+libvorbis: vorbis plugin
+opencore-amr: amr_nb and amr_wb plugins
+opusfile: opus plugin
+twolame: mp3 plugin
+wavpack: wavpack plugin
+
+%MAKEDEPENDS%
+alsa-lib
+autoconf-archive
+flac
+git
+lame
+libao
+libmad
+libpulse
+libsndfile
+libvorbis
+opencore-amr
+opusfile
+twolame
+wavpack
+
+%CHECKDEPENDS%
+time
+

@@ -1,0 +1,77 @@
+%FILENAME%
+urlwatch-2.29-3-any.pkg.tar.xz
+
+%NAME%
+urlwatch
+
+%BASE%
+urlwatch
+
+%VERSION%
+2.29-3
+
+%DESC%
+Tool for monitoring webpages for updates
+
+%CSIZE%
+156912
+
+%ISIZE%
+744901
+
+%MD5SUM%
+2ca1f117e3f7a590c0b0a4ab401c3387
+
+%SHA256SUM%
+1e3a39df9e36f96668e754e2c66a7dc628d74ab4f358c8ebd7eaba81c3e96d57
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmdsynIACgkQdxk/FSvb5qZFsg/7BLGpFtXHpga4H3rpoSpeu2rDJOOXh7ZViLMnjcxHlBiJXKn+HKQXnZ51COcL80mRcuvstUVln3U5kENOZ6SsC+qONyKg+s4J27A3Ju5Kd1AiKDAqHQ9d67r/G0vStiOFyGIQLVrdwf82z1FI3rJCtLgips4XliAO0e+AuTItTBTVk9IloqvwR53sIszdvWnry0llhhE26lhP/fm7zQ+JNWiXO6y195V321+nYij0T/zho30wUX0B82XIOLnZNk61Lvj+6gqoRE0a/mhaGW1nVcWwyBayNHyWjRj80vQ8A21asdASOaKYey03HBxXK/Cfwqn519WJ9MsZ8T1zEKMWdVR+IJAinmhp1RCZQ9etF8bLE2AtGEH8hTuDz6DRaGgY0tx6hb573WEev7d/LuFDVyHQ8fJO/aceZ3gYaClWx1gSDT3JXsis6cjzk9foxBqh34kNc1bqqAkySP5F5njMk+FxgRgUyKklhaUFF5uha7MZE6Pw6mihJ+zpnKn5dAGBYhRTPvQYDpmDqJNpwgXSrmtBn2f5LobytsBUH2nEldgGKQExnsFVkWKUTLBYCPu4T5csyB3lhnmE5Xg4oGnQ2rGKBWcuGrtvvvsrESjwyPx9PrwH92go4pOOlmVuU5x2dMaJXg/M/e0loPXDDaCpOwCRSLNw30YBIsU0L5LSJso=
+
+%URL%
+https://thp.io/2008/urlwatch/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1735182947
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python-cssselect
+python-keyring
+python-lxml
+python-minidb
+python-platformdirs
+python-requests
+python-yaml
+
+%OPTDEPENDS%
+lynx: for one of the html2text filter methods
+python-beautifulsoup4: for the beautify filter and one of the html2text filter methods
+python-cssbeautifier: for the beautify filter
+python-html2text: for one of the html2text filter methods
+python-jq: for the jq filter
+python-jsbeautifier: for the beautify filter
+python-pdftotext: for the pdf2text filter
+python-playwright: for the browser job
+python-pytesseract: for the ocr filter
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-docutils
+python-pytesseract
+python-pytest
+

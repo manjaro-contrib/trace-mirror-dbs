@@ -1,0 +1,76 @@
+%FILENAME%
+lxd-6.4-1-aarch64.pkg.tar.xz
+
+%NAME%
+lxd
+
+%BASE%
+lxd
+
+%VERSION%
+6.4-1
+
+%DESC%
+Daemon based on liblxc offering a REST API to manage containers
+
+%CSIZE%
+41215432
+
+%ISIZE%
+165676459
+
+%MD5SUM%
+49d54d6c4c5c70813cd962e46b19303f
+
+%SHA256SUM%
+b0280b2d7dcc40a3fa2f6a117b514979eddabf6e6298f3facf0d2bedc9046569
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmhD5tIACgkQdxk/FSvb5qZl0g/9H6qsK0896+JeueteRId4wgCVZZ1M265dxFT/+p3n7jq01R67Fc8QQOFRvlyJisOnE4DqTlgwqT4sJi9m9AyG/qLsoqtQZJtCXwNSF9/TDdY9D+ThTLAkSIBHcZezGtJO0gqoynBAYWDpPx8Y+WLlRU/byJxK8sZKUx1GYB/PkRYeScbQQYTxrgzpC5t7kHbtb3Sy+1DnjBpxRi6ggGxybjbiB3N9gheWl8mJcXYaM3pjAozrAJvTkUKqIrQRqTCZO4aKmu1DxMO1YFQLjGVmbUP+oFrKc6MOTFgiPIf7mT21+n11hp0Ay/lTAdMucJJEg6UlNlEDNHB+7XxYYEZNX7edSY43OJyGErx5jYLgnU/RnZNz0DtV8VTFbCKPa3At1bal0zec8qgxHN0OZolZkxrBjeh10oRZpIcCmBYg7eSi/BcOU+wfpAOvs/2lTFApMR+p4iFzPY/47PnlC2iVel8aTDk6HwkPPBJoW3WhNxSaKhYTZRc4LEYbu6NXNxksSkRnw+80f+P+o3bFoP48Ve8QDQYGUfgRPWNSQZpNPl8BuDcqYf1PiOBvGg00i6cKdUNhC93EVNaRuTmv5OKxgZhdDeZZ/25Xz4evgDtlgYZ6YjKoye7MAr7ofDBKBpYlXodcSGR7UbAs05sIJUyHwsZqCeGAj+tu6URvwSA8ZEg=
+
+%URL%
+https://ubuntu.com/lxd
+
+%LICENSE%
+AGPL-3.0-only
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1749279897
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+lxc
+lxcfs
+squashfs-tools
+dnsmasq
+dqlite
+libuv
+ebtables
+sqlite
+libcap
+acl
+
+%OPTDEPENDS%
+lvm2: lvm2 support
+thin-provisioning-tools: thin provisioning support
+btrfs-progs: btrfs storage driver support
+minio: storage buckets support
+cdrtools: VM support
+qemu: VM support
+edk2-ovmf: VM support
+systemd-libs: unix device hotplug support
+apparmor: apparmor support
+
+%MAKEDEPENDS%
+go
+git
+tcl
+apparmor
+libseccomp
+systemd
+

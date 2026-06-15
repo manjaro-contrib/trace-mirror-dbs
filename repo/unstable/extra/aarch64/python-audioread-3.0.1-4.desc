@@ -1,0 +1,69 @@
+%FILENAME%
+python-audioread-3.0.1-4-any.pkg.tar.xz
+
+%NAME%
+python-audioread
+
+%BASE%
+python-audioread
+
+%VERSION%
+3.0.1-4
+
+%DESC%
+Cross-library (GStreamer + Core Audio + MAD + FFmpeg) audio decoding for Python
+
+%CSIZE%
+38524
+
+%ISIZE%
+182456
+
+%MD5SUM%
+0b631d940b17732834ebe90c689aea61
+
+%SHA256SUM%
+55f747758bca03f04d33bf78b24705fe7e61cb19783c8c5507721be9510dcda8
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmiA9hkACgkQdxk/FSvb5qYJVw//RgSSEiZw6T0ySRou9k0BwE5JCxC+h0N2VplbaajRiJzwGxn1LMj8HtdZM/g+yfT9+y4csjLzXztrJrZohsvrS/L6srdP8wAmfQlAomNUGY7sx6vI68yVRGfa4Ys/BzJfB7YDB9GsiC6p5WCI6dMvr3otshO4QnHCVNgGACjjCYg27MDaYDh8IdC045JNWAdZa+WxEsaJ8vPdbF0cYXzDCA0PdDS9OH148xkyiE8rjNb+UQShKceY7E2ed5aHZJk43xi6sT+k7yVVFH9JwK7fj6ByO6Ldz8VvoEWGMJo0WurlLwmVQFqB2sYFfd0rGN1nOQqVZqL00qwRS391e8e6REyyeqE3X0ni9m/mEkF2LgbQFqUMd4cgSj/0RgC7YzSSMelwoiKuHasSf51HKqpZyoX/Klmv1MwUri9GrpM52ERl3Mwj558qFd4IHdm/xHtim84uZ7qx9NNzkkUV1/V4FDphN8W/BzvWe7q7Cp4L+fSc5our5vPY+1C5QSmupE/vmGeswj1xki1ggZNKGjEouU2K0XuQkSjX0/F88mUAp0ukCOZgatWq0gWFT2KHSrZBuiJ2rm9Xm04ZrZC41MqC5Toln5N0F7uy7K9pCQ3diWLsBwIgISF04sg64wdLkZGKHREDbF5ho5RIUMTNS9kxMRhBV/hvafiLzYIs0xhhlCU=
+
+%URL%
+https://github.com/beetbox/audioread
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1753282056
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+gst-python: GStreamer backend
+python-gobject: GStreamer backend
+python-pymad: MAD backend
+python-standard-aifc: AIFF/AIFF-C file support
+python-standard-sunau: Sun AU file support
+
+%MAKEDEPENDS%
+git
+python-build
+python-flit-core
+python-gobject
+python-installer
+python-pymad
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-standard-aifc
+python-standard-sunau
+

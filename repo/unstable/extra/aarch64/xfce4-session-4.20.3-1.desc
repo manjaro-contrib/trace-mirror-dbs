@@ -1,0 +1,74 @@
+%FILENAME%
+xfce4-session-4.20.3-1-aarch64.pkg.tar.xz
+
+%NAME%
+xfce4-session
+
+%BASE%
+xfce4-session
+
+%VERSION%
+4.20.3-1
+
+%DESC%
+Xfce's session manager
+
+%GROUPS%
+xfce4
+
+%CSIZE%
+354268
+
+%ISIZE%
+1830550
+
+%MD5SUM%
+924c545989f9d1fe7386311aee27e721
+
+%SHA256SUM%
+eba18d926461a0e74b34073cd9a8f9df19e3e28105a8c05417c208e9fe4d8419
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmih0QMACgkQdxk/FSvb5qYqow/8CZdmshLuIfgtQtPNvGPqYIFoVSUsFwkvJ5zu25wnc/ctGFizYENQeprkHsbmAmFO8u/syxC+ZJj+2mo/ij+lYFAQXBn7DagRGNTfaKSB9ACv4IhU4TVFjfpPdfXH0Hh+qkvRU5BehrZOiwINS6W99Wsc7RDp2qHCoGb2Ge7ja4TngQ7DJj57voxD9FWPUgJ/mC7UdXx1szSt5gkfM8AOZQgt/anI70F7QCQtSyTE8NJiA06GrNv7ofuC9JE+3PrIXshn0srabSuGR2PK5smE2hVNgvasHxH8kuf3/jpbdyApsCXMqt7zBOPy345yS/d3zsn/HmpPOnCaKEwZ6/mvhEFEEWxiCaBSLyNqMNBvyNNcSnNszoGOiBc4YfpBbc2Daogg+N70O2THJfPWKqXT16p/Aht7lH6MSJXzN5tYtRX8dXF/9BS9UvAayqbp3vUuMicSP433/x4bKZlaFc6ABMhIlk2bB5opMKJcgUJtTV3G2HsRfsCyvqOWOtbieKhCjHFmHEXxcYwAS5CjZ2W+2phlpi9ZTthj8gkc5mY3mm5zKL+T1uzj+H8YF2yGNxdLD+Dr7j/RK5Hs7sGv2qfocKb8LViZfDvOHSxSqgKe42n4h94CTL/z2zGn1YrAY5SmNKZ0mE+Zlu/e0/0ifxawCUf28OrEkR1jPksL5H+jIdE=
+
+%URL%
+https://docs.xfce.org/xfce/xfce4-session/start
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+aarch64
+
+%BUILDDATE%
+1755435135
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+libxfce4ui
+libwnck3
+libxfce4windowing
+xfconf
+libsm
+polkit
+gtk-layer-shell
+xorg-iceauth
+xorg-xinit
+xorg-xrdb
+polkit-gnome
+hicolor-icon-theme
+
+%OPTDEPENDS%
+gnome-keyring: for keyring support when GNOME compatibility is enabled
+xfce4-screensaver: for locking screen with xflock4
+xscreensaver: for locking screen with xflock4
+light-locker: for locking screen with xflock4
+labwc: recommended compositor for the experimental Wayland session
+
+%MAKEDEPENDS%
+git
+glib2-devel
+xfce4-dev-tools
+

@@ -1,0 +1,97 @@
+%FILENAME%
+gajim-2.3.4-1-any.pkg.tar.xz
+
+%NAME%
+gajim
+
+%BASE%
+gajim
+
+%VERSION%
+2.3.4-1
+
+%DESC%
+Full featured and easy to use XMPP (Jabber) client
+
+%CSIZE%
+3302384
+
+%ISIZE%
+18943831
+
+%MD5SUM%
+539c93833a495a210bc2bcae85135511
+
+%SHA256SUM%
+ffa6ce869bc5e81d32cc4ef9b3bf014493a9f07060c93dcdc6fe98de4d92bb75
+
+%PGPSIG%
+iQIzBAABCAAdFiEEaLNTfzmjE7PldNBndxk/FSvb5qYFAmiceVgACgkQdxk/FSvb5qZNPA//UX9bqznljIvCr9YcgQifGiVb9wkRj0I9/vbam0XbEpijiGczKQGmvvBN4m8gBQM56iXr/8y89GRamEaY369rmeqLGvwHCx1P69Hc5SvtkxvyzJIfHHTy8/4v90EOBK+Q06p9FMZyTrJ2mPNFCVqk769vv22z3DyqT0rDgqfDqIxCKRQYn/s6f2glx+IfLSD4MOgt/N7QqX1ryCB1rRjpUZLBICyFPEAreInMqUYkJ1KVG4LD+cC0kYgQiKDjWPjiEr9FA2YJJ9DfkIt3Us0aVPqOhNWHiPzhV8VN/mFCFL255J8jTGb2aTv36YXYlWI4TgUl2Oyz1sFSBVO4LKr3emzZ4I7prHCd7VE3TpLI0ZNp9PhHzJAS2g5XRPdpiH/pFHQP6v2grXOzt3pFs89f3i8DiZl/JfLBP01mwDxifcW8XEhNCQwsVFmRa5Pwwl4lKbULKUZUUDSyS7a6bVrruETkHI+bK8PjkDagz8Zmod0he7OnPtU7pzD6BzCz4+Pe4n81pqPBDvBaeZVF1kkl/SEHZW8ReJ1AehrRxP9PZuhSubePB3+eACNiRrPEjUYnYrx35sdofY550Anyn8/QmCg635vBwIDgYHzbGQW+OOAMag9G99xSESnzlqgAOjzRytcmGrWS4irO8lzyPm7943zGmyv8dtOLpkunxgQL6Vg=
+
+%URL%
+https://gajim.org/
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+any
+
+%BUILDDATE%
+1755085026
+
+%PACKAGER%
+Arch Linux ARM Build System <builder+n1@archlinuxarm.org>
+
+%DEPENDS%
+gtk4
+gtksourceview5
+libadwaita
+python-cairo
+python-gobject
+python-keyring
+python-nbxmpp
+python-cryptography
+python-precis_i18n
+python-css-parser
+python-distro
+hicolor-icon-theme
+python-pillow
+python-gssapi
+python-netifaces
+python-qrcode
+python-omemo-dr
+python-packaging
+pango
+sqlite
+python-sqlalchemy
+python-setuptools
+python-emoji
+
+%OPTDEPENDS%
+python-dbus: to have gajim-remote working
+python-sentry_sdk: for Sentry error reporting to dev.gajim.org (users decide whether to send reports or not)
+libspelling: for spell checking support
+libsecret: for GNOME Keyring or KDE support as password storage
+gupnp-igd: for better NAT traversing
+networkmanager: for network lose detection
+geoclue2: share current location
+gsound: Notification Sounds
+gsound: Notification Sounds
+libayatana-appindicator: for App Indicator on Wayland
+farstream: for video and audio calls
+gstreamer: for video and audio calls
+gst-plugins-base: for video and audio calls
+gst-plugins-ugly: for video and audio calls
+gst-libav: for video and audio calls
+gst-plugin-gtk4: for video and audio calls
+libxss: for idle time checking on X11
+python-gnupg: encrypting chat messages with OpenPGP
+emoji-font: for emojis support
+webp-pixbuf-loader: for WebP images support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+
