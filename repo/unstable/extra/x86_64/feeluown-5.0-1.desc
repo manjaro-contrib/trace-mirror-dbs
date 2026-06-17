@@ -1,0 +1,107 @@
+%FILENAME%
+feeluown-5.0-1-any.pkg.tar.zst
+
+%NAME%
+feeluown
+
+%BASE%
+feeluown
+
+%VERSION%
+5.0-1
+
+%DESC%
+A robust, user-friendly and hackable music player
+
+%GROUPS%
+feeluown-full
+
+%CSIZE%
+1114792
+
+%ISIZE%
+5546822
+
+%MD5SUM%
+4f754fde72f6f3f5103ca9db9f3ed765
+
+%SHA256SUM%
+5c79c5b10800316d79759763407443597ab55d9026805aec4ff6548861c4ace0
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmoyk2wACgkQeGxj8zDXy5LMqRAAjyZ4iDARm3sfzjaaWLfGKLxdNf2SDY/QJiNxzGiYVwqBPfe6giuRjgiLc3OMgpH2SPmGGaaZkDzacZmb8hnmmXI0l5owls/OaQVmppT9bIqpbYQXgqHPtXeeT0W8keD10YVbtI7kL1hZMw1LN9Brzc9SUrGGQJfiKwn96IpIWeSjQlzHe8Zpg/N3nBX3wuIdl7dVf9AsLZ+JETgAO3FG8LozsvpbXJfqF67tYQtEUu0IdwLjHWRPpf+/16+6bPlQvA5N434t5lD+P0VD56rbpEt1/eH0uv1wHBPvD5cmrPy0wPAQeIIkpbNLSJ0186ud7EDfF6jbXqXjZQ1HRZGYBi9M2Nbdz025lxMjGRuU6Qc7aU1Hwvi2eRdjrHtJM5Qls3zx0J4v32PLlRaz13nFHZy8ntDEsyvCnEVuQO3XfaE+grUgdqqy6D40n+X5CMin7dan2t/ExW0QCM37244rDgH7jG2ccHZEjc3iaQ1hp5MZf3tROJEM7GpvMAx7wyoT+NWppbcEMftlCbNStihoDsWcsbxPHGRfBsqCShxzMEs2ZtMjtRQ0a9Hd76dooATpK/1oGUDjBk81qAyqkSvseYzpw6ZOcMgm1NVEpTt8vx5l9fz6UAOIa8b11ToWuZal+zA04qoyNbDgidI0JQDtfvBkxZ4OETjrfcv0GI1MJJk=
+
+%URL%
+https://github.com/feeluown/FeelUOwn
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1781699401
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%REPLACES%
+feeluown-local
+
+%CONFLICTS%
+feeluown-local
+
+%PROVIDES%
+feeluown-local
+
+%DEPENDS%
+python
+python-qasync
+python-pyqt6
+mpv
+python-janus
+python-requests
+python-tomlkit
+python-packaging
+python-pydantic
+python-mutagen
+qt6-svg
+xdg-user-dirs
+
+%OPTDEPENDS%
+yt-dlp: browser cookie extraction support
+dbus-python: mpris2 server support
+python-langchain: AI copilot support
+python-langchain-openai: OpenAI-compatible models for AI copilot support
+python-langgraph: AI copilot support
+python-pyqt6-webengine: web login support
+python-sanic: webserver support
+python-json-rpc: webserver support
+python-websockets: webserver support
+feeluown-netease
+feeluown-qqmusic
+feeluown-ytmusic
+feeluown-bilibili
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-langchain
+python-langchain-openai
+python-langgraph
+python-pytest
+python-pytest-asyncio
+python-pytest-benchmark
+python-pytest-cov
+python-pytest-mock
+python-pytest-qt
+python-json-rpc
+xorg-server-xvfb
+yt-dlp
+
