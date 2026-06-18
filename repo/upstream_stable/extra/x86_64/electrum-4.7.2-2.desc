@@ -1,0 +1,84 @@
+%FILENAME%
+electrum-4.7.2-2-any.pkg.tar.zst
+
+%NAME%
+electrum
+
+%BASE%
+electrum
+
+%VERSION%
+4.7.2-2
+
+%DESC%
+Lightweight Bitcoin wallet
+
+%CSIZE%
+8095320
+
+%ISIZE%
+47463542
+
+%SHA256SUM%
+b57ebbd82ec2912dc3bf6e21c4ee1567c478e1d4c1587d0674deaee0e80a2c3e
+
+%PGPSIG%
+iQIzBAABCgAdFiEEFORv5f1p8uKH4kTbYyw8wNHJyvYFAmozoCsACgkQYyw8wNHJyvZENg//SRGeBqaNQnkUCPQPl45wxEMuxph/aSN4gtx4xLxHlgeANUCnlp+UcNyErn74sA8iSjh4rM1XrSUiU41LtFwvqCVtp4JnCg3v8VzFGH1B/Mo1y2jKTR2w8+QsPhLY5VOYnXjNZkVcfbAz9jktM5G/i11ZACFQpjpp69mnbU5+eCw+HmTWmVN/Wt0PYIztZNDvbglZ3WuQIzkrcw3PnBELCaDqJmqKPa4+59renQW7JebElFqOb32nsx8yCxdCM0O2WYnqoN3aqxglm2NNHBLkKusPjLX8uCWxIAqJVgomzzncC1m4sBxgD877QA865f0hMAX8WgMeES+F31tTli2J3/m2GyTNaoWAapvuvlmGvFihvhsqux8jG4tAGAQzQ0kZzrJIpqg56on0xv8XvMi0chCIbm7OhmEQa1SWSs0eYUizVBdd+qSIhN9mni5Fc39DXVUHVtlBwlmcnvLnmIXxb9GgqsdZgYJGvRhwcH85+ezk1vLQMiDdNWlmtZHh+V6gezax7wSBwj9Kx3kesUj8ftyvMX1oLnvlHD6nnYU+BAkvrLS69oUuOCHeZoe/tXI07zZzfxJW51DyFRoqH1af4/bc2ftKcTeVPVopxKfV9pDWaRMd7pwjtJWEghFn2W1jcXslnBBZxxvManem+axs4lOVCUifFy4u/nSirR584do=
+
+%URL%
+https://electrum.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1781767973
+
+%PACKAGER%
+Balló György <bgyorgy@archlinux.org>
+
+%DEPENDS%
+hicolor-icon-theme
+python
+python-aiohttp
+python-aiohttp-socks
+python-aiorpcx
+python-attrs
+python-certifi
+python-cryptography
+python-dnspython
+python-electrum-aionostr
+python-electrum-ecc
+python-jsonpatch
+python-jsonpointer
+python-pillow
+python-protobuf
+python-pyaes
+python-pyqt6
+python-qrcode
+qt6-declarative
+
+%OPTDEPENDS%
+python-cbor2: Jade hardware wallet support
+python-hidapi: Digital Bitbox hardware wallet support
+python-matplotlib: plot transaction history in graphical mode
+python-pycryptodomex: use PyCryptodome AES implementation instead of pyaes
+python-pyserial: Jade hardware wallet support
+python-qdarkstyle: optional dark theme in graphical mode
+python-rpyc: send commands to Electrum Python console from an external script
+zbar: QR code reading support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pycryptodomex
+python-pytest
+
