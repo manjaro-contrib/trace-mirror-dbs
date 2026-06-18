@@ -1,0 +1,83 @@
+%FILENAME%
+libportal-0.10.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+libportal
+
+%BASE%
+libportal
+
+%VERSION%
+0.10.0-1
+
+%DESC%
+GIO-style async APIs for most Flatpak portals
+
+%CSIZE%
+110930
+
+%ISIZE%
+653273
+
+%SHA256SUM%
+918bb03824f186c243a19916a461d3a837084c332ab590cf07c56121deb3f3c0
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCajNVDAAKCRC4rAhgDxCM3xh0AQCGilY3v4Lf6TMR3aKz0FRRYqNTQqwrGHsprADLBueppAEA77qomYvVbxVZz6P2U/Bqf93Dq2yaG3Q/5FKkIefbuAA=
+
+%URL%
+https://github.com/flatpak/libportal
+
+%LICENSE%
+LGPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1781748812
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%PROVIDES%
+libportal.so=1-64
+
+%DEPENDS%
+glib2
+glibc
+libgcc
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+libgio-2.0.so=0-64
+
+%OPTDEPENDS%
+libportal-docs: API documentation
+libportal-gtk3: GTK 3 backend
+libportal-gtk4: GTK 4 backend
+libportal-qt5: Qt 5 backend
+libportal-qt6: Qt 6 backend
+xdg-desktop-portal: Portal service
+
+%MAKEDEPENDS%
+gi-docgen
+git
+gjs
+glib2-devel
+gobject-introspection
+gtk3
+gtk4
+libstdc++
+meson
+qt5-base
+qt5-tools
+qt5-x11extras
+qt6-base
+qt6-tools
+vala
+
+%CHECKDEPENDS%
+python-dbusmock
+python-pytest
+xorg-server-xvfb
+
