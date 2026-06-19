@@ -1,0 +1,104 @@
+%FILENAME%
+feeluown-5.0.2-1-any.pkg.tar.zst
+
+%NAME%
+feeluown
+
+%BASE%
+feeluown
+
+%VERSION%
+5.0.2-1
+
+%DESC%
+A robust, user-friendly and hackable music player
+
+%GROUPS%
+feeluown-full
+
+%CSIZE%
+1115554
+
+%ISIZE%
+5552526
+
+%SHA256SUM%
+f7f8f5eed1b9bb2c2671800e6ac926a2ce6a5442f4feb7691aead890f2af3907
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmo1hlsACgkQeGxj8zDXy5KIYBAAkmZgvbRnxaQSXsHzryLDyvf/e+46X5Q4spQz2JUAshW4WoKQ76Ef6BeXFJOYh1MkKuFeZKExtrP7BfKcHz3i0XJqRprdbTdDpvw0yj9DYlHAZGRStADb1hQtujnzEuUTkLZzkUmPlEQ2Mgu/Qi0oQMVb4n+qA8lCT2MDXtIPC5jhVAiNbXhwGIXHIOytu9KuP7Gx+nx6zmk12qBKi+pdZRlfaCeU0pN3GyhYL99c6EljrwhfBtz8f33lxw74p5E63pXA2AzttZhO14BpgElkqYl4bsI0u6zx9v/x/9EWOB7FZbZHTinrU8SuqY5cbaDuX62alDyoMm/zt/rYUOhX1e6WmS7ADQM3s2uyitZiKjDsrb1CgvRqlChIWSv3biPd4s1WySa8RY07Pc2CTy3LbBB6aPntgS4y1GTVxp9BcjO0e3wdy08VXc7h81ZBidJc5alKmEQQM5kv9RNJ400j+5KqQaaCDD0cV3b9TExPwMKBuJ1XnGWtdYW72URBAfn/Ug83m25xFlyv15S3X/CFl1V+MU7EjO/5vKl+rUhlKXAi8JVVLIjIJ6FcI4qkhj774qvM1Rmw4T30JjjH5BT3fs/o+EzmQY90SDaleO0Upj1RqKJV5+ZZnS0dRLb8/J5bsA9dNeJvmdKn06ftYpI+rkPE/+mIcEFOvoBBjzMqfGE=
+
+%URL%
+https://github.com/feeluown/FeelUOwn
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1781892615
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%REPLACES%
+feeluown-local
+
+%CONFLICTS%
+feeluown-local
+
+%PROVIDES%
+feeluown-local
+
+%DEPENDS%
+python
+python-qasync
+python-pyqt6
+mpv
+python-janus
+python-requests
+python-tomlkit
+python-packaging
+python-pydantic
+python-mutagen
+qt6-svg
+xdg-user-dirs
+
+%OPTDEPENDS%
+yt-dlp: browser cookie extraction support
+dbus-python: mpris2 server support
+python-langchain: AI copilot support
+python-langchain-openai: OpenAI-compatible models for AI copilot support
+python-langgraph: AI copilot support
+python-pyqt6-webengine: web login support
+python-sanic: webserver support
+python-json-rpc: webserver support
+python-websockets: webserver support
+feeluown-netease
+feeluown-qqmusic
+feeluown-ytmusic
+feeluown-bilibili
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-langchain
+python-langchain-openai
+python-langgraph
+python-pytest
+python-pytest-asyncio
+python-pytest-benchmark
+python-pytest-cov
+python-pytest-mock
+python-pytest-qt
+python-json-rpc
+xorg-server-xvfb
+yt-dlp
+
