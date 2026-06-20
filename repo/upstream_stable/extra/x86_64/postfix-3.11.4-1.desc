@@ -1,0 +1,93 @@
+%FILENAME%
+postfix-3.11.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+postfix
+
+%BASE%
+postfix
+
+%VERSION%
+3.11.4-1
+
+%DESC%
+Fast, easy to administer, secure mail server
+
+%CSIZE%
+1501166
+
+%ISIZE%
+4824325
+
+%SHA256SUM%
+34ca483186ee533bfc48dbfeefc86fdb009e3f53e083d1b225b9e2345fc5c5e4
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmoztkwACgkQ/cMEC5Ksp0jI9xAAvClVVhhP3Fi77u+OJweu5Z2VRFHZWBrxGSTO2FLKBxyw+ajHFcDY0mzOUzEDfPPB6/AiZD3rAx25xzI/nDeC9lTrxwyaXBpzjLS2CxvLki0bCHJ3DRkSRDnaLK+04XAddUTA4eryGFJw0jJIs0bb5t0DFoLNn+Tgjbv1/F3YQ5iv5FnxZXfuMigqirtI8FS3NWo6ALm1COGLI2+mhferDA+POP8DaZ/olnVo1aPK9HJ5mm0e96TpeXEt2XADJic9jdn4dSdjrj7v9YLTiWMdmGgcielDLLYngkUBptwioFk3o12ismcAmsju1SRkcRqKXAe1VWhABDkje3X4HNBHPfgSGfkfHWiTYZB+dvZXDSIpqW5iuu9hIUiLZi/gs+86i9ai4wTVifjWcHYSA3RAR67Uo9HyCd/JUD0FtrJTBnjeha1h/0lRw/A/zxr2q9EwOARvFH6QIdDNynV/m4sRCd2UWh56O6DlbOJYz0WfqqTRca7kPJeTkvR+Gvy8X8MDBcUFVT61lrNBicMZ3FOUtc9jzcj44R2/Bg107qwoo8UCDKPvOVNNb7ArqDX+4m6i3b4aX6DET9vn3CAXYaEEpBSB6sYGcgCPrhtt7YV0mw5osiVJDMarDhbEY1b0Lq+RXJ9daJeubzuSvEd977SQ8bv/8m31YR7c06elaP+gPzQ=
+
+%URL%
+https://www.postfix.org/
+
+%LICENSE%
+EPL-2.0 OR IPL-1.0
+BSD-4-Clause-UC
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1781773812
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%CONFLICTS%
+smtp-server
+smtp-forwarder
+
+%PROVIDES%
+smtp-server
+smtp-forwarder
+
+%DEPENDS%
+glibc
+icu
+libicuuc.so=78-64
+libnsl
+libnsl.so=3-64
+libsasl
+libsasl2.so=3-64
+libtlsrpt
+libtlsrpt.so=0-64
+openssl
+libcrypto.so=3-64
+libssl.so=3-64
+postfix-lmdb
+sh
+
+%OPTDEPENDS%
+perl: for postfix-collate.pl, postfix-tlstype.pl and qshape
+postfix-cdb: for CDB integration
+postfix-ldap: for LDAP integration
+postfix-lmdb: for LMDB integration
+postfix-mongodb: for MongoDB integration
+postfix-mysql: for MySQL integration
+postfix-pcre: for PCRE integration
+postfix-pgsql: for PostgreSQL integration
+postfix-sqlite: for SQLite integration
+
+%MAKEDEPENDS%
+icu
+libldap
+libnsl
+libsasl
+libtlsrpt
+lmdb
+mariadb-libs
+mongo-c-driver
+openssl
+pcre2
+postgresql-libs
+sqlite
+tinycdb
+
