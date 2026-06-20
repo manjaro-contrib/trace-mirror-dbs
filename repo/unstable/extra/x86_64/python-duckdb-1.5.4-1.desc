@@ -1,0 +1,70 @@
+%FILENAME%
+python-duckdb-1.5.4-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-duckdb
+
+%BASE%
+duckdb
+
+%VERSION%
+1.5.4-1
+
+%DESC%
+An analytical in-process SQL database management system Python API
+
+%CSIZE%
+15840685
+
+%ISIZE%
+58775142
+
+%MD5SUM%
+be6f73ecef1c4107789c71c1490616ae
+
+%SHA256SUM%
+b4b7e518c2ebd98dc81c5e2ce6a3896c807d1c8e6cd64ad310c25c1b2e4bc9ed
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCajW8WwAKCRDglZ/qi1UFOUykAP99jfL4QzH+QkbcDnBCWNFl20gdeEMpbfr/McgioHB59QD/QlVgovJ1Rf4U1wpVPvO3myQv1u720W9rAvI+fH5aGAw=
+
+%URL%
+https://www.duckdb.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1781903707
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+glibc
+libgcc
+libstdc++
+python
+python-typing_extensions
+
+%OPTDEPENDS%
+ipython: used in duckdb.query_graph
+python-fsspec: used in duckdb.filesystem
+python-numpy: used in duckdb.experimental.spark and in duckdb.fetchnumpy()
+python-pandas: used for pandas dataframes all over the place
+python-pyarrow: used for pyarrow support
+python-arrow-adbc: for the adbc driver
+
+%MAKEDEPENDS%
+git
+cmake
+ninja
+pybind11
+uv
+python-installer
+python-setuptools-scm
+python-scikit-build-core
+
