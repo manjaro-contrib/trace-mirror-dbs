@@ -1,0 +1,11 @@
+%DEPENDS%
+glibc
+containerd
+
+%OPTDEPENDS%
+buildkit: to build OCI images
+cni-plugins: to run OCI images
+rootlesskit: for rootless mode
+slirp4netns: for rootless mode
+sh: for rootless setup scripts
+
