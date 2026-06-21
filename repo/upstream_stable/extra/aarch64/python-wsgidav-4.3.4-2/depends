@@ -1,0 +1,20 @@
+%DEPENDS%
+python
+python-defusedxml
+python-json5
+python-jinja
+python-passlib
+python-pyyaml
+
+%OPTDEPENDS%
+python-paste: WSGI server
+gunicorn: WSGI server
+python-cheroot: WSGI server
+python-gevent: WSGI server
+uvicorn: WSGI server
+mercurial: Mercurial WebDAV provider
+python-pymongo: MongoDB WebDAV provider
+python-mysqlclient: MySQL WebDAV provider
+python-pam: pam-login authentication
+python-lxml: performance improvements for PROPPATCH requests
+
