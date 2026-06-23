@@ -1,0 +1,91 @@
+%FILENAME%
+intel-oneapi-toolkit-2026.0.1.27+c9c3d3e3_ddb4_490e_bb41_6e9041ba32a7-2-x86_64.pkg.tar.zst
+
+%NAME%
+intel-oneapi-toolkit
+
+%BASE%
+intel-oneapi-toolkit
+
+%VERSION%
+2026.0.1.27+c9c3d3e3_ddb4_490e_bb41_6e9041ba32a7-2
+
+%DESC%
+Intel oneAPI Toolkit for Linux
+
+%CSIZE%
+2209750317
+
+%ISIZE%
+9719004310
+
+%MD5SUM%
+baff17b24da5697b422a7d3d1c36da7a
+
+%SHA256SUM%
+be6b25534d7f3be24700ccc9da4c1ce2f851fd85d89c0b0ef4e16b21671081b4
+
+%PGPSIG%
+iHUEABYKAB0WIQQEzwzW9u6TrhiW9YQH0GNRylsxvgUCajlBygAKCRAH0GNRylsxvgg6AQDO1hKIKMBWzzVZoZ8W/S1k0QYAU1quXxYL0ezL+6eABAEAv4nStBp2OF3ByFJILXoFlq+e3gMOdt2Jk9/HidzxwQI=
+
+%URL%
+https://software.intel.com/content/www/us/en/develop/tools/oneapi.html
+
+%LICENSE%
+LicenseRef-Intel-EULA-Developer-Tools AND LicenseRef-Intel-Simplified
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1782136082
+
+%PACKAGER%
+Torsten Keßler <tpkessler@archlinux.org>
+
+%REPLACES%
+intel-oneapi-basekit
+intel-oneapi-base-toolkit
+
+%PROVIDES%
+intel-oneapi-mkl
+intel-oneapi-dnnl
+intel-oneapi-tbb
+intel-oneapi-dpl
+intel-oneapi-ccl
+intel-oneapi-dpcpp-cpp-compiler
+intel-oneapi-dal
+intel-oneapi-tcm
+intel-oneapi-compiler-shared-runtime-libs
+intel-oneapi-compiler-shared-opencl-cpu
+intel-oneapi-compiler-shared-runtime
+intel-oneapi-compiler-dpcpp-cpp-runtime-libs
+intel-oneapi-compiler-dpcpp-cpp-runtime
+intel-oneapi-compiler-shared
+intel-oneapi-openmp
+intel-oneapi-dpcpp-debugger
+intel-oneapi-dev-utilities
+intel-oneapi-dpcpp-cpp
+intel-oneapi-vpl
+intel-oneapi-ipp
+intel-oneapi-ippcp
+intel-oneapi-advisor
+intel-oneapi-vtune
+intel-oneapi-fpga-group
+intel-oneapi-basekit=2026.0.1.27+c9c3d3e3_ddb4_490e_bb41_6e9041ba32a7
+intel-oneapi-base-toolkit=2026.0.1.27+c9c3d3e3_ddb4_490e_bb41_6e9041ba32a7
+
+%DEPENDS%
+level-zero-loader
+
+%OPTDEPENDS%
+libnotify: VTune GUI
+glib2: VTune GUI
+gtk3: VTune GUI
+at-spi2-atk: VTune GUI
+libdrm: VTune GUI
+libxcb: VTune GUI
+libxcrypt-compat: VTune GUI
+xdg-utils: VTune GUI
+nss: Advisor GUI
+
