@@ -1,0 +1,20 @@
+%DEPENDS%
+fuse3
+python
+python-argcomplete
+python-mfusepy
+python-rich
+python-rich-argparse
+python-ratarmountcore
+python-fast-zip-decryption
+python-py7zr
+
+%OPTDEPENDS%
+python-ext4: for EXT4 images
+python-fsspec: for remote files
+python-aiohttp: for http:// via fsspec
+python-requests: for various web backends such as github:// via fsspec
+python-s3fs: for s3:// via fsspec
+python-smbprotocol: for smb:// via fsspec
+python-webdav4: for webdav:// via fsspec
+

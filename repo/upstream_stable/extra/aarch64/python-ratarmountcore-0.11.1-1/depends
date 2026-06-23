@@ -1,0 +1,24 @@
+%DEPENDS%
+python
+python-indexed-gzip
+python-indexed-zstd
+python-libarchive-c
+python-xz
+python-rapidgzip
+python-rarfile
+
+%OPTDEPENDS%
+python-rich: color coded files in cli
+python-pygit2: git support
+python-fsspec: for remote files
+python-aiohttp: for http:// via fsspec
+python-requests: for various web backends such as github:// via fsspec
+python-s3fs: for s3:// via fsspec
+python-smbprotocol: for smb:// via fsspec
+python-webdav4: for webdav:// via fsspec
+python-pysquashfsimage: for squashfs images
+python-isal: faster decompression of zlib-compressed squashfs images
+python-fast-zip-decryption: faster zip decryption
+python-py7zr: for password-protected 7z archives
+python-ext4: for EXT4 images
+
