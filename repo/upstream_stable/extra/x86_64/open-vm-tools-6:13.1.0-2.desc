@@ -1,0 +1,77 @@
+%FILENAME%
+open-vm-tools-6:13.1.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+open-vm-tools
+
+%BASE%
+open-vm-tools
+
+%VERSION%
+6:13.1.0-2
+
+%DESC%
+The Open Virtual Machine Tools (open-vm-tools) are the open source implementation of VMware Tools
+
+%CSIZE%
+1049966
+
+%ISIZE%
+4985115
+
+%SHA256SUM%
+8c3adaab4c26a747145ebfe5810cfaec611bd54053f9b667aae175bee5625549
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmo5ghkACgkQlGV6sg8qCSsaWAgAtkMyYI1EL1eUagWeLEPz1/QhD8wqLd6BcF9JjKI6wjC6JTGd0G2TozvyTwyhl1O2/AfotsRXTha0j+YMkLMxic1ig/Qdwcc9/Tq3UTVqlEVmpYwqUMyXzkNgRbrQvlEH/vayC0m8J4dpnNOww7kfUXoRjrDutJ808rzwvCRI1ihCzcwnjSWhTvO6qg29pIeltKHdOtuxgqU4wxm+HlFTPR0YwS4d9u7MWpoU516QmzEsaTZBBZaFhN+1ajnW69jZaH5/3Zko9Yy+RRJEogKkttJvmNXW1lq1Amq43ZD+7VhHQMkI/2Qm1liuUYXJWxSy1c6tKyACfAvD/LTOXK3w9w==
+
+%URL%
+https://github.com/vmware/open-vm-tools
+
+%LICENSE%
+LGPL-2.1-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1782153532
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%DEPENDS%
+fuse3
+icu
+iproute2
+libdnet
+libmspack
+libsigc++
+libxcrypt
+libcrypt.so
+libxss
+lsb-release
+procps-ng
+uriparser
+which
+xmlsec
+
+%OPTDEPENDS%
+gtkmm3: DnD/CP plugin
+libxtst: DnD/CP, resolution set plugins
+netctl: suspend-resume network state
+networkmanager: suspend-resume network state
+
+%MAKEDEPENDS%
+git
+chrpath
+doxygen
+gtkmm3
+libxtst
+python
+rpcsvc-proto
+glib2-devel
+
+%CHECKDEPENDS%
+cunit
+
