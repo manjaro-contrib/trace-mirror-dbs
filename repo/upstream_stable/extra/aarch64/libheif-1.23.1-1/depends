@@ -1,0 +1,33 @@
+%DEPENDS%
+aom
+libaom.so=3-64
+glibc
+libgcc_s.so=1-64
+libde265
+libgcc
+libgcc_s.so=1-64
+libstdc++
+libstdc++.so=6-64
+libwebp
+libsharpyuv.so=0-64
+openh264
+libopenh264.so=8-64
+openh264
+libopenh264.so=8-64
+x264
+libx264.so=165-64
+x265
+libx265.so=216-64
+
+%PROVIDES%
+libheif.so=1-64
+
+%OPTDEPENDS%
+libjpeg-turbo: for heif-dec and heif-enc
+libpng: for heif-dec and heif-enc
+libtiff: for heif-dec and heif-enc
+dav1d: dav1d encoder
+ffmpeg: hardware decode
+openjpeg2: JPEG2000 decoder
+rav1e: rav1e encoder
+
