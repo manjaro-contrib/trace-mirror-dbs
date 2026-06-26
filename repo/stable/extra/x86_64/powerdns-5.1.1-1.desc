@@ -1,0 +1,85 @@
+%FILENAME%
+powerdns-5.1.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+powerdns
+
+%BASE%
+powerdns
+
+%VERSION%
+5.1.1-1
+
+%DESC%
+Authoritative DNS server
+
+%CSIZE%
+5713182
+
+%ISIZE%
+25718276
+
+%MD5SUM%
+66c5db3c724b93ee9c3c8c5843af6f85
+
+%SHA256SUM%
+c70d5d10456b81f2cbef95a378f8ecbb7a4f25d57a3a5915bedbc0aa4b82ca95
+
+%PGPSIG%
+iHUEABYKAB0WIQQfcVbCrX07FYc8XilAglxr3RpBRgUCaiaaQQAKCRBAglxr3RpBRg6BAQD2jUSlRpQpZALa8a6y9JuPoI2hzPwXSgeI6/WDXbiRgwD/TlBkmcpRIrGPsZ5t7NX4NyvG7XaFClGMKfLDD2DyNgQ=
+
+%URL%
+https://www.powerdns.com/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1780912651
+
+%PACKAGER%
+Remi Gacogne <rgacogne@archlinux.org>
+
+%CONFLICTS%
+pdns
+
+%PROVIDES%
+pdns
+
+%DEPENDS%
+boost-libs
+gnutls
+libcurl.so=4-64
+libsodium
+lmdb
+luajit
+openssl
+sqlite
+systemd-libs
+
+%OPTDEPENDS%
+geoip: GeoIP backend
+mariadb-libs: MariaDB/MySQL and MyDNS backend
+libldap: LDAP backend
+libmaxminddb: MaxMindDB GeoIP2 database for the GeoIP backend
+postgresql-libs: PostgreSQL backend
+unixodbc: ODBC backend
+tinycdb: TinyDNS backend
+yaml-cpp: GeoIP backend
+
+%MAKEDEPENDS%
+boost
+geoip
+libldap
+mariadb-libs
+curl
+libmaxminddb
+postgresql-libs
+systemd
+tinycdb
+unixodbc
+yaml-cpp
+

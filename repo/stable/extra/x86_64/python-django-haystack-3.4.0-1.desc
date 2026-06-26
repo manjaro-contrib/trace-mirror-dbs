@@ -1,0 +1,71 @@
+%FILENAME%
+python-django-haystack-3.4.0-1-any.pkg.tar.zst
+
+%NAME%
+python-django-haystack
+
+%BASE%
+python-django-haystack
+
+%VERSION%
+3.4.0-1
+
+%DESC%
+Modular search for Django
+
+%CSIZE%
+233034
+
+%ISIZE%
+1361178
+
+%MD5SUM%
+89c92f143ec6e28138045657d30618f5
+
+%SHA256SUM%
+1feb7fbcef4daf460aa34a1c5f06fedf1f694dad75c2e3af4a1554b73bf39d73
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCaiLNJAAKCRCbeih9mi7GCAuEAP9pozbm57QS6p/1wvqZFtg1RU24tWuXUebV1yef5PzDygD+Pnv9XMlW1OKy8nfUjafVs0AxaZlizDQXnAWM7zWujg8=
+
+%URL%
+https://github.com/django-haystack/django-haystack
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1780665427
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-django
+python-packaging
+
+%OPTDEPENDS%
+python-elasticsearch: interface with an elasticsearch instance as search backend
+python-geopy: for distance information
+python-pysolr: interface with a solr instance as search backend
+python-whoosh: use whoosh as search backend
+python-xapian-haystack: use python-xapian as search backend
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-dateutil
+python-elasticsearch
+python-geopy
+python-pysolr
+python-requests
+python-whoosh
+

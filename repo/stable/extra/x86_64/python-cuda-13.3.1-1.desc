@@ -1,0 +1,76 @@
+%FILENAME%
+python-cuda-13.3.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-cuda
+
+%BASE%
+python-cuda
+
+%VERSION%
+13.3.1-1
+
+%DESC%
+Python interface for CUDA provided by NVIDIA
+
+%CSIZE%
+11334
+
+%ISIZE%
+34491
+
+%MD5SUM%
+42e5b7aadaaef14a0b49706d0b7429be
+
+%SHA256SUM%
+24d551a944da142936c1a718191f6a86f2a8c691cc03e96c045a7abda8d3a1ea
+
+%PGPSIG%
+iHQEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCah8s6AAKCRAAHPSBC+jZEerCAPjr/hvItGDNkVrEDrP1C7TEIdayQZr9U4HybNc+YpeUAP9+Mq7AMErl+anm1AKE8MXirfPFqxhR0FiTAn/esrOYBA==
+
+%URL%
+https://nvidia.github.io/cuda-python
+
+%LICENSE%
+LicenseRef-NVIDIA
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1780426658
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python-cuda-bindings
+python-cuda-core
+python-cuda-pathfinder
+
+%OPTDEPENDS%
+python-cccl: cuda.coop and cuda.compute modules
+python-numba-cuda: a DSL for CUDA SIMT programming model
+python-cuda-tile: a DSL for CUDA Tile programming model
+python-nvmath: bindings for math libraries
+python-nvshmem: bindings for NVSHMEM
+python-nsight: Python kernel profiling interface for performance analysis
+
+%MAKEDEPENDS%
+cuda
+cython
+git
+python-wheel
+python-build
+python-installer
+python-setuptools-scm
+python-versioneer
+python-pyclibrary
+python-cuda-pathfinder
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-benchmark
+python-numpy
+python-scipy
+

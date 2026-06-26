@@ -1,0 +1,97 @@
+%FILENAME%
+gparted-1.8.1-2-x86_64.pkg.tar.zst
+
+%NAME%
+gparted
+
+%BASE%
+gparted
+
+%VERSION%
+1.8.1-2
+
+%DESC%
+A Partition Magic clone, frontend to GNU Parted
+
+%CSIZE%
+2067054
+
+%ISIZE%
+7842063
+
+%MD5SUM%
+55927e5d5be48de9ffeb31526014f46b
+
+%SHA256SUM%
+dcfca31ba469f41817c182ce578818160d73dd94ea58e94bf347bac21bed1480
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCae8kiQAKCRBtQr3RFuAGj29HAP9LxbU1Ce8DQLojfn7aTrLan62KIpruIWww2yrdL4LSfgEAlnUOpSy2ANqIHTDo7qGeBsg/gz+LtS545hZe5XIl9gY=
+
+%URL%
+https://gparted.org/
+
+%LICENSE%
+GPL-2.0-or-later
+GFDL-1.2-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1777279686
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+atkmm
+libatkmm-1.6.so=1-64
+bash
+cairomm
+libcairomm-1.0.so=1-64
+glib2
+libglib-2.0.so=0-64
+glibc
+glibmm
+libglibmm-2.4.so=1-64
+gtk3
+libgdk-3.so=0-64
+libgtk-3.so=0-64
+gtkmm3
+hicolor-icon-theme
+libgcc
+libgcc_s.so=1-64
+libsigc++
+libsigc-2.0.so=0-64
+libstdc++
+libstdc++.so=6-64
+pangomm
+libpangomm-1.4.so=1-64
+parted
+util-linux-libs
+libuuid.so=1-64
+
+%OPTDEPENDS%
+bcachefs-tools: for bcachefs partitions
+btrfs-progs: for btrfs partitions
+dosfstools: for FAT16 and FAT32 partitions
+exfatprogs: for exFAT partitions
+f2fs-tools: for Flash-Friendly File System
+gpart: for recovering corrupt partition tables
+jfsutils: for jfs partitions
+mtools: utilities to access MS-DOS disks
+nilfs-utils: for nilfs2 support
+ntfsprogs: for ntfs partitions
+polkit: to run gparted from application menu
+udftools: for UDF file system support
+xfsprogs: for xfs partitions
+xorg-xhost: authorization from wayland
+
+%MAKEDEPENDS%
+intltool
+itstool
+pkg-config
+yelp-tools
+polkit
+
