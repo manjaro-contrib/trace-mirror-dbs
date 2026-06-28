@@ -1,0 +1,15 @@
+%DEPENDS%
+glibc
+hwloc
+libevent
+libevent_core-2.1.so=7-64
+libevent_pthreads-2.1.so=7-64
+zlib
+
+%PROVIDES%
+libpmix.so=2-64
+pmix
+
+%OPTDEPENDS%
+openpmix-docs: for documentation
+
