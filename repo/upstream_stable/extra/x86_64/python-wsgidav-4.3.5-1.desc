@@ -1,0 +1,75 @@
+%FILENAME%
+python-wsgidav-4.3.5-1-any.pkg.tar.zst
+
+%NAME%
+python-wsgidav
+
+%BASE%
+python-wsgidav
+
+%VERSION%
+4.3.5-1
+
+%DESC%
+Generic WebDAV server based on WSGI
+
+%CSIZE%
+310138
+
+%ISIZE%
+1792560
+
+%SHA256SUM%
+f1399d8abfa88d62f4d3b810a6c8eec8e6d64f8969ef8efe980dfe58f104263d
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCakOKXgAKCRDglZ/qi1UFOcToAP9f2p5y8J8UUNLnc7aMLeobjjjhe4l05O+u4LQcjkB0igEAu0oyyE86wKbW2WKdy2rCXGSsqMzCiR66CDpCuvBWgwc=
+
+%URL%
+https://github.com/mar10/wsgidav
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1782811163
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+python
+python-defusedxml
+python-json5
+python-jinja
+python-passlib
+python-pyyaml
+
+%OPTDEPENDS%
+python-paste: WSGI server
+gunicorn: WSGI server
+python-cheroot: WSGI server
+python-gevent: WSGI server
+uvicorn: WSGI server
+mercurial: Mercurial WebDAV provider
+python-pymongo: MongoDB WebDAV provider
+python-mysqlclient: MySQL WebDAV provider
+python-pam: pam-login authentication
+python-lxml: performance improvements for PROPPATCH requests
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-cheroot
+python-requests
+python-webtest
+
