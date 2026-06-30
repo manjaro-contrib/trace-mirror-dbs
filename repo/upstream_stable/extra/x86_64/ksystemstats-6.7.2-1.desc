@@ -1,0 +1,67 @@
+%FILENAME%
+ksystemstats-6.7.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+ksystemstats
+
+%BASE%
+ksystemstats
+
+%VERSION%
+6.7.2-1
+
+%DESC%
+A plugin based system monitoring daemon
+
+%GROUPS%
+plasma
+
+%CSIZE%
+301054
+
+%ISIZE%
+1665151
+
+%SHA256SUM%
+240ed7ccb6e039ea28634d3b414d2dcefaf22a7bc9e6cf209a83d632b05605e7
+
+%PGPSIG%
+iHUEABYKAB0WIQSP5qfUzELIPJvMqOMtoqzD7OTc5gUCakQF7QAKCRAtoqzD7OTc5rYKAP0XsRYFLDaEw3nhti7rP6YC14caGqjRXU5QxLokA5bKkQD9E69cllzPZnaSbFGiVe13hL5+0ysLZHwiI78ex24iRww=
+
+%URL%
+https://kde.org/plasma-desktop/
+
+%LICENSE%
+LGPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1782838289
+
+%PACKAGER%
+Tomaz Canabrava <tcanabrava@archlinux.org>
+
+%DEPENDS%
+glibc
+kcoreaddons
+kcrash
+ki18n
+kio
+libksysguard
+libstdc++
+lm_sensors
+qt6-base
+solid
+
+%OPTDEPENDS%
+libnl: network usage monitor
+networkmanager-qt: network usage monitor
+systemd-libs: GPU monitor
+
+%MAKEDEPENDS%
+extra-cmake-modules
+libnl
+networkmanager-qt
+
