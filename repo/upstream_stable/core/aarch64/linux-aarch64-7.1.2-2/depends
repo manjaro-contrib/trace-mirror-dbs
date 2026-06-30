@@ -1,0 +1,19 @@
+%DEPENDS%
+coreutils
+kmod
+mkinitcpio>=0.7
+
+%CONFLICTS%
+linux
+
+%PROVIDES%
+linux=7.1.2
+KSMBD-MODULE
+WIREGUARD-MODULE
+
+%OPTDEPENDS%
+firmware-raspberrypi: WiFi and Bluetooth firmware for Raspberry Pi
+linux-firmware: firmware images needed for some devices
+raspberry-pi5-armstub: NEEDED to boot RPi5 with linux-aarch64 mainline kernel
+wireless-regdb: to set the correct wireless channels of your country
+
