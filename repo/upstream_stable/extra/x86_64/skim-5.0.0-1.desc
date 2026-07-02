@@ -1,0 +1,58 @@
+%FILENAME%
+skim-5.0.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+skim
+
+%BASE%
+skim
+
+%VERSION%
+5.0.0-1
+
+%DESC%
+Fuzzy Finder in Rust
+
+%CSIZE%
+1701968
+
+%ISIZE%
+5141700
+
+%SHA256SUM%
+8bfee31a558c680cc8313694d2f560a5f512e25d60e13f2a7e045904c85e138f
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCakbP7QAKCRDglZ/qi1UFOUSKAP4vde2SIwuDA9tOi3027A0eq6Uo0O38XLT7uSusAJ4NTgD/T2lS4ubqONpF6z7JWzBRIf0ngPjqJlB8HQxjzzV3oAs=
+
+%URL%
+https://github.com/skim-rs/skim
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1783025333
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+glibc
+libgcc
+ncurses
+
+%OPTDEPENDS%
+bash: for resp. completions and key bindings, and for sk-tmux script
+fish: for resp. key bindings
+tmux: for sk-tmux script
+vim-plugin-runtime: for N/Vim plugin
+zsh: for resp. completions and key bindings
+
+%MAKEDEPENDS%
+git
+rust
+
