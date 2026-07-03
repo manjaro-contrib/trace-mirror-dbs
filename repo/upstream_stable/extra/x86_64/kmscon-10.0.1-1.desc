@@ -1,0 +1,72 @@
+%FILENAME%
+kmscon-10.0.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+kmscon
+
+%BASE%
+kmscon
+
+%VERSION%
+10.0.1-1
+
+%DESC%
+Kernel Mode Setting (KMS) and DRM based virtual Console Emulator
+
+%CSIZE%
+1326062
+
+%ISIZE%
+1721747
+
+%SHA256SUM%
+104a6e5922410d5462f3659606226a2f1ef3f31c99d36bfee5f60239b13b5d0d
+
+%PGPSIG%
+iQEzBAABCgAdFiEEW34/txt/EDKaHAOrdx32Yn7faB8FAmpHRL8ACgkQdx32Yn7faB/esggAuq+YZN3qOqCehgWQvcTdPtThzYPWTXrU8vBSOi3eGEvv4WjcfCQzHkV1GR2m0YDZDB0USpZX1sovWpWik10S78ybvKbT/nt0AmD8CW5xIvxE2JUo+evHxSVVVmx9chS6XxeLpysIkbj8JKIT7PbUX/sDQJk61p+Nz0Y8juDUdczRaQWwELJYtR+jW5lHX5irkUDmk5wywK+X9t1VL7eIJmL4ZhfS310/DBEHcWU2hyTswgPeeeaTaJEOf4/TXyV4CHnGElUbhngGzFc4IYMtKbIgXlfNF/D1lHW8x+KlTRL1ZvO/arDkWldDvUsBQs7htRryU5Qe8z59X8rodJwmDQ==
+
+%URL%
+https://github.com/kmscon/kmscon
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1783055399
+
+%PACKAGER%
+Tobias Powalowski <tpowa@archlinux.org>
+
+%DEPENDS%
+bash
+dbus
+glib2
+glibc
+libdrm
+libtsm
+libxkbcommon
+systemd-libs
+zlib
+kmscon-terminfo
+
+%OPTDEPENDS%
+fontconfig: for freetype font rendering
+inotify-tools: for kmscon-launch-gui waiting mechanism
+libglvnd: for accelerated video output
+libx11: for XKB compose support
+pango: for pango font rendering
+
+%MAKEDEPENDS%
+check
+docbook-xsl
+freetype2
+git
+libxslt
+linux-api-headers
+libglvnd
+meson
+pango
+
