@@ -1,0 +1,155 @@
+%FILENAME%
+systemd-261.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+systemd
+
+%BASE%
+systemd
+
+%VERSION%
+261.1-1
+
+%DESC%
+system and service manager
+
+%CSIZE%
+13254240
+
+%ISIZE%
+41093532
+
+%MD5SUM%
+a90b5359537c9d39bba6c3127a76bcc0
+
+%SHA256SUM%
+03ac3355c894d9087b82f79f827086665a6057653402acabd7f1e6e3b49463e6
+
+%PGPSIG%
+iQEzBAABCgAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmo/7HcACgkQFQwgB0PtRtgICwgA28r5PVxZ03uW+cDNZvhVv+VP7JLoEXi+x6+x1c9J1A7jRcmvBLVmGg0gGfwIDeQSNS50pjlEUjOEiWCrms8clxGVCpZMfVmLBZguEdMnWL77pwJoWrMkclNL7zK0Uuirz5Bjnxq3LxqYvzkTkB3Rs9XIiXbRMmBOBK2TCMnTNRD+c+ZUcP7x37WKgqMPYjwNm4LGMHPOniLyr9Ir3BDs5vCuEkaomIJWskYgLjmeZF+0FJkq1OZNG5Iy8GgrHWUH6ys6fg0HaJ2wUFaoB6MTGoW0ioglp6kXSsjOzAFRpuBbxUHXuMzK0Zqpg5livkSg2Ge053gLcEeZrxTlE4FdiQ==
+
+%URL%
+https://www.github.com/systemd/systemd
+
+%LICENSE%
+LGPL-2.1-or-later
+CC0-1.0
+GPL-2.0-or-later
+MIT-0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1782573148
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%REPLACES%
+nss-myhostname
+systemd-tools
+udev
+
+%CONFLICTS%
+nss-myhostname
+systemd-tools
+udev
+
+%PROVIDES%
+nss-myhostname
+systemd-tools=261.1
+udev=261.1
+
+%DEPENDS%
+systemd-libs=261.1
+acl
+bash
+cryptsetup
+dbus
+dbus-units
+kbd
+kmod
+hwdata
+libgcrypt
+libxcrypt
+libidn2
+lz4
+pam
+libelf
+libseccomp
+util-linux
+xz
+pcre2
+audit
+openssl
+
+%OPTDEPENDS%
+libmicrohttpd: systemd-journal-gatewayd and systemd-journal-remote
+apparmor: additional security features
+quota-tools: kernel-level quota management
+systemd-sysvcompat: symlink package to provide sysvinit binaries
+systemd-ukify: combine kernel and initrd into a signed Unified Kernel Image
+polkit: allow administration as unprivileged user
+curl: systemd-journal-upload, machinectl pull-tar and pull-raw
+gnutls: systemd-journal-gatewayd and systemd-journal-remote
+qrencode: show QR codes
+iptables: firewall features
+libarchive: convert DDIs to tarballs
+libbpf: support BPF programs
+libpwquality: check password quality
+libfido2: unlocking LUKS2 volumes with FIDO2 token
+libp11-kit: support PKCS#11
+tpm2-tss: unlocking LUKS2 volumes with TPM2
+
+%MAKEDEPENDS%
+acl
+apparmor
+cryptsetup
+docbook-xsl
+gperf
+lz4
+xz
+pam
+libelf
+intltool
+iptables
+kmod
+libarchive
+libidn2
+libgcrypt
+libmicrohttpd
+libxcrypt
+libxslt
+util-linux
+linux-api-headers
+python-jinja
+python-lxml
+quota-tools
+shadow
+git
+meson
+libseccomp
+pcre2
+audit
+kexec-tools
+libxkbcommon
+bash-completion
+p11-kit
+systemd
+libfido2
+tpm2-tss
+rsync
+bpf
+libbpf
+clang
+llvm
+curl
+gnutls
+python-pyelftools
+libpwquality
+qrencode
+lib32-gcc-libs
+python-pefile
+linux70-headers
+

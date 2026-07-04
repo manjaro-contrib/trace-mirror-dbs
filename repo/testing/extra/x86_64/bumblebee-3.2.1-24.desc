@@ -1,0 +1,61 @@
+%FILENAME%
+bumblebee-3.2.1-24-x86_64.pkg.tar.zst
+
+%NAME%
+bumblebee
+
+%BASE%
+bumblebee
+
+%VERSION%
+3.2.1-24
+
+%DESC%
+NVIDIA Optimus support for Linux through VirtualGL
+
+%CSIZE%
+48815
+
+%ISIZE%
+117018
+
+%MD5SUM%
+94673cb7e3e39804e6bf0b4a93eb032c
+
+%SHA256SUM%
+49345e7b4e13e82decd0ee0cf04c9380ab00b2e285a7b7262550fd9d8b6e24e5
+
+%PGPSIG%
+iQEzBAABCgAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmo8EmIACgkQFQwgB0PtRth+sAf+KIDoDAW8wJmnNzj1rD+7wv1bfiX6D9PBkuNV97R6zwZnnoAuMb+/wrI19rK2iFvQzSc0CTh0tjEOXupJiJ3jbKT6LUKIfsrh3SDbePNsOTfSiSZiGgG/anupzItAXMEmJtz48pzqZHjSKjJJlo0n3GBkod+X9a68BsW37I5tYcYNNosKivf7/3WhJQ50hoiZAOzUGozP8H4+h/6+6Wbn+iTAEjEG/iz14F0wvhLLAQ7W42rl0IOk2lle3Y90xwfquF7OCbbzKL+oePktNM8xWdSujZg/gNVEuebDb45HhK5W55enHnh1LOrFzoKYVtd76TKHSqcgqzSeeqHeBnV/lQ==
+
+%URL%
+https://www.bumblebee-project.org
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1782321718
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%DEPENDS%
+virtualgl
+glib2
+mesa-libgl
+
+%OPTDEPENDS%
+bbswitch: switch on/off discrete card
+nvidia: NVIDIA kernel driver
+primus: faster back-end for optirun
+lib32-virtualgl: run 32bit applications with optirun
+lib32-primus: faster back-end for optirun
+
+%MAKEDEPENDS%
+git
+help2man
+

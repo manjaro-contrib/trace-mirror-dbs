@@ -1,0 +1,91 @@
+%FILENAME%
+sway-1:1.12-4-x86_64.pkg.tar.zst
+
+%NAME%
+sway
+
+%BASE%
+sway
+
+%VERSION%
+1:1.12-4
+
+%DESC%
+Tiling Wayland compositor and replacement for the i3 window manager
+
+%CSIZE%
+5322330
+
+%ISIZE%
+5918588
+
+%MD5SUM%
+f8c704f5e1792921abcc619afad5f75a
+
+%SHA256SUM%
+5704cfc9eba9804116c665cb4450352bf5a240c1a8300b36aca3218116648443
+
+%PGPSIG%
+iHUEABYKAB0WIQQ1uuG/mmsxcCHmkMJufOCwo22irgUCajrqSwAKCRBufOCwo22irgKsAQCJAnfC3qWZpxG7plGthWi4o9odX/AfZNpvQdFTqozPMgD/XQQUOTTIbEqBU6bvggz4Sn9yQEUYeh0CvGRbjbiobAM=
+
+%URL%
+https://swaywm.org/
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1782178927
+
+%PACKAGER%
+Brett Cornwall <ainola@archlinux.org>
+
+%PROVIDES%
+wayland-compositor
+
+%DEPENDS%
+cairo
+gdk-pixbuf2
+libevdev.so=2-64
+libinput
+libjson-c.so=5-64
+libpixman-1.so=0-64
+libudev.so=1-64
+libwayland-server.so=0-64
+libxcb
+libxkbcommon.so=0-64
+pango
+pcre2
+ttf-font
+wlroots0.20
+xcb-util-wm
+
+%OPTDEPENDS%
+brightnessctl: Brightness adjustment tool used in the default configuration
+foot: Terminal emulator used in the default configuration
+grim: Screenshot utility used in the default configuration
+i3status: Status line generation
+libpulse: Volume adjustment tool (pactl) used in the default configuration
+mako: Lightweight notification daemon
+playerctl: Media player controller used in the default configuration
+polkit: System privilege control. Required if not using seatd service
+swaybg: Wallpaper tool for sway
+sway-contrib: Collection of user-contributed scripts for sway
+swayidle: Idle management daemon
+swaylock: Screen locker
+waybar: Highly customizable bar
+wmenu: Application launcher used in default config
+xorg-xwayland: X11 support
+xdg-desktop-portal-gtk: Default xdg-desktop-portal for file picking
+xdg-desktop-portal-wlr: xdg-desktop-portal backend
+
+%MAKEDEPENDS%
+git
+meson
+ninja
+scdoc
+wayland-protocols
+

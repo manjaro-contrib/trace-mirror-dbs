@@ -1,0 +1,70 @@
+%FILENAME%
+jellyfin-mpv-shim-2.10.0-2-any.pkg.tar.zst
+
+%NAME%
+jellyfin-mpv-shim
+
+%BASE%
+jellyfin-mpv-shim
+
+%VERSION%
+2.10.0-2
+
+%DESC%
+Cast media from Jellyfin Mobile and Web apps to MPV
+
+%CSIZE%
+461909
+
+%ISIZE%
+2108132
+
+%MD5SUM%
+efd22cfd5192b508696850809a311097
+
+%SHA256SUM%
+5a3010d9f2a647926ac11c9f4d47376e6c5b56fbfcc21d052930f03201d982ac
+
+%PGPSIG%
+iQIzBAABCgAdFiEEFORv5f1p8uKH4kTbYyw8wNHJyvYFAmpIHykACgkQYyw8wNHJyvYe5BAAsstF3uEUgyuoINB9UI4fEDJL+bl6Ngya++XXSR6PgSQMVcplkYJlVBeoqVJWgtkH7jHDMfnzK3hUTqwZchkP2CFMpt1dLynP8RwLc+ShuyhiAJS/qtL+ss7piZvEhENwpyE35iQ/WZbEpZXxo4396IE0Ris0vhaWshGqZ3xV8IMB8M6P65TL9+0tzQQfCZurjlCtgfWcWTQuvX7HyYdqs29EQZsyz4jprGI2lxozejz/TslPINa4YOK9QjA0Qu3GoWn/qRrW1G5GRRoe6vBbEhsPIJiVX6CrHqDqMORGdVvz7pJIg4QKzRUEfQj/ORmp6oT2zmVfahW3Amerc/m78XEpWGe9Wjlu8hCpUu+V0IAIPUQRkaW49bnUjeSMfOq4M4iyxIifSl9HD6RQTcHaqdwOjgmTi3wQ4uq4At5Nx0dxJ4YwgDaGRvcBP4krFOMlj0mChuQgZLrQIvlEtdUc7cEyxNibkYDOp1+/Qn5CsKrbKhY+jFoPjmbEpEqLmyOFlt5qtwzFMhZWRYvoOT6k9cqDEpF9+U8+XHKtN1KSLbzLy9qOq0CNuYqx0/im9fL37++Vl3lNzsE1/na7sDB/sZIAup5CTUY3HmQi6RK8th7hj/tw4dHePPTJa+viLw6wriO6syUyNi7d5BAabMRk9Wl0pqxaCGtVJsAsqw8Ubr0=
+
+%URL%
+https://github.com/jellyfin/jellyfin-mpv-shim
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1783111426
+
+%PACKAGER%
+Balló György <bgyorgy@archlinux.org>
+
+%DEPENDS%
+mpv
+python>=3.6
+hicolor-icon-theme
+python-mpv
+python-requests
+python-mpv-jsonipc>=1.1.9
+python-jellyfin-apiclient>=1.8.1
+tk
+
+%OPTDEPENDS%
+python-pystray: systray support
+python-pillow: TrickPlay thumbnail previews
+python-jinja: display mirroring support
+python-pywebview>=3.3.1: display mirroring support
+mpv-shim-default-shaders: default shader pack
+python-pypresence: Discord Rich Presence integration
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+gettext
+python-setuptools
+

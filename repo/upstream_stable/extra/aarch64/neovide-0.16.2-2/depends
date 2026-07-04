@@ -1,0 +1,26 @@
+%DEPENDS%
+libgcc
+libstdc++
+fontconfig
+libfontconfig.so=1-64
+freetype2
+libfreetype.so=6-64
+glibc
+hicolor-icon-theme
+libglvnd
+libjpeg-turbo
+libxkbcommon
+neovim
+sndio
+libpng
+harfbuzz
+libharfbuzz.so=0-64
+icu
+libicuuc.so=78-64
+expat
+zlib
+
+%OPTDEPENDS%
+vulkan-intel: vulkan support for intel
+libxkbcommon-x11: run on X11 (not needed for wayland)
+

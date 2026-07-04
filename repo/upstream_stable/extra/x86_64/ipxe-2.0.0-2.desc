@@ -1,0 +1,52 @@
+%FILENAME%
+ipxe-2.0.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+ipxe
+
+%BASE%
+ipxe
+
+%VERSION%
+2.0.0-2
+
+%DESC%
+Network bootloader
+
+%CSIZE%
+3439762
+
+%ISIZE%
+9039865
+
+%SHA256SUM%
+07320942d4ac4cf59b87d6a1ec201708d11ad6347384110c9bbb1f49c5d63320
+
+%PGPSIG%
+iHUEABYKAB0WIQQ+gMoai4n2nLpX2Yp2pe+QVESaXAUCakijUAAKCRB2pe+QVESaXHBLAP4/HISlLs7s76VoPq+T/PgN8zo1AUVBlsl62OyAWg8hfAD/aJYN666RAzE/xs/c5c9wCDyQ4mM2NYQZbY3LJ0149gw=
+
+%URL%
+https://ipxe.org/
+
+%LICENSE%
+0BSD
+GPL-2.0-or-later
+LicenseRef-UBDL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1783145251
+
+%PACKAGER%
+Pierre Schmitz <pierre@archlinux.org>
+
+%OPTDEPENDS%
+bash: for run_ipxe
+qemu-desktop: for run_ipxe
+edk2-ovmf: for run_ipxe
+
+%MAKEDEPENDS%
+cdrtools
+

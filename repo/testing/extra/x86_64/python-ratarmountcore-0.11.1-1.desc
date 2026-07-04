@@ -1,0 +1,76 @@
+%FILENAME%
+python-ratarmountcore-0.11.1-1-any.pkg.tar.zst
+
+%NAME%
+python-ratarmountcore
+
+%BASE%
+python-ratarmountcore
+
+%VERSION%
+0.11.1-1
+
+%DESC%
+Random Access To Archived Resources Library
+
+%CSIZE%
+412891
+
+%ISIZE%
+2406820
+
+%MD5SUM%
+df05b13dc9bdc7bffbe7e72c73708d96
+
+%SHA256SUM%
+b2b8777c9d3129016ba9789cd38d0a234165d06dd9e556a0337a472dfee3dcf6
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCajnnPwAKCRDglZ/qi1UFOfYvAQDea4FujKHh8CpMKaeVKVdZwfeigShqHaPBnNq3B8YY3AEA2naOfWdflv4KhsD/uy3GimoRDPFxKBXNFVvRsU5kKQE=
+
+%URL%
+https://github.com/mxmlnkn/ratarmount
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1782178900
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+python
+python-indexed-gzip
+python-indexed-zstd
+python-libarchive-c
+python-xz
+python-rapidgzip
+python-rarfile
+
+%OPTDEPENDS%
+python-rich: color coded files in cli
+python-pygit2: git support
+python-fsspec: for remote files
+python-aiohttp: for http:// via fsspec
+python-requests: for various web backends such as github:// via fsspec
+python-s3fs: for s3:// via fsspec
+python-smbprotocol: for smb:// via fsspec
+python-webdav4: for webdav:// via fsspec
+python-pysquashfsimage: for squashfs images
+python-isal: faster decompression of zlib-compressed squashfs images
+python-fast-zip-decryption: faster zip decryption
+python-py7zr: for password-protected 7z archives
+python-ext4: for EXT4 images
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
