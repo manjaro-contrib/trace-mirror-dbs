@@ -1,0 +1,97 @@
+%FILENAME%
+scrapy-2.17.0-1-any.pkg.tar.zst
+
+%NAME%
+scrapy
+
+%BASE%
+scrapy
+
+%VERSION%
+2.17.0-1
+
+%DESC%
+A fast high-level scraping and web crawling framework
+
+%CSIZE%
+707692
+
+%ISIZE%
+4483368
+
+%SHA256SUM%
+416415f16a2f55af94c2bea3d407a798c90641fbde9cada1dbefe278c765e463
+
+%PGPSIG%
+iQIzBAABCgAdFiEELjbYYgIhSC/EXLfyqRdkdZMmtEAFAmpM+ysACgkQqRdkdZMmtECG5A//Yv/+bUAw6NI+3SJkFbjKws+gRZuGDT8DC1EQCBwizl/SJ94wNhip+PeWWWWjdA64TVK+2gr0twqR8gY1bPVMwMC3nV+ZtuT+SF9AfCnonji8SBc/Sj9T+Qdf70QmImA3nYtqLLKMNVv/UhMwBBTgKx5kwg6LmIs2KAXFmkocs9tEDLa19ECDPeCBTmCwZFwTGE12+qEfWaWQqEJDOVZCSCDjFUJ8YveV/biUrte6o9LQGBUF3/sw4wAH+EBzliJ3lI6Cs4gJhgSiIdvwoJidPLeqykaEGKxf2iHbv8I5tJmpkKhdZIrhtr/nLLlsEp3oKktHj5UfQt6AYnmU+UzGABb72jkUVLcbMArus/ydb4KoKwVuun1C9bjiLBSIiLcxuZGvLpMAhKAblWLH19FtmqEM0vx6zg8Sb2hi/qyX91ysEG6QP1qftWWBu9mxyOmgTWCEsQW9ir+twgozE/5CkSm+4a1qnic+ax2G7Zlq45MhY9Y3/VbmSt6TmRI/KP2FZ+6ajuJ7x2cBiGPTQTt/+BM3M9bkcoJOYYpgoKaZaEJoEv9+LCUhlZ6Vtc1YkVKnlrvYi3gnE98RFaDZV5KyKO+aqSC42m8hNSpIZeYvIYdm6zvGMSbbDqSNQech9YvXHCqDi/a8Gr2j5VVrTHP3Aq8FFs/ldObI76vEzQ5Okkw=
+
+%URL%
+https://scrapy.org
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1783429169
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%DEPENDS%
+python
+python-cryptography
+python-cssselect
+python-defusedxml
+python-itemadapter
+python-itemloaders
+python-lxml
+python-packaging
+python-parsel
+python-protego
+python-pydispatcher
+python-pyopenssl
+python-queuelib
+python-service-identity
+python-setuptools
+python-tldextract
+python-twisted
+python-w3lib
+python-zope-interface
+
+%OPTDEPENDS%
+bpython: for ncurses support in cmdline
+ipython: for enhanced support of the interactive scraping shell
+python-botocore: for various utils
+python-brotli: for HTTP compression using brotli
+python-h2: for HTTP2 support
+python-hpack: for HTTP2 streaming support
+python-zstandard: for HTTP compression using zstandard
+
+%MAKEDEPENDS%
+git
+python-build
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+bpython
+ipython
+mitmproxy
+python-attrs
+python-botocore
+python-brotli
+python-h2
+python-httpx
+python-markupsafe
+python-pyftpdlib
+python-pytest
+python-pytest-twisted
+python-sybil
+python-testfixtures
+python-uvloop
+python-zstandard
+
