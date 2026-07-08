@@ -1,0 +1,67 @@
+%FILENAME%
+dms-shell-1.5.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+dms-shell
+
+%BASE%
+dms-shell
+
+%VERSION%
+1.5.0-1
+
+%DESC%
+A Quickshell-based desktop shell with Material 3 design principles
+
+%CSIZE%
+26723331
+
+%ISIZE%
+119617701
+
+%SHA256SUM%
+d1e29472816d75b59a7c319fc143a248d87e0fd21322fdcf91c3847fc76b99eb
+
+%PGPSIG%
+iQIzBAABCgAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmpOmZwACgkQqF6BHrTKLghc8Q/8DMJrjF7JilnKaiyDgJrmk4MFZwuJesnHkxju4VSsC6oIl5HM+sRtloO8bJombU0P9wAvUPe97PyLsfToyItumgg9x84Z+W875+qnlvm0nmDfTjq5ieoXbn90q2qofh6ueNmM/NUn3RvoESCJ7QctCuVXUfjQXtTPrtwRAqQwCWoonFVLCTYgPrmeW7Ybk8CajEDg3ggukbzadYOMM/0Me05nhxNYRVorAjpzVSSW47rfCq4z/ULQ4Y29cVCfvYElMbO7Ktx+Ruc52TOBoa/XkdB4NbcdPRExusBFBs1nn5CkSdEdQ6bqDQE/5BbxWIALR3tEKoOn/mQapt5nyQE+Ij6bFGVSnP/RTb6lNgCbFYarFRrzlFsj7O/QdE3y0dCnCUp+WHUsYHRAqZez9YJJkS5r8HdjCqILenNpGVMy0estbWERAnaStqMH9GypFX7G9KYjdlXomPay+/EA3D2zXCXP01kzpja4D7eS/r6+TnF7sAr3F18tK3TaOTgnRZXVpIq6LofCTadLn4YPwoMTQH7dUONYoeadrPwES52dddsO8+vxmzSur1hx7+2nNFe/LoqDiAIiu9c1B2HGUnfupUYHsJdhZDB/y4XkbHmu3DgbkNCGT1yNLpGbww+u/MmrdJLzdylAXlvL1n1wdIWHapR7wdAf85F5g2O7aqi97BU=
+
+%URL%
+https://github.com/AvengeMedia/DankMaterialShell
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1783533388
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%REPLACES%
+dms-shell-bin
+
+%DEPENDS%
+dgop
+accountsservice
+quickshell
+dms-shell-compositor
+
+%OPTDEPENDS%
+cava: Audio visualizer
+cups-pk-helper: Printer Management
+i2c-tools: External monitor brightness control
+iwd: Required for network managementa via iwd
+matugen: Dynamic wallpaper-based theming
+networkmanager: Required for network managementa via networkmanager
+power-profiles-daemon: Set power profile
+qt6-multimedia: Sound effect support
+qt6ct: Qt6 application theming
+systemd: Required for network managementa via systemd-networkd
+wtype: Paste from clipboard history and plugins
+
+%MAKEDEPENDS%
+go
+
