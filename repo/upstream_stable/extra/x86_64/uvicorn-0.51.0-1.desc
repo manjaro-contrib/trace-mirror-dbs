@@ -1,0 +1,65 @@
+%FILENAME%
+uvicorn-0.51.0-1-any.pkg.tar.zst
+
+%NAME%
+uvicorn
+
+%BASE%
+uvicorn
+
+%VERSION%
+0.51.0-1
+
+%DESC%
+The lightning-fast ASGI server
+
+%CSIZE%
+157129
+
+%ISIZE%
+970060
+
+%SHA256SUM%
+dc3ed876a507cd245c03f95aea7e218bbe036b6b02a886cbf36239267a1c8294
+
+%PGPSIG%
+iQIzBAABCgAdFiEElSIL6Zzm/3eK4NxnD2XH2IFQYTAFAmpOpZYACgkQD2XH2IFQYTBTkRAArWTBUQvP+/YSurv/V5A9SmOgbuP7sGAsXH98YjuJoW0WQPqDoeDmko+XpBS3x7Af05UJpNUqq1uAlPucsVe9cskD5FmrbfJawqzyZkSmFdVAKvewEKOVmwQQcA7ituPTfusnlEUxYTHe/Z2Bk59GDUsDfCj8sT1w1rNfNHjQkKfIBmlcxLfciNB66DtPo+txL5h4AuJCvIUqiHUjGVa8GeRqjP5YkazPg0NupoDyBzxWN9IpTmwyp+wZvCFfQWwZdplx0DMozlwCvBaHgjxX/c5v4joWoQ3IUdicbCvxJ6C/iYfFSGtHzQ96cLJw3JtsxeqSiLESmA/E9NYjwBIJbWO+Abkb7QGDwHlNBvBIh4Et6V1+3QOiMXx1fMebK5iwVFSdUfBezF3UqGyhNeqA6yI9Wc96z5oCRXEAlyoUcTyVd2m7JrLOSDj2hndL+3svCBVCKVr88asNC1CXaQ0gWx0G4JMmVGnKM5Yj4AxNwP4js8YUfiCTzCf3CJtpgkhHTRo0yANFR3e8i/Sbw5+hkIwqlWT9jZ113SbSqSLiuTUjFjbL9Yoorig3YOtk6s7T0RU+uvON5loMS40kOkS2nHUnAPXEQyHpA2oR1eGDdUEq7Y74tjaGK+9l8shi+TeMiltFtDF2BebEgxIDE9odnin/Pu4qFB4RJy6j0sOh20E=
+
+%URL%
+https://github.com/encode/uvicorn
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1783538896
+
+%PACKAGER%
+Maxime Gauduin <alucryd@archlinux.org>
+
+%DEPENDS%
+python
+python-click
+python-h11
+python-typing_extensions
+
+%OPTDEPENDS%
+python-a2wsgi: for WSGI support
+python-dotenv: for --env-file support
+python-gunicorn: for Gunicorn workers
+python-httptools: for faster HTTP protocol handling
+python-pyyaml: for --log-config with YAML
+python-uvloop: for faster event loop
+python-watchfiles: for --reload support
+python-websockets: for WebSocket support
+python-wsproto: for WebSocket support
+
+%MAKEDEPENDS%
+git
+python-build
+python-hatchling
+python-installer
+
