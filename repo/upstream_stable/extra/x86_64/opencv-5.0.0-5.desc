@@ -1,0 +1,101 @@
+%FILENAME%
+opencv-5.0.0-5-x86_64.pkg.tar.zst
+
+%NAME%
+opencv
+
+%BASE%
+opencv
+
+%VERSION%
+5.0.0-5
+
+%DESC%
+Open Source Computer Vision Library
+
+%CSIZE%
+33307737
+
+%ISIZE%
+115549962
+
+%SHA256SUM%
+53fe49318c06f6a83e954ce13970ad36f44d2dc12e3b57e1b9ba1223c4f4b73b
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmpOztUACgkQek52CV2KUuSxIwf/fQbP/3MlWLcq2oXGdJj/DUtIIndspSneFREsWAiIHf63vEKNcFvhlcFyM7l4fmwKgCTvunJMzzhWFJg7W2VFVA2fx+1SvQWxUP4ylekp55B2tmyTwsDKuwrY16k63imB1uVyoB5mf/mkkB4ktHf+o1fBsGNUpyw62Oi84HpNgfTBH0BjM2gXZMxvmszvT9MfsKNZBIRqJ2wPxqaTIuqgEZrY7KrRx59WvXD3xeZIIB8yLWzsu0XxTpCDk4iERobyWG1oSnYMESiIF10sNMq7SV1jIEh96UTAmWGVSlQWjzzmSYz5pa0huNDM7YtrcqcI8aR/a9c4g3KVDLbQSK+JMw==
+
+%URL%
+https://opencv.org/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1783547998
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+abseil-cpp
+cblas
+ffmpeg
+freetype2
+glib2
+glibc
+gst-plugins-base
+gst-plugins-base-libs
+gstreamer
+harfbuzz
+lapack
+libdc1394
+libgcc
+libglvnd
+libjpeg-turbo
+libjxl
+libpng
+libstdc++
+libtiff
+libwebp
+openexr
+openjpeg2
+verdict
+protobuf
+tbb
+zlib
+
+%OPTDEPENDS%
+opencv-samples: samples
+vtk: for the viz module
+glew: for the viz module
+qt6-base: for the HighGUI module
+hdf5: for the HDF5 module
+opencl-icd-loader: For coding with OpenCL
+java-runtime: Java interface
+
+%MAKEDEPENDS%
+ant
+cmake
+cuda
+cudnn
+eigen
+fast_float
+fmt
+git
+glew
+hdf5
+java-environment
+lapacke
+mesa
+nlohmann-json
+openmpi
+pugixml
+python-numpy
+python-setuptools
+qt6-5compat
+vtk
+
