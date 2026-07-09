@@ -1,0 +1,74 @@
+%FILENAME%
+imlib2-1.12.6-2-x86_64.pkg.tar.zst
+
+%NAME%
+imlib2
+
+%BASE%
+imlib2
+
+%VERSION%
+1.12.6-2
+
+%DESC%
+Library that does image file loading and saving as well as rendering, manipulation, arbitrary polygon support
+
+%CSIZE%
+591716
+
+%ISIZE%
+1552749
+
+%SHA256SUM%
+93e52772980f24eaf2503522e00c4cc4166458bacc770b35d471c3b24e190d1e
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCaktR6AAKCRBtQr3RFuAGj3y6AP47ZR6CpQSRGfRky/egwDMsXLNn6JF6MbZiIpZV3w8cpgEA2b8kvVZza5JlOIMbGX2V+n+3Mz+zJv4glU3NEKegfAk=
+
+%URL%
+https://sourceforge.net/projects/enlightenment/
+
+%LICENSE%
+BSD
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1783320983
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%PROVIDES%
+libImlib2.so=1-64
+
+%DEPENDS%
+bzip2
+freetype2
+giflib
+libjpeg-turbo
+libpng
+libtiff
+libxext
+xz
+
+%OPTDEPENDS%
+libheif: HEIF loader (for AVIF)
+libid3tag: ID3 loader
+libjxl: JXL loader
+librsvg: SVG loader
+libspectre: PS loader
+libwebp: WEBP loader
+openjpeg2: J2K loader
+
+%MAKEDEPENDS%
+highway
+libheif
+libid3tag
+libjxl
+librsvg
+libspectre
+libwebp
+openjpeg2
+
