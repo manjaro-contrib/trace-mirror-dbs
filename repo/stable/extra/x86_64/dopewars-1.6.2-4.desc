@@ -1,0 +1,68 @@
+%FILENAME%
+dopewars-1.6.2-4-x86_64.pkg.tar.zst
+
+%NAME%
+dopewars
+
+%BASE%
+dopewars
+
+%VERSION%
+1.6.2-4
+
+%DESC%
+Turn based strategy game based on "Drug Wars" from 1984
+
+%CSIZE%
+445715
+
+%ISIZE%
+1303684
+
+%MD5SUM%
+53bd68ebc1d8b0e686ee8308ecaaf91d
+
+%SHA256SUM%
+cfd2b87363f256bc4a0f35bb68564db4d1cfa6bf1111176db675c23f669130e3
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaktfLgAKCRDglZ/qi1UFOXIMAP4ktLZW+kndAD9UNB7l3WLIDXD82bvUx+idzv5vrV25NQEA44dT3JrcDludLRsBYCpZAXHZgoL2FMJMXCnelDE6jAw=
+
+%URL%
+https://dopewars.sourceforge.io
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1783324180
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+gtk3
+glibc
+ncurses
+libncursesw.so=6-64
+curl
+libcurl.so=4-64
+
+%OPTDEPENDS%
+sdl2: for the graphical interface
+alsa-lib: for audio
+audiofile: for audio
+sdl2_mixer: for audio
+
+%MAKEDEPENDS%
+git
+alsa-lib
+audiofile
+gendesk
+sdl2
+sdl2_mixer
+ncurses
+

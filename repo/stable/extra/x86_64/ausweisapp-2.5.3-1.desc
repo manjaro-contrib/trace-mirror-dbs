@@ -1,0 +1,64 @@
+%FILENAME%
+ausweisapp-2.5.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+ausweisapp
+
+%BASE%
+ausweisapp
+
+%VERSION%
+2.5.3-1
+
+%DESC%
+official client for using the German electronic ID card (eID)
+
+%CSIZE%
+3947352
+
+%ISIZE%
+7121259
+
+%MD5SUM%
+caac3c41a116632a6c0c471b0aefdc4a
+
+%SHA256SUM%
+dafb7c3828a7a72e50e21cea41d41be10153bb7ade6e80939c990e1e7d0e435e
+
+%PGPSIG%
+iHUEABYKAB0WIQQatsJ4/0Eim890eyyN/bV1sFOMXQUCajk6DwAKCRCN/bV1sFOMXaphAP4huDTE/tQJhzjnG0kxOle6AiDU8br3Grvr8ZfW3vzWMwEArehXbzZtQRchytiUz34K2UcUdT7Xs6W+kHRaB/oYfgY=
+
+%URL%
+https://www.ausweisapp.bund.de/
+
+%LICENSE%
+EUPL-1.2
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1782130267
+
+%PACKAGER%
+Jonathan Grotelüschen <tippfehlr@archlinux.org>
+
+%DEPENDS%
+qt6-declarative
+qt6-svg
+qt6-websockets
+qt6-scxml
+pcsclite
+llhttp
+
+%OPTDEPENDS%
+ccid: driver for generic smart card readers
+acsccid: driver for ACS card readers
+pcsc-cyberjack: driver for CyberJack card readers
+
+%MAKEDEPENDS%
+cmake
+qt6-tools
+ninja
+pkgconf
+

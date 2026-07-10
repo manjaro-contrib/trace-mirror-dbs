@@ -1,0 +1,84 @@
+%FILENAME%
+python-keystoneauth1-5.15.0-1-any.pkg.tar.zst
+
+%NAME%
+python-keystoneauth1
+
+%BASE%
+python-keystoneauth1
+
+%VERSION%
+5.15.0-1
+
+%DESC%
+Authentication Library for OpenStack Identity
+
+%CSIZE%
+557693
+
+%ISIZE%
+4769272
+
+%MD5SUM%
+a6bc281fd5ec4fe73c212ba46136401e
+
+%SHA256SUM%
+d824068b5f6aba81b9d4e9168ce8cf6a50125220226e9ac5cec7c7c3c7ff9f53
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmpIB8sACgkQeGxj8zDXy5LuVQ//a4/ajL4IPDwI71BpvkAQTxhrFCz+kcqNnbsMsDsN/x5m3IOlnvEYh0rq8oxnz3tj4z8zBsHhgQkF0kPRQjRnRlHPgFAbUJ7en3T2qczAS71tbyzTC3TVVfyRHvFbpqjhS9XGMZowgQPYvm9TRGC17M6dCh2nutp/+PyDSXh879uR4g0nDV+VATWgoDaC4R5xHEHmwnEgjtiSCMKV2nQsFZhPfHwifwkzjPmicDlLD1d31BJ2EBlDfdLZ1ZRTXgiOkF5Cuq7uvX1caJ9D2rbGf9hOzJZQCeXWxa01Ixspm78M148dw8iBdSIgitT/9QeN3HjXu/aATGtEEzWHP8fKd4QK3XjDbRHKkb//CXNd2x30mibS+BtQ08OGUtSSVZQp8dnENPMdUDjE2spSTKqvdRhYK4eVEE/KxXkLRj0HvmlIiBNPVlNZTYvpH8i8t8RogVxqwoMLyde66xKdLeqcN29psaESFWLyAwyiO188GUtHtTm27C6fOe+ApI5W/DbX776eo09p81mKCmC7/r/fSImpKjCboPTBWr5COz7mBOERKgjez9OClXsaYkUCsZs37g/3mDy22yUvWiQygdu8NsArK+a5kOXYh5R8k9cIpKHswa6iMCGe+hju9mmKCm5teKiDm2ckar+vlaUSRmxzMbe7U+RHClp6A7b0VSXvdTI=
+
+%URL%
+https://docs.openstack.org/keystoneauth/latest/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1783102699
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python-iso8601
+python-stevedore
+python-os-service-types
+python-requests
+python-typing_extensions
+
+%OPTDEPENDS%
+python-requests-kerberos: for kerberos support
+python-lxml: for saml2 support
+python-oauthlib: for oauth1 support
+python-betamax: for betamax support
+python-fixtures: for betamax support
+python-yaml: for betamax support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-pbr
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-hacking
+python-oslo-config
+python-oslo-utils
+python-oslotest
+python-betamax
+python-fixtures
+python-requests-mock
+python-stestr
+python-testresources
+python-testtools
+python-yaml
+python-requests-kerberos
+python-lxml
+python-oauthlib
+
