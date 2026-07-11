@@ -1,0 +1,97 @@
+%FILENAME%
+fastfetch-2.66.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+fastfetch
+
+%BASE%
+fastfetch
+
+%VERSION%
+2.66.0-1
+
+%DESC%
+A feature-rich and performance oriented neofetch like system information tool
+
+%CSIZE%
+649056
+
+%ISIZE%
+2021538
+
+%MD5SUM%
+a0e9ca71cdc7104f616228a05a73814f
+
+%SHA256SUM%
+ff09e3c9aab3b7e9cb8f985e7bd461575856fc8f9aa94a7cfe17f784fdb4f7c7
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmpQrGUACgkQ/cMEC5Ksp0ikGA//fdIK+WpXSW+RtriTWBW4ngRrgYVqATvAgL6Khycn83ixuavNzfHy0T/4vTzHfrLC2VojVfIsiLN22yOd17k9kZP7L8SDLvXz7befJ1/4kKyXX0RkdKaob0UKYkaJiGz8LbBxZryXlPPdPV73+NG50SJ/0JXDv3+ipRAdDFA0LkzQ+KZSzsyb0cC4HXG81Ww9ZGRG9ASfxQhdClIvJqgH7CbZJGEEbHvcaubjL8froAiNRmjrrTjKF5I8Gb+1/nfqpss+joRdm1MC5ediXIZ1+YxGUd/lm+HzlxQJ3hzrQF3goI2sqqhil/b8MlTknIn0QUOJFTRmdmjC6+5h5fp1yN9MyATC+4/h3UsuPO1zzDX6DHv+vj3T5mdcwQWxpRq5D7OG9Go8TGM4r40YNOMfExOQB8LwDlb4OjdKqNf629bAUbFaUUOSnAWlcF4lf3dQzgTSEtxMvMem04ipv4bB6kryKdBnw3OnMZ0eNVeHovvhFGGSIUUAl0JNskPaYvoomErZ9++iWdF2KORfTbbhPAo49BgqtBCLZiyUq1iwXIJn1VaL4n50jZWhG7EtcHq3J+u6Out9t6/7JPTlAM13iNpVBB3Ia++MeELcmOw7aW4Bzah2d+O7uT+cXyg1HPyyiF2Qb0hvyCLyNQAdPQjUWA7G1Rg5KvApQmcHqcdrIiI=
+
+%URL%
+https://github.com/fastfetch-cli/fastfetch
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1783671867
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+glibc
+yyjson
+
+%OPTDEPENDS%
+chafa: Image output as ascii art
+dbus: Bluetooth, Player & Media detection
+dconf: Needed for values that are only stored in DConf + Fallback for GSettings
+ddcutil: Brightness detection of external displays
+glib2: Output for values that are only stored in GSettings
+hwdata: GPU output
+imagemagick: Image output using sixel or kitty graphics protocol
+libdrm: Displays detection
+libelf: st term font detection and fast path of systemd version detection
+libglvnd: OpenGL module
+libpulse: Sound detection
+libva: Primary backend of hardware-accelerated video codec detection
+libvdpau: Fallback backend of hardware-accelerated video codec detection
+libxrandr: Multi monitor support
+lua: Lua scripting in format section of JSON config
+ocl-icd: OpenCL module
+quickjs-ng: JavaScript scripting in format section of JSON config
+python: Needed for zsh and fish completions
+sqlite: Needed for Sqlite integration and Soar packages count
+vulkan-icd-loader: Vulkan module & fallback for GPU output
+zlib: Faster image output when using kitty graphics protocol
+
+%MAKEDEPENDS%
+chafa
+cmake
+dbus
+dconf
+ddcutil
+efl
+imagemagick
+libglvnd
+libpulse
+libva
+libvdpau
+libxcb
+libxrandr
+lua
+ocl-icd
+opencl-headers
+quickjs-ng
+sqlite
+vulkan-headers
+vulkan-icd-loader
+wayland
+xfconf
+zlib
+
