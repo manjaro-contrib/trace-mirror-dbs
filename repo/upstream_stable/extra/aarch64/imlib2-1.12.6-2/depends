@@ -1,0 +1,22 @@
+%DEPENDS%
+bzip2
+freetype2
+giflib
+libjpeg-turbo
+libpng
+libtiff
+libxext
+xz
+
+%PROVIDES%
+libImlib2.so=1-64
+
+%OPTDEPENDS%
+libheif: HEIF loader (for AVIF)
+libid3tag: ID3 loader
+libjxl: JXL loader
+librsvg: SVG loader
+libspectre: PS loader
+libwebp: WEBP loader
+openjpeg2: J2K loader
+
