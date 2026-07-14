@@ -1,0 +1,61 @@
+%FILENAME%
+bacon-3.24.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+bacon
+
+%BASE%
+bacon
+
+%VERSION%
+3.24.0-1
+
+%DESC%
+A background rust code checker
+
+%CSIZE%
+3109007
+
+%ISIZE%
+7828376
+
+%SHA256SUM%
+44b969c03287946443fce3636b7d28ead6be4575efb8419f3771831a64bf9a15
+
+%PGPSIG%
+iQIzBAABCgAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmpV+64ACgkQqF6BHrTKLgierRAAsJrdOvGVv2z02geT9ITzeTUusILk3xVY0bqUux8KN/brTT/GlG0FYrU/NeKc8Vljp3sXepHsAlec11s5DuguLUnDxqmGXxZhviqILaF7bRIzeCu+LxIMprLNSdZPSXLgUCTwirR52IjBonp/lZOfItnn5mMOmMsP7VzjfXIaPHHu0m1AE3zg2W44B/hZYFHExBDoDWfwJ3vB9MsjI/znws8VW7pHCDaYxclsApT6TIEZkzuFs4xCBatDQyXiDPLPF6K4uqZaaNNd99GZYjgYix0afn+egKP17wZG5IKuHpogCZqXlk3Q0VuFRpdSTGG1I+5dhGSplef66WWtkei9ueVV/eLja6a+i7MB1z2Errfi4RA2hNuH/g7sEGugu3v5hlBABta3hyIV+z+8m8c6mMXv3jgP2vLXofOZEtwyAFyXyDyK+dvtnAvFhIVvwd4Kn+Mr+5oOv1M1jKTF5qa1K/Xs/KJk2M9uc2YaNybaqVfjmMPGCUw6q6FPqB7lkAVKniahW+lJvN/yk50vnod/E5YrenQSFDLMWQpY1FGfWxMU/T1mfygmu9O7uSAkwynoVd4uur/TvqgUiyCfR13tPocA+wFizOxEEqXwUBHP0DM0rtjBKTO6XgrTeEoSJrKhwK8hBvEUk1aJL0mvbvzROmkROMMjELo85AppcfFMHcY=
+
+%URL%
+https://dystroy.org/bacon
+
+%LICENSE%
+AGPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1784019666
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%DEPENDS%
+alsa-lib
+libasound.so=2-64
+glibc
+libgcc
+libgcc_s.so=1-64
+
+%OPTDEPENDS%
+cargo: for use with Rust
+clang: for use with C++ via clang
+gcc: for use with C++ via gcc
+eslint: for use with JavaScript
+python: for use with Python via unittest
+python-pytest: for use with Python via pytest
+
+%MAKEDEPENDS%
+git
+cargo
+
