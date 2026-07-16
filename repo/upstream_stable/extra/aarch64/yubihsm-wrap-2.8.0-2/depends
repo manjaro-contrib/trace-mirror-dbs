@@ -1,0 +1,10 @@
+%DEPENDS%
+glibc
+libyubihsm
+libyubihsm.so=2-64
+openssl
+libcrypto.so=3-64
+
+%OPTDEPENDS%
+yubihsm-udev-rules: for accessing YubiHSM2 devices over USB using the _yubihsm2 group membership
+
