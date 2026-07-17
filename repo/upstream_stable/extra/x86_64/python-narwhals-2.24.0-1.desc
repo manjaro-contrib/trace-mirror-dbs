@@ -1,0 +1,64 @@
+%FILENAME%
+python-narwhals-2.24.0-1-any.pkg.tar.zst
+
+%NAME%
+python-narwhals
+
+%BASE%
+python-narwhals
+
+%VERSION%
+2.24.0-1
+
+%DESC%
+Extremely lightweight and extensible compatibility layer between dataframe libraries
+
+%CSIZE%
+917275
+
+%ISIZE%
+8139573
+
+%SHA256SUM%
+f9eb94b572d7abb6814334a280243cfe5c2e0ae8c710166c1ebdc6fcbe51ee0d
+
+%PGPSIG%
+iHUEABYKAB0WIQQ4EAwkN2zV9u1P9LRpGEAMJwMEDAUCalksqwAKCRBpGEAMJwMEDElaAP9P8Jv+vk+LbZi2cLnl/OlaJQVTBlnP66w4uNQcawcyiAD+KoDVoKofe3yFzRsQmUjCN3tY85KFh9ktDT2NOfCyQwo=
+
+%URL%
+https://narwhals-dev.github.io/narwhals/
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1784228923
+
+%PACKAGER%
+Bert Peters <bertptrs@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-pandas: for Pandas support
+python-pyarrow: for PyArrows support
+python-polars: for Polars support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-uv-build
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-env
+python-hypothesis
+python-pandas
+python-pyarrow
+python-polars
+
