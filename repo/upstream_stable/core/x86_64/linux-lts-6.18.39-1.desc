@@ -1,0 +1,120 @@
+%FILENAME%
+linux-lts-6.18.39-1-x86_64.pkg.tar.zst
+
+%NAME%
+linux-lts
+
+%BASE%
+linux-lts
+
+%VERSION%
+6.18.39-1
+
+%DESC%
+The LTS Linux kernel and modules
+
+%CSIZE%
+151163612
+
+%ISIZE%
+151457528
+
+%SHA256SUM%
+d40c8e9d2df1239836bca731db5f3f89c843509d6a416af2ea7ab1e4768dd4f9
+
+%PGPSIG%
+iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmpbxg0ACgkQlGV6sg8qCSvSqQf+Pqm6I6cCYbMFEklW0t1GvtyQ9tpInYHIxO0v8tlXbHQXDQpwlPNLKmiK3uhU0jJQyTrHgrPhUuny4gWhWLvxJk+PupyK/07HQV1qKrIdeux/6a+bA72wkDtJSoadqx9jo46HrkaZT2goXkiCEgPjCvxijPe0jUYCu7Fy1C9HIsYXRQddbOy1x0YsHJt9V0G5JjPnNwxwotpVGGZEGHNtECttxfn3LVDmzzq8ZVqaNbNMg23F+ZtWgJnWZkBDoU7JlWsGsV7Xi9klC/3CVSLd+O/Ge/caYxN0b/iwBGkkfOuFe2oszoLTeCK/WsoqF1CYetdUPYMFZmbU9yA5mPPGhw==
+
+%URL%
+https://www.kernel.org
+
+%LICENSE%
+Apache-2.0 OR MIT
+BSD-2-Clause OR GPL-2.0-or-later
+BSD-3-Clause
+BSD-3-Clause OR GPL-2.0-only
+BSD-3-Clause OR GPL-2.0-or-later
+BSD-3-Clause-Clear
+GPL-1.0-or-later
+GPL-1.0-or-later OR BSD-3-Clause
+GPL-2.0-only
+GPL-2.0-only OR Apache-2.0
+GPL-2.0-only OR BSD-2-Clause
+GPL-2.0-only OR BSD-3-Clause
+GPL-2.0-only OR CDDL-1.0
+GPL-2.0-only OR Linux-OpenIB
+GPL-2.0-only OR MIT
+GPL-2.0-only OR MPL-1.1
+GPL-2.0-only OR X11
+GPL-2.0-only WITH Linux-syscall-note
+GPL-2.0-or-later
+GPL-2.0-or-later OR BSD-2-Clause
+GPL-2.0-or-later OR BSD-3-Clause
+GPL-2.0-or-later OR MIT
+GPL-2.0-or-later OR X11
+GPL-2.0-or-later WITH GCC-exception-2.0
+ISC
+LGPL-2.0-or-later
+LGPL-2.1-only
+LGPL-2.1-only OR BSD-2-Clause
+LGPL-2.1-or-later
+MIT
+MPL-1.1
+X11
+Zlib
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1784398261
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%REPLACES%
+wireguard-lts
+
+%PROVIDES%
+KSMBD-MODULE
+NTSYNC-MODULE
+VIRTUALBOX-GUEST-MODULES
+WIREGUARD-MODULE
+
+%DEPENDS%
+coreutils
+initramfs
+kmod
+
+%OPTDEPENDS%
+linux-lts-headers: headers and scripts for building modules
+linux-firmware: firmware images needed for some devices
+scx-scheds: to use sched-ext schedulers
+wireless-regdb: to set the correct wireless channels of your country
+
+%MAKEDEPENDS%
+bc
+binutils
+cpio
+gettext
+glibc
+libelf
+libgcc
+openssl
+pahole
+perl
+python
+rust
+rust-bindgen
+rust-src
+tar
+xxhash
+xz
+zlib
+zstd
+graphviz
+imagemagick
+python-sphinx
+python-yaml
+texlive-latexextra
+
