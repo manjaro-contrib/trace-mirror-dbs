@@ -1,0 +1,85 @@
+%FILENAME%
+ggml-0.17.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+ggml
+
+%BASE%
+ggml
+
+%VERSION%
+0.17.0-1
+
+%DESC%
+Tensor library for machine learning
+
+%CSIZE%
+168096059
+
+%ISIZE%
+1435703318
+
+%SHA256SUM%
+1d0caf9173c943733d4417f5feb0e448ecf157695145b6a7233a900f772115b0
+
+%PGPSIG%
+iQIzBAABCgAdFiEElSIL6Zzm/3eK4NxnD2XH2IFQYTAFAmpc6h0ACgkQD2XH2IFQYTBSGw//TDpvn+0237SRVkU9nd/0l7CdSIfUHOV1SjK4SLbDeJVPjkKQSvCAQGsdcUsNSZRDcyFHzg9Q408C/tC6ci9H/z/hY4okEn2hfPIj5htnOvKcx/V6ZmnGq8gcz7vA7+gy85mRcWv/DOZ4g45HUX+zGQiqsKsiUnwPHIZfRJ6aQt8wrdj5V6g5eJe6FhKwoGSyA6xHGQwQe1P6AyCbeha8TN3+KWTjY+C91lQhcwQAkw2DCkFLtZtseLMQfjqeumTckhg8qV7NXUbUHhooYv+6V/FIxJ0jjrj8RfQPichUwwSnTnHxXe4J4WhsNjcVuYHsrQYCqjJ4wMn/JxuaVy2kU47eA1/b+Yd+42P2fig4VSW9/zk5uffT71VNhyaefRK/jTKWhqadyfl5r7Npv85x+j54Ypsbk1EJ5mQeHpt8C34UYod88ji7Nv01ELd3qo0wqBViwGtlbUHF1xYxgqhcshi4Dot7S2sc7jQCXFnbcROuWWjp6sRsywhNTZCmltz0HFvvZNlStu7Arm3XybZ+t82j3d5sy0CpBhal4OMFfliifIoPhQ3pOCG17tkm49Jk3kuU9tNNzZDohTaHpmAtt43gbm/P8Uiq/32oyVn2N5Y+iMlHcbTdEXI81WMmjZ4drGX7A8iB84Dx2dVxTfIx+vDQns6N1p7Y/twvxfMcCzA=
+
+%URL%
+https://github.com/ggerganov/ggml
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1784472545
+
+%PACKAGER%
+Maxime Gauduin <alucryd@archlinux.org>
+
+%CONFLICTS%
+ggml
+
+%PROVIDES%
+ggml
+ggml-blas
+ggml-cpu
+ggml-cuda
+ggml-rocm
+ggml-vulkan
+
+%DEPENDS%
+glibc
+libgcc
+libgomp
+libstdc++
+
+%OPTDEPENDS%
+cuda: CUDA backend
+nccl: CUDA backend
+openblas: BLAS backend
+hipblas: ROCm backend
+rocblas: ROCm backend
+rocm-hip-runtime: ROCm backend
+vulkan-icd-loader: Vulkan backend
+
+%MAKEDEPENDS%
+cmake
+cuda
+git
+intel-oneapi-toolkit
+level-zero-headers
+nccl
+ninja
+openblas
+procps-ng
+rocm-hip-sdk
+rocm-toolchain
+shaderc
+spirv-headers
+vulkan-headers
+vulkan-icd-loader
+
