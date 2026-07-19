@@ -1,0 +1,56 @@
+%FILENAME%
+btrbk-0.32.7-1-any.pkg.tar.zst
+
+%NAME%
+btrbk
+
+%BASE%
+btrbk
+
+%VERSION%
+0.32.7-1
+
+%DESC%
+Tool for creating snapshots and remote backups of btrfs subvolumes
+
+%CSIZE%
+112448
+
+%ISIZE%
+414442
+
+%SHA256SUM%
+4af72cc9cf1ab4304dda6c0daa000db483267a2c1fadaff35bfe50f2103f46bc
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCal1AbgAKCRCbeih9mi7GCMmgAP9+QV10q4Yzw+Ot8Gdv2cWQq+7065t769xXPXX+iKnjNQD/bRq1utZBavmADwphL8ag+EcdMZbU2+CWJx7haResTw8=
+
+%URL%
+https://github.com/digint/btrbk
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1784496227
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+btrfs-progs
+perl
+
+%OPTDEPENDS%
+bash: for contrib scripts
+mbuffer: for rate limiting and progress bars
+openssh: for transfering backups to/from remote hosts
+perl-io-aio: for faster calculation of extent maps
+python: for contrib scripts
+
+%MAKEDEPENDS%
+asciidoctor
+
