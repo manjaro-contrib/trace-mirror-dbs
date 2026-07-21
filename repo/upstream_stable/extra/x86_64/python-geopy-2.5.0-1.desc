@@ -1,0 +1,71 @@
+%FILENAME%
+python-geopy-2.5.0-1-any.pkg.tar.zst
+
+%NAME%
+python-geopy
+
+%BASE%
+python-geopy
+
+%VERSION%
+2.5.0-1
+
+%DESC%
+Geocoding library for Python
+
+%CSIZE%
+161639
+
+%ISIZE%
+1222604
+
+%SHA256SUM%
+e7e28fb1d8c30421a8952bae456a540bcf7060878043e03e2b9e98686af8ec13
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCaldgrwAKCRCbeih9mi7GCJXrAQDHMoGBFjfJ1VgUDlgshhF1KNN9j1VHP3RY614k+S6QKwEA+c+MVHy4Wio7X+pSEtYAT/wMHbiMTRIvK8kb+fLYewk=
+
+%URL%
+https://github.com/geopy/geopy
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1784110669
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-geographiclib
+
+%OPTDEPENDS%
+python-aiohttp: for async http support
+python-pytz: for timezone support
+python-requests: for requests support
+python-urllib3: for requests support
+python-yarl: for async http support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-aiohttp
+python-docutils
+python-pytest-asyncio
+python-pytest-aiohttp
+python-pytest
+python-pytz
+python-requests
+python-urllib3
+python-yarl
+
