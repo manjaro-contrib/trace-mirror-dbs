@@ -1,0 +1,70 @@
+%FILENAME%
+python-rarfile-4.3-1-any.pkg.tar.zst
+
+%NAME%
+python-rarfile
+
+%BASE%
+python-rarfile
+
+%VERSION%
+4.3-1
+
+%DESC%
+Python module for RAR archive reading
+
+%CSIZE%
+131247
+
+%ISIZE%
+771033
+
+%MD5SUM%
+755e81efd0b37c7f7910b2626af9f358
+
+%SHA256SUM%
+7aa8b166c28a5cd7e7e7d5abb9c40df7088842a089fc4e74531b6a318bf220ef
+
+%PGPSIG%
+iQIzBAABCgAdFiEEFORv5f1p8uKH4kTbYyw8wNHJyvYFAmpTgnoACgkQYyw8wNHJyvZOgw//ftfQcY6va6ia4ohkIPCYA6KGDxDW34lSfV8vywumI4DdDGVUo77ix7QMwjTopqOUrZLFvORkDgNw+uewbdF0ggXlqXFTvUtU7c5t1c530hw/yaBM20mLyC9fHLKYr3/7oOw7JobRsLzeZfKo7j17ZDHcNL3hBDfxsERIT60f+nj778yONoWk73Ql2NvohTPvAikBXNkHbJH6Fd62p/CRpfhM2eMHwfrzQwUvh3ZYilUqJAjT++w6rW/fhDQRaVItCdrL+dsPfDMJgWelHcNhAoroa2DCru621n4JA7OYvgMPXKeXDW7eMCPUkENC9wXODuRs4EJYHw2b9f5WqeS0APctmsyhKXsI1Gljriw5bGbS0JFT2sZtStdfkgWbLMq5RufeX8gW/PIwwW+vxI8hDZT+JZk4A70V/IA8KHUnvXP5F25nAHZPWcr2N6B/h9vlFd5OyoFloZArMwW0h5+xKWlbDD0LAYWQ0VNlFx6vVhx08bBy1LVxylt6j8WqxhfqfnHrK5P+ugEdu8LNQXP7QGR5d0R75FLhyF1IgJTP0AMsGIaoIPgk16fEPI2Ge3y6zyQz4kxFOa+DsPupq+ITnWmYwztprklCMr5bobHIAjnO8MIdZOdoHDixp+K1+WLDjcVuoMuf/ABqwDjSt1cxT9blswa5OrgDnNNIlS4ATsM=
+
+%URL%
+https://github.com/markokr/rarfile
+
+%LICENSE%
+ISC
+
+%ARCH%
+any
+
+%BUILDDATE%
+1783857741
+
+%PACKAGER%
+Balló György <bgyorgy@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+p7zip: Alternative decompression backend
+python-cryptography: Process archives with password-protected headers
+python-pycryptodome: Alternative crypto backend
+unarchiver: Alternative decompression backend
+unrar: Recommended decompression backend
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-sphinx
+python-wheel
+
+%CHECKDEPENDS%
+p7zip
+python-cryptography
+python-pytest
+unarchiver
+unrar
+
