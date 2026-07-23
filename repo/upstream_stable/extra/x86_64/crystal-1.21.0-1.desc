@@ -1,0 +1,67 @@
+%FILENAME%
+crystal-1.21.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+crystal
+
+%BASE%
+crystal
+
+%VERSION%
+1.21.0-1
+
+%DESC%
+The Crystal Programming Language
+
+%CSIZE%
+5189149
+
+%ISIZE%
+25665149
+
+%SHA256SUM%
+6fab04249e9eda16a16a3324fd618bd964c139e83efa7d771c535768c7bd33ec
+
+%PGPSIG%
+iQJJBAABCgAzFiEEBR6tamFVOJ1p2gLl63Y7Tp24h6YFAmpiC/MVHGZveHh4MEBhcmNobGludXgub3JnAAoJEOt2O06duIemAJgP/ile9qSFf4ZyKa5qu7+npyoMmZV9XkbOLow1Fh4UwM0r/ogjzksFTbXHsPGmRtoN6IzGibXGx3zqlXNw7MbnnqiCF7gXFBMYR1+2r6tCUmt+4jNLGIWauPnz0LxEhog77goNhrm8WAD5aUPT6aH2UonyVXyKUVNkCtztTCmHgWvXUXWhKd5aRw3DdCF/DP0NiwmXwiLLCuBqrCO42Nu4chBUUSa1iou1MdYlQ02uWswaefRFjT625oL0D9dZyw11FRv2wTRHd+ZrhiW61brH5VdZl7knT1AMqLIJKfZehclmWkVrMpCzjXUDnEIAWXwMySpGJlsxBYAb0Vmfdi8E5FnWT4uCIoUz5wB0EUQ7qMtJbCptrtBZgI9RJzvyPOtyg2ZzHBm43rkH5QR0X2sBTIBEgK9mE7cjQR/xCRP2LWy0cQpPcBJfwvaHgBn38HjqcYtTCWUmvaAXCfcHZtcbyeU8wh3NWisS2mVsfgXcrlUNxGLrn6fMdEBFSQI/jVP8Q+LK+xwLJGBeKXfxN9bsfAJgqOCpkAMtOviEgRuPwTt8v8jEwX9uEUW8d62znWWJcovEUPsC1C5dX4bv/yV5nKckYOMPf9bs3CIJxDMACytqOPBIkIwzeNbPGkCt+3BRDxkoIrEJ7ZLhyLnFVbU+HHPDvGg+E31Qumeqzspn/3K6
+
+%URL%
+https://crystal-lang.org
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1784810097
+
+%PACKAGER%
+Thore Bödecker <foxxx0@archlinux.org>
+
+%DEPENDS%
+gc
+pcre2
+libevent
+llvm-libs
+
+%OPTDEPENDS%
+shards: crystal language package manager
+libyaml: For YAML support
+gmp: For BigInt support
+libxml2: For XML support
+
+%MAKEDEPENDS%
+libxml2
+llvm
+asciidoctor
+crystal
+
+%CHECKDEPENDS%
+libyaml
+libxml2
+gmp
+inetutils
+git
+
