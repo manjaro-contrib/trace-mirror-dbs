@@ -1,5 +1,5 @@
 %FILENAME%
-tesseract-5.5.2-1-x86_64.pkg.tar.zst
+tesseract-5.5.3-1-x86_64.pkg.tar.zst
 
 %NAME%
 tesseract
@@ -8,22 +8,22 @@ tesseract
 tesseract
 
 %VERSION%
-5.5.2-1
+5.5.3-1
 
 %DESC%
 An OCR program
 
 %CSIZE%
-1731200
+1759644
 
 %ISIZE%
-4799433
+4889669
 
 %SHA256SUM%
-c994dca811fd50b2b30477ae9a7a3edc1c6f3bd62fc5fd296ec63e5b3a0589c1
+75e96e4f32ec1598264367b119c67cf3e56908919a92103a24e60fbed12f49a9
 
 %PGPSIG%
-iQIzBAABCgAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmlO7DcACgkQqF6BHrTKLgg/ow/8DtZxbRYsT1akXwn3u1LXfMJMqXpt9NnO3djs+LOMzxrOwZFFnGe95UxqoXUlHIKiu8caEcsaYC7WQjb3abke5brzI3B8OAi3Rok1wifpyeUMbbzHweJtQwtUdpEDqXpIb8Yb8P0fbtREbCL+qRzHPlEF6+/5fu8PA6vO/4id2QaB6S6o5lazOEyZhgs5W92g1tiQeq0OOIfueHAC+k0czvhKfRd8BQZPB4Y9a6AdZHe1Z5EVrNoNQFS01Mt5I0TadTFz9NtP3RcOpBS+KPHMAYh1kXVAcDhaQ8x21ElW7Lg6T0XkeA0KnUT+tExSZ5ASS69RAwae4S6zq8MTH5BhYX3yKdUxRAYEG9GbVDdCwaSxc5V9DopFY+uPHal8tPc7H7+8t59fI54e30EBZtBhpozIxoYAPGl1KLPKrc+ixABLC6oqWtpIf39FQqeT7egBOfr6J5Ao/IJzbzPnC32Dxl6j/1ziCrZTvbjPOdXkI4PTd1ln40PGnDAH2rV8XjhdswhSG6i4Zi6ZMXN8aeyeGQH9/gSfY1nNI8CgFnqdIhbERjtYtaPUGX//wxeG+HplcdXHsOk6hLd6oq6OYwxUg4h0872+DVK+qFo+IUVc79rrnozHL6jcebAOELn+yjzfdRO+oIZOf0mpNTPqemFQ0QF4eD1AaAtxqA2OU7KcZ+g=
+iQIzBAABCgAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmpjs8QACgkQqF6BHrTKLghC2RAApUK1YiaVTQormnwkOl0gw564ndEhzrTqNvpnyqilGX5FzpITIKkiR2AGvm72MdbNUfWQKA8dMJpAs59Ww1xQjXCm55sDyBNaQvGGY39xAQ4e89xMlVKAJCdjiPNwrKYabb88y1N8JjDcTtjBaFgYQN1s5CIsN0jPjc7wEK8y6JusFhKD8xXRtbcLUbdtNn/icohNv0J7MWTzHR1L+fY8ZUhUyEJIq4slZvltOEuEfJQU9w2hpsLPA+kpTZ5iC6qgOItus22wll3JdYbqDmrSkQCN32EaqRPHsRXWSyYAluqTwGSxhpvcPagsJXeU3w4xRJdeinN6pflnZaRsp82Ev1JcF54hgc1HehAOEQ3HZybVRQc0f+JqT0BEJ1kmT66ljEzOVKKDoN3QZNtFMA8+AptRujfNlKGYtvfGkeoISMgyq5j98x2q9pYOpZG49cK6YUCEpoP2+gwd/PMRrsQ3xHo/Hi1g2KIEeTF3jQ0aTInVJNHhxWRnGjmxWQ/Nd5JRYjn3Brqcp9Tf59GL7do7VAN5SS8oXRFYplI0PMJURr2GY+uXHo34ah2p33s29nzhCWeWPHw6gI/XJbpemrgJyv46lLPWuP1/HSCsIXadmTxknfj/o5D41WdfQneZsj4xDiVrIKI1zJcJIDGzZjQM94iD0O7xvKsEwjZRly9gJ/8=
 
 %URL%
 https://github.com/tesseract-ocr/tesseract
@@ -35,7 +35,7 @@ APACHE
 x86_64
 
 %BUILDDATE%
-1766778024
+1784918851
 
 %PACKAGER%
 Caleb Maclennan <alerque@archlinux.org>
@@ -44,7 +44,9 @@ Caleb Maclennan <alerque@archlinux.org>
 libtesseract.so=5-64
 
 %DEPENDS%
-gcc-libs
+libgcc
+libgomp
+libstdc++
 curl
 libarchive
 leptonica
