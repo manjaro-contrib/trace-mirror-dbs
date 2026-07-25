@@ -1,32 +1,32 @@
 %FILENAME%
-wine-staging-11.13-1-x86_64.pkg.tar.zst
+wine-11.14-1-x86_64.pkg.tar.zst
 
 %NAME%
-wine-staging
+wine
 
 %BASE%
-wine-staging
+wine
 
 %VERSION%
-11.13-1
+11.14-1
 
 %DESC%
-A compatibility layer for running Windows programs - Staging branch
+A compatibility layer for running Windows programs
 
 %CSIZE%
-83350899
+81351216
 
 %ISIZE%
-633806775
+626896425
 
 %SHA256SUM%
-e337ba85ca716fd4818f76a1d40cf6842496daa111b6687d49a12c16c4645767
+bb2e3265dfc09f81a3750d4d53acba883ba86ce776e39d67647ff7a625cebddc
 
 %PGPSIG%
-iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCalI5JAAKCRA9TFAIu1yNKQW+AQDp485R2sLHTEEUU6pYdoAlIMvFhTcIosgMNZZmPxLpyQD/Rz0MebrigxHdMXlXnREaBwE6qC93otHFTYlwZmjq0gk=
+iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCamTxYgAKCRA9TFAIu1yNKZn5AP0W8ANToOUsXPgaBjK80+1AB94pc3G8/vtidhszJE3QcgD8CQ/tjyMu0eDSw9tFxzYHHSvXDrLGoC/xrmf6GMB21Qo=
 
 %URL%
-https://www.wine-staging.com
+https://www.winehq.org
 
 %LICENSE%
 LGPL-2.1-or-later
@@ -35,31 +35,28 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1783772988
+1784999561
 
 %PACKAGER%
 Peter Jung <ptr1337@archlinux.org>
 
-%CONFLICTS%
-wine
-
-%PROVIDES%
-wine=11.13
-
 %DEPENDS%
-attr
 desktop-file-utils
 fontconfig
 freetype2
-glibc
 libgcc
 gettext
+glib2
+glibc
 libpcap
 libunwind
+libx11
 libxcursor
+libxext
 libxkbcommon
 libxi
 libxrandr
+systemd-libs
 wayland
 
 %OPTDEPENDS%
@@ -74,20 +71,20 @@ gst-plugins-base
 gst-plugins-base-libs
 gst-plugins-good
 gst-plugins-ugly
-gtk3
+gstreamer
 libgphoto2
 libpulse
-libva
+libusb
 libxcomposite
 libxinerama
 opencl-icd-loader
 pcsclite
+perl
 samba
 sane
 sdl2
 unixodbc
 v4l-utils
-vulkan-icd-loader
 wine-gecko
 wine-mono
 
@@ -97,11 +94,9 @@ ffmpeg
 git
 gnutls
 gst-plugins-base-libs
-gtk3
 libcups
 libgphoto2
 libpulse
-libva
 libxcomposite
 libxinerama
 libxxf86vm
