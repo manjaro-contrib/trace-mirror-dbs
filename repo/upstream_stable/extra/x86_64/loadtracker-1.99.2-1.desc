@@ -1,5 +1,5 @@
 %FILENAME%
-loadtracker-1.0.0-1-x86_64.pkg.tar.zst
+loadtracker-1.99.2-1-x86_64.pkg.tar.zst
 
 %NAME%
 loadtracker
@@ -8,22 +8,22 @@ loadtracker
 loadtracker
 
 %VERSION%
-1.0.0-1
+1.99.2-1
 
 %DESC%
 A modernised fork of GoatTracker2
 
 %CSIZE%
-314841
+201361
 
 %ISIZE%
-1545755
+966238
 
 %SHA256SUM%
-ca28f0ab1424edcefcc2a671fc197036b70412a17219b45f66745c9672fc8a8f
+15be170801673ea9bb00afb8b254274e91f445402fd9bbf551ad6c9462ba7745
 
 %PGPSIG%
-iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCakdDKQAKCRDglZ/qi1UFOdy1AQD1CRniSEF89Qs5jhmJkHpEYofinll9wDXF6ia2TYSanQEA3u8Yd4Ci8Tdb+zLY8bjH2sYnCfptVIOgJfmkIYJHZgI=
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCamRrSQAKCRDglZ/qi1UFOUrbAQCNqbTzW2iLEIKRwAA83JXsTMbgPxtF6SHqUWDxMmD2gAD/eu9W8xgLswqiv0iOK4XkmuV0Wk/kL2KHTHqNy1cXigY=
 
 %URL%
 https://github.com/libsidplayfp/loadtracker
@@ -35,7 +35,7 @@ GPL-2.0-only
 x86_64
 
 %BUILDDATE%
-1783055097
+1784956186
 
 %PACKAGER%
 George Rawlinson <grawlinson@archlinux.org>
@@ -50,19 +50,14 @@ libexsid
 libexsid.so=2-64
 libresidfp
 libresidfp.so=0-64
+jack
+libjack.so=0-64
+rtmidi
+librtmidi.so=7-64
 sdl3
-
-%OPTDEPENDS%
-alsa-lib: ALSA audio driver
-jack: JACK audio driver
 
 %MAKEDEPENDS%
 git
-sdl3
-jack
-alsa-lib
-libexsid
-libresidfp
 cmake
 ninja
 
