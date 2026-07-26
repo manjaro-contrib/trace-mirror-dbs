@@ -1,0 +1,81 @@
+%FILENAME%
+recoll-1.44.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+recoll
+
+%BASE%
+recoll
+
+%VERSION%
+1.44.1-1
+
+%DESC%
+Full text search tool based on Xapian backend
+
+%CSIZE%
+3072456
+
+%ISIZE%
+11360240
+
+%SHA256SUM%
+d55c307dcf8ec7deccfc01669cfb796d38707e638e1b7cb497a982c4db197f82
+
+%PGPSIG%
+iQJLBAABCgA1FiEEiee5MxxK59f699MFwTIpOVS75K0FAmplV38XHHNwdXB5a2luQGFyY2hsaW51eC5vcmcACgkQwTIpOVS75K0Kiw/7BNRl5xCzb2y888HYj0UbD/0dYBiz0Y4sU0R+4BNJoSbeWP75GmZK2CCTIN4HWnC+pskW7+tt9/vqe1ctcjpgJjQHOVpJQogSpFoabgY9KqhaRwBe7PhnaeGJfXF4j0ZICtl1gpeojhyJypM8SJVkztlVvPZsJiUmooRuxesCwR/RzY2Zmhn4dns0qcqVCtCMf+OX/Ua83kXEflUDbvP10F23RtI+8RXzDpDTo+LLFgQjggmQJTeJKfAlmNAmCTsrGbpqheGR3K6kgKLeGsZCnCz1ljupSso+eQZHYPhgHRNvHf8wvwQJwADdR+yhGJpMM+fBiJE8ANYBT7pZdqWLOBG7cMh0ClzoDFzOKo/n3JXrnKMPjcbipXF1qc+QTCglYnQYRsv4EmfLvnuSlOS50OAMwcF6btxEMuD8lKPjhMwN8CjI8CDJEFPGM5dQD1DQuCA/bI+X6ceGFdpT3Ax3ipRwaQRZ0bJbCYOPAuFDWDRbXgrhMFoJTMqdB5Zx8LFM/aHq57OQ/mA9iDepy6OER7CvCLolaa4AqysMjydDKEKZtrBmI1k7yVMTY8E5To6zMTXaZl+DYsXBv1BEkVCUncPti4T2dpbTdgMb5MbNqch2q44G1H4hvrjTaOeDBNS15wVlBsfdvoipKSLcndaBdZQANM+WoF3CU89XYjekv7k=
+
+%URL%
+https://www.recoll.org
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1785023242
+
+%PACKAGER%
+Sergej Pupykin <spupykin@archlinux.org>
+
+%DEPENDS%
+xapian-core>=1.0.15-1
+qt6-base
+openssl
+hicolor-icon-theme
+qt6-webengine
+chmlib
+aspell
+jsoncpp
+
+%OPTDEPENDS%
+libxslt: for XML based formats (fb2,etc)
+unzip: for the OpenOffice.org documents
+poppler: for pdf
+antiword: for msword
+catdoc: for ms excel and powerpoint
+unrtf: for RTF
+djvulibre: for djvu
+python-mutagen: Audio metadata
+perl-image-exiftool: EXIF data from image files
+python-lxml: indexing spreadsheets
+python-pychm: CHM filter
+kcoreaddons: KDE plugins
+kio: KDE plugins
+krunner: KDE plugins
+aspell-en: English stemming support
+
+%MAKEDEPENDS%
+python
+python-setuptools
+qt6-tools
+cmake
+extra-cmake-modules
+meson
+kcoreaddons
+kio
+krunner
+knotifications
+
