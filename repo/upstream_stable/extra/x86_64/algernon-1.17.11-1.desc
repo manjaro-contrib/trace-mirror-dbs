@@ -1,0 +1,53 @@
+%FILENAME%
+algernon-1.17.11-1-x86_64.pkg.tar.zst
+
+%NAME%
+algernon
+
+%BASE%
+algernon
+
+%VERSION%
+1.17.11-1
+
+%DESC%
+Web server with Lua, Markdown, QUIC, Redis and PostgreSQL support
+
+%CSIZE%
+14243354
+
+%ISIZE%
+47737337
+
+%SHA256SUM%
+71fcf0f7eb0ff5859c3c4535e7e309f59d4138403d468daed21fd1bcd823268e
+
+%PGPSIG%
+iQIzBAABCgAdFiEEipvFgZxU/rPcKptIwyIX9vE/8ZIFAmpmSIgACgkQwyIX9vE/8ZJCOg/+Mt19sH06TSEyuWecq5Yx/hEsxvDW4tGniRkMVqO/NkaA8lxPubZQS228iBlDc2Xdz8LhCCgsS8fqaGPs5FMlSFmqo9337MZUTDL3YcEyX5UVQBhQbpaeISrQ5mWpfNEiofK8d1CJjj/8WGTjIn3W1KHkG+9Amk30SoSFy46zOYXyqRS8zlZ2ZcCwYqPn2+nAdL0SUTVeMloRSrD97HYD4eW5/AWh0aVQd9CROjZNvq4WF+VZsKoWjpit8FHJFLkcouC2NNFmL3VME/unHNrOFUwiHfZ1ITP0L+QvHUIGdZ9w3aoWBGM+K6XCzOUZo5WiiayIrLIkAcqRA5Zj+eolZ1aXNJcQJeXMIbBTQcVOwGtvCb6aEwtwfV3IQux/14XcmyWEujFnB2F4n8aeUjD7/D+8DeS8hHL2trUnd/uQy8R7wmtZQiQobNJBXiLjpCRyo61oKdFirpd3pBOElBAc8ev6s1ytTb75cAGiCOPc+prdKCtsK4Ti7UjERHq/IO/4ZH5fB0bc0wMIWVfSUcM92Ci5G0ENTqLcEZyZnWA+4rZ+1JJe2TVXBiPOjuWSHAclSZ92rkEG7k3HviBY4caEBqTtHH1eVtvEv3uML3/2lEsHuWQ2yNachs1H42RO8sJD2dU5AQ+elJeNT2sKUvLoTOTqb5nazumbPv6sAN9zTKU=
+
+%URL%
+https://algernon.roboticoverlords.org/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1785086568
+
+%PACKAGER%
+Alexander F. Rødseth <xyproto@archlinux.org>
+
+%OPTDEPENDS%
+mariadb: For using the MariaDB/MySQL database backend
+ollama: For using Ollama from Lua or .prompt files
+postgresql: For using the PostgreSQL database backend
+redis: For using the Redis database backend
+valkey: For using the Redis database backend
+
+%MAKEDEPENDS%
+git
+go
+
