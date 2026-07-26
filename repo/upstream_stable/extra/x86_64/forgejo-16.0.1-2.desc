@@ -1,5 +1,5 @@
 %FILENAME%
-forgejo-16.0.1-1-x86_64.pkg.tar.zst
+forgejo-16.0.1-2-x86_64.pkg.tar.zst
 
 %NAME%
 forgejo
@@ -8,22 +8,22 @@ forgejo
 forgejo
 
 %VERSION%
-16.0.1-1
+16.0.1-2
 
 %DESC%
 A lightweight software forge
 
 %CSIZE%
-37875801
+37242915
 
 %ISIZE%
-118993170
+117701650
 
 %SHA256SUM%
-6a1029013f461bdd095b591e6d53c8852be777539a6f38eac8ea02cb9f533fc0
+1a03ed8fadeffc408f880c985e29db8956df9dfabb1826874aa832745c7d3c39
 
 %PGPSIG%
-iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCal/j0AAKCRDglZ/qi1UFOX89AQDI0IN9EW1kkKcVd+2Qmv7QGWAbfiCZXMCSwgUZfkRCeQD8CHfoftpZ6/C/1EJujUxqT7zNwBnVGESivz9b50dssAI=
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCamXL+wAKCRDglZ/qi1UFOSSwAP9QSf1FFK/m3/JFr5IRvB0VoTpxFuECgOjVm5D+n+rtrQEAyIKVUIccAXecaL0Aa7GN6YFc8uDTdmqVA6kbqpznAAM=
 
 %URL%
 https://forgejo.org
@@ -35,7 +35,7 @@ GPL-3.0-or-later
 x86_64
 
 %BUILDDATE%
-1784668604
+1785055581
 
 %PACKAGER%
 George Rawlinson <grawlinson@archlinux.org>
@@ -43,6 +43,7 @@ George Rawlinson <grawlinson@archlinux.org>
 %DEPENDS%
 glibc
 git
+sqlite
 
 %OPTDEPENDS%
 mariadb: MariaDB support
@@ -51,7 +52,6 @@ openssh: GIT over SSH support
 pam: Authentication via PAM support
 postgresql: PostgreSQL support
 valkey: Redis support
-sqlite: SQLite support
 
 %MAKEDEPENDS%
 go
