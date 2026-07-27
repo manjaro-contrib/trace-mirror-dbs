@@ -1,0 +1,73 @@
+%FILENAME%
+py3status-3.64-2-any.pkg.tar.zst
+
+%NAME%
+py3status
+
+%BASE%
+py3status
+
+%VERSION%
+3.64-2
+
+%DESC%
+An extensible i3status replacement/wrapper written in python
+
+%CSIZE%
+661143
+
+%ISIZE%
+4155317
+
+%MD5SUM%
+9620fee7cc0b082c629428b36a4fe22e
+
+%SHA256SUM%
+ef71fe1bc4670596edf3cfa1b43c66fae86e5db9c8285ec62695075922775e0a
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmpnIN4ACgkQ/cMEC5Ksp0idvA/6AkQvlaJm5CWRVFoemC1WDCQ/EQHZZL4ZjWmmpBsuZ9MlySSsU1geDFHuzMKeS7SOGVPNyw2sYqAU6CodkyRTRRFLyN1EpFz/VcANd/wJMijHHiOGFAraELBtYQhDNeH8Qi1xNVyhW4sgpp4ag+XMV8NP7+qObjtHLT5wM277NvqNV7pwC/B/CvCiJha2Gs5cXMxgI+ibnarvOTzJCbOW2D1cnHJghvqszzyNg3HO7+a2QK2OJG8ooj3DnohzHjhbQHfmNNgoTIWZ1T74Ds99VmIv92JbDa4kW0IROcpvMW0rcKm2XKW7NVi1DlHLvaQVMIWCcN9AhShONt8XxLLQo7xGl0ZfO2qHO5jJTYCaUDEp+VLHFB7XC9Ywt7s+Fy1/CSNZx6HiFQNMlk0MFY/6BPir/5aPK0IjSWRQ3oi5jv1P3mWHt6TpOG5wfiDSHZP2aGpYRCwn5xIjZOtIGR11tFA5tzJEq9d9L6U6HNyPXClYwHMy2X9dk2WXecoXtgDfn05KXpvIBtp21GtYl75HlosbGAr0DVGgzoZBd6wxW5qrNWCi/3CVrB2kP9blOL9/ikBwBcGj30IbwFb2wyRSSEzcJ5qbaK/9oPqgaYAZlw9Zvmi2d5+wxnkV4Nsp8e+nLQ7ZjxbryWQJns1Diwvkr1u1U5/SAHScYgnBPnXWOFE=
+
+%URL%
+https://ultrabug.github.io/py3status/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1785143475
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-setuptools
+glib2
+
+%OPTDEPENDS%
+i3status: for i3status modules
+i3blocks: for i3blocks modules
+iw: for the wifi module
+playerctl: for the playerctl module
+python-gobject: needed for the playerctl module
+python-mpris2: for the mpris module
+python-pyudev: for udev event monitoring
+python-dbus: for modules that rely on D-Bus
+python-pytz: for the clock module
+python-tzlocal: for the clock module
+python-google-auth-oauthlib: for the google_calendar module
+pacman-contrib: for the arch_updates module
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-hatchling
+
+%CHECKDEPENDS%
+python-pytest
+
