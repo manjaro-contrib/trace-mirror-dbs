@@ -1,0 +1,113 @@
+%FILENAME%
+imagemagick-7.1.2.29-1-x86_64.pkg.tar.zst
+
+%NAME%
+imagemagick
+
+%BASE%
+imagemagick
+
+%VERSION%
+7.1.2.29-1
+
+%DESC%
+An image viewing/manipulation program
+
+%CSIZE%
+9172301
+
+%ISIZE%
+22817159
+
+%SHA256SUM%
+5c53175b42beb74908beffb244f27fcbf2b2153e5c6582298d17a0f1c3d7ef9a
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmpn4b0ACgkQek52CV2KUuSZGwf/U923XKp2iTfaLwkZ0mGjWBU1pM+OAOWUG2yS6zynCJYksq7NR+j88BiLfq9ivXd88C1K2UsgME9Rjh5v7E8WqdOBG7+XH4pscOBIXOLNdWVxu4QfUConGlJveKSoxFzCjEx+BGMU/+8koT6ehqVM66OGqynjiU+5dqmF1/HuTNj2N1dUY7W7ga1TcCMXbcMnzXA5o/2PxahNBywGAFxAwgWLL/jYJKmHl2LLXfofMUzOu9ciBPG5eXPgpFtIvoX090CNp3JyI9jzUDXMbglLNQAIZRznlD0X31IoCsGiI5a73fAlsmP7ly7Y5WrDbMA6rK/86l4oUbfzgUFlV0ZZEg==
+
+%URL%
+https://www.imagemagick.org/
+
+%LICENSE%
+ImageMagick
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1785192661
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%REPLACES%
+imagemagick-doc
+
+%PROVIDES%
+libmagick
+
+%DEPENDS%
+bzip2
+cairo
+fftw
+fontconfig
+freetype2
+glib2
+glibc
+lcms2
+liblqr
+libltdl
+libpng
+libraqm
+libxext
+libxml2
+libgcc
+libstdc++
+libgomp
+xz
+zlib
+
+%OPTDEPENDS%
+ghostscript: PS/PDF support
+jbigkit: JBIG support
+libheif: HEIF support
+libjpeg-turbo: JPEG support
+libjxl: JPEG XL support
+libraw: DNG support
+librsvg: SVG support
+libtiff: TIFF support
+libultrahdr: UHDR support
+libwebp: WEBP support
+libwmf: WMF support
+libzip: OpenRaster support
+ocl-icd: OpenCL support
+openexr: OpenEXR support
+openjpeg2: JPEG2000 support
+djvulibre: DJVU support
+pango: Text rendering
+
+%MAKEDEPENDS%
+chrpath
+djvulibre
+ghostscript
+git
+glu
+jbigkit
+libheif
+libjpeg-turbo
+libjxl
+libraw
+librsvg
+libultrahdr
+libwebp
+libwmf
+libzip
+ocl-icd
+opencl-headers
+openexr
+openjpeg2
+
+%CHECKDEPENDS%
+gsfonts
+ttf-dejavu
+
