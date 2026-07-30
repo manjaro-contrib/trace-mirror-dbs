@@ -1,0 +1,89 @@
+%FILENAME%
+python-lsp-server-1.15.0-1-any.pkg.tar.zst
+
+%NAME%
+python-lsp-server
+
+%BASE%
+python-lsp-server
+
+%VERSION%
+1.15.0-1
+
+%DESC%
+Fork of the python-language-server project, maintained by the Spyder IDE team and the community
+
+%CSIZE%
+162644
+
+%ISIZE%
+829283
+
+%SHA256SUM%
+d7cd2538a6d2e00b462148bd8bd47e97e7d778fe1b27ef8e18cd609b19a44bef
+
+%PGPSIG%
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCamsxEQAKCRAAHPSBC+jZES/mAQDV/6w9wAWOYLdJ47pXfcLeP2TeLLZilAly/ycNvzY64QEAiex9PoAFhoKbMrbAQmZQqlpvZfVAe67kbT4GecW2qAw=
+
+%URL%
+https://github.com/python-lsp/python-lsp-server
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1785409673
+
+%PACKAGER%
+Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%DEPENDS%
+python-black
+python-jedi
+python-lsp-jsonrpc
+python-pluggy
+python-ujson
+python-websockets
+python-docstring-to-markdown
+
+%OPTDEPENDS%
+python-mccabe: complexity checking
+python-pycodestyle: linter - style checking
+python-pydocstyle: linter - docstring style checking
+python-pyflakes: linter to detect various errors
+python-pylint: code linting
+python-rope: for completions and renaming
+autopep8: code formatting
+flake8: error checking
+yapf: code formatting (preferred)
+python-whatthepatch: required for yapf support
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-pytest
+python-flaky
+python-mccabe
+python-pycodestyle
+python-pydocstyle
+python-pyflakes
+python-pylint
+python-rope
+autopep8
+flake8
+yapf
+python-whatthepatch
+python-matplotlib
+python-numpy
+python-pandas
+python-pyqt6
+python-appdirs
+
