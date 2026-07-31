@@ -1,0 +1,86 @@
+%FILENAME%
+incus-tools-7.3.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+incus-tools
+
+%BASE%
+incus
+
+%VERSION%
+7.3.0-1
+
+%DESC%
+Powerful system container and virtual machine manager
+
+%CSIZE%
+11472543
+
+%ISIZE%
+69199670
+
+%SHA256SUM%
+cfe5df6d0db09211cb28f6a9bf58ba4d0d0d184d50d52d52e2e0b3deb9420d68
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCamxpogAKCRDglZ/qi1UFOahgAP47a41AB8eKu85G9qXGeWMxxjXnhDwxjCS0aJq2Lh1rNQEAgpTycZLHdYlLPWJjvJl2hCzjM5b3itvi3cepvnOqsAo=
+
+%URL%
+https://linuxcontainers.org/incus/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1785489209
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%CONFLICTS%
+lxd
+
+%DEPENDS%
+glibc
+libgcc
+lxc
+lxcfs
+squashfs-tools
+dnsmasq
+cowsql
+libuv
+ebtables
+raft
+sqlite
+libcap
+acl
+qemu-base
+qemu-chardev-spice
+qemu-hw-usb-redirect
+qemu-hw-display-virtio-vga
+qemu-hw-display-virtio-gpu
+qemu-audio-spice
+
+%OPTDEPENDS%
+lvm2: lvm2 support
+thin-provisioning-tools: thin provisioning support
+btrfs-progs: btrfs storage driver support
+minio: storage buckets support
+cdrtools: VM support
+systemd-libs: unix device hotplug support
+apparmor: apparmor support
+xdelta3: support delta downloads of images
+skopeo: OCI support
+umoci: OCI support
+
+%MAKEDEPENDS%
+go
+git
+tcl
+apparmor
+libseccomp
+systemd
+
