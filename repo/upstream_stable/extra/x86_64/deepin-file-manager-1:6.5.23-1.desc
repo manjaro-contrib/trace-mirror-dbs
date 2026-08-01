@@ -1,5 +1,5 @@
 %FILENAME%
-deepin-file-manager-1:6.5.22.1-1-x86_64.pkg.tar.zst
+deepin-file-manager-1:6.5.23-1-x86_64.pkg.tar.zst
 
 %NAME%
 deepin-file-manager
@@ -8,7 +8,7 @@ deepin-file-manager
 deepin-file-manager
 
 %VERSION%
-1:6.5.22.1-1
+1:6.5.23-1
 
 %DESC%
 Deepin File Manager
@@ -17,16 +17,16 @@ Deepin File Manager
 deepin
 
 %CSIZE%
-32914176
+33329767
 
 %ISIZE%
-74655790
+78927766
 
 %SHA256SUM%
-d9d36fc929327193227fe9f5eea2da116df5733eab7b50d5b97ea7f77c5ebac0
+e85e2dc35915dfc1e42679b08d1557993ddfde60f235b4b84db9c07d7c27c7a6
 
 %PGPSIG%
-iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmppPUYACgkQeGxj8zDXy5Jl9hAAiqA/LfnSJ5+R5A05q8bADHG4oY2McE1JHHFt7+/caWpZzlqTyu3DVgQJbcZChsj+67SLDQYvRM4x1mo2pGVHvnjwBVK9cBNSHiZljZb4XvPT6SALnXcZ4MttI6lL8JU49NKjY2sRXLbe6BcBVT009AU6yAspEXW1EVpPTcsuavlO16hOoCOSpRIBa9NyRdFp0o7hzvPptsiaFg0u9b1sNI/01Scsv7WsVBK7ev7gtBuvtasFGz5/fNVyCEShf9Ny/bolsjFNyoQR51Ld37bvf754eu88A89cH4r4Z2hHlJPprAh5BK0PF7FVO2QaMa+4fLXhivgTOrkWtpOt6dCZ+6wp+OvZbuRLAv/7B/l83VW7FMumvHqtzlkK7n8HbaTTqruz85gtOdjltCKCdwkcPMEtCgctqAnt0xGWQXiHFIFsWQD+D+Oka60HM7ONRBwOZlP6Yt9aaoEnVJhYDJ2hj/zUZ3we3J22HvD8w6GqLuRTX1sGCfCGYai8LOuxs/ZQOIB2TE1EgL9+10aC3S3RMfjKd2DCGsUZ5Eh1ezvmwTCyoanMWsgZZdVoZEgrFbXWpcOOg04szUvAoXFE0Ikpy30MYJjSvhIZeSfN2OqrHym3NQDZNVhbXIMUzSyND8lJY/8VL/8Ne/EuUWyrGFh5hejsQXQqmoRD1G1Nfx8oR14=
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmpt19wACgkQeGxj8zDXy5Im3Q//fcvjboJH/C2q2+i3y2O7LUxN+TnvIvbMFE2dsagKqqARIce54ZUOXNzEj64L5sOa7Ymk8pQnQsK4hlanHooz4YO0Ane1U5vxKjqbFSKJE62CK5pVt0MYxZmNc4zX/2LgJIITqaoohZ0s5Wh5hiBW/vcGj20XZUbITBGivo5uHQd+NluIXfL3GWS19nR6Vo4zx5bP4DmX1elremWWqZvTSjo1KZPnKrNuBfjpOP1tBBroOgWKuumZhVwwHV0zBeS6X3YeCfXerkSv7S5TqmywwEPl2x6uUsOWqWzWAQHotGPxBjIZfy35HEz6nUrDYKJScSjH8Tyv4dFjYhaj7G+7wXC16BV4OJyZpdpvDigrrwq1ElgE/11iUge7dIB8/R983s0XTl0uT3F+XKmzPe2RVvvNN3hyrrm5/v6npaXgjVO5NUNd71lSMB3ghzwA1oraMQIFCWW8qux0wAMoHTU1QS+SCYe9NR45eHXvJtmwR5cmf1QfOYazjXwY7eO+NgUVA5RU2SRgx1H0uPp2aCIpkTReNcuYl25Wj2Roit4LbXbEs76Ycn8RTCi8pAIFdZpJ8o+K6VgDgEAp3NmPyzOICnojcailzArHMQXGU1pjcMgN6awOszeCmOFZ1O1B38SSnDb8Y38iy3fpCjOwMSw2FeNO+Sl8LaWi7XzIAkNFJDQ=
 
 %URL%
 https://github.com/linuxdeepin/dde-file-manager
@@ -42,7 +42,7 @@ MIT
 x86_64
 
 %BUILDDATE%
-1785280720
+1785583341
 
 %PACKAGER%
 Felix Yan <felixonmars@archlinux.org>
@@ -57,18 +57,14 @@ deepin-desktop
 deepin-desktop
 
 %DEPENDS%
-dtkcore
-dtkgui
-dtkwidget
 dtk6core
 dtk6gui
 dtk6widget
 deepin-anything
 deepin-util-dfm
-qt5-base
-qt5-svg
+deepin-shell
 qt6-base
-qt5-x11extras
+qt6-svg
 deepin-pdfium
 docparser
 libsecret
@@ -78,15 +74,12 @@ openssl
 glib2
 libxcb
 libx11
-libqtxdg
-qt5-multimedia
+qt6-multimedia
 cryptsetup
 lucene++
 avfs
-gsettings-qt5
-polkit-qt5
+polkit-qt6
 poppler
-kcodecs5
 taglib
 util-linux-libs
 icu
@@ -115,7 +108,7 @@ git
 boost
 cmake
 ninja
-qt5-tools
+qt6-tools
 deepin-tray-loader
 deepin-movie
 deepin-gettext-tools
