@@ -1,0 +1,70 @@
+%FILENAME%
+tumbler-4.20.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+tumbler
+
+%BASE%
+tumbler
+
+%VERSION%
+4.20.2-1
+
+%DESC%
+Thumbnail service implementing the thumbnail management D-Bus specification
+
+%GROUPS%
+xfce4
+
+%CSIZE%
+172795
+
+%ISIZE%
+901332
+
+%SHA256SUM%
+7c156dfbd332b1039048a6e5c1fd37ba2cb7097243f043e11da117e5dc82fd4f
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmprAmUACgkQ/cMEC5Ksp0iRyxAAxhFC5+f22bsohg4Pff8BooZaxvL3nn7ads4F71ssVBU03w2wL61e1fRJ1li1Fyby07916rddCR0AAt7j6Cv1kcjYotCotc/RBINNh+mnkUXRTIDflPBKaqiLxC8Mjh7uG2MaxsQeGekd275XOYKjZo6A56Fsywvzo3U8g5PxFJfk/33dHUspJRXJT//Mh9A/93b8WBYHp9XggQufEaUtZhEQ6bOUriSU2FlbJ99/Yupw9cfcuvf25Z0CvVuRSwZ0PuN3Z55HDmPbxrR2HUkmoUzHoj9KqK78Toz+PGpDJ5z9755luBLRVkrMRb4cRxzNfaukLpxIotcTZWkNMZ4uWc0ds6FDQPTWwQkaBYLp1qC/2UNW9WzI28mtBhR0clQW+NToetlSrR9SF+R0KZUBcJy/4G/2E4bGZJIyffaCM3h/wOj3tc5ppbQE1KH8HFJSua1N3bfVt3C33t2KZUgO1XLsE1Y3Aird5g3sbB+bews3C2e0vx7BLT522J7lD+FOQy6U5M4Fh3jkNEKTKH7N1AMkxJ2MNWhv7h1dytDrifv/oTHaSbr/t03/1gxFKZjJAy0myZ7KuaHxhAquMpi5ql6eKTMJybs0sDN5Dlq5M7Y+ciFhoA6eOdYSChEwZSVQeNVuJjsr89VGe2lrODITsoFPaW3ks1WEsqB9fS027Vc=
+
+%URL%
+https://docs.xfce.org/xfce/tumbler/start
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1785397810
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+libxfce4util
+gdk-pixbuf2
+hicolor-icon-theme
+
+%OPTDEPENDS%
+ffmpegthumbnailer: video thumbnails
+poppler-glib: PDF thumbnails
+libgsf: ODF thumbnails
+libgepub: EPUB thumbnails
+libopenraw: RAW thumbnails
+freetype2: font thumbnails
+
+%MAKEDEPENDS%
+git
+glib2-devel
+python
+ffmpegthumbnailer
+poppler-glib
+libgsf
+libgepub
+libopenraw
+freetype2
+xfce4-dev-tools
+

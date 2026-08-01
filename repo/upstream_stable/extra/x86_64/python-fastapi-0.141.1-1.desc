@@ -1,0 +1,100 @@
+%FILENAME%
+python-fastapi-0.141.1-1-any.pkg.tar.zst
+
+%NAME%
+python-fastapi
+
+%BASE%
+python-fastapi
+
+%VERSION%
+0.141.1-1
+
+%DESC%
+FastAPI framework, high performance, easy to learn, fast to code, ready for production
+
+%CSIZE%
+272232
+
+%ISIZE%
+2228581
+
+%SHA256SUM%
+d582a4d1e6c464f855d12a92b4ab6fc6e75c835841dfe482de2b5beb90bc5672
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmprARkACgkQ/cMEC5Ksp0jMKBAAn7hx3Bq2ewEMQX6SCzRvJsmk1DER8r7Xd6iB9rPw003dGpo8PpbJ7WHI204Z+RMXEBHnP13m+X7jhQyn3p9JzgIT9sfQtPPd3/b1mTBTbEUODq9d9Gya6WLcQ2ciJs+LR4Bmvy5hd9wpIWnbrzYK+f39JiuyUchAqDs2ZC65NNHmVZOfHVITSsXltvZ9FnXCtbFkWw1rocFEhcOyJ/TbWlNeuCrFhFTOL+2ZYtMNR+ne5SlWjGDaAkEIkj7F9rvSDAIf9Yy/GlkI4De+k/pDUCibZl0wc5/fyyNtpdpIjaGpOnzLpIEj4288Fc8zrH5qnfG3FGdhj1K0lj2PRgRE3Uz624v7WzpkROAZDoKABjeh5U+1tp6mkjGVUuqJ9zrj9hsCplMvEUFVzDpKIyb6zaqpKWHZIwaQ05WUp37EzWco3HsuxbV/lu7qnVa0PDwY1LVqxe4yUkzNo0h4jFjh5oBeGC3qfKRZr74uiMu9GTyGPKhXGI3wGJH1srgds5JHygMdisDihS8/hx6aZnX8L1mUvGJyPPMPm3VilpcSly8HcJvQfdZD+od5Q+1zLCC9zjCOWHCFj0T0ZAU4Z7Tj0BctMi9ttvDE5jSYZLWoQrQ5p1YQmbdqWc1sL8JFXuCFQfTyjx3jGdiz7qNhgVJw4kNEm1ZnxDyriY+voVskFxs=
+
+%URL%
+https://github.com/fastapi/fastapi
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1785397471
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-annotated-doc
+python-anyio
+python-pydantic
+python-pydantic-core
+python-pydantic-extra-types
+python-pydantic-settings
+python-starlette
+python-typing_extensions
+
+%OPTDEPENDS%
+hypercorn: for Hypercorn as ASGI server
+python-email-validator: for email validation
+python-itsdangerous: for SessionMiddleware support
+python-jinja: for default starlette template configuration
+python-orjson: for ORJSONResponse
+python-python-multipart: for form parsing support
+python-pyyaml: for starlette SchemaGenerator support
+python-httpx: for TestClient support
+python-strawberry-graphql: for GraphQL support
+python-ujson: for faster JSON parsing and UJSONResponse
+uvicorn: for Uvicorn as ASGI server
+
+%MAKEDEPENDS%
+python-build
+python-dirty-equals
+python-installer
+python-pdm-backend
+python-wheel
+
+%CHECKDEPENDS%
+python-aiosqlite
+python-a2wsgi
+python-anyio
+python-flask
+python-httpx
+python-inline-snapshot
+python-peewee
+python-pytest
+python-sqlalchemy
+python-sqlmodel
+python-trio
+python-typer
+python-email-validator
+python-itsdangerous
+python-jinja
+python-orjson
+python-python-multipart
+python-pyyaml
+python-strawberry-graphql
+python-ujson
+uvicorn
+python-argon2-cffi
+python-cryptography
+python-pyjwt
+python-pwdlib
+
