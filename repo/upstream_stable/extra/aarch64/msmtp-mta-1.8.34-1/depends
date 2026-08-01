@@ -1,0 +1,13 @@
+%DEPENDS%
+msmtp
+
+%CONFLICTS%
+smtp-forwarder
+
+%PROVIDES%
+smtp-forwarder
+
+%OPTDEPENDS%
+libnotify: for msmtpq notifications
+netcat: for included msmtpq script
+
