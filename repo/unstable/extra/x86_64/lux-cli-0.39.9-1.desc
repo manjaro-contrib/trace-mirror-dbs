@@ -1,0 +1,86 @@
+%FILENAME%
+lux-cli-0.39.9-1-x86_64.pkg.tar.zst
+
+%NAME%
+lux-cli
+
+%BASE%
+lux
+
+%VERSION%
+0.39.9-1
+
+%DESC%
+A luxurious package manager for Lua (CLI)
+
+%CSIZE%
+11232975
+
+%ISIZE%
+34600062
+
+%MD5SUM%
+611fb7eba528828c7c56d56ca30cc99d
+
+%SHA256SUM%
+783a79740f8a138dc74c1987ac76770711a208bc5fe9abdc4f587f4840a38ef4
+
+%PGPSIG%
+iQIzBAABCgAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmpuQyIACgkQqF6BHrTKLgiSvhAAhCWtCjtwhrHy78q7T4FuK589NwBb/4k5qcuWc0z7rQOcSzhC3hG1zxrRRTHoLQpwTulOQ73hKniTIX5ZMftCe2fTxRtG98V7MYpHxcuEe8k6xPZPnObngfx24PFkKv4eA6QMAqTU16Ho8xd1yi5DAKKvzzxFteCQqukFguZQP1nHmGhnIHxH+yPGySXT9yo+J/cO08EB0ICTuF0nl59wGSEp+vAyuZIqprOwfPuUw4Y9tSjUUJRpelxtpXakSVaI/YYylJhpypEKGud7obPznJ5/g4cHSfhGmVqcxd/47sEg6TgBTg+kOoGvBq28CiuCHhBnBeS/K1lgTQUbHRYwS5PAf7HxE3dCkYllHFG4XFLaBmV0dg0J6RX54RC4ET54WLalr+nMTvn/dmRL6xXhngnl2+eLGoh8oizwj5Ac+dk9Kvw2x6klCXH95Oe7ZN7KWaFCPebDp6qpbHg9A4FBJAYBX372k1NdswCh1PiOgoIQalNGWm6TCHEE273UglXWuKBlj8p+9YaoXBNcWujIEueRfRDT+07A8KSVOr6SlQFG8MXrbE/xMRkjLc7JPC84GhNQ8zAOJzXSLZOFjM1WmOaSz51tCd6aXnnPCfdBg9Q3WXckcy6Ii4iCseOrSyUlzbHRwJwbraqZhYdO2cbO8poxgb+XdUpcTMWjJespkkM=
+
+%URL%
+https://lux.lumen-labs.org
+
+%LICENSE%
+LGPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1785607097
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%REPLACES%
+lux-cli-bin
+
+%DEPENDS%
+glibc
+libgcc
+libgcc_s.so=1-64
+libstdc++
+libstdc++.so=6-64
+zlib
+libz.so
+lua
+lua-lux
+
+%OPTDEPENDS%
+luajit: LuaJIT support
+lua51-lux: LuaJIT support
+lua51: Lua 5.1 support
+lua51-lua: Lua 5.1 support
+lua52: Lua 5.2 support
+lua52-lua: Lua 5.2 support
+lua53: Lua 5.3 support
+lua53-lua: Lua 5.3 support
+lua54: Lua 5.4 support
+lua54-lua: Lua 5.4 support
+
+%MAKEDEPENDS%
+cargo
+gpgme
+libgpg-error
+lua
+lua-luarocks-build-rust-mlua
+lua51
+lua51-luarocks-build-rust-mlua
+lua52
+lua52-luarocks-build-rust-mlua
+lua53
+lua53-luarocks-build-rust-mlua
+lua54
+lua54-luarocks-build-rust-mlua
+
