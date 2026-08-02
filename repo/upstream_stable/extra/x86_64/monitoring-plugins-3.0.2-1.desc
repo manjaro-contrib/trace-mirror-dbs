@@ -1,0 +1,81 @@
+%FILENAME%
+monitoring-plugins-3.0.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+monitoring-plugins
+
+%BASE%
+monitoring-plugins
+
+%VERSION%
+3.0.2-1
+
+%DESC%
+Plugins for Icinga, Naemon, Nagios, Shinken, Sensu and other monitoring applications
+
+%CSIZE%
+476999
+
+%ISIZE%
+2375484
+
+%SHA256SUM%
+5d1a0ea1463da6a719f47e62e4fabd36380c1a7c2c877861511a8e03ab1dbe9a
+
+%PGPSIG%
+iHUEABYKAB0WIQTEjXRkMAPdEWyZr5XbycxYWFaxKgUCam+e+wAKCRDbycxYWFaxKrKWAQCTxpGvC4qX+rEYb89LLfQUZmMg7/OIHkWnDF66s1R2bwD+KtUGolykNH31h+vL/m8JiyhYqxFUGGQZtr2K8ZLJ/w0=
+
+%URL%
+https://github.com/monitoring-plugins/monitoring-plugins/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1785699972
+
+%PACKAGER%
+Martin Rys <martin@archlinux.org>
+
+%REPLACES%
+nagios-plugins
+
+%CONFLICTS%
+nagios-plugins
+
+%PROVIDES%
+nagios-plugins
+
+%DEPENDS%
+libcap
+perl
+
+%OPTDEPENDS%
+net-snmp: for SNMP checking
+uriparser: for check_curl
+curl: for check_curl
+postgresql-libs: for check_pgsql
+mariadb-libs: for check_mysql_query and check_mysql
+libdbi: for check_dbi
+libldap: for check_ldap
+
+%MAKEDEPENDS%
+net-snmp
+postgresql-libs
+libdbi
+mariadb-libs
+procps-ng
+iputils
+fping
+dnsutils
+rpcbind
+smbclient
+openssh
+postfix
+perl-net-snmp
+curl
+uriparser
+
