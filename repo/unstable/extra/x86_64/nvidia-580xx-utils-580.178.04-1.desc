@@ -1,0 +1,76 @@
+%FILENAME%
+nvidia-580xx-utils-580.178.04-1-x86_64.pkg.tar.zst
+
+%NAME%
+nvidia-580xx-utils
+
+%BASE%
+nvidia-580xx-utils
+
+%VERSION%
+580.178.04-1
+
+%DESC%
+NVIDIA 580 drivers utilities
+
+%CSIZE%
+376885002
+
+%ISIZE%
+947265280
+
+%MD5SUM%
+e5a79ba4d19a4cec46013736357cf7f7
+
+%SHA256SUM%
+db4b290b25e30ca63a620aa8faebd8473ec7454fe918a298b7c71a9e311a4e7f
+
+%PGPSIG%
+iQEzBAABCgAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmpxG50ACgkQFQwgB0PtRthL1ggAlomnvUs4bJ/2uyTwl2PqOzlNracx/7CqFpUDMjq0mbX4YEsMGhJN5Du0I29EAFCzyrtpebp8L2BIDjkV3XdICqOMs5vg+YU2/XETg61x1RSKVV15QnG0JNe+kBHZPOaiHsUXGuHbF8odlb+0a+w369oTiIUPWnA9Vy8E0PYVL2K7BRd/YLHxIE4inFcLlYL6joQKPTux6xtlAWSjdHtgOy27EHBLJehfi8uVwigum1PxN5wGeQg9PlllGAdpd/EinMTXjAB194WAFfJIZFuBspCZwE1z+fdMvv/A5jbeZWbMAt8Uq2N9xI1gM9m0pN0UUWvXjOjTMuVRmJWEOIKcyg==
+
+%URL%
+http://www.nvidia.com/
+
+%LICENSE%
+LicenseRef-custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1785793702
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%REPLACES%
+nvidia-libgl
+nvidia-570xx-utils
+nvidia-575xx-utils
+
+%CONFLICTS%
+nvidia-libgl
+nvidia-570xx-utils
+nvidia-575xx-utils
+
+%PROVIDES%
+vulkan-driver
+opengl-driver
+nvidia-libgl
+nvidia-utils=580.178.04
+
+%DEPENDS%
+libglvnd
+egl-wayland
+egl-gbm
+egl-x11
+
+%OPTDEPENDS%
+nvidia-settings=580.178.04: configuration tool
+xorg-server: Xorg support
+xorg-server-devel: nvidia-xconfig
+opencl-nvidia=580.178.04: OpenCL support
+
+%MAKEDEPENDS%
+desktop-file-utils
+
