@@ -1,0 +1,87 @@
+%FILENAME%
+python-openai-2.53.0-1-any.pkg.tar.zst
+
+%NAME%
+python-openai
+
+%BASE%
+python-openai
+
+%VERSION%
+2.53.0-1
+
+%DESC%
+Python client library for the OpenAI API
+
+%CSIZE%
+1436291
+
+%ISIZE%
+18448196
+
+%SHA256SUM%
+4fa4d6bca706a9fc4e0fe907bbeffa237ad89a53c620a6a4756e7a38d95e3df7
+
+%PGPSIG%
+iQIzBAABCgAdFiEEph5oDnze5xbx8Yihae9tnkmmTrgFAmpx9WUACgkQae9tnkmmTriElBAAwQ4MfXZx1U4dtuA4BzNrMSqQrfeAGOjHzUmzmCImhZ7bxxZTWOzkWtEaGMBWqvroSWzQTMaJPDCUgDl76YOrr1+oiUJXtb5pGQbF86iGlpbJPkp9eAaqXd+XpI9ZiY6NoS0bmIhK/flAm13yGNzsmwvQIw7uFh7wKgnrUsKjNeyMMPBstfz8NZV/recf2SjYpxGrkBIUotqvjqzaALwRufPLtVoiaLDq+jDWT7kIEN3uJtW1TdHM1jfJcuOPotkVzxRmqgO4nDUXAm13wnbUhz+b220AqMTgGwIprblB6/kSE4og5bSjMP4198nPx6GZIF/28GXw9hhSmi3DGSoN1tCG2spA7gw49u7XrhggONCA/TuvEGqTOWydy7LfrHb3jdC3PJh34rU4XRNkhX4JxywGJ4HsL239stNO9bF7fO1+rdYHTECX1J+4xxjRRJtmOWHtkejo80vNJGLvIVTEiTE5SKoWvVM5FOfLP2DtNUWbZu60V5DEsv5hdMTepdMyW4DXfOWrewILnvptKr9Z+JNZy04u7Fu2Y0J3d/83nV5dIVHJAQvaRHAHTfTPq54DL8M06CC2JKlZ1Fk6mNZ0Fe/35CG7x5X4bMRRlQyLFDp+wABikp4xJ5b/vwysWJFICMMTkHWq6WUEWEZDq6OMjAV+HsQFjHXOw0XHZXFjj7A=
+
+%URL%
+https://github.com/openai/openai-python
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1785853202
+
+%PACKAGER%
+Justin Kromlinger <hashworks@archlinux.org>
+
+%DEPENDS%
+python
+python-anyio
+python-distro
+python-h2
+python-httpx
+python-jiter
+python-pydantic
+python-pydantic-core
+python-sniffio
+python-tqdm
+python-typing_extensions
+
+%OPTDEPENDS%
+python-httpx-aiohttp: Use aiohttp as HTTP backend
+python-httpx2: Use HTTPX2 as HTTP backend
+python-numpy: Datalib support
+python-pandas: Datalib support
+python-websockets: Realtime support
+python-botocore: AWS Bedrock OpenAI-compatible API support
+
+%MAKEDEPENDS%
+python-build
+python-hatch-fancy-pypi-readme
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+nodejs-lts-jod
+npm
+procps-ng
+python-dirty-equals
+python-httpx-aiohttp
+python-httpx2
+python-inline-snapshot
+python-nest-asyncio
+python-pytest
+python-pytest-asyncio
+python-pytest-xdist
+python-respx
+python-rich
+python-botocore
+python-jsonschema
+
