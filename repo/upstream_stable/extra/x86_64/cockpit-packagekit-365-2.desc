@@ -1,29 +1,29 @@
 %FILENAME%
-cockpit-storaged-365-1-x86_64.pkg.tar.zst
+cockpit-packagekit-365-2-x86_64.pkg.tar.zst
 
 %NAME%
-cockpit-storaged
+cockpit-packagekit
 
 %BASE%
 cockpit
 
 %VERSION%
-365-1
+365-2
 
 %DESC%
-Cockpit user interface for storage, using udisks
+Cockpit user interface for packages
 
 %CSIZE%
-897997
+959212
 
 %ISIZE%
-896574
+954263
 
 %SHA256SUM%
-49d4531ab7aa7f9f64b7210a02cdf4541384ba6d8d7eb1a74e7ebe3afb5f1161
+e81c362e973cdab45448694a8f901e33f82bec45ed7274fe199171847f29edba
 
 %PGPSIG%
-iHQEABYKAB0WIQQMrarPcPZMZU4TGzERZ1x0NCnd7wUCamte+QAKCRARZ1x0NCnd785bAPd+62y+odIzlO02WwIwIC57FsWEXj3Qf1mpv/k2UOMGAQCKDp40fq3ubmMXCpv8tLb/IE82z/eG17W4IkJdj4W8Aw==
+iHUEABYKAB0WIQQMrarPcPZMZU4TGzERZ1x0NCnd7wUCanIR+gAKCRARZ1x0NCnd77ybAQDC8e8OubnK/BnbBTkae0rBrcWt8O4s7O3RaiWK1sGLHgEA7vQViVaWWWTFmaH2f3OHFXtBqhDsx6R30426LetCeQQ=
 
 %URL%
 https://cockpit-project.org/
@@ -35,18 +35,19 @@ LGPL-2.1-or-later
 x86_64
 
 %BUILDDATE%
-1785421493
+1785860552
 
 %PACKAGER%
 Massimiliano Torromeo <mtorromeo@archlinux.org>
 
 %DEPENDS%
 cockpit
-udisks2
-dbus-python
+polkit
+packagekit
+python
 
 %OPTDEPENDS%
-clevis: manage disk encryption
+archlinux-appstream-data: archlinux package management
 
 %MAKEDEPENDS%
 krb5
