@@ -1,0 +1,64 @@
+%FILENAME%
+tuna-1:0.21-1-any.pkg.tar.zst
+
+%NAME%
+tuna
+
+%BASE%
+tuna
+
+%VERSION%
+1:0.21-1
+
+%DESC%
+Thread and IRQ affinity setting GUI and cmd line tool
+
+%GROUPS%
+realtime
+
+%CSIZE%
+329695
+
+%ISIZE%
+1396094
+
+%MD5SUM%
+ec84b74f002594ea78f21eeaa40f119e
+
+%SHA256SUM%
+5ed2990aeca7e05d06bf85169084519fd0b3a64a198597ac2264052e6b7ef913
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCam2+ywAKCRCbeih9mi7GCB57APsEybFCEG/QxMZcFHQZqb3hUNAaalyveeM2AdUla+5/3wD+LF8gCcOJC7eP5w6EA6vFboVuAjgM9EkOdNcl+exZlQg=
+
+%URL%
+https://git.kernel.org/pub/scm/utils/tuna/tuna.git/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+any
+
+%BUILDDATE%
+1785577086
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%DEPENDS%
+python
+python-linux-procfs
+
+%OPTDEPENDS%
+python-gobject: for oscilloscope
+python-matplotlib: for oscilloscope
+python-numpy: for oscilloscope
+python-perf: for process view
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-setuptools
+python-wheel
+
