@@ -1,29 +1,29 @@
 %FILENAME%
-python-graph-tool-3.5-1-x86_64.pkg.tar.zst
+python-graph-tool-opt-3.6-1-x86_64.pkg.tar.zst
 
 %NAME%
-python-graph-tool
+python-graph-tool-opt
 
 %BASE%
 python-graph-tool
 
 %VERSION%
-3.5-1
+3.6-1
 
 %DESC%
-A Python module for manipulation and statistical analysis of graphs
+A Python module for manipulation and statistical analysis of graphs (with AVX2 CPU optimizations)
 
 %CSIZE%
-69219646
+71411814
 
 %ISIZE%
-522231671
+539968156
 
 %SHA256SUM%
-d79ceb6389d7569d0dd6956fb92107166dc8ce7bc6a9c1bd8f399fb3dcd95622
+c22a6b4820cf0164e5ecb64958d53cb9297dc50c24fa82dacc4ef98f1a926a9a
 
 %PGPSIG%
-iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCamsfegAKCRAAHPSBC+jZEb5IAP0WYRToXjwy01YEXpnKOz4X1dlwd8BWK8Pke4gBv8+OIQEA45B1KbGGX892vVbPZ+r+SDa4sAgAJeCH8xAA2JViXwM=
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCanQtPwAKCRAAHPSBC+jZEVyDAP9XukLOyhOSJO52FIdK1HQmzZFEpzQWM7/nREAbiuj2UAD+Jw8UB79ydDa3xHKczgBXW8v+Mr+6WDrWMc+NJEhLbgU=
 
 %URL%
 https://graph-tool.skewed.de
@@ -35,10 +35,16 @@ LGPL-3.0-or-later
 x86_64
 
 %BUILDDATE%
-1785403548
+1785968593
 
 %PACKAGER%
 Jakub Klinkovský <lahwaacz@archlinux.org>
+
+%CONFLICTS%
+python-graph-tool
+
+%PROVIDES%
+python-graph-tool=3.6
 
 %DEPENDS%
 boost-libs
