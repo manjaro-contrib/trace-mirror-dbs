@@ -1,0 +1,87 @@
+%FILENAME%
+obs-studio-32.2.1-6-x86_64.pkg.tar.zst
+
+%NAME%
+obs-studio
+
+%BASE%
+obs-studio
+
+%VERSION%
+32.2.1-6
+
+%DESC%
+Free, open source software for live streaming and recording
+
+%CSIZE%
+7014256
+
+%ISIZE%
+25910488
+
+%SHA256SUM%
+da62f4e61f67c0797c84aba3aa06331bdc990c749175f001ff7bf46dd9cb30fe
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmp1CWIACgkQek52CV2KUuR0jwf/aVH5fq+GT8ER4jmvvIdZvdqCdYlgQ7nhELqV6Exme2XJf2eSgFFd/+5vtviL7N5f2I0m2JMZ8uUM9XYZkYB1y0v9YiQyF3DdgrMtdK9i/S9G9XOwKuWkgQ7xJG22fJoIgg9z5YGvZwjHxLtST/LU4SR0Y8DwNfxo3dmHjUJUvjdUGqz+jAmo1lMZE+rEjVacRkSL1fpHCYryZ3yOPMjGdE89a6Vx0GahWqVE5vjyiEGMpN1gYjN9RbwRUJ5Q/TwoAqVBsA0rnwv3LMvbyX7/4wj91tU4O3riu3D2Om+JqCaCeZZoa/MvbGrY18NzP4z+U7LKRPlMiFPE9fET+q73ig==
+
+%URL%
+https://obsproject.com
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1786054817
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+ffmpeg
+jansson
+libxinerama
+libxkbcommon-x11
+mbedtls
+rnnoise
+pciutils
+qt6-svg
+curl
+jack
+gtk-update-icon-cache
+pipewire
+libxcomposite
+libdatachannel
+uthash
+simde
+qrcodegencpp-cmake
+python
+luajit
+
+%OPTDEPENDS%
+libfdk-aac: FDK AAC codec support
+libva-intel-driver: hardware encoding for older Intel GPUs
+intel-media-driver: hardware encoding for recent Intel GPUs
+libva-mesa-driver: hardware encoding
+sndio: Sndio input client
+v4l2loopback-dkms: virtual camera support
+xdg-desktop-portal-impl: Wayland window/screen capture
+obs-studio-plugin-browser: CEF-based browser plugin
+
+%MAKEDEPENDS%
+cef
+cmake
+libfdk-aac
+x264
+swig
+sndio
+nlohmann-json
+ffnvcodec-headers
+websocketpp
+asio
+extra-cmake-modules
+git
+

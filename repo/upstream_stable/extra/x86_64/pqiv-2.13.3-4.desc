@@ -1,0 +1,84 @@
+%FILENAME%
+pqiv-2.13.3-4-x86_64.pkg.tar.zst
+
+%NAME%
+pqiv
+
+%BASE%
+pqiv
+
+%VERSION%
+2.13.3-4
+
+%DESC%
+Powerful image viewer with minimal UI
+
+%CSIZE%
+108840
+
+%ISIZE%
+340882
+
+%SHA256SUM%
+b935108f4eb67d94062d738974ae3640aa4e46dc08e0efb8fcf191fb72054ca2
+
+%PGPSIG%
+iQIzBAABCgAdFiEELjbYYgIhSC/EXLfyqRdkdZMmtEAFAmpyLZcACgkQqRdkdZMmtEB6Rg/9EI3kc1pEM/JM9ESfJDLhU12NzDA3eOld+1NAQpOFSuOeyl+BDgqjgYUFG/wrt4Q2+kKKXOJkoH/y0eBxdVLddOfatvaWttjMxC2xRzbhekfEGJJ6LZIIXOjl30yngbyBE9bhXIdUWpepLTmEdBeKLyRPRBskSRruPlTG5h5sP9yfRYu5ACoCW3UusBPhT1EGOzevMDhvW/JAJhVW4OTIc9tyxo29VFtIEIgjuEi0DC7giSxXs9mqv2OPzJO4uNni4S0gKgELpBuM1dpWy7sQ3UeaGO4+qg3+O3udBc66RPILCdb0sWzYt9LTbKcR/crnMbstiUIjQXD5mKYg9HIWNvm3M0WMYZalzaIYnfiRPwlHkTwERZD9ZzHCYm1a/gFjFkzR0Y729zUyScgq/rhCvbhuGakt9cuHY33KLFfXmA7d1xgiqaaL2Bm2+g+2Og9O3arhjua2gqkqMx2LlGfITSX+HfWsaeytKQGCAZ6UiYO3d+w4GEISSn4haSUjizqq0tCSEk/ci/mZg9oa3TdlJwPMmD5rU3JzY1Kx3FxG3CMeTcoJDox1eX3NuK3fnIQYYMlWI3X5Lm94q+LJJjfhgv3VWBkAY/vonp5pSj+EzVV0NWnCJJJ0DhynaP3KRRssFV1K2KhRwLosNjTdL4z1GK1+H0RIPtxbaEZro0uwEMA=
+
+%URL%
+https://github.com/phillipberndt/pqiv
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1785867491
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%DEPENDS%
+at-spi2-core
+libatk-1.0.so=0-64
+cairo
+libcairo.so=2-64
+libcairo-gobject.so=2-64
+gdk-pixbuf2
+libgdk_pixbuf-2.0.so=0-64
+glib2
+libgio-2.0.so=0-64
+libglib-2.0.so=0-64
+libgobject-2.0.so=0-64
+libgmodule-2.0.so=0-64
+glibc
+gtk3
+libgdk-3.so=0-64
+libgtk-3.so=0-64
+harfbuzz
+libharfbuzz.so=0-64
+libx11
+pango
+libpango-1.0.so=0-64
+libpangocairo-1.0.so=0-64
+zlib
+libz.so=1-64
+
+%OPTDEPENDS%
+ffmpeg: rudimentary video support
+imagemagick: support for various images formats like PSD
+libarchive: archives and cbX comic book support
+libspectre: PS/EPS support
+libwebp: WebP support
+poppler-glib: rudimentary PDF support
+
+%MAKEDEPENDS%
+ffmpeg
+imagemagick
+libarchive
+libspectre
+libwebp
+poppler-glib
+

@@ -1,0 +1,67 @@
+%FILENAME%
+alsa-plugins-1:1.2.12-6-x86_64.pkg.tar.zst
+
+%NAME%
+alsa-plugins
+
+%BASE%
+alsa-plugins
+
+%VERSION%
+1:1.2.12-6
+
+%DESC%
+Additional ALSA plugins
+
+%CSIZE%
+91556
+
+%ISIZE%
+406238
+
+%SHA256SUM%
+2163decc9f4b8f3108eb56c7957e1e7894e83ca494c6f550892c82bad494183a
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmpzCiEACgkQek52CV2KUuQyXwf9H63YEkl0EJ5gAxbdNZKuVLAnObBkEbI5veWM1aavms0dtxIhPHHMdsz35AS8/Nrj6666NtkJpvFI0gZFJ/xoEu/xmh7WNKlng+IMH+Iwj7n0VZS8gKJl7h7f3E0/ffyeStp56UTkegcTJeslb2q3c2hgRd42arQtP75rZWl8hrb7wKDPyRZAZYf/Y2Kc8hkZgEtAHGRCGmaNDvL0PwE5Aekripuovrho4uEo7Rho7QvlaslsOh3Tax/CHJ5eX3VMww7r/pcgtXBaZY3aeznr1EAsZHUaxRi3qkoRv0qjPNt5pE3BgZAqU/ofC8s+r/0gMXM2pkcBVx8n4JPDQpT+LQ==
+
+%URL%
+https://www.alsa-project.org
+
+%LICENSE%
+GPL-2.0-or-later
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1785923931
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+alsa-lib
+libasound.so=2-64
+glibc
+
+%OPTDEPENDS%
+dbus: for maemo plugin
+ffmpeg: for pcm_a52 plugin
+jack: for pcm_jack plugin
+libavtp: for pcm_aaf plugin
+libsamplerate: for rate_samplerate plugin
+libpulse: for conf_pulse, ctl_pulse and pcm_pulse plugins
+speexdsp: for pcm_speex and rate_speexrate plugins
+
+%MAKEDEPENDS%
+alsa-lib
+dbus
+ffmpeg
+jack
+libavtp
+libpulse
+libsamplerate
+speexdsp
+

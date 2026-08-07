@@ -1,0 +1,96 @@
+%FILENAME%
+retroarch-1.22.2-5-x86_64.pkg.tar.zst
+
+%NAME%
+retroarch
+
+%BASE%
+retroarch
+
+%VERSION%
+1.22.2-5
+
+%DESC%
+Reference frontend for the libretro API
+
+%GROUPS%
+libretro
+
+%CSIZE%
+5179536
+
+%ISIZE%
+17428026
+
+%SHA256SUM%
+aa6514abc5e0f66699d7920512ab5cd0b2e44f9b04421f8e5edc93d7692d3884
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmpzoIEACgkQek52CV2KUuSrpwgAgvYtcGNN4bd4WltCSv9orF6sS8havhdUyPuOXtMteTdNzWVMivhHWaq+qr5ZhjVrI7DaXxrIncw3+toe6Ra8FmKhRl5OLfignRClnvXlKlrqUkfUM9RpldfkZRRnZ4/WP5jaG8CVgWT6iq4+oIazsPGz7ZFJSAs6sevNYj4sdaciibFMgCXXQwOHNfoVogvTI9yOXux/Ik7jDXUyr4vbGsPaAEAfkHBVQbgdHwdKpgSJ4QizQASQvPtQfZ5MVpJF2pJ16CWcier8QOtcKSVa4SSFBl4jomqII8gYWM59MXj9BuLGuAS5O9eZmScDSezjXioJhrjY4XOlJ4IqW5pJFg==
+
+%URL%
+http://www.libretro.com/
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1785962357
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+alsa-lib
+dbus
+ffmpeg
+fontconfig
+fribidi
+glibc
+libass.so=9-64
+libdrm
+libfreetype.so=6-64
+libgcc
+libgl
+libpipewire
+libpulse
+libstdc++
+libudev.so=1-64
+libusb
+libx11
+libxcb
+libxext
+libxinerama
+libxkbcommon
+libxrandr
+libxxf86vm
+libxv
+mesa
+openssl
+qt6-base
+sdl2
+v4l-utils
+wayland
+zlib
+xz
+
+%OPTDEPENDS%
+gamemode: GameMode support
+libdecor: Wayland decorations
+libretro-overlays: Collection of overlays
+libretro-shaders: Collection of shaders
+python: retroarch-cg2glsl
+retroarch-assets-glui: GLUI UI/UX assets
+retroarch-assets-ozone: Ozone UI/UX assets
+retroarch-assets-xmb: XMB UI/UX assets
+
+%MAKEDEPENDS%
+gamemode
+git
+libdecor
+vulkan-icd-loader
+wayland-protocols
+
