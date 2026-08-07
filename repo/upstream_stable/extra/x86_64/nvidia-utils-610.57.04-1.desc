@@ -1,0 +1,66 @@
+%FILENAME%
+nvidia-utils-610.57.04-1-x86_64.pkg.tar.zst
+
+%NAME%
+nvidia-utils
+
+%BASE%
+nvidia-utils
+
+%VERSION%
+610.57.04-1
+
+%DESC%
+NVIDIA drivers utilities
+
+%CSIZE%
+315337340
+
+%ISIZE%
+928679665
+
+%SHA256SUM%
+2ea5a57afc5104edd40dc4f4b1160f067f09ff1dad7e1bc588408087d1f7c0d0
+
+%PGPSIG%
+iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCanDR2AAKCRA9TFAIu1yNKX81AQCAq3Y57iY0r9ge3xEj9XIk0YaBroE8f2OH/F2M22OsWwEAmx0q+L3z0Ov3PVGVNIiY3oz9GBg7hB5Fi6Fqh3pnrAo=
+
+%URL%
+https://www.nvidia.com/
+
+%LICENSE%
+LicenseRef-NVIDIA-Driver-License-Agreement
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1785778533
+
+%PACKAGER%
+Peter Jung <ptr1337@archlinux.org>
+
+%REPLACES%
+nvidia-libgl
+
+%CONFLICTS%
+nvidia-libgl
+
+%PROVIDES%
+vulkan-driver
+opengl-driver
+nvidia-libgl
+
+%DEPENDS%
+libglvnd
+egl-wayland
+egl-wayland2
+egl-gbm
+egl-x11
+
+%OPTDEPENDS%
+nvidia-settings: configuration tool
+xorg-server: Xorg support
+xorg-server-devel: nvidia-xconfig
+opencl-nvidia: OpenCL support
+

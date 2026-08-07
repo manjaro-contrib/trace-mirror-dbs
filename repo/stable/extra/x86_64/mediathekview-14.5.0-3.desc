@@ -1,0 +1,72 @@
+%FILENAME%
+mediathekview-14.5.0-3-any.pkg.tar.zst
+
+%NAME%
+mediathekview
+
+%BASE%
+mediathekview
+
+%VERSION%
+14.5.0-3
+
+%DESC%
+Access the Mediathek of many German TV stations
+
+%CSIZE%
+39393337
+
+%ISIZE%
+43828748
+
+%MD5SUM%
+767439373b5964b7d61e5c9957e6f38e
+
+%SHA256SUM%
+80ffa8232fe47e6b0d8d665091309482cbfd331a427b39f3dd41ce8839f00776
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCamHCjgAKCRCbeih9mi7GCDpRAP4gg44oz81x+V/xEGcjmwxpz4yT0S0KO/rhFRLBetV1/QEA5gXJZ5aFeUUvUlHcotJMZe2ciXp88TFQs8h2S+sgEw0=
+
+%URL%
+https://github.com/mediathekview/mediathekview
+
+%LICENSE%
+0BSD
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1784791503
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%REPLACES%
+mediathek
+
+%CONFLICTS%
+mediathek
+
+%PROVIDES%
+mediathek
+
+%DEPENDS%
+bash
+hicolor-icon-theme
+java-runtime>=25
+ttf-font
+xdg-user-dirs
+
+%OPTDEPENDS%
+ffmpeg: for recording streams
+libnotify: to use desktop notifications
+ttf-dejavu: for default font
+vlc: for stream playback
+
+%MAKEDEPENDS%
+maven
+strip-nondeterminism
+
