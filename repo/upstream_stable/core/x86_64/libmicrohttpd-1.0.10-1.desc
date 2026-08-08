@@ -1,5 +1,5 @@
 %FILENAME%
-libmicrohttpd-1.0.9-1-x86_64.pkg.tar.zst
+libmicrohttpd-1.0.10-1-x86_64.pkg.tar.zst
 
 %NAME%
 libmicrohttpd
@@ -8,34 +8,34 @@ libmicrohttpd
 libmicrohttpd
 
 %VERSION%
-1.0.9-1
+1.0.10-1
 
 %DESC%
 a small C library that is supposed to make it easy to run an HTTP server as part of another application.
 
 %CSIZE%
-305344
+305835
 
 %ISIZE%
-655196
+655195
 
 %SHA256SUM%
-0ad15f25fb312a3fc21a7adf79237e294ace70bfa8e879070000081ac55cfee1
+b33010533ab88747a4b4ed637d6ee2108b9cfc8f7a3e95bd13dab106a1867ecc
 
 %PGPSIG%
-iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCamvCigAKCRBtQr3RFuAGj0U3AP9aYVkYTrA/ceS4ADOIJ0qbg1yU8LdmbP19M67wxmrJ2wEAkruvMOHn7e45Wu2/ZC6XIpvPhZdF3jKtMY+ymVeDXg0=
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCanZYkAAKCRBtQr3RFuAGj/DwAQCYarSgrjcP1jt1wJhdrJLbMAjQiY4fgittSDWsX31NKAD/ekwXkWPMmmxvDRtc+jlHKfaso1DiUko9etSNd8zstAA=
 
 %URL%
 https://www.gnu.org/software/libmicrohttpd/
 
 %LICENSE%
-LGPL
+LGPL-2.1-or-later
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1785446931
+1786140715
 
 %PACKAGER%
 Christian Hesse <eworm@archlinux.org>
@@ -44,6 +44,7 @@ Christian Hesse <eworm@archlinux.org>
 libmicrohttpd.so=12-64
 
 %DEPENDS%
+glibc
 gnutls
 
 %CHECKDEPENDS%
