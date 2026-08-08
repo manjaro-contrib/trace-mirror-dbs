@@ -1,0 +1,75 @@
+%FILENAME%
+gramps-2:6.0.8-2-any.pkg.tar.zst
+
+%NAME%
+gramps
+
+%BASE%
+gramps
+
+%VERSION%
+2:6.0.8-2
+
+%DESC%
+Genealogy program, which helps you track your family tree
+
+%CSIZE%
+12797606
+
+%ISIZE%
+80532492
+
+%MD5SUM%
+fe65cb09236150d0f6d5a9eafc0ea436
+
+%SHA256SUM%
+526959c21cd91f27dc0fb1c91b8c775849a7a4d073805d8ba2c24ed26a3a3a3a
+
+%PGPSIG%
+iQIzBAABCgAdFiEEFORv5f1p8uKH4kTbYyw8wNHJyvYFAmp0fkAACgkQYyw8wNHJyvaP7Q//VKUTkoDHVzJMW3bOPjM6AkhTez3X6tx9O7mCNam7Yqyy+o1cHttwsZQQkdrJvCCipu1b4egYzuny1A9ZisWBJAl7Llgvw0OOJpxewSYT7EZRNuNhFYw8L45MFtr6JscL7+hzHfv1DJhTZl1ZXgfhH37K8RPqTeFhQro3KiS2Lt0HfpXlc/tmVDeWQbCa81h35hnW3WsSX9BNGT5HCPfQ2l9PycI6wq5ffV1CHvMTo19tyXMelrcf2estQrD6KoFxc1xPPtoNPEmqJe8p2GJZ/c8yjF5Wq8HtOh9SFfhDuJGOEF7xj6/Vqxkh3bnBnYLKbOHAb/h6tOac+enqjuEf6ZnHZeoyJcycpLiFL0HrVZwwQj6buLpl6yRki9yfQJrkp5LJLp7P2p2N5XKgYAJmqAHkAqnP0Fe/uCi8cOtXWcLimCdXgQieGVUBaX7TcjKUJkhCLQYhtREfEJ5zPJYc3hNqCLB+GCFFFSLzu0uuABeLH7+oYS+GsCdr/DwvieM88ib993GhcFyJGiL2G9BVa9KD8VRWdBkHwgPSFHsN2opmdwYsV3t6tS26ns2PDiYZMd7Ue9ycOJMAoKZvMAT0K3AxUQ62zvfB5moRPVcoeQcV5eitGmvGOvOVnkHOjHpnVdDUqe6zULDywZI3smNgNuADmrzYhayvkq+DyFGFmPU=
+
+%URL%
+https://gramps-project.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1786019291
+
+%PACKAGER%
+Balló György <bgyorgy@archlinux.org>
+
+%DEPENDS%
+gdk-pixbuf2
+glib2
+gtk3
+hicolor-icon-theme
+pango
+python
+python-cairo
+python-gobject
+python-orjson
+
+%OPTDEPENDS%
+geocode-glib: associate a geographical position to a place name
+graphviz: enable creation of graphs - required for tree reports
+gspell: enable spell checking in the notes
+libgexiv2: manage Exif metadata embedded in your media
+osm-gps-map: show maps in the geography view
+python-imagesize: improve image processing performance
+python-pillow: crop and convert images to JPG
+python-pycountry: validate ISO language codes
+python-pyicu: improves localised sorting
+rcs: manage multiple revisions of your family trees
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
