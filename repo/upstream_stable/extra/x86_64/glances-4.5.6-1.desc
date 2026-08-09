@@ -1,0 +1,73 @@
+%FILENAME%
+glances-4.5.6-1-any.pkg.tar.zst
+
+%NAME%
+glances
+
+%BASE%
+glances
+
+%VERSION%
+4.5.6-1
+
+%DESC%
+CLI curses-based monitoring tool
+
+%CSIZE%
+1062686
+
+%ISIZE%
+6287746
+
+%SHA256SUM%
+c17a92f95b657533679a10d59a02de5f2eb94dece1462fd6338501fec09cab5c
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmpuFoEACgkQ/cMEC5Ksp0iqHw/+Kpg7Soz1VzG2FOlSrSg015QoJ0yRXTBFuoK4E7dVWNPi1p1cx6Jad00ptWfoVjcoPAijP6nqOxdGRc4Piv8WLYv5GD7yTzoBUm4pX9Tote9Itm9zPqpxnQFTYXCP7vo/ItpEoMW9Wf2hvjQLf/iu+kGgysSjNctU8ZKfniQEW/yAqPY6N57u90ZUGcvRsTXDjDuDpjSponBQy5Zw2d4MXAIUjQH51DZh3ulbdoSCvQSCUMw7Owm1d+VYG80qtemVaNqYboUj9sJ3nDvEPrG9j/UHQh83E1kY0lW+SIFmnFwbr1TwDI/0CbhhUVUzQmaXsaDo/DIMSaPjuQWHUwgZBjUlf4ClFljoQ3Q8EXxz96tkoQ95U/5F+zRLGkeOXnUd1enF9eBdEQc5M7ZVtA8zA9N14BkpCuhWWF74tmiBFXoaijgjtgvtPgoRRzreK80J4YwsVxp639ONiFo5H6mTWNHVxjIJGG16fxPwkrwraj3Fzs36Xlmf+ncLwRg8McpKEzEnfCZSfd6oWkgno0+DmeAPCZkbZWAcsKbY3F6beUSzotTE6s9d6T8KA16Jd9bGxo9tRsJUDB3fODa9PHbn4guLgpXBRvRS/EiLXCUXIymRZy1axeTFPbpp/OC+w8aEalkQm3OpR86rcJe1d+A1e3t9BpwyUomhJolPbGXdolo=
+
+%URL%
+https://nicolargo.github.io/glances
+
+%LICENSE%
+LGPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1785599599
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+python-psutil
+python-defusedxml
+python-orjson
+python-pydantic
+python-packaging
+python-jinja
+python-shtab
+
+%OPTDEPENDS%
+hddtemp: HDD temperature monitoring support
+uvicorn: for WebUI / RestFull API
+python-fastapi: for WebUI / RestFull API
+python-docker: for the Docker monitoring support
+python-podman: for the Podman monitoring support
+python-pylxd: for the LXC/LXD Containers monitoring support
+python-matplotlib: for graphical/chart support
+python-netifaces2: for the IP plugin
+python-zeroconf: for the autodiscover mode
+python-pystache: templating engine
+python-elasticsearch: for the Elastic Search export module
+python-pika: for the RabbitMQ/ActiveMQ export module
+python-prometheus_client: for the Prometheus export module
+
+%MAKEDEPENDS%
+python-setuptools
+python-build
+python-installer
+python-wheel
+
