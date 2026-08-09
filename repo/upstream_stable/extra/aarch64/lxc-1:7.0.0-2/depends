@@ -1,0 +1,16 @@
+%DEPENDS%
+bash
+perl
+libseccomp
+libcap
+python
+rsync
+wget
+dbus
+
+%OPTDEPENDS%
+dnsmasq: lxc-net.service
+lua
+lua-filesystem: lxc-top
+lua-alt-getopt: lxc-top
+
