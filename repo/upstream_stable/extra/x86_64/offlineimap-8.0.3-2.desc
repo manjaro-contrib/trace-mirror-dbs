@@ -1,0 +1,59 @@
+%FILENAME%
+offlineimap-8.0.3-2-any.pkg.tar.zst
+
+%NAME%
+offlineimap
+
+%BASE%
+offlineimap
+
+%VERSION%
+8.0.3-2
+
+%DESC%
+Synchronizes emails between two repositories
+
+%CSIZE%
+312575
+
+%ISIZE%
+1764196
+
+%SHA256SUM%
+b984a22781684bcd5ed92a41360d95715c72d10d79e1099a23a7ddd417f7be94
+
+%PGPSIG%
+iQIzBAABCgAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmp51LYACgkQk7EdqkwZfj1M7hAAyU3SJ9wxOARApj/hlKvG+Ihd+XOF2ZJ4SHtWiApX8uXDwtmpEZqYJCULQULlLWt9IlPcNb2Yeayg2ocEr+p3SMcm0RV0NpgwXndD9hKNTG8HpMCvB3viUmvzXmVzctkEgQffDeTG76QKwdZFCmodVpMg7V3bh5Ze7LvJ5Ck2Zxq/l2gJoEox3+YZIyAsOW0TyPsru+cmTxTty5BWdeWtmLTZAOlxNCfQM+txKqBIeVTZGd4skI93AcucMlY/NoUYcrMGadj2MDt667jw5m/vH4m8W1GGzFf1edRoXoPao1rIgpOes1DLlSMrfsPhrrrcIPVrGI589XeGvb7ZmU5W7kyMahjtVdXfCVf8hPBc4Ku982HSbGRkyy0GYRGFX0ZhwhXi8xdnvl4vBSOfmFbc99OJQnUeMl/gwseoezyGwEC0Ingh5RWkXSb9e1WZfdurlFiT7GbVhIDpAKGI7ec1jFn4ENFnblzfg0m0pstveDenwfsmMrLJ7jODCzuszlpNLoktTkjeJnzqt+6EnNdbX2ihLThfj1BmvvEfk7QX+loezOtTMv/+UyUWcej/YynG9z2uKSSVrcj5R5n2zXchuCrdoh6sFDfx8Qg3rzmbs0R7qhnSmyFXU0+xzmdblgZCM90AgKVHqi/4rv34TZhkVw2T+OfUFEhOL7CBKKgKxj4=
+
+%URL%
+http://offlineimap.org/
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1786369185
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+python-imaplib2
+python-distro
+python-rfc6555
+
+%OPTDEPENDS%
+python-gssapi: for Kerberos authentication
+python-keyring: for storing passwords in the keyring
+python-pysocks: for SOCKS5 proxy functionality
+
+%MAKEDEPENDS%
+asciidoc
+python-build
+python-installer
+python-setuptools
+python-wheel
+
