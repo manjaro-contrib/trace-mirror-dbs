@@ -1,32 +1,32 @@
 %FILENAME%
-linux-rt-lts-6.18.43.rt6.arch1-1-x86_64.pkg.tar.zst
+linux-rt-7.1.8.rt1.arch1-1-x86_64.pkg.tar.zst
 
 %NAME%
-linux-rt-lts
+linux-rt
 
 %BASE%
-linux-rt-lts
+linux-rt
 
 %VERSION%
-6.18.43.rt6.arch1-1
+7.1.8.rt1.arch1-1
 
 %DESC%
-The Linux RT LTS kernel and modules
+The Linux RT kernel and modules
 
 %CSIZE%
-151533175
+155439840
 
 %ISIZE%
-151856593
+155821063
 
 %SHA256SUM%
-68d8fe46ad200afaf5e2861c6994af4aa8171d7938033309069e379e467d8cd8
+bd6c035dfa2f4c0421161af376de33d2f3d799856af4a546993336b6f2d23cd4
 
 %PGPSIG%
-iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCanT5cF8UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCg49AQD/Lg9ZocORaTJvkVWo8kJhWcgrX/eWteI5FgjcPM8NUgEAoOccJ17D2APPjWNtfJ5maeJHlAcnqdKpKd7uCiNqogE=
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCanmhdl8UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCtBlAQCu0ljCLFOoiQOW6PpOK08casElNbDtjZXVVMqOhQ727gEA2nmzZ59ZI5V1VahPwEMQu8RJK/IdAGxU8bbUxvtmUws=
 
 %URL%
-https://gitlab.archlinux.org/archlinux/packaging/upstream/linux-rt-lts
+https://gitlab.archlinux.org/archlinux/packaging/upstream/linux-rt
 
 %LICENSE%
 Apache-2.0 OR MIT
@@ -67,13 +67,14 @@ Zlib
 x86_64
 
 %BUILDDATE%
-1786049539
+1786354695
 
 %PACKAGER%
 Frederik Schwan <freswa@archlinux.org>
 
 %PROVIDES%
 KSMBD-MODULE
+NTSYNC-MODULE
 VIRTUALBOX-GUEST-MODULES
 WIREGUARD-MODULE
 
@@ -83,7 +84,7 @@ initramfs
 kmod
 
 %OPTDEPENDS%
-linux-rt-lts-headers: headers and scripts for building modules
+linux-rt-headers: headers and scripts for building modules
 linux-firmware: firmware images needed for some devices
 scx-scheds: to use sched-ext schedulers
 wireless-regdb: to set the correct wireless channels of your country
