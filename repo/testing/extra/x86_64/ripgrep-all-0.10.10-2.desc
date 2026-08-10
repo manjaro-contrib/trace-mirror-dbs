@@ -1,0 +1,68 @@
+%FILENAME%
+ripgrep-all-0.10.10-2-x86_64.pkg.tar.zst
+
+%NAME%
+ripgrep-all
+
+%BASE%
+ripgrep-all
+
+%VERSION%
+0.10.10-2
+
+%DESC%
+rga: ripgrep, but also search in PDFs, E-Books, Office documents, zip, tar.gz, etc.
+
+%CSIZE%
+2324857
+
+%ISIZE%
+14236544
+
+%MD5SUM%
+bbcecbbfe2d1368e8bc43d40da3e6d38
+
+%SHA256SUM%
+f6089c8fb737db70e6489306d42318d0cb5e163c1502b50e113d35020de57d55
+
+%PGPSIG%
+iQIzBAABCgAdFiEExdKm4O0tEcZrn6KjBjE5EQV91agFAmp2xMcACgkQBjE5EQV91ajvxw/+N5VCjuAjxqBZS2bxQJAxeKylo3Q2juMhfg3ZYQVv6eSucbxwcwFNSsFXp4UGC4/l6/Tx27XUmg8IjOA2OFPyyFSxpRHJLcDopRil9kfc41hz2BUdh0IXvJ8QynWxIUjnnBWLgPgs7fZ8+0EW55KE8sqng1sVhDJSngFUTTih8hzof+3inRe1XdllcgWxNhYUKtb/YEPjxB3/qeT9FBKUm81AHGvY093Hvre6QuOuMFERZcWU3vcioVRe7yyKti0+UB+I/WA1I3B+WNcV+AYcnpeI+ahtegrXbu4np2uSyFO8ftADC3p/isKDRvwJEm0iLJjzIbFsJJOKVXkVY2my7tm3PU9+63fkQZvAaakYKILV568Rp1ULYdUbV3wOT7IIsXazXYzfxkAgtcxm3hPJly7W+wRJln7WTVO9Kq8J8EIvyBqeshNialxPZJ0nUIpHclYIacMj5HCE0ViqVNrTe+2gTpNWzJ2fGPpI+MxRlaE4qd2w/b9JnGrSpP1zcMmNjPFd7mY+9YbVXrfx6O5c+T47dUpS5VILESoT2iVBYoz6LEK1V3bQgL5lP/Ht+UPR3T9AiYCPWP31HF1TWzoABY/sBvsH7oc87E+i0Gzn9P5rbKPfBk2G1AT+LgI9mLbctLIRtdK+v9ZIbgQw+VPcSDPbMtkFWnmLrhKJJjkVZSA=
+
+%URL%
+https://github.com/phiresky/ripgrep-all
+
+%LICENSE%
+AGPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1786168192
+
+%PACKAGER%
+George Hu <integral@archlinux.org>
+
+%DEPENDS%
+bzip2
+glibc
+libgcc
+ripgrep
+sqlite
+xz
+zstd
+
+%OPTDEPENDS%
+ffmpeg: for the ffmpeg adapter
+graphicsmagick: for the pdfpages adapter
+pandoc: for the pandoc adapter
+poppler: for the poppler adapter
+tesseract: for the tesseract adapter
+
+%MAKEDEPENDS%
+cargo
+
+%CHECKDEPENDS%
+pandoc
+poppler
+

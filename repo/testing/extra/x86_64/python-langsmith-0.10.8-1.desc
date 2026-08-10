@@ -1,0 +1,96 @@
+%FILENAME%
+python-langsmith-0.10.8-1-any.pkg.tar.zst
+
+%NAME%
+python-langsmith
+
+%BASE%
+python-langsmith
+
+%VERSION%
+0.10.8-1
+
+%DESC%
+Client library to connect to the LangSmith Observability and Evaluation Platform
+
+%CSIZE%
+1255869
+
+%ISIZE%
+9398292
+
+%MD5SUM%
+c16b07e0f0a3ba7893bd151afe5cfbc4
+
+%SHA256SUM%
+81050978b4d5cb973eb948f4baa36b1266d349e8d9430897cc0acca313a7fbc6
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmp5GFIACgkQeGxj8zDXy5L5wQ//awp/cfVDfnk493BXtGyfhFdV9PuskGk/sOHERPsMCSyczCO0pwGCzrc4Vg48B8fCFQyUAZPfRZ8NUDL2xDi+rTNQ8teTniEVtALxAy+2woVzsUeDr/636+I2pMgVyYPUcMMA/aVmxlqtUuzykK1IFXV0UX1bZ5RK445GgjRMIKWGWyUT7qpaiy58LZaojvvGx1x0tdXoMpqWaSeuI+Ffi8uJy1BgbU6azMYAVthqYbYeVYDkqB6peRhEhS7KkcjppE+O6ly3ReKYSV1Z4bgqMFuZoAv4q12Jdj7Sy09Wv9kNB51Wa1PdhTYVoN4VTzdffE+Pb9u54J0WIngXFVVzgMECGnTR7rBIBpS1c3zYt8UpO5Ok38O8551zekInsLorrhlVAwljGaEKkfVhpXEtBxV1beunOdV5pSFSldi15/LTrj7GlCGZijKtaY2Gxt7QIYFqwlno4V709BJPrU9kLwaaVsYQbtKkrC6q3DY0AgoOu+oZDc9ARApNlM3YKUdZnB3JbAKNK2/TueTUQXifdgZt7zo9L69a/oyYFVcq1AQVO2s5nkdRdQqTVgb0SFaLlpp1ivtVbeCbXnDaXT3Gtf9EEjHTg7MN7nvvGybhQrVW5RsEvZO264FJRivdtSUpEk18DvqG9IMl/H7DZnwhZeY/Pi/7Wc7ZeluoBVRAGl0=
+
+%URL%
+https://github.com/langchain-ai/langsmith-sdk
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1786320719
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python
+python-anyio
+python-distro
+python-httpx
+python-orjson
+python-packaging
+python-pydantic
+python-requests
+python-requests-toolbelt
+python-sniffio
+python-typing_extensions
+python-uuid-utils
+python-websockets
+python-xxhash
+python-zstandard
+
+%OPTDEPENDS%
+python-langchain-core: LangChain runnable integration support
+python-cachetools: LiveKit and Pipecat tracing support
+python-pytest: LangSmith pytest plugin support
+python-rich: enhanced pytest output support
+python-vcrpy: VCR support
+python-opentelemetry-api: OpenTelemetry tracing support
+python-opentelemetry-sdk: OpenTelemetry tracing support
+python-opentelemetry-exporter-otlp-proto-http: OpenTelemetry export support
+
+%MAKEDEPENDS%
+git
+python-build
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+python-attrs
+python-cachetools
+python-dataclasses-json
+python-langchain-core
+python-multipart
+python-opentelemetry-api
+python-opentelemetry-exporter-otlp-proto-http
+python-opentelemetry-sdk
+python-pytest
+python-pytest-asyncio
+python-pytest-httpx
+python-pytest-rerunfailures
+python-pytest-retry
+python-pytest-timeout
+python-vcrpy
+
