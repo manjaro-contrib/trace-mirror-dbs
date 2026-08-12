@@ -1,0 +1,62 @@
+%FILENAME%
+mkinitcpio-systemd-tool-40-1-any.pkg.tar.zst
+
+%NAME%
+mkinitcpio-systemd-tool
+
+%BASE%
+mkinitcpio-systemd-tool
+
+%VERSION%
+40-1
+
+%DESC%
+Provisioning tool for systemd in initramfs (systemd-tool)
+
+%CSIZE%
+21653
+
+%ISIZE%
+71225
+
+%MD5SUM%
+27b35454db90c9b18e5778ce1bedb9a5
+
+%SHA256SUM%
+edd565e660a1c573057f69727e7f70dedc11c7b771e3cabe5841f4e9d64410b6
+
+%PGPSIG%
+iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCano6IQAKCRCbeih9mi7GCBelAP0SsDd3Gb4eZJYCiZAhgmzSXDlf73Bk2vI4dcnEYSEPHgEA1/hrGtevrAFSFuTSouXmGAIOR5pSoUxI49Et1gbXugY=
+
+%URL%
+https://github.com/random-archer/mkinitcpio-systemd-tool
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1786395108
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%CONFLICTS%
+mkinitcpio-dropbear
+mkinitcpio-tinyssh
+
+%DEPENDS%
+bash
+mkinitcpio
+systemd
+
+%OPTDEPENDS%
+busybox: for initrd-tinysshd.service
+cryptsetup: for initrd-cryptsetup.service
+dropbear: for initrd-dropbear.service
+mc: for initrd-debug-progs.service
+nftables: for initrd-nftables.service
+tinyssh: for initrd-tinysshd.service
+
