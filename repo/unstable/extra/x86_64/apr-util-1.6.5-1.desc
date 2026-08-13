@@ -1,0 +1,74 @@
+%FILENAME%
+apr-util-1.6.5-1-x86_64.pkg.tar.zst
+
+%NAME%
+apr-util
+
+%BASE%
+apr-util
+
+%VERSION%
+1.6.5-1
+
+%DESC%
+The Apache Portable Runtime
+
+%CSIZE%
+179156
+
+%ISIZE%
+707685
+
+%MD5SUM%
+4e341875f62b75a542e952a3ebcc515e
+
+%SHA256SUM%
+bddd402c6484af1b4d88098aebbdc32931b71ec901c66eb21e30cb2fe7536bae
+
+%PGPSIG%
+iHUEABYKAB0WIQQEKYl95fO9rFN6MGltQr3RFuAGjwUCanuL3wAKCRBtQr3RFuAGj1nLAP4wFNVbpmPHvfXFhdAXc8Rf/y1IEuBQNAjwZFYmeGNaPAEA5PuIp0wtUIiUpEn9QAyhQ32ZiOgh8LZ168yBbebHjws=
+
+%URL%
+https://apr.apache.org/
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1786481341
+
+%PACKAGER%
+Christian Hesse <eworm@archlinux.org>
+
+%DEPENDS%
+apr
+expat
+glibc
+libxcrypt
+
+%OPTDEPENDS%
+gdbm: enable gdbm support
+libldap: enable ldap support
+unixodbc: enable odbc support
+mariadb-libs: enable mysql/mariadb support
+postgresql-libs: enable postgres support
+db: enable berkley db support
+sqlite: enable sqlite support
+nss: enable nss crypto support
+openssl: enable openssl crypto support
+
+%MAKEDEPENDS%
+db
+gdbm
+libldap
+mariadb-libs
+nss
+openssl
+postgresql-libs
+python
+sqlite
+unixodbc
+
