@@ -1,5 +1,5 @@
 %FILENAME%
-python-fast-simplification-0.1.13-1-x86_64.pkg.tar.zst
+python-fast-simplification-0.2.0-1-x86_64.pkg.tar.zst
 
 %NAME%
 python-fast-simplification
@@ -8,22 +8,22 @@ python-fast-simplification
 python-fast-simplification
 
 %VERSION%
-0.1.13-1
+0.2.0-1
 
 %DESC%
 Fast quadric mesh simplification
 
 %CSIZE%
-183521
+123769
 
 %ISIZE%
-684686
+446827
 
 %SHA256SUM%
-9c62ae70df5ed60b5a2f5e9d894e0cf95e0f28fb7dec29081714d86c577fdd60
+4d68472e95aced02ad4421f5fd4ebb109978d653d3028ea80a06578b48e47316
 
 %PGPSIG%
-iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCakEZmAAKCRAAHPSBC+jZEUYNAP9dNHi0AqbzO0SRe7tJTX5xRZv6UUKZVnvzWyRfMoExJgEA/0ZQSJFRgQgz5eeGrnsNFy+TbCS5mhzUDKuIDRZ0hwg=
+iHUEABYKAB0WIQQQlBXmkgB2Ccp+v+QAHPSBC+jZEQUCan7IUwAKCRAAHPSBC+jZEUcZAQDkBfxyeVXwsFzt57ePQFc+Z4fgSELJNW42XUoZD0xn6QEA8r8/1Kx8vvnONFPCTqWpqrkszhE7Utu8y841XC1i+w8=
 
 %URL%
 https://github.com/pyvista/fast-simplification
@@ -35,7 +35,7 @@ MIT
 x86_64
 
 %BUILDDATE%
-1782651215
+1786693384
 
 %PACKAGER%
 Jakub Klinkovský <lahwaacz@archlinux.org>
@@ -48,10 +48,11 @@ python
 python-numpy
 
 %MAKEDEPENDS%
-cython
+nanobind
 python-build
 python-installer
-python-setuptools
+python-scikit-build-core
+python-setuptools-scm
 
 %CHECKDEPENDS%
 python-pytest
