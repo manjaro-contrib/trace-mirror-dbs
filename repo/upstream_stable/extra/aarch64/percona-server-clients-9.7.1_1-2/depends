@@ -1,0 +1,23 @@
+%DEPENDS%
+glibc
+libgcc
+libstdc++
+zlib
+zstd
+openssl
+jemalloc
+libfido2
+libedit
+
+%CONFLICTS%
+mysql-clients
+libperconaserverclient
+
+%PROVIDES%
+mysql-clients=9.7.1_1
+mariadb-clients=9.7.1_1
+
+%OPTDEPENDS%
+libsasl: authentication_ldap_sasl_client plugin
+krb5: authentication_kerberos_client plugin
+
