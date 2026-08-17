@@ -1,0 +1,137 @@
+%FILENAME%
+root-cuda-6.40.02-2-x86_64.pkg.tar.zst
+
+%NAME%
+root-cuda
+
+%BASE%
+root
+
+%VERSION%
+6.40.02-2
+
+%DESC%
+C++ data analysis framework and interpreter from CERN with GPU (CUDA) features enabled
+
+%CSIZE%
+167657166
+
+%ISIZE%
+642147848
+
+%MD5SUM%
+af658e6d88539c76ce581cf49e00a0a8
+
+%SHA256SUM%
+163158f5870b924ea9542239106a61575cfe7cca4fd18adedfed1bb05f2e113c
+
+%PGPSIG%
+iQIzBAABCgAdFiEELjbYYgIhSC/EXLfyqRdkdZMmtEAFAmp/XhMACgkQqRdkdZMmtEDQGRAAtIg0I51te9KoFKgt8XMVwFHYIRqRU38dtYOwjdnoOoTFBwwIbJzQZrIH/ldoxqaMUnNs4ujIGhjvjt7n0YocUgoOWb/VrIFcvChRYw2OopUJzw+hoEftlxj8hEnKYhclNxpK591M9AffaYWQjWTd3NiAhqcXkAFjUuvp8/kYcOOPtNw3i9CpvMQBjp8tGWwQlZ+0VS8ty0uBaekF0+so8eIfZaIUMJLKTvM9OY+uF6j5vRkL1jgKPlXwmpnMqn7jrEBzsVBQnVK4f95cn+T/xkJPLPOsNgxvmHZDKExuzMeZPpCucB07/1czMh9m54DJ8GQPymabPDnrZ2wAbp1kAQdI7vIQDn6PaauCR+OikdpUqbzaUCnqBsp5lrUg+m6GuvCJG37mMVcrlxofdQWjAdQR9RInYCU86saA6/dbcOAsCUdpX0C7hNfhFsIRh1r2U62mVhXpK6Ym+c7HoAa1kEGTCEykAZmLF9Vs+R3gzAcQ7w7eOj5EXr64now7hmeHDd0Q666t6VVtK8RGyb+2JzEacnWwT+jiVeNCwmnIqhe2TgeFwrwvWPNlXWzYeLwL1BxmBhlXdvtJs2IHpHIKbZErEd2IPeJiVisON1aSiFzPXDxFLrr+mcuzj8k8SPSJRTLLG6prx8X0lVlC92Gb4khlw21W/dPgbB6ZLwe4CX0=
+
+%URL%
+https://root.cern
+
+%LICENSE%
+LGPL-2.1-or-later
+BSD-2-Clause
+BSD-3-Clause-LBNL
+NCSA
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1786729923
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%CONFLICTS%
+root
+
+%PROVIDES%
+root
+
+%DEPENDS%
+blas
+desktop-file-utils
+fcgi
+fftw
+freetype2
+ftgl
+giflib
+gl2ps
+glew
+glibc
+graphviz
+gsl
+hicolor-icon-theme
+libgcc
+libgfortran
+libglvnd
+libjpeg-turbo
+libpng
+librsvg
+libstdc++
+libtiff
+liburing
+libxcrypt
+libxft
+libxml2
+libxpm
+lz4
+ncurses
+openssl
+pcre2
+python
+python-numpy
+tbb
+tex-gyre-fonts
+xxhash
+xz
+zlib
+zstd
+cuda
+cudnn
+
+%OPTDEPENDS%
+cern-vdt: Add a set of fast and vectorisable mathematical functions
+cfitsio: Read images and data from FITS files
+chromium: Support for WebGUI
+gcc-fortran: Enable the Fortran components of ROOT
+jupyter-metakernel: for Jupyter kernel
+openmpi: Support for Message Passing Interface (MPI)
+pythia8>=8.2.40-1: Pythia8 EG support
+python-pygments: syntax highlighting in interactive console
+qt6-webengine: Support for WebGUI
+sqlite: SQLite support
+tcsh: Legacy CSH support
+unuran: Support non-uniform random numbers
+vc: Add types for portable and intuitive SIMD programming
+xrootd>5: Support remote file server and client
+z3: Support the Z3 theorem prover
+
+%MAKEDEPENDS%
+cern-vdt
+cfitsio
+chromium
+cmake
+cuda
+cudnn
+gcc-fortran
+git
+go
+ninja
+nlohmann-json
+ocaml
+ocaml-ctypes
+openmpi
+pythia8
+python-pygments
+qt6-webengine
+sqlite
+unuran
+vc
+xrootd
+z3
+
