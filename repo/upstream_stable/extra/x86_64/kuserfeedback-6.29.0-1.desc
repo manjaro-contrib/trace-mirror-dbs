@@ -1,0 +1,67 @@
+%FILENAME%
+kuserfeedback-6.29.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+kuserfeedback
+
+%BASE%
+kuserfeedback
+
+%VERSION%
+6.29.0-1
+
+%DESC%
+Framework for collecting user feedback for applications via telemetry and surveys
+
+%CSIZE%
+345756
+
+%ISIZE%
+2117408
+
+%SHA256SUM%
+f815d384dfbfa8df120f09de5f46d1e361f5c18582b99de7e1801ed0f31cf841
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmqCyQsACgkQek52CV2KUuTPhwgAjuod75F3ldRSWuYq0HKwTR1UDx4MMLu6FyKa/YeA3jLFs1f9EVXgD4s8BMAp7qvbmWzFSnLtrFbXKaPV1lKSwaBxQ/Yu7RKfVjbigHOaddFE60V94yHkJJyeN8MMkLFe/qn95ED8zmwta1X7btTmTf9uzq+tBwOuGeegpXL38aFnylrkpkQJjiYfzeIl53oGdiNmzgxmBiJXPJhCaKxkprNwRkgOVpkZXfRhEWHrd6Ws4VSWS0mY8vA6W5QAIOGJWimtLWdhPCXkG7DjsU3l9MZgaiy3QBjS84Vs68yu6bgenJ1n1vVwCqJ90G2qcc05r1JsFnol1+fRzFCeDapw7Q==
+
+%URL%
+https://develop.kde.org/products/frameworks/
+
+%LICENSE%
+LGPL-2.0-only
+LGPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1786884852
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%REPLACES%
+kuserfeedback5
+
+%CONFLICTS%
+kuserfeedback5
+
+%DEPENDS%
+glibc
+libstdc++
+qt6-base
+
+%OPTDEPENDS%
+qt6-charts: Feedback console
+qt6-declarative: QML bindings
+qt6-svg: Feedback console
+
+%MAKEDEPENDS%
+clang
+extra-cmake-modules
+qt6-charts
+qt6-declarative
+qt6-svg
+qt6-tools
+
