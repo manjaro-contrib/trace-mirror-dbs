@@ -1,5 +1,5 @@
 %FILENAME%
-wezterm-20240203.110809.5046fc22-2-x86_64.pkg.tar.zst
+wezterm-20240203.110809.5046fc22.r869.g76b606ec5-2-x86_64.pkg.tar.zst
 
 %NAME%
 wezterm
@@ -8,25 +8,25 @@ wezterm
 wezterm
 
 %VERSION%
-20240203.110809.5046fc22-2
+20240203.110809.5046fc22.r869.g76b606ec5-2
 
 %DESC%
 A GPU-accelerated cross-platform terminal emulator and multiplexer
 
 %CSIZE%
-25026445
+23465454
 
 %ISIZE%
-110505789
+111105337
 
 %SHA256SUM%
-913d3ab49cc1fcdbdd9e52e78cbf93729e6d8ac709275038e9043fc1497e5a13
+dd3afe92073bd57cfe754465cffc3349bb2fe31213f0daf941e0cb08ad23c581
 
 %PGPSIG%
-iHUEABYKAB0WIQRizHP4hOUpV7L92IObeih9mi7GCAUCZkscJQAKCRCbeih9mi7GCN98AP9DDxD1wXQ3EkmNhMZttzGhG5ASX3D2MMMo3QjqjHnv7AEAifBXpU8PB7eU/Ma2STrkH9+JAbAfBNX1oHxvyzW0kg0=
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCalvs618UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCjibAQDpLRWrfZahFOQypaKTp7HIYpZzewEWDzkIVD82iYMmWgD/V+o0rLJ1H4XWiexCGd9d90AqFMeOJ1D4CMc6JCrulwo=
 
 %URL%
-https://github.com/wez/wezterm
+https://github.com/wezterm/wezterm
 
 %LICENSE%
 MIT
@@ -35,10 +35,10 @@ MIT
 x86_64
 
 %BUILDDATE%
-1716197837
+1784406317
 
 %PACKAGER%
-David Runge <dvzrv@archlinux.org>
+Frederik Schwan <freswa@archlinux.org>
 
 %REPLACES%
 wezterm-shell-integration
@@ -49,7 +49,7 @@ wezterm-shell-integration
 %DEPENDS%
 bash
 fontconfig
-gcc-libs
+libgcc
 glib2
 glibc
 hicolor-icon-theme
@@ -65,6 +65,7 @@ wayland
 xcb-util
 xcb-util-image
 zlib
+zstd
 
 %OPTDEPENDS%
 ncurses: for wezterm terminfo database
