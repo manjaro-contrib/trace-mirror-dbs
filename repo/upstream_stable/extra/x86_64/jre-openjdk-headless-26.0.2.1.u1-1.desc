@@ -1,29 +1,29 @@
 %FILENAME%
-jre-openjdk-26.0.2.u10-1-x86_64.pkg.tar.zst
+jre-openjdk-headless-26.0.2.1.u1-1-x86_64.pkg.tar.zst
 
 %NAME%
-jre-openjdk
+jre-openjdk-headless
 
 %BASE%
 java-openjdk
 
 %VERSION%
-26.0.2.u10-1
+26.0.2.1.u1-1
 
 %DESC%
-OpenJDK Java 26 full runtime environment
+OpenJDK Java 26 headless runtime environment
 
 %CSIZE%
-33377602
+33188635
 
 %ISIZE%
-188598396
+188063044
 
 %SHA256SUM%
-6e2fdc157cd1867ec2a340c699cdd933a97df31312f89c8075406e54dd3b324a
+9f2178b9e29d031ffdad4c8a12679b16a6e7ff267bbec0a4b03b977f7d468132
 
 %PGPSIG%
-iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCamCRal8UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaChbbAP9TJzBF4cVF7B2luj8KKfn77QirHMSXjyEGUy1Qtq8QxwEA0QUgiI4CMFrCR+zurpIbw4gfTUoaoZMMnENjWzoyewU=
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCaoVps18UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCh8yAP4yFXX0zh/6HcRtG5W7L14WyFvhASjTndBdk6vt+wAQqAEAveS1+UFJjmfrELRt+wlPJ0tueabm/HztfNcm6nKHTgg=
 
 %URL%
 https://openjdk.java.net/
@@ -35,22 +35,19 @@ LicenseRef-Java
 x86_64
 
 %BUILDDATE%
-1784712449
+1787124227
 
 %PACKAGER%
 Frederik Schwan <freswa@archlinux.org>
 
 %CONFLICTS%
 jdk-openjdk
-jre-openjdk-headless
+jre-openjdk
 
 %PROVIDES%
-java-runtime=26
-java-runtime-openjdk=26
-jre26-openjdk=26.0.2.u10-1
 java-runtime-headless=26
 java-runtime-headless-openjdk=26
-jre26-openjdk-headless=26.0.2.u10-1
+jre26-openjdk-headless=26.0.2.1.u1-1
 
 %DEPENDS%
 java-runtime-common>=3
@@ -68,13 +65,9 @@ liblcms2.so=2-64
 libnet
 libstdc++
 nss
-giflib
-libgif.so=7-64
-libpng
 
 %OPTDEPENDS%
-alsa-lib: for basic sound support
-gtk3: for the Gtk+ 3 look and feel - desktop usage
+java-rhino: for some JavaScript support
 
 %MAKEDEPENDS%
 java-environment>=22
