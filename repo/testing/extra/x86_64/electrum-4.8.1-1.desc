@@ -1,0 +1,86 @@
+%FILENAME%
+electrum-4.8.1-1-any.pkg.tar.zst
+
+%NAME%
+electrum
+
+%BASE%
+electrum
+
+%VERSION%
+4.8.1-1
+
+%DESC%
+Lightweight Bitcoin wallet
+
+%CSIZE%
+8159544
+
+%ISIZE%
+47931353
+
+%MD5SUM%
+b8fb094f0efe7c191831b85cba5a4fc6
+
+%SHA256SUM%
+8ff6345cb38c41af12c492aabc28f56faf2b2dacbeaeb601c90ec53c0e4bec69
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmp+TPoACgkQek52CV2KUuRBvQf9HQ0izz2N+8P38HDL8bhMPJHo+E5rVlb4NGeooztYDpHcQ3ttYl5hDsKkY6raKzQDXw5667BAjWNDW2ZgXlrxfQQS4lI2UXHYpWtq5c+WbX/yJ7W2IEI4VzBOzNPMHEfumx2GCToelsVdiU9Kqdgl04ewiiWsnHieKRZZyWiOaalhy1dQdw+3prEfOi4KMnoNQKvGT+5wZCTkUNA3coWHtJa0d+0et+c4ioEhscKWJ08qvI3F+HaMcfDfnfmVE+NZH0hIe8WCAo89djZEBgwOL6qBTEIY/XvLtO9JXFkesv7ypVBY3XlRDN67xksVXDZUHrabw8a6L6Pw9vOCR8dxfw==
+
+%URL%
+https://electrum.org
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1786661764
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+hicolor-icon-theme
+python
+python-aiohttp
+python-aiohttp-socks
+python-aiorpcx
+python-attrs
+python-certifi
+python-cryptography
+python-dnspython
+python-electrum-aionostr
+python-electrum-ecc
+python-jsonpatch
+python-jsonpointer
+python-pillow
+python-pyaes
+python-pyqt6
+python-qrcode
+qt6-declarative
+
+%OPTDEPENDS%
+python-cbor2: Jade hardware wallet support
+python-hidapi: Digital Bitbox hardware wallet support
+python-matplotlib: plot transaction history in graphical mode
+python-pycryptodomex: use PyCryptodome AES implementation instead of pyaes
+python-pyserial: Jade hardware wallet support
+python-qdarkstyle: optional dark theme in graphical mode
+python-rpyc: send commands to Electrum Python console from an external script
+zbar: QR code reading support
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-pycryptodomex
+python-pytest
+
