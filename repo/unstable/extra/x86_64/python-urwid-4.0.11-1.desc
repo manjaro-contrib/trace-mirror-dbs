@@ -1,0 +1,75 @@
+%FILENAME%
+python-urwid-4.0.11-1-any.pkg.tar.zst
+
+%NAME%
+python-urwid
+
+%BASE%
+python-urwid
+
+%VERSION%
+4.0.11-1
+
+%DESC%
+Curses-based user interface library
+
+%CSIZE%
+598328
+
+%ISIZE%
+4173689
+
+%MD5SUM%
+ea60959e003ec4177c483c753e92ede9
+
+%SHA256SUM%
+4ce570716274d202eb90b591dd294c916f296919d6944398b92e4054b064c2a1
+
+%PGPSIG%
+iQIzBAABCgAdFiEELjbYYgIhSC/EXLfyqRdkdZMmtEAFAmqGREUACgkQqRdkdZMmtECz6Q//YBRCNXDHqTrES8yYqojukTFO41EIOxKTllMcINqq32Z5vEGQW/F7WAP6DTXrSp2wn8w5AyhCEFZtFrt8yW5+V5+sfpIeK6CNBPYgODbqIJlaUuLEj4x7wiqBBR1X2/4JUP9B2O76PkbRTXGhhc1+kXb4Bkn754D2TcS5dmH2/RdQ/YPUsnrTK1RD33JwSBkTScYhTXRrKs1DHXp8M4XPCJmbl0ammVoMgkYG+Q4foX61D4I017ZZ9LMzCY670wSVzdw43de3IjGcm8is6DYX1J7ITaRFu7P/PjLfrFd1kEXHfZHQtHM5WrlHfujvtXpHiDViflUj9cscatmPVC0jLQqO7eO7+mT26PkAOWznHex3qiSBALeWUJmVDIw2Dnw5GdLbPCMf2+u97fUwcX1Tttvn7EVaOUdJSxmpZW7XANVeD7B4gHHfKkkIu//mb7N3f9S1TT2Cse9UmWoBYT5oWi2XWvjHahIS0Eu+ONPTLQjtUocOl+HainYViTuiDPrsP9CesJ6U/ITOigPGD0oAd6uT+lUnMNXsWCta9Rd40fU8lFRtydO2S/H8t3tC5XmNIAOCcYoKa5oHtPgTl/BZwqtVzaS2U/V266lPGTxj05oSmx7wG2Jt8uTOQt9yQSUnSM1LFOqHpCy0mDiMPrREJOshpehQXTjx32E1dR6eWGA=
+
+%URL%
+https://urwid.org/
+
+%LICENSE%
+LGPL-2.1-only
+
+%ARCH%
+any
+
+%BUILDDATE%
+1787184166
+
+%PACKAGER%
+Lukas Fleischer <lfleischer@archlinux.org>
+
+%DEPENDS%
+glib2
+python
+python-typing_extensions
+python-wcwidth
+
+%OPTDEPENDS%
+python-gobject: for gobject integration
+python-pyserial: for LCD and serial integration
+python-pyzmq: for zmq integration
+python-tornado: for tornado integration
+python-trio: for trio integration
+python-twisted: for twisted integration
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-setuptools-scm
+python-wheel
+
+%CHECKDEPENDS%
+python-gobject
+python-pytest
+python-pyzmq
+python-tornado
+python-trio
+python-twisted
+
