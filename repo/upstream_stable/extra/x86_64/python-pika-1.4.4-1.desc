@@ -1,0 +1,57 @@
+%FILENAME%
+python-pika-1.4.4-1-any.pkg.tar.zst
+
+%NAME%
+python-pika
+
+%BASE%
+python-pika
+
+%VERSION%
+1.4.4-1
+
+%DESC%
+Pure Python RabbitMQ/AMQP 0-9-1 client library
+
+%CSIZE%
+329552
+
+%ISIZE%
+2644942
+
+%SHA256SUM%
+32f3910103b101053c50fa47c09ff8aa38913a26970e85da141f835f27f24fad
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmqIsdoACgkQwGCGM3xQdz6YIwf/XGeOybpmsRHoQ9ApheAR8YG/wRtUhCHH7UEDegUH0jDOKYBztWAypxbUZ9mjcAAepLdovcYRuCea2jKr38zwDjbVR9Ha9qboVIRmHEMEcHNtT4XGSPqKpTUyWt423zG+L2AwloJnnzfhX0Ll+7m/4ElVViXt4nkiBAXUqrij3CHNlRDNbECp8rDWO9tX5U7qPD+K3SyIB9DnJph4VSDXVm8VLVVspkuno0Z1+m+ohvCRBebmvef57LTsxarbdeStMxXsTbB/h2N7qhoa0t1cfOK+s9uS/2iey/a4udflKAmfpzg1Gxh19i+c8UE1OnHPjJTAChU2Q5HNukJY31d35Q==
+
+%URL%
+https://github.com/pika/pika/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1787338745
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-tornado: use with Tornado I/O loop
+python-twisted: use with Twisted I/O loop
+python-gevent: use with Gevent I/O loop
+
+%MAKEDEPENDS%
+python-build
+python-installer
+python-wheel
+python-setuptools
+git
+

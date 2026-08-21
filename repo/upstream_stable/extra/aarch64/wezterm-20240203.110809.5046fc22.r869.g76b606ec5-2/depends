@@ -1,0 +1,30 @@
+%DEPENDS%
+bash
+fontconfig
+libgcc
+glib2
+glibc
+hicolor-icon-theme
+libssh2
+libx11
+libxcb
+libxkbcommon
+libxkbcommon-x11
+openssl
+ttf-jetbrains-mono
+ttf-roboto
+wayland
+xcb-util
+xcb-util-image
+zlib
+zstd
+
+%CONFLICTS%
+wezterm-shell-integration
+
+%OPTDEPENDS%
+ncurses: for wezterm terminfo database
+noto-fonts-emoji: for default fonts
+python-nautilus: WezTerm context menu in Nautilus
+ttf-nerd-fonts-symbols-mono: for default fonts
+
