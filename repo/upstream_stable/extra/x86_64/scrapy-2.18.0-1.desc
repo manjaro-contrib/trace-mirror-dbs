@@ -1,0 +1,98 @@
+%FILENAME%
+scrapy-2.18.0-1-any.pkg.tar.zst
+
+%NAME%
+scrapy
+
+%BASE%
+scrapy
+
+%VERSION%
+2.18.0-1
+
+%DESC%
+A fast high-level scraping and web crawling framework
+
+%CSIZE%
+726914
+
+%ISIZE%
+4615556
+
+%SHA256SUM%
+fa83309a3494b65ff8d68708b9c686a9db14b53f46b0dbadfddba8e718da9b2a
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmqICvEACgkQeGxj8zDXy5KJoA//d7xA/r1JNkJdNPzc0x0zWNk6j5HyDbjXqjCEfHwJObSsItDrS02urC/PhPjm1DG+RapBvzQaByp680biCRktVVuCi+HCKr46Qw6oto9VrPkqsFFWm664c87ogncQJ9eLrW2JyrpL0c4B5g5LyLq6jTeBv6l6XCz8ciQwTt13DjTWHPxBRn9HaQuH2XOGcncZL1y4alW62NMhenxilnyzLlXBjvdWZM0lDq1NIbEvRGx+BrdTu0dhBSb6FiBlPjPSwZwspxCLD9LweivITELYFcj1RwHRCSyYxZO9kBrmGrCFWfbcn/muW4mAk1vvqnGGka23LgWCB4jX/9xH55YFm7cOuAKah9pH9qrFPNavtgpVIlwW153hw/OOAIynlZ+M/6A8NN1+5jW94Vwh9ap0HY5cItGi1jil14VZ1WV0JPSNhXLe7QD5rSsXlamO+71n7LtFuGxOkBixMfXeOnln0LicNGgH1VLmYqxJJjy6RU07tc9P5TnTf/Rhav8oS6ASjg3uWRSQYFU35/HRWukWzUqeCl/JJKZcgBHYjqwONx3WAEg/tguocDyqq1f+pKVXrha+VTghigFmM4Hxr3qon8nUQxxDeF4cUHc5zMTyU4SvIvrmhFQ6CjcJOwt45rBMSYTtgs82/F6+2gMkQZ8ahV+ooA6DyVWTASIF8E9Uimc=
+
+%URL%
+https://scrapy.org
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1787299903
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python
+python-brotli
+python-cryptography
+python-cssselect
+python-defusedxml
+python-itemadapter
+python-itemloaders
+python-lxml
+python-packaging
+python-parsel
+python-protego
+python-pydispatcher
+python-pyopenssl
+python-queuelib
+python-service-identity
+python-setuptools
+python-tldextract
+python-twisted
+python-w3lib
+python-zope-interface
+
+%OPTDEPENDS%
+bpython: for ncurses support in cmdline
+ipython: for enhanced support of the interactive scraping shell
+python-anyio: for HTTPX download handler asyncio support
+python-botocore: for various utils
+python-h2: for HTTP2 support
+python-hpack: for HTTP2 streaming support
+python-httpx2: for HTTPX download handler support
+
+%MAKEDEPENDS%
+git
+python-build
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+bpython
+ipython
+mitmproxy
+python-anyio
+python-attrs
+python-botocore
+python-h2
+python-httpx2
+python-markupsafe
+python-pyftpdlib
+python-pytest
+python-pytest-rerunfailures
+python-pytest-timeout
+python-pytest-twisted
+python-sybil
+python-uvloop
+
