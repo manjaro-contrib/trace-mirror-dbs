@@ -1,32 +1,32 @@
 %FILENAME%
-linux-lts-6.18.45-1-x86_64.pkg.tar.zst
+linux-rt-7.1.9.rt1.arch1-2-x86_64.pkg.tar.zst
 
 %NAME%
-linux-lts
+linux-rt
 
 %BASE%
-linux-lts
+linux-rt
 
 %VERSION%
-6.18.45-1
+7.1.9.rt1.arch1-2
 
 %DESC%
-The LTS Linux kernel and modules
+The Linux RT kernel and modules
 
 %CSIZE%
-151222309
+155451860
 
 %ISIZE%
-151553202
+155818843
 
 %SHA256SUM%
-0b8e1c8cbec764a1f6716b5837491e2db8de6da9a75a5cd7b3101ba371420be2
+5eac42ed6af58b09d121188657d2751afa2d75e7594e20328243c0ece0ff826a
 
 %PGPSIG%
-iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmqGCBsACgkQlGV6sg8qCStX8gf/bQQbmxirdBNjlE2EIwMAGdj8OnGv9rdxQvAjco9zaQH72D6I8mhel0emOXn3XxwtTzFPW5lShMgKYZ2J/uUdWzQKX+l7YRJR+9eTbeShVSQzJi8cWIBVJJEFCfkadYXwAHxCcUVVXDcbRE+08OmVshr8hpZdd/LZjQibfU3ZsPvClaIQBnOb8kORpVUYlz4vrl35pCXa/r6rUCSdeIjg4rgtbj+0DjvFl1O646OcJJcB/kGfiFxCKGt6b9EIAtEH+2WroBHpagFxA/unRf/OXqK/sgNCif5dWiOxGVXMFEtX9+dIevFTv9jYjjaxyEMLHFxYlx/jQwaRQON8GTzXuw==
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCaojih18UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCkt3AQDL2uAksDF7jGOmi8W+rdU65eTE93Auba50YWg0GoBeKgEAgsvwzJ0R939wjFY0ER6uRez0p3ymCK03biqfv2lL3wU=
 
 %URL%
-https://www.kernel.org
+https://gitlab.archlinux.org/archlinux/packaging/upstream/linux-rt
 
 %LICENSE%
 Apache-2.0 OR MIT
@@ -67,13 +67,10 @@ Zlib
 x86_64
 
 %BUILDDATE%
-1787167762
+1787351810
 
 %PACKAGER%
-Andreas Radke <andyrtr@archlinux.org>
-
-%REPLACES%
-wireguard-lts
+Frederik Schwan <freswa@archlinux.org>
 
 %PROVIDES%
 KSMBD-MODULE
@@ -87,7 +84,7 @@ initramfs
 kmod
 
 %OPTDEPENDS%
-linux-lts-headers: headers and scripts for building modules
+linux-rt-headers: headers and scripts for building modules
 linux-firmware: firmware images needed for some devices
 scx-scheds: to use sched-ext schedulers
 wireless-regdb: to set the correct wireless channels of your country
@@ -98,23 +95,23 @@ binutils
 cpio
 gettext
 glibc
+graphviz
+imagemagick
 libelf
 libgcc
 openssl
 pahole
 perl
 python
+python-sphinx
+python-yaml
 rust
 rust-bindgen
 rust-src
 tar
+texlive-latexextra
 xxhash
 xz
 zlib
 zstd
-graphviz
-imagemagick
-python-sphinx
-python-yaml
-texlive-latexextra
 

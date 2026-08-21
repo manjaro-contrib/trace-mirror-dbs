@@ -1,32 +1,32 @@
 %FILENAME%
-linux-lts-headers-6.18.45-1-x86_64.pkg.tar.zst
+linux-rt-lts-headers-6.18.45.rt6.arch1-2-x86_64.pkg.tar.zst
 
 %NAME%
-linux-lts-headers
+linux-rt-lts-headers
 
 %BASE%
-linux-lts
+linux-rt-lts
 
 %VERSION%
-6.18.45-1
+6.18.45.rt6.arch1-2
 
 %DESC%
-Headers and scripts for building modules for the LTS Linux kernel
+Headers and scripts for building modules for the Linux RT LTS kernel
 
 %CSIZE%
-60597843
+60968092
 
 %ISIZE%
-278665698
+280261472
 
 %SHA256SUM%
-7295e79f2bc090e6eae3ebaddde956504ea91d5817d9a4cfd1299cd8c4f2e90d
+df39e2fd8cdb00870e694eb7cf28987c4d91ce4e8a65f8a9663fbffa427ca4d6
 
 %PGPSIG%
-iQEzBAABCgAdFiEErcih/MFeAdRTEEGelGV6sg8qCSsFAmqGCBsACgkQlGV6sg8qCSseDAf/bvUPqED694iU20sYHvBLceYjPXdA9w34X7iGg5g52HWcr/JAP1EcEzA+ctGERYd9yr0wGnrE+BOyp2JNionwIrzT1K8C6GW9yQbpyXWuYW54cH+snOn3ONvRjbpKeUKfS6h7KAuorWOxiEjnbLVnb7z5q+90zHvapETg4KXBBTIpdt7101F6O9CqSn8q6jVswHtmBjXHMpzokhRL49BDOehp+Qe/GMQwHyshDWqEL7CBFuji+PkhHTs50WpXnvjGqbCVQfcSMLX3/dxnolVjM9gtkgK/b4B0zP4WeEroHhzcIWCXyH80mQEzvjEO+x3GRTTtfQ4rcwFSU0Y5LcUMeg==
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCaojizF8UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaCg4gAQDgy4gSyBqd7/kWxd7P/ezv3+r59dYMH9zjI7uegKktAwEA3OeNH54787eGUTwZjIQiJmxRxG/fk0D/3ubAJ7c55wA=
 
 %URL%
-https://www.kernel.org
+https://gitlab.archlinux.org/archlinux/packaging/upstream/linux-rt-lts
 
 %LICENSE%
 BSD-3-Clause
@@ -76,10 +76,10 @@ Zlib
 x86_64
 
 %BUILDDATE%
-1787167762
+1787353118
 
 %PACKAGER%
-Andreas Radke <andyrtr@archlinux.org>
+Frederik Schwan <freswa@archlinux.org>
 
 %PROVIDES%
 LINUX-HEADERS
@@ -101,23 +101,23 @@ binutils
 cpio
 gettext
 glibc
+graphviz
+imagemagick
 libelf
 libgcc
 openssl
 pahole
 perl
 python
+python-sphinx
+python-yaml
 rust
 rust-bindgen
 rust-src
 tar
+texlive-latexextra
 xxhash
 xz
 zlib
 zstd
-graphviz
-imagemagick
-python-sphinx
-python-yaml
-texlive-latexextra
 
