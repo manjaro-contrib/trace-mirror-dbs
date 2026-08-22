@@ -1,5 +1,5 @@
 %FILENAME%
-pragha-1.3.4-8-x86_64.pkg.tar.zst
+pragha-1.3.4-9-x86_64.pkg.tar.zst
 
 %NAME%
 pragha
@@ -8,22 +8,22 @@ pragha
 pragha
 
 %VERSION%
-1.3.4-8
+1.3.4-9
 
 %DESC%
 Lightweight GTK music player and manager
 
 %CSIZE%
-368980
+369125
 
 %ISIZE%
 1293851
 
 %SHA256SUM%
-74734bbc14df817b33b9c70c34b421fb1695574c38ec5c2c51ffbcc5a94472c5
+45ce2fd8dc3690b6564169d41a78e1c5163eed35c9c2522f5db7e0f9dfad106d
 
 %PGPSIG%
-iQIzBAABCgAdFiEEFORv5f1p8uKH4kTbYyw8wNHJyvYFAmocrXoACgkQYyw8wNHJyvY6rA/+KifNaadbMDGenFEZQ/JHYM3mlJRx+iK3PfsAT9d4ofeoEAbzWQhO7kOo/znFP1X7q3F0pvaMES6VNIC8cTOHdvLjSAdyU2F2q2o5IfT8We0w6YdaSGqOmm6pi1dYx173cuWJtg9HnEq/JFDFcGa8sDs1DM9rw1oQcfOT2ZN70OxnWknyHsQ8KyIJazZH0y2Yh4rG1IL/7DWAJbLYS+w5XCLzGDWO7keQOxt+k1S8MApxCVDopUmMjBBIRFT+ePyI9i3O+zz9ysemYuBjpStX5z0Mt6BN2loytqpVM3FSwtE3Fu6gWVAxXYgAuVkW5lbHM7fnp8x13IqUgnr54z6TADkESMeernh/u6yEj7wrQoKuvCbUm5Ec0YcBWjR4LtOBYK8RZeMBonXqfOurEnSbFZdh4ChrWbH742bIkWi3D5ChzsxHLJD98TjxcfSWAMfsNOoN7c4XJCNMNTLGtDNHNK0Ig0Tuh/vyinAZfAYJv/egCYqJz4L3/usfd70Xiixt/A0O8yXLDns8ZItyBBHT8jM9W6xu5ID4Qjq0hVdrFX+6xWQkTrM7E80dqtExaL0zb5G0Xu9II76nOwT6rs44yqtkSpSlFshV7rQmTVh81S6ViFChG/ro2RhzaaoL3a8vZYi3R9IIHqqtLFXOUjQxKWK/LfESyYACHaAVXetAjb8=
+iQIzBAABCgAdFiEEFORv5f1p8uKH4kTbYyw8wNHJyvYFAmqKF44ACgkQYyw8wNHJyvaG3w/+I2aJmHNphiXlfiMyWwiftqo79RUpPKofp950m1B/fkdKSDyNp0QT4b+TZzTTCI2upiCHQy1pfz8gFP+zV15nGPPjkjU7a5fbQKqAPL/0AMsmr33mDpygR9/Y8JO/AcvJULjtrsQjca3FKGf3AeOkzM2syFdYG4vkq37QrECR+T+VWAibgnI5KGN6N4nmmvS07xrGdkt6rsc6nTy+cVo3pry6avTjIDHZmcc3Qu2My0qmOVoOXhJaKiy9IW1D8GgO/uhDpq3yRNich7rZ3uHy2LUQsWiNfhBRVhIm7nkwVoO/257As0FG0Yf3UzpeG3woojD7g8CnzCNYpgo3vP0zr1D3GNRk1xc6V6mh1/uGSs3JTuVGSk5LSs3LThgScAYW0pT1EDqZn5O85tzQBDQ+hZsPQJp9cuZmQ3NkXWQ/oF84kg58WIwsiyKaP/Q16Nbu7E2j7k9ZrU9CEe/1magFhWw3XjY7/+pjDdrbOOAjrXaLF4bE6w0ZGn0zWvhkXIjAuSDNyTIz13KY7OomcdcfvnWC32D/8al63Y5qDHJJ7l0LUL4o77bzWRl/tfo3V0UvfZBch9x18xN75ESiGNPS9I4J4fNobB8o3PduRzallHsgYwgmpb4f4b0snzozqlFJ09Wz5DnJxhnjxXnhalKOP68Ic+uwlYeQrEkhQZPn5rk=
 
 %URL%
 https://pragha-music-player.github.io/
@@ -35,24 +35,23 @@ GPL-3.0-or-later
 x86_64
 
 %BUILDDATE%
-1780264237
+1787434835
 
 %PACKAGER%
 Balló György <bgyorgy@archlinux.org>
-
-%REPLACES%
-dissonance
 
 %DEPENDS%
 cairo
 gdk-pixbuf2
 glib2
-gstreamer
+glibc
 gst-plugins-base
 gst-plugins-base-libs
 gst-plugins-good
+gstreamer
 gtk3
 hicolor-icon-theme
+libgcc
 libgudev
 libpeas
 pango
@@ -75,10 +74,11 @@ libnotify: Notification plugin
 libsoup3: AcoustID and Get radios plugin
 
 %MAKEDEPENDS%
-intltool
+git
 glyr
 gobject-introspection
 grilo
+intltool
 libcddb
 libcdio-paranoia
 libclastfm
