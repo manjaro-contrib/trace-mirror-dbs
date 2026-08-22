@@ -1,5 +1,5 @@
 %FILENAME%
-mingw-w64-gcc-16.1.0-1-x86_64.pkg.tar.zst
+mingw-w64-gcc-16.2.0-1-x86_64.pkg.tar.zst
 
 %NAME%
 mingw-w64-gcc
@@ -8,7 +8,7 @@ mingw-w64-gcc
 mingw-w64-gcc
 
 %VERSION%
-16.1.0-1
+16.2.0-1
 
 %DESC%
 Cross GCC for the MinGW-w64 cross-compiler
@@ -18,16 +18,16 @@ mingw-w64-toolchain
 mingw-w64
 
 %CSIZE%
-291071079
+293379934
 
 %ISIZE%
-1242576661
+1252390287
 
 %SHA256SUM%
-d55da1ef78f73ac347031c4e090726786ff571663a6f841ec98d805b632f4d6e
+0e210e97c3997fc050d4c64d52e5d3bd73c60309cdadf008793effe9acce90ff
 
 %PGPSIG%
-iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCafjK2wAKCRA9TFAIu1yNKVz/AQDLiE/Bf/OPrKq/rzbzAf52mB4ItYrm9Stj3xeTaRRITQEA6GxiK+hVG8O9v6dWWZoAWHFQanM1ny7UF1eCQpLRTwM=
+iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCaolQnAAKCRA9TFAIu1yNKRzSAP9l1YDgYHM+iXH/pLdG2NsrsFWLAnzB+tG7TMOyJU1cIgEA1vEt4LMe7HOTBvlSGuV60QC0dlkrJRHYaZcilTdkvgM=
 
 %URL%
 https://gcc.gnu.org
@@ -40,14 +40,15 @@ GFDL-1.3-or-later
 x86_64
 
 %BUILDDATE%
-1777911393
+1787383521
 
 %PACKAGER%
 Peter Jung <ptr1337@archlinux.org>
 
 %DEPENDS%
 bash
-gcc-libs
+libgcc
+libstdc++
 glibc
 gmp
 libisl

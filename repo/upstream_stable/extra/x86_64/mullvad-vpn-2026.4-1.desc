@@ -1,5 +1,5 @@
 %FILENAME%
-mullvad-vpn-2026.3-1-x86_64.pkg.tar.zst
+mullvad-vpn-2026.4-1-x86_64.pkg.tar.zst
 
 %NAME%
 mullvad-vpn
@@ -8,22 +8,22 @@ mullvad-vpn
 mullvad-vpn
 
 %VERSION%
-2026.3-1
+2026.4-1
 
 %DESC%
 Mullvad VPN client (desktop application)
 
 %CSIZE%
-5055836
+5076991
 
 %ISIZE%
-39883881
+40105983
 
 %SHA256SUM%
-c459090cb25ede6e27c7e7cdbcbaa8e0199ae12c2b7e39da929ea093431716d4
+76d58d10dd584636420c0020adfbe17c6c17ab88704441197eca21100fa75d5b
 
 %PGPSIG%
-iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCajQ2ZgAKCRA9TFAIu1yNKUkiAP4svIBqHDxi9Tajj7EzaS0Ur9wmCb7O9jpwGWSdL+iZQwEAyjHHAqfazeA+eipyo46sU2JKPROHgeTpYH1UrI/HtQ0=
+iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCaoMHlAAKCRA9TFAIu1yNKR01AQCs8bwbwFcKdzSZgT3Z4UN/42A4O2tJ8Piii5p+GWLP2QD/eZ04XGSK3Z9vojG43bDO1Pf2RSdMJmgVdfnCaJLr0A4=
 
 %URL%
 https://www.mullvad.net
@@ -35,13 +35,13 @@ GPL-3.0-or-later
 x86_64
 
 %BUILDDATE%
-1781805014
+1786971553
 
 %PACKAGER%
 Peter Jung <ptr1337@archlinux.org>
 
 %DEPENDS%
-electron39
+electron42
 hicolor-icon-theme
 mullvad-vpn-daemon
 
@@ -49,12 +49,11 @@ mullvad-vpn-daemon
 libappindicator-gtk3: tray icon
 
 %MAKEDEPENDS%
-electron39
+electron42
 cargo
 dbus
 git
 glibc
-go
 hicolor-icon-theme
 libgcc
 npm
