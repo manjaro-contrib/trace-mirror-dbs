@@ -1,0 +1,61 @@
+%FILENAME%
+archlinux-contrib-20260823-1-any.pkg.tar.zst
+
+%NAME%
+archlinux-contrib
+
+%BASE%
+archlinux-contrib
+
+%VERSION%
+20260823-1
+
+%DESC%
+Collection of contrib scripts used in Arch Linux
+
+%CSIZE%
+25247
+
+%ISIZE%
+75554
+
+%SHA256SUM%
+4777453e9b7f68068b23dc927886d6634f9647a15b7bbd4a1e31c0df816d12c6
+
+%PGPSIG%
+iQIzBAABCgAdFiEEJipY7GxR9+o5Wy4t/cMEC5Ksp0gFAmqK3C4ACgkQ/cMEC5Ksp0g9OxAAoUDcMwe8HRZfXfbC3JFb2QxP6ao0735sQC2c6EDkWwpezy8FBkifclzqBiEfcI/swrXCd1fust55FJKuiblAy7XUxJbxpA6nZU1tw4KtZIkOWlOrKKjzjT5h4ogEuzcgq7WaKvlSja4MuyIKfr6mdR65n3kaq0zVItw6ucY8tLHvx8nYWLOvFGOONQT1rertqH5/wBSXc8P1Wry5LtP6On7EEVmwTNhcbMintodNjdnhs/WDSRV1rVcw5EujNC1SFTV3E9uxUsx76q6MhSbDYyX8FlUxY8ptrdSH0PVlN8s0kVf6J0ZVjzUmAhaBp6aQtKPYppuJGWgyhdbBE3cxrxx8bRBDretJ7QcDygXyHjw4DhPEhgzJmKyQ2OsN24brcKqvCib1XAoFPRXJBLFkM/rmimMqqyFPMAicBIVtpVAl8lJYpXXmMiLaVOGTeA/IJF6Myq3IMoWSZo9A/WZLUEQ8cP0RSDOx6Kpdjo5IvPansQaa4kXa4k23U/yjBr1knEVqkv/GtgFUPScOII47S3mNSSnSbJiOeL0Xu0nvoJcG1SP86hfL7NmDeUJ+YbT2yyJXxD/BJ2yAQMHZWD9PODG1Z3acKTuBy37NHqiqDiUfLQI+7zM9XUln4Ra7xuZoDQ7V717KTYWu5pgq5HZylsTaO3ZqCzjMgiCGIajwrdo=
+
+%URL%
+https://github.com/archlinux/contrib
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1787485216
+
+%PACKAGER%
+Robin Candau <antiz@archlinux.org>
+
+%DEPENDS%
+python
+bash
+pyalpm
+
+%OPTDEPENDS%
+python-requests: for security tracker
+jq: for rebuild-todo
+devtools: for rebuild-todo
+pacman-contrib: to enable pacdiff usage in the checkservices script
+python-httpx: for check-pkg-urls
+python-tqdm: for check-pkg-urls
+ripgrep: for pkggrep
+parallel: for pkggrep & greposcope
+rebuilderd-tools: for greposcope
+
+%MAKEDEPENDS%
+git
+
