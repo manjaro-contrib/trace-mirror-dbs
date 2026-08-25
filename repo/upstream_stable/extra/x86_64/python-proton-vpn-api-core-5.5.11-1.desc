@@ -1,5 +1,5 @@
 %FILENAME%
-python-proton-vpn-api-core-5.2.5-1-any.pkg.tar.zst
+python-proton-vpn-api-core-5.5.11-1-any.pkg.tar.zst
 
 %NAME%
 python-proton-vpn-api-core
@@ -8,22 +8,22 @@ python-proton-vpn-api-core
 python-proton-vpn-api-core
 
 %VERSION%
-5.2.5-1
+5.5.11-1
 
 %DESC%
 The proton-vpn-core-api acts as a facade to the other Proton VPN components, exposing a uniform API to the available Proton VPN services.
 
 %CSIZE%
-315240
+5430235
 
 %ISIZE%
-2335475
+28341104
 
 %SHA256SUM%
-5d8c367cdf486f7010ae47ffe6557fd9b591f03543ec3be60caa3b69771f7006
+5cf91d9b215145fb6a023377f29481e29b767e433c98fc92621fa04bcd07bb65
 
 %PGPSIG%
-iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCai2HSQAKCRA9TFAIu1yNKQhWAP4zuFlfPFa3C1BETkFmboh5VNGZrVjJvfa8k4sl2SEZagEA0hb9NQGCv6xQ+Qul/029+RDvKGWZadL4F1sVBmrpWQQ=
+iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCannkqAAKCRA9TFAIu1yNKbi3AQCJB3/a4PDpL9K2St7rIKz/sjLFE6KDMia/6QNVwpfF4wEA1d1KTyAEAEU/sgBzSuNrowsay/WvMRJ+j07Az5ferQk=
 
 %URL%
 https://github.com/ProtonVPN/python-proton-vpn-api-core
@@ -35,7 +35,7 @@ GPL-3.0-or-later
 any
 
 %BUILDDATE%
-1781368620
+1786373124
 
 %PACKAGER%
 Peter Jung <ptr1337@archlinux.org>
@@ -47,6 +47,8 @@ python-proton-vpn-network-manager
 python-proton-vpn-network-manager
 
 %DEPENDS%
+glibc
+libgcc
 networkmanager-openvpn
 libnm
 python
@@ -67,9 +69,11 @@ network-manager-applet: password prompt on Gnome and other GTK DEs
 plasma-nm: password prompt on KDE Plasma
 
 %MAKEDEPENDS%
+cmake
 git
 python-build
 python-installer
 python-setuptools
 python-wheel
+rust
 
