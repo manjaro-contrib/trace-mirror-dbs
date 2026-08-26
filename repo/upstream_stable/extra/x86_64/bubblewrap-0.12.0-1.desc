@@ -1,5 +1,5 @@
 %FILENAME%
-bubblewrap-0.11.2-1-x86_64.pkg.tar.zst
+bubblewrap-0.12.0-1-x86_64.pkg.tar.zst
 
 %NAME%
 bubblewrap
@@ -8,37 +8,40 @@ bubblewrap
 bubblewrap
 
 %VERSION%
-0.11.2-1
+0.12.0-1
 
 %DESC%
 Unprivileged sandboxing tool
 
 %CSIZE%
-41053
+42693
 
 %ISIZE%
-99398
+99717
 
 %SHA256SUM%
-b5f58fb8dfcc8f8598ecc1b1d12f9a02abaf4439c3c68429d8c1675ccd498c76
+f01c85b27bfd1034858ded8848bc03089e6d9069030add87aaf2f2596749cb36
 
 %PGPSIG%
-iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCaeya9AAKCRC4rAhgDxCM39gYAQDlQB21E6fEW25h2CYT4HKkXYCtEvRFjeOXVRqEvHBQQAD+KNSSXc+2fpmBO2w414Lb2kJ9F56dfSRMKnnDdm3X8AY=
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCao7QUgAKCRC4rAhgDxCM32EMAP9Djuh9THh8SdJJ6zIUpyfZe5NB9HbIumaIkPzqWca6yQEAnC6gbgHCJpKKuoUPGP+vrF1naOD8+572v6apnvZdKQ0=
 
 %URL%
 https://github.com/containers/bubblewrap
 
 %LICENSE%
-LGPL-2.0-or-later
+LGPL-2.1-or-later
 
 %ARCH%
 x86_64
 
 %BUILDDATE%
-1777113662
+1787744232
 
 %PACKAGER%
 Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%REPLACES%
+bubblewrap-suid<=0.11.2-1
 
 %DEPENDS%
 glibc
