@@ -1,0 +1,104 @@
+%FILENAME%
+python-moto-5.2.3-1-any.pkg.tar.zst
+
+%NAME%
+python-moto
+
+%BASE%
+python-moto
+
+%VERSION%
+5.2.3-1
+
+%DESC%
+Moto is a library to mock out the boto library.
+
+%CSIZE%
+8947506
+
+%ISIZE%
+61843249
+
+%SHA256SUM%
+bf2d55e06b07820ec50953e2b368099bb567eb3b0e6a6f0c7bde992a9c2091ed
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCao/rZAAKCRDglZ/qi1UFOanAAQCIfT2BarcEE4mmNyA6xrlazyCckXHUQKzj5y+o6WhEcAEA/HuZjsiJq93ziECqGrr6w0vON2UPAkEf8Oq5UkqK5wQ=
+
+%URL%
+https://github.com/spulec/moto
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+any
+
+%BUILDDATE%
+1787815604
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+python
+python-boto3
+python-botocore
+python-cryptography
+python-dateutil
+python-jinja
+python-requests
+python-responses
+python-urllib3
+python-werkzeug
+python-xmltodict
+
+%OPTDEPENDS%
+python-yaml: for apigatewayv2, cloudformation, s3 and ssm
+python-joserfc: for apigateway, cloudformation and cognitoidp
+python-openapi-spec-validator: for apigateway and cloudformation
+python-docker: for awslambda, batch, cloudformation, dynamodb and dynamodbstreams
+python-graphql-core: For appsync and cloudformation
+python-jsondiff: for iotdata and cloudformation
+python-aws-xray-sdk: for xray and cloudformation
+python-cfn-lint: for cloudformation
+python-pyparsing: for glue and cloudformation
+python-py-partiql-parser: for cloudformation and s3
+python-crc32c: for s3
+python-flask: for moto_server
+python-flask-cors: for moto_server
+python-multipart: for moto_proxy
+python-antlr4: for stepfunctions
+python-jsonpath-ng: for events, stepfunctions
+python-jsonschema: for quicksight
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+
+%CHECKDEPENDS%
+python-antlr4
+python-aws-xray-sdk
+python-cfn-lint
+python-crc32c
+python-docker
+python-flask
+python-flask-cors
+python-freezegun
+python-graphql-core
+python-joserfc
+python-jsondiff
+python-jsonpath-ng
+python-jsonschema
+python-multipart
+python-openapi-spec-validator
+python-py-partiql-parser
+python-pyparsing
+python-pytest
+python-pytest-order
+python-yaml
+python-pyotp
+
