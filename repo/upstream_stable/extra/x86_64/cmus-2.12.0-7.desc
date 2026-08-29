@@ -1,0 +1,84 @@
+%FILENAME%
+cmus-2.12.0-7-x86_64.pkg.tar.zst
+
+%NAME%
+cmus
+
+%BASE%
+cmus
+
+%VERSION%
+2.12.0-7
+
+%DESC%
+Feature-rich ncurses-based music player
+
+%CSIZE%
+300620
+
+%ISIZE%
+873168
+
+%SHA256SUM%
+9bca8dd818dd7d16e3b15c3c851ffc262073337ce8343cb549d6af563b4e885f
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCapHh4QAKCRC4rAhgDxCM3/79AP9lgVfQDskXwiKT1WMe9u0nHVNkYO07hib7JI9bIcoyGwEAm9ev65nxSn/Fb9Z1t38qqZfFEJMSvPIT4RF7FxZiHAc=
+
+%URL%
+https://cmus.github.io/
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1787945379
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%DEPENDS%
+glibc
+libdiscid
+ncurses
+systemd-libs
+
+%OPTDEPENDS%
+alsa-lib: for ALSA output plugin support
+libao: for AO output plugin support
+libpulse: for PulseAudio output plugin support
+faad2: for AAC input plugin support
+ffmpeg: for ffmpeg input plugin support
+flac: for flac input plugin support
+jack: for jack plugin support
+libmad: for mp3 input plugin support
+libmodplug: for modplug input plugin support
+libmp4v2: for mp4 input plugin support
+libmpcdec: for musepack input plugin support
+libsamplerate: for sampe rate converter support
+libvorbis: for vorbis input plugin support
+libcdio-paranoia: for cdio support
+opusfile: for opus input plugin support
+wavpack: for wavpack input plugin support
+
+%MAKEDEPENDS%
+git
+faad2
+ffmpeg
+flac
+jack
+libao
+libcdio-paranoia
+libmad
+libmodplug
+libmp4v2
+libmpcdec
+libpulse
+libsamplerate
+libvorbis
+opusfile>=0.12
+wavpack
+

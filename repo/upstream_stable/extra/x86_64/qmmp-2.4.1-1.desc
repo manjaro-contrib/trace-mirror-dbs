@@ -1,0 +1,102 @@
+%FILENAME%
+qmmp-2.4.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+qmmp
+
+%BASE%
+qmmp
+
+%VERSION%
+2.4.1-1
+
+%DESC%
+Qt based audio-player
+
+%CSIZE%
+2851628
+
+%ISIZE%
+12296901
+
+%SHA256SUM%
+f0dad1d2c2a7eca8a17cfa6392f367c62660fcf835eed87f800b7670d7fbabd7
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCapHkSAAKCRC4rAhgDxCM3+dSAQD6sjHBAuHM3wsWkDAC7L1fpbRSbZJEeCcuCGoCUxMlVwEAzp13VGBVTOca+kKp6jFNwBle1EB/J4m8JefIhd6fwQc=
+
+%URL%
+http://qmmp.ylsoftware.com/
+
+%LICENSE%
+GPL
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1787945865
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%DEPENDS%
+alsa-lib
+curl
+desktop-file-utils
+hicolor-icon-theme
+libmad
+libvorbis
+libogg
+taglib
+xdg-utils
+qt6-base
+qt6-multimedia
+
+%OPTDEPENDS%
+mpg123: to play MP3 files
+flac: native FLAC support
+jack: JACK sound output
+libmpcdec: Musepack support
+pulseaudio: PulseAudio output
+pipewire: pipewire support
+libcdio-paranoia: Compact Disc input and control support
+libcddb: CDDB server support
+libmms: MMS stream protocol support
+libmodplug: MOD playing library
+libsndfile: sampled sound support
+projectm: visual efects
+faad2: ADTS AAC support
+libgme: support for chiptunes from various platforms
+libsidplayfp: C64 music support
+opusfile: Opus support
+wildmidi: MIDI support
+ffmpeg
+libsamplerate
+wavpack
+
+%MAKEDEPENDS%
+cmake
+flac
+jack
+libmpcdec
+pipewire
+pulseaudio
+ffmpeg
+libcdio-paranoia
+libcddb
+libmms
+libsamplerate
+libmodplug
+libsndfile
+wavpack
+mpg123
+mesa
+projectm
+faad2
+libgme
+libsidplayfp
+opusfile>=0.12
+wildmidi
+qt6-tools
+
