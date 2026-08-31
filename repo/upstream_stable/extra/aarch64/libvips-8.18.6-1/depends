@@ -1,0 +1,40 @@
+%DEPENDS%
+cairo
+cfitsio
+expat
+fftw
+fontconfig
+glib2
+glibc
+highway
+lcms2
+libarchive
+libcgif
+libexif
+libgcc
+libimagequant
+libjpeg-turbo
+libmatio
+libpng
+libraw
+librsvg
+libstdc++
+libtiff
+libwebp
+openexr
+openjpeg2
+pango
+zlib
+
+%PROVIDES%
+libvips.so=42-64
+libvips-cpp.so=42-64
+
+%OPTDEPENDS%
+imagemagick: for magick module
+libheif: for heif module
+libjxl: for jxl module
+openslide: for openslide module
+poppler-glib: for poppler module
+python: for vipsprofile
+
