@@ -1,0 +1,55 @@
+%FILENAME%
+python-pyrate-limiter-4.5.0-1-any.pkg.tar.zst
+
+%NAME%
+python-pyrate-limiter
+
+%BASE%
+python-pyrate-limiter
+
+%VERSION%
+4.5.0-1
+
+%DESC%
+Python Rate-Limiter using Leaky-Bucket Algorithm
+
+%CSIZE%
+113468
+
+%ISIZE%
+620253
+
+%SHA256SUM%
+bb11c263c1851784a3f453b247efbecbbd6ee3b7b6e9c5a5bab07280c17fe8ac
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCapUIbQAKCRDglZ/qi1UFObX+AQDufxDEdPIAYFK8nmN6T5nAIokQJL6craItZ6j7I/pdkAEAkHlIR8JcoX0tszU+A4PzYnVydIcR9nVg2PmJaO4q6wA=
+
+%URL%
+https://github.com/vutran1710/PyrateLimiter
+
+%LICENSE%
+MIT
+
+%ARCH%
+any
+
+%BUILDDATE%
+1788151840
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+python-filelock: concurrent sqlite backend
+python-redis: redis backend
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-hatchling
+
