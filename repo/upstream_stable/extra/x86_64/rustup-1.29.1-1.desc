@@ -1,0 +1,79 @@
+%FILENAME%
+rustup-1.29.1-1-x86_64.pkg.tar.zst
+
+%NAME%
+rustup
+
+%BASE%
+rustup
+
+%VERSION%
+1.29.1-1
+
+%DESC%
+The Rust toolchain installer
+
+%CSIZE%
+3794964
+
+%ISIZE%
+11863411
+
+%SHA256SUM%
+569d685c4be18d695bd7f210b8530f84ce6092ac607b3c1158573948426070f4
+
+%PGPSIG%
+iQIzBAABCgAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmqXHhoACgkQOeS4d+YuuRWSkBAAou4k/vKqNQW5ZPU3oUxB40ctYwUYTv2YWnc4QX3SKZ1W3bek449T18lQdyLNNo4xucQvw1pFiZW/yM5KEUjgtgtNPFEV4fhK7An96eMzPb7Ic5S+ZNtfRj+gSPNpGnCjn3muFy/sD9pO0ywi2ZPFnc9Ttd1RZuTTNfnTAvDdcRouwMXa9E1HoP5e4RWUrGuyk9ryJeL41QATZnnumRkENdvqNFjyQJLNFXrRnXYHnW8g72c3KBRm+vDxRQmOVF752T6Xo98EwEHsmbtNWCzB6icYnBYJlgB8KYIOmo5YmY/LDSw56D8mVo3orwifmXDAYDJrqF5Zx1UnTIMV4g0hyAMQHFSGxcky/OjB7y3Sag2tuCtaIo7tKsOvtsCQTYnxcl/N+IzKgAW1jAtSFncJy9m35IYlSw44NQMoP/rgT5cdUK9VcCk1nm1JWd8qUfvPzRKGJPMkv614ztueSVXC72CD/CyYmCKMDEyWGF6jCahj1uhklY0Y2qpiEvB1uUzYSUZfC7yG3XZcuNkQjF7N6Sp62UZtobauAf+fyTmP7KUT7jAPtxOyN1/WI88iG7vdhg4fETkI0QuGOh2jxUQ3UQMB/wJYQvrYOsLDzZP/Bv1FS4Ccb7ArMd4vtEslvbE/GVyR1FVMQwOiRddVLiJSccN4j3eM8tO/T7b9FHzjvxU=
+
+%URL%
+https://github.com/rust-lang/rustup.rs
+
+%LICENSE%
+MIT
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1788288300
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%REPLACES%
+cargo-tree
+
+%CONFLICTS%
+rust
+cargo
+rustfmt
+
+%PROVIDES%
+rust
+cargo
+rust-nightly
+cargo-nightly
+rustfmt
+rust-src
+lib32-rust-libs
+rust-musl
+rust-wasm
+rust-analyzer
+
+%DEPENDS%
+glibc
+libgcc
+xz
+zstd
+
+%OPTDEPENDS%
+lldb: rust-lldb script
+gdb: rust-gdb script
+gcc: build executables for most targets
+mingw-w64-gcc: {i686,x86_64}-pc-windows-gnu targets
+aarch64-linux-gnu-gcc: aarch64-unknown-linux-* targets
+
+%MAKEDEPENDS%
+cargo
+
