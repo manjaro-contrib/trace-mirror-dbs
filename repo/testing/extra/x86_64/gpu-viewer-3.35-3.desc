@@ -1,0 +1,73 @@
+%FILENAME%
+gpu-viewer-3.35-3-x86_64.pkg.tar.zst
+
+%NAME%
+gpu-viewer
+
+%BASE%
+gpu-viewer
+
+%VERSION%
+3.35-3
+
+%DESC%
+A frontend to glxinfo and vulkaninfo.
+
+%CSIZE%
+5973482
+
+%ISIZE%
+9291310
+
+%MD5SUM%
+6ef34072ab331239d7b1e8cdde20bdf4
+
+%SHA256SUM%
+d31458174ccfb58cfa739de235f099f97b3bcad59a903f91062c8334871188ec
+
+%PGPSIG%
+iQIzBAABCgAdFiEEFORv5f1p8uKH4kTbYyw8wNHJyvYFAmqMYo0ACgkQYyw8wNHJyvYGqA//aQ+tnuEvATyFwAPw6zR873+FEiy27yHu2IrT1qYocNEyc2OU/XKtva2ms/dm98GdbMXSgUqcG+y8uWmZpj1mduyTq+KZCOFUFW5skY3rvHGnXgTpWhMd+x8Wf+bAq8vMs4ZGfpf8A1cLv4j70gOF7KTB5m4CpfL08QYQuyfSAd5ZNouMEadJ66JF7X3M7bu3yYjMqYFlB4n0233wn3VkOCMtEHwV/eXq+OnvOl+dWPtFHHDvwTT2TSEaf/Dsg87CmLpDL9BJZgt9hY1vy170gftDf8so9JJ1oH1SddIwo7wSpwAZc8LUJxBXhCK5/BFTgLxx8Nz88bRaJnD1SJa85/Pr/9wV1aew8IjOTJUtCL8MCXYO0Aem+eN0HX9TPJ0uEi/MCVWmugEcJ3sJwGXfeZtiz66xZ6KT31O6jg/O2l9wvMABO8bDgswHAinJivC0Mcg+sacWHcKAiGD1xQt9Qa+sRKfvgNf25V8XzaBDMskPpmiZwxifEW1n8LQhpzvUBDvUVhWsY4y/X6zlQKSSn9Z91ZIRXoXv4uoKsM4xdLB1tSkToCten3t0S9WMFCbaouYASWQZp4sqK89dRPwcg1R2aR6W6Nm9beXmcyaZStNmzFUoxhZP6vYoI/s8nUtWheQsGzyhG7DAPpQMm8NNSooaxYmeny6AVeyjykRNqGw=
+
+%URL%
+https://github.com/arunsivaramanneo/GPU-Viewer/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1787585118
+
+%PACKAGER%
+Balló György <bgyorgy@archlinux.org>
+
+%DEPENDS%
+gtk4
+libadwaita
+python
+python-cairo
+python-gobject
+vulkan-tools
+clinfo
+mesa-utils
+vdpauinfo
+xorg-xdpyinfo
+lsb-release
+
+%OPTDEPENDS%
+nvidia: Vulkan nvidia driver
+mesa
+orchis-theme: Preferred GTK theme
+vulkan-radeon: Vulkan AMD drivers
+vulkan-intel: Vulkan Intel drivers
+
+%MAKEDEPENDS%
+meson
+ninja
+
+%CHECKDEPENDS%
+appstream
+desktop-file-utils
+

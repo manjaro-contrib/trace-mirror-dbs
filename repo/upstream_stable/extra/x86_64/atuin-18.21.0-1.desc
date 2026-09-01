@@ -1,0 +1,56 @@
+%FILENAME%
+atuin-18.21.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+atuin
+
+%BASE%
+atuin
+
+%VERSION%
+18.21.0-1
+
+%DESC%
+Magical shell history
+
+%CSIZE%
+10682853
+
+%ISIZE%
+39831548
+
+%SHA256SUM%
+42bdb354caad2bbd516b27e7ca373fc3e1a4cbcc0e45275fb88dab3d74cbb76c
+
+%PGPSIG%
+iQIzBAABCgAdFiEEsNZSlUdmBrcfDG+CqF6BHrTKLggFAmqWdiYACgkQqF6BHrTKLgiy8w/+Pc0dnBP/CVpxDeNJj/OswyYcLNjCEsoQTTAuEbXJv9s8L9lleJhqmyBt01IiOVUFQwXPPo8eoD/XwU7KZPpwinmAN9E+P1EPGTyPZ01q7X/t+ck1OgMmWCsjqDnx+LLBxQQ4zWDugpacDuJRkS61pD6aqTW+A/vFCvT3fLh40jd8UASWEinscYK6iVZmr4AnZYk7/EBStJHANeQo6X7gjmttgVn2jKqbfVtjBbxtLBEo/SkGDuHCxMVzPtifx1XZZdbLQkPtSUrGfJeNA750WLMW+KSTHRmEAN87Th2ir4lCW6LSSxcpfqyh9usEpc2jUazw+1cVwqu0dl8HFEXsnKoxRJEOH6zK8TJdz4LbVrQZWcU6B0JdgEWKmSZ3LXOCGj8LkdnULpzPKfi96UJGuW4BHjnaZ/YClvXH5/CIILt6j/IQ50gNpBDxByPstPzjCazQgdIB9mfDy1KFQ6TyNsiyep9y5cl08YXrbhZgca4FJ6TAeVY2aJ1dgnbGVGoe8AO4rQweEt6cTNQAan7B8lcXoJy2yN6jIsS4Su796xC33ybtfq4yQuL33FQGOXIkwGZAV0pfVjVLXXJghdfsUuHgMXFG7/bWrQCj1rCVYdeJHOX+i7dxMmP4aozyIucJimO+TsfqPX7sxuROXo96k75udIhof5eZygvzH9zE9SE=
+
+%URL%
+https://github.com/atuinsh/atuin
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1788240550
+
+%PACKAGER%
+Caleb Maclennan <alerque@archlinux.org>
+
+%DEPENDS%
+glibc
+libgcc
+libgcc_s.so=1-64
+sqlite
+libsqlite3.so=0-64
+
+%OPTDEPENDS%
+atuin-server: sync server
+bash-preexec: bash integration
+
+%MAKEDEPENDS%
+cargo
+
