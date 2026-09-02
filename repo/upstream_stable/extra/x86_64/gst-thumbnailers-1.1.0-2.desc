@@ -1,0 +1,65 @@
+%FILENAME%
+gst-thumbnailers-1.1.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+gst-thumbnailers
+
+%BASE%
+gst-thumbnailers
+
+%VERSION%
+1.1.0-2
+
+%DESC%
+GStreamer video and audio file thumbnailer
+
+%GROUPS%
+gnome
+
+%CSIZE%
+376685
+
+%ISIZE%
+1459790
+
+%SHA256SUM%
+d2f1ffc9ce6a25c20a690b48544c6281736f9f074d561d737e7c7e02c21cceda
+
+%PGPSIG%
+iHUEABYKAB0WIQSDvIiJNRtd67toQW64rAhgDxCM3wUCapebIAAKCRC4rAhgDxCM33wmAQDxhR6osnpkyFVwcIMBgXV6nyXV2pYktwD+tcEp0F8JvgD/RkMI1u0XICKeQnRI1QyQdKAO1K5U8t8uGbqxtB1AKAY=
+
+%URL%
+https://gitlab.gnome.org/GNOME/gst-thumbnailers
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1788320401
+
+%PACKAGER%
+Jan Alexander Steffens (heftig) <heftig@archlinux.org>
+
+%DEPENDS%
+glib2
+glibc
+glycin
+gst-plugins-base
+gst-plugins-base-libs
+gst-plugins-good
+gstreamer
+libgcc
+
+%OPTDEPENDS%
+gst-libav: Extra media decoders (via FFmpeg)
+gst-plugins-bad: Extra media decoders
+gst-plugins-ugly: Extra media decoders
+
+%MAKEDEPENDS%
+git
+meson
+rust
+
