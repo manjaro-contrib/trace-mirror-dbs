@@ -1,0 +1,81 @@
+%FILENAME%
+gpu-screen-recorder-6.1.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+gpu-screen-recorder
+
+%BASE%
+gpu-screen-recorder
+
+%VERSION%
+6.1.0-1
+
+%DESC%
+A shadowplay-like screen recorder for Linux. The fastest screen recorder for Linux
+
+%CSIZE%
+201482
+
+%ISIZE%
+512896
+
+%MD5SUM%
+74e803abb8a771bd0e5365fc0ef3ffa9
+
+%SHA256SUM%
+642cefe39d38673f5091f09215d4f8af094ed7630d734ef85c55c6793812ac07
+
+%PGPSIG%
+iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCapZ/QQAKCRA9TFAIu1yNKcD8AQD1okPYRTn2BnO8vcbPWD5REsRSzIp9pGnPyuGJUsET6gD/c2YYNJKKdjrsam/uVg++0U55fF3VhclRDTe4Q3YFSw8=
+
+%URL%
+https://git.dec05eba.com/gpu-screen-recorder
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1788247636
+
+%PACKAGER%
+Peter Jung <ptr1337@archlinux.org>
+
+%DEPENDS%
+bash
+glibc
+libstdc++
+libgcc
+ffmpeg
+libglvnd
+libxcomposite
+libxrandr
+libxfixes
+libxdamage
+libx11
+libpulse
+libva
+libdrm
+libcap
+wayland
+libpipewire
+dbus
+libjpeg-turbo
+ffmpeg
+
+%OPTDEPENDS%
+nvidia-utils: Required to record your screen on NVIDIA
+libxnvctrl: Required when using the -oc option to overclock the NVIDIA GPU to workaround NVIDIA p2 state bug
+mesa: Required to record your screen on AMD/Intel
+libva-mesa-driver: Required to record your screen on AMD
+libva-intel-driver: Required to record your screen on Intel G45 and HD Graphics family
+intel-media-driver: Required to record your screen on Intel Broadwell or later iGPUs or Intel Arc
+linux-firmware-intel: Required to record your screen on Intel Skylake or later iGPUs
+
+%MAKEDEPENDS%
+meson
+vulkan-headers
+git
+

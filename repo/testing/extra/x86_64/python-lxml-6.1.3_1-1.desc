@@ -1,0 +1,80 @@
+%FILENAME%
+python-lxml-6.1.3_1-1-x86_64.pkg.tar.zst
+
+%NAME%
+python-lxml
+
+%BASE%
+python-lxml
+
+%VERSION%
+6.1.3_1-1
+
+%DESC%
+Python binding for the libxml2 and libxslt libraries
+
+%CSIZE%
+1661200
+
+%ISIZE%
+6228105
+
+%MD5SUM%
+e586184f82dcee0809cc48e7135aedd8
+
+%SHA256SUM%
+f3aa12ff48ea4ad42c38d67696ddacc5b0682091b6f2f232edb2dba709165d73
+
+%PGPSIG%
+iQEzBAABCgAdFiEE5JnHn1PJalTlcv7hwGCGM3xQdz4FAmqYE6wACgkQwGCGM3xQdz7O9wgAgXoBbx7dcxpeg0Q5IYfe8/psfEjy4dtIAFxOW+lNxM+uwTSfVPXsH2NFmrRCiZoXqyhCm28OoR8F0OhC/r132DiwMjFreNgCoEoCAwvVDa8w/B4vO71Op9tiUlylbtXkBcTmeijGvpAtIXBK/mANM1MuE/s2lV2GPw25UFje948JRXnb8jfQmmRopr1+mlNTK7xNvC04dibkGea8GSCdsZVtRM5tPhzgYDRKDBg8gjIprPyniOWuyc4O1HCNJQXJgl8crh+6Dihs+cAnPWOipIFP0nhXakOzbC9JvDrDt/p6ODSRLLI9eXviBwbwo/YlpJVZCZANZVX+YX7yg2E0EA==
+
+%URL%
+https://lxml.de/
+
+%LICENSE%
+BSD-3-Clause
+MIT
+MIT-CMU
+GPL-2.0-only
+LicenseRef-RNG2Schtrn
+LicenseRef-XSD2Schtrn
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1788350054
+
+%PACKAGER%
+Jelle van der Waa <jelle@archlinux.org>
+
+%DEPENDS%
+glibc
+python
+libxslt
+libxml2
+
+%OPTDEPENDS%
+python-beautifulsoup4: support for beautifulsoup parser to parse not well formed HTML
+python-cssselect: support for cssselect
+python-html5lib: support for html5lib parser
+python-lxml-docs: offline docs
+python-lxml-html-clean: enable htmlclean feature
+
+%MAKEDEPENDS%
+git
+python-build
+python-installer
+python-setuptools
+python-wheel
+python-pygments
+python-sphinx
+python-sphinx_rtd_theme
+cython
+
+%CHECKDEPENDS%
+python-cssselect
+python-html5lib
+python-beautifulsoup4
+python-lxml-html-clean
+
