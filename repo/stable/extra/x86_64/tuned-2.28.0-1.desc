@@ -1,0 +1,67 @@
+%FILENAME%
+tuned-2.28.0-1-any.pkg.tar.zst
+
+%NAME%
+tuned
+
+%BASE%
+tuned
+
+%VERSION%
+2.28.0-1
+
+%DESC%
+Daemon that performs monitoring and adaptive configuration of devices in the system
+
+%CSIZE%
+479618
+
+%ISIZE%
+2732212
+
+%MD5SUM%
+2aa26084d9e3e43287535f589aa8835d
+
+%SHA256SUM%
+21bd980f42ca9fb10aa55756c69c31b39cc7968a3b5dbdfdbed57e06acf84904
+
+%PGPSIG%
+iQIzBAABCgAdFiEEj8FaBklQqZ3RvRTdOeS4d+YuuRUFAmqLYJkACgkQOeS4d+YuuRU4Fw/+L0oTUZnzneAdBw1SuH2OXWGjOmQ8Js5zG9Xa3MwhJH2PaLr9nUtrzww+vDqpk0mOMP3hvWegzovZKZQW3kQXVwD3S/dqG3Hhw9C9q4fOv0UjoXOQZR+u+iK3bIdisDZX3hPRNSSD33J72VpSQsuHU7gzvi1PHIsJt5+rbSI6Ebwbz5YSzfItXS4B2uELu3T2+eskTrjY4SPpD/6Ko5rq3maYVCugc0tiwEeLHVuU4pzDG8ZA4BnN5lufDk5qL+cn4Ipvj2pUu0X/3fH9rRTb6r8gMZR7GeJ+h+4Wg9p3DJd2L2QSFopB6rIHvR+Bm8yI0JDAFmoXRveVAzBRfsBqJHFCICG0Rw6DMhbYWPeQtdBl3bgNMacHFT6PabHdB1mWNSLpyoeSsAey6Lmr3zdOFZ3GIFeZHAX2rJtmbUZJZCtB67X0j3oeeGW5adn0aWlrQp92uGzD3X4MKG24kZmive2M1RT4VlIunf0sNK1x8oscLlf34X4n7LQW8hAk9keTBELvotlxNMvemlrK4akdRgZzDjuQmVLJ12DgUpY7x/ojWv4dmxlOTSrM/UFyi+Qw8LuqHAi7DUOCBVSTSU+goGkm9ihIgnTTnRn0cZz2OX7yumMQNpwhf++59w2hg9q72e37wzBhqzdRcrpUJKYxJpgu7yvgJc9+ULIL6B6VB9g=
+
+%URL%
+https://github.com/redhat-performance/tuned
+
+%LICENSE%
+GPL-2.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1787519099
+
+%PACKAGER%
+Sven-Hendrik Haase <svenstaro@archlinux.org>
+
+%DEPENDS%
+ethtool
+gawk
+hdparm
+polkit
+perf
+python-configobj
+python-dbus
+python-gobject
+python-linux-procfs
+python-pyudev
+
+%OPTDEPENDS%
+virt-what: Virtual machine detection
+systemtap: Detailed system monitoring
+tuned-ppd: power-profiles-daemon api translation
+wireless_tools: Wireless device power management
+x86_energy_perf_policy: Energy Performance Bias (EPB) support
+
+%MAKEDEPENDS%
+desktop-file-utils
+

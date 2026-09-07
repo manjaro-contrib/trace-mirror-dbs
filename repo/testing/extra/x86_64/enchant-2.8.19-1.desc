@@ -1,0 +1,73 @@
+%FILENAME%
+enchant-2.8.19-1-x86_64.pkg.tar.zst
+
+%NAME%
+enchant
+
+%BASE%
+enchant
+
+%VERSION%
+2.8.19-1
+
+%DESC%
+A wrapper library for generic spell checking
+
+%CSIZE%
+89384
+
+%ISIZE%
+330997
+
+%MD5SUM%
+6c1b79a18f30c3ed56cad7404a07a8b7
+
+%SHA256SUM%
+2e0bc820cfff4ab8c28fd491a59dfa763bf24177cf0ddb8183f8121d9b71d0dc
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmqbOyQACgkQeGxj8zDXy5JIIw//SZNhgirFFu/JVmBavsBKOqLO8LIUk6gxA1USc3iqfT1MClGBbcoKXDcY0CvLJncydjDzhgymGmUku6QP0mHTs9nAW4XNYEooQbjoT1pgdNkhlW6SFRPGU37nJPJ6IHsJtyY5G/uJm9RzwXz/Fk9gP4YFwbIQ5ZcnW6Xmk1tw1HzlB/SyM633l4bcZHGNSD8uRWTrPXSvIrGOi35ddEEpbEwqGE6P5pHRkwW1YM5n0BAjSwgixCfOOy05Zgvt41O2suV6rjL6OC3X/4GglPt7G2bKzq9FFEJXeP6w41GCH+miNgE04g13f9AU2oHMwvu+ObYc97zkp4UskLLuSSzJZV3IRTPqEfN+5ysglCe8qMcYaQYTWfZSUCHsUVD//SiJKTUuBXPrTbMIDVOvbAkKuEAX7X8EXIwxEeqUkRk9z7NuqsqR+uG7UMhpc21f2SqYsnimbgPmjiQXZSS+hh8TthC+2oDZibLXwkji+JZuSSnf7RS9Q0RjOPbAYPDq2HGe6EPkAxO71K07MEa+jedHDBXLCMfwyBPTAo4kD0Np6JAAmB7lex04LAJIt3FcePh2N1j/Ahbypw+XXXNvO3XtJGoU2zSl38BsJvojk7hisZv/zo8Z9Sz2NGmhPpntcv27wsnusuvkl7Tzri1RgvYM9gwPbHgmIXcW2rdAeGLbA1M=
+
+%URL%
+https://rrthomas.github.io/enchant/
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1788557973
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%PROVIDES%
+libenchant-2.so=2-64
+
+%DEPENDS%
+glib2
+glibc
+libgcc
+libstdc++
+
+%OPTDEPENDS%
+aspell: for aspell based spell checking support
+hspell: for hspell based spell checking support
+hunspell: for hunspell based spell checking support
+libvoikko: for libvoikko based spell checking support
+nuspell: for nuspell based spell checking support
+
+%MAKEDEPENDS%
+aspell
+git
+hspell
+hunspell
+libvoikko
+nuspell
+vala
+
+%CHECKDEPENDS%
+unittestpp
+

@@ -1,0 +1,93 @@
+%FILENAME%
+nginx-mainline-1.31.5-1-x86_64.pkg.tar.zst
+
+%NAME%
+nginx-mainline
+
+%BASE%
+nginx-mainline
+
+%VERSION%
+1.31.5-1
+
+%DESC%
+Lightweight HTTP server and IMAP/POP3 proxy server, mainline release
+
+%CSIZE%
+691444
+
+%ISIZE%
+1809761
+
+%MD5SUM%
+08685cad1b92bf66e9a6ffe88b53276a
+
+%SHA256SUM%
+e4b1c7edbd4487841170a0e8eadcc3981dbb848992d7a88780594b838ecda0ed
+
+%PGPSIG%
+iHUEABYKAB0WIQQMrarPcPZMZU4TGzERZ1x0NCnd7wUCaphJrAAKCRARZ1x0NCnd77pOAQCcnz24dwslPOW/6voEuQbJDLgwhqqxNkBmbKMpFCO+wQEAzp5Rmj+7FlCdNZVwnet3q287Y9uuG7as0H4D3AI0TAI=
+
+%URL%
+https://nginx.org
+
+%LICENSE%
+BSD-2-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1788365035
+
+%PACKAGER%
+Massimiliano Torromeo <mtorromeo@archlinux.org>
+
+%CONFLICTS%
+nginx
+
+%PROVIDES%
+nginx
+
+%DEPENDS%
+glibc
+pcre2
+zlib
+openssl
+mailcap
+libxcrypt
+
+%OPTDEPENDS%
+nginx-mainline-mod-geoip: GeoIP support
+nginx-mainline-mod-image-filter: transform images
+nginx-mainline-mod-mail: proxy IMAP, POP and SMTP protocols
+nginx-mainline-mod-perl: perl variables and location handlers
+nginx-mainline-mod-stream: proxy TCP/UDP data streams
+nginx-mainline-mod-xslt: transform XML responses
+
+%MAKEDEPENDS%
+findutils
+gd
+geoip
+git
+glibc
+libxcrypt
+libxml2
+libxslt
+mailcap
+openssl
+pcre2
+rsync
+zlib
+
+%CHECKDEPENDS%
+coreutils
+ffmpeg
+memcached
+perl
+perl-cache-memcached
+perl-cryptx
+perl-fcgi
+perl-gd
+perl-io-socket-ssl
+

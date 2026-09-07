@@ -1,0 +1,73 @@
+%FILENAME%
+gpu-viewer-4.00-1-x86_64.pkg.tar.zst
+
+%NAME%
+gpu-viewer
+
+%BASE%
+gpu-viewer
+
+%VERSION%
+4.00-1
+
+%DESC%
+A frontend to glxinfo and vulkaninfo.
+
+%CSIZE%
+6224640
+
+%ISIZE%
+10039371
+
+%MD5SUM%
+97914332f7f7c8693a0eea6dfa3b2f49
+
+%SHA256SUM%
+7c5b86a58125e9f6861e98a6dd974ba0956351c5a112a98af30effae3cef3e66
+
+%PGPSIG%
+iHUEABYKAB0WIQT6rjtQY6bSi+yrJjJseg9xJvnZqAUCapmLFAAKCRBseg9xJvnZqIkaAP0fwQqzF3lAFEwgeETarAmD32LDtPDL8SnxtO8WJZQOeAEAoKDZ9vvb45R3FceaWzO8t//5XR4jbnS2mZBeInebNww=
+
+%URL%
+https://github.com/arunsivaramanneo/GPU-Viewer/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1788447432
+
+%PACKAGER%
+Dan Johansen <strit@archlinux.org>
+
+%DEPENDS%
+gtk4
+libadwaita
+python
+python-cairo
+python-gobject
+vulkan-tools
+clinfo
+mesa-utils
+vdpauinfo
+xorg-xdpyinfo
+lsb-release
+
+%OPTDEPENDS%
+nvidia: Vulkan nvidia driver
+mesa
+orchis-theme: Preferred GTK theme
+vulkan-radeon: Vulkan AMD drivers
+vulkan-intel: Vulkan Intel drivers
+
+%MAKEDEPENDS%
+meson
+ninja
+
+%CHECKDEPENDS%
+appstream
+desktop-file-utils
+

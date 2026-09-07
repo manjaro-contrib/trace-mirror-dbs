@@ -1,0 +1,67 @@
+%FILENAME%
+stalwart-0.16.20-1-x86_64.pkg.tar.zst
+
+%NAME%
+stalwart
+
+%BASE%
+stalwart
+
+%VERSION%
+0.16.20-1
+
+%DESC%
+Stalwart mail and collaboration server
+
+%CSIZE%
+25674274
+
+%ISIZE%
+89713702
+
+%MD5SUM%
+7235cb4aa98e35feaed5b821ce3844b8
+
+%SHA256SUM%
+95281e347ae9d519bfd349d728dd4b378ab076bd6832d1ccb0a2fa71c08c855a
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCapt3sAAKCRDglZ/qi1UFOVbCAQC5hBV4gyJ2Y61FP6Op6+ZH1NwgzS5Y19FKcUwdqiMnSwD8DpYQBwCekSKpKDlYAVPsEehJTko34NXgFE4sgLb32gg=
+
+%URL%
+https://stalw.art
+
+%LICENSE%
+AGPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1788566617
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+rocksdb
+stalwart-webadmin
+glibc
+libgcc
+libgcc_s.so=1-64
+libstdc++
+libstdc++.so=6-64
+
+%OPTDEPENDS%
+stalwart-cli: management CLI
+stalwart-proxy: migration proxy
+vandelay: JMAP import/export & backup
+
+%MAKEDEPENDS%
+git
+rust
+protobuf
+clang
+llvm
+python
+

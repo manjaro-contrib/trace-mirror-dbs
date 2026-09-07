@@ -1,0 +1,106 @@
+%FILENAME%
+claws-mail-4.4.0-5-x86_64.pkg.tar.zst
+
+%NAME%
+claws-mail
+
+%BASE%
+claws-mail
+
+%VERSION%
+4.4.0-5
+
+%DESC%
+A GTK based e-mail client
+
+%CSIZE%
+5050440
+
+%ISIZE%
+19739134
+
+%MD5SUM%
+979bd94d04ec4109b22e3c993ecb0c31
+
+%SHA256SUM%
+a57fca3a5c63dfa1e58993672e836dabf23325cdcdb91ecba519fccaa170bb6c
+
+%PGPSIG%
+iQIzBAABCgAdFiEEFORv5f1p8uKH4kTbYyw8wNHJyvYFAmqMckQACgkQYyw8wNHJyvbNkA//RYx+a3ZNDIHxCZIXcQ4DFb3HU6O7QCsM5x3MLjWEGe6asZ+fGmeWGRf0txf8QKeiL2XxFRes9CXsLO05LjMQO5y/aWexVWensJ9yHxdhyr49pcdlAeziqCFsG/vytKmhQMjSadGQtF2Ec/0TZh4p+Fl3YjxykjI6CJd1Ng9jbrQYRgKWCEKGsa2PZN8lpgJFQpoV5h5MjcNG5Vbudgv75PmQPY7O5DwRmNmfXJqEEEmhbHtD2Kuk4PAqJCdBzowfiHATYJ2ALJLWDDITXh5eFaLvT4o+Dc3e4DSVSH9HtHwRkLeh8GDPVBiHOG+v1SdGSD+SN+LG5UF3e4LBfL9I9rCmNjmaXMS40TzTTTu6Faqu/LAYyHC9y9Jj3taw7QGN50HTHIsoUKsRQ3uWiGpCwBbvQwPFrEXHyxlvGXYA2ksgz1CWNYdJAnj6xDc84D2MNRkc1lJ2B9GmTUpqwS25yYywtii5Pmj7c0+++B//2lF9Y4AxmLGwUU3qaKuGJ2VRuAaBzUseTUuwfMfmWaQ2/C/Eqs+x+8zVMLY1zxzgewMOmN0/e2BurF9F4lH1/lK9zwq1CU46Y+VN5dDG85XtvqyHVhtMOYmKXq8rvUhS6gD01Uf0PbYbH7Ag9YopvMcaBfwyHcOUM2Nx7W/chzYTXCbgh/npfFEItNKXmkNMeHg=
+
+%URL%
+https://www.claws-mail.org
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1787588973
+
+%PACKAGER%
+Balló György <bgyorgy@archlinux.org>
+
+%PROVIDES%
+claws
+
+%DEPENDS%
+gtk3
+gnutls
+startup-notification
+enchant
+gpgme
+libetpan
+compface
+libsm
+librsvg
+libldap
+glib2
+pango
+libice
+gdk-pixbuf2
+cairo
+nettle
+glibc
+hicolor-icon-theme
+sh
+
+%OPTDEPENDS%
+python: needed for some tools
+perl: needed for some tools and perl plugin
+spamassassin: adds support for spamfiltering
+bogofilter: adds support for spamfiltering
+libnotify: for notification plugin
+libcanberra: for notification plugin
+libappindicator: for notification plugin
+libxml2: for rssyl plugins
+curl: for vcalendar, rssyl and spamreport plugins
+libarchive: for archive plugin and various other plugins
+libytnef: for tnef_parse plugin
+poppler-glib: for pdf viewer plugin
+ghostscript: for pdf viewer plugin
+libical: for vcalendar plugin
+dillo: for dillo html viewer plugin
+webkit2gtk-4.1: for fancy webkit html viewer plugin
+gumbo-parser: for litehtml plugin
+
+%MAKEDEPENDS%
+spamassassin
+bogofilter
+networkmanager
+valgrind
+libnotify
+libcanberra
+poppler-glib
+libytnef
+libical
+dillo
+python
+gumbo-parser
+webkit2gtk-4.1
+libappindicator
+docbook-utils
+texlive-formatsextra
+

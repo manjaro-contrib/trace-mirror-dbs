@@ -1,0 +1,82 @@
+%FILENAME%
+bcc-0.37.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+bcc
+
+%BASE%
+bcc
+
+%VERSION%
+0.37.0-1
+
+%DESC%
+BPF Compiler Collection (C library)
+
+%CSIZE%
+725237
+
+%ISIZE%
+3027654
+
+%MD5SUM%
+b5083425a591cfebc9bdab43f045ca55
+
+%SHA256SUM%
+c137570b66ad7a8a961f86a9bd0a60173e61da32cc223faaffd542da7c1e8617
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmqb4LkACgkQek52CV2KUuS+iggAk0QI/BZKlbTD4oI4YsYAF/5wWX0T205Gm5UjXl30XICqt0cAG3tv2ezkIpWeITT7DHtK/FHxFd2zSW7qEUhXmoRtNDTOmLp5M2vyt6BWHfp2Yxd0IzBb01anhl6RsYyGxHxT8+N2oUf5otl0GajIxUbeSkXuIKtbVPeZF5PzkBKuymL5i4c6o7lFN3Jn0EYvH9PsBY08N3QqP8QRIC2vTar4ZqAPDJTIYU42olXEf6EqHu1TfhQF1j6/He/LbFM/WjmTbq7b9LwiKWXcXOkEyUd72j3Hndd+V5SHwEcOcAmCXptRXMW2ct0w/S+Y2mf0sNZ4orDDL7uiP8IKIbtZ4w==
+
+%URL%
+https://github.com/iovisor/bcc
+
+%LICENSE%
+Apache-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1788600349
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%PROVIDES%
+libbcc.so=0-64
+libbcc_bpf.so=0-64
+
+%DEPENDS%
+clang
+glibc
+libbpf
+libbpf.so=1-64
+libelf
+libgcc
+libstdc++
+llvm-libs
+xz
+
+%OPTDEPENDS%
+linux-headers: build modules against the Arch kernel
+linux-lts-headers: build modules against the LTS kernel
+linux-zen-headers: build modules against the ZEN kernel
+linux-hardened-headers: build modules against the HARDENED kernel
+luajit: Lua bindings for BCC
+
+%MAKEDEPENDS%
+bison
+cargo
+clang
+cmake
+flex
+git
+libbpf
+llvm
+python
+python-build
+python-installer
+python-setuptools
+python-wheel
+

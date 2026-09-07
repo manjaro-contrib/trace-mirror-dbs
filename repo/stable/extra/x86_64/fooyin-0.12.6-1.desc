@@ -1,0 +1,89 @@
+%FILENAME%
+fooyin-0.12.6-1-x86_64.pkg.tar.zst
+
+%NAME%
+fooyin
+
+%BASE%
+fooyin
+
+%VERSION%
+0.12.6-1
+
+%DESC%
+A customisable music player
+
+%CSIZE%
+6125569
+
+%ISIZE%
+24454252
+
+%MD5SUM%
+07c236adcba296c2c30deaf9a882bade
+
+%SHA256SUM%
+7b90597a871fbf9e56d0244943d97e8937dffe2981ca0bed8b8c92bfb0d42874
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCao+7pgAKCRDglZ/qi1UFOWA8AP9wcjp7bvFtOL5agDO1qV4bQDyYK8SoljVH9CijZ/SNyAD/WpeKrkZQggH7NRU//Ri1Lhdb47v/LpRv0teg9c6cCA0=
+
+%URL%
+https://fooyin.org/
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1787803664
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+glibc
+icu
+libstdc++
+libgcc
+qt6-base
+alsa-lib
+taglib
+ffmpeg
+kdsingleapplication
+qcoro
+hicolor-icon-theme
+zlib
+
+%OPTDEPENDS%
+sdl2: For the SDL2 audio output plugin
+libpipewire: For the PipeWire audio output plugin
+libopenmpt: For the OpenMPT audio input plugin
+libgme: For the GME audio input plugin
+libsndfile: For the GME audio input plugin
+libarchive: For the libarchive archive plugin
+libebur128: For the ReplayGain scanner plugin
+libsoxr: For the SoX-based DSP plugin
+libprojectm: For the ProjectM visualisation plugin
+soundtouch: For the SoundTouch-based DSP plugin
+
+%MAKEDEPENDS%
+git
+qt6-svg
+qt6-tools
+ninja
+cmake
+sdl2-compat
+libpipewire
+libopenmpt
+libgme
+libsndfile
+libarchive
+libebur128
+libprojectm
+libsoxr
+soundtouch
+vulkan-headers
+

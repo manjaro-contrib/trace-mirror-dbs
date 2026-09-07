@@ -1,0 +1,92 @@
+%FILENAME%
+cosmic-session-1:1.7.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+cosmic-session
+
+%BASE%
+cosmic-session
+
+%VERSION%
+1:1.7.0-1
+
+%DESC%
+Session manager for the COSMIC desktop environment
+
+%GROUPS%
+cosmic
+
+%CSIZE%
+1528118
+
+%ISIZE%
+4987428
+
+%MD5SUM%
+14bdd2fa3e6d018bbb2d41f28607d7e2
+
+%SHA256SUM%
+415e12b4a4e5f9c115bd99d2f9cea8d4df534903cd16c85a89ea889162dd158e
+
+%PGPSIG%
+iHUEABYKAB0WIQTS6V/sAVzx+RGqqww9TFAIu1yNKQUCao8kBQAKCRA9TFAIu1yNKcsYAP4pmQj5p1ohCbJvhyaFLxY2xTBqr8y0vwxs1NnonntMwgEA5dVgDKSKCSNOoso1Tbg3GcddZ2yX16UYPnCUgWa+Kw8=
+
+%URL%
+https://github.com/pop-os/cosmic-session
+
+%LICENSE%
+GPL-3.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1787765704
+
+%PACKAGER%
+Peter Jung <ptr1337@archlinux.org>
+
+%DEPENDS%
+bash
+cosmic-applets
+cosmic-app-library
+cosmic-bg
+cosmic-comp
+cosmic-files
+cosmic-greeter
+cosmic-icon-theme
+cosmic-idle
+cosmic-launcher
+cosmic-notifications
+cosmic-osd
+cosmic-panel
+cosmic-randr
+cosmic-screenshot
+cosmic-settings-daemon
+cosmic-settings
+cosmic-workspaces
+libgcc
+glibc
+noto-fonts
+switcheroo-control
+ttf-opensans
+vulkan-driver
+xdg-desktop-portal-cosmic
+xorg-xwayland
+
+%OPTDEPENDS%
+cosmic-player: COSMIC media player
+cosmic-store: COSMIC store
+cosmic-terminal: COSMIC terminal
+cosmic-text-editor: COSMIC text editor
+cosmic-wallpapers: COSMIC wallpapers
+dconf: Apply COSMIC settings to GTK applications
+gnome-keyring: Start gnome keyring components if the daemon is active
+system-config-printer: printer settings
+
+%MAKEDEPENDS%
+cargo
+git
+just
+lld
+
