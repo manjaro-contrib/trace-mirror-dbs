@@ -1,0 +1,67 @@
+%FILENAME%
+android-tools-37.0.0-5-x86_64.pkg.tar.zst
+
+%NAME%
+android-tools
+
+%BASE%
+android-tools
+
+%VERSION%
+37.0.0-5
+
+%DESC%
+Android platform tools
+
+%CSIZE%
+2308056
+
+%ISIZE%
+7384990
+
+%SHA256SUM%
+e457a9e6e4acf159f582ab9d349d14e94422cdbae5bb85649c0d5d21685a4e22
+
+%PGPSIG%
+iQIzBAABCgAdFiEE8AuW0VIoAT/8nJ0Dk7EdqkwZfj0FAmqbPTUACgkQk7EdqkwZfj3+xw//Y/dHoM+4rUPUu+G7/WyCFkUMicfyV3J5pWkBMX014tpgUN+IHfeKski3BSbY60Rrfm/LLDZvEB8866ivDvu4NmDg7i4RdZYWEb6EOcCqnCW+WHNYeAkhXy5oRNQfNOQ80VvDaamVauSJ842FDTifWinGaWZ+dwvCdDakq11YVbstmPwcBbhaVuFGvFwtCdlUYO1q+8KfTeNpTJishOdXT3r6KzHUBHMwBaT9pQTfP7xbP43dS+NR8UZevwD1i42ayF86vry3KxUQTdy3oQ+cFs/h4xP/uK526O2Tn9q6FY0/ea1wMBVdo53Qlg2xBOu0WsXhhJaf1x31WpFiRCwNypPeSYtCxqlnrtxcadDb6DRqBDuUgt8s3GjZt3ZJIrIYIrhnISGT9XRjFusJkP5F6C4Comi4zusjLZppSNPwS94f99hJoDy5nAEWqwqRCzQxdfvOvFtyIP+hrBQoTn8DD6UU/CVnklrCAgsHXvQIuU/BF2F2UqUBfQzlWhWKBzo8wTWBAuk28ht5n0wx9HrfIxAEgEaQNxqETnvTvktyNcvEU1IU7ZofFeG6BflgBs/MBeM7sYBeyco/Ed/HCdpK1TOWajFJmOOS7bFOv6JnZM+K51To43uayj4wUpA3k/SatWYUCOeS8Y+VzY2HBEXWg57M2z8xahQbZInOr6G+Uig=
+
+%URL%
+https://developer.android.com/tools
+
+%LICENSE%
+Apache-2.0 AND BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.1-or-later AND MIT AND libselinux-1.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1788558572
+
+%PACKAGER%
+Christian Heusel <gromit@archlinux.org>
+
+%DEPENDS%
+abseil-cpp
+brotli
+fmt
+glibc
+libgcc
+libstdc++
+libusb
+lz4
+pcre2
+protobuf
+zlib
+zstd
+
+%OPTDEPENDS%
+python: {mk,unpack_,repack_}bootimg and mkdtboimg support
+android-udev: optional additional device udev rules
+
+%MAKEDEPENDS%
+cmake
+git
+go
+gtest
+ninja
+
