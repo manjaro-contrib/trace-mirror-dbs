@@ -1,0 +1,68 @@
+%FILENAME%
+fish-4.9.3-1-x86_64.pkg.tar.zst
+
+%NAME%
+fish
+
+%BASE%
+fish
+
+%VERSION%
+4.9.3-1
+
+%DESC%
+Smart and user friendly shell intended mostly for interactive use
+
+%CSIZE%
+3772260
+
+%ISIZE%
+19123652
+
+%SHA256SUM%
+57f5e1d91f0c86498c5666d5f3cbae6181394299fadc20d43ef01b3cfcaca15b
+
+%PGPSIG%
+iHUEABYKAB0WIQTnXNSBSnetlDx6taPglZ/qi1UFOQUCaqChoAAKCRDglZ/qi1UFOZ2IAP4wxj5+jqUnmBmXhXmEodivn7VaH3CD3aaPqDscQKvnqwD/f6RL0Y/a2kRUyxWhHwkd5mtnpzIosS3Dj1E9i91cRwE=
+
+%URL%
+https://fishshell.com/
+
+%LICENSE%
+GPL-2.0-only AND BSD-3-Clause AND ISC AND MIT AND PSF-2.0
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1788911804
+
+%PACKAGER%
+George Rawlinson <grawlinson@archlinux.org>
+
+%DEPENDS%
+glibc
+libgcc
+pcre2
+
+%OPTDEPENDS%
+python: man page completion parser / web config tool
+pkgfile: command-not-found hook
+groff: --help for built-in commmands
+mandoc: --help for built-in commmands (alternative)
+xsel: X11 clipboard integration
+xclip: X11 clipboard integration (alternative)
+wl-clipboard: Wayland clipboard integration
+
+%MAKEDEPENDS%
+cmake
+git
+jq
+rust
+python-sphinx
+
+%CHECKDEPENDS%
+expect
+procps-ng
+python-pexpect
+
