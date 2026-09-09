@@ -1,0 +1,74 @@
+%FILENAME%
+strongswan-6.1.0-2-x86_64.pkg.tar.zst
+
+%NAME%
+strongswan
+
+%BASE%
+strongswan
+
+%VERSION%
+6.1.0-2
+
+%DESC%
+Open source IPsec implementation
+
+%CSIZE%
+1246768
+
+%ISIZE%
+4193211
+
+%MD5SUM%
+2671be7efeef693c9233bdb6131119cd
+
+%SHA256SUM%
+8359b9c116174c5e5550ab7642c41154d1ee3e2306b052f2feb9b79041f1663a
+
+%PGPSIG%
+iNUEABYKAH0WIQQFx3danouXdAf+COadTFqhVCbaCgUCap8Dt18UgAAAAAAuAChpc3N1ZXItZnByQG5vdGF0aW9ucy5vcGVucGdwLmZpZnRoaG9yc2VtYW4ubmV0MDVDNzc3NUE5RThCOTc3NDA3RkUwOEU2OUQ0QzVBQTE1NDI2REEwQQAKCRCdTFqhVCbaClYtAQD3nPhpEmkR2aCn+jn1GtDtU0EhEC8g8OE9p6nYBjHg0AEA04sgyWu5DmVLmtQOcaTlwgLHiENw749sO2RAFUWbpAY=
+
+%URL%
+https://www.strongswan.org
+
+%LICENSE%
+GPL-2.0-only
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1788805948
+
+%PACKAGER%
+Frederik Schwan <freswa@archlinux.org>
+
+%DEPENDS%
+curl
+gmp
+iproute2
+openssl
+sqlite
+libcap
+systemd-libs
+pam
+
+%OPTDEPENDS%
+libnm: for networkmanager support
+mariadb: MySQL support
+ruby: Ruby support
+python: Python support
+resolvconf: Resolveplugin
+openldap: LDAP support
+
+%MAKEDEPENDS%
+libnm
+systemd
+ruby
+ruby-rdoc
+mariadb
+python-build
+python-installer
+python-setuptools
+python-wheel
+
