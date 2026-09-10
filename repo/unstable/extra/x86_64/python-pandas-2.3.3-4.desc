@@ -1,0 +1,137 @@
+%FILENAME%
+python-pandas-2.3.3-4-x86_64.pkg.tar.zst
+
+%NAME%
+python-pandas
+
+%BASE%
+python-pandas
+
+%VERSION%
+2.3.3-4
+
+%DESC%
+High-performance, easy-to-use data structures and data analysis tools for Python
+
+%CSIZE%
+16370763
+
+%ISIZE%
+115742349
+
+%MD5SUM%
+105b18115887779427668ae32740df4c
+
+%SHA256SUM%
+79995f3d202616be7db31820dbb5831d5be46a38fd1961a48a5f3bc0b99f44a3
+
+%PGPSIG%
+iQEzBAABCgAdFiEEFRnVq6Zb9vwrc8dWek52CV2KUuQFAmqirawACgkQek52CV2KUuT9UQf/YLH65wiN4rwtiaRMjxcQdEtSloWu6AFmA1IuoFtjNGQoh28/lGdmvC81so7u9h30k8bXGYfFxHIS9+RqDANVVHCkNXfaiGAxUelk8W+oXjRXuOoRC4Oz5Pe1OvpQRph4Bi84+Fca6PwVQdKKaIq4kChFROedP4yOrG/yREKX0RcccUw5LiyRAdM0mu4V7BroKjFEg8RSvBOJFurWXsLx+ac5w0rzPzLHErdHxjYtrUUfuRQBwFL0jP4iY1+pl3KRCWNQmh5jVRqmmfuA3xuCo1GUiC0czuA/PYGpViVv/Z2HveHLcct2Y8RLHQ7yJVOA8KfpOYzipaVw0u+RvdC/Jg==
+
+%URL%
+https://pandas.pydata.org/
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1789045651
+
+%PACKAGER%
+Antonio Rojas <arojas@archlinux.org>
+
+%DEPENDS%
+python-numpy
+python-dateutil
+python-pytz
+
+%OPTDEPENDS%
+python-pandas-datareader: pandas.io.data replacement (recommended)
+python-numexpr: accelerating certain numerical operations (recommended)
+python-bottleneck: accelerating certain types of nan evaluations (recommended)
+python-matplotlib: plotting
+python-jinja: conditional formatting with DataFrame.style
+python-tabulate: printing in Markdown-friendly format
+python-scipy: miscellaneous statistical functions
+python-numba: alternative execution engine
+python-xarray: pandas-like API for N-dimensional data
+python-xlrd: Excel XLS input
+python-xlwt: Excel XLS output
+python-openpyxl: Excel XLSX input/output
+python-xlsxwriter: alternative Excel XLSX output
+python-beautifulsoup4: read_html function (in any case)
+python-html5lib: read_html function (and/or python-lxml)
+python-lxml: read_xml, to_xml and read_html function (and/or python-html5lib)
+python-sqlalchemy: SQL database support
+python-psycopg2: PostgreSQL engine for sqlalchemy
+python-pymysql: MySQL engine for sqlalchemy
+python-pytables: HDF5-based reading / writing
+python-blosc: for msgpack compression using blosc
+zlib: compression for msgpack
+python-pyarrow: Parquet, ORC and feather reading/writing
+python-fsspec: handling files aside from local and HTTP
+python-qtpy: read_clipboard function (only one needed)
+xclip: read_clipboard function (only one needed)
+xsel: read_clipboard function (only one needed)
+python-brotli: Brotli compression
+python-snappy: Snappy compression
+python-zstandard: Zstandard (zstd) compression
+
+%MAKEDEPENDS%
+git
+cython
+python-build
+python-installer
+meson-python
+python-versioneer
+
+%CHECKDEPENDS%
+python-pytest
+python-pytest-asyncio
+python-pytest-xdist
+python-hypothesis
+python-pandas-datareader
+python-numexpr
+python-bottleneck
+python-matplotlib
+python-jinja
+python-tabulate
+python-scipy
+python-numba
+python-xarray
+python-xlrd
+python-xlwt
+python-openpyxl
+python-xlsxwriter
+python-beautifulsoup4
+python-html5lib
+python-lxml
+python-sqlalchemy
+python-psycopg2
+python-pymysql
+python-pytables
+python-blosc
+zlib
+python-pyarrow
+python-fsspec
+python-qtpy
+xclip
+xsel
+python-brotli
+python-snappy
+python-zstandard
+python-dask
+python-toolz
+python-cftime
+python-statsmodels
+python-scikit-learn
+python-seaborn
+python-geopandas
+python-odfpy
+ipython
+python-botocore
+python-numba
+
