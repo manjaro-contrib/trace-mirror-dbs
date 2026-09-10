@@ -1,0 +1,31 @@
+%DEPENDS%
+acl
+bash
+bzip2
+curl
+dbus
+glibc
+libcap
+libgcrypt
+libgcc
+libxml2
+libxslt
+libyaml
+pcre2
+perl
+python
+util-linux-libs
+xmlsec
+
+%PROVIDES%
+libopenscap.so=33-64
+libopenscap_sce.so=33-64
+
+%OPTDEPENDS%
+libguestfs: oscap-vm utility for scanning virtual machines
+openssh: oscap-ssh utility for scanning remote hosts
+podman: oscap-podman utility for scanning containers
+python-docker: oscap-docker utility for scanning containers
+python-requests: oscap-docker utility for scanning containers
+rpm-tools: scap-as-rpm utility for creating RPM packages
+
