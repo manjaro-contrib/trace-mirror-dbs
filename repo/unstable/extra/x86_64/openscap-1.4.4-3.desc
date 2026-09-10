@@ -1,0 +1,85 @@
+%FILENAME%
+openscap-1.4.4-3-x86_64.pkg.tar.zst
+
+%NAME%
+openscap
+
+%BASE%
+openscap
+
+%VERSION%
+1.4.4-3
+
+%DESC%
+Open Source Security Compliance Solution
+
+%CSIZE%
+2168787
+
+%ISIZE%
+73102141
+
+%MD5SUM%
+1efe873c03daa96c1d5cbee9dac5e781
+
+%SHA256SUM%
+9958dd74ef5e45ef3634db22c72e41f669ef208d6c8cfd78c7d9653829af16e5
+
+%PGPSIG%
+iHUEABYKAB0WIQQQClDkbcLCRPg43L+r1I9GX0Q0vQUCaqFcfQAKCRCr1I9GX0Q0vXWNAQC525iQvrXx/UduMtyE4XehjOVUtXQ7LyPNtEIbLeR1rwD/Rya3NS8gPgptNjhg3S2DExrs/NuXEL5JkYWeZBQtWQI=
+
+%URL%
+https://www.open-scap.org/
+
+%LICENSE%
+LGPL-2.1-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1788959591
+
+%PACKAGER%
+Josephine Pfeiffer <josie@archlinux.org>
+
+%PROVIDES%
+libopenscap.so=33-64
+libopenscap_sce.so=33-64
+
+%DEPENDS%
+acl
+bash
+bzip2
+curl
+dbus
+glibc
+libcap
+libgcrypt
+libgcc
+libxml2
+libxslt
+libyaml
+pcre2
+perl
+python
+util-linux-libs
+xmlsec
+
+%OPTDEPENDS%
+libguestfs: oscap-vm utility for scanning virtual machines
+openssh: oscap-ssh utility for scanning remote hosts
+podman: oscap-podman utility for scanning containers
+python-docker: oscap-docker utility for scanning containers
+python-requests: oscap-docker utility for scanning containers
+rpm-tools: scap-as-rpm utility for creating RPM packages
+
+%MAKEDEPENDS%
+cmake
+openssl
+swig
+
+%CHECKDEPENDS%
+perl-xml-parser
+perl-xml-xpath
+

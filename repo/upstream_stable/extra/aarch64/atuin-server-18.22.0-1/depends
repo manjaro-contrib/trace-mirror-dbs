@@ -1,0 +1,11 @@
+%DEPENDS%
+glibc
+libgcc
+libgcc_s.so=1-64
+sqlite
+libsqlite3.so=0-64
+atuin
+
+%OPTDEPENDS%
+postgresql: server database
+
