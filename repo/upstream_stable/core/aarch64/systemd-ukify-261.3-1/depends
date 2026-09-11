@@ -1,0 +1,17 @@
+%DEPENDS%
+systemd=261.3
+binutils
+python-cryptography
+python
+python-pefile
+
+%CONFLICTS%
+mkinitcpio<38-1
+
+%PROVIDES%
+ukify
+
+%OPTDEPENDS%
+python-pillow: Show the size of splash image
+sbsigntools: Sign the embedded kernel
+
