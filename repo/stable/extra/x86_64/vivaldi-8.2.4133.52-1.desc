@@ -1,0 +1,81 @@
+%FILENAME%
+vivaldi-8.2.4133.52-1-x86_64.pkg.tar.zst
+
+%NAME%
+vivaldi
+
+%BASE%
+vivaldi
+
+%VERSION%
+8.2.4133.52-1
+
+%DESC%
+An advanced browser made with the power user in mind.
+
+%CSIZE%
+151658642
+
+%ISIZE%
+475689840
+
+%MD5SUM%
+497dc590e79d7245ded8a48508263e60
+
+%SHA256SUM%
+3aea5360130b209b517ed5ad4d126f4a094b8e1e5a5276ca4948126e7f55e242
+
+%PGPSIG%
+iHUEABYKAB0WIQRTHs82RKRP6gtH283h488FOUSL/wUCaqPGvQAKCRDh488FOUSL/7w0AQCpeoYOgYzNnVCF9IA7SJ2dyw1BslwsvJGNqYFUWdl/EQD/b5s0m6iGJ4Idgsl0bNjTrO/Gs5RKtVEMyI84FR0KJgY=
+
+%URL%
+https://vivaldi.com
+
+%LICENSE%
+custom
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1789117948
+
+%PACKAGER%
+Ike Devolder <ike.devolder@archlinux.org>
+
+%PROVIDES%
+vivaldi-stable
+
+%DEPENDS%
+alsa-lib
+at-spi2-core
+cairo
+libcups
+libxcomposite
+libxdamage
+libxkbcommon
+libxrandr
+libxss
+mesa
+nss
+pango
+ttf-font
+desktop-file-utils
+shared-mime-info
+hicolor-icon-theme
+
+%OPTDEPENDS%
+vivaldi-ffmpeg-codecs: playback of proprietary video/audio
+org.freedesktop.secrets: better secret storage in gnome-keyring or kwallet
+libnotify: native notifications
+pipewire: WebRTC desktop sharing under Wayland
+gtk3: gtk3 integration
+gtk4: for use with --gtk-version=4
+qt5-base: qt5 integration
+qt6-base: qt6 integration
+upower: Battery Status API support
+
+%MAKEDEPENDS%
+w3m
+imagemagick
+
