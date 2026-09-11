@@ -1,0 +1,85 @@
+%FILENAME%
+knot-resolver-6.4.2-1-x86_64.pkg.tar.zst
+
+%NAME%
+knot-resolver
+
+%BASE%
+knot-resolver
+
+%VERSION%
+6.4.2-1
+
+%DESC%
+Caching DNSSEC-validating DNS resolver
+
+%CSIZE%
+1039031
+
+%ISIZE%
+4286906
+
+%MD5SUM%
+3544efe7385145c32d3c5a4590d5ded4
+
+%SHA256SUM%
+69a6cbbb38f6760ec845ff028847bb7f99a8c404650c488be5272d081629e991
+
+%PGPSIG%
+iHUEABYKAB0WIQTrPXZP9dh+CBij4OXwXowSExrrXgUCap62HAAKCRDwXowSExrrXiKmAP4k3yOjraQ/q59mAPgK8IgMUQ6Y0vMUrjhQoMzkQAvVTwD9GIHJXf+fcQ43pVGLT4s9dAsExh1fbTCD5xn957zPQAI=
+
+%URL%
+https://www.knot-resolver.cz/
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1788785674
+
+%PACKAGER%
+Carl Smedstad <carsme@archlinux.org>
+
+%DEPENDS%
+dnssec-anchors
+fstrm
+glibc
+gnutls
+knot
+libcap-ng
+libgcc
+libnghttp2
+libngtcp2
+libstdc++
+libuv
+lmdb
+luajit
+protobuf-c
+python
+python-aiohttp
+python-jinja
+python-yaml
+supervisor
+systemd-libs
+
+%OPTDEPENDS%
+lua51-basexx: experimental_dot_auth module
+lua51-cqueues: http and dns64 module, policy.rpz() function
+lua51-http: http and prefill modules, trust_anchors bootstrap
+lua51-psl: policy.slice_randomize_psl() function
+python-prometheus_client: stats and metrics in Prometheus format
+python-watchdog: files monitoring and reload on changes
+
+%MAKEDEPENDS%
+cmocka
+git
+meson
+python-build
+python-installer
+python-poetry-core
+python-setuptools
+python-wheel
+

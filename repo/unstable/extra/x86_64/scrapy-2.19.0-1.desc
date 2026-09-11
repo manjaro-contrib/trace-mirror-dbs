@@ -1,0 +1,107 @@
+%FILENAME%
+scrapy-2.19.0-1-any.pkg.tar.zst
+
+%NAME%
+scrapy
+
+%BASE%
+scrapy
+
+%VERSION%
+2.19.0-1
+
+%DESC%
+A fast high-level scraping and web crawling framework
+
+%CSIZE%
+755262
+
+%ISIZE%
+4801930
+
+%MD5SUM%
+6791b6980c3dd7e0d9679f01491c63d2
+
+%SHA256SUM%
+4adc1636df5a7dfc414ae7d84ee572317ea94bc2cbf7fbf28d8d81b746f1ace0
+
+%PGPSIG%
+iQIzBAABCgAdFiEEtZcfLFwQqaCMYAMPeGxj8zDXy5IFAmqizScACgkQeGxj8zDXy5IPNRAAjlPf0A8NkNBhXp27rYLPzbf0oPgo0Bv5ssGCKAKtDdfv8qvEnQPF1LE9F1BTgOUGTCH1GcwkCvX6TzJw30RK7Ua+U3iheBqt7PFT/r+3/I4+TMOblpUyQYl9Sw3k9IY4aSRU0TnlcjvjDqqq14+n+waCod2/KeD8siM9YUoVyrPAXLyDBPEWrqoagvkaS07zII6aOo4zQSPs6MHewPk01GMD44TogEPXY5Hfn3Y1HeuQvo79fS0QdHogMucjabNyb8fjRsPROvHTqBwOlbixWBEl00quWK+H4q/oTCgZ71qggTJ326g1bfixxMM+Vw4tRPbENUW3ybxb9MBzHCza18CSF06n8AedGrFpWRVNvIkq3lC9bOS5jBV5JFl0cXCOW5OjZoA4fD9PEweTIJaigD+IraUC8iMPlNjenjmxlyZ2m71qt9NxZHCy358lRsPQ0XQVmIcz2U1OYgnC0bHHvslxv1GBFRaPTspoTcuejcR8VkninyzFJ/sreeOItCicJ8eDjdST8b+eCsVr+mkSU0UhU22OQ09zXfaSaQEs2Yax2LYEkWl3xj3sjkfqaAaf3cx5f8fWBFv0DbUGlB7tnrRXZO0OMjCxCA/sO8plwjS5x1bgoPwRcOA/u5TbgsYaZFdu6BPkza7te/+umGL7KjSP0orvegnyngOui3bwo6I=
+
+%URL%
+https://scrapy.org
+
+%LICENSE%
+BSD-3-Clause
+
+%ARCH%
+any
+
+%BUILDDATE%
+1789050948
+
+%PACKAGER%
+Felix Yan <felixonmars@archlinux.org>
+
+%DEPENDS%
+python
+python-aiohttp
+python-brotli
+python-charset-normalizer
+python-cryptography
+python-cssselect
+python-defusedxml
+python-itemadapter
+python-itemloaders
+python-lxml
+python-packaging
+python-parsel
+python-platformdirs
+python-protego
+python-pydispatcher
+python-pyopenssl
+python-queuelib
+python-service-identity
+python-setuptools
+python-tldextract
+python-twisted
+python-w3lib
+python-zope-interface
+
+%OPTDEPENDS%
+bpython: for ncurses support in cmdline
+ipython: for enhanced support of the interactive scraping shell
+python-anyio: for HTTPX download handler asyncio support
+python-botocore: for various utils
+python-colorlog: for colored logging
+python-h2: for HTTP2 support
+python-hpack: for HTTP2 streaming support
+python-httpx2: for HTTPX download handler support
+
+%MAKEDEPENDS%
+git
+python-build
+python-hatchling
+python-installer
+python-wheel
+
+%CHECKDEPENDS%
+bpython
+ipython
+mitmproxy
+python-anyio
+python-attrs
+python-botocore
+python-colorlog
+python-h2
+python-httpx2
+python-markupsafe
+python-psutil
+python-pyftpdlib
+python-pytest
+python-pytest-rerunfailures
+python-pytest-timeout
+python-pytest-twisted
+python-sybil
+python-uvloop
+
