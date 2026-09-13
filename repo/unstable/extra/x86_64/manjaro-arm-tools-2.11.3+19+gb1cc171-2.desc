@@ -1,0 +1,62 @@
+%FILENAME%
+manjaro-arm-tools-2.11.3+19+gb1cc171-2-any.pkg.tar.zst
+
+%NAME%
+manjaro-arm-tools
+
+%BASE%
+manjaro-arm-tools
+
+%VERSION%
+2.11.3+19+gb1cc171-2
+
+%DESC%
+Scripts for building Manjaro-ARM packages and images
+
+%CSIZE%
+64496
+
+%ISIZE%
+138519
+
+%MD5SUM%
+f090b1cef1597896175c38f86da082aa
+
+%SHA256SUM%
+4cf8faf05d78e33bdd6a5af121fd451392886d9307039d4fc7231f49d7d10c70
+
+%PGPSIG%
+iQEzBAABCgAdFiEEaI6PgoedDiXOVBQmFQwgB0PtRtgFAmqmrpwACgkQFQwgB0PtRtjglwgAq1OON8y+GjxIG2ZV0y0KymCgiI02H2vmnuS91uUNAbHMjcAee7p3Lqwb0zdb0JSNbpUMdy8q+2KM44H9SbGavzKtv2UYENWBOY99biUSVZwDZ+/yLN9d3n03tSysYw9A1CR1irNLFoOMS5CFeRc6OyqkliECB+lUNZV9yf/13LKS0HqZ0LjeZ3Mi3yp73i47vPDR3dgW9rvgCusHaZdCiotbpPaXMAKcchZTvxR7KW2It95LINbxGvW0Qu4dnU+qs948xb4OyiXKrcJXPUxe0Eahka5cabRcXVyVj2rq3VSuCYNlXC8FQ9xD2LI1Qbiq6XU9LZR6MpQJNuxQfI4Lfw==
+
+%URL%
+https://code.manjaro.org/applications/manjaro-arm-tools
+
+%LICENSE%
+GPL-3.0-or-later
+
+%ARCH%
+any
+
+%BUILDDATE%
+1789308379
+
+%PACKAGER%
+Mark Wagie <mark@manjaro.org>
+
+%DEPENDS%
+btrfs-progs
+dosfstools
+git
+gnupg
+parted
+polkit
+wget
+zstd
+
+%OPTDEPENDS%
+bmap-tools: for bmap support in buildarmimg
+docker: for builddockerimg
+mktorrent: for torrent support in deployarmimg
+qemu-user-static-binfmt: Needed on x86_64
+rsync: for deployarmimg
+
