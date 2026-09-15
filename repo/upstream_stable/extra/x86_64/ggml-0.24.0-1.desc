@@ -1,0 +1,83 @@
+%FILENAME%
+ggml-0.24.0-1-x86_64.pkg.tar.zst
+
+%NAME%
+ggml
+
+%BASE%
+ggml
+
+%VERSION%
+0.24.0-1
+
+%DESC%
+Tensor library for machine learning
+
+%CSIZE%
+2056045
+
+%ISIZE%
+16879978
+
+%SHA256SUM%
+606a0dec2e13627f37886f142319912cd44d67350e60d74db094df3386583639
+
+%PGPSIG%
+iQIzBAABCgAdFiEElSIL6Zzm/3eK4NxnD2XH2IFQYTAFAmqpaI0ACgkQD2XH2IFQYTBDVBAAtLXNBiGkj5Af+vC6ROA/2HaZcFDpmFjeL9eK04veeGBluEQ86x9DbYpFS0mEBmM8zfMvAjZVSPxZ0Q0L4990rHB/823hnfsopDWOZwlqnmdOAFLr3Dw5gOQDjF6JZyImwUCW32pW98rlXzMbGeNrbDQxw7XmD0Vnhks7X7VffYSZ5HGPMtmpF8DqRBFwnq2IqGeVtNXH9jxMaPtpnXzWDT2I5IymiuA0uaFpySFbppuhJh+XWAswOyOZiiRylP4dtcyi9uTkealffs4LVwh+jP9hQRXoMQRleN1/+ibb7Qtfyp6JjOZJDZMPgyuqwyWFNF46i7/WekwUZ8YFsMXfOzf+z9jErLUNT6WiWBQdv7E0ul/rI/BVtYpzOoEOJFxJs0FXyf46idfhutlf9529UZTJIFNAhlEGbTFX2ELUVWxl7FuE8LNh/FAXiV9Jwl4T+ylPnfViMHxFV7MZNiwk6HJFgwUyVTnIWXqNuGmmF7tIaX/bRYDV16jeTqYAHYKBEDm2vZW6atyBhxBF2f53iY6MIHKQzAqjg1Yb4I02J3gGlTOmcaT5E49NmVRq/KU8JRmbbsx+TLQ6wRDG9/2OMSPnx0sgXzkLFwg9KVLDb6qOlL+1ui0OF0ATWwR243AAZXateedWERBeGlt/bvPnLQZaQ9nIu4DH7wn2+V1ZPec=
+
+%URL%
+https://github.com/ggerganov/ggml
+
+%LICENSE%
+MIT
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1789485440
+
+%PACKAGER%
+Maxime Gauduin <alucryd@archlinux.org>
+
+%CONFLICTS%
+ggml
+ggml-cpu
+
+%PROVIDES%
+ggml
+ggml-cpu
+
+%DEPENDS%
+glibc
+libgcc
+libstdc++
+libgomp
+
+%OPTDEPENDS%
+ggml-blas: BLAS backend
+ggml-vulkan: Vulkan backend
+ggml-cuda: CUDA backend
+ggml-hip: HIP backend
+ggml-openvino: Openvino backend
+
+%MAKEDEPENDS%
+chrpath
+cmake
+git
+ninja
+openblas
+procps-ng
+shaderc
+spirv-headers
+vulkan-headers
+vulkan-icd-loader
+cuda
+intel-oneapi-toolkit
+level-zero-headers
+nccl
+opencl-clhpp
+openvino
+rocm-hip-sdk
+rocm-toolchain
+
